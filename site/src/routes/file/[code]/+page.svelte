@@ -5,8 +5,12 @@
   let { data } = $props();
   const file = data.file;
 
-  const versions = file.versions.filter(v => v.extracted);
-  let selectedId = $state(versions.at(-1)?.version_id || file.versions.at(-1)?.version_id || '');
+  // Default to the version the catalogue card represents — the newest/ richest
+  // one that has fields — rather than the last in the (chronological) list.
+  const withFields = file.versions.filter(v => v.fields_file);
+  const pdfWf = withFields.filter(v => v.file_type !== 'xls');
+  const defaultV = pdfWf.at(-1) || withFields.at(-1) || file.versions.at(-1);
+  let selectedId = $state(defaultV?.version_id || '');
   $effect(() => {
     const v = page.url.searchParams.get('v');
     if (v && file.versions.some(x => x.version_id === v)) {
@@ -15,12 +19,28 @@
   });
 
   const selected = $derived(file.versions.find(v => v.version_id === selectedId));
-  const ext = $derived(selected?.extracted || null);
+  const meta = $derived(selected?.meta || null);
+
+  // Lazy-load each version's field table on demand (keeps the initial page light).
+  let fieldsCache = $state({});
+  let loadingFields = $state(false);
+  $effect(() => {
+    const v = selected;
+    if (!v || !v.fields_file || fieldsCache[v.version_id]) return;
+    loadingFields = true;
+    fetch(`${base}/data/fields/${v.fields_file}`)
+      .then(r => r.ok ? r.json() : { fields: [], codebooks: {} })
+      .then(d => { fieldsCache = { ...fieldsCache, [v.version_id]: d }; })
+      .catch(() => { fieldsCache = { ...fieldsCache, [v.version_id]: { fields: [], codebooks: {} } }; })
+      .finally(() => { loadingFields = false; });
+  });
+  const fieldData = $derived(selected ? fieldsCache[selected.version_id] : null);
+  const fields = $derived(fieldData?.fields || []);
+  const codebooks = $derived(fieldData?.codebooks || {});
 
   let q = $state('');
   let typeFilter = $state('');
 
-  const fields = $derived(ext?.fields || []);
   const filtered = $derived.by(() => {
     const term = q.trim().toLowerCase();
     return fields.filter(f => {
@@ -48,7 +68,7 @@
     <div class="flex items-center gap-3 flex-wrap">
       <span class="mono text-2xl font-extrabold text-brand-700">{file.code}</span>
       <span class="pill pill-{file.category}">{file.category}</span>
-      {#if ext?.code_short}<span class="mono text-xs text-slate-500">{ext.code_short}</span>{/if}
+      {#if meta?.code_short}<span class="mono text-xs text-slate-500">{meta.code_short}</span>{/if}
     </div>
     <h1 class="text-3xl font-extrabold text-slate-900 leading-tight">{file.name_zh}</h1>
     {#if file.name_en}<p class="text-slate-500 text-sm">{file.name_en}</p>{/if}
@@ -63,11 +83,11 @@
           class="text-xs px-3 py-1.5 rounded-lg border font-semibold transition
             {v.version_id === selectedId
               ? 'bg-brand-600 text-white border-brand-600'
-              : v.extracted ? 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'
+              : v.has_extract ? 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'
                             : 'bg-slate-50 text-slate-400 border-slate-200 cursor-not-allowed'}"
-          disabled={!v.extracted}
+          disabled={!v.has_extract}
           onclick={() => selectedId = v.version_id}
-        >{v.version_id}{!v.extracted ? ' (zip)' : ''}</button>
+        >{v.version_id}{!v.has_extract ? ' (zip)' : ''}</button>
       {/each}
       {#if file.diffs?.length}
         <a class="ml-auto text-sm font-semibold text-brand-700 hover:underline"
@@ -76,7 +96,7 @@
     </div>
   </section>
 
-  {#if !ext}
+  {#if !meta}
     <div class="rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm text-amber-900">
       No extracted JSON for this version — likely a ZIP bundle of multiple per-wave codebooks.
       {#if selected?.pdf_url}
@@ -89,22 +109,22 @@
     <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Fields</div>
-        <div class="text-xl font-extrabold text-brand-700">{ext.field_count_declared ?? fields.length}</div>
-        {#if ext.field_count_declared && ext.field_count_declared !== fields.length}
-          <div class="text-[10px] text-amber-700">parsed {fields.length}</div>
+        <div class="text-xl font-extrabold text-brand-700">{meta.field_count_declared ?? selected.field_count ?? '—'}</div>
+        {#if meta.field_count_declared && selected.field_count && meta.field_count_declared !== selected.field_count}
+          <div class="text-[10px] text-amber-700">parsed {selected.field_count}</div>
         {/if}
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Frequency</div>
-        <div class="text-base font-bold text-slate-900">{ext.frequency || '—'}</div>
+        <div class="text-base font-bold text-slate-900">{meta.frequency || '—'}</div>
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Attribute</div>
-        <div class="text-base font-bold text-slate-900">{ext.attribute || '—'}</div>
+        <div class="text-base font-bold text-slate-900">{meta.attribute || '—'}</div>
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3 col-span-2">
         <div class="text-xs uppercase tracking-wide text-slate-500">Records</div>
-        <div class="text-sm text-slate-800">{ext.record_count_raw || '—'}</div>
+        <div class="text-sm text-slate-800">{meta.record_count_raw || '—'}</div>
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Last updated</div>
@@ -114,38 +134,38 @@
 
     <!-- Descriptive blocks (bilingual where translation available) -->
     <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm space-y-4">
-      {#if ext.data_description_zh}
+      {#if meta.data_description_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Data description</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.data_description_zh}</p>
-          {#if ext.data_description_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.data_description_en}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.data_description_zh}</p>
+          {#if meta.data_description_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_en}</p>
           {/if}
         </div>
       {/if}
-      {#if ext.notes_zh}
+      {#if meta.notes_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Notes</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.notes_zh}</p>
-          {#if ext.notes_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.notes_en}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.notes_zh}</p>
+          {#if meta.notes_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_en}</p>
           {/if}
         </div>
       {/if}
-      {#if ext.primary_keys_raw}
+      {#if meta.primary_keys_raw}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Primary keys / linkage</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.primary_keys_raw}</p>
-          {#if ext.primary_keys_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.primary_keys_en}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.primary_keys_raw}</p>
+          {#if meta.primary_keys_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_en}</p>
           {/if}
         </div>
       {/if}
-      {#if ext.update_history?.length}
+      {#if meta.update_history?.length}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Codebook history</div>
           <ul class="flex flex-wrap gap-x-3 gap-y-1 text-xs mono text-slate-600">
-            {#each ext.update_history as h}<li>{h.date} {h.note}</li>{/each}
+            {#each meta.update_history as h}<li>{h.date} {h.note}</li>{/each}
           </ul>
         </div>
       {/if}
@@ -175,10 +195,15 @@
           </select>
         </div>
         <div class="ml-auto text-xs text-slate-500 self-end pb-2">
-          Showing {filtered.length} / {fields.length}
+          {#if loadingFields && !fieldData}Loading…{:else}Showing {filtered.length} / {fields.length}{/if}
         </div>
       </div>
 
+      {#if loadingFields && !fieldData}
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-10 text-center text-sm text-slate-400">
+          Loading {selected.field_count?.toLocaleString?.() || ''} fields…
+        </div>
+      {:else}
       <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div class="overflow-x-auto max-h-[70vh] overflow-y-auto">
           <table class="tbl w-full text-left">
@@ -227,9 +252,9 @@
                     {/if}
                   </td>
                   <td class="text-xs text-slate-600 max-w-xs whitespace-pre-line">
-                    {#if ext.codebooks?.[f.name_en]}
+                    {#if codebooks?.[f.name_en]}
                       <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">
-                        {ext.codebooks[f.name_en].entries?.length || 0} codes
+                        {codebooks[f.name_en].entries?.length || 0} codes
                       </span>
                     {/if}
                     {#if f.value_labels}
@@ -250,6 +275,7 @@
           </table>
         </div>
       </div>
+      {/if}
     </section>
   {/if}
 </div>

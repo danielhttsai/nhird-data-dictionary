@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-30T10:01:17Z",
+  "generated_at": "2026-06-30T10:06:39Z",
   "pdf_files_this_run": 15,
   "zip_files": 1,
-  "ok": 15,
-  "failed": 0,
+  "ok": 14,
+  "failed": 1,
   "skipped_existing": 0,
   "entries": [
     {
@@ -41,7 +41,7 @@
       "version_id": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-過錄編碼簿",
       "type": "ok",
       "field_count_declared": null,
-      "fields_parsed": 21,
+      "fields_parsed": 267,
       "codebooks_parsed": 0,
       "warnings": [],
       "errors": []
@@ -75,7 +75,7 @@
       "version_id": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-過錄編碼簿",
       "type": "ok",
       "field_count_declared": null,
-      "fields_parsed": 22,
+      "fields_parsed": 314,
       "codebooks_parsed": 0,
       "warnings": [],
       "errors": []
@@ -109,7 +109,7 @@
       "version_id": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-過錄編碼簿",
       "type": "ok",
       "field_count_declared": null,
-      "fields_parsed": 7,
+      "fields_parsed": 389,
       "codebooks_parsed": 0,
       "warnings": [],
       "errors": []
@@ -165,14 +165,8 @@
     {
       "code": "Health49",
       "version_id": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-次數分配表",
-      "type": "warn",
-      "field_count_declared": null,
-      "fields_parsed": 0,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "no fields parsed"
-      ],
-      "errors": []
+      "type": "timeout",
+      "note": "exceeded 120s"
     },
     {
       "code": "Health49",

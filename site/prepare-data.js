@@ -11,6 +11,13 @@ const OUT = path.join(import.meta.dirname, 'static', 'data');
 
 fs.mkdirSync(OUT, { recursive: true });
 fs.mkdirSync(path.join(OUT, 'file'), { recursive: true });
+fs.mkdirSync(path.join(OUT, 'fields'), { recursive: true });
+
+// Mirror scripts/extract_all.py _safe(): make a filename-safe slug from a
+// version_id (Unicode word chars + dash kept, everything else → "_", cap 80).
+function safeName(name) {
+  return String(name).replace(/[^\p{L}\p{N}_-]/gu, '_').slice(0, 80);
+}
 
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
 const qa = fs.existsSync(QA) ? JSON.parse(fs.readFileSync(QA, 'utf8')) : { entries: [] };
@@ -121,21 +128,40 @@ for (const [code, versions] of byCode) {
   };
   catalogue.push(item);
 
-  // Per-code full payload — strip heavy fields that aren't surfaced in the UI
-  const stripExtracted = (ex) => {
+  // Split the per-code payload so the file page loads fast:
+  //   data/file/<code>.json        — slim: metadata + version list (NO field arrays)
+  //   data/fields/<code>__<vid>.json — one per version: { fields, codebooks }
+  // Fields are fetched lazily by the file page when a version is selected.
+  const metaOf = (ex) => {
     if (!ex) return null;
-    const { raw_text_first_page, ...rest } = ex;
-    return rest;
+    const { raw_text_first_page, fields, codebooks, ...meta } = ex;
+    return meta;
   };
+  const slimVersions = sorted.map(v => {
+    const ex = extracted[v.version_id];
+    let fields_file = null;
+    if (ex) {
+      const fname = `${code}__${safeName(v.version_id)}.json`;
+      fs.writeFileSync(
+        path.join(OUT, 'fields', fname),
+        JSON.stringify({ fields: ex.fields || [], codebooks: ex.codebooks || {} }, null, 0)
+      );
+      fields_file = fname;
+    }
+    return {
+      ...v,
+      meta: metaOf(ex),
+      fields_file,
+      field_count: ex?.fields?.length ?? null,
+      supplementary: !!ex && (ex.fields?.length || 0) === 0
+    };
+  });
   const filePayload = {
     code,
     category,
     name_zh: item.name_zh,
     name_en: item.name_en,
-    versions: sorted.map(v => ({
-      ...v,
-      extracted: stripExtracted(extracted[v.version_id])
-    })),
+    versions: slimVersions,
     diffs
   };
   fs.writeFileSync(
@@ -143,23 +169,22 @@ for (const [code, versions] of byCode) {
     JSON.stringify(filePayload, null, 0)
   );
 
-  // Per-field entries for the search index
+  // Per-field entries for the search index (names only + short description —
+  // keeps search-fields.json small enough to load on the /search page).
   for (const v of sorted) {
     const ex = extracted[v.version_id];
     if (!ex) continue;
     for (const f of ex.fields || []) {
       allFields.push({
-        id: `${code}|${v.version_id}|${f.name_en || f.seq}`,
-        code,
-        version_id: v.version_id,
-        seq: f.seq,
-        name_zh: f.name_zh || '',
-        name_zh_en: f.name_zh_en || '',
-        name_en: f.name_en || '',
-        type: f.type || '',
-        length: f.length ?? '',
-        description_zh: (f.description_zh || '').slice(0, 200),
-        description_en: (f.description_en || '').slice(0, 200)
+        c: code,
+        v: v.version_id,
+        s: f.seq,
+        zh: (f.name_zh || '').slice(0, 70),
+        ze: (f.name_zh_en || '').slice(0, 70),
+        en: f.name_en || '',
+        // Survey (xls) fields already carry their question text in name_zh,
+        // so skip the description there to keep the global index lean.
+        d: v.file_type === 'xls' ? '' : (f.description_zh || '').slice(0, 70)
       });
     }
   }
@@ -187,7 +212,7 @@ const codebookIndex = new Map();
 for (const item of catalogue) {
   for (const v of item.versions) {
     if (!v.has_extract) continue;
-    const codePath = path.join(EXTRACTED, item.code, `${v.version_id}.json`);
+    const codePath = path.join(EXTRACTED, item.code, `${safeName(v.version_id)}.json`);
     if (!fs.existsSync(codePath)) continue;
     const ex = JSON.parse(fs.readFileSync(codePath, 'utf8'));
     for (const [cbName, cb] of Object.entries(ex.codebooks || {})) {
