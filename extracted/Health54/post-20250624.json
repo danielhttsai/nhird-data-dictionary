@@ -31,7 +31,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "new medical institution code",
       "description_en": ""
     },
     {
@@ -42,7 +42,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -64,7 +64,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "old_medical_institution_code",
       "description_en": ""
     },
     {
@@ -75,7 +75,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "current communication area administrative level",
       "description_en": ""
     },
     {
@@ -86,7 +86,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "former healthcare provider ownership",
       "description_en": ""
     },
     {
@@ -108,8 +108,8 @@
       "length": 1,
       "description_zh": "1：是；2：否",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Deleted (validity)",
+      "description_en": "1: yes; 2: no"
     },
     {
       "seq": 9,
@@ -119,7 +119,7 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "has uterus been removed",
       "description_en": ""
     },
     {
@@ -152,7 +152,7 @@
       "length": 3,
       "description_zh": "民國年 (999:不詳)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "year of vaccination",
       "description_en": ""
     },
     {
@@ -163,7 +163,7 @@
       "length": 10,
       "description_zh": "西元年YYYY-MM-DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection date",
       "description_en": ""
     },
     {
@@ -174,7 +174,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection institution",
       "description_en": ""
     },
     {
@@ -185,7 +185,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sampling institution area",
       "description_en": ""
     },
     {
@@ -229,8 +229,8 @@
       "length": 10,
       "description_zh": "有大小寫之分",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "cytology specimen number",
+      "description_en": "distinguishing between uppercase and lowercase"
     },
     {
       "seq": 20,
@@ -240,7 +240,7 @@
       "length": 10,
       "description_zh": "西元年YYYY-MM-DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "smear received date",
       "description_en": ""
     },
     {
@@ -262,7 +262,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution region for adjudication",
       "description_en": ""
     },
     {
@@ -273,7 +273,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reading institution ownership type",
       "description_en": ""
     },
     {
@@ -356,7 +356,7 @@
       "length": 2,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "cytology diagnosis",
       "description_en": "detailed translation explanation"
     },
     {
@@ -383,12 +383,12 @@
         {
           "code": "1",
           "label_zh": "戶政註記死亡",
-          "label_en": ""
+          "label_en": "civic registration death note"
         },
         {
           "code": "2",
           "label_zh": "手動註記死亡",
-          "label_en": ""
+          "label_en": "manually noted death"
         },
         {
           "code": "3",
@@ -414,7 +414,7 @@
         {
           "code": "3",
           "label_zh": "國(初)中、初職",
-          "label_en": ""
+          "label_en": "junior high school, junior vocational"
         },
         {
           "code": "4",
@@ -463,7 +463,7 @@
           "label_en": "screening at station"
         }
       ],
-      "field_en": ""
+      "field_en": "Cervical screening van or station"
     },
     "PAY_TYPE": {
       "field_zh": "支付方式",
@@ -491,7 +491,7 @@
         {
           "code": "5",
           "label_zh": "難以判讀重做",
-          "label_en": ""
+          "label_en": "unclear to retake"
         },
         {
           "code": "6",
@@ -594,7 +594,7 @@
         {
           "code": "4",
           "label_zh": "前次抹片難以判讀",
-          "label_en": ""
+          "label_en": "previous smear difficult to interpret"
         },
         {
           "code": "5",
@@ -667,7 +667,7 @@
         {
           "code": "3",
           "label_zh": "抹片難以判讀",
-          "label_en": ""
+          "label_en": "difficult to read smear"
         }
       ],
       "field_en": "smear quality"
@@ -792,7 +792,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "cytology diagnosis"
     },
     "TYPE": {
       "field_zh": "醫療機構型態別",
@@ -810,12 +810,12 @@
         {
           "code": "3",
           "label_zh": "衛生所 23",
-          "label_en": ""
+          "label_en": "health center 23"
         },
         {
           "code": "4",
           "label_zh": "助產所 71~78",
-          "label_en": ""
+          "label_en": "obstetric clinic 71~78"
         },
         {
           "code": "5",
@@ -828,7 +828,7 @@
           "label_en": "health bureau"
         }
       ],
-      "field_en": ""
+      "field_en": "type of medical facility"
     }
   },
   "raw_text_first_page": "2025年07月22日修訂\n癌症篩檢—子宮頸抹片篩檢檔\n(Health-54：H_BHP_PST)\n資料庫使用手冊\n一、 檔案內容說明\nH_BHP_PST_MASTER：2,186,931\n筆\n檔案代號 H_BHP_PST 資料筆數\nH_BHP_PST_SMEAR：2,282,598 筆\nH_BHP_PST_UNIT：62,465筆\n1. 子宮頸抹片篩檢-個案基本資料檔\n(H_BHP_PST_MASTER)\n2. 子宮頸抹片篩檢-抹片資料檔\n中文檔名 英文檔名 Pap Smear Test\n(H_BHP_PST_SMEAR)\n3. 子宮頸抹片篩檢-機構代碼檔\n(H_BHP_PST_UNIT)\n1. H_BHP_PST_MASTER：140 MB 1. H_BHP_PST_MASTER：5\n檔案大小 2. H_BHP_PST_SMEAR：407 MB 欄位數 2. H_BHP_PST_SMEAR：31\n3. H_BHP_PST_UNIT：4 MB 3. H_BHP_PST_UNIT：8\n譯碼簿 2025/06/24初版\n屬性 歷史資料檔 週期 無\n更新日期 2025/07/22 更新\n資料描述 1. 國民健康署自民國 99 年起擴大辦理 4 項癌症（大腸癌、口腔癌、乳癌及子\n宮頸癌）篩檢服務，透過全民健保預防保健服務特約醫事服務機構全面提供\n大腸癌、乳癌、子宮頸癌與口腔癌篩檢，並將大腸癌、口腔癌篩檢納入預防\n保健服務項目，及擴大乳癌篩檢對象至 40 歲以上至未滿 45 歲二等親乳癌高\n危險群（即其母親、女兒、姊妹、祖母或外祖母曾患有乳癌）之婦女。\n2. 政府補助 30 歲以上婦女一年一次免費子宮頸抹片檢查，並建議每 3 年至少\n接受 1 次子宮頸抹片檢查。高危險族群包含有性經驗的婦女，尤其是早婚、\n生育子女多、性伴侶較多的婦女，更需定期追蹤。\n3. 個案基本資料檔(MASTER)：個案基本資料。\n抹片檔(SMEAR): 一次抹片檢查一筆資料，同 ID 有多筆資料。\n4. 資料年度包含 2004 年至 2024 年。\n注意事項 1. 個案基本資料檔(H_BHP_PST_MASTER)及抹片資料檔(H_BHP_PST_SMEAR)中，ID\n有空白及重複的情形，比對時須注意。\n2. 抹片檔中可能的感染(INFECTION)的欄位為複選題，擷取分析時需注意。\n1",

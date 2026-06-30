@@ -31,7 +31,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -65,7 +65,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 5,
@@ -164,7 +164,7 @@
       "length": 36,
       "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 若醫令為精神科治療費、復健治療費、 治療處置費、血液透析費等項目此欄 為必要欄位。 詳藥品使用頻率(DRUG_FRE) 譯碼",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug usage frequency",
       "description_en": ""
     },
     {
@@ -198,7 +198,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "consulting department/therapy site",
       "description_en": ""
     },
     {
@@ -265,7 +265,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Tw-DRGs calculation",
       "description_en": ""
     },
     {
@@ -276,7 +276,7 @@
       "length": 28,
       "description_zh": "醫令代碼為 G00000、903 者此欄為必 要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，經加密處 理）/ 案件分類(第 14-15 碼，若為１ 碼者左靠補「-」/流水號（第 16-21碼）。 註:若申報日期有申請解密此欄位也可 申請解密",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pre-billing record",
       "description_en": ""
     },
     {
@@ -298,7 +298,7 @@
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼， 詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     }
   ],
@@ -344,7 +344,7 @@
         {
           "code": "A2",
           "label_zh": "論病例計酬案件",
-          "label_en": ""
+          "label_en": "case payment cases"
         },
         {
           "code": "A3",
@@ -1026,7 +1026,7 @@
         {
           "code": "QDAM",
           "label_zh": "每日一次上午使用",
-          "label_en": ""
+          "label_en": "used once daily in the morning"
         },
         {
           "code": "QDPM",
@@ -1036,12 +1036,12 @@
         {
           "code": "QDHS",
           "label_zh": "每日一次睡前使用",
-          "label_en": ""
+          "label_en": "used once daily before bedtime"
         },
         {
           "code": "QN",
           "label_zh": "每晚使用一次",
-          "label_en": ""
+          "label_en": "once a night"
         },
         {
           "code": "BID",
@@ -1074,7 +1074,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "drug usage frequency"
     },
     "DRUG_PATH": {
       "field_zh": "給藥途徑/作用部位",
@@ -1127,7 +1127,7 @@
         {
           "code": "IE",
           "label_zh": "脊髓硬膜內治射",
-          "label_en": ""
+          "label_en": "spinal_cord_dura_mater_injection"
         },
         {
           "code": "IM",
@@ -1182,7 +1182,7 @@
         {
           "code": "IVD",
           "label_zh": "靜脈點滴滴入",
-          "label_en": ""
+          "label_en": "intravenous drip administration"
         },
         {
           "code": "IVI",

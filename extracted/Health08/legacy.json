@@ -42,7 +42,7 @@
       "length": 2,
       "description_zh": "詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "catastrophic illness category",
       "description_en": ""
     },
     {
@@ -97,8 +97,8 @@
       "length": 3,
       "description_zh": "YYY(民國年)。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "procedure number_",
+      "description_en": "YYY(民國)"
     },
     {
       "seq": 8,
@@ -108,7 +108,7 @@
       "length": 1,
       "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區 分局 5：高屏分局 6：東區分局",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "procedure number_分局",
       "description_en": ""
     },
     {
@@ -119,8 +119,8 @@
       "length": 7,
       "description_zh": "受理編號之流水號。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "insured number_watermark",
+      "description_en": "Subject ID."
     },
     {
       "seq": 10,
@@ -137,7 +137,7 @@
         }
       ],
       "name_zh_en": "effective date",
-      "description_en": ""
+      "description_en": "100 year addition"
     },
     {
       "seq": 11,
@@ -197,7 +197,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -230,7 +230,7 @@
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別（HOS）譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     },
     {
@@ -241,7 +241,7 @@
       "length": 9,
       "description_zh": "1. 經加密處理，為辨別醫療機構 的鍵值。 2. 200萬人抽樣檔長度為6",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -252,7 +252,7 @@
       "length": 12,
       "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留 證號。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician ID number",
       "description_en": ""
     },
     {
@@ -382,5 +382,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "Taiwan NHI Catastrophic Illness File"
 }

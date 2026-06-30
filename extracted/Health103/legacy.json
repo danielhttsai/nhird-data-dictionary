@@ -123,7 +123,7 @@
       "description_zh": "依據 INDEX_AGE 以 10 歲為一 單位分層(未超過30歲者除外)， 分為： 1:滿18歲未超過30歲 2:滿30歲未超過40歲 3:滿40歲未超過50歲 4:滿50歲未超過60歲 5:滿60歲未超過70歲 6:滿70歲未超過80歲 7:滿80歲未超過90歲",
       "source": "本檔 自訂",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "age group at diagnosis",
       "description_en": ""
     },
     {
@@ -168,7 +168,7 @@
       "length": 1,
       "description_zh": "住院期間同時有經皮冠狀動脈 擴張術及支架特材相關支付代 碼。0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "coronary artery stent placement",
       "description_en": ""
     },
     {
@@ -190,7 +190,7 @@
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "cardiac ultrasound examination",
       "description_en": ""
     },
     {
@@ -223,7 +223,7 @@
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "coronary artery bypass surgery",
       "description_en": ""
     },
     {
@@ -245,7 +245,7 @@
       "length": 1,
       "description_zh": "入院前半年內是否有相關支付 代碼。0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient record prior to six months",
       "description_en": ""
     },
     {
@@ -289,7 +289,7 @@
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼； 0：無，1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ICU bed",
       "description_en": ""
     },
     {
@@ -300,7 +300,7 @@
       "length": 8,
       "description_zh": "以加護病房(床)相關支付代碼對 應之「醫令數量」計算加總，定 義加護病房(床)利用天數。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "intensive care unit (ICU) days",
       "description_en": ""
     },
     {
@@ -392,5 +392,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "primary record of cardiovascular diseases"
 }

@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則，1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -50,7 +50,7 @@
       "description_zh": "1：男性，2：女性",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male 2: female"
     },
     {
       "seq": 4,
@@ -121,7 +121,7 @@
       "length": 4,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Place_of_Death_Code",
       "description_en": "detailed translation explanation"
     },
     {
@@ -204,7 +204,7 @@
       "length": 5,
       "description_zh": "死因以 ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "multiple causes of death 1-20",
       "description_en": ""
     },
     {
@@ -215,7 +215,7 @@
       "length": 3,
       "description_zh": "000 Ｏ歲、001 一歲、002 二歲、…: 099 九十九歲、100 百歲、….999 不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Ordinary age (full years)",
       "description_en": ""
     }
   ],
@@ -238,5 +238,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "multiple cause of death statistics file"
 }

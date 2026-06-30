@@ -60,7 +60,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 4,
@@ -109,7 +109,7 @@
       "length": 12,
       "description_zh": "參考中央健保局網頁公告之全民 健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支 付標準碼或特殊材料碼。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug (item) code",
       "description_en": ""
     },
     {
@@ -202,7 +202,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -214,7 +214,7 @@
       "description_zh": "醫療機構所在鄉鎮",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "medical institution township"
     },
     {
       "seq": 15,
@@ -224,7 +224,7 @@
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     },
     {
@@ -341,7 +341,7 @@
       "length": 8,
       "description_zh": "給藥日份之最高之天數。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "prescribed drug days by medical order",
       "description_en": ""
     }
   ],
@@ -352,7 +352,7 @@
         {
           "code": "01",
           "label_zh": "西醫一般案件",
-          "label_en": ""
+          "label_en": "general western medicine case"
         },
         {
           "code": "02",
@@ -362,7 +362,7 @@
         {
           "code": "03",
           "label_zh": "西醫門診手術",
-          "label_en": ""
+          "label_en": "western medicine outpatient surgery"
         },
         {
           "code": "04",
@@ -387,7 +387,7 @@
         {
           "code": "08",
           "label_zh": "慢性病連續處方調劑",
-          "label_en": ""
+          "label_en": "chronic disease续处方调配"
         },
         {
           "code": "09",
@@ -442,7 +442,7 @@
         {
           "code": "11",
           "label_zh": "牙醫一般案件",
-          "label_en": ""
+          "label_en": "general dental case"
         },
         {
           "code": "12",
@@ -452,7 +452,7 @@
         {
           "code": "13",
           "label_zh": "牙醫門診手術",
-          "label_en": ""
+          "label_en": "outpatient surgery by dentist"
         },
         {
           "code": "14",
@@ -477,7 +477,7 @@
         {
           "code": "19",
           "label_zh": "牙醫其他專案",
-          "label_en": ""
+          "label_en": "other dental projects"
         },
         {
           "code": "A3",
@@ -648,7 +648,7 @@
         {
           "code": "7",
           "label_zh": "委託代（轉）檢",
-          "label_en": ""
+          "label_en": "commissioned inspection"
         },
         {
           "code": "8",
@@ -713,7 +713,7 @@
         {
           "code": "Y",
           "label_zh": "器官捐贈來源之資訊",
-          "label_en": ""
+          "label_en": "donation source of organ"
         },
         {
           "code": "Z",
@@ -1015,17 +1015,17 @@
         {
           "code": "QDAM",
           "label_zh": "每日一次上午使用",
-          "label_en": ""
+          "label_en": "used once daily in the morning"
         },
         {
           "code": "QDPM",
           "label_zh": "每日一次下午使用",
-          "label_en": ""
+          "label_en": "once daily in the afternoon"
         },
         {
           "code": "QDHS",
           "label_zh": "每日一次睡前使用",
-          "label_en": ""
+          "label_en": "used once daily before bedtime"
         },
         {
           "code": "QN",
@@ -1126,7 +1126,7 @@
         {
           "code": "IE",
           "label_zh": "脊髓硬膜內治射",
-          "label_en": ""
+          "label_en": "spinal_cord_dura_mater_injection"
         },
         {
           "code": "IM",
@@ -1176,12 +1176,12 @@
         {
           "code": "IVD",
           "label_zh": "靜脈點滴滴入",
-          "label_en": ""
+          "label_en": "intravenous drip administration"
         },
         {
           "code": "IVI",
           "label_zh": "玻璃體內注射",
-          "label_en": ""
+          "label_en": "vitreous injection"
         },
         {
           "code": "IVP",
@@ -1602,7 +1602,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",

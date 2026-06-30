@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -83,7 +83,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "current communication area administrative level",
       "description_en": ""
     },
     {
@@ -122,8 +122,8 @@
       "length": 1,
       "description_zh": "1：是；2：否",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Deleted (validity)",
+      "description_en": "1: yes; 2: no"
     },
     {
       "seq": 9,
@@ -133,7 +133,7 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "has uterus been removed",
       "description_en": ""
     },
     {
@@ -166,7 +166,7 @@
       "length": 3,
       "description_zh": "民國年 (999:不詳)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "year of vaccination",
       "description_en": ""
     },
     {
@@ -183,7 +183,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection date",
       "description_en": ""
     },
     {
@@ -194,7 +194,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection institution",
       "description_en": ""
     },
     {
@@ -205,7 +205,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sampling institution area",
       "description_en": ""
     },
     {
@@ -249,8 +249,8 @@
       "length": 10,
       "description_zh": "有大小寫之分",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "cytology specimen number",
+      "description_en": "distinguishing between uppercase and lowercase"
     },
     {
       "seq": 20,
@@ -266,7 +266,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "smear received date",
       "description_en": ""
     },
     {
@@ -288,7 +288,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution region for adjudication",
       "description_en": ""
     },
     {
@@ -299,7 +299,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reading institution ownership type",
       "description_en": ""
     },
     {
@@ -376,7 +376,7 @@
       "length": 2,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "cytology diagnosis",
       "description_en": "detailed translation explanation"
     },
     {
@@ -420,12 +420,12 @@
         {
           "code": "1",
           "label_zh": "戶政註記死亡",
-          "label_en": ""
+          "label_en": "civic registration death note"
         },
         {
           "code": "2",
           "label_zh": "手動註記死亡",
-          "label_en": ""
+          "label_en": "manually noted death"
         },
         {
           "code": "3",
@@ -451,7 +451,7 @@
         {
           "code": "3",
           "label_zh": "國(初)中、初職",
-          "label_en": ""
+          "label_en": "junior high school, junior vocational"
         },
         {
           "code": "4",
@@ -500,7 +500,7 @@
           "label_en": "screening at station"
         }
       ],
-      "field_en": ""
+      "field_en": "Cervical screening van or station"
     },
     "PAYWAY": {
       "field_zh": "支付方式",
@@ -528,7 +528,7 @@
         {
           "code": "5",
           "label_zh": "難以判讀重做",
-          "label_en": ""
+          "label_en": "unclear to retake"
         },
         {
           "code": "6",
@@ -631,7 +631,7 @@
         {
           "code": "4",
           "label_zh": "前次抹片難以判讀",
-          "label_en": ""
+          "label_en": "previous smear difficult to interpret"
         },
         {
           "code": "5",
@@ -704,7 +704,7 @@
         {
           "code": "3",
           "label_zh": "抹片難以判讀",
-          "label_en": ""
+          "label_en": "difficult to read smear"
         }
       ],
       "field_en": "smear quality"
@@ -829,7 +829,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "cytology diagnosis"
     },
     "TYPE": {
       "field_zh": "單位別",
@@ -847,12 +847,12 @@
         {
           "code": "3",
           "label_zh": "衛生所 23",
-          "label_en": ""
+          "label_en": "health center 23"
         },
         {
           "code": "4",
           "label_zh": "助產所 71~78",
-          "label_en": ""
+          "label_en": "obstetric clinic 71~78"
         },
         {
           "code": "5",

@@ -112,7 +112,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "victim's ID number",
       "description_en": ""
     },
     {
@@ -134,7 +134,7 @@
       "length": 7,
       "description_zh": "民國年YYYMMDD 000：年不詳 00：月、日不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim_birth_date",
       "description_en": ""
     },
     {
@@ -151,7 +151,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "victim's current nationality",
       "description_en": ""
     },
     {
@@ -168,7 +168,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "victim_education_level",
       "description_en": ""
     },
     {
@@ -185,7 +185,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "victim's disability type",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "relative ID number",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "length": 7,
       "description_zh": "民國年YYYMMDD 000：年不詳 00：月、日不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Relative's Birth Date",
       "description_en": ""
     },
     {
@@ -297,7 +297,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "relative current nationality",
       "description_en": ""
     },
     {
@@ -314,7 +314,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Relative's Education Level",
       "description_en": ""
     },
     {
@@ -325,7 +325,7 @@
       "length": 4,
       "description_zh": "詳見欄位障礙別 (VDISABILITY、 DDISABILITY)譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relative's disability category",
       "description_en": ""
     },
     {
@@ -408,7 +408,7 @@
       "description_zh": "Y:有 N:無",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Y: Yes N: No"
     },
     {
       "seq": 22,
@@ -418,8 +418,8 @@
       "length": 4,
       "description_zh": "西元年YYYY",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "reception time-year",
+      "description_en": "year_of_the_gregorian_calendar"
     },
     {
       "seq": 23,
@@ -429,7 +429,7 @@
       "length": 2,
       "description_zh": "MM",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reception time-month",
       "description_en": ""
     },
     {
@@ -501,7 +501,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "whether the victim lived with them",
       "description_en": ""
     }
   ],
@@ -557,7 +557,7 @@
         {
           "code": "F",
           "label_zh": "教育人員 U 親友",
-          "label_en": ""
+          "label_en": "educator U friends and family"
         },
         {
           "code": "G",
@@ -597,7 +597,7 @@
         {
           "code": "3",
           "label_zh": "觀光業從業人員",
-          "label_en": ""
+          "label_en": "tourism industry personnel"
         },
         {
           "code": "4",
@@ -612,7 +612,7 @@
         {
           "code": "A",
           "label_zh": "司(軍)法人員",
-          "label_en": ""
+          "label_en": "military personnel"
         },
         {
           "code": "C",
@@ -642,7 +642,7 @@
         {
           "code": "H",
           "label_zh": "社政/社工人員",
-          "label_en": ""
+          "label_en": "Social Welfare/Worker"
         },
         {
           "code": "J",
@@ -652,12 +652,12 @@
         {
           "code": "L",
           "label_zh": "移民業務相關人員",
-          "label_en": ""
+          "label_en": "immigration business personnel"
         },
         {
           "code": "M",
           "label_zh": "村（里）幹事",
-          "label_en": ""
+          "label_en": "village (li) official"
         },
         {
           "code": "N",
@@ -682,7 +682,7 @@
         {
           "code": "Y",
           "label_zh": "教保服務人員",
-          "label_en": ""
+          "label_en": "healthcare provider"
         },
         {
           "code": "Z",
@@ -713,22 +713,22 @@
         {
           "code": "F",
           "label_zh": "教育 H 防治中心",
-          "label_en": ""
+          "label_en": "education H prevention center"
         },
         {
           "code": "E",
           "label_zh": "社政 I 一一三",
-          "label_en": ""
+          "label_en": "social welfare I 一一三"
         },
         {
           "code": "D",
           "label_zh": "警政 J 勞政",
-          "label_en": ""
+          "label_en": "police and labor J"
         },
         {
           "code": "G",
           "label_zh": "衛政 N 民政",
-          "label_en": ""
+          "label_en": "municipalities_N_police"
         },
         {
           "code": "K",
@@ -749,47 +749,47 @@
         {
           "code": "A",
           "label_zh": "婚姻中－共同生活",
-          "label_en": ""
+          "label_en": "married - living together"
         },
         {
           "code": "B",
           "label_zh": "婚姻中－分居",
-          "label_en": ""
+          "label_en": "marriage - separated"
         },
         {
           "code": "C",
           "label_zh": "離婚－共同生活",
-          "label_en": ""
+          "label_en": "divorce—joint residence"
         },
         {
           "code": "D",
           "label_zh": "離婚－未同住",
-          "label_en": ""
+          "label_en": "divorced - not cohabiting"
         },
         {
           "code": "E",
           "label_zh": "現有－同居關係",
-          "label_en": ""
+          "label_en": "currently living with"
         },
         {
           "code": "F",
           "label_zh": "現有－家長家屬",
-          "label_en": ""
+          "label_en": "currently has a parent or guardian"
         },
         {
           "code": "G",
           "label_zh": "現有－家屬間",
-          "label_en": ""
+          "label_en": "existing - family member"
         },
         {
           "code": "H",
           "label_zh": "現有－直系血親",
-          "label_en": ""
+          "label_en": "currently has a direct-blood-relative relationship"
         },
         {
           "code": "I",
           "label_zh": "現有－直系姻親",
-          "label_en": ""
+          "label_en": "currently has a first-cousin relationship"
         },
         {
           "code": "J",
@@ -804,27 +804,27 @@
         {
           "code": "L",
           "label_zh": "曾有－同居關係",
-          "label_en": ""
+          "label_en": "ever lived with"
         },
         {
           "code": "M",
           "label_zh": "曾有－家長家屬",
-          "label_en": ""
+          "label_en": "ever had a parent or guardian"
         },
         {
           "code": "N",
           "label_zh": "曾有－家屬間",
-          "label_en": ""
+          "label_en": "history of family violence"
         },
         {
           "code": "O",
           "label_zh": "曾有－直系血親",
-          "label_en": ""
+          "label_en": "ever had a direct-blood-relative relationship"
         },
         {
           "code": "P",
           "label_zh": "曾有－直系姻親",
-          "label_en": ""
+          "label_en": "ever had a first-cousin relationship"
         },
         {
           "code": "Q",
@@ -849,7 +849,7 @@
         {
           "code": "D",
           "label_zh": "曾為同居伴侶",
-          "label_en": ""
+          "label_en": "cohabiting with partner"
         },
         {
           "code": "F",
@@ -915,7 +915,7 @@
         {
           "code": "D",
           "label_zh": "緊急安置∕庇護",
-          "label_en": ""
+          "label_en": "emergency_shelter"
         },
         {
           "code": "M",
@@ -986,7 +986,7 @@
         {
           "code": "Z",
           "label_zh": "其他 U 驗傷診療",
-          "label_en": ""
+          "label_en": "other U trauma examination treatment"
         },
         {
           "code": "B",
@@ -1042,5 +1042,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "domestic violence report details"
 }

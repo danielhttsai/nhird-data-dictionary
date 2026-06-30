@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -61,7 +61,7 @@
       "description_zh": "1：男；2：女",
       "available_notes": [],
       "name_zh_en": "original gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female"
     },
     {
       "seq": 5,
@@ -71,7 +71,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別院所鍵值",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical institution code",
       "description_en": ""
     },
     {
@@ -82,7 +82,7 @@
       "length": 4,
       "description_zh": "醫事機構所在鄉鎮， 代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "location of medical institution",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": 2,
       "description_zh": "詳欄位權屬別（HOS）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical institution",
       "description_en": ""
     },
     {
@@ -116,7 +116,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "hypertension",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 10,
@@ -127,7 +127,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "diabetes",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 11,
@@ -138,7 +138,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "hyperlipidemia",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 12,
@@ -303,7 +303,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "heart disease",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 27,
@@ -314,7 +314,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "stroke",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 28,
@@ -325,7 +325,7 @@
       "description_zh": "1：無；2：有",
       "available_notes": [],
       "name_zh_en": "nephropathy",
-      "description_en": ""
+      "description_en": "1: absent; 2: present"
     },
     {
       "seq": 29,
@@ -347,7 +347,7 @@
       "description_zh": "1：否；2：是",
       "available_notes": [],
       "name_zh_en": "depression screening 1",
-      "description_en": ""
+      "description_en": "1: no; 2: yes"
     },
     {
       "seq": 31,
@@ -358,7 +358,7 @@
       "description_zh": "1：否；2：是",
       "available_notes": [],
       "name_zh_en": "depression screening 2",
-      "description_en": ""
+      "description_en": "1: no; 2: yes"
     },
     {
       "seq": 32,
@@ -380,7 +380,7 @@
       "description_zh": "格式：xx.x",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "format: xx.x"
     },
     {
       "seq": 34,
@@ -401,7 +401,7 @@
       "length": 8,
       "description_zh": "格式：xxx(mg/dl) 999：無法計算",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "low-density lipoprotein cholesterol",
       "description_en": ""
     },
     {
@@ -412,7 +412,7 @@
       "length": 8,
       "description_zh": "格式：xxx.x(ml/min/1.73 m2)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "glomerular filtration rate",
       "description_en": ""
     },
     {
@@ -467,7 +467,7 @@
       "length": 8,
       "description_zh": "西元年月日",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first stage examination date",
       "description_en": "Western calendar year month day"
     },
     {
@@ -478,7 +478,7 @@
       "length": 8,
       "description_zh": "西元年月日",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "second-stage examination date",
       "description_en": "Western calendar year month day"
     },
     {
@@ -490,7 +490,7 @@
       "description_zh": "第一階段檢查年",
       "available_notes": [],
       "name_zh_en": "screening year",
-      "description_en": ""
+      "description_en": "year_of_first_stage_checkup"
     },
     {
       "seq": 44,
@@ -816,7 +816,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",
@@ -1135,5 +1135,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "adult preventive health data file"
 }

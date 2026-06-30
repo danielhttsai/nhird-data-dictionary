@@ -76,7 +76,7 @@
       "source": "癌登年報檔",
       "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "type and status code",
       "description_en": ""
     },
     {
@@ -142,7 +142,7 @@
       "source": "癌登年報檔",
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis method for cancer",
       "description_en": ""
     },
     {
@@ -184,7 +184,7 @@
       "source": "癌登年報",
       "description_zh": "0：身分證字號符合編碼原 則",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "source": "本檔自訂",
       "description_zh": "詳欄位(變項)譯碼(一)癌症 類別",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Cancer Category",
       "description_en": ""
     },
     {
@@ -292,7 +292,7 @@
       "source": "本檔自訂",
       "description_zh": "單一癌症者，此欄為 0；多發 者為順序。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Record Order",
       "description_en": ""
     },
     {
@@ -304,7 +304,7 @@
       "source": "本檔自訂",
       "description_zh": "1：單一；2以上為多發",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Record Times",
       "description_en": ""
     },
     {
@@ -328,7 +328,7 @@
       "source": "本檔自訂",
       "description_zh": "依newca2統計每一 IDNO 的癌症類別次數。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "number of cancer categories",
       "description_en": ""
     },
     {
@@ -352,7 +352,7 @@
       "source": "本檔自訂",
       "description_zh": "依SEER 死因分類所得新死 因，若是死於其所得的癌 症，此欄與newca2 相同； 若非死於所得的癌症，則與 死因檔之死因分類 (Death_D_CODE 或 Death_ICD10)相同。詳欄位 (變項)譯碼(二)SEER 死因。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "SEER Cause of Death",
       "description_en": ""
     },
     {
@@ -388,7 +388,7 @@
       "source": "本檔自訂",
       "description_zh": "0：不符合；1：符合。詳欄位 (變項)譯碼(三)紀錄檢誤。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Record Error",
       "description_en": ""
     },
     {
@@ -412,7 +412,7 @@
       "source": "本檔自訂",
       "description_zh": "有串到死因檔的病患為死亡 時間(Death_D_DATE)；沒 有串到死因檔的病患為門急 診、住院、承保檔最後一次 紀錄的日期。詳欄位(變項) 譯碼(五)最後追蹤時間。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "last follow-up time",
       "description_en": ""
     },
     {
@@ -628,7 +628,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "AIDS diagnosis",
       "description_en": ""
     },
     {
@@ -640,7 +640,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有；",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Has",
       "description_en": ""
     },
     {
@@ -820,5 +820,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "hepatocellular carcinoma claims database"
 }

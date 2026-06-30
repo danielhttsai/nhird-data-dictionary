@@ -49,7 +49,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -60,8 +60,8 @@
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "management unit code",
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 5,
@@ -71,8 +71,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "reporting unit code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 6,
@@ -83,7 +83,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 7,
@@ -94,7 +94,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 8,
@@ -104,8 +104,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "termination unit code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 9,
@@ -116,7 +116,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 10,
@@ -127,7 +127,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 11,
@@ -137,7 +137,7 @@
       "length": 1,
       "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管 本表範圍外之代碼請忽略。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "need supervisor assistance type",
       "description_en": ""
     },
     {
@@ -159,7 +159,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sputum smear day 1",
       "description_en": ""
     },
     {
@@ -170,7 +170,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sputum smear day 2",
       "description_en": ""
     },
     {
@@ -181,7 +181,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sputum smear day 3",
       "description_en": ""
     },
     {
@@ -203,7 +203,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sputum culture day 2",
       "description_en": ""
     },
     {
@@ -214,7 +214,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sputum culture day 3",
       "description_en": ""
     },
     {
@@ -248,7 +248,7 @@
       "description_zh": "空白：否 6：是",
       "available_notes": [],
       "name_zh_en": "pleural effusion",
-      "description_en": ""
+      "description_en": "Blank: No 6: Yes"
     },
     {
       "seq": 22,
@@ -258,7 +258,7 @@
       "length": 1,
       "description_zh": "a：結核性腦膜炎 (013) c：淋巴結核 (014) d：骨及關節結核 (015) e：泌尿及生殖結核 (016) f：皮膚及眼結核 (017) g：消化道結核 (014) h：其他器官結核 (017) i：粟粒狀結核 (000) j：胸肋膜結核 (000) k：咽喉結核 (000) l：膀胱癌灌注治療(016) m：疑似 BCG 不良反應(接種部位局部 病灶) n：疑似BCG不良反應(接種部位同側腋 下淋巴結腫大)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "extrapulmonary TB notation",
       "description_en": ""
     },
     {
@@ -269,7 +269,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "registration review date",
       "description_en": ""
     },
     {
@@ -379,7 +379,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "previous move-out date",
       "description_en": ""
     },
     {
@@ -390,8 +390,8 @@
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "previous migration out unit code",
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 35,
@@ -401,7 +401,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "most recent medical visit date",
       "description_en": ""
     },
     {
@@ -412,8 +412,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "file establishment unit code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 37,
@@ -424,7 +424,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 38,
@@ -435,7 +435,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 39,
@@ -445,7 +445,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "report filing date",
       "description_en": ""
     },
     {
@@ -456,7 +456,7 @@
       "length": 1,
       "description_zh": "D：是(已申請留台治療之外勞) L：已逃跑無法評估 N：未評估 O：境外聘僱(不須評估)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Applying for onshore treatment",
       "description_en": ""
     },
     {
@@ -478,7 +478,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of case closure",
       "description_en": ""
     },
     {
@@ -489,7 +489,7 @@
       "length": 1,
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reason for case closure",
       "description_en": ""
     },
     {
@@ -511,8 +511,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Sputum Smear Unit Code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 46,
@@ -523,7 +523,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 47,
@@ -534,7 +534,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 48,
@@ -545,7 +545,7 @@
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 49,
@@ -556,7 +556,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 50,
@@ -567,7 +567,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 51,
@@ -578,7 +578,7 @@
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 52,
@@ -589,7 +589,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 53,
@@ -600,7 +600,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 54,
@@ -610,8 +610,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Sputum Culture Unit Code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 55,
@@ -622,7 +622,7 @@
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 56,
@@ -633,7 +633,7 @@
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 57,
@@ -644,7 +644,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 58,
@@ -655,7 +655,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 59,
@@ -665,8 +665,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "X-ray diagnosis unit code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 60,
@@ -677,7 +677,7 @@
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 61,
@@ -688,7 +688,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 62,
@@ -709,8 +709,8 @@
       "length": 9,
       "description_zh": "參照醫事機構代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "nursing home code",
+      "description_en": "referenced medical institution code"
     },
     {
       "seq": 64,
@@ -720,8 +720,8 @@
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "county_city_of_care_facility",
+      "description_en": "referenced county city town code"
     },
     {
       "seq": 65,
@@ -732,7 +732,7 @@
       "description_zh": "參照權屬別代碼",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "reference authority code"
     },
     {
       "seq": 66,
@@ -764,7 +764,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date_received_by_health_bureau",
       "description_en": ""
     },
     {
@@ -786,7 +786,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "DOTS enrollment date",
       "description_en": ""
     },
     {
@@ -797,7 +797,7 @@
       "length": 1,
       "description_zh": "A：否（拒絕） B：否（死亡） C：否（住院中） D：否（改診斷） E：否（住在外地） F：否（居無定所） G：否（遷出） H：否（副作用） I：否（醫囑排除） J：否（停藥） K：否（遣返） Y：是（加入DOTS）",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Join DOTS Other",
       "description_en": ""
     },
     {
@@ -808,7 +808,7 @@
       "length": 1,
       "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥 本表範圍外之代碼請忽略。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient/ED condition",
       "description_en": ""
     },
     {
@@ -819,7 +819,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "DOTS discontinuation date",
       "description_en": ""
     },
     {
@@ -830,7 +830,7 @@
       "length": 1,
       "description_zh": "A：DOTS 療程結束 B：拒絕 C：死亡 D：住院中 E：改診斷 F：遷出 G：副作用",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "DOTS discontinuation reason",
       "description_en": ""
     },
     {
@@ -841,8 +841,8 @@
       "length": 1,
       "description_zh": "N：疑似 Y：確診",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "initial confirmation review identifier",
+      "description_en": "N:疑似 Y:確診"
     },
     {
       "seq": 76,
@@ -864,7 +864,7 @@
       "description_zh": "1：男 2：女",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male 2: female"
     },
     {
       "seq": 78,
@@ -874,7 +874,7 @@
       "length": 2,
       "description_zh": "01：現役軍人 22：醫護：含醫院工作者 23：教師：含校園工作者 84：職業駕駛 91：臨時工 X1：原住民族 X2：役男：體檢發現 X3：人口密集機構 Y2：在學學生 Y5：監獄拘留所 Y6：其他 Y7：畜牧場工作人員",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "occupation or ethnic group",
       "description_en": ""
     },
     {
@@ -896,7 +896,7 @@
       "length": 1,
       "description_zh": "1：痰液 2：胸水 3：氣管洗出液 4：腦脊髓液 5：陽性培養菌株 6：病理切片 7：消化去污染後痰 9：其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "extrapulmonary specimen type",
       "description_en": ""
     },
     {
@@ -907,7 +907,7 @@
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Sputum Smear Result 1",
       "description_en": ""
     },
     {
@@ -918,7 +918,7 @@
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Sputum Smear Result 2",
       "description_en": ""
     },
     {
@@ -929,7 +929,7 @@
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Sputum Smear Result 3",
       "description_en": ""
     },
     {
@@ -940,7 +940,7 @@
       "length": 1,
       "description_zh": "0、1、2、3、4",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "initial sputum smear count",
       "description_en": ""
     },
     {
@@ -984,7 +984,7 @@
       "length": 1,
       "description_zh": "L：已驗未出 N：未確診 P：確診 ( 肺內 ) Y：確診 ( 肺外 )",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pathology report result",
       "description_en": ""
     },
     {
@@ -1063,7 +1063,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "date of discharge from this episode",
       "description_en": ""
     },
     {
@@ -1074,7 +1074,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "MDR registration date",
       "description_en": ""
     },
     {
@@ -1085,7 +1085,7 @@
       "length": 1,
       "description_zh": "1：已交付(甲類) 2：已交付(乙類) X：拒收(甲類) Y：拒收(乙類)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "rejection of yellow card note",
       "description_en": ""
     },
     {
@@ -1096,7 +1096,7 @@
       "length": 1,
       "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥 空白或NULL：未判 疾管署慢性組分枝桿菌實驗室研判",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "multiple drug resistance note in TCM cases",
       "description_en": ""
     },
     {
@@ -1147,7 +1147,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "pathology institution code",
       "description_en": ""
     }
   ],
@@ -1170,5 +1170,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "TB database"
 }

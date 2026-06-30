@@ -53,7 +53,7 @@
       "length": 9,
       "description_zh": "經加密處理",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical institution code",
       "description_en": "encrypted"
     },
     {
@@ -64,7 +64,7 @@
       "length": 4,
       "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "location of medical institution",
       "description_en": ""
     },
     {
@@ -75,7 +75,7 @@
       "length": 2,
       "description_zh": "詳欄位權屬別(HOS)譯碼說 明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical institution",
       "description_en": ""
     },
     {
@@ -86,7 +86,7 @@
       "length": 1,
       "description_zh": "0：開業 2：歇業 3：公告註銷 6：換區歇業 7：跨局遷出 8：休診 9：變更負責人 A：終止合約（違約被停） B：不續約（合約到期） C：醫院自行暫停",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution operational status",
       "description_en": ""
     },
     {
@@ -97,7 +97,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution termination date of agreement",
       "description_en": ""
     },
     {
@@ -108,7 +108,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution termination date of agreement",
       "description_en": ""
     }
   ],
@@ -139,7 +139,7 @@
         {
           "code": "4",
           "label_zh": "基層醫療單位",
-          "label_en": ""
+          "label_en": "primary care facility"
         },
         {
           "code": "5",
@@ -164,7 +164,7 @@
         {
           "code": "7",
           "label_zh": "社區精神復健",
-          "label_en": ""
+          "label_en": "community mental health rehabilitation"
         },
         {
           "code": "8",
@@ -179,7 +179,7 @@
         {
           "code": "9",
           "label_zh": "醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical testing institution"
         },
         {
           "code": "A",
@@ -529,7 +529,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",

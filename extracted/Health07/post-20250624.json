@@ -48,7 +48,7 @@
       "length": 20,
       "description_zh": "1. 亦即保險對象，與被保險人身 分證字號(INS_ID)不同者為眷 屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "personal ID number",
       "description_en": ""
     },
     {
@@ -81,7 +81,7 @@
       "length": 1,
       "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Insurance unit NHI region",
       "description_en": ""
     },
     {
@@ -92,7 +92,7 @@
       "length": 18,
       "description_zh": "經加密處理",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured unit code",
       "description_en": "encrypted"
     },
     {
@@ -103,7 +103,7 @@
       "length": 3,
       "description_zh": "詳單位屬性(UNIT_INS_TYPE)說 明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured unit attribute",
       "description_en": ""
     },
     {
@@ -158,7 +158,7 @@
       "length": 1,
       "description_zh": "Y：被保險人 N：眷屬",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured person note",
       "description_en": ""
     },
     {
@@ -191,7 +191,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Insurance unit contribution amount",
       "description_en": ""
     },
     {
@@ -213,7 +213,7 @@
       "length": 8,
       "description_zh": "同一投保單位保險對象之減免補 助金額彙總",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reduced/subsidized amount",
       "description_en": ""
     },
     {
@@ -224,7 +224,7 @@
       "length": 8,
       "description_zh": "政府補助金額平均拆至個人",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "government subsidy amount",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "Uniform ID",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 24,
@@ -290,7 +290,7 @@
       "length": 4,
       "description_zh": "代碼參照醫療機構現況檔。 1200 表示為新竹市，2200 表示為 嘉義市。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Insurance unit area code",
       "description_en": ""
     },
     {
@@ -301,7 +301,7 @@
       "length": 4,
       "description_zh": "代碼參照醫療機構現況檔 1200 表示為新竹市，2200 表示為 嘉義市",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "residential area code",
       "description_en": ""
     },
     {
@@ -377,7 +377,7 @@
         {
           "code": "11",
           "label_zh": "C 地方公職人員",
-          "label_en": ""
+          "label_en": "C local public official"
         },
         {
           "code": "11",
@@ -417,7 +417,7 @@
         {
           "code": "13",
           "label_zh": "K 私立學校工員",
-          "label_en": ""
+          "label_en": "K private school employee"
         },
         {
           "code": "13",
@@ -437,7 +437,7 @@
         {
           "code": "14",
           "label_zh": "O 自營作業者",
-          "label_en": ""
+          "label_en": "O Self-Employed Operator"
         },
         {
           "code": "15",
@@ -447,7 +447,7 @@
         {
           "code": "21",
           "label_zh": "職業工會會員",
-          "label_en": ""
+          "label_en": "trade union member"
         },
         {
           "code": "22",
@@ -462,7 +462,7 @@
         {
           "code": "31",
           "label_zh": "R 水利會會員",
-          "label_en": ""
+          "label_en": "R Waterworks Member"
         },
         {
           "code": "32",
@@ -542,17 +542,17 @@
         {
           "code": "43",
           "label_zh": "V 軍監受刑人",
-          "label_en": ""
+          "label_en": "V Military Supervision Offender"
         },
         {
           "code": "43",
           "label_zh": "W 矯正機關受刑人",
-          "label_en": ""
+          "label_en": "W矫正机关受刑人"
         },
         {
           "code": "43",
           "label_zh": "X 監護處分受刑人",
-          "label_en": ""
+          "label_en": "X监护处分受刑人"
         },
         {
           "code": "51",
@@ -618,7 +618,7 @@
         {
           "code": "6",
           "label_zh": "育嬰 自95年起",
-          "label_en": ""
+          "label_en": "childcare since 1995"
         },
         {
           "code": "1",
@@ -682,5 +682,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "NHI insured file"
 }

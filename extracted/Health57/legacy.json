@@ -60,7 +60,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": 1,
       "description_zh": "1：牙科；2：耳鼻喉科； 3：經本署認可之其他科醫師",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician specialty for examination",
       "description_en": ""
     },
     {
@@ -104,7 +104,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pathology slide hospital tier",
       "description_en": ""
     },
     {
@@ -115,7 +115,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code for diagnosis",
       "description_en": ""
     },
     {
@@ -126,7 +126,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient medical facility code",
       "description_en": ""
     },
     {
@@ -137,7 +137,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hierarchical level of diagnosing hospital",
       "description_en": ""
     },
     {
@@ -148,7 +148,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient healthcare facility tier",
       "description_en": ""
     },
     {
@@ -187,7 +187,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "referral medical institution code",
       "description_en": ""
     },
     {
@@ -198,7 +198,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -209,7 +209,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "referral medical institution level",
       "description_en": ""
     },
     {
@@ -349,17 +349,17 @@
         {
           "code": "71",
           "label_zh": "非均質性白斑",
-          "label_en": ""
+          "label_en": "non-uniform hyperpigmentation"
         },
         {
           "code": "72",
           "label_zh": "均質性厚白斑",
-          "label_en": ""
+          "label_en": "homogeneous thick leukoplakia"
         },
         {
           "code": "73",
           "label_zh": "均質性薄白斑",
-          "label_en": ""
+          "label_en": "homogeneous thin leukoplakia"
         },
         {
           "code": "76",
@@ -419,12 +419,12 @@
         {
           "code": "71",
           "label_zh": "非均質性白斑",
-          "label_en": ""
+          "label_en": "non-uniform hyperpigmentation"
         },
         {
           "code": "72",
           "label_zh": "均質性厚白斑",
-          "label_en": ""
+          "label_en": "homogeneous thick leukoplakia"
         },
         {
           "code": "73",
@@ -483,7 +483,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "no confirmed diagnosis reason"
     },
     "CONF_RESULT": {
       "field_zh": "診斷結果(臨床診斷)",
@@ -496,17 +496,17 @@
         {
           "code": "08",
           "label_zh": "非均質性白斑",
-          "label_en": ""
+          "label_en": "non-uniform hyperpigmentation"
         },
         {
           "code": "09",
           "label_zh": "均質性厚白斑",
-          "label_en": ""
+          "label_en": "homogeneous thick leukoplakia"
         },
         {
           "code": "10",
           "label_zh": "均質性薄白斑",
-          "label_en": ""
+          "label_en": "homogeneous thin leukoplakia"
         },
         {
           "code": "11",
@@ -531,7 +531,7 @@
         {
           "code": "15",
           "label_zh": "口腔黏膜纖維化",
-          "label_en": ""
+          "label_en": "oral mucosal fibrosis"
         },
         {
           "code": "16",
@@ -562,7 +562,7 @@
         {
           "code": "23",
           "label_zh": "輕度上皮變異",
-          "label_en": ""
+          "label_en": "mild epithelial variation"
         },
         {
           "code": "24",
@@ -588,7 +588,7 @@
         {
           "code": "1",
           "label_zh": "鱗狀細胞增生",
-          "label_en": ""
+          "label_en": "squamous cell hyperplasia"
         },
         {
           "code": "2",
@@ -598,7 +598,7 @@
         {
           "code": "3",
           "label_zh": "輕度上皮變異",
-          "label_en": ""
+          "label_en": "mild epithelial variation"
         },
         {
           "code": "4",
@@ -608,7 +608,7 @@
         {
           "code": "5",
           "label_zh": "重度上皮變異",
-          "label_en": ""
+          "label_en": "severe epithelial variation"
         },
         {
           "code": "6",

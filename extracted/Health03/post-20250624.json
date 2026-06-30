@@ -31,7 +31,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構(藥 局)的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "dispensing medical institution code",
       "description_en": ""
     },
     {
@@ -65,7 +65,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 5,
@@ -97,7 +97,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構(醫 院)的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "original处方医疗机构代码",
       "description_en": ""
     },
     {
@@ -185,8 +185,8 @@
       "length": 16,
       "description_zh": "經加密處理。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "medical visit (prescription) date",
+      "description_en": "encrypted."
     },
     {
       "seq": 15,
@@ -252,7 +252,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment code",
       "description_en": ""
     },
     {
@@ -263,7 +263,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "total special material points",
       "description_en": ""
     },
     {
@@ -313,7 +313,7 @@
       "length": 20,
       "description_zh": "經加密處理，醫師或原處方醫師 之身分證字號或外籍居留證號。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician ID number",
       "description_en": ""
     },
     {
@@ -324,7 +324,7 @@
       "length": 20,
       "description_zh": "經加密處理，調劑藥師之身分證 字號或外籍居留證號。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacist_id_number",
       "description_en": ""
     },
     {
@@ -335,7 +335,7 @@
       "length": 8,
       "description_zh": "此項點數為藥局醫令檔點數合 計。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medication detail points total",
       "description_en": ""
     },
     {
@@ -357,7 +357,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "NHI card medical visit sequence number",
       "description_en": ""
     },
     {
@@ -368,7 +368,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacy service points",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment points",
       "description_en": ""
     },
     {
@@ -418,7 +418,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacy_service_fee_code",
       "description_en": ""
     },
     {
@@ -435,7 +435,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "claim reason note",
       "description_en": ""
     },
     {
@@ -457,7 +457,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -587,12 +587,12 @@
         {
           "code": "5",
           "label_zh": "代辦門診戒菸計畫",
-          "label_en": ""
+          "label_en": "Outpatient smoking cessation plan provided by proxy"
         },
         {
           "code": "D",
           "label_zh": "藥事居家照護",
-          "label_en": ""
+          "label_en": "home care pharmacy services"
         },
         {
           "code": "E",
@@ -608,7 +608,7 @@
         {
           "code": "01",
           "label_zh": "西醫一般案件",
-          "label_en": ""
+          "label_en": "general western medicine case"
         },
         {
           "code": "02",
@@ -618,7 +618,7 @@
         {
           "code": "03",
           "label_zh": "西醫門診手術",
-          "label_en": ""
+          "label_en": "western medicine outpatient surgery"
         },
         {
           "code": "04",
@@ -643,7 +643,7 @@
         {
           "code": "08",
           "label_zh": "慢性病連續處方調劑",
-          "label_en": ""
+          "label_en": "chronic disease续处方调配"
         },
         {
           "code": "09",
@@ -703,7 +703,7 @@
         {
           "code": "11",
           "label_zh": "牙醫一般案件",
-          "label_en": ""
+          "label_en": "general dental case"
         },
         {
           "code": "12",
@@ -713,7 +713,7 @@
         {
           "code": "13",
           "label_zh": "牙醫門診手術",
-          "label_en": ""
+          "label_en": "outpatient surgery by dentist"
         },
         {
           "code": "14",
@@ -738,7 +738,7 @@
         {
           "code": "19",
           "label_zh": "牙醫其他專案",
-          "label_en": ""
+          "label_en": "other dental projects"
         },
         {
           "code": "A3",
@@ -999,7 +999,7 @@
         {
           "code": "AB",
           "label_zh": "心臟血管內科",
-          "label_en": ""
+          "label_en": "cardiovascular internal medicine"
         },
         {
           "code": "AC",
@@ -1039,7 +1039,7 @@
         {
           "code": "AJ",
           "label_zh": "胸腔暨重症加護",
-          "label_en": ""
+          "label_en": "thoracic_and_intensive_care"
         },
         {
           "code": "AK",
@@ -1054,7 +1054,7 @@
         {
           "code": "BB",
           "label_zh": "心臟血管外科",
-          "label_en": ""
+          "label_en": "cardiovascular surgery"
         },
         {
           "code": "BC",
@@ -1094,12 +1094,12 @@
         {
           "code": "FB",
           "label_zh": "放射腫瘤科學科",
-          "label_en": ""
+          "label_en": "radiation oncology"
         },
         {
           "code": "GA",
           "label_zh": "口腔顎面外科",
-          "label_en": ""
+          "label_en": "oral and maxillofacial surgery"
         },
         {
           "code": "HA",
@@ -1690,7 +1690,7 @@
         {
           "code": "D",
           "label_zh": "週產期試辦計畫",
-          "label_en": ""
+          "label_en": "trial weekly period plan"
         },
         {
           "code": "E",
@@ -1826,7 +1826,7 @@
         {
           "code": "K00",
           "label_zh": "應自行負擔百分之十",
-          "label_en": ""
+          "label_en": "self-pay ten percent"
         },
         {
           "code": "K20",
@@ -1836,7 +1836,7 @@
         {
           "code": "L00",
           "label_zh": "應自行負擔百分之五",
-          "label_en": ""
+          "label_en": "self-pay five percent"
         },
         {
           "code": "L20",
@@ -1916,12 +1916,12 @@
         {
           "code": "A00",
           "label_zh": "醫學中心；急診",
-          "label_en": ""
+          "label_en": "medical center; emergency department"
         },
         {
           "code": "450",
           "label_zh": "94/7/15起",
-          "label_en": ""
+          "label_en": "94/7/15 on"
         },
         {
           "code": "A03",
@@ -2026,7 +2026,7 @@
         {
           "code": "B00",
           "label_zh": "區域醫院；急診",
-          "label_en": ""
+          "label_en": "emergency department of regional hospital"
         },
         {
           "code": "300",
@@ -2136,7 +2136,7 @@
         {
           "code": "C10",
           "label_zh": "地區醫院；一般門診",
-          "label_en": ""
+          "label_en": "hospital;general outpatient"
         },
         {
           "code": "80",
@@ -2231,7 +2231,7 @@
         {
           "code": "D12",
           "label_zh": "基層院所；一般門診",
-          "label_en": ""
+          "label_en": "primary care; general outpatient"
         },
         {
           "code": "D14",
@@ -2524,7 +2524,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "co-payment code"
     },
     "HOS": {
       "field_zh": "權屬別",
@@ -2837,7 +2837,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",

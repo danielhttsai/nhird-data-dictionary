@@ -31,7 +31,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別院 所鍵值",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical institution code",
       "description_en": ""
     },
     {
@@ -60,7 +60,7 @@
       "description_zh": "1：送核 2：補報",
       "available_notes": [],
       "name_zh_en": "reporting category",
-      "description_en": ""
+      "description_en": "1: submission 2: supplementary report"
     },
     {
       "seq": 4,
@@ -70,7 +70,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Claim/Report Date",
       "description_en": ""
     },
     {
@@ -81,7 +81,7 @@
       "length": 1,
       "description_zh": "1：書面 2：媒體 3：連 線",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "application/reporting method",
       "description_en": ""
     },
     {
@@ -158,7 +158,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific cases count",
       "description_en": ""
     },
     {
@@ -169,7 +169,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific cases days",
       "description_en": ""
     },
     {
@@ -191,7 +191,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "trial plan total count",
       "description_en": ""
     },
     {
@@ -202,7 +202,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "trial plan total days",
       "description_en": ""
     },
     {
@@ -213,7 +213,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "trial plan total points",
       "description_en": ""
     },
     {
@@ -224,7 +224,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "number of medical expenses items",
       "description_en": ""
     },
     {
@@ -235,7 +235,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical expenses days",
       "description_en": ""
     },
     {
@@ -246,7 +246,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical expenses points",
       "description_en": ""
     },
     {
@@ -257,7 +257,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment count",
       "description_en": ""
     },
     {
@@ -268,7 +268,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment days",
       "description_en": ""
     },
     {
@@ -279,7 +279,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment amount",
       "description_en": ""
     },
     {
@@ -290,7 +290,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Claim Quantity/Number",
       "description_en": ""
     },
     {
@@ -312,7 +312,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "application fee points",
       "description_en": ""
     },
     {
@@ -323,7 +323,7 @@
       "length": 4,
       "description_zh": "醫療機構所在鄉鎮， 代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "location of medical institution",
       "description_en": ""
     },
     {
@@ -334,7 +334,7 @@
       "length": 2,
       "description_zh": "詳欄位權屬別（HOS） 譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical institution",
       "description_en": ""
     },
     {
@@ -352,7 +352,7 @@
         }
       ],
       "name_zh_en": "medical category",
-      "description_en": ""
+      "description_en": "107th year addition."
     },
     {
       "seq": 30,
@@ -369,7 +369,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "107th year addition."
     },
     {
       "seq": 31,
@@ -386,7 +386,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "107th year addition."
     },
     {
       "seq": 32,
@@ -403,7 +403,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "107th year addition."
     }
   ],
   "codebooks": {
@@ -718,7 +718,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",
@@ -1024,12 +1024,12 @@
         {
           "code": "11",
           "label_zh": "門診西醫診所",
-          "label_en": ""
+          "label_en": "outpatient Western medical clinic"
         },
         {
           "code": "12",
           "label_zh": "門診西醫醫院",
-          "label_en": ""
+          "label_en": "outpatient Western medical hospital"
         },
         {
           "code": "13",
@@ -1049,7 +1049,7 @@
         {
           "code": "19",
           "label_zh": "門診其他醫事機構",
-          "label_en": ""
+          "label_en": "outpatient medical institution other than primary care"
         },
         {
           "code": "20",
@@ -1069,7 +1069,7 @@
         {
           "code": "29",
           "label_zh": "住診其他醫事機構",
-          "label_en": ""
+          "label_en": "Consultation at other medical institutions during hospital stay"
         },
         {
           "code": "30",

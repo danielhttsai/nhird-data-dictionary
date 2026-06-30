@@ -39,7 +39,7 @@
       "description_zh": "1：男性，2：女性",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male 2: female"
     },
     {
       "seq": 3,
@@ -121,7 +121,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Place_of_Death_Code",
       "description_en": ""
     },
     {
@@ -248,7 +248,7 @@
       "length": 3,
       "description_zh": "000 Ｏ歲、001 一歲、002 二歲、…: 099 九十九歲、100 百歲、….999 不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Ordinary age (full years)",
       "description_en": ""
     },
     {
@@ -259,7 +259,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則，1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     }
   ],
@@ -310,7 +310,7 @@
         {
           "code": "8026",
           "label_zh": "沙烏地阿拉伯",
-          "label_en": ""
+          "label_en": "Saudi Arabia"
         },
         {
           "code": "8027",
@@ -480,7 +480,7 @@
         {
           "code": "8236",
           "label_zh": "巴布亞紐幾內亞",
-          "label_en": ""
+          "label_en": "Papua New Guinea"
         },
         {
           "code": "8238",
@@ -670,17 +670,17 @@
         {
           "code": "8558",
           "label_zh": "聖多美普林西比",
-          "label_en": ""
+          "label_en": "圣多美和普林西比"
         },
         {
           "code": "8601",
           "label_zh": "聖文森及格瑞那丁",
-          "label_en": ""
+          "label_en": "Saint Vincent and the Grenadines"
         },
         {
           "code": "8603",
           "label_zh": "聖克里斯多福",
-          "label_en": ""
+          "label_en": "St. Christopher's"
         },
         {
           "code": "8604",
@@ -703,7 +703,7 @@
           "label_en": "unclear"
         }
       ],
-      "field_en": ""
+      "field_en": "place_of_death_code"
     }
   },
   "raw_text_first_page": "2025年09月02日修訂\n延遲申報死因檔\n(H_OST_DEALG)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_DEALG 資料筆數 1,526 / 2024\n中文檔名 延遲申報死因檔 英文檔名 Delayed Report of Death Data\n檔案大小 192 KB / 2024 欄位數 16\n譯碼簿\n屬性 現況檔 週期 年 2025/09/02\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因\n分類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n頁 1 / 22",
@@ -724,5 +724,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "delayed death cause claim file"
 }

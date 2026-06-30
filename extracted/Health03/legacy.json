@@ -60,7 +60,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 4,
@@ -120,8 +120,8 @@
       "length": 8,
       "description_zh": "經加密處理。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "medical visit (prescription) date",
+      "description_en": "encrypted."
     },
     {
       "seq": 9,
@@ -153,7 +153,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "NHI card medical visit sequence number",
       "description_en": ""
     },
     {
@@ -186,7 +186,7 @@
       "length": 8,
       "description_zh": "此項點數為藥局醫令檔點數合 計。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medication detail points total",
       "description_en": ""
     },
     {
@@ -197,7 +197,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacy service points",
       "description_en": ""
     },
     {
@@ -225,8 +225,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "total special material points",
+      "description_en": "added in July 98."
     },
     {
       "seq": 17,
@@ -242,8 +242,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "co-payment points",
+      "description_en": "added in July 98."
     },
     {
       "seq": 18,
@@ -281,7 +281,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1： 不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -303,7 +303,7 @@
       "length": 12,
       "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留證 號。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician ID number",
       "description_en": ""
     },
     {
@@ -336,7 +336,7 @@
       "length": 12,
       "description_zh": "1. 經加密處理，調劑藥師之身分 證字號或外籍居留證號。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacist_id_number",
       "description_en": ""
     },
     {
@@ -369,7 +369,7 @@
       "length": 9,
       "description_zh": "1. 經加密處理，為辨別醫療機構 (藥局)的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "dispensing medical institution code",
       "description_en": ""
     },
     {
@@ -402,7 +402,7 @@
       "length": 9,
       "description_zh": "1. 經加密處理，為辨別醫療機構 (醫院)的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "original处方医疗机构代码",
       "description_en": ""
     },
     {
@@ -441,7 +441,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "co-payment code",
       "description_en": ""
     },
     {
@@ -590,7 +590,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacy_service_fee_code",
       "description_en": ""
     },
     {
@@ -607,7 +607,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "claim reason note",
       "description_en": ""
     }
   ],
@@ -638,12 +638,12 @@
         {
           "code": "5",
           "label_zh": "代辦門診戒菸計畫",
-          "label_en": ""
+          "label_en": "Outpatient smoking cessation plan provided by proxy"
         },
         {
           "code": "D",
           "label_zh": "藥事居家照護",
-          "label_en": ""
+          "label_en": "home care pharmacy services"
         },
         {
           "code": "E",
@@ -659,7 +659,7 @@
         {
           "code": "01",
           "label_zh": "西醫一般案件",
-          "label_en": ""
+          "label_en": "general western medicine case"
         },
         {
           "code": "02",
@@ -669,7 +669,7 @@
         {
           "code": "03",
           "label_zh": "西醫門診手術",
-          "label_en": ""
+          "label_en": "western medicine outpatient surgery"
         },
         {
           "code": "04",
@@ -694,7 +694,7 @@
         {
           "code": "08",
           "label_zh": "慢性病連續處方調劑",
-          "label_en": ""
+          "label_en": "chronic disease续处方调配"
         },
         {
           "code": "09",
@@ -754,7 +754,7 @@
         {
           "code": "11",
           "label_zh": "牙醫一般案件",
-          "label_en": ""
+          "label_en": "general dental case"
         },
         {
           "code": "12",
@@ -764,7 +764,7 @@
         {
           "code": "13",
           "label_zh": "牙醫門診手術",
-          "label_en": ""
+          "label_en": "outpatient surgery by dentist"
         },
         {
           "code": "14",
@@ -789,7 +789,7 @@
         {
           "code": "19",
           "label_zh": "牙醫其他專案",
-          "label_en": ""
+          "label_en": "other dental projects"
         },
         {
           "code": "A3",
@@ -1050,7 +1050,7 @@
         {
           "code": "AB",
           "label_zh": "心臟血管內科",
-          "label_en": ""
+          "label_en": "cardiovascular internal medicine"
         },
         {
           "code": "AC",
@@ -1090,7 +1090,7 @@
         {
           "code": "AJ",
           "label_zh": "胸腔暨重症加護",
-          "label_en": ""
+          "label_en": "thoracic_and_intensive_care"
         },
         {
           "code": "AK",
@@ -1105,7 +1105,7 @@
         {
           "code": "BB",
           "label_zh": "心臟血管外科",
-          "label_en": ""
+          "label_en": "cardiovascular surgery"
         },
         {
           "code": "BC",
@@ -1145,12 +1145,12 @@
         {
           "code": "FB",
           "label_zh": "放射腫瘤科學科",
-          "label_en": ""
+          "label_en": "radiation oncology"
         },
         {
           "code": "GA",
           "label_zh": "口腔顎面外科",
-          "label_en": ""
+          "label_en": "oral and maxillofacial surgery"
         },
         {
           "code": "HA",
@@ -1741,7 +1741,7 @@
         {
           "code": "D",
           "label_zh": "週產期試辦計畫",
-          "label_en": ""
+          "label_en": "trial weekly period plan"
         },
         {
           "code": "E",
@@ -1877,7 +1877,7 @@
         {
           "code": "K00",
           "label_zh": "應自行負擔百分之十",
-          "label_en": ""
+          "label_en": "self-pay ten percent"
         },
         {
           "code": "K20",
@@ -1887,7 +1887,7 @@
         {
           "code": "L00",
           "label_zh": "應自行負擔百分之五",
-          "label_en": ""
+          "label_en": "self-pay five percent"
         },
         {
           "code": "L20",
@@ -1967,12 +1967,12 @@
         {
           "code": "A00",
           "label_zh": "醫學中心；急診",
-          "label_en": ""
+          "label_en": "medical center; emergency department"
         },
         {
           "code": "450",
           "label_zh": "94/7/15起",
-          "label_en": ""
+          "label_en": "94/7/15 on"
         },
         {
           "code": "A03",
@@ -2077,7 +2077,7 @@
         {
           "code": "B00",
           "label_zh": "區域醫院；急診",
-          "label_en": ""
+          "label_en": "emergency department of regional hospital"
         },
         {
           "code": "300",
@@ -2187,7 +2187,7 @@
         {
           "code": "C10",
           "label_zh": "地區醫院；一般門診",
-          "label_en": ""
+          "label_en": "hospital;general outpatient"
         },
         {
           "code": "80",
@@ -2282,7 +2282,7 @@
         {
           "code": "D12",
           "label_zh": "基層院所；一般門診",
-          "label_en": ""
+          "label_en": "primary care; general outpatient"
         },
         {
           "code": "D14",
@@ -2575,7 +2575,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "co-payment code"
     },
     "CURE_ITEM_NO1": {
       "field_zh": "特定治療項目代號",
@@ -2613,7 +2613,7 @@
         {
           "code": "32",
           "label_zh": "全身性濕疹 M",
-          "label_en": ""
+          "label_en": "generalized eczema M"
         },
         {
           "code": "02",
@@ -2628,7 +2628,7 @@
         {
           "code": "03",
           "label_zh": "慢性肝炎 G",
-          "label_en": ""
+          "label_en": "chronic hepatitis G"
         },
         {
           "code": "34",
@@ -2638,12 +2638,12 @@
         {
           "code": "04",
           "label_zh": "慢性腎臟炎 H",
-          "label_en": ""
+          "label_en": "chronic nephritis H"
         },
         {
           "code": "35",
           "label_zh": "視網膜變性 J",
-          "label_en": ""
+          "label_en": "retinal degeneration J"
         },
         {
           "code": "05",
@@ -2653,7 +2653,7 @@
         {
           "code": "36",
           "label_zh": "黃斑部變性 J",
-          "label_en": ""
+          "label_en": "macular degeneration J"
         },
         {
           "code": "06",
@@ -2663,7 +2663,7 @@
         {
           "code": "37",
           "label_zh": "葡萄膜炎 J",
-          "label_en": ""
+          "label_en": "uveitis J"
         },
         {
           "code": "07",
@@ -2673,17 +2673,17 @@
         {
           "code": "38",
           "label_zh": "玻璃體出血 J",
-          "label_en": ""
+          "label_en": "vitreous hemorrhage J"
         },
         {
           "code": "08",
           "label_zh": "消化性潰瘍 G",
-          "label_en": ""
+          "label_en": "peptic ulcer D"
         },
         {
           "code": "39",
           "label_zh": "角膜變性 J",
-          "label_en": ""
+          "label_en": "corneal degeneration J"
         },
         {
           "code": "09",
@@ -2693,12 +2693,12 @@
         {
           "code": "40",
           "label_zh": "慢性貧血 N",
-          "label_en": ""
+          "label_en": "chronic anemia N"
         },
         {
           "code": "10",
           "label_zh": "慢性支氣管炎 F",
-          "label_en": ""
+          "label_en": "Chronic bronchitis F"
         },
         {
           "code": "41",
@@ -2713,7 +2713,7 @@
         {
           "code": "42",
           "label_zh": "子宮內膜異位症 P",
-          "label_en": ""
+          "label_en": "endometriosis P"
         },
         {
           "code": "12",
@@ -2723,7 +2723,7 @@
         {
           "code": "43",
           "label_zh": "泌乳素過高症 B",
-          "label_en": ""
+          "label_en": "hyperprolactinemia B"
         },
         {
           "code": "13",
@@ -2733,17 +2733,17 @@
         {
           "code": "44",
           "label_zh": "內耳前庭病變 O",
-          "label_en": ""
+          "label_en": "inner ear vestibular disorder O"
         },
         {
           "code": "14",
           "label_zh": "腦血管病變 E",
-          "label_en": ""
+          "label_en": "cerebrovascular_abnormality_E"
         },
         {
           "code": "45",
           "label_zh": "慢性鼻竇炎 F",
-          "label_en": ""
+          "label_en": "chronic sinusitis F"
         },
         {
           "code": "15",
@@ -2753,12 +2753,12 @@
         {
           "code": "46",
           "label_zh": "慢性中耳炎 O",
-          "label_en": ""
+          "label_en": "chronic otitis media O"
         },
         {
           "code": "16",
           "label_zh": "巴金森氏症 D",
-          "label_en": ""
+          "label_en": "Parkinson's disease D"
         },
         {
           "code": "47",
@@ -2773,27 +2773,27 @@
         {
           "code": "48",
           "label_zh": "威爾遜氏症 B",
-          "label_en": ""
+          "label_en": "Wilson's disease B"
         },
         {
           "code": "18",
           "label_zh": "慢性膽道炎 G",
-          "label_en": ""
+          "label_en": "chronic cholangitis G"
         },
         {
           "code": "49",
           "label_zh": "肌僵直萎縮症 D",
-          "label_en": ""
+          "label_en": "muscle stiffness atrophy syndrome D"
         },
         {
           "code": "19",
           "label_zh": "高血脂症 B",
-          "label_en": ""
+          "label_en": "hyperlipidemia B"
         },
         {
           "code": "50",
           "label_zh": "多發性肌炎 I",
-          "label_en": ""
+          "label_en": "polymyositis I"
         },
         {
           "code": "20",
@@ -2803,12 +2803,12 @@
         {
           "code": "51",
           "label_zh": "重症肌無力 D",
-          "label_en": ""
+          "label_en": "severe myasthenia gravis D"
         },
         {
           "code": "21",
           "label_zh": "慢性阻塞性肺炎 F",
-          "label_en": ""
+          "label_en": "chronic obstructive pulmonary disease F"
         },
         {
           "code": "52",
@@ -2818,7 +2818,7 @@
         {
           "code": "22",
           "label_zh": "支氣管擴張症 F",
-          "label_en": ""
+          "label_en": "Bronchiectasis F"
         },
         {
           "code": "53",
@@ -2878,12 +2878,12 @@
         {
           "code": "64",
           "label_zh": "癩病（麻瘋） P",
-          "label_en": ""
+          "label_en": "leprosy ( Hansen's disease ) P"
         },
         {
           "code": "99",
           "label_zh": "異位性皮膚炎",
-          "label_en": ""
+          "label_en": "atopic dermatitis"
         },
         {
           "code": "65",
@@ -2903,7 +2903,7 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P",
-          "label_en": ""
+          "label_en": "menopausal syndrome P"
         },
         {
           "code": "A1",
@@ -2918,7 +2918,7 @@
         {
           "code": "A2",
           "label_zh": "耳鼻喉科檢查",
-          "label_en": ""
+          "label_en": "ENT examination"
         },
         {
           "code": "69",
@@ -2958,7 +2958,7 @@
         {
           "code": "A7",
           "label_zh": "特殊造影檢查",
-          "label_en": ""
+          "label_en": "special imaging examination"
         },
         {
           "code": "73",
@@ -2993,7 +2993,7 @@
         {
           "code": "D1",
           "label_zh": "癌症放射線治療",
-          "label_en": ""
+          "label_en": "Cancer Radiotherapy"
         },
         {
           "code": "78",
@@ -3003,7 +3003,7 @@
         {
           "code": "D2",
           "label_zh": "癌症化學治療",
-          "label_en": ""
+          "label_en": "cancer chemotherapy"
         },
         {
           "code": "79",
@@ -3018,7 +3018,7 @@
         {
           "code": "81",
           "label_zh": "脊髓損傷 D",
-          "label_en": ""
+          "label_en": "spinal cord injury D"
         },
         {
           "code": "D4",
@@ -3028,7 +3028,7 @@
         {
           "code": "82",
           "label_zh": "過敏性鼻炎 F",
-          "label_en": ""
+          "label_en": "allergic rhinitis F"
         },
         {
           "code": "D5",
@@ -3043,12 +3043,12 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment"
         },
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M"
         },
         {
           "code": "D7",
@@ -3058,7 +3058,7 @@
         {
           "code": "85",
           "label_zh": "類澱粉沉積症 M",
-          "label_en": ""
+          "label_en": "amyloidosis M"
         },
         {
           "code": "D8",
@@ -3481,7 +3481,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "specific treatment item code"
     },
     "CURE_ITEM_NO2": {
       "field_zh": "特定治療項目代號",
@@ -3519,7 +3519,7 @@
         {
           "code": "32",
           "label_zh": "全身性濕疹 M",
-          "label_en": ""
+          "label_en": "generalized eczema M"
         },
         {
           "code": "02",
@@ -3534,7 +3534,7 @@
         {
           "code": "03",
           "label_zh": "慢性肝炎 G",
-          "label_en": ""
+          "label_en": "chronic hepatitis G"
         },
         {
           "code": "34",
@@ -3544,12 +3544,12 @@
         {
           "code": "04",
           "label_zh": "慢性腎臟炎 H",
-          "label_en": ""
+          "label_en": "chronic nephritis H"
         },
         {
           "code": "35",
           "label_zh": "視網膜變性 J",
-          "label_en": ""
+          "label_en": "retinal degeneration J"
         },
         {
           "code": "05",
@@ -3559,7 +3559,7 @@
         {
           "code": "36",
           "label_zh": "黃斑部變性 J",
-          "label_en": ""
+          "label_en": "macular degeneration J"
         },
         {
           "code": "06",
@@ -3569,7 +3569,7 @@
         {
           "code": "37",
           "label_zh": "葡萄膜炎 J",
-          "label_en": ""
+          "label_en": "uveitis J"
         },
         {
           "code": "07",
@@ -3579,17 +3579,17 @@
         {
           "code": "38",
           "label_zh": "玻璃體出血 J",
-          "label_en": ""
+          "label_en": "vitreous hemorrhage J"
         },
         {
           "code": "08",
           "label_zh": "消化性潰瘍 G",
-          "label_en": ""
+          "label_en": "peptic ulcer D"
         },
         {
           "code": "39",
           "label_zh": "角膜變性 J",
-          "label_en": ""
+          "label_en": "corneal degeneration J"
         },
         {
           "code": "09",
@@ -3599,12 +3599,12 @@
         {
           "code": "40",
           "label_zh": "慢性貧血 N",
-          "label_en": ""
+          "label_en": "chronic anemia N"
         },
         {
           "code": "10",
           "label_zh": "慢性支氣管炎 F",
-          "label_en": ""
+          "label_en": "Chronic bronchitis F"
         },
         {
           "code": "41",
@@ -3619,7 +3619,7 @@
         {
           "code": "42",
           "label_zh": "子宮內膜異位症 P",
-          "label_en": ""
+          "label_en": "endometriosis P"
         },
         {
           "code": "12",
@@ -3629,7 +3629,7 @@
         {
           "code": "43",
           "label_zh": "泌乳素過高症 B",
-          "label_en": ""
+          "label_en": "hyperprolactinemia B"
         },
         {
           "code": "13",
@@ -3639,17 +3639,17 @@
         {
           "code": "44",
           "label_zh": "內耳前庭病變 O",
-          "label_en": ""
+          "label_en": "inner ear vestibular disorder O"
         },
         {
           "code": "14",
           "label_zh": "腦血管病變 E",
-          "label_en": ""
+          "label_en": "cerebrovascular_abnormality_E"
         },
         {
           "code": "45",
           "label_zh": "慢性鼻竇炎 F",
-          "label_en": ""
+          "label_en": "chronic sinusitis F"
         },
         {
           "code": "15",
@@ -3659,12 +3659,12 @@
         {
           "code": "46",
           "label_zh": "慢性中耳炎 O",
-          "label_en": ""
+          "label_en": "chronic otitis media O"
         },
         {
           "code": "16",
           "label_zh": "巴金森氏症 D",
-          "label_en": ""
+          "label_en": "Parkinson's disease D"
         },
         {
           "code": "47",
@@ -3679,27 +3679,27 @@
         {
           "code": "48",
           "label_zh": "威爾遜氏症 B",
-          "label_en": ""
+          "label_en": "Wilson's disease B"
         },
         {
           "code": "18",
           "label_zh": "慢性膽道炎 G",
-          "label_en": ""
+          "label_en": "chronic cholangitis G"
         },
         {
           "code": "49",
           "label_zh": "肌僵直萎縮症 D",
-          "label_en": ""
+          "label_en": "muscle stiffness atrophy syndrome D"
         },
         {
           "code": "19",
           "label_zh": "高血脂症 B",
-          "label_en": ""
+          "label_en": "hyperlipidemia B"
         },
         {
           "code": "50",
           "label_zh": "多發性肌炎 I",
-          "label_en": ""
+          "label_en": "polymyositis I"
         },
         {
           "code": "20",
@@ -3709,12 +3709,12 @@
         {
           "code": "51",
           "label_zh": "重症肌無力 D",
-          "label_en": ""
+          "label_en": "severe myasthenia gravis D"
         },
         {
           "code": "21",
           "label_zh": "慢性阻塞性肺炎 F",
-          "label_en": ""
+          "label_en": "chronic obstructive pulmonary disease F"
         },
         {
           "code": "52",
@@ -3724,7 +3724,7 @@
         {
           "code": "22",
           "label_zh": "支氣管擴張症 F",
-          "label_en": ""
+          "label_en": "Bronchiectasis F"
         },
         {
           "code": "53",
@@ -3784,12 +3784,12 @@
         {
           "code": "64",
           "label_zh": "癩病（麻瘋） P",
-          "label_en": ""
+          "label_en": "leprosy ( Hansen's disease ) P"
         },
         {
           "code": "99",
           "label_zh": "異位性皮膚炎",
-          "label_en": ""
+          "label_en": "atopic dermatitis"
         },
         {
           "code": "65",
@@ -3809,7 +3809,7 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P",
-          "label_en": ""
+          "label_en": "menopausal syndrome P"
         },
         {
           "code": "A1",
@@ -3824,7 +3824,7 @@
         {
           "code": "A2",
           "label_zh": "耳鼻喉科檢查",
-          "label_en": ""
+          "label_en": "ENT examination"
         },
         {
           "code": "69",
@@ -3864,7 +3864,7 @@
         {
           "code": "A7",
           "label_zh": "特殊造影檢查",
-          "label_en": ""
+          "label_en": "special imaging examination"
         },
         {
           "code": "73",
@@ -3899,7 +3899,7 @@
         {
           "code": "D1",
           "label_zh": "癌症放射線治療",
-          "label_en": ""
+          "label_en": "Cancer Radiotherapy"
         },
         {
           "code": "78",
@@ -3909,7 +3909,7 @@
         {
           "code": "D2",
           "label_zh": "癌症化學治療",
-          "label_en": ""
+          "label_en": "cancer chemotherapy"
         },
         {
           "code": "79",
@@ -3924,7 +3924,7 @@
         {
           "code": "81",
           "label_zh": "脊髓損傷 D",
-          "label_en": ""
+          "label_en": "spinal cord injury D"
         },
         {
           "code": "D4",
@@ -3934,7 +3934,7 @@
         {
           "code": "82",
           "label_zh": "過敏性鼻炎 F",
-          "label_en": ""
+          "label_en": "allergic rhinitis F"
         },
         {
           "code": "D5",
@@ -3949,12 +3949,12 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment"
         },
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M"
         },
         {
           "code": "D7",
@@ -3964,7 +3964,7 @@
         {
           "code": "85",
           "label_zh": "類澱粉沉積症 M",
-          "label_en": ""
+          "label_en": "amyloidosis M"
         },
         {
           "code": "D8",
@@ -4387,7 +4387,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "specific treatment item code"
     },
     "CURE_ITEM_NO3": {
       "field_zh": "特定治療項目代號",
@@ -4425,7 +4425,7 @@
         {
           "code": "32",
           "label_zh": "全身性濕疹 M",
-          "label_en": ""
+          "label_en": "generalized eczema M"
         },
         {
           "code": "02",
@@ -4440,7 +4440,7 @@
         {
           "code": "03",
           "label_zh": "慢性肝炎 G",
-          "label_en": ""
+          "label_en": "chronic hepatitis G"
         },
         {
           "code": "34",
@@ -4450,12 +4450,12 @@
         {
           "code": "04",
           "label_zh": "慢性腎臟炎 H",
-          "label_en": ""
+          "label_en": "chronic nephritis H"
         },
         {
           "code": "35",
           "label_zh": "視網膜變性 J",
-          "label_en": ""
+          "label_en": "retinal degeneration J"
         },
         {
           "code": "05",
@@ -4465,7 +4465,7 @@
         {
           "code": "36",
           "label_zh": "黃斑部變性 J",
-          "label_en": ""
+          "label_en": "macular degeneration J"
         },
         {
           "code": "06",
@@ -4475,7 +4475,7 @@
         {
           "code": "37",
           "label_zh": "葡萄膜炎 J",
-          "label_en": ""
+          "label_en": "uveitis J"
         },
         {
           "code": "07",
@@ -4485,17 +4485,17 @@
         {
           "code": "38",
           "label_zh": "玻璃體出血 J",
-          "label_en": ""
+          "label_en": "vitreous hemorrhage J"
         },
         {
           "code": "08",
           "label_zh": "消化性潰瘍 G",
-          "label_en": ""
+          "label_en": "peptic ulcer D"
         },
         {
           "code": "39",
           "label_zh": "角膜變性 J",
-          "label_en": ""
+          "label_en": "corneal degeneration J"
         },
         {
           "code": "09",
@@ -4505,12 +4505,12 @@
         {
           "code": "40",
           "label_zh": "慢性貧血 N",
-          "label_en": ""
+          "label_en": "chronic anemia N"
         },
         {
           "code": "10",
           "label_zh": "慢性支氣管炎 F",
-          "label_en": ""
+          "label_en": "Chronic bronchitis F"
         },
         {
           "code": "41",
@@ -4525,7 +4525,7 @@
         {
           "code": "42",
           "label_zh": "子宮內膜異位症 P",
-          "label_en": ""
+          "label_en": "endometriosis P"
         },
         {
           "code": "12",
@@ -4535,7 +4535,7 @@
         {
           "code": "43",
           "label_zh": "泌乳素過高症 B",
-          "label_en": ""
+          "label_en": "hyperprolactinemia B"
         },
         {
           "code": "13",
@@ -4545,17 +4545,17 @@
         {
           "code": "44",
           "label_zh": "內耳前庭病變 O",
-          "label_en": ""
+          "label_en": "inner ear vestibular disorder O"
         },
         {
           "code": "14",
           "label_zh": "腦血管病變 E",
-          "label_en": ""
+          "label_en": "cerebrovascular_abnormality_E"
         },
         {
           "code": "45",
           "label_zh": "慢性鼻竇炎 F",
-          "label_en": ""
+          "label_en": "chronic sinusitis F"
         },
         {
           "code": "15",
@@ -4565,12 +4565,12 @@
         {
           "code": "46",
           "label_zh": "慢性中耳炎 O",
-          "label_en": ""
+          "label_en": "chronic otitis media O"
         },
         {
           "code": "16",
           "label_zh": "巴金森氏症 D",
-          "label_en": ""
+          "label_en": "Parkinson's disease D"
         },
         {
           "code": "47",
@@ -4585,27 +4585,27 @@
         {
           "code": "48",
           "label_zh": "威爾遜氏症 B",
-          "label_en": ""
+          "label_en": "Wilson's disease B"
         },
         {
           "code": "18",
           "label_zh": "慢性膽道炎 G",
-          "label_en": ""
+          "label_en": "chronic cholangitis G"
         },
         {
           "code": "49",
           "label_zh": "肌僵直萎縮症 D",
-          "label_en": ""
+          "label_en": "muscle stiffness atrophy syndrome D"
         },
         {
           "code": "19",
           "label_zh": "高血脂症 B",
-          "label_en": ""
+          "label_en": "hyperlipidemia B"
         },
         {
           "code": "50",
           "label_zh": "多發性肌炎 I",
-          "label_en": ""
+          "label_en": "polymyositis I"
         },
         {
           "code": "20",
@@ -4615,12 +4615,12 @@
         {
           "code": "51",
           "label_zh": "重症肌無力 D",
-          "label_en": ""
+          "label_en": "severe myasthenia gravis D"
         },
         {
           "code": "21",
           "label_zh": "慢性阻塞性肺炎 F",
-          "label_en": ""
+          "label_en": "chronic obstructive pulmonary disease F"
         },
         {
           "code": "52",
@@ -4630,7 +4630,7 @@
         {
           "code": "22",
           "label_zh": "支氣管擴張症 F",
-          "label_en": ""
+          "label_en": "Bronchiectasis F"
         },
         {
           "code": "53",
@@ -4690,12 +4690,12 @@
         {
           "code": "64",
           "label_zh": "癩病（麻瘋） P",
-          "label_en": ""
+          "label_en": "leprosy ( Hansen's disease ) P"
         },
         {
           "code": "99",
           "label_zh": "異位性皮膚炎",
-          "label_en": ""
+          "label_en": "atopic dermatitis"
         },
         {
           "code": "65",
@@ -4715,7 +4715,7 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P",
-          "label_en": ""
+          "label_en": "menopausal syndrome P"
         },
         {
           "code": "A1",
@@ -4730,7 +4730,7 @@
         {
           "code": "A2",
           "label_zh": "耳鼻喉科檢查",
-          "label_en": ""
+          "label_en": "ENT examination"
         },
         {
           "code": "69",
@@ -4770,7 +4770,7 @@
         {
           "code": "A7",
           "label_zh": "特殊造影檢查",
-          "label_en": ""
+          "label_en": "special imaging examination"
         },
         {
           "code": "73",
@@ -4805,7 +4805,7 @@
         {
           "code": "D1",
           "label_zh": "癌症放射線治療",
-          "label_en": ""
+          "label_en": "Cancer Radiotherapy"
         },
         {
           "code": "78",
@@ -4815,7 +4815,7 @@
         {
           "code": "D2",
           "label_zh": "癌症化學治療",
-          "label_en": ""
+          "label_en": "cancer chemotherapy"
         },
         {
           "code": "79",
@@ -4830,7 +4830,7 @@
         {
           "code": "81",
           "label_zh": "脊髓損傷 D",
-          "label_en": ""
+          "label_en": "spinal cord injury D"
         },
         {
           "code": "D4",
@@ -4840,7 +4840,7 @@
         {
           "code": "82",
           "label_zh": "過敏性鼻炎 F",
-          "label_en": ""
+          "label_en": "allergic rhinitis F"
         },
         {
           "code": "D5",
@@ -4855,12 +4855,12 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment"
         },
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M"
         },
         {
           "code": "D7",
@@ -4870,7 +4870,7 @@
         {
           "code": "85",
           "label_zh": "類澱粉沉積症 M",
-          "label_en": ""
+          "label_en": "amyloidosis M"
         },
         {
           "code": "D8",
@@ -5293,7 +5293,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "specific treatment item code"
     },
     "CURE_ITEM_NO4": {
       "field_zh": "特定治療項目代號",
@@ -5331,7 +5331,7 @@
         {
           "code": "32",
           "label_zh": "全身性濕疹 M",
-          "label_en": ""
+          "label_en": "generalized eczema M"
         },
         {
           "code": "02",
@@ -5346,7 +5346,7 @@
         {
           "code": "03",
           "label_zh": "慢性肝炎 G",
-          "label_en": ""
+          "label_en": "chronic hepatitis G"
         },
         {
           "code": "34",
@@ -5356,12 +5356,12 @@
         {
           "code": "04",
           "label_zh": "慢性腎臟炎 H",
-          "label_en": ""
+          "label_en": "chronic nephritis H"
         },
         {
           "code": "35",
           "label_zh": "視網膜變性 J",
-          "label_en": ""
+          "label_en": "retinal degeneration J"
         },
         {
           "code": "05",
@@ -5371,7 +5371,7 @@
         {
           "code": "36",
           "label_zh": "黃斑部變性 J",
-          "label_en": ""
+          "label_en": "macular degeneration J"
         },
         {
           "code": "06",
@@ -5381,7 +5381,7 @@
         {
           "code": "37",
           "label_zh": "葡萄膜炎 J",
-          "label_en": ""
+          "label_en": "uveitis J"
         },
         {
           "code": "07",
@@ -5391,17 +5391,17 @@
         {
           "code": "38",
           "label_zh": "玻璃體出血 J",
-          "label_en": ""
+          "label_en": "vitreous hemorrhage J"
         },
         {
           "code": "08",
           "label_zh": "消化性潰瘍 G",
-          "label_en": ""
+          "label_en": "peptic ulcer D"
         },
         {
           "code": "39",
           "label_zh": "角膜變性 J",
-          "label_en": ""
+          "label_en": "corneal degeneration J"
         },
         {
           "code": "09",
@@ -5411,12 +5411,12 @@
         {
           "code": "40",
           "label_zh": "慢性貧血 N",
-          "label_en": ""
+          "label_en": "chronic anemia N"
         },
         {
           "code": "10",
           "label_zh": "慢性支氣管炎 F",
-          "label_en": ""
+          "label_en": "Chronic bronchitis F"
         },
         {
           "code": "41",
@@ -5431,7 +5431,7 @@
         {
           "code": "42",
           "label_zh": "子宮內膜異位症 P",
-          "label_en": ""
+          "label_en": "endometriosis P"
         },
         {
           "code": "12",
@@ -5441,7 +5441,7 @@
         {
           "code": "43",
           "label_zh": "泌乳素過高症 B",
-          "label_en": ""
+          "label_en": "hyperprolactinemia B"
         },
         {
           "code": "13",
@@ -5451,17 +5451,17 @@
         {
           "code": "44",
           "label_zh": "內耳前庭病變 O",
-          "label_en": ""
+          "label_en": "inner ear vestibular disorder O"
         },
         {
           "code": "14",
           "label_zh": "腦血管病變 E",
-          "label_en": ""
+          "label_en": "cerebrovascular_abnormality_E"
         },
         {
           "code": "45",
           "label_zh": "慢性鼻竇炎 F",
-          "label_en": ""
+          "label_en": "chronic sinusitis F"
         },
         {
           "code": "15",
@@ -5471,12 +5471,12 @@
         {
           "code": "46",
           "label_zh": "慢性中耳炎 O",
-          "label_en": ""
+          "label_en": "chronic otitis media O"
         },
         {
           "code": "16",
           "label_zh": "巴金森氏症 D",
-          "label_en": ""
+          "label_en": "Parkinson's disease D"
         },
         {
           "code": "47",
@@ -5491,27 +5491,27 @@
         {
           "code": "48",
           "label_zh": "威爾遜氏症 B",
-          "label_en": ""
+          "label_en": "Wilson's disease B"
         },
         {
           "code": "18",
           "label_zh": "慢性膽道炎 G",
-          "label_en": ""
+          "label_en": "chronic cholangitis G"
         },
         {
           "code": "49",
           "label_zh": "肌僵直萎縮症 D",
-          "label_en": ""
+          "label_en": "muscle stiffness atrophy syndrome D"
         },
         {
           "code": "19",
           "label_zh": "高血脂症 B",
-          "label_en": ""
+          "label_en": "hyperlipidemia B"
         },
         {
           "code": "50",
           "label_zh": "多發性肌炎 I",
-          "label_en": ""
+          "label_en": "polymyositis I"
         },
         {
           "code": "20",
@@ -5521,12 +5521,12 @@
         {
           "code": "51",
           "label_zh": "重症肌無力 D",
-          "label_en": ""
+          "label_en": "severe myasthenia gravis D"
         },
         {
           "code": "21",
           "label_zh": "慢性阻塞性肺炎 F",
-          "label_en": ""
+          "label_en": "chronic obstructive pulmonary disease F"
         },
         {
           "code": "52",
@@ -5536,7 +5536,7 @@
         {
           "code": "22",
           "label_zh": "支氣管擴張症 F",
-          "label_en": ""
+          "label_en": "Bronchiectasis F"
         },
         {
           "code": "53",
@@ -5596,12 +5596,12 @@
         {
           "code": "64",
           "label_zh": "癩病（麻瘋） P",
-          "label_en": ""
+          "label_en": "leprosy ( Hansen's disease ) P"
         },
         {
           "code": "99",
           "label_zh": "異位性皮膚炎",
-          "label_en": ""
+          "label_en": "atopic dermatitis"
         },
         {
           "code": "65",
@@ -5621,7 +5621,7 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P",
-          "label_en": ""
+          "label_en": "menopausal syndrome P"
         },
         {
           "code": "A1",
@@ -5636,7 +5636,7 @@
         {
           "code": "A2",
           "label_zh": "耳鼻喉科檢查",
-          "label_en": ""
+          "label_en": "ENT examination"
         },
         {
           "code": "69",
@@ -5676,7 +5676,7 @@
         {
           "code": "A7",
           "label_zh": "特殊造影檢查",
-          "label_en": ""
+          "label_en": "special imaging examination"
         },
         {
           "code": "73",
@@ -5711,7 +5711,7 @@
         {
           "code": "D1",
           "label_zh": "癌症放射線治療",
-          "label_en": ""
+          "label_en": "Cancer Radiotherapy"
         },
         {
           "code": "78",
@@ -5721,7 +5721,7 @@
         {
           "code": "D2",
           "label_zh": "癌症化學治療",
-          "label_en": ""
+          "label_en": "cancer chemotherapy"
         },
         {
           "code": "79",
@@ -5736,7 +5736,7 @@
         {
           "code": "81",
           "label_zh": "脊髓損傷 D",
-          "label_en": ""
+          "label_en": "spinal cord injury D"
         },
         {
           "code": "D4",
@@ -5746,7 +5746,7 @@
         {
           "code": "82",
           "label_zh": "過敏性鼻炎 F",
-          "label_en": ""
+          "label_en": "allergic rhinitis F"
         },
         {
           "code": "D5",
@@ -5761,12 +5761,12 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment"
         },
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M"
         },
         {
           "code": "D7",
@@ -5776,7 +5776,7 @@
         {
           "code": "85",
           "label_zh": "類澱粉沉積症 M",
-          "label_en": ""
+          "label_en": "amyloidosis M"
         },
         {
           "code": "D8",
@@ -6199,7 +6199,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "specific treatment item code"
     },
     "HOS": {
       "field_zh": "權屬別",
@@ -6512,7 +6512,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",

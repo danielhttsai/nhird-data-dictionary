@@ -60,7 +60,7 @@
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼（如無居留證號碼 請填護照號碼），左靠不足補空白。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's ID number",
       "description_en": ""
     },
     {
@@ -71,7 +71,7 @@
       "length": 1,
       "description_zh": "1：男；2：女；3：其他；9：不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's original gender",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": 5,
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim_birth_year_month",
       "description_en": ""
     },
     {
@@ -104,7 +104,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's current nationality",
       "description_en": "detailed translation explanation"
     },
     {
@@ -137,7 +137,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim_education_level",
       "description_en": "detailed translation explanation"
     },
     {
@@ -148,7 +148,7 @@
       "length": 15,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's disability type",
       "description_en": "detailed translation explanation"
     },
     {
@@ -204,7 +204,7 @@
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居留 證號碼請填護照號碼），左靠不足補 空白。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relative ID number",
       "description_en": ""
     },
     {
@@ -215,7 +215,7 @@
       "length": 1,
       "description_zh": "1：男；2：女；3：不詳(社工填寫 時直接選不詳)；9：不詳(用身份證 判斷還是不詳)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relative original file gender",
       "description_en": ""
     },
     {
@@ -237,7 +237,7 @@
       "length": 5,
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Relative's Date of Birth",
       "description_en": ""
     },
     {
@@ -259,7 +259,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relationship with victim",
       "description_en": "detailed translation explanation"
     },
     {
@@ -277,7 +277,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "108 year length is 96"
     },
     {
       "seq": 23,
@@ -309,7 +309,7 @@
       "length": 10,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "place of incident township",
       "description_en": "detailed translation explanation"
     },
     {
@@ -331,8 +331,8 @@
       "length": 4,
       "description_zh": "西元年YYYY",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "report year",
+      "description_en": "year_of_the_gregorian_calendar"
     },
     {
       "seq": 28,
@@ -342,7 +342,7 @@
       "length": 2,
       "description_zh": "MM",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "report month",
       "description_en": ""
     },
     {
@@ -370,7 +370,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "most recent occurrence date",
       "description_en": ""
     }
   ],
@@ -421,7 +421,7 @@
         {
           "code": "E",
           "label_zh": "保育人員 U 親友",
-          "label_en": ""
+          "label_en": "nursery staff U family member"
         },
         {
           "code": "F",
@@ -446,17 +446,17 @@
         {
           "code": "J",
           "label_zh": "勞政人員 Z 其他",
-          "label_en": ""
+          "label_en": "employees other"
         },
         {
           "code": "K",
           "label_zh": "憲兵 z 其他",
-          "label_en": ""
+          "label_en": "military z other"
         },
         {
           "code": "L",
           "label_zh": "移民業務人員",
-          "label_en": ""
+          "label_en": "immigration officer"
         }
       ],
       "field_en": "reporter"
@@ -477,7 +477,7 @@
         {
           "code": "C",
           "label_zh": "醫院 Q 戶政",
-          "label_en": ""
+          "label_en": "hospital claims"
         },
         {
           "code": "D",
@@ -487,12 +487,12 @@
         {
           "code": "E",
           "label_zh": "社政 U 憲兵隊",
-          "label_en": ""
+          "label_en": "social welfare U conscript team"
         },
         {
           "code": "F",
           "label_zh": "教育 X 未填",
-          "label_en": ""
+          "label_en": "education X not filled"
         },
         {
           "code": "G",
@@ -616,7 +616,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "victim's current nationality"
     },
     "OCCUPATION": {
       "field_zh": "被害人職業",
@@ -624,22 +624,22 @@
         {
           "code": "A",
           "label_zh": "農林漁牧 J 教",
-          "label_en": ""
+          "label_en": "agriculture, forestry, fisheries J education"
         },
         {
           "code": "B",
           "label_zh": "工礦業 K 軍",
-          "label_en": ""
+          "label_en": "industrial and mining K military"
         },
         {
           "code": "C",
           "label_zh": "商業 L 警",
-          "label_en": ""
+          "label_en": "commercial L alert"
         },
         {
           "code": "D",
           "label_zh": "服務業 M 臨時工",
-          "label_en": ""
+          "label_en": "service industry M temporary worker"
         },
         {
           "code": "E",
@@ -649,22 +649,22 @@
         {
           "code": "F",
           "label_zh": "家庭管理 O 公",
-          "label_en": ""
+          "label_en": "family management O public"
         },
         {
           "code": "G",
           "label_zh": "學生 P 專門職業",
-          "label_en": ""
+          "label_en": "student P occupation"
         },
         {
           "code": "H",
           "label_zh": "無工作 X 其他",
-          "label_en": ""
+          "label_en": "unemployed other"
         },
         {
           "code": "I",
           "label_zh": "退休 Y 不詳",
-          "label_en": ""
+          "label_en": "retired Y unspecified"
         }
       ],
       "field_en": "victim's occupation"
@@ -675,7 +675,7 @@
         {
           "code": "A",
           "label_zh": "不識字 G 大學",
-          "label_en": ""
+          "label_en": "illiterate G university"
         },
         {
           "code": "B",
@@ -690,7 +690,7 @@
         {
           "code": "D",
           "label_zh": "國中 J 大專以上",
-          "label_en": ""
+          "label_en": "junior high school level or above"
         },
         {
           "code": "E",
@@ -700,10 +700,10 @@
         {
           "code": "F",
           "label_zh": "專科 Z 不詳",
-          "label_en": ""
+          "label_en": "specialty Z unspecified"
         }
       ],
-      "field_en": ""
+      "field_en": "victim_education_level"
     },
     "SCHOOL": {
       "field_zh": "就學狀況",
@@ -711,7 +711,7 @@
         {
           "code": "A",
           "label_zh": "未入學 E 休學",
-          "label_en": ""
+          "label_en": "not enrolled E on leave of absence"
         },
         {
           "code": "B",
@@ -721,7 +721,7 @@
         {
           "code": "C",
           "label_zh": "就學中 Z 不詳",
-          "label_en": ""
+          "label_en": "studying Z unknown"
         },
         {
           "code": "D",
@@ -736,7 +736,7 @@
         {
           "code": "A",
           "label_zh": "學生 C 非學生",
-          "label_en": ""
+          "label_en": "student C non-student"
         },
         {
           "code": "B",
@@ -752,7 +752,7 @@
         {
           "code": "A",
           "label_zh": "配偶 M 網友",
-          "label_en": ""
+          "label_en": "spouse M online friend"
         },
         {
           "code": "B",
@@ -792,17 +792,17 @@
         {
           "code": "J",
           "label_zh": "普通朋友 Y 其他",
-          "label_en": ""
+          "label_en": "ordinary friend Y others"
         },
         {
           "code": "K",
           "label_zh": "同事 Z 不詳",
-          "label_en": ""
+          "label_en": "colleague Z not specified"
         },
         {
           "code": "L",
           "label_zh": "同學 M 網友",
-          "label_en": ""
+          "label_en": "classmate M net friend"
         },
         {
           "code": "108",
@@ -812,22 +812,22 @@
         {
           "code": "A",
           "label_zh": "婚姻中 X 不認識",
-          "label_en": ""
+          "label_en": "marriage status X unknown"
         },
         {
           "code": "B",
           "label_zh": "離婚 Y 其他",
-          "label_en": ""
+          "label_en": "divorce Y others"
         },
         {
           "code": "C",
           "label_zh": "同居伴侶 9 不詳",
-          "label_en": ""
+          "label_en": "cohabiting partner 9 unknown"
         },
         {
           "code": "D",
           "label_zh": "曾為同居伴侶",
-          "label_en": ""
+          "label_en": "cohabiting with partner"
         }
       ],
       "field_en": "relationship"
@@ -931,7 +931,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "victim's disability type"
     },
     "OCPLACE": {
       "field_zh": "案發場所",
@@ -1049,7 +1049,7 @@
         {
           "code": "F",
           "label_zh": "補習班 Z 其他",
-          "label_en": ""
+          "label_en": "other Z for tutoring class"
         },
         {
           "code": "G",
@@ -1078,5 +1078,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "Sexual abuse report details"
 }

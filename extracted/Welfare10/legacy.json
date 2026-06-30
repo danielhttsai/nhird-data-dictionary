@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -88,7 +88,7 @@
       "length": 8,
       "description_zh": "西元年YYYYMMDD 定義：截至目前辦理的鑑定日期",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "latest assessment date",
       "description_en": ""
     },
     {
@@ -110,7 +110,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "reassessment date",
       "description_en": ""
     },
     {
@@ -121,7 +121,7 @@
       "length": 2,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "disability category code",
       "description_en": "detailed translation explanation"
     },
     {
@@ -132,7 +132,7 @@
       "length": 1,
       "description_zh": "1：極重度 2：重度 3：中度 4：輕度 5：未符合鑑定資格",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "disability category level",
       "description_en": ""
     },
     {
@@ -143,8 +143,8 @@
       "length": 1,
       "description_zh": "0:舊制，1:新制",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "new system or old system category",
+      "description_en": "0: old system, 1: new system"
     },
     {
       "seq": 11,
@@ -160,7 +160,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "new disability category",
       "description_en": ""
     },
     {
@@ -188,7 +188,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "indigenous status",
       "description_en": ""
     },
     {
@@ -330,5 +330,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "disability data file"
 }

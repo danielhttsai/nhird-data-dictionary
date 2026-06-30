@@ -38,7 +38,7 @@
       "length": 4,
       "description_zh": "A：照顧管理及政策鼓勵服務 B：照顧服務 C：專業服務 D：交通接送服務 E：輔具服務 F：居家無障礙環境改善服務 G：喘息服務 OTHT：營養餐飲服務 YA：居家失能個案家庭醫師 S：短期替代照顧服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "service item type",
       "description_en": ""
     },
     {
@@ -60,7 +60,7 @@
       "length": 2,
       "description_zh": "1：可提供服務 2：無法提供服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "institution admission status",
       "description_en": ""
     },
     {
@@ -82,7 +82,7 @@
       "length": "",
       "description_zh": "A3a2-1-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A3CH3 multiplied by",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": "",
       "description_zh": "A3a2-2-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A3A2CH1 category",
       "description_en": ""
     },
     {
@@ -186,17 +186,17 @@
         {
           "code": "6032",
           "label_zh": "聽覺機能障礙",
-          "label_en": ""
+          "label_en": "hearing impairment"
         },
         {
           "code": "6033",
           "label_zh": "平衡機能障礙",
-          "label_en": ""
+          "label_en": "balance function disorder"
         },
         {
           "code": "603C",
           "label_zh": "慢性精神病患",
-          "label_en": ""
+          "label_en": "chronic mental illness patients"
         },
         {
           "code": "6034",
@@ -216,7 +216,7 @@
         {
           "code": "6037",
           "label_zh": "重要器官失去功能",
-          "label_en": ""
+          "label_en": "major organ dysfunction"
         },
         {
           "code": "6038",
@@ -281,7 +281,7 @@
         {
           "code": "6040ICF",
           "label_zh": "(新制十類)其它類",
-          "label_en": ""
+          "label_en": "new ten categories other"
         },
         {
           "code": "6041ICF",
@@ -291,7 +291,7 @@
         {
           "code": "6030ICF",
           "label_zh": "(新制)多重障礙",
-          "label_en": ""
+          "label_en": "(new system) multiple disabilities"
         },
         {
           "code": "99",
@@ -574,7 +574,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "case-disability category"
     },
     "A5": {
       "field_zh": "居住地清單",
@@ -748,42 +748,42 @@
         {
           "code": "1",
           "label_zh": "配偶 12 父親",
-          "label_en": ""
+          "label_en": "spouse father"
         },
         {
           "code": "2",
           "label_zh": "兄弟 13 母親",
-          "label_en": ""
+          "label_en": "Brothers and mother"
         },
         {
           "code": "3",
           "label_zh": "姊妹 14 岳父母",
-          "label_en": ""
+          "label_en": "sister-in-law 14 in-laws"
         },
         {
           "code": "4",
           "label_zh": "兒子 15 公婆",
-          "label_en": ""
+          "label_en": "Son-in-law and in-laws"
         },
         {
           "code": "5",
           "label_zh": "媳婦 16 祖父",
-          "label_en": ""
+          "label_en": "son-in-law 16 grandfather"
         },
         {
           "code": "6",
           "label_zh": "女兒 17 祖母",
-          "label_en": ""
+          "label_en": "daughter 17 grandmother"
         },
         {
           "code": "7",
           "label_zh": "女婿 18 外祖父",
-          "label_en": ""
+          "label_en": "son-in-law 18 paternal grandfather"
         },
         {
           "code": "8",
           "label_zh": "孫子 19 外祖母",
-          "label_en": ""
+          "label_en": "grandson 19 maternal grandmother"
         },
         {
           "code": "9",
@@ -1021,7 +1021,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "relationship with case"
     }
   },
   "raw_text_first_page": "版本日期：2026/06/26\n失能者個案管理-個案主檔\nWelfare20：W_LTC_CMS_CA100\n資料庫使用手冊\n一、 檔案內容說明\n76,591 筆 (110年)\n檔案代號 W_LTC_CMS_CA100 資料筆數\n108,285 筆 (111年)\n中文檔名 失能者個案管理-個案主檔 英文檔名 無\n10.6MB (110 年)\n檔案大小 欄位數 21\n15.0MB (111 年)\n譯碼簿\n屬性 歷史檔 週期 年 2026/06/26 初版\n更新日期\n1. 資料所屬單位為衛福部長期照顧司，聯絡窗口資訊：\n財團法人國家衛生研究院 張小姐\n電話： (05)620-4000 分機 51245\n資料描述\n電子信箱： changyw@nhri.edu.tw。\n2. 資料年度為 2021、2022年。\n3. 本資料庫收錄個案皆符合失能資格。\n1. 本檔案僅能與下方「主鍵與比對欄位」說明的檔案串檔，本手冊末頁有串檔說明\n附件，再請參考。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n注意事項\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n本檔案與居家醫師個案指派單（W_LTC_CMS_FH100）、照顧計畫-輔具\n主鍵與\n(W_LTC_CMS_QD113)、失能者個案管理-評估/計畫(W_LTC_CMS_CA110)、照會單\n比對欄位\n(W_LTC_CMS_QD111)比對之唯一鍵值為流水號：OBJID。",

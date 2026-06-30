@@ -82,7 +82,7 @@
       "length": 1,
       "description_zh": "記錄個案至申報醫院首次為此癌症 就診時的癌症診療情境，詳欄位(變 項)譯碼(二)【個案分類(CLASS)對照 表(1) 診斷狀態分類(CLASS_D)對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis status classification",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": 1,
       "description_zh": "記錄此個案在申報時的治療狀態， 詳欄位(變項)譯碼(二)【個案分類 (CLASS)對照表(2) 治療狀態分類 (CLASS_T)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "treatment status classification",
       "description_en": ""
     },
     {
@@ -104,7 +104,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：個案因此癌症至申",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first visit date",
       "description_en": ""
     },
     {
@@ -115,7 +115,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：最初診斷日期是指 此癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳 年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "initial diagnosis date",
       "description_en": ""
     },
     {
@@ -170,7 +170,7 @@
       "length": 1,
       "description_zh": "收錄實質腫瘤於首次治療前的分級/ 分化，描述腫瘤和正常組織的相似 程度。各癌別編碼原則詳欄位(變項) 譯碼(二十一)【分級/分化對照表(1) 臨床分級/分化(GRADE_C)對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical_grade_differentiation",
       "description_en": ""
     },
     {
@@ -181,7 +181,7 @@
       "length": 1,
       "description_zh": "收錄實質腫瘤於原發部位手術之後 的分級/分化，描述腫瘤和正常組織 的相似程度。各癌別編碼原則請詳 欄位(變項)譯碼(二十一)【分級/分化 對照表(2) 病理分級/分化 (GRADE_P)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Pathological Grade/Differentiation",
       "description_en": ""
     },
     {
@@ -192,7 +192,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(四)【癌症確診方 式(CONFIRM)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis method for cancer",
       "description_en": ""
     },
     {
@@ -214,7 +214,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在申報醫 院最早針對癌症進行手術的日期。 00000000：沒有進行任何手術、於 屍體解剖時才診斷為癌症。 99999999：不知道個案是否有接受 手術治療、個案有接受手術治療但 是接受手術治療的日期不清楚、僅 由死亡證明書得知個案有癌症。 年不詳：9999 月不詳：99 日不 詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first surgery date",
       "description_en": ""
     },
     {
@@ -236,7 +236,7 @@
       "length": 8,
       "description_zh": "記錄在申報醫院的首次療程中，進 行放射治療的開始日期，詳欄位(變 項)譯碼(六)【放射治療開始日期 (DRT_1ST)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Radiotherapy start date",
       "description_en": ""
     },
     {
@@ -247,7 +247,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(七)【放射治療機 構(RTINSTI)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiation therapy institution",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": 2,
       "description_zh": "記錄個案於申報醫院首次療程中， 所給予化學治療相關情形，詳欄位 (變項)譯碼(八)【申報醫院化學治療 (CHEM_H)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reported chemotherapy",
       "description_en": ""
     },
     {
@@ -302,7 +302,7 @@
       "length": 2,
       "description_zh": "記載申報醫院於首次療程中，所給 予免疫治療的相關情形，詳欄位(變",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reported immunotherapy",
       "description_en": ""
     },
     {
@@ -346,7 +346,7 @@
       "length": 2,
       "description_zh": "記錄個案在申報醫院首次治療時， 給予標靶治療情形，詳欄位(變項)譯 碼(十六)【申報醫院標靶治療 (TARGET_H)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reported targeted therapy",
       "description_en": ""
     },
     {
@@ -368,7 +368,7 @@
       "length": 1,
       "description_zh": "申報醫院為緩解或減輕個案症狀所 提供之照護，包括手術治療、放射 治療、全身性治療(化學治療、荷爾 蒙治療或其他全身性藥物)及疼痛控 制治療，詳欄位(變項)譯碼(十八) 【申報醫院緩和照護(PALLI_H)對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reported palliative care",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十)【其他治療",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other treatment start date",
       "description_en": ""
     },
     {
@@ -456,7 +456,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {

@@ -54,7 +54,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 4,
@@ -108,7 +108,7 @@
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前2碼，詳 權屬別（HOS）譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     },
     {
@@ -120,7 +120,7 @@
       "description_zh": "詳健保局網站。",
       "available_notes": [],
       "name_zh_en": "drug ID",
-      "description_en": ""
+      "description_en": "for more details, visit the NHI website."
     },
     {
       "seq": 10,
@@ -218,7 +218,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "drug usage frequency",
       "description_en": ""
     },
     {
@@ -251,7 +251,7 @@
         {
           "code": "2",
           "label_zh": "慢性病連續處方調劑",
-          "label_en": ""
+          "label_en": "chronic disease续处方调配"
         },
         {
           "code": "3",
@@ -276,7 +276,7 @@
         {
           "code": "D",
           "label_zh": "藥事居家照護",
-          "label_en": ""
+          "label_en": "home care pharmacy services"
         },
         {
           "code": "E",
@@ -327,7 +327,7 @@
         {
           "code": "7",
           "label_zh": "委託代（轉）檢",
-          "label_en": ""
+          "label_en": "commissioned inspection"
         },
         {
           "code": "8",
@@ -357,7 +357,7 @@
         {
           "code": "C",
           "label_zh": "急診治療起迄時間",
-          "label_en": ""
+          "label_en": "ED treatment start and end time"
         },
         {
           "code": "D",
@@ -397,7 +397,7 @@
         {
           "code": "Y",
           "label_zh": "器官捐贈來源之資訊",
-          "label_en": ""
+          "label_en": "donation source of organ"
         },
         {
           "code": "Z",
@@ -438,22 +438,22 @@
         {
           "code": "QDAM",
           "label_zh": "每日一次上午使用",
-          "label_en": ""
+          "label_en": "used once daily in the morning"
         },
         {
           "code": "QDPM",
           "label_zh": "每日一次下午使用",
-          "label_en": ""
+          "label_en": "once daily in the afternoon"
         },
         {
           "code": "QDHS",
           "label_zh": "每日一次睡前使用",
-          "label_en": ""
+          "label_en": "used once daily before bedtime"
         },
         {
           "code": "QN",
           "label_zh": "每晚使用一次",
-          "label_en": ""
+          "label_en": "once a night"
         },
         {
           "code": "BID",
@@ -481,7 +481,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "drug usage frequency"
     },
     "DRUG_PATH": {
       "field_zh": "給藥途徑/作用部位",
@@ -534,7 +534,7 @@
         {
           "code": "IE",
           "label_zh": "脊髓硬膜內治射",
-          "label_en": ""
+          "label_en": "spinal_cord_dura_mater_injection"
         },
         {
           "code": "IM",
@@ -569,12 +569,12 @@
         {
           "code": "IVD",
           "label_zh": "靜脈點滴滴入",
-          "label_en": ""
+          "label_en": "intravenous drip administration"
         },
         {
           "code": "IVI",
           "label_zh": "玻璃体內注射",
-          "label_en": ""
+          "label_en": "vitreous cavity injection"
         },
         {
           "code": "IVP",
@@ -985,7 +985,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所",
-          "label_en": ""
+          "label_en": "medical foundation clinic"
         },
         {
           "code": "41",

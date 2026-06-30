@@ -60,7 +60,7 @@
       "description_zh": "經加密處理。",
       "available_notes": [],
       "name_zh_en": "reporting date",
-      "description_en": ""
+      "description_en": "encrypted."
     },
     {
       "seq": 4,
@@ -98,7 +98,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -120,7 +120,7 @@
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼， 詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     },
     {
@@ -242,7 +242,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "drug usage frequency",
       "description_en": ""
     },
     {
@@ -275,7 +275,7 @@
       "length": 15,
       "description_zh": "1. 若醫令為會診費則此欄為必要欄 位(請填會診科別) 2. 若醫令代碼為註5之診療項目者， 則此欄為必要欄位。診療之部位代 碼：右側填R、左側填L、雙側填",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "consulting department/therapy site",
       "description_en": ""
     },
     {
@@ -331,7 +331,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "pre-billing record",
       "description_en": ""
     }
   ],
@@ -377,7 +377,7 @@
         {
           "code": "A2",
           "label_zh": "論病例計酬案件",
-          "label_en": ""
+          "label_en": "case payment cases"
         },
         {
           "code": "A3",
@@ -1059,7 +1059,7 @@
         {
           "code": "QDAM",
           "label_zh": "每日一次上午使用",
-          "label_en": ""
+          "label_en": "used once daily in the morning"
         },
         {
           "code": "QDPM",
@@ -1069,12 +1069,12 @@
         {
           "code": "QDHS",
           "label_zh": "每日一次睡前使用",
-          "label_en": ""
+          "label_en": "used once daily before bedtime"
         },
         {
           "code": "QN",
           "label_zh": "每晚使用一次",
-          "label_en": ""
+          "label_en": "once a night"
         },
         {
           "code": "BID",
@@ -1107,7 +1107,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "drug usage frequency"
     },
     "DRUG_PATH": {
       "field_zh": "給藥途徑/作用部位",
@@ -1160,7 +1160,7 @@
         {
           "code": "IE",
           "label_zh": "脊髓硬膜內治射",
-          "label_en": ""
+          "label_en": "spinal_cord_dura_mater_injection"
         },
         {
           "code": "IM",
@@ -1215,7 +1215,7 @@
         {
           "code": "IVD",
           "label_zh": "靜脈點滴滴入",
-          "label_en": ""
+          "label_en": "intravenous drip administration"
         },
         {
           "code": "IVI",
