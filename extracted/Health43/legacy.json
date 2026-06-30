@@ -28,7 +28,7 @@
       "description_zh": "經加密處理，為辨別院 所鍵值",
       "available_notes": [],
       "name_zh_en": "medical institution code",
-      "description_en": ""
+      "description_en": "encrypted value for hospital key"
     },
     {
       "seq": 2,
@@ -39,7 +39,7 @@
       "description_zh": "詳欄位權屬別（HOS） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical institution",
-      "description_en": ""
+      "description_en": "detailed field ownership (HOS) translation explanation"
     },
     {
       "seq": 3,
@@ -94,7 +94,7 @@
       "description_zh": "1：書面 2：媒體 3：連 線",
       "available_notes": [],
       "name_zh_en": "application/reporting method",
-      "description_en": ""
+      "description_en": "1: Written; 2: Media; 3: Online"
     },
     {
       "seq": 8,
@@ -159,7 +159,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "case-based payment medical fee points for mental and physical disability day care",
       "description_en": ""
     },
     {
@@ -392,7 +392,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Total DRG Medical Cost",
       "description_en": "107th year addition."
     }
   ],
@@ -438,7 +438,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -943,7 +943,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -953,27 +953,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -988,7 +988,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",
@@ -1098,5 +1098,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "Taiwan National Health Insurance inpatient fee application main file"
 }

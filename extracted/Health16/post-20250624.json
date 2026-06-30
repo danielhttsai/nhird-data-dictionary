@@ -127,7 +127,7 @@
       "description_zh": "1：分化良好 2：中度分化 3：分化差",
       "available_notes": [],
       "name_zh_en": "grading/differentiation",
-      "description_en": ""
+      "description_en": "1: well-differentiated 2: moderately differentiated 3: poorly differentiated"
     },
     {
       "seq": 11,
@@ -369,7 +369,7 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 33,
@@ -401,7 +401,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域 淋巴結手術範圍(LNSCOPE)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "range of lymph node surgery reported by hospital area",
       "description_en": ""
     },
     {
@@ -412,8 +412,8 @@
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital-reported radiation therapy for primary site",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 37,
@@ -423,7 +423,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (十) 【放射線治療方 式(針對原發部位)(RTTYPE)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy method (targeting primary site)",
       "description_en": ""
     },
     {
@@ -457,7 +457,7 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "hospital-nearby-radiation-therapy-reporting",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 41,
@@ -479,7 +479,7 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "hospital reported chemotherapy",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 43,
@@ -523,7 +523,7 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "hospital申报 hormone therapy",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 47,
@@ -533,8 +533,8 @@
       "length": 1,
       "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "embolization therapy (TACE, TAE)",
+      "description_en": "0: not done 1: hepatic artery chemoembolization treatment"
     },
     {
       "seq": 48,
@@ -556,7 +556,7 @@
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
       "available_notes": [],
       "name_zh_en": "survival status",
-      "description_en": ""
+      "description_en": "0：死亡 1：存活 9：生存状况不明。"
     },
     {
       "seq": 50,
@@ -600,7 +600,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 54,
@@ -611,7 +611,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     },
     {
       "seq": 55,
@@ -665,7 +665,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD， 88888888：病人未接受體外放射線治療 年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital external beam radiotherapy start date",
       "description_en": ""
     },
     {
@@ -676,7 +676,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD， 88888888：病人未進行體外放射線治療 年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital external beam radiotherapy end date",
       "description_en": ""
     },
     {
@@ -698,7 +698,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD， 88888888：病人並未接受賀爾蒙治療 年不詳：9999 月不詳：99 日不詳：99",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "claim hospital hormone therapy start date",
       "description_en": ""
     },
     {

@@ -88,7 +88,7 @@
         }
       ],
       "name_zh_en": "sequence number",
-      "description_en": ""
+      "description_en": "Field format changed to numeric starting from 2017."
     },
     {
       "seq": 6,
@@ -203,7 +203,7 @@
       "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
       "available_notes": [],
       "name_zh_en": "hospital code",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 14,
@@ -382,7 +382,7 @@
         {
           "code": "07",
           "label_zh": "遠距醫療(107.11.8增訂)",
-          "label_en": ""
+          "label_en": "telemedicine - added on Nov. 8, 2017"
         },
         {
           "code": "08",
@@ -397,7 +397,7 @@
         {
           "code": "72",
           "label_zh": "軍保牙醫（87/7-90-2）",
-          "label_en": ""
+          "label_en": "military insurance dental service（87/7-90-2）"
         },
         {
           "code": "73",
@@ -417,7 +417,7 @@
         {
           "code": "DF",
           "label_zh": "代辦登革熱NS1 抗原快速篩檢試劑",
-          "label_en": ""
+          "label_en": "dengue fever NS1 antigen rapid test kit"
         },
         {
           "code": "E1",
@@ -437,7 +437,7 @@
         {
           "code": "M1",
           "label_zh": "三聚氰胺汙染奶製品案件 牙醫門診",
-          "label_en": ""
+          "label_en": "Methylcyclohexaneamine-contaminated dairy products case Dental outpatient/ED"
         },
         {
           "code": "11",
@@ -457,7 +457,7 @@
         {
           "code": "14",
           "label_zh": "牙醫師至無牙醫鄉服務獎勵措施",
-          "label_en": ""
+          "label_en": "incentive measures for dentists serving in toothless areas"
         },
         {
           "code": "15",
@@ -547,7 +547,7 @@
         {
           "code": "28",
           "label_zh": "中醫慢性病連續處方調劑（88.9增訂）",
-          "label_en": ""
+          "label_en": "traditional Chinese medicine chronic disease continuous prescription dispensing (added in 88.9)"
         },
         {
           "code": "29",
@@ -562,7 +562,7 @@
         {
           "code": "31",
           "label_zh": "居家中醫醫療服務(108.6 增訂)",
-          "label_en": ""
+          "label_en": "Home-based Traditional Chinese Medicine services (added in 2018.6)"
         },
         {
           "code": "A3",
@@ -572,7 +572,7 @@
         {
           "code": "B6",
           "label_zh": "職災案件 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "work injury case revised on January 27, 2026"
         },
         {
           "code": "B7",
@@ -582,7 +582,7 @@
         {
           "code": "C4",
           "label_zh": "疾管署(無健保結核病患之醫療費用)",
-          "label_en": ""
+          "label_en": "TB patients without insurance medical expenses"
         },
         {
           "code": "C5",
@@ -597,7 +597,7 @@
         {
           "code": "DZ",
           "label_zh": "衛福部(低收入戶住院膳食費)",
-          "label_en": ""
+          "label_en": "MOHW low-income household hospital meal fee"
         },
         {
           "code": "E1",
@@ -633,7 +633,7 @@
         {
           "code": "4",
           "label_zh": "不得另計價之藥品或診療項目",
-          "label_en": ""
+          "label_en": "unbillable drugs or procedures"
         },
         {
           "code": "5",
@@ -663,12 +663,12 @@
         {
           "code": "A",
           "label_zh": "Tw-DRGs 醫令/門診急診時間醫令",
-          "label_en": ""
+          "label_en": "Tw-DRGs Medical order/outpatient/ED medical order"
         },
         {
           "code": "B",
           "label_zh": "部分負擔代碼改變已切帳申報費用之資料",
-          "label_en": ""
+          "label_en": "copayment code change for data of settled claimed expenses"
         },
         {
           "code": "C",
@@ -698,12 +698,12 @@
         {
           "code": "H",
           "label_zh": "醫療科技評估(HTA)自費診療項目",
-          "label_en": ""
+          "label_en": "HTA self-paid diagnostic and treatment items"
         },
         {
           "code": "K",
           "label_zh": "全日平均護病比達特定閾值加成",
-          "label_en": ""
+          "label_en": "Daily average nurse-to-bed ratio meets specific threshold bonus"
         },
         {
           "code": "X",
@@ -814,7 +814,7 @@
         {
           "code": "97806A",
           "label_zh": "全膝關節置換術(單側)(住院)",
-          "label_en": ""
+          "label_en": "total knee replacement (unilateral) (inpatient)"
         },
         {
           "code": "97807B",
@@ -824,27 +824,27 @@
         {
           "code": "97801K",
           "label_zh": "全股關節置換術(單側)(住院)",
-          "label_en": ""
+          "label_en": "total hip replacement (unilateral) (inpatient)"
         },
         {
           "code": "97802A",
           "label_zh": "全股關節置換術(單側)(住院)",
-          "label_en": ""
+          "label_en": "total hip replacement (unilateral) (inpatient)"
         },
         {
           "code": "97803B",
           "label_zh": "全股關節置換術(單側)(住院)",
-          "label_en": ""
+          "label_en": "total hip replacement (unilateral) (inpatient)"
         },
         {
           "code": "97811K",
           "label_zh": "全股關節置換術(雙側)(住院)",
-          "label_en": ""
+          "label_en": "total hip replacement (bilateral) (inpatient)"
         },
         {
           "code": "97812A",
           "label_zh": "全股關節置換術(雙側)(住院)",
-          "label_en": ""
+          "label_en": "total hip replacement (bilateral) (inpatient)"
         },
         {
           "code": "97813B",
@@ -859,12 +859,12 @@
         {
           "code": "86011C",
           "label_zh": "人工水晶體植入術－第一次植入",
-          "label_en": ""
+          "label_en": "First artificial lens implantation"
         },
         {
           "code": "86012C",
           "label_zh": "人工水晶體植入術－第二次植入",
-          "label_en": ""
+          "label_en": "Second artificial lens implantation"
         },
         {
           "code": "86013C",
@@ -964,7 +964,7 @@
         {
           "code": "97223C",
           "label_zh": "股及腹股溝疝氣手術(單側)(門診)",
-          "label_en": ""
+          "label_en": "Hernia surgery (single side) outpatient"
         },
         {
           "code": "97224P",
@@ -1151,7 +1151,7 @@
         {
           "code": "IPLE",
           "label_zh": "胸膜內注射 106.04新增",
-          "label_en": ""
+          "label_en": "pleural injection (added April 106)"
         },
         {
           "code": "IS",
@@ -1196,7 +1196,7 @@
         {
           "code": "LI",
           "label_zh": "局部注射 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Local injection 2026-01-27 revised"
         },
         {
           "code": "NA",
@@ -1276,7 +1276,7 @@
         {
           "code": "IRRIG",
           "label_zh": "沖洗(irrigation)",
-          "label_en": ""
+          "label_en": "irrigation"
         },
         {
           "code": "EXT",
@@ -1286,7 +1286,7 @@
         {
           "code": "XX",
           "label_zh": "其他 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "other - revised on January 27, 2026"
         }
       ],
       "field_en": "route of administration/therapeutic site"
@@ -1332,7 +1332,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -1832,7 +1832,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -1842,27 +1842,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -1877,7 +1877,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",

@@ -336,7 +336,7 @@
       "description_zh": "此項點數為藥局醫令檔點數合 計。",
       "available_notes": [],
       "name_zh_en": "medication detail points total",
-      "description_en": ""
+      "description_en": "this point value is the total pharmacy order point count."
     },
     {
       "seq": 27,
@@ -469,7 +469,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 37,
@@ -491,7 +491,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 39,
@@ -501,7 +501,7 @@
       "length": 4,
       "description_zh": "醫療機構(藥局)所在鄉鎮 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "dispensing medical institution county city town district code",
       "description_en": ""
     },
     {
@@ -523,7 +523,7 @@
       "length": 4,
       "description_zh": "醫療機構(醫院)所在鄉鎮 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "original prescription medical institution county city township district code",
       "description_en": ""
     },
     {
@@ -557,7 +557,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "pharmacist gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     }
   ],
   "codebooks": {
@@ -582,7 +582,7 @@
         {
           "code": "4",
           "label_zh": "結核病個案DOTS 執行服務費",
-          "label_en": ""
+          "label_en": "TB case DOTS service fee"
         },
         {
           "code": "5",
@@ -638,7 +638,7 @@
         {
           "code": "07",
           "label_zh": "遠距醫療(107.11.8 增訂)",
-          "label_en": ""
+          "label_en": "telemedicine (added on Nov. 8, 107)"
         },
         {
           "code": "08",
@@ -653,7 +653,7 @@
         {
           "code": "72",
           "label_zh": "軍保牙醫(87/7-90-2)",
-          "label_en": ""
+          "label_en": "military insurance dental service (87/7-90-2)"
         },
         {
           "code": "73",
@@ -673,7 +673,7 @@
         {
           "code": "DF",
           "label_zh": "代辦登革熱NS1抗原快速篩檢試劑",
-          "label_en": ""
+          "label_en": "dengue fever NS1 antigen rapid test kit"
         },
         {
           "code": "E1",
@@ -698,7 +698,7 @@
         {
           "code": "M1",
           "label_zh": "三聚氰胺汙染奶製品案件 牙醫門診",
-          "label_en": ""
+          "label_en": "Methylcyclohexaneamine-contaminated dairy products case Dental outpatient/ED"
         },
         {
           "code": "11",
@@ -753,7 +753,7 @@
         {
           "code": "B7",
           "label_zh": "代辦門診戒菸(91/9 增訂)",
-          "label_en": ""
+          "label_en": "Handling Outpatient Smoking Cessation Services (Added on 91/9)"
         },
         {
           "code": "C4",
@@ -803,7 +803,7 @@
         {
           "code": "27",
           "label_zh": "中醫複雜性傷科案件(97.01修訂)",
-          "label_en": ""
+          "label_en": "traditional Chinese medicine complex orthopedic cases (revised in 2007)"
         },
         {
           "code": "28",
@@ -823,12 +823,12 @@
         {
           "code": "31",
           "label_zh": "中醫居家(108.6增訂)",
-          "label_en": ""
+          "label_en": "traditional chinese medicine home care (added in 108.6)"
         },
         {
           "code": "A3",
           "label_zh": "預防保健(99/1/1增訂)",
-          "label_en": ""
+          "label_en": "Preventive Healthcare (Added on 99/1/1)"
         },
         {
           "code": "B6",
@@ -838,7 +838,7 @@
         {
           "code": "B7",
           "label_zh": "代辦門診戒菸(91/9 增訂)",
-          "label_en": ""
+          "label_en": "Handling Outpatient Smoking Cessation Services (Added on 91/9)"
         },
         {
           "code": "C5",
@@ -949,7 +949,7 @@
         {
           "code": "23",
           "label_zh": "職業醫學科(96.07增訂)",
-          "label_en": ""
+          "label_en": "occupational medicine (added in July 96)"
         },
         {
           "code": "40",
@@ -1104,7 +1104,7 @@
         {
           "code": "HA",
           "label_zh": "脊椎骨科 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "spinal surgery 2026-01-27 revised"
         },
         {
           "code": "4",
@@ -1129,7 +1129,7 @@
         {
           "code": "11",
           "label_zh": "IC11 第一次（出生至2個月）",
-          "label_en": ""
+          "label_en": "IC11 First Dose (Birth to 2 Months)"
         },
         {
           "code": "12",
@@ -1139,17 +1139,17 @@
         {
           "code": "13",
           "label_zh": "IC13 第三次（4至 10個月）",
-          "label_en": ""
+          "label_en": "IC13 third dose (4 to 10 months)"
         },
         {
           "code": "14",
           "label_zh": "IC14 第四次（九至十個月）",
-          "label_en": ""
+          "label_en": "IC14 Fourth Visit (Ninth to Tenth Month)"
         },
         {
           "code": "15",
           "label_zh": "IC15 第四次（10個月至一歲半）",
-          "label_en": ""
+          "label_en": "IC15 Fourth time (10 months to one and a half years)"
         },
         {
           "code": "IC16",
@@ -1159,12 +1159,12 @@
         {
           "code": "16",
           "label_zh": "IC17 第六次（二至三歲）",
-          "label_en": ""
+          "label_en": "IC17 Sixth time (ages 2-3)"
         },
         {
           "code": "IC18",
           "label_zh": "第八次（三至四歲） 93.07新增",
-          "label_en": ""
+          "label_en": "Eighth time (3-4 years old) added in July 93.07"
         },
         {
           "code": "IC19",
@@ -1179,7 +1179,7 @@
         {
           "code": "72",
           "label_zh": "IC72 第二次(二至三個月)",
-          "label_en": ""
+          "label_en": "IC72 Second Visit (Two to Three Months)"
         },
         {
           "code": "73",
@@ -1189,12 +1189,12 @@
         {
           "code": "74",
           "label_zh": "IC74 第四次(九至十個月)",
-          "label_en": ""
+          "label_en": "IC74 Fourth Visit (Ninth to Tenth Month)"
         },
         {
           "code": "75",
           "label_zh": "IC75 第五次（一歲六個月）",
-          "label_en": ""
+          "label_en": "IC75 Fifth Visit (Sixteen Months Old)"
         },
         {
           "code": "76",
@@ -1209,17 +1209,17 @@
         {
           "code": "IC78",
           "label_zh": "第八次（三至四歲） 93.07新增",
-          "label_en": ""
+          "label_en": "Eighth time (3-4 years old) added in July 93.07"
         },
         {
           "code": "IC79",
           "label_zh": "第九次（未滿七歲） 兒童牙齒預防保健",
-          "label_en": ""
+          "label_en": "ninth time (under seven years old) child dental preventive health care"
         },
         {
           "code": "IC81",
           "label_zh": "兒童牙齒塗氟保健服務 93.07新增",
-          "label_en": ""
+          "label_en": "children's dental fluoride prophylaxis service added in July 2004"
         },
         {
           "code": "IC82",
@@ -1234,7 +1234,7 @@
         {
           "code": "IC84",
           "label_zh": "弱勢兒童臼齒窩溝封劑 身心障礙學童",
-          "label_en": ""
+          "label_en": "caries sealant for vulnerable children with physical and mental disabilities"
         },
         {
           "code": "IC87",
@@ -1359,7 +1359,7 @@
         {
           "code": "41",
           "label_zh": "IC41 醫療院所-妊娠第一期第一次",
-          "label_en": ""
+          "label_en": "IC41 Medical institution - first visit of first trimester of pregnancy"
         },
         {
           "code": "42",
@@ -1419,7 +1419,7 @@
         {
           "code": "07",
           "label_zh": "IC07 代辦門診戒煙 91.09新增",
-          "label_en": ""
+          "label_en": "IC07 Outpatient smoking cessation service added in 2009.09"
         },
         {
           "code": "08",
@@ -1524,7 +1524,7 @@
         {
           "code": "ICD1",
           "label_zh": "愛滋病個案管理計畫 99/12/1起",
-          "label_en": ""
+          "label_en": "AIDS case management program since 099/12/01"
         },
         {
           "code": "ICDF",
@@ -1564,7 +1564,7 @@
         {
           "code": "A020",
           "label_zh": "A021 網路故障造成讀卡機無法使用",
-          "label_en": ""
+          "label_en": "A021 Network failure causing card reader unusable"
         },
         {
           "code": "A030",
@@ -1705,7 +1705,7 @@
         {
           "code": "G",
           "label_zh": "代辦法定傳染病(開放性肺結核)",
-          "label_en": ""
+          "label_en": "Handling Reportable Communicable Diseases (Open Tuberculosis)"
         },
         {
           "code": "H",
@@ -1725,7 +1725,7 @@
         {
           "code": "M",
           "label_zh": "肝炎試辦計畫 92.10增訂",
-          "label_en": ""
+          "label_en": "hepatitis pilot program (added October 92)"
         },
         {
           "code": "W",
@@ -1816,7 +1816,7 @@
         {
           "code": "C",
           "label_zh": "地區醫院 G 地區醫院 R 中醫醫院",
-          "label_en": ""
+          "label_en": "Area Hospital G Area Hospital R Traditional Chinese Medicine Hospital"
         },
         {
           "code": "D",
@@ -1926,7 +1926,7 @@
         {
           "code": "A03",
           "label_zh": "醫學中心；急診；持身心障礙證明",
-          "label_en": ""
+          "label_en": "medical center; emergency; with disability certificate"
         },
         {
           "code": "A0F",
@@ -1976,7 +1976,7 @@
         {
           "code": "A20",
           "label_zh": "醫學中心；一般門診加藥品或復健 ＊",
-          "label_en": ""
+          "label_en": "medical center; general outpatient drug or rehabilitation charges"
         },
         {
           "code": "A23",
@@ -2036,7 +2036,7 @@
         {
           "code": "B03",
           "label_zh": "區域醫院；急診；持身心障礙證明",
-          "label_en": ""
+          "label_en": "regional hospital; ED; with disability certificate"
         },
         {
           "code": "B0F",
@@ -2046,7 +2046,7 @@
         {
           "code": "B10",
           "label_zh": "區域醫院；一般門診 140 91/9",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 140 91/9"
         },
         {
           "code": "240",
@@ -2081,7 +2081,7 @@
         {
           "code": "B20",
           "label_zh": "區域醫院；一般門診加藥品或復健 ＊",
-          "label_en": ""
+          "label_en": "Regional Hospital; General Outpatient Plus Medicines or Rehabilitation ＊"
         },
         {
           "code": "B23",
@@ -2151,7 +2151,7 @@
         {
           "code": "C13",
           "label_zh": "50 94/7/15 （98.8起）",
-          "label_en": ""
+          "label_en": "50 94/7/15 (since 1998-08-01)"
         },
         {
           "code": "C14",
@@ -2171,7 +2171,7 @@
         {
           "code": "C20",
           "label_zh": "地區醫院；一般門診加藥品或復健 ＊",
-          "label_en": ""
+          "label_en": "number of general outpatient visits at regional hospitals with added physical therapy"
         },
         {
           "code": "C23",
@@ -2246,7 +2246,7 @@
         {
           "code": "D24",
           "label_zh": "基層院所；一般門診加藥品或復健",
-          "label_en": ""
+          "label_en": "primary care; outpatient/ED with medication or rehabilitation"
         },
         {
           "code": "D30",
@@ -2276,7 +2276,7 @@
         {
           "code": "E13",
           "label_zh": "醫學中心；一般門診；持殘障手冊 50",
-          "label_en": ""
+          "label_en": "medical center; general outpatient;持有殘障手冊 50"
         },
         {
           "code": "E20",
@@ -2311,7 +2311,7 @@
         {
           "code": "F13",
           "label_zh": "區域醫院；一般門診；持殘障手冊 50",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient;持有身心障礙手冊 50"
         },
         {
           "code": "F20",
@@ -2396,12 +2396,12 @@
         {
           "code": "N20",
           "label_zh": "醫學中心；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "medical center; drugs or traditional Chinese medicine orthopedics *"
         },
         {
           "code": "N24",
           "label_zh": "醫學中心；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "medical center; general outpatient with medication or traditional Chinese medicine for injuries"
         },
         {
           "code": "N30",
@@ -2431,12 +2431,12 @@
         {
           "code": "Q20",
           "label_zh": "區域醫院；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "regional hospital; drugs or TCM orthopedics*"
         },
         {
           "code": "Q24",
           "label_zh": "區域醫院；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "Regional Hospital; General Outpatient Plus Medicines or TCM Orthopedics"
         },
         {
           "code": "Q30",
@@ -2456,7 +2456,7 @@
         {
           "code": "R10",
           "label_zh": "地區醫院、中醫醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "number of general outpatient visits at regional hospitals and traditional Chinese medicine hospitals; 50 cases"
         },
         {
           "code": "R14",
@@ -2471,7 +2471,7 @@
         {
           "code": "R24",
           "label_zh": "地區醫院；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "number of general outpatient visits at regional hospitals with added drugs or traditional Chinese medicine for injuries"
         },
         {
           "code": "R30",
@@ -2501,12 +2501,12 @@
         {
           "code": "S20",
           "label_zh": "基層院所；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "primary care facility; drugs or TCM orthopedics*"
         },
         {
           "code": "S24",
           "label_zh": "基層院所；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "primary care clinics; general outpatient drug or TCM orthopedics"
         },
         {
           "code": "S30",
@@ -2567,7 +2567,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -3072,7 +3072,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -3082,27 +3082,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -3117,7 +3117,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",
@@ -3156,5 +3156,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "National Health Insurance prescription and treatment details file - pharmacy"
 }

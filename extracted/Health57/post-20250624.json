@@ -109,7 +109,7 @@
       "description_zh": "1：男性；2：女性；9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 9,
@@ -142,7 +142,7 @@
       "description_zh": "0：無 1：有 2：拒絕治療",
       "available_notes": [],
       "name_zh_en": "therapy",
-      "description_en": ""
+      "description_en": "0: none 1: yes 2: refuse treatment"
     },
     {
       "seq": 12,
@@ -153,7 +153,7 @@
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
       "name_zh_en": "referral medical institution code",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 13,
@@ -181,7 +181,7 @@
       "description_zh": "1：男性 2：女性 9：不 詳。",
       "available_notes": [],
       "name_zh_en": "gender by ID number",
-      "description_en": ""
+      "description_en": "1: male 2: female 9: unknown"
     },
     {
       "seq": 15,
@@ -192,7 +192,7 @@
       "description_zh": "代碼參照醫療機構現況 檔。",
       "available_notes": [],
       "name_zh_en": "hierarchical level of diagnosing hospital",
-      "description_en": ""
+      "description_en": "code based on current medical institution status file."
     },
     {
       "seq": 16,
@@ -214,7 +214,7 @@
       "description_zh": "代碼參照醫療機構現況 檔。",
       "available_notes": [],
       "name_zh_en": "hospital level",
-      "description_en": ""
+      "description_en": "code based on current medical institution status file."
     },
     {
       "seq": 18,
@@ -245,22 +245,22 @@
         {
           "code": "2",
           "label_zh": "嚼10年以下，每天少於 20顆",
-          "label_en": ""
+          "label_en": "chewed for less than 10 years, less than 20 pieces per day"
         },
         {
           "code": "3",
           "label_zh": "嚼10年以下，每天 20 顆及以上",
-          "label_en": ""
+          "label_en": "chewing for less than 10 years, daily 20 pieces or more"
         },
         {
           "code": "4",
           "label_zh": "嚼超過10 年，每天少於 20顆",
-          "label_en": ""
+          "label_en": "chewed over 10 years, less than 20 pieces per day"
         },
         {
           "code": "5",
           "label_zh": "嚼超過10 年，每天20 顆及以上",
-          "label_en": ""
+          "label_en": "chewing for over 10 years, daily 20 pieces or more"
         }
       ],
       "field_en": "chewing betel nut"
@@ -281,17 +281,17 @@
         {
           "code": "2",
           "label_zh": "吸10年以下，每天少於 20支",
-          "label_en": ""
+          "label_en": "smoked for less than 10 years, less than 20 cigarettes per day"
         },
         {
           "code": "3",
           "label_zh": "吸10年以下，每天 20 支及以上",
-          "label_en": ""
+          "label_en": "smoking for less than 10 years, daily 20 cigarettes or more"
         },
         {
           "code": "4",
           "label_zh": "吸超過10 年，每天少於 20支",
-          "label_en": ""
+          "label_en": "smoked over 10 years, less than 20 cigarettes per day"
         },
         {
           "code": "5",
@@ -317,7 +317,7 @@
         {
           "code": "2",
           "label_zh": "口腔內外不明原因之持續性腫塊",
-          "label_en": ""
+          "label_en": "unexplained persistent oral cavity mass"
         },
         {
           "code": "3",
@@ -357,7 +357,7 @@
         {
           "code": "76",
           "label_zh": "口腔黏膜下纖維化症(張口不易或舌頭活",
-          "label_en": ""
+          "label_en": "oral mucosal fibrosis (difficulty opening mouth or tongue mobility"
         },
         {
           "code": "8",
@@ -387,7 +387,7 @@
         {
           "code": "2",
           "label_zh": "口腔內外不明原因之持續性腫塊",
-          "label_en": ""
+          "label_en": "unexplained persistent oral cavity mass"
         },
         {
           "code": "3",
@@ -427,7 +427,7 @@
         {
           "code": "8",
           "label_zh": "約兩星期仍不癒之口腔潰爛/糜爛",
-          "label_en": ""
+          "label_en": "oral ulcer/crust lasting more than two weeks without healing"
         },
         {
           "code": "9",
@@ -473,7 +473,7 @@
         {
           "code": "6",
           "label_zh": "其他 2025年07月22日",
-          "label_en": ""
+          "label_en": "other 2025-07-22"
         }
       ],
       "field_en": "no confirmed diagnosis reason"
@@ -576,7 +576,7 @@
         {
           "code": "0",
           "label_zh": "正常 (100年後無此欄位)",
-          "label_en": ""
+          "label_en": "normal (after 100 years, this field does not exist)"
         },
         {
           "code": "1",
@@ -661,7 +661,7 @@
         {
           "code": "99",
           "label_zh": "其他(others) 113年表單版本",
-          "label_en": ""
+          "label_en": "other(others) 2023 version"
         },
         {
           "code": "00",
@@ -720,5 +720,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "oral cancer screening file"
 }

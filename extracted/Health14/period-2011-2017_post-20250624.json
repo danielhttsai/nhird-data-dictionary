@@ -236,7 +236,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄在申報醫院或外 院為診斷及分期而執行的手術處置日",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic and staging surgery处置 date",
       "description_en": ""
     },
     {
@@ -247,7 +247,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(十一)【外院診斷性 及分期性手術處置(SDIAG_O)&申報 醫院診 斷性 及分期 性手術 處置 (SDIAG_H)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic and staging procedures from external hospitals",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reporting of diagnostic and staging surgery",
       "description_en": ""
     },
     {
@@ -456,7 +456,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內對原發部位腫瘤所執行最確切 的手術切除日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of most accurate primary surgical resection",
       "description_en": ""
     },
     {
@@ -511,7 +511,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "range of lymph node surgery reported by hospital area",
       "description_en": ""
     },
     {
@@ -665,7 +665,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位“rads” 相同大小。 00000：沒有體外放射治療 00001-99996：實際接受的放射劑量 99997：CTV_H 的體外放射治療劑量 是99997 cGy或更多 99998：有體外放射治療，但 CTV_H 的體外放射治療劑量不詳 99999：資料不詳，不清楚有沒有體外 放射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "maximum radiation dose clinical target volume dose",
       "description_en": ""
     },
     {
@@ -676,7 +676,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H 的放射治療次數(fractions or sessions)。 00：沒有體外放射治療 01-96：實際接受的放射治療次數 97：CTV_H 體外放射治療次數是 97 或更多 98：有體外放射治療，但 CTV_H 體 外放射治療次數不詳 99：資料不詳，不清楚有沒有體外放 射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Highest radiation dose clinical target volume treatment次数",
       "description_en": ""
     },
     {
@@ -698,7 +698,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位 rads 相同大小。 00000：沒有體外放射治療，或是有體 外放射治療但沒有 CTV_L 00001-99996：實際接受的放射治療劑 量",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "lower radiation dose clinical target volume dose",
       "description_en": ""
     },
     {
@@ -709,7 +709,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L 的放射治療次數(fractions or sessions)。 00：沒有體外放射治療，或是有體外 放射治療但沒有 CTV_L 01-96：實際接受的放射劑量次數 97：CTV_L 體外放射治療次數是 97 或更多 98：有體外放射治療但 CTV_L 體外 放射治療次數不詳 99：資料不詳，不清楚有沒有體外放 射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "lower radiation dose clinical target volume treatment frequency",
       "description_en": ""
     },
     {
@@ -753,7 +753,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中，特殊 放射治療的劑量，詳欄位(變項)譯碼 (三十七)【其他放射治療臨床標靶體 積劑量(ORT_DOSE)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical target volume dose of radiotherapy",
       "description_en": ""
     },
     {
@@ -764,7 +764,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中，其他 特 殊 放 射 治 療 次 數 (fractions or sessions)。 00：沒有其他特殊放射治療 00-96：實際接受的放射治療次數 97：其他特殊放射療法治療次數是 97 或更多 98：有其他特殊放射療法但其治療次 數不詳 99：資料不詳，不清楚有沒有其他特 殊放射療法。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other - clinical target volume dose number for radiotherapy",
       "description_en": ""
     },
     {
@@ -841,7 +841,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(四十二)【申報醫院 荷爾蒙治療開始日期(DHORM)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital report of hormone treatment start date",
       "description_en": ""
     },
     {
@@ -885,7 +885,7 @@
       "length": 2,
       "description_zh": "記錄個案在任何醫療機構首次治療 時，給予骨髓/幹細胞移植或內分泌治 療情形，詳欄位(變項)譯碼(四十五) 【申報醫院骨髓/幹細胞移植或內分 泌治療(HTEP_H)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "bone marrow/stem cell transplant or endocrine therapy",
       "description_en": ""
     },
     {
@@ -1018,7 +1018,7 @@
       "description_zh": "記錄個案於首次治療前的身高。",
       "available_notes": [],
       "name_zh_en": "height",
-      "description_en": ""
+      "description_en": "record case's height before first treatment."
     },
     {
       "seq": 92,
@@ -1183,7 +1183,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 107,

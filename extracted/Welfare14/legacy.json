@@ -88,8 +88,8 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victimized person's ID number correction",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 7,
@@ -179,7 +179,7 @@
         }
       ],
       "name_zh_en": "victim's disability type",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 13,
@@ -229,7 +229,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "whether the victim is a person with physical or mental disabilities and their type",
       "description_en": "108th year addition"
     },
     {
@@ -240,7 +240,7 @@
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼(如無居留證 號碼請填護照號碼)，左靠不足補空 白。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "perpetrator/perpetuator/suspect ID number",
       "description_en": ""
     },
     {
@@ -263,7 +263,7 @@
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 19,
@@ -273,7 +273,7 @@
       "length": 5,
       "description_zh": "提供民國年月YYYMM 110起長度為7",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of birth of abuser/participant/suspect",
       "description_en": ""
     },
     {
@@ -376,7 +376,7 @@
         }
       ],
       "name_zh_en": "suspected abuser disability type",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 26,
@@ -443,8 +443,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "child protection matters - child has the following behavior",
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 30,
@@ -461,7 +461,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 31,
@@ -478,7 +478,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 32,
@@ -495,7 +495,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 33,
@@ -562,7 +562,7 @@
         }
       ],
       "name_zh_en": "Occurrence Time",
-      "description_en": ""
+      "description_en": "YYYMMDD 108 year removal"
     },
     {
       "seq": 38,
@@ -697,12 +697,12 @@
         {
           "code": "2",
           "label_zh": "就業服務機構及其從業人員 N 村里長",
-          "label_en": ""
+          "label_en": "Employment service agencies and their staff N village head"
         },
         {
           "code": "3",
           "label_zh": "觀光業從業人員 O 公衛護士",
-          "label_en": ""
+          "label_en": "tourism industry staff public nurse O"
         },
         {
           "code": "4",
@@ -742,7 +742,7 @@
         {
           "code": "G",
           "label_zh": "照顧服務員 W 鄰居及社會人士",
-          "label_en": ""
+          "label_en": "caregiver W neighbors and social workers"
         },
         {
           "code": "H",
@@ -752,7 +752,7 @@
         {
           "code": "I",
           "label_zh": "老人福利機構人員 Y 教保服務人員",
-          "label_en": ""
+          "label_en": "Welfare institution staff Y"
         },
         {
           "code": "J",
@@ -778,7 +778,7 @@
         {
           "code": "A",
           "label_zh": "司(軍)法 K 診所及衛生所",
-          "label_en": ""
+          "label_en": "military court K clinic and health center"
         },
         {
           "code": "C",
@@ -793,7 +793,7 @@
         {
           "code": "E",
           "label_zh": "社政 P 移民業務機關(同L)",
-          "label_en": ""
+          "label_en": "social welfare P immigration business agency (same as L)"
         },
         {
           "code": "F",
@@ -818,7 +818,7 @@
         {
           "code": "J",
           "label_zh": "勞政 2026年05月28日修訂",
-          "label_en": ""
+          "label_en": "labor affairs - revised on May 28, 2026"
         }
       ],
       "field_en": "reporting unit"
@@ -844,7 +844,7 @@
         {
           "code": "C",
           "label_zh": "大陸籍 Q 本國籍原住民－泰雅",
-          "label_en": ""
+          "label_en": "mainland Chinese Q indigenous Taiwanese泰雅"
         },
         {
           "code": "D",
@@ -854,22 +854,22 @@
         {
           "code": "E",
           "label_zh": "外國籍－印尼 S 本國籍原住民－卑南",
-          "label_en": ""
+          "label_en": "Foreign Nationality-Indonesia S Indigenous Nationality-Banana"
         },
         {
           "code": "F",
           "label_zh": "外國籍－泰國 T 本國籍原住民－鄒",
-          "label_en": ""
+          "label_en": "foreign national - Thailand T indigenous national -邹族"
         },
         {
           "code": "G",
           "label_zh": "外國籍－菲律賓 U 本國籍原住民－邵",
-          "label_en": ""
+          "label_en": "Foreign Nationality-Philippines U Indigenous Nationality-Spao"
         },
         {
           "code": "H",
           "label_zh": "外國籍－越南 V 外國籍－柬埔寨",
-          "label_en": ""
+          "label_en": "foreign nationals - Vietnam vs foreign nationals - Cambodia"
         },
         {
           "code": "I",
@@ -879,7 +879,7 @@
         {
           "code": "J",
           "label_zh": "資料不明 X 本國籍原住民－太魯閣",
-          "label_en": ""
+          "label_en": "data unknown X indigenous national of Taiwan - Taroko"
         },
         {
           "code": "K",
@@ -972,7 +972,7 @@
         {
           "code": "C",
           "label_zh": "養父 H 父之同居人或繼母",
-          "label_en": ""
+          "label_en": "adoptive father H cohabiting person or stepmother"
         },
         {
           "code": "D",
@@ -996,7 +996,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "child protection matters - the child has engaged in certain behaviors"
     },
     "CPARTICLE2": {
       "field_zh": "任何人對兒少有下列行為者",
@@ -1019,7 +1019,7 @@
         {
           "code": "D",
           "label_zh": "利用身心障礙或畸形兒童供人參觀",
-          "label_en": ""
+          "label_en": "exploiting disabled or deformed children for public display"
         },
         {
           "code": "E",
@@ -1029,7 +1029,7 @@
         {
           "code": "F",
           "label_zh": "剝奪或妨礙其接受國民教育之機會",
-          "label_en": ""
+          "label_en": "denying or obstructing their opportunity to receive national education"
         },
         {
           "code": "G",
@@ -1091,7 +1091,7 @@
         {
           "code": "A",
           "label_zh": "使兒童獨處於易發生危險或傷害之環境",
-          "label_en": ""
+          "label_en": "leaving children alone in environments prone to danger or harm"
         },
         {
           "code": "B",
@@ -1179,12 +1179,12 @@
         {
           "code": "C",
           "label_zh": "徒手 L 運用網際網路(含APP)",
-          "label_en": ""
+          "label_en": "manual L use of internet (including APP)"
         },
         {
           "code": "D",
           "label_zh": "誘騙/誘拐 M 藥劑、毒品控制",
-          "label_en": ""
+          "label_en": "fraud/murder drug, narcotics control"
         },
         {
           "code": "E",
@@ -1316,7 +1316,7 @@
         {
           "code": "S",
           "label_zh": "使兒少為有對價之性交或猥褻行為。",
-          "label_en": ""
+          "label_en": "Caused children to engage in sexually explicit behavior or acts for compensation."
         },
         {
           "code": "T",

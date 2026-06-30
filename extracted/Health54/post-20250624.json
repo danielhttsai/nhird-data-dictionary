@@ -32,7 +32,7 @@
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
       "name_zh_en": "new medical institution code",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 2,
@@ -65,7 +65,7 @@
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
       "name_zh_en": "old_medical_institution_code",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 5,
@@ -175,7 +175,7 @@
       "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
       "available_notes": [],
       "name_zh_en": "sample collection institution",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 15,
@@ -252,7 +252,7 @@
       "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
       "available_notes": [],
       "name_zh_en": "assessing institution",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 22,
@@ -537,7 +537,7 @@
         {
           "code": "0960101",
           "label_zh": "起表單無此欄位，0為新增時預設值",
-          "label_en": ""
+          "label_en": "default value when the form does not have this field, set as 0 when added"
         }
       ],
       "field_en": "latest cytology examination time"
@@ -641,7 +641,7 @@
         {
           "code": "3",
           "label_zh": "人工+機械 2025年07月22日修訂",
-          "label_en": ""
+          "label_en": "人工+機械 2025-07-22 revised"
         },
         {
           "code": "4",
@@ -800,7 +800,7 @@
         {
           "code": "1",
           "label_zh": "醫院 01~08、11~18",
-          "label_en": ""
+          "label_en": "Hospital 01~08, 11~18"
         },
         {
           "code": "2",
@@ -849,5 +849,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "cancer screening - cervical cytology screening record"
 }

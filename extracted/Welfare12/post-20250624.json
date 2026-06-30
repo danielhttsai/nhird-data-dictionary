@@ -124,7 +124,7 @@
       "description_zh": "M:男 F:女 Z:不詳 X:其他",
       "available_notes": [],
       "name_zh_en": "victim's gender",
-      "description_en": ""
+      "description_en": "M: male F: female Z: not specified X: other"
     },
     {
       "seq": 6,
@@ -270,7 +270,7 @@
       "description_zh": "M:男 F:女 Z:不詳 X:其他",
       "available_notes": [],
       "name_zh_en": "relative gender",
-      "description_en": ""
+      "description_en": "M: male F: female Z: not specified X: other"
     },
     {
       "seq": 13,
@@ -452,7 +452,7 @@
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
       "available_notes": [],
       "name_zh_en": "victim's identity number error",
-      "description_en": ""
+      "description_en": "0: ID number conforms to coding rules 1: does not conform"
     },
     {
       "seq": 26,
@@ -462,7 +462,7 @@
       "length": 1,
       "description_zh": "1:男 2:女 9:不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's identity card number sex determined by reading",
       "description_en": "1:male"
     },
     {
@@ -484,7 +484,7 @@
       "length": 1,
       "description_zh": "1:男 2:女 9:不詳",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relative person ID card number gender determined from ID",
       "description_en": "1:male"
     },
     {
@@ -502,7 +502,7 @@
         }
       ],
       "name_zh_en": "whether the victim lived with them",
-      "description_en": ""
+      "description_en": "Y: Yes N: No Note: Added in 2019"
     }
   ],
   "codebooks": {
@@ -522,27 +522,27 @@
         {
           "code": "3",
           "label_zh": "觀光業從業人員 N 村（里）長",
-          "label_en": ""
+          "label_en": "tourism industry staff village (li) chief"
         },
         {
           "code": "4",
           "label_zh": "電子遊戲場業從業人員 O 公衛護士",
-          "label_en": ""
+          "label_en": "employees of electronic game parlors O public health nurse"
         },
         {
           "code": "5",
           "label_zh": "資訊休閒業從業人員 P 戶政人員",
-          "label_en": ""
+          "label_en": "information for leisure industry employees P household administrators"
         },
         {
           "code": "A",
           "label_zh": "司(軍)法人員 Q 法(獄)政人員",
-          "label_en": ""
+          "label_en": "Military or Government Personnel Q Legal or Judicial Personnel"
         },
         {
           "code": "C",
           "label_zh": "醫護人員 R 公寓大廈管理服務人員",
-          "label_en": ""
+          "label_en": "healthcare personnel R apartment building management staff"
         },
         {
           "code": "D",
@@ -562,17 +562,17 @@
         {
           "code": "G",
           "label_zh": "照顧服務員 V 案主主動求助",
-          "label_en": ""
+          "label_en": "caregiver V client proactively seeks help"
         },
         {
           "code": "H",
           "label_zh": "社會工作人員 W 鄰居及社會人士",
-          "label_en": ""
+          "label_en": "social worker neighbors and community members W"
         },
         {
           "code": "I",
           "label_zh": "老人福利機構人員 X 矯正人員",
-          "label_en": ""
+          "label_en": "elderly welfare institution staff X correctional officer"
         },
         {
           "code": "J",
@@ -587,7 +587,7 @@
         {
           "code": "1",
           "label_zh": "社會福利、安置照護機構 人員",
-          "label_en": ""
+          "label_en": "social welfare, placement care institution staff"
         },
         {
           "code": "2",
@@ -733,12 +733,12 @@
         {
           "code": "K",
           "label_zh": "診所及衛生所 O 老人福利機構",
-          "label_en": ""
+          "label_en": "clinic and health center elderly welfare institution"
         },
         {
           "code": "C",
           "label_zh": "醫院 2026年05月28日修訂",
-          "label_en": ""
+          "label_en": "hospital revised on May 28, 2026"
         }
       ],
       "field_en": "reporting unit"
@@ -854,12 +854,12 @@
         {
           "code": "F",
           "label_zh": "現為/曾為直系親屬:父(含養、繼父)",
-          "label_en": ""
+          "label_en": "currently or formerly direct relative: father (including stepparent)"
         },
         {
           "code": "G",
           "label_zh": "現為/曾為直系親屬:母(含養、繼母)",
-          "label_en": ""
+          "label_en": "currently or formerly direct relative: mother (including stepmother)"
         },
         {
           "code": "H",
@@ -966,7 +966,7 @@
         {
           "code": "D",
           "label_zh": "緊急安置／庇護 Q 受理傷害告訴",
-          "label_en": ""
+          "label_en": "emergency sheltering/Q accepting report of injury"
         },
         {
           "code": "A",
@@ -991,27 +991,27 @@
         {
           "code": "B",
           "label_zh": "聲請緊急性暫時保護令 V 就業協助",
-          "label_en": ""
+          "label_en": "Application for emergency temporary protection order V employment assistance"
         },
         {
           "code": "C",
           "label_zh": "聲請一般性暫時保護令 G 診療",
-          "label_en": ""
+          "label_en": "application for general temporary protective order G treatment"
         },
         {
           "code": "F",
           "label_zh": "子女教育問題 f 子女就學或就托服務",
-          "label_en": ""
+          "label_en": "Child education issues f child schooling or childcare services"
         },
         {
           "code": "J",
           "label_zh": "職業輔導 e 提供相關求助資源",
-          "label_en": ""
+          "label_en": "career guidance e provide relevant assistance resources"
         },
         {
           "code": "L",
           "label_zh": "陪同返家 d 與被害人討論安全計畫",
-          "label_en": ""
+          "label_en": "accompanying person returning home d discussing safety plan with victim"
         },
         {
           "code": "X",

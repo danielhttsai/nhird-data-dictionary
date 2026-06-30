@@ -105,7 +105,7 @@
       "description_zh": "YYYYMMDD：指個案不論是在門診",
       "available_notes": [],
       "name_zh_en": "first visit date",
-      "description_en": ""
+      "description_en": "YYYYMMDD: Refers to the case regardless of outpatient"
     },
     {
       "seq": 9,
@@ -269,7 +269,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄在申報醫院或外 院為診斷及分期而執行的手術處置日 期。 00000000：未進行診斷性及分期性手 術處置、於屍體解剖時才診斷為癌症 99999999：不知是否進行診斷性及分 期性手術處置、進行診斷性及分期性 手術處置日期不詳、僅由死亡證明書 得知個案有癌症。年不詳：9999；月 不詳：99；日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic and staging surgery处置 date",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(十三)【外院診斷性 及分期性手術處置(SDIAG_O)&申報 醫院診 斷性 及分期 性手術 處置 (SDIAG_H)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic and staging procedures from external hospitals",
       "description_en": ""
     },
     {
@@ -291,7 +291,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital reporting of diagnostic and staging surgery",
       "description_en": ""
     },
     {
@@ -412,7 +412,7 @@
       "length": 5,
       "description_zh": "本欄位第 1-2 碼為 AJCC 癌症分期手 冊版本，第3-5 碼僅為第八版各章節 00000：未判定期別(個案癌症有可判 斷分期的參考資料，但未予以判定期 別) 06888：第六版 07888：第七版 08___：第八版(後3碼為對應章節) 88888：不適用(個案無適用之AJCC分 期) 99999：判定期別，但版本與章節皆不 詳。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "AJCC Cancer Staging Edition and Chapter",
       "description_en": ""
     },
     {
@@ -478,7 +478,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內對原發部位腫瘤所執行最確切",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of most accurate primary surgical resection",
       "description_en": ""
     },
     {
@@ -555,7 +555,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "range of lymph node surgery reported by hospital area",
       "description_en": ""
     },
     {
@@ -698,7 +698,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位“rads” 相同大小。 00000：沒有體外放射治療 00001-99996：實際接受的放射劑量 99997：CTV_H 的體外放射治療劑量 是99997 cGy或更多 99998：有體外放射治療，但 CTV_H 的體外放射治療劑量不詳 99999：資料不詳，不清楚有沒有體外 放射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "maximum radiation dose clinical target volume dose",
       "description_en": ""
     },
     {
@@ -709,7 +709,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H 的放射治療次數(fractions or sessions)。 00：沒有體外放射治療 01-96：實際接受的放射治療次數 97：CTV_H 體外放射治療次數是 97 或更多 98：有體外放射治療，但 CTV_H 體 外放射治療次數不詳 99：資料不詳，不清楚有沒有體外放 射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Highest radiation dose clinical target volume treatment次数",
       "description_en": ""
     },
     {
@@ -731,7 +731,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "lower radiation dose clinical target volume dose",
       "description_en": ""
     },
     {
@@ -742,7 +742,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L 的放射治療次數(fractions or sessions)。 00：沒有體外放射治療，或是有體外 放射治療但沒有 CTV_L 01-96：實際接受的放射劑量次數 97：CTV_L 體外放射治療次數是 97 或更多 98：有體外放射治療但 CTV_L 體外 放射治療次數不詳 99：資料不詳，不清楚有沒有體外放 射治療。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "lower radiation dose clinical target volume treatment frequency",
       "description_en": ""
     },
     {
@@ -786,7 +786,7 @@
       "length": 5,
       "description_zh": "記錄在申報醫院的首次療程中，特殊 放射治療的劑量，詳欄位(變項)譯碼 (四十一)【其他放射治療臨床標靶體 積劑量(ORT_DOSE)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical target volume dose of radiotherapy",
       "description_en": ""
     },
     {
@@ -797,7 +797,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中，其他 特 殊 放 射 治 療 次 數 (fractions or sessions)。 00：沒有其他特殊放射治療 00-96：實際接受的放射治療次數 97：其他特殊放射療法治療次數是 97 或更多 98：有其他特殊放射療法但其治療次 數不詳 99：資料不詳，不清楚有沒有其他特 殊放射療法。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other - clinical target volume dose number for radiotherapy",
       "description_en": ""
     },
     {
@@ -874,7 +874,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(四十六)【申報醫院 荷爾蒙治療開始日期(DHORM)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital report of hormone treatment start date",
       "description_en": ""
     },
     {
@@ -918,7 +918,7 @@
       "length": 2,
       "description_zh": "記錄個案在任何醫療機構首次治療 時，給予骨髓/幹細胞移植或內分泌治 療情形，詳欄位(變項)譯碼(四十九) 【申報醫院骨髓/幹細胞移植或內分 泌治療(HTEP_H)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "bone marrow/stem cell transplant or endocrine therapy",
       "description_en": ""
     },
     {
@@ -1105,7 +1105,7 @@
       "length": 3,
       "description_zh": "記錄醫師於首次治療前最近一次評估 個案的生活功能狀態，詳欄位(變項) 譯碼(六十一)【首次治療前生活功能 狀態評估(PS)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Initial Treatment Pre-Life Function Status Assessment",
       "description_en": ""
     },
     {
@@ -1238,7 +1238,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 112,
@@ -1271,5 +1271,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "Cancer registration long form LF (2018)"
 }

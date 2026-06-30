@@ -39,7 +39,7 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "gender of patient undergoing surgery",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 3,
@@ -50,7 +50,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number error of patient who underwent surgery",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     },
     {
       "seq": 4,
@@ -182,7 +182,7 @@
       "length": 1,
       "description_zh": "1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "using ZIFT/TET method",
       "description_en": "1: yes"
     },
     {
@@ -204,7 +204,7 @@
       "length": 1,
       "description_zh": "1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "used IVF/ET + GIFT methods",
       "description_en": "1: yes"
     },
     {
@@ -398,7 +398,7 @@
       "description_zh": "「是否臨床懷孕」時之子宮外孕數",
       "available_notes": [],
       "name_zh_en": "ectopic pregnancy count 1",
-      "description_en": ""
+      "description_en": "Number of Ectopic Pregnancies when Clinical Pregnancy is Confirmed"
     },
     {
       "seq": 33,
@@ -409,7 +409,7 @@
       "description_zh": "開始使用藥物日期-受術妻出生日期",
       "available_notes": [],
       "name_zh_en": "age",
-      "description_en": ""
+      "description_en": "date of drug initiation - wife's date of birth"
     },
     {
       "seq": 34,
@@ -541,7 +541,7 @@
       "description_zh": "0：無新生兒 1：男性 2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 1-gender",
-      "description_en": ""
+      "description_en": "0: no newborn 1: male 2: female"
     },
     {
       "seq": 46,
@@ -596,7 +596,7 @@
       "description_zh": "0：無新生兒 1：男性 2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 2-gender",
-      "description_en": ""
+      "description_en": "0: no newborn 1: male 2: female"
     },
     {
       "seq": 51,
@@ -651,7 +651,7 @@
       "description_zh": "0：無新生兒 1：男性 2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 3-gender",
-      "description_en": ""
+      "description_en": "0: no newborn 1: male 2: female"
     },
     {
       "seq": 56,
@@ -706,7 +706,7 @@
       "description_zh": "0：無新生兒 1：男性 2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 4-gender",
-      "description_en": ""
+      "description_en": "0: no newborn 1: male 2: female"
     },
     {
       "seq": 61,
@@ -767,7 +767,7 @@
         }
       ],
       "name_zh_en": "ovarian stimulation method (minor)",
-      "description_en": ""
+      "description_en": "102 year new field detailed explanation"
     },
     {
       "seq": 66,
@@ -800,7 +800,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "embryonic fertilized egg implantation number on the second day",
       "description_en": "102 year new field"
     },
     {
@@ -817,7 +817,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "embryonic fertilized egg implantation number on the third day",
       "description_en": "102 year new field"
     },
     {
@@ -834,7 +834,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "embryonic fertilized egg implantation number on the fourth day",
       "description_en": "102 year new field"
     },
     {
@@ -851,7 +851,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "embryonic fertilized egg implantation number on the fifth day",
       "description_en": "102 year new field"
     },
     {
@@ -868,7 +868,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "embryonic fertilized egg implantation number on the sixth day",
       "description_en": "102 year new field"
     }
   ],
@@ -1012,7 +1012,7 @@
         {
           "code": "4",
           "label_zh": "嚴重 5、6、7 轉檔時格式錯誤",
-          "label_en": ""
+          "label_en": "serious 5, 6, 7 format errors when transferred in 2026"
         },
         {
           "code": "9",
@@ -1124,7 +1124,7 @@
         {
           "code": "203",
           "label_zh": "呼吸窘迫(借助呼吸器＞30 分鐘)",
-          "label_en": ""
+          "label_en": "respiratory distress (using a respirator >30 minutes)"
         },
         {
           "code": "204",
@@ -1134,7 +1134,7 @@
         {
           "code": "205",
           "label_zh": "為舊代碼，資料轉換時未有新代碼對應",
-          "label_en": ""
+          "label_en": "old code, no new code corresponding during data conversion"
         },
         {
           "code": "206",
@@ -1180,7 +1180,7 @@
         {
           "code": "6",
           "label_zh": "GnRHantagonist 藥物刺激",
-          "label_en": ""
+          "label_en": "GnRH antagonist drug stimulation"
         },
         {
           "code": "7",

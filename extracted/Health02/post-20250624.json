@@ -32,7 +32,7 @@
       "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
       "available_notes": [],
       "name_zh_en": "hospital code",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 2,
@@ -369,7 +369,7 @@
       "description_zh": "ICD-9-PCS 之代碼。",
       "available_notes": [],
       "name_zh_en": "primary procedure",
-      "description_en": ""
+      "description_en": "ICD-9-PCS code."
     },
     {
       "seq": 28,
@@ -660,7 +660,7 @@
       "length": 8,
       "description_zh": "1.住院之部分負擔隨著住院天數及 病床類別(急性病床或慢性病床)有 不同的負擔比率，因此住院之醫療 費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以 上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請 將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "acute bed points (30 days or less)",
       "description_en": ""
     },
     {
@@ -671,7 +671,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -682,7 +682,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (acute inpatient 31-60 days)",
       "description_en": ""
     },
     {
@@ -704,7 +704,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "acute bed points (more than 60 days)",
       "description_en": ""
     },
     {
@@ -715,7 +715,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 61 days and above)",
       "description_en": ""
     },
     {
@@ -726,7 +726,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "chronic bed points (30 days or less)",
       "description_en": ""
     },
     {
@@ -737,7 +737,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -770,7 +770,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic disease bed 91-180 days)",
       "description_en": ""
     },
     {
@@ -792,7 +792,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic inpatient over 181 days)",
       "description_en": ""
     },
     {
@@ -853,7 +853,7 @@
       "length": 1,
       "description_zh": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點 範圍內者 1：費用高於Tw-DRG 上限臨界點 者 2：費用低於Tw-DRG 下限臨界點 核實申報者 3：無權重之Tw-DRG 核實申報者 4：該Tw-DRG個案<20 核實申報 者 5：論日支付者（轉歸代碼為一般",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "TW_DRGS payment type",
       "description_en": ""
     },
     {
@@ -887,7 +887,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Inappropriate TW_DRGS case special notes",
       "description_en": ""
     },
     {
@@ -932,7 +932,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 76,
@@ -954,7 +954,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 78,
@@ -1138,12 +1138,12 @@
         {
           "code": "G",
           "label_zh": "代辦法定傳染病(開放性肺結核)",
-          "label_en": ""
+          "label_en": "Handling Reportable Communicable Diseases (Open Tuberculosis)"
         },
         {
           "code": "H",
           "label_zh": "代辦法定傳染病(SARS)",
-          "label_en": ""
+          "label_en": "handling statutory communicable diseases (SARS)"
         },
         {
           "code": "I",
@@ -1153,7 +1153,7 @@
         {
           "code": "J",
           "label_zh": "代辦法定傳染病(其他傳染病)",
-          "label_en": ""
+          "label_en": "Agent reporting of other communicable diseases"
         },
         {
           "code": "K",
@@ -1209,7 +1209,7 @@
         {
           "code": "A020",
           "label_zh": "A021 網路故障造成讀卡機無法使用",
-          "label_en": ""
+          "label_en": "A021 Network failure causing card reader unusable"
         },
         {
           "code": "A030",
@@ -1249,7 +1249,7 @@
         {
           "code": "Z000",
           "label_zh": "Z001 無法取得健保卡密碼",
-          "label_en": ""
+          "label_en": "Z001 Unable to obtain health insurance card password"
         },
         {
           "code": "G000",
@@ -1291,7 +1291,7 @@
         {
           "code": "0",
           "label_zh": "無（案件分類5者，本項次應為0）",
-          "label_en": ""
+          "label_en": "not applicable (for case classification 5, this item should be 0)"
         },
         {
           "code": "1",
@@ -1306,7 +1306,7 @@
         {
           "code": "3",
           "label_zh": "MDC19、MDC20之精神科案件",
-          "label_en": ""
+          "label_en": "MDC19, MDC20 psychiatric cases"
         },
         {
           "code": "4",
@@ -1409,7 +1409,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "Inappropriate TW_DRGS Case Notes"
     },
     "HOS": {
       "field_zh": "權屬別",
@@ -1452,7 +1452,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -1957,7 +1957,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -1967,27 +1967,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -2002,7 +2002,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",
@@ -2041,5 +2041,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "National Health Insurance Prescription and Treatment Detail File—Western Medicine Inpatient"
 }

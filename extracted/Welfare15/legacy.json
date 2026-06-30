@@ -72,7 +72,7 @@
       "description_zh": "1：男；2：女；3：其他；9：不詳",
       "available_notes": [],
       "name_zh_en": "victim's original gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 3: other; 9: not specified"
     },
     {
       "seq": 6,
@@ -83,7 +83,7 @@
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
       "name_zh_en": "misalignment-of-victim-s-identity-card-number",
-      "description_en": ""
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 7,
@@ -126,7 +126,7 @@
       "length": 50,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "victim's occupation select other when filled in data",
       "description_en": ""
     },
     {
@@ -227,7 +227,7 @@
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
       "name_zh_en": "relative_person_id_card_number_correction",
-      "description_en": ""
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 19,
@@ -320,7 +320,7 @@
       "length": 80,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient stay filled when main occurrence place is selected as other",
       "description_en": ""
     },
     {
@@ -386,17 +386,17 @@
         {
           "code": "2",
           "label_zh": "就業服務機構及其從業人員 N 村里長",
-          "label_en": ""
+          "label_en": "Employment service agencies and their staff N village head"
         },
         {
           "code": "3",
           "label_zh": "觀光業從業人員 O 公衛護士",
-          "label_en": ""
+          "label_en": "tourism industry staff public nurse O"
         },
         {
           "code": "4",
           "label_zh": "電子遊戲場業從業人員 P 戶政人員",
-          "label_en": ""
+          "label_en": "employees of electronic game parlors P household affairs officer"
         },
         {
           "code": "5",
@@ -406,7 +406,7 @@
         {
           "code": "A",
           "label_zh": "司(軍)法人員 R 公寓大廈管理員",
-          "label_en": ""
+          "label_en": "Military or Government Personnel R Apartment Building Manager"
         },
         {
           "code": "C",
@@ -431,7 +431,7 @@
         {
           "code": "G",
           "label_zh": "照顧服務員 W 鄰居及社會人士",
-          "label_en": ""
+          "label_en": "caregiver W neighbors and social workers"
         },
         {
           "code": "H",
@@ -441,7 +441,7 @@
         {
           "code": "I",
           "label_zh": "老人福利機構人員 Y 教保服務人員",
-          "label_en": ""
+          "label_en": "Welfare institution staff Y"
         },
         {
           "code": "J",
@@ -472,7 +472,7 @@
         {
           "code": "B",
           "label_zh": "觀光業務機關 P 移民業務機關",
-          "label_en": ""
+          "label_en": "tourism authority agency immigration authority agency"
         },
         {
           "code": "C",
@@ -512,7 +512,7 @@
         {
           "code": "J",
           "label_zh": "勞政 2 老人福利、安置照護機構",
-          "label_en": ""
+          "label_en": "labor affairs 2 elderly welfare, placement care institution"
         },
         {
           "code": "K",
@@ -533,7 +533,7 @@
         {
           "code": "1",
           "label_zh": "外國籍－馬來西亞 J 資料不明",
-          "label_en": ""
+          "label_en": "foreign national J data unknown"
         },
         {
           "code": "2",
@@ -543,17 +543,17 @@
         {
           "code": "4",
           "label_zh": "外國籍 L 本國籍原住民－布農",
-          "label_en": ""
+          "label_en": "foreign national L indigenous Taiwanese Bunan"
         },
         {
           "code": "5",
           "label_zh": "大陸及港澳籍 M 本國籍原住民－排灣",
-          "label_en": ""
+          "label_en": "Mainland and Hong Kong/Macau residents - Indigenous people of Taiwan--Puyuma"
         },
         {
           "code": "6",
           "label_zh": "本國籍原住民 N 本國籍原住民－賽夏",
-          "label_en": ""
+          "label_en": "indigenous nationality NATIVE INDIGENOUS NATIVE SECAO"
         },
         {
           "code": "7",
@@ -583,17 +583,17 @@
         {
           "code": "C",
           "label_zh": "大陸籍 T 本國籍原住民－鄒",
-          "label_en": ""
+          "label_en": "Taiwanese nationality T indigenous people -邹"
         },
         {
           "code": "D",
           "label_zh": "港澳籍 U 本國籍原住民－邵",
-          "label_en": ""
+          "label_en": "Hong Kong/Macau resident or indigenous people - Sao"
         },
         {
           "code": "E",
           "label_zh": "外國籍－印尼 V 外國籍－柬埔寨",
-          "label_en": ""
+          "label_en": "foreign nationals - Indonesia vs foreign nationals - Cambodia"
         },
         {
           "code": "F",
@@ -608,7 +608,7 @@
         {
           "code": "H",
           "label_zh": "外國籍－越南 Y 外國籍－蒙古",
-          "label_en": ""
+          "label_en": "foreign national Y foreign national Mongolian"
         },
         {
           "code": "I",
@@ -999,12 +999,12 @@
         {
           "code": "G",
           "label_zh": "私人場所－不詳 W 非私人場所－宿舍",
-          "label_en": ""
+          "label_en": "private setting - unknown W non-private setting - dormitory"
         },
         {
           "code": "H",
           "label_zh": "非私人場所－空屋 X 不詳",
-          "label_en": ""
+          "label_en": "non-private premises - vacant house X not specified"
         },
         {
           "code": "I",

@@ -115,7 +115,7 @@
       "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
       "available_notes": [],
       "name_zh_en": "institution code for medical services (dispensing)",
-      "description_en": ""
+      "description_en": "encrypted key value to identify the medical institution"
     },
     {
       "seq": 7,
@@ -187,7 +187,7 @@
       "description_zh": "五位整數，一位小數，小數點不需 表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "five-digit integer, one decimal place not needed"
     },
     {
       "seq": 13,
@@ -198,7 +198,7 @@
       "description_zh": "八位整數，小數點後四捨五入。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded to four decimal places."
     },
     {
       "seq": 14,
@@ -346,7 +346,7 @@
         {
           "code": "4",
           "label_zh": "不得另計價之藥品或診療項目",
-          "label_en": ""
+          "label_en": "unbillable drugs or procedures"
         },
         {
           "code": "5",
@@ -376,12 +376,12 @@
         {
           "code": "A",
           "label_zh": "Tw-DRGs 醫令/門診急診時間醫令",
-          "label_en": ""
+          "label_en": "Tw-DRGs Medical order/outpatient/ED medical order"
         },
         {
           "code": "B",
           "label_zh": "部分負擔代碼改變已切帳申報費用之資料",
-          "label_en": ""
+          "label_en": "copayment code change for data of settled claimed expenses"
         },
         {
           "code": "C",
@@ -416,7 +416,7 @@
         {
           "code": "H",
           "label_zh": "醫療科技評估(HTA)自費診療項目",
-          "label_en": ""
+          "label_en": "HTA self-paid diagnostic and treatment items"
         },
         {
           "code": "K",
@@ -683,7 +683,7 @@
         {
           "code": "TOPI",
           "label_zh": "局部塗擦(與 LA 易混淆)",
-          "label_en": ""
+          "label_en": "topical application (may be confused with LA)"
         },
         {
           "code": "TRN",
@@ -698,12 +698,12 @@
         {
           "code": "IRRIG",
           "label_zh": "沖洗(irrigation)",
-          "label_en": ""
+          "label_en": "irrigation"
         },
         {
           "code": "EXT",
           "label_zh": "外用 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "topical - revised on January 27, 2026"
         }
       ],
       "field_en": "route of administration/therapeutic site"
@@ -749,7 +749,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -1254,7 +1254,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -1264,27 +1264,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -1299,7 +1299,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",
@@ -1338,5 +1338,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Pharmacy"
 }

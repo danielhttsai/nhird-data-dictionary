@@ -251,7 +251,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在申報醫院 荷爾蒙治療開始的日期。詳欄位(變 項)譯碼(十)【申報醫院荷爾蒙治療開 始日期(HORM_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "claim hospital hormone therapy start date",
       "description_en": ""
     },
     {
@@ -329,7 +329,7 @@
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 29,
@@ -340,7 +340,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     }
   ],
   "codebooks": {},

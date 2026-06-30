@@ -415,7 +415,7 @@
       "description_zh": "填寫支付標準碼，洗腎本欄免填，",
       "available_notes": [],
       "name_zh_en": "drug claims point item",
-      "description_en": ""
+      "description_en": "fill payment standard code, dialysis leave blank"
     },
     {
       "seq": 33,
@@ -448,7 +448,7 @@
       "description_zh": "部分負擔點數預防保健，請補0",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": ""
+      "description_en": "copayment points for preventive healthcare, please enter 0"
     },
     {
       "seq": 36,
@@ -469,7 +469,7 @@
       "length": 2,
       "description_zh": "論病例計酬代碼案件，本欄為必要 欄位，詳見欄位DRG參考碼 （CASE_PAY_CODE）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "DRG Code Handling",
       "description_en": ""
     },
     {
@@ -537,7 +537,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     },
     {
       "seq": 43,
@@ -548,7 +548,7 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 44,
@@ -559,7 +559,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "Physician ID number error",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     },
     {
       "seq": 45,
@@ -570,7 +570,7 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 46,
@@ -581,7 +581,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
       "name_zh_en": "Pharmacist ID number error",
-      "description_en": ""
+      "description_en": "0：身份證字號符合編碼原則 1：不符合"
     },
     {
       "seq": 47,
@@ -592,7 +592,7 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "pharmacist gender",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 48,
@@ -614,7 +614,7 @@
       "description_zh": "詳欄位權屬別（HOS）譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical institution",
-      "description_en": ""
+      "description_en": "detail field ownership code (HOS) translation explanation"
     },
     {
       "seq": 50,
@@ -688,7 +688,7 @@
         {
           "code": "07",
           "label_zh": "遠距醫療(107.11.8增訂)",
-          "label_en": ""
+          "label_en": "telemedicine - added on Nov. 8, 2017"
         },
         {
           "code": "08",
@@ -833,7 +833,7 @@
         {
           "code": "14",
           "label_zh": "牙醫師至無牙醫鄉服務獎勵措施",
-          "label_en": ""
+          "label_en": "incentive measures for dentists serving in toothless areas"
         },
         {
           "code": "15",
@@ -923,7 +923,7 @@
         {
           "code": "28",
           "label_zh": "中醫慢性病連續處方調劑（88.9增訂）",
-          "label_en": ""
+          "label_en": "traditional Chinese medicine chronic disease continuous prescription dispensing (added in 88.9)"
         },
         {
           "code": "29",
@@ -938,12 +938,12 @@
         {
           "code": "31",
           "label_zh": "中醫居家(108.6 增訂)",
-          "label_en": ""
+          "label_en": "Traditional Chinese medicine home care (added in 2018.6)"
         },
         {
           "code": "A3",
           "label_zh": "預防保健 (99/1/1起 )",
-          "label_en": ""
+          "label_en": "preventive healthcare (effective since 01/01/1999)"
         },
         {
           "code": "B6",
@@ -1224,7 +1224,7 @@
         {
           "code": "54",
           "label_zh": "D 遺傳性疾病 86 類天皰瘡 M",
-          "label_en": ""
+          "label_en": "D genetic diseases, 86 categories, pemphigus M"
         },
         {
           "code": "55",
@@ -1249,7 +1249,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 91 毛囊角化症 M",
-          "label_en": ""
+          "label_en": "Pulmonary emphysema F 91 Keratosis M"
         },
         {
           "code": "60",
@@ -1269,7 +1269,7 @@
         {
           "code": "63",
           "label_zh": "N （血友病） 95 慢性骨髓炎 I",
-          "label_en": ""
+          "label_en": "N (hemophilia) 95 Chronic osteomyelitis I"
         },
         {
           "code": "64",
@@ -1289,27 +1289,27 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P 99 異位性皮膚炎",
-          "label_en": ""
+          "label_en": "perimenopause P99 dermatitis"
         },
         {
           "code": "68",
           "label_zh": "尿失禁 P 100 神經性耳鳴",
-          "label_en": ""
+          "label_en": "urinary incontinence P100 tinnitus of neural origin"
         },
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P 特殊檢查",
-          "label_en": ""
+          "label_en": "polychlorinated biphenyl poisoning P special examination"
         },
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B",
-          "label_en": ""
+          "label_en": "adrenal gland disease causing endocrine disorder B"
         },
         {
           "code": "A1",
           "label_zh": "超音波檢查 腦下垂體病變引發內分泌",
-          "label_en": ""
+          "label_en": "ultrasound examination hypopituitarism leading to endocrine disorder"
         },
         {
           "code": "A2",
@@ -1389,7 +1389,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M （88.8增訂）",
-          "label_en": ""
+          "label_en": "beriberi M (added in 88.8)"
         },
         {
           "code": "80",
@@ -1424,7 +1424,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M D4 精神科治療",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M D4 psychiatric treatment"
         },
         {
           "code": "85",
@@ -1434,7 +1434,7 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療 （97.1增訂）",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment (added in 97.1)"
         },
         {
           "code": "D7",
@@ -1464,7 +1464,7 @@
         {
           "code": "P5",
           "label_zh": "兒童斷髓處理 FJ 院所服務--輕度",
-          "label_en": ""
+          "label_en": "children's treatment of bone fracture FJ institution service - mild"
         },
         {
           "code": "P6",
@@ -2040,7 +2040,7 @@
         {
           "code": "54",
           "label_zh": "D 遺傳性疾病 86 類天皰瘡 M",
-          "label_en": ""
+          "label_en": "D genetic diseases, 86 categories, pemphigus M"
         },
         {
           "code": "55",
@@ -2065,7 +2065,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 91 毛囊角化症 M",
-          "label_en": ""
+          "label_en": "Pulmonary emphysema F 91 Keratosis M"
         },
         {
           "code": "60",
@@ -2085,7 +2085,7 @@
         {
           "code": "63",
           "label_zh": "N （血友病） 95 慢性骨髓炎 I",
-          "label_en": ""
+          "label_en": "N (hemophilia) 95 Chronic osteomyelitis I"
         },
         {
           "code": "64",
@@ -2105,27 +2105,27 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P 99 異位性皮膚炎",
-          "label_en": ""
+          "label_en": "perimenopause P99 dermatitis"
         },
         {
           "code": "68",
           "label_zh": "尿失禁 P 100 神經性耳鳴",
-          "label_en": ""
+          "label_en": "urinary incontinence P100 tinnitus of neural origin"
         },
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P 特殊檢查",
-          "label_en": ""
+          "label_en": "polychlorinated biphenyl poisoning P special examination"
         },
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B",
-          "label_en": ""
+          "label_en": "adrenal gland disease causing endocrine disorder B"
         },
         {
           "code": "A1",
           "label_zh": "超音波檢查 腦下垂體病變引發內分泌",
-          "label_en": ""
+          "label_en": "ultrasound examination hypopituitarism leading to endocrine disorder"
         },
         {
           "code": "A2",
@@ -2205,7 +2205,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M （88.8增訂）",
-          "label_en": ""
+          "label_en": "beriberi M (added in 88.8)"
         },
         {
           "code": "80",
@@ -2240,7 +2240,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M D4 精神科治療",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M D4 psychiatric treatment"
         },
         {
           "code": "85",
@@ -2250,7 +2250,7 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療 （97.1增訂）",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment (added in 97.1)"
         },
         {
           "code": "D7",
@@ -2280,7 +2280,7 @@
         {
           "code": "P5",
           "label_zh": "兒童斷髓處理 FJ 院所服務--輕度",
-          "label_en": ""
+          "label_en": "children's treatment of bone fracture FJ institution service - mild"
         },
         {
           "code": "P6",
@@ -2856,7 +2856,7 @@
         {
           "code": "54",
           "label_zh": "D 遺傳性疾病 86 類天皰瘡 M",
-          "label_en": ""
+          "label_en": "D genetic diseases, 86 categories, pemphigus M"
         },
         {
           "code": "55",
@@ -2881,7 +2881,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 91 毛囊角化症 M",
-          "label_en": ""
+          "label_en": "Pulmonary emphysema F 91 Keratosis M"
         },
         {
           "code": "60",
@@ -2901,7 +2901,7 @@
         {
           "code": "63",
           "label_zh": "N （血友病） 95 慢性骨髓炎 I",
-          "label_en": ""
+          "label_en": "N (hemophilia) 95 Chronic osteomyelitis I"
         },
         {
           "code": "64",
@@ -2921,27 +2921,27 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P 99 異位性皮膚炎",
-          "label_en": ""
+          "label_en": "perimenopause P99 dermatitis"
         },
         {
           "code": "68",
           "label_zh": "尿失禁 P 100 神經性耳鳴",
-          "label_en": ""
+          "label_en": "urinary incontinence P100 tinnitus of neural origin"
         },
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P 特殊檢查",
-          "label_en": ""
+          "label_en": "polychlorinated biphenyl poisoning P special examination"
         },
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B",
-          "label_en": ""
+          "label_en": "adrenal gland disease causing endocrine disorder B"
         },
         {
           "code": "A1",
           "label_zh": "超音波檢查 腦下垂體病變引發內分泌",
-          "label_en": ""
+          "label_en": "ultrasound examination hypopituitarism leading to endocrine disorder"
         },
         {
           "code": "A2",
@@ -3021,7 +3021,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M （88.8增訂）",
-          "label_en": ""
+          "label_en": "beriberi M (added in 88.8)"
         },
         {
           "code": "80",
@@ -3056,7 +3056,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M D4 精神科治療",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M D4 psychiatric treatment"
         },
         {
           "code": "85",
@@ -3066,7 +3066,7 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療 （97.1增訂）",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment (added in 97.1)"
         },
         {
           "code": "D7",
@@ -3096,7 +3096,7 @@
         {
           "code": "P5",
           "label_zh": "兒童斷髓處理 FJ 院所服務--輕度",
-          "label_en": ""
+          "label_en": "children's treatment of bone fracture FJ institution service - mild"
         },
         {
           "code": "P6",
@@ -3672,7 +3672,7 @@
         {
           "code": "54",
           "label_zh": "D 遺傳性疾病 86 類天皰瘡 M",
-          "label_en": ""
+          "label_en": "D genetic diseases, 86 categories, pemphigus M"
         },
         {
           "code": "55",
@@ -3697,7 +3697,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 91 毛囊角化症 M",
-          "label_en": ""
+          "label_en": "Pulmonary emphysema F 91 Keratosis M"
         },
         {
           "code": "60",
@@ -3717,7 +3717,7 @@
         {
           "code": "63",
           "label_zh": "N （血友病） 95 慢性骨髓炎 I",
-          "label_en": ""
+          "label_en": "N (hemophilia) 95 Chronic osteomyelitis I"
         },
         {
           "code": "64",
@@ -3737,27 +3737,27 @@
         {
           "code": "67",
           "label_zh": "停經症候群 P 99 異位性皮膚炎",
-          "label_en": ""
+          "label_en": "perimenopause P99 dermatitis"
         },
         {
           "code": "68",
           "label_zh": "尿失禁 P 100 神經性耳鳴",
-          "label_en": ""
+          "label_en": "urinary incontinence P100 tinnitus of neural origin"
         },
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P 特殊檢查",
-          "label_en": ""
+          "label_en": "polychlorinated biphenyl poisoning P special examination"
         },
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B",
-          "label_en": ""
+          "label_en": "adrenal gland disease causing endocrine disorder B"
         },
         {
           "code": "A1",
           "label_zh": "超音波檢查 腦下垂體病變引發內分泌",
-          "label_en": ""
+          "label_en": "ultrasound examination hypopituitarism leading to endocrine disorder"
         },
         {
           "code": "A2",
@@ -3837,7 +3837,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M （88.8增訂）",
-          "label_en": ""
+          "label_en": "beriberi M (added in 88.8)"
         },
         {
           "code": "80",
@@ -3872,7 +3872,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M D4 精神科治療",
-          "label_en": ""
+          "label_en": "seborrheic dermatitis M D4 psychiatric treatment"
         },
         {
           "code": "85",
@@ -3882,7 +3882,7 @@
         {
           "code": "D6",
           "label_zh": "眼科鐳射治療 （97.1增訂）",
-          "label_en": ""
+          "label_en": "ophthalmic laser treatment (added in 97.1)"
         },
         {
           "code": "D7",
@@ -3912,7 +3912,7 @@
         {
           "code": "P5",
           "label_zh": "兒童斷髓處理 FJ 院所服務--輕度",
-          "label_en": ""
+          "label_en": "children's treatment of bone fracture FJ institution service - mild"
         },
         {
           "code": "P6",
@@ -4394,7 +4394,7 @@
         {
           "code": "M",
           "label_zh": "肝炎試辦計畫 92.10增訂",
-          "label_en": ""
+          "label_en": "hepatitis pilot program (added October 92)"
         },
         {
           "code": "U",
@@ -4480,7 +4480,7 @@
         {
           "code": "C",
           "label_zh": "地區醫院 G 地區醫院 R 中醫醫院",
-          "label_en": ""
+          "label_en": "Area Hospital G Area Hospital R Traditional Chinese Medicine Hospital"
         },
         {
           "code": "D",
@@ -4590,7 +4590,7 @@
         {
           "code": "A03",
           "label_zh": "醫學中心；急診；持身心障礙證明",
-          "label_en": ""
+          "label_en": "medical center; emergency; with disability certificate"
         },
         {
           "code": "A0F",
@@ -4695,7 +4695,7 @@
         {
           "code": "B03",
           "label_zh": "區域醫院；急診；持身心障礙證明",
-          "label_en": ""
+          "label_en": "regional hospital; ED; with disability certificate"
         },
         {
           "code": "B0F",
@@ -4705,7 +4705,7 @@
         {
           "code": "B10",
           "label_zh": "區域醫院；一般門診 140 91/9",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 140 91/9"
         },
         {
           "code": "240",
@@ -4905,7 +4905,7 @@
         {
           "code": "D24",
           "label_zh": "基層院所；一般門診加藥品或復健",
-          "label_en": ""
+          "label_en": "primary care; outpatient/ED with medication or rehabilitation"
         },
         {
           "code": "D30",
@@ -5055,12 +5055,12 @@
         {
           "code": "N20",
           "label_zh": "醫學中心；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "medical center; drugs or traditional Chinese medicine orthopedics *"
         },
         {
           "code": "N24",
           "label_zh": "醫學中心；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "medical center; general outpatient with medication or traditional Chinese medicine for injuries"
         },
         {
           "code": "N30",
@@ -5090,12 +5090,12 @@
         {
           "code": "Q20",
           "label_zh": "區域醫院；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "regional hospital; drugs or TCM orthopedics*"
         },
         {
           "code": "Q24",
           "label_zh": "區域醫院；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "Regional Hospital; General Outpatient Plus Medicines or TCM Orthopedics"
         },
         {
           "code": "Q30",
@@ -5115,7 +5115,7 @@
         {
           "code": "R10",
           "label_zh": "地區醫院、中醫醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "number of general outpatient visits at regional hospitals and traditional Chinese medicine hospitals; 50 cases"
         },
         {
           "code": "R14",
@@ -5130,7 +5130,7 @@
         {
           "code": "R24",
           "label_zh": "地區醫院；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "number of general outpatient visits at regional hospitals with added drugs or traditional Chinese medicine for injuries"
         },
         {
           "code": "R30",
@@ -5160,12 +5160,12 @@
         {
           "code": "S20",
           "label_zh": "基層院所；藥品或中醫傷科 ＊",
-          "label_en": ""
+          "label_en": "primary care facility; drugs or TCM orthopedics*"
         },
         {
           "code": "S24",
           "label_zh": "基層院所；一般門診加藥品或中醫傷科",
-          "label_en": ""
+          "label_en": "primary care clinics; general outpatient drug or TCM orthopedics"
         },
         {
           "code": "S30",
@@ -5258,7 +5258,7 @@
         {
           "code": "9",
           "label_zh": "社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 9"
         },
         {
           "code": "11",
@@ -5763,7 +5763,7 @@
         {
           "code": "JY",
           "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
-          "label_en": ""
+          "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
@@ -5773,27 +5773,27 @@
         {
           "code": "QY",
           "label_zh": "物理治療機構 私立物理治療機構",
-          "label_en": ""
+          "label_en": "physical therapy institution private physical therapy institution"
         },
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": ""
+          "label_en": "public occupational therapy institution (added in 2017)"
         },
         {
           "code": "RY",
           "label_zh": "職能治療機構 私立職能治療機構",
-          "label_en": ""
+          "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
           "label_zh": "醫事放射機構 私立醫事放射機構",
-          "label_en": ""
+          "label_en": "medical radiological institution private medical radiological institution"
         },
         {
           "code": "XY",
           "label_zh": "心理所(99年新增) 私立心理機構",
-          "label_en": ""
+          "label_en": "private psychological institutions (added in 99th year)"
         },
         {
           "code": "1Y",
@@ -5808,7 +5808,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": ""
+          "label_en": "private hearing clinic (added in 1999)"
         },
         {
           "code": "4Y",
