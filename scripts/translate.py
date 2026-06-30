@@ -74,8 +74,11 @@ def translate_batch(strings: list[str], retries: int = 2) -> list[str]:
                 "model": MODEL,
                 "prompt": prompt,
                 "stream": False,
-                "options": {"temperature": 0, "num_predict": 4096}
-            }, timeout=600)
+                "keep_alive": "30m",
+                # Cap generation: short field-name/label translations need little
+                # output. 4096 let the model run away on CPU (minutes per batch).
+                "options": {"temperature": 0, "num_predict": 900}
+            }, timeout=300)
             r.raise_for_status()
             resp = r.json()["response"].strip()
             # Strip markdown fences if present

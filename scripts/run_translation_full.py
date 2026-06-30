@@ -25,14 +25,15 @@ def run_pass(max_len, include_long, label):
     todo = [s for s in strings if T.sha(s) not in cache]
     todo.sort(key=len)
     print(f"[{label}] {len(strings)} strings, {len(todo)} to translate", flush=True)
-    for i in range(0, len(todo), 40):
-        batch = todo[i:i + 40]
+    BATCH = 12   # small batches → fast completion + frequent cache writes on CPU
+    for i in range(0, len(todo), BATCH):
+        batch = todo[i:i + BATCH]
         out = T.translate_batch(batch)
         for src, dst in zip(batch, out):
             if dst:
                 cache[T.sha(src)] = dst
         T.save_cache(cache)
-        print(f"[{label}] {min(i + 40, len(todo))}/{len(todo)} — cache {len(cache)}", flush=True)
+        print(f"[{label}] {min(i + BATCH, len(todo))}/{len(todo)} — cache {len(cache)}", flush=True)
     return cache
 
 
