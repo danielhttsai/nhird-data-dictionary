@@ -1,0 +1,2316 @@
+{
+  "code": "Welfare08",
+  "earlier_version_id": "legacy__wave_ROC87_AD1998",
+  "later_version_id": "legacy__wave_ROC91_AD2002",
+  "earlier_field_count": 89,
+  "later_field_count": 124,
+  "added": [
+    {
+      "seq": 6,
+      "name_zh": "身心健康狀況",
+      "name_en": "Q6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 很好 2 還算好 3 普通 4 不太好 5 很不好 99 很難說或拒答 7~9 重大困擾_第一項 重大困擾_第二項 重大困擾_第三項 Q7_1 Q7_2 Q7_3 Char 2 1 自己健康問題 2 家人健康問題 3 自己工作問題 4 家人工作問題 5 經濟問題 6 人身安全問題 7 家庭暴力問題 8 夫妻相處問題 9 公婆妯娌相處問題 10 與其他家人相處問題 11 與娘家家人相處問題 12 家中一般兒童照顧問題 13 患病家人照顧問題 14 子女教育或溝通問題 15 自己學業問題 16 自己的愛情或結婚問題 17 自己的生育問題 18 居住問題 65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 11,
+      "name_zh": "生過小孩個數(指活產 人數)",
+      "name_en": "Q9",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無 1 1個 2 2個 3 3個 4 4個 5 5個 6 6個以上 98 NO (未婚，而且沒有跟 未婚或已婚子女住在一 起) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 13,
+      "name_zh": "目前從事工作",
+      "name_en": "Q11",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 沒有 2 有",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "從業身分",
+      "name_en": "Q12",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 雇主 2 自營作業者(包含只雇用 無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工 作15小時以上，或一天3 小時以上) 89 不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 17,
+      "name_zh": "平均每天工作時數四、收入狀況",
+      "name_en": "Q13",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿 4小時 2 4-(未滿)6小時 3 6-(未滿)8小時 4 8-(未滿)10個小時 5 10 個小時以上 89 不知道 99拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 18,
+      "name_zh": "平均每月收入(包括薪 資、營業利潤、利息、 租金、投資收益、退休 金、救助津貼、子女奉 養金等)",
+      "name_en": "Q14",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 19,
+      "name_zh": "幾成收入供家庭使用 (在外工作者含拿回給 家人使用部分)五、家庭狀況",
+      "name_en": "Q15",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 8(含)成以上 2 6(含)至8成 3 4(含)至6成 4 2(含)至4成 5 2成以下 89 不知道 98 NO(無) 99 拒答 20~ 29 目前和哪些人住在一 起(複選題) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 獨居 2 配偶(含同居人) 3 父母(公婆) 4 未婚子女 5 祖父(母) 6 已婚子女(含其配偶) 7 孫子女 8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 30,
+      "name_zh": "配偶的工作地點",
+      "name_en": "Q17",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 臺閩地區(指非受訪者所 居住的外縣市) 2 外國 3 大陸 4 沒有在外地工作 98 NO(沒有配偶或同居者) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 31,
+      "name_zh": "家庭財務分配或管理 的主導人",
+      "name_en": "Q18",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫 3 夫妻共管 4 父母(公婆) 5 子女、媳婦 6 祖父(母) 65 其他(請說明) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 32,
+      "name_zh": "平均每月可自由使用 之金額(外地求學的學 生，不包括一般食衣住 行之必要費用)",
+      "name_en": "Q19",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 5千元以下 2 5千(含)~1萬以下 3 1(含)~2萬以下 4 2(含)~4萬以下 5 4(含)萬以上 6 沒有自由使用的金錢 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 33,
+      "name_zh": "幾個未滿12歲兒童(不 問 \"獨居者\")",
+      "name_en": "Q20_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無 1 1人 2 2人 3 3人 4 4人 5 5人 6 6人以上(請訪員紀錄在",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 34,
+      "name_zh": "與未滿 12 歲的小孩 中，排行第一的小孩之 關係",
+      "name_en": "Q20_2_1A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7 兄弟姊妹或其配偶(弟弟 、妹妹) 8 丈夫的兄弟姊妹或其配 偶(小叔、小姑) 9 子女或其配偶(兒子、女 兒) 10 孫子女或其配偶(孫子、 孫女) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 35,
+      "name_zh": "其性別為",
+      "name_en": "Q20_2_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 男 2 女 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 36,
+      "name_zh": "其年齡為",
+      "name_en": "Q20_2_1C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 37,
+      "name_zh": "身心障礙或重大疾病 患者",
+      "name_en": "Q20_2_1D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 是 2 否 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q20_2_1E_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 39,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q20_2_1E_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q20_2_1F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 41,
+      "name_zh": "與未滿 12 歲的小孩 中，排行第二(最小)的 小孩之關係",
+      "name_en": "Q20_2_2A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7 兄弟姊妹或其配偶(弟弟 、妹妹) 8 丈夫的兄弟姊妹或其配 偶(小叔、小姑) 9 子女或其配偶(兒子、女 兒) 10 孫子女或其配偶(孫子、 孫女) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 42,
+      "name_zh": "其性別為",
+      "name_en": "Q20_2_2B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 男 2 女",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 43,
+      "name_zh": "其年齡為",
+      "name_en": "Q20_2_2C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 44,
+      "name_zh": "身心障礙或重大疾病 患者",
+      "name_en": "Q20_2_2D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 是 2 否 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 45,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q20_2_2E_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 46,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q20_2_2E_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 47,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q20_2_2F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 48,
+      "name_zh": "與未滿 12 歲的小孩 中，排行第三(最小)的 小孩之關係",
+      "name_en": "Q20_2_3A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7 兄弟姊妹或其配偶(弟弟 、妹妹) 8 丈夫的兄弟姊妹或其配 偶(小叔、小姑) 9 子女或其配偶(兒子、女 兒) 10 孫子女或其配偶(孫子、 孫女) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 49,
+      "name_zh": "其性別為",
+      "name_en": "Q20_2_3B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 男 2 女 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 50,
+      "name_zh": "其年齡為",
+      "name_en": "Q20_2_3C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 51,
+      "name_zh": "身心殘障或重大疾病 患者",
+      "name_en": "Q20_2_3D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 是 2 否 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 52,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q20_2_3E_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 53,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q20_2_3E_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 54,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q20_2_3F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 55,
+      "name_zh": "與未滿 12 歲的小孩 中，排行第四(最小)的 小孩之關係",
+      "name_en": "Q20_2_4A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7 兄弟姊妹或其配偶(弟弟 、妹妹) 8 丈夫的兄弟姊妹或其配 偶(小叔、小姑) 9 子女或其配偶(兒子、女 兒) 10 孫子女或其配偶(孫子、 孫女) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 56,
+      "name_zh": "其性別為",
+      "name_en": "Q20_2_4B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 男 2 女 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 57,
+      "name_zh": "請問這位小孩幾歲?",
+      "name_en": "Q20_2_4C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 58,
+      "name_zh": "身心殘障或重大疾病 患者",
+      "name_en": "Q20_2_4D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 是 2 否 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 59,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q20_2_4E_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 60,
+      "name_zh": "請問這位小孩在家的",
+      "name_en": "Q20_2_4E_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 61,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q20_2_4F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 62,
+      "name_zh": "與未滿 12 歲的小孩 中，排行第五(最小)的 小孩之關係",
+      "name_en": "Q20_2_5A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7 兄弟姊妹或其配偶(弟弟 、妹妹) 8 丈夫的兄弟姊妹或其配 偶(小叔、小姑) 9 子女或其配偶(兒子、女 兒) 10 孫子女或其配偶(孫子、 孫女) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 63,
+      "name_zh": "其性別為",
+      "name_en": "Q20_2_5B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 男 2 女 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 64,
+      "name_zh": "其年齡為",
+      "name_en": "Q20_2_5C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 65,
+      "name_zh": "身心殘障或重大疾病 患者",
+      "name_en": "Q20_2_5D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 是 2 否 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 66,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q20_2_5E_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 67,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q20_2_5E_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 68,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q20_2_5F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 69,
+      "name_zh": "日常生活起居需人照 顧 (如穿衣、吃飯、洗 澡、上下床無法自理) 的65歲以上老人",
+      "name_en": "Q21_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 無 2 1人 3 2人 4 3人 5 4人以上(請訪員紀錄在 開放問項紀錄表) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 70,
+      "name_zh": "與最年長者之關係",
+      "name_en": "Q21_2_1A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 71,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q21_2_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 72,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q21_2_1C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 73,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q21_2_1D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 74,
+      "name_zh": "與比較年長者之關係",
+      "name_en": "Q21_2_2A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 65 其他(非親屬) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 75,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q21_2_2B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 76,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q21_2_2C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 77,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q21_2_2D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 78,
+      "name_zh": "與最年輕之關係",
+      "name_en": "Q21_2_3A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 79,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q21_2_3B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 80,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q21_2_3C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 81,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q21_2_3D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 82,
+      "name_zh": "日常生活起居需要人 照顧 (指身心障礙或 重大傷病者) 的 12 至 64歲人員",
+      "name_en": "Q22_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 無 2 1人 3 2人 4 3人 5 4人以上(請訪員紀錄在 開放問項紀錄表) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 83,
+      "name_zh": "與第一年長者之關係",
+      "name_en": "Q22_2_1A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母)(爸爸、媽 媽) 6 配偶的父(母)(公公、婆 婆) 7 本人的兄弟姊妹或其配 偶(哥哥、弟弟、姐姐、 妹妹或其配偶) 8 配偶的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 本人的子女或其配偶(兒 子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 84,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q22_2_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 85,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q22_2_1C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 86,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q22_2_1D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 87,
+      "name_zh": "與第二年長(最年輕)者",
+      "name_en": "Q22_2_2A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 88,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q22_2_2B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 89,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q22_2_2C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 90,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q22_2_2D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 91,
+      "name_zh": "與第三年長(最年輕)者 之關係",
+      "name_en": "Q22_2_3A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母)(爸爸、媽 媽) 6 配偶的父(母)(公公、婆 婆) 7 本人的兄弟姊妹或其配 偶(哥哥、弟弟、姐姐、 妹妹或其配偶) 8 配偶的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 本人的子女或其配偶(兒 子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 92,
+      "name_zh": "其主要照顧人員為",
+      "name_en": "Q22_2_3B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女 或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 93,
+      "name_zh": "其次要照顧人員為",
+      "name_en": "Q22_2_3C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 94,
+      "name_zh": "平均多少時間照顧",
+      "name_en": "Q22_2_3D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 95,
+      "name_zh": "家庭一搬家務的主要 提供者",
+      "name_en": "Q23_1_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 96,
+      "name_zh": "家庭一搬家務的次要 提供者",
+      "name_en": "Q23_1_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 97,
+      "name_zh": "家庭一搬家務的再次 要提供者",
+      "name_en": "Q23_1_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母) (公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 98,
+      "name_zh": "平均多少時間做家事",
+      "name_en": "Q23_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 1小時以下 2 1(含)~2小時以下 3 2(含)~3小時以下 4 3(含)~4小時以下 5 4(含)小時以上 88 無 99 不知道/拒答 99~ 101 先 生 最 常 做的 家 事 (最多可選三項) (限問 有配偶或同居者) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 清洗與整理衣物 2 準備三餐與點心 3 餐後清洗整理餐具 4 金錢管理 5 照顧家人生活 6 清掃整理家庭 7 指導子女課業 8 家庭維修工作 9 購買食物及日常用品 10 處理垃圾 11 NO(無配偶或同居者) 65 其他(請說明) 88 均無 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 102,
+      "name_zh": "先生做家事的程度(限 問有配偶或同居者)",
+      "name_en": "Q23_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 1/4以下 2 1/4(含)~1/2以下 3 1/2(含)~3/4及以下 4 3/4(含)以上",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 103,
+      "name_zh": "家庭生活滿意度",
+      "name_en": "Q24",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 很滿意 2 還算滿意 3 不太滿意 4 很不滿意 89 無意見或不知道 99 拒答 六、社會參與及休閒狀況 104 ~ 106 最常關心下列哪些資 訊(逐項提示，最多可 選三項) Q25_1 Q25_2 Q25_3 Char 2 1 政治與國際情勢 2 投資理財及財政金融 3 社會治安 4 醫療保健 5 休閒娛樂與運動 6 家庭生活(如育嬰、烹飪 等) 7 文化教育 8 科技資訊 9 兩性關係 10 環保議題 11 社區參與及志願服務 12 宗教信仰 65 其他(請說明) 89 無意見或不知道 99 拒答 107 ~ 109 從事那種性質的休閒 活動(逐項提示，最多 可選三項) Q26_1 Q26_2 Q26_3 Char 2 1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 65 其他(請說明) 88 沒有休閒活動 89 無意見或不知",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 110,
+      "name_zh": "最近一年內是否參加 社會團體(或基金會) 的活動",
+      "name_en": "Q27",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 111 ~ 122 參與哪種性質的團體 (可複選) Q27A Q27B Q27C Q27D Q27E Q27F Q27G Q27H Q27I Q27J Q27K Q27L Char 2 1 醫療衛生團體 2 宗教團體 3 體育團體 4 社會服務及慈善團體 5 國際團體 6 宗親會 7 同鄉會 8 同學校友會 9 學術文化團體 10 經濟業務團體 11 政治團體 12 社運團體 65 其他(請說明) 89 不知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 123,
+      "name_zh": "是 否 擔 任 社會 團 體 (或基金會)的哪種職務",
+      "name_en": "Q27_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 職務為選任人員(如理監 事人員) 2 職務為會務人員(如行政 工作人員) 88 沒有擔任職務 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 124,
+      "name_zh": "是否捐款、捐血或參加 過社會服務",
+      "name_en": "Q28",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 125 ~ 128 參加的項目(可複選) Q28A Q28B Q28C Q28D Char 2 1 捐贈金錢或實物給政府 、民間團體或個人 2 各項志願服務(義工) 3 捐血 65 其他(請說明) 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 129,
+      "name_zh": "平均每月參加志願服",
+      "name_en": "Q28_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 0-10個小時",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 130,
+      "name_zh": "使用過電腦八、特殊遭遇",
+      "name_en": "Q29_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 否 2 是 99 拒答 131 ~ 139 使用電腦從事下列活 動(逐項提示，可複選) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 上網查詢 2 收發電子郵件 3 設計分析工作 4 電腦遊戲 5 網路採購 6 網路交談 7 文書處理 8 理財試算 65 其他(請說明) 99 拒答 140 ~ 144 曾經在家庭、工作場所 或出門在外遭遇過暴 力、性騷擾、虐待、被 迫吸毒等不好的經驗 (可複選) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 遭受配偶暴力 2 遭受配偶精神虐待 3 遭受其他家人暴力 4 遭受其他家人精神虐待 5 遭受丈夫惡意遺棄或被 迫離婚 6 被他人強暴 7 在工作場所中遭受性騷 擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 145,
+      "name_zh": "是否知道哪裡有婦女 福利服務中心",
+      "name_en": "Q31_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 不知道 2 知道 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 146,
+      "name_zh": "使用婦女服務中心的 頻率",
+      "name_en": "Q31_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 經常使用 2 偶而使用 3 未曾使用 99 拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 147,
+      "name_zh": "是否知道政府有提供 \"支持保護設施\"給特 殊境遇(或不幸遭遇) 的婦女(如中途之家、 庇護中心、單親家園 等)",
+      "name_en": "Q32_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 不知道 2 知道 99 拒答 148 ~ 152 取得資訊之管道(可複 選) Q32_2_1 Q32_2_2 Q32_2_3 Q32_2_4 Q32_2_5 Char 2 1 報章雜誌 2 親友 3 電視廣播 4 網路 65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 153,
+      "name_zh": "是否知道政府有提供 \"一一三婦幼保護專線 \"，用來提供諮詢服 務、被害人緊急救援、 緊急庇護安置等服務",
+      "name_en": "Q33_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 154,
+      "name_zh": "是否知道政府有提供 \"婦女各項生活扶助措 施\"，指針對低收入戶 及特殊境遇的婦女，提 供子女生活津貼、教育 補助、生育補助等補助 措施",
+      "name_en": "Q33_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 155,
+      "name_zh": "是否知道政府有提供 \"親職教育及學習成長 \"，例如讀書會、婦女 學苑，或是針對家長提 供有關兒童、青少年發 展的知識",
+      "name_en": "Q33_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 156,
+      "name_zh": "是否知道政府有提供 \"心理諮商或法律諮詢 的服務\"針對婦女所遭 遇到的家庭、婚姻、法 律、心裡適應等問題所 提供的服務",
+      "name_en": "Q33_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 157,
+      "name_zh": "是否知道政府有提供 \"休閒活動方面的服務 \"，例如土風舞課程、 母親節或婦女節的慶 祝活動等服務",
+      "name_en": "Q33_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 158,
+      "name_zh": "是否知道各縣市政府 的婦女福利服務中心 有提供\"各項活動及成 長課程\"，包括心裡諮 商、法律輔導、技藝訓 練、衛生保健等服務",
+      "name_en": "Q33_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 159,
+      "name_zh": "是否知道政府有提供 如 \"設立托兒所\"、\"召 募社區保母\"或\"發放 教育券\"等各種\"托兒 方面的服務\"",
+      "name_en": "Q33_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 160,
+      "name_zh": "是否知道政府有提供 如 \"居家照顧\"、\"送餐 服務\"等\"托老方面的 服務\"",
+      "name_en": "Q33_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 161,
+      "name_zh": "是否知道政府有提供 如 \"托育服務\"、\"就業 服務\"等各項\"身心障 礙者的服務\"",
+      "name_en": "Q33_9",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 162,
+      "name_zh": "是否知道政府有提供 如 \"被害人緊急救援 通報系統\"、\"建立執行 保護令\"等各項\"性侵 害及家庭暴力被害人 的服務\"",
+      "name_en": "Q33_10",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 163,
+      "name_zh": "是否知道政府有提供 \"促進婦女就業之相關 服務及輔導措施\"，包 括 提 供 婦 女就 業 資 訊、職業諮商或職業介 紹等各項服務",
+      "name_en": "Q33_11",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 164,
+      "name_zh": "除了以上幾項措施，請 問是否有其他所知道 目前政府已經有提供 的婦女福利措施想要 提出來",
+      "name_en": "Q33_12",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 有(請受訪者舉例，請訪 員紀錄在開放問項紀錄 表上) 2 沒有 165 ~ 167 為增進婦女個人的權 益及提供全人發展，政 府應該加強提供哪些 服務(逐項提示，最多 可選三項) Q34_1 Q34_2 Q34_3 Char 2 1 職訓就業 2 法律諮詢服務 3 生涯規劃 4 終生學習 5 休閒活動 6 創業貸款 7 促進兩性平權措施 8 社會治安 9 婦女保護 10 生活扶助 65 其他(請說明) 89 無意見/不知道 99 拒答 168 ~ 170 期望政府或民間機構 團體如何建立完善的 托兒、托老及身心障礙 者服務措施(逐項提 示，最多可選三項) Q35_1 Q35_2 Q35_3 Char 2 1 辦理社區、鄰里照顧人 員訓練(居家服務、保 母)，儲備照顧人才 2 鼓勵延長托兒收托時間 3 輔導機構附設托兒所 4 辦理課後收托服務 5 加強托兒機構的評鑑 6 鼓勵設立老人安養、養 護機構",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 172,
+      "name_zh": "訪問狀況",
+      "name_en": "U123",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 成功訪問 2 一開始就拒答 3 中途拒答 4 約訪但未完成 5 無合格受訪者 6 空號 7 公司行號 8 傳真 9 無人接聽",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 173,
+      "name_zh": "縣市別",
+      "name_en": "U125",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 台北縣 2 宜蘭縣 3 桃園縣 4 新竹縣 5 苗栗縣 6 台中縣 7 彰化縣 8 南投縣",
+      "available_notes": [],
+      "name_zh_en": "county city",
+      "description_en": ""
+    },
+    {
+      "seq": 174,
+      "name_zh": "E權術",
+      "name_en": "E_V_N",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 175,
+      "name_zh": "E權術2",
+      "name_en": "E_V_N2",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 176,
+      "name_zh": "是否已婚",
+      "name_en": "E_W_B",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 177,
+      "name_zh": "行政區",
+      "name_en": "VAR177",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "21 台灣省 22 台北市 23 高雄市 24 金馬地區",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 178,
+      "name_zh": "婚姻狀況",
+      "name_en": "VAR178",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 未婚 2 有配偶或同居 3 離婚或分居 4 喪偶",
+      "available_notes": [],
+      "name_zh_en": "marital status",
+      "description_en": ""
+    },
+    {
+      "seq": 179,
+      "name_zh": "有無工作",
+      "name_en": "VAR179",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 有工作者 2 無工作者 註:此欄位與Q11同義，只是 編碼不同",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 180,
+      "name_zh": "行業別",
+      "name_en": "VAR180",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 農林漁牧 2 工礦 3 商",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 181,
+      "name_zh": "地區別",
+      "name_en": "VAR181",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 北部地區 2 中部地區 3 南部地區 4 東部地區 5 金馬地區 註:此欄位與LOCAT重複",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 182,
+      "name_zh": "年齡(足歲)",
+      "name_en": "VAR182",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲 註:此欄位與Q1重複",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 183,
+      "name_zh": "身分",
+      "name_en": "VAR183",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 註:此欄位與Q2重複",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 184,
+      "name_zh": "教育程度",
+      "name_en": "VAR184",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 註:此欄位與Q3重複",
+      "available_notes": [],
+      "name_zh_en": "education level",
+      "description_en": ""
+    },
+    {
+      "seq": 185,
+      "name_zh": "宗教信仰",
+      "name_en": "VAR185",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 佛教 2 道教 3 基督教 4 天主教 5 一貫道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 186,
+      "name_zh": "從業身分",
+      "name_en": "VAR186",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 雇主 2 自營作業者(包含只雇用 無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工 作15小時以上，或一天3 小時以上) 89 不知道 註:此欄位與Q12重複",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 187,
+      "name_zh": "平均每月收入",
+      "name_en": "VAR187",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答 註:此欄位與Q14重複",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "樣本編號",
+      "name_en": "CASEID",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Sample Number",
+      "description_en": ""
+    },
+    {
+      "seq": 7,
+      "name_zh": "沒有從事有收入工作之 原因",
+      "name_en": "Q6_N",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 照顧家人 2 料理家事 3 退休 4 在學或進修中 5 找工作中 6 幫忙家庭事業 7 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "從事有收入工作之行業",
+      "name_en": "Q6_Y",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 農、林、漁、牧 2 工、礦 3 商 4 服務 5 公教、軍、警",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "從業身分",
+      "name_en": "Q6_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 雇主 2 自營作業者 3 受政府雇用者 4 受私人雇用者",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "每月平均收入",
+      "name_en": "Q6_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 20,000元以下 2 20,000-29,999元 3 30,000-39,999元 4 40,000-49,999元 5 50,000-59,999元 6 60,000-69,999元 7 70,000-79,999元 8 80,000-89,999元 9 90,000-99,999元 10 100,000元以上 88 不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 11,
+      "name_zh": "從事目前工作主要原因",
+      "name_en": "Q6_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 適合自己興趣或專長 2 經濟需要 3 不想受家庭束縛 4 有成就感 5 其他 8 不知道/無意見",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 12,
+      "name_zh": "目前工作環境中是否有 下列困擾_性別歧視",
+      "name_en": "Q6_4_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 13,
+      "name_zh": "目前工作環境中是否有 下列困擾_薪資待遇不 公",
+      "name_en": "Q6_4_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 14,
+      "name_zh": "目前工作環境中是否有 下列困擾_人事陞遷不 公",
+      "name_en": "Q6_4_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 15,
+      "name_zh": "目前工作環境中是否有 下列困擾_員工福利不 好",
+      "name_en": "Q6_4_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "目前工作環境中是否有 下列困擾_性騷擾",
+      "name_en": "Q6_4_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 17,
+      "name_zh": "目前工作環境中是否有 下列困擾_同事相處不 易",
+      "name_en": "Q6_4_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 18,
+      "name_zh": "目前工作環境中是否有 下列困擾_工作壓力大",
+      "name_en": "Q6_4_7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 19,
+      "name_zh": "目前工作環境中是否有 下列困擾_其他",
+      "name_en": "Q6_4_8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有此困擾 2 表示沒有此困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 20,
+      "name_zh": "目前工作環境中是否有 下列困擾_沒有困擾三、婚育狀況",
+      "name_en": "Q6_4_9",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示至少有一項困擾 2 表示皆沒有困擾",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 21,
+      "name_zh": "子女數",
+      "name_en": "Q7",
+      "type": "Num",
+      "length": 3,
+      "description_zh": "0~8",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 23,
+      "name_zh": "先生是否施暴",
+      "name_en": "Q8_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 未曾有過 2 曾發生1-3次 3 曾發生4-9次 4 曾發生10次以上 8 不記得",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 24,
+      "name_zh": "施暴最主要原因",
+      "name_en": "Q8_1_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 個性問題 2 經濟問題 3 婚姻問題 4 家庭問題 5 溝通問題 6 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 25,
+      "name_zh": "施暴次要原因",
+      "name_en": "Q8_1_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要原因 1 個性問題 2 經濟問題 3 婚姻問題 4 家庭問題 5 溝通問題 6 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 26,
+      "name_zh": "施暴再次要原因",
+      "name_en": "Q8_1_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要原因",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 27,
+      "name_zh": "婚姻生活中是否有下列 困擾_子女或親人照顧 問題",
+      "name_en": "Q9_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 28,
+      "name_zh": "婚姻生活中是否有下列 困擾_青春期子女教育 問題",
+      "name_en": "Q9_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 29,
+      "name_zh": "婚姻生活中是否有下列 困擾_夫妻溝通問題",
+      "name_en": "Q9_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 30,
+      "name_zh": "婚姻生活中是否有下列 困擾_婚姻暴力問題",
+      "name_en": "Q9_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 31,
+      "name_zh": "婚姻生活中是否有下列 困擾_親子溝通問題",
+      "name_en": "Q9_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 32,
+      "name_zh": "婚姻生活中是否有下列 困擾_經濟問題",
+      "name_en": "Q9_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 33,
+      "name_zh": "婚姻生活中是否有下列 困擾_親友關係問題",
+      "name_en": "Q9_7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 34,
+      "name_zh": "婚姻生活中是否有下列 困擾_公婆妯娌關係",
+      "name_en": "Q9_8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 是 2 否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "最常關心之資訊_第三 項",
+      "name_en": "Q11_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要選項 1 政治與國際情勢 2 社會治安 3 休閒娛樂與運動 4 文藝與影劇 5 經濟與財政金融 6 投資理財 7 醫療保健 8 家庭生活(如育嬰、烹飪) 9 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 39,
+      "name_zh": "平常從事的休閒活動性 質_第一項",
+      "name_en": "Q12_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 7 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "平常從事的休閒活動性 質_第二項",
+      "name_en": "Q12_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要選項 1 文化性 2 體能性 3 藝術性 4 社交性",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 41,
+      "name_zh": "平常從事的休閒活動性 質_第三項",
+      "name_en": "Q12_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要選項 1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 7 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 42,
+      "name_zh": "曾參與過下列民間社會 團體活動_學術文化團 體",
+      "name_en": "Q13_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 43,
+      "name_zh": "曾參與過下列民間社會 團體活動_醫療衛生團 體",
+      "name_en": "Q13_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 44,
+      "name_zh": "曾參與過下列民間社會 團體活動_宗教團體",
+      "name_en": "Q13_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 45,
+      "name_zh": "曾參與過下列民間社會 團體活動_體育團體",
+      "name_en": "Q13_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 46,
+      "name_zh": "曾參與過下列民間社會 團體活動_社會服務及 慈善團體",
+      "name_en": "Q13_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 47,
+      "name_zh": "曾參與過下列民間社會 團體活動_國際團體",
+      "name_en": "Q13_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 48,
+      "name_zh": "曾參與過下列民間社會 團體活動_經濟業務團 體",
+      "name_en": "Q13_7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 49,
+      "name_zh": "曾參與過下列民間社會 團體活動_宗親會",
+      "name_en": "Q13_8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 50,
+      "name_zh": "曾參與過下列民間社會 團體活動_同鄉會",
+      "name_en": "Q13_9",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 51,
+      "name_zh": "曾參與過下列民間社會 團體活動_同學校友會",
+      "name_en": "Q13_10",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 52,
+      "name_zh": "曾參與過下列民間社會 團體活動_其他",
+      "name_en": "Q13_11",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 53,
+      "name_zh": "曾參與過的下列民間社 會團體活動_未曾參與",
+      "name_en": "Q13_12",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示至少有參加過一項 2 表示皆沒有參與過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 54,
+      "name_zh": "曾因認同團體的訴求參 與社會運動",
+      "name_en": "Q13_01",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 經常參與 2 偶而參與 3 從未參與",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 55,
+      "name_zh": "曾以下列方式參與社會 福利服務_捐贈金錢或 實物給政府、民間團體 或個人",
+      "name_en": "Q14_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 56,
+      "name_zh": "曾以下列方式參與社會 福利服務_參與社會福 利服務實務工作(如社 區志願服務、社區看 護、志工等)",
+      "name_en": "Q14_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 57,
+      "name_zh": "曾以下列方式參與社會 福利服務_義務為民間 團體選、聘任職員",
+      "name_en": "Q14_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 58,
+      "name_zh": "曾以下列方式參與社會 福利服務_對鄰居義務 付出關懷(如看護小孩、 照顧老人、病人或濟助 貧困者等)",
+      "name_en": "Q14_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 59,
+      "name_zh": "曾以下列方式參與社會 福利服務_其他",
+      "name_en": "Q14_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有參加過 2 表示沒有參加過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 60,
+      "name_zh": "曾以下列方式參與社會 福利服務_未曾參與五、特殊遭遇",
+      "name_en": "Q14_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示至少有參加過一項 2 表示皆沒有參與過",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 61,
+      "name_zh": "是否曾有過下列不幸經 驗_遭受家庭暴力(包括 遭受身體、精神、及性 虐待等方面)",
+      "name_en": "Q15_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 62,
+      "name_zh": "是否曾有過下列不幸經 驗_遭受丈夫惡意遺棄",
+      "name_en": "Q15_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 63,
+      "name_zh": "是否曾有過下列不幸經 驗_被他人強暴",
+      "name_en": "Q15_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 64,
+      "name_zh": "是否曾有過下列不幸經 驗_遭受他人性騷擾(包 括在工作場所及其他公 共場所)",
+      "name_en": "Q15_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 65,
+      "name_zh": "是否曾有過下列不幸經 驗_先生外遇",
+      "name_en": "Q15_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 66,
+      "name_zh": "是否曾有過下列不幸經 驗_被迫從事不法工作 (如從事色情行業、偽造 文書等)",
+      "name_en": "Q15_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 67,
+      "name_zh": "是否曾有過下列不幸經 驗_企圖自殺(含有自殺 傾向或意圖)",
+      "name_en": "Q15_7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 68,
+      "name_zh": "是否曾有過下列不幸經 驗_遭受重大疾病或傷 害",
+      "name_en": "Q15_8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 69,
+      "name_zh": "是否曾有過下列不幸經 驗_其他",
+      "name_en": "Q15_9",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示有過經驗 2 表示沒有過經驗",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 70,
+      "name_zh": "是否曾有過下列不幸經 驗_未曾有過",
+      "name_en": "Q15_10",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 表示至少有過一項經驗 2 表示皆沒有過經驗 六、對婦女福利措施的瞭解與期望",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 71,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_婦女工 作權益法律保障(如女 工凌晨0-6 實不得工作 、不得從事危險性工作 、八周產假、四周流產 假、育嬰假)",
+      "name_en": "Q16_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 72,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_促進婦 女就業之相關服務與技 能訓練",
+      "name_en": "Q16_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 73,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_婦女座 談會議或婦女社區服務 (休閒或聯誼活動)",
+      "name_en": "Q16_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 74,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_托育服 務與托育津貼",
+      "name_en": "Q16_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 75,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_不幸婦 女之緊急生活扶助",
+      "name_en": "Q16_5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 76,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_不幸婦 女之收容安置服務",
+      "name_en": "Q16_6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 77,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_婦女訴 訟、律師諮詢服務",
+      "name_en": "Q16_7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 78,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_婦女心 理諮商輔導、治療服務",
+      "name_en": "Q16_8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 79,
+      "name_zh": "下列政府所辦婦女福利 項目是否滿意_婦女人 身安全保護服務(如保 護您專線；性侵害防治 資訊網路服務)",
+      "name_en": "Q16_9",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 滿意 2 不滿意 3 無意見或不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 80,
+      "name_zh": "政府對婦女福利服務措 施應以何者為優先_第 一優先",
+      "name_en": "Q17_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 對不幸婦女的照顧服務 2 性侵害防治服務 3 托育、托兒方面服務 4 才藝方面的訓練與教育 服務 5 休閒活動方面的服務 6 工作權益的保障 7 諮詢輔導或法律的服務 8 親職教育的服務 9 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 81,
+      "name_zh": "政府對婦女福利服務措",
+      "name_en": "Q17_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 82,
+      "name_zh": "政府對婦女福利服務措 施應以何者為優先_第 三優先",
+      "name_en": "Q17_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先 1 對不幸婦女的照顧服務 2 性侵害防治服務 3 托育、托兒方面服務 4 才藝方面的訓練與教育 服務 5 休閒活動方面的服務 6 工作權益的保障 7 諮詢輔導或法律的服務 8 親職教育的服務 9 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 83,
+      "name_zh": "政府對遭遇不幸或困難 的婦女應優先提供什麼 保護服務_第一優先",
+      "name_en": "Q18_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 經濟輔助：如低收入戶 婦女家庭補助、免費醫 療服務；婦女急難救 助、緊急生活扶助 2 職訓就業：如協助單親 家庭婦女解決就業及生 活問題；扶助困苦及不 幸婦女習得一技之長及 輔導就業 3 法律服務：如提供單親 家庭婦女諮商、輔導及 法律服務 4 收容轉介：如成立中途 之家，收容保護不幸婦",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 84,
+      "name_zh": "政府對遭遇不幸或困難 的婦女應優先提供什麼 保護服務_第二優先",
+      "name_en": "Q18_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先 1 經濟輔助：如低收入戶 婦女家庭補助、免費醫 療服務；婦女急難救 助、緊急生活扶助 2 職訓就業：如協助單親 家庭婦女解決就業及生 活問題；扶助困苦及不 幸婦女習得一技之長及 輔導就業 3 法律服務：如提供單親 家庭婦女諮商、輔導及 法律服務 4 收容轉介：如成立中途 之家，收容保護不幸婦 女；設立緊急庇護所， 疏解其危困；不幸婦女 轉介服務工作 5 聯誼服務：如辦理單親 家庭婦女聯誼活動 6 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 85,
+      "name_zh": "政府對遭遇不幸或困難 的婦女應優先提供什麼 保護服務_第三優先",
+      "name_en": "Q18_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先 1 經濟輔助：如低收入戶 婦女家庭補助、免費醫 療服務；婦女急難救 助、緊急生活扶助 2 職訓就業：如協助單親 家庭婦女解決就業及生 活問題；扶助困苦及不",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 86,
+      "name_zh": "政府或民間機構團體如 何建立完善的托兒服務 措施_第一優先",
+      "name_en": "Q19_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 辦理鄰里保母訓練，儲 備保母人才 2 推展保母考試發照制度 3 加強托兒機構的評核 4 鼓勵延長托兒機構收托 時間 5 輔導機構附設托兒所 6 辦理課後收托服務 7 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 87,
+      "name_zh": "政府或民間機構團體如 何建立完善的托兒服務 措施_第二優先",
+      "name_en": "Q19_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先 1 辦理鄰里保母訓練，儲 備保母人才 2 推展保母考試發照制度 3 加強托兒機構的評核 4 鼓勵延長托兒機構收托 時間 5 輔導機構附設托兒所 6 辦理課後收托服務 7 其他",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 88,
+      "name_zh": "政府或民間機構團體如 何建立完善的托兒服務 措施_第三優先",
+      "name_en": "Q19_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0 無次要優先 1 辦理鄰里保母訓練，儲 備保母人才",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "modified": [
+    {
+      "key": "Q1",
+      "seq_later": 1,
+      "changes": {
+        "name_zh": {
+          "from": "年齡",
+          "to": "年齡(已足歲計算)"
+        },
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 3,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "15-64",
+          "to": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲 99 拒答"
+        }
+      }
+    },
+    {
+      "key": "Q2",
+      "seq_later": 2,
+      "changes": {
+        "name_zh": {
+          "from": "教育程度",
+          "to": "身分"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大學 6 研究所以上",
+          "to": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 99 拒答 (非原住民與榮民榮眷的受 訪者，通通規入一般住民)"
+        }
+      }
+    },
+    {
+      "key": "Q3",
+      "seq_later": 3,
+      "changes": {
+        "name_zh": {
+          "from": "婚姻狀況",
+          "to": "教育程度"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 未婚 2 有配偶或同居 3 離婚或分居 4 喪偶",
+          "to": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 99 不知道/拒答"
+        }
+      }
+    },
+    {
+      "key": "Q4",
+      "seq_later": 4,
+      "changes": {
+        "name_zh": {
+          "from": "宗教信仰",
+          "to": "婚姻狀況"
+        },
+        "description_zh": {
+          "from": "1 道教 2 佛教 3 基督教 4 天主教 5 其他 6 無宗教信仰",
+          "to": "1 已婚，目前有配偶 2 已婚，目前未離婚但分 居 3 目前與人同居(含已離婚 、喪偶或未離婚而與他 人同居者) 4 曾同居，但目前分居 5 曾結婚，目前為離婚 6 曾結婚或同居，目前為 喪偶 7 未婚"
+        }
+      }
+    },
+    {
+      "key": "Q5",
+      "seq_later": 5,
+      "changes": {
+        "name_zh": {
+          "from": "政黨參與二、工作狀況",
+          "to": "宗教信仰"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 有加入政黨 2 沒有加入政黨",
+          "to": "1 佛教"
+        }
+      }
+    },
+    {
+      "key": "Q8",
+      "seq_later": 10,
+      "changes": {
+        "name_zh": {
+          "from": "是否滿意婚姻生活",
+          "to": "情緒的主要支持者"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 很滿意 2 滿意 3 不滿意 4 很不滿意 5 無意見或很難說",
+          "to": "1 配偶 2 父母 3 公婆妯娌 4 兄弟姊妹 5 朋友、同事、鄰居 6 子女、媳婦 7 專業諮商輔導人員 65 其他(請說明) 99 很難說/拒答"
+        }
+      }
+    },
+    {
+      "key": "Q10",
+      "seq_later": 12,
+      "changes": {
+        "name_zh": {
+          "from": "財物管理主導人四、社交與休閒",
+          "to": "身心殘障手冊三、工作狀況"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 本人(妻) 2 夫 3 夫妻共管 4 其他",
+          "to": "1 是 2 否 99 拒答"
+        }
+      }
+    },
+    {
+      "key": "Q11_1",
+      "seq_later": 14,
+      "changes": {
+        "name_zh": {
+          "from": "最常關心之資訊_第一 項",
+          "to": "沒有工作的原因"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "1 政治與國際情勢 2 社會治安 3 休閒娛樂與運動 4 文藝與影劇 5 經濟與財政金融 6 投資理財",
+          "to": "1 照顧小孩 2 照顧老人或病人 3 料理家事 4 退休 5 在學或進修中 6 找工作中(含失業) 7 健康不佳"
+        }
+      }
+    },
+    {
+      "key": "Q11_2",
+      "seq_later": 15,
+      "changes": {
+        "name_zh": {
+          "from": "最常關心之資訊_第二 項",
+          "to": "從事行業"
+        },
+        "length": {
+          "from": 1,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "0 無次要選項 1 政治與國際情勢 2 社會治安 3 休閒娛樂與運動 4 文藝與影劇 5 經濟與財政金融 6 投資理財 7 醫療保健 8 家庭生活(如育嬰、烹飪) 9 其他",
+          "to": "1 農、林、漁、牧 2 礦業及土石採取 3 製造 4 水電燃氣 5 營造業 6 住宿及餐飲業 7 批發及零售業(含大企業 的獨立銷售部門) 8 運輸、倉儲及通信業 9 金融及保險業 10 不動產及租賃業 11 專業、科學及技術服務 類(如會計、法律、建築 師、顧問等) 12 教育服務業 13 醫療保健及社會福利服 務業 14 文化、運動及休閒服務 業 15 其他服務業 16 公共行政業 65 其他(請說明) 89 不知道 99 拒答"
+        }
+      }
+    },
+    {
+      "key": "LOCAT",
+      "seq_later": 171,
+      "changes": {
+        "name_zh": {
+          "from": "居住地區",
+          "to": "地區別問卷沒有之題項"
+        },
+        "length": {
+          "from": 2,
+          "to": 1
+        },
+        "description_zh": {
+          "from": "1 台北縣 2 宜蘭縣 3 桃園縣 4 新竹縣 5 苗栗縣 6 台中縣 7 彰化縣 8 南投縣 9 雲林縣 10 嘉義縣 11 台南縣 12 高雄縣 13 屏東縣 14 台東縣 15 花蓮縣 16 澎湖縣 17 基隆市 18 新竹市 19 台中市 20 嘉義市 21 台南市 22 台北市 23 高雄市",
+          "to": "1 北部地區 2 中部地區 3 南部地區 4 東部地區 5 金馬地區"
+        }
+      }
+    }
+  ]
+}

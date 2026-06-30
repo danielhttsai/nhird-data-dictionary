@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年 YYYY",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1:男 2:女",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年 YYYY",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "year_of_death",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "Char",
       "length": 16,
       "description_zh": "西元年 YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Char",
       "length": 168,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -71,7 +81,9 @@
       "type": "Char",
       "length": 16,
       "description_zh": "西元年月日 YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "report date",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -80,7 +92,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "詳編碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "disease code",
+      "description_en": "detailed coding explanation"
     },
     {
       "seq": 8,
@@ -89,7 +103,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：一般 2：原住民 3：已歸化本國籍之外籍配偶 4：外國人",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity type",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -98,7 +114,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "文字呈現",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "by nationality",
+      "description_en": "text presentation"
     },
     {
       "seq": 10,
@@ -107,7 +125,9 @@
       "type": "Char",
       "length": 34,
       "description_zh": "文字呈現",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "text presentation"
     },
     {
       "seq": 11,
@@ -116,7 +136,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "文字呈現",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "text presentation"
     },
     {
       "seq": 12,
@@ -125,7 +147,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "文字呈現",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "text presentation"
     },
     {
       "seq": 13,
@@ -134,7 +158,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "0：未死亡 1：死亡",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Death Remarks",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -143,7 +169,9 @@
       "type": "Char",
       "length": 72,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -152,7 +180,9 @@
       "type": "Char",
       "length": 300,
       "description_zh": "部分疾病同時具備多個 ICD 代碼，如單位有指定則以指定 代碼，若無則全數帶入",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -170,5 +200,9 @@
   "pdf_sha256": "d426828a879b088dda722dd22d596a8f3f8ab51acc09eb0f44fa8cee523df573",
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-06-24",
-  "name_zh_from_listing": "Health51_罕見疾病通報資料庫"
+  "name_zh_from_listing": "Health51_罕見疾病通報資料庫",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

@@ -24,7 +24,11 @@ Thumbs.db
 .idea/
 *.swp
 
+# Unzipped survey bundles — derivable from the committed .zip via process_zips.py
+raw_pdfs_zip/
+
 # Local junk
 *.bak
 *.bak.*
 *.log
+scripts/_count_todo.py

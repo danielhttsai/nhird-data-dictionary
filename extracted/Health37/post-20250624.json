@@ -1,8 +1,8 @@
 {
   "source_pdf": "Health37_post-20250624.pdf",
   "code_short": "H_NHI_DRPRICE",
-  "name_zh": "中文檔名",
-  "name_en": "英文檔名",
+  "name_zh": "全民健保藥品價格檔",
+  "name_en": "National Health InsuranceDrugPrice File",
   "record_count_raw": "553,892筆（以113年為例）",
   "field_count_declared": 3,
   "file_size_raw": "17MB（以113年為例）",
@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "每項藥品一個月一筆資料。",
-  "notes_zh": "注意事項 ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 醫令代碼：ORDER_CODE。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 醫令代碼：ORDER_CODE。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -36,7 +36,9 @@
           "ad_year": 2018,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "medical order code",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -51,7 +53,9 @@
           "ad_year": 2019,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "Effective Year Month",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -60,7 +64,9 @@
       "type": "NUM",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "price",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -78,5 +84,9 @@
   "pdf_sha256": "6b33f07e7fe169bb8d52b9a812bf759cb0ff31e5f4e3986c2c51fe5cc058db2f",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health37_全民健保藥品價格檔(20250624起適用)"
+  "name_zh_from_listing": "Health37_全民健保藥品價格檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

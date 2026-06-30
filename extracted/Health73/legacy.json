@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 資料年度為 91年迄今。105 年提供103年(含)以前新案發生資料。\n2. 為判定追蹤治療結果，自 104 年起之追蹤世代以附加欄位方式提供個案\n追蹤 2 年後之銷案原因及銷案日期；104 年之追蹤治療結果於 106 年提\n供，113年之追蹤治療結果於 114年提供，依此類推。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如\n有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。 主鍵與比對欄位 個人資料比對的鍵值：ID 及ovedr_date。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如\n有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。 個人資料比對的鍵值：ID 及ovedr_date。",
   "primary_keys_raw": "個人資料比對的鍵值：ID 及ovedr_date。",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "已加密轉碼 遺失率<0.01%",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男 2：女 9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -71,7 +81,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -80,7 +92,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -89,7 +103,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -98,7 +114,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -107,7 +125,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -116,7 +136,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -125,7 +147,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士 台灣結核病防治年報之「非本國籍」結 核病，為身份別代碼 B、C、D、G。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity type",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -134,7 +158,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -143,7 +169,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -152,7 +180,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -161,7 +191,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sputum culture day",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -170,7 +202,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -179,7 +213,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -188,7 +224,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "x-ray date",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -197,7 +235,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：正常 B：異常，但無空洞 C：異常，且有空洞 D：異常，無關結核病",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "X-ray diagnosis result",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -206,7 +246,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "空白：否 6：是",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "pleural effusion",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -215,7 +257,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "a：結核性腦膜炎 (013) c：淋巴結核 (014) d：骨及關節結核 (015) e：泌尿及生殖結核 (016) f：皮膚及眼結核 (017) g：消化道結核 (014) h：其他器官結核 (017) i：粟粒狀結核 (000) j：胸肋膜結核 (000) k：咽喉結核 (000) l：膀胱癌灌注治療(016) m：疑似 BCG 不良反應(接種部位局部 病灶) n：疑似BCG不良反應(接種部位同側腋 下淋巴結腫大)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -224,7 +268,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -233,7 +279,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "start of medication date",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -242,7 +290,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：初次治療 3：補充治療 4：慢開治療 5：肺外治療 F：治療失敗 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Therapy Method",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -251,7 +301,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "end of treatment date",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -260,7 +312,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "closure date",
+      "description_en": ""
     },
     {
       "seq": 28,
@@ -269,7 +323,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "closure reason",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -278,7 +334,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reopening date",
+      "description_en": ""
     },
     {
       "seq": 30,
@@ -287,7 +345,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：X光惡化 2：查痰陽性 3：病理證據 4：臨床診斷 5：諮詢小組審議",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reopening reason",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -296,7 +356,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Date of Death",
+      "description_en": ""
     },
     {
       "seq": 32,
@@ -305,7 +367,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：TB死亡 2：非TB死亡",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Cause of Death",
+      "description_en": ""
     },
     {
       "seq": 33,
@@ -314,7 +378,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 34,
@@ -323,7 +389,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 35,
@@ -332,7 +400,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 36,
@@ -341,7 +411,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 37,
@@ -350,7 +422,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 38,
@@ -359,7 +433,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 39,
@@ -368,7 +444,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 40,
@@ -377,7 +455,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "D：是(已申請留台治療之外勞) L：已逃跑無法評估 N：未評估 O：境外聘僱(不須評估)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 41,
@@ -386,7 +466,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "caregiver category",
+      "description_en": ""
     },
     {
       "seq": 42,
@@ -395,7 +477,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 43,
@@ -404,7 +488,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 44,
@@ -413,7 +499,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：本國 B：大陸人士 ( 高負擔 TB / MDR-TB ) O：日本 P：韓國 Q：美國 R：加拿大 S：新加坡 T：馬來西亞 U：菲律賓 V：泰國 W：印尼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "by nationality",
+      "description_en": ""
     },
     {
       "seq": 45,
@@ -422,7 +510,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 46,
@@ -431,7 +521,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 47,
@@ -440,7 +532,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 48,
@@ -449,7 +543,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 49,
@@ -458,7 +554,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 50,
@@ -467,7 +565,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 51,
@@ -476,7 +576,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 52,
@@ -485,7 +587,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 53,
@@ -494,7 +598,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 54,
@@ -503,7 +609,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 55,
@@ -512,7 +620,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 56,
@@ -521,7 +631,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 57,
@@ -530,7 +642,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 58,
@@ -539,7 +653,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 59,
@@ -548,7 +664,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 60,
@@ -557,7 +675,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 61,
@@ -566,7 +686,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 62,
@@ -575,7 +697,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：未完成登記作業 C：非結核病 Y：已完成登記作業",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "registration identifier",
+      "description_en": ""
     },
     {
       "seq": 63,
@@ -584,7 +708,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "參照醫事機構代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 64,
@@ -593,7 +719,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 65,
@@ -602,7 +730,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "參照權屬別代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 66,
@@ -611,7 +741,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "date of diagnosis",
+      "description_en": ""
     },
     {
       "seq": 67,
@@ -620,7 +752,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "report date",
+      "description_en": ""
     },
     {
       "seq": 68,
@@ -629,7 +763,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 69,
@@ -638,7 +774,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "admission date",
+      "description_en": ""
     },
     {
       "seq": 70,
@@ -647,7 +785,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 71,
@@ -656,7 +796,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：否（拒絕） B：否（死亡） C：否（住院中） D：否（改診斷） E：否（住在外地） F：否（居無定所） G：否（遷出） H：否（副作用） I：否（醫囑排除） J：否（停藥） K：否（遣返） Y：是（加入DOTS）",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 72,
@@ -665,7 +807,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 73,
@@ -674,7 +818,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 74,
@@ -683,7 +829,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "A：DOTS 療程結束 B：拒絕 C：死亡 D：住院中 E：改診斷 F：遷出 G：副作用",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 75,
@@ -692,7 +840,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "N：疑似 Y：確診",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 76,
@@ -701,7 +851,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "YYYY",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     },
     {
       "seq": 77,
@@ -710,7 +862,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男 2：女",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 78,
@@ -719,7 +873,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "01：現役軍人 22：醫護：含醫院工作者 23：教師：含校園工作者 84：職業駕駛 91：臨時工 X1：原住民族 X2：役男：體檢發現 X3：人口密集機構 Y2：在學學生 Y5：監獄拘留所 Y6：其他 Y7：畜牧場工作人員",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 79,
@@ -728,7 +884,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：未婚 2：已婚 3：喪偶 4：離婚 本表範圍外之代碼請忽略。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "marital status",
+      "description_en": ""
     },
     {
       "seq": 80,
@@ -737,7 +895,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：痰液 2：胸水 3：氣管洗出液 4：腦脊髓液 5：陽性培養菌株 6：病理切片 7：消化去污染後痰 9：其他",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 81,
@@ -746,7 +906,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 82,
@@ -755,7 +917,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 83,
@@ -764,7 +928,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 84,
@@ -773,7 +939,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0、1、2、3、4",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 85,
@@ -782,7 +950,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sputum culture 1",
+      "description_en": ""
     },
     {
       "seq": 86,
@@ -791,7 +961,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sputum culture 2",
+      "description_en": ""
     },
     {
       "seq": 87,
@@ -800,7 +972,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sputum culture 3",
+      "description_en": ""
     },
     {
       "seq": 88,
@@ -809,7 +983,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "L：已驗未出 N：未確診 P：確診 ( 肺內 ) Y：確診 ( 肺外 )",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 89,
@@ -818,7 +994,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "pathology report date",
+      "description_en": ""
     },
     {
       "seq": 90,
@@ -833,7 +1011,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 91,
@@ -848,7 +1028,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 92,
@@ -863,7 +1045,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 93,
@@ -878,7 +1062,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 94,
@@ -887,7 +1073,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 95,
@@ -896,7 +1084,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：已交付(甲類) 2：已交付(乙類) X：拒收(甲類) Y：拒收(乙類)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 96,
@@ -905,7 +1095,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥 空白或NULL：未判 疾管署慢性組分枝桿菌實驗室研判",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 97,
@@ -920,7 +1112,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "additional field one",
+      "description_en": ""
     },
     {
       "seq": 98,
@@ -935,7 +1129,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "additional field two",
+      "description_en": ""
     },
     {
       "seq": 99,
@@ -950,7 +1146,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -968,5 +1166,9 @@
   "pdf_sha256": "d00ad739c13dc4deb6c9c964eff4d82f2c17e515b1fb5772051391a7ff3aa062",
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health73_結核病資料庫"
+  "name_zh_from_listing": "Health73_結核病資料庫",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

@@ -30,6 +30,12 @@
     <p class="text-slate-600">Field not found in this file.</p>
   {:else}
     <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm grid grid-cols-2 gap-4 text-sm">
+      {#if latest.field.name_zh_en}
+        <div class="col-span-2 -mb-2">
+          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold">English name</div>
+          <div class="text-base font-semibold text-slate-800 italic">{latest.field.name_zh_en}</div>
+        </div>
+      {/if}
       <div>
         <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold">Type</div>
         <div class="mono text-base font-bold text-slate-900">{latest.field.type}</div>
@@ -41,6 +47,9 @@
       <div class="col-span-2">
         <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Description</div>
         <p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.description_zh}</p>
+        {#if latest.field.description_en}
+          <p class="whitespace-pre-line leading-relaxed text-slate-500 italic text-sm mt-2">{latest.field.description_en}</p>
+        {/if}
       </div>
       {#if latest.field.available_notes?.length}
         <div class="col-span-2">
@@ -63,10 +72,16 @@
         <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="overflow-x-auto max-h-96 overflow-y-auto">
             <table class="tbl w-full text-left">
-              <thead><tr><th class="w-24">Code</th><th>名稱</th></tr></thead>
+              <thead><tr><th class="w-24">Code</th><th>名稱 / English</th></tr></thead>
               <tbody>
                 {#each latest.codebook.entries as e}
-                  <tr><td class="mono font-semibold text-brand-700">{e.code}</td><td class="text-slate-800">{e.label_zh}</td></tr>
+                  <tr>
+                    <td class="mono font-semibold text-brand-700">{e.code}</td>
+                    <td>
+                      <div class="text-slate-800">{e.label_zh}</div>
+                      {#if e.label_en}<div class="text-xs italic text-slate-500">{e.label_en}</div>{/if}
+                    </td>
+                  </tr>
                 {/each}
               </tbody>
             </table>

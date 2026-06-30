@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "1. 原則上一種藥品一筆資料。",
-  "notes_zh": "注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 相關資訊可參考中央健康保險署網站→藥材專區→藥品",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 相關資訊可參考中央健康保險署網站→藥材專區→藥品",
   "primary_keys_raw": "藥品主檔(H_NHI_DRUG)分別與全民健保處方及治療醫令明細檔─西醫、中醫及牙醫\n門診(H_NHI_OPDTO)比對之鍵值為DRUG_NO(藥品代碼)、與全民健保處方及治療醫\n令明細檔─住院(H_NHI_IPDTO)比對之鍵值為 ORDER_CODE(藥品代碼)、與全民健保\n處方及治療醫令明細檔─藥局(H_NHI_DRUGO)比對之鍵值為DRUG_NO(藥品代碼)。",
   "fields": [
     {
@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "drug code",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -39,7 +41,9 @@
       "type": "Char",
       "length": 150,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -48,7 +52,9 @@
       "type": "Char",
       "length": 150,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -57,7 +63,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -66,7 +74,9 @@
       "type": "Char",
       "length": 150,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -75,7 +85,9 @@
       "type": "Char",
       "length": 150,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -84,7 +96,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -93,7 +107,9 @@
       "type": "Char",
       "length": 120,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -102,7 +118,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "Y：複方；N：單方",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -111,7 +129,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -120,7 +140,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -129,7 +151,9 @@
       "type": "Char",
       "length": 40,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -138,7 +162,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -147,7 +173,9 @@
       "type": "Char",
       "length": 60,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -156,7 +184,9 @@
       "type": "Char",
       "length": 50,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -165,7 +195,9 @@
       "type": "Char",
       "length": 7,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -183,5 +215,9 @@
   "pdf_sha256": "e65dc0cf2548da36cc6903619394eb60ded5457173bb52514c2f0dd0a9b592a4",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health17_全民健保藥品主檔(20250624起適用)"
+  "name_zh_from_listing": "Health17_全民健保藥品主檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

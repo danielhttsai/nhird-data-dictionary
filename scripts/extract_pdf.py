@@ -12,12 +12,18 @@ Layout (per pilot of Health01):
   After section "三、欄位譯碼說明", codebook tables per field appear.
 """
 from __future__ import annotations
+import io
 import json
 import re
 import sys
 from pathlib import Path
 
 import pdfplumber
+
+# Force UTF-8 stdout/stderr so JSON printed for a parent subprocess is not
+# mangled by Windows' cp950 default console encoding.
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 # Labels we recognise in the page-1 header table
 HEADER_LABELS = {
@@ -117,41 +123,52 @@ def parse_page1_table(page, out: dict):
     """Pull labeled cells out of the page-1 header table(s)."""
     tables = page.extract_tables() or []
     cells_by_label: dict[str, list[str]] = {}
+    normalised_labels = {_norm_label(x) for x in HEADER_LABELS}
+    multi_row_labels = {_norm_label(x) for x in {
+        "資料描述", "注意事項", "主鍵與比對欄位", "更新日期", "譯碼簿更新日期",
+    }}
+
+    def is_label_text(t: str) -> bool:
+        """True if a cell's text is itself any of the known header labels (used to skip
+        duplicated label cells in wider 12-column layouts where label appears twice)."""
+        return _norm_label(t) in normalised_labels
+
     # Some labels span multiple rows; collect every (label, neighbour-right value) pair.
     for table in tables:
         for row_idx, row in enumerate(table):
             cells = list(row)
             for i, cell in enumerate(cells):
                 lab = _norm_label(cell or "")
-                if lab in {_norm_label(x) for x in HEADER_LABELS}:
-                    # Value: the next non-empty cell to the right on this same row,
-                    # OR, for the wide bottom-half rows (資料描述, etc.), every cell after it.
-                    if lab in {_norm_label(x) for x in {
-                        "資料描述", "注意事項", "主鍵與比對欄位", "更新日期", "譯碼簿更新日期",
-                    }}:
-                        # take everything to the right, plus the row below if blank-prefixed
-                        bucket = []
-                        for c2 in cells[i + 1:]:
-                            t = (c2 or "").strip()
-                            if t:
+                if lab not in normalised_labels:
+                    continue
+                if lab in multi_row_labels:
+                    bucket = []
+                    for c2 in cells[i + 1:]:
+                        t = (c2 or "").strip()
+                        if not t or is_label_text(t):
+                            continue
+                        bucket.append(t)
+                    if row_idx + 1 < len(table):
+                        next_row = table[row_idx + 1]
+                        if all(((c or "").strip() == "") for c in next_row[:i + 1]):
+                            for c2 in next_row[i + 1:]:
+                                t = (c2 or "").strip()
+                                if not t or is_label_text(t):
+                                    continue
                                 bucket.append(t)
-                        # If the row after is mostly empty but contains a continuation
-                        if row_idx + 1 < len(table):
-                            next_row = table[row_idx + 1]
-                            if all(((c or "").strip() == "") for c in next_row[:i + 1]):
-                                for c2 in next_row[i + 1:]:
-                                    t = (c2 or "").strip()
-                                    if t:
-                                        bucket.append(t)
-                        if bucket:
-                            cells_by_label.setdefault(lab, []).append(" ".join(bucket))
-                    else:
-                        # take the next single non-empty cell to the right
-                        for j in range(i + 1, len(cells)):
-                            t = (cells[j] or "").strip()
-                            if t:
-                                cells_by_label.setdefault(lab, []).append(t)
-                                break
+                    if bucket:
+                        cells_by_label.setdefault(lab, []).append(" ".join(bucket))
+                else:
+                    # Take the next non-empty cell to the right whose text isn't itself a label
+                    # (handles 12-col layouts where labels appear in both col i and col i+1).
+                    for j in range(i + 1, len(cells)):
+                        t = (cells[j] or "").strip()
+                        if not t:
+                            continue
+                        if is_label_text(t):
+                            continue
+                        cells_by_label.setdefault(lab, []).append(t)
+                        break
 
     def first(label_norm: str) -> str:
         vals = cells_by_label.get(label_norm) or []

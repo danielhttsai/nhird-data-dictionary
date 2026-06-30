@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -39,7 +41,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYYMM。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "expense year month",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -48,7 +52,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：送核 2：補報。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reporting category",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -57,7 +63,9 @@
       "type": "Char",
       "length": 16,
       "description_zh": "經加密處理。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reporting date",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -66,7 +74,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳案件分類（CASE_TYPE）譯碼說 明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Case Category",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -75,7 +85,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sequence number",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -84,7 +96,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "依同一病患申報之醫令順序編號。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "medical order sequence number",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -99,7 +113,9 @@
           "ad_year": 2006,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "dispensing method",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -114,7 +130,9 @@
           "ad_year": 2011,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -123,7 +141,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳醫令類別(ORDER_TYPE) 譯碼 說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "order type",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -132,7 +152,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "參考中央健保局網頁公告之全民 健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支 付標準碼或特殊材料碼。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -141,7 +163,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "1234.56",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "dosage of drug",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -156,7 +180,9 @@
           "ad_year": 2006,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -165,7 +191,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "1. 若醫令為診療時,牙科為必要欄 位,標示牙齒部位(牙齒部位編 碼,請參照FDI及註5牙位表示 法),每次醫令最多填三個編碼。 2. 若醫令代碼為註 9 之診療項目 者，則此欄為必要欄位。診療之 部位代碼：右側填R、左側填L、 雙側填B。 3. 左靠不足補空白,中醫免填。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "site of treatment",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -174,7 +202,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有 加成或折扣者，按成數填報(如：加 成 1.23%即 101.23%，資料庫中顯 示為1.0123) 註：兒童加成年齡以入院日期計算",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "co-payment ratio",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -183,7 +213,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "取至小數點下二位，第三位四捨五 入七位整數，二位小數右靠，小數 點不需表示。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "unit price",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -192,7 +224,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "八位整數，小數點後四捨五入，總 量乘單價，並加成計算至整數(點) 為止。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "points",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -201,7 +235,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "取至小數點下一位，第二位四捨五 入五位整數，一位小數右靠，小數 點不需表示。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "total",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -216,7 +252,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -225,7 +263,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "醫療機構所在鄉鎮",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -234,7 +274,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別(HOS) 譯碼說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {
@@ -243,1157 +285,1445 @@
       "entries": [
         {
           "code": "01",
-          "label_zh": "西醫一般案件"
+          "label_zh": "西醫一般案件",
+          "label_en": ""
         },
         {
           "code": "02",
-          "label_zh": "西醫急診"
+          "label_zh": "西醫急診",
+          "label_en": "emergency in Western medicine"
         },
         {
           "code": "03",
-          "label_zh": "西醫門診手術"
+          "label_zh": "西醫門診手術",
+          "label_en": ""
         },
         {
           "code": "04",
-          "label_zh": "西醫慢性病"
+          "label_zh": "西醫慢性病",
+          "label_en": "chronic disease"
         },
         {
           "code": "05",
-          "label_zh": "洗腎"
+          "label_zh": "洗腎",
+          "label_en": "dialysis"
         },
         {
           "code": "06",
-          "label_zh": "結核病"
+          "label_zh": "結核病",
+          "label_en": "tuberculosis"
         },
         {
           "code": "07",
-          "label_zh": "遠距醫療(107.11.8增訂)"
+          "label_zh": "遠距醫療(107.11.8增訂)",
+          "label_en": ""
         },
         {
           "code": "08",
-          "label_zh": "慢性病連續處方調劑"
+          "label_zh": "慢性病連續處方調劑",
+          "label_en": ""
         },
         {
           "code": "09",
-          "label_zh": "西醫其他專案 61,A1 居家照護 62,A2 精神疾病社區復健 63,A3 預防保健 65,A5 安寧居家療護 66,A6 護理之家照護 67,A7 安養、養護機構院民之居家照護（88/1 增訂） 1.軍保西醫（87/7-90/2） 2.代辦性病患者篩檢愛滋病毒計畫（97/6 增訂）"
+          "label_zh": "西醫其他專案 61,A1 居家照護 62,A2 精神疾病社區復健 63,A3 預防保健 65,A5 安寧居家療護 66,A6 護理之家照護 67,A7 安養、養護機構院民之居家照護（88/1 增訂） 1.軍保西醫（87/7-90/2） 2.代辦性病患者篩檢愛滋病毒計畫（97/6 增訂）",
+          "label_en": ""
         },
         {
           "code": "72",
-          "label_zh": "軍保牙醫（87/7-90-2）"
+          "label_zh": "軍保牙醫（87/7-90-2）",
+          "label_en": ""
         },
         {
           "code": "73",
-          "label_zh": "軍保中醫（87/7-90-2） 76,B6 職災案件（91/1增訂） 77,B7 代辦門診戒菸（91/9增訂） 78,B8 代辦精神科強制住院（92/6增訂） 79,B9 代辦孕婦全面篩檢愛滋計畫（94/2 增訂）"
+          "label_zh": "軍保中醫（87/7-90-2） 76,B6 職災案件（91/1增訂） 77,B7 代辦門診戒菸（91/9增訂） 78,B8 代辦精神科強制住院（92/6增訂） 79,B9 代辦孕婦全面篩檢愛滋計畫（94/2 增訂）",
+          "label_en": ""
         },
         {
           "code": "BA",
-          "label_zh": "愛滋防治替代治療計畫 81,C1 論病例計酬案件 84,C4 疾管署(無健保結核病患之醫療費用)（96/7增訂）"
+          "label_zh": "愛滋防治替代治療計畫 81,C1 論病例計酬案件 84,C4 疾管署(無健保結核病患之醫療費用)（96/7增訂）",
+          "label_en": ""
         },
         {
           "code": "C5",
-          "label_zh": "嚴重特殊傳染性肺炎通報且隔離案件(110/1 增訂) 91,D1 代辦愛滋病案件（94/2起代辦） 1.代辦65歲以上老人流行性感冒疫苗接種 2. 行政協助流感疫苗及兒童常規疫苗接種 94,D4 資源缺乏地區鼓勵加成計畫之醫療費用點數（90/7 增訂）"
+          "label_zh": "嚴重特殊傳染性肺炎通報且隔離案件(110/1 增訂) 91,D1 代辦愛滋病案件（94/2起代辦） 1.代辦65歲以上老人流行性感冒疫苗接種 2. 行政協助流感疫苗及兒童常規疫苗接種 94,D4 資源缺乏地區鼓勵加成計畫之醫療費用點數（90/7 增訂）",
+          "label_en": ""
         },
         {
           "code": "DF",
-          "label_zh": "代辦登革熱NS1 抗原快速篩檢試劑"
+          "label_zh": "代辦登革熱NS1 抗原快速篩檢試劑",
+          "label_en": ""
         },
         {
           "code": "E1",
-          "label_zh": "支付制度試辦計畫（90/10增訂） 2026年01月27日修訂"
+          "label_zh": "支付制度試辦計畫（90/10增訂） 2026年01月27日修訂",
+          "label_en": ""
         },
         {
           "code": "E2",
-          "label_zh": "愛滋病確診服藥滿2年後案件(106.2.4增訂)"
+          "label_zh": "愛滋病確診服藥滿2年後案件(106.2.4增訂)",
+          "label_en": ""
         },
         {
           "code": "E3",
-          "label_zh": "愛滋病確診服藥滿2年後案件之慢性病連續處方再調劑(106.2.4增訂) 1.代辦流感病毒抗原快速篩檢試驗（98/8/1 增訂） 2.新型流感(98.9新增)"
+          "label_zh": "愛滋病確診服藥滿2年後案件之慢性病連續處方再調劑(106.2.4增訂) 1.代辦流感病毒抗原快速篩檢試驗（98/8/1 增訂） 2.新型流感(98.9新增)",
+          "label_en": ""
         },
         {
           "code": "M1",
-          "label_zh": "三聚氰胺汙染奶製品案件 牙醫門診"
+          "label_zh": "三聚氰胺汙染奶製品案件 牙醫門診",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "牙醫一般案件"
+          "label_zh": "牙醫一般案件",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "牙醫急診"
+          "label_zh": "牙醫急診",
+          "label_en": "dental emergency"
         },
         {
           "code": "13",
-          "label_zh": "牙醫門診手術"
+          "label_zh": "牙醫門診手術",
+          "label_en": ""
         },
         {
           "code": "14",
-          "label_zh": "牙醫師至無牙醫鄉服務獎勵措施"
+          "label_zh": "牙醫師至無牙醫鄉服務獎勵措施",
+          "label_en": ""
         },
         {
           "code": "15",
-          "label_zh": "牙周統合照護(配合99.01.12健保醫字第0990071960號公告新增)"
+          "label_zh": "牙周統合照護(配合99.01.12健保醫字第0990071960號公告新增)",
+          "label_en": ""
         },
         {
           "code": "16",
-          "label_zh": "牙醫特殊專案醫療服務項目"
+          "label_zh": "牙醫特殊專案醫療服務項目",
+          "label_en": ""
         },
         {
           "code": "17",
-          "label_zh": "全民健康保險牙醫門診總額牙醫急診醫療不足區獎勵試辦計畫(109033 健保 醫字第1090004037號函)"
+          "label_zh": "全民健康保險牙醫門診總額牙醫急診醫療不足區獎勵試辦計畫(109033 健保 醫字第1090004037號函)",
+          "label_en": ""
         },
         {
           "code": "19",
-          "label_zh": "牙醫其他專案"
+          "label_zh": "牙醫其他專案",
+          "label_en": ""
         },
         {
           "code": "A3",
-          "label_zh": "預防保健"
+          "label_zh": "預防保健",
+          "label_en": "preventive health care"
         },
         {
           "code": "B6",
-          "label_zh": "職災案件"
+          "label_zh": "職災案件",
+          "label_en": "work-related injury case"
         },
         {
           "code": "B7",
-          "label_zh": "代辦門診戒菸治療試辦計畫"
+          "label_zh": "代辦門診戒菸治療試辦計畫",
+          "label_en": ""
         },
         {
           "code": "C4",
-          "label_zh": "行政協助山地鄉結核病主動篩檢(107/4 增訂)"
+          "label_zh": "行政協助山地鄉結核病主動篩檢(107/4 增訂)",
+          "label_en": ""
         },
         {
           "code": "D2",
-          "label_zh": "流感、兒童常規疫苗、肺炎鏈球菌、COVID-19快篩及PCR(110/5 增訂) 中醫門診"
+          "label_zh": "流感、兒童常規疫苗、肺炎鏈球菌、COVID-19快篩及PCR(110/5 增訂) 中醫門診",
+          "label_en": ""
         },
         {
           "code": "21",
-          "label_zh": "中醫一般案件"
+          "label_zh": "中醫一般案件",
+          "label_en": "TCM general case"
         },
         {
           "code": "22",
-          "label_zh": "中醫其他專案"
+          "label_zh": "中醫其他專案",
+          "label_en": "TCM other special cases"
         },
         {
           "code": "23",
-          "label_zh": "中醫鼓勵結合現代科技加強醫療服務實施方案（93.7增訂）"
+          "label_zh": "中醫鼓勵結合現代科技加強醫療服務實施方案（93.7增訂）",
+          "label_en": ""
         },
         {
           "code": "24",
-          "label_zh": "中醫慢性病"
+          "label_zh": "中醫慢性病",
+          "label_en": "chronic disease chinese medicine"
         },
         {
           "code": "25",
-          "label_zh": "中醫至無中醫鄉巡迴醫療服務（92.5增訂）"
+          "label_zh": "中醫至無中醫鄉巡迴醫療服務（92.5增訂）",
+          "label_en": ""
         },
         {
           "code": "26",
-          "label_zh": "中醫醫療院所針灸標準作業程序（93.7增訂）"
+          "label_zh": "中醫醫療院所針灸標準作業程序（93.7增訂）",
+          "label_en": ""
         },
         {
           "code": "27",
-          "label_zh": "加強中醫醫療照護門診試辦計畫（97.1修訂）"
+          "label_zh": "加強中醫醫療照護門診試辦計畫（97.1修訂）",
+          "label_en": ""
         },
         {
           "code": "28",
-          "label_zh": "中醫慢性病連續處方調劑（88.9增訂）"
+          "label_zh": "中醫慢性病連續處方調劑（88.9增訂）",
+          "label_en": ""
         },
         {
           "code": "29",
-          "label_zh": "中醫針灸、傷科及脫臼整復"
+          "label_zh": "中醫針灸、傷科及脫臼整復",
+          "label_en": ""
         },
         {
           "code": "30",
-          "label_zh": "中醫特定疾病門診加強照護(102.03.01 新增)"
+          "label_zh": "中醫特定疾病門診加強照護(102.03.01 新增)",
+          "label_en": ""
         },
         {
           "code": "31",
-          "label_zh": "居家中醫醫療服務(108.6 增訂)"
+          "label_zh": "居家中醫醫療服務(108.6 增訂)",
+          "label_en": ""
         },
         {
           "code": "A3",
-          "label_zh": "預防保健"
+          "label_zh": "預防保健",
+          "label_en": "preventive health care"
         },
         {
           "code": "B6",
-          "label_zh": "職災案件"
+          "label_zh": "職災案件",
+          "label_en": "work-related injury case"
         },
         {
           "code": "B7",
-          "label_zh": "代辦門診戒菸 2026年01月27日修訂 疾管署(抗結核藥物副作用個案住院≦30天之醫療費用(103年11月24日疾管 愛核字第1030301339號函取消))"
+          "label_zh": "代辦門診戒菸 2026年01月27日修訂 疾管署(抗結核藥物副作用個案住院≦30天之醫療費用(103年11月24日疾管 愛核字第1030301339號函取消))",
+          "label_en": ""
         },
         {
           "code": "C4",
-          "label_zh": "疾管署(無健保結核病患之醫療費用)"
+          "label_zh": "疾管署(無健保結核病患之醫療費用)",
+          "label_en": ""
         },
         {
           "code": "C5",
-          "label_zh": "法定傳染病通報且住院隔離案件(110/1增訂)"
+          "label_zh": "法定傳染病通報且住院隔離案件(110/1增訂)",
+          "label_en": ""
         },
         {
           "code": "DF",
-          "label_zh": "代辦登革熱NS1抗原快速篩檢試劑(104/9/17增訂)"
+          "label_zh": "代辦登革熱NS1抗原快速篩檢試劑(104/9/17增訂)",
+          "label_en": ""
         },
         {
           "code": "DZ",
-          "label_zh": "衛福部(低收入戶住院膳食費) 註： 健保局針對西醫門診醫療費用之案件分類申報方式說明如下： (1) 採日劑藥費申報者，案件分類為「01：西醫一般案件」，惟慢性病不得以一般案件申 報。 (2) 健保署公告之慢性病，其費用申報之案件分類應為「04：西醫慢性病」。 (3) 經醫師確認保險對象病情穩定，可長期使用同一處方藥品治療時，得開給「全民健康 保險門診交付調劑箋」並勾選「連續處方箋」，當次費用之案件分類為「04：西醫慢 性病」；保險對象逕持慢性病連續處方箋調劑者，案件分類為「08：慢性病連續處方 調劑」。 (4) 不屬上開規定之案件分類者，則為「09：西醫其他專案」。 (5) 若同時有急性、慢性病一起診治時，其案件分類應為「09：西醫其他專案」。若併開 給慢性病連續處方箋者，應申報案件分類為「04：西醫慢性病」，另項次22「給藥日 份」依當次慢性病給藥品項最高之天數填報。（9303修訂） (6) 案件分類「01:一般案件」案件，經採交付調劑，應改以「09:西醫其他專案」申報。 2026年01月27日修訂"
+          "label_zh": "衛福部(低收入戶住院膳食費) 註： 健保局針對西醫門診醫療費用之案件分類申報方式說明如下： (1) 採日劑藥費申報者，案件分類為「01：西醫一般案件」，惟慢性病不得以一般案件申 報。 (2) 健保署公告之慢性病，其費用申報之案件分類應為「04：西醫慢性病」。 (3) 經醫師確認保險對象病情穩定，可長期使用同一處方藥品治療時，得開給「全民健康 保險門診交付調劑箋」並勾選「連續處方箋」，當次費用之案件分類為「04：西醫慢 性病」；保險對象逕持慢性病連續處方箋調劑者，案件分類為「08：慢性病連續處方 調劑」。 (4) 不屬上開規定之案件分類者，則為「09：西醫其他專案」。 (5) 若同時有急性、慢性病一起診治時，其案件分類應為「09：西醫其他專案」。若併開 給慢性病連續處方箋者，應申報案件分類為「04：西醫慢性病」，另項次22「給藥日 份」依當次慢性病給藥品項最高之天數填報。（9303修訂） (6) 案件分類「01:一般案件」案件，經採交付調劑，應改以「09:西醫其他專案」申報。 2026年01月27日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "Case Category"
     },
     "ORDER_TYPE": {
       "field_zh": "醫令類別",
       "entries": [
         {
           "code": "0",
-          "label_zh": "診察費"
+          "label_zh": "診察費",
+          "label_en": "consultation fee"
         },
         {
           "code": "1",
-          "label_zh": "用藥明細"
+          "label_zh": "用藥明細",
+          "label_en": "medication details"
         },
         {
           "code": "2",
-          "label_zh": "診療明細"
+          "label_zh": "診療明細",
+          "label_en": "details of treatment"
         },
         {
           "code": "3",
-          "label_zh": "特殊材料"
+          "label_zh": "特殊材料",
+          "label_en": "special material"
         },
         {
           "code": "4",
-          "label_zh": "不得另計價之藥品或診療項目"
+          "label_zh": "不得另計價之藥品或診療項目",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "EPO注射"
+          "label_zh": "EPO注射",
+          "label_en": "epo injection"
         },
         {
           "code": "6",
-          "label_zh": "HCT檢驗"
+          "label_zh": "HCT檢驗",
+          "label_en": "hematocrit test"
         },
         {
           "code": "7",
-          "label_zh": "委託代（轉）檢"
+          "label_zh": "委託代（轉）檢",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "器官捐贈"
+          "label_zh": "器官捐贈",
+          "label_en": "organ donation"
         },
         {
           "code": "9",
-          "label_zh": "藥事服務費"
+          "label_zh": "藥事服務費",
+          "label_en": "pharmacy service fee"
         },
         {
           "code": "A",
-          "label_zh": "Tw-DRGs 醫令/門診急診時間醫令"
+          "label_zh": "Tw-DRGs 醫令/門診急診時間醫令",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "部分負擔代碼改變已切帳申報費用之資料"
+          "label_zh": "部分負擔代碼改變已切帳申報費用之資料",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "急診治療起迄時間 預檢使用(99/7/1-101/6/30)"
+          "label_zh": "急診治療起迄時間 預檢使用(99/7/1-101/6/30)",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "被替代之健保給付特材項目 104-0501增加健保給付等字"
+          "label_zh": "被替代之健保給付特材項目 104-0501增加健保給付等字",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "自費特材項目-未支付"
+          "label_zh": "自費特材項目-未支付",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "自費特材項目-不符給付規定"
+          "label_zh": "自費特材項目-不符給付規定",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "專案支付參考數值 前依支付標準科及申報格式維護"
+          "label_zh": "專案支付參考數值 前依支付標準科及申報格式維護",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "醫療科技評估(HTA)自費診療項目"
+          "label_zh": "醫療科技評估(HTA)自費診療項目",
+          "label_en": ""
         },
         {
           "code": "K",
-          "label_zh": "全日平均護病比達特定閾值加成"
+          "label_zh": "全日平均護病比達特定閾值加成",
+          "label_en": ""
         },
         {
           "code": "X",
-          "label_zh": "Tw-DRGs 支付通則得另行核實申報之項目"
+          "label_zh": "Tw-DRGs 支付通則得另行核實申報之項目",
+          "label_en": ""
         },
         {
           "code": "Y",
-          "label_zh": "器官捐贈來源之資訊"
+          "label_zh": "器官捐贈來源之資訊",
+          "label_en": ""
         },
         {
           "code": "Z",
-          "label_zh": "部分負擔代碼改變已切帳之醫令 費用年月200601(含)以後為不可NULL之資料 2026年01月27日修訂 說明： (1)欄位「藥品(項目)代號」欄位填報值為醫令代碼 R001~R008、S001~S004者，本項欄 位請填G(專案支付參考數值） (2)依規定不得另行計價之藥品或診療項目(如論病例計酬案件包含於定額之項目、居家照 護之特殊照護項目、洗腎包含於定額 4100元之項目、中醫及一般案件或交付處方之用藥 品項等)申報時醫令類別請填4;不包含於定額費用內可另行計價之項目，餘請依醫令類別 1、2、3選擇適當類別申報計價費用。 例1：中醫以給藥日份乘上定額每日藥價來申報藥費(醫令類別為1，單價及金額依支付標 準所列代碼填列)，而實際開給之中藥品項請以醫令類別4列報，單價及金額請填0。 例2：洗腎以定額4100元來申報(醫令類別為2，其代碼、單價及金額依支付標準碼所列 填列)，而實際之處置、用藥品項請以醫令類別4列報，單價及金額請填0。 2026年01月27日修訂"
+          "label_zh": "部分負擔代碼改變已切帳之醫令 費用年月200601(含)以後為不可NULL之資料 2026年01月27日修訂 說明： (1)欄位「藥品(項目)代號」欄位填報值為醫令代碼 R001~R008、S001~S004者，本項欄 位請填G(專案支付參考數值） (2)依規定不得另行計價之藥品或診療項目(如論病例計酬案件包含於定額之項目、居家照 護之特殊照護項目、洗腎包含於定額 4100元之項目、中醫及一般案件或交付處方之用藥 品項等)申報時醫令類別請填4;不包含於定額費用內可另行計價之項目，餘請依醫令類別 1、2、3選擇適當類別申報計價費用。 例1：中醫以給藥日份乘上定額每日藥價來申報藥費(醫令類別為1，單價及金額依支付標 準所列代碼填列)，而實際開給之中藥品項請以醫令類別4列報，單價及金額請填0。 例2：洗腎以定額4100元來申報(醫令類別為2，其代碼、單價及金額依支付標準碼所列 填列)，而實際之處置、用藥品項請以醫令類別4列報，單價及金額請填0。 2026年01月27日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "order type"
     },
     "CURE_PATH": {
       "field_zh": "診療部位",
       "entries": [
         {
           "code": "FM",
-          "label_zh": "全口"
+          "label_zh": "全口",
+          "label_en": "full_set"
         },
         {
           "code": "UB",
-          "label_zh": "上半口"
+          "label_zh": "上半口",
+          "label_en": "upper arch"
         },
         {
           "code": "LB",
-          "label_zh": "下半口"
+          "label_zh": "下半口",
+          "label_en": "lower arch"
         },
         {
           "code": "UR",
-          "label_zh": "上半右口"
+          "label_zh": "上半右口",
+          "label_en": "upper right mouth"
         },
         {
           "code": "UL",
-          "label_zh": "上半左口"
+          "label_zh": "上半左口",
+          "label_en": "upper left mouth"
         },
         {
           "code": "UA",
-          "label_zh": "上顎前齒部位"
+          "label_zh": "上顎前齒部位",
+          "label_en": "maxillary anterior tooth site"
         },
         {
           "code": "LR",
-          "label_zh": "下半右口"
+          "label_zh": "下半右口",
+          "label_en": "lower right mouth"
         },
         {
           "code": "LL",
-          "label_zh": "下半左口"
+          "label_zh": "下半左口",
+          "label_en": "lower left mouth"
         },
         {
           "code": "LA",
-          "label_zh": "下顎前齒部位"
+          "label_zh": "下顎前齒部位",
+          "label_en": "mandibular anterior tooth site"
         },
         {
           "code": "99",
-          "label_zh": "無法表示之部位 3.2需加註診療部位代碼之醫令項目 項目 支付標準代碼 診療項目 診療部位代碼 全身型及頭 33070B 無造影劑-全身型 H：頭部， A：頸部， 部型電腦斷 33071B 有造影劑-全身型 F：頭頸部， U：胸部， 層造影 33072B 有/無造影劑-全身型 N：頸椎， J：胸椎，"
+          "label_zh": "無法表示之部位 3.2需加註診療部位代碼之醫令項目 項目 支付標準代碼 診療項目 診療部位代碼 全身型及頭 33070B 無造影劑-全身型 H：頭部， A：頸部， 部型電腦斷 33071B 有造影劑-全身型 F：頭頸部， U：胸部， 層造影 33072B 有/無造影劑-全身型 N：頸椎， J：胸椎，",
+          "label_en": ""
         },
         {
           "code": "33067B",
-          "label_zh": "無造影劑-頭部型 K：腰椎， G：胸部及上腹部，"
+          "label_zh": "無造影劑-頭部型 K：腰椎， G：胸部及上腹部，",
+          "label_en": ""
         },
         {
           "code": "33068B",
-          "label_zh": "有造影劑-頭部型 C：上腹部， I：腹部(含骨盆腔)(99.3修訂)，"
+          "label_zh": "有造影劑-頭部型 C：上腹部， I：腹部(含骨盆腔)(99.3修訂)，",
+          "label_en": ""
         },
         {
           "code": "33069B",
-          "label_zh": "有/無造影劑-頭部型 P：骨盆腔， E：肢部， 磁振造影 33084B 無造影劑 Q：臂神經血管叢， M：骨骼肌肉系統，"
+          "label_zh": "有/無造影劑-頭部型 P：骨盆腔， E：肢部， 磁振造影 33084B 無造影劑 Q：臂神經血管叢， M：骨骼肌肉系統，",
+          "label_en": ""
         },
         {
           "code": "33085B",
-          "label_zh": "有造影劑 V：心血管系統， S：MRS(磁振頻譜)， T：MRA(磁振血管攝影)，O：其他"
+          "label_zh": "有造影劑 V：心血管系統， S：MRS(磁振頻譜)， T：MRA(磁振血管攝影)，O：其他",
+          "label_en": ""
         },
         {
           "code": "26072B",
-          "label_zh": "全身 正子造影 B:薦椎， D:周邊神經"
+          "label_zh": "全身 正子造影 B:薦椎， D:周邊神經",
+          "label_en": ""
         },
         {
           "code": "26073B",
-          "label_zh": "局部 依實施部位填寫左靠，不足補空白，例如頸 高頻熱凝療 83079B 椎及胸椎則填NJ，最多申報六個部位。 法 2026年01月27日修訂 項目 支付標準 診療項目 診療部位 代碼 全膝關節置 64202B 人工全膝關節再置換 R：右側 換術 64164B 全膝關節置換術 L：左側"
+          "label_zh": "局部 依實施部位填寫左靠，不足補空白，例如頸 高頻熱凝療 83079B 椎及胸椎則填NJ，最多申報六個部位。 法 2026年01月27日修訂 項目 支付標準 診療項目 診療部位 代碼 全膝關節置 64202B 人工全膝關節再置換 R：右側 換術 64164B 全膝關節置換術 L：左側",
+          "label_en": ""
         },
         {
           "code": "97805K",
-          "label_zh": "全膝關節置換術(單側)(住院) B：雙側"
+          "label_zh": "全膝關節置換術(單側)(住院) B：雙側",
+          "label_en": ""
         },
         {
           "code": "97806A",
-          "label_zh": "全膝關節置換術(單側)(住院)"
+          "label_zh": "全膝關節置換術(單側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97807B",
-          "label_zh": "全膝關節置換術(單側)(住院) 全股關節置 64201B 人工全髖關節再置換 換術 64162B 全股關節置換術"
+          "label_zh": "全膝關節置換術(單側)(住院) 全股關節置 64201B 人工全髖關節再置換 換術 64162B 全股關節置換術",
+          "label_en": ""
         },
         {
           "code": "97801K",
-          "label_zh": "全股關節置換術(單側)(住院)"
+          "label_zh": "全股關節置換術(單側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97802A",
-          "label_zh": "全股關節置換術(單側)(住院)"
+          "label_zh": "全股關節置換術(單側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97803B",
-          "label_zh": "全股關節置換術(單側)(住院)"
+          "label_zh": "全股關節置換術(單側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97811K",
-          "label_zh": "全股關節置換術(雙側)(住院)"
+          "label_zh": "全股關節置換術(雙側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97812A",
-          "label_zh": "全股關節置換術(雙側)(住院)"
+          "label_zh": "全股關節置換術(雙側)(住院)",
+          "label_en": ""
         },
         {
           "code": "97813B",
-          "label_zh": "全股關節置換術(雙側)(住院) 白內障手術 86007C 水晶體囊外(內)摘除術"
+          "label_zh": "全股關節置換術(雙側)(住院) 白內障手術 86007C 水晶體囊外(內)摘除術",
+          "label_en": ""
         },
         {
           "code": "86008C",
-          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術"
+          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術",
+          "label_en": ""
         },
         {
           "code": "86011C",
-          "label_zh": "人工水晶體植入術－第一次植入"
+          "label_zh": "人工水晶體植入術－第一次植入",
+          "label_en": ""
         },
         {
           "code": "86012C",
-          "label_zh": "人工水晶體植入術－第二次植入"
+          "label_zh": "人工水晶體植入術－第二次植入",
+          "label_en": ""
         },
         {
           "code": "86013C",
-          "label_zh": "人工水晶體植入術－調整術"
+          "label_zh": "人工水晶體植入術－調整術",
+          "label_en": ""
         },
         {
           "code": "97601K",
-          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術(單側)(住"
+          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術(單側)(住",
+          "label_en": ""
         },
         {
           "code": "97602A",
-          "label_zh": "院)"
+          "label_zh": "院)",
+          "label_en": " Hos)"
         },
         {
           "code": "97605K",
-          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術(單側)(門"
+          "label_zh": "水晶體囊內(外)摘除術及人工水晶體置入術(單側)(門",
+          "label_en": ""
         },
         {
           "code": "97606A",
-          "label_zh": "診) 尿路結石體 50023B 尿路結石體外震波碎石術第一次 R：右側 外震波碎石 50024B 尿路結石體外震波碎石術第二次 L：左側 術 97405K 尿路結石體外震波碎石術(單側)(門診) B：雙側"
+          "label_zh": "診) 尿路結石體 50023B 尿路結石體外震波碎石術第一次 R：右側 外震波碎石 50024B 尿路結石體外震波碎石術第二次 L：左側 術 97405K 尿路結石體外震波碎石術(單側)(門診) B：雙側",
+          "label_en": ""
         },
         {
           "code": "97406A",
-          "label_zh": "尿路結石體外震波碎石術(單側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(單側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97407K",
-          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97408A",
-          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97409K",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97410A",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診) 2026年01月27日修訂 項目 支付標準 診療項目 診療部位 代碼"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診) 2026年01月27日修訂 項目 支付標準 診療項目 診療部位 代碼",
+          "label_en": ""
         },
         {
           "code": "97411K",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97412A",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97420B",
-          "label_zh": "尿路結石體外震波碎石術(單側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(單側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97421B",
-          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(雙側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97422B",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，單 側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97423B",
-          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)"
+          "label_zh": "尿路結石體外震波碎石術(三十日內施行第二次，雙 側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97220K",
-          "label_zh": "股及腹股溝疝氣手術(單側)(門診) R:右側"
+          "label_zh": "股及腹股溝疝氣手術(單側)(門診) R:右側",
+          "label_en": ""
         },
         {
           "code": "97221A",
-          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 股及腹股溝 L:左側"
+          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 股及腹股溝 L:左側",
+          "label_en": ""
         },
         {
           "code": "97222B",
-          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 疝氣手術 B:雙側"
+          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 疝氣手術 B:雙側",
+          "label_en": ""
         },
         {
           "code": "97223C",
-          "label_zh": "股及腹股溝疝氣手術(單側)(門診)"
+          "label_zh": "股及腹股溝疝氣手術(單側)(門診)",
+          "label_en": ""
         },
         {
           "code": "97224P",
-          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 單側顱顎關 92099B 單側顱顎關節障礙乾針治療 R:右側 節 92100B 單側顱顎關節沖洗 L:左側 2026年01月27日修訂"
+          "label_zh": "股及腹股溝疝氣手術(單側)(門診) 單側顱顎關 92099B 單側顱顎關節障礙乾針治療 R:右側 節 92100B 單側顱顎關節沖洗 L:左側 2026年01月27日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "site of treatment"
     },
     "DRUG_PATH": {
       "field_zh": "給藥途徑/作用部位",
       "entries": [
         {
           "code": "AD",
-          "label_zh": "右耳"
+          "label_zh": "右耳",
+          "label_en": "right ear"
         },
         {
           "code": "AS",
-          "label_zh": "左耳"
+          "label_zh": "左耳",
+          "label_en": "left ear"
         },
         {
           "code": "AU",
-          "label_zh": "每耳"
+          "label_zh": "每耳",
+          "label_en": "per ear"
         },
         {
           "code": "CHEMO",
-          "label_zh": "化學治療"
+          "label_zh": "化學治療",
+          "label_en": "chemotherapy"
         },
         {
           "code": "ET",
-          "label_zh": "氣內切"
+          "label_zh": "氣內切",
+          "label_en": "pneumonotomy"
         },
         {
           "code": "GAR",
-          "label_zh": "漱口用"
+          "label_zh": "漱口用",
+          "label_en": "oral rinse"
         },
         {
           "code": "HD",
-          "label_zh": "皮下灌注"
+          "label_zh": "皮下灌注",
+          "label_en": "subcutaneous infusion"
         },
         {
           "code": "IA",
-          "label_zh": "動脈注射"
+          "label_zh": "動脈注射",
+          "label_en": "arterial injection"
         },
         {
           "code": "ICV",
-          "label_zh": "腦室注射"
+          "label_zh": "腦室注射",
+          "label_en": "ventricular injection"
         },
         {
           "code": "ID",
-          "label_zh": "皮內注射"
+          "label_zh": "皮內注射",
+          "label_en": "subcutaneous injection"
         },
         {
           "code": "IE",
-          "label_zh": "脊髓硬膜內治射"
+          "label_zh": "脊髓硬膜內治射",
+          "label_en": ""
         },
         {
           "code": "IM",
-          "label_zh": "肌肉注射"
+          "label_zh": "肌肉注射",
+          "label_en": "muscle injection"
         },
         {
           "code": "IMP",
-          "label_zh": "植入"
+          "label_zh": "植入",
+          "label_en": "implant"
         },
         {
           "code": "INHL",
-          "label_zh": "吸入"
+          "label_zh": "吸入",
+          "label_en": "inhaled"
         },
         {
           "code": "IP",
-          "label_zh": "腹腔注射"
+          "label_zh": "腹腔注射",
+          "label_en": "abdominal injection"
         },
         {
           "code": "IPLE",
-          "label_zh": "胸膜內注射 106.04新增"
+          "label_zh": "胸膜內注射 106.04新增",
+          "label_en": ""
         },
         {
           "code": "IS",
-          "label_zh": "滑膜內注射"
+          "label_zh": "滑膜內注射",
+          "label_en": "synovial injection"
         },
         {
           "code": "IT",
-          "label_zh": "椎骨內注射"
+          "label_zh": "椎骨內注射",
+          "label_en": "intravertebral injection"
         },
         {
           "code": "IV",
-          "label_zh": "靜脈注射"
+          "label_zh": "靜脈注射",
+          "label_en": "intravenous injection"
         },
         {
           "code": "IVA",
-          "label_zh": "靜脈添加"
+          "label_zh": "靜脈添加",
+          "label_en": "intravenous addition"
         },
         {
           "code": "IVD",
-          "label_zh": "靜脈點滴滴入"
+          "label_zh": "靜脈點滴滴入",
+          "label_en": ""
         },
         {
           "code": "IVI",
-          "label_zh": "玻璃體內注射"
+          "label_zh": "玻璃體內注射",
+          "label_en": ""
         },
         {
           "code": "IVP",
-          "label_zh": "靜脈注入"
+          "label_zh": "靜脈注入",
+          "label_en": "intravenous infusion"
         },
         {
           "code": "LA",
-          "label_zh": "局部麻醉"
+          "label_zh": "局部麻醉",
+          "label_en": "local anesthesia"
         },
         {
           "code": "LI",
-          "label_zh": "局部注射"
+          "label_zh": "局部注射",
+          "label_en": "local injection"
         },
         {
           "code": "NA",
-          "label_zh": "鼻用"
+          "label_zh": "鼻用",
+          "label_en": "nasal"
         },
         {
           "code": "OD",
-          "label_zh": "右眼"
+          "label_zh": "右眼",
+          "label_en": "right eye"
         },
         {
           "code": "ORO",
-          "label_zh": "口咽直接用藥(如噴劑、塗抹) 106.04新增"
+          "label_zh": "口咽直接用藥(如噴劑、塗抹) 106.04新增",
+          "label_en": ""
         },
         {
           "code": "OS",
-          "label_zh": "左眼"
+          "label_zh": "左眼",
+          "label_en": "left eye"
         },
         {
           "code": "OU",
-          "label_zh": "每眼"
+          "label_zh": "每眼",
+          "label_en": "per eye"
         },
         {
           "code": "PO",
-          "label_zh": "口眼"
+          "label_zh": "口眼",
+          "label_en": "oral cavity"
         },
         {
           "code": "SC",
-          "label_zh": "皮下注射"
+          "label_zh": "皮下注射",
+          "label_en": "subcutaneous injection"
         },
         {
           "code": "SCI",
-          "label_zh": "結膜下注射"
+          "label_zh": "結膜下注射",
+          "label_en": "subconjunctival injection"
         },
         {
           "code": "SKIN",
-          "label_zh": "皮膚用"
+          "label_zh": "皮膚用",
+          "label_en": "skin use"
         },
         {
           "code": "SL",
-          "label_zh": "舌下"
+          "label_zh": "舌下",
+          "label_en": "sublingual"
         },
         {
           "code": "SPI",
-          "label_zh": "脊髓"
+          "label_zh": "脊髓",
+          "label_en": "spinal cord"
         },
         {
           "code": "RECT",
-          "label_zh": "肛門用"
+          "label_zh": "肛門用",
+          "label_en": "anus use"
         },
         {
           "code": "TOPI",
-          "label_zh": "局部塗擦(與LA易混淆)"
+          "label_zh": "局部塗擦(與LA易混淆)",
+          "label_en": ""
         },
         {
           "code": "TPN",
-          "label_zh": "全靜脈營養劑"
+          "label_zh": "全靜脈營養劑",
+          "label_en": "total parenteral nutrition"
         },
         {
           "code": "VAG",
-          "label_zh": "陰道用 2026年01月27日修訂"
+          "label_zh": "陰道用 2026年01月27日修訂",
+          "label_en": ""
         },
         {
           "code": "IRRIG",
-          "label_zh": "沖洗(irrigation)"
+          "label_zh": "沖洗(irrigation)",
+          "label_en": ""
         },
         {
           "code": "EXT",
-          "label_zh": "外用"
+          "label_zh": "外用",
+          "label_en": "topical"
         },
         {
           "code": "XX",
-          "label_zh": "其他 2026年01月27日修訂"
+          "label_zh": "其他 2026年01月27日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "HOS": {
       "field_zh": "權屬別",
       "entries": [
         {
           "code": "1",
-          "label_zh": "省市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 署立及直轄市立醫院"
+          "label_zh": "省市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 署立及直轄市立醫院",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "縣市立醫院 02 縣市立醫院 02 縣市立醫院 02 縣市立醫院 02 縣市立醫院"
+          "label_zh": "縣市立醫院 02 縣市立醫院 02 縣市立醫院 02 縣市立醫院 02 縣市立醫院",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院"
+          "label_zh": "公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療)"
+          "label_zh": "軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療)",
+          "label_en": ""
         },
         {
           "code": "6",
-          "label_zh": "榮民醫院 06 榮民醫院 06 榮民醫院 06 榮民醫院 06 榮民醫院"
+          "label_zh": "榮民醫院 06 榮民醫院 06 榮民醫院 06 榮民醫院 06 榮民醫院",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "機關(構)附設醫院 07 機關(構)附設醫院 07 機關(構)附設醫院 07 公立機關(構)附設醫院 07 公立機關(構)附設醫院"
+          "label_zh": "機關(構)附設醫院 07 機關(構)附設醫院 07 機關(構)附設醫院 07 公立機關(構)附設醫院 07 公立機關(構)附設醫院",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 私立 私立 私立 非公立 非公立"
+          "label_zh": "公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 私立 私立 私立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "09",
-          "label_zh": "社團法人醫院 09 醫療社團法人醫院"
+          "label_zh": "社團法人醫院 09 醫療社團法人醫院",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院"
+          "label_zh": "財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院"
+          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
+          "label_en": ""
         },
         {
           "code": "13",
-          "label_zh": "醫學院校附設醫院 13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院"
+          "label_zh": "醫學院校附設醫院 13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "14",
-          "label_zh": "其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院"
+          "label_zh": "其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院",
+          "label_en": ""
         },
         {
           "code": "15",
-          "label_zh": "私立醫院 15 私立醫院 15 私立醫院 15 私立西醫醫院 15 私立西醫醫院"
+          "label_zh": "私立醫院 15 私立醫院 15 私立醫院 15 私立西醫醫院 15 私立西醫醫院",
+          "label_en": ""
         },
         {
           "code": "17",
-          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院"
+          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
+          "label_en": ""
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立"
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "署立及直轄市立醫院 1 署立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院"
+          "label_zh": "署立及直轄市立醫院 1 署立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院"
+          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院"
+          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)"
+          "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)",
+          "label_en": ""
         },
         {
           "code": "6",
-          "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院"
+          "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院"
+          "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立"
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "9",
-          "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院"
+          "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院"
+          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院"
+          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
+          "label_en": ""
         },
         {
           "code": "13",
-          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院"
+          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "14",
-          "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院"
+          "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院",
+          "label_en": ""
         },
         {
           "code": "15",
-          "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院"
+          "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
+          "label_en": ""
         },
         {
           "code": "17",
-          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院"
+          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
+          "label_en": ""
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立"
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院"
+          "label_zh": "部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院"
+          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院"
+          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)"
+          "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)",
+          "label_en": ""
         },
         {
           "code": "6",
-          "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院"
+          "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院"
+          "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立"
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "9",
-          "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院"
+          "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院"
+          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院"
+          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
+          "label_en": ""
         },
         {
           "code": "13",
-          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院"
+          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
+          "label_en": ""
         },
         {
           "code": "14",
-          "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院"
+          "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院",
+          "label_en": ""
         },
         {
           "code": "15",
-          "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院"
+          "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
+          "label_en": ""
         },
         {
           "code": "17",
-          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院"
+          "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
+          "label_en": ""
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立"
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_en": ""
         },
         {
           "code": "21",
-          "label_zh": "省市立診所 21 本署及北、高市立診所 21 本署及北、高市立診所 21 本署及北、高市立診所 21 署立及直轄市立診所"
+          "label_zh": "省市立診所 21 本署及北、高市立診所 21 本署及北、高市立診所 21 本署及北、高市立診所 21 署立及直轄市立診所",
+          "label_en": ""
         },
         {
           "code": "22",
-          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所"
+          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
+          "label_en": ""
         },
         {
           "code": "23",
-          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所"
+          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
+          "label_en": ""
         },
         {
           "code": "24",
-          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室"
+          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
+          "label_en": ""
         },
         {
           "code": "25",
-          "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)"
+          "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)",
+          "label_en": ""
         },
         {
           "code": "26",
-          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)"
+          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
+          "label_en": ""
         },
         {
           "code": "27",
-          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 公立機關(構)附設醫務室 27 機關(構)附設醫務室"
+          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 公立機關(構)附設醫務室 27 機關(構)附設醫務室",
+          "label_en": ""
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立"
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "29",
-          "label_zh": "公益法人所設診所/醫務室"
+          "label_zh": "公益法人所設診所/醫務室",
+          "label_en": ""
         },
         {
           "code": "31",
-          "label_zh": "財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 醫療財團法人附設醫務室"
+          "label_zh": "財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 醫療財團法人附設醫務室",
+          "label_en": ""
         },
         {
           "code": "32",
-          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室 宗教財團法人附設診所"
+          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室 宗教財團法人附設診所",
+          "label_en": ""
         },
         {
           "code": "33",
-          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室 私立事業單位或機構附設醫務"
+          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室 私立事業單位或機構附設醫務",
+          "label_en": ""
         },
         {
           "code": "34",
-          "label_zh": "事業單位附設醫務室 34 事業單位附設醫務室 34 事業單位附設醫務室 34 私立事業單位附設醫務室 34 室"
+          "label_zh": "事業單位附設醫務室 34 事業單位附設醫務室 34 事業單位附設醫務室 34 私立事業單位附設醫務室 34 室",
+          "label_en": ""
         },
         {
           "code": "35",
-          "label_zh": "私立診所 35 私立診所 35 私立診所 35 私立西醫診所 35 私立西醫診所"
+          "label_zh": "私立診所 35 私立診所 35 私立診所 35 私立西醫診所 35 私立西醫診所",
+          "label_en": ""
         },
         {
           "code": "37",
-          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所"
+          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
+          "label_en": ""
         },
         {
           "code": "38",
-          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所"
+          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
+          "label_en": ""
         },
         {
           "code": "40",
-          "label_zh": "醫療財團法人診所"
+          "label_zh": "醫療財團法人診所",
+          "label_en": ""
         },
         {
           "code": "41",
-          "label_zh": "社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立"
+          "label_zh": "社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_en": ""
         },
         {
           "code": "21",
-          "label_zh": "署立及直轄市立診所 21 署立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所"
+          "label_zh": "署立及直轄市立診所 21 署立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所",
+          "label_en": ""
         },
         {
           "code": "22",
-          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所"
+          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
+          "label_en": ""
         },
         {
           "code": "23",
-          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所"
+          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
+          "label_en": ""
         },
         {
           "code": "24",
-          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室"
+          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
+          "label_en": ""
         },
         {
           "code": "25",
-          "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)"
+          "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)",
+          "label_en": ""
         },
         {
           "code": "26",
-          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)"
+          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
+          "label_en": ""
         },
         {
           "code": "27",
-          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室"
+          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室",
+          "label_en": ""
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立"
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "29",
-          "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室"
+          "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室",
+          "label_en": ""
         },
         {
           "code": "31",
-          "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室"
+          "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室",
+          "label_en": ""
         },
         {
           "code": "32",
-          "label_zh": "宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 務室 務室 務室 室 室"
+          "label_zh": "宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 務室 務室 務室 室 室",
+          "label_en": ""
         },
         {
           "code": "33",
-          "label_zh": "私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室"
+          "label_zh": "私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室",
+          "label_en": ""
         },
         {
           "code": "34",
-          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 務室 務室 務室 室 室"
+          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 務室 務室 務室 室 室",
+          "label_en": ""
         },
         {
           "code": "35",
-          "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所"
+          "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
+          "label_en": ""
         },
         {
           "code": "37",
-          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所"
+          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
+          "label_en": ""
         },
         {
           "code": "38",
-          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所"
+          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
+          "label_en": ""
         },
         {
           "code": "40",
-          "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所"
+          "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所",
+          "label_en": ""
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立"
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_en": ""
         },
         {
           "code": "21",
-          "label_zh": "部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所"
+          "label_zh": "部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所",
+          "label_en": ""
         },
         {
           "code": "22",
-          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所"
+          "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
+          "label_en": ""
         },
         {
           "code": "23",
-          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所"
+          "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所",
+          "label_en": ""
         },
         {
           "code": "24",
-          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室"
+          "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
+          "label_en": ""
         },
         {
           "code": "25",
-          "label_zh": "軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部)"
+          "label_zh": "軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部)",
+          "label_en": ""
         },
         {
           "code": "26",
-          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)"
+          "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
+          "label_en": ""
         },
         {
           "code": "27",
-          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室"
+          "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室",
+          "label_en": ""
         },
         {
           "code": "47",
-          "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立"
+          "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
+          "label_en": ""
         },
         {
           "code": "29",
-          "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室"
+          "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室",
+          "label_en": ""
         },
         {
           "code": "31",
-          "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31"
+          "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31",
+          "label_en": ""
         },
         {
           "code": "32",
-          "label_zh": "宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32"
+          "label_zh": "宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32",
+          "label_en": ""
         },
         {
           "code": "33",
-          "label_zh": "私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室"
+          "label_zh": "私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室",
+          "label_en": ""
         },
         {
           "code": "34",
-          "label_zh": "私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室"
+          "label_zh": "私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室",
+          "label_en": ""
         },
         {
           "code": "35",
-          "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所"
+          "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
+          "label_en": ""
         },
         {
           "code": "37",
-          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所"
+          "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
+          "label_en": ""
         },
         {
           "code": "38",
-          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所"
+          "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
+          "label_en": ""
         },
         {
           "code": "40",
-          "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所"
+          "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所",
+          "label_en": ""
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 83-109年診所權屬別代碼對照表（以109年調整） 2026年01月27日修訂 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼"
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 83-109年診所權屬別代碼對照表（以109年調整） 2026年01月27日修訂 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼",
+          "label_en": ""
         },
         {
           "code": "42",
-          "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構"
+          "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
+          "label_en": ""
         },
         {
           "code": "43",
-          "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構"
+          "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
+          "label_en": ""
         },
         {
           "code": "77",
-          "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構"
+          "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
+          "label_en": ""
         },
         {
           "code": "79",
-          "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構"
+          "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
+          "label_en": ""
         },
         {
           "code": "83",
-          "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構"
+          "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
+          "label_en": ""
         },
         {
           "code": "87",
-          "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構"
+          "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
+          "label_en": ""
         },
         {
           "code": "88",
-          "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構"
+          "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
+          "label_en": ""
         },
         {
           "code": "HY",
-          "label_zh": "助產機構 私立助產機構"
+          "label_zh": "助產機構 私立助產機構",
+          "label_en": ""
         },
         {
           "code": "JY",
-          "label_zh": "醫事檢驗機構 私立醫事檢驗機構"
+          "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
+          "label_en": ""
         },
         {
           "code": "LY",
-          "label_zh": "鑲牙所 私立鑲牙所"
+          "label_zh": "鑲牙所 私立鑲牙所",
+          "label_en": ""
         },
         {
           "code": "QY",
-          "label_zh": "物理治療機構 私立物理治療機構"
+          "label_zh": "物理治療機構 私立物理治療機構",
+          "label_en": ""
         },
         {
           "code": "RA",
-          "label_zh": "公立職能治療機構(107年新增)"
+          "label_zh": "公立職能治療機構(107年新增)",
+          "label_en": ""
         },
         {
           "code": "RY",
-          "label_zh": "職能治療機構 私立職能治療機構"
+          "label_zh": "職能治療機構 私立職能治療機構",
+          "label_en": ""
         },
         {
           "code": "SY",
-          "label_zh": "醫事放射機構 私立醫事放射機構"
+          "label_zh": "醫事放射機構 私立醫事放射機構",
+          "label_en": ""
         },
         {
           "code": "XY",
-          "label_zh": "心理所(99年新增) 私立心理機構"
+          "label_zh": "心理所(99年新增) 私立心理機構",
+          "label_en": ""
         },
         {
           "code": "1Y",
-          "label_zh": "語言治療所(99年新增) 私立語言治療所"
+          "label_zh": "語言治療所(99年新增) 私立語言治療所",
+          "label_en": ""
         },
         {
           "code": "2Y",
-          "label_zh": "牙體技術所(99年新增) 私立牙體技術所"
+          "label_zh": "牙體技術所(99年新增) 私立牙體技術所",
+          "label_en": ""
         },
         {
           "code": "3Y",
-          "label_zh": "聽力所(99年新增) 私立聽力所"
+          "label_zh": "聽力所(99年新增) 私立聽力所",
+          "label_en": ""
         },
         {
           "code": "4Y",
-          "label_zh": "居家呼吸照護所(101年新增) 私立居家呼吸照護所"
+          "label_zh": "居家呼吸照護所(101年新增) 私立居家呼吸照護所",
+          "label_en": ""
         },
         {
           "code": "5Y",
-          "label_zh": "驗光所 私立驗光所"
+          "label_zh": "驗光所 私立驗光所",
+          "label_en": ""
         },
         {
           "code": "Z7",
-          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 83-109年診所權屬別代碼對照表（以109年調整） 2026年01月27日修訂 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85"
+          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 83-109年診所權屬別代碼對照表（以109年調整） 2026年01月27日修訂 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "ownership type"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療醫令明細檔─西醫、中醫及牙醫門診\n（HEALTH-04：H_NHI_OPDTO）\n資料庫使用手冊\n一、 檔案內容說明\n210,623,732筆（西醫）\n9,877,811筆（牙醫）\n檔案代號 H_NHI_OPDTO 資料筆數\n31,731,199筆（中醫）\n（以2024/12 為例）\n全民健保處方及治療醫令明\n中文檔名 英文檔名 Details ofAmbulatoryCareOrders\n細檔─西醫、中醫及牙醫門診\n1. 47GB（西醫）\n2. 2GB（牙醫）\n檔案大小 欄位數 21\n3. 7GB（中醫）\n（以2024/12 為例）\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27修訂\n1. 為一次門診多筆醫令資料。\n2. 相同之 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋SEQ_NO＋\nHOSP_ID視為同一次就醫之醫令。\n3. 每一筆資料包括醫令碼、數量及點數等。\n資料描述 4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、住\n院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央健康\n保險署首頁/健保服務/健保醫療費用/醫療費用申報與給付/醫療費用支付/醫療費\n用申報規定/醫療費用 XML 申報格式/全民健康保險醫事服務機構(門診、住院及\n交付機構)醫療費用點數申報格式及填表說明(版更日期109.08.13)\n1. 同一次門診之各筆醫令點數欄位(ORDER_QTY)加總等於門診明細檔\n(H_NHI_OPDTE)之合計點數(EXP_DOT)。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n注意事項\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 醫療機構代碼(HOSP_ID)經加密處理。\n主鍵與比 2. 本 檔 無 病 人 身 份 證 字 號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\n對欄位 CASE_TYPE＋SEQ_NO＋HOSP_ID為鍵值與門診明細檔(H_NHI_OPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",
@@ -1410,5 +1740,9 @@
   "pdf_sha256": "2ff03c6d7ebad36b847305976e955cdf840208230541fd4d6e70e7782559f12a",
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
-  "name_zh_from_listing": "Health04_全民健保處方及治療醫令明細檔_門急診(20250624起適用)"
+  "name_zh_from_listing": "Health04_全民健保處方及治療醫令明細檔_門急診(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

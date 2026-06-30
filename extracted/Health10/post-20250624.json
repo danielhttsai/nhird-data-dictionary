@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "加密處理",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": "encrypted processing"
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則，1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性，2：女性",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -64,7 +70,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "residence",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -73,7 +81,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "西元年月 YYYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year and month",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -82,7 +92,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年月日 YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Date of Death",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -102,7 +114,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Place of Death",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -117,7 +131,9 @@
           "ad_year": 2008,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -137,7 +153,9 @@
           "ad_year": 1994,
           "marker": "以後"
         }
-      ]
+      ],
+      "name_zh_en": "Death Location",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -157,7 +175,9 @@
           "ad_year": 1994,
           "marker": "以後"
         }
-      ]
+      ],
+      "name_zh_en": "marital status",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -182,7 +202,9 @@
           "ad_year": 2008,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Cause of Death Classification",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -202,7 +224,9 @@
           "ad_year": 2008,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "trauma classification",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -217,7 +241,9 @@
           "ad_year": 2008,
           "marker": "以後"
         }
-      ]
+      ],
+      "name_zh_en": "Cause of Death Classification",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -237,7 +263,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "diagnoser",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -246,7 +274,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未滿 1日，01：滿1日，02：滿2 日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "newborn age",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -261,7 +291,9 @@
           "ad_year": 1984,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "serial number",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -270,7 +302,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "000 Ｏ歲、001 一歲、002 二歲、…: 099 九十九歲、100 百歲、….999 不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -279,7 +313,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年 YYYY",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -297,5 +333,9 @@
   "pdf_sha256": "c3a5f972456799f63a4ebfbadb09860527816eb06b834c1e612d682260b31090",
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
-  "name_zh_from_listing": "Health10_死因統計檔(20250624起適用)"
+  "name_zh_from_listing": "Health10_死因統計檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": "cause of death file"
 }

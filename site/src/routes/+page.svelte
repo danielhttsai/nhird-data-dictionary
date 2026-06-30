@@ -12,12 +12,6 @@
     return g;
   });
 
-  const totals = $derived({
-    files: items.length,
-    pdfs: items.reduce((n, it) => n + it.versions.filter(v => v.file_type === 'pdf').length, 0),
-    zips: items.reduce((n, it) => n + it.versions.filter(v => v.file_type === 'zip').length, 0),
-    fields: items.reduce((n, it) => n + (it.field_count || 0), 0)
-  });
 </script>
 
 <svelte:head>
@@ -48,31 +42,6 @@
   </div>
 </section>
 
-<!-- Stats -->
-<section class="pb-4">
-  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
-      <div class="text-3xl font-extrabold text-brand-700">{totals.files}</div>
-      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Files</div>
-    </div>
-    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
-      <div class="text-3xl font-extrabold text-brand-700">{totals.fields.toLocaleString()}</div>
-      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Fields</div>
-    </div>
-    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
-      <div class="text-3xl font-extrabold text-brand-700">{totals.pdfs}</div>
-      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">PDF specs</div>
-    </div>
-    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
-      <div class="text-3xl font-extrabold text-brand-700">{totals.zips}</div>
-      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Multi-wave ZIPs</div>
-    </div>
-  </div>
-  <p class="text-xs text-slate-500 mt-3 text-center">
-    Generated {data.catalogue.generated_at?.slice(0, 10) || ''} · Source MOHW DOS
-  </p>
-</section>
-
 <!-- Catalogue by category -->
 {#each [...groups] as [category, list]}
   <section class="py-8">
@@ -101,7 +70,7 @@
                 {it.name_zh}
               </h3>
               {#if it.name_en}
-                <p class="text-xs text-slate-500 mt-1 line-clamp-1">{it.name_en}</p>
+                <p class="text-xs italic text-slate-500 mt-1 line-clamp-2">{it.name_en}</p>
               {/if}
             </div>
             {#if it.field_count}

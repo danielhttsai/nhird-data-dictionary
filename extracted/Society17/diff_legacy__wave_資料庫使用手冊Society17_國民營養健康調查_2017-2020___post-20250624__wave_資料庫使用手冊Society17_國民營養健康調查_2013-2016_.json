@@ -1,0 +1,364 @@
+{
+  "code": "Society17",
+  "earlier_version_id": "legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2017-2020_",
+  "later_version_id": "post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+  "earlier_field_count": 23,
+  "later_field_count": 10,
+  "added": [
+    {
+      "seq": 1,
+      "name_zh": "調查年份",
+      "name_en": "year",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "調查年份",
+      "available_notes": [],
+      "name_zh_en": "survey year",
+      "description_en": "survey year"
+    },
+    {
+      "seq": 4,
+      "name_zh": "月齡出生年份",
+      "name_en": "agem",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "參考月齡 0-未滿7歲除年齡外亦呈現月齡 訪視前過生日，年齡為訪視年份- 訪視後過生日，年齡為訪視年份-",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 7,
+      "name_zh": "集區",
+      "name_en": "cluster",
+      "type": "Char",
+      "length": 13,
+      "description_zh": "詳見「集區代碼」譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "community",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "總體檢權數",
+      "name_en": "ewt",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "體位、握力、短距行走、家戶血壓 使用權數",
+      "available_notes": [],
+      "name_zh_en": "overall examination weight",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "體檢站權數",
+      "name_en": "ewt_ph",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "體檢血壓、ABI血壓、BMI、肺功 能、DXA、青春痘、心電圖、尿 液生化使用權數",
+      "available_notes": [],
+      "name_zh_en": "health check station weight",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "卡路里",
+      "name_en": "nn1",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "(kcal)",
+      "available_notes": [],
+      "name_zh_en": "calorie",
+      "description_en": ""
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "一日飲水量(cc)",
+      "name_en": "pwater",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "88888：不知道 99999：拒答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "四年問卷權數年齡分層文字",
+      "name_en": "qagee_for_2017t o20",
+      "type": "10",
+      "length": "00：0歲 01_03：1-3歲 04_06：4-6歲 07_09：7-9歲 10_12：10-12歲 13_15：13-15歲 16_18：16-18歲 19_24：19-24歲 25_29：25-29歲 30_34：30-34歲",
+      "description_zh": "35_39：35-39歲 40_44：40-44歲 45_49：45-49歲 50_54：50-54歲 55_59：55-59歲 60_64：60-64歲 65_69：65-69歲 70_74：70-74歲 75_79：75-79歲 80+：80歲以上",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "個人菜餚序",
+      "name_en": "pdishseq",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "說明： 個案24小時內吃到的菜餚順序",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "(5)腹瀉",
+      "name_en": "physical_status_ diarrhoea",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "0：未勾選 1：已勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 12,
+      "name_zh": "(6)受傷或肢體殘缺部位 （殘障）",
+      "name_en": "physical_status_ wounded",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "0：未勾選 1：已勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 13,
+      "name_zh": "食物大類",
+      "name_en": "fd_category",
+      "type": "文字",
+      "length": 2,
+      "description_zh": "說明： 請參照「24 小時飲食食物分類 表」",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 14,
+      "name_zh": "食物小類",
+      "name_en": "fd_group",
+      "type": "文字",
+      "length": 6,
+      "description_zh": "說明： 請參照「24 小時飲食食物分類 表」",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 15,
+      "name_zh": "2.請問您，目前○○○16 1：母親2：父親3：（外）祖母5：幫傭99999：拒答18 1：無2：自修或私塾3：小學肄業4：小學畢業5：國（初）中肄業6：國（初）中畢業7：高中肄業8：高中畢業9：高職肄業（含士官學校）11：專科肄業（含軍校專修班）12：專科畢業（含軍校專修班）（含軍官學校正期班）（含軍官學校正期班）15：研究所以上99999：拒答其他（請說明）說明：國籍如非中華民國或同時圈選中籍貫題",
+      "name_en": "PS0041_3",
+      "type": "文字",
+      "length": 5,
+      "description_zh": "1：已上小學 2：已上幼兒園 3：未開始上學 88888：不知道 99999：拒答 說明： (1)年齡層差異： 僅詢問3-6歲個案 3. 請問您，○○○的主要照顧 PS0042 文字 5 4：（外）祖父 者是? 88888：不知道 17 3. 請問您，○○○的主要照顧 PS0042_other 文字 50 者是? 其他（請說明） 4. 請問您的教育程度是？ PS0043 文字 5 10：高職畢業（含士官學校） 13：大學/技術學院肄業 14：大學/技術學院畢業 88888：不知道 19 4. 請問您的教育程度是？ PS0043_other 文字 50 5.請問您的國籍是？（可複選） 華民國與其他國籍者，不需回答",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "其他身體狀況",
+      "name_en": "physical_status_ comment",
+      "type": "文字",
+      "length": 80,
+      "description_zh": "1-3 目前是否有裝：（可複選）",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 17,
+      "name_zh": "4. 請問您的教育程度2：自修或私塾3：小學肄業4：小學畢業5：國（初）中肄業6：國（初）中畢業7：高中肄業8：高中畢業9：高職肄業（含士官學校）10：高職畢業（含士官學校）11：專科肄業（含軍校專修班）12：專科畢業（含軍校專修班）（含軍官學校正期班）（含軍官學校正期班）15：研究所以上99999：拒答",
+      "name_en": "PD0006",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "1：無 13：大學/技術學院肄業 14：大學/技術學院畢業 88888：不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 18,
+      "name_zh": "(3)鋼釘",
+      "name_en": "physical_equipm ent_nail",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "0：未勾選 1：已勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 19,
+      "name_zh": "5.請問您目前是否在學？2：否99999：拒答",
+      "name_en": "PD0005",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "1：是 88888：不知道",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 20,
+      "name_zh": "5-a..請問您的就學狀況？2：建教生99999：拒答",
+      "name_en": "PD0022",
+      "type": "文字",
+      "length": 4,
+      "description_zh": "1：一般生 88888：不知道 NA.不適用 說明： (1)年度差異： 僅用於2020 年",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 22,
+      "name_zh": "____公分",
+      "name_en": "physical_current _height",
+      "type": "文字",
+      "length": 8,
+      "description_zh": "88888：不知道 99999：拒測 說明： (1)年度差異: 僅用於2018、2019、2020年",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 23,
+      "name_zh": "維生素B12(μg)",
+      "name_en": "nn34",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 24,
+      "name_zh": "鋅(mg)",
+      "name_en": "nn35",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 25,
+      "name_zh": "單元不飽和脂肪酸(mg)",
+      "name_en": "nn37",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 26,
+      "name_zh": "多元不飽和脂肪酸(mg)",
+      "name_en": "nn38",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 27,
+      "name_zh": "維生素D(μg)",
+      "name_en": "nn39",
+      "type": "數字",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "modified": [
+    {
+      "key": "id",
+      "seq_later": 2,
+      "changes": {
+        "type": {
+          "from": "文字",
+          "to": "Char"
+        },
+        "description_zh": {
+          "from": "",
+          "to": "1: 男性"
+        }
+      }
+    },
+    {
+      "key": "sex",
+      "seq_later": 3,
+      "changes": {
+        "name_zh": {
+          "from": "性別文字",
+          "to": "性別"
+        },
+        "type": {
+          "from": "2",
+          "to": "Char"
+        },
+        "length": {
+          "from": "1：男性 2：女性",
+          "to": 1
+        },
+        "description_zh": {
+          "from": "",
+          "to": "2: 女性 2個月~未滿 1歲年齡為0歲，可"
+        }
+      }
+    },
+    {
+      "key": "agey",
+      "seq_later": 5,
+      "changes": {
+        "name_zh": {
+          "from": "年齡",
+          "to": "年齡參考月齡"
+        },
+        "type": {
+          "from": "數字",
+          "to": "Num"
+        },
+        "description_zh": {
+          "from": "說明： (1) 年齡計算： a.若個案為訪視前過生日，則年 齡為訪視年份-出生年份 b.若個案為訪視後過生日，則年 齡為訪視年份-出生年份-1 (2) 2個月~未滿 1歲個案的年齡 為0歲，可參考月齡 (3) 0-18歲個案的除年齡外亦呈現 月齡",
+          "to": "出生年份-1 2個月~未滿 1歲年齡為0歲，可 0-未滿7歲除年齡外亦呈現月齡 A:臺北市 B:新北市 C:臺中市 D:臺南市 E:高雄市 F:宜蘭縣 G:桃園縣 H:新竹縣 I:苗栗縣 J:彰化縣"
+        }
+      }
+    },
+    {
+      "key": "stra",
+      "seq_later": 6,
+      "changes": {
+        "name_zh": {
+          "from": "縣市文字",
+          "to": "縣市分層"
+        },
+        "type": {
+          "from": "13",
+          "to": "Char"
+        },
+        "length": {
+          "from": "A：臺北市 B：新北市 C：臺中市 D：臺南市 E：高雄市 F：宜蘭縣 G：桃園縣 H：新竹縣 I：苗栗縣 J：彰化縣",
+          "to": 13
+        },
+        "description_zh": {
+          "from": "K：南投縣 L：雲林縣 M：嘉義縣 N：屏東縣 O：臺東縣 P：花蓮縣 Q：澎湖縣 R：基隆市 S：新竹市 T：嘉義市",
+          "to": "A:臺北市 B:新北市 C:臺中市 D:臺南市 E:高雄市 F:宜蘭縣 G:桃園縣 H:新竹縣 I:苗栗縣 J:彰化縣 K:南投縣 L:雲林縣 M:嘉義縣 N:屏東縣 O:臺東縣 P:花蓮縣 Q:澎湖縣 R:基隆市 S:新竹市 T:嘉義市"
+        }
+      }
+    }
+  ]
+}

@@ -12,7 +12,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(INS_ID)不同者 為眷屬。經加密處理，身分證 字號，或外籍居留證號碼(如無 居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -21,7 +23,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "insurance status",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -30,7 +34,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -39,7 +45,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "詳單位屬性(UNIT_INS_TYPE)說 明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -48,7 +56,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳身份別(ID_TYPE)說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity type",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -57,7 +67,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "insured amount",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -66,7 +78,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "relationship_to_insured",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -75,7 +89,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "Y：被保險人 N：眷屬",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -84,7 +100,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "詳身分屬性(INS_TYPE)說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity attribute",
+      "description_en": ""
     }
   ],
   "removed": [
@@ -95,7 +113,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -104,7 +124,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "詳單位屬性(ID1_UNIT)說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -113,7 +135,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(ID1)不同者為 眷屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -122,7 +146,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳身份別(ID1_TYPE)說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity type",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -131,7 +157,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "relationship_to_insured",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -140,7 +168,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "insured amount",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -149,7 +179,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "詳身分屬性(ID1_IDENT)說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "identity attribute",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -158,7 +190,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "insurance status",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -167,7 +201,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "Y：被保險人 N：眷屬",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "modified": [

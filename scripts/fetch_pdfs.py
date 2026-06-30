@@ -77,16 +77,41 @@ def parse_roc_date(s: str) -> str:
 
 
 def detect_version(name_zh: str) -> tuple[str, str]:
-    """Return (version_id, version_label) from the title text."""
-    if "20250624" in name_zh or "20250624起適用" in name_zh:
-        return ("post-20250624", "20250624 起適用")
+    """Return (version_id, version_label).
+
+    Three orthogonal axes:
+      - revision: legacy vs post-20250624 (whole-page edit at 2025-06-24)
+      - period:   pre-2010 / 2011-2017 / 2018-later  (cancer registry only)
+      - kind:     spec vs appendix (附錄)
+    Combined as ``[period_][kind_]revision`` -- but legacy spec is just ``legacy``.
+    Examples:
+      ``legacy``, ``post-20250624``, ``period-2018-later``,
+      ``period-2018-later_post-20250624``, ``appendix``.
+    """
+    is_appendix = "附錄" in name_zh
+    revision = "post-20250624" if ("20250624" in name_zh) else "legacy"
+
+    period = None
     if "2018" in name_zh and ("以後" in name_zh or "起" in name_zh):
-        return ("period-2018-later", "2018 年以後")
-    if "2011" in name_zh and "2017" in name_zh:
-        return ("period-2011-2017", "2011-2017 年")
-    if "Pre-2010" in name_zh or "2010之前" in name_zh or "2010前" in name_zh:
-        return ("period-pre-2010", "2010 年以前")
-    return ("legacy", "legacy")
+        period = ("period-2018-later", "2018 年以後")
+    elif "2011" in name_zh and "2017" in name_zh:
+        period = ("period-2011-2017", "2011-2017 年")
+    elif ("Pre-2010" in name_zh or "2010之前" in name_zh or "2010前" in name_zh
+          or "2010 年以前" in name_zh or "2010年以前" in name_zh
+          or ("2007" in name_zh and "2010" in name_zh)):
+        period = ("period-pre-2010", "2010 年以前")
+
+    if is_appendix:
+        if period:
+            return (f"{period[0]}_appendix", f"{period[1]} · 附錄")
+        return ("appendix", "附錄")
+
+    if period:
+        vid, lbl = period
+        if revision == "post-20250624":
+            return (f"{vid}_post-20250624", f"{lbl} · 20250624 起適用")
+        return (vid, lbl)
+    return (revision, "20250624 起適用" if revision == "post-20250624" else "legacy")
 
 
 def normalize_code(title: str) -> tuple[str | None, str | None]:

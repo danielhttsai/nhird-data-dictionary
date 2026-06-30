@@ -112,24 +112,33 @@
       </div>
     </section>
 
-    <!-- Descriptive blocks -->
+    <!-- Descriptive blocks (bilingual where translation available) -->
     <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm space-y-4">
       {#if ext.data_description_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Data description</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.data_description_zh}</p>
+          {#if ext.data_description_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.data_description_en}</p>
+          {/if}
         </div>
       {/if}
       {#if ext.notes_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Notes</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.notes_zh}</p>
+          {#if ext.notes_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.notes_en}</p>
+          {/if}
         </div>
       {/if}
       {#if ext.primary_keys_raw}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Primary keys / linkage</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{ext.primary_keys_raw}</p>
+          {#if ext.primary_keys_en}
+            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{ext.primary_keys_en}</p>
+          {/if}
         </div>
       {/if}
       {#if ext.update_history?.length}
@@ -189,7 +198,12 @@
               {#each filtered as f}
                 <tr>
                   <td class="text-right tabular-nums text-slate-400">{f.seq}</td>
-                  <td class="font-medium text-slate-800">{f.name_zh}</td>
+                  <td>
+                    <div class="font-medium text-slate-800">{f.name_zh}</div>
+                    {#if f.name_zh_en}
+                      <div class="text-xs italic text-slate-500 mt-0.5">{f.name_zh_en}</div>
+                    {/if}
+                  </td>
                   <td class="mono group">
                     <a href="{base}/file/{file.code}/field/{f.name_en}/?v={selectedId}"
                        class="text-brand-700 hover:underline font-semibold">{f.name_en}</a>
@@ -201,7 +215,12 @@
                   </td>
                   <td class="text-slate-700 text-xs">{f.type}</td>
                   <td class="text-right tabular-nums text-slate-600">{f.length ?? ''}</td>
-                  <td class="text-xs text-slate-700 max-w-md whitespace-pre-line leading-relaxed">{f.description_zh}</td>
+                  <td class="text-xs text-slate-700 max-w-md whitespace-pre-line leading-relaxed">
+                    <div>{f.description_zh}</div>
+                    {#if f.description_en}
+                      <div class="italic text-slate-500 mt-1">{f.description_en}</div>
+                    {/if}
+                  </td>
                   <td>
                     {#if ext.codebooks?.[f.name_en]}
                       <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">

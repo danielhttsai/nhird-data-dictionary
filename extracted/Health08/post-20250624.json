@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：送核 3：申復 4：爭議 5：訴願 6：行政訴訟",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "application type",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -39,7 +41,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "YYYYMMDD。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "application date",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -48,7 +52,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "YYYYMMDD。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "date of occurrence",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -57,7 +63,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "1. 經加密處理，身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -72,7 +80,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Death Remarks",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -87,7 +97,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Date of Death",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -96,7 +108,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -105,7 +119,9 @@
       "type": "Char",
       "length": 7,
       "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -114,7 +130,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "1. 經加密處理，為辨別醫療機構 的鍵值。 2. 200萬人抽樣檔長度為6",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -123,7 +141,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留 證號。 2. 200萬人抽樣檔長度為9",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -138,7 +158,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Approval Date",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -153,7 +175,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "effective date",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -162,7 +186,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "YYYYMMDD。 未訂定有效期限者皆為永久有效，",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Effective Until Date",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -182,7 +208,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "card remarks",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -197,7 +225,9 @@
           "ad_year": 2007,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "rare disease notation",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -212,7 +242,9 @@
           "ad_year": 2007,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "rare disease number A",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -227,7 +259,9 @@
           "ad_year": 2007,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "rare disease number B",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -236,7 +270,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "YYYYMM。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year and month",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -245,7 +281,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "醫療機構所在鄉鎮，代碼參照醫療 機構現況檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -254,7 +292,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別（HOS）譯碼說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -263,7 +303,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -272,7 +314,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -281,7 +325,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -290,7 +336,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性2：女性9：不詳。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "physician gender",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -299,7 +347,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "YYY(民國年)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -308,7 +358,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區 分局 5：高屏分局 6：東區分局",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -317,7 +369,9 @@
       "type": "Char",
       "length": 7,
       "description_zh": "受理編號之流水號。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -335,5 +389,9 @@
   "pdf_sha256": "cfb07fab6271ae74c85b8ad6694d576662a3e0ccc1fb478ef0cd7995de14d8e1",
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
-  "name_zh_from_listing": "Health08_全民健保重大傷病檔(20250624起適用)"
+  "name_zh_from_listing": "Health08_全民健保重大傷病檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

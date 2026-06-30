@@ -12,7 +12,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。身分證字號或外籍居留證 號碼(如無居留證號碼為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -21,7 +23,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -30,7 +34,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤 部位，表示方法為 C000-C809(“C”為大 寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (SITE)對照表】。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "primary site",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -39,7 +45,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否 1：是 9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -48,7 +56,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -57,7 +67,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -66,7 +78,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：手術的邊緣仍有腫瘤細胞的存在 1：小於1毫米 2：1-2毫米 3：3-5毫米 4：6-10毫米 5：大於10毫米 8：無法適用 9：不清楚",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -75,7 +89,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術 邊緣(SMARGIN)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -84,7 +100,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (七) 【其他分期系統 (OSTAGES)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 32,
@@ -93,7 +111,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 35,
@@ -102,7 +122,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域 淋巴結手術範圍(LNSCOPE)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 36,
@@ -111,7 +133,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 40,
@@ -120,7 +144,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 42,
@@ -129,7 +155,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 43,
@@ -138,7 +166,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 8：不適用，無法填寫此欄位 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 44,
@@ -147,7 +177,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方 式(CTROUTE)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 45,
@@ -156,7 +188,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未進行化學治療 01-97：記錄所有療程的總治療次數 98：無法計算療程數 99：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 46,
@@ -165,7 +199,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 47,
@@ -174,7 +210,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 48,
@@ -183,7 +221,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未進行栓塞 01-97：記錄同一療程的治療次數 99：次數不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Thrombosis Occurrences",
+      "description_en": ""
     },
     {
       "seq": 49,
@@ -192,7 +232,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "survival status",
+      "description_en": ""
     },
     {
       "seq": 53,
@@ -201,7 +243,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 54,
@@ -210,7 +254,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "removed": [
@@ -221,7 +267,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -230,7 +278,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤 部位，表示方法為 C000-C809(“C”為大 寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (CASITE)對照表】。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "primary site",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -239,7 +289,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否 1：是 9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -248,7 +300,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -257,7 +311,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -266,7 +322,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：手術的邊緣仍有腫瘤細胞的存在 1：小於1毫米 2：1-2毫米 3：3-5毫米 4：6-10毫米 5：大於10毫米 8：無法適用 9：不清楚",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -275,7 +333,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術 邊緣(OPMARGS)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -284,7 +344,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (七) 【其他分期系統 (OSTAGE)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 34,
@@ -293,7 +355,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 37,
@@ -302,7 +366,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域 淋巴結手術範圍(OPLNSCOPE)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 39,
@@ -311,7 +377,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 45,
@@ -320,7 +388,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 47,
@@ -329,7 +399,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 48,
@@ -338,7 +410,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 8：不適用，無法填寫此欄位 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 49,
@@ -347,7 +421,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方 式(CHROUTE)對照表】",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 50,
@@ -356,7 +432,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未進行化學治療 01-97：記錄所有療程的總治療次數 98：無法計算療程數 99：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 52,
@@ -365,7 +443,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 54,
@@ -374,7 +454,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療 2：肝動脈栓塞治療 3：合併肝動脈化學藥物栓塞治療及肝動 脈栓塞治療 9：不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 55,
@@ -383,7 +465,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未進行栓塞 01-97：記錄同一療程的治療次數 99：次數不清楚。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Thrombosis Occurrences",
+      "description_en": ""
     },
     {
       "seq": 58,
@@ -392,7 +476,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "survival status",
+      "description_en": ""
     },
     {
       "seq": 63,
@@ -401,7 +487,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。身分證字號或外籍居留證 號碼(如無居留證號碼為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 64,
@@ -410,7 +498,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 65,
@@ -419,7 +509,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "modified": [

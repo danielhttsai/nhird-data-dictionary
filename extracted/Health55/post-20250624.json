@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -45,7 +47,9 @@
           "ad_year": 2016,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "payment method",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -54,7 +58,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：舊表單 1：社區或職場設站篩檢 2：門診 3：住院 4：郵寄 5：其他 6：檢驗所(試辦計畫)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "screening location",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -63,7 +69,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -72,7 +80,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：無法聯繫 2：出國 3：搬家 4：死亡 5：拒做 6：其他",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -81,7 +91,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "年4碼+月 2碼+日2碼 西元年YYYYMMDD 其他數值：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -90,7 +102,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，為辨別院所 鍵值。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -99,7 +113,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "年4碼+月2碼+日2碼 西元年YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "confirmed date",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -114,7 +130,9 @@
           "ad_year": 2015,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Examination Method",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -123,7 +141,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：正常 1：痔瘡 2：潰瘍性大腸炎 3：瘜肉 4：大腸癌 5、9：其他",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "result of diagnosis",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -132,7 +152,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除；",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -141,7 +163,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Examination Scope",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -150,7 +174,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：正常 1：痔瘡；2：潰 瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "result of diagnosis",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -165,7 +191,9 @@
           "ad_year": 2016,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -174,7 +202,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -183,7 +213,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "polyp location",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -192,7 +224,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除； 4：瘜肉未完整切除 其他數值：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -201,7 +235,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫事機構基本 資料檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -216,7 +252,9 @@
           "ad_year": 2023,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -231,7 +269,9 @@
           "ad_year": 2023,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -246,7 +286,9 @@
           "ad_year": 2023,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -255,7 +297,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -264,7 +308,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -273,7 +319,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況 檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -282,7 +330,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "代碼參照醫療機構現況 檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -300,5 +350,9 @@
   "pdf_sha256": "e9110304151cbecc3cb21a2d12fc3f50c8e76ed89c3b6ac90635e35364d2e48b",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health55_癌症篩檢--大腸癌篩檢檔(20250624起適用)"
+  "name_zh_from_listing": "Health55_癌症篩檢--大腸癌篩檢檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

@@ -1,1052 +1,324 @@
 {
-  "pdf_files": 92,
-  "zip_files": 16,
-  "ok": 92,
+  "generated_at": "2026-06-30T08:50:19Z",
+  "pdf_files_this_run": 25,
+  "zip_files": 5,
+  "ok": 25,
   "failed": 0,
-  "warned": 14,
+  "skipped_existing": 4,
   "entries": [
-    {
-      "code": "Health01",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 51,
-      "fields_parsed": 51,
-      "codebooks_parsed": 12,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health01",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 51,
-      "fields_parsed": 51,
-      "codebooks_parsed": 11,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health02",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 81,
-      "fields_parsed": 81,
-      "codebooks_parsed": 6,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health02",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 80,
-      "fields_parsed": 80,
-      "codebooks_parsed": 6,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health03",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 44,
-      "fields_parsed": 44,
-      "codebooks_parsed": 10,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health03",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 44,
-      "fields_parsed": 44,
-      "codebooks_parsed": 6,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health04",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 22,
-      "fields_parsed": 22,
-      "codebooks_parsed": 6,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health04",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 21,
-      "fields_parsed": 21,
-      "codebooks_parsed": 5,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health05",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 22,
-      "fields_parsed": 22,
-      "codebooks_parsed": 4,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health05",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 22,
-      "fields_parsed": 22,
-      "codebooks_parsed": 4,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health06",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 17,
-      "fields_parsed": 17,
-      "codebooks_parsed": 5,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health06",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 17,
-      "fields_parsed": 17,
-      "codebooks_parsed": 5,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health07",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 30,
-      "fields_parsed": 30,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health07",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 30,
-      "fields_parsed": 30,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health08",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 27,
-      "fields_parsed": 27,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health08",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 27,
-      "fields_parsed": 27,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health09",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 34,
-      "fields_parsed": 30,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "field count mismatch: header=34, parsed=30"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health09",
-      "version_id": "post-20250624",
-      "type": "warn",
-      "field_count_declared": 34,
-      "fields_parsed": 30,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "field count mismatch: header=34, parsed=30"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health10",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 17,
-      "fields_parsed": 18,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "field count mismatch: header=17, parsed=18"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health10",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 18,
-      "fields_parsed": 18,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health101",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": null,
-      "fields_parsed": 0,
-      "codebooks_parsed": 1,
-      "warnings": [
-        "no fields parsed"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health102",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 24,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health103",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 30,
-      "fields_parsed": 31,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "field count mismatch: header=30, parsed=31"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health104",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": null,
-      "fields_parsed": 0,
-      "codebooks_parsed": 1,
-      "warnings": [
-        "no fields parsed"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health105",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 91,
-      "fields_parsed": 91,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health105",
-      "version_id": "post-20250624",
-      "type": "warn",
-      "field_count_declared": 91,
-      "fields_parsed": 90,
-      "codebooks_parsed": 0,
-      "warnings": [
-        "field count mismatch: header=91, parsed=90"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health12",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 405,
-      "fields_parsed": 405,
-      "codebooks_parsed": 3,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health12",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 405,
-      "fields_parsed": 405,
-      "codebooks_parsed": 3,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health13",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 141,
-      "fields_parsed": 141,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health13",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 141,
-      "fields_parsed": 141,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health14",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 88,
-      "fields_parsed": 88,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health14",
-      "version_id": "period-2011-2017",
-      "type": "ok",
-      "field_count_declared": 107,
-      "fields_parsed": 107,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health14",
-      "version_id": "period-2018-later",
-      "type": "ok",
-      "field_count_declared": 112,
-      "fields_parsed": 112,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health14",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 88,
-      "fields_parsed": 88,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health15",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 29,
-      "fields_parsed": 29,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health15",
-      "version_id": "period-2011-2017",
-      "type": "ok",
-      "field_count_declared": 38,
-      "fields_parsed": 38,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health15",
-      "version_id": "period-2018-later",
-      "type": "ok",
-      "field_count_declared": 41,
-      "fields_parsed": 41,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health15",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 29,
-      "fields_parsed": 29,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health16",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 65,
-      "fields_parsed": 65,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health16",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 65,
-      "fields_parsed": 65,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health17",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health17",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health25",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 7,
-      "fields_parsed": 7,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health25",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 7,
-      "fields_parsed": 7,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health29",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 7,
-      "fields_parsed": 7,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health29",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 7,
-      "fields_parsed": 7,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health30",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health30",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 15,
-      "fields_parsed": 15,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health31",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 16,
-      "fields_parsed": 17,
-      "codebooks_parsed": 1,
-      "warnings": [
-        "field count mismatch: header=16, parsed=17"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health31",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health37",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 3,
-      "fields_parsed": 3,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health37",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 3,
-      "fields_parsed": 3,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health42",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 42,
-      "fields_parsed": 42,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health42",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 42,
-      "fields_parsed": 42,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health43",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 32,
-      "fields_parsed": 32,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health43",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 32,
-      "fields_parsed": 32,
-      "codebooks_parsed": 2,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health45",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 13,
-      "fields_parsed": 13,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health45",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 13,
-      "fields_parsed": 13,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health48",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Health48",
-      "version_id": "post-20250624",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Health49",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Health51",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 15,
-      "fields_parsed": 15,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health52",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 71,
-      "fields_parsed": 71,
-      "codebooks_parsed": 7,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health52",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 72,
-      "fields_parsed": 72,
-      "codebooks_parsed": 7,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health53",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 13,
-      "fields_parsed": 14,
-      "codebooks_parsed": 1,
-      "warnings": [
-        "field count mismatch: header=13, parsed=14"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health53",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 14,
-      "fields_parsed": 14,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health54",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 32,
-      "codebooks_parsed": 13,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health54",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 31,
-      "codebooks_parsed": 13,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health55",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 25,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health55",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 25,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health56",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 53,
-      "codebooks_parsed": 12,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health56",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 10,
-      "codebooks_parsed": 12,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health57",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 19,
-      "codebooks_parsed": 7,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health57",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 18,
-      "codebooks_parsed": 7,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health59",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Health59",
-      "version_id": "post-20250624",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Health61",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 27,
-      "fields_parsed": 27,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health73",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 99,
-      "fields_parsed": 99,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health73",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 99,
-      "fields_parsed": 99,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health81",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 8,
-      "fields_parsed": 8,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health81",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 8,
-      "fields_parsed": 8,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health82",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": null,
-      "fields_parsed": 0,
-      "codebooks_parsed": 1,
-      "warnings": [
-        "no fields parsed"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Health83",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": null,
-      "fields_parsed": 52,
-      "codebooks_parsed": 13,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health99",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 44,
-      "fields_parsed": 44,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Health99",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 44,
-      "fields_parsed": 44,
-      "codebooks_parsed": 1,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Society10",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Society10",
-      "version_id": "post-20250624",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Society12",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Society12-1",
-      "version_id": "post-20250624",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Society17",
-      "version_id": "legacy",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Society17",
-      "version_id": "post-20250624",
-      "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
     {
       "code": "Welfare04",
       "version_id": "legacy",
       "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
+      "note": "multi-file bundle — sub-PDFs handled separately"
     },
     {
       "code": "Welfare05",
       "version_id": "legacy",
       "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
+      "note": "multi-file bundle — sub-PDFs handled separately"
     },
     {
       "code": "Welfare06",
       "version_id": "legacy",
       "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
+      "note": "multi-file bundle — sub-PDFs handled separately"
     },
     {
       "code": "Welfare08",
       "version_id": "legacy",
       "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
-    },
-    {
-      "code": "Welfare10",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 20,
-      "fields_parsed": 20,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare10",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 20,
-      "fields_parsed": 20,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare11",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare11",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 16,
-      "fields_parsed": 16,
-      "codebooks_parsed": 0,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare12",
-      "version_id": "legacy",
-      "type": "warn",
-      "field_count_declared": 26,
-      "fields_parsed": 62,
-      "codebooks_parsed": 5,
-      "warnings": [
-        "field count mismatch: header=26, parsed=62"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Welfare12",
-      "version_id": "post-20250624",
-      "type": "warn",
-      "field_count_declared": 26,
-      "fields_parsed": 29,
-      "codebooks_parsed": 5,
-      "warnings": [
-        "field count mismatch: header=26, parsed=29"
-      ],
-      "errors": []
-    },
-    {
-      "code": "Welfare14",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 42,
-      "fields_parsed": 42,
-      "codebooks_parsed": 15,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare14",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 41,
-      "fields_parsed": 41,
-      "codebooks_parsed": 14,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare15",
-      "version_id": "legacy",
-      "type": "ok",
-      "field_count_declared": 30,
-      "fields_parsed": 30,
-      "codebooks_parsed": 9,
-      "warnings": [],
-      "errors": []
-    },
-    {
-      "code": "Welfare15",
-      "version_id": "post-20250624",
-      "type": "ok",
-      "field_count_declared": 30,
-      "fields_parsed": 30,
-      "codebooks_parsed": 9,
-      "warnings": [],
-      "errors": []
+      "note": "multi-file bundle — sub-PDFs handled separately"
     },
     {
       "code": "Welfare19",
       "version_id": "legacy",
       "type": "zip",
-      "note": "multi-file bundle (survey waves) — not auto-extracted"
+      "note": "multi-file bundle — sub-PDFs handled separately"
     },
     {
-      "code": "Welfare20",
-      "version_id": "legacy",
+      "code": "Welfare04",
+      "version_id": "legacy__wave_2_調查表",
       "type": "warn",
-      "field_count_declared": 21,
-      "fields_parsed": 14,
-      "codebooks_parsed": 3,
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
       "warnings": [
-        "field count mismatch: header=21, parsed=14"
+        "no fields parsed"
       ],
       "errors": []
     },
     {
-      "code": "Welfare20",
-      "version_id": "post-20250624",
+      "code": "Welfare04",
+      "version_id": "legacy__wave_4_填表說明",
       "type": "warn",
-      "field_count_declared": 21,
-      "fields_parsed": 14,
-      "codebooks_parsed": 3,
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
       "warnings": [
-        "field count mismatch: header=21, parsed=14"
+        "no fields parsed"
       ],
+      "errors": []
+    },
+    {
+      "code": "Welfare04",
+      "version_id": "legacy__wave_ROC102_AD2013",
+      "type": "ok",
+      "field_count_declared": 74,
+      "fields_parsed": 74,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare04",
+      "version_id": "legacy__wave_ROC107_AD2018",
+      "type": "warn",
+      "field_count_declared": 40,
+      "fields_parsed": 35,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=40, parsed=35"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare04",
+      "version_id": "legacy__wave_ROC112_AD2023",
+      "type": "warn",
+      "field_count_declared": 199,
+      "fields_parsed": 111,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=199, parsed=111"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare05",
+      "version_id": "legacy__wave_ROC102_AD2013",
+      "type": "warn",
+      "field_count_declared": 351,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=351, parsed=0",
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare05",
+      "version_id": "legacy__wave_ROC106_AD2017",
+      "type": "ok",
+      "field_count_declared": null,
+      "fields_parsed": 168,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare05",
+      "version_id": "legacy__wave_ROC111_AD2022",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare05",
+      "version_id": "legacy__wave_ROC98_AD2009",
+      "type": "ok",
+      "field_count_declared": 326,
+      "fields_parsed": 326,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare06",
+      "version_id": "legacy__wave_ROC100_AD2011",
+      "type": "ok",
+      "field_count_declared": null,
+      "fields_parsed": 408,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare06",
+      "version_id": "legacy__wave_ROC105_AD2016",
+      "type": "warn",
+      "field_count_declared": 805,
+      "fields_parsed": 770,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=805, parsed=770"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare06",
+      "version_id": "legacy__wave_ROC110_AD2021",
+      "type": "warn",
+      "field_count_declared": 469,
+      "fields_parsed": 260,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=469, parsed=260"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare06",
+      "version_id": "legacy__wave_ROC89_AD2000",
+      "type": "warn",
+      "field_count_declared": 191,
+      "fields_parsed": 188,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=191, parsed=188"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_1_實施計畫",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_2_調查表",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_3_抽樣設計",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_4_填表說明",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_ROC100_AD2011",
+      "type": "warn",
+      "field_count_declared": 214,
+      "fields_parsed": 141,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=214, parsed=141"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_ROC104_AD2015",
+      "type": "ok",
+      "field_count_declared": 238,
+      "fields_parsed": 238,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_問卷",
+      "type": "warn",
+      "field_count_declared": null,
+      "fields_parsed": 0,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "no fields parsed"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_ROC87_AD1998",
+      "type": "ok",
+      "field_count_declared": 89,
+      "fields_parsed": 89,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_ROC91_AD2002",
+      "type": "warn",
+      "field_count_declared": 187,
+      "fields_parsed": 124,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=187, parsed=124"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare08",
+      "version_id": "legacy__wave_ROC95_AD2006",
+      "type": "warn",
+      "field_count_declared": 287,
+      "fields_parsed": 209,
+      "codebooks_parsed": 0,
+      "warnings": [
+        "field count mismatch: header=287, parsed=209"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare19",
+      "version_id": "legacy__wave_ROC107_AD2018",
+      "type": "ok",
+      "field_count_declared": 398,
+      "fields_parsed": 398,
+      "codebooks_parsed": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare19",
+      "version_id": "legacy__wave_ROC111_AD2022",
+      "type": "ok",
+      "field_count_declared": 270,
+      "fields_parsed": 270,
+      "codebooks_parsed": 0,
+      "warnings": [],
       "errors": []
     }
   ]

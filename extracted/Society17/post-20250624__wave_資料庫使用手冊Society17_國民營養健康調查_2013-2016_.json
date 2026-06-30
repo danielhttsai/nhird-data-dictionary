@@ -1,0 +1,155 @@
+{
+  "source_pdf": "資料庫使用手冊Society17_國民營養健康調查(2013-2016).pdf",
+  "code_short": "",
+  "name_zh": "2個月-6歲問卷檔7-12歲問卷檔13-18歲問卷檔19歲以上問卷檔全年齡層體檢檔24小時飲食回憶食物重量與營養素量檔24小時飲食回憶營養素總和檔",
+  "name_en": "Questionnaire for 2 months- 6 years old Questionnaire for 7-12 years old Questionnaire for 13-18 years old Questionnaire for 19 years old and above Physical examination for all ages 24-hour diet recall_ food item weight and nutrients 24-hour diet recall_ sum of nutrients",
+  "record_count_raw": "1,729筆 1,845筆 1,728筆 5,770筆 10,761筆 548,449筆 10,885筆",
+  "field_count_declared": 2,
+  "file_size_raw": "43.0MB、50.3MB 47.9MB、158MB、174MB 、243MB、3.62MB",
+  "frequency": "4 年",
+  "attribute": "調查檔",
+  "update_history_raw": "2025/06/24初版",
+  "update_history": [
+    {
+      "date": "2025/06/24",
+      "note": "初版"
+    }
+  ],
+  "data_description_zh": "1. 國民營養健康狀況變遷調查(Nutrition And Health Survey in Taiwan ，NAHSIT) 營\n養狀況是影響健康的重要因素，亦是國民健康重要指標之一，國民營養監測調查\n則是瞭解國民營養狀況之必要作為。102-105年「國民營養健康調查」，主要目標\n係以全人口為基礎之抽樣設計，規劃建立長期、穩定且即時之國民健康及飲食型\n態監測系統，於102至105年間逐年蒐集建立穩定足量的全人口樣本資料，並且可\n以使每個單年度能有具全國代表性資料，合併4年可產生具縣市代表性資料以供全\n國營養及非傳染病政策制定參考應用。\n2. 102-105年國民營養健康調查內容包括受訪者基本人口學資料、飲食攝取資料、疾\n病及環境暴露資料、健康風險行為資料、家族疾病史資料、ㄧ般體位及身體檢查\n、血液尿液等生化檢查。",
+  "notes_zh": "",
+  "primary_keys_raw": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "調查年份",
+      "name_en": "year",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "調查年份",
+      "available_notes": [],
+      "name_zh_en": "survey year",
+      "description_en": "survey year"
+    },
+    {
+      "seq": 2,
+      "name_zh": "個案編號",
+      "name_en": "id",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "1: 男性",
+      "available_notes": [],
+      "name_zh_en": "Patient ID",
+      "description_en": "1 male"
+    },
+    {
+      "seq": 3,
+      "name_zh": "性別",
+      "name_en": "sex",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "2: 女性 2個月~未滿 1歲年齡為0歲，可",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "月齡出生年份",
+      "name_en": "agem",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "參考月齡 0-未滿7歲除年齡外亦呈現月齡 訪視前過生日，年齡為訪視年份- 訪視後過生日，年齡為訪視年份-",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 5,
+      "name_zh": "年齡參考月齡",
+      "name_en": "agey",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "出生年份-1 2個月~未滿 1歲年齡為0歲，可 0-未滿7歲除年齡外亦呈現月齡 A:臺北市 B:新北市 C:臺中市 D:臺南市 E:高雄市 F:宜蘭縣 G:桃園縣 H:新竹縣 I:苗栗縣 J:彰化縣",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 6,
+      "name_zh": "縣市分層",
+      "name_en": "stra",
+      "type": "Char",
+      "length": 13,
+      "description_zh": "A:臺北市 B:新北市 C:臺中市 D:臺南市 E:高雄市 F:宜蘭縣 G:桃園縣 H:新竹縣 I:苗栗縣 J:彰化縣 K:南投縣 L:雲林縣 M:嘉義縣 N:屏東縣 O:臺東縣 P:花蓮縣 Q:澎湖縣 R:基隆市 S:新竹市 T:嘉義市",
+      "available_notes": [],
+      "name_zh_en": "county stratification",
+      "description_en": ""
+    },
+    {
+      "seq": 7,
+      "name_zh": "集區",
+      "name_en": "cluster",
+      "type": "Char",
+      "length": 13,
+      "description_zh": "詳見「集區代碼」譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "community",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "總體檢權數",
+      "name_en": "ewt",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "體位、握力、短距行走、家戶血壓 使用權數",
+      "available_notes": [],
+      "name_zh_en": "overall examination weight",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "體檢站權數",
+      "name_en": "ewt_ph",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "體檢血壓、ABI血壓、BMI、肺功 能、DXA、青春痘、心電圖、尿 液生化使用權數",
+      "available_notes": [],
+      "name_zh_en": "health check station weight",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "卡路里",
+      "name_en": "nn1",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "(kcal)",
+      "available_notes": [],
+      "name_zh_en": "calorie",
+      "description_en": ""
+    }
+  ],
+  "codebooks": {},
+  "raw_text_first_page": "2025年06月24日修訂\n102-105 年國民營養健康調查\n資料庫使用手冊\n一、檔案內容說明\n檔案名稱 qt_2m_6y_new 資料筆數 1,729筆\nqt_7_12y_new 1,845筆\nqt_13_18y_new 1,728筆\nqt_above19y_new 5,770筆\nphy_exam 10,761筆\nfood_item_wt_and_nutrients 548,449筆\nsum_nutrients_24hr 10,885筆\n中文檔名 2個月-6歲問卷檔 英文檔名 Questionnaire for 2 months- 6 years old\n7-12歲問卷檔 Questionnaire for 7-12 years old\n13-18歲問卷檔 Questionnaire for 13-18 years old\n19歲以上問卷檔 Questionnaire for 19 years old and above\n全年齡層體檢檔 Physical examination for all ages\n24小時飲食回憶食物重量 24-hour diet recall_ food item weight and\n與營養素量檔 nutrients\n24小時飲食回憶營養素總 24-hour diet recall_ sum of nutrients\n和檔\n檔案大小 43.0MB、50.3MB 欄位數 2,091 欄、2,489 欄、\n47.9MB、158MB、174MB 2,658 欄、2,873 欄、\n、243MB、3.62MB 1,153欄、43欄、35欄\n譯 碼 簿\n屬性 調查檔 週期 4 年 2025/06/24初版\n更新日期\n資料描述\n1. 國民營養健康狀況變遷調查(Nutrition And Health Survey in Taiwan ，NAHSIT) 營\n養狀況是影響健康的重要因素，亦是國民健康重要指標之一，國民營養監測調查\n則是瞭解國民營養狀況之必要作為。102-105年「國民營養健康調查」，主要目標\n係以全人口為基礎之抽樣設計，規劃建立長期、穩定且即時之國民健康及飲食型\n態監測系統，於102至105年間逐年蒐集建立穩定足量的全人口樣本資料，並且可\n以使每個單年度能有具全國代表性資料，合併4年可產生具縣市代表性資料以供全\n國營養及非傳染病政策制定參考應用。\n2. 102-105年國民營養健康調查內容包括受訪者基本人口學資料、飲食攝取資料、疾\n病及環境暴露資料、健康風險行為資料、家族疾病史資料、ㄧ般體位及身體檢查\n、血液尿液等生化檢查。\n1",
+  "qa": {
+    "errors": [],
+    "warnings": [
+      "field count mismatch: header=2, parsed=10"
+    ]
+  },
+  "page_count": 1014,
+  "code": "Society17",
+  "category": "Society",
+  "version_id": "post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+  "version_label": "20250624 起適用 · 資料庫使用手冊Society17_國民營養健康調查(2013-2016)",
+  "pdf_url": "https://www.mohw.gov.tw/dl-100543-e921634e-fdbf-44ec-96b7-75983b631aa7.html",
+  "pdf_sha256": "ff44477b7e3994f96594c8c7a8982754e77adf6daa843626b26bc571bf863402",
+  "doc_first_published": "2026-05-26",
+  "doc_last_updated": "2026-05-26",
+  "name_zh_from_listing": "資料庫使用手冊Society17_國民營養健康調查(2013-2016)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
+}

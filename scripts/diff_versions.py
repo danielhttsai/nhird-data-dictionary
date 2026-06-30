@@ -5,8 +5,13 @@ Output: extracted/<code>/diff_<earlier>__<later>.json
 And a top-level diffs_index.json with a summary.
 """
 from __future__ import annotations
+import io
 import json
+import sys
 from pathlib import Path
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 EXTRACTED = ROOT / "extracted"

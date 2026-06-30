@@ -1,8 +1,8 @@
 {
   "source_pdf": "Welfare11_legacy.pdf",
   "code_short": "W_SASW_LOWINCOM",
-  "name_zh": "中文檔名",
-  "name_en": "英文檔名",
+  "name_zh": "低收入戶及中低收入戶資料檔",
+  "name_en": "low-income and middle-low- income households_ DISABLE",
   "record_count_raw": "512,954筆(以114年為例)",
   "field_count_declared": 16,
   "file_size_raw": "37MB (以114年為例)",
@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "資料為 101 年 7 月至 104 年 12 月各月及 105 年至 114 年之列冊低收入戶及\n中低收入戶之名冊。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 個人歸戶及個人資料比對的鍵值：ID。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 個人歸戶及個人資料比對的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經過加密處理。國民身分證統一 編號",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1:男性 2:女性 9:不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "Char",
       "length": 7,
       "description_zh": "西元年月",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year and month",
+      "description_en": "year-month AD"
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0~4為低收入戶款別 M為中低收入戶款別",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -71,7 +81,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "民國年YYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -80,7 +92,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "民國年YYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -89,7 +103,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "county city",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -98,7 +114,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "township district",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -107,7 +125,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "國民身分證統一編號經加密處理",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -116,7 +136,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1:男性 2:女性 9:不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "household head gender",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -125,7 +147,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -145,7 +169,9 @@
           "ad_year": 2023,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -165,7 +191,9 @@
           "ad_year": 2023,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -185,7 +213,9 @@
           "ad_year": 2023,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -200,7 +230,9 @@
           "ad_year": 2024,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -218,5 +250,9 @@
   "pdf_sha256": "623ec6eccb6205d95b4c2b370057ff7e06a7cb747fbd5019c9561e83088124e5",
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2026-05-28",
-  "name_zh_from_listing": "Welfare11_低收入戶及中低收入戶資料庫"
+  "name_zh_from_listing": "Welfare11_低收入戶及中低收入戶資料庫",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

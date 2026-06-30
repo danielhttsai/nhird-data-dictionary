@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -39,7 +41,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付； 4：其他公務預算補助； 5：自費健康檢查； 6：矯正機關(Oral99.OralA 1070116匯入) 9：其他 (3459於1050801 啟用,不再收 2)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -48,7 +52,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。身分證字號 或外籍居留證號碼(如無居 留證號碼為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -57,7 +63,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -66,7 +74,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "95：30歲以上有嚼檳榔（含已 戒）或吸菸習慣者； 97：18歲以上至未滿 30歲有嚼 檳榔（含已戒）習慣之原住 民。 66：矯正機關",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "medical order code",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -75,7 +85,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號碼 為護照號碼)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -84,7 +96,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -93,7 +107,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性；2：女性；9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -102,7 +118,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原 則； 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -111,7 +129,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -120,7 +140,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 2：拒絕治療",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "therapy",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -129,7 +151,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -144,7 +168,9 @@
           "ad_year": 2024,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "version",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -153,7 +179,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不 詳。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -162,7 +190,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況 檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -171,7 +201,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -180,7 +212,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況 檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -189,7 +223,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {
@@ -198,379 +234,472 @@
       "entries": [
         {
           "code": "0",
-          "label_zh": "無"
+          "label_zh": "無",
+          "label_en": "none"
         },
         {
           "code": "1",
-          "label_zh": "已戒"
+          "label_zh": "已戒",
+          "label_en": "quit smoking"
         },
         {
           "code": "2",
-          "label_zh": "嚼10年以下，每天少於 20顆"
+          "label_zh": "嚼10年以下，每天少於 20顆",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "嚼10年以下，每天 20 顆及以上"
+          "label_zh": "嚼10年以下，每天 20 顆及以上",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "嚼超過10 年，每天少於 20顆"
+          "label_zh": "嚼超過10 年，每天少於 20顆",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "嚼超過10 年，每天20 顆及以上"
+          "label_zh": "嚼超過10 年，每天20 顆及以上",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "chewing betel nut"
     },
     "SMOKE": {
       "field_zh": "吸菸",
       "entries": [
         {
           "code": "0",
-          "label_zh": "無"
+          "label_zh": "無",
+          "label_en": "none"
         },
         {
           "code": "1",
-          "label_zh": "已戒"
+          "label_zh": "已戒",
+          "label_en": "quit smoking"
         },
         {
           "code": "2",
-          "label_zh": "吸10年以下，每天少於 20支"
+          "label_zh": "吸10年以下，每天少於 20支",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "吸10年以下，每天 20 支及以上"
+          "label_zh": "吸10年以下，每天 20 支及以上",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "吸超過10 年，每天少於 20支"
+          "label_zh": "吸超過10 年，每天少於 20支",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "吸超過10 年，每天20 支及以上 2025年07月22日"
+          "label_zh": "吸超過10 年，每天20 支及以上 2025年07月22日",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "smoking"
     },
     "ORALRESULT": {
       "field_zh": "檢查結果",
       "entries": [
         {
           "code": "0",
-          "label_zh": "未發現以下需轉介之異常"
+          "label_zh": "未發現以下需轉介之異常",
+          "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "疑似口腔癌"
+          "label_zh": "疑似口腔癌",
+          "label_en": "suspected oral cancer"
         },
         {
           "code": "2",
-          "label_zh": "口腔內外不明原因之持續性腫塊"
+          "label_zh": "口腔內外不明原因之持續性腫塊",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "紅斑"
+          "label_zh": "紅斑",
+          "label_en": "erythema"
         },
         {
           "code": "4",
-          "label_zh": "紅白斑"
+          "label_zh": "紅白斑",
+          "label_en": "vulvar dermatitis"
         },
         {
           "code": "5",
-          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)"
+          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "白斑"
+          "label_zh": "白斑",
+          "label_en": "vitiligo"
         },
         {
           "code": "71",
-          "label_zh": "非均質性白斑"
+          "label_zh": "非均質性白斑",
+          "label_en": ""
         },
         {
           "code": "72",
-          "label_zh": "均質性厚白斑"
+          "label_zh": "均質性厚白斑",
+          "label_en": ""
         },
         {
           "code": "73",
-          "label_zh": "均質性薄白斑"
+          "label_zh": "均質性薄白斑",
+          "label_en": ""
         },
         {
           "code": "76",
-          "label_zh": "口腔黏膜下纖維化症(張口不易或舌頭活"
+          "label_zh": "口腔黏膜下纖維化症(張口不易或舌頭活",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "動約困兩難星)期 仍不癒之口腔潰爛/糜爛"
+          "label_zh": "動約困兩難星)期 仍不癒之口腔潰爛/糜爛",
+          "label_en": ""
         },
         {
           "code": "9",
-          "label_zh": "扁平苔蘚"
+          "label_zh": "扁平苔蘚",
+          "label_en": "lichen planus"
         },
         {
           "code": "10",
-          "label_zh": "口腔黏膜不正常，但診斷未明 11(99) 其他。改為 99.其他(1050801)"
+          "label_zh": "口腔黏膜不正常，但診斷未明 11(99) 其他。改為 99.其他(1050801)",
+          "label_en": ""
         },
         {
           "code": "0",
-          "label_zh": "未發現以下需轉介之異常"
+          "label_zh": "未發現以下需轉介之異常",
+          "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "疑似口腔癌"
+          "label_zh": "疑似口腔癌",
+          "label_en": "suspected oral cancer"
         },
         {
           "code": "2",
-          "label_zh": "口腔內外不明原因之持續性腫塊"
+          "label_zh": "口腔內外不明原因之持續性腫塊",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "紅斑"
+          "label_zh": "紅斑",
+          "label_en": "erythema"
         },
         {
           "code": "4",
-          "label_zh": "紅白斑"
+          "label_zh": "紅白斑",
+          "label_en": "vulvar dermatitis"
         },
         {
           "code": "5",
-          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)"
+          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "白斑"
+          "label_zh": "白斑",
+          "label_en": "vitiligo"
         },
         {
           "code": "71",
-          "label_zh": "非均質性白斑"
+          "label_zh": "非均質性白斑",
+          "label_en": ""
         },
         {
           "code": "72",
-          "label_zh": "均質性厚白斑"
+          "label_zh": "均質性厚白斑",
+          "label_en": ""
         },
         {
           "code": "73",
-          "label_zh": "均質性薄白斑 口腔黏膜下纖維化症(張口不易或舌頭活 動困難)"
+          "label_zh": "均質性薄白斑 口腔黏膜下纖維化症(張口不易或舌頭活 動困難)",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "約兩星期仍不癒之口腔潰爛/糜爛"
+          "label_zh": "約兩星期仍不癒之口腔潰爛/糜爛",
+          "label_en": ""
         },
         {
           "code": "9",
-          "label_zh": "扁平苔蘚"
+          "label_zh": "扁平苔蘚",
+          "label_en": "lichen planus"
         },
         {
           "code": "10",
-          "label_zh": "口腔黏膜不正常，但診斷未明 11(99) 其他。改為 99.其他(1050801)"
+          "label_zh": "口腔黏膜不正常，但診斷未明 11(99) 其他。改為 99.其他(1050801)",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "Examination Result"
     },
     "FOLLOWREASON": {
       "field_zh": "沒有接受確診理由",
       "entries": [
         {
           "code": "1",
-          "label_zh": "無法聯繫"
+          "label_zh": "無法聯繫",
+          "label_en": "unreachable"
         },
         {
           "code": "2",
-          "label_zh": "出國"
+          "label_zh": "出國",
+          "label_en": "abroad"
         },
         {
           "code": "3",
-          "label_zh": "搬家"
+          "label_zh": "搬家",
+          "label_en": "move"
         },
         {
           "code": "4",
-          "label_zh": "死亡"
+          "label_zh": "死亡",
+          "label_en": "death"
         },
         {
           "code": "5",
-          "label_zh": "拒做"
+          "label_zh": "拒做",
+          "label_en": "refused to do"
         },
         {
           "code": "6",
-          "label_zh": "其他 2025年07月22日"
+          "label_zh": "其他 2025年07月22日",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "CONFIRMRESULT": {
       "field_zh": "診斷結果(臨床診斷)",
       "entries": [
         {
           "code": "00",
-          "label_zh": "無明顯異常"
+          "label_zh": "無明顯異常",
+          "label_en": "no obvious abnormality"
         },
         {
           "code": "08",
-          "label_zh": "非均質性白斑"
+          "label_zh": "非均質性白斑",
+          "label_en": ""
         },
         {
           "code": "09",
-          "label_zh": "均質性厚白斑"
+          "label_zh": "均質性厚白斑",
+          "label_en": ""
         },
         {
           "code": "10",
-          "label_zh": "均質性薄白斑"
+          "label_zh": "均質性薄白斑",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "白斑"
+          "label_zh": "白斑",
+          "label_en": "vitiligo"
         },
         {
           "code": "12",
-          "label_zh": "紅斑"
+          "label_zh": "紅斑",
+          "label_en": "erythema"
         },
         {
           "code": "13",
-          "label_zh": "紅白斑"
+          "label_zh": "紅白斑",
+          "label_en": "vulvar dermatitis"
         },
         {
           "code": "14",
-          "label_zh": "疣狀增生"
+          "label_zh": "疣狀增生",
+          "label_en": "wart-like hyperplasia"
         },
         {
           "code": "15",
-          "label_zh": "口腔黏膜纖維化"
+          "label_zh": "口腔黏膜纖維化",
+          "label_en": ""
         },
         {
           "code": "16",
-          "label_zh": "扁平苔蘚或類扁平苔癬反應 17(99) 其他。改為 99.其他(1050801)"
+          "label_zh": "扁平苔蘚或類扁平苔癬反應 17(99) 其他。改為 99.其他(1050801)",
+          "label_en": ""
         },
         {
           "code": "20",
-          "label_zh": "疑似口腔癌"
+          "label_zh": "疑似口腔癌",
+          "label_en": "suspected oral cancer"
         }
-      ]
+      ],
+      "field_en": ""
     },
     "PATHOLOGICAL": {
       "field_zh": "診斷結果-病理診斷",
       "entries": [
         {
           "code": "21",
-          "label_zh": "口腔癌"
+          "label_zh": "口腔癌",
+          "label_en": "oral cancer"
         },
         {
           "code": "22",
-          "label_zh": "上皮變異"
+          "label_zh": "上皮變異",
+          "label_en": "epithelial variation"
         },
         {
           "code": "23",
-          "label_zh": "輕度上皮變異"
+          "label_zh": "輕度上皮變異",
+          "label_en": ""
         },
         {
           "code": "24",
-          "label_zh": "中度上皮變異"
+          "label_zh": "中度上皮變異",
+          "label_en": "moderate epithelial variation"
         },
         {
           "code": "25",
-          "label_zh": "重度上皮變異 26(99) 其他。改為 99.其他(1050801) 2025年07月22日"
+          "label_zh": "重度上皮變異 26(99) 其他。改為 99.其他(1050801) 2025年07月22日",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "CUTRESULT": {
       "field_zh": "病理診斷(確診)結果",
       "entries": [
         {
           "code": "0",
-          "label_zh": "正常 (100年後無此欄位)"
+          "label_zh": "正常 (100年後無此欄位)",
+          "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "鱗狀細胞增生"
+          "label_zh": "鱗狀細胞增生",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "上皮過度角化"
+          "label_zh": "上皮過度角化",
+          "label_en": "epithelial hyperplasia"
         },
         {
           "code": "3",
-          "label_zh": "輕度上皮變異"
+          "label_zh": "輕度上皮變異",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "中度上皮變異"
+          "label_zh": "中度上皮變異",
+          "label_en": "moderate epithelial variation"
         },
         {
           "code": "5",
-          "label_zh": "重度上皮變異"
+          "label_zh": "重度上皮變異",
+          "label_en": ""
         },
         {
           "code": "6",
-          "label_zh": "原位癌（carcinoma in situ），"
+          "label_zh": "原位癌（carcinoma in situ），",
+          "label_en": ""
         },
         {
           "code": "7",
-          "label_zh": "鱗狀細胞癌 a 疣狀增生 b 口腔黏膜下纖維化 c 扁平苔癬 d 疣狀癌"
+          "label_zh": "鱗狀細胞癌 a 疣狀增生 b 口腔黏膜下纖維化 c 扁平苔癬 d 疣狀癌",
+          "label_en": ""
         },
         {
           "code": "8",
-          "label_zh": "其他(others) 106年表單版本 2025年07月22日"
+          "label_zh": "其他(others) 106年表單版本 2025年07月22日",
+          "label_en": ""
         },
         {
           "code": "00",
-          "label_zh": "無明顯異常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal"
+          "label_zh": "無明顯異常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal",
+          "label_en": ""
         },
         {
           "code": "04",
-          "label_zh": "中度上皮變異（moderate dysplasia, SIN2,"
+          "label_zh": "中度上皮變異（moderate dysplasia, SIN2,",
+          "label_en": ""
         },
         {
           "code": "05",
-          "label_zh": "a重ty度pic上al皮 hy變pe異rp（lassieav)e re dysplasia, SIN3,"
+          "label_zh": "a重ty度pic上al皮 hy變pe異rp（lassieav)e re dysplasia, SIN3,",
+          "label_en": ""
         },
         {
           "code": "06",
-          "label_zh": "a原ty位pic癌al（ hycparecripnloasmiaa) in situ）"
+          "label_zh": "a原ty位pic癌al（ hycparecripnloasmiaa) in situ）",
+          "label_en": ""
         },
         {
           "code": "07",
-          "label_zh": "鱗狀細胞癌（squamous cell carcinoma）"
+          "label_zh": "鱗狀細胞癌（squamous cell carcinoma）",
+          "label_en": ""
         },
         {
           "code": "10",
-          "label_zh": "炎症反應(Chronic inflammation)"
+          "label_zh": "炎症反應(Chronic inflammation)",
+          "label_en": ""
         },
         {
           "code": "11",
-          "label_zh": "疣狀癌（Verrucous carcinoma）"
+          "label_zh": "疣狀癌（Verrucous carcinoma）",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "others malignant"
+          "label_zh": "others malignant",
+          "label_en": ""
         },
         {
           "code": "99",
-          "label_zh": "其他(others) 113年表單版本"
+          "label_zh": "其他(others) 113年表單版本",
+          "label_en": ""
         },
         {
           "code": "00",
-          "label_zh": "正常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,"
+          "label_zh": "正常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
+          "label_en": ""
         },
         {
           "code": "06",
-          "label_zh": "原位癌（carcinoma in situ） 口腔鱗狀細胞癌（Oral Squamous cell 其他惡性度未定之非鱗狀上皮病變"
+          "label_zh": "原位癌（carcinoma in situ） 口腔鱗狀細胞癌（Oral Squamous cell 其他惡性度未定之非鱗狀上皮病變",
+          "label_en": ""
         },
         {
           "code": "08",
-          "label_zh": "potential, 2025年07月22日"
+          "label_zh": "potential, 2025年07月22日",
+          "label_en": ""
         },
         {
           "code": "09",
-          "label_zh": "其他良性病變(other benign lesions) 非典型鱗狀病變，惡性度未定(Atypical"
+          "label_zh": "其他良性病變(other benign lesions) 非典型鱗狀病變，惡性度未定(Atypical",
+          "label_en": ""
         },
         {
           "code": "10",
-          "label_zh": "squamous lesions or atypia with uncertain 口咽鱗狀細胞癌(Oropharyngeal squamous 其他惡性腫瘤(Others malignant tumors:"
+          "label_zh": "squamous lesions or atypia with uncertain 口咽鱗狀細胞癌(Oropharyngeal squamous 其他惡性腫瘤(Others malignant tumors:",
+          "label_en": ""
         },
         {
           "code": "12",
-          "label_zh": "salivary gland carcinoma, other 疣狀病變/增生(Verrucous lesion, Verrucous 口腔黏膜下纖 維化症(Oral submucous fibrosis) 扁平苔癬或類扁平苔癬反應(lichen planus,"
+          "label_zh": "salivary gland carcinoma, other 疣狀病變/增生(Verrucous lesion, Verrucous 口腔黏膜下纖 維化症(Oral submucous fibrosis) 扁平苔癬或類扁平苔癬反應(lichen planus,",
+          "label_en": ""
         },
         {
           "code": "99",
-          "label_zh": "其他(others)"
+          "label_zh": "其他(others)",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     }
   },
   "raw_text_first_page": "2025年07月22日\n癌症篩檢—口腔癌篩檢檔\n(HEALTH-57：H_BHP_OMS)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_OMS 資料筆數 H_BHP_OMS_PD113：418,311筆\nH_BHP_OMS_ CHECK113：420,673筆\nH_BHP_OMS_ CONFIRM113：24,818筆\nH_BHP_OMS_ CUT113：18,207筆\n(以2024年資料為例)\n中文檔名 1. 口腔癌篩檢-個案基本資料檔 英文檔名 Oral Mucosal Screeing\n(H_BHP_OMS_PD)\n2. 口腔癌篩檢-篩檢資料檔\n(H_BHP_OMS_ CHECK)\n3. 口腔癌篩檢-口腔癌確診檔\n(H_BHP_OMS_ CONFIRM)\n4. 口腔癌篩檢-切片資料檔\n(H_BHP_OMS_ CUT)\n檔案大小 H_BHP_OMS_PD113：21 MB 欄位數 1. H_BHP_OMS_PD：10\nH_BHP_OMS_ CHECK113：50 2. H_BHP_OMS_ CHECK：18\nMB 3. H_BHP_OMS_ CONFIRM：18\nH_BHP_OMS_ CONFIRM113：5 4. H_BHP_OMS_ CUT：13\nMB\nH_BHP_OMS_ CUT113：2 MB\n(以2024年資料為例)\n譯碼簿 2025/06/24初版\n屬性 歷史資料檔 週期 無\n更新日期 2025/07/22 更新\n資料描述 1. 國民健康署自民國 99 年起擴大辦理 4 項癌症（大腸癌、口腔癌、乳癌及子宮頸\n癌）篩檢服務，透過全民健保預防保健服務特約醫事服務機構全面提供大腸癌、\n乳癌、子宮頸癌與口腔癌篩檢，並將大腸癌、口腔癌篩檢納入預防保健服務項\n目，及擴大乳癌篩檢對象至 40 歲以上至未滿 45 歲二等親乳癌高危險群（即其\n母親、女兒、姊妹、祖母或外祖母曾患有乳癌）之婦女。\n2. 政府補助 30 歲以上嚼檳榔(含戒除)及吸菸民眾，18 歲以上嚼檳榔之原住民，兩年一次免\n費口腔黏膜檢查。\n3. 口腔癌篩檢檔資料內容:\n1",
@@ -587,5 +716,9 @@
   "pdf_sha256": "876271d50771ac687039d3bc9756a9a3b73f23caba8e31a0eb6964f7103a31e1",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health57_癌症篩檢--口腔癌篩檢檔(20250624起適用)"
+  "name_zh_from_listing": "Health57_癌症篩檢--口腔癌篩檢檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

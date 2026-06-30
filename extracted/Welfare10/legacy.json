@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 一種障礙類別一筆資料。\n2. 資料為103年3月及104~114 年持有身心障礙手冊之名冊。",
-  "notes_zh": "1. 身心障礙者之分級與鑑定標準自101年7月11日起施行新制。\n2. 身心障礙者之總人數為新制+舊制。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 個人歸戶及個人資料比對的鍵值：ID。",
+  "notes_zh": "1. 身心障礙者之分級與鑑定標準自101年7月11日起施行新制。\n2. 身心障礙者之總人數為新制+舊制。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 個人歸戶及個人資料比對的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 3、9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -59,7 +65,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Before and After ROC Era",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -68,7 +76,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "出生年月(年4碼+月2碼) 西元年YYYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birthday",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -77,7 +87,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年YYYYMMDD 定義：截至目前辦理的鑑定日期",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -97,7 +109,9 @@
           "ad_year": 2022,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -106,7 +120,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 9,
@@ -115,7 +131,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：極重度 2：重度 3：中度 4：輕度 5：未符合鑑定資格",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -124,7 +142,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0:舊制，1:新制",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -139,7 +159,9 @@
           "ad_year": 2018,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -148,7 +170,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "administrative district of household registration",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 13,
@@ -163,7 +187,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -178,7 +204,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "military status",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -193,7 +221,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "cause of disability",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -208,7 +238,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "reason for cancellation",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -223,7 +255,9 @@
           "ad_year": 2017,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "date of cancellation",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -238,7 +272,9 @@
           "ad_year": 2018,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -253,7 +289,9 @@
           "ad_year": 2018,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -268,7 +306,9 @@
           "ad_year": 2018,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -286,5 +326,9 @@
   "pdf_sha256": "e31c0a4c65901afc2a0d6d8952a401e713b2a9751f90dacd4fc6fb622d7385da",
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2026-05-28",
-  "name_zh_from_listing": "Welfare10_身心障礙檔"
+  "name_zh_from_listing": "Welfare10_身心障礙檔",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

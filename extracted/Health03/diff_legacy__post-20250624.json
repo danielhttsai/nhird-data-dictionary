@@ -12,7 +12,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構(醫 院)的鍵值。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -21,7 +23,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳見欄位原處方醫療機構之案件 類別（ORIG_CASE_TYPE）譯碼 說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -41,7 +45,9 @@
           "ad_year": 2004,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -50,7 +56,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -59,7 +67,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -68,7 +78,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -77,7 +89,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "一般處方調劑者，請依原處方所 列填報慢性病連續處方調劑及藥 事居家照護者，本欄免填。本欄 免填，詳給付類別(PAY_TYPE)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "benefit category",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -92,7 +106,9 @@
           "ad_year": 2016,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "primary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -101,7 +117,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "secondary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -116,7 +134,9 @@
           "ad_year": 1999,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -125,7 +145,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -134,7 +156,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "本次給藥日份最高之天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "dosage date",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -143,7 +167,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，調劑藥師之身分證 字號或外籍居留證號。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -163,7 +189,9 @@
           "ad_year": 2004,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -172,7 +200,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "為合計點數(EXP_DOT)減部分負 擔點數(PART_AMT)之點數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "application points",
+      "description_en": ""
     },
     {
       "seq": 30,
@@ -181,7 +211,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -190,7 +222,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "此點數為用藥明細點數小計 (DRUG_DOT)、藥事服務點數 (DSVC_DOT)、特殊材料點數小 計(MET_DOT)之合計。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "total points",
+      "description_en": ""
     },
     {
       "seq": 32,
@@ -205,7 +239,9 @@
           "ad_year": 2004,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "removed": [
@@ -216,7 +252,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳見欄位原處方醫療機構之案件 類別（R_CASE_TYPE）譯碼說 明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -236,7 +274,9 @@
           "ad_year": 2004,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -245,7 +285,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "一般處方調劑者，請依原處方所 列填報慢性病連續處方調劑及藥 事居家照護者，本欄免填。詳給 付類別(GAVE_KIND) 譯碼說 明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "benefit category",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -254,7 +296,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "本次給藥日份最高之天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "dosage date",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -263,7 +307,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "為合計點數(T_DOT)減部分負擔 點數(PART_DOT)之點數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "application points",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -278,7 +324,9 @@
           "ad_year": 2009,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -293,7 +341,9 @@
           "ad_year": 2009,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -308,7 +358,9 @@
           "ad_year": 2009,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "total points",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -317,7 +369,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "1. 經加密處理，調劑藥師之身分 證字號或外籍居留證號。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -326,7 +380,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "1. 經加密處理，為辨別醫療機構 (醫院)的鍵值。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 34,
@@ -341,7 +397,9 @@
           "ad_year": 2009,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 35,
@@ -350,7 +408,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "空白表示無所列舉之內容。慢性 病連續處方調劑本欄免填，詳特",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 36,
@@ -359,7 +419,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 37,
@@ -374,7 +436,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 38,
@@ -383,7 +447,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 39,
@@ -413,7 +479,9 @@
           "ad_year": 2017,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "primary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 40,
@@ -422,7 +490,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "secondary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 43,
@@ -437,7 +507,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "modified": [

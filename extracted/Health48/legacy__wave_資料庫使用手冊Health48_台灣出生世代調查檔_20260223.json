@@ -1,0 +1,100 @@
+{
+  "source_pdf": "資料庫使用手冊Health48_台灣出生世代調查檔_20260223.pdf",
+  "code_short": "H_BHP_TBCSF",
+  "name_zh": "台灣出生世代調查檔",
+  "name_en": "Taiwan Birth Cohort Study",
+  "record_count_raw": "21,248 (6個月大) 20,172 (18 個月大) 19,910 (3歲) 19,721 (5歲) 19,519 (8歲) 18,814 (12歲) 4,181(17歲) 4,202(18歲) 8,343(19歲)",
+  "field_count_declared": 448,
+  "file_size_raw": "13.3MB (6個月大) 18.6 MB (18 個月大) 20MB (3歲) 20MB (5歲) 17MB (8歲) 34MB (12歲) 11MB (17歲) 14MB (18歲) 26MB (19歲)",
+  "frequency": "無",
+  "attribute": "",
+  "update_history_raw": "2026/02/23",
+  "update_history": [
+    {
+      "date": "2026/02/23",
+      "note": ""
+    }
+  ],
+  "data_description_zh": "一、關於臺灣出生世代研究\n1. 研究緣起\n「臺灣出生世代研究」（Taiwan Birth Cohort Study，簡稱 TBCS）係由行\n政院衛生署國民健康局，委託臺灣大學公衛學院江東亮教授擔任計畫總主持\n人，邀集國內專家學者共同規劃辦理的一項全國性長期追蹤研究。由生命歷\n程流行病學觀點，收集與成人健康有關之生命早期環境因素等實證資料，藉\n以整合相關專業領域之人力與社會資源，共同提供國家未來主人翁最優質之\n照顧與服務，營造有益於兒童健康與成長之環境。\n2. 研究目的\n本研究旨在瞭解新世紀臺灣兒童健康的全貌及影響因素，做為制定我國兒\n童健康政策的依據，其具體目標包括：(1)建立新世紀台灣兒童的生長發育與健\n康狀況常模；(2)探討社會環境對兒童健康與發展的影響；(3)研究童年健康與成",
+  "notes_zh": "",
+  "primary_keys_raw": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則 1：不符合 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "個案編號",
+      "name_en": "Sampleid",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Patient ID",
+      "description_en": ""
+    },
+    {
+      "seq": 5,
+      "name_zh": "連結健保資料",
+      "name_en": "Agree",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0. 不同意 1. 同意",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "codebooks": {},
+  "raw_text_first_page": "2026年02月23日修訂\n台灣出生世代調查檔\n(HEALTH-48：H_BHP_TBCSF)\n資料庫使用手冊\n一、檔案內容說明\nH_BHP_TBCSF 21,248 (6個月大)\n檔案代號 資料筆數\n20,172 (18 個月大)\n19,910 (3歲)\n19,721 (5歲)\n19,519 (8歲)\n18,814 (12歲)\n4,181(17歲)\n4,202(18歲)\n8,343(19歲)\n中文檔名 台灣出生世代調查檔 英文檔名 Taiwan Birth Cohort Study\n檔案大小 13.3MB (6個月大) 欄位數 448 (6個月大)\n18.6 MB (18 個月大) 635 (18 個月大)\n20MB (3歲) 766 (3歲)\n20MB (5歲) 749 (5歲)\n17MB (8歲) 622 (8歲)\n34MB (12歲) 530 (12歲)\n11MB (17歲) 351 (17歲)\n14MB (18歲) 354 (18歲)\n26MB (19歲) 322 (19歲)\n譯碼簿\n屬性 歷史資料檔 週期 無 2026/02/23\n更新日期\n一、關於臺灣出生世代研究\n資料描述\n1. 研究緣起\n「臺灣出生世代研究」（Taiwan Birth Cohort Study，簡稱 TBCS）係由行\n政院衛生署國民健康局，委託臺灣大學公衛學院江東亮教授擔任計畫總主持\n人，邀集國內專家學者共同規劃辦理的一項全國性長期追蹤研究。由生命歷\n程流行病學觀點，收集與成人健康有關之生命早期環境因素等實證資料，藉\n以整合相關專業領域之人力與社會資源，共同提供國家未來主人翁最優質之\n照顧與服務，營造有益於兒童健康與成長之環境。\n2. 研究目的\n本研究旨在瞭解新世紀臺灣兒童健康的全貌及影響因素，做為制定我國兒\n童健康政策的依據，其具體目標包括：(1)建立新世紀台灣兒童的生長發育與健\n康狀況常模；(2)探討社會環境對兒童健康與發展的影響；(3)研究童年健康與成\n1",
+  "qa": {
+    "errors": [],
+    "warnings": [
+      "field count mismatch: header=448, parsed=5"
+    ]
+  },
+  "page_count": 7,
+  "code": "Health48",
+  "category": "Health",
+  "version_id": "legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+  "version_label": "legacy · 資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+  "pdf_url": "https://www.mohw.gov.tw/dl-80493-52a22798-8aae-4197-8052-dbd61a3ece37.html",
+  "pdf_sha256": "7d475990b03e699ece8f292e2f95f9a2968cb0fb0cfd714a283d835a6f643a8d",
+  "doc_first_published": "2014-03-05",
+  "doc_last_updated": "2026-05-26",
+  "name_zh_from_listing": "資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
+}

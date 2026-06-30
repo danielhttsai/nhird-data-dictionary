@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "提供1979年至最新發表年度癌症個案歸戶後之年報資料，包含各癌症原位癌及侵\n襲癌個案。其資料的整理包含所有長表及短表醫院申報資料，且已去除同一個案同\n一癌症別，且同一組織型態組別之重複個案。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院\n日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，\n並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定\n當事人。\n2. 原位癌或侵襲癌個案之辨識，請以組織型態性態碼(HISTOLOG欄位第5碼)區\n分。\n3. 有關死亡原因及死亡日期欄位，為醫院申報當時之資料，若後續個案死亡，並\n不會再做更新，故不提供此欄位資料以免誤解。若有需要，請直接連結死因統\n計檔(Health-10)。\n4. NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個\n案，必須以組織病理(HISTBEH欄位)作區分。若是要分析各癌症部分(CASITE\n欄位)，請先把NHL、HL、LEU等血液腫瘤排除後再計算。\n5. 組織病理(HISTOLOG 欄位)為99903者，僅適用於90年(含)以前使用之代碼，\n意即臨床惡性腫瘤未經顯微鏡檢證實者。\n6. 2002年起診斷之新發癌症個案，始收錄分級分化程度(GRADE 欄位)資料。另自\n2018年起新增編碼A/B/C/D/E/H/L/M/S/X(詳見107年版癌症登記摘錄手冊短表\n45欄位與長表115欄位內容)\n7. 治療情形(CURECOND欄位)已合併個案所有申報醫院治療狀況。2007 年以後收\n錄之詳細治療資料，請另見長、短表治療欄位。 主鍵與比 1. 身分證字號(IDNO)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：IDNO。",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院\n日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，\n並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定\n當事人。\n2. 原位癌或侵襲癌個案之辨識，請以組織型態性態碼(HISTOLOG欄位第5碼)區\n分。\n3. 有關死亡原因及死亡日期欄位，為醫院申報當時之資料，若後續個案死亡，並\n不會再做更新，故不提供此欄位資料以免誤解。若有需要，請直接連結死因統\n計檔(Health-10)。\n4. NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個\n案，必須以組織病理(HISTBEH欄位)作區分。若是要分析各癌症部分(CASITE\n欄位)，請先把NHL、HL、LEU等血液腫瘤排除後再計算。\n5. 組織病理(HISTOLOG 欄位)為99903者，僅適用於90年(含)以前使用之代碼，\n意即臨床惡性腫瘤未經顯微鏡檢證實者。\n6. 2002年起診斷之新發癌症個案，始收錄分級分化程度(GRADE 欄位)資料。另自\n2018年起新增編碼A/B/C/D/E/H/L/M/S/X(詳見107年版癌症登記摘錄手冊短表\n45欄位與長表115欄位內容)\n7. 治療情形(CURECOND欄位)已合併個案所有申報醫院治療狀況。2007 年以後收\n錄之詳細治療資料，請另見長、短表治療欄位。 1. 身分證字號(IDNO)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：IDNO。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -30,7 +30,9 @@
       "type": "Char",
       "length": 15,
       "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 5: (保留碼，視為無治療) 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療 TACE)，或為新的治療方法，非 指他院治療",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Treatment Condition",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -39,7 +41,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 4：變性人",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "original gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -48,7 +52,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "YYYY。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -57,7 +63,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "age at diagnosis",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -66,7 +74,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "詳戶籍地代碼(RESIDCD)對照表 本檔案皆使用新五都代碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "household registration code",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -75,7 +85,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "YYYYMMDD 最初診斷日期不詳：99999999",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -84,7 +96,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -104,7 +118,9 @@
           "ad_year": 2018,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "grading/differentiation",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -113,7 +129,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌 詳組織類型與性態碼(HISTOLOG)對 照表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血 液腫瘤分類表)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -122,7 +140,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "詳原發部位(CASITE)對照表 NHL(非何杰金氏淋巴瘤)、HL(何杰 金氏淋巴瘤)及LEU(白血病)等血液 腫瘤個案，在此欄位無法辨識，請用 組織類型與性態碼(HISTOLOG)區 分。若是要分析各癌症部分(CASITE 欄位)，也請先把NHL、HL、LEU 等血液腫瘤排除後再計算。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "primary site",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -131,7 +151,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "已加密轉碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": "encoded"
     },
     {
       "seq": 12,
@@ -140,7 +162,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -149,7 +173,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -167,5 +193,9 @@
   "pdf_sha256": "ebe37803e234bc375e27e03b900aef6c7149f64fcca87015493f822a80b746af",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health45_癌症登記年報檔(20250624起適用)"
+  "name_zh_from_listing": "Health45_癌症登記年報檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

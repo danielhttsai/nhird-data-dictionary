@@ -1,0 +1,66 @@
+{
+  "code": "Health48",
+  "earlier_version_id": "legacy__wave_TBCS抽樣設計",
+  "later_version_id": "legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+  "earlier_field_count": 0,
+  "later_field_count": 5,
+  "added": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則 1：不符合 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 個案不同意連結健保資料檔，此欄位為空白。",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "個案編號",
+      "name_en": "Sampleid",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Patient ID",
+      "description_en": ""
+    },
+    {
+      "seq": 5,
+      "name_zh": "連結健保資料",
+      "name_en": "Agree",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0. 不同意 1. 同意",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "removed": [],
+  "modified": []
+}

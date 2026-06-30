@@ -1,0 +1,1011 @@
+{
+  "code": "Health14",
+  "earlier_version_id": "period-2011-2017",
+  "later_version_id": "period-2011-2017_post-20250624",
+  "earlier_field_count": 107,
+  "later_field_count": 107,
+  "added": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "IDNO",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。身分證字號或外籍居留 證號碼(如無居留證號碼為護照號 碼)。",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "診斷年齡",
+      "name_en": "AGE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "記錄個案診斷此癌症時之實足年齡。 000：小於1歲 001：1歲，但是小於 2歲 002：2歲 … ：填入診斷年齡 120：120歲 999：診斷年齡不詳。",
+      "available_notes": [],
+      "name_zh_en": "age at diagnosis",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "首次就診日期",
+      "name_en": "DCONT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：指個案不論是在門診 或住院，為了診斷或治療癌症而首次 到申報醫院的日期。通常是指個案親 自至申報醫院看診才可認定為有「就 診(contact)」之意。 99999999：個案首次到申報醫院就診 日期不詳。年不詳：9999；月不詳： 99；日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "最初診斷日期",
+      "name_en": "DIDIAG",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：最初診斷日期是指此 癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳。 年不詳：9999；月不詳：99；日不詳： 99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "原發部位",
+      "name_en": "SITE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "依ICD-O-3腫瘤部位碼進行原發部位 編碼。 詳【原發部位(SITE)對照表】 NHL(非何杰金氏淋巴瘤)、HL(何杰金 氏淋巴瘤)及 LEU(白血病)等血液腫 瘤個案，在此欄位無法辨識，請用組 織類型(HIST)與性態碼(HISTBEH)區 分。若是要分析各癌症部分(SITE 欄 位)，也請先把 NHL、HL、LEU等血 液腫瘤排除後再計算。",
+      "available_notes": [],
+      "name_zh_en": "primary site",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "首次顯微鏡檢證 實日期",
+      "name_en": "DMCONF",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：指此癌症最早顯微鏡 檢證實的日期。 00000000：個案未做顯微鏡檢檢查 99999999：不清楚個案是否有接受顯 微鏡檢檢查、「首次顯微鏡檢證實日 期」期不詳。年不詳：9999；月不詳： 99；日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 17,
+      "name_zh": "腫瘤大小(公釐)",
+      "name_en": "SIZE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳欄位(變項)譯碼(八)【腫瘤大小 （SIZE）】",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 20,
+      "name_zh": "診斷性及分期性 手術處置日期",
+      "name_en": "DSDIAG",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄在申報醫院或外 院為診斷及分期而執行的手術處置日",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 22,
+      "name_zh": "申報醫院診斷性 及分期性手術處 置",
+      "name_en": "SDIAG_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "首次療程開始日 期",
+      "name_en": "DTRT_1ST",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(十七)【首次療程開 始日期(DTRT_1ST)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 39,
+      "name_zh": "首次手術日期",
+      "name_en": "DOP_1ST",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內開始首次手術治療的日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳： 9999；月不詳：99；日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "原發部位最確切 的手術切除日期",
+      "name_en": "DOP_MDS",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內對原發部位腫瘤所執行最確切 的手術切除日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 42,
+      "name_zh": "申報醫院原發部 位手術方式",
+      "name_en": "OPTYPE_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 43,
+      "name_zh": "原發部位手術邊 緣",
+      "name_en": "SMARGIN",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(十九)【原發部位手 術邊緣(SMARGIN)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 45,
+      "name_zh": "申報醫院區域淋 巴結手術範圍",
+      "name_en": "OPLN_H",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 46,
+      "name_zh": "外院其他部位手 術方式",
+      "name_en": "OPOTHER_O",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(二十一)【外院其他 部位手術方式(OPOTHER_O)&申報 醫 院 其 他 部 位 手 術 方 式 (OPOTHER_H)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 47,
+      "name_zh": "申報醫院其他部 位手術方式",
+      "name_en": "OPOTHER_H",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 48,
+      "name_zh": "原發部位未手術 原因",
+      "name_en": "NOOP",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(二十二)【原發部位 未手術原因(NOOP)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 51,
+      "name_zh": "放射治療開始日 期",
+      "name_en": "DRT_1ST",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(二十五)【放射治療 開始日期(DRT_1ST)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 52,
+      "name_zh": "放射治療結束日 期",
+      "name_en": "DRT_END",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(二十六)【放射治療 結束日期(DRT_END)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 53,
+      "name_zh": "放射治療與手術 順序",
+      "name_en": "SRS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位(變項)譯碼(二十七)【放射治療 與手術順序(SRS)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 54,
+      "name_zh": "區域治療與全身 性治療順序",
+      "name_en": "SLS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位(變項)譯碼(二十八)【區域治療 與全身性治療順序(SLS)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 56,
+      "name_zh": "未放射治療原因",
+      "name_en": "NORT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(三十)【未放射治療 原因(NORT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 69,
+      "name_zh": "全身性治療開始 日期",
+      "name_en": "DSYT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "記錄在任何醫療機構的首次療程中， 全身性治療開始日期(包含外院資 料)。全身性治療包括化學治療、荷爾 蒙/類固醇治療、免疫治療、骨髓/幹細 胞移植或內分泌處置、標靶治療，詳 欄位(變項)譯碼(三十八)【全身性治療 開始日期(DSYT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 70,
+      "name_zh": "外院化學治療",
+      "name_en": "CHEM_O",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案在外院首次療程中，所給予 化學治療相關情形，詳欄位(變項)譯 碼(三十九)【申報醫院化學治療 (CHEM_H) 、 外 院 化 學 治 療 (CHEM_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 71,
+      "name_zh": "申報醫院化學治 療",
+      "name_en": "CHEM_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案於申報醫院首次療程中，所 給予化學治療相關情形，詳欄位(變 項)譯碼(三十九)【申報醫院化學治療 (CHEM_H) 、 外 院 化 學 治 療 (CHEM_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 72,
+      "name_zh": "申報醫院化學治 療開始日期",
+      "name_en": "DCHEM",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十)【申報醫院化 學治療開始日期(DCHEM)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 74,
+      "name_zh": "申報醫院荷爾蒙 治療",
+      "name_en": "HORM_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記載個案在申報醫院首次療程中，所 給予荷爾蒙/類固醇治療的相關情形，",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 75,
+      "name_zh": "申報醫院荷爾蒙 治療開始日期",
+      "name_en": "DHORM",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十二)【申報醫院 荷爾蒙治療開始日期(DHORM)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 77,
+      "name_zh": "申報醫院免疫治 療",
+      "name_en": "IMMU_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記載申報醫院於首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU_H) 、 外 院 免 疫 治 療 (IMMU_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 78,
+      "name_zh": "申報醫院免疫治 療開始日期",
+      "name_en": "DIMMU",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十四)【申報醫院 免疫治療開始日期(DIMMU)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 79,
+      "name_zh": "骨髓/幹細胞移植 或內分泌治療",
+      "name_en": "HTEP_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案在任何醫療機構首次治療 時，給予骨髓/幹細胞移植或內分泌治 療情形，詳欄位(變項)譯碼(四十五) 【申報醫院骨髓/幹細胞移植或內分 泌治療(HTEP_H)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 80,
+      "name_zh": "申報醫院骨髓/幹 細胞移植或內分 泌治療開始日期",
+      "name_en": "DHTEP",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十六)【申報醫院 骨髓/幹細胞移植或內分泌治療開始 日期(DHTEP)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 83,
+      "name_zh": "申報醫院標靶治 療開始日期",
+      "name_en": "DTARGET",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十八)【申報醫院 標靶治療開始日期(DTARGET)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 84,
+      "name_zh": "申報醫院緩和照 護",
+      "name_en": "PALLI_H",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "申報醫院為緩解或減輕個案症狀所提 供之照護，包括手術治療、放射治療、 全身性治療(化學治療、荷爾蒙治療或 其他全身性藥物)及疼痛控制治療，詳 欄位(變項)譯碼(四十九)【申報醫院緩 和照護(PALLI_H)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 85,
+      "name_zh": "首次復發日期",
+      "name_en": "DRECUR",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(五十)【首次復發日期 (DRECUR)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 87,
+      "name_zh": "最後聯絡或死亡 日期",
+      "name_en": "DLAST",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案的最後聯絡 日期或是死亡日期。 年不詳：9999；月不詳：99；日不詳： 99",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 105,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "IDNO_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 106,
+      "name_zh": "性別",
+      "name_en": "IDNO_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    }
+  ],
+  "removed": [
+    {
+      "seq": 4,
+      "name_zh": "診斷年齡",
+      "name_en": "DIAGAGE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "記錄個案診斷此癌症時之實足年齡。 000：小於1歲 001：1歲，但是小於 2歲 002：2歲 … ：填入診斷年齡 120：120歲 999：診斷年齡不詳。",
+      "available_notes": [],
+      "name_zh_en": "age at diagnosis",
+      "description_en": ""
+    },
+    {
+      "seq": 8,
+      "name_zh": "首次就診日期",
+      "name_en": "CONT_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：指個案不論是在門診",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 9,
+      "name_zh": "最初診斷日期",
+      "name_en": "DIAG_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：最初診斷日期是指此 癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳。 年不詳：9999 月不詳：99 日不詳： 99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 10,
+      "name_zh": "原發部位",
+      "name_en": "CASITE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "依ICD-O-3腫瘤部位碼進行原發部位 編碼。 詳【原發部位(CASITE)對照表】 NHL(非何杰金氏淋巴瘤)、HL(何杰金 氏淋巴瘤)及 LEU(白血病)等血液腫 瘤個案，在此欄位無法辨識，請用組 織類型(HIST)與性態碼(HISTBEH)區 分。若是要分析各癌症部分(CASITE 欄位)，也請先把 NHL、HL、LEU等 血液腫瘤排除後再計算。",
+      "available_notes": [],
+      "name_zh_en": "primary site",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "首次顯微鏡檢證 實日期",
+      "name_en": "MCONF_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：指此癌症最早顯微鏡 檢證實的日期。 00000000：個案未做顯微鏡檢檢查 99999999：不清楚個案是否有接受顯 微鏡檢檢查、「首次顯微鏡檢證實日 期」期不詳。年不詳：9999 月不詳： 99 日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 17,
+      "name_zh": "腫瘤大小(公釐)",
+      "name_en": "TSIZE_C",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳欄位(變項)譯碼(八)【腫瘤大小(公 釐)(TSIZE_C)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 20,
+      "name_zh": "診斷性及分期性 手術處置日期",
+      "name_en": "SDIAG_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄在申報醫院或外 院為診斷及分期而執行的手術處置日 期。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 22,
+      "name_zh": "申報醫院診斷性 及分期性手術處 置",
+      "name_en": "SDIAG",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 36,
+      "name_zh": "首次療程開始日 期",
+      "name_en": "FC_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(十七)【首次療程開 始日期(DTRT_1ST)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 37,
+      "name_zh": "首次手術日期",
+      "name_en": "OP_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內開始首次手術治療的日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳：9999 月不詳：99 日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "原發部位最確切 的手術切除日期",
+      "name_en": "OPDEF_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內對原發部位腫瘤所執行最確切 的手術切除日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳：9999 月不詳：99 日不詳：99。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "申報醫院原發部 位手術方式",
+      "name_en": "OPTYPE",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 41,
+      "name_zh": "原發部位手術邊 緣",
+      "name_en": "OPMARGS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(十九)【原發部位手 術邊緣(SMARGIN)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 43,
+      "name_zh": "申報醫院區域淋 巴結手術範圍",
+      "name_en": "OPLNSCOPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 44,
+      "name_zh": "外院其他部位手 術方式",
+      "name_en": "OPOS_O",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(二十一)【外院其他 部位手術方式(OPOS _O)&申報醫院 其他部位手術方式(OPOS)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 45,
+      "name_zh": "申報醫院其他部 位手術方式",
+      "name_en": "OPOS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 46,
+      "name_zh": "原發部位未手術 原因",
+      "name_en": "OPNOR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(二十二)【原發部位 未手術原因(OPNOR)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 49,
+      "name_zh": "放射治療開始日 期",
+      "name_en": "RTB_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(二十五)【放射治療 開始日期(RTB_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 50,
+      "name_zh": "放射治療結束日 期",
+      "name_en": "RTE_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(二十六)【放射治療 結束日期(RTE_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 51,
+      "name_zh": "放射治療與手術 順序",
+      "name_en": "OPRT_D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位(變項)譯碼(二十七)【放射治療 與手術順序(OPRT_D)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 52,
+      "name_zh": "區域治療與全身 性治療順序",
+      "name_en": "RESY_S",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位(變項)譯碼(二十八)【區域治療 與全身性治療順序(RESY_S)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 54,
+      "name_zh": "未放射治療原因",
+      "name_en": "RTNOR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳欄位(變項)譯碼(三十)【未放射治療 原因(RTNOR)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 67,
+      "name_zh": "全身性治療開始 日期",
+      "name_en": "STS_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "記錄在任何醫療機構的首次療程中， 全身性治療開始日期(包含外院資 料)。全身性治療包括化學治療、荷爾 蒙/類固醇治療、免疫治療、骨髓/幹細 胞移植或內分泌處置、標靶治療，詳 欄位(變項)譯碼(三十八)【全身性治療 開始日期(STS_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 68,
+      "name_zh": "外院化學治療",
+      "name_en": "CH_O",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案在外院首次療程中，所給予 化學治療相關情形，詳欄位(變項)譯 碼(三十九)【申報醫院化學治療(CH)、 外院化學治療(CH_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 69,
+      "name_zh": "申報醫院化學治 療",
+      "name_en": "CH",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案於申報醫院首次療程中，所 給予化學治療相關情形，詳欄位(變 項)譯碼(三十九)【申報醫院化學治療 (CH)、外院化學治療(CH_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 70,
+      "name_zh": "申報醫院化學治 療開始日期",
+      "name_en": "CH_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十)【申報醫院化 學治療開始日期(CH_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 72,
+      "name_zh": "申報醫院荷爾蒙 治療",
+      "name_en": "HORM",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記載個案在申報醫院首次療程中，所 給予荷爾蒙/類固醇治療的相關情形， 詳欄位(變項)譯碼(四十一)【申報醫院 荷爾蒙治療(HORM)、外院荷爾蒙治 療(HORM_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 73,
+      "name_zh": "申報醫院荷爾蒙 治療開始日期",
+      "name_en": "HORM_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十二)【申報醫院 荷爾蒙治療開始日期(HORM_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 75,
+      "name_zh": "申報醫院免疫治 療",
+      "name_en": "IMMU",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記載申報醫院於首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU)、外院免疫治療(IMMU_O)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 76,
+      "name_zh": "申報醫院免疫治 療開始日期",
+      "name_en": "IMMU_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十四)【申報醫院 免疫治療開始日期(IMMU_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 77,
+      "name_zh": "骨髓/幹細胞移植 或內分泌治療",
+      "name_en": "BM",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "記錄個案在任何醫療機構首次治療 時，給予骨髓/幹細胞移植或內分泌治 療情形，詳欄位(變項)譯碼(四十五) 【申報醫院骨髓/幹細胞移植或內分 泌治療(BM)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 78,
+      "name_zh": "申報醫院骨髓/幹 細胞移植或內分 泌治療開始日期",
+      "name_en": "BM_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十六)【申報醫院 骨髓/幹細胞移植或內分泌治療開始 日期(BM_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 81,
+      "name_zh": "申報醫院標靶治 療開始日期",
+      "name_en": "TARGET_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "詳欄位(變項)譯碼(四十八)【申報醫院 標靶治療開始日期(TARGET_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 82,
+      "name_zh": "申報醫院緩和照 護",
+      "name_en": "PALLI",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "申報醫院為緩解或減輕個案症狀所提 供之照護，包括手術治療、放射治療、 全身性治療(化學治療、荷爾蒙治療或 其他全身性藥物)及疼痛控制治療，詳 欄位(變項)譯碼(四十九)【申報醫院緩 和照護(PALLI)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 83,
+      "name_zh": "首次復發日期",
+      "name_en": "RECUR_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(五十)【首次復發日期 (DRECUR_DT)】。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 85,
+      "name_zh": "最後聯絡或死亡 日期",
+      "name_en": "FU_DT",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD：記錄個案的最後聯絡 日期或是死亡日期。 年不詳：9999 月不詳：99 日不詳： 99",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 103,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。身分證字號或外籍居留 證號碼(如無居留證號碼為護照號 碼)。",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 104,
+      "name_zh": "性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    },
+    {
+      "seq": 105,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "modified": [
+    {
+      "key": "RESID",
+      "seq_later": 3,
+      "changes": {
+        "description_zh": {
+          "from": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳。詳欄位(變項)譯 碼(一)【戶籍地代碼(RESID)對照表】。",
+          "to": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳。詳欄位(變項)譯 碼(一)【戶籍地代碼(RESID)對照表】"
+        }
+      }
+    },
+    {
+      "key": "LATERAL",
+      "seq_later": 11,
+      "changes": {
+        "description_zh": {
+          "from": "0：不是成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或右 側則不清楚 4：雙側侵犯但起源之側位不清楚，且 病歷描述是單一原發(較少見)，如以 下三例：  雙側卵巢同時有單一組織類型之 腫瘤侵犯  雙 側 同 時 有 視 網 膜 芽 細 胞 瘤 (retinoblastomas)  雙 側 同 時 有 Wilm 腫 瘤 (Wilm tumors) 5：成對器官，位於身體中線的腫瘤",
+          "to": "0：不是成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或右 側則不清楚 4：雙側侵犯但起源之側位不清楚，且 病歷描述是單一原發(較少見)，如以 下三例：  雙側卵巢同時有單一組織類型之 腫瘤侵犯  雙 側 同 時 有 視 網 膜 芽 細 胞 瘤 (retinoblastomas)  雙 側 同 時 有 Wilm 腫 瘤 (Wilm tumors)"
+        }
+      }
+    },
+    {
+      "key": "NEXAM",
+      "seq_later": 18,
+      "changes": {
+        "description_zh": {
+          "from": "詳欄位(變項)譯碼(九)【區域淋巴結檢 查數目(NEXAM)】。",
+          "to": "詳欄位(變項)譯碼(九)【區域淋巴結檢 查數目(NEXAM)】"
+        }
+      }
+    },
+    {
+      "key": "NPOSIT",
+      "seq_later": 19,
+      "changes": {
+        "description_zh": {
+          "from": "詳欄位(變項)譯碼(十)【區域淋巴結侵 犯數目(NPOSIT)】。",
+          "to": "詳欄位(變項)譯碼(十)【區域淋巴結侵 犯數目(NPOSIT)】"
+        }
+      }
+    },
+    {
+      "key": "SDIAG_O",
+      "seq_later": 21,
+      "changes": {
+        "description_zh": {
+          "from": "詳欄位(變項)譯碼(十一)【外院診斷性 及分期性手術處置(SDIAG_O)&申報 醫院診 斷性 及分期 性手術 處置 (SDIAG)】。",
+          "to": "詳欄位(變項)譯碼(十一)【外院診斷性 及分期性手術處置(SDIAG_O)&申報 醫院診 斷性 及分期 性手術 處置 (SDIAG_H)】。"
+        }
+      }
+    },
+    {
+      "key": "AJCC_ED",
+      "seq_later": 33,
+      "changes": {
+        "description_zh": {
+          "from": "西元 2010 年 1 月 1 日以後診斷為癌 症之個案，需以 AJCC 第七版作為分 期依據。 00：未判定期別(個案癌症有可判斷分 期的參考資料，但未予以判定期別) 06：第六版 07：第七版 88：不適用(個案無適用之AJCC分期) 99：判定期別，但版本不詳。",
+          "to": "西元 2010 年 1 月 1 日以後診斷為癌 症之個案，需以 AJCC 第七版作為分 期依據。 00：未判定期別(個案癌症有可判斷分"
+        }
+      }
+    },
+    {
+      "key": "OPTYPE_O",
+      "seq_later": 41,
+      "changes": {
+        "description_zh": {
+          "from": "詳欄位(變項)譯碼(十八)【外院原發部 位手術方式(OPTYPE_O)&申報醫院 原發部位手術方式(OPTYPE)】。",
+          "to": "詳欄位(變項)譯碼(十八)【外院原發部 位手術方式(OPTYPE_O)&申報醫院 原發部位手術方式(OPTYPE_H)】。"
+        }
+      }
+    },
+    {
+      "key": "OPLN_O",
+      "seq_later": 44,
+      "changes": {
+        "description_zh": {
+          "from": "詳欄位(變項)譯碼(二十)【外院區域淋 巴結手術範圍(OPLN_O)&申報醫院 區域淋巴結手術範圍(OPLNSCOPE)】",
+          "to": "詳欄位(變項)譯碼(二十)【外院區域淋 巴結手術範圍(OPLN_O)&申報醫院 區域淋巴結手術範圍(OPLN_H)】。"
+        }
+      }
+    },
+    {
+      "key": "RTL_DOSE",
+      "seq_later": 62,
+      "changes": {
+        "description_zh": {
+          "from": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位 rads 相同大小。 00000：沒有體外放射治療，或是有體 外放射治療但沒有 CTV_L 00001-99996：實際接受的放射治療劑 量 99997：CTV_L 的體外放射治療劑量 是99997cGy或更多 99998：有體外放射治療，但 CTV_L 的體外放射治療劑量不詳",
+          "to": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位 rads 相同大小。 00000：沒有體外放射治療，或是有體 外放射治療但沒有 CTV_L 00001-99996：實際接受的放射治療劑 量"
+        }
+      }
+    },
+    {
+      "key": "ORT_NF",
+      "seq_later": 68,
+      "changes": {
+        "description_zh": {
+          "from": "記錄在申報醫院的首次療程中，其他 特 殊 放 射 治 療 次 數 (fractions or sessions)。 00：沒有其他特殊放射治療",
+          "to": "記錄在申報醫院的首次療程中，其他 特 殊 放 射 治 療 次 數 (fractions or sessions)。 00：沒有其他特殊放射治療 00-96：實際接受的放射治療次數 97：其他特殊放射療法治療次數是 97 或更多 98：有其他特殊放射療法但其治療次 數不詳 99：資料不詳，不清楚有沒有其他特 殊放射療法。"
+        }
+      }
+    },
+    {
+      "key": "HORM_O",
+      "seq_later": 73,
+      "changes": {
+        "description_zh": {
+          "from": "記載個案在外院首次療程中，所給予 荷爾蒙/類固醇治療的相關情形，詳欄 位(變項)譯碼(四十一)【申報醫院荷爾 蒙治療(HORM)、外院荷爾蒙治療 (HORM_O)】",
+          "to": "記載個案在外院首次療程中，所給予 荷爾蒙/類固醇治療的相關情形，詳欄 位(變項)譯碼(四十一)【申報醫院荷爾 蒙治療(HORM_H)、外院荷爾蒙治療 (HORM_O)】。"
+        }
+      }
+    },
+    {
+      "key": "IMMU_O",
+      "seq_later": 76,
+      "changes": {
+        "description_zh": {
+          "from": "記載個案在外院首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU)、外院免疫治療(IMMU_O)】。",
+          "to": "記載個案在外院首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU_H) 、 外 院 免 疫 治 療 (IMMU_O)】。"
+        }
+      }
+    },
+    {
+      "key": "HEIGHT",
+      "seq_later": 91,
+      "changes": {
+        "description_zh": {
+          "from": "記錄個案於首次治療前的身高。 000-099：< 100 cm之身高數值 (採四捨五入) 100-998：≧100 cm 之身高數值 (採四捨五入) 999：病歷未記載或不詳。",
+          "to": "記錄個案於首次治療前的身高。"
+        }
+      }
+    },
+    {
+      "key": "WEIGHT",
+      "seq_later": 92,
+      "changes": {
+        "description_zh": {
+          "from": "記錄個案於首次治療前的體重。",
+          "to": "記錄個案於首次治療前的體重。 000-099：< 100kg之體重數值 (採四捨五入) 100-998：≧100kg之體重數值 (採四捨五入) 999：病歷未記載或不詳。"
+        }
+      }
+    }
+  ]
+}

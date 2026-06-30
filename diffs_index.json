@@ -1,5 +1,5 @@
 {
-  "count": 46,
+  "count": 167,
   "diffs": [
     {
       "code": "Health01",
@@ -120,74 +120,119 @@
     },
     {
       "code": "Health14",
-      "diff_file": "diff_legacy__period-2011-2017.json",
-      "earlier": "legacy",
+      "diff_file": "diff_appendix__period-2011-2017.json",
+      "earlier": "appendix",
       "later": "period-2011-2017",
-      "added": 19,
+      "added": 107,
       "removed": 0,
-      "modified": 67
+      "modified": 0
     },
     {
       "code": "Health14",
-      "diff_file": "diff_period-2011-2017__period-2018-later.json",
+      "diff_file": "diff_period-2011-2017__period-2011-2017_post-20250624.json",
       "earlier": "period-2011-2017",
-      "later": "period-2018-later",
-      "added": 11,
-      "removed": 6,
-      "modified": 72
+      "later": "period-2011-2017_post-20250624",
+      "added": 39,
+      "removed": 39,
+      "modified": 14
     },
     {
       "code": "Health14",
-      "diff_file": "diff_period-2018-later__post-20250624.json",
+      "diff_file": "diff_period-2011-2017_post-20250624__period-2018-later.json",
+      "earlier": "period-2011-2017_post-20250624",
+      "later": "period-2018-later",
+      "added": 49,
+      "removed": 44,
+      "modified": 47
+    },
+    {
+      "code": "Health14",
+      "diff_file": "diff_period-2018-later__period-2018-later_post-20250624.json",
       "earlier": "period-2018-later",
-      "later": "post-20250624",
+      "later": "period-2018-later_post-20250624",
+      "added": 41,
+      "removed": 41,
+      "modified": 17
+    },
+    {
+      "code": "Health14",
+      "diff_file": "diff_period-2018-later_post-20250624__period-pre-2010.json",
+      "earlier": "period-2018-later_post-20250624",
+      "later": "period-pre-2010",
       "added": 43,
       "removed": 67,
-      "modified": 40
+      "modified": 37
     },
     {
       "code": "Health14",
-      "diff_file": "diff_legacy__post-20250624.json",
-      "earlier": "legacy",
-      "later": "post-20250624",
+      "diff_file": "diff_period-pre-2010__period-pre-2010_post-20250624.json",
+      "earlier": "period-pre-2010",
+      "later": "period-pre-2010_post-20250624",
       "added": 38,
       "removed": 38,
       "modified": 41
     },
     {
-      "code": "Health15",
-      "diff_file": "diff_legacy__period-2011-2017.json",
-      "earlier": "legacy",
-      "later": "period-2011-2017",
-      "added": 9,
+      "code": "Health14",
+      "diff_file": "diff_appendix__period-pre-2010_post-20250624.json",
+      "earlier": "appendix",
+      "later": "period-pre-2010_post-20250624",
+      "added": 88,
       "removed": 0,
-      "modified": 20
+      "modified": 0
     },
     {
       "code": "Health15",
-      "diff_file": "diff_period-2011-2017__period-2018-later.json",
+      "diff_file": "diff_period-2011-2017__period-2011-2017_post-20250624.json",
       "earlier": "period-2011-2017",
-      "later": "period-2018-later",
-      "added": 4,
-      "removed": 1,
-      "modified": 31
+      "later": "period-2011-2017_post-20250624",
+      "added": 23,
+      "removed": 23,
+      "modified": 9
     },
     {
       "code": "Health15",
-      "diff_file": "diff_period-2018-later__post-20250624.json",
+      "diff_file": "diff_period-2011-2017_post-20250624__period-2018-later.json",
+      "earlier": "period-2011-2017_post-20250624",
+      "later": "period-2018-later",
+      "added": 27,
+      "removed": 24,
+      "modified": 11
+    },
+    {
+      "code": "Health15",
+      "diff_file": "diff_period-2018-later__period-2018-later_post-20250624.json",
       "earlier": "period-2018-later",
-      "later": "post-20250624",
+      "later": "period-2018-later_post-20250624",
+      "added": 24,
+      "removed": 24,
+      "modified": 10
+    },
+    {
+      "code": "Health15",
+      "diff_file": "diff_period-2018-later_post-20250624__period-pre-2010.json",
+      "earlier": "period-2018-later_post-20250624",
+      "later": "period-pre-2010",
       "added": 22,
       "removed": 34,
-      "modified": 5
+      "modified": 4
     },
     {
       "code": "Health15",
-      "diff_file": "diff_legacy__post-20250624.json",
-      "earlier": "legacy",
-      "later": "post-20250624",
+      "diff_file": "diff_period-pre-2010__period-pre-2010_post-20250624.json",
+      "earlier": "period-pre-2010",
+      "later": "period-pre-2010_post-20250624",
       "added": 21,
       "removed": 21,
+      "modified": 6
+    },
+    {
+      "code": "Health15",
+      "diff_file": "diff_period-2011-2017__period-pre-2010_post-20250624.json",
+      "earlier": "period-2011-2017",
+      "later": "period-pre-2010_post-20250624",
+      "added": 21,
+      "removed": 30,
       "modified": 6
     },
     {
@@ -281,6 +326,393 @@
       "modified": 1
     },
     {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_18正式調查面訪問卷230601__legacy__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定.json",
+      "earlier": "legacy__wave_18正式調查面訪問卷230601",
+      "later": "legacy__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定__legacy__wave_TBCS_12歲主問卷.json",
+      "earlier": "legacy__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定",
+      "later": "legacy__wave_TBCS_12歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS_12歲主問卷__legacy__wave_TBCS_17歲主問卷.json",
+      "earlier": "legacy__wave_TBCS_12歲主問卷",
+      "later": "legacy__wave_TBCS_17歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS_17歲主問卷__legacy__wave_TBCS_3歲主問卷.json",
+      "earlier": "legacy__wave_TBCS_17歲主問卷",
+      "later": "legacy__wave_TBCS_3歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS_3歲主問卷__legacy__wave_TBCS_5歲主問卷.json",
+      "earlier": "legacy__wave_TBCS_3歲主問卷",
+      "later": "legacy__wave_TBCS_5歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS_5歲主問卷__legacy__wave_TBCS_8歲主問卷.json",
+      "earlier": "legacy__wave_TBCS_5歲主問卷",
+      "later": "legacy__wave_TBCS_8歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS_8歲主問卷__legacy__wave_TBCS主問卷_18個月大_.json",
+      "earlier": "legacy__wave_TBCS_8歲主問卷",
+      "later": "legacy__wave_TBCS主問卷_18個月大_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS主問卷_18個月大___legacy__wave_TBCS主問卷_6個月大_.json",
+      "earlier": "legacy__wave_TBCS主問卷_18個月大_",
+      "later": "legacy__wave_TBCS主問卷_6個月大_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS主問卷_6個月大___legacy__wave_TBCS抽樣設計.json",
+      "earlier": "legacy__wave_TBCS主問卷_6個月大_",
+      "later": "legacy__wave_TBCS抽樣設計",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_TBCS抽樣設計__legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223.json",
+      "earlier": "legacy__wave_TBCS抽樣設計",
+      "later": "legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+      "added": 5,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223__legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_.json",
+      "earlier": "legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223",
+      "later": "legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_",
+      "added": 0,
+      "removed": 5,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前___legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_.json",
+      "earlier": "legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_",
+      "later": "legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後___legacy__wave_附件六_中華民國職業標準分類-ISCO08職業代號表.json",
+      "earlier": "legacy__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_",
+      "later": "legacy__wave_附件六_中華民國職業標準分類-ISCO08職業代號表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_附件六_中華民國職業標準分類-ISCO08職業代號表__post-20250624__wave_18正式調查面訪問卷230601.json",
+      "earlier": "legacy__wave_附件六_中華民國職業標準分類-ISCO08職業代號表",
+      "later": "post-20250624__wave_18正式調查面訪問卷230601",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_18正式調查面訪問卷230601__post-20250624__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定.json",
+      "earlier": "post-20250624__wave_18正式調查面訪問卷230601",
+      "later": "post-20250624__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定__post-20250624__wave_TBCS_12歲主問卷.json",
+      "earlier": "post-20250624__wave_19歲正式調查主要照顧者面訪問卷_2400430主計總處核定",
+      "later": "post-20250624__wave_TBCS_12歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS_12歲主問卷__post-20250624__wave_TBCS_17歲主問卷.json",
+      "earlier": "post-20250624__wave_TBCS_12歲主問卷",
+      "later": "post-20250624__wave_TBCS_17歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS_17歲主問卷__post-20250624__wave_TBCS_3歲主問卷.json",
+      "earlier": "post-20250624__wave_TBCS_17歲主問卷",
+      "later": "post-20250624__wave_TBCS_3歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS_3歲主問卷__post-20250624__wave_TBCS_5歲主問卷.json",
+      "earlier": "post-20250624__wave_TBCS_3歲主問卷",
+      "later": "post-20250624__wave_TBCS_5歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS_5歲主問卷__post-20250624__wave_TBCS_8歲主問卷.json",
+      "earlier": "post-20250624__wave_TBCS_5歲主問卷",
+      "later": "post-20250624__wave_TBCS_8歲主問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS_8歲主問卷__post-20250624__wave_TBCS主問卷_18個月大_.json",
+      "earlier": "post-20250624__wave_TBCS_8歲主問卷",
+      "later": "post-20250624__wave_TBCS主問卷_18個月大_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS主問卷_18個月大___post-20250624__wave_TBCS主問卷_6個月大_.json",
+      "earlier": "post-20250624__wave_TBCS主問卷_18個月大_",
+      "later": "post-20250624__wave_TBCS主問卷_6個月大_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS主問卷_6個月大___post-20250624__wave_TBCS抽樣設計.json",
+      "earlier": "post-20250624__wave_TBCS主問卷_6個月大_",
+      "later": "post-20250624__wave_TBCS抽樣設計",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_TBCS抽樣設計__post-20250624__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20250624起適用__20260223.json",
+      "earlier": "post-20250624__wave_TBCS抽樣設計",
+      "later": "post-20250624__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20250624起適用__20260223",
+      "added": 5,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20250624起適用__20260223__post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_.json",
+      "earlier": "post-20250624__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20250624起適用__20260223",
+      "later": "post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_",
+      "added": 0,
+      "removed": 5,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前___post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_.json",
+      "earlier": "post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制前_",
+      "later": "post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後___post-20250624__wave_附件六_中華民國職業標準分類-ISCO08職業代號表.json",
+      "earlier": "post-20250624__wave_附件一_台灣地區各縣市鄉鎮市區名稱及代碼一覽_改制後_",
+      "later": "post-20250624__wave_附件六_中華民國職業標準分類-ISCO08職業代號表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health48",
+      "diff_file": "diff_legacy__wave_18正式調查面訪問卷230601__post-20250624__wave_附件六_中華民國職業標準分類-ISCO08職業代號表.json",
+      "earlier": "legacy__wave_18正式調查面訪問卷230601",
+      "later": "post-20250624__wave_附件六_中華民國職業標準分類-ISCO08職業代號表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第一次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第一次台灣地區家庭計畫與生育力調查-次數分配表.json",
+      "earlier": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-次數分配表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第一次台灣地區家庭計畫與生育力調查-次數分配表__legacy__wave_第一次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-次數分配表",
+      "later": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第一次台灣地區家庭計畫與生育力調查-過錄編碼簿__legacy__wave_第三次台灣地區家庭計畫與生育力調查-問卷檔.json",
+      "earlier": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "later": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-問卷檔",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第三次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第三次台灣地區家庭計畫與生育力調查-次數分配表.json",
+      "earlier": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-次數分配表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第三次台灣地區家庭計畫與生育力調查-次數分配表__legacy__wave_第三次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-次數分配表",
+      "later": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第三次台灣地區家庭計畫與生育力調查-過錄編碼簿__legacy__wave_第二次台灣地區家庭計畫與生育力調查-問卷檔.json",
+      "earlier": "legacy__wave_第三次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "later": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-問卷檔",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第二次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第二次台灣地區家庭計畫與生育力調查-次數分配表.json",
+      "earlier": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-次數分配表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第二次台灣地區家庭計畫與生育力調查-次數分配表__legacy__wave_第二次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-次數分配表",
+      "later": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第二次台灣地區家庭計畫與生育力調查-過錄編碼簿__legacy__wave_第五次台灣地區家庭計畫與生育力調查-問卷檔.json",
+      "earlier": "legacy__wave_第二次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "later": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-問卷檔",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第五次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第五次台灣地區家庭計畫與生育力調查-次數分配表.json",
+      "earlier": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-次數分配表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第五次台灣地區家庭計畫與生育力調查-次數分配表__legacy__wave_第五次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-次數分配表",
+      "later": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第五次台灣地區家庭計畫與生育力調查-過錄編碼簿__legacy__wave_第四次台灣地區家庭計畫與生育力調查-問卷檔.json",
+      "earlier": "legacy__wave_第五次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "later": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-問卷檔",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第四次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第四次台灣地區家庭計畫與生育力調查-次數分配表.json",
+      "earlier": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-次數分配表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第四次台灣地區家庭計畫與生育力調查-次數分配表__legacy__wave_第四次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-次數分配表",
+      "later": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health49",
+      "diff_file": "diff_legacy__wave_第一次台灣地區家庭計畫與生育力調查-問卷檔__legacy__wave_第四次台灣地區家庭計畫與生育力調查-過錄編碼簿.json",
+      "earlier": "legacy__wave_第一次台灣地區家庭計畫與生育力調查-問卷檔",
+      "later": "legacy__wave_第四次台灣地區家庭計畫與生育力調查-過錄編碼簿",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
       "code": "Health52",
       "diff_file": "diff_legacy__post-20250624.json",
       "earlier": "legacy",
@@ -335,6 +767,42 @@
       "modified": 1
     },
     {
+      "code": "Health59",
+      "diff_file": "diff_legacy__wave_Health59_適應症代碼對照__legacy__wave_資料庫使用手冊Health59_遺傳疾病資料庫.json",
+      "earlier": "legacy__wave_Health59_適應症代碼對照",
+      "later": "legacy__wave_資料庫使用手冊Health59_遺傳疾病資料庫",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health59",
+      "diff_file": "diff_legacy__wave_資料庫使用手冊Health59_遺傳疾病資料庫__post-20250624__wave_Health59_適應症代碼對照.json",
+      "earlier": "legacy__wave_資料庫使用手冊Health59_遺傳疾病資料庫",
+      "later": "post-20250624__wave_Health59_適應症代碼對照",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health59",
+      "diff_file": "diff_post-20250624__wave_Health59_適應症代碼對照__post-20250624__wave_資料庫使用手冊Health59_遺傳疾病資料庫_20250624起適用_.json",
+      "earlier": "post-20250624__wave_Health59_適應症代碼對照",
+      "later": "post-20250624__wave_資料庫使用手冊Health59_遺傳疾病資料庫_20250624起適用_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Health59",
+      "diff_file": "diff_legacy__wave_Health59_適應症代碼對照__post-20250624__wave_資料庫使用手冊Health59_遺傳疾病資料庫_20250624起適用_.json",
+      "earlier": "legacy__wave_Health59_適應症代碼對照",
+      "later": "post-20250624__wave_資料庫使用手冊Health59_遺傳疾病資料庫_20250624起適用_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
       "code": "Health73",
       "diff_file": "diff_legacy__post-20250624.json",
       "earlier": "legacy",
@@ -360,6 +828,618 @@
       "added": 2,
       "removed": 2,
       "modified": 3
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_AD2001__legacy__wave_AD2005.json",
+      "earlier": "legacy__wave_AD2001",
+      "later": "legacy__wave_AD2005",
+      "added": 1,
+      "removed": 1,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_AD2005__legacy__wave_ISCO08職業分類過錄代號.json",
+      "earlier": "legacy__wave_AD2005",
+      "later": "legacy__wave_ISCO08職業分類過錄代號",
+      "added": 0,
+      "removed": 4,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_ISCO08職業分類過錄代號__legacy__wave_NHIS2009_ISCO88職業分類過錄代號.json",
+      "earlier": "legacy__wave_ISCO08職業分類過錄代號",
+      "later": "legacy__wave_NHIS2009_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_NHIS2009_ISCO88職業分類過錄代號__legacy__wave_NHIS2013_ISCO88職業分類過錄代號.json",
+      "earlier": "legacy__wave_NHIS2009_ISCO88職業分類過錄代號",
+      "later": "legacy__wave_NHIS2013_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_NHIS2013_ISCO88職業分類過錄代號__legacy__wave_NHIS2017_ISCO88職業分類過錄代號.json",
+      "earlier": "legacy__wave_NHIS2013_ISCO88職業分類過錄代號",
+      "later": "legacy__wave_NHIS2017_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_NHIS2017_ISCO88職業分類過錄代號__legacy__wave_ROC102_AD2013.json",
+      "earlier": "legacy__wave_NHIS2017_ISCO88職業分類過錄代號",
+      "later": "legacy__wave_ROC102_AD2013",
+      "added": 1105,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_ROC102_AD2013__legacy__wave_ROC106_AD2017.json",
+      "earlier": "legacy__wave_ROC102_AD2013",
+      "later": "legacy__wave_ROC106_AD2017",
+      "added": 1144,
+      "removed": 1062,
+      "modified": 42
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_ROC106_AD2017__legacy__wave_ROC110_AD2021.json",
+      "earlier": "legacy__wave_ROC106_AD2017",
+      "later": "legacy__wave_ROC110_AD2021",
+      "added": 0,
+      "removed": 1187,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_ROC110_AD2021__legacy__wave_ROC98_AD2009.json",
+      "earlier": "legacy__wave_ROC110_AD2021",
+      "later": "legacy__wave_ROC98_AD2009",
+      "added": 900,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_ROC98_AD2009__post-20250624__wave_AD2001.json",
+      "earlier": "legacy__wave_ROC98_AD2009",
+      "later": "post-20250624__wave_AD2001",
+      "added": 4,
+      "removed": 900,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_AD2001__post-20250624__wave_AD2005.json",
+      "earlier": "post-20250624__wave_AD2001",
+      "later": "post-20250624__wave_AD2005",
+      "added": 1,
+      "removed": 1,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_AD2005__post-20250624__wave_ISCO08職業分類過錄代號.json",
+      "earlier": "post-20250624__wave_AD2005",
+      "later": "post-20250624__wave_ISCO08職業分類過錄代號",
+      "added": 0,
+      "removed": 4,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_ISCO08職業分類過錄代號__post-20250624__wave_NHIS2009_ISCO88職業分類過錄代號.json",
+      "earlier": "post-20250624__wave_ISCO08職業分類過錄代號",
+      "later": "post-20250624__wave_NHIS2009_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_NHIS2009_ISCO88職業分類過錄代號__post-20250624__wave_NHIS2013_ISCO88職業分類過錄代號.json",
+      "earlier": "post-20250624__wave_NHIS2009_ISCO88職業分類過錄代號",
+      "later": "post-20250624__wave_NHIS2013_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_NHIS2013_ISCO88職業分類過錄代號__post-20250624__wave_NHIS2017_ISCO88職業分類過錄代號.json",
+      "earlier": "post-20250624__wave_NHIS2013_ISCO88職業分類過錄代號",
+      "later": "post-20250624__wave_NHIS2017_ISCO88職業分類過錄代號",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_NHIS2017_ISCO88職業分類過錄代號__post-20250624__wave_ROC102_AD2013.json",
+      "earlier": "post-20250624__wave_NHIS2017_ISCO88職業分類過錄代號",
+      "later": "post-20250624__wave_ROC102_AD2013",
+      "added": 1105,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_ROC102_AD2013__post-20250624__wave_ROC106_AD2017.json",
+      "earlier": "post-20250624__wave_ROC102_AD2013",
+      "later": "post-20250624__wave_ROC106_AD2017",
+      "added": 1144,
+      "removed": 1062,
+      "modified": 42
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_ROC106_AD2017__post-20250624__wave_ROC110_AD2021.json",
+      "earlier": "post-20250624__wave_ROC106_AD2017",
+      "later": "post-20250624__wave_ROC110_AD2021",
+      "added": 0,
+      "removed": 1187,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_post-20250624__wave_ROC110_AD2021__post-20250624__wave_ROC98_AD2009.json",
+      "earlier": "post-20250624__wave_ROC110_AD2021",
+      "later": "post-20250624__wave_ROC98_AD2009",
+      "added": 900,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society10",
+      "diff_file": "diff_legacy__wave_AD2001__post-20250624__wave_ROC98_AD2009.json",
+      "earlier": "legacy__wave_AD2001",
+      "later": "post-20250624__wave_ROC98_AD2009",
+      "added": 900,
+      "removed": 4,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC100_AD2011__legacy__wave_ROC104_AD2015.json",
+      "earlier": "legacy__wave_ROC100_AD2011",
+      "later": "legacy__wave_ROC104_AD2015",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC104_AD2015__legacy__wave_ROC108_AD2019.json",
+      "earlier": "legacy__wave_ROC104_AD2015",
+      "later": "legacy__wave_ROC108_AD2019",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC108_AD2019__legacy__wave_ROC112_AD2023.json",
+      "earlier": "legacy__wave_ROC108_AD2019",
+      "later": "legacy__wave_ROC112_AD2023",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC112_AD2023__legacy__wave_ROC78_AD1989.json",
+      "earlier": "legacy__wave_ROC112_AD2023",
+      "later": "legacy__wave_ROC78_AD1989",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC78_AD1989__legacy__wave_ROC82_AD1993.json",
+      "earlier": "legacy__wave_ROC78_AD1989",
+      "later": "legacy__wave_ROC82_AD1993",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC82_AD1993__legacy__wave_ROC85_AD1996.json",
+      "earlier": "legacy__wave_ROC82_AD1993",
+      "later": "legacy__wave_ROC85_AD1996",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC85_AD1996__legacy__wave_ROC88_AD1999.json",
+      "earlier": "legacy__wave_ROC85_AD1996",
+      "later": "legacy__wave_ROC88_AD1999",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC88_AD1999__legacy__wave_ROC92_AD2003.json",
+      "earlier": "legacy__wave_ROC88_AD1999",
+      "later": "legacy__wave_ROC92_AD2003",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC92_AD2003__legacy__wave_ROC96_AD2007.json",
+      "earlier": "legacy__wave_ROC92_AD2003",
+      "later": "legacy__wave_ROC96_AD2007",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC96_AD2007__legacy__wave_代號補充說明.json",
+      "earlier": "legacy__wave_ROC96_AD2007",
+      "later": "legacy__wave_代號補充說明",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12",
+      "diff_file": "diff_legacy__wave_ROC100_AD2011__legacy__wave_代號補充說明.json",
+      "earlier": "legacy__wave_ROC100_AD2011",
+      "later": "legacy__wave_代號補充說明",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_12小時尿液_血液檢體收集問卷__post-20250624__wave_健康檢查紀錄表.json",
+      "earlier": "post-20250624__wave_12小時尿液_血液檢體收集問卷",
+      "later": "post-20250624__wave_健康檢查紀錄表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_健康檢查紀錄表__post-20250624__wave_健康檢查記錄表.json",
+      "earlier": "post-20250624__wave_健康檢查紀錄表",
+      "later": "post-20250624__wave_健康檢查記錄表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_健康檢查記錄表__post-20250624__wave_初訪問卷.json",
+      "earlier": "post-20250624__wave_健康檢查記錄表",
+      "later": "post-20250624__wave_初訪問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_初訪問卷__post-20250624__wave_壓力感受量表.json",
+      "earlier": "post-20250624__wave_初訪問卷",
+      "later": "post-20250624__wave_壓力感受量表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_壓力感受量表__post-20250624__wave_家訪問卷.json",
+      "earlier": "post-20250624__wave_壓力感受量表",
+      "later": "post-20250624__wave_家訪問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_家訪問卷__post-20250624__wave_資料庫使用手冊_Society12-1_台灣地區老人健康之社會因素與生物指標研究調查檔_202506.json",
+      "earlier": "post-20250624__wave_家訪問卷",
+      "later": "post-20250624__wave_資料庫使用手冊_Society12-1_台灣地區老人健康之社會因素與生物指標研究調查檔_202506",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society12-1",
+      "diff_file": "diff_post-20250624__wave_12小時尿液_血液檢體收集問卷__post-20250624__wave_資料庫使用手冊_Society12-1_台灣地區老人健康之社會因素與生物指標研究調查檔_202506.json",
+      "earlier": "post-20250624__wave_12小時尿液_血液檢體收集問卷",
+      "later": "post-20250624__wave_資料庫使用手冊_Society12-1_台灣地區老人健康之社會因素與生物指標研究調查檔_202506",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Society17",
+      "diff_file": "diff_legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016___legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2017-2020_.json",
+      "earlier": "legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+      "later": "legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2017-2020_",
+      "added": 19,
+      "removed": 6,
+      "modified": 4
+    },
+    {
+      "code": "Society17",
+      "diff_file": "diff_legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2017-2020___post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_.json",
+      "earlier": "legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2017-2020_",
+      "later": "post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+      "added": 6,
+      "removed": 19,
+      "modified": 4
+    },
+    {
+      "code": "Society17",
+      "diff_file": "diff_legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016___post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_.json",
+      "earlier": "legacy__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+      "later": "post-20250624__wave_資料庫使用手冊Society17_國民營養健康調查_2013-2016_",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_1_實施計畫__legacy__wave_2_調查表.json",
+      "earlier": "legacy__wave_1_實施計畫",
+      "later": "legacy__wave_2_調查表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_2_調查表__legacy__wave_3_抽樣設計.json",
+      "earlier": "legacy__wave_2_調查表",
+      "later": "legacy__wave_3_抽樣設計",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_3_抽樣設計__legacy__wave_4_填表說明.json",
+      "earlier": "legacy__wave_3_抽樣設計",
+      "later": "legacy__wave_4_填表說明",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_4_填表說明__legacy__wave_ROC102_AD2013.json",
+      "earlier": "legacy__wave_4_填表說明",
+      "later": "legacy__wave_ROC102_AD2013",
+      "added": 62,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_ROC102_AD2013__legacy__wave_ROC107_AD2018.json",
+      "earlier": "legacy__wave_ROC102_AD2013",
+      "later": "legacy__wave_ROC107_AD2018",
+      "added": 33,
+      "removed": 61,
+      "modified": 1
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_ROC107_AD2018__legacy__wave_ROC112_AD2023.json",
+      "earlier": "legacy__wave_ROC107_AD2018",
+      "later": "legacy__wave_ROC112_AD2023",
+      "added": 111,
+      "removed": 34,
+      "modified": 0
+    },
+    {
+      "code": "Welfare04",
+      "diff_file": "diff_legacy__wave_1_實施計畫__legacy__wave_ROC112_AD2023.json",
+      "earlier": "legacy__wave_1_實施計畫",
+      "later": "legacy__wave_ROC112_AD2023",
+      "added": 111,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare05",
+      "diff_file": "diff_legacy__wave_ROC102_AD2013__legacy__wave_ROC106_AD2017.json",
+      "earlier": "legacy__wave_ROC102_AD2013",
+      "later": "legacy__wave_ROC106_AD2017",
+      "added": 168,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare05",
+      "diff_file": "diff_legacy__wave_ROC106_AD2017__legacy__wave_ROC111_AD2022.json",
+      "earlier": "legacy__wave_ROC106_AD2017",
+      "later": "legacy__wave_ROC111_AD2022",
+      "added": 0,
+      "removed": 168,
+      "modified": 0
+    },
+    {
+      "code": "Welfare05",
+      "diff_file": "diff_legacy__wave_ROC111_AD2022__legacy__wave_ROC98_AD2009.json",
+      "earlier": "legacy__wave_ROC111_AD2022",
+      "later": "legacy__wave_ROC98_AD2009",
+      "added": 137,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare05",
+      "diff_file": "diff_legacy__wave_ROC102_AD2013__legacy__wave_ROC98_AD2009.json",
+      "earlier": "legacy__wave_ROC102_AD2013",
+      "later": "legacy__wave_ROC98_AD2009",
+      "added": 137,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare06",
+      "diff_file": "diff_legacy__wave_ROC100_AD2011__legacy__wave_ROC105_AD2016.json",
+      "earlier": "legacy__wave_ROC100_AD2011",
+      "later": "legacy__wave_ROC105_AD2016",
+      "added": 766,
+      "removed": 407,
+      "modified": 0
+    },
+    {
+      "code": "Welfare06",
+      "diff_file": "diff_legacy__wave_ROC105_AD2016__legacy__wave_ROC110_AD2021.json",
+      "earlier": "legacy__wave_ROC105_AD2016",
+      "later": "legacy__wave_ROC110_AD2021",
+      "added": 208,
+      "removed": 716,
+      "modified": 50
+    },
+    {
+      "code": "Welfare06",
+      "diff_file": "diff_legacy__wave_ROC110_AD2021__legacy__wave_ROC89_AD2000.json",
+      "earlier": "legacy__wave_ROC110_AD2021",
+      "later": "legacy__wave_ROC89_AD2000",
+      "added": 188,
+      "removed": 258,
+      "modified": 0
+    },
+    {
+      "code": "Welfare06",
+      "diff_file": "diff_legacy__wave_ROC100_AD2011__legacy__wave_ROC89_AD2000.json",
+      "earlier": "legacy__wave_ROC100_AD2011",
+      "later": "legacy__wave_ROC89_AD2000",
+      "added": 178,
+      "removed": 397,
+      "modified": 10
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_1_實施計畫__legacy__wave_2_調查表.json",
+      "earlier": "legacy__wave_1_實施計畫",
+      "later": "legacy__wave_2_調查表",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_2_調查表__legacy__wave_3_抽樣設計.json",
+      "earlier": "legacy__wave_2_調查表",
+      "later": "legacy__wave_3_抽樣設計",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_3_抽樣設計__legacy__wave_4_填表說明.json",
+      "earlier": "legacy__wave_3_抽樣設計",
+      "later": "legacy__wave_4_填表說明",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_4_填表說明__legacy__wave_ROC100_AD2011.json",
+      "earlier": "legacy__wave_4_填表說明",
+      "later": "legacy__wave_ROC100_AD2011",
+      "added": 141,
+      "removed": 0,
+      "modified": 0
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC100_AD2011__legacy__wave_ROC104_AD2015.json",
+      "earlier": "legacy__wave_ROC100_AD2011",
+      "later": "legacy__wave_ROC104_AD2015",
+      "added": 207,
+      "removed": 111,
+      "modified": 30
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC104_AD2015__legacy__wave_ROC108_AD2019.json",
+      "earlier": "legacy__wave_ROC104_AD2015",
+      "later": "legacy__wave_ROC108_AD2019",
+      "added": 173,
+      "removed": 210,
+      "modified": 27
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC108_AD2019__legacy__wave_ROC113_AD2024.json",
+      "earlier": "legacy__wave_ROC108_AD2019",
+      "later": "legacy__wave_ROC113_AD2024",
+      "added": 133,
+      "removed": 162,
+      "modified": 38
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC113_AD2024__legacy__wave_ROC87_AD1998.json",
+      "earlier": "legacy__wave_ROC113_AD2024",
+      "later": "legacy__wave_ROC87_AD1998",
+      "added": 73,
+      "removed": 155,
+      "modified": 16
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC87_AD1998__legacy__wave_ROC91_AD2002.json",
+      "earlier": "legacy__wave_ROC87_AD1998",
+      "later": "legacy__wave_ROC91_AD2002",
+      "added": 114,
+      "removed": 79,
+      "modified": 10
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC91_AD2002__legacy__wave_ROC95_AD2006.json",
+      "earlier": "legacy__wave_ROC91_AD2002",
+      "later": "legacy__wave_ROC95_AD2006",
+      "added": 190,
+      "removed": 105,
+      "modified": 19
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_ROC95_AD2006__legacy__wave_問卷.json",
+      "earlier": "legacy__wave_ROC95_AD2006",
+      "later": "legacy__wave_問卷",
+      "added": 0,
+      "removed": 209,
+      "modified": 0
+    },
+    {
+      "code": "Welfare08",
+      "diff_file": "diff_legacy__wave_1_實施計畫__legacy__wave_問卷.json",
+      "earlier": "legacy__wave_1_實施計畫",
+      "later": "legacy__wave_問卷",
+      "added": 0,
+      "removed": 0,
+      "modified": 0
     },
     {
       "code": "Welfare10",
@@ -405,6 +1485,15 @@
       "added": 3,
       "removed": 3,
       "modified": 7
+    },
+    {
+      "code": "Welfare19",
+      "diff_file": "diff_legacy__wave_ROC107_AD2018__legacy__wave_ROC111_AD2022.json",
+      "earlier": "legacy__wave_ROC107_AD2018",
+      "later": "legacy__wave_ROC111_AD2022",
+      "added": 157,
+      "removed": 199,
+      "modified": 2
     },
     {
       "code": "Welfare20",

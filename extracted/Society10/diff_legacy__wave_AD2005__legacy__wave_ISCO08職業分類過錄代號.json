@@ -1,0 +1,55 @@
+{
+  "code": "Society10",
+  "earlier_version_id": "legacy__wave_AD2005",
+  "later_version_id": "legacy__wave_ISCO08職業分類過錄代號",
+  "earlier_field_count": 4,
+  "later_field_count": 0,
+  "added": [],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "樣本編號",
+      "name_en": "S_ID",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "樣本編號",
+      "available_notes": [],
+      "name_zh_en": "Sample Number",
+      "description_en": "Sample Number"
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": "encrypted"
+    },
+    {
+      "seq": 3,
+      "name_zh": "性別0：身分證字號符合編碼原則",
+      "name_en": "S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男、2：女、9：不詳",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號檢誤1：不符合",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "modified": []
+}

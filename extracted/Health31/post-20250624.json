@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因\n分類詳細碼等欄位。",
-  "notes_zh": "1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 1. 個人ID經加密處理。\n2. 個人資料比對的鍵值：ID。",
+  "notes_zh": "1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 1. 個人ID經加密處理。\n2. 個人資料比對的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 20,
       "description_zh": "加密處理",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": "encrypted processing"
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性，2：女性",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -55,7 +59,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "residence",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -64,7 +70,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "西元年月YYYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birth year and month",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -73,7 +81,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年月日YYYYMMDD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Date of Death",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -93,7 +103,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Place of Death",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -108,7 +120,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -117,7 +131,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Death Location",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 9,
@@ -126,7 +142,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "marital status",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 10,
@@ -146,7 +164,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Cause of Death Classification",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -166,7 +186,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "trauma classification",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -181,7 +203,9 @@
           "ad_year": 2009,
           "marker": "以後"
         }
-      ]
+      ],
+      "name_zh_en": "Cause of Death Classification",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -201,7 +225,9 @@
           "ad_year": 2009,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "diagnoser",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -210,7 +236,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "00：未滿 1 日，01：滿 1 日，02：滿 2 日， 以此類推，至 27：滿 27 日，88：非新生兒死亡",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "newborn age",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -219,7 +247,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "000 Ｏ歲、001 一歲、002 二歲、…: 099 九十九歲、100 百歲、….999 不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -228,7 +258,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則，1：不符合",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {
@@ -237,353 +269,441 @@
       "entries": [
         {
           "code": "8008",
-          "label_zh": "印度"
+          "label_zh": "印度",
+          "label_en": "India"
         },
         {
           "code": "8009",
-          "label_zh": "印尼"
+          "label_zh": "印尼",
+          "label_en": "Indonesia"
         },
         {
           "code": "8012",
-          "label_zh": "以色列"
+          "label_zh": "以色列",
+          "label_en": "Israel"
         },
         {
           "code": "8013",
-          "label_zh": "日本"
+          "label_zh": "日本",
+          "label_en": "Japan"
         },
         {
           "code": "8014",
-          "label_zh": "約旦"
+          "label_zh": "約旦",
+          "label_en": "jordan"
         },
         {
           "code": "8015",
-          "label_zh": "韓國"
+          "label_zh": "韓國",
+          "label_en": "Korea"
         },
         {
           "code": "8019",
-          "label_zh": "馬來西亞"
+          "label_zh": "馬來西亞",
+          "label_en": "Malaysia"
         },
         {
           "code": "8024",
-          "label_zh": "菲律賓"
+          "label_zh": "菲律賓",
+          "label_en": "Philippines"
         },
         {
           "code": "8026",
-          "label_zh": "沙烏地阿拉伯"
+          "label_zh": "沙烏地阿拉伯",
+          "label_en": ""
         },
         {
           "code": "8027",
-          "label_zh": "新加坡"
+          "label_zh": "新加坡",
+          "label_en": "Singapore"
         },
         {
           "code": "8030",
-          "label_zh": "泰國"
+          "label_zh": "泰國",
+          "label_en": "Thailand"
         },
         {
           "code": "8032",
-          "label_zh": "土耳其"
+          "label_zh": "土耳其",
+          "label_en": "Turkey"
         },
         {
           "code": "8034",
-          "label_zh": "越南"
+          "label_zh": "越南",
+          "label_en": "vietnam"
         },
         {
           "code": "8035",
-          "label_zh": "中國大陸"
+          "label_zh": "中國大陸",
+          "label_en": "China Mainland"
         },
         {
           "code": "8037",
-          "label_zh": "香港"
+          "label_zh": "香港",
+          "label_en": "Hong Kong"
         },
         {
           "code": "8053",
-          "label_zh": "阿曼"
+          "label_zh": "阿曼",
+          "label_en": "Oman"
         },
         {
           "code": "8056",
-          "label_zh": "吐瓦魯 頁 3 / 22 2025年09月02日修訂"
+          "label_zh": "吐瓦魯 頁 3 / 22 2025年09月02日修訂",
+          "label_en": ""
         },
         {
           "code": "8060",
-          "label_zh": "索羅門群島"
+          "label_zh": "索羅門群島",
+          "label_en": "Solomon Islands"
         },
         {
           "code": "8066",
-          "label_zh": "澳門"
+          "label_zh": "澳門",
+          "label_en": "Macau"
         },
         {
           "code": "8101",
-          "label_zh": "澳大利亞"
+          "label_zh": "澳大利亞",
+          "label_en": "Australia"
         },
         {
           "code": "8102",
-          "label_zh": "裴濟"
+          "label_zh": "裴濟",
+          "label_en": "fiji"
         },
         {
           "code": "8103",
-          "label_zh": "諾魯"
+          "label_zh": "諾魯",
+          "label_en": "nauru"
         },
         {
           "code": "8104",
-          "label_zh": "紐西蘭"
+          "label_zh": "紐西蘭",
+          "label_en": "New Zealand"
         },
         {
           "code": "8203",
-          "label_zh": "奧地利"
+          "label_zh": "奧地利",
+          "label_en": "Austria"
         },
         {
           "code": "8204",
-          "label_zh": "比利時"
+          "label_zh": "比利時",
+          "label_en": "Belgium"
         },
         {
           "code": "8207",
-          "label_zh": "捷克"
+          "label_zh": "捷克",
+          "label_en": "Czech Republic"
         },
         {
           "code": "8208",
-          "label_zh": "丹麥"
+          "label_zh": "丹麥",
+          "label_en": "Denmark"
         },
         {
           "code": "8209",
-          "label_zh": "芬蘭"
+          "label_zh": "芬蘭",
+          "label_en": "finland"
         },
         {
           "code": "8210",
-          "label_zh": "法國"
+          "label_zh": "法國",
+          "label_en": "France"
         },
         {
           "code": "8211",
-          "label_zh": "德國"
+          "label_zh": "德國",
+          "label_en": "Germany"
         },
         {
           "code": "8212",
-          "label_zh": "希臘"
+          "label_zh": "希臘",
+          "label_en": "Greece"
         },
         {
           "code": "8213",
-          "label_zh": "教廷"
+          "label_zh": "教廷",
+          "label_en": "Catholic"
         },
         {
           "code": "8214",
-          "label_zh": "匈牙利"
+          "label_zh": "匈牙利",
+          "label_en": "Hungary"
         },
         {
           "code": "8216",
-          "label_zh": "愛爾蘭"
+          "label_zh": "愛爾蘭",
+          "label_en": "Ireland"
         },
         {
           "code": "8217",
-          "label_zh": "義大利"
+          "label_zh": "義大利",
+          "label_en": "Italy"
         },
         {
           "code": "8222",
-          "label_zh": "荷蘭"
+          "label_zh": "荷蘭",
+          "label_en": "netherlands"
         },
         {
           "code": "8223",
-          "label_zh": "挪威"
+          "label_zh": "挪威",
+          "label_en": "Norway"
         },
         {
           "code": "8228",
-          "label_zh": "西班牙"
+          "label_zh": "西班牙",
+          "label_en": "Spain"
         },
         {
           "code": "8229",
-          "label_zh": "瑞典"
+          "label_zh": "瑞典",
+          "label_en": "Sweden"
         },
         {
           "code": "8230",
-          "label_zh": "瑞士"
+          "label_zh": "瑞士",
+          "label_en": "Switzerland"
         },
         {
           "code": "8232",
-          "label_zh": "英國"
+          "label_zh": "英國",
+          "label_en": "united kingdom"
         },
         {
           "code": "8233",
-          "label_zh": "蘇聯"
+          "label_zh": "蘇聯",
+          "label_en": "soviet union"
         },
         {
           "code": "8236",
-          "label_zh": "巴布亞紐幾內亞"
+          "label_zh": "巴布亞紐幾內亞",
+          "label_en": ""
         },
         {
           "code": "8238",
-          "label_zh": "拉脫維亞"
+          "label_zh": "拉脫維亞",
+          "label_en": "latvia"
         },
         {
           "code": "8253",
-          "label_zh": "馬其頓"
+          "label_zh": "馬其頓",
+          "label_en": "Macedonia"
         },
         {
           "code": "8303",
-          "label_zh": "加拿大"
+          "label_zh": "加拿大",
+          "label_en": "Canada"
         },
         {
           "code": "8304",
-          "label_zh": "哥斯大黎加"
+          "label_zh": "哥斯大黎加",
+          "label_en": "costa rica"
         },
         {
           "code": "8306",
-          "label_zh": "多明尼加"
+          "label_zh": "多明尼加",
+          "label_en": "Dominican Republic"
         },
         {
           "code": "8307",
-          "label_zh": "薩爾瓦多"
+          "label_zh": "薩爾瓦多",
+          "label_en": "El Salvador"
         },
         {
           "code": "8308",
-          "label_zh": "瓜地馬拉"
+          "label_zh": "瓜地馬拉",
+          "label_en": "Guatemala"
         },
         {
           "code": "8309",
-          "label_zh": "海地"
+          "label_zh": "海地",
+          "label_en": "Haiti"
         },
         {
           "code": "8310",
-          "label_zh": "宏都拉斯"
+          "label_zh": "宏都拉斯",
+          "label_en": "Honduras"
         },
         {
           "code": "8312",
-          "label_zh": "墨西哥"
+          "label_zh": "墨西哥",
+          "label_en": "Mexico"
         },
         {
           "code": "8313",
-          "label_zh": "尼加拉瓜"
+          "label_zh": "尼加拉瓜",
+          "label_en": "Nicaragua"
         },
         {
           "code": "8314",
-          "label_zh": "巴拿馬"
+          "label_zh": "巴拿馬",
+          "label_en": "Panama"
         },
         {
           "code": "8315",
-          "label_zh": "美國 頁 4 / 22 2025年09月02日修訂"
+          "label_zh": "美國 頁 4 / 22 2025年09月02日修訂",
+          "label_en": ""
         },
         {
           "code": "8326",
-          "label_zh": "格瑞那達"
+          "label_zh": "格瑞那達",
+          "label_en": "Grenada"
         },
         {
           "code": "8327",
-          "label_zh": "馬紹爾群島"
+          "label_zh": "馬紹爾群島",
+          "label_en": "Marshall Islands"
         },
         {
           "code": "8401",
-          "label_zh": "阿根廷"
+          "label_zh": "阿根廷",
+          "label_en": "Argentina"
         },
         {
           "code": "8402",
-          "label_zh": "玻利維亞"
+          "label_zh": "玻利維亞",
+          "label_en": "Bolivia"
         },
         {
           "code": "8403",
-          "label_zh": "巴西"
+          "label_zh": "巴西",
+          "label_en": "Brazil"
         },
         {
           "code": "8404",
-          "label_zh": "智利"
+          "label_zh": "智利",
+          "label_en": "Chile"
         },
         {
           "code": "8405",
-          "label_zh": "哥倫比亞"
+          "label_zh": "哥倫比亞",
+          "label_en": "colombia"
         },
         {
           "code": "8406",
-          "label_zh": "厄瓜多"
+          "label_zh": "厄瓜多",
+          "label_en": "Ecuador"
         },
         {
           "code": "8409",
-          "label_zh": "巴拉圭"
+          "label_zh": "巴拉圭",
+          "label_en": "Paraguay"
         },
         {
           "code": "8410",
-          "label_zh": "祕魯"
+          "label_zh": "祕魯",
+          "label_en": "peru"
         },
         {
           "code": "8413",
-          "label_zh": "委內瑞拉"
+          "label_zh": "委內瑞拉",
+          "label_en": "Venezuela"
         },
         {
           "code": "8417",
-          "label_zh": "多米尼克"
+          "label_zh": "多米尼克",
+          "label_en": "Dominica"
         },
         {
           "code": "8506",
-          "label_zh": "查德"
+          "label_zh": "查德",
+          "label_en": "Chad"
         },
         {
           "code": "8513",
-          "label_zh": "甘比亞"
+          "label_zh": "甘比亞",
+          "label_en": "Gambia"
         },
         {
           "code": "8517",
-          "label_zh": "肯亞"
+          "label_zh": "肯亞",
+          "label_en": "kenya"
         },
         {
           "code": "8519",
-          "label_zh": "賴比瑞亞"
+          "label_zh": "賴比瑞亞",
+          "label_en": "liberia"
         },
         {
           "code": "8521",
-          "label_zh": "馬達加斯加"
+          "label_zh": "馬達加斯加",
+          "label_en": "Madagascar"
         },
         {
           "code": "8522",
-          "label_zh": "馬拉威"
+          "label_zh": "馬拉威",
+          "label_en": "Malawi"
         },
         {
           "code": "8525",
-          "label_zh": "模里西斯"
+          "label_zh": "模里西斯",
+          "label_en": "Mauritius"
         },
         {
           "code": "8528",
-          "label_zh": "奈及利亞"
+          "label_zh": "奈及利亞",
+          "label_en": "Nigeria"
         },
         {
           "code": "8531",
-          "label_zh": "塞內加爾"
+          "label_zh": "塞內加爾",
+          "label_en": "senegal"
         },
         {
           "code": "8534",
-          "label_zh": "南非"
+          "label_zh": "南非",
+          "label_en": "South_Africa"
         },
         {
           "code": "8536",
-          "label_zh": "史瓦濟蘭"
+          "label_zh": "史瓦濟蘭",
+          "label_en": "swaziland"
         },
         {
           "code": "8542",
-          "label_zh": "布吉那法索"
+          "label_zh": "布吉那法索",
+          "label_en": "Burkina Faso"
         },
         {
           "code": "8558",
-          "label_zh": "聖多美普林西比"
+          "label_zh": "聖多美普林西比",
+          "label_en": ""
         },
         {
           "code": "8601",
-          "label_zh": "聖文森及格瑞那丁"
+          "label_zh": "聖文森及格瑞那丁",
+          "label_en": ""
         },
         {
           "code": "8603",
-          "label_zh": "聖克里斯多福"
+          "label_zh": "聖克里斯多福",
+          "label_en": ""
         },
         {
           "code": "8604",
-          "label_zh": "貝里斯"
+          "label_zh": "貝里斯",
+          "label_en": "Belize"
         },
         {
           "code": "8888",
-          "label_zh": "送醫途中"
+          "label_zh": "送醫途中",
+          "label_en": "transport to hospital"
         },
         {
           "code": "8999",
-          "label_zh": "其他國家"
+          "label_zh": "其他國家",
+          "label_en": "other countries"
         },
         {
           "code": "9999",
-          "label_zh": "不詳"
+          "label_zh": "不詳",
+          "label_en": "unclear"
         }
-      ]
+      ],
+      "field_en": ""
     }
   },
   "raw_text_first_page": "2025年09月02日修訂\n延遲申報死因檔\n(H_OST_DEALG)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_DEALG 資料筆數 1,526 / 2024\n中文檔名 延遲申報死因檔 英文檔名 Delayed Report of Death Data\n檔案大小 192 KB / 2024 欄位數 16\n譯碼簿\n屬性 現況檔 週期 年 2025/09/02\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因\n分類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n頁 1 / 22",
@@ -600,5 +720,9 @@
   "pdf_sha256": "cbdd835c575dad4e57d1bed0280d65c1150ce81506abc5e980fe7d5532ff4d62",
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health31_延遲申報死因檔(20250624起適用)"
+  "name_zh_from_listing": "Health31_延遲申報死因檔(20250624起適用)",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

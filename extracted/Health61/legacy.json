@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 法定傳染病確定病例資料檔。\n2. 每筆資料包括個案基本資料、通報所在地資料、個案健康狀況等。\n3. 原始資料以文字說明為主。",
-  "notes_zh": "1. 各傳染病資料起始及截止時間，請參見申請年限表。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。 主鍵與比 電腦流水號(REPORT)為法定傳染病通報單號，為對應其他傳染病相關資料檔鍵\n值。",
+  "notes_zh": "1. 各傳染病資料起始及截止時間，請參見申請年限表。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。 電腦流水號(REPORT)為法定傳染病通報單號，為對應其他傳染病相關資料檔鍵\n值。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 13,
       "description_zh": "傳染病個案通報系統通 報單號 13碼",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "computer serial number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "explanation"
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "residing in town",
+      "description_en": "explanation"
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "residing in village",
+      "description_en": "explanation"
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "date of birth",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -71,7 +81,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "age at onset",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -80,7 +92,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "age_at_onset",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -89,7 +103,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "男、女、不詳",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -98,7 +114,9 @@
       "type": "Char",
       "length": 34,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "occupation",
+      "description_en": "explanation"
     },
     {
       "seq": 10,
@@ -107,7 +125,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "date_of_onset",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -116,7 +136,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "date of diagnosis",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -125,7 +147,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "report date",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -134,7 +158,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -143,7 +169,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -152,7 +180,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "county city reported",
+      "description_en": "explanation"
     },
     {
       "seq": 16,
@@ -161,7 +191,9 @@
       "type": "Char",
       "length": 8,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "township",
+      "description_en": "explanation"
     },
     {
       "seq": 17,
@@ -170,7 +202,9 @@
       "type": "Char",
       "length": 25,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reported disease",
+      "description_en": "explanation"
     },
     {
       "seq": 18,
@@ -179,7 +213,9 @@
       "type": "Char",
       "length": 25,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "diagnosed condition",
+      "description_en": "explanation"
     },
     {
       "seq": 19,
@@ -188,7 +224,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "是/否",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "hospitalized",
+      "description_en": "Yes/No"
     },
     {
       "seq": 20,
@@ -197,7 +235,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "是/否",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "sampled",
+      "description_en": "Yes/No"
     },
     {
       "seq": 21,
@@ -206,7 +246,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "是/否",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "deceased",
+      "description_en": "Yes/No"
     },
     {
       "seq": 22,
@@ -215,7 +257,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "YYYY/MM/DD",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Date of Death",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -224,7 +268,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Cause of Death",
+      "description_en": "explanation"
     },
     {
       "seq": 24,
@@ -233,7 +279,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "是/否",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "Yes/No"
     },
     {
       "seq": 25,
@@ -242,7 +290,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "是/否",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "Yes/No"
     },
     {
       "seq": 26,
@@ -251,7 +301,9 @@
       "type": "Char",
       "length": 16,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "country of infection",
+      "description_en": "explanation"
     },
     {
       "seq": 27,
@@ -260,7 +312,9 @@
       "type": "Char",
       "length": 144,
       "description_zh": "文字說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "primary symptom",
+      "description_en": "explanation"
     }
   ],
   "codebooks": {},
@@ -278,5 +332,9 @@
   "pdf_sha256": "9ea2535c807c7a4fd4b477642a29f0ac06de3d8cd4c96f935955969cbfa2925a",
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-06-24",
-  "name_zh_from_listing": "Health61_法定傳染病個案通報系統資料庫_防疫資料庫"
+  "name_zh_from_listing": "Health61_法定傳染病個案通報系統資料庫_防疫資料庫",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

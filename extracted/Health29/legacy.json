@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "2：女性",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "2: female"
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 6,
       "description_zh": "西元年 ，YYYYMM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳三、欄位（變項）譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "02：停業",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "02: suspension of business"
     },
     {
       "seq": 6,
@@ -77,7 +87,9 @@
           "ad_year": 2020,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "county of practice",
+      "description_en": "2020年新增"
     },
     {
       "seq": 7,
@@ -92,7 +104,9 @@
           "ad_year": 2020,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "township of practice",
+      "description_en": "2020年新增"
     }
   ],
   "codebooks": {
@@ -101,69 +115,86 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "語言治療師 K 醫事檢驗生"
+          "label_zh": "語言治療師 K 醫事檢驗生",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "牙體技術師 L 鑲牙生"
+          "label_zh": "牙體技術師 L 鑲牙生",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "聽力師 M 中藥員"
+          "label_zh": "聽力師 M 中藥員",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "牙體技術生 N 齒模員"
+          "label_zh": "牙體技術生 N 齒模員",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "驗光師 O 非醫事人員"
+          "label_zh": "驗光師 O 非醫事人員",
+          "label_en": ""
         },
         {
           "code": "6",
-          "label_zh": "驗光生 P 接骨員"
+          "label_zh": "驗光生 P 接骨員",
+          "label_en": ""
         },
         {
           "code": "A",
-          "label_zh": "西醫師 Q 物理治療師"
+          "label_zh": "西醫師 Q 物理治療師",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "中醫師 R 職能治療師"
+          "label_zh": "中醫師 R 職能治療師",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "牙醫師 S 醫事放射師"
+          "label_zh": "牙醫師 S 醫事放射師",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "藥師 T 醫事放射士"
+          "label_zh": "藥師 T 醫事放射士",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "藥劑生 U 物理治療生"
+          "label_zh": "藥劑生 U 物理治療生",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "護理師 V 呼吸治療師"
+          "label_zh": "護理師 V 呼吸治療師",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "護士 W 職能治療生"
+          "label_zh": "護士 W 職能治療生",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "助產士 X 諮商心理師"
+          "label_zh": "助產士 X 諮商心理師",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "助產師 Y 臨床心理師"
+          "label_zh": "助產師 Y 臨床心理師",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "醫事檢驗師 Z 營養師"
+          "label_zh": "醫事檢驗師 Z 營養師",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "person type"
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n醫事人員基本資料檔\nHealth-29：H_doh_medpe\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_doh_medpe 資料筆數 553,697筆 / 2020年為例\n中文檔名 醫事人員基本資料檔 英文檔名 REGISTRY FOR MEDICAL PERSONNEL\n檔案大小 34.0 MB 欄位數 7\n譯碼簿\n屬性 現況檔 週期 年 2025/06/24\n更新日期\n1. 資料所屬單位為衛福部醫事司。\n資料描述\n2. 資料年度為 2010、2011、2016、2017、2020年。\n1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有\n身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入\n院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使\n用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別\n注意事項 特定當事人。\n2. 原則上每位醫事人員登錄 1筆資料。\n3. 2017年僅擷取執業狀態(WORK_STATUS)為01：執業之資料。\n4. 2017年資料健保分區空白，代表錯誤資料。(執業中，但未有執業機構)\n5. 2020年資料新增 2欄位：執業縣市、執業鄉鎮。\n主鍵與\n無\n比對欄位\n1",
@@ -180,5 +211,9 @@
   "pdf_sha256": "f0122048e5eaf3075bd79dc01004e9ef545bf898dd8b6da61c3023234b897e97",
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-26",
-  "name_zh_from_listing": "Health29_醫事人員基本資料檔"
+  "name_zh_from_listing": "Health29_醫事人員基本資料檔",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

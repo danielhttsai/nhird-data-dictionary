@@ -29,9 +29,26 @@ const TOPIC_CODES = new Set(['Health82','Health83','Health101','Health103','Heal
 const catalogue = [];   // top-level entries shown on the landing page
 const allFields = [];   // for search index
 
+// Chronological-ish sort key for a version_id. Handles:
+//   legacy / post-20250624 ; period-pre-2010 / 2011-2017 / 2018-later (+_post) ;
+//   ...__wave_ROC###_AD#### survey waves ; ...__wave_<name> supplementary docs.
+function versionSortKey(vid) {
+  const adm = vid.includes('post-20250624') ? 1 : 0;     // revision: legacy < post
+  const adYear = vid.match(/AD(\d{4})/);
+  if (adYear) return [2, parseInt(adYear[1], 10), adm];   // dated survey waves, by year
+  if (vid.includes('period-pre-2010')) return [1, 2009, adm];
+  if (vid.includes('period-2011-2017')) return [1, 2011, adm];
+  if (vid.includes('period-2018-later')) return [1, 2018, adm];
+  if (vid.startsWith('legacy') || vid.startsWith('post-20250624')) return [1, 9000, adm];
+  // supplementary docs (實施計畫/調查表/問卷…) — group at the end
+  return [3, 9999, adm];
+}
 for (const [code, versions] of byCode) {
-  const sorted = versions.slice().sort((a, b) =>
-    (a.version_id < b.version_id ? -1 : a.version_id > b.version_id ? 1 : 0));
+  const sorted = versions.slice().sort((a, b) => {
+    const ka = versionSortKey(a.version_id), kb = versionSortKey(b.version_id);
+    for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return ka[i] - kb[i];
+    return a.version_id.localeCompare(b.version_id);
+  });
 
   // Load all extracted JSONs for this code (PDFs only — ZIPs have no extracted JSON)
   const codeDir = path.join(EXTRACTED, code);
@@ -55,16 +72,25 @@ for (const [code, versions] of byCode) {
     }
   }
 
-  // Pick a "primary" version for catalogue display = newest
-  const primary = sorted[sorted.length - 1];
+  // Pick a "primary" version for catalogue display: prefer the newest version
+  // that actually has fields (avoids landing on a 0-field supplementary survey
+  // doc such as 實施計畫/問卷). Fall back to any extracted, then last manifest.
+  const withExtract = sorted.filter(v => extracted[v.version_id]);
+  const withFields = withExtract.filter(v => (extracted[v.version_id].fields?.length || 0) > 0);
+  const primary = withFields.at(-1) || withExtract.at(-1) || sorted.at(-1);
   const primaryExtracted = extracted[primary.version_id];
 
   const category = TOPIC_CODES.has(code) ? 'Topic' : primary.category;
+  // For catalogue display, prefer the PDF's English file name; fall back to the
+  // LLM-translated Chinese name.
+  const englishName = (primaryExtracted?.name_en && primaryExtracted.name_en.trim())
+    || primaryExtracted?.name_zh_en
+    || '';
   const item = {
     code,
     category,
     name_zh: primaryExtracted?.name_zh || primary.name_zh || '',
-    name_en: primaryExtracted?.name_en || '',
+    name_en: englishName,
     code_short: primaryExtracted?.code_short || '',
     frequency: primaryExtracted?.frequency || '',
     field_count: primaryExtracted?.field_count_declared ?? primaryExtracted?.fields?.length ?? null,
@@ -75,6 +101,8 @@ for (const [code, versions] of byCode) {
       pdf_url: v.pdf_url,
       doc_last_updated: v.doc_last_updated,
       has_extract: !!extracted[v.version_id],
+      field_count: extracted[v.version_id]?.fields?.length ?? null,
+      supplementary: !!extracted[v.version_id] && (extracted[v.version_id].fields?.length || 0) === 0,
       qa: qaByKey.get(`${v.code}|${v.version_id}`) || null
     })),
     has_diffs: diffs.length > 0
@@ -114,10 +142,12 @@ for (const [code, versions] of byCode) {
         version_id: v.version_id,
         seq: f.seq,
         name_zh: f.name_zh || '',
+        name_zh_en: f.name_zh_en || '',
         name_en: f.name_en || '',
         type: f.type || '',
         length: f.length ?? '',
-        description_zh: (f.description_zh || '').slice(0, 200)
+        description_zh: (f.description_zh || '').slice(0, 200),
+        description_en: (f.description_en || '').slice(0, 200)
       });
     }
   }

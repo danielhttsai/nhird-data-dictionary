@@ -1,0 +1,82 @@
+{
+  "source_pdf": "Society10_國民健康訪問調查_2005.pdf",
+  "code_short": "",
+  "name_zh": "國民健康訪問調查_2005",
+  "name_en": "",
+  "record_count_raw": "",
+  "field_count_declared": null,
+  "file_size_raw": "",
+  "frequency": "",
+  "attribute": "",
+  "update_history_raw": "",
+  "update_history": [],
+  "data_description_zh": "",
+  "notes_zh": "",
+  "primary_keys_raw": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "樣本編號",
+      "name_en": "S_ID",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "樣本編號",
+      "available_notes": [],
+      "name_zh_en": "Sample Number",
+      "description_en": "Sample Number"
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理",
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": "encrypted"
+    },
+    {
+      "seq": 3,
+      "name_zh": "性別0：身分證字號符合編碼原則",
+      "name_en": "S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男、2：女、9：不詳",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號檢誤1：不符合",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    }
+  ],
+  "codebooks": {},
+  "raw_text_first_page": "EQ|~ydXdz\n2005 National Health Interview Survey\nX\nNHISIS u@p\nas| pPTss\nEQ~",
+  "qa": {
+    "errors": [],
+    "warnings": []
+  },
+  "page_count": 171,
+  "code": "Society10",
+  "category": "Society",
+  "version_id": "post-20250624__wave_AD2005",
+  "version_label": "20250624 起適用 · 2005 年",
+  "pdf_url": "https://www.mohw.gov.tw/dl-100541-33ebc7ca-d473-4eba-8160-0cd279915fab.html",
+  "pdf_sha256": "97c8b81c5132868afaf16884e2f065fd3f2668d934498c791daade99ffaf0007",
+  "doc_first_published": "2026-05-26",
+  "doc_last_updated": "2026-05-26",
+  "name_zh_from_listing": "Society10_國民健康訪問調查_2005",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
+}

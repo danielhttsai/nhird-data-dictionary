@@ -12,7 +12,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "000：應部分負擔 詳見欄位部分負擔代號 （PART_CODE）說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -21,7 +23,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳見欄位給付類別（PAY_TYPE） 譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "benefit category",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -41,7 +45,9 @@
           "ad_year": 2004,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -50,7 +56,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "病人住急性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -59,7 +67,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "病人住慢性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -74,7 +84,9 @@
           "ad_year": 2016,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "primary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -83,7 +95,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -92,7 +106,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -101,7 +117,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -110,7 +128,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -119,7 +139,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "ICD-9-PCS 之代碼。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 28,
@@ -134,7 +156,9 @@
           "ad_year": 2016,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -143,7 +167,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 30,
@@ -152,7 +178,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -161,7 +189,9 @@
       "type": "Char",
       "length": 9,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 39,
@@ -170,7 +200,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "surgical points",
+      "description_en": ""
     },
     {
       "seq": 44,
@@ -179,7 +211,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 50,
@@ -188,7 +222,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (OP_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "medical point",
+      "description_en": ""
     },
     {
       "seq": 51,
@@ -197,7 +233,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "醫事服務機構收取之部分負擔點 數。 應不含住院醫令檔醫令類別 (ORDER_TYPE)有「Z:部分已切帳 申報費用之藥品、診療明細、特殊 材料醫令」之G00001部分負擔點 數，詳見欄位部分負擔金額 （PART_AMT）說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 53,
@@ -206,7 +244,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "1.住院之部分負擔隨著住院天數及 病床類別(急性病床或慢性病床)有 不同的負擔比率，因此住院之醫療 費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以 上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請 將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 54,
@@ -215,7 +255,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 55,
@@ -224,7 +266,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 56,
@@ -233,7 +277,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 57,
@@ -242,7 +288,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 58,
@@ -251,7 +299,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 59,
@@ -260,7 +310,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 60,
@@ -269,7 +321,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 61,
@@ -278,7 +332,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 62,
@@ -287,7 +343,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 63,
@@ -296,7 +354,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 64,
@@ -305,7 +365,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 65,
@@ -314,7 +376,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 66,
@@ -323,7 +387,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "removed": [
@@ -334,7 +400,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳見欄位給付類別（GAVE_KIND） 譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "benefit category",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -354,7 +422,9 @@
           "ad_year": 2004,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -363,7 +433,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "病人住急性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -372,7 +444,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "病人住慢性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -392,7 +466,9 @@
           "ad_year": 2016,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "primary diagnosis code",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -401,7 +477,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -410,7 +488,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -419,7 +499,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -428,7 +510,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -448,7 +532,9 @@
           "ad_year": 2016,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -457,7 +543,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -466,7 +554,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -475,7 +565,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 28,
@@ -484,7 +576,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 35,
@@ -493,7 +587,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "surgical points",
+      "description_en": ""
     },
     {
       "seq": 40,
@@ -502,7 +598,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 46,
@@ -517,7 +615,9 @@
           "ad_year": 2011,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "proxy points",
+      "description_en": "2010年起无"
     },
     {
       "seq": 47,
@@ -526,7 +626,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (SGRY_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數 (METR_DOT)、葯點數 (DRUG_DOT)、葯事服務點數 (DSVC_DOT)、精神科治療點數 (NRTP_DOT)、注射技術點數 (INJT_DOT)、嬰兒點數 (BABY_DOT)之合計，詳代碼說明 (1-15)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "medical point",
+      "description_en": ""
     },
     {
       "seq": 48,
@@ -535,7 +637,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "醫事服務機構收取之部分負擔點 數。 應不含住院醫令檔醫令類別",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 50,
@@ -544,7 +648,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "1.住院之部分負擔隨著住院天數 及病床類別(急性病床或慢性病 床)有不同的負擔比率，因此住院 之醫療費用點數區分為7部分： (1)醫療費用點數 (急性病床1-30 天) (2)醫療費用點數 (急性病床 31-60天) (3)醫療費用點數 (急性病床61天 以上) (4)醫療費用點數 (慢性病床1-30 天) (5)醫療費用點數 (慢性病床 31-90天) (6)醫療費用點數 (慢性病床 91-180天) (7)醫療費用點數 (慢性病床181 天以上)，分別計算醫療費用點數。 2. 急性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-60日，61日以上分別計算醫 療費用點數。 3. 慢性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-90日，91-180日，181 日以 上，分別計算醫療費用點數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 51,
@@ -553,7 +659,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 52,
@@ -562,7 +670,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 53,
@@ -571,7 +681,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 54,
@@ -580,7 +692,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 55,
@@ -589,7 +703,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 56,
@@ -598,7 +714,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 57,
@@ -607,7 +725,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 58,
@@ -616,7 +736,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 59,
@@ -625,7 +747,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 60,
@@ -634,7 +758,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 61,
@@ -643,7 +769,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 62,
@@ -652,7 +780,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 63,
@@ -661,7 +791,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 64,
@@ -670,7 +802,9 @@
       "type": "Char",
       "length": 3,
       "description_zh": "000：應部分負擔 詳見欄位部分負擔代號（PART_ NO）說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "modified": [

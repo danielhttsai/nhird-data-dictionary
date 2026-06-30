@@ -15,7 +15,7 @@
       "note": ""
     }
   ],
-  "data_description_zh": "資料描述 1. 採用健保門診明細檔(H_NHI_OPDTE)之「國際疾病分類號」及健保住院明細檔\n(H_NHI_IPDTE)之「主次診斷代碼」欄位，符合心血管疾病定義之編碼範圍(詳細\n編碼請見附錄一)且符合一年內門診診斷 2 次(含)以上或住院 1 次(含)以上，定義\n為心血管疾病患者。\n2. 考量首年之健保資料難以區分盛行、新發個案，為取得有效心血管疾病的新發個\n案，擷取年份從2001至2023年。\n3. 資料清整流程詳請見附錄二。",
+  "data_description_zh": "1. 採用健保門診明細檔(H_NHI_OPDTE)之「國際疾病分類號」及健保住院明細檔\n(H_NHI_IPDTE)之「主次診斷代碼」欄位，符合心血管疾病定義之編碼範圍(詳細\n編碼請見附錄一)且符合一年內門診診斷 2 次(含)以上或住院 1 次(含)以上，定義\n為心血管疾病患者。\n2. 考量首年之健保資料難以區分盛行、新發個案，為取得有效心血管疾病的新發個\n案，擷取年份從2001至2023年。\n3. 資料清整流程詳請見附錄二。",
   "notes_zh": "1. 本資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，身分證字號、\n院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位均\n經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通\n過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 本資料庫涵蓋範圍已初步篩選心血管疾病相關常用欄位，資料格式請依欄位勾選\n表配合各資料庫使用手冊對照參考。\n3. 申請本資料庫仍應考量所需研究之主題特性，應用時應注意資料使用限制，歡迎\n回饋使用意見。",
   "primary_keys_raw": "1. 個人身分證字號(ID)及醫療機構代碼(HOSP_ID)經加密處理。\n2. 本檔主鍵為個人加密身分證字號(ID)。\n3. 本檔與其他就醫資料檔比對的鍵值：個人加密身分證字號(ID)。\n4. 本主檔與對照檔(CVD_CTRL)之配對組別欄位(SUBCLASS)有相同數值者，為同\n一組別之病例對照個案。",
   "fields": [
@@ -26,7 +26,9 @@
       "type": "承保 檔",
       "length": "Char",
       "description_zh": "20 經加密處理。國民身分證統一編 號，或外籍居留證號碼(若無居 留證號碼請填護照號碼)，左靠 不足補空白。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "national ID number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "承保 檔",
       "length": "Char",
       "description_zh": "1 1:男性。 2:女性。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -44,7 +48,9 @@
       "type": "承保 檔",
       "length": "Num",
       "description_zh": "8 日期格式：yyyy-mm-dd。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "birthday",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -53,7 +59,9 @@
       "type": "本檔 自訂",
       "length": "Num",
       "description_zh": "8 在資料擷取範圍內，有死亡紀錄 者，此欄位顯示為死亡日；無死 亡紀錄者，此欄位顯示資料擷取 終點(2023/12/31)，作為研究追蹤 終點日。 日期格式：yyyy-mm-dd。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "follow-up endpoint date",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -62,7 +70,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳案件分類(CASE_TYPE)譯碼 說明。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "Case Category",
+      "description_en": ""
     },
     {
       "seq": 6,
@@ -71,7 +81,9 @@
       "type": "門住 診明 細檔",
       "length": "Num",
       "description_zh": "8 若個案於資料起始日(2001/1/1) 前出生，確診日為資料起始日至 追蹤終點日(END_DATE)的隨 機日期；若個案於資料起始日後 出生，確診日為出生日至追蹤終 點日的隨機日期。 日期格式：yyyy-mm-dd。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "confirmed date",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -80,7 +92,9 @@
       "type": "門住 診明 細檔",
       "length": "Num",
       "description_zh": "8 依據 INDEX_DATE 擷取年份作 為確診年(yyyy)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "confirmed year",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -89,7 +103,9 @@
       "type": "承保 檔、 門住 診明 細檔",
       "length": "Num",
       "description_zh": "8 (INDEX_DATE- BIRTHDAY)/365.25。 保留到小數點後2位。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "age_at_diagnosis",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -98,7 +114,9 @@
       "type": "本檔 自訂",
       "length": "Char",
       "description_zh": "1 依據 INDEX_AGE 以 10 歲為一 單位分層(未超過30歲者除外)， 分為： 1:滿18歲未超過30歲 2:滿30歲未超過40歲 3:滿40歲未超過50歲 4:滿50歲未超過60歲 5:滿60歲未超過70歲 6:滿70歲未超過80歲 7:滿80歲未超過90歲",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -107,7 +125,9 @@
       "type": "門住 診明 細檔",
       "length": "Char",
       "description_zh": "1 0:無確診該疾病。 1:有確診該疾病。 (確診定義請見下方備註)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "myocardial infarction",
+      "description_en": ""
     },
     {
       "seq": 11,
@@ -116,7 +136,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "cardiac catheterization",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -125,7 +147,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -134,7 +158,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間同時有經皮冠狀動脈 擴張術及支架特材相關支付代 碼。0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -143,7 +169,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "ECMO",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -152,7 +180,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -161,7 +191,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "hypothermia therapy",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -170,7 +202,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "defibrillation treatment",
+      "description_en": ""
     },
     {
       "seq": 18,
@@ -179,7 +213,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -188,7 +224,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "dialysis",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -197,7 +235,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "入院前半年內是否有相關支付 代碼。0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -206,7 +246,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間有透析且入院前半年 無透析者，定義為有緊急透析 (1)；反之，則定義無緊急透析(0)。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "emergency dialysis",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -215,7 +257,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "stent material",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -224,7 +268,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "ICU",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -233,7 +279,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否有相關支付代碼； 0：無，1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -242,7 +290,9 @@
       "type": "Num",
       "length": 8,
       "description_zh": "以加護病房(床)相關支付代碼對 應之「醫令數量」計算加總，定 義加護病房(床)利用天數。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -251,7 +301,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -260,7 +312,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 28,
@@ -269,7 +323,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -278,7 +334,9 @@
       "type": "門住 診明 細檔",
       "length": "Num",
       "description_zh": "8 依附錄三 Charlson Comorbidity Index疾病對應之權重計算。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 30,
@@ -287,7 +345,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -296,7 +356,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "入院前半年內是否使用相關藥 物。 0：無；1：有。 (詳細編碼請參考附錄四)",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {},
@@ -316,5 +378,9 @@
   "pdf_sha256": "5466c8a27b6c46515187c4b80f71cc85ba16a7cf314794b28e26b83b930db1d4",
   "doc_first_published": "2024-05-21",
   "doc_last_updated": "2026-02-26",
-  "name_zh_from_listing": "Health103_心血管疾病主題式資料庫"
+  "name_zh_from_listing": "Health103_心血管疾病主題式資料庫",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }

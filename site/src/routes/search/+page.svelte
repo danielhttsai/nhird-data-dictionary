@@ -13,9 +13,9 @@
     const r = await fetch(`${base}/data/search-fields.json`);
     const fields = await r.json();
     mini = new MiniSearch({
-      fields: ['name_zh', 'name_en', 'description_zh', 'code'],
-      storeFields: ['code', 'version_id', 'seq', 'name_zh', 'name_en', 'type', 'length', 'description_zh'],
-      searchOptions: { boost: { name_en: 3, name_zh: 2 }, prefix: true, fuzzy: 0.1 }
+      fields: ['name_zh', 'name_zh_en', 'name_en', 'description_zh', 'description_en', 'code'],
+      storeFields: ['code', 'version_id', 'seq', 'name_zh', 'name_zh_en', 'name_en', 'type', 'length', 'description_zh', 'description_en'],
+      searchOptions: { boost: { name_en: 3, name_zh: 2, name_zh_en: 2 }, prefix: true, fuzzy: 0.1 }
     });
     mini.addAll(fields);
     ready = true;
@@ -60,13 +60,19 @@
                 </td>
                 <td class="text-xs text-slate-500">{r.version_id}</td>
                 <td class="text-right text-slate-400">{r.seq}</td>
-                <td class="text-slate-800">{r.name_zh}</td>
+                <td>
+                  <div class="text-slate-800">{r.name_zh}</div>
+                  {#if r.name_zh_en}<div class="text-xs italic text-slate-500">{r.name_zh_en}</div>{/if}
+                </td>
                 <td class="mono">
                   <a href="{base}/file/{r.code}/field/{r.name_en}/?v={r.version_id}"
                      class="text-brand-700 hover:underline font-semibold">{r.name_en}</a>
                 </td>
                 <td class="text-xs text-slate-600">{r.type} {r.length ?? ''}</td>
-                <td class="text-xs text-slate-700 max-w-md">{r.description_zh}</td>
+                <td class="text-xs text-slate-700 max-w-md">
+                  <div>{r.description_zh}</div>
+                  {#if r.description_en}<div class="italic text-slate-500 mt-0.5">{r.description_en}</div>{/if}
+                </td>
               </tr>
             {/each}
           </tbody>

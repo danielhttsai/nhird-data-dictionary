@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 原則上一次通報一筆資料。\n2. 兒童及少年保護通報與分級分類處理及調查辦法依兒童及少年福利與權益保\n障法第五十三條規定訂定之。\n3. 依兒童及少年保護通報及處理辦法第二條，醫事人員、社會工作人員、教育人員、\n保育人員、警察、司法人員、村（里）幹事及其他執行兒童及少年福利業務人員，\n於執行業務時知悉有應保護之兒童及少年時，應立即填具通報表以網際網路、電\n信傳真或其他科技設備傳送等方式通報直轄市、縣（市）主管機關，至遲不得逾\n二十四小時；情況緊急時，得先以言詞、電話通訊方式通報，並於知悉起二十四\n小時內填具通報表，送直轄市、縣（市）主管機關。\n前項通報人員通報內容應包含通報事由、違反本法第五十三條第一項各款情形、\n兒童及少年基本資料及其他相關資訊。\n4. 依兒童及少年保護通報及處理辦法第三條，前條以外之任何人知悉有應保護之兒\n童及少年時，得以前條規定方式或其他任何方式通報直轄市、縣（市）主管機關。",
-  "notes_zh": "1. 被害人及疑似施虐人身分證字號可能為空白。\n2. 可複選變項若為複選，會記錄在同一欄位中。\n3. 日期相關欄位皆為民國格式，年/月/日為000/00/00者表示不詳，如：0000101，表\n示年不詳、1040001表示月不詳、1040100表示日不詳。\n4. 疑似嫌疑人相關欄位為主要的疑似嫌疑人資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 1. 被害人個人歸戶及個人資料比對的鍵值：ID_C。\n2. 疑似施虐人個人歸戶及個人資料比對的鍵值：ID_D。",
+  "notes_zh": "1. 被害人及疑似施虐人身分證字號可能為空白。\n2. 可複選變項若為複選，會記錄在同一欄位中。\n3. 日期相關欄位皆為民國格式，年/月/日為000/00/00者表示不詳，如：0000101，表\n示年不詳、1040001表示月不詳、1040100表示日不詳。\n4. 疑似嫌疑人相關欄位為主要的疑似嫌疑人資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 1. 被害人個人歸戶及個人資料比對的鍵值：ID_C。\n2. 疑似施虐人個人歸戶及個人資料比對的鍵值：ID_D。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -26,7 +26,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "county city",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 2,
@@ -35,7 +37,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "reporter",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 3,
@@ -50,7 +54,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "reporting unit",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -59,7 +65,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 5,
@@ -68,7 +76,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 6,
@@ -77,7 +87,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 7,
@@ -86,7 +98,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM 110起長度為7",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 8,
@@ -101,7 +115,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -116,7 +132,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 10,
@@ -125,7 +143,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "educational status",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 11,
@@ -140,7 +160,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 12,
@@ -155,7 +177,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -170,7 +194,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 14,
@@ -185,7 +211,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 15,
@@ -200,7 +228,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 16,
@@ -209,7 +239,9 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼(如無居留證 號碼請填護照號碼)，左靠不足補空 白。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -218,7 +250,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 18,
@@ -227,7 +261,9 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 19,
@@ -236,7 +272,9 @@
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM 110起長度為7",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 20,
@@ -251,7 +289,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 21,
@@ -266,7 +306,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "relationship with minors",
+      "description_en": ""
     },
     {
       "seq": 22,
@@ -281,7 +323,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "party relationship category",
+      "description_en": ""
     },
     {
       "seq": 23,
@@ -296,7 +340,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "family members",
+      "description_en": ""
     },
     {
       "seq": 24,
@@ -311,7 +357,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "non-household member",
+      "description_en": ""
     },
     {
       "seq": 25,
@@ -326,7 +374,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 26,
@@ -341,7 +391,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 27,
@@ -356,7 +408,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 28,
@@ -371,7 +425,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "physical and mental disability",
+      "description_en": ""
     },
     {
       "seq": 29,
@@ -386,7 +442,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 30,
@@ -401,7 +459,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 31,
@@ -416,7 +476,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 32,
@@ -431,7 +493,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 33,
@@ -440,7 +504,9 @@
       "type": "Char",
       "length": 4,
       "description_zh": "西元年YYYY",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 34,
@@ -449,7 +515,9 @@
       "type": "Char",
       "length": 2,
       "description_zh": "MM",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 35,
@@ -464,7 +532,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "County City of Incident",
+      "description_en": ""
     },
     {
       "seq": 36,
@@ -473,7 +543,9 @@
       "type": "Char",
       "length": 10,
       "description_zh": "",
-      "available_notes": []
+      "available_notes": [],
+      "name_zh_en": "place of incident town",
+      "description_en": ""
     },
     {
       "seq": 37,
@@ -488,7 +560,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "Occurrence Time",
+      "description_en": ""
     },
     {
       "seq": 38,
@@ -503,7 +577,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "main occurrence location",
+      "description_en": ""
     },
     {
       "seq": 39,
@@ -518,7 +594,9 @@
           "ad_year": 2019,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "severity_of_injury_or_death",
+      "description_en": ""
     },
     {
       "seq": 40,
@@ -543,7 +621,9 @@
           "ad_year": 2024,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     },
     {
       "seq": 41,
@@ -563,7 +643,9 @@
           "ad_year": 2021,
           "marker": "起"
         }
-      ]
+      ],
+      "name_zh_en": "abuse type",
+      "description_en": ""
     },
     {
       "seq": 42,
@@ -598,7 +680,9 @@
           "ad_year": 2024,
           "marker": ""
         }
-      ]
+      ],
+      "name_zh_en": "",
+      "description_en": ""
     }
   ],
   "codebooks": {
@@ -607,531 +691,660 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "M 村里幹事 員"
+          "label_zh": "M 村里幹事 員",
+          "label_en": ""
         },
         {
           "code": "2",
-          "label_zh": "就業服務機構及其從業人員 N 村里長"
+          "label_zh": "就業服務機構及其從業人員 N 村里長",
+          "label_en": ""
         },
         {
           "code": "3",
-          "label_zh": "觀光業從業人員 O 公衛護士"
+          "label_zh": "觀光業從業人員 O 公衛護士",
+          "label_en": ""
         },
         {
           "code": "4",
-          "label_zh": "電子遊戲場業從業人員 P 戶政人員 109年起修正"
+          "label_zh": "電子遊戲場業從業人員 P 戶政人員 109年起修正",
+          "label_en": ""
         },
         {
           "code": "5",
-          "label_zh": "資訊休閒業從業人員 Q 法(獄)政人員 原：法(獄)政人員、矯正人 員"
+          "label_zh": "資訊休閒業從業人員 Q 法(獄)政人員 原：法(獄)政人員、矯正人 員",
+          "label_en": ""
         },
         {
           "code": "A",
-          "label_zh": "司(軍)法人員 R 公寓大廈管理員 其他執行兒童少年福利業務人"
+          "label_zh": "司(軍)法人員 R 公寓大廈管理員 其他執行兒童少年福利業務人",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "醫護人員 S 員"
+          "label_zh": "醫護人員 S 員",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "警察人員 T 父或母"
+          "label_zh": "警察人員 T 父或母",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "保育人員 U 親友"
+          "label_zh": "保育人員 U 親友",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "教育人員 V 案主主動求助"
+          "label_zh": "教育人員 V 案主主動求助",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "照顧服務員 W 鄰居及社會人士"
+          "label_zh": "照顧服務員 W 鄰居及社會人士",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "社會工作人員 X 矯正人員"
+          "label_zh": "社會工作人員 X 矯正人員",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "老人福利機構人員 Y 教保服務人員"
+          "label_zh": "老人福利機構人員 Y 教保服務人員",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "勞政人員 Z 其他"
+          "label_zh": "勞政人員 Z 其他",
+          "label_en": ""
         },
         {
           "code": "K",
-          "label_zh": "憲兵 z 其他"
+          "label_zh": "憲兵 z 其他",
+          "label_en": ""
         },
         {
           "code": "L",
-          "label_zh": "移民業務人員"
+          "label_zh": "移民業務人員",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "reporter"
     },
     "INFOUNIT": {
       "field_zh": "通報單位",
       "entries": [
         {
           "code": "A",
-          "label_zh": "司(軍)法 K 診所及衛生所"
+          "label_zh": "司(軍)法 K 診所及衛生所",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "醫院 L 移民業務機關"
+          "label_zh": "醫院 L 移民業務機關",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "警政 M 民政"
+          "label_zh": "警政 M 民政",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "社政 P 移民業務機關(同L)"
+          "label_zh": "社政 P 移民業務機關(同L)",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "教育 Q 戶政"
+          "label_zh": "教育 Q 戶政",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "衛政 U 憲兵"
+          "label_zh": "衛政 U 憲兵",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "防治中心 Y 醫院、診所"
+          "label_zh": "防治中心 Y 醫院、診所",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "一一三 Z 其他"
+          "label_zh": "一一三 Z 其他",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "勞政 2026年05月28日修訂"
+          "label_zh": "勞政 2026年05月28日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "reporting unit"
     },
     "ROC": {
       "field_zh": "被害人現屬國籍別",
       "entries": [
         {
           "code": "9",
-          "label_zh": "本國籍原住民－賽德克 N 本國籍原住民－賽夏"
+          "label_zh": "本國籍原住民－賽德克 N 本國籍原住民－賽夏",
+          "label_en": ""
         },
         {
           "code": "A",
-          "label_zh": "本國籍非原住民 O 本國籍原住民－阿美"
+          "label_zh": "本國籍非原住民 O 本國籍原住民－阿美",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "本國籍原住民－其他 P 本國籍原住民－魯凱"
+          "label_zh": "本國籍原住民－其他 P 本國籍原住民－魯凱",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "大陸籍 Q 本國籍原住民－泰雅"
+          "label_zh": "大陸籍 Q 本國籍原住民－泰雅",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "港澳籍 R 本國籍原住民－達悟（雅美）"
+          "label_zh": "港澳籍 R 本國籍原住民－達悟（雅美）",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "外國籍－印尼 S 本國籍原住民－卑南"
+          "label_zh": "外國籍－印尼 S 本國籍原住民－卑南",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "外國籍－泰國 T 本國籍原住民－鄒"
+          "label_zh": "外國籍－泰國 T 本國籍原住民－鄒",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "外國籍－菲律賓 U 本國籍原住民－邵"
+          "label_zh": "外國籍－菲律賓 U 本國籍原住民－邵",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "外國籍－越南 V 外國籍－柬埔寨"
+          "label_zh": "外國籍－越南 V 外國籍－柬埔寨",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "外國籍－其他 W 本國籍原住民－噶瑪蘭"
+          "label_zh": "外國籍－其他 W 本國籍原住民－噶瑪蘭",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "資料不明 X 本國籍原住民－太魯閣"
+          "label_zh": "資料不明 X 本國籍原住民－太魯閣",
+          "label_en": ""
         },
         {
           "code": "K",
-          "label_zh": "無國籍 Y 外國籍－蒙古"
+          "label_zh": "無國籍 Y 外國籍－蒙古",
+          "label_en": ""
         },
         {
           "code": "L",
-          "label_zh": "本國籍原住民－布農 Z 本國籍原住民－撒奇萊雅"
+          "label_zh": "本國籍原住民－布農 Z 本國籍原住民－撒奇萊雅",
+          "label_en": ""
         },
         {
           "code": "M",
-          "label_zh": "本國籍原住民－排灣"
+          "label_zh": "本國籍原住民－排灣",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "IDTYPE_C": {
       "field_zh": "受保護/被害人國籍別",
       "entries": [
         {
           "code": "A",
-          "label_zh": "本國籍非原住民 D 外國籍"
+          "label_zh": "本國籍非原住民 D 外國籍",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "本國籍原住民 E 無國籍"
+          "label_zh": "本國籍原住民 E 無國籍",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "大陸及港澳籍 Z 資料不明"
+          "label_zh": "大陸及港澳籍 Z 資料不明",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "SCHOOL": {
       "field_zh": "就學狀況",
       "entries": [
         {
           "code": "A",
-          "label_zh": "未入學 E 休學"
+          "label_zh": "未入學 E 休學",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "學前教育 F 未再升學"
+          "label_zh": "學前教育 F 未再升學",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "就學中 Z 不詳 2026年05月28日修訂"
+          "label_zh": "就學中 Z 不詳 2026年05月28日修訂",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "輟學 108年起修改如下： 代碼 說明 代碼 說明"
+          "label_zh": "輟學 108年起修改如下： 代碼 說明 代碼 說明",
+          "label_en": ""
         },
         {
           "code": "A",
-          "label_zh": "學生 C 非學生"
+          "label_zh": "學生 C 非學生",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "未入學"
+          "label_zh": "未入學",
+          "label_en": "never_enrolled"
         }
-      ]
+      ],
+      "field_en": "educational status"
     },
     "RELATION": {
       "field_zh": "與兒少之關係",
       "entries": [
         {
           "code": "A",
-          "label_zh": "父 F 機構人員"
+          "label_zh": "父 F 機構人員",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "母 G 母之同居人或繼父"
+          "label_zh": "母 G 母之同居人或繼父",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "養父 H 父之同居人或繼母"
+          "label_zh": "養父 H 父之同居人或繼母",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "養母 I 親戚"
+          "label_zh": "養母 I 親戚",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "照顧者 J 其他 2026年05月28日修訂"
+          "label_zh": "照顧者 J 其他 2026年05月28日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "CPARTICLE1": {
       "field_zh": "兒少保護情事-兒少有下列行為者",
       "entries": [
         {
           "code": "A",
-          "label_zh": "兒少施用毒品、非法施用管制藥品或其他有害身心健康之物質 兒少充當酒家、特種咖啡茶室、限制級電子遊戲場及其他涉及賭博、色情、暴力等足以 危害其身心健康場所之侍應"
+          "label_zh": "兒少施用毒品、非法施用管制藥品或其他有害身心健康之物質 兒少充當酒家、特種咖啡茶室、限制級電子遊戲場及其他涉及賭博、色情、暴力等足以 危害其身心健康場所之侍應",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "CPARTICLE2": {
       "field_zh": "任何人對兒少有下列行為者",
       "entries": [
         {
           "code": "A",
-          "label_zh": "遺棄"
+          "label_zh": "遺棄",
+          "label_en": "abandonment"
         },
         {
           "code": "B",
-          "label_zh": "身心虐待"
+          "label_zh": "身心虐待",
+          "label_en": "psychosocial abuse"
         },
         {
           "code": "C",
-          "label_zh": "利用其從事有害健康等危險性活動或欺騙之行為"
+          "label_zh": "利用其從事有害健康等危險性活動或欺騙之行為",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "利用身心障礙或畸形兒童供人參觀"
+          "label_zh": "利用身心障礙或畸形兒童供人參觀",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "利用其行乞"
+          "label_zh": "利用其行乞",
+          "label_en": "using it to beg"
         },
         {
           "code": "F",
-          "label_zh": "剝奪或妨礙其接受國民教育之機會"
+          "label_zh": "剝奪或妨礙其接受國民教育之機會",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "強迫其婚嫁"
+          "label_zh": "強迫其婚嫁",
+          "label_en": "forced marriage"
         },
         {
           "code": "H",
-          "label_zh": "拐騙、綁架、買賣、質押，或以其為擔保之行為"
+          "label_zh": "拐騙、綁架、買賣、質押，或以其為擔保之行為",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "強迫、引誘、容留或媒介其為猥褻行為或性交"
+          "label_zh": "強迫、引誘、容留或媒介其為猥褻行為或性交",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "供應刀械或其他危險物品 利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網 際網路或其他物品 違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路 或其他物品"
+          "label_zh": "供應刀械或其他危險物品 利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網 際網路或其他物品 違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路 或其他物品",
+          "label_en": ""
         },
         {
           "code": "M",
-          "label_zh": "帶領或誘使其進入有礙其身心健康之場所 強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺 防治中心)"
+          "label_zh": "帶領或誘使其進入有礙其身心健康之場所 強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺 防治中心)",
+          "label_en": ""
         },
         {
           "code": "O",
-          "label_zh": "迫使或誘使處於對其生命、身體易發生立即危險或傷害之環境"
+          "label_zh": "迫使或誘使處於對其生命、身體易發生立即危險或傷害之環境",
+          "label_en": ""
         },
         {
           "code": "Z",
-          "label_zh": "其他對兒童及少年或利用兒童及少年犯罪或為不正當之行為"
+          "label_zh": "其他對兒童及少年或利用兒童及少年犯罪或為不正當之行為",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "CPARTICLE3": {
       "field_zh": "下列緊急情況",
       "entries": [
         {
           "code": "B",
-          "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者 兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險 之虞者"
+          "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者 兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險 之虞者",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "兒少遭受其他迫害，致其其生命身體或自由有立即之危險或有危險之虞者 2026年05月28日修訂"
+          "label_zh": "兒少遭受其他迫害，致其其生命身體或自由有立即之危險或有危險之虞者 2026年05月28日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "emergency situations"
     },
     "CPARTICLE4": {
       "field_zh": "父母、監護人或其他實際照顧兒童及少年之人對兒少有下列行為者",
       "entries": [
         {
           "code": "A",
-          "label_zh": "使兒童獨處於易發生危險或傷害之環境"
+          "label_zh": "使兒童獨處於易發生危險或傷害之環境",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "對於6歲以下兒童或需要特別看護之兒童及少年，使其獨處或由不適當之人代為照顧"
+          "label_zh": "對於6歲以下兒童或需要特別看護之兒童及少年，使其獨處或由不適當之人代為照顧",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "OCCURPLACE": {
       "field_zh": "主要發生場所",
       "entries": [
         {
           "code": "A",
-          "label_zh": "住(居)所 H 旅(賓)館"
+          "label_zh": "住(居)所 H 旅(賓)館",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "辦公/工作場所 I 矯正機關 特殊營業場所(視聽歌唱業、理髮業、三"
+          "label_zh": "辦公/工作場所 I 矯正機關 特殊營業場所(視聽歌唱業、理髮業、三",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒 吧業、特殊咖啡茶室業)"
+          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒 吧業、特殊咖啡茶室業)",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "學校 K 社會福利/安置照顧機構/兒少安置機構"
+          "label_zh": "學校 K 社會福利/安置照顧機構/兒少安置機構",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "寄養家庭 L 網際網路"
+          "label_zh": "寄養家庭 L 網際網路",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "補習班 Z 其他"
+          "label_zh": "補習班 Z 其他",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "高級中等以下有提供住宿之學校 X 不詳"
+          "label_zh": "高級中等以下有提供住宿之學校 X 不詳",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "main occurrence location"
     },
     "NINJURY": {
       "field_zh": "傷亡程度",
       "entries": [
         {
           "code": "A",
-          "label_zh": "未受傷 D 死亡"
+          "label_zh": "未受傷 D 死亡",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "無明顯傷勢 Z 不詳"
+          "label_zh": "無明顯傷勢 Z 不詳",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "有明顯傷勢"
+          "label_zh": "有明顯傷勢",
+          "label_en": "obvious injuries present"
         }
-      ]
+      ],
+      "field_en": "severity_of_injury_or_death"
     },
     "VIOLENCEMETHOD": {
       "field_zh": "施暴手法（工具）",
       "entries": [
         {
           "code": "A",
-          "label_zh": "持凶器或物品 J 假宗教之身分、場域或話術(天主教)"
+          "label_zh": "持凶器或物品 J 假宗教之身分、場域或話術(天主教)",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "言語脅迫 K 假宗教之身分、場域或話術(其他)"
+          "label_zh": "言語脅迫 K 假宗教之身分、場域或話術(其他)",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "徒手 L 運用網際網路(含APP)"
+          "label_zh": "徒手 L 運用網際網路(含APP)",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "誘騙/誘拐 M 藥劑、毒品控制"
+          "label_zh": "誘騙/誘拐 M 藥劑、毒品控制",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "趁被害人熟睡 N 餵食酒精、毒或不當藥物"
+          "label_zh": "趁被害人熟睡 N 餵食酒精、毒或不當藥物",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "使用藥物 O 摔毀物品"
+          "label_zh": "使用藥物 O 摔毀物品",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "使用酒精 X 無"
+          "label_zh": "使用酒精 X 無",
+          "label_en": ""
         },
         {
           "code": "H",
-          "label_zh": "假宗教之身分、場域或話術(佛神道教) Y 不詳"
+          "label_zh": "假宗教之身分、場域或話術(佛神道教) Y 不詳",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "假宗教之身分、場域或話術(基督教) Z 其他 2026年05月28日修訂"
+          "label_zh": "假宗教之身分、場域或話術(基督教) Z 其他 2026年05月28日修訂",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     },
     "ABUSECATEGORY": {
       "field_zh": "受暴類型",
       "entries": [
         {
           "code": "A",
-          "label_zh": "兒少遭受身體不當對待 E 兒少遭受性侵害"
+          "label_zh": "兒少遭受身體不當對待 E 兒少遭受性侵害",
+          "label_en": ""
         },
         {
           "code": "B",
-          "label_zh": "兒少之父母(照顧者)監護不周 F 兒少遭受性剝削 因父母(照顧者)因素，兒少飲食、衛生"
+          "label_zh": "兒少之父母(照顧者)監護不周 F 兒少遭受性剝削 因父母(照顧者)因素，兒少飲食、衛生",
+          "label_en": ""
         },
         {
           "code": "C",
-          "label_zh": "衣著、居住環境照顧不周，有接受協助 G 兒少遭其他不當對待 之需求"
+          "label_zh": "衣著、居住環境照顧不周，有接受協助 G 兒少遭其他不當對待 之需求",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "兒少遭精神不當對待"
+          "label_zh": "兒少遭精神不當對待",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": "abuse type"
     },
     "ABUSETYPE": {
       "field_zh": "受暴類型子項",
       "entries": [
         {
           "code": "A",
-          "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造 成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為 照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、"
+          "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造 成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為 照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、",
+          "label_en": ""
         },
         {
           "code": "D",
-          "label_zh": "即將或已出現可能使兒少成傷行為、出現危險的舉動、衝突或劇烈爭吵，以致可能波及 兒少。"
+          "label_zh": "即將或已出現可能使兒少成傷行為、出現危險的舉動、衝突或劇烈爭吵，以致可能波及 兒少。",
+          "label_en": ""
         },
         {
           "code": "E",
-          "label_zh": "醫療人員評估，兒少目前的傷勢為受虐所致。 兒少有以下情形之一且有接受協助之需求："
+          "label_zh": "醫療人員評估，兒少目前的傷勢為受虐所致。 兒少有以下情形之一且有接受協助之需求：",
+          "label_en": ""
         },
         {
           "code": "F",
-          "label_zh": "1. 6歲以下或需特別看護之兒少，獨處或由不適當之人代為照顧。 2. 兒少處於危險情境中。 父母(照顧者)有以下情形之一，致兒少日常生活受到影響，需要協助："
+          "label_zh": "1. 6歲以下或需特別看護之兒少，獨處或由不適當之人代為照顧。 2. 兒少處於危險情境中。 父母(照顧者)有以下情形之一，致兒少日常生活受到影響，需要協助：",
+          "label_en": ""
         },
         {
           "code": "G",
-          "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有 暫時性替代照顧方案。"
+          "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有 暫時性替代照顧方案。",
+          "label_en": ""
         },
         {
           "code": "I",
-          "label_zh": "兒少應就醫而未就醫、延遲就醫或過度就醫，且有接受協助之需求。"
+          "label_zh": "兒少應就醫而未就醫、延遲就醫或過度就醫，且有接受協助之需求。",
+          "label_en": ""
         },
         {
           "code": "J",
-          "label_zh": "兒少父母(照顧者)剝奪、妨礙或影響兒少接受義務教育的機會。"
+          "label_zh": "兒少父母(照顧者)剝奪、妨礙或影響兒少接受義務教育的機會。",
+          "label_en": ""
         },
         {
           "code": "K",
-          "label_zh": "兒少飲食營養不良或看起來過度瘦弱、無精打采。"
+          "label_zh": "兒少飲食營養不良或看起來過度瘦弱、無精打采。",
+          "label_en": ""
         },
         {
           "code": "L",
-          "label_zh": "兒少說自己經常挨餓、三餐未滿足，或說大人經常以不給吃喝作為處罰。"
+          "label_zh": "兒少說自己經常挨餓、三餐未滿足，或說大人經常以不給吃喝作為處罰。",
+          "label_en": ""
         },
         {
           "code": "M",
-          "label_zh": "兒少經常乞食、偷食物，囤積食物、食用不新鮮食物。"
+          "label_zh": "兒少經常乞食、偷食物，囤積食物、食用不新鮮食物。",
+          "label_en": ""
         },
         {
           "code": "N",
-          "label_zh": "兒少持續處於骯髒、不衛生或衣著不當的情況。"
+          "label_zh": "兒少持續處於骯髒、不衛生或衣著不當的情況。",
+          "label_en": ""
         },
         {
           "code": "O",
-          "label_zh": "兒少被診斷出來的病況是因營養不良所致或惡化。"
+          "label_zh": "兒少被診斷出來的病況是因營養不良所致或惡化。",
+          "label_en": ""
         },
         {
           "code": "P",
-          "label_zh": "兒少或其家庭目前或即將沒有安全住所。 2026年05月28日修訂"
+          "label_zh": "兒少或其家庭目前或即將沒有安全住所。 2026年05月28日修訂",
+          "label_en": ""
         },
         {
           "code": "Q",
-          "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發 展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。"
+          "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發 展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。",
+          "label_en": ""
         },
         {
           "code": "S",
-          "label_zh": "使兒少為有對價之性交或猥褻行為。"
+          "label_zh": "使兒少為有對價之性交或猥褻行為。",
+          "label_en": ""
         },
         {
           "code": "T",
-          "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他 物品。"
+          "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他 物品。",
+          "label_en": ""
         },
         {
           "code": "V",
-          "label_zh": "使兒少坐檯陪酒或涉及色情伴遊、伴唱、伴舞等行為。"
+          "label_zh": "使兒少坐檯陪酒或涉及色情伴遊、伴唱、伴舞等行為。",
+          "label_en": ""
         },
         {
           "code": "W",
-          "label_zh": "兒少遭性騷擾、性霸凌。"
+          "label_zh": "兒少遭性騷擾、性霸凌。",
+          "label_en": ""
         },
         {
           "code": "X",
-          "label_zh": "家外成員不當對待（含兒少親密關係暴力）。"
+          "label_zh": "家外成員不當對待（含兒少親密關係暴力）。",
+          "label_en": ""
         },
         {
           "code": "Y",
-          "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定 足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款 行為。"
+          "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定 足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款 行為。",
+          "label_en": ""
         }
-      ]
+      ],
+      "field_en": ""
     }
   },
   "raw_text_first_page": "2026年05月28日修訂\n兒童及少年保護通報明細檔\n(Welfare14：W_DPS_PROCY)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_DPS _PROCY 資料筆數 62,105筆（以2025年為例）\nReported Data of Protection of Child and\n中文檔名 兒童及少年保護通報明細檔 英文檔名\nYouths\n檔案大小 10MB(以2025年為例) 欄位數 42\n譯碼簿\n屬性 現況檔 週期 年 2026/05/28\n更新日期\n1. 原則上一次通報一筆資料。\n2. 兒童及少年保護通報與分級分類處理及調查辦法依兒童及少年福利與權益保\n障法第五十三條規定訂定之。\n3. 依兒童及少年保護通報及處理辦法第二條，醫事人員、社會工作人員、教育人員、\n保育人員、警察、司法人員、村（里）幹事及其他執行兒童及少年福利業務人員，\n於執行業務時知悉有應保護之兒童及少年時，應立即填具通報表以網際網路、電\n資料描述 信傳真或其他科技設備傳送等方式通報直轄市、縣（市）主管機關，至遲不得逾\n二十四小時；情況緊急時，得先以言詞、電話通訊方式通報，並於知悉起二十四\n小時內填具通報表，送直轄市、縣（市）主管機關。\n前項通報人員通報內容應包含通報事由、違反本法第五十三條第一項各款情形、\n兒童及少年基本資料及其他相關資訊。\n4. 依兒童及少年保護通報及處理辦法第三條，前條以外之任何人知悉有應保護之兒\n童及少年時，得以前條規定方式或其他任何方式通報直轄市、縣（市）主管機關。\n1. 被害人及疑似施虐人身分證字號可能為空白。\n2. 可複選變項若為複選，會記錄在同一欄位中。\n3. 日期相關欄位皆為民國格式，年/月/日為000/00/00者表示不詳，如：0000101，表\n示年不詳、1040001表示月不詳、1040100表示日不詳。\n注意事項 4. 疑似嫌疑人相關欄位為主要的疑似嫌疑人資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 被害人個人歸戶及個人資料比對的鍵值：ID_C。\n對欄位 2. 疑似施虐人個人歸戶及個人資料比對的鍵值：ID_D。\n1",
@@ -1148,5 +1361,9 @@
   "pdf_sha256": "97ea83b680b05a91b68a1ea305d1d10be49bffa68d1f112a5a1f2913b6616f2f",
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2026-05-28",
-  "name_zh_from_listing": "Welfare14_兒童及少年保護通報明細檔"
+  "name_zh_from_listing": "Welfare14_兒童及少年保護通報明細檔",
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": ""
 }
