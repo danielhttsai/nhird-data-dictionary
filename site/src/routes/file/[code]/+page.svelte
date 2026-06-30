@@ -55,6 +55,32 @@
   const types = $derived([...new Set(fields.map(f => f.type).filter(Boolean))].sort());
 
   function copyText(t) { navigator.clipboard?.writeText(t); }
+
+  // Clean, human display label for a version (the raw version_id is internal).
+  function vLabel(v) {
+    let l = v.version_label || v.version_id;
+    l = l.replace(/^legacy · /, '').replace(/^Excel codebook · /, '');
+    if (l === 'legacy') l = '原始版本';
+    if (l === '20250624 起適用') l = '2025/06/24 起適用';
+    return l;
+  }
+  function vGroup(v) {
+    if (v.file_type === 'xls') return '編碼簿 Codebooks';
+    if (v.version_id.includes('__wave_')) return '附屬檔 / 波次 Sub-files';
+    return '主檔 Main versions';
+  }
+  // Build grouped option list (only versions that have a field table).
+  const groupedVersions = $derived.by(() => {
+    const g = new Map();
+    for (const v of file.versions) {
+      if (!v.has_extract) continue;
+      const k = vGroup(v);
+      if (!g.has(k)) g.set(k, []);
+      g.get(k).push(v);
+    }
+    return [...g];
+  });
+  const manyVersions = $derived(file.versions.filter(v => v.has_extract).length > 8);
 </script>
 
 <svelte:head><title>{file.code} — {file.name_zh} — NHIRD data dictionary</title></svelte:head>
@@ -76,24 +102,54 @@
 
   <!-- Version selector -->
   <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-    <div class="flex flex-wrap gap-2 items-center">
-      <span class="text-xs uppercase tracking-wide text-slate-500 font-semibold mr-2">Version</span>
-      {#each file.versions as v}
-        <button
-          class="text-xs px-3 py-1.5 rounded-lg border font-semibold transition
-            {v.version_id === selectedId
-              ? 'bg-brand-600 text-white border-brand-600'
-              : v.has_extract ? 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'
-                            : 'bg-slate-50 text-slate-400 border-slate-200 cursor-not-allowed'}"
-          disabled={!v.has_extract}
-          onclick={() => selectedId = v.version_id}
-        >{v.version_id}{!v.has_extract ? ' (zip)' : ''}</button>
-      {/each}
-      {#if file.diffs?.length}
-        <a class="ml-auto text-sm font-semibold text-brand-700 hover:underline"
-           href="{base}/file/{file.code}/diff/">Compare versions →</a>
-      {/if}
-    </div>
+    {#if manyVersions}
+      <!-- Many sub-files / waves → grouped dropdown -->
+      <div class="flex flex-wrap items-center gap-3">
+        <label class="text-xs uppercase tracking-wide text-slate-500 font-semibold">
+          Version / 檔案
+          <span class="ml-1 normal-case text-slate-400 font-normal">
+            ({file.versions.filter(v => v.has_extract).length} files & waves)
+          </span>
+        </label>
+        <select bind:value={selectedId}
+          class="flex-1 min-w-64 max-w-xl px-3 py-2 border border-slate-300 rounded-lg text-sm
+                 focus:outline-none focus:ring-2 focus:ring-brand-400">
+          {#each groupedVersions as [group, vs]}
+            <optgroup label={group}>
+              {#each vs as v}
+                <option value={v.version_id}>
+                  {vLabel(v)}{v.field_count ? ` — ${v.field_count} fields` : ''}
+                </option>
+              {/each}
+            </optgroup>
+          {/each}
+        </select>
+        {#if file.diffs?.length}
+          <a class="text-sm font-semibold text-brand-700 hover:underline"
+             href="{base}/file/{file.code}/diff/">Compare →</a>
+        {/if}
+      </div>
+    {:else}
+      <!-- Few versions → buttons -->
+      <div class="flex flex-wrap gap-2 items-center">
+        <span class="text-xs uppercase tracking-wide text-slate-500 font-semibold mr-2">Version</span>
+        {#each file.versions as v}
+          <button
+            class="text-xs px-3 py-1.5 rounded-lg border font-semibold transition
+              {v.version_id === selectedId
+                ? 'bg-brand-600 text-white border-brand-600'
+                : v.has_extract ? 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'
+                              : 'bg-slate-50 text-slate-400 border-slate-200 cursor-not-allowed'}"
+            disabled={!v.has_extract}
+            onclick={() => selectedId = v.version_id}
+          >{vLabel(v)}{!v.has_extract ? ' (zip)' : ''}</button>
+        {/each}
+        {#if file.diffs?.length}
+          <a class="ml-auto text-sm font-semibold text-brand-700 hover:underline"
+             href="{base}/file/{file.code}/diff/">Compare versions →</a>
+        {/if}
+      </div>
+    {/if}
   </section>
 
   {#if !meta}

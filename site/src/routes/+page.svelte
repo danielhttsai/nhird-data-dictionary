@@ -12,6 +12,24 @@
     return g;
   });
 
+  // Concise card summary instead of dumping every internal version id.
+  function summarize(it) {
+    const ev = it.versions.filter(v => v.has_extract && (v.field_count || 0) > 0);
+    const years = ev
+      .map(v => (v.version_id.match(/AD(\d{4})/) || [])[1])
+      .filter(Boolean).map(Number);
+    const hasXls = it.versions.some(v => v.file_type === 'xls');
+    const parts = [];
+    if (it.frequency) parts.push(`每${it.frequency}`);
+    if (years.length) {
+      const lo = Math.min(...years), hi = Math.max(...years);
+      parts.push(lo === hi ? `${lo}` : `${lo}–${hi}`);
+    }
+    const n = ev.length || it.versions.filter(v => v.has_extract).length;
+    parts.push(n === 1 ? '1 version' : `${n} versions`);
+    if (hasXls) parts.push('codebooks');
+    return parts.join(' · ');
+  }
 </script>
 
 <svelte:head>
@@ -80,17 +98,9 @@
               </div>
             {/if}
           </div>
-          <div class="mt-3 flex flex-wrap gap-1.5 items-center text-xs">
-            {#if it.frequency}
-              <span class="text-slate-500">每{it.frequency} ·</span>
-            {/if}
-            {#each it.versions as v}
-              <span class="px-2 py-0.5 rounded text-[11px] font-medium
-                           {v.file_type === 'zip'
-                             ? 'bg-amber-50 text-amber-800 border border-amber-200'
-                             : 'bg-brand-50 text-brand-700 border border-brand-100'}"
-                    title={v.version_label}>{v.version_id}{v.file_type === 'zip' ? ' (zip)' : ''}</span>
-            {/each}
+          <div class="mt-3 flex items-center justify-between gap-2 text-xs">
+            <span class="text-slate-500">{summarize(it)}</span>
+            <span class="text-brand-700 font-semibold opacity-0 group-hover:opacity-100 transition">view →</span>
           </div>
         </a>
       {/each}
