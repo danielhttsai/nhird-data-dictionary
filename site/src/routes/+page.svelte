@@ -15,62 +15,116 @@
   const totals = $derived({
     files: items.length,
     pdfs: items.reduce((n, it) => n + it.versions.filter(v => v.file_type === 'pdf').length, 0),
-    zips: items.reduce((n, it) => n + it.versions.filter(v => v.file_type === 'zip').length, 0)
+    zips: items.reduce((n, it) => n + it.versions.filter(v => v.file_type === 'zip').length, 0),
+    fields: items.reduce((n, it) => n + (it.field_count || 0), 0)
   });
 </script>
 
-<div class="space-y-6">
-  <section>
-    <h1 class="text-2xl font-bold">HWDC Database Catalogue</h1>
-    <p class="text-sm text-slate-600 mt-1">
-      {totals.files} files · {totals.pdfs} PDF specs · {totals.zips} multi-file (ZIP) bundles ·
-      generated {data.catalogue.generated_at?.slice(0, 10) || ''}
-    </p>
-  </section>
+<svelte:head>
+  <title>NHIRD / HWDC data dictionary</title>
+  <meta name="description" content="Browse every field in every public MOHW Health and Welfare Data Center database manual. 117 files, 4000+ fields, version-controlled and diffable." />
+</svelte:head>
 
-  {#each [...groups] as [category, list]}
-    <section>
-      <h2 class="text-lg font-semibold mb-2">
+<!-- Hero -->
+<section class="py-10 sm:py-14">
+  <p class="uppercase tracking-widest text-xs text-brand-600 font-semibold mb-3">
+    Real-world data · Taiwan HWDC
+  </p>
+  <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+    NHIRD / HWDC <span class="text-brand-700">data dictionary</span>
+  </h1>
+  <p class="mt-5 text-lg text-slate-700 max-w-3xl leading-relaxed">
+    Every field in every public MOHW database manual — bilingual names, codebooks,
+    period of availability, and version diffs. Sourced directly from MOHW Department of Statistics
+    and refreshed weekly.
+  </p>
+  <div class="mt-6 flex flex-wrap gap-3">
+    <a href="{base}/search" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow-sm">
+      Search across all fields →
+    </a>
+    <a href="{base}/file/Health01/" class="bg-white border border-slate-300 text-slate-700 hover:border-brand-600 hover:text-brand-700 font-semibold px-6 py-3 rounded-xl transition">
+      Open Health01 (NHIRD claims)
+    </a>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="pb-4">
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
+      <div class="text-3xl font-extrabold text-brand-700">{totals.files}</div>
+      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Files</div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
+      <div class="text-3xl font-extrabold text-brand-700">{totals.fields.toLocaleString()}</div>
+      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Fields</div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
+      <div class="text-3xl font-extrabold text-brand-700">{totals.pdfs}</div>
+      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">PDF specs</div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 text-center shadow-sm">
+      <div class="text-3xl font-extrabold text-brand-700">{totals.zips}</div>
+      <div class="text-xs uppercase tracking-wide text-slate-500 mt-1">Multi-wave ZIPs</div>
+    </div>
+  </div>
+  <p class="text-xs text-slate-500 mt-3 text-center">
+    Generated {data.catalogue.generated_at?.slice(0, 10) || ''} · Source MOHW DOS
+  </p>
+</section>
+
+<!-- Catalogue by category -->
+{#each [...groups] as [category, list]}
+  <section class="py-8">
+    <div class="flex items-baseline justify-between mb-4 gap-3">
+      <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-3">
         <span class="pill pill-{category}">{category}</span>
-        <span class="text-slate-500 font-normal text-sm ml-2">{list.length} files</span>
+        <span>{category === 'Health' ? '健康保險與醫療登錄'
+              : category === 'Society' ? '社會調查'
+              : category === 'Welfare' ? '社會福利與通報'
+              : '主題式加值資料庫'}</span>
       </h2>
-      <div class="overflow-x-auto rounded border border-slate-200">
-        <table class="tbl w-full bg-white text-left">
-          <thead>
-            <tr>
-              <th>Code</th>
-              <th>中文檔名</th>
-              <th>English name</th>
-              <th class="text-right">Fields</th>
-              <th>Freq.</th>
-              <th>Versions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {#each list as it}
-              <tr>
-                <td class="mono">
-                  <a href="{base}/file/{it.code}/" class="text-blue-700 hover:underline">{it.code}</a>
-                  {#if it.code_short}<div class="text-xs text-slate-500 mt-0.5">{it.code_short}</div>{/if}
-                </td>
-                <td>{it.name_zh}</td>
-                <td class="text-slate-600 text-xs">{it.name_en || ''}</td>
-                <td class="text-right tabular-nums">{it.field_count ?? '—'}</td>
-                <td class="text-slate-600">{it.frequency || ''}</td>
-                <td class="space-x-1">
-                  {#each it.versions as v}
-                    <a href="{base}/file/{it.code}/?v={v.version_id}"
-                       class="inline-block px-2 py-0.5 rounded text-xs
-                              {v.file_type === 'zip' ? 'bg-amber-100 text-amber-800' : 'bg-blue-100 text-blue-800'}
-                              hover:opacity-80"
-                       title="{v.version_label}{v.file_type === 'zip' ? ' (multi-file bundle)' : ''}">{v.version_id}</a>
-                  {/each}
-                </td>
-              </tr>
+      <span class="text-sm text-slate-500">{list.length} files</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {#each list as it}
+        <a href="{base}/file/{it.code}/"
+           class="group flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm
+                  hover:shadow-md hover:border-brand-400 transition">
+          <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="mono text-sm font-bold text-brand-700">{it.code}</span>
+                {#if it.code_short}<span class="mono text-xs text-slate-400">{it.code_short}</span>{/if}
+              </div>
+              <h3 class="font-bold text-slate-900 leading-snug group-hover:text-brand-700">
+                {it.name_zh}
+              </h3>
+              {#if it.name_en}
+                <p class="text-xs text-slate-500 mt-1 line-clamp-1">{it.name_en}</p>
+              {/if}
+            </div>
+            {#if it.field_count}
+              <div class="text-right shrink-0">
+                <div class="text-2xl font-extrabold text-brand-700 leading-none">{it.field_count}</div>
+                <div class="text-[10px] uppercase tracking-wide text-slate-500">fields</div>
+              </div>
+            {/if}
+          </div>
+          <div class="mt-3 flex flex-wrap gap-1.5 items-center text-xs">
+            {#if it.frequency}
+              <span class="text-slate-500">每{it.frequency} ·</span>
+            {/if}
+            {#each it.versions as v}
+              <span class="px-2 py-0.5 rounded text-[11px] font-medium
+                           {v.file_type === 'zip'
+                             ? 'bg-amber-50 text-amber-800 border border-amber-200'
+                             : 'bg-brand-50 text-brand-700 border border-brand-100'}"
+                    title={v.version_label}>{v.version_id}{v.file_type === 'zip' ? ' (zip)' : ''}</span>
             {/each}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  {/each}
-</div>
+          </div>
+        </a>
+      {/each}
+    </div>
+  </section>
+{/each}

@@ -1,36 +1,74 @@
 @import "tailwindcss";
 
 @theme {
-  --font-mono: "SFMono-Regular", "JetBrains Mono", "Cascadia Code", "Consolas", "Roboto Mono", monospace;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Match danielhttsai.github.io brand palette (forest-teal). */
+  --color-brand-50:  #ebf3f0;
+  --color-brand-100: #c8dfd8;
+  --color-brand-200: #a8cdc2;
+  --color-brand-400: #5d8e84;
+  --color-brand-500: #3d736a;
+  --color-brand-600: #2e5a52;
+  --color-brand-700: #21443e;
+  --color-brand-800: #18332e;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://rsms.me/inter/font-files/InterVariable.woff2?v=4.0") format("woff2-variations");
 }
 
 html { -webkit-text-size-adjust: 100%; }
+body { font-family: var(--font-sans); }
 
-/* Table polish: sticky headers + monospace for code columns */
+/* Subtle page tint matching home-tint */
+.page-tint {
+  background: linear-gradient(#fff, #f6faf8 60%, #eef5f1);
+  min-height: 100vh;
+}
+
+/* Field tables polish */
 .tbl thead th {
   position: sticky;
   top: 0;
   background: rgb(248 250 252);
   z-index: 10;
   border-bottom: 1px solid rgb(203 213 225);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: rgb(71 85 105);
 }
 .tbl td, .tbl th {
-  padding: 0.5rem 0.75rem;
+  padding: 0.625rem 0.875rem;
   vertical-align: top;
   font-size: 0.875rem;
 }
 .tbl tbody tr:hover { background: rgb(241 245 249); }
+.tbl tbody tr { border-top: 1px solid rgb(241 245 249); }
 .mono { font-family: var(--font-mono); }
 
-/* Category color pills */
-.pill-Health   { background: #dbeafe; color: #1e3a8a; }
+/* Category pill colours */
+.pill {
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+  display: inline-block;
+}
+.pill-Health   { background: var(--color-brand-50); color: var(--color-brand-700); }
 .pill-Society  { background: #fef3c7; color: #92400e; }
 .pill-Welfare  { background: #dcfce7; color: #14532d; }
-.pill-Topic    { background: #fce7f3; color: #831843; }
-.pill {
-  padding: 0.125rem 0.5rem;
-  border-radius: 0.25rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  white-space: nowrap;
-}
+.pill-Topic    { background: #ede9fe; color: #5b21b6; }
+
+/* Section helpers */
+.section { padding-top: 3rem; padding-bottom: 3rem; }
