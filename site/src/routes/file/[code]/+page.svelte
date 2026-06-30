@@ -139,7 +139,7 @@
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Data description</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.data_description_zh}</p>
           {#if meta.data_description_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_en}</p>
           {/if}
         </div>
       {/if}
@@ -148,7 +148,7 @@
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Notes</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.notes_zh}</p>
           {#if meta.notes_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_en}</p>
           {/if}
         </div>
       {/if}
@@ -157,7 +157,7 @@
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Primary keys / linkage</div>
           <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.primary_keys_raw}</p>
           {#if meta.primary_keys_en}
-            <p class="text-xs italic whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_en}</p>
           {/if}
         </div>
       {/if}
@@ -226,7 +226,7 @@
                   <td>
                     <div class="font-medium text-slate-800">{f.name_zh}</div>
                     {#if f.name_zh_en}
-                      <div class="text-xs italic text-slate-500 mt-0.5">{f.name_zh_en}</div>
+                      <div class="text-xs text-slate-500 mt-0.5">{f.name_zh_en}</div>
                     {/if}
                   </td>
                   <td class="mono group">
@@ -245,7 +245,7 @@
                   <td class="text-xs text-slate-700 max-w-md whitespace-pre-line leading-relaxed">
                     <div>{f.description_zh}</div>
                     {#if f.description_en}
-                      <div class="italic text-slate-500 mt-1">{f.description_en}</div>
+                      <div class="text-slate-500 mt-1">{f.description_en}</div>
                     {/if}
                     {#if f.section}
                       <div class="text-[10px] text-slate-400 mt-1">§ {f.section}</div>

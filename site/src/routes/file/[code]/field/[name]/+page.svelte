@@ -33,7 +33,7 @@
       {#if latest.field.name_zh_en}
         <div class="col-span-2 -mb-2">
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold">English name</div>
-          <div class="text-base font-semibold text-slate-800 italic">{latest.field.name_zh_en}</div>
+          <div class="text-base font-semibold text-slate-800">{latest.field.name_zh_en}</div>
         </div>
       {/if}
       <div>
@@ -48,7 +48,7 @@
         <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Description</div>
         <p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.description_zh}</p>
         {#if latest.field.description_en}
-          <p class="whitespace-pre-line leading-relaxed text-slate-500 italic text-sm mt-2">{latest.field.description_en}</p>
+          <p class="whitespace-pre-line leading-relaxed text-slate-500 text-sm mt-2">{latest.field.description_en}</p>
         {/if}
       </div>
       {#if latest.field.available_notes?.length}
@@ -79,7 +79,7 @@
                     <td class="mono font-semibold text-brand-700">{e.code}</td>
                     <td>
                       <div class="text-slate-800">{e.label_zh}</div>
-                      {#if e.label_en}<div class="text-xs italic text-slate-500">{e.label_en}</div>{/if}
+                      {#if e.label_en}<div class="text-xs text-slate-500">{e.label_en}</div>{/if}
                     </td>
                   </tr>
                 {/each}

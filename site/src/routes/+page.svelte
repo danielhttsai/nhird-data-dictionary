@@ -70,7 +70,7 @@
                 {it.name_zh}
               </h3>
               {#if it.name_en}
-                <p class="text-xs italic text-slate-500 mt-1 line-clamp-2">{it.name_en}</p>
+                <p class="text-xs text-slate-500 mt-1 line-clamp-2">{it.name_en}</p>
               {/if}
             </div>
             {#if it.field_count}

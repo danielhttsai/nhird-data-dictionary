@@ -64,7 +64,7 @@
                 <td class="text-right text-slate-400">{r.s}</td>
                 <td>
                   <div class="text-slate-800">{r.zh}</div>
-                  {#if r.ze}<div class="text-xs italic text-slate-500">{r.ze}</div>{/if}
+                  {#if r.ze}<div class="text-xs text-slate-500">{r.ze}</div>{/if}
                 </td>
                 <td class="mono">
                   {#if r.en}
