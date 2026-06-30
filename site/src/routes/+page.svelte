@@ -52,10 +52,10 @@
   </p>
   <div class="mt-6 flex flex-wrap gap-3">
     <a href="{base}/search" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow-sm">
-      Search across all fields →
+      Hunt down any variable →
     </a>
     <a href="{base}/file/Health01/" class="bg-white border border-slate-300 text-slate-700 hover:border-brand-600 hover:text-brand-700 font-semibold px-6 py-3 rounded-xl transition">
-      Open Health01 (NHIRD claims)
+      Start where everyone starts — NHIRD claims →
     </a>
   </div>
 </section>
