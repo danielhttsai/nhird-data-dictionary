@@ -1,0 +1,1318 @@
+{
+  "source_pdf": "Welfare14_post-20250624.pdf",
+  "code_short": "W_DPS _PROCY",
+  "name_zh": "兒童及少年保護通報明細檔",
+  "name_en": "Reported Data of Protection of Child and Youths",
+  "record_count_raw": "62,105筆（以2025年為例）",
+  "field_count_declared": 41,
+  "file_size_raw": "11MB(以2025年為例)",
+  "frequency": "年",
+  "attribute": "現況檔",
+  "update_history_raw": "2025/06/24初版\n2026/05/28修訂",
+  "update_history": [
+    {
+      "date": "2025/06/24",
+      "note": "初版"
+    },
+    {
+      "date": "2026/05/28",
+      "note": "修訂"
+    }
+  ],
+  "data_description_zh": "1. 原則上一次通報一筆資料。\n2. 兒童及少年保護通報與分級分類處理及調查辦法依兒童及少年福利與權益保\n障法第五十三條規定訂定之。\n3. 依兒童及少年保護通報及處理辦法第二條，醫事人員、社會工作人員、教育人員、\n保育人員、警察、司法人員、村（里）幹事及其他執行兒童及少年福利業務人員，\n於執行業務時知悉有應保護之兒童及少年時，應立即填具通報表以網際網路、電\n信傳真或其他科技設備傳送等方式通報直轄市、縣（市）主管機關，至遲不得逾\n二十四小時；情況緊急時，得先以言詞、電話通訊方式通報，並於知悉起二十四\n小時內填具通報表，送直轄市、縣（市）主管機關。\n前項通報人員通報內容應包含通報事由、違反本法第五十三條第一項各款情形、\n兒童及少年基本資料及其他相關資訊。\n4. 依兒童及少年保護通報及處理辦法第三條，前條以外之任何人知悉有應保護之兒\n童及少年時，得以前條規定方式或其他任何方式通報直轄市、縣（市）主管機關。",
+  "notes_zh": "1. 被害人及疑似施虐人身分證字號可能為空白。\n2. 可複選變項若為複選，會記錄在同一欄位中。\n3. 日期相關欄位皆為民國格式，年/月/日為000/00/00者表示不詳，如：0000101，表\n示年不詳、1040001表示月不詳、1040100表示日不詳。\n4. 疑似嫌疑人相關欄位為主要的疑似嫌疑人資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比 1. 受保護/被害人個人歸戶及個人資料比對的鍵值：VVID。\n2. 疑似施虐者/相對人/嫌疑人個人歸戶及個人資料比對的鍵值：DVID。",
+  "primary_keys_raw": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "縣市別",
+      "name_en": "OWNERCITYCODE",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 2,
+      "name_zh": "通報人員",
+      "name_en": "INFOERTYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 3,
+      "name_zh": "通報單位",
+      "name_en": "INFOUNIT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "name_zh": "受保護/被害人身分證 字號",
+      "name_en": "VVID",
+      "type": "Char",
+      "length": 42,
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
+      "available_notes": [
+        {
+          "roc_year": 103,
+          "ad_year": 2014,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": ""
+        },
+        {
+          "roc_year": 109,
+          "ad_year": 2020,
+          "marker": ""
+        },
+        {
+          "roc_year": 110,
+          "ad_year": 2021,
+          "marker": ""
+        },
+        {
+          "roc_year": 111,
+          "ad_year": 2022,
+          "marker": ""
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        },
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "name_zh": "受保護/被害人性別",
+      "name_en": "VGENDER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "受保護/被害人身分證 字號檢誤",
+      "name_en": "VVID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "受保護/被害人出生年 月",
+      "name_en": "VBIRTH_YM",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "提供民國年月YYYMM",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "受保護/被害人國籍別",
+      "name_en": "VIDTYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "就學狀況",
+      "name_en": "VSTUDENTSTATUS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "受保護/被害人教育程 度",
+      "name_en": "EDUCATION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "name_zh": "受保護/被害人障礙別",
+      "name_en": "MAIMED",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "可複選；詳譯碼說明 108年起無 102-103、105-106年長度為3 101、107年長度為5",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "name_zh": "受保護/被害人疑似身 心障礙者 選其他時所 填資料",
+      "name_en": "OTHERMAIMED",
+      "type": "Char",
+      "length": 44,
+      "description_zh": "108年起無 101年長度為35 102年長度為36",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        },
+        {
+          "roc_year": 102,
+          "ad_year": 2013,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "name_zh": "受保護/被害人領有身 心障礙手冊 選其他時 所填資料",
+      "name_en": "OTHERMAIMED2",
+      "type": "Char",
+      "length": 28,
+      "description_zh": "108年起無 101年長度為40 102年長度為42 104年長度為27 106年長度為22 103、105、107年長度為44",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        },
+        {
+          "roc_year": 102,
+          "ad_year": 2013,
+          "marker": ""
+        },
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "name_zh": "受保護/被害人是否為 身心障礙者及其障別",
+      "name_en": "VDISABILITY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號",
+      "name_en": "DVID",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
+      "available_notes": [
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        },
+        {
+          "roc_year": 103,
+          "ad_year": 2014,
+          "marker": ""
+        },
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": ""
+        },
+        {
+          "roc_year": 111,
+          "ad_year": 2022,
+          "marker": ""
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        },
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人性別",
+      "name_en": "DGENDER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號檢誤",
+      "name_en": "DVID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人出生年月",
+      "name_en": "DBIRTH_YM",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "提供民國年月YYYMM",
+      "available_notes": []
+    },
+    {
+      "seq": 19,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人教育程度",
+      "name_en": "DEDUCATION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "name_zh": "與兒少關係",
+      "name_en": "CHILDRELATION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 21,
+      "name_zh": "兩造關係類別",
+      "name_en": "ISFAMILYMEMBER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "A：家庭成員 B：非家庭成員 C、Z：不詳 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "name_zh": "家庭成員",
+      "name_en": "FAMILYMEMBER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "name_zh": "非家庭成員",
+      "name_en": "NOTFAMILYMEMB ER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人障礙別",
+      "name_en": "DMAIMED",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "可複選；詳譯碼說明 108年起無 101年長度為2 104年長度為4 105-106長度為10",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        },
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人疑似身心障礙者 選其他時所填資料",
+      "name_en": "DOTHERMAIMED",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "108年起無 101年長度為72 102年長度為36 103年長度為22 104年長度為30 105、107年長度為26 106年長度為34",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        },
+        {
+          "roc_year": 102,
+          "ad_year": 2013,
+          "marker": ""
+        },
+        {
+          "roc_year": 103,
+          "ad_year": 2014,
+          "marker": ""
+        },
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "name_zh": "疑似施虐者/相對人/嫌 疑人領有身心障礙手冊 選其他時所填資料",
+      "name_en": "DOTHERMAIMED2",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "108年起無 102年長度為14 101、103年長度為18 105年長度為11 104、106年長度為16 107年長度為46",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 102,
+          "ad_year": 2013,
+          "marker": ""
+        },
+        {
+          "roc_year": 103,
+          "ad_year": 2014,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "name_zh": "身心障礙",
+      "name_en": "DDISABILITY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "name_zh": "兒少保護情事-兒少有下 列行為者",
+      "name_en": "CPARTICLE1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "可複選；詳譯碼說明 108年起無 103、107年長度為1",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "name_zh": "兒少保護情事-任何人 對兒少有下列行為者",
+      "name_en": "CPARTICLE2",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "可複選；詳譯碼說明 108年起無 101年長度為15",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "name_zh": "兒少保護情事-下列緊 急情況，建議立即以電 話聯繫當地主管機關社 工員評估處理，並依兒 少保護通報及處理辦法 第 6 條規定，於主管機 關處理前，提供兒少適 當之保護及照顧",
+      "name_en": "CPARTICLE3",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "可複選；詳譯碼說明 108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "name_zh": "兒少保護情事-父母、監 護人或其他實際照顧兒 童及少年之人對兒少有 下列行為者",
+      "name_en": "CPARTICLE4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "可複選；詳譯碼說明 101年起新增；108年起無 101-104年長度為2",
+      "available_notes": [
+        {
+          "roc_year": 101,
+          "ad_year": 2012,
+          "marker": "起"
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "name_zh": "受理時間-年",
+      "name_en": "RECEIVETIMEYEA R",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "西元年YYYY",
+      "available_notes": []
+    },
+    {
+      "seq": 33,
+      "name_zh": "受理時間-月",
+      "name_en": "RECEIVETIMEMON TH",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "MM",
+      "available_notes": []
+    },
+    {
+      "seq": 34,
+      "name_zh": "案發縣市",
+      "name_en": "OCCURCITY",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "name_zh": "案發鄉鎮別",
+      "name_en": "OCCURTOWN",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 36,
+      "name_zh": "發生時間",
+      "name_en": "OCCURTIME",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "YYYMMDDHH 108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "name_zh": "主要發生場所",
+      "name_en": "OCCURPLACE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "name_zh": "傷亡程度",
+      "name_en": "NINJURY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "name_zh": "施暴手法（工具）",
+      "name_en": "VIOLENCEMETHO D",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "詳譯碼說明 108年起新增 110、112年長度為6",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "name_zh": "受暴類型",
+      "name_en": "ABUSECATEGORY",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "name_zh": "受暴類型子項",
+      "name_en": "ABUSETYPE",
+      "type": "Char",
+      "length": 22,
+      "description_zh": "詳譯碼說明 108年起新增",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    }
+  ],
+  "codebooks": {
+    "INFOERTYPE": {
+      "field_zh": "通報人員",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "M 村里幹事 員"
+        },
+        {
+          "code": "2",
+          "label_zh": "就業服務機構及其從業人員 N 村里長"
+        },
+        {
+          "code": "3",
+          "label_zh": "觀光業從業人員 O 公衛護士"
+        },
+        {
+          "code": "4",
+          "label_zh": "電子遊戲場業從業人員 P 戶政人員 109年起修正"
+        },
+        {
+          "code": "5",
+          "label_zh": "資訊休閒業從業人員 Q 法(獄)政人員 原：法(獄)政人員、矯正人 員"
+        },
+        {
+          "code": "A",
+          "label_zh": "司(軍)法人員 R 公寓大廈管理員 其他執行兒童少年福利業務人"
+        },
+        {
+          "code": "C",
+          "label_zh": "醫護人員 S 員"
+        },
+        {
+          "code": "D",
+          "label_zh": "警察人員 T 父或母"
+        },
+        {
+          "code": "E",
+          "label_zh": "保育人員 U 親友"
+        },
+        {
+          "code": "F",
+          "label_zh": "教育人員 V 案主主動求助"
+        },
+        {
+          "code": "G",
+          "label_zh": "照顧服務員 W 鄰居及社會人士"
+        },
+        {
+          "code": "H",
+          "label_zh": "社會工作人員 X 矯正人員"
+        },
+        {
+          "code": "I",
+          "label_zh": "老人福利機構人員 Y 教保服務人員"
+        },
+        {
+          "code": "J",
+          "label_zh": "勞政人員 Z 其他"
+        },
+        {
+          "code": "K",
+          "label_zh": "憲兵 z 其他"
+        },
+        {
+          "code": "L",
+          "label_zh": "移民業務人員"
+        }
+      ]
+    },
+    "INFOUNIT": {
+      "field_zh": "通報單位",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "司(軍)法 K 診所及衛生所"
+        },
+        {
+          "code": "C",
+          "label_zh": "醫院 L 移民業務機關"
+        },
+        {
+          "code": "D",
+          "label_zh": "警政 M 民政"
+        },
+        {
+          "code": "E",
+          "label_zh": "社政 P 移民業務機關(同L)"
+        },
+        {
+          "code": "F",
+          "label_zh": "教育 Q 戶政"
+        },
+        {
+          "code": "G",
+          "label_zh": "衛政 U 憲兵"
+        },
+        {
+          "code": "H",
+          "label_zh": "防治中心 Y 醫院、診所"
+        },
+        {
+          "code": "I",
+          "label_zh": "一一三 Z 其他"
+        },
+        {
+          "code": "J",
+          "label_zh": "勞政 2026年05月28日修訂"
+        }
+      ]
+    },
+    "VIDTYPE": {
+      "field_zh": "國籍別",
+      "entries": [
+        {
+          "code": "9",
+          "label_zh": "本國籍原住民－賽德克 N 本國籍原住民－賽夏"
+        },
+        {
+          "code": "A",
+          "label_zh": "本國籍非原住民 O 本國籍原住民－阿美"
+        },
+        {
+          "code": "B",
+          "label_zh": "本國籍原住民－其他 P 本國籍原住民－魯凱"
+        },
+        {
+          "code": "C",
+          "label_zh": "大陸籍 Q 本國籍原住民－泰雅"
+        },
+        {
+          "code": "D",
+          "label_zh": "港澳籍 R 本國籍原住民－達悟（雅美）"
+        },
+        {
+          "code": "E",
+          "label_zh": "外國籍－印尼 S 本國籍原住民－卑南"
+        },
+        {
+          "code": "F",
+          "label_zh": "外國籍－泰國 T 本國籍原住民－鄒"
+        },
+        {
+          "code": "G",
+          "label_zh": "外國籍－菲律賓 U 本國籍原住民－邵"
+        },
+        {
+          "code": "H",
+          "label_zh": "外國籍－越南 V 外國籍－柬埔寨"
+        },
+        {
+          "code": "I",
+          "label_zh": "外國籍－其他 W 本國籍原住民－噶瑪蘭"
+        },
+        {
+          "code": "J",
+          "label_zh": "資料不明 X 本國籍原住民－太魯閣"
+        },
+        {
+          "code": "K",
+          "label_zh": "無國籍 Y 外國籍－蒙古"
+        },
+        {
+          "code": "L",
+          "label_zh": "本國籍原住民－布農 Z 本國籍原住民－撒奇萊雅"
+        },
+        {
+          "code": "M",
+          "label_zh": "本國籍原住民－排灣 108年起參閱： 代碼 說明 代碼 說明"
+        },
+        {
+          "code": "A",
+          "label_zh": "本國籍非原住民 D 外國籍"
+        },
+        {
+          "code": "B",
+          "label_zh": "本國籍原住民 E 無國籍"
+        },
+        {
+          "code": "C",
+          "label_zh": "大陸及港澳籍 Z 資料不明"
+        }
+      ]
+    },
+    "VSTUDENTSTATUS": {
+      "field_zh": "就學狀況",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "未入學 D 輟學"
+        },
+        {
+          "code": "B",
+          "label_zh": "學前教育 E 休學"
+        },
+        {
+          "code": "C",
+          "label_zh": "就學中 F 未再升學 108年起參閱： 代碼 說明 代碼 說明 代碼 說明"
+        },
+        {
+          "code": "A",
+          "label_zh": "學生 B 未入學 C 非學生 2026年05月28日修訂"
+        }
+      ]
+    },
+    "CHILDRELATION": {
+      "field_zh": "與兒少之關係",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "父 F 機構人員"
+        },
+        {
+          "code": "B",
+          "label_zh": "母 G 母之同居人或繼父"
+        },
+        {
+          "code": "C",
+          "label_zh": "養父 H 父之同居人或繼母"
+        },
+        {
+          "code": "D",
+          "label_zh": "養母 I 親戚"
+        },
+        {
+          "code": "E",
+          "label_zh": "照顧者 J 其他 2026年05月28日修訂"
+        }
+      ]
+    },
+    "CPARTICLE1": {
+      "field_zh": "兒少保護情事-兒少有下列行為者",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "兒少施用毒品、非法施用管制藥品或其他有害身心健康之物質 兒少充當酒家、特種咖啡茶室、限制級電子遊戲場及其他涉及賭博、色情、暴力等足以 危害其身心健康場所之侍應"
+        }
+      ]
+    },
+    "CPARTICLE2": {
+      "field_zh": "任何人對兒少有下列行為者",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "遺棄"
+        },
+        {
+          "code": "B",
+          "label_zh": "身心虐待"
+        },
+        {
+          "code": "C",
+          "label_zh": "利用其從事有害健康等危險性活動或欺騙之行為"
+        },
+        {
+          "code": "D",
+          "label_zh": "利用身心障礙或畸形兒童供人參觀"
+        },
+        {
+          "code": "E",
+          "label_zh": "利用其行乞"
+        },
+        {
+          "code": "F",
+          "label_zh": "剝奪或妨礙其接受國民教育之機會"
+        },
+        {
+          "code": "G",
+          "label_zh": "強迫其婚嫁"
+        },
+        {
+          "code": "H",
+          "label_zh": "拐騙、綁架、買賣、質押，或以其為擔保之行為"
+        },
+        {
+          "code": "I",
+          "label_zh": "強迫、引誘、容留或媒介其為猥褻行為或性交"
+        },
+        {
+          "code": "J",
+          "label_zh": "供應刀械或其他危險物品 利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網 際網路或其他物品 違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路 或其他物品"
+        },
+        {
+          "code": "M",
+          "label_zh": "帶領或誘使其進入有礙其身心健康之場所 強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺 防治中心)"
+        },
+        {
+          "code": "O",
+          "label_zh": "迫使或誘使處於對其生命、身體易發生立即危險或傷害之環境"
+        },
+        {
+          "code": "Z",
+          "label_zh": "其他對兒童及少年或利用兒童及少年犯罪或為不正當之行為"
+        }
+      ]
+    },
+    "CPARTICLE3": {
+      "field_zh": "下列緊急情況",
+      "entries": [
+        {
+          "code": "B",
+          "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者 兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險 之虞者"
+        },
+        {
+          "code": "D",
+          "label_zh": "兒少遭受其他迫害，致其其生命身體或自由有立即之危險或有危險之虞者 2026年05月28日修訂"
+        }
+      ]
+    },
+    "CPARTICLE4": {
+      "field_zh": "父母、監護人或其他實際照顧兒童及少年之人對兒少有下列行為者",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "使兒童獨處於易發生危險或傷害之環境"
+        },
+        {
+          "code": "B",
+          "label_zh": "對於6歲以下兒童或需要特別看護之兒童及少年，使其獨處或由不適當之人代為照顧"
+        }
+      ]
+    },
+    "OCCURPLACE": {
+      "field_zh": "主要發生場所",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "住(居)所 H 旅(賓)館"
+        },
+        {
+          "code": "B",
+          "label_zh": "辦公/工作場所 I 矯正機關 特殊營業場所(視聽歌唱業、理髮業、三"
+        },
+        {
+          "code": "C",
+          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒 吧業、特殊咖啡茶室業)"
+        },
+        {
+          "code": "D",
+          "label_zh": "學校 K 社會福利/安置照顧機構/兒少安置機構"
+        },
+        {
+          "code": "E",
+          "label_zh": "寄養家庭 L 網際網路"
+        },
+        {
+          "code": "F",
+          "label_zh": "補習班 Z 其他"
+        },
+        {
+          "code": "G",
+          "label_zh": "高級中等以下有提供住宿之學校 X 不詳"
+        }
+      ]
+    },
+    "NINJURY": {
+      "field_zh": "傷亡程度",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "未受傷 D 死亡"
+        },
+        {
+          "code": "B",
+          "label_zh": "無明顯傷勢 Z 不詳"
+        },
+        {
+          "code": "C",
+          "label_zh": "有明顯傷勢"
+        }
+      ]
+    },
+    "VIOLENCEMETHOD": {
+      "field_zh": "施暴手法（工具）",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "持凶器或物品 J 假宗教之身分、場域或話術(天主教)"
+        },
+        {
+          "code": "B",
+          "label_zh": "言語脅迫 K 假宗教之身分、場域或話術(其他)"
+        },
+        {
+          "code": "C",
+          "label_zh": "徒手 L 運用網際網路(含APP)"
+        },
+        {
+          "code": "D",
+          "label_zh": "誘騙/誘拐 M 藥劑、毒品控制"
+        },
+        {
+          "code": "E",
+          "label_zh": "趁被害人熟睡 N 餵食酒精、毒或不當藥物"
+        },
+        {
+          "code": "F",
+          "label_zh": "使用藥物 O 摔毀物品"
+        },
+        {
+          "code": "G",
+          "label_zh": "使用酒精 X 無"
+        },
+        {
+          "code": "H",
+          "label_zh": "假宗教之身分、場域或話術(佛神道教) Y 不詳"
+        },
+        {
+          "code": "I",
+          "label_zh": "假宗教之身分、場域或話術(基督教) Z 其他 2026年05月28日修訂"
+        }
+      ]
+    },
+    "ABUSECATEGORY": {
+      "field_zh": "受暴類型",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "兒少遭受身體不當對待 E 兒少遭受性侵害"
+        },
+        {
+          "code": "B",
+          "label_zh": "兒少之父母(照顧者)監護不周 F 兒少遭受性剝削 因父母(照顧者)因素，兒少飲食、衛生"
+        },
+        {
+          "code": "C",
+          "label_zh": "衣著、居住環境照顧不周，有接受協助 G 兒少遭其他不當對待 之需求"
+        },
+        {
+          "code": "D",
+          "label_zh": "兒少遭精神不當對待"
+        }
+      ]
+    },
+    "ABUSETYPE": {
+      "field_zh": "受暴類型子項",
+      "entries": [
+        {
+          "code": "A",
+          "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造 成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為 照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、"
+        },
+        {
+          "code": "D",
+          "label_zh": "即將或已出現可能使兒少成傷行為、出現危險的舉動、衝突或劇烈爭吵，以致可能波及 兒少。"
+        },
+        {
+          "code": "E",
+          "label_zh": "醫療人員評估，兒少目前的傷勢為受虐所致。 兒少有以下情形之一且有接受協助之需求："
+        },
+        {
+          "code": "F",
+          "label_zh": "1. 6歲以下或需特別看護之兒少，獨處或由不適當之人代為照顧。 2. 兒少處於危險情境中。 父母(照顧者)有以下情形之一，致兒少日常生活受到影響，需要協助："
+        },
+        {
+          "code": "G",
+          "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有 暫時性替代照顧方案。"
+        },
+        {
+          "code": "I",
+          "label_zh": "兒少應就醫而未就醫、延遲就醫或過度就醫，且有接受協助之需求。"
+        },
+        {
+          "code": "J",
+          "label_zh": "兒少父母(照顧者)剝奪、妨礙或影響兒少接受義務教育的機會。"
+        },
+        {
+          "code": "K",
+          "label_zh": "兒少飲食營養不良或看起來過度瘦弱、無精打采。"
+        },
+        {
+          "code": "L",
+          "label_zh": "兒少說自己經常挨餓、三餐未滿足，或說大人經常以不給吃喝作為處罰。"
+        },
+        {
+          "code": "M",
+          "label_zh": "兒少經常乞食、偷食物，囤積食物、食用不新鮮食物。"
+        },
+        {
+          "code": "N",
+          "label_zh": "兒少持續處於骯髒、不衛生或衣著不當的情況。"
+        },
+        {
+          "code": "O",
+          "label_zh": "兒少被診斷出來的病況是因營養不良所致或惡化。"
+        },
+        {
+          "code": "P",
+          "label_zh": "兒少或其家庭目前或即將沒有安全住所。 2026年05月28日修訂"
+        },
+        {
+          "code": "Q",
+          "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發 展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。"
+        },
+        {
+          "code": "S",
+          "label_zh": "使兒少為有對價之性交或猥褻行為。"
+        },
+        {
+          "code": "T",
+          "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他 物品。"
+        },
+        {
+          "code": "V",
+          "label_zh": "使兒少坐檯陪酒或涉及色情伴遊、伴唱、伴舞等行為。"
+        },
+        {
+          "code": "W",
+          "label_zh": "兒少遭性騷擾、性霸凌。"
+        },
+        {
+          "code": "X",
+          "label_zh": "家外成員不當對待（含兒少親密關係暴力）。"
+        },
+        {
+          "code": "Y",
+          "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定 足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款 行為。"
+        }
+      ]
+    }
+  },
+  "raw_text_first_page": "2026年05月28日修訂\n兒童及少年保護通報明細檔\n(Welfare14：W_DPS_PROCY)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_DPS _PROCY 資料筆數 62,105筆（以2025年為例）\nReported Data of Protection of Child and\n中文檔名 兒童及少年保護通報明細檔 英文檔名\nYouths\n檔案大小 11MB(以2025年為例) 欄位數 41\n譯碼簿 2025/06/24初版\n屬性 現況檔 週期 年\n更新日期 2026/05/28修訂\n1. 原則上一次通報一筆資料。\n2. 兒童及少年保護通報與分級分類處理及調查辦法依兒童及少年福利與權益保\n障法第五十三條規定訂定之。\n3. 依兒童及少年保護通報及處理辦法第二條，醫事人員、社會工作人員、教育人員、\n保育人員、警察、司法人員、村（里）幹事及其他執行兒童及少年福利業務人員，\n於執行業務時知悉有應保護之兒童及少年時，應立即填具通報表以網際網路、電\n資料描述 信傳真或其他科技設備傳送等方式通報直轄市、縣（市）主管機關，至遲不得逾\n二十四小時；情況緊急時，得先以言詞、電話通訊方式通報，並於知悉起二十四\n小時內填具通報表，送直轄市、縣（市）主管機關。\n前項通報人員通報內容應包含通報事由、違反本法第五十三條第一項各款情形、\n兒童及少年基本資料及其他相關資訊。\n4. 依兒童及少年保護通報及處理辦法第三條，前條以外之任何人知悉有應保護之兒\n童及少年時，得以前條規定方式或其他任何方式通報直轄市、縣（市）主管機關。\n1. 被害人及疑似施虐人身分證字號可能為空白。\n2. 可複選變項若為複選，會記錄在同一欄位中。\n3. 日期相關欄位皆為民國格式，年/月/日為000/00/00者表示不詳，如：0000101，表\n示年不詳、1040001表示月不詳、1040100表示日不詳。\n注意事項 4. 疑似嫌疑人相關欄位為主要的疑似嫌疑人資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 受保護/被害人個人歸戶及個人資料比對的鍵值：VVID。\n對欄位 2. 疑似施虐者/相對人/嫌疑人個人歸戶及個人資料比對的鍵值：DVID。\n1",
+  "qa": {
+    "errors": [],
+    "warnings": []
+  },
+  "page_count": 21,
+  "code": "Welfare14",
+  "category": "Welfare",
+  "version_id": "post-20250624",
+  "version_label": "20250624 起適用",
+  "pdf_url": "https://www.mohw.gov.tw/dl-100547-6f753430-9df8-41f4-910b-a214cec8c9d1.html",
+  "pdf_sha256": "f0b8d1ed60cb22b0e40852a7843d2a6f7970e4bfad8f707e7c0eb4901d88af69",
+  "doc_first_published": "2026-05-26",
+  "doc_last_updated": "2026-05-28",
+  "name_zh_from_listing": "Welfare14_兒童及少年保護通報明細檔(20250624起適用)"
+}

@@ -1,0 +1,31 @@
+{
+  "code": "Health43",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 32,
+  "later_field_count": 32,
+  "added": [],
+  "removed": [],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "FEE_YM",
+      "seq_later": 2,
+      "changes": {
+        "description_zh": {
+          "from": "西元年YYYYMM",
+          "to": "西元年YYYYMM 112年起欄位格式為數 字型態，長度為8碼。"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / SvelteKit
+node_modules/
+site/.svelte-kit/
+site/build/
+site/.vercel/
+site/.netlify/
+site/.env*
+site/static/data/*.json
+!site/static/data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local junk
+*.bak
+*.bak.*
+*.log

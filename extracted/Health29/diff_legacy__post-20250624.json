@@ -1,0 +1,79 @@
+{
+  "code": "Health29",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 7,
+  "later_field_count": 7,
+  "added": [],
+  "removed": [],
+  "modified": [
+    {
+      "key": "PRSN_S",
+      "seq_later": 1,
+      "changes": {
+        "name_zh": {
+          "from": "醫事人員性別9：不詳",
+          "to": "醫事人員性別"
+        },
+        "description_zh": {
+          "from": "2：女性",
+          "to": "F：女性"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 2,
+      "changes": {
+        "description_zh": {
+          "from": "西元年 ，YYYYMM",
+          "to": "西元年 YYYYMM"
+        }
+      }
+    },
+    {
+      "key": "PRSN_TYPE",
+      "seq_later": 4,
+      "changes": {
+        "name_zh": {
+          "from": "人員類別01：執業",
+          "to": "人員類別1：執業"
+        }
+      }
+    },
+    {
+      "key": "WORK_STATUS",
+      "seq_later": 5,
+      "changes": {
+        "name_zh": {
+          "from": "執業狀態03：歇業",
+          "to": "執業狀態3：歇業"
+        },
+        "description_zh": {
+          "from": "02：停業",
+          "to": "2：停業"
+        }
+      }
+    },
+    {
+      "key": "PRT_AREA",
+      "seq_later": 6,
+      "changes": {
+        "length": {
+          "from": 10,
+          "to": 6
+        }
+      }
+    },
+    {
+      "key": "PRT_ZIP",
+      "seq_later": 7,
+      "changes": {
+        "length": {
+          "from": 10,
+          "to": 8
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "code": "Health57",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 17,
+  "later_field_count": 13,
+  "added": [
+    {
+      "seq": 2,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY101",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付； 4：其他公務預算補助； 5：自費健康檢查； 6：矯正機關(Oral99.OralA 1070116匯入) 9：其他 (3459於1050801 啟用,不再收 2)",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號碼 為護照號碼)。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "口腔切片日期",
+      "name_en": "CUTDATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "轉診醫療院所代碼",
+      "name_en": "TRANSFERUNI T",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "身分證字號性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不 詳。",
+      "available_notes": []
+    },
+    {
+      "seq": 15,
+      "name_zh": "確診醫院層級",
+      "name_en": "CONFIRMUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況 檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "檢查醫療院所地區",
+      "name_en": "CHECKUNIT_CI TY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "治療醫院層級",
+      "name_en": "TREATMENTUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況 檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "轉診醫療院所地區",
+      "name_en": "TRANSFERUNI T_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 3,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付； 4：其他公務預算補助； 5：自費健康檢查； 6：矯正機關(Oral99.OralA 1070116匯入) 9：其他 (3459於1050801 啟用,不再收 2)",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "篩檢地點",
+      "name_en": "CHECK_P",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：社區或職場設站篩檢； 2：醫療院所。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "檢查醫師科別",
+      "name_en": "SUBJECT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：牙科；2：耳鼻喉科； 3：經本署認可之其他科醫師",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "病理切片醫院層級",
+      "name_en": "CUT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "確診醫院代碼",
+      "name_en": "CONF_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "檢查醫療院所代碼",
+      "name_en": "CHECK_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 11,
+      "name_zh": "確診醫院層級",
+      "name_en": "CONF_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "檢查醫療院所層級",
+      "name_en": "CHECK_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "檢查結果",
+      "name_en": "ORAL_RESULT",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 15,
+      "name_zh": "轉診醫療院所代碼",
+      "name_en": "TRANS_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "治療醫院代碼",
+      "name_en": "TREAT_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "轉診醫療院所層級",
+      "name_en": "TRANS_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "CODE",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "95：30歲以上有嚼檳榔（含已",
+          "to": "95：30歲以上有嚼檳榔（含已 戒）或吸菸習慣者； 97：18歲以上至未滿 30歲有嚼 檳榔（含已戒）習慣之原住 民。 66：矯正機關"
+        }
+      }
+    }
+  ]
+}

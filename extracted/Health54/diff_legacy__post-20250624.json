@@ -1,0 +1,375 @@
+{
+  "code": "Health54",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 31,
+  "later_field_count": 31,
+  "added": [
+    {
+      "seq": 1,
+      "name_zh": "新醫事機構代碼",
+      "name_en": "NEW_MEDCODE",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "CITIZEN_ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "舊醫事機構代碼",
+      "name_en": "MEDIORG_CODE",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "當時通訊地行政區",
+      "name_en": "ADDR_TOWN_PR ESENT",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "舊醫療機構權屬別",
+      "name_en": "MEDIORG_CODE _HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "支付方式",
+      "name_en": "PAY_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "子宮是否接受過放射線治療",
+      "name_en": "IRRADIATE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是；2：否；3：不知道",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "檢體取樣日期",
+      "name_en": "SAMPLING_DATE",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "西元年YYYY-MM-DD",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "檢體取樣機構",
+      "name_en": "SAMPLING_ORG",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 15,
+      "name_zh": "檢體取樣機構地區",
+      "name_en": "SAMPLING_ORG_ CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "檢體取樣機構權屬別",
+      "name_en": "SAMPLING_ORG_ HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "做抹片目的",
+      "name_en": "PURPOSE2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 19,
+      "name_zh": "細胞病理編號",
+      "name_en": "CYTOPATHOLOGI C_NO",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "有大小寫之分",
+      "available_notes": []
+    },
+    {
+      "seq": 21,
+      "name_zh": "判讀機構",
+      "name_en": "LAB",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 25,
+      "name_zh": "閱片方式",
+      "name_en": "EXAM_METHOD",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 26,
+      "name_zh": "抹片品質",
+      "name_en": "QUALITY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 29,
+      "name_zh": "可能的感染",
+      "name_en": "INFECTION",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "詳譯碼說明(可複選) 112-113年度長度為4",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。國民身分證統一 編號，或外籍居留證號碼（如 無居留證號碼請填護照號碼）， 左靠不足補空白。",
+      "available_notes": []
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "當時通訊地行政區",
+      "name_en": "ADDR",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "死亡日期",
+      "name_en": "DEAD_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD 112年長度為 19",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "子宮是否接受過放射線治療",
+      "name_en": "RADIATE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是；2：否；3：不知道",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "檢體取樣日期",
+      "name_en": "SAMP_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD 112年長度為 30",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "name_zh": "檢體取樣機構",
+      "name_en": "SAMP_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 15,
+      "name_zh": "檢體取樣機構地區",
+      "name_en": "SAMP_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "檢體取樣機構權屬別",
+      "name_en": "SAMP_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "做抹片目的",
+      "name_en": "PURPOSE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 19,
+      "name_zh": "細胞病理編號",
+      "name_en": "CYTOPATHO_NO",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "有大小寫之分",
+      "available_notes": []
+    },
+    {
+      "seq": 21,
+      "name_zh": "判讀機構",
+      "name_en": "LAB_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 25,
+      "name_zh": "閱片方式",
+      "name_en": "EXAM_METHO D",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 26,
+      "name_zh": "抹片品質",
+      "name_en": "S_QUALITY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 29,
+      "name_zh": "可能的感染",
+      "name_en": "INFECT",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "詳譯碼說明(可複選)",
+      "available_notes": []
+    },
+    {
+      "seq": 32,
+      "name_zh": "抹片尚可或難判讀原因(三)",
+      "name_en": "DEFECT_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "不提供",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 3,
+      "changes": {
+        "description_zh": {
+          "from": "提供西元年月 YYYYMM 112年長度為 20",
+          "to": "提供西元年月 YYYYMM"
+        }
+      }
+    },
+    {
+      "key": "RECEIPT_DATE",
+      "seq_later": 20,
+      "changes": {
+        "length": {
+          "from": 8,
+          "to": 10
+        },
+        "description_zh": {
+          "from": "西元年YYYYMMDD 112年長度為 10",
+          "to": "西元年YYYY-MM-DD"
+        }
+      }
+    },
+    {
+      "key": "DX_DATE",
+      "seq_later": 31,
+      "changes": {
+        "length": {
+          "from": 8,
+          "to": 10
+        },
+        "description_zh": {
+          "from": "西元年YYYYMMDD 112年長度為 10",
+          "to": "西元年YYYY-MM-DD"
+        }
+      }
+    }
+  ]
+}

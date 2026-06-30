@@ -1,0 +1,575 @@
+{
+  "code": "Health52",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 71,
+  "later_field_count": 72,
+  "added": [
+    {
+      "seq": 18,
+      "name_zh": "人工協助生殖方法",
+      "name_en": "METHOD",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "110年新增欄位 1.IVF/ET 2.GIFT 3.ZIFT/TET 4.AID 5.IVF/ET+GIFT 9.其他",
+      "available_notes": [
+        {
+          "roc_year": 110,
+          "ad_year": 2021,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "removed": [],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "DRG_DATE",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "民國年月日",
+          "to": "民國年月日(YYYMMDD)"
+        }
+      }
+    },
+    {
+      "key": "IVF_ET",
+      "seq_later": 12,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "GIFT",
+      "seq_later": 13,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "ZIFT_TET",
+      "seq_later": 14,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "AID",
+      "seq_later": 15,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "IVF_ET_GIFT",
+      "seq_later": 16,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "OTHERS",
+      "seq_later": 17,
+      "changes": {
+        "description_zh": {
+          "from": "1：是",
+          "to": "1：是 110年起無"
+        }
+      }
+    },
+    {
+      "key": "OVA_NUM",
+      "seq_later": 21,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "ZYG",
+      "seq_later": 22,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "EMB_OVA",
+      "seq_later": 23,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG",
+      "seq_later": 24,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        }
+      }
+    },
+    {
+      "key": "E_NUM",
+      "seq_later": 25,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "EMB_DATE",
+      "seq_later": 27,
+      "changes": {
+        "description_zh": {
+          "from": "民國年月日 填寫胚胎、受精卵或精卵植入之日期；0為 未植入，統計資料係以受術妻開始治療週 期年度計算，因此植入年度可能會在 112 年，非87-112年或數值異常者為機構誤植",
+          "to": "民國年月日(YYYMMDD) 填寫胚胎、受精卵或精卵植入之日期；0為 未植入，統計資料係以受術妻開始治療週 期年度計算，因此植入年度可能會在 112 年，非87-112年或數值異常者為機構誤植"
+        }
+      }
+    },
+    {
+      "key": "C_PRE_DATE",
+      "seq_later": 30,
+      "changes": {
+        "description_zh": {
+          "from": "民國年月日 填入確知是否臨床懷孕日期或因故只刺激 排卵未進行取卵與因故已取卵未植入，兩 種已結束治療週期之日期；統計資料係以 受術妻開始治療週期年度計算，當年開始 療程個案其臨床懷孕年度可能會在隔年， 非87-112年或數值異常者為機構誤植",
+          "to": "民國年月日(YYYMMDD) 填入確知是否臨床懷孕日期或因故只刺激 排卵未進行取卵與因故已取卵未植入，兩"
+        }
+      }
+    },
+    {
+      "key": "E_SAC",
+      "seq_later": 31,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "",
+          "to": "110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "F_HEART",
+      "seq_later": 32,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "",
+          "to": "110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "ECT_PRE",
+      "seq_later": 33,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "「是否臨床懷孕」時之子宮外孕數",
+          "to": "「是否臨床懷孕」時之子宮外孕數 110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "AGE",
+      "seq_later": 34,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "F_RED",
+      "seq_later": 35,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        }
+      }
+    },
+    {
+      "key": "END_DATE",
+      "seq_later": 36,
+      "changes": {
+        "description_zh": {
+          "from": "民國年月日 填寫確知懷孕結果之日期；0 為無懷孕結 果(未植入或未懷孕)，當年開始療程個案 可能於隔年確知懷孕結果(孕期為280天)，",
+          "to": "民國年月日(YYYMMDD) 填寫確知懷孕結果之日期；0 為無懷孕結 果(未植入或未懷孕)，當年開始療程個案 可能於隔年確知懷孕結果(孕期為280天)， 非87-112年或數值異常者為機構誤植"
+        }
+      }
+    },
+    {
+      "key": "S_ABOR",
+      "seq_later": 37,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "",
+          "to": "110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "EE_PRE",
+      "seq_later": 38,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "「懷孕結果」時之子宮外孕數",
+          "to": "「懷孕結果」時之子宮外孕數 110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "A_ABOR",
+      "seq_later": 39,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "",
+          "to": "110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "SB_20_27",
+      "seq_later": 40,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        }
+      }
+    },
+    {
+      "key": "SB_28",
+      "seq_later": 41,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        }
+      }
+    },
+    {
+      "key": "L_BORN",
+      "seq_later": 42,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        },
+        "description_zh": {
+          "from": "",
+          "to": "110年起遺漏值視為0"
+        }
+      }
+    },
+    {
+      "key": "NLB_NUM",
+      "seq_later": 43,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 2
+        }
+      }
+    },
+    {
+      "key": "NB1_WEI",
+      "seq_later": 47,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 5
+        }
+      }
+    },
+    {
+      "key": "NB2_WEEK",
+      "seq_later": 50,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 4
+        }
+      }
+    },
+    {
+      "key": "NB2_WEI",
+      "seq_later": 52,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 5
+        }
+      }
+    },
+    {
+      "key": "NB3_WEEK",
+      "seq_later": 55,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "NB3_WEI",
+      "seq_later": 57,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 5
+        }
+      }
+    },
+    {
+      "key": "NB4_WEEK",
+      "seq_later": 60,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 3
+        }
+      }
+    },
+    {
+      "key": "NB4_WEI",
+      "seq_later": 62,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 5
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG_2D",
+      "seq_later": 68,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 1
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG_3D",
+      "seq_later": 69,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 1
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG_4D",
+      "seq_later": 70,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 1
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG_5D",
+      "seq_later": 71,
+      "changes": {
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 1
+        }
+      }
+    },
+    {
+      "key": "EMB_ZYG_6D",
+      "seq_later": 72,
+      "changes": {
+        "name_zh": {
+          "from": "胚胎受精卵培育第6天 植入數",
+          "to": "胚胎受精卵培育第6天"
+        },
+        "type": {
+          "from": "Num",
+          "to": "Char"
+        },
+        "length": {
+          "from": 8,
+          "to": 1
+        }
+      }
+    }
+  ]
+}

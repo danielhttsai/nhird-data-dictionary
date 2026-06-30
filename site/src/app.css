@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "SFMono-Regular", "JetBrains Mono", "Cascadia Code", "Consolas", "Roboto Mono", monospace;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+/* Table polish: sticky headers + monospace for code columns */
+.tbl thead th {
+  position: sticky;
+  top: 0;
+  background: rgb(248 250 252);
+  z-index: 10;
+  border-bottom: 1px solid rgb(203 213 225);
+}
+.tbl td, .tbl th {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+  font-size: 0.875rem;
+}
+.tbl tbody tr:hover { background: rgb(241 245 249); }
+.mono { font-family: var(--font-mono); }
+
+/* Category color pills */
+.pill-Health   { background: #dbeafe; color: #1e3a8a; }
+.pill-Society  { background: #fef3c7; color: #92400e; }
+.pill-Welfare  { background: #dcfce7; color: #14532d; }
+.pill-Topic    { background: #fce7f3; color: #831843; }
+.pill {
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}

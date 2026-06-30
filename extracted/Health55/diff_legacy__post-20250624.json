@@ -1,0 +1,467 @@
+{
+  "code": "Health55",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 23,
+  "later_field_count": 23,
+  "added": [
+    {
+      "seq": 2,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY101",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付 4：其他公務預算補助 5：自費健康檢查 9：其他 自105年8月1日起新增 項目3、4、5、9且項目 2 停用。",
+      "available_notes": [
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "name_zh": "篩檢地點",
+      "name_en": "CHECKPLACE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：舊表單 1：社區或職場設站篩檢 2：門診 3：住院 4：郵寄 5：其他 6：檢驗所(試辦計畫)",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "沒有接受確診理由",
+      "name_en": "FOLLOWREASON",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：無法聯繫 2：出國 3：搬家 4：死亡 5：拒做 6：其他",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "大腸鏡檢查日期",
+      "name_en": "CUTDATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "年4碼+月 2碼+日2碼 西元年YYYYMMDD 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "確診醫療院所代碼",
+      "name_en": "CONFIRMUNIT",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別院所 鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "確診日期",
+      "name_en": "CONFIRMDATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "年4碼+月2碼+日2碼 西元年YYYYMMDD",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "檢查方法",
+      "name_en": "CONFIRMWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：大腸鏡 2：乙狀結腸鏡加大腸鋇 劑攝影 3：乙狀結腸鏡 4：大腸鋇劑攝影 5：其他(104年起停用) 6：糞便潛血篩檢 9：其他",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "name_zh": "診斷結果",
+      "name_en": "CONFIRMRESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：正常 1：痔瘡 2：潰瘍性大腸炎 3：瘜肉 4：大腸癌 5、9：其他",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "檢查範圍",
+      "name_en": "CHECKSCOPE",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "診斷結果",
+      "name_en": "CUTRESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：正常 1：痔瘡；2：潰 瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "定量試劑商品名稱",
+      "name_en": "FOBTTEST",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：Eiken 1：Kyowa（第1代 HM-JACK） 2：其他(105年8月 1日 起停用) 3：Kyowa（第2代 HM-JACKarc）",
+      "available_notes": [
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "name_zh": "瘜肉位置",
+      "name_en": "PLUGPLACE",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "如有瘜肉，有無切除",
+      "name_en": "PLUGRESECTION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除； 4：瘜肉未完整切除 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "檢查醫療院所權屬別",
+      "name_en": "CHECKUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫事機構基本 資料檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 20,
+      "name_zh": "瘜肉切除病理報告為 adenoma 是否為severe dysplasia\"",
+      "name_en": "REPORTAA",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是；2：否；3：不確 定； 其他數值：不詳 112 年起無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "name_zh": "如有大腸癌位置在",
+      "name_en": "CANCERPLACE",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳 112 年起無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 23,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
+      "available_notes": []
+    },
+    {
+      "seq": 24,
+      "name_zh": "大腸鏡檢查醫療院所權屬別",
+      "name_en": "CUTUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況 檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 25,
+      "name_zh": "大腸鏡檢查醫療院所縣市",
+      "name_en": "CUTUNIT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照醫療機構現況 檔。",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 3,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付 4：其他公務預算補助 5：自費健康檢查 9：其他 自105年8月1日起新增 項目3、4、5、9且項目 2 停用。",
+      "available_notes": [
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "name_zh": "篩檢地點",
+      "name_en": "CHECK_P",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：舊表單 1：社區或職場設站篩檢 2：門診 3：住院 4：郵寄 5：其他 6：檢驗所(試辦計畫)",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "沒有接受確診理由",
+      "name_en": "F_REASON",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：無法聯繫 2：出國 3：搬家 4：死亡 5：拒做 6：其他",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "戶籍地代碼",
+      "name_en": "REG",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明 9999：遷出國外",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "檢查醫療院所代碼",
+      "name_en": "CHECK_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別院所 鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "大腸鏡檢查日期",
+      "name_en": "CUT_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "年4碼+月 2碼+日2碼 西元年YYYYMMDD 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 11,
+      "name_zh": "檢查醫療院所權屬別",
+      "name_en": "CHECK_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫事機構基本 資料檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "確診日期",
+      "name_en": "CONF_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "年4碼+月2碼+日2碼 西元年YYYYMMDD",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "檢查方法",
+      "name_en": "CONF_WAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：大腸鏡 2：乙狀結腸鏡加大腸鋇 劑攝影 3：乙狀結腸鏡 4：大腸鋇劑攝影 5：其他(104年起停用) 6：糞便潛血篩檢 9：其他",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "name_zh": "糞便潛血檢驗機構縣市",
+      "name_en": "FOBT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照醫事機構基本 資料檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "檢查範圍",
+      "name_en": "CHECK_SCOPE",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "診斷結果",
+      "name_en": "CUT_RESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：正常 1：痔瘡；2：潰 瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "癌症治療醫院代碼",
+      "name_en": "TREAT_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別院所 鍵值。",
+      "available_notes": []
+    },
+    {
+      "seq": 19,
+      "name_zh": "定量試劑商品名稱",
+      "name_en": "FOBT_TEST",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：Eiken 1：Kyowa（第1代 HM-JACK） 2：其他(105年8月 1日 起停用) 3：Kyowa（第2代 HM-JACKarc）",
+      "available_notes": [
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "name_zh": "瘜肉位置",
+      "name_en": "PLUG_PLACE",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳 112 年無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "name_zh": "如有瘜肉，有無切除",
+      "name_en": "PLUG_RESECTION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除； 4：瘜肉未完整切除 其他數值：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 22,
+      "name_zh": "尚餘幾顆",
+      "name_en": "PLUG_REMAIN",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 24,
+      "name_zh": "瘜肉切除病理報告為 adenoma 是否為severe dysplasia\"",
+      "name_en": "REPORT_AA",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是；2：否；3：不確 定； 其他數值：不詳 112 年起無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "name_zh": "如有大腸癌位置在",
+      "name_en": "CANCER_PLACE",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳 112 年起無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ]
+    }
+  ],
+  "modified": [
+    {
+      "key": "POLYP",
+      "seq_later": 11,
+      "changes": {
+        "description_zh": {
+          "from": "1：未切除； 2：已完全切除； 3：未完全切除； 其他數值：不詳",
+          "to": "1：未切除； 2：已完全切除； 3：未完全切除；"
+        }
+      }
+    }
+  ]
+}

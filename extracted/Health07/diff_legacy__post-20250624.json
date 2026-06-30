@@ -1,0 +1,243 @@
+{
+  "code": "Health07",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 30,
+  "later_field_count": 30,
+  "added": [
+    {
+      "seq": 3,
+      "name_zh": "被保險人身分證字 號",
+      "name_en": "INS_ID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(INS_ID)不同者 為眷屬。經加密處理，身分證 字號，或外籍居留證號碼(如無 居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "投保狀態",
+      "name_en": "STATUS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "投保單位健保分區",
+      "name_en": "BRANCH_ID",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "投保單位屬性",
+      "name_en": "UNIT_INS_TYPE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳單位屬性(UNIT_INS_TYPE)說 明。",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "身份別",
+      "name_en": "ID_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳身份別(ID_TYPE)說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "投保金額",
+      "name_en": "INS_AMT",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "眷屬稱謂",
+      "name_en": "RELATION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "被保險人註記",
+      "name_en": "INS_MARK",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "Y：被保險人 N：眷屬",
+      "available_notes": []
+    },
+    {
+      "seq": 22,
+      "name_zh": "身分屬性",
+      "name_en": "INS_TYPE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳身分屬性(INS_TYPE)說明。",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "投保單位健保分區",
+      "name_en": "ID1_DIVISION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
+      "available_notes": []
+    },
+    {
+      "seq": 2,
+      "name_zh": "投保單位屬性",
+      "name_en": "ID1_UNIT",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳單位屬性(ID1_UNIT)說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "被保險人身分證字 號",
+      "name_en": "ID1",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(ID1)不同者為 眷屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "available_notes": []
+    },
+    {
+      "seq": 11,
+      "name_zh": "身份別",
+      "name_en": "ID1_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳身份別(ID1_TYPE)說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "眷屬稱謂",
+      "name_en": "ID_RELATION",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "投保金額",
+      "name_en": "ID1_AMT",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "身分屬性",
+      "name_en": "ID1_IDENT",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "詳身分屬性(ID1_IDENT)說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "投保狀態",
+      "name_en": "ID_STATUS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 17,
+      "name_zh": "被保險人註記",
+      "name_en": "ID1_MARK",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "Y：被保險人 N：眷屬",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "PREM_YM",
+      "seq_later": 1,
+      "changes": {
+        "type": {
+          "from": "Char",
+          "to": "Num"
+        }
+      }
+    },
+    {
+      "key": "ID",
+      "seq_later": 2,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        },
+        "description_zh": {
+          "from": "1. 亦即保險對象，與被保險人身 分證字號(ID1)不同者為眷屬。 經加密處理，身分證字號，或 外籍居留證號碼(如無居留證 號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+          "to": "1. 亦即保險對象，與被保險人身 分證字號(INS_ID)不同者為眷 屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9"
+        }
+      }
+    },
+    {
+      "key": "UNIT_ID",
+      "seq_later": 6,
+      "changes": {
+        "length": {
+          "from": 8,
+          "to": 18
+        }
+      }
+    },
+    {
+      "key": "TOT_SBI_PREM",
+      "seq_later": 21,
+      "changes": {
+        "name_zh": {
+          "from": "被保險人全戶政補",
+          "to": "被保險人全戶政補 金額"
+        }
+      }
+    },
+    {
+      "key": "BAN",
+      "seq_later": 23,
+      "changes": {
+        "length": {
+          "from": 8,
+          "to": 16
+        },
+        "description_zh": {
+          "from": "經加密處理",
+          "to": "經加密處理。"
+        }
+      }
+    },
+    {
+      "key": "ID_BIRTH_Y",
+      "seq_later": 30,
+      "changes": {
+        "description_zh": {
+          "from": "YYYY。 107年起欄位格式為文字型態， 長度為4碼。",
+          "to": "YYYY。"
+        }
+      }
+    }
+  ]
+}

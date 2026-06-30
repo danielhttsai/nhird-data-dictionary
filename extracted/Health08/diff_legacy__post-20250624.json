@@ -1,0 +1,127 @@
+{
+  "code": "Health08",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 27,
+  "later_field_count": 27,
+  "added": [
+    {
+      "seq": 3,
+      "name_zh": "受理日期",
+      "name_en": "RECV_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD。",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "診斷代碼",
+      "name_en": "ICD9CM_CODE",
+      "type": "Char",
+      "length": 7,
+      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "醫師身分證字號",
+      "name_en": "DIAG_PRSN_ID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留 證號。 2. 200萬人抽樣檔長度為9",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "診斷代碼",
+      "name_en": "DISE_CODE",
+      "type": "Char",
+      "length": 7,
+      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "受理日期",
+      "name_en": "ACPT_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD。",
+      "available_notes": []
+    },
+    {
+      "seq": 20,
+      "name_zh": "醫師身分證字號",
+      "name_en": "PRSN_ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留 證號。 2. 200萬人抽樣檔長度為9",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 4,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "DEATH_DATE",
+      "seq_later": 6,
+      "changes": {
+        "description_zh": {
+          "from": "YYYYMMDD。 100年起新增",
+          "to": "100年起新增"
+        }
+      }
+    },
+    {
+      "key": "HOSP_ID",
+      "seq_later": 9,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "DECIDE_DATE",
+      "seq_later": 11,
+      "changes": {
+        "description_zh": {
+          "from": "YYYYMMDD。 100年起新增",
+          "to": "YYYYMMDD。100年起新增"
+        }
+      }
+    },
+    {
+      "key": "VALID_E_DATE",
+      "seq_later": 13,
+      "changes": {
+        "description_zh": {
+          "from": "YYYYMMDD。 未訂定有效期限者皆為永久有效， 故有效期限距今遠超過5年者應可 視為永久效期。",
+          "to": "YYYYMMDD。 未訂定有效期限者皆為永久有效，"
+        }
+      }
+    },
+    {
+      "key": "CARD_MARK",
+      "seq_later": 14,
+      "changes": {
+        "description_zh": {
+          "from": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷",
+          "to": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷 6：撤銷卡證 7：民眾自行撤銷（106年起新增） 空白：有效正常卡。 100年起新增"
+        }
+      }
+    }
+  ]
+}

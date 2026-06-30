@@ -1,0 +1,87 @@
+{
+  "code": "Health25",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 7,
+  "later_field_count": 7,
+  "added": [
+    {
+      "seq": 5,
+      "name_zh": "醫療機構權屬別",
+      "name_en": "HOSP_ID_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "請見三、欄位（變項）譯碼之 權屬別(HOS)譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "醫療機構縣市鄉鎮市區代碼 縣市鄉鎮代碼(104年以後)",
+      "name_en": "HOSP_ID_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "請見三、欄位（變項）譯碼之",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "負責醫師性別",
+      "name_en": "OWNID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 2,
+      "name_zh": "醫療機構縣市鄉鎮市區代碼 縣市鄉鎮代碼(104年以後)",
+      "name_en": "CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "請見三、欄位（變項）譯碼之",
+      "available_notes": []
+    },
+    {
+      "seq": 3,
+      "name_zh": "醫療機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "請見三、欄位（變項）譯碼之 權屬別(HOS)譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "負責醫師性別",
+      "name_en": "OWN_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "AREA_NO_H",
+      "seq_later": 2,
+      "changes": {
+        "description_zh": {
+          "from": "106年無。",
+          "to": "106年無"
+        }
+      }
+    }
+  ]
+}

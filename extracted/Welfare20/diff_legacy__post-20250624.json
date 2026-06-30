@@ -1,0 +1,48 @@
+{
+  "code": "Welfare20",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 13,
+  "later_field_count": 13,
+  "added": [
+    {
+      "seq": 1,
+      "name_zh": "流水號1：長照中心自行輸入2：民眾線上申請3：衛生所4：醫院5：銜接出院準備6：舊照管舊案複評",
+      "name_en": "OBJID",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 4,
+      "name_zh": "機構接收狀態",
+      "name_en": "ACCEPT",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：可提供服務 2：無法提供服務",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 1,
+      "name_zh": "個案身分證字號",
+      "name_en": "IDNO",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "",
+      "available_notes": []
+    },
+    {
+      "seq": 3,
+      "name_zh": "資料來源8：身障居服匯入9：住宿式機構11：服務單位轉介99：其他1：初評核定前取消申請2：開案服務後結案3：個案死亡4：已聘外籍看護工5：入住機構6：家人自行照顧7：個案僅需要長照等級(如保險、所得稅等)",
+      "name_en": "APPLY_SOURCE",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "7：舊系統無評估轉入 10：1966 專線 12：1966 系統介接",
+      "available_notes": []
+    }
+  ],
+  "modified": []
+}

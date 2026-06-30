@@ -1,0 +1,201 @@
+{
+  "code": "Welfare11",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 16,
+  "later_field_count": 16,
+  "added": [
+    {
+      "seq": 13,
+      "name_zh": "家庭生活補助費",
+      "name_en": "FAMILY_ALLOWAN CE",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "104年起新增 僅106年無",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": "起"
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "name_zh": "就學生活補助費",
+      "name_en": "SCHOOL_LIFE_ALL OWANCE",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "104年起新增 僅106年無",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": "起"
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "name_zh": "兒童生活補助費",
+      "name_en": "CHILD_LIVING_ALL OWANCE",
+      "type": "Char",
+      "length": 7,
+      "description_zh": "104年起新增 僅106年無",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": "起"
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "seq": 13,
+      "name_zh": "家庭生活補助費",
+      "name_en": "F17",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "114年遺失率93% 112年新增",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "name_zh": "就學生活補助費",
+      "name_en": "F18",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "114年遺失率93% 112年新增",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "name_zh": "兒童生活補助費",
+      "name_en": "F19",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "114年遺失率87% 112年新增",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        },
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        },
+        "description_zh": {
+          "from": "經過加密處理。國民身分證統一 編號",
+          "to": "經過加密處理。國民身分證統 一編號"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 4,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月",
+          "to": "民國年月YYYMM"
+        }
+      }
+    },
+    {
+      "key": "STARTYM",
+      "seq_later": 6,
+      "changes": {
+        "description_zh": {
+          "from": "民國年YYYMM",
+          "to": "民國年月YYYMM"
+        }
+      }
+    },
+    {
+      "key": "UNTILYM",
+      "seq_later": 7,
+      "changes": {
+        "description_zh": {
+          "from": "民國年YYYMM",
+          "to": "民國年月YYYMM"
+        }
+      }
+    },
+    {
+      "key": "APPID",
+      "seq_later": 10,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        },
+        "description_zh": {
+          "from": "國民身分證統一編號經加密處理",
+          "to": "國民身分證統一編號經加密處 理"
+        }
+      }
+    },
+    {
+      "key": "LOWTYPE_STAT",
+      "seq_later": 16,
+      "changes": {
+        "description_zh": {
+          "from": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 113年新增",
+          "to": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增 僅106年無"
+        }
+      }
+    }
+  ]
+}

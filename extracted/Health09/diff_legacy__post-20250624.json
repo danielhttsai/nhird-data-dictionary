@@ -1,0 +1,61 @@
+{
+  "code": "Health09",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 27,
+  "later_field_count": 27,
+  "added": [],
+  "removed": [],
+  "modified": [
+    {
+      "key": "ID_M",
+      "seq_later": 2,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "ID_M_ROC",
+      "seq_later": 31,
+      "changes": {
+        "description_zh": {
+          "from": "0.符合 1.不符合",
+          "to": "0.符合 1.不符合 90-104年為西元年月"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM_M",
+      "seq_later": 32,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月YYYYMM",
+          "to": "YYYYMM 105年起為民國年月YYYMM 90-104年為西元年月"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM_F",
+      "seq_later": 33,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月YYYYMM",
+          "to": "YYYYMM 105年起為民國年月YYYMM 90-104年為西元年月"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 34,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月YYYYMM",
+          "to": "YYYYMM 105年起為民國年月YYYMM"
+        }
+      }
+    }
+  ]
+}

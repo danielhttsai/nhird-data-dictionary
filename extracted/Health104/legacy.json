@@ -1,0 +1,118 @@
+{
+  "source_pdf": "Health104_legacy.pdf",
+  "code_short": "DATAY1_ Liver _111\nDATA:資料名稱\nY1:資料年度",
+  "name_zh": "肝癌主題式資料庫",
+  "name_en": "Liver Cancer Health Database",
+  "record_count_raw": "肝癌研究主檔(1979-2022)： 359,103筆",
+  "field_count_declared": null,
+  "file_size_raw": "檔案大小",
+  "frequency": "年",
+  "attribute": "歷史檔",
+  "update_history_raw": "2025/12/30",
+  "update_history": [
+    {
+      "date": "2025/12/30",
+      "note": ""
+    }
+  ],
+  "data_description_zh": "肝癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年報檔\n(H_BHP_CRSSC)中之每一肝癌患者在癌症登記檔(包括長表LF、短表SF\n和 TCDB)及健保檔、死因統計合併檔，共 14 個資料檔之所有資訊。詳\n細定義如下：\n1. 定義肝癌個案：\n肝癌個案為癌症登記年報檔(H_BHP_CRSSC)1979-2022年(經IDNO\n清理後)中，曾有一筆其原發部位(CASITE)的前三碼為 155 (癌症登",
+  "notes_zh": "",
+  "primary_keys_raw": "",
+  "fields": [],
+  "codebooks": {
+    "DIAGDAY": {
+      "field_zh": "診斷日期",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "Acute Myocardial 410.x ComD1_AMI"
+        },
+        {
+          "code": "2",
+          "label_zh": "Old Myocardial Infraction 412.x ComD2_OMI"
+        },
+        {
+          "code": "3",
+          "label_zh": "Congestive heart failure 428.x ComD3_CHF"
+        },
+        {
+          "code": "4",
+          "label_zh": "Peripheral vascular disease 441.x,443.9,785.4,V43.4, ComD4_PVD 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 癌症主檔之欄位 名稱"
+        },
+        {
+          "code": "5",
+          "label_zh": "Cerebrovascular disease 430.x-438.x ComD5_CVD"
+        },
+        {
+          "code": "6",
+          "label_zh": "Chronic obstructive 490.x-505x,506.4 ComD6_COPD"
+        },
+        {
+          "code": "7",
+          "label_zh": "Dementia 290.x ComD7_Demen"
+        },
+        {
+          "code": "8",
+          "label_zh": "Paralysis 342.x,344.1 ComD8_Paraly"
+        },
+        {
+          "code": "9",
+          "label_zh": "Diabetes without chronic 250.0-250.3,250.7 ComD9_"
+        },
+        {
+          "code": "10",
+          "label_zh": "Diabetes with chronic 250.4-250.6,250.8-250.9 ComD10_DMC"
+        },
+        {
+          "code": "11",
+          "label_zh": "Chronic renal failure (renal 582.x, 583.x, 585.x, 586.x, ComD11_CRF"
+        },
+        {
+          "code": "13",
+          "label_zh": "Moderate-Server Liver 572.2-572.8,456.0-456.21 ComD13_MSLD"
+        },
+        {
+          "code": "14",
+          "label_zh": "Ulcer (Peptic ulcer 531.x-534.x ComD14_Ulcer"
+        },
+        {
+          "code": "15",
+          "label_zh": "Rheumatic disease (RD) 710.0,710.1,710.4,714.0- ComD15_RD"
+        },
+        {
+          "code": "16",
+          "label_zh": "AIDS 042.x-044x ComD16_AIDS 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 (八) Definitions of comorbidities+ ICD-10-CM"
+        },
+        {
+          "code": "2015",
+          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其"
+        },
+        {
+          "code": "I10",
+          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對 應檔(112.05.09更新)，網址： (九) B 型肝炎口服抗病毒藥物 成分名稱 藥品代碼"
+        },
+        {
+          "code": "ADEFOVIR",
+          "label_zh": "DIPIVOXIL B023920100 BC23920100 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十) C 型肝炎口服抗病毒藥物 治療組合 藥品代碼 Daklinza + Sunvepra治療基因型 1b型24週療程 HCVDAA0001 Viekirax + Exviera治療基因型 1b型，無肝硬化或具代償性 HCVDAA0002 肝硬化12週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，無肝硬化12 HCVDAA0003 週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，代償性肝硬 HCVDAA0004 化24週療程 Zepatier +/- ribavirin 治療基因型 1a型，無抗藥性病毒株，12 HCVDAA0005 週療程 Zepatier + ribavirin 治療基因型 1a型，有抗藥性病毒株，16 HCVDAA0006 週療程 Zepatier +/- ribavirin 治療基因型 1b型，12 週療程 HCVDAA0007 Zepatier治療基因型第 4型，12 週療程 HCVDAA0008 Zepatier + ribavirin 治療基因型第 4型，16 週療程 HCVDAA0009 Harvoni +/- ribavirin 治療基因型第 1、4、5 或6型，12週療 HCVDAA0010 程 Sovaldi + ribavirin 治療基因型第 2型，12 週療程 HCVDAA0011 Maviret 治療基因型第 1、2、3、4、5或6 型，8週療程 HCVDAA0012 Maviret 治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0013 Maviret 治療基因型第 1或3型，16週療程 HCVDAA0014 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 治療組合 藥品代碼 Epclusa治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0015 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，12 HCVDAA0016 週療程 Vosevi 治療基因型第 1、2、3、4、5或6型，12週療程 HCVDAA0017 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，24 HCVDAA0018 週療程 註：ribavirin 應用在 C 肝治療上，都需要和干擾素或口服抗病毒藥物併用，且單 方不適用於 C 肝治療，故 ribavirin 單方藥品沒有納入在 C 型肝炎口服抗病毒藥 物清單中。 (十一) 干擾素 成分名稱 藥品代碼 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十二) 標靶藥物和免疫藥物 成分名稱 藥品代碼 註：ATEZOLIZUMAB 和BEVACIZUMAB 合併使用才符合健保給付規定之肝癌 用藥(詳健保署「藥品給付規定內容」第九節 抗癌瘤藥物)，僅在其中一種藥不宜 使用的狀況下，這兩種藥物才會被單一使用在肝癌治療。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _門急診(西醫)(OPDTE11001_10)的紀 錄。 範例2 IPDTE11001_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_LIVER_111 肝癌死因統計合併檔 MASTER_TABLE_LIVER_111 肝癌研究主檔"
+        }
+      ]
+    }
+  },
+  "raw_text_first_page": "建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30\n肝癌主題式資料庫使用手冊\n一、 檔案內容說明\n檔案代號 DATAY1_ Liver _111 資料筆數 肝癌研究主檔(1979-2022)：\nDATA:資料名稱 359,103筆\nY1:資料年度\n中文檔名 肝癌主題式資料庫 英文檔名 Liver Cancer Health Database\n屬性 歷史檔 週期 年\n檔案大小 192GB 譯碼簿 2025/12/30\n更新日期\n檔案列表 本資料庫包含以下 14個檔：\n及 其 年\n1. 肝癌門急診明細檔 (2000-2023)：51\n度、欄位\n2. 肝癌住院明細檔 (2000-2023)：80\n數\n3. 肝癌藥局明細檔 (2000-2023)：44\n4. 肝癌門急診醫令檔 (2000-2023)：21\n5. 肝癌住院醫令檔 (2000-2023)：22\n6. 肝癌藥局醫令檔 (2000-2023)：17\n7. 肝癌承保檔 (2000-2023)：30\n8. 肝癌重大傷病檔 (2001-2023)：27\n9. 肝癌死因統計合併檔 (1985-2023)：18 (合併 1985-2023 年\n的死因統計檔)\n10. 肝癌癌登檔LF (2007-2022)：118\n11. 肝癌癌登檔SF (2007-2022)：42\n12. 肝癌癌登檔TCDB (2002-2006)：65\n13. 肝癌癌登年報檔 (1979-2022)：13\n14. 肝癌研究主檔 (1979-2022)：55\n資料描述 肝癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年報檔\n(H_BHP_CRSSC)中之每一肝癌患者在癌症登記檔(包括長表LF、短表SF\n和 TCDB)及健保檔、死因統計合併檔，共 14 個資料檔之所有資訊。詳\n細定義如下：\n1. 定義肝癌個案：\n肝癌個案為癌症登記年報檔(H_BHP_CRSSC)1979-2022年(經IDNO\n清理後)中，曾有一筆其原發部位(CASITE)的前三碼為 155 (癌症登\n1",
+  "qa": {
+    "errors": [],
+    "warnings": [
+      "no fields parsed"
+    ]
+  },
+  "page_count": 27,
+  "code": "Health104",
+  "category": "Health",
+  "version_id": "legacy",
+  "version_label": "legacy",
+  "pdf_url": "https://www.mohw.gov.tw/dl-91814-29e17059-9d8b-43c2-8e1c-1fb4a7bed75e.html",
+  "pdf_sha256": "dcb3335b6162cce80d926c02a3976d607577f11befb7f950834e7019d6fb45f0",
+  "doc_first_published": "2024-10-30",
+  "doc_last_updated": "2025-12-30",
+  "name_zh_from_listing": "Health104_肝癌主題式資料庫"
+}

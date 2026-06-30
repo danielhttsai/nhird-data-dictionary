@@ -1,0 +1,269 @@
+{
+  "code": "Health05",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 22,
+  "later_field_count": 22,
+  "added": [
+    {
+      "seq": 10,
+      "name_zh": "支付成數",
+      "name_en": "PAY_RATE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "1.23．全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有加成 或折扣者，按成數填報(如：加二成表 示為 1.20，無加成為 1.00，打八折 為.80)註：兒童加成年齡以入院日期計 算。",
+      "available_notes": []
+    },
+    {
+      "seq": 11,
+      "name_zh": "藥品用量",
+      "name_en": "DRUG_NUM",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 註：92年起新增。",
+      "available_notes": [
+        {
+          "roc_year": 92,
+          "ad_year": 2003,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "name_zh": "醫令單價",
+      "name_en": "ORDER_UPRICE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "小數點需填載，取至小數點下二位，第 三位四捨五入",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "醫令數量",
+      "name_en": "ORDER_QTY",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "小數點需填載，取至小數點下一位，第 二位四捨五入",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 12,
+      "name_zh": "支付成數",
+      "name_en": "RATE_TYPE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "1.23．全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有加成 或折扣者，按成數填報(如：加二成表 示為 1.20，無加成為 1.00，打八折 為.80)註：兒童加成年齡以入院日期計",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "醫令數量",
+      "name_en": "ORDER_Q",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "小數點需填載，取至小數點下一位，第 二位四捨五入",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "醫令單價",
+      "name_en": "ORDER_P",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "小數點需填載，取至小數點下二位，第 三位四捨五入",
+      "available_notes": []
+    },
+    {
+      "seq": 16,
+      "name_zh": "藥品用量",
+      "name_en": "DRUG_USE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 註：100年起新增。",
+      "available_notes": [
+        {
+          "roc_year": 100,
+          "ad_year": 2011,
+          "marker": "起"
+        }
+      ]
+    }
+  ],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "FEE_YM",
+      "seq_later": 2,
+      "changes": {
+        "type": {
+          "from": "Char",
+          "to": "Num"
+        },
+        "length": {
+          "from": 6,
+          "to": 8
+        },
+        "description_zh": {
+          "from": "YYYYMM。 107年起欄位格式為數值型態， 長度為8碼。",
+          "to": "YYYYMM。"
+        }
+      }
+    },
+    {
+      "key": "APPL_DATE",
+      "seq_later": 4,
+      "changes": {
+        "length": {
+          "from": 8,
+          "to": 16
+        }
+      }
+    },
+    {
+      "key": "SEQ_NO",
+      "seq_later": 6,
+      "changes": {
+        "type": {
+          "from": "Char",
+          "to": "Num"
+        },
+        "description_zh": {
+          "from": "107年起欄位格式為數值型態， 長度為8碼。",
+          "to": ""
+        }
+      }
+    },
+    {
+      "key": "ORDER_SEQ_NO",
+      "seq_later": 7,
+      "changes": {
+        "description_zh": {
+          "from": "依同一病患申報之醫令順序編號。 106年欄位格式為文字型態， 長度為10碼。",
+          "to": "依同一病患申報之醫令順序編號。"
+        }
+      }
+    },
+    {
+      "key": "ORDER_TYPE",
+      "seq_later": 8,
+      "changes": {
+        "description_zh": {
+          "from": "0: 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5: EPO注射 6: HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9: 藥事服務費 A:Tw-DRG 醫 令 代 碼 必 為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為5 。 B:部分負擔代碼改變已切帳申報費用 之 資 料 ， 醫 令 代 碼 必 為 「G00000~G00001」。",
+          "to": "0 : 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5 : EPO注射 6 : HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9 : 藥事服務費 A:Tw-DRG 醫 令 代 碼 必 為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為 5 。 B:部分負擔代碼改變已切帳申報費用 之 資 料 ， 醫 令 代 碼 必 為 「G00000~G00001」。 C:急診治療起迄時間 D:被替代之健保給付特材項目 E:自費特材項目-未支付 F:自費特材項目-不符給付規定 G:專案支付參考數值 H:醫療科技評估(HTA)自費診療項目 (104.02.15新增) K:全日平均護病比達特定範圍加成 不計入醫療費用點數合計欄位項目 (費用年月108年7月修訂)"
+        }
+      }
+    },
+    {
+      "key": "ORDER_CODE",
+      "seq_later": 9,
+      "changes": {
+        "description_zh": {
+          "from": "全民健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支付標 準碼或特殊材料碼，按醫令代碼序依 序申報，如係規律連續執行之醫令或 同一醫令加成費用種類相同者，醫令 則彙總列報，詳情請自健保署之醫事 機構專區網頁查詢。",
+          "to": "全民健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支付標 準碼或特殊材料碼，按醫令代碼序依 序申報，如係規律連續執行之醫令或 同一醫令加成費用種類相同者，醫令 則彙總列報，詳情請自健保署之醫事 機構專區網頁查詢。"
+        }
+      }
+    },
+    {
+      "key": "DRUG_FRE",
+      "seq_later": 12,
+      "changes": {
+        "length": {
+          "from": 18,
+          "to": 36
+        },
+        "description_zh": {
+          "from": "依全民健康保險藥品使用標準碼之原 則輸入。 若醫令為精神科治療費、復健治療費、 治療處置費、血液透析費等項目此欄 為必要欄位。 詳藥品使用頻率(DRUG_FRE) 譯碼 說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為36碼。",
+          "to": "依全民健康保險藥品使用標準碼之原 則輸入。 若醫令為精神科治療費、復健治療費、 治療處置費、血液透析費等項目此欄 為必要欄位。 詳藥品使用頻率(DRUG_FRE) 譯碼"
+        }
+      }
+    },
+    {
+      "key": "DRUG_PATH",
+      "seq_later": 13,
+      "changes": {
+        "length": {
+          "from": 15,
+          "to": 8
+        },
+        "description_zh": {
+          "from": "依全民健康保險藥品使用標準碼之原 則輸入。 詳給藥途徑/作用部位(DRUG_PATH) 譯碼說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為8碼。",
+          "to": "依全民健康保險藥品使用標準碼之原 則輸入。 詳給藥途徑/作用部位(DRUG_PATH) 譯碼說明。 註：92年起新增。"
+        }
+      }
+    },
+    {
+      "key": "CON_FUNC_TYPE",
+      "seq_later": 14,
+      "changes": {
+        "length": {
+          "from": 15,
+          "to": 6
+        },
+        "description_zh": {
+          "from": "1. 若醫令為會診費則此欄為必要欄 位(請填會診科別) 2. 若醫令代碼為註5之診療項目者， 則此欄為必要欄位。診療之部位代 碼：右側填R、左側填L、雙側填",
+          "to": "1. 若醫令為會診費則此欄為必要欄 位(請填會診科別) 2. 若醫令代碼為註 5之診療項目者， 則此欄為必要欄位。診療之部位代 碼：右側填R、左側填 L、雙側填 B。 註：92年起新增。"
+        }
+      }
+    },
+    {
+      "key": "BED_NO",
+      "seq_later": 15,
+      "changes": {
+        "length": {
+          "from": 15,
+          "to": 10
+        },
+        "description_zh": {
+          "from": "若醫令為病房費則此欄為必要欄位。 註：100年起新增。 107年起欄位格式為文字型態， 長度為10碼。",
+          "to": "若醫令為病房費則此欄為必要欄位。 註：92年起新增。"
+        }
+      }
+    },
+    {
+      "key": "ORDER_DOT",
+      "seq_later": 17,
+      "changes": {
+        "description_zh": {
+          "from": "數量乘單價，加成計算，四捨五入取整 數。",
+          "to": "數量乘單價，加成計算，四捨五入取整 數。"
+        }
+      }
+    },
+    {
+      "key": "TW_DRGS_CALCU",
+      "seq_later": 19,
+      "changes": {
+        "name_zh": {
+          "from": "Tw-DRGs 計算",
+          "to": "Tw-DRGs計算"
+        },
+        "description_zh": {
+          "from": "若醫令類別為A或醫令別B且醫令代 碼為G00001時，則此欄為必要欄位。 註：100年起新增。",
+          "to": "若醫令類別為A或醫令別B且醫令代 碼為G00001時，則此欄為必要欄位。 註：99年起新增。"
+        }
+      }
+    },
+    {
+      "key": "PART_ACCO_DATA",
+      "seq_later": 20,
+      "changes": {
+        "description_zh": {
+          "from": "醫令代碼為 G00000、903 者此欄為必 要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，未經加密 處理）/ 案件分類(第 14-15 碼，若為 １碼者左靠補「-」/流水號（第 16-21 碼）。 若 要 申 請 此 欄 位 必 需 一 同 申 請 Health02 和 Health05 的申報日期解密 註：100年起新增。",
+          "to": "醫令代碼為 G00000、903 者此欄為必 要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，經加密處 理）/ 案件分類(第 14-15 碼，若為１ 碼者左靠補「-」/流水號（第 16-21碼）。 註:若申報日期有申請解密此欄位也可 申請解密"
+        }
+      }
+    }
+  ]
+}

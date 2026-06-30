@@ -1,0 +1,83 @@
+{
+  "code": "Health99",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 44,
+  "later_field_count": 44,
+  "added": [
+    {
+      "seq": 6,
+      "name_zh": "醫事機構所在地",
+      "name_en": "HOSP_ID_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "醫事機構所在鄉鎮， 代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "醫事機構權屬別",
+      "name_en": "HOSP_ID_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位權屬別（HOS）譯碼說明",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 6,
+      "name_zh": "醫事機構所在地",
+      "name_en": "CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "醫事機構所在鄉鎮， 代碼參照醫療機構現況檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "醫事機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位權屬別（HOS）譯碼說明",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        },
+        "description_zh": {
+          "from": "經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居 留證號碼請填護照號碼），左靠不 足補空白",
+          "to": "經加密處理。"
+        }
+      }
+    },
+    {
+      "key": "HOSP_ID",
+      "seq_later": 5,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "AGENCY_HOSP_ID",
+      "seq_later": 8,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 30
+        }
+      }
+    }
+  ]
+}

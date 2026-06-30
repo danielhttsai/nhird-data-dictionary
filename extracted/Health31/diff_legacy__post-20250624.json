@@ -1,0 +1,122 @@
+{
+  "code": "Health31",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 17,
+  "later_field_count": 16,
+  "added": [
+    {
+      "seq": 7,
+      "name_zh": "死亡地點區域代碼",
+      "name_en": "D_LOCA_CODE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "98年起新增，詳譯碼說明",
+      "available_notes": [
+        {
+          "roc_year": 98,
+          "ad_year": 2009,
+          "marker": "起"
+        }
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "seq": 8,
+      "name_zh": "死亡地點區域代碼",
+      "name_en": "D_LOCA_CO DE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "98 年起新增，詳譯碼說明",
+      "available_notes": [
+        {
+          "roc_year": 98,
+          "ad_year": 2009,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "name_zh": "死亡種類",
+      "name_en": "D_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "不再提供",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "COUNTY",
+      "seq_later": 3,
+      "changes": {
+        "description_zh": {
+          "from": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)； 100 年起請詳新制縣市鄉鎮譯碼說明",
+          "to": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)； 100年起請詳新制縣市鄉鎮譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "D_CODE",
+      "seq_later": 10,
+      "changes": {
+        "description_zh": {
+          "from": "83-97年為ICD-9編碼 (98 年起無此欄資料)",
+          "to": "83-97 年為 ICD-9 編碼 (98 年起無此欄資料)"
+        }
+      }
+    },
+    {
+      "key": "TRAUMA",
+      "seq_later": 11,
+      "changes": {
+        "description_zh": {
+          "from": "83-97年為ICD-9編碼 (98 年起無此欄資料)",
+          "to": "83-97 年為 ICD-9 編碼 (98 年起無此欄資料)"
+        }
+      }
+    },
+    {
+      "key": "ICD10",
+      "seq_later": 12,
+      "changes": {
+        "description_zh": {
+          "from": "98 年以後死因以ICD-10 編碼",
+          "to": "98 年以後死因以 ICD-10 編碼"
+        }
+      }
+    },
+    {
+      "key": "DIAGNOSE",
+      "seq_later": 13,
+      "changes": {
+        "description_zh": {
+          "from": "83-97年間： 1：西醫，2：中醫，3：法醫，4：檢察官， 5：檢驗員，6：村里長，7：其他，9：不詳 (98 年起無此欄資料)",
+          "to": "83-97 年間： 1：西醫，2：中醫，3：法醫，4：檢察官， 5：檢驗員，6：村里長，7：其他，9：不詳 (98 年起無此欄資料)"
+        }
+      }
+    },
+    {
+      "key": "NB_DAGE",
+      "seq_later": 14,
+      "changes": {
+        "description_zh": {
+          "from": "00：未滿 1日，01：滿1日，02：滿2日， 以此類推，至 27：滿27日，88：非新生兒死亡",
+          "to": "00：未滿 1 日，01：滿 1 日，02：滿 2 日， 以此類推，至 27：滿 27 日，88：非新生兒死亡"
+        }
+      }
+    }
+  ]
+}

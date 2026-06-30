@@ -1,0 +1,121 @@
+{
+  "code": "Health10",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 18,
+  "later_field_count": 18,
+  "added": [
+    {
+      "seq": 18,
+      "name_zh": "出生年",
+      "name_en": "BIRTH_Y",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年 YYYY",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 10,
+      "name_zh": "死亡種類",
+      "name_en": "D_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "不再提供",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "COUNTY",
+      "seq_later": 4,
+      "changes": {
+        "description_zh": {
+          "from": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)； 100年起請詳新制縣市鄉鎮譯碼說明",
+          "to": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)； 100 年起請詳新制縣市鄉鎮譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月YYYYMM",
+          "to": "西元年月 YYYYMM"
+        }
+      }
+    },
+    {
+      "key": "D_DATE",
+      "seq_later": 6,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月日YYYYMMDD",
+          "to": "西元年月日 YYYYMMDD"
+        }
+      }
+    },
+    {
+      "key": "D_LOCA_CO DE",
+      "seq_later": 8,
+      "changes": {
+        "description_zh": {
+          "from": "97年起新增，詳譯碼說明",
+          "to": "97 年起新增，詳譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "D_CODE",
+      "seq_later": 11,
+      "changes": {
+        "description_zh": {
+          "from": "60-69年為 ICD-8，70-96年為ICD-9編碼 (97年起無此欄資料) 。主要死因分類與主要癌 症分類詳死因分類譯碼說明",
+          "to": "60-69年為 ICD-8，70-96年為 ICD-9編碼 (97年起無此欄資料) 。主要死因分類與主要癌 症分類詳死因分類譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "ICD10",
+      "seq_later": 13,
+      "changes": {
+        "description_zh": {
+          "from": "97年以後死因以ICD-10 編碼。主要死因分類 與主要癌症分類詳死因分類譯碼說明",
+          "to": "97 年以後死因以ICD-10 編碼。主要死因分類 與主要癌症分類詳死因分類譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "NB_DAGE",
+      "seq_later": 15,
+      "changes": {
+        "description_zh": {
+          "from": "00：未滿1日，01：滿1日，02：滿2日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡",
+          "to": "00：未滿 1日，01：滿1日，02：滿2 日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡"
+        }
+      }
+    },
+    {
+      "key": "S_NUM",
+      "seq_later": 16,
+      "changes": {
+        "description_zh": {
+          "from": "為60-73年之主鍵",
+          "to": "為 60-73年之主鍵"
+        }
+      }
+    }
+  ]
+}

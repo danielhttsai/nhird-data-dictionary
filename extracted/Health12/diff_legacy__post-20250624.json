@@ -1,0 +1,449 @@
+{
+  "code": "Health12",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 405,
+  "later_field_count": 405,
+  "added": [
+    {
+      "seq": 205,
+      "name_zh": "專科醫師人數(專任)-",
+      "name_en": "FULL_DOC0",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "專科醫師人數(專任)-神經外科",
+      "available_notes": []
+    },
+    {
+      "seq": 224,
+      "name_zh": "專科醫師人數(專任)-",
+      "name_en": "FULL_DOC2",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "專科醫師人數(專任)-其他科",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 205,
+      "name_zh": "專科醫師人數(專任)- 神經外科",
+      "name_en": "FULL_DOC0 8",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "專科醫師人數(專任)-神經外科 89年增列；113年刪除",
+      "available_notes": [
+        {
+          "roc_year": 89,
+          "ad_year": 2000,
+          "marker": ""
+        },
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "seq": 224,
+      "name_zh": "專科醫師人數(專任)- 其他科",
+      "name_en": "FULL_DOC2 7",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "專科醫師人數(專任)-其他科 89年增列；94年刪除",
+      "available_notes": [
+        {
+          "roc_year": 89,
+          "ad_year": 2000,
+          "marker": ""
+        },
+        {
+          "roc_year": 94,
+          "ad_year": 2005,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 3,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        },
+        "description_zh": {
+          "from": "1. 醫療機構代碼已加密 2. 200萬人抽樣檔長度為 6",
+          "to": "醫療機構代碼已加密"
+        }
+      }
+    },
+    {
+      "key": "A_BED06",
+      "seq_later": 17,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院許可病床數-漢生病病床 97年以前稱癩病病床",
+          "to": "各醫院許可病床數-漢生病病床 106年增列；97年以前稱癩病病床"
+        }
+      }
+    },
+    {
+      "key": "A_BED07",
+      "seq_later": 18,
+      "changes": {
+        "name_zh": {
+          "from": "許可病床數-國際醫療 病床",
+          "to": "許可病床數-國際醫療"
+        },
+        "description_zh": {
+          "from": "各醫院許可病床數-國際醫療病床 106年增列",
+          "to": "各醫院許可病床數-國際醫療病床"
+        }
+      }
+    },
+    {
+      "key": "O_BED30",
+      "seq_later": 40,
+      "changes": {
+        "name_zh": {
+          "from": "開放病床數-負壓隔離 病床",
+          "to": "開放病床數-負壓隔離"
+        },
+        "description_zh": {
+          "from": "各醫院開放病床數-負壓隔離病床 102年增列",
+          "to": "各醫院開放病床數-負壓隔離病床"
+        }
+      }
+    },
+    {
+      "key": "O_BED22",
+      "seq_later": 55,
+      "changes": {
+        "name_zh": {
+          "from": "開放病床數-精神科加",
+          "to": "開放病床數-精神科加 護病床"
+        },
+        "description_zh": {
+          "from": "各醫院開放病床數-精神科加護病床",
+          "to": "各醫院開放病床數-精神科加護病床 98年增列"
+        }
+      }
+    },
+    {
+      "key": "U_BED11",
+      "seq_later": 73,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院使用病床數-安寧病床 88-89年稱為緩和醫療床，90-98年稱為安寧療護病床；",
+          "to": "各醫院使用病床數-安寧病床 89 年新增，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；106年刪除"
+        }
+      }
+    },
+    {
+      "key": "U_BED19",
+      "seq_later": 89,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院使用病床數-未登記精神療養 87 年增列；98 年刪除(拆分為 u_bed22、 u_bed23、 u_bed24；103年新增u_bed33)",
+          "to": "各醫院使用病床數-未登記精神療養 89 年增列；98 年刪除(拆分為 u_bed22、 u_bed23、 u_bed24；103年新增u_bed33)"
+        }
+      }
+    },
+    {
+      "key": "U_BED20",
+      "seq_later": 90,
+      "changes": {
+        "name_zh": {
+          "from": "使用病床數-未登記其",
+          "to": "使用病床數-未登記其 他療養"
+        },
+        "description_zh": {
+          "from": "各醫院使用病床數-未登記其他療養",
+          "to": "各醫院使用病床數-未登記其他療養 89年增列，106年刪除"
+        }
+      }
+    },
+    {
+      "key": "U_BED34",
+      "seq_later": 91,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院精神科日間照護單位實際收治人數 104年增列，稱為精神日間留院實際收治人數；105-112 年稱為精神科日間留院實際收治人數",
+          "to": "各醫院精神科日間照護單位實際收治人數 104年增列，稱為精神日間留院實際收治人數；105-112"
+        }
+      }
+    },
+    {
+      "key": "DD_DAY12",
+      "seq_later": 111,
+      "changes": {
+        "name_zh": {
+          "from": "住院人日-慢性呼吸照",
+          "to": "住院人日-慢性呼吸照 護病床"
+        },
+        "description_zh": {
+          "from": "各醫院住院人日-慢性呼吸照護病床",
+          "to": "各醫院住院人日-慢性呼吸照護病床 90年增列，90-101年稱為呼吸照護病床"
+        }
+      }
+    },
+    {
+      "key": "DD_DAY33",
+      "seq_later": 122,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院住院人日-司法精神病床 112年增列",
+          "to": "各醫院住院人日-司法精神病床 112年新增"
+        }
+      }
+    },
+    {
+      "key": "DD_DAY15",
+      "seq_later": 123,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院住院人日-未登記精神療養 83年增列；98年刪除(拆分為dd_day19、 dd_day20、 dd_day21；103年新增dd_day29)",
+          "to": "各醫院住院人日-未登記精神療養 98年刪除(拆分為dd_day19、 dd_day20、dd_day21； 103年新增dd_day29)"
+        }
+      }
+    },
+    {
+      "key": "DD_DAY21",
+      "seq_later": 130,
+      "changes": {
+        "name_zh": {
+          "from": "住院人日-精神養護: 小康床",
+          "to": "住院人日-精神養護:"
+        },
+        "description_zh": {
+          "from": "各醫院住院人日-精神養護:小康床 98年增列",
+          "to": "各醫院住院人日-精神養護:小康床"
+        }
+      }
+    },
+    {
+      "key": "DD_TIMES26",
+      "seq_later": 151,
+      "changes": {
+        "name_zh": {
+          "from": "住院人次-骨髓移植病",
+          "to": "住院人次-骨髓移植病 床"
+        },
+        "description_zh": {
+          "from": "各醫院住院人次-骨髓移植病床",
+          "to": "各醫院住院人次-骨髓移植病床 102年增列"
+        }
+      }
+    },
+    {
+      "key": "DD_TIMES27",
+      "seq_later": 152,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院住院人次-性侵害犯罪加害人強制治療 病床 102年增列",
+          "to": "各醫院住院人次-性侵害犯罪加害人強制治療 病床"
+        }
+      }
+    },
+    {
+      "key": "DD_TIMES33",
+      "seq_later": 156,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院住院人次-司法精神病床 112年增列",
+          "to": "各醫院住院人次-司法精神病床 112年新增"
+        }
+      }
+    },
+    {
+      "key": "DD_TIMES29",
+      "seq_later": 159,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院精神科日間照護單位收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱 為精神科日間留院收治人次",
+          "to": "各醫院精神科照護單位留院收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱 為精神科日間留院收治人次"
+        }
+      }
+    },
+    {
+      "key": "H_BED03",
+      "seq_later": 168,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院健保病床-慢性一般",
+          "to": "各醫院健保病床-慢性一般 89年增列，105年刪除"
+        }
+      }
+    },
+    {
+      "key": "H_BED07",
+      "seq_later": 172,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院健保病床-加護 89年新增，105年刪除",
+          "to": "各醫院健保病床-加護 89年增列，105年刪除"
+        }
+      }
+    },
+    {
+      "key": "H_BED11",
+      "seq_later": 177,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院健保病床-安寧病床 88-89年稱為緩和醫療床，90-98年稱為安寧療護病床； 105年刪除",
+          "to": "各醫院健保病床-安寧病床 89 年增列，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；105年刪除"
+        }
+      }
+    },
+    {
+      "key": "H_BED16",
+      "seq_later": 187,
+      "changes": {
+        "description_zh": {
+          "from": "各醫院健保病床-血液透析床 96年以前稱為洗腎治療床；105年刪除",
+          "to": "各醫院健保病床-血液透析床 89年增列，96年以前稱為洗腎治療床；105年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_USE01",
+      "seq_later": 272,
+      "changes": {
+        "description_zh": {
+          "from": "服務人次-震波骨科治療機 91年增列，104年刪除",
+          "to": "服務人次-震波骨科治療機 92年增列，104年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_USE14",
+      "seq_later": 288,
+      "changes": {
+        "description_zh": {
+          "from": "服務人次-放射性同位素治療 83年增列；94年刪除",
+          "to": "服務人次-放射性同位素治療 93年增列；94年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_USE15",
+      "seq_later": 289,
+      "changes": {
+        "description_zh": {
+          "from": "服務人次-準分子雷射血管成形術系統 ；113年刪除",
+          "to": "服務人次-準分子雷射血管成形術系統 113年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_USE16",
+      "seq_later": 290,
+      "changes": {
+        "description_zh": {
+          "from": "服務人次-準分子雷射屈光性角膜切除設備 87年增列；94年刪除",
+          "to": "服務人次-準分子雷射屈光性角膜切除設備 93年增列；94年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_USE17",
+      "seq_later": 291,
+      "changes": {
+        "description_zh": {
+          "from": "服務人次-植入型心律去顫器 87年增列；105年刪除",
+          "to": "服務人次-植入型心律去顫器 104年增列；105年刪除"
+        }
+      }
+    },
+    {
+      "key": "EQU_QTY07",
+      "seq_later": 316,
+      "changes": {
+        "name_zh": {
+          "from": "特定醫療儀器設備數- 單光子斷層掃描儀",
+          "to": "特定醫療儀器設備數-"
+        },
+        "description_zh": {
+          "from": "特定醫療儀器設備數-單光子斷層掃描儀 94年增列，94-103年稱為核子醫學設備",
+          "to": "特定醫療儀器設備數-單光子斷層掃描儀"
+        }
+      }
+    },
+    {
+      "key": "EQU_QTY11",
+      "seq_later": 320,
+      "changes": {
+        "description_zh": {
+          "from": "特定醫療儀器設備數-高壓氧設備 84年增列",
+          "to": "特定醫療儀器設備數-高壓氧設備 94年增列"
+        }
+      }
+    },
+    {
+      "key": "EQU_QTY21",
+      "seq_later": 334,
+      "changes": {
+        "name_zh": {
+          "from": "特定醫療儀器設備數- 心律去顫器",
+          "to": "特定醫療儀器設備數-"
+        },
+        "description_zh": {
+          "from": "特定醫療儀器設備數-心律去顫器 87年增列；94年刪除",
+          "to": "特定醫療儀器設備數-心律去顫器"
+        }
+      }
+    },
+    {
+      "key": "PRA12",
+      "seq_later": 353,
+      "changes": {
+        "name_zh": {
+          "from": "執業醫事人員數-助產 師",
+          "to": "執業醫事人員數-助產"
+        },
+        "description_zh": {
+          "from": "執業醫事人員數-助產師 94年增列",
+          "to": "執業醫事人員數-助產師"
+        }
+      }
+    },
+    {
+      "key": "NOCC05",
+      "seq_later": 374,
+      "changes": {
+        "description_zh": {
+          "from": "未具醫事專門職業證書工作人員數-工務建築 等；113年刪除",
+          "to": "未具醫事專門職業證書工作人員數-工務建築 等 89年增列；113年刪除"
+        }
+      }
+    },
+    {
+      "key": "NOCC12",
+      "seq_later": 382,
+      "changes": {
+        "name_zh": {
+          "from": "未具醫事專門職業證 書工作人員數-其他人",
+          "to": "未具醫事專門職業證 書工作人員數-其他人 員"
+        },
+        "description_zh": {
+          "from": "未具醫事專門職業證書工作人員數-其他人員 （含駐衛警、保全、技工、工友、司機）",
+          "to": "未具醫事專門職業證書工作人員數-其他人員 （含駐衛警、保全、技工、工友、司機） 89年增列；113年刪除"
+        }
+      }
+    },
+    {
+      "key": "NOCC14",
+      "seq_later": 384,
+      "changes": {
+        "description_zh": {
+          "from": "未具醫事專門職業證書工作人員數-臨床心理 89年增列；95年刪除",
+          "to": "未具醫事專門職業證書工作人員數-臨床心理 89年增列；94年刪除"
+        }
+      }
+    }
+  ]
+}

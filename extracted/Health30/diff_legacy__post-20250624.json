@@ -1,0 +1,132 @@
+{
+  "code": "Health30",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 16,
+  "later_field_count": 15,
+  "added": [
+    {
+      "seq": 7,
+      "name_zh": "死亡地點區域代碼",
+      "name_en": "D_LOCA_CODE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 8,
+      "name_zh": "死亡地點區域代碼",
+      "name_en": "D_LOCA_CO DE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "死亡種類",
+      "name_en": "D_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "不再提供",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "COUNTY",
+      "seq_later": 3,
+      "changes": {
+        "name_zh": {
+          "from": "戶籍",
+          "to": "戶籍100年起請詳新制縣市鄉鎮譯碼說明"
+        },
+        "description_zh": {
+          "from": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)； 100 年起請詳新制縣市鄉鎮譯碼說明",
+          "to": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)；"
+        }
+      }
+    },
+    {
+      "key": "BIRTH_YM",
+      "seq_later": 4,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月 YYYYMM",
+          "to": "西元年月YYYYMM"
+        }
+      }
+    },
+    {
+      "key": "D_DATE",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "西元年月日 YYYYMMDD",
+          "to": "西元年月日YYYYMMDD"
+        }
+      }
+    },
+    {
+      "key": "D_LOCA",
+      "seq_later": 6,
+      "changes": {
+        "name_zh": {
+          "from": "死亡地點",
+          "to": "死亡地點(98年起無此欄資料)"
+        },
+        "description_zh": {
+          "from": "1：本鄉鎮，2：他鄉鎮，9：不詳。 (98年起無此欄資料)",
+          "to": "1：本鄉鎮，2：他鄉鎮，9：不詳。"
+        }
+      }
+    },
+    {
+      "key": "ICD10",
+      "seq_later": 10,
+      "changes": {
+        "description_zh": {
+          "from": "死因以 ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。",
+          "to": "死因以ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。"
+        }
+      }
+    },
+    {
+      "key": "DIAGNOSE",
+      "seq_later": 11,
+      "changes": {
+        "name_zh": {
+          "from": "診斷者",
+          "to": "診斷者(98年起無此欄資料)"
+        },
+        "description_zh": {
+          "from": "1：西醫，2：中醫，3：法醫，4：檢察官， 5：檢驗員，6：村里長，7：其他，9：不詳 (98年起無此欄資料)",
+          "to": "1：西醫，2：中醫，3：法醫，4：檢察官， 5：檢驗員，6：村里長，7：其他，9：不詳"
+        }
+      }
+    },
+    {
+      "key": "NB_DAGE",
+      "seq_later": 12,
+      "changes": {
+        "description_zh": {
+          "from": "00：未滿 1日，01：滿1日，02：滿2日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡",
+          "to": "00：未滿1日，01：滿1日，02：滿 2日， 以此類推，至27：滿27日，88：非新生兒死 亡"
+        }
+      }
+    },
+    {
+      "key": "MC1-20",
+      "seq_later": 13,
+      "changes": {
+        "description_zh": {
+          "from": "死因以 ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。",
+          "to": "死因以ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。"
+        }
+      }
+    }
+  ]
+}

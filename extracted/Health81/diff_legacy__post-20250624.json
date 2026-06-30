@@ -1,0 +1,69 @@
+{
+  "code": "Health81",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 8,
+  "later_field_count": 8,
+  "added": [
+    {
+      "seq": 7,
+      "name_zh": "醫事機構所在地",
+      "name_en": "CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "醫事機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位權屬別(HOS)譯碼說明",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 4,
+      "name_zh": "醫事機構所在地",
+      "name_en": "HOSP_ID_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "醫事機構權屬別",
+      "name_en": "HOSP_ID_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳欄位權屬別(HOS)譯碼說 明",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "HOSP_CNT_TYPE",
+      "seq_later": 3,
+      "changes": {
+        "description_zh": {
+          "from": "詳見欄位特約類別 (HOSP_CNT_TYPE)譯碼說 明",
+          "to": "詳見欄位特約類別 (HOSP_CNT_TYPE)譯碼說明"
+        }
+      }
+    }
+  ]
+}

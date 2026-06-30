@@ -1,0 +1,59 @@
+{
+  "code": "Health53",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 14,
+  "later_field_count": 14,
+  "added": [
+    {
+      "seq": 12,
+      "name_zh": "多重死因 1-20",
+      "name_en": "MC1-11",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "死因以 ICD-10 編碼 2019、2024年MC12至MC20無值 MC12-20 Char 1",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "出生年",
+      "name_en": "BIRTH_Y",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年 YYYY",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 9,
+      "name_zh": "死亡種類",
+      "name_en": "D_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "不再提供",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "多重死因 1-20",
+      "name_en": "MC1-20",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "死因以 ICD-10 編碼 2019 年、2024年MC12至MC20 無值",
+      "available_notes": []
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    }
+  ]
+}

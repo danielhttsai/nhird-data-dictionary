@@ -1,0 +1,180 @@
+{
+  "source_pdf": "Health30_post-20250624.pdf",
+  "code_short": "H_OST_MULTI",
+  "name_zh": "多重死因統計檔",
+  "name_en": "Multiple Cause Of Death Data",
+  "record_count_raw": "201,383 / 2024",
+  "field_count_declared": 15,
+  "file_size_raw": "27 MB /2024",
+  "frequency": "年",
+  "attribute": "現況檔",
+  "update_history_raw": "2025/10/07",
+  "update_history": [
+    {
+      "date": "2025/10/07",
+      "note": ""
+    }
+  ],
+  "data_description_zh": "1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院\n日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，\n並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定\n當事人。\n2. 一個人為一筆資料。\n3. 「ID」歷年時有重覆情形。 主鍵與比 1. 個人ID經加密處理。\n2. 個人資料比對的鍵值：ID。",
+  "primary_keys_raw": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "加密處理",
+      "available_notes": []
+    },
+    {
+      "seq": 2,
+      "name_zh": "性別",
+      "name_en": "SEX",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性，2：女性",
+      "available_notes": []
+    },
+    {
+      "seq": 3,
+      "name_zh": "戶籍100年起請詳新制縣市鄉鎮譯碼說明",
+      "name_en": "COUNTY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳舊制縣市鄉鎮譯碼說明 (註：93年以後2105為台南市中西區)；",
+      "available_notes": [
+        {
+          "roc_year": 93,
+          "ad_year": 2004,
+          "marker": "以後"
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "name_zh": "出生年月",
+      "name_en": "BIRTH_YM",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "西元年月YYYYMM",
+      "available_notes": []
+    },
+    {
+      "seq": 5,
+      "name_zh": "死亡日期",
+      "name_en": "D_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年月日YYYYMMDD",
+      "available_notes": []
+    },
+    {
+      "seq": 6,
+      "name_zh": "死亡地點(98年起無此欄資料)",
+      "name_en": "D_LOCA",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：本鄉鎮，2：他鄉鎮，9：不詳。",
+      "available_notes": []
+    },
+    {
+      "seq": 7,
+      "name_zh": "死亡地點區域代碼",
+      "name_en": "D_LOCA_CODE",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 8,
+      "name_zh": "死亡場所",
+      "name_en": "D_PLACE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 9,
+      "name_zh": "婚姻狀況",
+      "name_en": "MARRIAGE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": []
+    },
+    {
+      "seq": 10,
+      "name_zh": "死因分類",
+      "name_en": "ICD10",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "死因以ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 11,
+      "name_zh": "診斷者(98年起無此欄資料)",
+      "name_en": "DIAGNOSE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：西醫，2：中醫，3：法醫，4：檢察官， 5：檢驗員，6：村里長，7：其他，9：不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 12,
+      "name_zh": "新生兒日齡",
+      "name_en": "NB_DAGE",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "00：未滿1日，01：滿1日，02：滿 2日， 以此類推，至27：滿27日，88：非新生兒死 亡",
+      "available_notes": []
+    },
+    {
+      "seq": 13,
+      "name_zh": "多重死因1-20",
+      "name_en": "MC1-20",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "死因以ICD-10 編碼。主要死因分類與主要癌 症分類詳死因分類譯碼說明。",
+      "available_notes": []
+    },
+    {
+      "seq": 14,
+      "name_zh": "普通年齡﹝足歲﹞",
+      "name_en": "AGE",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "000 Ｏ歲、001 一歲、002 二歲、…: 099 九十九歲、100 百歲、….999 不詳",
+      "available_notes": []
+    },
+    {
+      "seq": 15,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則，1：不符合",
+      "available_notes": []
+    }
+  ],
+  "codebooks": {},
+  "raw_text_first_page": "多重死因統計檔\n(H_OST_MULTI)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_MULTI 資料筆數 201,383 / 2024\n中文檔名 多重死因統計檔 英文檔名 Multiple Cause Of Death Data\n檔案大小 27 MB /2024 欄位數 15\n譯碼簿\n屬性 現況檔 週期 年 2025/10/07\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院\n日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，\n並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定\n當事人。\n2. 一個人為一筆資料。\n3. 「ID」歷年時有重覆情形。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n頁 1 / 22",
+  "qa": {
+    "errors": [],
+    "warnings": []
+  },
+  "page_count": 22,
+  "code": "Health30",
+  "category": "Health",
+  "version_id": "post-20250624",
+  "version_label": "20250624 起適用",
+  "pdf_url": "https://www.mohw.gov.tw/dl-100525-81afd46b-7aac-4935-88c8-54478c1d5297.html",
+  "pdf_sha256": "6f2bdc03527c6f3af2def09505307abc18d1331006c4e89f0f5a4187d8166cd5",
+  "doc_first_published": "2026-05-26",
+  "doc_last_updated": "2026-05-26",
+  "name_zh_from_listing": "Health30_多重死因統計檔(20250624起適用)"
+}

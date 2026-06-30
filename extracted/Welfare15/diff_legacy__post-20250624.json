@@ -1,0 +1,153 @@
+{
+  "code": "Welfare15",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 30,
+  "later_field_count": 30,
+  "added": [
+    {
+      "seq": 28,
+      "name_zh": "最近發生時間",
+      "name_en": "OCCURTIME",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "民國年YYYMMDDHH；108年起改 為民國年YYYMMDDHHMI，長度為 11",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "name_zh": "被害人身分證字號檢誤",
+      "name_en": "ID_C_ ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 30,
+      "name_zh": "相對人身分證字號檢誤",
+      "name_en": "ID_D_ ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    }
+  ],
+  "removed": [
+    {
+      "seq": 6,
+      "name_zh": "被害人身分證字號檢誤",
+      "name_en": "ID_ROC_C",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 18,
+      "name_zh": "相對人身分證字號檢誤",
+      "name_en": "ID_ROC_D",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：符合編碼原則；1：不符合。",
+      "available_notes": []
+    },
+    {
+      "seq": 30,
+      "name_zh": "最近發生時間",
+      "name_en": "LASTOCCURTIME",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "民國年YYYMMDDHH；108年起改 為民國年YYYMMDDHHMI，長度為 11",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ]
+    }
+  ],
+  "modified": [
+    {
+      "key": "ID_C",
+      "seq_later": 4,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "SEX_C",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "1：男；2：女；3：其他；9：不詳",
+          "to": "詳譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "OTHEROCCUPATI ON",
+      "seq_later": 9,
+      "changes": {
+        "description_zh": {
+          "from": "",
+          "to": "不提供"
+        }
+      }
+    },
+    {
+      "key": "ID_D",
+      "seq_later": 15,
+      "changes": {
+        "length": {
+          "from": 12,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "SEX_D",
+      "seq_later": 16,
+      "changes": {
+        "description_zh": {
+          "from": "1：男；2：女；3：不詳(社工填寫 時直接選不詳)；9：不詳(用身份證 判斷還是不詳)",
+          "to": "詳譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "OTHERRELATION",
+      "seq_later": 20,
+      "changes": {
+        "name_zh": {
+          "from": "與被害人關係類別選其",
+          "to": "與被害人關係類別選其 他時所填的資料"
+        },
+        "description_zh": {
+          "from": "108年長度為96",
+          "to": "不提供"
+        }
+      }
+    },
+    {
+      "key": "OTHEROCCURPL ACE",
+      "seq_later": 24,
+      "changes": {
+        "description_zh": {
+          "from": "",
+          "to": "不提供"
+        }
+      }
+    }
+  ]
+}

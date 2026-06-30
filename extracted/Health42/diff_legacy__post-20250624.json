@@ -1,0 +1,95 @@
+{
+  "code": "Health42",
+  "earlier_version_id": "legacy",
+  "later_version_id": "post-20250624",
+  "earlier_field_count": 42,
+  "later_field_count": 42,
+  "added": [],
+  "removed": [],
+  "modified": [
+    {
+      "key": "HOSP_ID",
+      "seq_later": 1,
+      "changes": {
+        "length": {
+          "from": 9,
+          "to": 20
+        }
+      }
+    },
+    {
+      "key": "FEE_YM",
+      "seq_later": 2,
+      "changes": {
+        "type": {
+          "from": "Char",
+          "to": "Num"
+        },
+        "length": {
+          "from": 6,
+          "to": 8
+        }
+      }
+    },
+    {
+      "key": "PSYC_QTY",
+      "seq_later": 34,
+      "changes": {
+        "description_zh": {
+          "from": "",
+          "to": "精神病社區復健件數"
+        }
+      }
+    },
+    {
+      "key": "PSYC_DOT",
+      "seq_later": 35,
+      "changes": {
+        "description_zh": {
+          "from": "",
+          "to": "精神病社區復健申請點 數"
+        }
+      }
+    },
+    {
+      "key": "HOS",
+      "seq_later": 39,
+      "changes": {
+        "length": {
+          "from": 2,
+          "to": 4
+        }
+      }
+    },
+    {
+      "key": "HOSP_DATA_TYPE",
+      "seq_later": 40,
+      "changes": {
+        "description_zh": {
+          "from": "107年新增。詳欄位醫事 類別譯碼說明",
+          "to": "詳欄位醫事類別譯碼說 明"
+        }
+      }
+    },
+    {
+      "key": "PART_QTY",
+      "seq_later": 41,
+      "changes": {
+        "description_zh": {
+          "from": "107年新增。",
+          "to": "101年新增。"
+        }
+      }
+    },
+    {
+      "key": "PART_AMT",
+      "seq_later": 42,
+      "changes": {
+        "description_zh": {
+          "from": "107年新增。",
+          "to": "101年新增。"
+        }
+      }
+    }
+  ]
+}

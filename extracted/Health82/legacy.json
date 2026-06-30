@@ -1,0 +1,114 @@
+{
+  "source_pdf": "Health82_legacy.pdf",
+  "code_short": "DATAY1_Colorectal_111\nDATA:資料名稱\nY1:資料年度",
+  "name_zh": "大腸直腸癌主題式資料庫",
+  "name_en": "Colorectal Cancer Health Database",
+  "record_count_raw": "大腸直腸癌研究主檔 (1979-2022)：481,154 筆",
+  "field_count_declared": null,
+  "file_size_raw": "檔案大小",
+  "frequency": "年",
+  "attribute": "歷史檔",
+  "update_history_raw": "2025/12/30",
+  "update_history": [
+    {
+      "date": "2025/12/30",
+      "note": ""
+    }
+  ],
+  "data_description_zh": "大腸直腸癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年\n報檔(H_BHP_CRSSC)中之每一大腸直腸癌患者在癌症登記檔(包\n括長表 LF、短表SF 和TCDB)及健保檔、死因統計合併檔，共 14\n個資料檔之所有資訊。另外也附上大腸癌篩檢檔，以便串聯大腸直\n腸癌主題式資料庫聯合使用，詳細定義如下：",
+  "notes_zh": "",
+  "primary_keys_raw": "",
+  "fields": [],
+  "codebooks": {
+    "DIAGDAY": {
+      "field_zh": "診斷日期",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "Acute Myocardial 410.x ComD1_AMI"
+        },
+        {
+          "code": "2",
+          "label_zh": "Old Myocardial Infraction 412.x ComD2_OMI"
+        },
+        {
+          "code": "3",
+          "label_zh": "Congestive heart failure 428.x ComD3_CHF"
+        },
+        {
+          "code": "4",
+          "label_zh": "Peripheral vascular disease 441.x,443.9,785.4,V43.4, ComD4_PVD"
+        },
+        {
+          "code": "5",
+          "label_zh": "Cerebrovascular disease 430.x-438.x ComD5_CVD 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 癌症主檔之欄位 名稱"
+        },
+        {
+          "code": "6",
+          "label_zh": "Chronic obstructive 490.x-505x,506.4 ComD6_COPD"
+        },
+        {
+          "code": "7",
+          "label_zh": "Dementia 290.x ComD7_Demen"
+        },
+        {
+          "code": "8",
+          "label_zh": "Paralysis 342.x,344.1 ComD8_Paraly"
+        },
+        {
+          "code": "9",
+          "label_zh": "Diabetes without chronic 250.0-250.3,250.7 ComD9_"
+        },
+        {
+          "code": "10",
+          "label_zh": "Diabetes with chronic 250.4-250.6,250.8-250.9 ComD10_DMC"
+        },
+        {
+          "code": "11",
+          "label_zh": "Chronic renal failure (renal 582.x, 583.x, 585.x, 586.x, ComD11_CRF"
+        },
+        {
+          "code": "13",
+          "label_zh": "Moderate-Server Liver 572.2-572.8,456.0-456.21 ComD13_MSLD"
+        },
+        {
+          "code": "14",
+          "label_zh": "Ulcer (Peptic ulcer 531.x-534.x ComD14_Ulcer"
+        },
+        {
+          "code": "15",
+          "label_zh": "Rheumatic disease (RD) 710.0,710.1,710.4,714.0- ComD15_RD"
+        },
+        {
+          "code": "16",
+          "label_zh": "AIDS 042.x-044x ComD16_AIDS 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (八) Definitions of comorbidities+ ICD-10-CM"
+        },
+        {
+          "code": "2015",
+          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其"
+        },
+        {
+          "code": "I10",
+          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對 應檔(112.05.09更新)，網址： 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_ 使用癌症研究主檔1979-2022年版本， COLORECTAL_111 篩選出大腸直腸癌個案後，擷取大腸 直腸癌個案在 110 年 1 月全民健保處 方 及 治 療 明 細 檔 _ 門 急 診 ( 西 醫)(OPDTE11001_10)的紀錄。 範例2 IPDTE11001_ 使用癌症研究主檔1979-2022年版本， COLORECTAL_111 篩選出大腸直腸癌個案後，擷取大腸 直腸癌個案在 110 年 1 月全民健保處 方及治療明細檔_住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_ COLORECTAL_111 大腸直腸癌死因統計合併檔 MASTER_TABLE_ 大腸直腸癌研究主檔"
+        }
+      ]
+    }
+  },
+  "raw_text_first_page": "Page:1\n建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230\n大腸直腸癌主題式資料庫使用手冊\n一、 檔案內容說明\n檔案代號 DATAY1_Colorectal_111 資料筆數 大腸直腸癌研究主檔\nDATA:資料名稱 (1979-2022)：481,154 筆\nY1:資料年度\n中文檔名 大腸直腸癌主題式資料庫 英文檔名 Colorectal Cancer Health\nDatabase\n屬性 歷史檔 週期 年\n檔案大小 317GB 譯碼簿 2025/12/30\n更新日期\n檔案列表 本資料庫包含以下 15個檔：\n及 其 年\n1. 大腸直腸癌門急診明細檔 (2000-2023)：51\n度、欄位\n2. 大腸直腸癌住院明細檔 (2000-2023)：80\n數\n3. 大腸直腸癌藥局明細檔 (2000-2023)：44\n4. 大腸直腸癌門急診醫令檔 (2000-2023)：21\n5. 大腸直腸癌住院醫令檔 (2000-2023)：22\n6. 大腸直腸癌藥局醫令檔 (2000-2023)：17\n7. 大腸直腸癌承保檔 (2000-2023)：30\n8. 大腸直腸癌重大傷病檔 (2001-2023)：27\n9. 大腸直腸癌死因統計合併檔 (1985-2023)：16 (合併 1985-\n2023年的死因統計檔)\n10. 大腸直腸癌癌登檔 LF (2007-2022)：118\n11. 大腸直腸癌癌登檔 SF (2007-2022)：42\n12. 大腸直腸癌癌登檔 TCDB (2002-2006)：65\n13. 大腸直腸癌癌登年報檔 (1979-2022)：13\n14. 大腸直腸癌研究主檔 (1979-2022)：53\n15. 癌症篩檢-大腸癌篩檢檔 (2010-2024)：72\n資料描述 大腸直腸癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年\n報檔(H_BHP_CRSSC)中之每一大腸直腸癌患者在癌症登記檔(包\n括長表 LF、短表SF 和TCDB)及健保檔、死因統計合併檔，共 14\n個資料檔之所有資訊。另外也附上大腸癌篩檢檔，以便串聯大腸直\n腸癌主題式資料庫聯合使用，詳細定義如下：",
+  "qa": {
+    "errors": [],
+    "warnings": [
+      "no fields parsed"
+    ]
+  },
+  "page_count": 24,
+  "code": "Health82",
+  "category": "Health",
+  "version_id": "legacy",
+  "version_label": "legacy",
+  "pdf_url": "https://www.mohw.gov.tw/dl-40777-9bfa0880-37a5-43b1-9ed3-909ce3da16a6.html",
+  "pdf_sha256": "4c21ee54756ce4cff2d63e893460f57aaf037950b1043f953279507a7d013c51",
+  "doc_first_published": "2014-03-05",
+  "doc_last_updated": "2025-12-30",
+  "name_zh_from_listing": "Health82_大腸直腸癌主題式資料庫"
+}
