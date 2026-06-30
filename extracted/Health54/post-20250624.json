@@ -1,7 +1,7 @@
 {
   "source_pdf": "Health54_post-20250624.pdf",
   "code_short": "H_BHP_PST",
-  "name_zh": "1. 子宮頸抹片篩檢-個案基本資料檔(H_BHP_PST_MASTER)2. 子宮頸抹片篩檢-抹片資料檔(H_BHP_PST_SMEAR)3. 子宮頸抹片篩檢-機構代碼檔(H_BHP_PST_UNIT)",
+  "name_zh": "癌症篩檢 – 子宮頸抹片篩檢檔",
   "name_en": "Pap Smear Test",
   "record_count_raw": "H_BHP_PST_MASTER：2,186,931 筆 H_BHP_PST_SMEAR：2,282,598 筆 H_BHP_PST_UNIT：62,465筆",
   "field_count_declared": null,
@@ -69,13 +69,13 @@
     },
     {
       "seq": 5,
-      "name_zh": "當時通訊地行政區",
-      "name_en": "ADDR_TOWN_PR ESENT",
+      "name_zh": "死亡日期",
+      "name_en": "DEAD_DATE",
       "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
       "available_notes": [],
-      "name_zh_en": "current communication area administrative level",
+      "name_zh_en": "Date of Death",
       "description_en": ""
     },
     {
@@ -186,7 +186,7 @@
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "sampling institution area",
-      "description_en": ""
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 16,
@@ -196,7 +196,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership of specimen collection institution",
       "description_en": ""
     },
     {
@@ -263,7 +263,7 @@
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "institution region for adjudication",
-      "description_en": ""
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 23,

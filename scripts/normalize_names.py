@@ -26,7 +26,24 @@ def clean_listing_name(s: str) -> str:
     s = CODE_PREFIX.sub("", s)            # drop "Health102_" etc.
     s = re.sub(r"\(20250624起適用\)", "", s)
     s = re.sub(r"\(.*?版本\)", "", s)      # drop "(2018年以後版本)"
-    return s.strip(" _-—")
+    s = s.strip(" _-—")
+    s = re.sub(r"[_]+|-{2,}", " – ", s)   # "癌症篩檢_…" / "癌症篩檢--…" → "癌症篩檢 – …"
+    return s.strip()
+
+
+def looks_like_subtable_list(s: str) -> bool:
+    """True if name_zh is actually the file's list of sub-tables, e.g.
+    '1. 子宮頸抹片篩檢-個案基本資料檔(H_BHP_PST_MASTER)2. …' — multi-table screening
+    and surveillance files put this where a clean name should be."""
+    s = (s or "").strip()
+    if re.match(r"^\s*1\s*[.、)]", s):     # starts with a numbered item
+        return True
+    # several "(H_..._...)" sub-table codes, or 2+ numbered items
+    if len(re.findall(r"\(H_[A-Z0-9_]+\)", s)) >= 2:
+        return True
+    if len(re.findall(r"\d\s*[.、]\s*\S", s)) >= 2 and len(s) > 30:
+        return True
+    return False
 
 
 def main():
@@ -38,7 +55,7 @@ def main():
         changed = False
 
         nz = (d.get("name_zh") or "").strip()
-        if nz in JUNK_ZH:
+        if nz in JUNK_ZH or looks_like_subtable_list(nz):
             fallback = clean_listing_name(d.get("name_zh_from_listing", ""))
             if fallback:
                 d["name_zh"] = fallback

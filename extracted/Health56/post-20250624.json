@@ -1,7 +1,7 @@
 {
   "source_pdf": "Health56_post-20250624.pdf",
   "code_short": "H_BHP_BCS",
-  "name_zh": "1. 乳癌篩檢-個案基本資料檔(H_BHP_BCS_PD)2. 乳癌篩檢-乳攝資料檔(H_BHP_BCS_DATA)3. 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT)",
+  "name_zh": "癌症篩檢 – 乳癌篩檢檔",
   "name_en": "Breast Cancer Screening",
   "record_count_raw": "H_BHP_BCS_PD：926,269筆 H_BHP_BCS_DATA：926,355筆 H_BHP_BCS_UNIT：69,867 筆 (以113年為例)",
   "field_count_declared": null,
@@ -42,13 +42,13 @@
     },
     {
       "seq": 2,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "SICKID_ROC",
+      "name_zh": "疾病史-有無得過下列疾病",
+      "name_en": "Q_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
+      "description_zh": "0：無；1：乳房良性相關疾 病；2：乳癌；3：其他癌症",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
+      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -60,17 +60,23 @@
       "description_zh": "1：身分證；2：護照",
       "available_notes": [],
       "name_zh_en": "document source",
-      "description_en": ""
+      "description_en": "1: national ID; 2: passport"
     },
     {
       "seq": 4,
-      "name_zh": "性別",
-      "name_en": "SICKID_S",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：男；2：女；9：不詳",
-      "available_notes": [],
-      "name_zh_en": "gender",
+      "name_zh": "家族史-母親數",
+      "name_en": "Q_2_MONTHER",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -97,24 +103,36 @@
     },
     {
       "seq": 7,
-      "name_zh": "報表用歸屬縣市",
-      "name_en": "REPORT_CITY",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "T：是；Null：否",
-      "available_notes": [],
-      "name_zh_en": "reporting authority county city",
+      "name_zh": "家族9史-祖母",
+      "name_en": "Q_2_GRANDMA",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
       "description_en": ""
     },
     {
       "seq": 8,
-      "name_zh": "醫療機構縣市鄉鎮市區代碼",
-      "name_en": "UNIT_ID_CITY",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "available_notes": [],
-      "name_zh_en": "",
+      "name_zh": "家族史-外祖母",
+      "name_en": "Q_2_GRANDMA1",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "maternal grandmother's medical history",
       "description_en": ""
     },
     {
@@ -129,14 +147,526 @@
       "description_en": ""
     },
     {
+      "seq": 10,
+      "name_zh": "家族史-阿姨",
+      "name_en": "Q_2_AUNT2",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "112 年起無",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "family history - cousin",
+      "description_en": ""
+    },
+    {
+      "seq": 11,
+      "name_zh": "月經史-初經年齡",
+      "name_en": "Q_3_S",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "menstrual history-first menstruation age",
+      "description_en": ""
+    },
+    {
+      "seq": 12,
+      "name_zh": "月經史-是否停經",
+      "name_en": "Q_3F",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "menstrual history-menopause status",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 13,
+      "name_zh": "月經史-停經年齡",
+      "name_en": "Q_3_E",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "menopause age",
+      "description_en": ""
+    },
+    {
+      "seq": 14,
+      "name_zh": "月經史-停經原因",
+      "name_en": "Q_3",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "詳譯碼說明。113年長度3",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "menstrual_history-menopause_cause",
+      "description_en": ""
+    },
+    {
+      "seq": 15,
+      "name_zh": "生育史-生育次數",
+      "name_en": "Q_4_TIMES",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "number of births in reproductive history",
+      "description_en": ""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生育史-有無哺.餵母乳",
+      "name_en": "Q_4_BREAST",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 17,
+      "name_zh": "生育史-第一胎生產年齡",
+      "name_en": "Q_4_AGE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 18,
+      "name_zh": "用藥史-是否服用荷爾蒙補充劑",
+      "name_en": "Q_5_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 19,
+      "name_zh": "用藥史-幾歲開始(荷)",
+      "name_en": "Q_5_SAGE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 4型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 20,
+      "name_zh": "用藥史-服用幾年(荷)",
+      "name_en": "Q_5_SYEAR",
+      "type": "Char",
+      "length": 21,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 21,
+      "name_zh": "用藥史-是否服用避孕藥",
+      "name_en": "Q_5_M",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 22,
+      "name_zh": "用藥史-幾歲開始(避)",
+      "name_en": "Q_5_MAGE",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 4型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 23,
+      "name_zh": "用藥史-服用幾年(避)",
+      "name_en": "Q_5_MYEAR",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 21型態為字元",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 24,
+      "name_zh": "是否有感覺到異常腫塊",
+      "name_en": "Q_TOUCH",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 25,
+      "name_zh": "其他-最近二年內是否做過-觸診",
+      "name_en": "Q_6_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：有；Null：沒有勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 26,
+      "name_zh": "其他-最近二年內是否做過-乳攝",
+      "name_en": "Q_6_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：有；Null：沒有勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 27,
+      "name_zh": "其他-最近二年內是否做過-超音波",
+      "name_en": "Q_6_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：有；Null：沒有勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 28,
+      "name_zh": "其他-最近二年內是否做過-皆未做過",
+      "name_en": "Q_6_4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：有；Null：沒有勾選",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 29,
+      "name_zh": "其他-是否接受過乳房手術",
+      "name_en": "Q_SURGERY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "T：是；F：否",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "T: Yes; F: No"
+    },
+    {
+      "seq": 30,
+      "name_zh": "其他-乳房手術左側",
+      "name_en": "Q_SURGERYLEFT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "available_notes": [],
+      "name_zh_en": "other-left-mastectomy",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 31,
+      "name_zh": "其他-乳房手術右側",
+      "name_en": "Q_SURGERYRIGHT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "available_notes": [],
+      "name_zh_en": "other-right breast surgery",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 32,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "經加密處理。國民身分證統 一編號，或外籍居留證號碼 （如無居留證號碼請填護 照號碼），左靠不足補空白。 112 年起長度為20",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "national ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 33,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原 則；1：不符合",
+      "available_notes": [],
+      "name_zh_en": "ID number validation error",
+      "description_en": ""
+    },
+    {
+      "seq": 34,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "available_notes": [],
+      "name_zh_en": "gender",
+      "description_en": ""
+    },
+    {
+      "seq": 35,
+      "name_zh": "教育程度",
+      "name_en": "Q_EDU",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "education level",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 36,
+      "name_zh": "身高",
+      "name_en": "Q_HIGH",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "112年長度 18、113年長度 19",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        },
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "height",
+      "description_en": ""
+    },
+    {
+      "seq": 37,
+      "name_zh": "體重",
+      "name_en": "Q_WEIGHT",
+      "type": "Char",
+      "length": 35,
+      "description_zh": "112年起長度10",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "weight",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "乳攝醫院代碼",
+      "name_en": "PH_HOSPITALID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別院所鍵 值。",
+      "available_notes": [],
+      "name_zh_en": "milk feeding hospital code",
+      "description_en": ""
+    },
+    {
+      "seq": 39,
+      "name_zh": "乳攝日期",
+      "name_en": "PH_PHOTODATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年YYYY-MM-DD 113 年長度 10",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "mammography_date",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "乳攝車",
+      "name_en": "CAR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "mammography vehicle",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 41,
+      "name_zh": "攝影機機型",
+      "name_en": "PH_MACHINE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "camera model",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 42,
+      "name_zh": "觸診結果",
+      "name_en": "PH_HRESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "palpation result",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 43,
+      "name_zh": "乳腺組成",
+      "name_en": "PH_PDATA",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "breast composition",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 44,
+      "name_zh": "與舊片比較",
+      "name_en": "PH_COMPARE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "F：否；T：是",
+      "available_notes": [],
+      "name_zh_en": "comparison with old film",
+      "description_en": "F: No; T: Yes"
+    },
+    {
+      "seq": 45,
+      "name_zh": "無舊片的原因",
+      "name_en": "PH_COMPARENO",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "reason for no old film",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 46,
+      "name_zh": "乳攝結果",
+      "name_en": "PH_RESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "mammography_result",
+      "description_en": "detailed translation explanation"
+    },
+    {
       "seq": 47,
       "name_zh": "乳攝結果4的次選項",
       "name_en": "PH_RESULT4",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 48. 醫療機構縣市鄉鎮市區 代碼 PH_HOSPITALID_CITY Char 4 代碼參照死因統計檔。 49. 醫療機構權屬別 PH_HOSPITALID_HOS Char 2 代碼參照醫療機構現況檔。",
+      "description_zh": "詳譯碼說明",
       "available_notes": [],
       "name_zh_en": "mammography result 4 secondary option",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 48,
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
+      "name_en": "PH_HOSPITALID_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 49,
+      "name_zh": "醫療機構權屬別",
+      "name_en": "PH_HOSPITALID_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "available_notes": [],
+      "name_zh_en": "ownership category of medical facility",
       "description_en": ""
     }
   ],
@@ -214,7 +744,7 @@
         {
           "code": "3",
           "label_zh": "未做過乳房自我檢查",
-          "label_en": ""
+          "label_en": "no breast self-examination performed"
         }
       ],
       "field_en": ""

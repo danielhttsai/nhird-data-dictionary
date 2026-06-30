@@ -68,7 +68,7 @@
       "length": 1,
       "description_zh": "記錄個案至申報醫院首次為此癌症就 診時的癌症診療情境，詳欄位(變項) 譯碼(三)【診斷狀態分類(CLASS_D) 對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis status classification",
       "description_en": ""
     },
     {
@@ -79,7 +79,7 @@
       "length": 1,
       "description_zh": "記錄此個案在申報時的治療狀態，詳 欄位(變項)譯碼(四)【治療狀態分類 (CLASS_T)對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "treatment status classification",
       "description_en": ""
     },
     {
@@ -90,7 +90,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：指個案不論是在門診",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first visit date",
       "description_en": ""
     },
     {
@@ -101,7 +101,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：最初診斷日期是指此 癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳。 年不詳：9999 月不詳：99 日不詳： 99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "initial diagnosis date",
       "description_en": ""
     },
     {
@@ -167,7 +167,7 @@
       "length": 1,
       "description_zh": "記錄個案於申報醫院或外院之最精確 的診斷依據，詳欄位(變項)譯碼(七) 【癌症確診方式(CONFIRM)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis method for cancer",
       "description_en": ""
     },
     {
@@ -189,7 +189,7 @@
       "length": 3,
       "description_zh": "詳欄位(變項)譯碼(八)【腫瘤大小(公 釐)(TSIZE_C)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor_size(mm)",
       "description_en": ""
     },
     {
@@ -255,7 +255,7 @@
       "length": 3,
       "description_zh": "依據AJCC 第七版的分期規則 詳欄位(變項)譯碼(十二)【臨床腫瘤分 期—CT, CN, CM, CSTAGE 編碼定義 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical tumor staging",
       "description_en": ""
     },
     {
@@ -288,7 +288,7 @@
       "length": 3,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical tumor staging",
       "description_en": ""
     },
     {
@@ -299,7 +299,7 @@
       "length": 3,
       "description_zh": "依據AJCC 第七版的分期規則 詳欄位(變項)譯碼(十三)【病理腫瘤分 期—PT, PN, PM, PSTAGE 編碼定義 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor stage (pathology)",
       "description_en": ""
     },
     {
@@ -332,7 +332,7 @@
       "length": 3,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor stage (pathology)",
       "description_en": ""
     },
     {
@@ -354,7 +354,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(十四)【其他分期系 統(OSTAGE)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other installment systems",
       "description_en": ""
     },
     {
@@ -365,7 +365,7 @@
       "length": 4,
       "description_zh": "版本以西元年或其他方式表示。 0000：無使用其他分期系統 8888：其他分期系統並無版本之別(不 適用) 9999：不清楚所使用之其他分期系統 的版本(不詳)。 因FIGO2009年版已不包含零期(原位 癌)，2010年1月 1日(含)以後新診斷 子宮頸原位癌個案仍須申報，故其他 分期系統版本應編碼為 2009",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other分期systemversion",
       "description_en": ""
     },
     {
@@ -398,7 +398,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(十七)【首次療程開 始日期(DTRT_1ST)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of start of first course",
       "description_en": ""
     },
     {
@@ -409,7 +409,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內開始首次手術治療的日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first surgery date",
       "description_en": ""
     },
     {
@@ -453,7 +453,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(十九)【原發部位手 術邊緣(SMARGIN)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "primary site surgery rationale",
       "description_en": ""
     },
     {
@@ -530,7 +530,7 @@
       "length": 3,
       "description_zh": "詳欄位(變項)譯碼(二十四)【放射治療 儀器(RTMODAL)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiation therapy equipment",
       "description_en": ""
     },
     {
@@ -541,7 +541,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十五)【放射治療 開始日期(RTB_DT)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy start date",
       "description_en": ""
     },
     {
@@ -552,7 +552,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十六)【放射治療 結束日期(RTE_DT)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy end date",
       "description_en": ""
     },
     {
@@ -585,7 +585,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(二十九)【放射治療 機構(RTINSTI)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiation therapy institution",
       "description_en": ""
     },
     {
@@ -596,7 +596,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(三十)【未放射治療 原因(RTNOR)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reason for no radiation therapy",
       "description_en": ""
     },
     {
@@ -607,7 +607,7 @@
       "length": 3,
       "description_zh": "詳欄位(變項)譯碼(三十一)【體外放射 治療技術(EBRT)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "external beam radiotherapy technique",
       "description_en": ""
     },
     {
@@ -684,7 +684,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中，進行 放射治療所使用的特殊放射治療儀器 或治療方式，詳欄位(變項)譯碼(三十 四 ) 【 其 他 放 射 治 療 儀 器 (ORT_MODAL)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other radiation therapy equipment",
       "description_en": ""
     },
     {
@@ -695,7 +695,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中，進行 特殊放射治療所使用的技術，詳欄位 (變項)譯碼(三十五)【其他放射治療技 術(ORT_TECH)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other radiation therapy procedures",
       "description_en": ""
     },
     {
@@ -750,7 +750,7 @@
       "length": 2,
       "description_zh": "記錄個案在外院首次療程中，所給予 化學治療相關情形，詳欄位(變項)譯 碼(三十九)【申報醫院化學治療(CH)、 外院化學治療(CH_O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient chemotherapy",
       "description_en": ""
     },
     {
@@ -761,7 +761,7 @@
       "length": 2,
       "description_zh": "記錄個案於申報醫院首次療程中，所 給予化學治療相關情形，詳欄位(變 項)譯碼(三十九)【申報醫院化學治療 (CH)、外院化學治療(CH_O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported chemotherapy",
       "description_en": ""
     },
     {
@@ -783,7 +783,7 @@
       "length": 2,
       "description_zh": "記載個案在外院首次療程中，所給予 荷爾蒙/類固醇治療的相關情形，詳欄 位(變項)譯碼(四十一)【申報醫院荷爾 蒙治療(HORM)、外院荷爾蒙治療 (HORM_O)】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "treatment at outside hospital for hormones",
       "description_en": ""
     },
     {
@@ -816,7 +816,7 @@
       "length": 2,
       "description_zh": "記載個案在外院首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU)、外院免疫治療(IMMU_O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient immunotherapy",
       "description_en": ""
     },
     {
@@ -827,7 +827,7 @@
       "length": 2,
       "description_zh": "記載申報醫院於首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十三)【申報醫院免疫治療 (IMMU)、外院免疫治療(IMMU_O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported immunotherapy",
       "description_en": ""
     },
     {
@@ -871,7 +871,7 @@
       "length": 2,
       "description_zh": "記錄個案在外院首次療程中，所給予 標靶治療相關情形，詳欄位(變項)譯 碼(四十七)【申報醫院標靶治療 (TARGET_H) 、 外 院 標 靶 治 療 (TARGET _O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient targeted therapy",
       "description_en": ""
     },
     {
@@ -882,7 +882,7 @@
       "length": 2,
       "description_zh": "記錄個案在申報醫院首次療程中，所 給予標靶治療相關情形，詳欄位(變 項)譯碼(四十七)【申報醫院標靶治療 (TARGET_H) 、 外 院 標 靶 治 療 (TARGET _O)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported targeted therapy",
       "description_en": ""
     },
     {
@@ -904,7 +904,7 @@
       "length": 1,
       "description_zh": "申報醫院為緩解或減輕個案症狀所提 供之照護，包括手術治療、放射治療、 全身性治療(化學治療、荷爾蒙治療或 其他全身性藥物)及疼痛控制治療，詳 欄位(變項)譯碼(四十九)【申報醫院緩 和照護(PALLI)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported palliative care",
       "description_en": ""
     },
     {
@@ -915,7 +915,7 @@
       "length": 8,
       "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(五十)【首次復發日期 (DRECUR_DT)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first recurrence date",
       "description_en": ""
     },
     {
@@ -926,7 +926,7 @@
       "length": 2,
       "description_zh": "個案經 病歷 記載經 過一段 無病 (disease-free intermission) 或 緩 解 (remission)期間，首次出現復發的型 式，詳欄位(變項)譯碼(五十一)【首次 復發型式(RECUR)】。 本欄位收錄個案經診斷為癌症後，追 蹤滿五年內是否首次發生癌症復發狀 態。若五年內首次復發後，仍再重複 復發，本欄位僅記錄第一次復發狀態； 若超過五年後才發生首次復發，則本 欄位將視為無復發。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first recurrence pattern",
       "description_en": ""
     },
     {
@@ -1157,7 +1157,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {

@@ -35,7 +35,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：個案因此癌症至申 報醫院門診或住院之最早日期。 99999999：個案首次到申報醫院就診 日期不詳。年不詳：9999 月不詳： 99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first visit date",
       "description_en": ""
     },
     {
@@ -46,7 +46,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：最初診斷日期是指 此癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳。 年不詳：9999 月不詳：99 日不詳： 99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "initial diagnosis date",
       "description_en": ""
     },
     {
@@ -79,7 +79,7 @@
       "length": 3,
       "description_zh": "詳欄位(變項)譯碼(六)【腫瘤大小(公 分)（SIZE）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor_size(cm)",
       "description_en": ""
     },
     {
@@ -112,7 +112,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(十五) 【首次療程 開始日期（DTRT_1ST）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of start of first course",
       "description_en": ""
     },
     {
@@ -123,7 +123,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在任何醫 療機構內開始首次手術治療的日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳： 9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first surgery date",
       "description_en": ""
     },
     {
@@ -156,7 +156,7 @@
       "length": 1,
       "description_zh": "記錄原發腫瘤切除後手術邊緣的最後 狀態。詳欄位(變項)譯碼(十七)【原 發部位手術邊緣（SMARGIN）對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "primary site surgery rationale",
       "description_en": ""
     },
     {
@@ -211,7 +211,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十三)【放射治 療開始日期（DRT_1ST）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy start date",
       "description_en": ""
     },
     {
@@ -222,7 +222,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十四)【放射治 療結束日期（DRT_END）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy end date",
       "description_en": ""
     },
     {
@@ -255,7 +255,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(二十八)【未放射 治療原因（NORT）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reason for no radiation therapy",
       "description_en": ""
     },
     {
@@ -277,7 +277,7 @@
       "length": 2,
       "description_zh": "記錄個案在外院首次療程中，所給予 化學治療相關情形，詳欄位(變項)譯 碼(三十六)【申報醫院化學治療 （CH）& 外院化學治療 （CHEM_O）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient chemotherapy",
       "description_en": ""
     },
     {
@@ -288,7 +288,7 @@
       "length": 2,
       "description_zh": "記錄個案於申報醫院首次療程中，所 給予化學治療相關情形，詳欄位(變 項)譯碼(三十七)【申報醫院化學治療 （CHEM_H）& 外院化學治療 （CHEM_O）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported chemotherapy",
       "description_en": ""
     },
     {
@@ -332,7 +332,7 @@
       "length": 2,
       "description_zh": "記載申報醫院於首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十一)【申報醫院免疫治療 （IMMU_H）& 外院免疫治療",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported immunotherapy",
       "description_en": ""
     },
     {
@@ -376,7 +376,7 @@
       "length": 1,
       "description_zh": "申報醫院為緩解或減輕個案症狀所提 供之照護，包括手術治療、放射治 療、全身性治療(化學治療、荷爾蒙 治療或其他全身性藥物)及疼痛控制 治療，詳欄位(變項)譯碼(四十五) 【申報醫院緩和照護（PALLI_H）對 照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported palliative care",
       "description_en": ""
     },
     {
@@ -387,7 +387,7 @@
       "length": 8,
       "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(四十六)【首次復發日期 （DRECUR）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first recurrence date",
       "description_en": ""
     },
     {
@@ -409,7 +409,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -444,7 +444,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：個案因此癌症至申報 醫院門診或住院之最早日期。 99999999：個案首次到申報醫院就診 日期不詳。年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first visit date",
       "description_en": ""
     },
     {
@@ -455,7 +455,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：最初診斷日期是指此 癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳。 年不詳：9999 月不詳：99 日不詳： 99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "initial diagnosis date",
       "description_en": ""
     },
     {
@@ -488,7 +488,7 @@
       "length": 3,
       "description_zh": "詳欄位(變項)譯碼(六)【腫瘤大小(公 釐)(TSIZE_C)】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor_size(mm)",
       "description_en": ""
     },
     {
@@ -521,7 +521,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(十五) 【首次療程 開始日期（DTRT_1ST）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "date of start of first course",
       "description_en": ""
     },
     {
@@ -532,7 +532,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案在任何醫療 機構內開始首次手術治療的日期。 00000000：沒有進行任何手術、於屍 體解剖時才診斷為癌症 99999999：不知道個案是否有接受手 術治療、個案有接受手術治療但是接 受手術治療的日期不清楚、僅由死亡 證明書得知個案有癌症，年不詳：9999",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first surgery date",
       "description_en": ""
     },
     {
@@ -565,7 +565,7 @@
       "length": 1,
       "description_zh": "記錄原發腫瘤切除後手術邊緣的最後 狀態。詳欄位(變項)譯碼(十七)【原發 部位手術邊緣（OPMARGS）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "primary site surgery rationale",
       "description_en": ""
     },
     {
@@ -620,7 +620,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十三)【放射治療 開始日期（RTB_DT）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy start date",
       "description_en": ""
     },
     {
@@ -631,7 +631,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(二十四)【放射治療 結束日期（RTE_DT）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "radiotherapy end date",
       "description_en": ""
     },
     {
@@ -664,7 +664,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(二十八)【未放射治 療原因（RTNOR）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reason for no radiation therapy",
       "description_en": ""
     },
     {
@@ -686,7 +686,7 @@
       "length": 2,
       "description_zh": "記錄個案在外院首次療程中，所給予 化學治療相關情形，詳欄位(變項)譯 碼(三十七)【申報醫院化學治療（CH） & 外院化學治療（CH_O）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient chemotherapy",
       "description_en": ""
     },
     {
@@ -697,7 +697,7 @@
       "length": 2,
       "description_zh": "記錄個案於申報醫院首次療程中，所 給予化學治療相關情形，詳欄位(變 項)譯碼(三十七)【申報醫院化學治療 （CH）& 外院化學治療（CH_O）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported chemotherapy",
       "description_en": ""
     },
     {
@@ -741,7 +741,7 @@
       "length": 2,
       "description_zh": "記載申報醫院於首次療程中，所給予 免疫治療的相關情形，詳欄位(變項) 譯碼(四十一)【申報醫院免疫治療 （ IMMU ） & 外 院 免 疫 治 療 （IMMU_O）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported immunotherapy",
       "description_en": ""
     },
     {
@@ -785,7 +785,7 @@
       "length": 1,
       "description_zh": "申報醫院為緩解或減輕個案症狀所提 供之照護，包括手術治療、放射治療、 全身性治療(化學治療、荷爾蒙治療或 其他全身性藥物)及疼痛控制治療，詳 欄位(變項)譯碼(四十五)【申報醫院緩 和照護（PALLI）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital-reported palliative care",
       "description_en": ""
     },
     {
@@ -796,7 +796,7 @@
       "length": 8,
       "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(四十六)【首次復發日期 （DRECUR_DT）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "first recurrence date",
       "description_en": ""
     },
     {
@@ -840,7 +840,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     }
   ],

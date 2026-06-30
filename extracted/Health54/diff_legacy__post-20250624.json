@@ -13,7 +13,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "new medical institution code",
       "description_en": ""
     },
     {
@@ -24,7 +24,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -35,18 +35,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 5,
-      "name_zh": "當時通訊地行政區",
-      "name_en": "ADDR_TOWN_PR ESENT",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "old_medical_institution_code",
       "description_en": ""
     },
     {
@@ -57,7 +46,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "former healthcare provider ownership",
       "description_en": ""
     },
     {
@@ -90,7 +79,7 @@
       "length": 10,
       "description_zh": "西元年YYYY-MM-DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection date",
       "description_en": ""
     },
     {
@@ -101,7 +90,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection institution",
       "description_en": ""
     },
     {
@@ -112,8 +101,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "sampling institution area",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 16,
@@ -123,7 +112,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership of specimen collection institution",
       "description_en": ""
     },
     {
@@ -145,8 +134,8 @@
       "length": 10,
       "description_zh": "有大小寫之分",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "cytology specimen number",
+      "description_en": "distinguishing between uppercase and lowercase"
     },
     {
       "seq": 21,
@@ -219,7 +208,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -230,25 +219,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 6,
-      "name_zh": "死亡日期",
-      "name_en": "DEAD_DATE",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "西元年YYYYMMDD 112年長度為 19",
-      "available_notes": [
-        {
-          "roc_year": 112,
-          "ad_year": 2023,
-          "marker": ""
-        }
-      ],
-      "name_zh_en": "Date of Death",
-      "description_en": ""
+      "name_zh_en": "current communication area administrative level",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 7,
@@ -286,7 +258,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection date",
       "description_en": ""
     },
     {
@@ -297,7 +269,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection institution",
       "description_en": ""
     },
     {
@@ -308,8 +280,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "sampling institution area",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 16,
@@ -319,7 +291,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership of specimen collection institution",
       "description_en": ""
     },
     {
@@ -341,8 +313,8 @@
       "length": 10,
       "description_zh": "有大小寫之分",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "cytology specimen number",
+      "description_en": "distinguishing between uppercase and lowercase"
     },
     {
       "seq": 21,
@@ -408,6 +380,16 @@
         "description_zh": {
           "from": "提供西元年月 YYYYMM 112年長度為 20",
           "to": "提供西元年月 YYYYMM"
+        }
+      }
+    },
+    {
+      "key": "DEAD_DATE",
+      "seq_later": 5,
+      "changes": {
+        "description_zh": {
+          "from": "西元年YYYYMMDD 112年長度為 19",
+          "to": "西元年YYYYMMDD"
         }
       }
     },

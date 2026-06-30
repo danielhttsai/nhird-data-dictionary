@@ -35,7 +35,7 @@
       "length": 8,
       "description_zh": "西元年YYYYMMDD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "oral cavity biopsy date",
       "description_en": ""
     },
     {
@@ -46,7 +46,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -57,7 +57,7 @@
       "length": 20,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "referral medical institution code",
       "description_en": ""
     },
     {
@@ -68,7 +68,7 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不 詳。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "gender by ID number",
       "description_en": ""
     },
     {
@@ -79,7 +79,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況 檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hierarchical level of diagnosing hospital",
       "description_en": ""
     },
     {
@@ -90,8 +90,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "inpatient hospital location",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 17,
@@ -101,7 +101,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況 檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital level",
       "description_en": ""
     },
     {
@@ -112,8 +112,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "referral medical institution area",
+      "description_en": "code referenced to cause of death statistics file."
     }
   ],
   "removed": [
@@ -136,7 +136,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -169,7 +169,7 @@
       "length": 1,
       "description_zh": "1：牙科；2：耳鼻喉科； 3：經本署認可之其他科醫師",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician specialty for examination",
       "description_en": ""
     },
     {
@@ -180,7 +180,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pathology slide hospital tier",
       "description_en": ""
     },
     {
@@ -191,7 +191,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code for diagnosis",
       "description_en": ""
     },
     {
@@ -202,7 +202,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient medical facility code",
       "description_en": ""
     },
     {
@@ -213,7 +213,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hierarchical level of diagnosing hospital",
       "description_en": ""
     },
     {
@@ -224,7 +224,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "inpatient healthcare facility tier",
       "description_en": ""
     },
     {
@@ -246,7 +246,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "referral medical institution code",
       "description_en": ""
     },
     {
@@ -257,7 +257,7 @@
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital code",
       "description_en": ""
     },
     {
@@ -268,7 +268,7 @@
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "referral medical institution level",
       "description_en": ""
     }
   ],
