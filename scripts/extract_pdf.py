@@ -86,6 +86,21 @@ def extract_pdf(pdf_path: Path) -> dict:
                 for tbl in p.extract_tables() or []:
                     rows = parse_field_table(tbl)
                     all_rows.extend(rows)
+            # Fallback: topic-specific databases (Health82/101/103/104, Health59)
+            # use a different field-table layout:
+            #   序號 / 欄位(EN) / 型態 / 來源 / 內容(ZH) / 描述   (no 長度 column)
+            if not all_rows:
+                topic_rows: list[dict] = []
+                in_codebook = False
+                for p in pdf.pages:
+                    text = p.extract_text() or ""
+                    if re.search(r"三、\s*欄位譯碼說明", text):
+                        in_codebook = True
+                    if in_codebook:
+                        continue
+                    for tbl in p.extract_tables() or []:
+                        topic_rows.extend(parse_field_table_topic(tbl))
+                all_rows = topic_rows
             out["fields"] = dedupe_fields(all_rows)
 
             # Codebooks (from codebook section onwards)
@@ -231,6 +246,27 @@ def parse_update_history(raw: str) -> list[dict]:
 
 # ============== Field table parsing ==============
 
+_TYPE_TOKENS = ("char", "varchar", "varchar2", "nvarchar", "nchar", "number",
+                "num", "numeric", "date", "datetime", "decimal", "int",
+                "integer", "float", "text")
+
+
+def _is_type_token(s: str) -> bool:
+    """True if a cell looks like a SQL/COBOL field type (Char, Number, Date…)."""
+    t = (s or "").strip().lower()
+    if not t:
+        return False
+    return any(t == tok or t.startswith(tok) for tok in _TYPE_TOKENS)
+
+
+def _collapse_cjk_spaces(s: str) -> str:
+    """Remove stray spaces pdfplumber inserts between adjacent CJK characters
+    ('身 分證' → '身分證', '承保 檔' → '承保檔')."""
+    if not s:
+        return s
+    return re.sub(r"(?<=[一-鿿])\s+(?=[一-鿿])", "", s).strip()
+
+
 def parse_field_table(tbl: list[list]) -> list[dict]:
     """Parse one extracted-table object. Returns field rows or [] if not a field table."""
     if not tbl or len(tbl) < 2:
@@ -273,17 +309,34 @@ def parse_field_table(tbl: list[list]) -> list[dict]:
         non_empty = [(c or "").replace("\n", " ").strip() for c in raw if (c or "").strip()]
         if not non_empty:
             continue
-        # Try to interpret as a fresh field row: first cell is a digit
-        if non_empty[0].isdigit() and len(non_empty) >= 4:
-            seq = int(non_empty[0])
-            # Expected order: seq, name_zh, name_en, type, length, description
-            # Some rows have less (e.g. no description), some have description split into many cells
+        # Try to interpret as a fresh field row: first cell is a sequence number,
+        # possibly with trailing punctuation ("1", "1.", "1、").
+        seq_m = re.fullmatch(r"(\d+)[.、)）]?", non_empty[0])
+        if seq_m and len(non_empty) >= 4:
+            seq = int(seq_m.group(1))
+            # Base order: seq, name_zh, name_en, [來源], type, length, description.
+            # Anchor on the 型態 token so an optional 來源 column (present in some
+            # topic databases, e.g. Health103) doesn't shift type/length.
             parts = non_empty[1:]
             name_zh = parts[0] if len(parts) > 0 else ""
             name_en = parts[1] if len(parts) > 1 else ""
-            typ = parts[2] if len(parts) > 2 else ""
-            length = parts[3] if len(parts) > 3 else ""
-            desc = " ".join(parts[4:]) if len(parts) > 4 else ""
+            # The row number sometimes leaks into the name cell ("1身分證字號").
+            name_zh = re.sub(rf"^\s*{seq}\s*(?=[一-鿿])", "", name_zh)
+            name_zh = _collapse_cjk_spaces(name_zh)
+            rest = parts[2:]
+            source = ""
+            ti = next((i for i, c in enumerate(rest) if _is_type_token(c)), None)
+            if ti is None:
+                typ, length, desc = "", "", " ".join(rest)
+            else:
+                if ti > 0:
+                    source = " ".join(rest[:ti])
+                typ = rest[ti]
+                after = rest[ti + 1:]
+                if after and re.fullmatch(r"\d+", after[0]):
+                    length, desc = after[0], " ".join(after[1:])
+                else:
+                    length, desc = "", " ".join(after)
             try:
                 length_val = int(length) if length.isdigit() else length
             except (AttributeError, ValueError):
@@ -296,6 +349,8 @@ def parse_field_table(tbl: list[list]) -> list[dict]:
                 "length": length_val,
                 "description_zh": desc,
             }
+            if source:
+                new["source"] = source
             rows.append(new)
             last_field = new
         else:
@@ -309,6 +364,70 @@ def parse_field_table(tbl: list[list]) -> list[dict]:
                 last_field["name_zh"] = (last_field["name_zh"] + joined_text).strip()
             else:
                 last_field["description_zh"] = (last_field["description_zh"] + " " + joined_text).strip()
+    return rows
+
+
+def parse_field_table_topic(tbl: list[list]) -> list[dict]:
+    """Parse the topic-specific-database field layout:
+        序號 / 欄位(EN) / 型態 / 來源 / 內容(ZH) / 描述
+    (used by Health82/101/103/104 and Health59 — no 長度 column, Chinese name is
+    in the 內容 column rather than a 中文欄位名稱 column).
+    Returns [] if this table doesn't look like that layout.
+    """
+    if not tbl or len(tbl) < 2:
+        return []
+
+    def joined(row):
+        return "|".join((c or "").replace("\n", "").strip() for c in row)
+
+    def is_topic_header(row):
+        flat = joined(row)
+        return ("欄位" in flat and "描述" in flat
+                and ("來源" in flat or "內容" in flat)
+                and "中文欄位名稱" not in flat)
+
+    header_idx = None
+    for i, row in enumerate(tbl[:5]):
+        if is_topic_header(row):
+            header_idx = i
+            break
+    if header_idx is None:
+        return []
+
+    rows: list[dict] = []
+    last_field: dict | None = None
+    for raw in tbl[header_idx + 1:]:
+        non_empty = [(c or "").replace("\n", " ").strip() for c in raw if (c or "").strip()]
+        if not non_empty:
+            continue
+        if non_empty[0].isdigit() and len(non_empty) >= 3:
+            seq = int(non_empty[0])
+            parts = non_empty[1:]
+            # Expected: name_en, type, source, name_zh(content), description
+            name_en = parts[0] if len(parts) > 0 else ""
+            typ = parts[1] if len(parts) > 1 else ""
+            source = _collapse_cjk_spaces(parts[2]) if len(parts) > 2 else ""
+            name_zh = _collapse_cjk_spaces(parts[3]) if len(parts) > 3 else ""
+            desc = " ".join(parts[4:]) if len(parts) > 4 else ""
+            new = {
+                "seq": seq,
+                "name_zh": name_zh,
+                "name_en": name_en,
+                "type": typ,
+                "length": "",
+                "source": source,
+                "description_zh": desc,
+            }
+            rows.append(new)
+            last_field = new
+        else:
+            if not last_field:
+                continue
+            joined_text = " ".join(non_empty)
+            if all(re.fullmatch(r"[一-鿿()（）、~：:0-9一二三四五六七八九十／/]+", x) for x in non_empty):
+                last_field["name_zh"] = (last_field["name_zh"] + joined_text).strip()
+            else:
+                last_field["description_zh"] = (last_field.get("description_zh", "") + " " + joined_text).strip()
     return rows
 
 
