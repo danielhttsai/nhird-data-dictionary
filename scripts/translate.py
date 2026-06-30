@@ -140,6 +140,11 @@ def collect_strings(only_files: list[str] | None = None, max_len: int | None = N
     for json_path in sorted(EXTRACTED.glob("*/*.json")):
         if json_path.name.startswith("diff_"):
             continue
+        # Skip the huge survey-wave / Excel-codebook variable sets (tens of
+        # thousands of long questionnaire strings, low value, mostly already
+        # have English variable names). Focus on the core HWDC databases.
+        if "__xls_" in json_path.stem or "__wave_" in json_path.stem:
+            continue
         if only_files and json_path.parent.name not in only_files:
             continue
         d = json.loads(json_path.read_text(encoding="utf-8"))
@@ -173,6 +178,8 @@ def stamp_translations(cache: dict[str, str], only_files: list[str] | None = Non
     n_files = 0
     for json_path in sorted(EXTRACTED.glob("*/*.json")):
         if json_path.name.startswith("diff_"):
+            continue
+        if "__xls_" in json_path.stem or "__wave_" in json_path.stem:
             continue
         if only_files and json_path.parent.name not in only_files:
             continue
