@@ -19,6 +19,34 @@ function safeName(name) {
   return String(name).replace(/[^\p{L}\p{N}_-]/gu, '_').slice(0, 80);
 }
 
+// Clean database-level title from the MOHW listing name, e.g.
+// "Welfare08_婦女生活狀況調查" → "婦女生活狀況調查". Used for the card / file
+// title so it never shows a per-version sub-table list or a mojibake codebook
+// filename.
+function cleanListingTitle(s) {
+  if (!s) return '';
+  let t = String(s)
+    .replace(/^(Health|Society|Welfare)[\w-]*?[_-]/i, '')  // drop code prefix
+    .replace(/\(20250624\s*起適用\)/g, '')
+    .replace(/\(.*?版本\)/g, '')
+    .replace(/_+|-{2,}/g, ' – ')
+    .trim();
+  return t;
+}
+
+// Pick the clean DB title: the main (zip / main-PDF, non-wave, non-xls) version's
+// listing name, cleaned. Falls back to '' so callers can use another source.
+function fileTitle(versions) {
+  const mains = versions.filter(v => v.file_type !== 'xls' && !v.version_id.includes('__wave_'));
+  // Prefer the legacy main (shortest, no "(20250624…)" suffix).
+  mains.sort((a, b) => (a.name_zh || '').length - (b.name_zh || '').length);
+  for (const v of mains) {
+    const t = cleanListingTitle(v.name_zh);
+    if (t && !t.includes('�')) return t;
+  }
+  return '';
+}
+
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
 const qa = fs.existsSync(QA) ? JSON.parse(fs.readFileSync(QA, 'utf8')) : { entries: [] };
 const qaByKey = new Map(qa.entries.map(e => [`${e.code}|${e.version_id}`, e]));
@@ -100,15 +128,21 @@ for (const [code, versions] of byCode) {
   const primaryExtracted = extracted[primary.version_id];
 
   const category = TOPIC_CODES.has(code) ? 'Topic' : primary.category;
+  // Database-level title from the clean MOHW listing name (never a per-version
+  // sub-table list or a mojibake codebook filename). Fall back to extracted name.
+  const dbTitle = fileTitle(sorted) || primaryExtracted?.name_zh || primary.name_zh || '';
   // For catalogue display, prefer the PDF's English file name; fall back to the
-  // LLM-translated Chinese name.
-  const englishName = (primaryExtracted?.name_en && primaryExtracted.name_en.trim())
+  // LLM-translated Chinese name. Drop it if it's actually a sub-table list
+  // (very long / repeated) so the card doesn't show a wall of text.
+  const enCandidate = (primaryExtracted?.name_en && primaryExtracted.name_en.trim())
     || primaryExtracted?.name_zh_en
     || '';
+  const englishName = (enCandidate.length > 60 || /Questionnaire.*Questionnaire/i.test(enCandidate))
+    ? '' : enCandidate;
   const item = {
     code,
     category,
-    name_zh: primaryExtracted?.name_zh || primary.name_zh || '',
+    name_zh: dbTitle,
     name_en: englishName,
     code_short: primaryExtracted?.code_short || '',
     frequency: primaryExtracted?.frequency || '',
