@@ -26,7 +26,9 @@ function safeName(name) {
 function cleanListingTitle(s) {
   if (!s) return '';
   let t = String(s)
-    .replace(/^(Health|Society|Welfare)[\w-]*?[_-]/i, '')  // drop code prefix
+    // Drop the code prefix incl. a "-N" suffix (Society12-1) and any separator
+    // that follows it (underscore, space, or dash).
+    .replace(/^(Health|Society|Welfare)\d+(?:-\d+)?[\s_–-]*/i, '')
     .replace(/\(20250624\s*起適用\)/g, '')
     .replace(/\(.*?版本\)/g, '')
     .replace(/_+|-{2,}/g, ' – ')
@@ -37,8 +39,12 @@ function cleanListingTitle(s) {
 // Pick the clean DB title: the main (zip / main-PDF, non-wave, non-xls) version's
 // listing name, cleaned. Falls back to '' so callers can use another source.
 function fileTitle(versions) {
-  const mains = versions.filter(v => v.file_type !== 'xls' && !v.version_id.includes('__wave_'));
-  // Prefer the legacy main (shortest, no "(20250624…)" suffix).
+  const mains = versions.filter(v =>
+    v.file_type !== 'xls'
+    && !v.version_id.includes('__wave_')
+    && v.version_id !== 'appendix'              // 附錄 isn't the database's name
+    && !(v.name_zh || '').includes('附錄'));
+  // Prefer the shortest clean name (drops "(…版本)" / "(20250624…)" suffixes).
   mains.sort((a, b) => (a.name_zh || '').length - (b.name_zh || '').length);
   for (const v of mains) {
     const t = cleanListingTitle(v.name_zh);
@@ -130,7 +136,8 @@ for (const [code, versions] of byCode) {
   const category = TOPIC_CODES.has(code) ? 'Topic' : primary.category;
   // Database-level title from the clean MOHW listing name (never a per-version
   // sub-table list or a mojibake codebook filename). Fall back to extracted name.
-  const dbTitle = fileTitle(sorted) || primaryExtracted?.name_zh || primary.name_zh || '';
+  const dbTitle = fileTitle(sorted)
+    || cleanListingTitle(primaryExtracted?.name_zh || primary.name_zh) || '';
   // For catalogue display, prefer the PDF's English file name; fall back to the
   // LLM-translated Chinese name. Drop it if it's actually a sub-table list
   // (very long / repeated) so the card doesn't show a wall of text.
