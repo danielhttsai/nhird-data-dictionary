@@ -141,7 +141,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "dosage of medication (department)",
       "description_en": ""
     },
     {
@@ -158,7 +158,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "medication usage frequency (payment co-pay)",
       "description_en": ""
     },
     {
@@ -213,7 +213,7 @@
       "length": 4,
       "description_zh": "醫療機構所在鄉鎮",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "county city township district code of medical institution",
       "description_en": "medical institution township"
     },
     {
@@ -269,7 +269,7 @@
       "length": 1,
       "description_zh": "2012/07以前為Y：是；N：否 2012/07（含）以後為 1：慢性病連續處方箋案件 2：同一療程案件 3：排程檢查（或檢驗）案件(含就 醫日期開立排程檢查(或檢驗)) 4：非慢性病連續處方箋、非同一療",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "prescribed chronic disease medication",
       "description_en": ""
     },
     {
@@ -342,7 +342,7 @@
       "description_zh": "給藥日份之最高之天數。",
       "available_notes": [],
       "name_zh_en": "prescribed drug days by medical order",
-      "description_en": ""
+      "description_en": "the maximum number of days for medication administration."
     }
   ],
   "codebooks": {
@@ -467,7 +467,7 @@
         {
           "code": "16",
           "label_zh": "牙醫特殊專案醫療服務項目",
-          "label_en": ""
+          "label_en": "dental-specialty-medical-services-items"
         },
         {
           "code": "17",
@@ -492,7 +492,7 @@
         {
           "code": "B7",
           "label_zh": "代辦門診戒菸治療試辦計畫",
-          "label_en": ""
+          "label_en": "outpatient smoking cessation treatment pilot program"
         },
         {
           "code": "C4",
@@ -552,7 +552,7 @@
         {
           "code": "29",
           "label_zh": "中醫針灸、傷科及脫臼整復",
-          "label_en": ""
+          "label_en": "traditional Chinese acupuncture, orthopedics and dislocation reduction"
         },
         {
           "code": "30",
@@ -683,12 +683,12 @@
         {
           "code": "E",
           "label_zh": "自費特材項目-未支付",
-          "label_en": ""
+          "label_en": "self-paid special materials item-unpaid"
         },
         {
           "code": "F",
           "label_zh": "自費特材項目-不符給付規定",
-          "label_en": ""
+          "label_en": "self-payment special materials item - non-covered payment provisions"
         },
         {
           "code": "G",
@@ -869,7 +869,7 @@
         {
           "code": "86013C",
           "label_zh": "人工水晶體植入術－調整術",
-          "label_en": ""
+          "label_en": "adjustment_of_artificial_crystalline_lens_surgery"
         },
         {
           "code": "97601K",
@@ -972,7 +972,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "medication quantity (site of care)"
     },
     "DRUG_FRE": {
       "field_zh": "藥品使用頻率(支付成數)",
@@ -1030,7 +1030,7 @@
         {
           "code": "QN",
           "label_zh": "每晚使用一次 每日常規使用",
-          "label_en": ""
+          "label_en": "每晚使用一次 每日常規使用"
         },
         {
           "code": "BID",
@@ -1068,7 +1068,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "drug utilization frequency (copayment rate)"
     },
     "DRUG_PATH": {
       "field_zh": "給藥途徑/作用部位",
@@ -1261,7 +1261,7 @@
         {
           "code": "TOPI",
           "label_zh": "局部塗擦(與LA易混 淆)",
-          "label_en": ""
+          "label_en": "local application (may be confused with LA)"
         },
         {
           "code": "TPN",
@@ -1562,7 +1562,7 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "non-profit organization clinics/medical offices"
         },
         {
           "code": "31",
@@ -1827,7 +1827,7 @@
         {
           "code": "HY",
           "label_zh": "助產機構 私立助產機構",
-          "label_en": ""
+          "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
@@ -1837,7 +1837,7 @@
         {
           "code": "LY",
           "label_zh": "鑲牙所 私立鑲牙所",
-          "label_en": ""
+          "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",

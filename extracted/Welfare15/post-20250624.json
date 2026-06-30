@@ -83,7 +83,7 @@
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
       "name_zh_en": "victim_birth_year_month",
-      "description_en": ""
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 7,
@@ -216,7 +216,7 @@
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
       "name_zh_en": "Relative's Date of Birth",
-      "description_en": ""
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 18,
@@ -353,7 +353,7 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "misalignment-of-victim-s-identity-card-number",
       "description_en": ""
     },
     {
@@ -364,7 +364,7 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "relative_person_id_card_number_correction",
       "description_en": ""
     }
   ],
@@ -410,7 +410,7 @@
         {
           "code": "D",
           "label_zh": "警察人員 T 父或母",
-          "label_en": ""
+          "label_en": "police personnel T father or mother"
         },
         {
           "code": "E",
@@ -420,7 +420,7 @@
         {
           "code": "F",
           "label_zh": "教育人員 V 案主主動求助",
-          "label_en": ""
+          "label_en": "education personnel V case owner proactively seeking help"
         },
         {
           "code": "G",
@@ -430,7 +430,7 @@
         {
           "code": "H",
           "label_zh": "社會工作人員 X 矯正人員",
-          "label_en": ""
+          "label_en": "社會工作人員X矫正人員"
         },
         {
           "code": "I",
@@ -491,7 +491,7 @@
         {
           "code": "G",
           "label_zh": "衛政 Y 醫院、診所",
-          "label_en": ""
+          "label_en": "public health institutions and clinics"
         },
         {
           "code": "H",
@@ -501,7 +501,7 @@
         {
           "code": "I",
           "label_zh": "一一三 1 觀光業務機關",
-          "label_en": ""
+          "label_en": "one hundred and thirteen one tourism business agency"
         },
         {
           "code": "J",
@@ -511,7 +511,7 @@
         {
           "code": "K",
           "label_zh": "診所及衛生所 3 戶政",
-          "label_en": ""
+          "label_en": "clinic and health center 3 household registration"
         },
         {
           "code": "L",
@@ -532,7 +532,7 @@
         {
           "code": "2",
           "label_zh": "外國籍－緬甸 K 無國籍",
-          "label_en": ""
+          "label_en": "foreigner-Burma-K-no nationality"
         },
         {
           "code": "4",
@@ -638,7 +638,7 @@
         {
           "code": "E",
           "label_zh": "公教軍警 N 自由業",
-          "label_en": ""
+          "label_en": "government, military, police N self-employed"
         },
         {
           "code": "F",
@@ -674,7 +674,7 @@
         {
           "code": "B",
           "label_zh": "自修 H 研究所以上",
-          "label_en": ""
+          "label_en": "self-study above high school"
         },
         {
           "code": "C",
@@ -689,7 +689,7 @@
         {
           "code": "E",
           "label_zh": "高中（職） X 其他",
-          "label_en": ""
+          "label_en": "high school (vocational) X others"
         },
         {
           "code": "F",
@@ -710,7 +710,7 @@
         {
           "code": "B",
           "label_zh": "學前教育 F 未再升學",
-          "label_en": ""
+          "label_en": "preschool education F no further education"
         },
         {
           "code": "C",
@@ -751,37 +751,37 @@
         {
           "code": "B",
           "label_zh": "前配偶 N 客戶關係",
-          "label_en": ""
+          "label_en": "ex-spouse N customer relationship"
         },
         {
           "code": "C",
           "label_zh": "直系親屬 O 上司/下屬",
-          "label_en": ""
+          "label_en": "immediate-family-member-O-supervisor/subordinate"
         },
         {
           "code": "D",
           "label_zh": "旁系親屬 P 師生關係",
-          "label_en": ""
+          "label_en": "collateral relative P teacher-student relationship"
         },
         {
           "code": "F",
           "label_zh": "家人的朋友 Q 鄰居",
-          "label_en": ""
+          "label_en": "friend of family Q neighbor"
         },
         {
           "code": "G",
           "label_zh": "未婚夫/妻 R 不認識",
-          "label_en": ""
+          "label_en": "unacquainted with fiancé/fiancée R"
         },
         {
           "code": "H",
           "label_zh": "男/女朋友 S 初識",
-          "label_en": ""
+          "label_en": "boyfriend/girlfriend S first meeting"
         },
         {
           "code": "I",
           "label_zh": "前男/女朋友 T 熟識",
-          "label_en": ""
+          "label_en": "former male/female partner T acquaintances"
         },
         {
           "code": "J",
@@ -917,12 +917,12 @@
         {
           "code": "Y",
           "label_zh": "領有身心障礙手冊－其他",
-          "label_en": ""
+          "label_en": "holder_of_disability_certificate_other"
         },
         {
           "code": "Z",
           "label_zh": "疑似身心障礙者－其他",
-          "label_en": ""
+          "label_en": "suspected person with mental/physical disability－other"
         }
       ],
       "field_en": "victim's disability type"
@@ -1018,7 +1018,7 @@
         {
           "code": "A",
           "label_zh": "住(居)所 H 旅(賓)館",
-          "label_en": ""
+          "label_en": "residence hotel"
         },
         {
           "code": "B",
@@ -1038,7 +1038,7 @@
         {
           "code": "E",
           "label_zh": "寄養家庭 L 網際網路",
-          "label_en": ""
+          "label_en": "foster family L internet"
         },
         {
           "code": "F",

@@ -98,7 +98,7 @@
       "length": 2,
       "description_zh": "詳見欄位原處方醫療機構之案件 類別（R_CASE_TYPE）譯碼說 明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "case category at original prescribing medical institution",
       "description_en": ""
     },
     {
@@ -176,7 +176,7 @@
       "description_zh": "本次給藥日份最高之天數。",
       "available_notes": [],
       "name_zh_en": "dosage date",
-      "description_en": ""
+      "description_en": "maximum-day-of-medication-dose-this-time"
     },
     {
       "seq": 13,
@@ -424,7 +424,7 @@
       "length": 2,
       "description_zh": "醫療機構(醫院)之原醫療機構代 碼前2碼，詳權屬別（HOS）譯 碼說明。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ownership of prescribing medical institution",
       "description_en": ""
     },
     {
@@ -452,7 +452,7 @@
       "length": 2,
       "description_zh": "空白表示無所列舉之內容。慢性 病連續處方調劑本欄免填，詳特",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (one)",
       "description_en": ""
     },
     {
@@ -463,7 +463,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (two)",
       "description_en": ""
     },
     {
@@ -480,7 +480,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (three)",
       "description_en": ""
     },
     {
@@ -491,7 +491,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (four)",
       "description_en": ""
     },
     {
@@ -779,7 +779,7 @@
         {
           "code": "16",
           "label_zh": "牙醫特殊專案醫療服務項目",
-          "label_en": ""
+          "label_en": "dental-specialty-medical-services-items"
         },
         {
           "code": "17",
@@ -799,7 +799,7 @@
         {
           "code": "B6",
           "label_zh": "職災案件(91/1 增訂)",
-          "label_en": ""
+          "label_en": "職災案件(91/1增訂)"
         },
         {
           "code": "B7",
@@ -864,7 +864,7 @@
         {
           "code": "29",
           "label_zh": "中醫針灸、傷科及脫臼整復",
-          "label_en": ""
+          "label_en": "traditional Chinese acupuncture, orthopedics and dislocation reduction"
         },
         {
           "code": "30",
@@ -884,7 +884,7 @@
         {
           "code": "B6",
           "label_zh": "職災案件(91/1 增訂)",
-          "label_en": ""
+          "label_en": "職災案件(91/1增訂)"
         },
         {
           "code": "B7",
@@ -907,7 +907,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "case category of the original prescribing medical institution"
     },
     "FUNC_TYPE": {
       "field_zh": "就醫科別",
@@ -915,7 +915,7 @@
         {
           "code": "00",
           "label_zh": "不分科(96年1月取消)",
-          "label_en": ""
+          "label_en": "unclassified (discontinued in 2007)"
         },
         {
           "code": "01",
@@ -1045,7 +1045,7 @@
         {
           "code": "AA",
           "label_zh": "消化內科(腸胃內科)",
-          "label_en": ""
+          "label_en": "internal medicine (gastroenterology)"
         },
         {
           "code": "AB",
@@ -1205,7 +1205,7 @@
         {
           "code": "IC16",
           "label_zh": "第五次（一歲半至至二歲）",
-          "label_en": ""
+          "label_en": "fifth-time(18-to-24-months)"
         },
         {
           "code": "16",
@@ -1225,7 +1225,7 @@
         {
           "code": "71",
           "label_zh": "IC71 第一次(一個月)",
-          "label_en": ""
+          "label_en": "IC71 first month"
         },
         {
           "code": "72",
@@ -1250,7 +1250,7 @@
         {
           "code": "76",
           "label_zh": "IC76 第六次（三歲）",
-          "label_en": ""
+          "label_en": "IC76 Third Dose (3 Years)"
         },
         {
           "code": "IC77",
@@ -1380,7 +1380,7 @@
         {
           "code": "22",
           "label_zh": "IC22 超過六十五歲",
-          "label_en": ""
+          "label_en": "IC22 over sixty-five years old"
         },
         {
           "code": "23",
@@ -1605,7 +1605,7 @@
         {
           "code": "A000",
           "label_zh": "A001 讀卡設備故障",
-          "label_en": ""
+          "label_en": "A001读卡设备故障"
         },
         {
           "code": "A010",
@@ -1630,7 +1630,7 @@
         {
           "code": "C000",
           "label_zh": "C001 停電、例外就醫",
-          "label_en": ""
+          "label_en": "Power outage, emergency medical care"
         },
         {
           "code": "D000",
@@ -1640,7 +1640,7 @@
         {
           "code": "D010",
           "label_zh": "D011 醫療院所電腦故障",
-          "label_en": ""
+          "label_en": "D011 Computer failure at medical facility"
         },
         {
           "code": "E000",
@@ -1736,7 +1736,7 @@
         {
           "code": "C",
           "label_zh": "糖尿病試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "糖尿病試辦計畫90.11"
         },
         {
           "code": "D",
@@ -1746,12 +1746,12 @@
         {
           "code": "E",
           "label_zh": "氣喘試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "asthma-trial-program-90.11"
         },
         {
           "code": "F",
           "label_zh": "肺結核試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "pulmonary tuberculosis pilot program 90.11"
         },
         {
           "code": "G",
@@ -1786,7 +1786,7 @@
         {
           "code": "Y",
           "label_zh": "八仙樂園粉塵爆炸事件",
-          "label_en": ""
+          "label_en": "eighteen-eighty amusement park dust explosion incident"
         },
         {
           "code": "Z",
@@ -2182,7 +2182,7 @@
         {
           "code": "C00",
           "label_zh": "地區醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "C10",
@@ -2272,12 +2272,12 @@
         {
           "code": "D00",
           "label_zh": "基層院所；急診 150",
-          "label_en": ""
+          "label_en": "primary care facility; emergency 150"
         },
         {
           "code": "D10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "D12",
@@ -2287,7 +2287,7 @@
         {
           "code": "D14",
           "label_zh": "基層院所；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "primary care facilities; only drug prescription for general outpatient clinics"
         },
         {
           "code": "D20",
@@ -2317,12 +2317,12 @@
         {
           "code": "E00",
           "label_zh": "醫學中心；急診 150",
-          "label_en": ""
+          "label_en": "medical center; emergency 150"
         },
         {
           "code": "E10",
           "label_zh": "醫學中心；一般門診 50",
-          "label_en": ""
+          "label_en": "medical center; general outpatient 50"
         },
         {
           "code": "E13",
@@ -2352,12 +2352,12 @@
         {
           "code": "F00",
           "label_zh": "區域醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "F10",
           "label_zh": "區域醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 50"
         },
         {
           "code": "F13",
@@ -2387,7 +2387,7 @@
         {
           "code": "G00",
           "label_zh": "地區醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "G10",
@@ -2412,12 +2412,12 @@
         {
           "code": "H00",
           "label_zh": "基層院所；急診 150",
-          "label_en": ""
+          "label_en": "primary care facility; emergency 150"
         },
         {
           "code": "H10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "H20",
@@ -2442,7 +2442,7 @@
         {
           "code": "N14",
           "label_zh": "醫學中心；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "medical center; general outpatient with prescription only"
         },
         {
           "code": "N20",
@@ -2472,12 +2472,12 @@
         {
           "code": "Q10",
           "label_zh": "區域醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 50"
         },
         {
           "code": "Q14",
           "label_zh": "區域醫院；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "regional hospitals; only drug prescription for general outpatient clinics"
         },
         {
           "code": "Q20",
@@ -2512,7 +2512,7 @@
         {
           "code": "R14",
           "label_zh": "地區醫院；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "regional hospitals; only drug prescription for general outpatient clinics"
         },
         {
           "code": "R20",
@@ -2542,7 +2542,7 @@
         {
           "code": "S10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "S14",
@@ -2728,7 +2728,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "44",
@@ -2813,7 +2813,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "22",
@@ -2923,7 +2923,7 @@
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P",
-          "label_en": ""
+          "label_en": "poly-chlorinated-biphenyl-poisoning-P"
         },
         {
           "code": "A3",
@@ -2963,7 +2963,7 @@
         {
           "code": "73",
           "label_zh": "腦瘤併發神經功能障礙 D",
-          "label_en": ""
+          "label_en": "neurological-complication-of-brain-tumor-D"
         },
         {
           "code": "A8",
@@ -3303,7 +3303,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療",
-          "label_en": ""
+          "label_en": "home quarantine or isolation telemedicine consultation"
         },
         {
           "code": "JU",
@@ -3323,7 +3323,7 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫",
-          "label_en": ""
+          "label_en": "核感染治療品質支付服務計畫"
         },
         {
           "code": "XX",
@@ -3634,7 +3634,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "44",
@@ -3719,7 +3719,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "22",
@@ -3829,7 +3829,7 @@
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P",
-          "label_en": ""
+          "label_en": "poly-chlorinated-biphenyl-poisoning-P"
         },
         {
           "code": "A3",
@@ -3869,7 +3869,7 @@
         {
           "code": "73",
           "label_zh": "腦瘤併發神經功能障礙 D",
-          "label_en": ""
+          "label_en": "neurological-complication-of-brain-tumor-D"
         },
         {
           "code": "A8",
@@ -4209,7 +4209,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療",
-          "label_en": ""
+          "label_en": "home quarantine or isolation telemedicine consultation"
         },
         {
           "code": "JU",
@@ -4229,7 +4229,7 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫",
-          "label_en": ""
+          "label_en": "核感染治療品質支付服務計畫"
         },
         {
           "code": "XX",
@@ -4540,7 +4540,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "44",
@@ -4625,7 +4625,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "22",
@@ -4735,7 +4735,7 @@
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P",
-          "label_en": ""
+          "label_en": "poly-chlorinated-biphenyl-poisoning-P"
         },
         {
           "code": "A3",
@@ -4775,7 +4775,7 @@
         {
           "code": "73",
           "label_zh": "腦瘤併發神經功能障礙 D",
-          "label_en": ""
+          "label_en": "neurological-complication-of-brain-tumor-D"
         },
         {
           "code": "A8",
@@ -5115,7 +5115,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療",
-          "label_en": ""
+          "label_en": "home quarantine or isolation telemedicine consultation"
         },
         {
           "code": "JU",
@@ -5135,7 +5135,7 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫",
-          "label_en": ""
+          "label_en": "核感染治療品質支付服務計畫"
         },
         {
           "code": "XX",
@@ -5446,7 +5446,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "44",
@@ -5531,7 +5531,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "22",
@@ -5641,7 +5641,7 @@
         {
           "code": "69",
           "label_zh": "油症（多氯聯苯中毒） P",
-          "label_en": ""
+          "label_en": "poly-chlorinated-biphenyl-poisoning-P"
         },
         {
           "code": "A3",
@@ -5681,7 +5681,7 @@
         {
           "code": "73",
           "label_zh": "腦瘤併發神經功能障礙 D",
-          "label_en": ""
+          "label_en": "neurological-complication-of-brain-tumor-D"
         },
         {
           "code": "A8",
@@ -6021,7 +6021,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療",
-          "label_en": ""
+          "label_en": "home quarantine or isolation telemedicine consultation"
         },
         {
           "code": "JU",
@@ -6041,7 +6041,7 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫",
-          "label_en": ""
+          "label_en": "核感染治療品質支付服務計畫"
         },
         {
           "code": "XX",
@@ -6472,7 +6472,7 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "non-profit organization clinics/medical offices"
         },
         {
           "code": "31",
@@ -6742,7 +6742,7 @@
         {
           "code": "HY",
           "label_zh": "助產機構 私立助產機構",
-          "label_en": ""
+          "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
@@ -6752,7 +6752,7 @@
         {
           "code": "LY",
           "label_zh": "鑲牙所 私立鑲牙所",
-          "label_en": ""
+          "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",

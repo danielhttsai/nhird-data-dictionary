@@ -98,7 +98,7 @@
       "length": 2,
       "description_zh": "空白表示無所列舉之內容，慢性 病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM_NO1~ CURE_ITEM_NO4）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-one",
       "description_en": ""
     },
     {
@@ -109,7 +109,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-two",
       "description_en": ""
     },
     {
@@ -120,7 +120,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-three",
       "description_en": ""
     },
     {
@@ -131,7 +131,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-four",
       "description_en": ""
     },
     {
@@ -209,7 +209,7 @@
       "description_zh": "詳見欄位部分負擔代號",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "detail copay code"
     },
     {
       "seq": 16,
@@ -383,7 +383,7 @@
       "length": 12,
       "description_zh": "填寫支付標準碼，洗腎本欄免 填，補空白",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pharmacy service point item code",
       "description_en": ""
     },
     {
@@ -493,7 +493,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Physician ID number error",
       "description_en": ""
     },
     {
@@ -526,7 +526,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Pharmacist ID number error",
       "description_en": ""
     },
     {
@@ -592,7 +592,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "total days of continuous prescription for chronic conditions",
       "description_en": ""
     },
     {
@@ -644,7 +644,7 @@
         }
       ],
       "name_zh_en": "hospital to which transferred",
-      "description_en": ""
+      "description_en": "Note: This field was added starting in 2000"
     },
     {
       "seq": 49,
@@ -661,7 +661,7 @@
         }
       ],
       "name_zh_en": "location of hospital receiving transfer",
-      "description_en": ""
+      "description_en": "Note: This field was added starting in 2000"
     },
     {
       "seq": 50,
@@ -890,7 +890,7 @@
         {
           "code": "16",
           "label_zh": "牙醫特殊專案醫療服務項目",
-          "label_en": ""
+          "label_en": "dental-specialty-medical-services-items"
         },
         {
           "code": "17",
@@ -915,7 +915,7 @@
         {
           "code": "B7",
           "label_zh": "代辦門診戒菸治。試辦計畫",
-          "label_en": ""
+          "label_en": "outpatient smoking cessation. pilot program"
         },
         {
           "code": "C4",
@@ -955,7 +955,7 @@
         {
           "code": "25",
           "label_zh": "中醫至無中醫鄉巡迴醫療服務",
-          "label_en": ""
+          "label_en": "Traditional Chinese medicine to no traditional Chinese medicine rural巡回medical service"
         },
         {
           "code": "26",
@@ -975,7 +975,7 @@
         {
           "code": "29",
           "label_zh": "中醫針灸、傷科及脫臼整復",
-          "label_en": ""
+          "label_en": "traditional Chinese acupuncture, orthopedics and dislocation reduction"
         },
         {
           "code": "30",
@@ -1166,7 +1166,7 @@
         {
           "code": "12",
           "label_zh": "癌症藥物追蹤治療 A",
-          "label_en": ""
+          "label_en": "cancer_drug_tracking_treatment_A"
         },
         {
           "code": "44",
@@ -1176,7 +1176,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "45",
@@ -1251,7 +1251,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "21",
@@ -1261,7 +1261,7 @@
         {
           "code": "53",
           "label_zh": "先天性免疫不全症 P",
-          "label_en": ""
+          "label_en": "primary immunodeficiency P"
         },
         {
           "code": "22",
@@ -1401,7 +1401,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M 特殊治療或處置",
-          "label_en": ""
+          "label_en": "烏腳病M特殊治療或處置"
         },
         {
           "code": "80",
@@ -1957,7 +1957,7 @@
         {
           "code": "12",
           "label_zh": "癌症藥物追蹤治療 A",
-          "label_en": ""
+          "label_en": "cancer_drug_tracking_treatment_A"
         },
         {
           "code": "44",
@@ -1967,7 +1967,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "45",
@@ -2042,7 +2042,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "21",
@@ -2052,7 +2052,7 @@
         {
           "code": "53",
           "label_zh": "先天性免疫不全症 P",
-          "label_en": ""
+          "label_en": "primary immunodeficiency P"
         },
         {
           "code": "22",
@@ -2192,7 +2192,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M 特殊治療或處置",
-          "label_en": ""
+          "label_en": "烏腳病M特殊治療或處置"
         },
         {
           "code": "80",
@@ -2748,7 +2748,7 @@
         {
           "code": "12",
           "label_zh": "癌症藥物追蹤治療 A",
-          "label_en": ""
+          "label_en": "cancer_drug_tracking_treatment_A"
         },
         {
           "code": "44",
@@ -2758,7 +2758,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "45",
@@ -2833,7 +2833,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "21",
@@ -2843,7 +2843,7 @@
         {
           "code": "53",
           "label_zh": "先天性免疫不全症 P",
-          "label_en": ""
+          "label_en": "primary immunodeficiency P"
         },
         {
           "code": "22",
@@ -2983,7 +2983,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M 特殊治療或處置",
-          "label_en": ""
+          "label_en": "烏腳病M特殊治療或處置"
         },
         {
           "code": "80",
@@ -3539,7 +3539,7 @@
         {
           "code": "12",
           "label_zh": "癌症藥物追蹤治療 A",
-          "label_en": ""
+          "label_en": "cancer_drug_tracking_treatment_A"
         },
         {
           "code": "44",
@@ -3549,7 +3549,7 @@
         {
           "code": "13",
           "label_zh": "臟器移植後藥物追蹤治療 P",
-          "label_en": ""
+          "label_en": "organ transplant post-treatment drug follow-up therapy P"
         },
         {
           "code": "45",
@@ -3624,7 +3624,7 @@
         {
           "code": "52",
           "label_zh": "先天性代謝異常疾病 B",
-          "label_en": ""
+          "label_en": "先天性代谢异常疾病 B"
         },
         {
           "code": "21",
@@ -3634,7 +3634,7 @@
         {
           "code": "53",
           "label_zh": "先天性免疫不全症 P",
-          "label_en": ""
+          "label_en": "primary immunodeficiency P"
         },
         {
           "code": "22",
@@ -3774,7 +3774,7 @@
         {
           "code": "79",
           "label_zh": "烏腳病 M 特殊治療或處置",
-          "label_en": ""
+          "label_en": "烏腳病M特殊治療或處置"
         },
         {
           "code": "80",
@@ -4331,7 +4331,7 @@
         {
           "code": "C",
           "label_zh": "糖尿病試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "糖尿病試辦計畫90.11"
         },
         {
           "code": "D",
@@ -4341,12 +4341,12 @@
         {
           "code": "E",
           "label_zh": "氣喘試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "asthma-trial-program-90.11"
         },
         {
           "code": "F",
           "label_zh": "肺結核試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "pulmonary tuberculosis pilot program 90.11"
         },
         {
           "code": "M",
@@ -4732,7 +4732,7 @@
         {
           "code": "C00",
           "label_zh": "地區醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "C10",
@@ -4817,12 +4817,12 @@
         {
           "code": "D00",
           "label_zh": "基層院所；急診 150",
-          "label_en": ""
+          "label_en": "primary care facility; emergency 150"
         },
         {
           "code": "D10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "D12",
@@ -4837,7 +4837,7 @@
         {
           "code": "D14",
           "label_zh": "基層院所；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "primary care facilities; only drug prescription for general outpatient clinics"
         },
         {
           "code": "D20",
@@ -4867,7 +4867,7 @@
         {
           "code": "E00",
           "label_zh": "醫學中心；急診 150",
-          "label_en": ""
+          "label_en": "medical center; emergency 150"
         },
         {
           "code": "E10",
@@ -4902,7 +4902,7 @@
         {
           "code": "F00",
           "label_zh": "區域醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "F10",
@@ -4937,12 +4937,12 @@
         {
           "code": "G00",
           "label_zh": "地區醫院；急診 150",
-          "label_en": ""
+          "label_en": "regional hospital; emergency 150"
         },
         {
           "code": "G10",
           "label_zh": "地區醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "hospital; general outpatient 50"
         },
         {
           "code": "G20",
@@ -4962,12 +4962,12 @@
         {
           "code": "H00",
           "label_zh": "基層院所；急診 150",
-          "label_en": ""
+          "label_en": "primary care facility; emergency 150"
         },
         {
           "code": "H10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "H20",
@@ -4987,12 +4987,12 @@
         {
           "code": "N10",
           "label_zh": "醫學中心；一般門診 50",
-          "label_en": ""
+          "label_en": "medical center; general outpatient 50"
         },
         {
           "code": "N14",
           "label_zh": "醫學中心；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "medical center; general outpatient with prescription only"
         },
         {
           "code": "N20",
@@ -5022,12 +5022,12 @@
         {
           "code": "Q10",
           "label_zh": "區域醫院；一般門診 50",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 50"
         },
         {
           "code": "Q14",
           "label_zh": "區域醫院；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "regional hospitals; only drug prescription for general outpatient clinics"
         },
         {
           "code": "Q20",
@@ -5062,7 +5062,7 @@
         {
           "code": "R14",
           "label_zh": "地區醫院；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "regional hospitals; only drug prescription for general outpatient clinics"
         },
         {
           "code": "R20",
@@ -5092,12 +5092,12 @@
         {
           "code": "S10",
           "label_zh": "基層院所；一般門診 50",
-          "label_en": ""
+          "label_en": "primary care clinic; general outpatient"
         },
         {
           "code": "S14",
           "label_zh": "基層院所；一般門診僅持藥單",
-          "label_en": ""
+          "label_en": "primary care facilities; only drug prescription for general outpatient clinics"
         },
         {
           "code": "S20",
@@ -5441,7 +5441,7 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "non-profit organization clinics/medical offices"
         },
         {
           "code": "31",
@@ -5711,7 +5711,7 @@
         {
           "code": "HY",
           "label_zh": "助產機構 私立助產機構",
-          "label_en": ""
+          "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
@@ -5721,7 +5721,7 @@
         {
           "code": "LY",
           "label_zh": "鑲牙所 私立鑲牙所",
-          "label_en": ""
+          "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",
@@ -5800,5 +5800,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "NHI prescription and treatment details"
 }

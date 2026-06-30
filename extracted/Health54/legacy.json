@@ -134,7 +134,7 @@
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
       "name_zh_en": "has uterus been removed",
-      "description_en": ""
+      "description_en": "1: yes; 2: no; 3: unknown"
     },
     {
       "seq": 10,
@@ -144,8 +144,8 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "是否有接受過子宫放射治疗",
+      "description_en": "1: yes; 2: no; 3: unknown"
     },
     {
       "seq": 11,
@@ -155,8 +155,8 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "whether vaccinated with cervical cancer vaccine",
+      "description_en": "1: yes; 2: no; 3: unknown"
     },
     {
       "seq": 12,
@@ -167,7 +167,7 @@
       "description_zh": "民國年 (999:不詳)",
       "available_notes": [],
       "name_zh_en": "year of vaccination",
-      "description_en": ""
+      "description_en": "ROC-year-(999:unspecified)"
     },
     {
       "seq": 13,
@@ -217,7 +217,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership of specimen collection institution",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 17,
@@ -227,7 +227,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "cytology sample collector identity",
       "description_en": "detailed translation explanation"
     },
     {
@@ -300,7 +300,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "reading institution ownership type",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 24,
@@ -343,7 +343,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reasons why smear is readable or difficult to interpret (1)",
       "description_en": "detailed translation explanation"
     },
     {
@@ -354,7 +354,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reasons why smear is readable or difficult to interpret (2)",
       "description_en": "detailed translation explanation"
     },
     {
@@ -366,7 +366,7 @@
       "description_zh": "詳譯碼說明(可複選)",
       "available_notes": [],
       "name_zh_en": "possible infection",
-      "description_en": ""
+      "description_en": "Detailed translation (optional)"
     },
     {
       "seq": 30,
@@ -404,7 +404,7 @@
       "length": 1,
       "description_zh": "不提供",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reasons why smear is readable or difficult to interpret (3)",
       "description_en": "not provided"
     }
   ],
@@ -577,7 +577,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "latest cytology examination time"
     },
     "PRSN_TYPE": {
       "field_zh": "抹片檢體取樣人員身份",
@@ -608,7 +608,7 @@
           "label_en": "health center physician"
         }
       ],
-      "field_en": ""
+      "field_en": "cytology sample collector identity"
     },
     "PURPOSE": {
       "field_zh": "做抹片目的",

@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "0：無；1：乳房良性相關疾病； 2：乳癌；3：其他癌症",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": ""
     },
     {
@@ -61,7 +61,7 @@
       "description_zh": "1：男；2：女；9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 5,
@@ -83,7 +83,7 @@
       "description_zh": "提供西元年月 YYYYMM",
       "available_notes": [],
       "name_zh_en": "birth year and month",
-      "description_en": ""
+      "description_en": "provided Western calendar year month YYYYMM"
     },
     {
       "seq": 7,
@@ -100,7 +100,7 @@
         }
       ],
       "name_zh_en": "family history - daughter",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 8,
@@ -117,7 +117,7 @@
         }
       ],
       "name_zh_en": "family history - grandmother",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 9,
@@ -134,7 +134,7 @@
         }
       ],
       "name_zh_en": "maternal grandmother's medical history",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 10,
@@ -185,7 +185,7 @@
         }
       ],
       "name_zh_en": "menstrual history-first menstruation age",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 13,
@@ -213,7 +213,7 @@
         }
       ],
       "name_zh_en": "menopause age",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 15,
@@ -240,7 +240,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "menstrual_history-menopause_other_reasons",
       "description_en": "113 year length 31"
     },
     {
@@ -258,7 +258,7 @@
         }
       ],
       "name_zh_en": "number of births in reproductive history",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 18,
@@ -268,7 +268,7 @@
       "length": 1,
       "description_zh": "0：無；1：有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "maternal history of breastfeeding",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -279,7 +279,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "age at first childbirth",
       "description_en": ""
     },
     {
@@ -307,8 +307,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (herbal)",
+      "description_en": "2024 year length 4, type is character"
     },
     {
       "seq": 22,
@@ -324,7 +324,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - years taken (herbal)",
       "description_en": ""
     },
     {
@@ -335,7 +335,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -352,8 +352,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (contraceptive)",
+      "description_en": "2024 year length 4, type is character"
     },
     {
       "seq": 25,
@@ -369,7 +369,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - years taken (contraceptive)",
       "description_en": ""
     },
     {
@@ -380,7 +380,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
     },
     {
@@ -392,7 +392,7 @@
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 28,
@@ -403,7 +403,7 @@
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 29,
@@ -414,7 +414,7 @@
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 30,
@@ -425,7 +425,7 @@
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 31,
@@ -435,7 +435,7 @@
       "length": 1,
       "description_zh": "T：是；F：否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
     },
     {
@@ -491,7 +491,7 @@
       "description_zh": "1：男；2：女；9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 37,
@@ -558,7 +558,7 @@
       "description_zh": "西元年YYYYMMDD",
       "available_notes": [],
       "name_zh_en": "mammography_date",
-      "description_en": ""
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 42,
@@ -678,7 +678,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
     },
     {
@@ -690,7 +690,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     }
   ],
   "codebooks": {
@@ -757,7 +757,7 @@
         {
           "code": "1",
           "label_zh": "有摸到硬塊或疼痛、壓痛",
-          "label_en": ""
+          "label_en": "palpable lump or pain, tenderness"
         },
         {
           "code": "2",
@@ -770,7 +770,7 @@
           "label_en": "no breast self-examination performed"
         }
       ],
-      "field_en": ""
+      "field_en": "feel abnormal lump"
     },
     "EDU": {
       "field_zh": "教育程度",
@@ -886,7 +886,7 @@
         {
           "code": "1",
           "label_zh": "有摸到硬塊或疼痛、壓痛",
-          "label_en": ""
+          "label_en": "palpable lump or pain, tenderness"
         },
         {
           "code": "2",
@@ -928,7 +928,7 @@
         {
           "code": "0",
           "label_zh": "需附加其他影像檢查再評估",
-          "label_en": ""
+          "label_en": "require additional imaging tests for re-evaluation"
         },
         {
           "code": "1",
@@ -948,7 +948,7 @@
         {
           "code": "4",
           "label_zh": "可疑異常需考慮組織生檢",
-          "label_en": ""
+          "label_en": "suspicious abnormality requiring tissue biopsy"
         },
         {
           "code": "5",

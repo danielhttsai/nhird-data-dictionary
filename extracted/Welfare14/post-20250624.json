@@ -60,7 +60,7 @@
         }
       ],
       "name_zh_en": "reporting unit",
-      "description_en": ""
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 4,
@@ -121,7 +121,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "protected/victimized person's ID number",
       "description_en": ""
     },
     {
@@ -154,8 +154,8 @@
       "length": 5,
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim's date of birth and month",
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 8,
@@ -165,7 +165,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "protected/victim nationality",
       "description_en": "detailed translation explanation"
     },
     {
@@ -193,8 +193,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim's level of education",
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 11,
@@ -220,7 +220,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "protected/victim disability",
       "description_en": ""
     },
     {
@@ -402,7 +402,7 @@
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 19,
@@ -419,7 +419,7 @@
         }
       ],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 20,
@@ -464,7 +464,7 @@
         }
       ],
       "name_zh_en": "family members",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 23,
@@ -481,7 +481,7 @@
         }
       ],
       "name_zh_en": "non-household member",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 24,
@@ -614,7 +614,7 @@
         }
       ],
       "name_zh_en": "physical and mental disability",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 28,
@@ -786,7 +786,7 @@
         }
       ],
       "name_zh_en": "main occurrence location",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 38,
@@ -803,7 +803,7 @@
         }
       ],
       "name_zh_en": "severity_of_injury_or_death",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 39,
@@ -842,7 +842,7 @@
         }
       ],
       "name_zh_en": "abuse type",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 41,
@@ -859,7 +859,7 @@
         }
       ],
       "name_zh_en": "type of abuse sub-item",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     }
   ],
   "codebooks": {
@@ -904,7 +904,7 @@
         {
           "code": "D",
           "label_zh": "警察人員 T 父或母",
-          "label_en": ""
+          "label_en": "police personnel T father or mother"
         },
         {
           "code": "E",
@@ -914,7 +914,7 @@
         {
           "code": "F",
           "label_zh": "教育人員 V 案主主動求助",
-          "label_en": ""
+          "label_en": "education personnel V case owner proactively seeking help"
         },
         {
           "code": "G",
@@ -924,7 +924,7 @@
         {
           "code": "H",
           "label_zh": "社會工作人員 X 矯正人員",
-          "label_en": ""
+          "label_en": "社會工作人員X矫正人員"
         },
         {
           "code": "I",
@@ -960,7 +960,7 @@
         {
           "code": "C",
           "label_zh": "醫院 L 移民業務機關",
-          "label_en": ""
+          "label_en": "hospital L immigration authority"
         },
         {
           "code": "D",
@@ -985,7 +985,7 @@
         {
           "code": "H",
           "label_zh": "防治中心 Y 醫院、診所",
-          "label_en": ""
+          "label_en": "Prevention Center Y Hospital, Clinic"
         },
         {
           "code": "I",
@@ -1061,7 +1061,7 @@
         {
           "code": "K",
           "label_zh": "無國籍 Y 外國籍－蒙古",
-          "label_en": ""
+          "label_en": "no-nationality-Y-foreigner-Mongolia"
         },
         {
           "code": "L",
@@ -1076,17 +1076,17 @@
         {
           "code": "A",
           "label_zh": "本國籍非原住民 D 外國籍",
-          "label_en": ""
+          "label_en": "本國籍非原住民 D 外國籍"
         },
         {
           "code": "B",
           "label_zh": "本國籍原住民 E 無國籍",
-          "label_en": ""
+          "label_en": "Taiwanese-indigenous-nationality-E-no-nationality"
         },
         {
           "code": "C",
           "label_zh": "大陸及港澳籍 Z 資料不明",
-          "label_en": ""
+          "label_en": "data unclear for residents from mainland China and Hong Kong/Macau"
         }
       ],
       "field_en": "by nationality"
@@ -1128,7 +1128,7 @@
         {
           "code": "B",
           "label_zh": "母 G 母之同居人或繼父",
-          "label_en": ""
+          "label_en": "maternal-G-maternal-cohabitant-or-stepfather"
         },
         {
           "code": "C",
@@ -1228,7 +1228,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "any person who commits acts against minors"
     },
     "CPARTICLE3": {
       "field_zh": "下列緊急情況",
@@ -1268,7 +1268,7 @@
         {
           "code": "A",
           "label_zh": "住(居)所 H 旅(賓)館",
-          "label_en": ""
+          "label_en": "residence hotel"
         },
         {
           "code": "B",
@@ -1288,7 +1288,7 @@
         {
           "code": "E",
           "label_zh": "寄養家庭 L 網際網路",
-          "label_en": ""
+          "label_en": "foster family L internet"
         },
         {
           "code": "F",
@@ -1314,7 +1314,7 @@
         {
           "code": "B",
           "label_zh": "無明顯傷勢 Z 不詳",
-          "label_en": ""
+          "label_en": "no obvious injury Z unspecified"
         },
         {
           "code": "C",
@@ -1355,7 +1355,7 @@
         {
           "code": "F",
           "label_zh": "使用藥物 O 摔毀物品",
-          "label_en": ""
+          "label_en": "使用药物 O 破坏物品"
         },
         {
           "code": "G",
@@ -1492,7 +1492,7 @@
         {
           "code": "W",
           "label_zh": "兒少遭性騷擾、性霸凌。",
-          "label_en": ""
+          "label_en": "adolescent sexual harassment, sexual bullying"
         },
         {
           "code": "X",
@@ -1526,5 +1526,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "child and youth protection report details"
 }

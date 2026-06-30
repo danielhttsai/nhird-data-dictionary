@@ -45,7 +45,7 @@
       "description_zh": "1：身分證；2： 護照",
       "available_notes": [],
       "name_zh_en": "document source",
-      "description_en": ""
+      "description_en": "1：身分證；2： 護照"
     },
     {
       "seq": 3,
@@ -84,7 +84,7 @@
       "description_zh": "1：男；2：女；9： 不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 6,
@@ -94,7 +94,7 @@
       "length": 1,
       "description_zh": "0：無；1：乳房 良性相關疾 病；2：乳癌；3： 其他癌症",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "疾病史-有無得過下列疾病",
       "description_en": ""
     },
     {
@@ -117,7 +117,7 @@
       "description_zh": "代碼參照醫療機 構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Code referenced based on current medical institutions."
     },
     {
       "seq": 9,
@@ -127,8 +127,8 @@
       "length": 4,
       "description_zh": "代碼參照死因統 計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "medical_institution_county_city_township_code",
+      "description_en": "代码参照行政院主计处死因统计档。"
     },
     {
       "seq": 10,
@@ -260,7 +260,7 @@
       "length": 1,
       "description_zh": "0：無；1：有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "maternal history of breastfeeding",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -271,7 +271,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "age at first childbirth",
       "description_en": ""
     },
     {
@@ -293,7 +293,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - age started (herbal)",
       "description_en": ""
     },
     {
@@ -304,7 +304,7 @@
       "length": 21,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - years taken (herbal)",
       "description_en": ""
     },
     {
@@ -315,7 +315,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -326,7 +326,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - age started (contraceptive)",
       "description_en": ""
     },
     {
@@ -337,7 +337,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - years taken (contraceptive)",
       "description_en": ""
     },
     {
@@ -348,7 +348,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
     },
     {
@@ -403,7 +403,7 @@
       "length": 1,
       "description_zh": "T：是；F：否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other-whether breast surgery has been received",
       "description_en": "T: Yes; F: No"
     },
     {
@@ -553,7 +553,7 @@
       "description_zh": "1：男；2：女； 9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 47,
@@ -585,8 +585,8 @@
       "length": 4,
       "description_zh": "代碼參照死因 統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "county city township district code of medical institution",
+      "description_en": "代码参照行政院主计处死因统计档。"
     },
     {
       "seq": 50,
@@ -1132,7 +1132,7 @@
         {
           "code": "1",
           "label_zh": "有摸到硬塊或疼痛、壓痛",
-          "label_en": ""
+          "label_en": "palpable lump or pain, tenderness"
         },
         {
           "code": "2",
@@ -1145,7 +1145,7 @@
           "label_en": "no breast self-examination performed"
         }
       ],
-      "field_en": ""
+      "field_en": "feel abnormal lump"
     },
     "Q_EDU": {
       "field_zh": "教育程度",
@@ -1261,7 +1261,7 @@
         {
           "code": "1",
           "label_zh": "有摸到硬塊或疼痛、壓痛",
-          "label_en": ""
+          "label_en": "palpable lump or pain, tenderness"
         },
         {
           "code": "2",
@@ -1303,7 +1303,7 @@
         {
           "code": "0",
           "label_zh": "需附加其他影像檢查再評估",
-          "label_en": ""
+          "label_en": "require additional imaging tests for re-evaluation"
         },
         {
           "code": "1",
@@ -1323,7 +1323,7 @@
         {
           "code": "4",
           "label_zh": "可疑異常需考慮組織生檢",
-          "label_en": ""
+          "label_en": "suspicious abnormality requiring tissue biopsy"
         },
         {
           "code": "5",

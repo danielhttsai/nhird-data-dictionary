@@ -297,7 +297,7 @@
       "description_zh": "1：治療出院 2：繼續住院",
       "available_notes": [],
       "name_zh_en": "outcome code",
-      "description_en": ""
+      "description_en": "discharge outpatient"
     },
     {
       "seq": 22,
@@ -430,7 +430,7 @@
       "description_zh": "病人此次住院醫令之總數量",
       "available_notes": [],
       "name_zh_en": "total quantity of medical orders",
-      "description_en": ""
+      "description_en": "total-number-of-medical-orders-during-this-hospitalization"
     },
     {
       "seq": 33,
@@ -441,7 +441,7 @@
       "description_zh": "依支付標準各部章節對應",
       "available_notes": [],
       "name_zh_en": "visit points",
-      "description_en": ""
+      "description_en": "按支付标准各章节对应"
     },
     {
       "seq": 34,
@@ -870,7 +870,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "newborn fetal notation for medical services",
       "description_en": ""
     },
     {
@@ -899,7 +899,7 @@
       "description_zh": "以入院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at admission",
-      "description_en": ""
+      "description_en": "以入院日期及出生日计算。"
     },
     {
       "seq": 73,
@@ -942,7 +942,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "physician ID number error",
       "description_en": ""
     },
     {
@@ -964,7 +964,7 @@
       "length": 4,
       "description_zh": "醫療機構所在鄉鎮。 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市 升格或合併而變更。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "county city township district code of medical institution",
       "description_en": ""
     },
     {
@@ -987,7 +987,7 @@
       "description_zh": "以出院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at discharge",
-      "description_en": ""
+      "description_en": "以出院日期及出生日计算。"
     }
   ],
   "codebooks": {
@@ -1017,7 +1017,7 @@
         {
           "code": "6",
           "label_zh": "安寧療護案件(98.09)",
-          "label_en": ""
+          "label_en": "palliative care cases (starting from 98.09)"
         },
         {
           "code": "7",
@@ -1123,7 +1123,7 @@
         {
           "code": "D",
           "label_zh": "週產期論人支付制度試辦計畫",
-          "label_en": ""
+          "label_en": "week period payment system pilot program"
         },
         {
           "code": "E",
@@ -1133,7 +1133,7 @@
         {
           "code": "F",
           "label_zh": "肺結核試辦計畫 90.11",
-          "label_en": ""
+          "label_en": "pulmonary tuberculosis pilot program 90.11"
         },
         {
           "code": "G",
@@ -1199,7 +1199,7 @@
         {
           "code": "A000",
           "label_zh": "A001 讀卡設備故障",
-          "label_en": ""
+          "label_en": "A001读卡设备故障"
         },
         {
           "code": "A010",
@@ -1229,12 +1229,12 @@
         {
           "code": "D000",
           "label_zh": "D001 電腦死當無法開機",
-          "label_en": ""
+          "label_en": "D001 Computer failure unable to boot"
         },
         {
           "code": "D010",
           "label_zh": "D011 醫療院所電腦故障",
-          "label_en": ""
+          "label_en": "D011 Computer failure at medical facility"
         },
         {
           "code": "E000",
@@ -1682,7 +1682,7 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "non-profit organization clinics/medical offices"
         },
         {
           "code": "31",
@@ -1952,7 +1952,7 @@
         {
           "code": "HY",
           "label_zh": "助產機構 私立助產機構",
-          "label_en": ""
+          "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
@@ -1962,7 +1962,7 @@
         {
           "code": "LY",
           "label_zh": "鑲牙所 私立鑲牙所",
-          "label_en": ""
+          "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",

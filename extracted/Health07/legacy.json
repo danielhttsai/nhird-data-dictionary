@@ -75,7 +75,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "individual ID number error",
       "description_en": ""
     },
     {
@@ -86,7 +86,7 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "individual ID number sex",
       "description_en": ""
     },
     {
@@ -97,7 +97,7 @@
       "length": 12,
       "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(ID1)不同者為 眷屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Insured person ID number",
       "description_en": ""
     },
     {
@@ -108,7 +108,7 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured person's ID number error",
       "description_en": ""
     },
     {
@@ -119,7 +119,7 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Insured person ID Gender",
       "description_en": ""
     },
     {
@@ -220,7 +220,7 @@
       "description_zh": "Y：被保險人 N：眷屬",
       "available_notes": [],
       "name_zh_en": "insured person note",
-      "description_en": ""
+      "description_en": "Y：被保险人 N：家属"
     },
     {
       "seq": 18,
@@ -263,7 +263,7 @@
       "length": 1,
       "description_zh": "0:非偏遠地區 1:山地 2:離島",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "note on remote area residency",
       "description_en": ""
     },
     {
@@ -319,7 +319,7 @@
       "description_zh": "政府補助金額平均拆至個人",
       "available_notes": [],
       "name_zh_en": "government subsidy amount",
-      "description_en": ""
+      "description_en": "average government subsidy amount allocated to individual"
     },
     {
       "seq": 27,
@@ -329,7 +329,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured person full household actual out-of-pocket amount",
       "description_en": ""
     },
     {
@@ -340,7 +340,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "insured person's full-household unit payment",
       "description_en": ""
     },
     {
@@ -388,12 +388,12 @@
         {
           "code": "11",
           "label_zh": "D 私立大專學校教職員",
-          "label_en": ""
+          "label_en": "D 私立大专学校教职员"
         },
         {
           "code": "11",
           "label_zh": "E 私立中小學校教職員",
-          "label_en": ""
+          "label_en": "E 私立中小学校教职员"
         },
         {
           "code": "12",
@@ -408,7 +408,7 @@
         {
           "code": "12",
           "label_zh": "H 民營事業機構受雇者",
-          "label_en": ""
+          "label_en": "H 民营事业机构受雇者"
         },
         {
           "code": "13",
@@ -428,17 +428,17 @@
         {
           "code": "13",
           "label_zh": "L 有一定雇主之受雇者",
-          "label_en": ""
+          "label_en": "L 有固定雇主的受雇者"
         },
         {
           "code": "12",
           "label_zh": "M 非營利事業機構之受雇者",
-          "label_en": ""
+          "label_en": "M employees of non-business entities"
         },
         {
           "code": "13",
           "label_zh": "N 職業訓練機構之學員",
-          "label_en": ""
+          "label_en": "N 职业训练机构之学员"
         },
         {
           "code": "14",
@@ -483,7 +483,7 @@
         {
           "code": "40",
           "label_zh": "U 在卹遺眷、無依軍眷",
-          "label_en": ""
+          "label_en": "U 在职遗眷、无依军眷"
         },
         {
           "code": "41",
@@ -503,7 +503,7 @@
         {
           "code": "41",
           "label_zh": "B 行政院海巡署北區巡防局",
-          "label_en": ""
+          "label_en": "Maritime and Coastguard Administration Northern Region Bureau"
         },
         {
           "code": "41",
@@ -513,7 +513,7 @@
         {
           "code": "41",
           "label_zh": "C 行政院海巡署中區巡防局",
-          "label_en": ""
+          "label_en": "Ministry of Interior Coast Guard Administration Central Region Station"
         },
         {
           "code": "41",
@@ -523,7 +523,7 @@
         {
           "code": "41",
           "label_zh": "D 行政院海巡署南區巡防局",
-          "label_en": ""
+          "label_en": "Ministry of Interior Coast Guard Administration Southern Region Patrol Bureau"
         },
         {
           "code": "41",
@@ -614,12 +614,12 @@
         {
           "code": "4",
           "label_zh": "榮民/榮民遺眷之家戶代表",
-          "label_en": ""
+          "label_en": "Veteran/Veteran-survivor-household-representative"
         },
         {
           "code": "5",
           "label_zh": "保險類目為「62」依附",
-          "label_en": ""
+          "label_en": "保险项目为「62」附"
         },
         {
           "code": "6",

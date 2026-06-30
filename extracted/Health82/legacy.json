@@ -191,7 +191,7 @@
       "description_zh": "(無死因資料者，此欄空白)",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "(no cause of death data, this field is blank)"
     },
     {
       "seq": 15,
@@ -299,7 +299,7 @@
       "description_zh": "1：單一；2以上為多發",
       "available_notes": [],
       "name_zh_en": "Record Times",
-      "description_en": ""
+      "description_en": "1：單一；2以上為多發"
     },
     {
       "seq": 23,
@@ -310,7 +310,7 @@
       "source": "本檔自訂",
       "description_zh": "各癌症類別(newca2)內的順 序，單一癌症者，此欄為 0； 多發者為順序。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis_order_within_cancer_category",
       "description_en": ""
     },
     {
@@ -394,7 +394,7 @@
       "source": "本檔自訂",
       "description_zh": "當診斷日期(DIAGDAY)的 日有missing 的情況，考慮 以死亡日期 (Death_D_DATE)或隨機數 字填補的方式，以便與追蹤 日期計算出存活時間。詳欄 位(變項)譯碼(四)填補後的 癌症診斷日期。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "filled cancer diagnosis date",
       "description_en": ""
     },
     {
@@ -418,7 +418,7 @@
       "source": "本檔自訂",
       "description_zh": "最後追蹤時間(flw_up_date) 來自哪一個資料庫。 death：死因檔； opdte：門急診；",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "database for last follow-up date",
       "description_en": ""
     },
     {
@@ -430,7 +430,7 @@
       "source": "本檔自訂",
       "description_zh": "從adj_diag_dt 到 flw_up_date的天數。 –9：不符合紀錄檢誤的情 況。詳欄位(變項)譯碼(四) 填補後的癌症診斷日期和 (五)最後追蹤時間。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Survival time (unit: days)",
       "description_en": ""
     },
     {
@@ -514,7 +514,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is Dementia",
       "description_en": ""
     },
     {
@@ -526,7 +526,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "是否有 Paralysis",
       "description_en": ""
     },
     {
@@ -658,7 +658,7 @@
       "source": "本檔自訂",
       "description_zh": "針對病患在癌症登記年報檔 中，第一筆大腸直腸癌紀錄 的診斷日期(DIAGDAY)，其 前後三個月內，在大腸癌篩 檢 - 大 腸 癌 確 診 檔 (H_BHP_CCS_CONF) 是 否 有紀錄。 0：沒有； 1：只有一筆(且診斷日期與 大腸癌確診檔的確診日期 (CONFIRMDATE)皆完整)； 9：有多筆大腸癌確診檔紀 錄或者診斷日期與確診日期 的資訊不完整(年、月、日 標示為9999、99 或空白)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether has colorectal cancer confirmed case record",
       "description_en": ""
     },
     {
@@ -670,7 +670,7 @@
       "source": "本檔自訂",
       "description_zh": "若欄位 Screening_record_1 =1，則本欄位的值依據大腸 癌 確 診 檔 的 診 斷 結 果 (CONFIRMRESULT)定為 0：正常； 1：痔瘡； 2：潰瘍性大腸炎；",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "diagnosis result for colorectal cancer confirmed case",
       "description_en": ""
     }
   ],
@@ -785,5 +785,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "colorectal cancer theme database"
 }

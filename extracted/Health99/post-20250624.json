@@ -54,7 +54,7 @@
       "description_zh": "1：男；2：女；9：不詳",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 4,
@@ -76,7 +76,7 @@
       "description_zh": "經加密處理，為辨別院所鍵值",
       "available_notes": [],
       "name_zh_en": "medical institution code",
-      "description_en": ""
+      "description_en": "經加密處理，為辨別院所鍵值"
     },
     {
       "seq": 6,
@@ -108,8 +108,8 @@
       "length": 30,
       "description_zh": "經加密處理，為辨別院所鍵值",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "commissioned laboratory testing institution code",
+      "description_en": "經加密處理，為辨別院所鍵值"
     },
     {
       "seq": 9,
@@ -197,7 +197,7 @@
       "description_zh": "格式：xxx(kg)",
       "available_notes": [],
       "name_zh_en": "weight",
-      "description_en": ""
+      "description_en": "format：xxx(kg)"
     },
     {
       "seq": 17,
@@ -208,7 +208,7 @@
       "description_zh": "格式：xxx(mmHg)",
       "available_notes": [],
       "name_zh_en": "systolic blood pressure",
-      "description_en": ""
+      "description_en": "format:xxx(mmHg)"
     },
     {
       "seq": 18,
@@ -219,7 +219,7 @@
       "description_zh": "格式：xxx(mmHg)",
       "available_notes": [],
       "name_zh_en": "diastolic blood pressure",
-      "description_en": ""
+      "description_en": "format:xxx(mmHg)"
     },
     {
       "seq": 19,
@@ -230,7 +230,7 @@
       "description_zh": "格式：xxx(mg/dl)",
       "available_notes": [],
       "name_zh_en": "total cholesterol",
-      "description_en": ""
+      "description_en": "格式：xxx(mg/dl)"
     },
     {
       "seq": 20,
@@ -252,7 +252,7 @@
       "description_zh": "格式：xxxx(IU/l)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "格式：xxxx(IU/l)"
     },
     {
       "seq": 22,
@@ -263,7 +263,7 @@
       "description_zh": "格式：xxxx(IU/l)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "格式：xxxx(IU/l)"
     },
     {
       "seq": 23,
@@ -274,7 +274,7 @@
       "description_zh": "格式：xxx(mg/dl)",
       "available_notes": [],
       "name_zh_en": "blood glucose",
-      "description_en": ""
+      "description_en": "格式：xxx(mg/dl)"
     },
     {
       "seq": 24,
@@ -383,7 +383,7 @@
       "length": 8,
       "description_zh": "格式：xx.x",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "BMI(body mass index)",
       "description_en": "format: xx.x"
     },
     {
@@ -449,7 +449,7 @@
       "length": 1,
       "description_zh": "1：否；2：是; 3：本次僅單獨提 供B、C肝炎檢查服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "曾於成健接受過BC肝檢查",
       "description_en": ""
     },
     {
@@ -461,7 +461,7 @@
       "description_zh": "格式：xxx(mg/dl)",
       "available_notes": [],
       "name_zh_en": "high density lipoprotein cholesterol",
-      "description_en": ""
+      "description_en": "格式：xxx(mg/dl)"
     },
     {
       "seq": 41,
@@ -505,7 +505,7 @@
       "description_zh": "第一階段檢查年-出生年",
       "available_notes": [],
       "name_zh_en": "age",
-      "description_en": ""
+      "description_en": "first stage examination year - birth year"
     }
   ],
   "codebooks": {
@@ -780,7 +780,7 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "non-profit organization clinics/medical offices"
         },
         {
           "code": "31",
@@ -1050,7 +1050,7 @@
         {
           "code": "HY",
           "label_zh": "助產機構 私立助產機構",
-          "label_en": ""
+          "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
@@ -1060,7 +1060,7 @@
         {
           "code": "LY",
           "label_zh": "鑲牙所 私立鑲牙所",
-          "label_en": ""
+          "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",

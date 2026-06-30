@@ -170,7 +170,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：指此癌症最早顯微 鏡檢證實的日期。 00000000：個案未做顯微鏡檢檢查 99999999：不清楚個案是否有接受顯 微鏡檢檢查、「首次顯微鏡檢證實日 期」期不詳。 年不詳：9999 月不詳：99 日不詳： 99。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "First microscopic examination date",
       "description_en": ""
     },
     {
@@ -192,7 +192,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(七)【區域淋巴結 檢查數目（NEXAM）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "regional lymph node examination number",
       "description_en": ""
     },
     {
@@ -203,7 +203,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(八)【區域淋巴結 侵犯數目（NPOSIT）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "regional lymph node invasion number",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical tumor staging",
       "description_en": ""
     },
     {
@@ -269,7 +269,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical tumor staging",
       "description_en": ""
     },
     {
@@ -291,7 +291,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(五十)【臨床分期字 根/字首(CDESCR)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical stage root/code",
       "description_en": ""
     },
     {
@@ -313,7 +313,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor stage (pathology) N",
       "description_en": ""
     },
     {
@@ -324,7 +324,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor_stage_pathological_M",
       "description_en": ""
     },
     {
@@ -346,7 +346,7 @@
       "length": 1,
       "description_zh": "指AJCC 病理分期字根/字首的描述 符號。詳欄位(變項)譯碼(四十九) 【病理分期字根/字首(PDESCR)對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pathological_stage_root/code",
       "description_en": ""
     },
     {
@@ -357,7 +357,7 @@
       "length": 2,
       "description_zh": "西元2004年1月 1日以後診斷為癌 症之個案，需以 AJCC第六版作為分 期依據。 00：未判定期別(個案癌症有可判斷 分期的參考資料，但未予以判定期 別) 06：第六版 07：第七版 88：不適用(個案無適用之 AJCC 分 期) 99：有判定期別，但版本不詳。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "AJCC cancer staging version",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 4,
       "description_zh": "詳欄位(變項)譯碼(十三) 【其他分期 系統期別（臨床分期）（OSTAGEC） 對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical staging according to other systems",
       "description_en": ""
     },
     {
@@ -401,7 +401,7 @@
       "length": 4,
       "description_zh": "詳欄位(變項)譯碼(十四) 【其他分期 系統期別（病理分期）（OSTAGEP） 對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "pathological staging according to other systems",
       "description_en": ""
     },
     {
@@ -445,7 +445,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(十六)【外院原發 部位手術方式（OPTYPE_O）&申報",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "original site surgery method at external hospital site",
       "description_en": ""
     },
     {
@@ -456,7 +456,7 @@
       "length": 2,
       "description_zh": "醫院原發部位手術方式 （OPTYPE_H）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "申報醫院原發部位手術方式",
       "description_en": ""
     },
     {
@@ -478,7 +478,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(十八)【外院區域 淋巴結手術範圍（OPLN_O）&申報 醫院區域淋巴結手術範圍(OPLN_H) 對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "outpatient regional lymph node surgical scope",
       "description_en": ""
     },
     {
@@ -500,7 +500,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(十九)【外院其他 部位手術方式（OPOTHER_O）&申 報醫院其他部位手術方式 （OPOTHER_H）對照檔】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other surgical approach at external hospital site",
       "description_en": ""
     },
     {
@@ -511,7 +511,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "申報醫院其他部位手術方式",
       "description_en": ""
     },
     {
@@ -522,7 +522,7 @@
       "length": 1,
       "description_zh": "詳欄位(變項)譯碼(二十)【原發部位 未手術原因（NOOP）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "primary reason for not undergoing surgery at original site",
       "description_en": ""
     },
     {
@@ -533,7 +533,7 @@
       "length": 2,
       "description_zh": "申報醫院的首次療程中，進行放射治 療之放射線標靶體積涵蓋的範圍（局 部原發腫瘤「T」、區域淋巴結「N」 和遠端轉移「M」）。詳欄位(變項)譯 碼(二十一)【放射治療臨床標靶體積 摘要（RTSUMM）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "summary of clinical target volume for radiotherapy",
       "description_en": ""
     },
     {
@@ -577,7 +577,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(二十五)【放射治 療與手術順序（SRS）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sequence of radiotherapy and surgery",
       "description_en": ""
     },
     {
@@ -588,7 +588,7 @@
       "length": 2,
       "description_zh": "詳欄位(變項)譯碼(二十六)【區域治 療與全身性治療順序（SLS）對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sequence of regional and systemic treatments",
       "description_en": ""
     },
     {
@@ -632,7 +632,7 @@
       "length": 2,
       "description_zh": "首次療程中，利用放射線涵蓋之局部 原發腫瘤(T)，區域淋巴結(N)或遠端 轉移(M)來區分並記錄體外放射治療 中接受最高劑量的目標區域之範圍。 一般而言，此最高劑量區域也就是腫 瘤負荷最重的區域。詳欄位(變項)譯 碼(三十)【最高放射劑量臨床標靶體 積（RTH）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "最高放射劑量臨床標靶體積",
       "description_en": ""
     },
     {
@@ -665,7 +665,7 @@
       "length": 2,
       "description_zh": "首次療程中，利用放射線涵蓋之局部 原發腫瘤(T)，區域淋巴結(N)或遠端 轉移(M)來區分並記錄體外射線治療 中接受次高劑量的目標區域之範圍。 詳欄位(變項)譯碼(三十一)【較低放 射劑量臨床標靶體積（RTL）對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "lower radiation dose clinical target volume",
       "description_en": ""
     },
     {
@@ -720,7 +720,7 @@
       "length": 2,
       "description_zh": "記錄在申報醫院的首次療程中，利用 放射線涵蓋局部原發腫瘤(T)，區域 淋巴結(N)或遠端轉移(M)來區分並記 錄特殊放射治療的目標區域之範圍， 詳欄位(變項)譯碼(三十四)【其他放 射治療臨床標靶體積（ORT）對照 表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "clinical target volume for radiotherapy",
       "description_en": ""
     },
     {
@@ -753,7 +753,7 @@
       "length": 8,
       "description_zh": "記錄在任何醫療機構的首次療程中， 全身性治療開始日期(包含外院資料) 。全身性治療包括化學治療、荷爾蒙 治療、免疫治療、骨髓/幹細胞移植 或內分泌治療，詳欄位(變項)譯碼(三 十六)【全身性治療開始日期 （DSYT）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "start date of systemic treatment",
       "description_en": ""
     },
     {
@@ -786,7 +786,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(三十八)【申報醫 院化學治療開始日期（DCHEM）對 照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "申報醫院化學治療開始日期",
       "description_en": ""
     },
     {
@@ -808,7 +808,7 @@
       "length": 2,
       "description_zh": "記載個案在申報醫院首次療程中，所 給予荷爾蒙治療的相關情形，詳欄位 (變項)譯碼(三十九)【申報醫院荷爾 蒙治療（HORM_H）& 外院荷爾蒙 治療（HORM_O）對照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital申报 hormone therapy",
       "description_en": ""
     },
     {
@@ -852,7 +852,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(四十二)【申報醫 院免疫治療開始日期（DIMMU）對 照表】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "申報醫院免疫治療開始日期",
       "description_en": ""
     },
     {
@@ -918,7 +918,7 @@
       "length": 8,
       "description_zh": "YYYYMMDD：記錄個案的最後聯 絡日期或是死亡日期。 年不詳：9999 月不詳：99 日不詳： 99",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "last contact or death date",
       "description_en": ""
     },
     {
