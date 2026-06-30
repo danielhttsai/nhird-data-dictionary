@@ -205,12 +205,14 @@
                     {/if}
                   </td>
                   <td class="mono group">
-                    <a href="{base}/file/{file.code}/field/{f.name_en}/?v={selectedId}"
-                       class="text-brand-700 hover:underline font-semibold">{f.name_en}</a>
                     {#if f.name_en}
+                      <a href="{base}/file/{file.code}/field/{encodeURIComponent(f.name_en)}/?v={selectedId}"
+                         class="text-brand-700 hover:underline font-semibold">{f.name_en}</a>
                       <button onclick={() => copyText(f.name_en)}
                               class="ml-1 opacity-0 group-hover:opacity-60 hover:opacity-100 text-xs"
                               title="Copy">⎘</button>
+                    {:else}
+                      <span class="text-slate-300">—</span>
                     {/if}
                   </td>
                   <td class="text-slate-700 text-xs">{f.type}</td>
@@ -220,12 +222,18 @@
                     {#if f.description_en}
                       <div class="italic text-slate-500 mt-1">{f.description_en}</div>
                     {/if}
+                    {#if f.section}
+                      <div class="text-[10px] text-slate-400 mt-1">§ {f.section}</div>
+                    {/if}
                   </td>
-                  <td>
+                  <td class="text-xs text-slate-600 max-w-xs whitespace-pre-line">
                     {#if ext.codebooks?.[f.name_en]}
                       <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">
                         {ext.codebooks[f.name_en].entries?.length || 0} codes
                       </span>
+                    {/if}
+                    {#if f.value_labels}
+                      <div class="leading-snug">{f.value_labels}</div>
                     {/if}
                   </td>
                   <td class="text-[11px] text-slate-600">

@@ -36,6 +36,8 @@ function versionSortKey(vid) {
   const adm = vid.includes('post-20250624') ? 1 : 0;     // revision: legacy < post
   const adYear = vid.match(/AD(\d{4})/);
   if (adYear) return [2, parseInt(adYear[1], 10), adm];   // dated survey waves, by year
+  const age = vid.match(/_age(\d+)/);
+  if (age) return [2, 1900 + parseInt(age[1], 10), adm];  // TBCS age waves, ordered by age
   if (vid.includes('period-pre-2010')) return [1, 2009, adm];
   if (vid.includes('period-2011-2017')) return [1, 2011, adm];
   if (vid.includes('period-2018-later')) return [1, 2018, adm];

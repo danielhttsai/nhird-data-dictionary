@@ -23,6 +23,10 @@ def load_versions(code_dir: Path) -> list[dict]:
     for p in sorted(code_dir.glob("*.json")):
         if p.name.startswith("diff_"):
             continue
+        # Skip survey-wave / Excel-codebook versions: they have disjoint variable
+        # sets per wave, so a structural diff is noise and bloats the payload.
+        if "__xls_" in p.stem or "__wave_" in p.stem:
+            continue
         try:
             versions.append({
                 "version_id": p.stem,

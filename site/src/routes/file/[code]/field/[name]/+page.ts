@@ -1,6 +1,8 @@
-// Field detail pages are too numerous (~thousands) to prerender economically.
+// Field detail pages are too numerous (~tens of thousands) to prerender.
 // Serve via 404.html SPA fallback — the static adapter writes 404.html and
 // GitHub Pages serves it for unknown routes, where the client router renders.
+import { base } from '$app/paths';
+
 export const prerender = false;
 export const ssr = false;
 
