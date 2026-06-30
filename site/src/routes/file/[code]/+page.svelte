@@ -5,11 +5,13 @@
   let { data } = $props();
   const file = data.file;
 
-  // Default to the version the catalogue card represents — the newest/ richest
-  // one that has fields — rather than the last in the (chronological) list.
-  const withFields = file.versions.filter(v => v.fields_file);
-  const pdfWf = withFields.filter(v => v.file_type !== 'xls');
-  const defaultV = pdfWf.at(-1) || withFields.at(-1) || file.versions.at(-1);
+  // Default to a version that actually has a field table — preferring a main
+  // PDF, else the richest (most fields) — so survey files don't land on an
+  // empty 0-field wave.
+  const withData = file.versions.filter(v => (v.field_count || 0) > 0);
+  const pdfWf = withData.filter(v => v.file_type !== 'xls');
+  const richest = withData.slice().sort((a, b) => (b.field_count || 0) - (a.field_count || 0))[0];
+  const defaultV = pdfWf.at(-1) || richest || file.versions.find(v => v.fields_file) || file.versions.at(-1);
   let selectedId = $state(defaultV?.version_id || '');
   $effect(() => {
     const v = page.url.searchParams.get('v');
@@ -56,31 +58,45 @@
 
   function copyText(t) { navigator.clipboard?.writeText(t); }
 
-  // Clean, human display label for a version (the raw version_id is internal).
+  // Clean, human, DATE-based display label (no internal "legacy" jargon).
+  function fmtDate(s) {
+    const m = String(s || '').match(/(\d{4})-(\d{2})-(\d{2})/);
+    return m ? `${m[1]}/${m[2]}/${m[3]}` : s;
+  }
   function vLabel(v) {
-    let l = v.version_label || v.version_id;
-    l = l.replace(/^legacy · /, '').replace(/^Excel codebook · /, '');
-    if (l === 'legacy') l = '原始版本';
-    if (l === '20250624 起適用') l = '2025/06/24 起適用';
-    return l;
+    if (v.file_type === 'xls')
+      return (v.version_label || '').replace(/^Excel codebook · /, '');
+    if (v.version_id.includes('__wave_'))
+      return (v.version_label || '').replace(/^legacy · /, '').replace(/^post-20250624 · /, '');
+    // Main versions → date-based.
+    if (v.version_id.includes('post-20250624')) {
+      const period = (v.version_label || '').match(/(2010 年以前|2011-2017 年|2018 年以後)/);
+      return (period ? period[1] + ' · ' : '') + '2025/06/24 起適用';
+    }
+    const periodOnly = (v.version_label || '').match(/(2010 年以前|2011-2017 年|2018 年以後)/);
+    if (periodOnly) return periodOnly[1];
+    if (v.doc_first_published) return `${fmtDate(v.doc_first_published)} 起`;
+    return v.version_label || v.version_id;
   }
   function vGroup(v) {
     if (v.file_type === 'xls') return '編碼簿 Codebooks';
     if (v.version_id.includes('__wave_')) return '附屬檔 / 波次 Sub-files';
     return '主檔 Main versions';
   }
-  // Build grouped option list (only versions that have a field table).
+  // Build grouped option list — only versions with an actual field table
+  // (0-field supplementary docs like 問卷/實施計畫 are reachable via the
+  // "Original MOHW PDF" link, not the selector).
+  const selectable = $derived(file.versions.filter(v => (v.field_count || 0) > 0));
   const groupedVersions = $derived.by(() => {
     const g = new Map();
-    for (const v of file.versions) {
-      if (!v.has_extract) continue;
+    for (const v of selectable) {
       const k = vGroup(v);
       if (!g.has(k)) g.set(k, []);
       g.get(k).push(v);
     }
     return [...g];
   });
-  const manyVersions = $derived(file.versions.filter(v => v.has_extract).length > 8);
+  const manyVersions = $derived(selectable.length > 8);
 </script>
 
 <svelte:head><title>{file.code} — {file.name_zh} — NHIRD data dictionary</title></svelte:head>
@@ -133,16 +149,14 @@
       <!-- Few versions → buttons -->
       <div class="flex flex-wrap gap-2 items-center">
         <span class="text-xs uppercase tracking-wide text-slate-500 font-semibold mr-2">Version</span>
-        {#each file.versions as v}
+        {#each selectable as v}
           <button
             class="text-xs px-3 py-1.5 rounded-lg border font-semibold transition
               {v.version_id === selectedId
                 ? 'bg-brand-600 text-white border-brand-600'
-                : v.has_extract ? 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'
-                              : 'bg-slate-50 text-slate-400 border-slate-200 cursor-not-allowed'}"
-            disabled={!v.has_extract}
+                : 'bg-white text-slate-700 border-slate-300 hover:bg-brand-50 hover:border-brand-400 hover:text-brand-700'}"
             onclick={() => selectedId = v.version_id}
-          >{vLabel(v)}{!v.has_extract ? ' (zip)' : ''}</button>
+          >{vLabel(v)}</button>
         {/each}
         {#if file.diffs?.length}
           <a class="ml-auto text-sm font-semibold text-brand-700 hover:underline"
