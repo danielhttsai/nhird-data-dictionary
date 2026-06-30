@@ -74,12 +74,22 @@ for (const [code, versions] of byCode) {
     }
   }
 
-  // Pick a "primary" version for catalogue display: prefer the newest version
-  // that actually has fields (avoids landing on a 0-field supplementary survey
-  // doc such as 實施計畫/問卷). Fall back to any extracted, then last manifest.
+  // Pick a "primary" version for catalogue display.
+  //  - Core databases: newest PDF version that has fields (legacy → post-20250624).
+  //  - Pure-survey codes (only Excel codebooks): the richest wave, so the card
+  //    shows a representative variable count rather than a 3-field consent file.
   const withExtract = sorted.filter(v => extracted[v.version_id]);
   const withFields = withExtract.filter(v => (extracted[v.version_id].fields?.length || 0) > 0);
-  const primary = withFields.at(-1) || withExtract.at(-1) || sorted.at(-1);
+  const pdfWithFields = withFields.filter(v => v.file_type !== 'xls');
+  let primary;
+  if (pdfWithFields.length) {
+    primary = pdfWithFields.at(-1);
+  } else if (withFields.length) {
+    primary = withFields.slice().sort((a, b) =>
+      (extracted[b.version_id].fields.length - extracted[a.version_id].fields.length))[0];
+  } else {
+    primary = withExtract.at(-1) || sorted.at(-1);
+  }
   const primaryExtracted = extracted[primary.version_id];
 
   const category = TOPIC_CODES.has(code) ? 'Topic' : primary.category;

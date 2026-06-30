@@ -91,16 +91,25 @@ def extract_pdf(pdf_path: Path) -> dict:
             #   序號 / 欄位(EN) / 型態 / 來源 / 內容(ZH) / 描述   (no 長度 column)
             if not all_rows:
                 topic_rows: list[dict] = []
-                in_codebook = False
                 for p in pdf.pages:
-                    text = p.extract_text() or ""
-                    if re.search(r"三、\s*欄位譯碼說明", text):
-                        in_codebook = True
-                    if in_codebook:
-                        continue
                     for tbl in p.extract_tables() or []:
                         topic_rows.extend(parse_field_table_topic(tbl))
                 all_rows = topic_rows
+            # Fallback 2: survey codebook layout (Health49 過錄編碼簿):
+            #   變項名稱 / 變項說明 / 選項數值說明 / 備註
+            # Header appears once; continuation tables on later pages have no
+            # header, so detect the column mapping once then reuse it.
+            if not all_rows:
+                cb_rows: list[dict] = []
+                cb_cols: dict | None = None
+                for p in pdf.pages:
+                    for tbl in p.extract_tables() or []:
+                        rows, cb_cols = parse_codebook_table(tbl, cb_cols)
+                        cb_rows.extend(rows)
+                # Renumber sequentially
+                for i, f in enumerate(cb_rows, start=1):
+                    f["seq"] = i
+                all_rows = cb_rows
             out["fields"] = dedupe_fields(all_rows)
 
             # Codebooks (from codebook section onwards)
@@ -429,6 +438,76 @@ def parse_field_table_topic(tbl: list[list]) -> list[dict]:
             else:
                 last_field["description_zh"] = (last_field.get("description_zh", "") + " " + joined_text).strip()
     return rows
+
+
+def parse_codebook_table(tbl: list[list], cols: dict | None):
+    """Parse a survey codebook table (Health49 過錄編碼簿):
+        變項名稱 / 變項說明 / 選項數值說明 / 備註
+    `cols` carries the column mapping discovered on the header table so that
+    continuation tables on later pages (which lack a header) reuse it.
+    Returns (rows, cols).
+    """
+    if not tbl or len(tbl) < 1:
+        return [], cols
+
+    def is_cb_header(row):
+        flat = "|".join((c or "").replace("\n", "").strip() for c in row)
+        name = any(k in flat for k in ("變項名稱", "變數名稱", "欄位名稱"))
+        meat = any(k in flat for k in ("變項說明", "變數說明", "選項數值說明"))
+        return name and meat and "中文欄位名稱" not in flat and "型態" not in flat
+
+    start = 0
+    if cols is None:
+        # Look for the header row in this table
+        for i, row in enumerate(tbl[:5]):
+            if is_cb_header(row):
+                cols = {}
+                flat_cells = [(c or "").replace("\n", "").strip() for c in row]
+                for ci, cell in enumerate(flat_cells):
+                    if any(k in cell for k in ("變項名稱", "變數名稱", "欄位名稱")) and "name" not in cols:
+                        cols["name"] = ci
+                    elif any(k in cell for k in ("變項說明", "變數說明")) and "desc" not in cols:
+                        cols["desc"] = ci
+                    elif ("選項" in cell or "數值" in cell) and "values" not in cols:
+                        cols["values"] = ci
+                start = i + 1
+                break
+        if cols is None:
+            return [], None
+
+    rows: list[dict] = []
+    last = None
+    for raw in tbl[start:]:
+        cells = [(c or "").replace("\n", " ").strip() for c in raw]
+        if not any(cells):
+            continue
+
+        def at(role):
+            ci = cols.get(role)
+            return cells[ci].strip() if ci is not None and ci < len(cells) and cells[ci] else ""
+        name = at("name")
+        desc = at("desc")
+        values = at("values")
+        if name and re.search(r"[A-Za-z0-9_]", name):
+            f = {
+                "seq": 0,
+                "name_zh": "",
+                "name_en": name,
+                "type": "",
+                "length": "",
+                "description_zh": _collapse_cjk_spaces(desc),
+            }
+            if values:
+                f["value_labels"] = values
+            f["available_notes"] = []
+            rows.append(f)
+            last = f
+        elif last:
+            if desc:
+                last["description_zh"] = (last["description_zh"] + " " + desc).strip()
+            if values:
+                last["value_labels"] = (last.get("value_labels", "") + " " + values).strip()
+    return rows, cols
 
 
 def dedupe_fields(rows: list[dict]) -> list[dict]:
