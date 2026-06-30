@@ -8,7 +8,7 @@
   // Default to a version that actually has a field table — preferring a main
   // PDF, else the richest (most fields) — so survey files don't land on an
   // empty 0-field wave.
-  const withData = file.versions.filter(v => (v.field_count || 0) > 0);
+  const withData = file.versions.filter(v => (v.field_count || 0) > 0 && !v.garbled);
   const pdfWf = withData.filter(v => v.file_type !== 'xls');
   const richest = withData.slice().sort((a, b) => (b.field_count || 0) - (a.field_count || 0))[0];
   const defaultV = pdfWf.at(-1) || richest || file.versions.find(v => v.fields_file) || file.versions.at(-1);
@@ -86,7 +86,7 @@
   // Build grouped option list — only versions with an actual field table
   // (0-field supplementary docs like 問卷/實施計畫 are reachable via the
   // "Original MOHW PDF" link, not the selector).
-  const selectable = $derived(file.versions.filter(v => (v.field_count || 0) > 0));
+  const selectable = $derived(file.versions.filter(v => (v.field_count || 0) > 0 && !v.garbled));
   const groupedVersions = $derived.by(() => {
     const g = new Map();
     for (const v of selectable) {

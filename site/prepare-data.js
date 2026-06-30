@@ -115,12 +115,24 @@ for (const [code, versions] of byCode) {
     }
   }
 
+  // Some survey-wave PDFs use a non-Unicode font encoding pdfplumber can't map,
+  // so their extracted text is mostly replacement characters (). Detect and
+  // treat such versions as having no usable data.
+  const isGarbled = (ex) => {
+    const fsx = ex?.fields || [];
+    if (!fsx.length) return false;
+    const bad = fsx.filter(f => (`${f.name_zh || ''}${f.description_zh || ''}`).includes('�')).length;
+    return bad / fsx.length > 0.3
+      || (`${ex.data_description_zh || ''}${ex.notes_zh || ''}`).includes('�');
+  };
+
   // Pick a "primary" version for catalogue display.
   //  - Core databases: newest PDF version that has fields (legacy → post-20250624).
   //  - Pure-survey codes (only Excel codebooks): the richest wave, so the card
   //    shows a representative variable count rather than a 3-field consent file.
   const withExtract = sorted.filter(v => extracted[v.version_id]);
-  const withFields = withExtract.filter(v => (extracted[v.version_id].fields?.length || 0) > 0);
+  const withFields = withExtract.filter(v =>
+    (extracted[v.version_id].fields?.length || 0) > 0 && !isGarbled(extracted[v.version_id]));
   const pdfWithFields = withFields.filter(v => v.file_type !== 'xls');
   let primary;
   if (pdfWithFields.length) {
@@ -189,12 +201,14 @@ for (const [code, versions] of byCode) {
       );
       fields_file = fname;
     }
+    const garbled = ex ? isGarbled(ex) : false;
     return {
       ...v,
       meta: metaOf(ex),
       fields_file,
       field_count: ex?.fields?.length ?? null,
-      supplementary: !!ex && (ex.fields?.length || 0) === 0
+      supplementary: !!ex && (ex.fields?.length || 0) === 0,
+      garbled
     };
   });
   const filePayload = {
@@ -214,7 +228,7 @@ for (const [code, versions] of byCode) {
   // keeps search-fields.json small enough to load on the /search page).
   for (const v of sorted) {
     const ex = extracted[v.version_id];
-    if (!ex) continue;
+    if (!ex || isGarbled(ex)) continue;
     for (const f of ex.fields || []) {
       allFields.push({
         c: code,
