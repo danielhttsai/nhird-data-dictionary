@@ -81,6 +81,7 @@
   function vGroup(v) {
     if (v.file_type === 'xls') return '編碼簿 Codebooks';
     if (v.version_id.includes('__wave_')) return '附屬檔 / 波次 Sub-files';
+    if (v.version_id.includes('twcr_manual')) return '癌症登記手冊 Registry manual (TWCR)';
     return '主檔 Main versions';
   }
   // Build grouped option list — only versions with an actual field table

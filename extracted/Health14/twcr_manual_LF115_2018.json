@@ -1,12 +1,12 @@
 {
-  "code": "TWCR_LF",
-  "category": "TWCR",
+  "code": "Health14",
+  "category": "Health",
   "code_short": "",
   "name_zh": "台灣癌症登記 長表",
   "name_en": "Taiwan Cancer Registry — Long Form",
   "name_zh_en": "Taiwan Cancer Registry — Long Form",
-  "version_id": "y2025_129",
-  "version_label": "114 年版長表 (129 欄)",
+  "version_id": "twcr_manual_LF115_2018",
+  "version_label": "TWCR 登記手冊 長表 (115 欄) · 107年版",
   "record_count_raw": "",
   "field_count_declared": null,
   "frequency": "年",
@@ -21,7 +21,7 @@
       "name_zh": "申報醫院代碼",
       "name_en": "Reporting Hospital Code",
       "name_zh_en": "Reporting Hospital Code",
-      "type": "Char",
+      "type": "1",
       "length": 10,
       "description_zh": "",
       "available_notes": []
@@ -31,7 +31,7 @@
       "name_zh": "病歷號碼",
       "name_en": "Medical Record Number",
       "name_zh_en": "Medical Record Number",
-      "type": "Char",
+      "type": "11",
       "length": 10,
       "description_zh": "",
       "available_notes": []
@@ -41,8 +41,8 @@
       "name_zh": "姓名",
       "name_en": "Name",
       "name_zh_en": "Name",
-      "type": "Char",
-      "length": 200,
+      "type": "21",
+      "length": 10,
       "description_zh": "",
       "available_notes": []
     },
@@ -51,7 +51,7 @@
       "name_zh": "身分證統一編號",
       "name_en": "ID Number",
       "name_zh_en": "ID Number",
-      "type": "Char",
+      "type": "31",
       "length": 10,
       "description_zh": "",
       "available_notes": []
@@ -61,7 +61,7 @@
       "name_zh": "性別",
       "name_en": "Sex",
       "name_zh_en": "Sex",
-      "type": "Char",
+      "type": "41",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -71,7 +71,7 @@
       "name_zh": "出生日期",
       "name_en": "Date of Birth",
       "name_zh_en": "Date of Birth",
-      "type": "Char",
+      "type": "42",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -81,7 +81,7 @@
       "name_zh": "戶籍地代碼",
       "name_en": "Residence Code",
       "name_zh_en": "Residence Code",
-      "type": "Char",
+      "type": "50",
       "length": 4,
       "description_zh": "",
       "available_notes": []
@@ -91,7 +91,7 @@
       "name_zh": "診斷年齡",
       "name_en": "Age at Diagnosis",
       "name_zh_en": "Age at Diagnosis",
-      "type": "Char",
+      "type": "54",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -101,7 +101,7 @@
       "name_zh": "癌症發生順序號碼",
       "name_en": "Sequence Number",
       "name_zh_en": "Sequence Number",
-      "type": "Char",
+      "type": "57",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -111,7 +111,7 @@
       "name_zh": "個案分類",
       "name_en": "Class of Case",
       "name_zh_en": "Class of Case",
-      "type": "Char",
+      "type": "59",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -121,7 +121,7 @@
       "name_zh": "診斷狀態分類",
       "name_en": "Class of Diagnosis Status",
       "name_zh_en": "Class of Diagnosis Status",
-      "type": "Char",
+      "type": "60",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -131,7 +131,7 @@
       "name_zh": "治療狀態分類",
       "name_en": "Class of Treatment Status",
       "name_zh_en": "Class of Treatment Status",
-      "type": "Char",
+      "type": "61",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -141,7 +141,7 @@
       "name_zh": "首次就診日期",
       "name_en": "Date of First Contact",
       "name_zh_en": "Date of First Contact",
-      "type": "Char",
+      "type": "62",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -151,7 +151,7 @@
       "name_zh": "最初診斷日期",
       "name_en": "Date of Initial Diagnosis",
       "name_zh_en": "Date of Initial Diagnosis",
-      "type": "Char",
+      "type": "70",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -161,8 +161,8 @@
       "name_zh": "原發部位",
       "name_en": "Primary Site",
       "name_zh_en": "Primary Site",
-      "type": "Char",
-      "length": 5,
+      "type": "78",
+      "length": 4,
       "description_zh": "",
       "available_notes": []
     },
@@ -171,7 +171,7 @@
       "name_zh": "側性",
       "name_en": "Laterality",
       "name_zh_en": "Laterality",
-      "type": "Char",
+      "type": "82",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -181,8 +181,8 @@
       "name_zh": "組織型態",
       "name_en": "Histology",
       "name_zh_en": "Histology",
-      "type": "Char",
-      "length": 5,
+      "type": "83",
+      "length": 4,
       "description_zh": "",
       "available_notes": []
     },
@@ -191,7 +191,7 @@
       "name_zh": "性態碼",
       "name_en": "Behavior Code",
       "name_zh_en": "Behavior Code",
-      "type": "Char",
+      "type": "87",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -201,7 +201,7 @@
       "name_zh": "臨床分級/分化",
       "name_en": "Grade Clinical",
       "name_zh_en": "Grade Clinical",
-      "type": "Char",
+      "type": "88",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -211,7 +211,7 @@
       "name_zh": "病理分級/分化",
       "name_en": "Grade Pathological",
       "name_zh_en": "Grade Pathological",
-      "type": "Char",
+      "type": "89",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -221,7 +221,7 @@
       "name_zh": "癌症確診方式",
       "name_en": "Diagnostic Confirmation",
       "name_zh_en": "Diagnostic Confirmation",
-      "type": "Char",
+      "type": "90",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -231,7 +231,7 @@
       "name_zh": "首次顯微鏡檢證實日期",
       "name_en": "Date of First Microscopic Confirmation",
       "name_zh_en": "Date of First Microscopic Confirmation",
-      "type": "Char",
+      "type": "91",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -241,7 +241,7 @@
       "name_zh": "腫瘤大小",
       "name_en": "Tumor Size",
       "name_zh_en": "Tumor Size",
-      "type": "Char",
+      "type": "99",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -251,7 +251,7 @@
       "name_zh": "神經侵襲",
       "name_en": "Perineural Invasion",
       "name_zh_en": "Perineural Invasion",
-      "type": "Char",
+      "type": "102",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -261,7 +261,7 @@
       "name_zh": "淋巴管或血管侵犯",
       "name_en": "Lymph-vascular invasion",
       "name_zh_en": "Lymph-vascular invasion",
-      "type": "Char",
+      "type": "103",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -271,7 +271,7 @@
       "name_zh": "區域淋巴結檢查數目",
       "name_en": "Regional Lymph Nodes Examined",
       "name_zh_en": "Regional Lymph Nodes Examined",
-      "type": "Char",
+      "type": "104",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -281,7 +281,7 @@
       "name_zh": "區域淋巴結侵犯數目",
       "name_en": "Regional Lymph Nodes Positive",
       "name_zh_en": "Regional Lymph Nodes Positive",
-      "type": "Char",
+      "type": "106",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -291,7 +291,7 @@
       "name_zh": "診斷性及分期性手術處置日期",
       "name_en": "Date of Surgical Diagnostic and Staging Procedure",
       "name_zh_en": "Date of Surgical Diagnostic and Staging Procedure",
-      "type": "Char",
+      "type": "108",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -301,7 +301,7 @@
       "name_zh": "外院診斷性及分期性手術處置",
       "name_en": "Surgical Diagnostic and Staging Procedure at Other Facility",
       "name_zh_en": "Surgical Diagnostic and Staging Procedure at Other Facility",
-      "type": "Char",
+      "type": "116",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -311,7 +311,7 @@
       "name_zh": "申報醫院診斷性及分期性手術處置",
       "name_en": "Surgical Diagnostic and Staging Procedure at This Facility",
       "name_zh_en": "Surgical Diagnostic and Staging Procedure at This Facility",
-      "type": "Char",
+      "type": "118",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -321,7 +321,7 @@
       "name_zh": "臨床T",
       "name_en": "Clinical T",
       "name_zh_en": "Clinical T",
-      "type": "Char",
+      "type": "120",
       "length": 4,
       "description_zh": "",
       "available_notes": []
@@ -331,7 +331,7 @@
       "name_zh": "臨床N",
       "name_en": "Clinical N",
       "name_zh_en": "Clinical N",
-      "type": "Char",
+      "type": "124",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -341,7 +341,7 @@
       "name_zh": "臨床M",
       "name_en": "Clinical M",
       "name_zh_en": "Clinical M",
-      "type": "Char",
+      "type": "127",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -351,7 +351,7 @@
       "name_zh": "臨床期別組合",
       "name_en": "Clinical Stage Group",
       "name_zh_en": "Clinical Stage Group",
-      "type": "Char",
+      "type": "130",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -361,7 +361,7 @@
       "name_zh": "臨床分期字根/字首",
       "name_en": "Clinical Stage (Prefix/Suffix) Descriptor",
       "name_zh_en": "Clinical Stage (Prefix/Suffix) Descriptor",
-      "type": "Char",
+      "type": "133",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -371,7 +371,7 @@
       "name_zh": "病理T",
       "name_en": "Pathologic T",
       "name_zh_en": "Pathologic T",
-      "type": "Char",
+      "type": "134",
       "length": 4,
       "description_zh": "",
       "available_notes": []
@@ -381,7 +381,7 @@
       "name_zh": "病理N",
       "name_en": "Pathologic N",
       "name_zh_en": "Pathologic N",
-      "type": "Char",
+      "type": "138",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -391,7 +391,7 @@
       "name_zh": "病理M",
       "name_en": "Pathologic M",
       "name_zh_en": "Pathologic M",
-      "type": "Char",
+      "type": "141",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -401,7 +401,7 @@
       "name_zh": "病理期別組合",
       "name_en": "Pathologic Stage Group",
       "name_zh_en": "Pathologic Stage Group",
-      "type": "Char",
+      "type": "144",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -411,7 +411,7 @@
       "name_zh": "病理分期字根/字首",
       "name_en": "Pathologic Stage (Prefix/Suffix) Descriptor",
       "name_zh_en": "Pathologic Stage (Prefix/Suffix) Descriptor",
-      "type": "Char",
+      "type": "147",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -421,7 +421,7 @@
       "name_zh": "AJCC 癌症分期版本與章節",
       "name_en": "The Edition and Chapter of AJCC Cancer Staging",
       "name_zh_en": "The Edition and Chapter of AJCC Cancer Staging",
-      "type": "Char",
+      "type": "148",
       "length": 5,
       "description_zh": "",
       "available_notes": []
@@ -431,7 +431,7 @@
       "name_zh": "其他分期系統",
       "name_en": "Other Staging System",
       "name_zh_en": "Other Staging System",
-      "type": "Char",
+      "type": "153",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -441,7 +441,7 @@
       "name_zh": "其他分期系統期別 (臨床分期)",
       "name_en": "Clinical Other Staging System",
       "name_zh_en": "Clinical Other Staging System",
-      "type": "Char",
+      "type": "155",
       "length": 4,
       "description_zh": "",
       "available_notes": []
@@ -451,7 +451,7 @@
       "name_zh": "其他分期系統期別 (病理分期)",
       "name_en": "Pathologic Other Staging System",
       "name_zh_en": "Pathologic Other Staging System",
-      "type": "Char",
+      "type": "159",
       "length": 4,
       "description_zh": "",
       "available_notes": []
@@ -461,7 +461,7 @@
       "name_zh": "首次療程開始日期",
       "name_en": "Date of First Course of Treatment",
       "name_zh_en": "Date of First Course of Treatment",
-      "type": "Char",
+      "type": "163",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -471,7 +471,7 @@
       "name_zh": "首次手術日期",
       "name_en": "Date of First Surgical Procedure",
       "name_zh_en": "Date of First Surgical Procedure",
-      "type": "Char",
+      "type": "171",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -481,7 +481,7 @@
       "name_zh": "原發部位最確切的手術切除日期",
       "name_en": "Date of Most Definite Surgical Resection of the Primary Site",
       "name_zh_en": "Date of Most Definite Surgical Resection of the Primary Site",
-      "type": "Char",
+      "type": "179",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -491,8 +491,8 @@
       "name_zh": "外院原發部位手術方式",
       "name_en": "Surgical Procedure of Primary Site at Other Facility",
       "name_zh_en": "Surgical Procedure of Primary Site at Other Facility",
-      "type": "Char",
-      "length": 3,
+      "type": "187",
+      "length": 2,
       "description_zh": "",
       "available_notes": []
     },
@@ -501,8 +501,8 @@
       "name_zh": "申報醫院原發部位手術方式",
       "name_en": "Surgical Procedure of Primary Site at this Facility",
       "name_zh_en": "Surgical Procedure of Primary Site at this Facility",
-      "type": "Char",
-      "length": 3,
+      "type": "189",
+      "length": 2,
       "description_zh": "",
       "available_notes": []
     },
@@ -511,7 +511,7 @@
       "name_zh": "微創手術",
       "name_en": "Minimally invasive surgery",
       "name_zh_en": "Minimally invasive surgery",
-      "type": "Char",
+      "type": "191",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -521,7 +521,7 @@
       "name_zh": "原發部位手術邊緣",
       "name_en": "Surgical Margins of The Primary Site",
       "name_zh_en": "Surgical Margins of The Primary Site",
-      "type": "Char",
+      "type": "192",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -531,7 +531,7 @@
       "name_zh": "原發部位手術切緣距離",
       "name_en": "Surgical Margins Distance of the Primary Site",
       "name_zh_en": "Surgical Margins Distance of the Primary Site",
-      "type": "Char",
+      "type": "193",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -541,7 +541,7 @@
       "name_zh": "外院區域淋巴結手術範圍",
       "name_en": "Scope of Regional Lymph Node Surgery at Other Facility",
       "name_zh_en": "Scope of Regional Lymph Node Surgery at Other Facility",
-      "type": "Char",
+      "type": "196",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -551,7 +551,7 @@
       "name_zh": "申報醫院區域淋巴結手術範圍",
       "name_en": "Scope of Regional Lymph Node Surgery at this Facility",
       "name_zh_en": "Scope of Regional Lymph Node Surgery at this Facility",
-      "type": "Char",
+      "type": "197",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -561,7 +561,7 @@
       "name_zh": "外院其他部位手術方式",
       "name_en": "Surgical Procedure/Other Site at Other Facility",
       "name_zh_en": "Surgical Procedure/Other Site at Other Facility",
-      "type": "Char",
+      "type": "198",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -571,7 +571,7 @@
       "name_zh": "申報醫院其他部位手術方式",
       "name_en": "Surgical Procedure/Other Site at this Facility",
       "name_zh_en": "Surgical Procedure/Other Site at this Facility",
-      "type": "Char",
+      "type": "199",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -581,7 +581,7 @@
       "name_zh": "原發部位未手術原因",
       "name_en": "Reason for No Surgery of Primary Site",
       "name_zh_en": "Reason for No Surgery of Primary Site",
-      "type": "Char",
+      "type": "200",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -591,7 +591,7 @@
       "name_zh": "放射治療臨床標靶體積摘要",
       "name_en": "RT Target Summary",
       "name_zh_en": "RT Target Summary",
-      "type": "數字",
+      "type": "201",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -601,7 +601,7 @@
       "name_zh": "放射治療儀器",
       "name_en": "RT Modality",
       "name_zh_en": "RT Modality",
-      "type": "數字",
+      "type": "203",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -611,7 +611,7 @@
       "name_zh": "放射治療開始日期",
       "name_en": "Date of RT Started",
       "name_zh_en": "Date of RT Started",
-      "type": "Char",
+      "type": "206",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -621,7 +621,7 @@
       "name_zh": "放射治療結束日期",
       "name_en": "Date of RT Ended",
       "name_zh_en": "Date of RT Ended",
-      "type": "Char",
+      "type": "214",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -631,7 +631,7 @@
       "name_zh": "放射治療與手術順序",
       "name_en": "Sequence of Radiotherapy and Surgery",
       "name_zh_en": "Sequence of Radiotherapy and Surgery",
-      "type": "數字",
+      "type": "222",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -641,7 +641,7 @@
       "name_zh": "區域治療與全身性治療順序",
       "name_en": "Sequence of Locoregional Therapy and Systemic Therapy",
       "name_zh_en": "Sequence of Locoregional Therapy and Systemic Therapy",
-      "type": "數字",
+      "type": "224",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -651,7 +651,7 @@
       "name_zh": "放射治療執行狀態",
       "name_en": "RT Status",
       "name_zh_en": "RT Status",
-      "type": "Char",
+      "type": "226",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -661,7 +661,7 @@
       "name_zh": "體外放射治療技術",
       "name_en": "EBRT Technique",
       "name_zh_en": "EBRT Technique",
-      "type": "數字",
+      "type": "228",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -671,7 +671,7 @@
       "name_zh": "最高放射劑量臨床標靶體積",
       "name_en": "Target of CTV_H",
       "name_zh_en": "Target of CTV_H",
-      "type": "數字",
+      "type": "231",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -681,7 +681,7 @@
       "name_zh": "最高放射劑量臨床標靶體積劑量",
       "name_en": "Dose to CTV_H (cGy)",
       "name_zh_en": "Dose to CTV_H (cGy)",
-      "type": "Char",
+      "type": "233",
       "length": 5,
       "description_zh": "",
       "available_notes": []
@@ -691,7 +691,7 @@
       "name_zh": "最高放射劑量臨床標靶體積治療次數",
       "name_en": "Number of Fractions to CTV_H",
       "name_zh_en": "Number of Fractions to CTV_H",
-      "type": "Char",
+      "type": "238",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -701,7 +701,7 @@
       "name_zh": "較低放射劑量臨床標靶體積",
       "name_en": "Target of CTV_L",
       "name_zh_en": "Target of CTV_L",
-      "type": "數字",
+      "type": "240",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -711,7 +711,7 @@
       "name_zh": "較低放射劑量臨床標靶體積劑量",
       "name_en": "Dose to CTV_L (cGy)",
       "name_zh_en": "Dose to CTV_L (cGy)",
-      "type": "Char",
+      "type": "242",
       "length": 5,
       "description_zh": "",
       "available_notes": []
@@ -721,7 +721,7 @@
       "name_zh": "較低放射劑量臨床標靶體積治療次數",
       "name_en": "Number of Fractions to CTV_L",
       "name_zh_en": "Number of Fractions to CTV_L",
-      "type": "Char",
+      "type": "247",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -731,7 +731,7 @@
       "name_zh": "其他放射治療儀器",
       "name_en": "Other RT Modality",
       "name_zh_en": "Other RT Modality",
-      "type": "數字",
+      "type": "249",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -741,7 +741,7 @@
       "name_zh": "其他放射治療技術",
       "name_en": "Other RT Technique",
       "name_zh_en": "Other RT Technique",
-      "type": "數字",
+      "type": "251",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -751,7 +751,7 @@
       "name_zh": "其他放射治療臨床標靶體積",
       "name_en": "Target of Other RT",
       "name_zh_en": "Target of Other RT",
-      "type": "數字",
+      "type": "253",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -761,7 +761,7 @@
       "name_zh": "其他放射治療臨床標靶體積劑量",
       "name_en": "Dose to Target of Other RT",
       "name_zh_en": "Dose to Target of Other RT",
-      "type": "Char",
+      "type": "255",
       "length": 5,
       "description_zh": "",
       "available_notes": []
@@ -771,7 +771,7 @@
       "name_zh": "其他放射治療臨床標靶體積治療次數",
       "name_en": "Number of Fractions of Other RT",
       "name_zh_en": "Number of Fractions of Other RT",
-      "type": "Char",
+      "type": "260",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -781,7 +781,7 @@
       "name_zh": "全身性治療開始日期",
       "name_en": "Date of Systemic Therapy Started",
       "name_zh_en": "Date of Systemic Therapy Started",
-      "type": "Char",
+      "type": "262",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -791,7 +791,7 @@
       "name_zh": "外院化學治療",
       "name_en": "Chemotherapy at Other Facility",
       "name_zh_en": "Chemotherapy at Other Facility",
-      "type": "Char",
+      "type": "270",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -801,7 +801,7 @@
       "name_zh": "申報醫院化學治療",
       "name_en": "Chemotherapy at This Facility",
       "name_zh_en": "Chemotherapy at This Facility",
-      "type": "Char",
+      "type": "272",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -811,7 +811,7 @@
       "name_zh": "申報醫院化學治療開始日期",
       "name_en": "Date of Chemotherapy Started at This Facility",
       "name_zh_en": "Date of Chemotherapy Started at This Facility",
-      "type": "Char",
+      "type": "274",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -821,7 +821,7 @@
       "name_zh": "外院荷爾蒙/類固醇治療",
       "name_en": "Hormone/Steroid Therapy at Other Facility",
       "name_zh_en": "Hormone/Steroid Therapy at Other Facility",
-      "type": "Char",
+      "type": "282",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -831,7 +831,7 @@
       "name_zh": "申報醫院荷爾蒙/類固醇治療",
       "name_en": "Hormone/Steroid Therapy at This Facility",
       "name_zh_en": "Hormone/Steroid Therapy at This Facility",
-      "type": "Char",
+      "type": "284",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -841,7 +841,7 @@
       "name_zh": "申報醫院荷爾蒙/類固醇治療開始日期",
       "name_en": "Date of Hormone/Steroid Therapy Started at This Facility",
       "name_zh_en": "Date of Hormone/Steroid Therapy Started at This Facility",
-      "type": "Char",
+      "type": "286",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -851,7 +851,7 @@
       "name_zh": "外院免疫治療",
       "name_en": "Immunotherapy at Other Facility",
       "name_zh_en": "Immunotherapy at Other Facility",
-      "type": "Char",
+      "type": "294",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -861,7 +861,7 @@
       "name_zh": "申報醫院免疫治療",
       "name_en": "Immunotherapy at This Facility",
       "name_zh_en": "Immunotherapy at This Facility",
-      "type": "Char",
+      "type": "296",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -871,7 +871,7 @@
       "name_zh": "申報醫院免疫治療開始日期",
       "name_en": "Date of Immunotherapy Started at This Facility",
       "name_zh_en": "Date of Immunotherapy Started at This Facility",
-      "type": "Char",
+      "type": "298",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -881,7 +881,7 @@
       "name_zh": "骨髓/幹細胞移植或內分泌處置",
       "name_en": "Hematologic Transplant and Endocrine Procedure",
       "name_zh_en": "Hematologic Transplant and Endocrine Procedure",
-      "type": "Char",
+      "type": "306",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -891,7 +891,7 @@
       "name_zh": "申報醫院骨髓/幹細胞移植或內分泌處置開始日期",
       "name_en": "Date of Hematologic Transplant and Endocrine Procedure Started at This Facility",
       "name_zh_en": "Date of Hematologic Transplant and Endocrine Procedure Started at This Facility",
-      "type": "Char",
+      "type": "308",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -901,7 +901,7 @@
       "name_zh": "外院標靶治療",
       "name_en": "Targeted therapy at Other Facility",
       "name_zh_en": "Targeted therapy at Other Facility",
-      "type": "Char",
+      "type": "316",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -911,7 +911,7 @@
       "name_zh": "申報醫院標靶治療",
       "name_en": "Targeted therapy at This Facility",
       "name_zh_en": "Targeted therapy at This Facility",
-      "type": "Char",
+      "type": "318",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -921,7 +921,7 @@
       "name_zh": "申報醫院標靶治療開始日期",
       "name_en": "Date of Targeted therapy Started at This Facility",
       "name_zh_en": "Date of Targeted therapy Started at This Facility",
-      "type": "Char",
+      "type": "320",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -931,7 +931,7 @@
       "name_zh": "申報醫院緩和照護",
       "name_en": "Palliative Care at This Facility",
       "name_zh_en": "Palliative Care at This Facility",
-      "type": "Char",
+      "type": "328",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -941,7 +941,7 @@
       "name_zh": "其他治療",
       "name_en": "Other Treatment",
       "name_zh_en": "Other Treatment",
-      "type": "Char",
+      "type": "329",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -951,7 +951,7 @@
       "name_zh": "其他治療開始日期",
       "name_en": "Date of Other Treatment Started",
       "name_zh_en": "Date of Other Treatment Started",
-      "type": "Char",
+      "type": "331",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -961,7 +961,7 @@
       "name_zh": "首次復發或癌症狀態追蹤日期",
       "name_en": "Date of First Recurrence or Cancer Status Follow-Up",
       "name_zh_en": "Date of First Recurrence or Cancer Status Follow-Up",
-      "type": "Char",
+      "type": "339",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -971,7 +971,7 @@
       "name_zh": "首次復發型式",
       "name_en": "Type of First Recurrence",
       "name_zh_en": "Type of First Recurrence",
-      "type": "Char",
+      "type": "347",
       "length": 2,
       "description_zh": "",
       "available_notes": []
@@ -981,7 +981,7 @@
       "name_zh": "最後聯絡或死亡日期",
       "name_en": "Date of Last Contact or Death",
       "name_zh_en": "Date of Last Contact or Death",
-      "type": "Char",
+      "type": "349",
       "length": 8,
       "description_zh": "",
       "available_notes": []
@@ -991,7 +991,7 @@
       "name_zh": "生存狀態",
       "name_en": "Vital Status",
       "name_zh_en": "Vital Status",
-      "type": "Char",
+      "type": "357",
       "length": 1,
       "description_zh": "",
       "available_notes": []
@@ -1001,7 +1001,7 @@
       "name_zh": "摘錄者",
       "name_en": "Abstracted by",
       "name_zh_en": "Abstracted by",
-      "type": "Char",
+      "type": "358",
       "length": 10,
       "description_zh": "",
       "available_notes": []
@@ -1011,7 +1011,7 @@
       "name_zh": "身高",
       "name_en": "Height",
       "name_zh_en": "Height",
-      "type": "Char",
+      "type": "368",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1021,7 +1021,7 @@
       "name_zh": "體重",
       "name_en": "Weight",
       "name_zh_en": "Weight",
-      "type": "Char",
+      "type": "371",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1031,7 +1031,7 @@
       "name_zh": "吸菸行為",
       "name_en": "Smoking Behavior",
       "name_zh_en": "Smoking Behavior",
-      "type": "Char",
+      "type": "374",
       "length": 6,
       "description_zh": "",
       "available_notes": []
@@ -1041,7 +1041,7 @@
       "name_zh": "嚼檳榔行為",
       "name_en": "Betel Nut Chewing Behavior",
       "name_zh_en": "Betel Nut Chewing Behavior",
-      "type": "Char",
+      "type": "380",
       "length": 6,
       "description_zh": "",
       "available_notes": []
@@ -1051,7 +1051,7 @@
       "name_zh": "喝酒行為",
       "name_en": "Drinking Behavior",
       "name_zh_en": "Drinking Behavior",
-      "type": "Char",
+      "type": "386",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1061,47 +1061,7 @@
       "name_zh": "首次治療前生活功能狀態評估",
       "name_en": "Assessment of Performance Status before Treatment",
       "name_zh_en": "Assessment of Performance Status before Treatment",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "7.7",
-      "name_zh": "同癌家族病史",
-      "name_en": "Family History of Same Cancer",
-      "name_zh_en": "Family History of Same Cancer",
-      "type": "Char",
-      "length": 6,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "7.8",
-      "name_zh": "其他因子 8",
-      "name_en": "Other Factor 8",
-      "name_zh_en": "Other Factor 8",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "7.9",
-      "name_zh": "其他因子 9",
-      "name_en": "Other Factor 9",
-      "name_zh_en": "Other Factor 9",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "7.10",
-      "name_zh": "其他因子 10",
-      "name_en": "Other Factor 10",
-      "name_zh_en": "Other Factor 10",
-      "type": "Char",
+      "type": "389",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1111,7 +1071,7 @@
       "name_zh": "癌症部位特定因子 1",
       "name_en": "Site-Specific Factor 1",
       "name_zh_en": "Site-Specific Factor 1",
-      "type": "Char",
+      "type": "392",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1121,7 +1081,7 @@
       "name_zh": "癌症部位特定因子 2",
       "name_en": "Site-Specific Factor 2",
       "name_zh_en": "Site-Specific Factor 2",
-      "type": "Char",
+      "type": "395",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1131,7 +1091,7 @@
       "name_zh": "癌症部位特定因子 3",
       "name_en": "Site-Specific Factor 3",
       "name_zh_en": "Site-Specific Factor 3",
-      "type": "Char",
+      "type": "398",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1141,7 +1101,7 @@
       "name_zh": "癌症部位特定因子 4",
       "name_en": "Site-Specific Factor 4",
       "name_zh_en": "Site-Specific Factor 4",
-      "type": "Char",
+      "type": "401",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1151,7 +1111,7 @@
       "name_zh": "癌症部位特定因子 5",
       "name_en": "Site-Specific Factor 5",
       "name_zh_en": "Site-Specific Factor 5",
-      "type": "Char",
+      "type": "404",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1161,7 +1121,7 @@
       "name_zh": "癌症部位特定因子 6",
       "name_en": "Site-Specific Factor 6",
       "name_zh_en": "Site-Specific Factor 6",
-      "type": "Char",
+      "type": "407",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1171,7 +1131,7 @@
       "name_zh": "癌症部位特定因子 7",
       "name_en": "Site-Specific Factor 7",
       "name_zh_en": "Site-Specific Factor 7",
-      "type": "Char",
+      "type": "410",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1181,7 +1141,7 @@
       "name_zh": "癌症部位特定因子 8",
       "name_en": "Site-Specific Factor 8",
       "name_zh_en": "Site-Specific Factor 8",
-      "type": "Char",
+      "type": "413",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1191,7 +1151,7 @@
       "name_zh": "癌症部位特定因子 9",
       "name_en": "Site-Specific Factor 9",
       "name_zh_en": "Site-Specific Factor 9",
-      "type": "Char",
+      "type": "416",
       "length": 3,
       "description_zh": "",
       "available_notes": []
@@ -1201,114 +1161,14 @@
       "name_zh": "癌症部位特定因子 10",
       "name_en": "Site-Specific Factor 10",
       "name_zh_en": "Site-Specific Factor 10",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.11",
-      "name_zh": "癌症部位特定因子 11",
-      "name_en": "Site-Specific Factor 11",
-      "name_zh_en": "Site-Specific Factor 11",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.12",
-      "name_zh": "癌症部位特定因子 12",
-      "name_en": "Site-Specific Factor 12",
-      "name_zh_en": "Site-Specific Factor 12",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.13",
-      "name_zh": "癌症部位特定因子 13",
-      "name_en": "Site-Specific Factor 13",
-      "name_zh_en": "Site-Specific Factor 13",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.14",
-      "name_zh": "癌症部位特定因子 14",
-      "name_en": "Site-Specific Factor 14",
-      "name_zh_en": "Site-Specific Factor 14",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.15",
-      "name_zh": "癌症部位特定因子 15",
-      "name_en": "Site-Specific Factor 15",
-      "name_zh_en": "Site-Specific Factor 15",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.16",
-      "name_zh": "癌症部位特定因子 16",
-      "name_en": "Site-Specific Factor 16",
-      "name_zh_en": "Site-Specific Factor 16",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.17",
-      "name_zh": "癌症部位特定因子 17",
-      "name_en": "Site-Specific Factor 17",
-      "name_zh_en": "Site-Specific Factor 17",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.18",
-      "name_zh": "癌症部位特定因子 18",
-      "name_en": "Site-Specific Factor 18",
-      "name_zh_en": "Site-Specific Factor 18",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.19",
-      "name_zh": "癌症部位特定因子 19",
-      "name_en": "Site-Specific Factor 19",
-      "name_zh_en": "Site-Specific Factor 19",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "",
-      "available_notes": []
-    },
-    {
-      "seq": "8.20",
-      "name_zh": "癌症部位特定因子 20",
-      "name_en": "Site-Specific Factor 20",
-      "name_zh_en": "Site-Specific Factor 20",
-      "type": "Char",
+      "type": "419",
       "length": 3,
       "description_zh": "",
       "available_notes": []
     }
   ],
   "codebooks": {},
-  "pdf_url": "https://twcr.tw/wp-content/uploads/2025/12/Longform-Manual_Official-version_20251224_W-1.pdf",
+  "pdf_url": "https://twcr.tw/wp-content/uploads/2025/01/Longform-Manual_Official-version_20250121_W.pdf",
   "qa": {
     "errors": [],
     "warnings": []
