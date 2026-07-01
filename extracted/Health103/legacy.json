@@ -112,7 +112,7 @@
       "source": "承保 檔、 門住 診明 細檔",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": ""
+      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
     },
     {
       "seq": 9,
@@ -257,7 +257,7 @@
       "description_zh": "住院期間有透析且入院前半年 無透析者，定義為有緊急透析 (1)；反之，則定義無緊急透析(0)。",
       "available_notes": [],
       "name_zh_en": "emergency dialysis",
-      "description_en": ""
+      "description_en": "During hospitalization, if dialysis was performed and there was no prior dialysis within six months before admission, it is defined as emergency dialysis (1); otherwise, it is defined as non-emergency dialysis (0)."
     },
     {
       "seq": 22,
@@ -301,7 +301,7 @@
       "description_zh": "以加護病房(床)相關支付代碼對 應之「醫令數量」計算加總，定 義加護病房(床)利用天數。",
       "available_notes": [],
       "name_zh_en": "intensive care unit (ICU) days",
-      "description_en": ""
+      "description_en": "Calculate the total number of intensive care unit (ICU) bed days based on the payment codes for '医令数量'."
     },
     {
       "seq": 26,
@@ -346,7 +346,7 @@
       "source": "門住 診明 細檔",
       "available_notes": [],
       "name_zh_en": "Charlson Comorbidity Index",
-      "description_en": ""
+      "description_en": "Charlson Comorbidity Index disease weight calculation according to Appendix III."
     },
     {
       "seq": 30,

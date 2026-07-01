@@ -143,7 +143,7 @@
       "description_zh": "詳見欄位就醫科別 （FUNC_TYPE）譯碼說明 屬整合性照護計畫個案，為當日 就醫之第1科別",
       "available_notes": [],
       "name_zh_en": "department visited",
-      "description_en": ""
+      "description_en": "Field description for medical department type (FUNC_TYPE): Integrated care plan case, first department visited on the day."
     },
     {
       "seq": 11,
@@ -362,7 +362,7 @@
       "description_zh": "填寫全民健保醫療點數支付標準 碼。預防保健、洗腎、慢性病連 續處方調劑本欄免填，補空白",
       "available_notes": [],
       "name_zh_en": "consultation fee item code",
-      "description_en": ""
+      "description_en": "Fill in the National Health Insurance Medical Point Payment Standard form. Preventive health care, dialysis, and chronic disease follow-up prescriptions are exempt from filling this column, leave blank"
     },
     {
       "seq": 26,
@@ -406,7 +406,7 @@
       "description_zh": "論病例計酬代碼案件，本欄為必 要欄位，詳見欄位DRG參考碼 （BY_PASS_CODE）譯碼說明",
       "available_notes": [],
       "name_zh_en": "DRG Code Handling",
-      "description_en": ""
+      "description_en": "For DRG-based payment cases, this field is mandatory. See explanation for DRG reference code (BY_PASS_CODE)."
     },
     {
       "seq": 30,
@@ -483,7 +483,7 @@
       "description_zh": "1.經加密處理，醫師或原處方醫 師之國民身分證統一編號或外籍 居留證號，左靠不足補空白",
       "available_notes": [],
       "name_zh_en": "physician ID number",
-      "description_en": ""
+      "description_en": "1. Encrypted, physician or original prescriber's National Health Insurance ID or Alien Resident Permit, left-aligned with不足补空白"
     },
     {
       "seq": 37,
@@ -560,7 +560,7 @@
       "description_zh": "醫療機構所在鄉鎮， 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
       "available_notes": [],
       "name_zh_en": "location of medical institution",
-      "description_en": ""
+      "description_en": "Town of the medical institution, code referenced from the current status file of medical institutions. Recorded by medical institutions, will not change due to county city upgrading or merger."
     },
     {
       "seq": 44,
@@ -610,7 +610,7 @@
         }
       ],
       "name_zh_en": "whether patient transferred out",
-      "description_en": ""
+      "description_en": "Y:Yes (patient requires transfer after diagnosis) N:NO, chronic disease continuous prescription refill Note: Added from 2010"
     },
     {
       "seq": 47,
@@ -695,7 +695,7 @@
         }
       ],
       "name_zh_en": "claim reason note",
-      "description_en": ""
+      "description_en": "1: full claim submission; 2: partial claim supplement or difference not counted towards case number; Note: added from 2018"
     }
   ],
   "codebooks": {
@@ -830,7 +830,7 @@
         {
           "code": "D2",
           "label_zh": "兒童常規疫苗、流感疫苗、75歲以上長者肺炎鏈球菌疫苗接種、COVID-19檢驗費 (110/6修訂)",
-          "label_en": ""
+          "label_en": "routine vaccines for children, influenza vaccine, pneumococcal vaccine for seniors aged 75 and above, COVID-19 testing fee (revised in 110/6)"
         },
         {
           "code": "D4",
@@ -925,7 +925,7 @@
         {
           "code": "D2",
           "label_zh": "流感、兒童常規疫苗、肺炎鏈球菌、COVID-19快篩及PCR (110/5/1起 )",
-          "label_en": ""
+          "label_en": "Influenza, routine childhood vaccines, pneumococcus, COVID-19 rapid test and PCR (starting from 5/1/110)"
         },
         {
           "code": "E1",
@@ -1005,7 +1005,7 @@
         {
           "code": "C5",
           "label_zh": "法定傳染病通報且住院隔離案件 (110/1/1起 ) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "report of notifiable infectious disease and inpatient isolation case (effective since 01/01/2022) revised on 01/27/2026"
         },
         {
           "code": "DF",
@@ -1276,7 +1276,7 @@
         {
           "code": "55",
           "label_zh": "多發性硬化症 D 86 類天皰瘡 M 嬰兒腦性麻痺及其他麻痺 87 皰疹性皮膚炎 M",
-          "label_en": ""
+          "label_en": "multiple sclerosis D86 herpetic stomatitis M infantile cerebral palsy and other paralysis 87 herpetiform dermatitis M"
         },
         {
           "code": "56",
@@ -1311,7 +1311,7 @@
         {
           "code": "62",
           "label_zh": "先天性畸形疾病 L 93 性腺低能症 持續性血液凝固障礙 （Hypogonadism）",
-          "label_en": ""
+          "label_en": "congenital anomalies L93 hypogonadism persistent coagulation disorder"
         },
         {
           "code": "63",
@@ -1351,7 +1351,7 @@
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B 100 神經性耳鳴 腦下垂體病變引發內分泌 特殊檢查",
-          "label_en": ""
+          "label_en": "adrenal disorder leading to endocrine disturbance B100 neurotic tinnitus pituitary disorder leading to endocrine special examination"
         },
         {
           "code": "71",
@@ -1426,7 +1426,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M 復健治療（物理治療簡單、中度 治療除外） 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Seborrheic Dermatitis M Rehabilitation Treatment (excluding simple and moderate physical therapy) revised on 27/1/2026"
         },
         {
           "code": "D4",
@@ -1456,7 +1456,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 牙醫醫療服務(98.1增訂) 牙醫 FD 牙醫院所內治療精神疾病中度以上",
-          "label_en": ""
+          "label_en": "peritoneal dialysis dental medical services(added in 98.1) dental FD dental treatment for severe mental disorders in dental hospital"
         },
         {
           "code": "P1",
@@ -1561,7 +1561,7 @@
         {
           "code": "C0",
           "label_zh": "照護試辦計畫【102.01.01(含)取 個月或3個月用藥量案件 消】 （101.11新增）",
-          "label_en": ""
+          "label_en": "Care Demonstration Plan [Cases with medication quantity for monthly or 3-month period starting from 2014.01.01] (Added in 2013.11)"
         },
         {
           "code": "C1",
@@ -1616,7 +1616,7 @@
         {
           "code": "JG",
           "label_zh": "兒童過敏性鼻炎照護計畫 訂) 癌症化療、放射線療法患者中醫門 全民健康保險中醫癌症患者加強",
-          "label_en": ""
+          "label_en": "Child Allergic Rhinitis Care Plan For cancer chemotherapy and radiotherapy patients, Traditional Chinese Medicine outpatient care Strengthened in National Health Insurance"
         },
         {
           "code": "JH",
@@ -1796,7 +1796,7 @@
         {
           "code": "7",
           "label_zh": "保險山地離島地區醫療給付效ED、HF、N、C、G9 E1 益提昇計畫 R 醫療給付改善方案+家醫整合",
-          "label_en": ""
+          "label_en": "Insurance mountain, island, and remote area medical payment benefits ED, HF, N, C, G9 E1 improvement plan R medical payment improvement program+family medicine integration"
         },
         {
           "code": "8",
@@ -2067,7 +2067,7 @@
         {
           "code": "55",
           "label_zh": "多發性硬化症 D 86 類天皰瘡 M 嬰兒腦性麻痺及其他麻痺 87 皰疹性皮膚炎 M",
-          "label_en": ""
+          "label_en": "multiple sclerosis D86 herpetic stomatitis M infantile cerebral palsy and other paralysis 87 herpetiform dermatitis M"
         },
         {
           "code": "56",
@@ -2102,7 +2102,7 @@
         {
           "code": "62",
           "label_zh": "先天性畸形疾病 L 93 性腺低能症 持續性血液凝固障礙 （Hypogonadism）",
-          "label_en": ""
+          "label_en": "congenital anomalies L93 hypogonadism persistent coagulation disorder"
         },
         {
           "code": "63",
@@ -2142,7 +2142,7 @@
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B 100 神經性耳鳴 腦下垂體病變引發內分泌 特殊檢查",
-          "label_en": ""
+          "label_en": "adrenal disorder leading to endocrine disturbance B100 neurotic tinnitus pituitary disorder leading to endocrine special examination"
         },
         {
           "code": "71",
@@ -2217,7 +2217,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M 復健治療（物理治療簡單、中度 治療除外） 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Seborrheic Dermatitis M Rehabilitation Treatment (excluding simple and moderate physical therapy) revised on 27/1/2026"
         },
         {
           "code": "D4",
@@ -2247,7 +2247,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 牙醫醫療服務(98.1增訂) 牙醫 FD 牙醫院所內治療精神疾病中度以上",
-          "label_en": ""
+          "label_en": "peritoneal dialysis dental medical services(added in 98.1) dental FD dental treatment for severe mental disorders in dental hospital"
         },
         {
           "code": "P1",
@@ -2352,7 +2352,7 @@
         {
           "code": "C0",
           "label_zh": "照護試辦計畫【102.01.01(含)取 個月或3個月用藥量案件 消】 （101.11新增）",
-          "label_en": ""
+          "label_en": "Care Demonstration Plan [Cases with medication quantity for monthly or 3-month period starting from 2014.01.01] (Added in 2013.11)"
         },
         {
           "code": "C1",
@@ -2407,7 +2407,7 @@
         {
           "code": "JG",
           "label_zh": "兒童過敏性鼻炎照護計畫 訂) 癌症化療、放射線療法患者中醫門 全民健康保險中醫癌症患者加強",
-          "label_en": ""
+          "label_en": "Child Allergic Rhinitis Care Plan For cancer chemotherapy and radiotherapy patients, Traditional Chinese Medicine outpatient care Strengthened in National Health Insurance"
         },
         {
           "code": "JH",
@@ -2587,7 +2587,7 @@
         {
           "code": "7",
           "label_zh": "保險山地離島地區醫療給付效ED、HF、N、C、G9 E1 益提昇計畫 R 醫療給付改善方案+家醫整合",
-          "label_en": ""
+          "label_en": "Insurance mountain, island, and remote area medical payment benefits ED, HF, N, C, G9 E1 improvement plan R medical payment improvement program+family medicine integration"
         },
         {
           "code": "8",
@@ -2858,7 +2858,7 @@
         {
           "code": "55",
           "label_zh": "多發性硬化症 D 86 類天皰瘡 M 嬰兒腦性麻痺及其他麻痺 87 皰疹性皮膚炎 M",
-          "label_en": ""
+          "label_en": "multiple sclerosis D86 herpetic stomatitis M infantile cerebral palsy and other paralysis 87 herpetiform dermatitis M"
         },
         {
           "code": "56",
@@ -2893,7 +2893,7 @@
         {
           "code": "62",
           "label_zh": "先天性畸形疾病 L 93 性腺低能症 持續性血液凝固障礙 （Hypogonadism）",
-          "label_en": ""
+          "label_en": "congenital anomalies L93 hypogonadism persistent coagulation disorder"
         },
         {
           "code": "63",
@@ -2933,7 +2933,7 @@
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B 100 神經性耳鳴 腦下垂體病變引發內分泌 特殊檢查",
-          "label_en": ""
+          "label_en": "adrenal disorder leading to endocrine disturbance B100 neurotic tinnitus pituitary disorder leading to endocrine special examination"
         },
         {
           "code": "71",
@@ -3008,7 +3008,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M 復健治療（物理治療簡單、中度 治療除外） 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Seborrheic Dermatitis M Rehabilitation Treatment (excluding simple and moderate physical therapy) revised on 27/1/2026"
         },
         {
           "code": "D4",
@@ -3038,7 +3038,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 牙醫醫療服務(98.1增訂) 牙醫 FD 牙醫院所內治療精神疾病中度以上",
-          "label_en": ""
+          "label_en": "peritoneal dialysis dental medical services(added in 98.1) dental FD dental treatment for severe mental disorders in dental hospital"
         },
         {
           "code": "P1",
@@ -3143,7 +3143,7 @@
         {
           "code": "C0",
           "label_zh": "照護試辦計畫【102.01.01(含)取 個月或3個月用藥量案件 消】 （101.11新增）",
-          "label_en": ""
+          "label_en": "Care Demonstration Plan [Cases with medication quantity for monthly or 3-month period starting from 2014.01.01] (Added in 2013.11)"
         },
         {
           "code": "C1",
@@ -3198,7 +3198,7 @@
         {
           "code": "JG",
           "label_zh": "兒童過敏性鼻炎照護計畫 訂) 癌症化療、放射線療法患者中醫門 全民健康保險中醫癌症患者加強",
-          "label_en": ""
+          "label_en": "Child Allergic Rhinitis Care Plan For cancer chemotherapy and radiotherapy patients, Traditional Chinese Medicine outpatient care Strengthened in National Health Insurance"
         },
         {
           "code": "JH",
@@ -3378,7 +3378,7 @@
         {
           "code": "7",
           "label_zh": "保險山地離島地區醫療給付效ED、HF、N、C、G9 E1 益提昇計畫 R 醫療給付改善方案+家醫整合",
-          "label_en": ""
+          "label_en": "Insurance mountain, island, and remote area medical payment benefits ED, HF, N, C, G9 E1 improvement plan R medical payment improvement program+family medicine integration"
         },
         {
           "code": "8",
@@ -3649,7 +3649,7 @@
         {
           "code": "55",
           "label_zh": "多發性硬化症 D 86 類天皰瘡 M 嬰兒腦性麻痺及其他麻痺 87 皰疹性皮膚炎 M",
-          "label_en": ""
+          "label_en": "multiple sclerosis D86 herpetic stomatitis M infantile cerebral palsy and other paralysis 87 herpetiform dermatitis M"
         },
         {
           "code": "56",
@@ -3684,7 +3684,7 @@
         {
           "code": "62",
           "label_zh": "先天性畸形疾病 L 93 性腺低能症 持續性血液凝固障礙 （Hypogonadism）",
-          "label_en": ""
+          "label_en": "congenital anomalies L93 hypogonadism persistent coagulation disorder"
         },
         {
           "code": "63",
@@ -3724,7 +3724,7 @@
         {
           "code": "70",
           "label_zh": "腎上腺病變引發內分泌障礙 B 100 神經性耳鳴 腦下垂體病變引發內分泌 特殊檢查",
-          "label_en": ""
+          "label_en": "adrenal disorder leading to endocrine disturbance B100 neurotic tinnitus pituitary disorder leading to endocrine special examination"
         },
         {
           "code": "71",
@@ -3799,7 +3799,7 @@
         {
           "code": "84",
           "label_zh": "脂漏性皮膚炎 M 復健治療（物理治療簡單、中度 治療除外） 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Seborrheic Dermatitis M Rehabilitation Treatment (excluding simple and moderate physical therapy) revised on 27/1/2026"
         },
         {
           "code": "D4",
@@ -3829,7 +3829,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 牙醫醫療服務(98.1增訂) 牙醫 FD 牙醫院所內治療精神疾病中度以上",
-          "label_en": ""
+          "label_en": "peritoneal dialysis dental medical services(added in 98.1) dental FD dental treatment for severe mental disorders in dental hospital"
         },
         {
           "code": "P1",
@@ -3934,7 +3934,7 @@
         {
           "code": "C0",
           "label_zh": "照護試辦計畫【102.01.01(含)取 個月或3個月用藥量案件 消】 （101.11新增）",
-          "label_en": ""
+          "label_en": "Care Demonstration Plan [Cases with medication quantity for monthly or 3-month period starting from 2014.01.01] (Added in 2013.11)"
         },
         {
           "code": "C1",
@@ -3989,7 +3989,7 @@
         {
           "code": "JG",
           "label_zh": "兒童過敏性鼻炎照護計畫 訂) 癌症化療、放射線療法患者中醫門 全民健康保險中醫癌症患者加強",
-          "label_en": ""
+          "label_en": "Child Allergic Rhinitis Care Plan For cancer chemotherapy and radiotherapy patients, Traditional Chinese Medicine outpatient care Strengthened in National Health Insurance"
         },
         {
           "code": "JH",
@@ -4169,7 +4169,7 @@
         {
           "code": "7",
           "label_zh": "保險山地離島地區醫療給付效ED、HF、N、C、G9 E1 益提昇計畫 R 醫療給付改善方案+家醫整合",
-          "label_en": ""
+          "label_en": "Insurance mountain, island, and remote area medical payment benefits ED, HF, N, C, G9 E1 improvement plan R medical payment improvement program+family medicine integration"
         },
         {
           "code": "8",
@@ -4316,7 +4316,7 @@
         {
           "code": "7",
           "label_zh": "剖腹生產 行剖腹產手術者，給付類別填『7』 88.09起申報類別為「2」補報者使用，",
-          "label_en": ""
+          "label_en": "cesarean delivery those who undergo cesarean section surgery, payment category fill '7' Starting from 2008.09, claim category is '2' for retroactive claims;"
         },
         {
           "code": "8",
@@ -4407,12 +4407,12 @@
         {
           "code": "902",
           "label_zh": "902 902 (協助衛生福利部辦理項目) 新生兒依附註記方式就醫者(92.9增訂) (協",
-          "label_en": ""
+          "label_en": "902 902 (Assisted by the Ministry of Health and Welfare) Newborns seeking medical care based on notation (Added in 2012.9)"
         },
         {
           "code": "903",
           "label_zh": "903 903 助衛生福利部辦理項目) 行政協助愛滋病案件(95.3增訂)、愛滋防治",
-          "label_en": ""
+          "label_en": "903 903 Administrative assistance for AIDS cases (added in 1995.3), AIDS prevention"
         },
         {
           "code": "904",
@@ -4577,7 +4577,7 @@
         {
           "code": "A13",
           "label_zh": "（98.8起）；收容對象醫療服務計畫之矯正機關內門診 50 （102.01新增）",
-          "label_en": ""
+          "label_en": "(since 98.8); corrective agency internal outpatient service for institutionalized recipients 50 (added in 102.01)"
         },
         {
           "code": "A14",
@@ -4597,7 +4597,7 @@
         {
           "code": "A20",
           "label_zh": "醫學中心；一般門診加藥品或復健 ＊ 醫學中心；一般門診加藥品或復健；持殘障手冊；收容對象",
-          "label_en": ""
+          "label_en": "medical center; general outpatient with medication or rehabilitation * medical center; general outpatient with medication or rehabilitation; holder of disability certificate; eligible recipient"
         },
         {
           "code": "A23",
@@ -4672,7 +4672,7 @@
         {
           "code": "B13",
           "label_zh": "（98.8起）；收容對象醫療服務計畫之矯正機關內門診 50 （102.01新增）",
-          "label_en": ""
+          "label_en": "(since 98.8); corrective agency internal outpatient service for institutionalized recipients 50 (added in 102.01)"
         },
         {
           "code": "B14",
@@ -4682,7 +4682,7 @@
         {
           "code": "B17",
           "label_zh": "計畫補助者(98/8 起)；收容對象醫療服務計畫之矯正機關內門 診 (102/1 新增)",
-          "label_en": ""
+          "label_en": "Sponsor (since 98/8); inpatient medical services for correctional institution under a care plan (added 102/1)"
         },
         {
           "code": "B1P",
@@ -4692,7 +4692,7 @@
         {
           "code": "B20",
           "label_zh": "區域醫院；一般門診加藥品或復健 ＊ 區域醫院；一般門診加藥品或復健；持殘障手冊；收容對象",
-          "label_en": ""
+          "label_en": "Regional hospital; general outpatient plus drugs or rehabilitation; with disability certificate; recipients"
         },
         {
           "code": "B23",
@@ -4702,7 +4702,7 @@
         {
           "code": "B24",
           "label_zh": "區域醫院；一般門診加藥品或復健 區域醫院；一般門診加藥品或復健；持身心障礙證明或參加",
-          "label_en": ""
+          "label_en": "regional hospital; outpatient with medication or rehabilitation regional hospital; outpatient with medication or rehabilitation;持有身心障礙證明或參加"
         },
         {
           "code": "B27",
@@ -4752,7 +4752,7 @@
         {
           "code": "C13",
           "label_zh": "（98.8起）；收容對象醫療服務計畫之矯正機關內門診 50 94/7/15 （102.01新增）",
-          "label_en": ""
+          "label_en": "(Effective from 98.8); outpatient service for inmates in correctional facilities 50 94/7/15 (Added in 102.01)"
         },
         {
           "code": "C14",
@@ -4762,7 +4762,7 @@
         {
           "code": "C17",
           "label_zh": "計畫補助者 (98/8 起)；收容對象醫療服務計畫之矯正機關內 門診 (102/1 新增)",
-          "label_en": ""
+          "label_en": "funding recipient (since 98/8); outpatient services for correctional institutions under medical service plan (added in 102/1)"
         },
         {
           "code": "C1P",
@@ -4772,7 +4772,7 @@
         {
           "code": "C20",
           "label_zh": "地區醫院；一般門診加藥品或復健 ＊ 地區醫院；一般門診加藥品或復健；持殘障手冊；收容對象",
-          "label_en": ""
+          "label_en": "local hospital; general outpatient with drugs or rehabilitation * local hospital; general outpatient with drugs or rehabilitation; holder of disability certificate; recipient"
         },
         {
           "code": "C23",
@@ -4782,7 +4782,7 @@
         {
           "code": "C24",
           "label_zh": "地區醫院；一般門診加藥品或復健 地區醫院；一般門診加藥品或復健；持身心障礙證明或參加",
-          "label_en": ""
+          "label_en": "inpatient; outpatient with medication or rehabilitation inpatient; outpatient with medication or rehabilitation; with disability certificate or participation"
         },
         {
           "code": "C27",
@@ -4882,7 +4882,7 @@
         {
           "code": "E20",
           "label_zh": "醫學中心；高利用率者 ＊ 93/1/1 停止 醫學中心；高利用率者；持殘障手冊；收容對象醫療服務計",
-          "label_en": ""
+          "label_en": "Tertiary medical center; high-risk patient * Effective from January 1, 1993 Stop tertiary medical center; high-risk patient; with disability certificate; medical services plan for recipients"
         },
         {
           "code": "E23",
@@ -4917,7 +4917,7 @@
         {
           "code": "F20",
           "label_zh": "區域醫院；高利用率者 ＊ 93/1/1 停止 區域醫院；高利用率者；持殘障手冊；收容對象醫療服務計",
-          "label_en": ""
+          "label_en": "Regional hospital; high-dose user * effective from 93/1/1 Regional hospital; high-dose user; with disability certificate; medical services plan for recipients"
         },
         {
           "code": "F23",
@@ -5144,7 +5144,7 @@
         {
           "code": "6",
           "label_zh": "86/3/1 偏遠地區或緊急急迫情形之自行調劑 衛生所調劑巡迴醫療或定點門診開立之處方",
-          "label_en": ""
+          "label_en": "86/3/1 Remote area or emergency self-compounding by health center, mobile medical service, or定点门诊开具的处方"
         },
         {
           "code": "7",
@@ -5216,7 +5216,7 @@
         {
           "code": "11",
           "label_zh": "財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院",
-          "label_en": ""
+          "label_en": "Charity hospital 11 Charity hospital 11 Charity hospital 11 Charity hospital 11 Charity hospital"
         },
         {
           "code": "12",
@@ -5236,12 +5236,12 @@
         {
           "code": "15",
           "label_zh": "私立醫院 15 私立醫院 15 私立醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "private hospital 15 private hospital 15 private hospital 15 private western medical hospital 15 private western medical hospital"
         },
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private Dental Hospital 17 Private Dental Hospital 17 Private Dental Hospital 17 Private Dental Hospital 17 Private Dental Hospital"
         },
         {
           "code": "18",
@@ -5311,7 +5311,7 @@
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "Private General Hospital 15 Private General Hospital 15 Private General Hospital 15 Private General Hospital 15 Private General Hospital"
         },
         {
           "code": "17",
@@ -5326,7 +5326,7 @@
         {
           "code": "1",
           "label_zh": "部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院",
-          "label_en": ""
+          "label_en": "public and municipal hospitals 1 public and municipal hospitals 1 public and municipal hospitals 1 public and municipal hospitals"
         },
         {
           "code": "2",
@@ -5336,12 +5336,12 @@
         {
           "code": "4",
           "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "Public medical school affiliated hospital 4 Public medical school affiliated hospital 4 Public medical school affiliated hospital 4 Public medical school affiliated hospital"
         },
         {
           "code": "5",
           "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)",
-          "label_en": ""
+          "label_en": "Military hospital (civilian treatment) 5 Military hospital (civilian treatment) 5 Military hospital (civilian treatment) 5 Military hospital (civilian treatment)"
         },
         {
           "code": "6",
@@ -5356,17 +5356,17 @@
         {
           "code": "8",
           "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital Non-public Non-public Non-public Non-public"
         },
         {
           "code": "9",
           "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "9 Hospital of Medical Association 9 Hospital of Medical Association 9 Hospital of Medical Association 9 Hospital of Medical Association"
         },
         {
           "code": "11",
           "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院",
-          "label_en": ""
+          "label_en": "charity hospital 11 charity hospital 11 charity hospital 11 charity hospital"
         },
         {
           "code": "12",
@@ -5381,12 +5381,12 @@
         {
           "code": "14",
           "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院",
-          "label_en": ""
+          "label_en": "Charitable organization-affiliated hospital 14 Charitable organization-affiliated hospital 14 Charitable organization-affiliated hospital 14 Charitable organization-affiliated hospital"
         },
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "private general hospital 15 private general hospital 15 private general hospital 15 private general hospital revised on January 27, 2026"
         },
         {
           "code": "17",
@@ -5406,7 +5406,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "county municipal clinic 22 county municipal clinic 22 county municipal clinic 22 county municipal clinic 22 county municipal clinic"
         },
         {
           "code": "23",
@@ -5466,17 +5466,17 @@
         {
           "code": "35",
           "label_zh": "私立診所 35 私立診所 35 私立診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "private clinic 35 private clinic 35 private clinic 35 private western medical clinic 35 private western medical clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic"
         },
         {
           "code": "40",
@@ -5496,7 +5496,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "county municipal clinic 22 county municipal clinic 22 county municipal clinic 22 county municipal clinic 22 county municipal clinic"
         },
         {
           "code": "23",
@@ -5556,17 +5556,17 @@
         {
           "code": "35",
           "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "Private General Clinic 35 Private General Clinic 35 Private General Clinic 35 Private General Clinic 35 Private General Clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic 37 Private Dental Clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic 38 Private TCM Clinic"
         },
         {
           "code": "40",
@@ -5581,7 +5581,7 @@
         {
           "code": "21",
           "label_zh": "部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所",
-          "label_en": ""
+          "label_en": "Government-run and municipal hospitals 21 Government-run and municipal hospitals 21 Government-run and municipal hospitals 21 Government-run and municipal hospitals"
         },
         {
           "code": "22",
@@ -5596,7 +5596,7 @@
         {
           "code": "24",
           "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
-          "label_en": ""
+          "label_en": "public school attached health room 24: public school attached health room 24: public school attached health room 24: public school attached health room"
         },
         {
           "code": "25",
@@ -5666,7 +5666,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所",
-          "label_en": ""
+          "label_en": "charity clinic 40 charity clinic 40 charity clinic 40 charity clinic"
         },
         {
           "code": "41",

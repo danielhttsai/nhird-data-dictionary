@@ -51,9 +51,13 @@ def main():
 
     icdo = {
         "topography": {"field_zh": "原發部位 (ICD-O Topography)", "field_en": "ICD-O-3 Topography (T-code)",
-                       "source": "TWCR ICD-O T-code 對照表", "entries": topo},
+                       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
+                       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
+                       "entries": topo},
         "morphology": {"field_zh": "組織型態 (ICD-O Morphology)", "field_en": "ICD-O-3 Morphology (M-code)",
-                       "source": "TWCR ICD-O M-code 對照表", "entries": morph},
+                       "source": "WHO ICD-O-3 型態碼 · TWCR M-code 對照表",
+                       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O組織型態Morphology-M-Code對照表.xlsx",
+                       "entries": morph},
     }
 
     # attach to cancer-registry files: topography → 原發部位, morphology → 組織型態/形態

@@ -60,8 +60,8 @@
       "length": 2,
       "description_zh": "10：社福協助-營養餐飲 11：長照需要等級未達 2級 詳見個案-障礙類別(DISCODE)",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "discharge reason 8: institutional placement 9: other 12: unwilling to pay the co-payment 13: relocation 14: lost contact or missing 15: admitted to an institution or medical facility",
+      "description_en": "10: Social welfare assistance-nutrition meals 11: Long-term care needs level not reaching grade 2 see case disability category (DISCODE)"
     },
     {
       "seq": 5,
@@ -266,7 +266,7 @@
         {
           "code": "6036ICF",
           "label_zh": "(新制六類)泌尿與生殖系統相關構造及其功能 (新制七類)神經、肌肉、骨骼之移動相關構造及其 功能",
-          "label_en": ""
+          "label_en": "(New system category 6) Urinary and reproductive system-related structures and functions (New system category 7) Nervous, muscle, bone movement-related structures and functions"
         },
         {
           "code": "6038ICF",
@@ -321,7 +321,7 @@
         {
           "code": "3",
           "label_zh": "婚姻狀況 MARRIAGE Char 2 4：同居 5：未婚 6：已婚 7：不知道",
-          "label_en": ""
+          "label_en": "marital status MARRIAGE Char 2 4: cohabiting 5: unmarried 6: married 7: unknown"
         },
         {
           "code": "4",
@@ -331,7 +331,7 @@
         {
           "code": "5",
           "label_zh": "個案身分別-低收入戶 A3CH2 Char 2 個案身分別-中低收入（未達 1.5",
-          "label_en": ""
+          "label_en": "Case status - low-income A3CH2 Case status - middle-low income (not reaching 1.5"
         },
         {
           "code": "6",
@@ -396,7 +396,7 @@
         {
           "code": "18",
           "label_zh": "與個案之關係 B1B Char 2 詳見與個案之關係(B1B)譯碼說明。 1：男",
-          "label_en": ""
+          "label_en": "relationship with case B1B Char 2 see explanation for relationship with case (B1B) coding"
         },
         {
           "code": "19",
@@ -471,17 +471,17 @@
         {
           "code": "33",
           "label_zh": "請問您目前有沒有在工作？ K7 Char 2 1：是 9：未填 0：否 您以前有沒有工作？（有沒有",
-          "label_en": ""
+          "label_en": "Are you currently working? K7 Char 2 1: Yes 9: Not filled 0: No Have you worked before?"
         },
         {
           "code": "34",
           "label_zh": "K7A Char 2 1：是 工作賺錢） 9：未填 0：否 您是不是因為照顧個案而不再",
-          "label_en": ""
+          "label_en": "K7A Character 2 1: Yes earning money) 9: Not filled 0: No are you no longer because of taking care of the case"
         },
         {
           "code": "35",
           "label_zh": "K7B Char 2 1：是 工作？ 9：未填 您目前的工作是全職還是兼 1：全職",
-          "label_en": ""
+          "label_en": "K7B Character 2 1: Yes Is your current job full-time? 9: Not filled 1: Full-time"
         },
         {
           "code": "36",
@@ -491,7 +491,7 @@
         {
           "code": "37",
           "label_zh": "K7D Char 2 受到影響？ 2：有影響 1：必須減少工作時間 2：必須請假（事假、病假、家庭照",
-          "label_en": ""
+          "label_en": "K7D Char 2 affected? 2：affected 1：need to reduce work hours 2：must take leave (sick leave, personal leave, family care leave)"
         },
         {
           "code": "38",
@@ -888,7 +888,7 @@
         {
           "code": "4",
           "label_zh": "A：照顧管理及政策鼓勵服務 B：照顧服務 C：專業服務 D：交通接送服務 E：輔具服務",
-          "label_en": ""
+          "label_en": "A: Care management and policy-encouraged services B: Care services C: Professional services D: Transportation services E: Assistive devices services"
         },
         {
           "code": "2",
@@ -928,7 +928,7 @@
         {
           "code": "5",
           "label_zh": "照會單狀態 SERV_STATUS Char 2 2：暫停使用 3：停止服務(釋放時數)",
-          "label_en": ""
+          "label_en": "service status SERV_STATUS Char 2 2：suspended use 3：stopped service(released hours)"
         },
         {
           "code": "6",

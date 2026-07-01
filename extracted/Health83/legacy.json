@@ -739,7 +739,7 @@
         {
           "code": "4",
           "label_zh": "現居地代碼 LIVINGAREA Char 4 詳譯碼說明。 1：男；2：女；9：",
-          "label_en": ""
+          "label_en": "Residence area code LIVINGAREA Char 4 Detailed code explanation. 1: Male; 2: Female; 9:"
         },
         {
           "code": "5",
@@ -749,7 +749,7 @@
         {
           "code": "6",
           "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 合編碼原則； 1：不符合 提供西元年月",
-          "label_en": ""
+          "label_en": "SICKID_ROC validation 1 Char 1 Combined coding rule; 1: invalid Western year-month provided"
         },
         {
           "code": "7",
@@ -899,17 +899,17 @@
         {
           "code": "29",
           "label_zh": "Q_6_1 Char 1 過-觸診 沒有勾選 其他-最近二年內是否做 1：有；Null：",
-          "label_en": ""
+          "label_en": "Q_6_1 Char 1 Palpation No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "30",
           "label_zh": "Q_6_2 Char 1 過-乳攝 沒有勾選 其他-最近二年內是否做 1：有；Null：",
-          "label_en": ""
+          "label_en": "Q_6_2 Char 1 Mammography No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "31",
           "label_zh": "Q_6_3 Char 1 過-超音波 沒有勾選 其他-最近二年內是否做 1：有；Null：",
-          "label_en": ""
+          "label_en": "Q_6_3 Char 1 Ultrasound No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "32",
@@ -1009,12 +1009,12 @@
         {
           "code": "50",
           "label_zh": "體重2 WEIGHT2 Num 8 過整理的體重 (公斤) 乳房攝影資料清 理檔新增欄位經",
-          "label_en": ""
+          "label_en": "Weight2 Num 8 Cleaned Weight (kg) Breast摄影资料整理档新增字段经"
         },
         {
           "code": "51",
           "label_zh": "身高2 HIGHET2 Num 8 過整理的身高 (公分) 乳房攝影資料清 理檔新增欄位體",
-          "label_en": ""
+          "label_en": "height2 Num 8 Cleaned height (cm) Mammography data cleaning file new field"
         },
         {
           "code": "52",
@@ -1054,12 +1054,12 @@
         {
           "code": "7",
           "label_zh": "是否為乳攝合約醫院 UNIT_CONTRACT Char 1 T：是；Null：否",
-          "label_en": ""
+          "label_en": "whether a breast milk contract hospital UNIT_CONTRACT Char 1 T: yes; Null: no"
         },
         {
           "code": "8",
           "label_zh": "醫療機構權屬別 UNIT_ID_HOS Char 2 代碼參照醫療機 構現況檔。",
-          "label_en": ""
+          "label_en": "healthcare institution ownership UNIT_ID_HOS Char 2 code referenced from the healthcare institution current status file."
         },
         {
           "code": "9",
@@ -1214,7 +1214,7 @@
         {
           "code": "4",
           "label_zh": "乳房斷層攝影機 (Tomosynthesis, Tomo) (106/5/1 新增)",
-          "label_en": ""
+          "label_en": "mammotomography (Tomosynthesis, Tomo) (Added on 2017/5/1)"
         }
       ],
       "field_en": "camera model"
@@ -1240,7 +1240,7 @@
         {
           "code": "3",
           "label_zh": "Moderate dense →Heterogeneously dense (106/5/1修改)",
-          "label_en": ""
+          "label_en": "Moderate dense → Heterogeneously dense (revised on May 10, 2016)"
         },
         {
           "code": "4",
@@ -1250,7 +1250,7 @@
         {
           "code": "5",
           "label_zh": "Scattered fibroglandular density (105/5/1新增)",
-          "label_en": ""
+          "label_en": "Scattered fibroglandular density (105/5/1 new)"
         }
       ],
       "field_en": "breast composition"

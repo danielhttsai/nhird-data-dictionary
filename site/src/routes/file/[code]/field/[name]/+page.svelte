@@ -72,12 +72,20 @@
 
     {#if latest.codebook && latest.codebook.entries?.length}
       <section>
-        <h2 class="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+        <h2 class="text-sm font-bold text-slate-900 mb-1 flex items-center gap-2">
           Codebook — {latest.codebook.field_zh}
           <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">
             {latest.codebook.entries.length} entries
           </span>
         </h2>
+        {#if latest.codebook.source}
+          <p class="text-xs text-slate-500 mb-2">
+            來源 Source: {latest.codebook.source}
+            {#if latest.codebook.source_url}
+              · <a href={latest.codebook.source_url} target="_blank" rel="noreferrer" class="text-brand-700 hover:underline">下載原始表 ↗</a>
+            {/if}
+          </p>
+        {/if}
         <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="overflow-x-auto max-h-96 overflow-y-auto">
             <table class="tbl w-full text-left">
