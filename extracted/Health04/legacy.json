@@ -170,7 +170,7 @@
       "description_zh": "取至小數點下二位，第三位四捨五 入七位整數，二位小數右靠，小數 點不需表示。",
       "available_notes": [],
       "name_zh_en": "unit price",
-      "description_en": ""
+      "description_en": "Round off to the fourth decimal place, seventh digit rounded, two decimal places right-aligned, no decimal point needed."
     },
     {
       "seq": 11,
@@ -181,7 +181,7 @@
       "description_zh": "取至小數點下一位，第二位四捨五 入五位整數，一位小數右靠，小數 點不需表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "Round off to the second decimal place, third digit rounded, one decimal place right-aligned, no decimal point needed."
     },
     {
       "seq": 12,
@@ -192,7 +192,7 @@
       "description_zh": "八位整數，小數點後四捨五入，總 量乘單價，並加成計算至整數(點) 為止。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded up after the decimal point, calculated by multiplying total quantity with unit price and adding surcharge until whole number (point)."
     },
     {
       "seq": 13,
@@ -225,7 +225,7 @@
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Medical institution's original medical institution code prefix 2, explanation of ownership (HOS) code"
     },
     {
       "seq": 16,
@@ -422,7 +422,7 @@
         {
           "code": "E1",
           "label_zh": "支付制度試辦計畫（90/10增訂） 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Payment system pilot program (added in 90/10) revised on 2026-01-27"
         },
         {
           "code": "E2",
@@ -462,7 +462,7 @@
         {
           "code": "15",
           "label_zh": "牙周統合照護(配合99.01.12健保醫字第0990071960號公告新增)",
-          "label_en": ""
+          "label_en": "Periodontal integrated care (added with MOH announcement No. 0990071960 on Jan 12, 99)"
         },
         {
           "code": "16",
@@ -784,7 +784,7 @@
         {
           "code": "33068B",
           "label_zh": "有造影劑-頭部型 C：上腹部， I：腹部(含骨盆腔)(99.3修訂)，",
-          "label_en": ""
+          "label_en": "contrast-agent-for-head C: upper-abdomen, I: abdomen(including pelvic cavity)(99.3 revision)"
         },
         {
           "code": "33069B",
@@ -849,7 +849,7 @@
         {
           "code": "97813B",
           "label_zh": "全股關節置換術(雙側)(住院) 白內障手術 86007C 水晶體囊外(內)摘除術",
-          "label_en": ""
+          "label_en": "total hip replacement (both sides), inpatient cataract surgery, 86007C, extracapsular (intracapsular) extraction of lens"
         },
         {
           "code": "86008C",
@@ -1055,7 +1055,7 @@
         {
           "code": "AC",
           "label_zh": "飯前 ACxH 飯前x小時使用 ACxM 飯前x分鐘使用 服用時間",
-          "label_en": ""
+          "label_en": "pre-meal ACxH pre-meal x hours usage ACxM pre-meal x minutes usage time of administration"
         },
         {
           "code": "PC",
@@ -1065,7 +1065,7 @@
         {
           "code": "PRN",
           "label_zh": "需要時使用 PRN需要時使 需要時每x小時使用1次(x 用 QxHPRN",
-          "label_en": ""
+          "label_en": "as needed PRN as needed use every x hours (QxH) PRN"
         }
       ],
       "field_en": "drug utilization frequency (copayment rate)"
@@ -1302,7 +1302,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -1317,7 +1317,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -1377,7 +1377,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -1392,7 +1392,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -1507,12 +1507,12 @@
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "private western medical hospital 15 private western medical hospital 15 private western medical hospital 15 private western medical hospital"
         },
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital"
         },
         {
           "code": "18",
@@ -1532,7 +1532,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -1622,7 +1622,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -1707,7 +1707,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "city-owned clinics 22 city-owned clinics 22 city-owned clinics 22 city-owned clinics"
         },
         {
           "code": "23",
@@ -1737,7 +1737,7 @@
         {
           "code": "47",
           "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
           "code": "29",
@@ -1767,17 +1767,17 @@
         {
           "code": "35",
           "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "private western medical clinic 35 private western medical clinic 35 private western medical clinic 35 private western medical clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private dental clinic 37 Private dental clinic 37 Private dental clinic 37 Private dental clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic"
         },
         {
           "code": "40",
@@ -1802,27 +1802,27 @@
         {
           "code": "77",
           "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
           "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
           "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
-          "label_en": ""
+          "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
           "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
           "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",

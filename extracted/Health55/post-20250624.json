@@ -82,7 +82,7 @@
       "description_zh": "1：無法聯繫 2：出國 3：搬家 4：死亡 5：拒做 6：其他",
       "available_notes": [],
       "name_zh_en": "no confirmed diagnosis reason",
-      "description_en": ""
+      "description_en": "1: Unreachable; 2: Abroad; 3: Moved; 4: Deceased; 5: Refused; 6: Other"
     },
     {
       "seq": 6,
@@ -93,7 +93,7 @@
       "description_zh": "年4碼+月 2碼+日2碼 西元年YYYYMMDD 其他數值：不詳",
       "available_notes": [],
       "name_zh_en": "colonoscopy examination date",
-      "description_en": ""
+      "description_en": "year 4 digits + month 2 digits + day 2 digits in Western calendar YYYYMMDD; other values: unknown"
     },
     {
       "seq": 7,
@@ -143,7 +143,7 @@
       "description_zh": "0：正常 1：痔瘡 2：潰瘍性大腸炎 3：瘜肉 4：大腸癌 5、9：其他",
       "available_notes": [],
       "name_zh_en": "result of diagnosis",
-      "description_en": ""
+      "description_en": "0：normal 1：hemorrhoids 2：ulcerative colitis 3：polyps 4：colorectal cancer 5、9：other"
     },
     {
       "seq": 11,
@@ -176,7 +176,7 @@
       "description_zh": "0：正常 1：痔瘡；2：潰 瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
       "available_notes": [],
       "name_zh_en": "result of diagnosis",
-      "description_en": ""
+      "description_en": "0: normal 1: hemorrhoids; 2: ulcerative colitis; 3: polyp; 4: colorectal cancer; 5: other"
     },
     {
       "seq": 14,
@@ -270,8 +270,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "polyp removal pathological report indicates adenoma whether it is severe dysplasia",
+      "description_en": "1: Yes; 2: No; 3: Uncertain; Other values: Not specified since 2024"
     },
     {
       "seq": 21,

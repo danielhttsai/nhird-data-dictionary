@@ -729,7 +729,7 @@
         {
           "code": "2",
           "label_zh": "證件來源 PASSPORT Char 1 護照 1、M：男；2、F：",
-          "label_en": ""
+          "label_en": "Document source PASSPORT Char 1 Passport: 1, M: Male; 2: F:"
         },
         {
           "code": "3",
@@ -784,7 +784,7 @@
         {
           "code": "6",
           "label_zh": "Q_1 Char 1 病 病；2：乳癌；3： 其他癌症 家族史-與您有血緣的家",
-          "label_en": ""
+          "label_en": "Q_1 Char 1 Disease; 2：Breast cancer; 3： Other cancers Family history - with you having a blood relation"
         },
         {
           "code": "7",
@@ -854,12 +854,12 @@
         {
           "code": "20",
           "label_zh": "生育史-有無哺餵母乳 Q_4_BREAST Char 1 0：無；1：有",
-          "label_en": ""
+          "label_en": "History of pregnancy - whether breastfed Q_4_BREAST Char 1 0：no；1：yes"
         },
         {
           "code": "21",
           "label_zh": "生育史-第一胎生產年齡 Q_4_AGE Num 8 用藥史-是否服用荷爾蒙",
-          "label_en": ""
+          "label_en": "maternal history - age at first childbirth Q_4_AGE Num 8 drug history - whether taking hormone"
         },
         {
           "code": "22",
@@ -879,7 +879,7 @@
         {
           "code": "25",
           "label_zh": "用藥史-是否服用避孕藥 Q_5_M Char 1 0：否；1：是",
-          "label_en": ""
+          "label_en": "Medication history - Contraceptive use Q_5_M Char 1 0: No; 1: Yes"
         },
         {
           "code": "26",
@@ -914,7 +914,7 @@
         {
           "code": "32",
           "label_zh": "Q_6_4 Char 1 過-皆未做過 沒有勾選 其他-是否接受過乳房手",
-          "label_en": ""
+          "label_en": "Q_6_4 Char 1 过-皆未做过 没有勾选 其他-是否接受过乳房手"
         },
         {
           "code": "33",
@@ -924,7 +924,7 @@
         {
           "code": "34",
           "label_zh": "其他-乳房手術左側 Q_SURGERYLEFT Char 1 0：無；1：有",
-          "label_en": ""
+          "label_en": "Other-left breast surgery Q_SURGERYLEFT Char 1 0：無；1：有"
         },
         {
           "code": "35",
@@ -939,7 +939,7 @@
         {
           "code": "37",
           "label_zh": "乳攝醫院代碼 PH_HOSPITALID Char 20 辨別院所鍵值。 西元年",
-          "label_en": ""
+          "label_en": "Mammography Hospital Code PH_HOSPITALID Char 20 Institution Identifier. AD Year"
         },
         {
           "code": "38",
@@ -964,12 +964,12 @@
         {
           "code": "42",
           "label_zh": "與舊片比較 PH_COMPARE Char 1 F：否；T：是",
-          "label_en": ""
+          "label_en": "Comparison with old version PH_COMPARE Char 1 F: No; T: Yes"
         },
         {
           "code": "43",
           "label_zh": "無舊片的原因 PH_COMPARENO Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "Reason for no prior claim PH_COMPARENO Char 1 Detailed Code Description"
         },
         {
           "code": "44",
@@ -984,7 +984,7 @@
         {
           "code": "46",
           "label_zh": "性別 SICKID_S Char 1 9：不詳 0：身分證字號",
-          "label_en": ""
+          "label_en": "Gender SICKID_S Char 1 9：未详 0：身份证号"
         },
         {
           "code": "47",
@@ -999,12 +999,12 @@
         {
           "code": "OS",
           "label_zh": "機構現況檔。 醫療機構縣市鄉鎮市區 PH_HOSPITALID_C 代碼參照死因",
-          "label_en": ""
+          "label_en": "Institutional status file. Medical institution county city town district code referenced from cause of death PH_HOSPITALID_C"
         },
         {
           "code": "49",
           "label_zh": "Char 4 代碼 ITY 統計檔。 乳房攝影資料清 理檔新增欄位經",
-          "label_en": ""
+          "label_en": "Code ITY Statistical File. Additional fields for mammography data cleaning added."
         },
         {
           "code": "50",
@@ -1024,7 +1024,7 @@
         {
           "code": "1",
           "label_zh": "單位代碼 UNIT_ID Char 20 經加密處理，為 辨別院所鍵值。",
-          "label_en": ""
+          "label_en": "unit_code_UNIT_ID_Encrypted_20_Characters_Distinguishing_Hospital_Key_Value"
         },
         {
           "code": "2",
@@ -1044,12 +1044,12 @@
         {
           "code": "5",
           "label_zh": "是否限制乳攝車 UNIT_CAR Char 1 0：否；1：是",
-          "label_en": ""
+          "label_en": "Is lactation vehicle usage restricted UNIT_CAR Char 1 0: No; 1: Yes"
         },
         {
           "code": "6",
           "label_zh": "報表用歸屬縣市 REPORT_CITY Char 1 T：是；Null：否",
-          "label_en": ""
+          "label_en": "reporting area REPORT_CITY Char 1 T：yes；Null：no"
         },
         {
           "code": "7",

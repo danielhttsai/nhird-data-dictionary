@@ -237,7 +237,7 @@
       "description_zh": "A：正常 B：異常，但無空洞 C：異常，且有空洞 D：異常，無關結核病",
       "available_notes": [],
       "name_zh_en": "X-ray diagnosis result",
-      "description_en": ""
+      "description_en": "A: Normal B: Abnormal but no cavity C: Abnormal and with cavity D: Abnormal unrelated to tuberculosis"
     },
     {
       "seq": 21,
@@ -347,7 +347,7 @@
       "description_zh": "1：X光惡化 2：查痰陽性 3：病理證據 4：臨床診斷 5：諮詢小組審議",
       "available_notes": [],
       "name_zh_en": "reopening reason",
-      "description_en": ""
+      "description_en": "1: X-ray deterioration 2: sputum test positive 3: pathological evidence 4: clinical diagnosis 5: consultation group review"
     },
     {
       "seq": 31,
@@ -886,7 +886,7 @@
       "description_zh": "1：未婚 2：已婚 3：喪偶 4：離婚 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "marital status",
-      "description_en": ""
+      "description_en": "1: unmarried 2: married 3: widow 4: divorced codes outside this table should be ignored."
     },
     {
       "seq": 80,
@@ -908,7 +908,7 @@
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 1",
-      "description_en": ""
+      "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
     },
     {
       "seq": 82,
@@ -919,7 +919,7 @@
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 2",
-      "description_en": ""
+      "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
     },
     {
       "seq": 83,
@@ -930,7 +930,7 @@
       "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 3",
-      "description_en": ""
+      "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
     },
     {
       "seq": 84,
@@ -985,7 +985,7 @@
       "description_zh": "L：已驗未出 N：未確診 P：確診 ( 肺內 ) Y：確診 ( 肺外 )",
       "available_notes": [],
       "name_zh_en": "pathology report result",
-      "description_en": ""
+      "description_en": "L：已驗未出 N：未確診 P：確診 (肺內) Y：確診 (肺外)"
     },
     {
       "seq": 89,
@@ -1064,7 +1064,7 @@
         }
       ],
       "name_zh_en": "date of discharge from this episode",
-      "description_en": ""
+      "description_en": "starting from 2014, reporting generation, provides closure date for the course of illness YYYY/MM/DD"
     },
     {
       "seq": 94,
@@ -1086,7 +1086,7 @@
       "description_zh": "1：已交付(甲類) 2：已交付(乙類) X：拒收(甲類) Y：拒收(乙類)",
       "available_notes": [],
       "name_zh_en": "rejection of yellow card note",
-      "description_en": ""
+      "description_en": "1：paid (Class A) 2：paid (Class B) X：rejected (Class A) Y：rejected (Class B)"
     },
     {
       "seq": 96,
@@ -1169,6 +1169,6 @@
   "name_zh_from_listing": "Health73_結核病資料庫",
   "data_description_en": "",
   "notes_en": "",
-  "primary_keys_en": "",
+  "primary_keys_en": "key values for personal information matching: ID and OVEDR_DATE.",
   "name_zh_en": "TB database"
 }

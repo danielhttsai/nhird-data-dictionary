@@ -98,7 +98,7 @@
       "description_zh": "000：應部分負擔 詳見欄位部分負擔代號 （PART_CODE）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "000: Partial burden see field partial burden code (PART_CODE) explanation."
     },
     {
       "seq": 8,
@@ -109,7 +109,7 @@
       "description_zh": "經加密處理。身分證字號或外籍居 留證號碼(如無居留證號碼為護照 號碼)。",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 9,
@@ -137,7 +137,7 @@
         }
       ],
       "name_zh_en": "car accident",
-      "description_en": ""
+      "description_en": "Y：汽车摩托车交通事故 N：非汽车摩托车交通事故或原因不明。 注:108年起无"
     },
     {
       "seq": 11,
@@ -386,7 +386,7 @@
         }
       ],
       "name_zh_en": "first subsequent procedure",
-      "description_en": ""
+      "description_en": "Note: 1. According to the MOHCS, medical institutions have been required to report using ICD-10-PCS since 2016."
     },
     {
       "seq": 29,
@@ -910,7 +910,7 @@
       "description_zh": "以就醫日期及新生兒生日計算 欄位PART_NO(部分負擔代號)為",
       "available_notes": [],
       "name_zh_en": "days of newborns attached to hospitalization",
-      "description_en": ""
+      "description_en": "计算就医日期及新生儿生日 括号内PART_NO(自付费用代码)为"
     },
     {
       "seq": 74,
@@ -976,7 +976,7 @@
       "description_zh": "醫療機構之原醫療機構代碼前2 碼，詳見欄位權屬別（HOS）說明。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Healthcare institution's original healthcare institution code first 2 digits, detailed field ownership category (HOS) description."
     },
     {
       "seq": 80,
@@ -1148,7 +1148,7 @@
         {
           "code": "I",
           "label_zh": "代辦法定傳染病(SARS於署市立醫院居家 隔離) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Handling statutory infectious diseases (SARS home isolation at municipal hospitals) revised on January 27, 2026"
         },
         {
           "code": "J",
@@ -1168,7 +1168,7 @@
         {
           "code": "U",
           "label_zh": "非天然災害之重大意外事故 110/4/1起",
-          "label_en": ""
+          "label_en": "major accidental injury not due to natural disaster starting 2011/4/1"
         },
         {
           "code": "W",
@@ -1178,7 +1178,7 @@
         {
           "code": "X",
           "label_zh": "法定傳染病通報且隔離之費用拆疾管署及 110/1/1起 健保支付案件",
-          "label_en": ""
+          "label_en": "notifiable infectious disease reporting and isolation costs split by CDC and starting from 2021/1/1 insured cases"
         },
         {
           "code": "Y",
@@ -1188,7 +1188,7 @@
         {
           "code": "Z",
           "label_zh": "高雄氣爆事件 103.07.31增訂 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Kaohsiung gas explosion event 103.07.31 revised 2026-01-27"
         }
       ],
       "field_en": "benefit category"
@@ -1244,7 +1244,7 @@
         {
           "code": "E001",
           "label_zh": "控卡名單已簽切結書 醫事機構赴偏遠地區因無電話撥接上網設 備之居家醫療照護",
-          "label_en": ""
+          "label_en": "cardholder list signed settlement agreement medical institutions providing home healthcare to remote areas due to lack of phone access"
         },
         {
           "code": "Z000",
@@ -1351,7 +1351,7 @@
         {
           "code": "C",
           "label_zh": "未實施之Tw-DRGs (TwDRGs 碼應為 Tw-DRG之代碼）案件",
-          "label_en": ""
+          "label_en": "unimplemented Tw-DRGs (Tw-DRG code should be Tw-DRG's code) cases"
         },
         {
           "code": "D",
@@ -1386,7 +1386,7 @@
         {
           "code": "K",
           "label_zh": "已於第一階段實施之部分高危險生產疾病（費用年月103.07增訂）",
-          "label_en": ""
+          "label_en": "partially high-risk pregnancy diseases implemented in the first phase (added fees from July 2013)"
         },
         {
           "code": "L",
@@ -1422,7 +1422,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -1437,7 +1437,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -1497,7 +1497,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -1512,7 +1512,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -1627,12 +1627,12 @@
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "private western medical hospital 15 private western medical hospital 15 private western medical hospital 15 private western medical hospital"
         },
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital"
         },
         {
           "code": "18",
@@ -1652,7 +1652,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -1742,7 +1742,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -1827,7 +1827,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "city-owned clinics 22 city-owned clinics 22 city-owned clinics 22 city-owned clinics"
         },
         {
           "code": "23",
@@ -1862,7 +1862,7 @@
         {
           "code": "47",
           "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
           "code": "29",
@@ -1892,17 +1892,17 @@
         {
           "code": "35",
           "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "private western medical clinic 35 private western medical clinic 35 private western medical clinic 35 private western medical clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private dental clinic 37 Private dental clinic 37 Private dental clinic 37 Private dental clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic"
         },
         {
           "code": "40",
@@ -1927,27 +1927,27 @@
         {
           "code": "77",
           "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
           "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
           "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
-          "label_en": ""
+          "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
           "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
           "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",

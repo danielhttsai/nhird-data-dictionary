@@ -71,7 +71,7 @@
       "description_zh": "詳案件分類（CASE_TYPE）譯碼說明。",
       "available_notes": [],
       "name_zh_en": "Case Category",
-      "description_en": ""
+      "description_en": "Detailed case classification (CASE_TYPE) code explanation."
     },
     {
       "seq": 5,
@@ -110,7 +110,7 @@
       "description_zh": "醫療機構所在鄉鎮 代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "county city township district code of medical institution",
-      "description_en": ""
+      "description_en": "medical institution town code referenced from current medical institution file."
     },
     {
       "seq": 8,
@@ -121,7 +121,7 @@
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼， 詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Original hospital institution code's first two digits, detailed authority别(HOS) explanation."
     },
     {
       "seq": 9,
@@ -138,7 +138,7 @@
         }
       ],
       "name_zh_en": "medical order sequence number",
-      "description_en": ""
+      "description_en": "Sequence number for claims by the same patient. The field format in 106 is text type with a length of 10 digits."
     },
     {
       "seq": 10,
@@ -221,7 +221,7 @@
         }
       ],
       "name_zh_en": "dosage of drug",
-      "description_en": ""
+      "description_en": "根据全民健康保险药品使用标准码的原则输入。 注：100年起新增。"
     },
     {
       "seq": 17,
@@ -357,7 +357,7 @@
         {
           "code": "5",
           "label_zh": "A：22-1Tw-DRGs 碼必填。 B：22-2Tw-DRGs 支付型態必填。",
-          "label_en": ""
+          "label_en": "A: 22-1Tw-DRGs Code Mandatory. B: 22-2Tw-DRGs Payment Type Mandatory."
         },
         {
           "code": "6",
@@ -418,7 +418,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -433,7 +433,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -493,7 +493,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -508,7 +508,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -623,12 +623,12 @@
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "private western medical hospital 15 private western medical hospital 15 private western medical hospital 15 private western medical hospital"
         },
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital"
         },
         {
           "code": "18",
@@ -648,7 +648,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -738,7 +738,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -823,7 +823,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "city-owned clinics 22 city-owned clinics 22 city-owned clinics 22 city-owned clinics"
         },
         {
           "code": "23",
@@ -858,7 +858,7 @@
         {
           "code": "47",
           "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
           "code": "29",
@@ -888,17 +888,17 @@
         {
           "code": "35",
           "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "private western medical clinic 35 private western medical clinic 35 private western medical clinic 35 private western medical clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private dental clinic 37 Private dental clinic 37 Private dental clinic 37 Private dental clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic"
         },
         {
           "code": "40",
@@ -923,27 +923,27 @@
         {
           "code": "77",
           "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
           "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
           "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
-          "label_en": ""
+          "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
           "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
           "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",
@@ -1049,7 +1049,7 @@
         {
           "code": "ASORDER",
           "label_zh": "依照醫師指示使用 每 x 小時使用一次 每 x 分鐘使用一次 每日常規 使用頻率",
-          "label_en": ""
+          "label_en": "as directed by physician, every x hours, every x minutes, daily routine, usage frequency"
         },
         {
           "code": "QD",
@@ -1064,7 +1064,7 @@
         {
           "code": "QDPM",
           "label_zh": "每日一次下午使用 2026年01月27日修訂 藥品使用 代碼 名稱 備註 頻率",
-          "label_en": ""
+          "label_en": "Once daily in the afternoon Revised on January 27, 2026 Medication usage Code Name Notes Frequency"
         },
         {
           "code": "QDHS",
@@ -1099,7 +1099,7 @@
         {
           "code": "AC",
           "label_zh": "飯前 ACxH 飯前 x 小時使用 ACxM 飯前 x 分鐘使用 服用時間",
-          "label_en": ""
+          "label_en": "Before meal ACxH Before meal x hours use ACxM Before meal x minutes use Time of administration"
         },
         {
           "code": "PC",

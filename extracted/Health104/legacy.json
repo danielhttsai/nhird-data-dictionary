@@ -77,7 +77,7 @@
       "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌",
       "available_notes": [],
       "name_zh_en": "type and status code",
-      "description_en": ""
+      "description_en": "Histopathology: ICD-O coded with the fifth digit as 2 for in situ carcinoma and 3 for invasive carcinoma."
     },
     {
       "seq": 6,
@@ -131,7 +131,7 @@
         }
       ],
       "name_zh_en": "household registration code",
-      "description_en": ""
+      "description_en": "Translation of resident code (RESIDCD) starting from 2001 for new five metropolitan areas"
     },
     {
       "seq": 10,
@@ -269,7 +269,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": ""
+      "description_en": "ICD-10 codes for causes of death after 1997 (blank if no cause of death data)"
     },
     {
       "seq": 20,
@@ -317,7 +317,7 @@
       "description_zh": "各癌症類別(newca2)內的順 序，單一癌症者，此欄為 0； 多發者為順序。",
       "available_notes": [],
       "name_zh_en": "diagnosis_order_within_cancer_category",
-      "description_en": ""
+      "description_en": "sequence within each cancer category (newca2) - 0 for single cancer, sequence number for multiple cancers."
     },
     {
       "seq": 24,
@@ -341,7 +341,7 @@
       "description_zh": "癌症類別(newca2)之間的順 序，單一癌症者此欄為0；多 發者為順序。",
       "available_notes": [],
       "name_zh_en": "diagnostic sequence for cancer category",
-      "description_en": ""
+      "description_en": "cancer category newca2 sequence, 0 for single cancer, sequential number for multiple occurrences"
     },
     {
       "seq": 26,
@@ -364,7 +364,7 @@
       "source": "本檔自訂",
       "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether it is a cause-specific survival event",
       "description_en": ""
     },
     {
@@ -448,7 +448,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is Acute Myocardial Infraction (AMI)",
       "description_en": ""
     },
     {
@@ -460,7 +460,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "History of Old Myocardial Infraction (Old MI)",
       "description_en": ""
     },
     {
@@ -472,7 +472,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is congestive heart failure (CHF)",
       "description_en": ""
     },
     {
@@ -484,7 +484,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is Peripheral vascular disease (PVD)",
       "description_en": ""
     },
     {
@@ -496,7 +496,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "has cerebro-vascular disease (CVD)",
       "description_en": ""
     },
     {
@@ -568,7 +568,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is chronic renal failure (renal",
       "description_en": ""
     },
     {
@@ -604,7 +604,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether there is ulcer (peptic ulcer disease)",
       "description_en": ""
     },
     {
@@ -652,7 +652,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether there is Hypertension, complicated (HT C)",
       "description_en": ""
     },
     {
@@ -665,7 +665,7 @@
       "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (九)B 型肝炎口服抗病毒藥 物。",
       "available_notes": [],
       "name_zh_en": "ever used B型肝炎oral antiviral drugs",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; drug list detailed field (variable) translation (九) B-type hepatitis oral antiviral drugs."
     },
     {
       "seq": 53,
@@ -677,7 +677,7 @@
       "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十)C 型肝炎口服抗病毒藥 物。",
       "available_notes": [],
       "name_zh_en": "ever used C型肝炎oral antiviral drugs",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; drug list detailed field (variable) translation (十) C-type hepatitis oral antiviral drugs."
     },
     {
       "seq": 54,
@@ -689,7 +689,7 @@
       "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十一)干擾素。",
       "available_notes": [],
       "name_zh_en": "ever used interferon",
-      "description_en": ""
+      "description_en": "0: no; 1: yes; drug list detailed field (variable) coding (eleven) interferon."
     },
     {
       "seq": 55,

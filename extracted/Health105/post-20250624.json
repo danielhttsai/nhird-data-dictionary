@@ -515,7 +515,7 @@
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Occupational exposure to heavy metals, coal, asphalt, etc., such as smelting plants, metal manufacturing industries, welding, mining, etc.",
       "description_en": "0:未勾選；1:勾選"
     },
     {
@@ -604,7 +604,7 @@
       "description_zh": "單選 1:Good 2:Acceptable 3:Not Acceptable",
       "available_notes": [],
       "name_zh_en": "LDCT image quality",
-      "description_en": ""
+      "description_en": "Single choice: Good 1, Acceptable 2, Not Acceptable 3"
     },
     {
       "seq": 54,
@@ -670,7 +670,7 @@
       "description_zh": "Significant=4 為此欄位為 1；其餘 0：無勾選；",
       "available_notes": [],
       "name_zh_en": "significant pulmonary nodules - other is 01: selected",
-      "description_en": ""
+      "description_en": "Significant=4 indicates selection in this field; otherwise, 0: Not selected"
     },
     {
       "seq": 61,
@@ -802,7 +802,7 @@
       "description_zh": "0:無勾選； 1:勾選 Tree-in-bud pattern(樹芽徵)",
       "available_notes": [],
       "name_zh_en": "other lung findings -",
-      "description_en": ""
+      "description_en": "0: not selected； 1: selected Tree-in-bud pattern(樹芽徵)"
     },
     {
       "seq": 73,
@@ -813,7 +813,7 @@
       "description_zh": "0:無勾選； 1:勾選 Centrilobular Nodules(中央小葉",
       "available_notes": [],
       "name_zh_en": "Other Pulmonary Findings - Nodules)",
-      "description_en": ""
+      "description_en": "0:未選；1:選 Centrilobular Nodules(中央小葉)"
     },
     {
       "seq": 74,
@@ -1010,7 +1010,7 @@
       "length": 1,
       "description_zh": "單選 1：需之前影像對照。或攝影品質 不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "evaluate_report_result_check_3: 6 months later check follow-up_check_4: 3 months later check follow-up_check_5: need to perform confirmation procedure",
       "description_en": ""
     }
   ],
@@ -1032,7 +1032,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health105_癌症篩檢--肺癌篩檢檔(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. Data years are 2022-2024.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "lung_cancer_screening_file"

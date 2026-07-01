@@ -99,7 +99,7 @@
       "description_zh": "詳見欄位原處方醫療機構之案件 類別（R_CASE_TYPE）譯碼說 明",
       "available_notes": [],
       "name_zh_en": "case category at original prescribing medical institution",
-      "description_en": ""
+      "description_en": "See explanation for case type at original prescribing medical institution (R_CASE_TYPE)."
     },
     {
       "seq": 7,
@@ -209,7 +209,7 @@
       "description_zh": "為合計點數(T_DOT)減部分負擔 點數(PART_DOT)之點數。",
       "available_notes": [],
       "name_zh_en": "application points",
-      "description_en": ""
+      "description_en": "The points for the total point score (T_DOT) minus the copay points (PART_DOT)."
     },
     {
       "seq": 16,
@@ -271,7 +271,7 @@
       "description_zh": "1. 經加密處理，身分證字號或外 籍居留證號碼(如無居留證號碼 為護照號碼)。",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "1. Encrypted, national ID number or foreign resident permit number (if no resident permit number, use passport number)."
     },
     {
       "seq": 20,
@@ -304,7 +304,7 @@
       "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留證 號。",
       "available_notes": [],
       "name_zh_en": "physician ID number",
-      "description_en": ""
+      "description_en": "1. Encrypted, physician or original prescriber's ID number or foreign resident permit number."
     },
     {
       "seq": 23,
@@ -381,7 +381,7 @@
       "description_zh": "醫療機構(藥局)所在鄉鎮 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
       "available_notes": [],
       "name_zh_en": "dispensing medical institution county city town district code",
-      "description_en": ""
+      "description_en": "Medical institution (pharmacy) township based on medical institution records, unchanged due to county city upgrades or mergers."
     },
     {
       "seq": 30,
@@ -392,7 +392,7 @@
       "description_zh": "醫療機構(藥局)之原醫療機構代 碼前2碼，詳權屬別（HOS）譯 碼說明。",
       "available_notes": [],
       "name_zh_en": "pharmacy ownership",
-      "description_en": ""
+      "description_en": "Original medical institution code for pharmacies in the first 2 digits, see ownership explanation (HOS)."
     },
     {
       "seq": 31,
@@ -414,7 +414,7 @@
       "description_zh": "醫療機構(醫院)所在鄉鎮 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
       "available_notes": [],
       "name_zh_en": "original prescription medical institution county city township district code",
-      "description_en": ""
+      "description_en": "Medical institution (hospital) township based on medical institution records, unchanged due to county city upgrades or mergers."
     },
     {
       "seq": 33,
@@ -425,7 +425,7 @@
       "description_zh": "醫療機構(醫院)之原醫療機構代 碼前2碼，詳權屬別（HOS）譯 碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership of prescribing medical institution",
-      "description_en": ""
+      "description_en": "Original medical institution code for hospitals in the first 2 digits, see ownership explanation (HOS)."
     },
     {
       "seq": 34,
@@ -729,7 +729,7 @@
         {
           "code": "E1",
           "label_zh": "醫療給付改善方案及試辦計畫(90.10 增訂) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Medical Payment Improvement Plan and Pilot Program (90.10 Amendment) Revised on January 27, 2026"
         },
         {
           "code": "E2",
@@ -739,7 +739,7 @@
         {
           "code": "E3",
           "label_zh": "愛滋病確診服藥滿2年後案件之慢性病連續處方再調劑(106.2.4)",
-          "label_en": ""
+          "label_en": "cases confirmed with AIDS on antiretroviral therapy for more than 2 years (02/04/2016) chronic disease continuous prescription refill"
         },
         {
           "code": "HN",
@@ -769,12 +769,12 @@
         {
           "code": "14",
           "label_zh": "牙醫門診總額醫療資源不足地區改善方案 (原名：牙醫師至無牙醫鄉服務獎勵措施)",
-          "label_en": ""
+          "label_en": "Dental outpatient total cost improvement plan for resource-scarce areas (originally named: Dentist service reward measures to towns without dentists)"
         },
         {
           "code": "15",
           "label_zh": "牙周統合照護(配合99.01.12健保醫字第0990071960號公告新增)",
-          "label_en": ""
+          "label_en": "Periodontal integrated care (added with MOH announcement No. 0990071960 on Jan 12, 99)"
         },
         {
           "code": "16",
@@ -784,7 +784,7 @@
         {
           "code": "17",
           "label_zh": "全民健康保險牙醫門診總額牙醫急診醫療不足區獎勵試辦計畫 (109/6/1增訂)",
-          "label_en": ""
+          "label_en": "National Health Insurance Dental Outpatient Total Amount Dental Emergency Medical Insufficiency Area Incentive Pilot Plan (added on 109/6/1)"
         },
         {
           "code": "19",
@@ -859,7 +859,7 @@
         {
           "code": "28",
           "label_zh": "中醫慢性病連續處方調劑(88.09增訂) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "traditional Chinese chronic disease continuous prescription dispensing (added in 1988.09) revised on 2026.01.27"
         },
         {
           "code": "29",
@@ -904,7 +904,7 @@
         {
           "code": "E1",
           "label_zh": "支付制度試辦計畫 (110/12/13起) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "payment system pilot program (since 12/13/2026) revised on 01/27/2026"
         }
       ],
       "field_en": "case category of the original prescribing medical institution"
@@ -1275,7 +1275,7 @@
         {
           "code": "IC82",
           "label_zh": "弱勢兒童臼齒窩溝封劑服務補助方案 非山地鄉， 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "subsidy_scheme_for_caries_sealants_in_weak_children_non-mountainous_areas_revised_on_January_27_2026"
         },
         {
           "code": "IC83",
@@ -1335,37 +1335,37 @@
         {
           "code": "IC8I",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起 牙位16",
-          "label_en": ""
+          "label_en": "first filling of primary molars in elementary school children 2013-09-01 tooth position 16"
         },
         {
           "code": "IC8J",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起 牙位26",
-          "label_en": ""
+          "label_en": "first filling of primary molars for elementary school children 2014-09-01 tooth position 26"
         },
         {
           "code": "IC8K",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起 牙位36",
-          "label_en": ""
+          "label_en": "first filling of primary molars for elementary school children starting from 2014-09-01 tooth position 36"
         },
         {
           "code": "IC8L",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起 牙位46",
-          "label_en": ""
+          "label_en": "first filling of primary molars in elementary school children 2013-09-01 tooth position 46"
         },
         {
           "code": "IC8M",
           "label_zh": "國小學童臼齒窩溝封填第二次評估檢查施作 103/9/1 起 牙位16",
-          "label_en": ""
+          "label_en": "second assessment for second dental sealant procedure on primary molars in elementary school students starting from 2014-09-01 tooth position 16"
         },
         {
           "code": "IC8N",
           "label_zh": "國小學童臼齒窩溝封填第二次評估檢查施作 103/9/1 起 牙位26",
-          "label_en": ""
+          "label_en": "second assessment for second dental sealings for elementary school children's first molars starting from 2014-09-01 tooth position 26"
         },
         {
           "code": "IC8O",
           "label_zh": "國小學童臼齒窩溝封填第二次評估檢查施作 103/9/1 起 牙位36",
-          "label_en": ""
+          "label_en": "first permanent molar sealant assessment for elementary school students from 2014/9/1 牙位36"
         },
         {
           "code": "IC8P",
@@ -1400,12 +1400,12 @@
         {
           "code": "IC37",
           "label_zh": "30歲以上每年乙次 婦女子宮頸抹片檢查-30歲以上每年乙次(設站 篩檢)",
-          "label_en": ""
+          "label_en": "annual once for women's cervical smear check-up starting at age 30-annual once for women's cervical smear check-up starting at age 30(set up screening station)"
         },
         {
           "code": "00",
           "label_zh": "IC00 子宮頸抹片檢查採分開申報者，檢驗單位申報 孕婦產前檢查服務",
-          "label_en": ""
+          "label_en": "IC00 Cervical smear test billed separately, laboratory reporting for prenatal checkup service for pregnant women"
         },
         {
           "code": "41",
@@ -1515,7 +1515,7 @@
         {
           "code": "98",
           "label_zh": "IC98 未加保之移植捐贈 HMO巡迴醫療、921震災就醫，符合資源共",
-          "label_en": ""
+          "label_en": "IC98 Uninsured Transplant Donor HMO Mobile Doctor, 921 Earthquake Medical Care,符合资源共"
         },
         {
           "code": "99",
@@ -1535,17 +1535,17 @@
         {
           "code": "C003",
           "label_zh": "弱勢民眾安心就醫方案-懷孕婦女例外就醫 101/3/5-106/10/5",
-          "label_en": ""
+          "label_en": "low-income pregnant women exception for medical care from 2012/03/05 to 2017/10/05"
         },
         {
           "code": "CV19",
           "label_zh": "COVID-19遠距緊急醫療就醫諮詢 110/2/4-110/12/31",
-          "label_en": ""
+          "label_en": "COVID-19 remote emergency medical consultation from February 4, 2021 to December 31, 2021"
         },
         {
           "code": "I000",
           "label_zh": "虛擬健保卡就醫模式試辦方案 108/10/8-109/2/29",
-          "label_en": ""
+          "label_en": "Virtual Health Insurance Card Medical Service Pilot Program 108/10/08-109/02/29"
         },
         {
           "code": "IC20",
@@ -1555,7 +1555,7 @@
         {
           "code": "ICB6",
           "label_zh": "誤為委任(或行政協助)醫療項目申報案件改健 99/6/18起 保支付",
-          "label_en": ""
+          "label_en": "Misreporting of delegated (or administrative assistance) medical items claims cases changed to健99/6/18 onwards"
         },
         {
           "code": "ICC1",
@@ -1660,7 +1660,7 @@
         {
           "code": "HVIT",
           "label_zh": "COVID-19 疫情期間通訊診療無法取得健保卡之 異常就醫序號",
-          "label_en": ""
+          "label_en": "during the COVID-19 pandemic, abnormal medical visit number when telemedicine cannot obtain health insurance card"
         },
         {
           "code": "Z000",
@@ -1670,7 +1670,7 @@
         {
           "code": "G000",
           "label_zh": "新特約60 日內如VPN 已經開通，可正常過卡 後，不可再使用",
-          "label_en": ""
+          "label_en": "New designated provider within 60 days if VPN already activated, can normally pass card 后，不可再使用"
         },
         {
           "code": "H000",
@@ -1680,7 +1680,7 @@
         {
           "code": "J000",
           "label_zh": "急診留觀或急診中，於執行醫療服務重要醫令時， 因故無法取取得健保卡。",
-          "label_en": ""
+          "label_en": "outpatient/ED observation or during an emergency, when medical orders are executed due to inability to obtain the insurance card."
         },
         {
           "code": "MSPT",
@@ -1726,7 +1726,7 @@
         {
           "code": "8",
           "label_zh": "天然災害 目前暫停使用 89.04增訂，89.06起申報類別為「2」補報",
-          "label_en": ""
+          "label_en": "natural_disaster Currently暂停使用_89.04增订，自89.06起申报类别为「2」补报"
         },
         {
           "code": "9",
@@ -1761,7 +1761,7 @@
         {
           "code": "H",
           "label_zh": "代辦法定傳染病(SARS) 代辦法定傳染病(SARS 於署市立醫院居家 隔離)",
-          "label_en": ""
+          "label_en": "outpatient/legal notifiable infectious disease (SARS) outpatient/legal notifiable infectious disease (SARS home isolation at municipal hospital)"
         },
         {
           "code": "J",
@@ -1802,7 +1802,7 @@
         {
           "code": "003",
           "label_zh": "003 003 （第五類之保險對象）（代辦） 榮民、榮民遺眷之家戶代表",
-          "label_en": ""
+          "label_en": "003 003 (Fifth category insured对象) (agent) Veterans, veterans' dependents' household representative"
         },
         {
           "code": "004",
@@ -1857,7 +1857,7 @@
         {
           "code": "A",
           "label_zh": "醫學中心 E 醫學中心 N 醫學中心之中醫",
-          "label_en": ""
+          "label_en": "Medical center E medical center N traditional Chinese medicine in medical centers"
         },
         {
           "code": "B",
@@ -1917,7 +1917,7 @@
         {
           "code": "K",
           "label_zh": "療程案件 第三碼（身分別） 0或1 1(轉診之回診) 或2 2(一般身分)",
-          "label_en": ""
+          "label_en": "course case third code (patient type) 0 or 1 1(reconsultation after referral) or 2 2(general identity)"
         },
         {
           "code": "3",
@@ -2002,7 +2002,7 @@
         {
           "code": "360",
           "label_zh": "94/7/15 醫學中心；一般門診；持殘障手冊或參加試辦計畫補助者",
-          "label_en": ""
+          "label_en": "94/7/15 medical center; general outpatient clinic; those holding disability certificates or participating in pilot programs"
         },
         {
           "code": "A13",
@@ -2037,7 +2037,7 @@
         {
           "code": "A24",
           "label_zh": "醫學中心；一般門診加藥品或復健 醫學中心；一般門診加藥品或復健；",
-          "label_en": ""
+          "label_en": "Academic medical center; general outpatient with medication or rehabilitation"
         },
         {
           "code": "A27",
@@ -2047,7 +2047,7 @@
         {
           "code": "A2P",
           "label_zh": "醫學中心；一般門診加藥品或復健；中低收入註記(112/3新增)",
-          "label_en": ""
+          "label_en": "medical center; general outpatient drug or rehabilitation; low-income annotation (added in Mar 112)"
         },
         {
           "code": "A30",
@@ -2067,7 +2067,7 @@
         {
           "code": "A40",
           "label_zh": "醫學中心；住院出院或門診手術7日內回診、藥品或復健 ＊ 94/7/15",
-          "label_en": ""
+          "label_en": "medical center; inpatient discharge or outpatient/surgical follow-up within 7 days, medication or rehabilitation * 94/7/15"
         },
         {
           "code": "A43",
@@ -2107,7 +2107,7 @@
         {
           "code": "B12",
           "label_zh": "區域醫院；一般門診 區域醫院；一般門診；持殘障手冊或參加試辦計畫補助者",
-          "label_en": ""
+          "label_en": "Regional hospital; General outpatient Regional hospital; General outpatient; Hold disability certificate or participate in pilot subsidy program"
         },
         {
           "code": "B13",
@@ -2127,7 +2127,7 @@
         {
           "code": "B1P",
           "label_zh": "區域醫院；一般門診 僅持 藥 單 中低收入註記(112/3 新增)",
-          "label_en": ""
+          "label_en": "Regional hospital; general outpatient clinic only drug claims form low-income annotation (added in March 2025)"
         },
         {
           "code": "B20",
@@ -2152,7 +2152,7 @@
         {
           "code": "B2P",
           "label_zh": "區域醫院；一般門診加藥品或復健；中低收入註記(112/3新增)",
-          "label_en": ""
+          "label_en": "Regional hospital; general outpatient plus medication or rehabilitation; low-income annotation (added in March 2024)"
         },
         {
           "code": "B30",
@@ -2197,7 +2197,7 @@
         {
           "code": "C12",
           "label_zh": "地區醫院；一般門診 地區醫院；一般門診；持殘障手冊或參加試辦計畫補助者",
-          "label_en": ""
+          "label_en": "District hospital; General outpatient District hospital; General outpatient; Hold disability certificate or participate in pilot subsidy program"
         },
         {
           "code": "C13",
@@ -2227,7 +2227,7 @@
         {
           "code": "C23",
           "label_zh": "地區醫院；一般門診加藥品或復健；持殘障手冊 ＊ 94/7/15",
-          "label_en": ""
+          "label_en": "Regional hospital; general outpatient with medication or rehabilitation;持有残疾手册 * 94/7/15"
         },
         {
           "code": "C24",
@@ -2332,7 +2332,7 @@
         {
           "code": "E20",
           "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止",
-          "label_en": ""
+          "label_en": "Medical center; high-risk * stopped on 1/1/93"
         },
         {
           "code": "E23",
@@ -2432,7 +2432,7 @@
         {
           "code": "H31",
           "label_zh": "106/4/15 個月內未逾四次之回診 (轉入之院所適用 ) 中醫",
-          "label_en": ""
+          "label_en": "106/4/15 within a month no more than four follow-up visits (applicable to transferred hospitals) Traditional Chinese medicine"
         },
         {
           "code": "N10",
@@ -2853,7 +2853,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 93 性腺低能症（Hypogonadism） B",
-          "label_en": ""
+          "label_en": "Pulmonary fibrosis F 93 Hypogonadism (性腺低能症) B"
         },
         {
           "code": "60",
@@ -3068,7 +3068,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 院所內治療重度以上精神疾病者牙 牙醫 醫醫療服務(98.1增訂)",
-          "label_en": ""
+          "label_en": "peritoneal dialysis inpatient treatment of severe mental disorders dental medical service (added in 98.1)"
         },
         {
           "code": "P1",
@@ -3078,7 +3078,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 療服務(98.1增訂) 複合樹脂 醫療團支援重度以上精神疾病者牙",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental service (98.1 Amendment) Composite resin Support for patients with severe or above mental illness"
         },
         {
           "code": "P3",
@@ -3113,7 +3113,7 @@
         {
           "code": "F4",
           "label_zh": "FM 服務 醫療服務 重度以上身心障礙者牙醫 醫療團服務輕度非精神疾病者牙醫",
-          "label_en": ""
+          "label_en": "FM 服务 医疗服务 重度及以上身心障碍者牙医 医疗团队服务轻度非精神疾病者牙医"
         },
         {
           "code": "F5",
@@ -3223,7 +3223,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 中醫-行動不便者，經醫師認定或經受託",
-          "label_en": ""
+          "label_en": "acupuncture traditional chinese medicine - for those with mobility issues, certified by a physician or entrusted"
         },
         {
           "code": "C4",
@@ -3233,7 +3233,7 @@
         {
           "code": "C5",
           "label_zh": "脫臼整復 中醫-已出海為遠洋漁船作業船 中醫醫療資源不足地區巡迴醫療",
-          "label_en": ""
+          "label_en": "dislocation reduction in traditional Chinese medicine - provided for offshore operations of远洋渔业船只 in areas with insufficient traditional Chinese medical resources"
         },
         {
           "code": "J2",
@@ -3248,12 +3248,12 @@
         {
           "code": "J7",
           "label_zh": "後西醫住院中醫輔助醫療試辦計 (99.1新增) 畫(98.01增訂)",
-          "label_en": ""
+          "label_en": "western medicine inpatient with traditional Chinese medicine auxiliary therapy trial (added in 2013.1)"
         },
         {
           "code": "CB",
           "label_zh": "醫療資源不足地區鼓勵長期進駐 褥瘡之西醫住院病患中醫 試辦計畫 輔助醫療",
-          "label_en": ""
+          "label_en": "Long-term presence incentive program in resource-scarce areas for traditional Chinese medicine treatment of pressure ulcers among Western medical inpatients."
         },
         {
           "code": "CC",
@@ -3328,7 +3328,7 @@
         {
           "code": "XX",
           "label_zh": "中醫特殊治療或處置 (112/6/1起 ) 其他 慢性傳染病照護品質計畫-愛滋照",
-          "label_en": ""
+          "label_en": "Traditional Chinese Medicine Special Treatment or Intervention (Effective from 6/1/112) Other Chronic Infectious Disease Care Quality Plan-AIDS Care"
         },
         {
           "code": "AA",
@@ -3438,12 +3438,12 @@
         {
           "code": "1",
           "label_zh": "山地離島地區計畫 G9 依所屬案件分類 依所屬案件分類， 家醫試辦計畫",
-          "label_en": ""
+          "label_en": "mountain and island area plan G9 classified by case category family medicine pilot program"
         },
         {
           "code": "2",
           "label_zh": "G8 且不可為E1 （含做預防保健、開慢簽） （94.7.1起修訂）",
-          "label_en": ""
+          "label_en": "G8 and not E1 (including preventive health care or chronic disease management) (effective since Jul 1, 1994)"
         },
         {
           "code": "3",
@@ -3453,17 +3453,17 @@
         {
           "code": "4",
           "label_zh": "西醫基層資源缺乏獎勵計畫 G5、G6 D4 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "General Practitioner Resource Shortage Incentive Plan G5, G6 D4 General Practitioner Resource Shortage Incentive Plan+"
         },
         {
           "code": "5",
           "label_zh": "G5、G6 G8 D4 家醫試辦計畫 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "G5、G6 G8 D4 家医试点计划 西医基层资源缺乏奖励计划+"
         },
         {
           "code": "6",
           "label_zh": "ED、HF、N、C、G5、G6 E1 疾病試辦計畫 疾病試辦計畫+",
-          "label_en": ""
+          "label_en": "ED, HF, N, C, G5, G6 E1 disease pilot program, disease pilot program"
         },
         {
           "code": "7",
@@ -3759,7 +3759,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 93 性腺低能症（Hypogonadism） B",
-          "label_en": ""
+          "label_en": "Pulmonary fibrosis F 93 Hypogonadism (性腺低能症) B"
         },
         {
           "code": "60",
@@ -3974,7 +3974,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 院所內治療重度以上精神疾病者牙 牙醫 醫醫療服務(98.1增訂)",
-          "label_en": ""
+          "label_en": "peritoneal dialysis inpatient treatment of severe mental disorders dental medical service (added in 98.1)"
         },
         {
           "code": "P1",
@@ -3984,7 +3984,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 療服務(98.1增訂) 複合樹脂 醫療團支援重度以上精神疾病者牙",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental service (98.1 Amendment) Composite resin Support for patients with severe or above mental illness"
         },
         {
           "code": "P3",
@@ -4019,7 +4019,7 @@
         {
           "code": "F4",
           "label_zh": "FM 服務 醫療服務 重度以上身心障礙者牙醫 醫療團服務輕度非精神疾病者牙醫",
-          "label_en": ""
+          "label_en": "FM 服务 医疗服务 重度及以上身心障碍者牙医 医疗团队服务轻度非精神疾病者牙医"
         },
         {
           "code": "F5",
@@ -4129,7 +4129,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 中醫-行動不便者，經醫師認定或經受託",
-          "label_en": ""
+          "label_en": "acupuncture traditional chinese medicine - for those with mobility issues, certified by a physician or entrusted"
         },
         {
           "code": "C4",
@@ -4139,7 +4139,7 @@
         {
           "code": "C5",
           "label_zh": "脫臼整復 中醫-已出海為遠洋漁船作業船 中醫醫療資源不足地區巡迴醫療",
-          "label_en": ""
+          "label_en": "dislocation reduction in traditional Chinese medicine - provided for offshore operations of远洋渔业船只 in areas with insufficient traditional Chinese medical resources"
         },
         {
           "code": "J2",
@@ -4154,12 +4154,12 @@
         {
           "code": "J7",
           "label_zh": "後西醫住院中醫輔助醫療試辦計 (99.1新增) 畫(98.01增訂)",
-          "label_en": ""
+          "label_en": "western medicine inpatient with traditional Chinese medicine auxiliary therapy trial (added in 2013.1)"
         },
         {
           "code": "CB",
           "label_zh": "醫療資源不足地區鼓勵長期進駐 褥瘡之西醫住院病患中醫 試辦計畫 輔助醫療",
-          "label_en": ""
+          "label_en": "Long-term presence incentive program in resource-scarce areas for traditional Chinese medicine treatment of pressure ulcers among Western medical inpatients."
         },
         {
           "code": "CC",
@@ -4234,7 +4234,7 @@
         {
           "code": "XX",
           "label_zh": "中醫特殊治療或處置 (112/6/1起 ) 其他 慢性傳染病照護品質計畫-愛滋照",
-          "label_en": ""
+          "label_en": "Traditional Chinese Medicine Special Treatment or Intervention (Effective from 6/1/112) Other Chronic Infectious Disease Care Quality Plan-AIDS Care"
         },
         {
           "code": "AA",
@@ -4344,12 +4344,12 @@
         {
           "code": "1",
           "label_zh": "山地離島地區計畫 G9 依所屬案件分類 依所屬案件分類， 家醫試辦計畫",
-          "label_en": ""
+          "label_en": "mountain and island area plan G9 classified by case category family medicine pilot program"
         },
         {
           "code": "2",
           "label_zh": "G8 且不可為E1 （含做預防保健、開慢簽） （94.7.1起修訂）",
-          "label_en": ""
+          "label_en": "G8 and not E1 (including preventive health care or chronic disease management) (effective since Jul 1, 1994)"
         },
         {
           "code": "3",
@@ -4359,17 +4359,17 @@
         {
           "code": "4",
           "label_zh": "西醫基層資源缺乏獎勵計畫 G5、G6 D4 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "General Practitioner Resource Shortage Incentive Plan G5, G6 D4 General Practitioner Resource Shortage Incentive Plan+"
         },
         {
           "code": "5",
           "label_zh": "G5、G6 G8 D4 家醫試辦計畫 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "G5、G6 G8 D4 家医试点计划 西医基层资源缺乏奖励计划+"
         },
         {
           "code": "6",
           "label_zh": "ED、HF、N、C、G5、G6 E1 疾病試辦計畫 疾病試辦計畫+",
-          "label_en": ""
+          "label_en": "ED, HF, N, C, G5, G6 E1 disease pilot program, disease pilot program"
         },
         {
           "code": "7",
@@ -4665,7 +4665,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 93 性腺低能症（Hypogonadism） B",
-          "label_en": ""
+          "label_en": "Pulmonary fibrosis F 93 Hypogonadism (性腺低能症) B"
         },
         {
           "code": "60",
@@ -4880,7 +4880,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 院所內治療重度以上精神疾病者牙 牙醫 醫醫療服務(98.1增訂)",
-          "label_en": ""
+          "label_en": "peritoneal dialysis inpatient treatment of severe mental disorders dental medical service (added in 98.1)"
         },
         {
           "code": "P1",
@@ -4890,7 +4890,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 療服務(98.1增訂) 複合樹脂 醫療團支援重度以上精神疾病者牙",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental service (98.1 Amendment) Composite resin Support for patients with severe or above mental illness"
         },
         {
           "code": "P3",
@@ -4925,7 +4925,7 @@
         {
           "code": "F4",
           "label_zh": "FM 服務 醫療服務 重度以上身心障礙者牙醫 醫療團服務輕度非精神疾病者牙醫",
-          "label_en": ""
+          "label_en": "FM 服务 医疗服务 重度及以上身心障碍者牙医 医疗团队服务轻度非精神疾病者牙医"
         },
         {
           "code": "F5",
@@ -5035,7 +5035,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 中醫-行動不便者，經醫師認定或經受託",
-          "label_en": ""
+          "label_en": "acupuncture traditional chinese medicine - for those with mobility issues, certified by a physician or entrusted"
         },
         {
           "code": "C4",
@@ -5045,7 +5045,7 @@
         {
           "code": "C5",
           "label_zh": "脫臼整復 中醫-已出海為遠洋漁船作業船 中醫醫療資源不足地區巡迴醫療",
-          "label_en": ""
+          "label_en": "dislocation reduction in traditional Chinese medicine - provided for offshore operations of远洋渔业船只 in areas with insufficient traditional Chinese medical resources"
         },
         {
           "code": "J2",
@@ -5060,12 +5060,12 @@
         {
           "code": "J7",
           "label_zh": "後西醫住院中醫輔助醫療試辦計 (99.1新增) 畫(98.01增訂)",
-          "label_en": ""
+          "label_en": "western medicine inpatient with traditional Chinese medicine auxiliary therapy trial (added in 2013.1)"
         },
         {
           "code": "CB",
           "label_zh": "醫療資源不足地區鼓勵長期進駐 褥瘡之西醫住院病患中醫 試辦計畫 輔助醫療",
-          "label_en": ""
+          "label_en": "Long-term presence incentive program in resource-scarce areas for traditional Chinese medicine treatment of pressure ulcers among Western medical inpatients."
         },
         {
           "code": "CC",
@@ -5140,7 +5140,7 @@
         {
           "code": "XX",
           "label_zh": "中醫特殊治療或處置 (112/6/1起 ) 其他 慢性傳染病照護品質計畫-愛滋照",
-          "label_en": ""
+          "label_en": "Traditional Chinese Medicine Special Treatment or Intervention (Effective from 6/1/112) Other Chronic Infectious Disease Care Quality Plan-AIDS Care"
         },
         {
           "code": "AA",
@@ -5250,12 +5250,12 @@
         {
           "code": "1",
           "label_zh": "山地離島地區計畫 G9 依所屬案件分類 依所屬案件分類， 家醫試辦計畫",
-          "label_en": ""
+          "label_en": "mountain and island area plan G9 classified by case category family medicine pilot program"
         },
         {
           "code": "2",
           "label_zh": "G8 且不可為E1 （含做預防保健、開慢簽） （94.7.1起修訂）",
-          "label_en": ""
+          "label_en": "G8 and not E1 (including preventive health care or chronic disease management) (effective since Jul 1, 1994)"
         },
         {
           "code": "3",
@@ -5265,17 +5265,17 @@
         {
           "code": "4",
           "label_zh": "西醫基層資源缺乏獎勵計畫 G5、G6 D4 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "General Practitioner Resource Shortage Incentive Plan G5, G6 D4 General Practitioner Resource Shortage Incentive Plan+"
         },
         {
           "code": "5",
           "label_zh": "G5、G6 G8 D4 家醫試辦計畫 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "G5、G6 G8 D4 家医试点计划 西医基层资源缺乏奖励计划+"
         },
         {
           "code": "6",
           "label_zh": "ED、HF、N、C、G5、G6 E1 疾病試辦計畫 疾病試辦計畫+",
-          "label_en": ""
+          "label_en": "ED, HF, N, C, G5, G6 E1 disease pilot program, disease pilot program"
         },
         {
           "code": "7",
@@ -5571,7 +5571,7 @@
         {
           "code": "59",
           "label_zh": "肺沈著症 F 93 性腺低能症（Hypogonadism） B",
-          "label_en": ""
+          "label_en": "Pulmonary fibrosis F 93 Hypogonadism (性腺低能症) B"
         },
         {
           "code": "60",
@@ -5786,7 +5786,7 @@
         {
           "code": "D9",
           "label_zh": "腹膜透析 院所內治療重度以上精神疾病者牙 牙醫 醫醫療服務(98.1增訂)",
-          "label_en": ""
+          "label_en": "peritoneal dialysis inpatient treatment of severe mental disorders dental medical service (added in 98.1)"
         },
         {
           "code": "P1",
@@ -5796,7 +5796,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 療服務(98.1增訂) 複合樹脂 醫療團支援重度以上精神疾病者牙",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental service (98.1 Amendment) Composite resin Support for patients with severe or above mental illness"
         },
         {
           "code": "P3",
@@ -5831,7 +5831,7 @@
         {
           "code": "F4",
           "label_zh": "FM 服務 醫療服務 重度以上身心障礙者牙醫 醫療團服務輕度非精神疾病者牙醫",
-          "label_en": ""
+          "label_en": "FM 服务 医疗服务 重度及以上身心障碍者牙医 医疗团队服务轻度非精神疾病者牙医"
         },
         {
           "code": "F5",
@@ -5941,7 +5941,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 中醫-行動不便者，經醫師認定或經受託",
-          "label_en": ""
+          "label_en": "acupuncture traditional chinese medicine - for those with mobility issues, certified by a physician or entrusted"
         },
         {
           "code": "C4",
@@ -5951,7 +5951,7 @@
         {
           "code": "C5",
           "label_zh": "脫臼整復 中醫-已出海為遠洋漁船作業船 中醫醫療資源不足地區巡迴醫療",
-          "label_en": ""
+          "label_en": "dislocation reduction in traditional Chinese medicine - provided for offshore operations of远洋渔业船只 in areas with insufficient traditional Chinese medical resources"
         },
         {
           "code": "J2",
@@ -5966,12 +5966,12 @@
         {
           "code": "J7",
           "label_zh": "後西醫住院中醫輔助醫療試辦計 (99.1新增) 畫(98.01增訂)",
-          "label_en": ""
+          "label_en": "western medicine inpatient with traditional Chinese medicine auxiliary therapy trial (added in 2013.1)"
         },
         {
           "code": "CB",
           "label_zh": "醫療資源不足地區鼓勵長期進駐 褥瘡之西醫住院病患中醫 試辦計畫 輔助醫療",
-          "label_en": ""
+          "label_en": "Long-term presence incentive program in resource-scarce areas for traditional Chinese medicine treatment of pressure ulcers among Western medical inpatients."
         },
         {
           "code": "CC",
@@ -6046,7 +6046,7 @@
         {
           "code": "XX",
           "label_zh": "中醫特殊治療或處置 (112/6/1起 ) 其他 慢性傳染病照護品質計畫-愛滋照",
-          "label_en": ""
+          "label_en": "Traditional Chinese Medicine Special Treatment or Intervention (Effective from 6/1/112) Other Chronic Infectious Disease Care Quality Plan-AIDS Care"
         },
         {
           "code": "AA",
@@ -6156,12 +6156,12 @@
         {
           "code": "1",
           "label_zh": "山地離島地區計畫 G9 依所屬案件分類 依所屬案件分類， 家醫試辦計畫",
-          "label_en": ""
+          "label_en": "mountain and island area plan G9 classified by case category family medicine pilot program"
         },
         {
           "code": "2",
           "label_zh": "G8 且不可為E1 （含做預防保健、開慢簽） （94.7.1起修訂）",
-          "label_en": ""
+          "label_en": "G8 and not E1 (including preventive health care or chronic disease management) (effective since Jul 1, 1994)"
         },
         {
           "code": "3",
@@ -6171,17 +6171,17 @@
         {
           "code": "4",
           "label_zh": "西醫基層資源缺乏獎勵計畫 G5、G6 D4 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "General Practitioner Resource Shortage Incentive Plan G5, G6 D4 General Practitioner Resource Shortage Incentive Plan+"
         },
         {
           "code": "5",
           "label_zh": "G5、G6 G8 D4 家醫試辦計畫 西醫基層資源缺乏獎勵計畫+",
-          "label_en": ""
+          "label_en": "G5、G6 G8 D4 家医试点计划 西医基层资源缺乏奖励计划+"
         },
         {
           "code": "6",
           "label_zh": "ED、HF、N、C、G5、G6 E1 疾病試辦計畫 疾病試辦計畫+",
-          "label_en": ""
+          "label_en": "ED, HF, N, C, G5, G6 E1 disease pilot program, disease pilot program"
         },
         {
           "code": "7",
@@ -6212,7 +6212,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -6227,7 +6227,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -6287,7 +6287,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital 2 county municipal hospital"
         },
         {
           "code": "4",
@@ -6302,7 +6302,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "military hospitals 6 military hospitals 6 military hospitals 6 military hospitals 6 military hospitals"
         },
         {
           "code": "7",
@@ -6417,12 +6417,12 @@
         {
           "code": "15",
           "label_zh": "私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院 15 私立西醫醫院",
-          "label_en": ""
+          "label_en": "private western medical hospital 15 private western medical hospital 15 private western medical hospital 15 private western medical hospital"
         },
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital"
         },
         {
           "code": "18",
@@ -6442,7 +6442,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -6532,7 +6532,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23 health center"
         },
         {
           "code": "24",
@@ -6617,7 +6617,7 @@
         {
           "code": "22",
           "label_zh": "縣市立診所 22 縣市立診所 22 縣市立診所 22 縣市立診所",
-          "label_en": ""
+          "label_en": "city-owned clinics 22 city-owned clinics 22 city-owned clinics 22 city-owned clinics"
         },
         {
           "code": "23",
@@ -6652,7 +6652,7 @@
         {
           "code": "47",
           "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
           "code": "29",
@@ -6682,17 +6682,17 @@
         {
           "code": "35",
           "label_zh": "私立西醫診所 35 私立西醫診所 35 私立西醫診所 35 私立西醫診所",
-          "label_en": ""
+          "label_en": "private western medical clinic 35 private western medical clinic 35 private western medical clinic 35 private western medical clinic"
         },
         {
           "code": "37",
           "label_zh": "私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所 37 私立牙醫診所",
-          "label_en": ""
+          "label_en": "Private dental clinic 37 Private dental clinic 37 Private dental clinic 37 Private dental clinic"
         },
         {
           "code": "38",
           "label_zh": "私立中醫診所 38 私立中醫診所 38 私立中醫診所 38 私立中醫診所",
-          "label_en": ""
+          "label_en": "Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic 38 Private TCM clinic"
         },
         {
           "code": "40",
@@ -6717,27 +6717,27 @@
         {
           "code": "77",
           "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
           "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
-          "label_en": ""
+          "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
           "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
-          "label_en": ""
+          "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
           "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
           "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
-          "label_en": ""
+          "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",

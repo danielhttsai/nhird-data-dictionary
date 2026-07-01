@@ -50,7 +50,7 @@
       "description_zh": "7：舊系統無評估轉入 10：1966 專線 12：1966 系統介接",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "7: no assessment from old system transfer in 10: 1966 hotline 12: 1966 system interface"
     },
     {
       "seq": 4,
@@ -316,7 +316,7 @@
         {
           "code": "2",
           "label_zh": "個案主檔流水號 CA100_ID Num 8 1：離婚 2：分居 3：喪偶",
-          "label_en": ""
+          "label_en": "Case main file serial number CA100_ID Num 8 1：divorced 2：separated 3：widowed"
         },
         {
           "code": "3",
@@ -336,12 +336,12 @@
         {
           "code": "6",
           "label_zh": "A3CH3 Char 2 倍） A3a2-1-類別及 ICD診斷-障礙類",
-          "label_en": ""
+          "label_en": "A3CH3 Char 2 times) A3a2-1-category and ICD diagnosis-disorder category"
         },
         {
           "code": "7",
           "label_zh": "A3A2CH1 Char 2 別 A3a2-2-類別及 ICD診斷-障礙類",
-          "label_en": ""
+          "label_en": "A3A2CH1 Char 2 Category A3a2-2-ICD diagnosis-disorder"
         },
         {
           "code": "8",
@@ -386,7 +386,7 @@
         {
           "code": "16",
           "label_zh": "居住地清單 A5 Char 2 詳見居住地清單(A5)譯碼說明。 0：否",
-          "label_en": ""
+          "label_en": "residential_area_list_A5_Char_2详见居住地清單(A5)譯碼說明。0：否"
         },
         {
           "code": "17",
@@ -401,7 +401,7 @@
         {
           "code": "19",
           "label_zh": "主要照顧者性別 B2 Char 2 2：女 99：不詳 0：否",
-          "label_en": ""
+          "label_en": "Primary caregiver gender B2 Char 2: 2 - Female; 99 - Uncertain; 0 - No"
         },
         {
           "code": "20",
@@ -416,12 +416,12 @@
         {
           "code": "22",
           "label_zh": "需要分配時間照顧其他家人 J3 Char 2 1：是 9：未填 0：否",
-          "label_en": ""
+          "label_en": "need to allocate time to care for other family members J3 Char 2 1：yes 9：not filled 0：no"
         },
         {
           "code": "23",
           "label_zh": "對個案的行為感到困擾 J4 Char 2 1：是 9：未填 0：否",
-          "label_en": ""
+          "label_en": "Behavior causing distress to the case J4 Char 2: 1 yes 9 not filled 0 no"
         },
         {
           "code": "24",
@@ -466,7 +466,7 @@
         {
           "code": "32",
           "label_zh": "K6 Char 2 好不好？ 4：尚可 5：不好 6：非常不好 0：否",
-          "label_en": ""
+          "label_en": "K6 Char 2 How is it? 4: Fair 5: Poor 6: Very poor 0: No"
         },
         {
           "code": "33",
@@ -486,7 +486,7 @@
         {
           "code": "36",
           "label_zh": "K7C Char 2 職？ 2：兼職 為了照顧個案，您的工作是否 1：沒有影響",
-          "label_en": ""
+          "label_en": "K7C Char 2 Employment? 2：Part-time To care for the case, has your work been affected 1：No impact"
         },
         {
           "code": "37",
@@ -551,12 +551,12 @@
         {
           "code": "49",
           "label_zh": "A3A2CH9 Char 2 類別 9.第九類-罕見疾病 1：是",
-          "label_en": ""
+          "label_en": "A3A2CH9 Char 2 category 9. ninth category-rare diseases 1: yes"
         },
         {
           "code": "50",
           "label_zh": "計畫生效日期-迄 END_DT Num 8",
-          "label_en": ""
+          "label_en": "Plan effective date - until END_DT Num 8"
         },
         {
           "code": "51",
@@ -697,7 +697,7 @@
         {
           "code": "24",
           "label_zh": "高雄市偏遠地區(那瑪夏區、桃源區、茂林區、田寮區、六龜區、甲仙區)",
-          "label_en": ""
+          "label_en": "Kaohsiung City remote areas (Nanmao District, Taoyuan District, Maolin District, Tialiou District, Liugui District, Jiaxian District)"
         },
         {
           "code": "25",
@@ -873,7 +873,7 @@
         {
           "code": "3",
           "label_zh": "主要控制使用-狀態 SERV_STATUS Num 8 1：服務中 2：停止服務",
-          "label_en": ""
+          "label_en": "Primary Control Usage Status SERV_STATUS Num 8 1: Service Active 2: Service Stopped"
         },
         {
           "code": "4",
@@ -923,7 +923,7 @@
         {
           "code": "4",
           "label_zh": "機構接收狀態 ACCEPT Char 2 2：無法提供服務 1：服務中",
-          "label_en": ""
+          "label_en": "institution-reception-status ACCEPT Char 2 2: unable to provide service 1: service ongoing"
         },
         {
           "code": "5",
@@ -958,7 +958,7 @@
         {
           "code": "4",
           "label_zh": "服務項目流水號 QD100_ID Num 8 有負數及極大值，使用者須",
-          "label_en": ""
+          "label_en": "service-item-sequence-number QD100_ID Num 8 has negative and extreme values, users must"
         },
         {
           "code": "5",
@@ -993,7 +993,7 @@
         {
           "code": "5",
           "label_zh": "註銷使用 ALIVE Num 8 1：啟用",
-          "label_en": ""
+          "label_en": "Deactivation status ALIVE Num 8: 1 for active"
         },
         {
           "code": "6",
@@ -1003,7 +1003,7 @@
         {
           "code": "7",
           "label_zh": "是否核定 CHECK_STATUS Num 8 1：核定 1：租",
-          "label_en": ""
+          "label_en": "approval status CHECK_STATUS Num 8 1：approved 1：leased"
         },
         {
           "code": "8",
@@ -1018,7 +1018,7 @@
         {
           "code": "10",
           "label_zh": "核定輔具縣市 CITY_CODE Char 5 版本日期：2026/06/26",
-          "label_en": ""
+          "label_en": "Approved assistive devices county city code CITY_CODE Char 5 Version date: 2026/06/26"
         }
       ],
       "field_en": "relationship with case"

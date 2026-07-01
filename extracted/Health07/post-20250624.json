@@ -71,7 +71,7 @@
       "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
       "available_notes": [],
       "name_zh_en": "insurance status",
-      "description_en": ""
+      "description_en": "1: In Coverage 2: Terminated Coverage 3: Transferred Out 4: General Termination of Coverage 5: Death Termination of Coverage X: Never Insured U: Unclear"
     },
     {
       "seq": 5,
@@ -291,7 +291,7 @@
       "description_zh": "代碼參照醫療機構現況檔。 1200 表示為新竹市，2200 表示為 嘉義市。",
       "available_notes": [],
       "name_zh_en": "Insurance unit area code",
-      "description_en": ""
+      "description_en": "Refer to the current medical institution code. 1200 indicates Taichung City, 2200 indicates Chiayi City."
     },
     {
       "seq": 25,
@@ -302,7 +302,7 @@
       "description_zh": "代碼參照醫療機構現況檔 1200 表示為新竹市，2200 表示為 嘉義市",
       "available_notes": [],
       "name_zh_en": "residential area code",
-      "description_en": ""
+      "description_en": "代码参照医疗机构现况档 1200 表示为新竹市，2200 表示为 嘉义市"
     },
     {
       "seq": 26,
@@ -572,7 +572,7 @@
         {
           "code": "62",
           "label_zh": "公所投保之地區人口 非由公所投保之地區人口，出家僧眾、宗教人士、僑生、海青、蒙藏",
-          "label_en": ""
+          "label_en": "insured population by municipal office, non-insured population from outside the insured area, monks, religious personnel, overseas students, sea youth, Mongolians and Tibetans"
         },
         {
           "code": "62",
@@ -633,7 +633,7 @@
         {
           "code": "3",
           "label_zh": "專技一 自行執業之會計師、律師、建築師、醫師、牙醫師 及中醫師。",
-          "label_en": ""
+          "label_en": "professional level I includes accountants, auditors, architects, physicians, dental surgeons, and traditional Chinese medicine practitioners who are registered"
         },
         {
           "code": "4",
@@ -679,7 +679,7 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health07_全民健保承保檔(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "includes insurance coverage categories, insured entity, premium amount, etc.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "NHI insured file"

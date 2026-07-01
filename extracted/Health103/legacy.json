@@ -100,7 +100,7 @@
       "source": "門住 診明 細檔",
       "available_notes": [],
       "name_zh_en": "confirmed year",
-      "description_en": ""
+      "description_en": "Extract year based on INDEX_DATE as the diagnosis year (yyyy)."
     },
     {
       "seq": 8,
@@ -136,7 +136,7 @@
       "source": "門住 診明 細檔",
       "available_notes": [],
       "name_zh_en": "myocardial infarction",
-      "description_en": ""
+      "description_en": "0: no confirmed disease. 1: confirmed disease. (definition of confirmation see below notes)"
     },
     {
       "seq": 11,
@@ -147,7 +147,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "cardiac catheterization",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 12,
@@ -158,7 +158,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "percutaneous coronary angioplasty",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 13,
@@ -180,7 +180,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "ECMO",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 15,
@@ -191,7 +191,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "cardiac ultrasound examination",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 16,
@@ -202,7 +202,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "hypothermia therapy",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 17,
@@ -213,7 +213,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "defibrillation treatment",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 18,
@@ -224,7 +224,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "coronary artery bypass surgery",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 19,
@@ -235,7 +235,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "dialysis",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 20,
@@ -246,7 +246,7 @@
       "description_zh": "入院前半年內是否有相關支付 代碼。0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "inpatient record prior to six months",
-      "description_en": ""
+      "description_en": "Whether there was any relevant payment code within six months before admission. 0: No; 1: Yes. (Detailed coding can be found in Appendix Four)"
     },
     {
       "seq": 21,
@@ -268,7 +268,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "stent material",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 23,
@@ -279,7 +279,7 @@
       "description_zh": "住院期間是否有相關支付代碼。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "ICU",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay. 0：无；1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 24,
@@ -290,7 +290,7 @@
       "description_zh": "住院期間是否有相關支付代碼； 0：無，1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "ICU bed",
-      "description_en": ""
+      "description_en": "Inpatient payment codes present during hospital stay; 0：无，1：有。 (详细编码请参考附录四)"
     },
     {
       "seq": 25,
@@ -312,7 +312,7 @@
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Inpatient drug utilization during hospital stay. 0: No; 1: Yes. (Detailed coding please refer to Appendix IV)"
     },
     {
       "seq": 27,
@@ -323,7 +323,7 @@
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Inpatient drug utilization during hospital stay. 0: No; 1: Yes. (Detailed coding please refer to Appendix IV)"
     },
     {
       "seq": 28,
@@ -334,7 +334,7 @@
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Inpatient drug utilization during hospital stay. 0: No; 1: Yes. (Detailed coding please refer to Appendix IV)"
     },
     {
       "seq": 29,
@@ -357,7 +357,7 @@
       "description_zh": "住院期間是否使用相關藥物。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Inpatient drug utilization during hospital stay. 0: No; 1: Yes. (Detailed coding please refer to Appendix IV)"
     },
     {
       "seq": 31,
@@ -368,7 +368,7 @@
       "description_zh": "入院前半年內是否使用相關藥 物。 0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "record of statin use six months before admission",
-      "description_en": ""
+      "description_en": "Whether related medication was used within six months before admission. 0: No; 1: Yes. (Detailed coding can be found in Appendix Four)"
     }
   ],
   "codebooks": {},
