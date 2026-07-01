@@ -438,7 +438,1655 @@
       "description_en": "Year: Confirms the case's year of birth. Year unknown: 9999."
     }
   ],
-  "codebooks": {},
+  "codebooks": {
+    "SITE": {
+      "field_zh": "原發部位 (ICD-O Topography)",
+      "field_en": "ICD-O-3 Topography (T-code)",
+      "source": "TWCR ICD-O T-code 對照表",
+      "entries": [
+        {
+          "code": "C00-",
+          "label_zh": "C00 LIP"
+        },
+        {
+          "code": "C000",
+          "label_zh": "C00.0 External upper lip"
+        },
+        {
+          "code": "C001",
+          "label_zh": "C00.1 External lower lip"
+        },
+        {
+          "code": "C003",
+          "label_zh": "C00.2 External lip, NOS"
+        },
+        {
+          "code": "C004",
+          "label_zh": "C00.3 Mucosa of upper lip"
+        },
+        {
+          "code": "C005",
+          "label_zh": "C00.4 Mucosa of lower lip"
+        },
+        {
+          "code": "C006",
+          "label_zh": "C00.5 Mucosa of lip, NOS"
+        },
+        {
+          "code": "C008",
+          "label_zh": "C00.6 Commissure of lip"
+        },
+        {
+          "code": "C002",
+          "label_zh": "C00.8 Overlapping lesion of lip"
+        },
+        {
+          "code": "C009",
+          "label_zh": "C00.9 Lip, NOS"
+        },
+        {
+          "code": "C01-",
+          "label_zh": "C01 BASE OF TONGUE"
+        },
+        {
+          "code": "C019",
+          "label_zh": "C01.9 Base of tongue, NOS"
+        },
+        {
+          "code": "C02-",
+          "label_zh": "C02 OTHER AND UNSPECIFIED PARTS OF TONGUE"
+        },
+        {
+          "code": "C020",
+          "label_zh": "C02.0 Dorsal surface of tongue, NOS"
+        },
+        {
+          "code": "C021",
+          "label_zh": "C02.1 Border of tongue"
+        },
+        {
+          "code": "C022",
+          "label_zh": "C02.2 Ventral surface of tongue, NOS"
+        },
+        {
+          "code": "C023",
+          "label_zh": "C02.3 Anterior 2/3 of tongue, NOS"
+        },
+        {
+          "code": "C024",
+          "label_zh": "C02.4 Lingual tonsil"
+        },
+        {
+          "code": "C028",
+          "label_zh": "C02.8 Junctional zone of tongue"
+        },
+        {
+          "code": "C028",
+          "label_zh": "C02.8 Overlapping lesion of tongue"
+        },
+        {
+          "code": "C029",
+          "label_zh": "C02.9 Tongue, NOS"
+        },
+        {
+          "code": "C03-",
+          "label_zh": "C03 GUM"
+        },
+        {
+          "code": "C030",
+          "label_zh": "C03.0 Upper Gum"
+        },
+        {
+          "code": "C031",
+          "label_zh": "C03.1 Lower gum"
+        },
+        {
+          "code": "C038",
+          "label_zh": "C03.8 Overlapping lesion of gum"
+        },
+        {
+          "code": "C039",
+          "label_zh": "C03.9 Gum, NOS"
+        },
+        {
+          "code": "C04-",
+          "label_zh": "C04 FLOOR OF MOUTH"
+        },
+        {
+          "code": "C040",
+          "label_zh": "C04.0 Anterior floor of mouth"
+        },
+        {
+          "code": "C041",
+          "label_zh": "C04.1 Lateral floor of mouth"
+        },
+        {
+          "code": "C048",
+          "label_zh": "C04.8 Overlapping lesion of floor of mouth"
+        },
+        {
+          "code": "C049",
+          "label_zh": "C04.9 Floor of mouth, NOS"
+        },
+        {
+          "code": "C05-",
+          "label_zh": "C05 PALATE"
+        },
+        {
+          "code": "C050",
+          "label_zh": "C05.0 Hard palate"
+        },
+        {
+          "code": "C051",
+          "label_zh": "C05.1 Soft palate, NOS"
+        },
+        {
+          "code": "C052",
+          "label_zh": "C05.2 Uvula"
+        },
+        {
+          "code": "C058",
+          "label_zh": "C05.8 Overlapping lesion of palate"
+        },
+        {
+          "code": "C059",
+          "label_zh": "C05.9 Palate, NOS"
+        },
+        {
+          "code": "C06-",
+          "label_zh": "C06 OTHER AND UNSPECIFIED PARTS OF MOUTH"
+        },
+        {
+          "code": "C060",
+          "label_zh": "C06.0 Cheeck mucosa"
+        },
+        {
+          "code": "C061",
+          "label_zh": "C06.1 Vestibule of mouth"
+        },
+        {
+          "code": "C062",
+          "label_zh": "C06.2 Retromolar area"
+        },
+        {
+          "code": "C068",
+          "label_zh": "C06.8 Overlapping lesion of other and unspecified parts of mouth"
+        },
+        {
+          "code": "C069",
+          "label_zh": "C06.9 Mouth, NOS"
+        },
+        {
+          "code": "C07-",
+          "label_zh": "C07 PAROTID GLANID"
+        },
+        {
+          "code": "C079",
+          "label_zh": "C07.9 Parotid gland"
+        },
+        {
+          "code": "C08-",
+          "label_zh": "C08 OTHER AND UNSPECIFIED MAJOR SALIVARY GLANDS"
+        },
+        {
+          "code": "C080",
+          "label_zh": "C08.0 Submandibular gland"
+        },
+        {
+          "code": "C081",
+          "label_zh": "C08.1 Sublingual gland"
+        },
+        {
+          "code": "C088",
+          "label_zh": "C08.8 Overlapping lesion of major salivary glands"
+        },
+        {
+          "code": "C089",
+          "label_zh": "C08.9 Major salivary gland, NOS"
+        },
+        {
+          "code": "C09-",
+          "label_zh": "C09 TONSIL"
+        },
+        {
+          "code": "C090",
+          "label_zh": "C09.0 Tonsillar fossa"
+        },
+        {
+          "code": "C091",
+          "label_zh": "C09.1 Tonsillar pillar"
+        },
+        {
+          "code": "C098",
+          "label_zh": "C09.8 Overlapping lesion of tonsil"
+        },
+        {
+          "code": "C099",
+          "label_zh": "C09.9 Tonsil, NOS"
+        },
+        {
+          "code": "C10-",
+          "label_zh": "C10 OROPHARYNX"
+        },
+        {
+          "code": "C100",
+          "label_zh": "C10.0 Vallecula"
+        },
+        {
+          "code": "C101",
+          "label_zh": "C10.1 Anterior surface of epiglottis"
+        },
+        {
+          "code": "C102",
+          "label_zh": "C10.2 Lateral wall of oropharynx"
+        },
+        {
+          "code": "C103",
+          "label_zh": "C10.3 Posterior wall of oropharynx"
+        },
+        {
+          "code": "C104",
+          "label_zh": "C10.4 Branchial cleft"
+        },
+        {
+          "code": "C108",
+          "label_zh": "C10.8 Overlapping lesions of oropharynx"
+        },
+        {
+          "code": "C109",
+          "label_zh": "C10.9 Oropharynx, NOS"
+        },
+        {
+          "code": "C11-",
+          "label_zh": "C11 NASOPHARYNX"
+        },
+        {
+          "code": "C110",
+          "label_zh": "C11.0 Superior wall of nasopharynx"
+        },
+        {
+          "code": "C111",
+          "label_zh": "C11.1 Posterior wall of nasopharynx"
+        },
+        {
+          "code": "C112",
+          "label_zh": "C11.2 Lateral wall of nasopharynx"
+        },
+        {
+          "code": "C113",
+          "label_zh": "C11.3 Anterior wall of nasopharynx"
+        },
+        {
+          "code": "C118",
+          "label_zh": "C11.8 Overlapping lesion of nasopharynx"
+        },
+        {
+          "code": "C119",
+          "label_zh": "C11.9 Nasopharynx, NOS"
+        },
+        {
+          "code": "C12-",
+          "label_zh": "C12 PYRIFORM SINUS"
+        },
+        {
+          "code": "C129",
+          "label_zh": "C12.9 Pyriform sinus"
+        },
+        {
+          "code": "C13-",
+          "label_zh": "C13 HYPOPHARYNX"
+        },
+        {
+          "code": "C130",
+          "label_zh": "C13.0 Postcricoid region"
+        },
+        {
+          "code": "C131",
+          "label_zh": "C13.1 Hypopharyngeal aspect of aryepiglottic fold"
+        },
+        {
+          "code": "C132",
+          "label_zh": "C13.2 Posterior wall of hypopharynx"
+        },
+        {
+          "code": "C138",
+          "label_zh": "C13.8 Overlapping lesion of hypopharynx"
+        },
+        {
+          "code": "C139",
+          "label_zh": "C13.9 Hypopharynx, NOS"
+        },
+        {
+          "code": "C14-",
+          "label_zh": "C14 OTHER AND ILL-DEFINED SITES IN LIP, ORAL CAVITY AND PHARYNX"
+        },
+        {
+          "code": "C140",
+          "label_zh": "C14.0 Pharynx, NOS"
+        },
+        {
+          "code": "C142",
+          "label_zh": "C14.2 Waldeyer ring"
+        },
+        {
+          "code": "C148",
+          "label_zh": "C14.8 Overlapping lesion of lip, oral cavity and pharynx"
+        },
+        {
+          "code": "-",
+          "label_zh": "-"
+        },
+        {
+          "code": "C15-",
+          "label_zh": "C15 ESOPHAGUS"
+        },
+        {
+          "code": "C150",
+          "label_zh": "C15.0 Cervical esophagus"
+        },
+        {
+          "code": "C151",
+          "label_zh": "C15.1 Thoracic esophagus"
+        },
+        {
+          "code": "C152",
+          "label_zh": "C15.2 Abdominal esophagus"
+        },
+        {
+          "code": "C153",
+          "label_zh": "C15.3 Upper third of esophagus"
+        },
+        {
+          "code": "C154",
+          "label_zh": "C15.4 Middle third of esophagus"
+        },
+        {
+          "code": "C155",
+          "label_zh": "C15.5 Lower third of esophagus"
+        },
+        {
+          "code": "C158",
+          "label_zh": "C15.8 Overlapping lesion of esophagus"
+        },
+        {
+          "code": "C159",
+          "label_zh": "C15.9 Esophagus, NOS"
+        },
+        {
+          "code": "C16-",
+          "label_zh": "C16 STOMACH"
+        },
+        {
+          "code": "C160",
+          "label_zh": "C16.0 Cardia, NOS"
+        },
+        {
+          "code": "C161",
+          "label_zh": "C16.1 Fundus of stomach"
+        },
+        {
+          "code": "C162",
+          "label_zh": "C16.2 Body of stomach"
+        },
+        {
+          "code": "C163",
+          "label_zh": "C16.3 Gastric antrum"
+        },
+        {
+          "code": "C164",
+          "label_zh": "C16.4 Pylorus"
+        },
+        {
+          "code": "C165",
+          "label_zh": "C16.5 Lesser curvature of stomach, NOS"
+        },
+        {
+          "code": "C166",
+          "label_zh": "C16.6 Greater curvature of stomach, NOS"
+        },
+        {
+          "code": "C168",
+          "label_zh": "C16.8 Overlapping lesion of stomach"
+        },
+        {
+          "code": "C169",
+          "label_zh": "C16.9 Stomach, NOS"
+        },
+        {
+          "code": "C17-",
+          "label_zh": "C17 SMALL INTESTINE"
+        },
+        {
+          "code": "C170",
+          "label_zh": "C17.0 Duodenum"
+        },
+        {
+          "code": "C171",
+          "label_zh": "C17.1 Jejunum"
+        },
+        {
+          "code": "C172",
+          "label_zh": "C17.2 Ileum"
+        },
+        {
+          "code": "C173",
+          "label_zh": "C17.3 Meckel diverticulum"
+        },
+        {
+          "code": "C178",
+          "label_zh": "C17.8 Overlapping lesion of small intestine"
+        },
+        {
+          "code": "C179",
+          "label_zh": "C17.9 Small intestine, NOS"
+        },
+        {
+          "code": "C18-",
+          "label_zh": "C18 COLON"
+        },
+        {
+          "code": "C180",
+          "label_zh": "C18.0 Cecum"
+        },
+        {
+          "code": "C181",
+          "label_zh": "C18.1 Appendix"
+        },
+        {
+          "code": "C182",
+          "label_zh": "C18.2 Ascending colon"
+        },
+        {
+          "code": "C183",
+          "label_zh": "C18.3 Hepatic flexure of colon"
+        },
+        {
+          "code": "C184",
+          "label_zh": "C18.4 Transverse colon"
+        },
+        {
+          "code": "C185",
+          "label_zh": "C18.5 Splenic flexure of colon"
+        },
+        {
+          "code": "C186",
+          "label_zh": "C18.6 Descending colon"
+        },
+        {
+          "code": "C187",
+          "label_zh": "C18.7 Sigmoid colon"
+        },
+        {
+          "code": "C188",
+          "label_zh": "C18.8 Overlapping lesion of colon"
+        },
+        {
+          "code": "C189",
+          "label_zh": "C18.9 Colon, NOS"
+        },
+        {
+          "code": "C19-",
+          "label_zh": "C19 RECTOSIGMOID JUNCTION"
+        },
+        {
+          "code": "C199",
+          "label_zh": "C19.9 Rectosigmoid junction"
+        },
+        {
+          "code": "C20-",
+          "label_zh": "C20 RECTUM"
+        },
+        {
+          "code": "C209",
+          "label_zh": "C20.9 Rectum, NOS"
+        },
+        {
+          "code": "C21-",
+          "label_zh": "C21 ANUS AND ANAL CANAL"
+        },
+        {
+          "code": "C210",
+          "label_zh": "C21.0 Anus, NOS"
+        },
+        {
+          "code": "C211",
+          "label_zh": "C21.1 Anal canal"
+        },
+        {
+          "code": "C212",
+          "label_zh": "C21.2 Cloacogenic zone"
+        },
+        {
+          "code": "C218",
+          "label_zh": "C21.8 Overlapping lesion of rectum, anus and anal canal"
+        },
+        {
+          "code": "C22-",
+          "label_zh": "C22 LIVER AND INTRAHEPATIC BILE DUCTS"
+        },
+        {
+          "code": "C220",
+          "label_zh": "C22.0 Liver"
+        },
+        {
+          "code": "C221",
+          "label_zh": "C22.1 intrahepatic bile duct"
+        },
+        {
+          "code": "C23-",
+          "label_zh": "C23 GALLBLADDER"
+        },
+        {
+          "code": "C239",
+          "label_zh": "C23.9 Gallbladder"
+        },
+        {
+          "code": "C24-",
+          "label_zh": "C24 OTHER AND UNSPECIFIED PARTS OF BILIARY TRACT"
+        },
+        {
+          "code": "C240",
+          "label_zh": "C24.0 Extrahepatic bile duct"
+        },
+        {
+          "code": "C241",
+          "label_zh": "C24.1 Ampulla of Vater"
+        },
+        {
+          "code": "C248",
+          "label_zh": "C24.8 Overlapping lesion of billiary tract"
+        },
+        {
+          "code": "C249",
+          "label_zh": "C24.9 Billiary tract, NOS"
+        },
+        {
+          "code": "C25-",
+          "label_zh": "C25 PANCREAS"
+        },
+        {
+          "code": "C250",
+          "label_zh": "C25.0 Head of pancreas"
+        },
+        {
+          "code": "C251",
+          "label_zh": "C25.1 Body of pancreas"
+        },
+        {
+          "code": "C252",
+          "label_zh": "C25.2 Tail of pancreas"
+        },
+        {
+          "code": "C253",
+          "label_zh": "C25.3 Pancreatic duct"
+        },
+        {
+          "code": "C254",
+          "label_zh": "C25.4 Islets of Langerhans"
+        },
+        {
+          "code": "C258",
+          "label_zh": "C25.7 Other specified parts of pancreas"
+        },
+        {
+          "code": "C257",
+          "label_zh": "C25.8 Overlapping lesion of pancreas"
+        },
+        {
+          "code": "C259",
+          "label_zh": "C25.9 Pancreas, NOS"
+        },
+        {
+          "code": "C26-",
+          "label_zh": "C26 OTHER AND ILL-DEFINED DIGESTIVE ORGANS"
+        },
+        {
+          "code": "C260",
+          "label_zh": "C26.0 Intestinal tract, NOS"
+        },
+        {
+          "code": "C268",
+          "label_zh": "C26.8 Overlapping lesion of digestive system"
+        },
+        {
+          "code": "C269",
+          "label_zh": "C26.9 Gastrointestinal tract, NOS"
+        },
+        {
+          "code": "C30-",
+          "label_zh": "C30 NASAL CAVITY AND MIDDLE EAR"
+        },
+        {
+          "code": "C300",
+          "label_zh": "C30.0 Nasal cavity"
+        },
+        {
+          "code": "C301",
+          "label_zh": "C30.1 Middle ear"
+        },
+        {
+          "code": "C31-",
+          "label_zh": "C31 ACCESSORY SINUSES"
+        },
+        {
+          "code": "C310",
+          "label_zh": "C31.0 Maxillary sinus"
+        },
+        {
+          "code": "C311",
+          "label_zh": "C31.1 Ethmoid sinus"
+        },
+        {
+          "code": "C312",
+          "label_zh": "C31.2 Frontal sinus"
+        },
+        {
+          "code": "C313",
+          "label_zh": "C31.3 Sphenoid sinus"
+        },
+        {
+          "code": "C318",
+          "label_zh": "C31.8 Overlapping lesion of accessory sinuses"
+        },
+        {
+          "code": "C319",
+          "label_zh": "C31.9 Accessory sinus, NOS"
+        },
+        {
+          "code": "C32-",
+          "label_zh": "C32 LARYNX"
+        },
+        {
+          "code": "C320",
+          "label_zh": "C32.0 Glottis"
+        },
+        {
+          "code": "C321",
+          "label_zh": "C32.1 Supraglottis"
+        },
+        {
+          "code": "C322",
+          "label_zh": "C32.2 Subglottis"
+        },
+        {
+          "code": "C323",
+          "label_zh": "C32.3 Laryngeal cartilage"
+        },
+        {
+          "code": "C328",
+          "label_zh": "C32.8 Overlapping lesion of larynx"
+        },
+        {
+          "code": "C329",
+          "label_zh": "C32.9 Larynx, NOS"
+        },
+        {
+          "code": "C33-",
+          "label_zh": "C33 TRACHEA"
+        },
+        {
+          "code": "C339",
+          "label_zh": "C33.9 Trachea"
+        },
+        {
+          "code": "C34-",
+          "label_zh": "C34 BRONCHUS AND LUNG"
+        },
+        {
+          "code": "C340",
+          "label_zh": "C34.0 Main bronchus"
+        },
+        {
+          "code": "C341",
+          "label_zh": "C34.1 Upper lobe, lung"
+        },
+        {
+          "code": "C342",
+          "label_zh": "C34.2 Middle lobe, lung"
+        },
+        {
+          "code": "C343",
+          "label_zh": "C34.3 Lower lobe, lung"
+        },
+        {
+          "code": "C348",
+          "label_zh": "C34.8 Overlapping lesion of lung"
+        },
+        {
+          "code": "C349",
+          "label_zh": "C34.9 Lung, NOS"
+        },
+        {
+          "code": "C37-",
+          "label_zh": "C37 THYMUS"
+        },
+        {
+          "code": "C379",
+          "label_zh": "C37.9 Thymus"
+        },
+        {
+          "code": "C38-",
+          "label_zh": "C38 HEART, MEDIASTINUM, AND PLEURA"
+        },
+        {
+          "code": "C380",
+          "label_zh": "C38.0 Heart"
+        },
+        {
+          "code": "C381",
+          "label_zh": "C38.1 Anterior mediastinum"
+        },
+        {
+          "code": "C382",
+          "label_zh": "C38.2 Posterior mediastinum"
+        },
+        {
+          "code": "C383",
+          "label_zh": "C38.3 Mediastinum, NOS"
+        },
+        {
+          "code": "C384",
+          "label_zh": "C38.4 Pleura, NOS"
+        },
+        {
+          "code": "C384",
+          "label_zh": "C38.4 Pleura, NOS"
+        },
+        {
+          "code": "C384",
+          "label_zh": "C38.4 Pleura, NOS"
+        },
+        {
+          "code": "C388",
+          "label_zh": "C38.8 Overlapping lesion of heart, mediastinum and pleura"
+        },
+        {
+          "code": "C388",
+          "label_zh": "C38.8 Overlapping lesion of heart, mediastinum and pleura"
+        },
+        {
+          "code": "C39-",
+          "label_zh": "C39 OTHER AND ILL-DEFINED SITES WITHIN RESPIRATORY SYSTEM AMD INTRATHORACIC ORGANS"
+        },
+        {
+          "code": "C390",
+          "label_zh": "C39.0 Upper respiratory tract, NOS"
+        },
+        {
+          "code": "C398",
+          "label_zh": "C39.8 Overlapping lesion of respiratory system and intrathoracic organs"
+        },
+        {
+          "code": "C399",
+          "label_zh": "C39.9 Ill-defined sites within respiratory system"
+        },
+        {
+          "code": "C40-",
+          "label_zh": "C40 BONES, JOINTS AND ARTICULAR CARTILAGE OF LIMBS"
+        },
+        {
+          "code": "C400",
+          "label_zh": "C40.0 Long bones of upper limb, scapula and associated joints"
+        },
+        {
+          "code": "C401",
+          "label_zh": "C40.1 Short bones of upper limb and associated joints"
+        },
+        {
+          "code": "C402",
+          "label_zh": "C40.2 Long bones of lower limb and associated joints"
+        },
+        {
+          "code": "C403",
+          "label_zh": "C40.3 Short bones of lower limb and associated joints"
+        },
+        {
+          "code": "C408",
+          "label_zh": "C40.8 Overlapping lesion of bones, joints and articular cartilage of limbs"
+        },
+        {
+          "code": "C409",
+          "label_zh": "C40.9 Bone of limb, NOS"
+        },
+        {
+          "code": "C41-",
+          "label_zh": "C41 BONES, JOINTS AND ARTICULAR CARTILAGE OF OTHER AND UNSPECIFIED SITES"
+        },
+        {
+          "code": "C410",
+          "label_zh": "C41.0 Bones of skull and face and associated joints"
+        },
+        {
+          "code": "C411",
+          "label_zh": "C41.1 Mandible"
+        },
+        {
+          "code": "C412",
+          "label_zh": "C41.2 Vertebral column"
+        },
+        {
+          "code": "C413",
+          "label_zh": "C41.3 Rib, sternum, clavicle and associated joints"
+        },
+        {
+          "code": "C414",
+          "label_zh": "C41.4 Pelvic bones, sacrum, coccyx and associated joints"
+        },
+        {
+          "code": "C418",
+          "label_zh": "C41.8 Overlapping lesion of bones, joints and articular cartilage"
+        },
+        {
+          "code": "C419",
+          "label_zh": "C41.9 Bone, NOS"
+        },
+        {
+          "code": "C42-",
+          "label_zh": "C42 HEMATOPOIETIC AND RETICULOENDOTHELIAL SYSTEMS"
+        },
+        {
+          "code": "C420",
+          "label_zh": "C42.0 Blood"
+        },
+        {
+          "code": "C421",
+          "label_zh": "C42.1 Bone marrow"
+        },
+        {
+          "code": "C422",
+          "label_zh": "C42.2 Spleen"
+        },
+        {
+          "code": "C423",
+          "label_zh": "C42.3 Reticuloendothelial system, NOS"
+        },
+        {
+          "code": "C424",
+          "label_zh": "C42.4 Hematopoietic system, NOS"
+        },
+        {
+          "code": "C44-",
+          "label_zh": "C44 SKIN"
+        },
+        {
+          "code": "C440",
+          "label_zh": "C44.0 Skin of lip, NOS"
+        },
+        {
+          "code": "C441",
+          "label_zh": "C44.1 Eyelid"
+        },
+        {
+          "code": "C442",
+          "label_zh": "C44.2 External ear"
+        },
+        {
+          "code": "C443",
+          "label_zh": "C44.3 Skin of other and unspecified parts of face"
+        },
+        {
+          "code": "C444",
+          "label_zh": "C44.4 Skin of scalp and neck"
+        },
+        {
+          "code": "C445",
+          "label_zh": "C44.5 Skin of trunk"
+        },
+        {
+          "code": "C446",
+          "label_zh": "C44.6 Skin of upper limb and shoulder"
+        },
+        {
+          "code": "C447",
+          "label_zh": "C44.7 Skin of lower limb and hip"
+        },
+        {
+          "code": "C448",
+          "label_zh": "C44.8 Overlapping lesion of skin"
+        },
+        {
+          "code": "C449",
+          "label_zh": "C44.9 Skin, NOS"
+        },
+        {
+          "code": "C47-",
+          "label_zh": "C47 PERIPHERAL NERVES AND AUTONOMIC NERVOUS SYSTEM"
+        },
+        {
+          "code": "C470",
+          "label_zh": "C47.0 Peripheral nerves and autonomic nervous system of head, face, and neck"
+        },
+        {
+          "code": "C471",
+          "label_zh": "C47.1 Peripheral nerves and autonomic nervous system of upper limb and shoulder"
+        },
+        {
+          "code": "C472",
+          "label_zh": "C47.2 Peripheral nerves and autonomic nervous system of lower limb and hip"
+        },
+        {
+          "code": "C473",
+          "label_zh": "C47.3 Peripheral nerves and autonomic nervous system of thorax"
+        },
+        {
+          "code": "C474",
+          "label_zh": "C47.4 Peripheral nerves and autonomic nervous system of abdomen"
+        },
+        {
+          "code": "C475",
+          "label_zh": "C47.5 Peripheral nerves and autonomic nervous system of pelvis"
+        },
+        {
+          "code": "C476",
+          "label_zh": "C47.6 Peripheral nerves and autonomic nervous system of trunk, NOS"
+        },
+        {
+          "code": "C478",
+          "label_zh": "C47.8 Overlapping lesion of peripheral nerves and autonomic nervous system"
+        },
+        {
+          "code": "C479",
+          "label_zh": "C47.9 Autonomic nervous system, NOS"
+        },
+        {
+          "code": "C48-",
+          "label_zh": "C48 RETROPERITONEUM AND PERITONEUM"
+        },
+        {
+          "code": "C480",
+          "label_zh": "C48.0 Retroperitoneum"
+        },
+        {
+          "code": "C481",
+          "label_zh": "C48.1 Specified parts of peritoneum"
+        },
+        {
+          "code": "C482",
+          "label_zh": "C48.2 Peritoneum, NOS"
+        },
+        {
+          "code": "C488",
+          "label_zh": "C48.8 Overlapping lesion of retroperitoneum and peritoneum"
+        },
+        {
+          "code": "C49-",
+          "label_zh": "C49 CONNECTIVE, SUBCUTANEOUS AND OTHER SOFT TISSUES"
+        },
+        {
+          "code": "C490",
+          "label_zh": "C49.0 Connective, Subcutaneous and other soft tissues of head, face, and neck"
+        },
+        {
+          "code": "C491",
+          "label_zh": "C49.1 Connective, Subcutaneous and other soft tissues of upper limb and shoulder"
+        },
+        {
+          "code": "C492",
+          "label_zh": "C49.2 Connective, Subcutaneous and other soft tissues of lower limb and hip"
+        },
+        {
+          "code": "C493",
+          "label_zh": "C49.3 Connective, Subcutaneous and other soft tissues of thorax"
+        },
+        {
+          "code": "C494",
+          "label_zh": "C49.4 Connective, Subcutaneous and other soft tissues of abdomen"
+        },
+        {
+          "code": "C495",
+          "label_zh": "C49.5 Connective, Subcutaneous and other soft tissues of pelvis"
+        },
+        {
+          "code": "C496",
+          "label_zh": "C49.6 Connective, Subcutaneous and other soft tissues of trunk, NOS"
+        },
+        {
+          "code": "C498",
+          "label_zh": "C49.8 Overlapping lesion of connective, subcutaneous and other soft tissues"
+        },
+        {
+          "code": "C499",
+          "label_zh": "C49.9 Connective, Subcutaneous and other soft tissues, NOS"
+        },
+        {
+          "code": "C50-",
+          "label_zh": "C50 BREAST"
+        },
+        {
+          "code": "C500",
+          "label_zh": "C50.0 Nipple"
+        },
+        {
+          "code": "C501",
+          "label_zh": "C50.1 Central portion of breast"
+        },
+        {
+          "code": "C502",
+          "label_zh": "C50.2 Upper-inner quadrant of breast"
+        },
+        {
+          "code": "C503",
+          "label_zh": "C50.3 Lower-inner quadrant of breast"
+        },
+        {
+          "code": "C504",
+          "label_zh": "C50.4 Upper-outer quadrant of breast"
+        },
+        {
+          "code": "C505",
+          "label_zh": "C50.5 Lower-outer quadrant of breast"
+        },
+        {
+          "code": "C506",
+          "label_zh": "C50.6 Axillary tail of breast"
+        },
+        {
+          "code": "C508",
+          "label_zh": "C50.8 Overlapping lesion of breast"
+        },
+        {
+          "code": "C509",
+          "label_zh": "C50.9 Breast, NOS"
+        },
+        {
+          "code": "C50-",
+          "label_zh": "C50 BREAST (MALE)"
+        },
+        {
+          "code": "C509",
+          "label_zh": "C50.9 Breast (male)"
+        },
+        {
+          "code": "C51-",
+          "label_zh": "C51 VULVA"
+        },
+        {
+          "code": "C510",
+          "label_zh": "C51.0 Labium majus"
+        },
+        {
+          "code": "C511",
+          "label_zh": "C51.1 Labium minus"
+        },
+        {
+          "code": "C512",
+          "label_zh": "C51.2 Clitorus"
+        },
+        {
+          "code": "C518",
+          "label_zh": "C51.8 Overlapping lesion of vulva"
+        },
+        {
+          "code": "C519",
+          "label_zh": "C51.9 Vulva, NOS"
+        },
+        {
+          "code": "C52-",
+          "label_zh": "C52 VAGINA"
+        },
+        {
+          "code": "C529",
+          "label_zh": "C52.9 Vagina, NOS"
+        },
+        {
+          "code": "C53-",
+          "label_zh": "C53 CERVIX UTERI"
+        },
+        {
+          "code": "C530",
+          "label_zh": "C53.0 Endocervix"
+        },
+        {
+          "code": "C531",
+          "label_zh": "C53.1 Exocervix"
+        },
+        {
+          "code": "C538",
+          "label_zh": "C53.8 Overlapping lesion of cervix uteri"
+        },
+        {
+          "code": "C539",
+          "label_zh": "C53.9 Cervix uteri"
+        },
+        {
+          "code": "C54-",
+          "label_zh": "C54 CORPUS UTERI"
+        },
+        {
+          "code": "C540",
+          "label_zh": "C54.0 Isthmus uteri"
+        },
+        {
+          "code": "C541",
+          "label_zh": "C54.1 Endometrium"
+        },
+        {
+          "code": "C542",
+          "label_zh": "C54.2 Myometrium"
+        },
+        {
+          "code": "C543",
+          "label_zh": "C54.3 Fundus uteri"
+        },
+        {
+          "code": "C548",
+          "label_zh": "C54.8 Overlapping lesion of corpus uteri"
+        },
+        {
+          "code": "C549",
+          "label_zh": "C54.9 Corpus uteri"
+        },
+        {
+          "code": "C55-",
+          "label_zh": "C55 UTERUS, NOS"
+        },
+        {
+          "code": "C559",
+          "label_zh": "C55.9 Uterus, NOS"
+        },
+        {
+          "code": "C56-",
+          "label_zh": "C56 OVARY"
+        },
+        {
+          "code": "C569",
+          "label_zh": "C56.9 Ovary"
+        },
+        {
+          "code": "C57-",
+          "label_zh": "C57 OTHER AN UNSPECIFIED FEMALE GENITAL ORGANS"
+        },
+        {
+          "code": "C57-",
+          "label_zh": "C57 OTHER AN UNSPECIFIED FEMALE GENITAL ORGANS"
+        },
+        {
+          "code": "C570",
+          "label_zh": "C57.0 Fallopian tube"
+        },
+        {
+          "code": "C571",
+          "label_zh": "C57.1 Broad ligament"
+        },
+        {
+          "code": "C572",
+          "label_zh": "C57.2 Round ligament"
+        },
+        {
+          "code": "C573",
+          "label_zh": "C57.3 Parametrium"
+        },
+        {
+          "code": "C574",
+          "label_zh": "C57.4 Uterine adnexa"
+        },
+        {
+          "code": "C577",
+          "label_zh": "C57.7 Other specified parts of female genital organs"
+        },
+        {
+          "code": "C578",
+          "label_zh": "C57.8 Overlapping lesion of female genital organs"
+        },
+        {
+          "code": "C579",
+          "label_zh": "C57.9 Female genital tract, NOS"
+        },
+        {
+          "code": "C58-",
+          "label_zh": "C58 PLACENTA"
+        },
+        {
+          "code": "C589",
+          "label_zh": "C58.9 Placenta"
+        },
+        {
+          "code": "C60-",
+          "label_zh": "C60 PENIS"
+        },
+        {
+          "code": "C600",
+          "label_zh": "C60.0 Prepuce"
+        },
+        {
+          "code": "C601",
+          "label_zh": "C60.1 Glans penis"
+        },
+        {
+          "code": "C602",
+          "label_zh": "C60.2 Body of penis"
+        },
+        {
+          "code": "C608",
+          "label_zh": "C60.8 Overlapping lesion of penis"
+        },
+        {
+          "code": "C609",
+          "label_zh": "C60.9 Penis, NOS"
+        },
+        {
+          "code": "C61-",
+          "label_zh": "C61 PROSTATE GLAND"
+        },
+        {
+          "code": "C619",
+          "label_zh": "C61.9 Prostate gland"
+        },
+        {
+          "code": "C62-",
+          "label_zh": "C62 TESTIS"
+        },
+        {
+          "code": "C620",
+          "label_zh": "C62.0 Undescended testis"
+        },
+        {
+          "code": "C621",
+          "label_zh": "C62.1 Descended testis"
+        },
+        {
+          "code": "C629",
+          "label_zh": "C62.9 Testis, NOS"
+        },
+        {
+          "code": "C63-",
+          "label_zh": "C63 OTHER AND UNSPECIFIED MALE GENITAL ORGANS"
+        },
+        {
+          "code": "C630",
+          "label_zh": "C63.0 Epididymis"
+        },
+        {
+          "code": "C631",
+          "label_zh": "C63.1 Spermatic cord"
+        },
+        {
+          "code": "C632",
+          "label_zh": "C63.2 Scrotum, NOS"
+        },
+        {
+          "code": "C637",
+          "label_zh": "C63.7 Other specified parts of male genital organs"
+        },
+        {
+          "code": "C638",
+          "label_zh": "C63.8 Overlapping lesion of male genital organs"
+        },
+        {
+          "code": "C639",
+          "label_zh": "C63.9 Male genital organs, NOS"
+        },
+        {
+          "code": "C64-",
+          "label_zh": "C64 KIDNEY"
+        },
+        {
+          "code": "C649",
+          "label_zh": "C64.9 Kidney, NOS"
+        },
+        {
+          "code": "C65-",
+          "label_zh": "C65 RENAL PELVIS"
+        },
+        {
+          "code": "C659",
+          "label_zh": "C65.9 Renal pelvis"
+        },
+        {
+          "code": "C66-",
+          "label_zh": "C66 URETER"
+        },
+        {
+          "code": "C669",
+          "label_zh": "C66.9 Ureter"
+        },
+        {
+          "code": "C67-",
+          "label_zh": "C67 BLADDER"
+        },
+        {
+          "code": "C670",
+          "label_zh": "C67.0 Trigone of bladder"
+        },
+        {
+          "code": "C671",
+          "label_zh": "C67.1 Dome of bladder"
+        },
+        {
+          "code": "C672",
+          "label_zh": "C67.2 Lateral wall of bladder"
+        },
+        {
+          "code": "C673",
+          "label_zh": "C67.3 Anterior wall of bladder"
+        },
+        {
+          "code": "C674",
+          "label_zh": "C67.4 Posterior wall of bladder"
+        },
+        {
+          "code": "C675",
+          "label_zh": "C67.5 Bladder neck"
+        },
+        {
+          "code": "C676",
+          "label_zh": "C67.6 Ureteric orifice"
+        },
+        {
+          "code": "C677",
+          "label_zh": "C67.7 Urachus"
+        },
+        {
+          "code": "C678",
+          "label_zh": "C67.8 Overlapping lesion of bladder"
+        },
+        {
+          "code": "C679",
+          "label_zh": "C67.9 Bladder, NOS"
+        },
+        {
+          "code": "C68-",
+          "label_zh": "C68 OTHER AND UNSPECIFIED URINARY ORGANS"
+        },
+        {
+          "code": "C680",
+          "label_zh": "C68.0 Urethra"
+        },
+        {
+          "code": "C681",
+          "label_zh": "C68.1 Paraurethral gland"
+        },
+        {
+          "code": "C688",
+          "label_zh": "C68.8 Overlapping lesion of urinary organs"
+        },
+        {
+          "code": "C689",
+          "label_zh": "C68.9 Urinary system, NOS"
+        },
+        {
+          "code": "C69-",
+          "label_zh": "C69 EYE AND ADNEXA"
+        },
+        {
+          "code": "C690",
+          "label_zh": "C69.0 Conjunctiva"
+        },
+        {
+          "code": "C691",
+          "label_zh": "C69.1 Cornea, NOS"
+        },
+        {
+          "code": "C692",
+          "label_zh": "C69.2 Retina"
+        },
+        {
+          "code": "C693",
+          "label_zh": "C69.3 Choroid"
+        },
+        {
+          "code": "C694",
+          "label_zh": "C69.4 Ciliary body"
+        },
+        {
+          "code": "C695",
+          "label_zh": "C69.5 Lacrimal duct, NOS"
+        },
+        {
+          "code": "C695",
+          "label_zh": "C69.5 Lacrimal gland"
+        },
+        {
+          "code": "C696",
+          "label_zh": "C69.6 Orbit, NOS"
+        },
+        {
+          "code": "C698",
+          "label_zh": "C69.8 Overlapping lesion of eye and adnexa"
+        },
+        {
+          "code": "C699",
+          "label_zh": "C69.9 Eye, NOS"
+        },
+        {
+          "code": "C70-",
+          "label_zh": "C70 MENINGES"
+        },
+        {
+          "code": "C700",
+          "label_zh": "C70.0 Cerebral meninges"
+        },
+        {
+          "code": "C701",
+          "label_zh": "C70.1 Spinal meninges"
+        },
+        {
+          "code": "C709",
+          "label_zh": "C70.9 Meninges, NOS"
+        },
+        {
+          "code": "C71-",
+          "label_zh": "C71 BRAIN"
+        },
+        {
+          "code": "C710",
+          "label_zh": "C71.0 Cerebrum"
+        },
+        {
+          "code": "C711",
+          "label_zh": "C71.1 Frontal lobe"
+        },
+        {
+          "code": "C712",
+          "label_zh": "C71.2 Temporal lobe"
+        },
+        {
+          "code": "C713",
+          "label_zh": "C71.3 Parietal lobe"
+        },
+        {
+          "code": "C714",
+          "label_zh": "C71.4 Occipital lobe"
+        },
+        {
+          "code": "C715",
+          "label_zh": "C71.5 Ventricle, NOS"
+        },
+        {
+          "code": "C716",
+          "label_zh": "C71.6 Cerebellum, NOS"
+        },
+        {
+          "code": "C717",
+          "label_zh": "C71.7 Brain stem"
+        },
+        {
+          "code": "C718",
+          "label_zh": "C71.8 Overlapping lesion of brain"
+        },
+        {
+          "code": "C719",
+          "label_zh": "C71.9 Brain, NOS"
+        },
+        {
+          "code": "C72-",
+          "label_zh": "C72 SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM"
+        },
+        {
+          "code": "C720",
+          "label_zh": "C72.0 Spinal cord"
+        },
+        {
+          "code": "C721",
+          "label_zh": "C72.1 Cauda equina"
+        },
+        {
+          "code": "C722",
+          "label_zh": "C72.2 Olfactory nerve"
+        },
+        {
+          "code": "C723",
+          "label_zh": "C72.3 Optic nerve"
+        },
+        {
+          "code": "C724",
+          "label_zh": "C72.4 Acoustic nerve"
+        },
+        {
+          "code": "C725",
+          "label_zh": "C72.5 Cranial nerve, NOS"
+        },
+        {
+          "code": "C728",
+          "label_zh": "C72.8 Overlapping lesion of brain and central nervous system"
+        },
+        {
+          "code": "C729",
+          "label_zh": "C72.9 Nervous system, NOS"
+        },
+        {
+          "code": "C73-",
+          "label_zh": "C73 THYROID GLAND"
+        },
+        {
+          "code": "C739",
+          "label_zh": "C73.9 Thyroid gland"
+        },
+        {
+          "code": "C74-",
+          "label_zh": "C74 ADRENAL GLAND"
+        },
+        {
+          "code": "C740",
+          "label_zh": "C74.0 Cortex of adrenal gland"
+        },
+        {
+          "code": "C741",
+          "label_zh": "C74.1 Medulla of adrenal gland"
+        },
+        {
+          "code": "C749",
+          "label_zh": "C74.9 Adrenal gland, NOS"
+        },
+        {
+          "code": "C75-",
+          "label_zh": "C75 OTHER ENDOCRINE GLANDS AND RELATED STRUCTURES"
+        },
+        {
+          "code": "C750",
+          "label_zh": "C75.0 Parathyroid gland"
+        },
+        {
+          "code": "C751",
+          "label_zh": "C75.1 Pituitary gland"
+        },
+        {
+          "code": "C752",
+          "label_zh": "C75.2 Craniopharyngeal duct"
+        },
+        {
+          "code": "C753",
+          "label_zh": "C75.3 Pineal gland"
+        },
+        {
+          "code": "C754",
+          "label_zh": "C75.4 Carotid body"
+        },
+        {
+          "code": "C755",
+          "label_zh": "C75.5 Aortic body and other paraganglia"
+        },
+        {
+          "code": "C758",
+          "label_zh": "C75.8 Overlapping lesion of endocrine glands and related structures"
+        },
+        {
+          "code": "C759",
+          "label_zh": "C75.9 Endocrine gland, NOS"
+        },
+        {
+          "code": "C76-",
+          "label_zh": "C76 OTHER AND ILL-DEFINED SITES"
+        },
+        {
+          "code": "C760",
+          "label_zh": "C76.0 Head, face or neck, NOS"
+        },
+        {
+          "code": "C761",
+          "label_zh": "C76.1 Thorax, NOS"
+        },
+        {
+          "code": "C762",
+          "label_zh": "C76.2 Abdomen, NOS"
+        },
+        {
+          "code": "C763",
+          "label_zh": "C76.3 Pelvis, NOS"
+        },
+        {
+          "code": "C764",
+          "label_zh": "C76.4 Upper limb, NOS"
+        },
+        {
+          "code": "C765",
+          "label_zh": "C76.5 Lower limb, NOS"
+        },
+        {
+          "code": "C767",
+          "label_zh": "C76.7 Other ill-defined sites"
+        },
+        {
+          "code": "C768",
+          "label_zh": "C76.8 Overlapping lesion of ill-defined sites"
+        },
+        {
+          "code": "C77-",
+          "label_zh": "C77 LYMPH NODES"
+        },
+        {
+          "code": "C770",
+          "label_zh": "C77.0 Lymph nodes of head, face and neck"
+        },
+        {
+          "code": "C771",
+          "label_zh": "C77.1 Intrathoracic lymph nodes"
+        },
+        {
+          "code": "C772",
+          "label_zh": "C77.2 Intra-abdominal lymph nodes"
+        },
+        {
+          "code": "C773",
+          "label_zh": "C77.3 Lymph nodes of axilla or arm"
+        },
+        {
+          "code": "C774",
+          "label_zh": "C77.4 Lymph nodes of inguinal region or leg"
+        },
+        {
+          "code": "C775",
+          "label_zh": "C77.5 Pelvic lymph nodes"
+        },
+        {
+          "code": "C778",
+          "label_zh": "C77.8 Lymph nodes of multiple regions"
+        },
+        {
+          "code": "C779",
+          "label_zh": "C77.9 Lymph node, NOS"
+        },
+        {
+          "code": "C80-",
+          "label_zh": "C80 UNKNOWN PRIMARY SITE"
+        },
+        {
+          "code": "C809",
+          "label_zh": "C80.9 Unknown primary site"
+        }
+      ]
+    }
+  },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔短表 SF(2011-2017 年版本)\n（HEALTH-15：H_BHP_CRFSF_2）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFSF_2 資料筆數 199,175筆\n中文檔名 癌症登記檔短表 SF 英文檔名 Cancer registration databases—Short\n(2011-2017年) Form\n檔案大小 39 MB 欄位數 38\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24初版\n更新日期\n資料描述 收錄各醫院申報 2011-2017 年診斷個案以後之原始資料。\n注意事項 1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 收錄各醫院申報 2011-2017 年診斷個案以後之原始資料，並未進行院際間相同個\n案同一癌症同一組織型態分組之重複個案去除。\n3. 癌症登記短表(100年版)所包含之癌症別，除短表醫院申報的所有癌症外，還包含\n長表醫院申報之外其他所有癌別，均以短表申報。\n4. 個案分類為 0或3者，不需申報欄位序號 7.1-7.5，以9補滿。\n5. 如需分析自 1979年診斷至最新發表年度，且已去除院際重複之年報歸戶資料，請\n申請年報歸戶檔。\n主鍵與比 1. 身分證字號(ID)經加密處理。\n對欄位\n2. 個人歸戶及個人資料對照的鍵值：ID。\n1",
   "qa": {
     "errors": [],
