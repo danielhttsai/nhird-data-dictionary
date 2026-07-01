@@ -246,9 +246,9 @@ for (const [code, versions] of byCode) {
 }
 
 catalogue.sort((a, b) => {
-  // Health → Society → Welfare → Topic
-  const order = { Health: 1, Society: 2, Welfare: 3, Topic: 4 };
-  return (order[a.category] - order[b.category])
+  // Health → Society → Welfare → Topic → TWCR
+  const order = { Health: 1, Society: 2, Welfare: 3, Topic: 4, TWCR: 5 };
+  return ((order[a.category] || 9) - (order[b.category] || 9))
     || a.code.localeCompare(b.code, 'en', { numeric: true });
 });
 

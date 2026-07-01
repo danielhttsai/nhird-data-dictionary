@@ -69,6 +69,7 @@
         <span>{category === 'Health' ? '健康保險與醫療登錄'
               : category === 'Society' ? '社會調查'
               : category === 'Welfare' ? '社會福利與通報'
+              : category === 'TWCR' ? '台灣癌症登記詳細規格 (TWCR)'
               : '主題式加值資料庫'}</span>
       </h2>
       <span class="text-sm text-slate-500">{list.length} files</span>
