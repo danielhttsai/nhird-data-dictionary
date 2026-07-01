@@ -185,7 +185,7 @@
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Pulmonary-related disease history - Emphysema",
       "description_en": "0:未勾選；1:勾選"
     },
     {
@@ -427,7 +427,7 @@
       "length": 1,
       "description_zh": "單選 1:提供戒菸服務；",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether to provide smoking cessation services: stage 2:tobacco cessation program in progress; stage 3:referred due to lack of smoking cessation service",
       "description_en": "Single option 1: Provides smoking cessation services;"
     },
     {
@@ -504,8 +504,8 @@
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選 造/拆船、鍋爐管",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "occupational exposure to asbestos such as asbestos manufacturing, insulation maintenance industries",
+      "description_en": "0: Unselected; 1: Selected Shipbuilding/Cooking Vessel Repair, Boiler Tube"
     },
     {
       "seq": 45,
@@ -648,7 +648,7 @@
       "description_zh": "CTavailable =1，必填 YYYYMMDD",
       "available_notes": [],
       "name_zh_en": "date_of_previous_chest_ct_image",
-      "description_en": ""
+      "description_en": "CTavailable = 1, mandatory YYYYMMDD"
     },
     {
       "seq": 58,
@@ -692,7 +692,7 @@
       "description_zh": "複選： 他_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "significant pulmonary nodule_its",
-      "description_en": ""
+      "description_en": "multiselect: his_position RUL, RML, RLL, LUL, LLL"
     },
     {
       "seq": 62,
@@ -735,7 +735,7 @@
       "length": 1,
       "description_zh": "0:無勾選；",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Is there any other obvious abnormal findings in the chest? 1: Check",
       "description_en": "0: not selected;"
     },
     {
@@ -746,7 +746,7 @@
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other significant abdominal or cervical abnormalities during chest CT scan",
       "description_en": "0:未勾選；1:勾選"
     },
     {
@@ -758,7 +758,7 @@
       "description_zh": "單選 0,1,2,3,4A,4B/4X",
       "available_notes": [],
       "name_zh_en": "lung-RADS score",
-      "description_en": ""
+      "description_en": "single choice: 0,1,2,3,4A,4B/4X"
     },
     {
       "seq": 68,
@@ -791,7 +791,7 @@
       "description_zh": "0:無勾選； 1:勾選 Bronchiectasis( 支",
       "available_notes": [],
       "name_zh_en": "other lung findings-tracheal dilation)",
-      "description_en": ""
+      "description_en": "0: Not selected; 1: Selected Bronchiectasis( 支"
     },
     {
       "seq": 71,
@@ -868,7 +868,7 @@
       "description_zh": "數字，Density_1為2，此欄必填",
       "available_notes": [],
       "name_zh_en": "size of first partially solid part in cm",
-      "description_en": ""
+      "description_en": "Numeric, Density_1 is 2, this field is mandatory"
     },
     {
       "seq": 78,
@@ -879,7 +879,7 @@
       "description_zh": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "first significant lung nodule",
-      "description_en": ""
+      "description_en": "single choice node location RUL、RML、RLL、LUL、LLL"
     },
     {
       "seq": 79,
@@ -923,7 +923,7 @@
       "description_zh": "數字，Density_2為2，此欄必填",
       "available_notes": [],
       "name_zh_en": "size of second partially solid part in cm",
-      "description_en": ""
+      "description_en": "Numeric, Density_2 is 2, this field is mandatory"
     },
     {
       "seq": 83,
@@ -934,7 +934,7 @@
       "description_zh": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "second significant lung nodule",
-      "description_en": ""
+      "description_en": "single choice node location RUL、RML、RLL、LUL、LLL"
     },
     {
       "seq": 84,
@@ -978,7 +978,7 @@
       "description_zh": "數字，Density_2為3，此欄必填 大小_3",
       "available_notes": [],
       "name_zh_en": "third part solid",
-      "description_en": ""
+      "description_en": "number, Density_2 is 3, this column must be filled 大小_3"
     },
     {
       "seq": 88,
@@ -989,7 +989,7 @@
       "description_zh": "單選 結節_位置_3 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "third significant lung nodule",
-      "description_en": ""
+      "description_en": "single choice: nodule location - RUL, RML, RLL, LUL, or LLL"
     },
     {
       "seq": 89,

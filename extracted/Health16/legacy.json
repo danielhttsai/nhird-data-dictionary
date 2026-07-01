@@ -50,7 +50,7 @@
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": ""
+      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
     },
     {
       "seq": 4,
@@ -368,7 +368,7 @@
       "length": 1,
       "description_zh": "1：陰性 2：陽性，弱 3：陽性，中 4：陽性，強 5：陽性，狀況不明 8：非乳癌之病人 9：狀況不明或未檢測。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor marker - estrogen receptor (for breast cancer use)",
       "description_en": ""
     },
     {
@@ -379,7 +379,7 @@
       "length": 1,
       "description_zh": "1：陰性 2：陽性，弱 3：陽性，中 4：陽性，強 5：陽性，狀況不明 8：非乳癌之病人",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "tumor marker - progesterone receptor (for breast cancer use)",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital treatment for tumor primary site surgery",
       "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
@@ -467,7 +467,7 @@
       "length": 4,
       "description_zh": "詳欄位(變項)譯碼 (十一) 【體外/近接 放射線治療之照射劑量(針對原發部 位)(RTDOSE、BRTDOSE)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "external beam radiotherapy dose (for the primary site)",
       "description_en": ""
     },
     {
@@ -479,7 +479,7 @@
       "description_zh": "00：未進行 01-80：依實際治療次數填入 99：不清楚。",
       "available_notes": [],
       "name_zh_en": "external beam radiotherapy次数",
-      "description_en": ""
+      "description_en": "00: Not performed 01-80: Fill according to actual treatment次数 99: Unclear"
     },
     {
       "seq": 43,
@@ -545,7 +545,7 @@
       "description_zh": "0：無 1：有 8：不適用，無法填寫此欄位 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "chemotherapy with concurrent radiation therapy",
-      "description_en": ""
+      "description_en": "0: None 1: Yes 8: Not applicable, unable to fill in this field 9: Unclear."
     },
     {
       "seq": 49,

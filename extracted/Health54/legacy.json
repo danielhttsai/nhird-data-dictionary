@@ -39,7 +39,7 @@
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 3,
@@ -56,7 +56,7 @@
         }
       ],
       "name_zh_en": "birth year and month",
-      "description_en": ""
+      "description_en": "provide Gregorian year month YYYYMM, length of 112 is 20 digits"
     },
     {
       "seq": 4,
@@ -73,7 +73,7 @@
         }
       ],
       "name_zh_en": "birth year and month",
-      "description_en": ""
+      "description_en": "provide Gregorian year month YYYYMM, length of 112 is 20 digits"
     },
     {
       "seq": 5,
@@ -101,7 +101,7 @@
         }
       ],
       "name_zh_en": "Date of Death",
-      "description_en": ""
+      "description_en": "year YYYYMMDD, 112-year length is 19"
     },
     {
       "seq": 7,
@@ -184,7 +184,7 @@
         }
       ],
       "name_zh_en": "sample collection date",
-      "description_en": ""
+      "description_en": "year YYYYMMDD, 112-year length is 30"
     },
     {
       "seq": 14,
@@ -267,7 +267,7 @@
         }
       ],
       "name_zh_en": "smear received date",
-      "description_en": ""
+      "description_en": "year YYYYMMDD, 112-year length is 10"
     },
     {
       "seq": 21,
@@ -394,7 +394,7 @@
         }
       ],
       "name_zh_en": "date of diagnosis",
-      "description_en": ""
+      "description_en": "year YYYYMMDD, 112-year length is 10"
     },
     {
       "seq": 32,
@@ -533,7 +533,7 @@
         {
           "code": "6",
           "label_zh": "自費健康檢查 2025年07月22日修訂",
-          "label_en": ""
+          "label_en": "self-paid health check revised on July 22, 2025"
         }
       ],
       "field_en": "payment method"
@@ -750,7 +750,7 @@
         {
           "code": "6",
           "label_zh": "Others 2025年07月22日修訂",
-          "label_en": ""
+          "label_en": "Others Revised on July 22, 2025"
         }
       ],
       "field_en": "possible infection"
@@ -842,7 +842,7 @@
         {
           "code": "2",
           "label_zh": "診所 21、22、24~28、31~38",
-          "label_en": ""
+          "label_en": "clinics 21, 22, 24-28, 31-38"
         },
         {
           "code": "3",
@@ -857,7 +857,7 @@
         {
           "code": "5",
           "label_zh": "其它 非 in (以上) 2025年07月22日修訂",
-          "label_en": ""
+          "label_en": "other not included above, revised on 22/7/2025"
         },
         {
           "code": "7",

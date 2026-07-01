@@ -72,7 +72,7 @@
       "description_zh": "1：服務中 2：暫停使用 3：停止服務(釋放時數)",
       "available_notes": [],
       "name_zh_en": "consultation slip status",
-      "description_en": ""
+      "description_en": "1: Service in progress 2: Suspended use 3: Services stopped (released hours)"
     },
     {
       "seq": 6,
@@ -83,7 +83,7 @@
       "description_zh": "A3a2-1-類別及 ICD診斷-障礙類",
       "available_notes": [],
       "name_zh_en": "A3CH3 multiplied by",
-      "description_en": ""
+      "description_en": "A3a2-1-Class and ICD diagnosis category-disorder class"
     },
     {
       "seq": 7,
@@ -94,7 +94,7 @@
       "description_zh": "A3a2-2-類別及 ICD診斷-障礙類",
       "available_notes": [],
       "name_zh_en": "A3A2CH1 category",
-      "description_en": ""
+      "description_en": "A3a2-2-Class and ICD diagnosis category-disorder class"
     },
     {
       "seq": 8,
@@ -104,8 +104,8 @@
       "length": 2,
       "description_zh": "A3a2ch3//A3a2-3-類別及 ICD 診",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Category 2 - Eyes, ears and related structures and sensory functions and pain",
+      "description_en": "A3a2ch3//A3a2-3-Category and ICD diagnosis"
     },
     {
       "seq": 9,
@@ -115,8 +115,8 @@
       "length": 2,
       "description_zh": "A3a2-4-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "disorder category 3. third class-involving voice and speech structures and their functions",
+      "description_en": "A3a2-4-Class and ICD diagnosis category-disorder class"
     },
     {
       "seq": 10,
@@ -126,8 +126,8 @@
       "length": 2,
       "description_zh": "A3a2-5-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "4. Fourth category - circulatory, hematopoietic, immune and respiratory system structures and functions",
+      "description_en": "A3a2-5-Class and ICD diagnosis category-disorder class"
     },
     {
       "seq": 11,
@@ -137,8 +137,8 @@
       "length": 2,
       "description_zh": "A3a2-6-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Category 5. Fifth category - Digestive, Metabolic and Endocrine Systems and Their Structures and Functions",
+      "description_en": "A3a2-6-Class and ICD diagnosis category-disorder class"
     },
     {
       "seq": 12,
@@ -148,8 +148,8 @@
       "length": 2,
       "description_zh": "A3a2-7-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "category 6.6 - urinary and reproductive system structures and functions",
+      "description_en": "A3a2-7-Class and ICD Diagnosis-Disorder Category"
     },
     {
       "seq": 13,
@@ -159,8 +159,8 @@
       "length": 2,
       "description_zh": "A3a2-8-類別及 ICD診斷-障礙類",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "7. Seventh category - nervous, muscular, skeletal movement-related structures and functions",
+      "description_en": "A3a2-8-Class and ICD Diagnosis-Disorder Category"
     },
     {
       "seq": 14,
@@ -251,12 +251,12 @@
         {
           "code": "6031ICF",
           "label_zh": "(新制一類)神經系統構造及精神、心智功能",
-          "label_en": ""
+          "label_en": "(New System Category) Nervous System Structure and Mental/Intellectual Function"
         },
         {
           "code": "6032ICF",
           "label_zh": "(新制二類)眼、耳及相關構造與感官功能及疼痛",
-          "label_en": ""
+          "label_en": "(New system category II) eye, ear and related structures and sensory functions and pain"
         },
         {
           "code": "6033ICF",
@@ -301,7 +301,7 @@
         {
           "code": "146",
           "label_zh": "MB (110 年) 檔案大小 欄位數 53",
-          "label_en": ""
+          "label_en": "MB (110 Year) File Size Fields 53"
         },
         {
           "code": "174",
@@ -326,7 +326,7 @@
         {
           "code": "4",
           "label_zh": "個案身分別-一般戶 A3CH1 Char 2",
-          "label_en": ""
+          "label_en": "case status - general household A3CH1 Char 2"
         },
         {
           "code": "5",
@@ -391,7 +391,7 @@
         {
           "code": "17",
           "label_zh": "個案是否有主要照顧者 B1 Char 2 1：是",
-          "label_en": ""
+          "label_en": "Does the case have a primary caregiver? B1 Char 2 1: Yes"
         },
         {
           "code": "18",
@@ -406,12 +406,12 @@
         {
           "code": "20",
           "label_zh": "睡眠受到干擾 J1 Char 2 1：是 9：未填 0：否",
-          "label_en": ""
+          "label_en": "sleep disturbance J1 Char 2: 1=yes 9=not applicable 0=no"
         },
         {
           "code": "21",
           "label_zh": "體力上的負荷 J2 Char 2 1：是 9：未填 0：否",
-          "label_en": ""
+          "label_en": "Physical burden J2 Char 2 1: Yes 9: Not filled 0: No"
         },
         {
           "code": "22",
@@ -451,7 +451,7 @@
         {
           "code": "29",
           "label_zh": "請問您已經照顧個案多久？-年 K4CH1 Char 4",
-          "label_en": ""
+          "label_en": "How long have you been taking care of this case? - Year K4CH1 Char 4"
         },
         {
           "code": "30",
@@ -521,7 +521,7 @@
         {
           "code": "43",
           "label_zh": "家庭照顧者-年齡 AA07C1 Char 3 0：否",
-          "label_en": ""
+          "label_en": "caregiver - age AA07C1 char 3 0: no"
         },
         {
           "code": "44",
@@ -561,7 +561,7 @@
         {
           "code": "51",
           "label_zh": "計畫評估日 EVAL_DT Num 8",
-          "label_en": ""
+          "label_en": "evaluation date EVAL_DT Num 8"
         },
         {
           "code": "52",
@@ -597,7 +597,7 @@
         {
           "code": "4",
           "label_zh": "新北市偏遠地區(烏來區、石碇區、坪林區、平溪區、雙溪區)",
-          "label_en": ""
+          "label_en": "New Taipei City Remote Areas (Wulai District, Shidu District, Pinglin District, Pingshi District, Shuangxi District)"
         },
         {
           "code": "5",
@@ -622,7 +622,7 @@
         {
           "code": "9",
           "label_zh": "新竹縣偏遠地區(五峰鄉、尖石鄉、關西鎮)",
-          "label_en": ""
+          "label_en": "New竹County remote areas (five峰乡、尖石乡、关西镇)"
         },
         {
           "code": "10",
@@ -632,7 +632,7 @@
         {
           "code": "11",
           "label_zh": "苗栗縣偏遠地區(泰安鄉、南庄鄉、獅潭鄉)",
-          "label_en": ""
+          "label_en": " Miaoli County remote areas (Taian Township, Nanzhuang Township, Shitan Township)"
         },
         {
           "code": "12",
@@ -657,7 +657,7 @@
         {
           "code": "16",
           "label_zh": "南投縣偏遠地區(仁愛鄉、信義鄉、魚池鄉、中寮鄉、國姓鄉)",
-          "label_en": ""
+          "label_en": "Nantou County Remote Areas (Renai Township, Xinyi Township, Yuchi Township, Zhongliao Township, Guoxian Township)"
         },
         {
           "code": "17",
@@ -677,7 +677,7 @@
         {
           "code": "20",
           "label_zh": "嘉義縣偏遠地區(阿里山鄉、番路鄉、大埔鄉)",
-          "label_en": ""
+          "label_en": "chiayi county remote areas (alis mountain township, fanlu township, dapu township)"
         },
         {
           "code": "21",
@@ -687,7 +687,7 @@
         {
           "code": "22",
           "label_zh": "臺南市偏遠地區(楠西區、南化區、左鎮區、龍崎區)",
-          "label_en": ""
+          "label_en": "taiwan southern city remote areas (nanxi district, nanhua district, zhuazhen district, longqi district)"
         },
         {
           "code": "23",
@@ -737,7 +737,7 @@
         {
           "code": "33",
           "label_zh": "連江縣 版本日期：2026/06/26",
-          "label_en": ""
+          "label_en": "lianjiang county version date: 2026/06/26"
         }
       ],
       "field_en": "residential list"
@@ -808,7 +808,7 @@
         {
           "code": "2",
           "label_zh": "計畫流水號 CA110_ID Num 8",
-          "label_en": ""
+          "label_en": "plan sequence number CA110_ID Num 8"
         },
         {
           "code": "3",
@@ -833,7 +833,7 @@
         {
           "code": "2",
           "label_zh": "SB300V2流水號 SB300V2_ID Num 8",
-          "label_en": ""
+          "label_en": "SB300V2流水號 SB300V2_ID Num 8"
         },
         {
           "code": "3",
@@ -853,7 +853,7 @@
         {
           "code": "512",
           "label_zh": "KB (110年) 檔案大小 欄位數 4",
-          "label_en": ""
+          "label_en": "KB (2021) File Size Field Count 4"
         },
         {
           "code": "576",
@@ -868,7 +868,7 @@
         {
           "code": "2",
           "label_zh": "個案主檔流水號 CA100_ID Num 8",
-          "label_en": ""
+          "label_en": "case master file sequence number CA100_ID Num 8"
         },
         {
           "code": "3",
@@ -913,12 +913,12 @@
         {
           "code": "2",
           "label_zh": "個案主檔流水號 CA100_ID Num 8",
-          "label_en": ""
+          "label_en": "case master file sequence number CA100_ID Num 8"
         },
         {
           "code": "3",
           "label_zh": "計畫流水號 CA110_ID Num 8 1：可提供服務",
-          "label_en": ""
+          "label_en": "plan ID CA110_ID Num 8 1: Service available"
         },
         {
           "code": "4",
@@ -933,7 +933,7 @@
         {
           "code": "6",
           "label_zh": "機構端回復日 PROCESS_DT Num 8",
-          "label_en": ""
+          "label_en": "institutional_reply_date PROCESS_DT Num 8"
         },
         {
           "code": "7",
@@ -948,12 +948,12 @@
         {
           "code": "2",
           "label_zh": "計畫流水號 CA110_ID Num 8",
-          "label_en": ""
+          "label_en": "plan sequence number CA110_ID Num 8"
         },
         {
           "code": "3",
           "label_zh": "照會單流水號 QD111_ID Num 8",
-          "label_en": ""
+          "label_en": "consultation form serial number QD111_ID Num 8"
         },
         {
           "code": "4",
@@ -978,17 +978,17 @@
         {
           "code": "2",
           "label_zh": "個案流水號 CA100_ID Num 8",
-          "label_en": ""
+          "label_en": "case ID CA100_ID Num 8"
         },
         {
           "code": "3",
           "label_zh": "計畫流水號 CA110_ID Num 8",
-          "label_en": ""
+          "label_en": "plan sequence number CA110_ID Num 8"
         },
         {
           "code": "4",
           "label_zh": "輔具項目流水號 QD100_ID Num 8 0：停用",
-          "label_en": ""
+          "label_en": "Assistive device item serial number QD100_ID Num 8 0: Deactivated"
         },
         {
           "code": "5",
@@ -998,7 +998,7 @@
         {
           "code": "6",
           "label_zh": "數量 AMOUNT Num 8 0：未核定",
-          "label_en": ""
+          "label_en": "quantity AMOUNT Num 8 0：not approved"
         },
         {
           "code": "7",
@@ -1013,7 +1013,7 @@
         {
           "code": "9",
           "label_zh": "核定日期 CHECK_DT Num 8",
-          "label_en": ""
+          "label_en": "Approved date CHECK_DT Num 8"
         },
         {
           "code": "10",

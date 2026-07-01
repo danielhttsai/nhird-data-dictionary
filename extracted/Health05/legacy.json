@@ -38,7 +38,7 @@
         }
       ],
       "name_zh_en": "expense year month",
-      "description_en": ""
+      "description_en": "YYYYMM. Starting from 2017, the field format is numeric with a length of 8 digits."
     },
     {
       "seq": 2,
@@ -88,7 +88,7 @@
         }
       ],
       "name_zh_en": "sequence number",
-      "description_en": ""
+      "description_en": "from 2007, field format is numeric, length is 8 digits."
     },
     {
       "seq": 6,
@@ -182,7 +182,7 @@
       "description_zh": "小數點需填載，取至小數點下一位，第 二位四捨五入",
       "available_notes": [],
       "name_zh_en": "quantity of medical order",
-      "description_en": ""
+      "description_en": "decimal point should be filled, rounded to the second digit after the decimal point"
     },
     {
       "seq": 14,
@@ -193,7 +193,7 @@
       "description_zh": "小數點需填載，取至小數點下二位，第 三位四捨五入",
       "available_notes": [],
       "name_zh_en": "unit price of medical order",
-      "description_en": ""
+      "description_en": "decimal point should be filled, rounded to the third digit after the decimal point"
     },
     {
       "seq": 15,
@@ -204,7 +204,7 @@
       "description_zh": "數量乘單價，加成計算，四捨五入取整 數。",
       "available_notes": [],
       "name_zh_en": "point of medical order",
-      "description_en": ""
+      "description_en": "unit price multiplied, rounded off to the nearest whole number."
     },
     {
       "seq": 16,
@@ -367,7 +367,7 @@
         {
           "code": "7",
           "label_zh": "愛滋病確診服藥滿2年後案件(106.2.4 新增)",
-          "label_en": ""
+          "label_en": "AIDS confirmed medication for 2 years or more cases (added on Feb 4, 106)"
         },
         {
           "code": "A1",
@@ -568,7 +568,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "County municipal hospital 2 County municipal hospital 2 County municipal hospital 2 County municipal hospital"
         },
         {
           "code": "4",
@@ -583,7 +583,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "Veteran Hospital 6 Veteran Hospital 6 Veteran Hospital 6 Veteran Hospital"
         },
         {
           "code": "7",
@@ -718,7 +718,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "non-profit clinic revised on January 27, 2026"
         },
         {
           "code": "41",
@@ -828,7 +828,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23"
         },
         {
           "code": "24",
@@ -913,12 +913,12 @@
         {
           "code": "42",
           "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
-          "label_en": ""
+          "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "43",
           "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
-          "label_en": ""
+          "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "77",
@@ -988,12 +988,12 @@
         {
           "code": "1Y",
           "label_zh": "語言治療所(99年新增) 私立語言治療所",
-          "label_en": ""
+          "label_en": "private speech therapy clinic (added in 99th year)"
         },
         {
           "code": "2Y",
           "label_zh": "牙體技術所(99年新增) 私立牙體技術所",
-          "label_en": ""
+          "label_en": "dental technology institution (added in 2010) private dental technology institution"
         },
         {
           "code": "3Y",
@@ -1003,7 +1003,7 @@
         {
           "code": "4Y",
           "label_zh": "居家呼吸照護所(101年新增) 私立居家呼吸照護所",
-          "label_en": ""
+          "label_en": "home respiratory care facility (added in 101)"
         },
         {
           "code": "5Y",
@@ -1084,7 +1084,7 @@
         {
           "code": "TID",
           "label_zh": "每日三次 BID&HS 每日二次且睡前一次",
-          "label_en": ""
+          "label_en": "three times daily BID&HS twice daily and once before bedtime"
         },
         {
           "code": "QID",
@@ -1094,7 +1094,7 @@
         {
           "code": "HS",
           "label_zh": "睡前一次 TID&HS 每日三次且睡前一次",
-          "label_en": ""
+          "label_en": "once before bedtime TID&HS three times daily and once before bedtime"
         },
         {
           "code": "AC",
@@ -1220,7 +1220,7 @@
         {
           "code": "IVI",
           "label_zh": "玻璃体內注射 2026年01月27日修訂 代碼 名稱 備註",
-          "label_en": ""
+          "label_en": "vitrectomy revised on January 27, 2026 code name notes"
         },
         {
           "code": "IVP",

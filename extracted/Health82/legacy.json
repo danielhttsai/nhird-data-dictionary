@@ -179,7 +179,7 @@
       "description_zh": "0：身分證字號符合編碼原 則 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：ID Number符合编码原则 1：不符合"
     },
     {
       "seq": 14,
@@ -203,7 +203,7 @@
       "description_zh": "1：男性，2：女性 (無死因資料者，此欄空白)",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1:male, 2:female (if no cause of death data, this field is blank)"
     },
     {
       "seq": 16,
@@ -215,7 +215,7 @@
       "description_zh": "西元年月YYYYMM (無死因資料者，此欄空白)",
       "available_notes": [],
       "name_zh_en": "birth year and month",
-      "description_en": ""
+      "description_en": "year-month YYYYMM (no cause of death data, this field blank)"
     },
     {
       "seq": 17,
@@ -227,7 +227,7 @@
       "description_zh": "西元YYYYMMDD (無死因資料者，此欄空白)",
       "available_notes": [],
       "name_zh_en": "Date of Death",
-      "description_en": ""
+      "description_en": "year-month-day YYYYMMDD (no cause of death data, this field blank)"
     },
     {
       "seq": 18,
@@ -245,7 +245,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": ""
+      "description_en": "ICD9 codes from 1970 to 1996 (blank if no cause of death data)"
     },
     {
       "seq": 19,
@@ -287,7 +287,7 @@
       "description_zh": "單一癌症者，此欄為 0；多發 者為順序。",
       "available_notes": [],
       "name_zh_en": "Record Order",
-      "description_en": ""
+      "description_en": "for single cancer cases, this column is 0; for multiple cases, it's in sequence."
     },
     {
       "seq": 22,
@@ -323,7 +323,7 @@
       "description_zh": "依newca2統計每一 IDNO 的癌症類別次數。",
       "available_notes": [],
       "name_zh_en": "number of cancer categories",
-      "description_en": ""
+      "description_en": "Count the number of cancer categories for each IDNO according to newca2."
     },
     {
       "seq": 25,
@@ -370,7 +370,7 @@
       "source": "本檔自訂",
       "description_zh": "0：存活(無死因紀錄)； 1：死亡(有死因紀錄)； 9：未知(沒有串到死因檔、 門急診、住院、承保檔)。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether overall survival event occurred",
       "description_en": ""
     },
     {
@@ -383,7 +383,7 @@
       "description_zh": "0：不符合；1：符合。詳欄位 (變項)譯碼(三)紀錄檢誤。",
       "available_notes": [],
       "name_zh_en": "Record Error",
-      "description_en": ""
+      "description_en": "0: Does not apply; 1: Applies. See field (variable) coding (three) for error recording."
     },
     {
       "seq": 30,
@@ -491,7 +491,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates not the patient's first"
     },
     {
       "seq": 39,
@@ -610,7 +610,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether there is Rheumatic disease (RD)",
       "description_en": ""
     },
     {

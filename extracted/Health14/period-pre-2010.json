@@ -43,7 +43,7 @@
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": ""
+      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
     },
     {
       "seq": 3,
@@ -76,7 +76,7 @@
       "description_zh": "詳欄位(變項)譯碼(二)【個案分類 (CLASS)對照表】。",
       "available_notes": [],
       "name_zh_en": "case classification",
-      "description_en": ""
+      "description_en": "Detailed field (variable) coding (two) 【case classification (CLASS)对照表】."
     },
     {
       "seq": 6,
@@ -175,7 +175,7 @@
       "description_zh": "YYYYMMDD：指此癌症最早顯微鏡 檢證實的日期。",
       "available_notes": [],
       "name_zh_en": "First microscopic examination date",
-      "description_en": ""
+      "description_en": "YYYYMMDD: The date when this cancer was first confirmed by microscopic examination."
     },
     {
       "seq": 15,
@@ -845,7 +845,7 @@
       "length": 2,
       "description_zh": "記錄個案在申報醫院首次治療時，給 予骨髓/幹細胞移植或內分泌治療情 形，詳欄位(變項)譯碼(四十三)【申報 醫院骨髓/幹細胞移植或內分泌治療 （BM）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "hospital bone marrow/gem cell transplantation or endocrine therapy",
       "description_en": ""
     },
     {
@@ -856,7 +856,7 @@
       "length": 8,
       "description_zh": "詳欄位(變項)譯碼(四十四)【申報醫院 骨髓/幹細胞移植或內分泌治療開始 日期（BM_DT）】。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Date of Start for Bone Marrow/Cord Blood Transplant or Endocrine Treatment",
       "description_en": ""
     },
     {
@@ -923,7 +923,7 @@
       "description_zh": "記錄個案於最後聯絡或死亡日期時候 有無癌症存在。",
       "available_notes": [],
       "name_zh_en": "cancer status",
-      "description_en": ""
+      "description_en": "Record whether cancer exists for the case as of the last contact or date of death."
     },
     {
       "seq": 83,
@@ -967,7 +967,7 @@
       "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身分證字號符合編碼原則， 1：不符合"
     },
     {
       "seq": 87,
@@ -1011,5 +1011,5 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": ""
+  "name_zh_en": "cancer registration long form LF (2007-2010)"
 }

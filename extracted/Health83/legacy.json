@@ -95,7 +95,7 @@
       "description_zh": "0：無；1：乳房 良性相關疾 病；2：乳癌；3： 其他癌症",
       "available_notes": [],
       "name_zh_en": "疾病史-有無得過下列疾病",
-      "description_en": ""
+      "description_en": "0: None; 1: Benign breast disease; 2: Breast cancer; 3: Other cancers"
     },
     {
       "seq": 7,
@@ -564,7 +564,7 @@
       "description_zh": "0：身分證字號 符合編碼原 則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0: ID card number conforms to coding rules; 1: does not conform"
     },
     {
       "seq": 48,
@@ -597,7 +597,7 @@
       "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的體重 (公斤)",
       "available_notes": [],
       "name_zh_en": "weight2",
-      "description_en": ""
+      "description_en": "weight (kg) field added to the breast imaging data cleaning file after整理"
     },
     {
       "seq": 51,
@@ -608,7 +608,7 @@
       "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的身高 (公分)",
       "available_notes": [],
       "name_zh_en": "height2",
-      "description_en": ""
+      "description_en": "height (cm) field added to the breast imaging data cleaning file after整理"
     },
     {
       "seq": 52,
@@ -734,7 +734,7 @@
         {
           "code": "3",
           "label_zh": "原始檔性別 SEX Char 1 女；9：不詳",
-          "label_en": ""
+          "label_en": "original gender SEX Char 1 female;9: not specified"
         },
         {
           "code": "4",
@@ -744,7 +744,7 @@
         {
           "code": "5",
           "label_zh": "性別 SICKID_S Char 1 不詳 0：身分證字號符",
-          "label_en": ""
+          "label_en": "Gender SICKID_S Char 1 Unknown 0: ID number check digit"
         },
         {
           "code": "6",
@@ -759,22 +759,22 @@
         {
           "code": "1",
           "label_zh": "支付方式 Q_FILETYPE Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "Payment_method Q_FILETYPE Char 1 Detail_code_description"
         },
         {
           "code": "2",
           "label_zh": "乳攝車 CAR Char 1 0：否；1：是",
-          "label_en": ""
+          "label_en": "Breast Cancer Screening 0: No; 1: Yes"
         },
         {
           "code": "3",
           "label_zh": "教育程度 Q_EDU Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "Education level Q_EDU Char 1 Detailed code explanation"
         },
         {
           "code": "4",
           "label_zh": "身高 Q_HIGH Char 17 112年長度18",
-          "label_en": ""
+          "label_en": "Height Q_HIGH Char 17 2011 Length 18"
         },
         {
           "code": "5",
@@ -789,67 +789,67 @@
         {
           "code": "7",
           "label_zh": "Q_2 Char 1 0：無；1：有 屬中，有無人得過癌症",
-          "label_en": ""
+          "label_en": "Q_2 Char 1 0: No; 1: Yes Whether anyone in the family has had cancer"
         },
         {
           "code": "8",
           "label_zh": "家族史-母親數 Q_2_MONTHER Num 8",
-          "label_en": ""
+          "label_en": "family history-mother count Q_2_MONTHER Num 8"
         },
         {
           "code": "9",
           "label_zh": "家族史-姊妹 Q_2_SISTER Num 8",
-          "label_en": ""
+          "label_en": "sister Q_2_SISTER Num 8"
         },
         {
           "code": "10",
           "label_zh": "家族史-女兒 Q_2_DAUGHTER Num 8",
-          "label_en": ""
+          "label_en": "Family history - daughter Q_2_DAUGHTER Num 8"
         },
         {
           "code": "11",
           "label_zh": "家族史-祖母 Q_2_GRANDMA Num 8",
-          "label_en": ""
+          "label_en": "family history - grandmother Q_2_GRANDMA Num 8"
         },
         {
           "code": "12",
           "label_zh": "家族史-外祖母 Q_2_GRANDMA1 Num 8",
-          "label_en": ""
+          "label_en": "Family history - maternal grandmother Q_2_GRANDMA1 Num 8"
         },
         {
           "code": "13",
           "label_zh": "家族史-姑姑 Q_2_AUNT1 Num 8 112年無",
-          "label_en": ""
+          "label_en": "family history-aunt Q_2_AUNT1 Num 8 no data in 2023"
         },
         {
           "code": "14",
           "label_zh": "家族史-阿姨 Q_2_AUNT2 Num 8 112年無",
-          "label_en": ""
+          "label_en": "family history-auntie Q_2_AUNT2 Num 8 no data in 2023"
         },
         {
           "code": "15",
           "label_zh": "月經史-初經年齡 Q_3_S Num 8",
-          "label_en": ""
+          "label_en": "menstrual history - age at menarche Q_3_S Num 8"
         },
         {
           "code": "16",
           "label_zh": "月經史-是否停經 Q_3F Char 1 0：否；1：是",
-          "label_en": ""
+          "label_en": "Menstrual history - whether menopause Q_3F Char 1 0: no; 1: yes"
         },
         {
           "code": "17",
           "label_zh": "月經史-停經年齡 Q_3_E Num 8",
-          "label_en": ""
+          "label_en": "menstrual history - age at menopause Q_3_E Num 8"
         },
         {
           "code": "18",
           "label_zh": "月經史-停經原因 Q_3 Num 8 詳譯碼說明",
-          "label_en": ""
+          "label_en": "menstrual history - menopause cause Q_3 Num 8 detailed code explanation"
         },
         {
           "code": "19",
           "label_zh": "生育史-生育次數 Q_4_TIMES Num 8",
-          "label_en": ""
+          "label_en": "Fertility history - number of pregnancies Q_4_TIMES Num 8"
         },
         {
           "code": "20",
@@ -864,17 +864,17 @@
         {
           "code": "22",
           "label_zh": "Q_5_S Char 1 0：否；1：是 補充劑",
-          "label_en": ""
+          "label_en": "Q_5_S Char 1 0: no; 1: yes 补充剂"
         },
         {
           "code": "23",
           "label_zh": "用藥史-幾歲開始(荷) Q_5_SAGE Num 8",
-          "label_en": ""
+          "label_en": "age started taking medication (male) Q_5_SAGE Num 8"
         },
         {
           "code": "24",
           "label_zh": "用藥史-服用幾年(荷) Q_5_SYEAR Char 21",
-          "label_en": ""
+          "label_en": "medication history-taken for how many years (Q_5_SYEAR) Char 21"
         },
         {
           "code": "25",
@@ -884,7 +884,7 @@
         {
           "code": "26",
           "label_zh": "用藥史-幾歲開始(避) Q_5_MAGE Num 8",
-          "label_en": ""
+          "label_en": "age started taking medication (female) Q_5_MAGE Num 8"
         },
         {
           "code": "27",
@@ -919,7 +919,7 @@
         {
           "code": "33",
           "label_zh": "Q_SURGERY Char 1 T：是；F：否 術",
-          "label_en": ""
+          "label_en": "Q_SURGERY Char 1 T：是；F：否 Surgery"
         },
         {
           "code": "34",
@@ -944,22 +944,22 @@
         {
           "code": "38",
           "label_zh": "乳攝日期 PH_PHOTODATE Char 10",
-          "label_en": ""
+          "label_en": "Mammography date PH_PHOTODATE Char 10"
         },
         {
           "code": "39",
           "label_zh": "攝影機機型 PH_MACHINE Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "camera model PH_MACHINE Char 1 detailed code explanation"
         },
         {
           "code": "40",
           "label_zh": "觸診結果 PH_HRESULT Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "palpation result PH_HRESULT Char 1 Detailed code explanation"
         },
         {
           "code": "41",
           "label_zh": "乳腺組成 PH_PDATA Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "breast composition PH_PDATA Char 1 detailed code explanation"
         },
         {
           "code": "42",
@@ -974,7 +974,7 @@
         {
           "code": "44",
           "label_zh": "乳攝結果 PH_RESULT Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "mammography result PH_RESULT Char 1 detailed code explanation"
         },
         {
           "code": "45",
@@ -1029,17 +1029,17 @@
         {
           "code": "2",
           "label_zh": "單位等級 UNIT_LEVEL Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "unit level UNIT_LEVEL Char 1 detailed code explanation"
         },
         {
           "code": "3",
           "label_zh": "單位所在區碼 UNIT_AREA Char 4",
-          "label_en": ""
+          "label_en": "unit area code UNIT_AREA Char 4"
         },
         {
           "code": "4",
           "label_zh": "醫院等級 UNIT_HLEVEL Char 1 詳譯碼說明",
-          "label_en": ""
+          "label_en": "Hospital level UNIT_HLEVEL Char 1 detailed code explanation"
         },
         {
           "code": "5",
@@ -1235,7 +1235,7 @@
         {
           "code": "2",
           "label_zh": "Mildly dense (105/5/1移除)",
-          "label_en": ""
+          "label_en": "Mildly dense (105/5/1移除)"
         },
         {
           "code": "3",
@@ -1436,12 +1436,12 @@
         {
           "code": "0117",
           "label_zh": "台北市信義區 0329 台中市北屯區_軍",
-          "label_en": ""
+          "label_en": "Taipei City Xinyi District 0329 Taichung City Beigang District_Military"
         },
         {
           "code": "0118",
           "label_zh": "台北市中正區 0330 台中市北屯區_四",
-          "label_en": ""
+          "label_en": "Taipei City Zhongzheng District 0330 Taichung City Beigang District_4"
         },
         {
           "code": "0119",
@@ -1636,7 +1636,7 @@
         {
           "code": "0701",
           "label_zh": "高雄市鳳山區1 0736 高雄市前鎮區",
-          "label_en": ""
+          "label_en": "Kaohsiung City Fengshan District1 0736 Kaohsiung City Qinzhen District"
         },
         {
           "code": "0702",
@@ -1651,12 +1651,12 @@
         {
           "code": "0704",
           "label_zh": "高雄市美濃區 0739 高雄市三民區2",
-          "label_en": ""
+          "label_en": "Kaohsiung City Minnan District 0739 Kaohsiung City Sanmin District2"
         },
         {
           "code": "0705",
           "label_zh": "高雄市林園區 0740 高雄市鳳山區2",
-          "label_en": ""
+          "label_en": "kaohsiung city lingyuan district 0740 kaohsiung city fengshan district2"
         },
         {
           "code": "0706",
@@ -1926,7 +1926,7 @@
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3727 彰化縣彰化市東區",
-          "label_en": ""
+          "label_en": "Taichung County Tonglu Township 3727 Hsinchu County Hsinchu City Dong District"
         },
         {
           "code": "3511",
@@ -2136,7 +2136,7 @@
         {
           "code": "4009",
           "label_zh": "嘉義縣義竹鄉 4326 屏東縣三地門鄉",
-          "label_en": ""
+          "label_en": "Chiayi County Yizhutan Township 4326, Pingtung County Sanlimen Township"
         },
         {
           "code": "4010",
@@ -2176,12 +2176,12 @@
         {
           "code": "4017",
           "label_zh": "嘉義縣大埔鄉 4401 澎湖縣馬公市1",
-          "label_en": ""
+          "label_en": "Chiayi County Dapu Township 4401, Hualien County Magong City 1"
         },
         {
           "code": "4018",
           "label_zh": "嘉義縣阿里山鄉 4402 澎湖縣湖西鄉",
-          "label_en": ""
+          "label_en": "Chiayi County Alishan Township 4402, Hualien County Huaxi Township"
         },
         {
           "code": "4301",
@@ -2206,27 +2206,27 @@
         {
           "code": "4305",
           "label_zh": "屏東縣萬丹鄉 4407 澎湖縣馬公市2",
-          "label_en": ""
+          "label_en": "Pingtung County Wandan Township 4407 Hualien County Magong City2"
         },
         {
           "code": "4306",
           "label_zh": "屏東縣長治鄉 4408 澎湖縣馬公市3",
-          "label_en": ""
+          "label_en": "Pingtung County Changzhi Township 4408 Hualien County Magong City3"
         },
         {
           "code": "4307",
           "label_zh": "屏東縣麟洛鄉 4409 澎湖縣白沙鄉_吉貝",
-          "label_en": ""
+          "label_en": "Pingtung County Linluoxiang 4409 Penghu County Bashiaoxi_Jibe"
         },
         {
           "code": "4308",
           "label_zh": "屏東縣九如鄉 4410 澎湖縣白沙鄉_鳥嶼",
-          "label_en": ""
+          "label_en": "Pingtung County Jiuluxiang 4410 Penghu County Bashiaoxi_ Naiyue"
         },
         {
           "code": "4309",
           "label_zh": "屏東縣里港鄉 4411 澎湖縣望安鄉_將軍",
-          "label_en": ""
+          "label_en": "Pingtung County Ligangxiang 4411 Penghu County Wanganxi_ Jianggeng"
         },
         {
           "code": "4310",

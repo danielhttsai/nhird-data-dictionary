@@ -49,7 +49,7 @@
       "description_zh": "0：無；1：乳房良性相關疾 病；2：乳癌；3：其他癌症",
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
-      "description_en": ""
+      "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
     },
     {
       "seq": 3,
@@ -468,7 +468,7 @@
       "description_zh": "0：身分證字號符合編碼原 則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身分證字號符合編碼原 則；1：不符合"
     },
     {
       "seq": 34,
@@ -557,7 +557,7 @@
         }
       ],
       "name_zh_en": "mammography_date",
-      "description_en": ""
+      "description_en": "year-month-day YYYY-MM-DD 113 year length 10"
     },
     {
       "seq": 40,
@@ -837,7 +837,7 @@
         {
           "code": "2",
           "label_zh": "Mildly dense (105/5/1 移除)",
-          "label_en": ""
+          "label_en": "Mildly dense (105/5/1 removed)"
         },
         {
           "code": "3",
@@ -894,7 +894,7 @@
         {
           "code": "3",
           "label_zh": "無法獲知是否有舊片 2025年11月18日修訂",
-          "label_en": ""
+          "label_en": "Unable to determine if there was an old film 11/18/2025 revised"
         }
       ],
       "field_en": "reason for no old film"
@@ -987,7 +987,7 @@
         {
           "code": "4",
           "label_zh": "診所 其他代碼 不詳 2025年11月18日修訂",
-          "label_en": ""
+          "label_en": "Clinic Other Code Unavailable, revised on November 18, 2025"
         }
       ],
       "field_en": "hospital grade"
@@ -1038,12 +1038,12 @@
         {
           "code": "0117",
           "label_zh": "台北市信義區 0329 台中市北屯區_軍",
-          "label_en": ""
+          "label_en": "Taipei City Xinyi District 0329 Taichung City Beigang District_Military"
         },
         {
           "code": "0118",
           "label_zh": "台北市中正區 0330 台中市北屯區_四",
-          "label_en": ""
+          "label_en": "Taipei City Zhongzheng District 0330 Taichung City Beigang District_4"
         },
         {
           "code": "0119",
@@ -1238,7 +1238,7 @@
         {
           "code": "0701",
           "label_zh": "高雄市鳳山區 1 0736 高雄市前鎮區",
-          "label_en": ""
+          "label_en": "Kaohsiung City Fengshan District 1 0736 Kaohsiung City Qinzhen District"
         },
         {
           "code": "0702",
@@ -1253,12 +1253,12 @@
         {
           "code": "0704",
           "label_zh": "高雄市美濃區 0739 高雄市三民區2",
-          "label_en": ""
+          "label_en": "Kaohsiung City Minnan District 0739 Kaohsiung City Sanmin District2"
         },
         {
           "code": "0705",
           "label_zh": "高雄市林園區 0740 高雄市鳳山區2",
-          "label_en": ""
+          "label_en": "kaohsiung city lingyuan district 0740 kaohsiung city fengshan district2"
         },
         {
           "code": "0706",
@@ -1528,7 +1528,7 @@
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3727 彰化縣彰化市東區",
-          "label_en": ""
+          "label_en": "Taichung County Tonglu Township 3727 Hsinchu County Hsinchu City Dong District"
         },
         {
           "code": "3511",
@@ -1738,7 +1738,7 @@
         {
           "code": "4009",
           "label_zh": "嘉義縣義竹鄉 4326 屏東縣三地門鄉",
-          "label_en": ""
+          "label_en": "Chiayi County Yizhutan Township 4326, Pingtung County Sanlimen Township"
         },
         {
           "code": "4010",
@@ -1778,12 +1778,12 @@
         {
           "code": "4017",
           "label_zh": "嘉義縣大埔鄉 4401 澎湖縣馬公市1",
-          "label_en": ""
+          "label_en": "Chiayi County Dapu Township 4401, Hualien County Magong City 1"
         },
         {
           "code": "4018",
           "label_zh": "嘉義縣阿里山鄉 4402 澎湖縣湖西鄉",
-          "label_en": ""
+          "label_en": "Chiayi County Alishan Township 4402, Hualien County Huaxi Township"
         },
         {
           "code": "4301",
@@ -1808,27 +1808,27 @@
         {
           "code": "4305",
           "label_zh": "屏東縣萬丹鄉 4407 澎湖縣馬公市2",
-          "label_en": ""
+          "label_en": "Pingtung County Wandan Township 4407 Hualien County Magong City2"
         },
         {
           "code": "4306",
           "label_zh": "屏東縣長治鄉 4408 澎湖縣馬公市3",
-          "label_en": ""
+          "label_en": "Pingtung County Changzhi Township 4408 Hualien County Magong City3"
         },
         {
           "code": "4307",
           "label_zh": "屏東縣麟洛鄉 4409 澎湖縣白沙鄉_吉貝",
-          "label_en": ""
+          "label_en": "Pingtung County Linluoxiang 4409 Penghu County Bashiaoxi_Jibe"
         },
         {
           "code": "4308",
           "label_zh": "屏東縣九如鄉 4410 澎湖縣白沙鄉_鳥嶼",
-          "label_en": ""
+          "label_en": "Pingtung County Jiuluxiang 4410 Penghu County Bashiaoxi_ Naiyue"
         },
         {
           "code": "4309",
           "label_zh": "屏東縣里港鄉 4411 澎湖縣望安鄉_將軍",
-          "label_en": ""
+          "label_en": "Pingtung County Ligangxiang 4411 Penghu County Wanganxi_ Jianggeng"
         },
         {
           "code": "4310",
@@ -1983,12 +1983,12 @@
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮 0212 高雄市三民區2",
-          "label_en": ""
+          "label_en": "golden gate county jinsha town 0212 kaohsiung city sanmin district2"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉 1709 台中市北屯區_四",
-          "label_en": ""
+          "label_en": "Kinmen County Jinning Township 1709 Taichung City Beixun District"
         },
         {
           "code": "9005",
@@ -1998,7 +1998,7 @@
         {
           "code": "9006",
           "label_zh": "金門縣金湖鎮 3622 台中市和平區2",
-          "label_en": ""
+          "label_en": "jinmen county jinhua town 3622 taichung city heping district2"
         },
         {
           "code": "9007",

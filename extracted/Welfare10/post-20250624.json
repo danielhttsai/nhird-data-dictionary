@@ -32,7 +32,7 @@
       "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "Encrypted. National ID number or alien resident certificate number."
     },
     {
       "seq": 2,
@@ -71,7 +71,7 @@
         }
       ],
       "name_zh_en": "Before and After ROC Era",
-      "description_en": ""
+      "description_en": "Added starting from 2014. Y: Before ROC N: After ROC"
     },
     {
       "seq": 5,
@@ -82,7 +82,7 @@
       "description_zh": "出生年月(年3碼+月2碼) 民國年月YYYMM",
       "available_notes": [],
       "name_zh_en": "birthday",
-      "description_en": ""
+      "description_en": "date of birth (3 digits year + 2 digits month) ROC year YYYYMM"
     },
     {
       "seq": 6,
@@ -93,7 +93,7 @@
       "description_zh": "民國年月日YYYMMDD 定義：截至目前辦理的鑑定日期",
       "available_notes": [],
       "name_zh_en": "latest assessment date",
-      "description_en": ""
+      "description_en": "ROC date YYYYMMDD definition: as of the certification date to date"
     },
     {
       "seq": 7,
@@ -126,7 +126,7 @@
       "description_zh": "1：極重度 2：重度 3：中度 4：輕度 5：未符合鑑定資格",
       "available_notes": [],
       "name_zh_en": "disability category level",
-      "description_en": ""
+      "description_en": "1: Severe 2: Moderate 3: Mild 4: None 5: Unqualified for Assessment"
     },
     {
       "seq": 10,
@@ -154,7 +154,7 @@
         }
       ],
       "name_zh_en": "new disability category",
-      "description_en": ""
+      "description_en": "Added starting from 2018. Comma-separated, detailed translation code explanation"
     },
     {
       "seq": 12,
@@ -233,7 +233,7 @@
         }
       ],
       "name_zh_en": "reason for cancellation",
-      "description_en": ""
+      "description_en": "Added from 2018. Detailed code explanation (missing values 93%)"
     },
     {
       "seq": 17,
@@ -250,7 +250,7 @@
         }
       ],
       "name_zh_en": "date of cancellation",
-      "description_en": ""
+      "description_en": "Added starting from 106. Year-month-day YYYMMDD (missing values 93%)"
     },
     {
       "seq": 18,
@@ -267,7 +267,7 @@
         }
       ],
       "name_zh_en": "living allowance for people with disabilities",
-      "description_en": ""
+      "description_en": "Added from 107 year. Refers to the monthly amount of living allowance received by people with disabilities (New Taiwan Dollars)"
     },
     {
       "seq": 19,

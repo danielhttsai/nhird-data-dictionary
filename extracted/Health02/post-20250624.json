@@ -54,7 +54,7 @@
       "description_zh": "1：送核 2：補報 4：申復送核 5：申復補報。",
       "available_notes": [],
       "name_zh_en": "reporting category",
-      "description_en": ""
+      "description_en": "1: submitted for review; 2: supplementary report; 4: resubmit for review; 5: resubmit for supplementary report."
     },
     {
       "seq": 4,
@@ -76,7 +76,7 @@
       "description_zh": "詳案件分類（CASE_TYPE）譯碼 說明。",
       "available_notes": [],
       "name_zh_en": "Case Category",
-      "description_en": ""
+      "description_en": "detailed case classification CASE_TYPE code explanation."
     },
     {
       "seq": 6,
@@ -120,7 +120,7 @@
       "description_zh": "詳見欄位給付類別（PAY_TYPE） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": ""
+      "description_en": "details of payment category (PAY_TYPE) translation code explanation"
     },
     {
       "seq": 10,
@@ -231,7 +231,7 @@
       "description_zh": "經加密處理，醫師或原處方醫師之 身分證字號或外籍居留證號。",
       "available_notes": [],
       "name_zh_en": "physician ID number",
-      "description_en": ""
+      "description_en": "Encrypted, physician or original prescriber's ID number or foreign resident permit number."
     },
     {
       "seq": 18,
@@ -242,7 +242,7 @@
       "description_zh": "詳情請於健保署之醫事機構專區 網頁查詢。",
       "available_notes": [],
       "name_zh_en": "DRG reference code",
-      "description_en": ""
+      "description_en": "for details please visit the medical institutions section on the MOHCS website."
     },
     {
       "seq": 19,
@@ -693,7 +693,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (acute inpatient days 31-60)",
       "description_en": ""
     },
     {
@@ -759,7 +759,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (chronic inpatient days 31-90)",
       "description_en": ""
     },
     {
@@ -781,7 +781,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic bed 91-180 days)",
       "description_en": ""
     },
     {
@@ -803,7 +803,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (chronic inpatient days 181+)",
       "description_en": ""
     },
     {
@@ -921,7 +921,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "description_en": "0：身分證字號符合編碼原則 1：不符合。"
     },
     {
       "seq": 75,
@@ -943,7 +943,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
       "name_zh_en": "physician ID number error",
-      "description_en": ""
+      "description_en": "0：身分證字號符合編碼原則 1：不符合。"
     },
     {
       "seq": 77,
@@ -1047,7 +1047,7 @@
         {
           "code": "C2",
           "label_zh": "結核病痰抹片陽性個案住院<=14天內案件(算進不算 出)。",
-          "label_en": ""
+          "label_en": "Tuberculosis sputum smear positive cases inpatient <=14 days within case (count in but not out)."
         },
         {
           "code": "C3",
@@ -1093,7 +1093,7 @@
         {
           "code": "6",
           "label_zh": "自然生產 保險對象不符醫療上適應症而自行要求施",
-          "label_en": ""
+          "label_en": "natural delivery insured party did not meet medical indications but requested it on their own"
         },
         {
           "code": "7",
@@ -1118,7 +1118,7 @@
         {
           "code": "C",
           "label_zh": "全民健康保險糖尿病醫療給付改善方案 90.11",
-          "label_en": ""
+          "label_en": "National Health Insurance Diabetes Medical Improvement Plan 90.11"
         },
         {
           "code": "D",
@@ -1128,7 +1128,7 @@
         {
           "code": "E",
           "label_zh": "全民健康保險氣喘醫療給付改善方案 90.11",
-          "label_en": ""
+          "label_en": "National Health Insurance Asthma Medical Payment Improvement Plan (effective since 11/90)"
         },
         {
           "code": "F",
@@ -1158,7 +1158,7 @@
         {
           "code": "K",
           "label_zh": "收容對象醫療服務計畫 102/1/1-102/12/31",
-          "label_en": ""
+          "label_en": "Inpatient Service Plan 102/01/01-102/12/31"
         },
         {
           "code": "M",
@@ -1173,7 +1173,7 @@
         {
           "code": "W",
           "label_zh": "行政協助法定傳染病通報且隔離案件 110/1/1起",
-          "label_en": ""
+          "label_en": "Administrative assistance for reporting and isolating cases of notifiable infectious diseases since 110/1/1"
         },
         {
           "code": "X",
@@ -1183,7 +1183,7 @@
         {
           "code": "Y",
           "label_zh": "八仙樂園粉塵爆燃事件 104.06.27增訂",
-          "label_en": ""
+          "label_en": "Eighteen Valley Amusement Park dust explosion incident (amended on 27.6.104)"
         },
         {
           "code": "Z",
@@ -1214,12 +1214,12 @@
         {
           "code": "A030",
           "label_zh": "A031 安全模組故障造成讀卡機無法使用",
-          "label_en": ""
+          "label_en": "A031 Security module failure causing card reader unusable"
         },
         {
           "code": "B000",
           "label_zh": "B001 卡片不良 (表面正常，晶片異常)",
-          "label_en": ""
+          "label_en": "B001 card malfunction (surface normal, chip abnormal)"
         },
         {
           "code": "C000",
@@ -1316,7 +1316,7 @@
         {
           "code": "5",
           "label_zh": "主或次診斷為衛生福利部公告之罕見疾病案件",
-          "label_en": ""
+          "label_en": "primary or secondary diagnosis is a rare disease announced by the Ministry of Health and Welfare"
         },
         {
           "code": "6",
@@ -1326,7 +1326,7 @@
         {
           "code": "7",
           "label_zh": "住院超過30日之個案(急性病床天數+慢性病天數>30天)",
-          "label_en": ""
+          "label_en": "Inpatient Stays Exceeding 30 Days (Acute Beddays + Chronic Beddays > 30 Days)"
         },
         {
           "code": "8",
@@ -1371,17 +1371,17 @@
         {
           "code": "G",
           "label_zh": "原應屬Tw-DRGs 範圍暫以論量計酬方式申報者。",
-          "label_en": ""
+          "label_en": "Originally within Tw-DRGs scope but temporarily reported under per-case payment method"
         },
         {
           "code": "H",
           "label_zh": "次要手術為尚未納入健保給付者 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "secondary手术为未纳入健保给付者 2026-01-27修订"
         },
         {
           "code": "J",
           "label_zh": "執行博動氣球植入術(費用年月103.07增訂)",
-          "label_en": ""
+          "label_en": "implementation of pulsatile balloon implantation procedure (fee year month added in 2014.07)"
         },
         {
           "code": "K",
@@ -1391,12 +1391,12 @@
         {
           "code": "L",
           "label_zh": "骨盆腔多器官重建手術之個案（費月年月104.01.01增訂）",
-          "label_en": ""
+          "label_en": "pelvic multi-organ reconstruction surgery case (effective from Jan 2010)"
         },
         {
           "code": "M",
           "label_zh": "HTA診察費等論量申報(費用年月104.02.15增訂)",
-          "label_en": ""
+          "label_en": "HTA consultation fees subject to volumetric billing (fees effective February 15, 2010)"
         },
         {
           "code": "N",
@@ -1572,7 +1572,7 @@
         {
           "code": "2",
           "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院",
-          "label_en": ""
+          "label_en": "County municipal hospital 2 County municipal hospital 2 County municipal hospital 2 County municipal hospital"
         },
         {
           "code": "4",
@@ -1587,7 +1587,7 @@
         {
           "code": "6",
           "label_zh": "榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院",
-          "label_en": ""
+          "label_en": "Veteran Hospital 6 Veteran Hospital 6 Veteran Hospital 6 Veteran Hospital"
         },
         {
           "code": "7",
@@ -1832,7 +1832,7 @@
         {
           "code": "23",
           "label_zh": "衛生所 23 衛生所 23 衛生所 23 衛生所",
-          "label_en": ""
+          "label_en": "health center 23 health center 23 health center 23 health center 23"
         },
         {
           "code": "24",
@@ -1917,12 +1917,12 @@
         {
           "code": "42",
           "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
-          "label_en": ""
+          "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "43",
           "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
-          "label_en": ""
+          "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "77",
@@ -1992,12 +1992,12 @@
         {
           "code": "1Y",
           "label_zh": "語言治療所(99年新增) 私立語言治療所",
-          "label_en": ""
+          "label_en": "private speech therapy clinic (added in 99th year)"
         },
         {
           "code": "2Y",
           "label_zh": "牙體技術所(99年新增) 私立牙體技術所",
-          "label_en": ""
+          "label_en": "dental technology institution (added in 2010) private dental technology institution"
         },
         {
           "code": "3Y",
@@ -2007,7 +2007,7 @@
         {
           "code": "4Y",
           "label_zh": "居家呼吸照護所(101年新增) 私立居家呼吸照護所",
-          "label_en": ""
+          "label_en": "home respiratory care facility (added in 101)"
         },
         {
           "code": "5Y",

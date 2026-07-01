@@ -247,8 +247,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Protected/victimized suspected disabled person - select other when filling out data",
+      "description_en": "Starting from 2018, no longer 35 characters as in 2012, changed to 36 characters"
     },
     {
       "seq": 13,
@@ -289,7 +289,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "protected/victim with disability certificate; select other when filling in data",
       "description_en": ""
     },
     {
@@ -306,7 +306,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "whether the protected/victim is a person with physical or mental disabilities and type of disability",
       "description_en": "108th year addition"
     },
     {
@@ -368,7 +368,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "suspected abuser/participant/suspect identity number",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "suspected abuser/relative/person suspected ID number error",
       "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
@@ -447,7 +447,7 @@
         }
       ],
       "name_zh_en": "party relationship category",
-      "description_en": ""
+      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
     },
     {
       "seq": 22,
@@ -554,7 +554,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Suspected abuser/relative/suspect - other information when selected",
       "description_en": ""
     },
     {
@@ -636,7 +636,7 @@
         }
       ],
       "name_zh_en": "child protection matters - child has the following behavior",
-      "description_en": ""
+      "description_en": "Optional; detailed code description: from 2018 no longer applicable for 2013, 2017 versions with length of 1"
     },
     {
       "seq": 29,
@@ -657,8 +657,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "child protection matter - anyone who commits any of the following acts against a child or adolescent",
+      "description_en": "multiple selections allowed; detailed translation in codes; no longer applicable since 2018, previously 15 digits for 2001"
     },
     {
       "seq": 30,
@@ -825,7 +825,7 @@
         }
       ],
       "name_zh_en": "Assault method (tool)",
-      "description_en": ""
+      "description_en": "Detailed code explanation added since 2018, lengths are 6 for 2010 and 2012"
     },
     {
       "seq": 40,
@@ -884,7 +884,7 @@
         {
           "code": "4",
           "label_zh": "電子遊戲場業從業人員 P 戶政人員 109年起修正",
-          "label_en": ""
+          "label_en": "Gaming venue employees P Household registration officers corrected starting from 2020"
         },
         {
           "code": "5",
@@ -1006,17 +1006,17 @@
         {
           "code": "9",
           "label_zh": "本國籍原住民－賽德克 N 本國籍原住民－賽夏",
-          "label_en": ""
+          "label_en": "indigenous people in Taiwan - Sedik"
         },
         {
           "code": "A",
           "label_zh": "本國籍非原住民 O 本國籍原住民－阿美",
-          "label_en": ""
+          "label_en": "Citizen - Non-indigenous O Indigenous - Ami"
         },
         {
           "code": "B",
           "label_zh": "本國籍原住民－其他 P 本國籍原住民－魯凱",
-          "label_en": ""
+          "label_en": "indigenous people of the country - other P indigenous people of the country - Rukai"
         },
         {
           "code": "C",
@@ -1026,7 +1026,7 @@
         {
           "code": "D",
           "label_zh": "港澳籍 R 本國籍原住民－達悟（雅美）",
-          "label_en": ""
+          "label_en": "Hong Kong/Macau residents / Indigenous people of Taiwan - Tao Yü (Yami)"
         },
         {
           "code": "E",
@@ -1051,7 +1051,7 @@
         {
           "code": "I",
           "label_zh": "外國籍－其他 W 本國籍原住民－噶瑪蘭",
-          "label_en": ""
+          "label_en": "foreign other W indigenous people of Gaamasan"
         },
         {
           "code": "J",
@@ -1066,12 +1066,12 @@
         {
           "code": "L",
           "label_zh": "本國籍原住民－布農 Z 本國籍原住民－撒奇萊雅",
-          "label_en": ""
+          "label_en": "Indigenous Residents in Taiwan - Bunun"
         },
         {
           "code": "M",
           "label_zh": "本國籍原住民－排灣 108年起參閱： 代碼 說明 代碼 說明",
-          "label_en": ""
+          "label_en": "Indigenous people of Taiwan - Paiwan starting from 2018: Code Description Code Description"
         },
         {
           "code": "A",
@@ -1112,7 +1112,7 @@
         {
           "code": "A",
           "label_zh": "學生 B 未入學 C 非學生 2026年05月28日修訂",
-          "label_en": ""
+          "label_en": "student B not enrolled C non-student revised on May 28, 2026"
         }
       ],
       "field_en": "educational status"
@@ -1143,7 +1143,7 @@
         {
           "code": "E",
           "label_zh": "照顧者 J 其他 2026年05月28日修訂",
-          "label_en": ""
+          "label_en": "caregiver J other 2026-05-28 revision"
         }
       ],
       "field_en": "relationship with minors"
@@ -1175,7 +1175,7 @@
         {
           "code": "C",
           "label_zh": "利用其從事有害健康等危險性活動或欺騙之行為",
-          "label_en": ""
+          "label_en": "engaging in activities harmful to health or fraudulent behavior"
         },
         {
           "code": "D",
@@ -1200,12 +1200,12 @@
         {
           "code": "H",
           "label_zh": "拐騙、綁架、買賣、質押，或以其為擔保之行為",
-          "label_en": ""
+          "label_en": "kidnapping, abduction, buying and selling, pledging, or using as collateral"
         },
         {
           "code": "I",
           "label_zh": "強迫、引誘、容留或媒介其為猥褻行為或性交",
-          "label_en": ""
+          "label_en": "forced, induced, harbored, or facilitated to engage in indecent acts or intercourse"
         },
         {
           "code": "J",
@@ -1220,12 +1220,12 @@
         {
           "code": "O",
           "label_zh": "迫使或誘使處於對其生命、身體易發生立即危險或傷害之環境",
-          "label_en": ""
+          "label_en": "Forcibly or诱使处于对其生命、身体易发生立即危险或伤害的环境"
         },
         {
           "code": "Z",
           "label_zh": "其他對兒童及少年或利用兒童及少年犯罪或為不正當之行為",
-          "label_en": ""
+          "label_en": "other offenses against children and adolescents or misuse of children and adolescents"
         }
       ],
       "field_en": "any person who commits acts against minors"
@@ -1260,7 +1260,7 @@
           "label_en": ""
         }
       ],
-      "field_en": ""
+      "field_en": "parents, guardians, or other persons actually caring for children and adolescents who have committed the following acts towards them"
     },
     "OCCURPLACE": {
       "field_zh": "主要發生場所",
@@ -1283,7 +1283,7 @@
         {
           "code": "D",
           "label_zh": "學校 K 社會福利/安置照顧機構/兒少安置機構",
-          "label_en": ""
+          "label_en": "school K social welfare/institutional care facility/adolescent placement institution"
         },
         {
           "code": "E",
@@ -1298,7 +1298,7 @@
         {
           "code": "G",
           "label_zh": "高級中等以下有提供住宿之學校 X 不詳",
-          "label_en": ""
+          "label_en": "secondary or lower schools with accommodation X not specified"
         }
       ],
       "field_en": "main occurrence location"
@@ -1330,12 +1330,12 @@
         {
           "code": "A",
           "label_zh": "持凶器或物品 J 假宗教之身分、場域或話術(天主教)",
-          "label_en": ""
+          "label_en": "With凶器or物品 J False religious identity, venue, or rhetoric (Catholicism)"
         },
         {
           "code": "B",
           "label_zh": "言語脅迫 K 假宗教之身分、場域或話術(其他)",
-          "label_en": ""
+          "label_en": "verbal coercion K using false religious identity, venue, or rhetoric (other)"
         },
         {
           "code": "C",
@@ -1350,7 +1350,7 @@
         {
           "code": "E",
           "label_zh": "趁被害人熟睡 N 餵食酒精、毒或不當藥物",
-          "label_en": ""
+          "label_en": "take advantage of victim's sleep N feed alcohol, poison or inappropriate drugs"
         },
         {
           "code": "F",
@@ -1365,7 +1365,7 @@
         {
           "code": "H",
           "label_zh": "假宗教之身分、場域或話術(佛神道教) Y 不詳",
-          "label_en": ""
+          "label_en": "religion fraud, religious venue or rhetoric (Buddhist, Taoist, or folk religion) Y not specified"
         },
         {
           "code": "I",
@@ -1381,7 +1381,7 @@
         {
           "code": "A",
           "label_zh": "兒少遭受身體不當對待 E 兒少遭受性侵害",
-          "label_en": ""
+          "label_en": "child or adolescent suffers from physical mistreatment E: child or adolescent suffers from sexual abuse"
         },
         {
           "code": "B",
@@ -1432,17 +1432,17 @@
         {
           "code": "I",
           "label_zh": "兒少應就醫而未就醫、延遲就醫或過度就醫，且有接受協助之需求。",
-          "label_en": ""
+          "label_en": "Children and adolescents who should have sought medical care but did not, delayed seeking medical care, or overused medical services, and had a need for assistance."
         },
         {
           "code": "J",
           "label_zh": "兒少父母(照顧者)剝奪、妨礙或影響兒少接受義務教育的機會。",
-          "label_en": ""
+          "label_en": "Childhood parents (caregivers) depriving, hindering or affecting the child's opportunity to receive compulsory education."
         },
         {
           "code": "K",
           "label_zh": "兒少飲食營養不良或看起來過度瘦弱、無精打采。",
-          "label_en": ""
+          "label_en": "childhood malnutrition or appears severely undernourished, lethargic."
         },
         {
           "code": "L",
@@ -1452,17 +1452,17 @@
         {
           "code": "M",
           "label_zh": "兒少經常乞食、偷食物，囤積食物、食用不新鮮食物。",
-          "label_en": ""
+          "label_en": "Minors frequently begging for food, stealing food, hoarding food, eating unfresh food."
         },
         {
           "code": "N",
           "label_zh": "兒少持續處於骯髒、不衛生或衣著不當的情況。",
-          "label_en": ""
+          "label_en": "children and adolescents continuously in dirty, unhygienic, or improperly dressed conditions."
         },
         {
           "code": "O",
           "label_zh": "兒少被診斷出來的病況是因營養不良所致或惡化。",
-          "label_en": ""
+          "label_en": "childhood conditions diagnosed due to malnutrition or exacerbated by it."
         },
         {
           "code": "P",
@@ -1487,7 +1487,7 @@
         {
           "code": "V",
           "label_zh": "使兒少坐檯陪酒或涉及色情伴遊、伴唱、伴舞等行為。",
-          "label_en": ""
+          "label_en": "Causing minors to sit at counters serving alcohol or engaging in sexual activities, prostitution-related behaviors."
         },
         {
           "code": "W",
@@ -1497,7 +1497,7 @@
         {
           "code": "X",
           "label_zh": "家外成員不當對待（含兒少親密關係暴力）。",
-          "label_en": ""
+          "label_en": "unjust treatment by non-household members (including child and adolescent intimate relationship violence)"
         },
         {
           "code": "Y",
