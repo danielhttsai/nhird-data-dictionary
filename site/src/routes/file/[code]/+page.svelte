@@ -321,6 +321,14 @@
                     {#if f.section}
                       <div class="text-[10px] text-slate-400 mt-1">§ {f.section}</div>
                     {/if}
+                    {#if f.refs?.length}
+                      <div class="mt-1 flex flex-col gap-0.5">
+                        {#each f.refs as r}
+                          <a href={r.url} target="_blank" rel="noreferrer"
+                             class="text-[11px] text-brand-700 hover:underline">📄 {r.label}</a>
+                        {/each}
+                      </div>
+                    {/if}
                   </td>
                   <td class="text-xs text-slate-600 max-w-xs whitespace-pre-line">
                     {#if codebooks?.[f.name_en]}

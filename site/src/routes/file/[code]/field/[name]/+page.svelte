@@ -59,6 +59,15 @@
           {/each}
         </div>
       {/if}
+      {#if latest.field.refs?.length}
+        <div class="col-span-2">
+          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Reference documents</div>
+          {#each latest.field.refs as r}
+            <a href={r.url} target="_blank" rel="noreferrer"
+               class="block text-sm text-brand-700 hover:underline">📄 {r.label}</a>
+          {/each}
+        </div>
+      {/if}
     </section>
 
     {#if latest.codebook && latest.codebook.entries?.length}
