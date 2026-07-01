@@ -19,13 +19,13 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import translate as T  # noqa: E402
 
 
-def run_pass(max_len, include_long, label):
+def run_pass(max_len, include_long, label, batch_size=12):
     cache = T.load_cache()
     strings = T.collect_strings(None, max_len=max_len, include_long=include_long)
     todo = [s for s in strings if T.sha(s) not in cache]
     todo.sort(key=len)
     print(f"[{label}] {len(strings)} strings, {len(todo)} to translate", flush=True)
-    BATCH = 12   # small batches → fast completion + frequent cache writes on CPU
+    BATCH = batch_size
     for i in range(0, len(todo), BATCH):
         batch = todo[i:i + BATCH]
         out = T.translate_batch(batch)
@@ -65,10 +65,11 @@ def deploy():
 def main():
     t0 = time.time()
     print("=== translation task start ===", flush=True)
-    # Pass 1: short strings (names + labels)
-    run_pass(max_len=30, include_long=False, label="short")
-    # Pass 2: everything incl. long descriptions
-    run_pass(max_len=None, include_long=True, label="long")
+    # Pass 1: short strings (names + labels) — 12 per batch
+    run_pass(max_len=30, include_long=False, label="short", batch_size=12)
+    # Pass 2: long descriptions — 6 per batch (large paragraphs overflow a
+    # 12-string batch's token budget on CPU and stall).
+    run_pass(max_len=None, include_long=True, label="long", batch_size=6)
     # Final stamp
     cache = T.load_cache()
     T.stamp_translations(cache, None)
