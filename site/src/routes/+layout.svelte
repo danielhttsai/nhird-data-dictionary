@@ -98,8 +98,16 @@
       </ul>
     </div>
     <div class="border-t border-slate-200">
-      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-4 text-xs text-slate-500">
-        Built and maintained by <a class="hover:underline text-brand-700" target="_blank" rel="noreferrer" href="https://danielhttsai.github.io/">Daniel Tsai</a>.
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-4 text-xs text-slate-500 leading-relaxed space-y-1">
+        <p>
+          Built and maintained by <a class="hover:underline text-brand-700" target="_blank" rel="noreferrer" href="https://danielhttsai.github.io/">Daniel Tsai</a>.
+          An independent reference compiled from publicly-available MOHW / HWDC database manuals —
+          <strong class="text-slate-600">not an official product of, affiliated with, or endorsed by</strong>
+          the Ministry of Health and Welfare or the Health and Welfare Data Center (HWDC).
+        </p>
+        <p>
+          本站為獨立整理之參考工具,內容取自衛生福利部公開之資料庫使用手冊。非官方產品,與衛生福利部及衛生福利資料中心(HWDC)無隸屬關係,亦未經其背書或授權。
+        </p>
       </div>
     </div>
   </footer>

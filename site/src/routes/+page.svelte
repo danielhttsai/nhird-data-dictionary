@@ -46,9 +46,12 @@
     NHIRD / HWDC <span class="text-brand-700">data dictionary</span>
   </h1>
   <p class="mt-5 text-lg text-slate-700 max-w-3xl leading-relaxed">
-    Every field in every public MOHW database manual — bilingual names, codebooks,
-    period of availability, and version diffs. Sourced directly from MOHW Department of Statistics
-    and refreshed weekly.
+    An <strong class="text-brand-700">independent</strong> reference to every field in every public
+    MOHW database manual — bilingual names, codebooks, period of availability, and version diffs.
+    Compiled from MOHW Department of Statistics documents.
+  </p>
+  <p class="mt-3 text-sm text-slate-500 max-w-3xl">
+    獨立整理的參考工具,非官方產品 · Not affiliated with or endorsed by MOHW / HWDC.
   </p>
   <div class="mt-6 flex flex-wrap gap-3">
     <a href="{base}/search" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow-sm">
