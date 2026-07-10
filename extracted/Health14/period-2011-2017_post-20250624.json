@@ -1243,7 +1243,7 @@
       "description_zh": "記錄與癌症預後和治療決策有關之癌 症部位特定因子，詳細編碼規則請參 考「癌症部位特定因子編碼手冊」，可 逕至台灣癌症登記中心網站[癌症登 記申報相關參考資料]處下載，網址： http://tcr.cph.ntu.edu.tw/main.php?Page =A6)。",
       "available_notes": [],
       "name_zh_en": "specific_factor_1_of_cancer_site",
-      "description_en": ""
+      "description_en": "Records site-specific factors related to cancer prognosis and treatment decisions. For detailed coding rules, refer to the 'Cancer Site-Specific Factors Coding Manual', downloadable from the Taiwan Cancer Registry Center website under [Cancer Registry Reporting Reference Materials]. URL: http://tcr.cph.ntu.edu.tw/main.php?Page=A6"
     },
     {
       "seq": 97,
@@ -5500,8 +5500,8 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2011-2017年版本)(20250624起適用)",
-  "data_description_en": "",
-  "notes_en": "",
+  "data_description_en": "Records the case's smoking behavior before the initial diagnosis date. Digits 1-2 are daily cigarettes: 00: Non-smoker; 10: 10/day (half pack); 20: 20/day (1 pack); 90: >=90/day (>=4.5 packs); 91: Occasional; 98: Smokes, amount unknown; 99: Not recorded/unknown. Digits 3-4 are years smoked: 00: Non-smoker; 05: 5 years; 99: Not recorded/unknown. Digits 5-6 are years since quitting: 00: Not quit; 05: Quit 5 years; 15: Quit 15 years.",
+  "notes_en": "Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix at the end of the manual. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key and matching fields: this file matches the Case Care-Problem List (W_LTC_CMS_CA110SUGV2), Care Plan — Assistive Devices (W_LTC_CMS_QD113), Consultation Form (W_LTC_CMS_QD111), and Consultation Form Service-Item Detail (W_LTC_CMS_QD111100) on the serial number OBJID; and matches the Disabled-person Case Management case master file (W_LTC_CMS_CA100) on the case-master serial number CA100_ID.",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration long form LF (2011-2017)"
 }

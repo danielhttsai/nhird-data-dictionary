@@ -2260,7 +2260,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health13_醫療機構現況檔",
   "data_description_en": "1. Compiled based on end-of-year status data from practicing hospitals and clinics at the end of the year; 2. Statistical items include beds, healthcare personnel, non-medical staff, equipment, and diagnostic specialties; 3. Data years cover from ROC 83 to ROC 113.",
-  "notes_en": "",
+  "notes_en": "Records the radiation dose to CTV_L in the first course of treatment at the reporting hospital. The unit of this field is centiGray (cGy), the same magnitude as the old unit rads. 00000: No external-beam radiotherapy, or external-beam radiotherapy given but no CTV_L; 00001-99996: Actual radiotherapy dose received; 99997: CTV_L external-beam dose is 99997 cGy or more; 99998: External-beam radiotherapy given but CTV_L dose unknown; 99999: Unknown / unclear whether external-beam radiotherapy was given.",
   "primary_keys_en": "",
   "name_zh_en": "current medical institution data (1994-2024 years)"
 }

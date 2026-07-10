@@ -328,7 +328,7 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare10_身心障礙檔",
   "data_description_en": "1. One record of a category of disability.\n2. Data for individuals holding a certificate of physical or mental disability from March 2014 to 2014-2019.",
-  "notes_en": "",
+  "notes_en": "0: Self-dispensing, testing, or physical therapy; 1: Referred dispensing, testing, or physical therapy; 2: Referred to another facility for testing; 3: Accepting a referral from another facility; 4: Delegated testing to another facility; 5: Accepting delegated testing from another facility; 6: Telemedicine. Required field when the order type is medication detail or treatment detail (testing or physical therapy). If order type is 3 (special material not for dispensing) fill 0; if order type is 4 (non-priced, special material for dispensing) fill 1; not required for other order types. Added from ROC year 95 (2006).",
   "primary_keys_en": "",
   "name_zh_en": "disability data file"
 }

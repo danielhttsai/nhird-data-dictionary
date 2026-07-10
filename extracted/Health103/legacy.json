@@ -390,7 +390,7 @@
   "doc_last_updated": "2026-02-26",
   "name_zh_from_listing": "Health103_心血管疾病主題式資料庫",
   "data_description_en": "",
-  "notes_en": "",
+  "notes_en": "Confirms whether the cancer originates in a paired organ or on one side of the body. Applies only to the primary tumor site. 0: Not a paired organ; 1: Primary origin on the right; 2: Primary origin on the left; 3: Unilateral involvement only, but origin (left/right) unclear; 4: Bilateral involvement but laterality of origin unclear, record describes a single primary (uncommon) — e.g. single-histology tumor in both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor; 9: Paired organ, laterality unclear.",
   "primary_keys_en": "1. Personal ID and hospital code (HOSP_ID) are encrypted.\n2. The primary key of this file is the encrypted personal ID.\n3. The key value to match with other medical records files: encrypted personal ID.\n4. Cases in the main file that have the same value in the对照档(SUBCLASS) field as those in the对照档(CVD_CTRL) are cases from the same matched group.",
   "name_zh_en": "primary record of cardiovascular diseases"
 }

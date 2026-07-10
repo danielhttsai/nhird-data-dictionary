@@ -1314,7 +1314,7 @@
         {
           "code": "Z7",
           "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
-          "label_en": ""
+          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
         }
       ],
       "field_en": "ownership type"
@@ -1335,7 +1335,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health06_全民健保處方及治療醫令明細檔_藥局",
-  "data_description_en": "",
+  "data_description_en": "1. Multiple order records for one admission. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website.",
   "notes_en": "1. This center's database has been de-identified, removing directly identifiable fields such as name and address. If there are identification numbers like ID card number, institution code, insured unit code, unified number, date of birth, visit date, admission date etc., they have all been shielded, and related data can only be used within a dedicated operation area set up by the department, and statistical results carried out after review to ensure that the application and disclosure methods cannot identify specific individuals.\n2. One prescription per record.\n3. When calculating costs, supplementary data should be combined.",
   "primary_keys_en": "1. The hospital ID (HOSP_ID) is encrypted.\n2. This file does not contain patient ID numbers, instead using FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE\n＋SEQ_NO＋HOSP_ID as a key to match with pharmacy detail files (H_NHI_DRUGE).\n(The hospital IDs in the pharmacy detail and pharmacy order files refer to the pharmacy's medical institution code.)\n3. The key for matching pharmacy归属及药局资料对照：HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Pharmacy"

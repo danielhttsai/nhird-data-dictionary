@@ -116,7 +116,7 @@
       "description_zh": "確認癌症起源於成對器官或身體的某 一側。本欄位只適用於原發腫瘤部位。 0：非成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或右 側則不清楚 4：雙側侵犯但起源之側位不清楚，且 病歷描述是單一原發(較少見) 。 ․ 雙側卵巢同時有單一組織類型 之腫瘤侵犯。 ․ 雙側同時有視網膜芽細胞瘤 (retinoblastomas)。 ․ 雙側同時有Wilm 腫瘤(Wilm tumors)。 5：成對器官，位於身體中線的腫瘤。 9：成對器官，但其側位不清楚。",
       "available_notes": [],
       "name_zh_en": "laterality",
-      "description_en": ""
+      "description_en": "I20: Requires additional drug-fee copayment. I21: Clinics, district hospitals, or low/middle-low-income and disability-certificate holders are exempt from additional drug-fee copayment for referred cases at medical centers/regional hospitals with drug fees under NT$100. I22: Those meeting the NHI drug-fee copayment-exemption rules, including clinic-referred chronic refillable-prescription cases, the 2nd and later dispensings of hospital-referred chronic prescriptions, low/middle-low-income and disability-certificate holders' chronic-prescription cases referred at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. See the Copayment Code (PART_CODE) coding notes. Note: field added from ROC year 88 (1999)."
     },
     {
       "seq": 10,
@@ -160,7 +160,7 @@
       "description_zh": "描述腫瘤和正常組織的相似程度。 1：Well differentiated; Differentiated, NOS 2：Moderately differentiated; Moderately well differentiated; Intermediate differentiation 3：Poorly differentiated; Dedifferentiated 4：Undifferentiated; Anaplastic For Lymphomas and Leukemias 5：T cell; T-precursor 6：B cell; pre-B; B-precursor 7：Null cell; non T-non B 8：NK (natural killer) cell For Ovary borderline tumor B：Ovary borderline tumor (Low malignant potential) 合併 intraepithelial carcinoma 或/及 microinvasion For Colon-Rectum tumor B：Colon-Rectum High grade dysplasia (severe dysplasia) For Use in All Histologies 9： ․ Cell type not determined, not stated or not applicable ․ High grade dysplasia (adenocarcinoma in situ)",
       "available_notes": [],
       "name_zh_en": "grading/differentiation",
-      "description_en": ""
+      "description_en": "1. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. To identify in-situ vs. invasive cancer cases, use the histology behavior code (5th digit of the HISTOLOG field). 3. The cause-of-death and death-date fields hold data as reported by the hospital at the time and are not updated if the case later dies, so they are not provided to avoid misinterpretation; if needed, link to the cause-of-death statistics file (Health-10). 4. NHL, HL, and LEU hematologic-tumor cases must be distinguished by histopathology (HISTBEH field); to analyze cancer sites (CASITE), first exclude these hematologic tumors. 5. A histopathology (HISTOLOG) of 99903 applies only to codes used up to ROC year 90 (2001), meaning a clinically malignant tumor not confirmed by microscopy. 6. Grade/differentiation (GRADE) data is collected only for new cancer cases diagnosed from 2002; from 2018 codes A/B/C/D/E/H/L/M/S/X were added (see ROC-107 abstracting manual short-form field 45 and long-form field 115). 7. The treatment field (CURECOND) combines the treatment status from all reporting hospitals; for detailed post-2007 treatment data, see the long-/short-form treatment fields. 1. ID number (IDNO) is encrypted. 2. The person-grouping/matching key is IDNO."
     },
     {
       "seq": 14,
@@ -2415,7 +2415,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health15_癌症登記檔短表SF(2010年以前版本)(20250624起適用)",
   "data_description_en": "records of diagnostic cases reported by various hospitals from 2007 to 2010.",
-  "notes_en": "",
+  "notes_en": "1. See the NHI guidelines for applying for a catastrophic-illness certificate for rare diseases. 2. Rare-disease reporting flow (facilities, HPA): (i) Under Article 7 of the Rare Disease and Orphan Drug Act, medical personnel who discover a patient with a rare disease, or a death caused by one, must report to the central competent authority (the Department of Health's Health Promotion Administration). (ii) When a physician diagnoses an insured person with a rare disease, per the above they enter the case into the Rare Disease Integrated Information Management System and report to the HPA. (iii) The HPA accepts the report and, after expert-committee review, records the result in the rare-disease database (results: approved, not approved, under review; review takes about 10 working days); the HPA notifies the reporting hospital and copies the NHIA. 3. Rare-disease definition is limited to confirmed cases per the MOHW-announced rare diseases (main diagnosis code, Chinese/English disease name, rare-disease serial number) recorded in the database. 4. Data years 2012-2022/02.",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration short form SF (2007-2010)"
 }

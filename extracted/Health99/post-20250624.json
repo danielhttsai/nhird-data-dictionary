@@ -1137,7 +1137,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health99_成人預防保健資料檔(20250624起適用)",
   "data_description_en": "To maintain elderly health, early detection and intervention for chronic diseases, the Ministry of Health and Welfare provides a free adult health check-up every 3 years for individuals aged 40 to 64, annually for indigenous people over 55, those with polio aged 35 or older, and annually for individuals aged 65 and above. Services include physical examination, biochemical tests, renal function tests, and health counseling.",
-  "notes_en": "",
+  "notes_en": "1. This database is de-identified: directly identifying fields such as name and address are removed, and ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be exported, ensuring individuals cannot be re-identified. 2. This database has been pre-filtered to commonly used cardiovascular-disease fields; refer to the field checklist together with each database manual for the data format. 3. Applicants should still consider the characteristics of their research topic and note data-use restrictions; feedback is welcome.",
   "primary_keys_en": "1. Personal ID and medical institution code are encrypted.\n2. Key value for personal account matching: ID.\n3. Key value for medical institution account matching: HOSP_ID.",
   "name_zh_en": "adult preventive health data file"
 }

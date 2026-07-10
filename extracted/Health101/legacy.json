@@ -161,7 +161,7 @@
         }
       ],
       "name_zh_en": "grading/differentiation",
-      "description_en": ""
+      "description_en": "1. One patient may be diagnosed and treated at different hospitals for the same cancer site, so pay special attention to grouping one person's one cancer site. 2. In ROC year 91 (2002) only cervical cancer was mandatory to report; from 2004 all six cancers must be reported. 3. About 15-17 cancer-control centers (hospitals with >=500 cases/year) reported TCDB long-form data during 2002-2006. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 1. ID number is encrypted. 2. The person-grouping key is ID."
     },
     {
       "seq": 12,
@@ -738,7 +738,7 @@
         {
           "code": "2015",
           "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
-          "label_en": ""
+          "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (DRUG_PRSN_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (ORIG_HOSP_ID) are encrypted. 2. This file's unique key is ORIG_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (ORIG_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is ORIG_HOSP_ID."
         },
         {
           "code": "I10",

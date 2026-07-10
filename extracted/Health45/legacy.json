@@ -116,7 +116,7 @@
         }
       ],
       "name_zh_en": "grading/differentiation",
-      "description_en": ""
+      "description_en": "Consultation Form (W_LTC_CMS_QD111). Records: 822,590 (ROC 110/2021); 1,362,386 (ROC 111/2022). File size: 50.4 MB (2021); 83.5 MB (2022). Fields: 7. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID; matches Consultation Form Service-Item Detail (W_LTC_CMS_QD111100) on serial number OBJID; matches the case master file (W_LTC_CMS_CA100) on CA100_ID."
     },
     {
       "seq": 9,
@@ -191,7 +191,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health45_癌症登記年報檔",
   "data_description_en": "Provides annual reports from 1979 to the latest published year for cancer cases after householding, including in situ and invasive cases of all cancers. The data includes both long-form and short-form hospital claims and has removed duplicate cases within the same case for the same type of cancer and tissue type group.",
-  "notes_en": "",
+  "notes_en": "1. To meet clinical cancer-care needs, from ROC 98 (2009) the HPA began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height, and weight were added and revised in the ROC-100 (2011) abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophagus, stomach, prostate, bladder, major salivary gland, nasopharyngeal, uterine corpus, ovarian, and hematologic tumors). From 2013, laryngeal cancer was added, and some hospitals reported the all-cancer long form from diagnosis year 2013. 3. Eligible cases are ROC nationals (foreigners excluded) first diagnosed with cancer by a physician. 4. In principle each cancer case is reported once, but another primary site (i.e. multiple primary cancer) requires an additional report. 5. Cancer cases newly diagnosed on or after 1 January 2011 are reported per the ROC-100 abstracting manual. 6. First-recurrence data records whether a first cancer recurrence occurs within five years of follow-up after diagnosis; only case classes 1 and 2 must report this field. If recurrence repeats after a first recurrence within five years, only the first recurrence status is recorded; if a first recurrence occurs after five years, the field is recorded as no recurrence. Recurrence data is reported once at one year and once at five years after diagnosis.",
   "primary_keys_en": "",
   "name_zh_en": "Cancer Registry Annual File"
 }

@@ -1346,7 +1346,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health05_全民健保處方及治療醫令明細檔_住院",
-  "data_description_en": "",
+  "data_description_en": "1. From 2007, all newly diagnosed cancer cases must be reported using the new cancer-registry items. Hospitals with 50+ beds report incidence and treatment summary per the short-form manual; former TCDB hospitals report detailed data for six major cancers (cervical, breast, oral, lung, liver, colorectal) per the long-form manual. 2. From 2008, prostate, stomach, esophagus, bladder added (10 major cancers). 3. From 2009, nasopharyngeal, major salivary gland, uterine corpus, ovarian, hematologic added (15). 4. From 2013, laryngeal cancer added (16). 5. AJCC staging used the 7th edition from diagnosis year 2010.",
   "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "1. Medical institution code (HOSP_ID) is encrypted.\n2. This file does not contain patient ID number, use FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID as key to match with inpatient detail file (H_NHI_IPDTE).\n3. Key value for medical institution grouping and medical institution data matching: HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Inpatient"

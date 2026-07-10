@@ -1109,7 +1109,7 @@
         {
           "code": "4",
           "label_zh": "健保卡就醫序號(FUNC_SEQ_NO) (1) 92年(含)以前：依卡別，每卡有6 格，每年由A1，A2…，A6，B1…，預防保健等其他 特殊規定詳下表。 (2) 93年以後：健保IC 卡規定之就醫序號為四碼流水號，例如：0001。 (3) 請至國民健康署[健康促進法規-預防保健服務類]處下載服務醫事服務機構辦理預防保健 注意事項。 各類案件在IC卡實施前後申報方式列示如下表： 84-92年 93年以後 說明 備註 慢性處方箋",
-          "label_en": ""
+          "label_en": "Health Card Visit Sequence Number (CARD_SEQ_NO): (1) ROC year 92 (2003) and earlier: by card type, each card has 6 slots per year — A1, A2 ... A6, B1 ...; special rules for preventive care etc. are in the table below. (2) From year 93 onward: the NHI IC card visit sequence number is a 4-digit serial, e.g. 0001. (3) Download the preventive-care service notes from the Health Promotion Administration [Health Promotion Regulations - Preventive Care Services]. Reporting methods for each case type before/after IC-card implementation are shown below: ROC 84-92, year 93 onward, notes, remarks, chronic prescription."
         },
         {
           "code": "IC02",
@@ -1549,7 +1549,7 @@
         {
           "code": "TM01",
           "label_zh": "遠距醫療 109/12/29起 居家輕量化 虛擬健保卡 2026年01月27日修訂 補充說明： (1) 各項預防保健服務得視病情需要，由同一診治醫師併行其他一般診療，如開給感冒藥等， 不必另外加蓋健保卡戳章，亦不得收取部分負擔費用。該次治療及藥品以「門診醫療服 務點數清單」申報，就醫序號欄以該次預防保健服務之時程代碼填入，部分負擔代碼則 以「009」填入，並不得另行申報診察費。 (2) 各項預防保健服務費用申報，併當月份門診費用，其中婦女子宮頸抹片檢查之採檢醫療 機構、病理檢驗醫療機構採分開申報、分開支付方式，如採檢醫療機構及病理檢驗醫療 機構為同一院所，則可合併申報。 (3) 同一序號如有重複申報，僅支付實際於健保IC 卡註記之醫療院所。 (4) 異常代碼對照表(依健保署97年9月10日健保醫字第0970002562號函之健保IC卡資料 上傳作業說明異常代碼對照表填寫) 2026年01月27日修訂 異常代碼 異常原因 (尚未取得就醫序號) (已取得就醫序號)",
-          "label_en": ""
+          "label_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. All cases with diagnosis years on or after 1 January 2018 are reported per the ROC-107 (2018) cancer-registry abstracting manual. 3. Contains raw data as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 4. The cancers covered by the cancer-registry short form (ROC-107 edition) include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 5. For cases classified as 0 or 3, field sequences 7.1-7.5 need not be reported and are filled with 9. 6. To analyze de-duplicated grouped annual-report data from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
         },
         {
           "code": "A000",
@@ -2216,7 +2216,7 @@
         {
           "code": "C40",
           "label_zh": "地區醫院；住院出院或門診手術7日內回診、藥品或復健 ＊ 94/7/15 2026年01月27日修訂 地區醫院；住院出院或門、急診手術後首次之回診或復健；持 身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健 中低收入註記(112/3 新增)",
-          "label_en": ""
+          "label_en": "1. Each newborn is one record. 2. This data comes from the 'birth certificate', 'stillbirth certificate', and 'birth notification' reported by delivery facilities nationwide. 3. Statistical items include maternal background data (nationality, residence) and pregnancy conditions (risk factors or special procedures), newborn data (birth weight, plurality, congenital-defect flag, etc.), and maternal spouse data (nationality, household registration). 4. From 1 July 2015 (ROC 104), newborn congenital-defect codes in the birth-notification system were changed to ICD-10-CM. Hospitals doing batch transfers were given a three-month buffer for system adjustment, so from July 2015..."
         },
         {
           "code": "D00",
@@ -3154,7 +3154,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health03_全民健保處方及治療明細檔_藥局(20250624起適用)",
   "data_description_en": "1. Generally one prescription per visit from the same medical institution on the same day in the same department.\n2. Includes information of the medical institution and expenses for the prescription issued.",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "notes_en": "1. When counting visits, supplementary-report data should not be double-counted. 2. When computing fees, supplementary-report data should be combined. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified.",
+  "primary_keys_en": "1. For longer hospital stays (usually over one month), inpatient data is reported monthly, so computing a single admission requires grouping the split-billed records. 2. Supplementary-report data must be handled carefully: when computing fees it should be combined; but when computing utilization (visits or patient-days), a whole-record supplement should be counted, while a partial-fee supplement should not be double-counted. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified.",
   "name_zh_en": "National Health Insurance prescription and treatment details file - pharmacy"
 }

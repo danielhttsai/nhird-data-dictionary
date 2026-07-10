@@ -115,7 +115,7 @@
         }
       ],
       "name_zh_en": "dispensing method",
-      "description_en": ""
+      "description_en": "1. Using the 'ICD diagnosis code' field of the NHI outpatient detail file (H_NHI_OPDTE) and the 'principal/secondary diagnosis code' fields of the NHI inpatient detail file (H_NHI_IPDTE), a person meeting the cardiovascular-disease coding definition (see Appendix 1 for detailed codes) with >=2 outpatient diagnoses or >=1 admission within one year is defined as a cardiovascular-disease patient. 2. Because it is hard to distinguish prevalent from incident cases in the first year of NHI data, to obtain valid incident cases the extraction years span 2001 to 2023. 3. See Appendix 2 for the data-cleaning workflow."
     },
     {
       "seq": 9,

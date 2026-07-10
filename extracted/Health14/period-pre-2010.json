@@ -120,7 +120,7 @@
       "description_zh": "0：不是成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或右 側則不清楚 4：雙側侵犯但起源之側位不清楚，且 病歷描述是單一原發。較少見，如以 下三例：  雙側卵巢同時有單一組織類型之 腫瘤侵犯。  雙 側 同 時 有 視 網 膜 芽 細 胞 瘤 (retinoblastomas)。  雙 側 同 時 有 Wilm 腫 瘤 (Wilm tumors)。 9：起源為成對器官，但其側位不清楚； 位於身體中線的腫瘤。",
       "available_notes": [],
       "name_zh_en": "laterality",
-      "description_en": ""
+      "description_en": "0: Self-dispensing, testing, or physical therapy; 1: Referred dispensing, testing, or physical therapy; 2: Delegated/referred testing to another facility; 3: Accepting a delegated/referral from another facility; 4: Delegated testing to another facility; 5: Accepting delegated testing from another facility; 6: Telemedicine. Required field when the order type is medication detail or treatment detail (testing or physical therapy). If order type is 3 (special material not for dispensing) fill 0; if order type is 4 (non-priced, special material for dispensing) fill 1; not required for other order types. Note: added from ROC year 100 (2011)."
     },
     {
       "seq": 10,
@@ -809,7 +809,7 @@
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位是 centiGray (縮寫 cGy)，與舊單位 rads 相同大小。 00000：沒有體外放射治療，或是有體 外放射治療但沒有 CTV_L 00001-99996：實際接受的放射治療劑 量 99997：CTV_L 的體外放射治療劑量 是 99997cGy或更多 99998：有體外放射治療，但 CTV_L 的體外放射治療劑量不詳 99999：資料不詳，不清楚有沒有體外 放射治療。",
       "available_notes": [],
       "name_zh_en": "lower radiation dose clinical target volume dose",
-      "description_en": ""
+      "description_en": "Records the radiation dose to CTV_L in the first course of treatment at the reporting hospital. The unit of this field is centiGray (cGy), the same magnitude as the old unit rads. 00000: No external-beam radiotherapy, or external-beam radiotherapy given but no CTV_L; 00001-99996: Actual radiotherapy dose received; 99997: CTV_L external-beam dose is 99997 cGy or more; 99998: External-beam radiotherapy given but CTV_L dose unknown; 99999: Unknown / unclear whether external-beam radiotherapy was given."
     },
     {
       "seq": 59,
@@ -5295,7 +5295,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2010年以前版本)",
-  "data_description_en": "",
+  "data_description_en": "1. From 2007, all newly diagnosed cancer cases at each hospital must be reported using the new cancer-registry items. Hospitals with 50+ beds report cancer incidence and treatment summary data per the short-form manual; hospitals formerly participating in TCDB report detailed incidence and treatment data for six major cancers (cervical, breast, oral, lung, liver, colorectal) per the long-form manual. 2. From diagnosis year 2008, prostate, stomach, esophagus, and bladder were added (10 major cancers). 3. From 2009, nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers were added (15 major cancers). 4. AJCC staging used the 6th edition for diagnosis years 2007-2009 and the 7th edition from 2010.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration long form LF (2007-2010)"

@@ -115,7 +115,7 @@
         }
       ],
       "name_zh_en": "order type",
-      "description_en": ""
+      "description_en": "1. From ROC year 99 (2010), the Health Promotion Administration expanded four cancer screenings (colorectal, oral, breast, cervical), providing them through NHI-contracted preventive-care facilities, adding colorectal and oral cancer screening to preventive-care services, and expanding breast-cancer screening to women aged 40 to under 45 who are second-degree relatives at high risk (mother, daughter, sister, grandmother having had breast cancer). 2. The government funds a free Pap smear once a year for women aged 30+ and recommends at least one Pap smear every 3 years. High-risk groups include sexually experienced women, especially those who married young, have many children, or have multiple sexual partners, who need regular follow-up. 3. Case master file (MASTER): case basic data. Smear file (SMEAR): one record per smear exam, with multiple records per ID. 4. Data years span 2004 to 2024."
     },
     {
       "seq": 9,
@@ -1313,7 +1313,7 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health05_全民健保處方及治療醫令明細檔_住院(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. From 2007, all newly diagnosed cancer cases must be reported using the new cancer-registry items. Hospitals with 50+ beds report incidence and treatment summary per the short-form manual; former TCDB hospitals report detailed data for six major cancers (cervical, breast, oral, lung, liver, colorectal) per the long-form manual. 2. From 2008, prostate, stomach, esophagus, bladder added (10 major cancers). 3. From 2009, nasopharyngeal, major salivary gland, uterine corpus, ovarian, hematologic added (15). 4. AJCC staging used the 6th edition for 2007-2009 and the 7th edition from 2010.",
   "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "1. The hospital code (HOSP_ID) is encrypted. 2. Patient ID number not included, key value for matching with inpatient detail file (H_NHI_IPDTE): FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 3. Key value for hospital grouping and hospital data comparison: HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Inpatient"

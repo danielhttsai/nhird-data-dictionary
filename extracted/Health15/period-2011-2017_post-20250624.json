@@ -182,7 +182,7 @@
       "description_zh": "1：Well differentiated; Differentiated, NOS 2：Moderately differentiated; Moderately well differentiated; Intermediate differentiated 3：Poorly differentiated; 4：Undifferentiated; Anaplastic For Lymphomas and Leukemias 5：T cell; T-precursor 6：B cell; pre-B; B-precursor 7：Null cell; non T-non B 8：NK (natural killer) cell For Ovary borderline tumor B：Ovary borderline tumor(Low malignant potential)合併 intraepithelial carcinoma 或/及 microinvasion For Colon-Rectum tumor B：Colon-Rectum High grade dysplasia (severe dysplasia) For Use in All Histologies",
       "available_notes": [],
       "name_zh_en": "grading/differentiation",
-      "description_en": ""
+      "description_en": "1. This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Excludes insured persons enrolled through military units. 3. Data is monthly in-force enrollment data. 4. Enrollment records of insured persons and dependents lacking basic data are treated as anomalous and not provided. 5. If the personal ID (ID) equals the insured person's ID (INS_ID), the record is the insured person; if it differs, the record is a dependent. 6. The file format and data descriptions reference the 'NHI enrollment forms' on the NHIA website (Downloads > Data Downloads > Form Downloads > Enrollment Eligibility and Change Forms > NHI Enrollment Forms). 7. From ROC 107 (2018), all records with enrollment status 'in-force' or 'suspended' are provided; for other statuses, the last-change data is provided, grouped by ID and birth date (per person). 1. Personal ID (ID) and insured-person ID (INS_ID) are encrypted. 2. The person-grouping/matching key is ID."
     },
     {
       "seq": 16,
@@ -402,7 +402,7 @@
       "description_zh": "記錄個案於最初診斷日前的嚼檳榔行 為。 1-2碼為每日嚼檳榔量，以”顆”計算 ․ 00：無嚼檳榔。 ․ 10：每日10顆 ․ 20：每日20顆 ․ 90：每日≧90顆 ․ 91：偶爾嚼(無規律或無定量) ․ 98：有嚼，但量不詳 ․ 99：病歷未記載或嚼檳榔狀態完全 不詳者 3-4碼為嚼檳榔年 ․ 00：無嚼檳榔 ․ 05：嚼5年 ․ 15：嚼15年 ․ 98：嚼檳榔，但年不詳 ․ 99：病歷未記載或嚼檳榔狀態完全 不詳者 5-6碼為戒檳榔年 ․ 00：無戒嚼檳榔 ․ 05：已戒 5年",
       "available_notes": [],
       "name_zh_en": "chewing betel nut behavior",
-      "description_en": ""
+      "description_en": "Confirms whether the cancer originates in a paired organ or on one side of the body. Applies only to the primary tumor site. 0: Not a paired organ; 1: Primary origin on the right; 2: Primary origin on the left; 3: Unilateral involvement only, but origin (left/right) unclear; 4: Bilateral involvement but laterality of origin unclear, record describes a single primary (uncommon) — e.g. single-histology tumor in both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor; 9: Paired organ, laterality unclear."
     },
     {
       "seq": 36,

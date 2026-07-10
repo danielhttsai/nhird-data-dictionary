@@ -617,7 +617,7 @@
       "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (SGRY_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數 (METR_DOT)、葯點數 (DRUG_DOT)、葯事服務點數 (DSVC_DOT)、精神科治療點數 (NRTP_DOT)、注射技術點數 (INJT_DOT)、嬰兒點數 (BABY_DOT)之合計，詳代碼說明 (1-15)。",
       "available_notes": [],
       "name_zh_en": "medical point",
-      "description_en": ""
+      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
     },
     {
       "seq": 48,
@@ -650,7 +650,7 @@
       "description_zh": "1.住院之部分負擔隨著住院天數 及病床類別(急性病床或慢性病 床)有不同的負擔比率，因此住院 之醫療費用點數區分為7部分： (1)醫療費用點數 (急性病床1-30 天) (2)醫療費用點數 (急性病床 31-60天) (3)醫療費用點數 (急性病床61天 以上) (4)醫療費用點數 (慢性病床1-30 天) (5)醫療費用點數 (慢性病床 31-90天) (6)醫療費用點數 (慢性病床 91-180天) (7)醫療費用點數 (慢性病床181 天以上)，分別計算醫療費用點數。 2. 急性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-60日，61日以上分別計算醫 療費用點數。 3. 慢性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-90日，91-180日，181 日以 上，分別計算醫療費用點數。",
       "available_notes": [],
       "name_zh_en": "acute bed points (30 days or less)",
-      "description_en": ""
+      "description_en": "1. The ID numbers of the victim and suspected abuser may be blank. 2. Multiple-choice variables, if multiple are selected, are recorded in the same field. 3. Date fields use the ROC calendar; 000/00/00 means unknown — e.g. 0000101 = year unknown, 1040001 = month unknown, 1040100 = day unknown. 4. The suspected-perpetrator fields hold the primary suspected perpetrator's data. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. The protected/victim record-grouping/matching key is VVID. 2. The suspected abuser/respondent/suspect record-grouping/matching key is DVID."
     },
     {
       "seq": 51,
@@ -1097,7 +1097,7 @@
         {
           "code": "AZ",
           "label_zh": "職業傷病住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 衛生福利部(B1-BZ) B1 精神病嚴重病人送醫及強制住院案件(部分負擔代碼應 為「009:本署其他規定免部分負擔者」) 疾病管制署(C1-CZ) C1 AIDS 案件：依疾病管制署訂定「人類免疫缺乏病毒檢 驗預防治療費用支付手冊」規定 請參閱「衛生福利部法定傳染病醫療服務費用支付作業 規範」規定。 【費用年月103.02.01(含)起刪除)】【(費用年用 104.01.01(含)起刪除】。",
-          "label_en": ""
+          "label_en": "I20: Requires additional drug-fee copayment. I21: Clinics, district hospitals, or low/middle-low-income and disability-certificate holders are exempt from additional drug-fee copayment for referred cases at medical centers/regional hospitals with drug fees under NT$100. I22: Those meeting the NHI drug-fee copayment-exemption rules, including clinic-referred chronic refillable-prescription cases, the 2nd and later dispensings of hospital-referred chronic prescriptions, low/middle-low-income and disability-certificate holders' chronic-prescription cases referred at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. See the Copayment Code (PART_NO) coding notes. Note: added July ROC 98 (2009)."
         },
         {
           "code": "C2",
@@ -1319,7 +1319,7 @@
         {
           "code": "J000",
           "label_zh": "MRI、PET 時，因辦理住院手續查驗其 健保卡後歸還保險對象無法取得健保卡。 說明 ： (1)在卡片取得就醫序號前，即發生異常，造成無法讀寫健保IC 卡時，使用「尚未取得就 醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (2)若已自卡片中取得就醫序號後，才發生異常，造成無法繼續讀寫健保IC 卡時，使用「已 取得就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (3)若屬於「尚未取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，會更新 其「最近一次就醫序號」（就醫類別為01-08）及所有費用與次數之加總。 (4)若屬於「已取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，僅會更新 其所有費用與次數之加總。 (5)服務機構經健保署分區業務組輔導後，確實因故未能配合建置健保IC 卡網路連線等作 業，無法受理以健保 IC 卡就診者，可專案申請，經健保署分區業務組同意後，以H000 申報。 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "For MRI or PET, because the NHI card is checked during admission and then returned, the insured person cannot obtain the card. Notes: (1) If the anomaly occurs before the visit sequence number is obtained from the card, so the NHI IC card cannot be read/written, use the anomaly code in the 'visit sequence number not yet obtained' field as the visit sequence number for that record. (2) If the anomaly occurs after the sequence number was obtained from the card, so the card can no longer be read/written, use the anomaly code in the 'visit sequence number obtained' field. (3) For a 'not yet obtained' anomaly code, when the cardholder updates the anomaly data at an update machine, their 'most recent visit sequence number' (visit types 01-08) and the sum of all fees and counts are updated. (4) For an 'obtained' anomaly code, only the sum of all fees and counts is updated. (5) A facility that, after guidance by the NHIA regional division, genuinely cannot implement NHI IC card network connection and cannot accept IC-card visits may apply on a case basis and, with the regional division's approval, report using H000."
         }
       ],
       "field_en": "NHI card medical visit sequence number"
@@ -1330,7 +1330,7 @@
         {
           "code": "907",
           "label_zh": "907 起適用】。 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫 I21 學中心、區域醫院交付案件藥費一百元以下免加收藥費部分 負擔者 符合本保險藥費免部分負擔範圍規定者，包括基層診所交付 I22 慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次 (含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、 區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病 例計酬案件 代辦海洋委員會海巡署補助部分負擔(108/5/1起 ) 908 908 代辦中央警察大學補助部分負擔(108/5/1起 ) 909 909 代辦內政部消防署補助部分負擔(108/5/1起 ) 910 910 代辦內政部空勤總隊補助部分負擔(108/5/1起 ) 911 911 代辦內政部警政署補助部分負擔(108/5/1起 ) 912 912 代辦國防部補助部分負擔(108/5/1起 ) 913 913 行政協助法定傳染病通報隔離案件(110/1/1起 ) 914 914 代辦內政部移民署補助部分負擔 (110/11/1起 ) 915 915 長照機構加強型結核病防治計畫免部分負擔 916 註： 依97年2月13日健保醫字第0970001927號函，倘同一案件同時符合二項以上免部分負 擔條件者，門、住診皆依下列原則填寫： (1)依全民健康保險法規定(健保法 94 條)職業災害(含職業傷害及職業病)優先填寫，即部 分負擔代碼「006(勞工保險被保險人因職業傷害或職業病就診者)」優先填寫。 (2)非屬上開案件，則依全民健康保險法規定(健保法48條)免自行負擔者優先擇一適用填 寫，包括重大傷病(部分負擔代碼：001)、分娩(部分負擔代碼：002)、預防保健服務 (部分負擔代碼：009)及山地離島地區之就醫(部分負擔代碼：007)之部分。 (3)再者，若非上開(1)、(2)情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填 寫。 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Care Plan — Assistive Devices (W_LTC_CMS_QD113). Records: 66,924 (ROC 110/2021); 94,847 (ROC 111/2022). File size: 5.18 MB (2021); 7.37 MB (2022). Fields: 10. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: matches the case master file (W_LTC_CMS_CA100) on the case serial number CA100_ID; matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID; matches Service Item (W_LTC_CMS_QD100) on the assistive-device item serial number."
         }
       ],
       "field_en": "co-payment code"

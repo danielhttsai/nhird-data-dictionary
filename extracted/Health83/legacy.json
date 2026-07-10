@@ -709,7 +709,7 @@
         {
           "code": "I10",
           "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中2014年版_ICD-9-CM2001年版與ICD-10-CM/PCS對 應檔(112.05.09更新)，網址： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_BREAST_11 使用癌症研究主檔 1979-2022 年版本，",
-          "label_en": ""
+          "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (PHAR_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (R_HOSP_ID) are encrypted. 2. This file's unique key is R_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (R_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is R_HOSP_ID."
         },
         {
           "code": "1",
@@ -1019,7 +1019,7 @@
         {
           "code": "52",
           "label_zh": "身體質量指數 BMI Num 8 重2(kg)/身高 乳房攝影資料清 理檔新增欄位 N:資料不符合保 留條件 53. 資料保留 DATA_QC Char 1 Y:資料符合保留 條件 保留條件詳譯碼 簿說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
-          "label_en": ""
+          "label_en": "Lower gingival cancer: the surgical resection pathology report's final diagnosis is microinvasion squamous cell carcinoma; the microscopic description of Depth of Invasion is 'not applicable'."
         },
         {
           "code": "1",

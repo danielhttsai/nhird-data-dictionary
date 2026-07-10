@@ -1160,7 +1160,7 @@
         {
           "code": "4",
           "label_zh": "健保卡就醫序號(CARD_SEQ_NO) (1) 92年(含)以前：依卡別，每卡有6 格，每年由A1，A2…，A6，B1…，預防保健等其他 特殊規定詳下表。 (2) 93年以後：健保IC 卡規定之就醫序號為四碼流水號，例如：0001。 (3) 請至國民健康署[健康促進法規-預防保健服務類]處下載服務醫事服務機構辦理預防保健 注意事項。 各類案件在IC卡實施前後申報方式列示如下表： 84-92年 93年以後 說明 備註 慢性處方箋",
-          "label_en": ""
+          "label_en": "1. For the start and end times of each notifiable-disease dataset, see the application time-limit table. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked. Data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The serial number (REPORT) is the notifiable-disease report number and serves as the key linking to other notifiable-disease data files."
         },
         {
           "code": "IC02",
@@ -1600,7 +1600,7 @@
         {
           "code": "TM01",
           "label_zh": "遠距醫療 109/12/29起 居家輕量化 虛擬健保卡 2026年01月27日修訂 補充說明： (1) 各項預防保健服務得視病情需要，由同一診治醫師併行其他一般診療，如開給感冒藥等， 不必另外加蓋健保卡戳章，亦不得收取部分負擔費用。該次治療及藥品以「門診醫療服 務點數清單」申報，就醫序號欄以該次預防保健服務之時程代碼填入，部分負擔代碼則 以「009」填入，並不得另行申報診察費。 (2) 各項預防保健服務費用申報，併當月份門診費用，其中婦女子宮頸抹片檢查之採檢醫療 機構、病理檢驗醫療機構採分開申報、分開支付方式，如採檢醫療機構及病理檢驗醫療 機構為同一院所，則可合併申報。 (3) 同一序號如有重複申報，僅支付實際於健保IC 卡註記之醫療院所。 (4) 異常代碼對照表(依健保署97年9月10日健保醫字第0970002562號函之健保IC卡資料 上傳作業說明異常代碼對照表填寫) 2026年01月27日修訂 異常代碼 異常原因 (尚未取得就醫序號) (已取得就醫序號)",
-          "label_en": ""
+          "label_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. All cases with diagnosis years on or after 1 January 2018 are reported per the ROC-107 (2018) cancer-registry abstracting manual. 3. Contains raw data as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 4. The cancers covered by the cancer-registry short form (ROC-107 edition) include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 5. For cases classified as 0 or 3, field sequences 7.1-7.5 need not be reported and are filled with 9. 6. To analyze de-duplicated grouped annual-report data from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
         },
         {
           "code": "A000",
@@ -2267,7 +2267,7 @@
         {
           "code": "C40",
           "label_zh": "地區醫院；住院出院或門診手術7日內回診、藥品或復健 ＊ 94/7/15 2026年01月27日修訂 地區醫院；住院出院或門、急診手術後首次之回診或復健；持 身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復 健 中低收入註記(112/3 新增)",
-          "label_en": ""
+          "label_en": "1. Each newborn is one record. 2. This data comes from the 'birth certificate', 'stillbirth certificate', and 'birth notification' reported by delivery facilities nationwide. 3. Statistical items include maternal background data (nationality, residence) and pregnancy conditions (risk factors or special procedures), newborn data (birth weight, plurality, congenital-defect flag, etc.), and maternal spouse data (nationality, household registration). 4. From 1 July 2015 (ROC 104), newborn congenital-defect codes in the birth-notification system were changed to ICD-10-CM. Hospitals doing batch transfers were given a three-month buffer for system adjustment, so from July 2015..."
         },
         {
           "code": "D00",
@@ -3128,7 +3128,7 @@
         {
           "code": "F9",
           "label_zh": "務FA馬祖地區牙周病照護網試辦計 (102/1/1-102/12/31) 畫（97.1增訂，99.1.1取消） 全民健康保險牙醫門診總額特殊醫 馬祖地區牙周病照護網試辦計畫 療服務試辦計畫之特定需求者服務/ （97.1增訂） 極重度(103/1/1 增訂) 2026年01月27日修訂 牙醫門診總額特殊醫療服務試辦計 療服務計畫-院所內服務-腦傷及脊髓 畫-院所內服務-發展遲緩兒童 損傷之中度肢體障礙 牙醫門診總額特殊醫療服務試辦計 LG 全民健康保險牙醫門診總額特殊醫 畫-醫療團服務-發展遲緩兒童 療服務計畫-醫療團服務-腦傷及脊髓 牙醫門診總額特殊醫療服務試辦計 損傷之中度肢體障礙 畫-到宅牙醫醫療服務/重度 LH 全民健康保險牙醫門診總額特殊醫 牙醫門診總額特殊醫療服務試辦計 療服務計畫-社區醫療站服務-腦傷及 畫-特定需求者服務/重度 脊髓損傷之中度肢體障礙",
-          "label_en": ""
+          "label_en": "0: Consultation fee; 1: Drug detail; 2: Treatment/procedure detail; 3: Special materials; 4: Drugs or procedures not separately billable; 5: EPO injection; 6: HCT test; 7: Outsourced tests and referrals not applicable to this facility level; 8: Organ donation; 9: Pharmacist-service fee; A: Tw-DRG (order code must be A00000-F00001, H00000-H00032, or J00001, and case class must be 5); B: data whose copayment code changed and was re-billed (order code must be G00000-G00001); C: emergency treatment start/end time; D: NHI-reimbursed special-material item being substituted; E: self-pay special-material item — not paid; F: self-pay special-material item — not meeting reimbursement rules; G: reference value for special payment; H: Health Technology Assessment (HTA) self-pay procedure (added 2015-02-15); K: bonus for full-day average nurse-to-patient ratio in a specified range, excluded from the medical-fee point total (revised fee-year-month July 2019)."
         },
         {
           "code": "L1",
@@ -3368,7 +3368,7 @@
         {
           "code": "ES",
           "label_zh": "H1 付改善方案 (111/3/1增訂) 治療試辦計畫(93.1增訂) 全民健康保險代謝症候群防治計 西醫-行動不便者，經醫師認定或經受 畫(112.1新增) H2 託人提供切結文件，慢性病代領藥案 全民健康保險乳癌醫療給付改善 件(96.7增訂；101.11 文字修訂) 方案試辦方案（90.11增訂） 西醫-已出海為遠洋漁船作業船 N,C,R N（乳癌試辦計畫新個案）、C（乳 H3 員，提供切結文件，慢性病代領藥 癌試辦計畫完成個案）、R（乳癌試 案件(96.7增訂；101.11文字修訂) 辦計畫復發個案） 自費健檢發現病兆加作處置或檢 南投縣信義鄉暨仁愛鄉精神疾病 查（97.1增訂）",
-          "label_en": ""
+          "label_en": "1. Multiple order records for one visit; one prescription is one record. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
         },
         {
           "code": "F1",
@@ -4034,7 +4034,7 @@
         {
           "code": "F9",
           "label_zh": "務FA馬祖地區牙周病照護網試辦計 (102/1/1-102/12/31) 畫（97.1增訂，99.1.1取消） 全民健康保險牙醫門診總額特殊醫 馬祖地區牙周病照護網試辦計畫 療服務試辦計畫之特定需求者服務/ （97.1增訂） 極重度(103/1/1 增訂) 2026年01月27日修訂 牙醫門診總額特殊醫療服務試辦計 療服務計畫-院所內服務-腦傷及脊髓 畫-院所內服務-發展遲緩兒童 損傷之中度肢體障礙 牙醫門診總額特殊醫療服務試辦計 LG 全民健康保險牙醫門診總額特殊醫 畫-醫療團服務-發展遲緩兒童 療服務計畫-醫療團服務-腦傷及脊髓 牙醫門診總額特殊醫療服務試辦計 損傷之中度肢體障礙 畫-到宅牙醫醫療服務/重度 LH 全民健康保險牙醫門診總額特殊醫 牙醫門診總額特殊醫療服務試辦計 療服務計畫-社區醫療站服務-腦傷及 畫-特定需求者服務/重度 脊髓損傷之中度肢體障礙",
-          "label_en": ""
+          "label_en": "0: Consultation fee; 1: Drug detail; 2: Treatment/procedure detail; 3: Special materials; 4: Drugs or procedures not separately billable; 5: EPO injection; 6: HCT test; 7: Outsourced tests and referrals not applicable to this facility level; 8: Organ donation; 9: Pharmacist-service fee; A: Tw-DRG (order code must be A00000-F00001, H00000-H00032, or J00001, and case class must be 5); B: data whose copayment code changed and was re-billed (order code must be G00000-G00001); C: emergency treatment start/end time; D: NHI-reimbursed special-material item being substituted; E: self-pay special-material item — not paid; F: self-pay special-material item — not meeting reimbursement rules; G: reference value for special payment; H: Health Technology Assessment (HTA) self-pay procedure (added 2015-02-15); K: bonus for full-day average nurse-to-patient ratio in a specified range, excluded from the medical-fee point total (revised fee-year-month July 2019)."
         },
         {
           "code": "L1",
@@ -4274,7 +4274,7 @@
         {
           "code": "ES",
           "label_zh": "H1 付改善方案 (111/3/1增訂) 治療試辦計畫(93.1增訂) 全民健康保險代謝症候群防治計 西醫-行動不便者，經醫師認定或經受 畫(112.1新增) H2 託人提供切結文件，慢性病代領藥案 全民健康保險乳癌醫療給付改善 件(96.7增訂；101.11 文字修訂) 方案試辦方案（90.11增訂） 西醫-已出海為遠洋漁船作業船 N,C,R N（乳癌試辦計畫新個案）、C（乳 H3 員，提供切結文件，慢性病代領藥 癌試辦計畫完成個案）、R（乳癌試 案件(96.7增訂；101.11文字修訂) 辦計畫復發個案） 自費健檢發現病兆加作處置或檢 南投縣信義鄉暨仁愛鄉精神疾病 查（97.1增訂）",
-          "label_en": ""
+          "label_en": "1. Multiple order records for one visit; one prescription is one record. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
         },
         {
           "code": "F1",
@@ -4940,7 +4940,7 @@
         {
           "code": "F9",
           "label_zh": "務FA馬祖地區牙周病照護網試辦計 (102/1/1-102/12/31) 畫（97.1增訂，99.1.1取消） 全民健康保險牙醫門診總額特殊醫 馬祖地區牙周病照護網試辦計畫 療服務試辦計畫之特定需求者服務/ （97.1增訂） 極重度(103/1/1 增訂) 2026年01月27日修訂 牙醫門診總額特殊醫療服務試辦計 療服務計畫-院所內服務-腦傷及脊髓 畫-院所內服務-發展遲緩兒童 損傷之中度肢體障礙 牙醫門診總額特殊醫療服務試辦計 LG 全民健康保險牙醫門診總額特殊醫 畫-醫療團服務-發展遲緩兒童 療服務計畫-醫療團服務-腦傷及脊髓 牙醫門診總額特殊醫療服務試辦計 損傷之中度肢體障礙 畫-到宅牙醫醫療服務/重度 LH 全民健康保險牙醫門診總額特殊醫 牙醫門診總額特殊醫療服務試辦計 療服務計畫-社區醫療站服務-腦傷及 畫-特定需求者服務/重度 脊髓損傷之中度肢體障礙",
-          "label_en": ""
+          "label_en": "0: Consultation fee; 1: Drug detail; 2: Treatment/procedure detail; 3: Special materials; 4: Drugs or procedures not separately billable; 5: EPO injection; 6: HCT test; 7: Outsourced tests and referrals not applicable to this facility level; 8: Organ donation; 9: Pharmacist-service fee; A: Tw-DRG (order code must be A00000-F00001, H00000-H00032, or J00001, and case class must be 5); B: data whose copayment code changed and was re-billed (order code must be G00000-G00001); C: emergency treatment start/end time; D: NHI-reimbursed special-material item being substituted; E: self-pay special-material item — not paid; F: self-pay special-material item — not meeting reimbursement rules; G: reference value for special payment; H: Health Technology Assessment (HTA) self-pay procedure (added 2015-02-15); K: bonus for full-day average nurse-to-patient ratio in a specified range, excluded from the medical-fee point total (revised fee-year-month July 2019)."
         },
         {
           "code": "L1",
@@ -5180,7 +5180,7 @@
         {
           "code": "ES",
           "label_zh": "H1 付改善方案 (111/3/1增訂) 治療試辦計畫(93.1增訂) 全民健康保險代謝症候群防治計 西醫-行動不便者，經醫師認定或經受 畫(112.1新增) H2 託人提供切結文件，慢性病代領藥案 全民健康保險乳癌醫療給付改善 件(96.7增訂；101.11 文字修訂) 方案試辦方案（90.11增訂） 西醫-已出海為遠洋漁船作業船 N,C,R N（乳癌試辦計畫新個案）、C（乳 H3 員，提供切結文件，慢性病代領藥 癌試辦計畫完成個案）、R（乳癌試 案件(96.7增訂；101.11文字修訂) 辦計畫復發個案） 自費健檢發現病兆加作處置或檢 南投縣信義鄉暨仁愛鄉精神疾病 查（97.1增訂）",
-          "label_en": ""
+          "label_en": "1. Multiple order records for one visit; one prescription is one record. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
         },
         {
           "code": "F1",
@@ -5846,7 +5846,7 @@
         {
           "code": "F9",
           "label_zh": "務FA馬祖地區牙周病照護網試辦計 (102/1/1-102/12/31) 畫（97.1增訂，99.1.1取消） 全民健康保險牙醫門診總額特殊醫 馬祖地區牙周病照護網試辦計畫 療服務試辦計畫之特定需求者服務/ （97.1增訂） 極重度(103/1/1 增訂) 2026年01月27日修訂 牙醫門診總額特殊醫療服務試辦計 療服務計畫-院所內服務-腦傷及脊髓 畫-院所內服務-發展遲緩兒童 損傷之中度肢體障礙 牙醫門診總額特殊醫療服務試辦計 LG 全民健康保險牙醫門診總額特殊醫 畫-醫療團服務-發展遲緩兒童 療服務計畫-醫療團服務-腦傷及脊髓 牙醫門診總額特殊醫療服務試辦計 損傷之中度肢體障礙 畫-到宅牙醫醫療服務/重度 LH 全民健康保險牙醫門診總額特殊醫 牙醫門診總額特殊醫療服務試辦計 療服務計畫-社區醫療站服務-腦傷及 畫-特定需求者服務/重度 脊髓損傷之中度肢體障礙",
-          "label_en": ""
+          "label_en": "0: Consultation fee; 1: Drug detail; 2: Treatment/procedure detail; 3: Special materials; 4: Drugs or procedures not separately billable; 5: EPO injection; 6: HCT test; 7: Outsourced tests and referrals not applicable to this facility level; 8: Organ donation; 9: Pharmacist-service fee; A: Tw-DRG (order code must be A00000-F00001, H00000-H00032, or J00001, and case class must be 5); B: data whose copayment code changed and was re-billed (order code must be G00000-G00001); C: emergency treatment start/end time; D: NHI-reimbursed special-material item being substituted; E: self-pay special-material item — not paid; F: self-pay special-material item — not meeting reimbursement rules; G: reference value for special payment; H: Health Technology Assessment (HTA) self-pay procedure (added 2015-02-15); K: bonus for full-day average nurse-to-patient ratio in a specified range, excluded from the medical-fee point total (revised fee-year-month July 2019)."
         },
         {
           "code": "L1",
@@ -6086,7 +6086,7 @@
         {
           "code": "ES",
           "label_zh": "H1 付改善方案 (111/3/1增訂) 治療試辦計畫(93.1增訂) 全民健康保險代謝症候群防治計 西醫-行動不便者，經醫師認定或經受 畫(112.1新增) H2 託人提供切結文件，慢性病代領藥案 全民健康保險乳癌醫療給付改善 件(96.7增訂；101.11 文字修訂) 方案試辦方案（90.11增訂） 西醫-已出海為遠洋漁船作業船 N,C,R N（乳癌試辦計畫新個案）、C（乳 H3 員，提供切結文件，慢性病代領藥 癌試辦計畫完成個案）、R（乳癌試 案件(96.7增訂；101.11文字修訂) 辦計畫復發個案） 自費健檢發現病兆加作處置或檢 南投縣信義鄉暨仁愛鄉精神疾病 查（97.1增訂）",
-          "label_en": ""
+          "label_en": "1. Multiple order records for one visit; one prescription is one record. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
         },
         {
           "code": "F1",
@@ -6829,7 +6829,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health03_全民健保處方及治療明細檔_藥局",
   "data_description_en": "1. Generally one prescription per visit from the same medical institution on the same day in the same department.\n2. Includes information of the medical institution and expenses for the prescription issued.",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "notes_en": "1. When counting visits, supplementary-report data should not be double-counted. 2. When computing fees, supplementary-report data should be combined. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified.",
+  "primary_keys_en": "Notes: 1. All cases in the NIIS database matched to household registration, both national and non-national. 2. The above vaccination data covers, since the COVID-19 vaccination rollout, each dose's vaccine brand and vaccination date for vaccinated cases. Dose ordering and field definitions: (1) Ordered by the case's vaccination date regardless of brand, excluding any second dose given less than 21 days after the previous. (2) If a case's primary booster and additional booster have the same date, brand, and site, only the additional booster is listed. (3) Brand3 is only the primary booster. (4) The n in the provided Brand n is the maximum dose count in the current data. Example: if the max CoV dose count in the extracted range reaches 13, the max Brand provided is Brand13. 3. Excludes groups who received a primary booster but fewer than 2 primary doses, or who did not receive an additional booster (note: this exclusion is limited to those never vaccinated with an XBB-related vaccine). 4. Excludes cases removed from registry or with an NIIS death date on or before 2021-03-21 (i.e. before COVID-19 vaccination began).",
   "name_zh_en": "National Health Insurance prescription and treatment details file - pharmacy"
 }

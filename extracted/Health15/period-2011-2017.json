@@ -395,7 +395,7 @@
       "description_zh": "記錄個案於最初診斷日前的嚼檳榔行 為。 1-2碼為每日嚼檳榔量，以”顆”計算 ․ 00：無嚼檳榔。 ․ 10：每日10 顆 ․ 20：每日20 顆 ․ 90：每日≧90 顆 ․ 91：偶爾嚼(無規律或無定量) ․ 98：有嚼，但量不詳 ․ 99：病歷未記載或嚼檳榔狀態完全 不詳者 3-4碼為嚼檳榔年 ․ 00：無嚼檳榔 ․ 05：嚼5年 ․ 15：嚼15年 ․ 98：嚼檳榔，但年不詳 ․ 99：病歷未記載或嚼檳榔狀態完全 不詳者 5-6碼為戒檳榔年 ․ 00：無戒嚼檳榔 ․ 05：已戒 5 年 ․ 15：已戒15 年 ․ 88：無嚼檳榔 ․ 98：已戒，但年不詳 ․ 99：病歷未記載或嚼檳榔狀態完全 不詳者",
       "available_notes": [],
       "name_zh_en": "chewing betel nut behavior",
-      "description_en": ""
+      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
     },
     {
       "seq": 35,
