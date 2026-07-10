@@ -182,8 +182,10 @@ def stamp_translations(cache: dict[str, str], only_files: list[str] | None = Non
     for json_path in sorted(EXTRACTED.glob("*/*.json")):
         if json_path.name.startswith("diff_"):
             continue
-        if "__xls_" in json_path.stem or "__wave_" in json_path.stem:
-            continue
+        # NB: stamping is a pure cache lookup (no API cost), so — unlike
+        # collect_strings — we DO process __xls_/__wave_ versions here. The
+        # survey databases (Society10/12, Welfare04/05/06) keep their fields in
+        # legacy__xls_*.json files, and their names must be stamped too.
         if only_files and json_path.parent.name not in only_files:
             continue
         d = json.loads(json_path.read_text(encoding="utf-8"))

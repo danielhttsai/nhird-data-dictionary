@@ -82,7 +82,7 @@
       "length": 2,
       "description_zh": "甲、01. 身心障礙者本人 乙、監護人（或聯絡人）與受訪者 關係： 02.父母 03.配偶或同居人 04.兄弟姊妹 05.（外）祖父母 06.子女（含媳婿） 07.（外）孫子女 08.其他親戚 09.鄰居 10.同學、同事或朋友 11.機構人員 12.其它________ 一﹑身心障礙者基本資料",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "visitor identity",
       "description_en": ""
     },
     {
@@ -105,7 +105,7 @@
       "description_zh": "1. 男 2. 女",
       "available_notes": [],
       "name_zh_en": "gender",
-      "description_en": ""
+      "description_en": "1 male 2 female"
     },
     {
       "seq": 9,
@@ -127,7 +127,7 @@
       "description_zh": "值域：01-12",
       "available_notes": [],
       "name_zh_en": "birth month",
-      "description_en": ""
+      "description_en": "Value range: 01-12"
     },
     {
       "seq": 11,
@@ -159,7 +159,7 @@
       "length": 2,
       "description_zh": "01.視覺障礙 02.聽覺或平衡機能障礙 03.聲音機能語言機能障礙 04.肢體障礙 05.智能障礙 06.重要器官失去功能 07.顏面損傷者 08.植物人 09.癡呆症（失智症） 10.自閉症 11.慢性精神病患者 12.多重殘障者（加勾選殘障類別） 13.其它經中央主管機關認定之身心 障礙類別",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "category of physical and mental disability",
       "description_en": ""
     },
     {
@@ -170,7 +170,7 @@
       "length": 1,
       "description_zh": "0. 不適用(.) 1. 上肢（手） 2. 下肢（腳） 3. 軀幹 4. 四肢",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Further breakdown for those who selected \"4. Physical disability\" in question 5",
       "description_en": ""
     },
     {
@@ -181,7 +181,7 @@
       "length": 1,
       "description_zh": "0. 不適用(.) 1.染色體異常 2.先天代謝異常 3.其他先天缺陷",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Further breakdown for those who selected \"13. Other disability category recognized by the central competent authority\" in question 5",
       "description_en": ""
     },
     {
@@ -192,7 +192,7 @@
       "length": 1,
       "description_zh": "本題僅適用身心障礙類別(A5)為 「06」。 0.不適用",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Body part or function of the organ that has lost function",
       "description_en": ""
     },
     {
@@ -203,7 +203,7 @@
       "length": 1,
       "description_zh": "1. 極重度 2. 重度 3. 中度 4. 輕度",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "level of physical and mental disability",
       "description_en": ""
     },
     {
@@ -214,7 +214,7 @@
       "length": 1,
       "description_zh": "1.先天(出生即有) 2.疾病而致 3.交通事故 4.職業傷害 5.老年退化 6.戰爭影響 7.其它意外傷害 8.社會因素",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Cause of the disability",
       "description_en": ""
     },
     {
@@ -225,7 +225,7 @@
       "length": 2,
       "description_zh": "值域：00-87 二﹑身心障礙者居住狀況",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Question 8, items 2-7 reasons] Age at time of onset",
       "description_en": ""
     },
     {
@@ -236,7 +236,7 @@
       "length": 1,
       "description_zh": "1.家宅 2.公立教養、養護機構 3.私立教養、養護機構",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Current place of residence is",
       "description_en": ""
     },
     {
@@ -247,7 +247,7 @@
       "length": 1,
       "description_zh": "本題僅適用目前的居住地點(B10)為 「2」、「3」。 0.不適用 1.安養院(所) 2.護理之家 3.教養院 4.育幼院 5.社區家園 6.附設住宿之庇護工廠或職訓機構 7.特殊學校",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Question 10 (2) or (3)] What kind of institution",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": 1,
       "description_zh": "0.不同住 1.同住",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (1) Spouse",
       "description_en": ""
     },
     {
@@ -269,7 +269,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (2) Father",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (3) Mother",
       "description_en": ""
     },
     {
@@ -291,7 +291,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (4) Children (including children-in-law)",
       "description_en": ""
     },
     {
@@ -302,7 +302,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (5) Siblings",
       "description_en": ""
     },
     {
@@ -313,7 +313,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (6) Grandparents",
       "description_en": ""
     },
     {
@@ -324,7 +324,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Current household resident] Who lives with you (7) Grandchildren (paternal/maternal)",
       "description_en": ""
     },
     {
@@ -335,7 +335,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (8) Friends",
       "description_en": ""
     },
     {
@@ -346,7 +346,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (9) Other relatives",
       "description_en": ""
     },
     {
@@ -357,7 +357,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Currently living at home] Who lives with you (10) Living alone",
       "description_en": ""
     },
     {
@@ -368,8 +368,8 @@
       "length": 3,
       "description_zh": "值域：0-32",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How many people live together ___ (including yourself)",
+      "description_en": "domain: 0-32"
     },
     {
       "seq": 33,
@@ -379,7 +379,7 @@
       "length": 1,
       "description_zh": "1.獨立自我照顧 2.家人照顧 3.機構人員照顧 4.僱人照顧 5.僱外勞照顧 6.朋友照顧 7.鄰居照顧 8.其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who mainly takes care of your daily living currently",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 1,
       "description_zh": "0.不適用 1.配偶 2.父親 3.母親 4.兄弟 5.姊妹 6.兒子 7.媳婦 8.女兒 9.其他親戚",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Family caregiver] The main caregiver is",
       "description_en": ""
     },
     {
@@ -401,7 +401,7 @@
       "length": 1,
       "description_zh": "0.不適用 1.幾乎每天 2.每週三、四次3. 每週一、二次 4.每月一、二次 5.每年若干次 6.幾乎沒有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Institutional caregiver] How often does family visit",
       "description_en": ""
     },
     {
@@ -412,7 +412,7 @@
       "length": 1,
       "description_zh": "0.不適用 1.收容機構離家近 2.家人無法照顧 3.可接受良好教育 4.收費合理 5.孤苦無依由政府安排 6.其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Institutional care] Reason for residing in the institution 1",
       "description_en": ""
     },
     {
@@ -423,7 +423,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Institutional care] Reason for residing in the institution 2",
       "description_en": ""
     },
     {
@@ -434,7 +434,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Institutional care] Reason for residing in the institution 3",
       "description_en": ""
     },
     {
@@ -445,7 +445,7 @@
       "length": 3,
       "description_zh": "開放式問項 0.表未滿一年者",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Institutional care] Has resided in the institution for ___ years",
       "description_en": ""
     },
     {
@@ -456,8 +456,8 @@
       "length": 6,
       "description_zh": "開放式問項",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "[Institutional or hired care] Monthly cost __ NT$",
+      "description_en": "Open-ended Question"
     },
     {
       "seq": 41,
@@ -467,8 +467,8 @@
       "length": 6,
       "description_zh": "開放式問項",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "[Institutional or hired care] Of which self-paid __ NT$",
+      "description_en": "Open-ended Question"
     },
     {
       "seq": 42,
@@ -478,8 +478,8 @@
       "length": 6,
       "description_zh": "開放式問項",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "[Institutional or hired care] Government subsidy __ NT$",
+      "description_en": "Open-ended Question"
     },
     {
       "seq": 43,
@@ -489,8 +489,8 @@
       "length": 6,
       "description_zh": "開放式問項",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "[Institutional or hired care] Other ___ NT$",
+      "description_en": "Open-ended Question"
     },
     {
       "seq": 44,
@@ -500,7 +500,7 @@
       "length": 1,
       "description_zh": "1.幾乎每天 2.每週三、四次 3.每週一、二次 4.很少外出 5.都沒有外出",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "How were your outdoor activities in the past month",
       "description_en": ""
     },
     {
@@ -511,7 +511,7 @@
       "length": 2,
       "description_zh": "01.玩電腦、電視遊樂器 02.看電影、戲劇、藝文展覽 03.聽音樂 04.看電視錄影帶 05.郊遊登山健行釣魚 06.球類運動國術打拳 07.游泳 08.閱讀書報雜誌 09.舞蹈、彈奏樂器、吟唱 10.打牌下棋 11.園藝手工藝 12.逛街 13.訪友聊天 14.旅行（在外過夜） 15.書法、繪畫、攝影 16.看MTV唱卡拉 OK（KTV） 17.其他 18.無法從事休閒活動 00.不適用(.)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main leisure activity (primary)",
       "description_en": ""
     },
     {
@@ -522,7 +522,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main leisure activity (secondary)",
       "description_en": ""
     },
     {
@@ -533,7 +533,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main leisure activity (third choice)",
       "description_en": ""
     },
     {
@@ -544,7 +544,7 @@
       "length": 1,
       "description_zh": "平常主要的休閒活動(B193)為「18. 無法從事休閒活動」者免填。 0.不適用 1.是 2.否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether the leisure activity from question 19 is done regularly",
       "description_en": ""
     },
     {
@@ -555,8 +555,8 @@
       "length": 1,
       "description_zh": "0.無 1.有",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Reason for going out in the past month (1) work",
+      "description_en": "0 none 1 present"
     },
     {
       "seq": 50,
@@ -566,7 +566,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (2) Going to school",
       "description_en": ""
     },
     {
@@ -577,7 +577,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (3) medical visit",
       "description_en": ""
     },
     {
@@ -588,7 +588,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (4) visiting friends",
       "description_en": ""
     },
     {
@@ -599,7 +599,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (5) shopping",
       "description_en": ""
     },
     {
@@ -610,7 +610,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (6) leisure activities",
       "description_en": ""
     },
     {
@@ -621,7 +621,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (7) other",
       "description_en": ""
     },
     {
@@ -632,7 +632,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for going out in the past month (8) did not go out in the past month",
       "description_en": ""
     },
     {
@@ -643,8 +643,8 @@
       "length": 1,
       "description_zh": "0.無 1.有",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Can you drive the following vehicles (1) car",
+      "description_en": "0 none 1 present"
     },
     {
       "seq": 58,
@@ -654,7 +654,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Can you drive the following vehicles (2) motorcycle/scooter",
       "description_en": ""
     },
     {
@@ -665,7 +665,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Can you drive the following vehicles (3) electric wheelchair",
       "description_en": ""
     },
     {
@@ -676,7 +676,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Can you drive the following vehicles (4) none of the above",
       "description_en": ""
     },
     {
@@ -687,7 +687,7 @@
       "length": 1,
       "description_zh": "1.自行開車或騎車 2.親友開車或騎車接送 3.坐計程車 4.使用公共交通工具 5.使用電動輪椅 6.從未使用交通工具 7.無法外出或從未外出",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Most commonly used mode of transportation when going out",
       "description_en": ""
     },
     {
@@ -698,7 +698,7 @@
       "length": 6,
       "description_zh": "0.表沒有支出 三﹑個人及家庭經濟狀況",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Average monthly transportation expenses approximately ___ NTD",
       "description_en": ""
     },
     {
@@ -709,8 +709,8 @@
       "length": 3,
       "description_zh": "值域：0-12",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How many people in the household are working",
+      "description_en": "domain: 0-12"
     },
     {
       "seq": 64,
@@ -720,8 +720,8 @@
       "length": 1,
       "description_zh": "1.本人 2.配偶",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Who is the primary economic provider in the household",
+      "description_en": "1 self 2 spouse"
     },
     {
       "seq": 65,
@@ -731,7 +731,7 @@
       "length": 2,
       "description_zh": "00.未答填 01.本人工作收入 02.配偶工作收入 03.父母親給予 04.兄弟姊妹給予 05.兒子（含媳婦）給予 06.女兒（含女婿）給予 07.其他親戚給予 08.朋友鄰居給予 09.政府補助或津貼 10.社會慈善機構 11.其它 66 本人是否有下列 收入來源(次要) C262 67 本人是否有下列 收入來源(再次 要) C263",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether you (the respondent) have the following income source (the most important one)",
       "description_en": ""
     },
     {
@@ -742,8 +742,8 @@
       "length": 1,
       "description_zh": "1.有 2.無",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Whether receiving home living subsidy",
+      "description_en": "1. present 2. absent"
     },
     {
       "seq": 69,
@@ -753,7 +753,7 @@
       "length": 6,
       "description_zh": "值域：0-96000",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Receives home living allowance of ___ NTD per month",
       "description_en": ""
     },
     {
@@ -764,7 +764,7 @@
       "length": 1,
       "description_zh": "1.20,000元以下 2.20,000--29,999 元 3.30,000--39,999 元 4.40,000--49,999 元 5.60,000--79,999 元 6.80,000以上",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Approximate monthly household expenditure",
       "description_en": ""
     },
     {
@@ -775,7 +775,7 @@
       "length": 1,
       "description_zh": "1.收支平衡 2.收入大於支出（有儲蓄） 3.支出大於收入（不夠用） 四﹑身心障礙者工作現況及職業訓練",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether average monthly household expenses and income can balance",
       "description_en": ""
     },
     {
@@ -786,7 +786,7 @@
       "length": 1,
       "description_zh": "0.不適用 1.在從事工作 2.有工作而未做，但領有報酬",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What were you mainly doing between March 12-18, ROC year 89 (2000)",
       "description_en": ""
     },
     {
@@ -797,8 +797,8 @@
       "length": 3,
       "description_zh": "0.表未滿一年",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How long have you had your current job ___ years",
+      "description_en": "0 form not completed within one year"
     },
     {
       "seq": 74,
@@ -808,8 +808,8 @@
       "length": 3,
       "description_zh": "值域：0-12",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How long have you had your current job ___ months",
+      "description_en": "domain: 0-12"
     },
     {
       "seq": 75,
@@ -819,8 +819,8 @@
       "length": 3,
       "description_zh": "值域：0-15",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How many jobs have you had since you started working (including the current job)",
+      "description_en": "domain: 0-15"
     },
     {
       "seq": 76,
@@ -836,7 +836,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "How did you find your current job",
       "description_en": ""
     },
     {
@@ -870,7 +870,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "number of employees",
       "description_en": ""
     },
     {
@@ -887,7 +887,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Occupation Classification",
       "description_en": ""
     },
     {
@@ -904,7 +904,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Status within the workplace",
       "description_en": ""
     },
     {
@@ -915,8 +915,8 @@
       "length": 3,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Total hours worked this week at that workplace",
+      "description_en": "Open-ended Answer"
     },
     {
       "seq": 82,
@@ -926,8 +926,8 @@
       "length": 3,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Overtime hours ___ hours",
+      "description_en": "Open-ended Answer"
     },
     {
       "seq": 83,
@@ -937,8 +937,8 @@
       "length": 3,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Average daily working hours ___ hours",
+      "description_en": "Open-ended Answer"
     },
     {
       "seq": 84,
@@ -948,8 +948,8 @@
       "length": 6,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Total salary last month ___ NT dollars",
+      "description_en": "Open-ended Answer"
     },
     {
       "seq": 85,
@@ -959,8 +959,8 @@
       "length": 5,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "overtime pay___NTD",
+      "description_en": "Open-ended Answer"
     },
     {
       "seq": 86,
@@ -976,7 +976,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (accessible elevator)",
       "description_en": ""
     },
     {
@@ -987,7 +987,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (wheelchair ramp and handrails)",
       "description_en": ""
     },
     {
@@ -998,7 +998,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (accessible restroom",
       "description_en": ""
     },
     {
@@ -1009,7 +1009,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (automatic door",
       "description_en": ""
     },
     {
@@ -1020,7 +1020,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (braille equipment",
       "description_en": ""
     },
     {
@@ -1031,7 +1031,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (guide facilities for the blind",
       "description_en": ""
     },
     {
@@ -1042,7 +1042,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible",
       "description_en": ""
     },
     {
@@ -1053,7 +1053,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the work environment, are any of the following accessible facilities installed (other ____ (please specify))",
       "description_en": ""
     },
     {
@@ -1070,7 +1070,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Biggest difficulty at work",
       "description_en": ""
     },
     {
@@ -1087,7 +1087,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "ever had a job before",
       "description_en": ""
     },
     {
@@ -1104,7 +1104,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Whether currently willing to work",
       "description_en": ""
     },
     {
@@ -1121,7 +1121,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "The job you would most like to do is",
       "description_en": ""
     },
     {
@@ -1138,7 +1138,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Desired type of work is",
       "description_en": ""
     },
     {
@@ -1149,7 +1149,7 @@
       "length": 1,
       "description_zh": "0.不適用非勞動力且無工作意願者 1.是 2.否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Have you received vocational training",
       "description_en": ""
     },
     {
@@ -1160,7 +1160,7 @@
       "length": 1,
       "description_zh": "0.不適用非勞動力且無工作意願者 1.知道 2.不知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know that people with disabilities who participate in vocational training for 3 months or more receive a monthly living allowance subsidy",
       "description_en": ""
     },
     {
@@ -1171,7 +1171,7 @@
       "length": 1,
       "description_zh": "0.不適用非勞動力且無工作意願者 1.是 2.否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether willing to (again) participate in vocational training",
       "description_en": ""
     },
     {
@@ -1182,7 +1182,7 @@
       "length": 2,
       "description_zh": "00.不適用非勞動力且無工作意願者 A.農林漁牧業 01.農、園藝 02.其他 B.製造業 03.食品烘焙 04.成衣、縫紉 05.飾品製作 06.皮件、鞋類 07.木工 08.紙器加工及包裝 09.射出成型 10.陶藝、石材加工 11.小五金加工 12.珠寶設計製作 13.玩具製作 14.燈籠製作 15.其他 C.批發零售餐飲業 16.超商服務 17.電話行銷 18.餐飲服務 19.其他 D.工商服務業 20.電腦軟體應用 21.電腦文書處理 22.美工設計 23.其他 E.社會服務及個人服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "The vocational training you would most like to receive is",
       "description_en": ""
     },
     {
@@ -1204,7 +1204,7 @@
       "length": 1,
       "description_zh": "0.不適用非勞動力且無工作意願者 1.本職不需再訓練，不想轉業 2.怕學不來 3.受訓期間無法負擔家計生計 4.沒有時間 5.沒有合適的訓練職類 6.參加職訓未必找到工作 7.年事已高不想接受訓練 8.交通不便 9.其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for unwillingness (primary)",
       "description_en": ""
     },
     {
@@ -1215,7 +1215,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Reason for unwillingness (secondary)",
       "description_en": ""
     },
     {
@@ -1226,7 +1226,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "The reason for unwillingness is (second most important) 5. Welfare services and medical care",
       "description_en": ""
     },
     {
@@ -1237,7 +1237,7 @@
       "length": 1,
       "description_zh": "1.很好 2.普通 3.不太好 4.很差",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "How is your current health condition",
       "description_en": ""
     },
     {
@@ -1248,7 +1248,7 @@
       "length": 3,
       "description_zh": "值域：1-80 88.表無健保卡 98.表使用超過 100張",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which National Health Insurance card number was used",
       "description_en": ""
     },
     {
@@ -1259,7 +1259,7 @@
       "length": 2,
       "description_zh": "01.內科 02.外科 03.家醫科 04.小兒科 05.眼科 06.耳鼻喉科",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "The main medical department visited in the past year was",
       "description_en": ""
     },
     {
@@ -1270,8 +1270,8 @@
       "length": 1,
       "description_zh": "1.有 2.沒有",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Whether hospitalized in the past year",
+      "description_en": "1. yes 2. no"
     },
     {
       "seq": 112,
@@ -1282,7 +1282,7 @@
       "description_zh": "值域：0-40",
       "available_notes": [],
       "name_zh_en": "Number of Hospitalizations",
-      "description_en": ""
+      "description_en": "domain: 0-40"
     },
     {
       "seq": 113,
@@ -1292,8 +1292,8 @@
       "length": 1,
       "description_zh": "1.是 2.否",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Do you have the following difficulties in seeking medical care (transportation problems hard to solve)",
+      "description_en": "1. yes 2. no"
     },
     {
       "seq": 114,
@@ -1303,7 +1303,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether there are the following difficulties in seeking medical care (unable to independently complete the registration/medical procedure)",
       "description_en": ""
     },
     {
@@ -1314,7 +1314,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you have the following difficulties in seeking medical care (not knowing which hospital or doctor to go to)",
       "description_en": ""
     },
     {
@@ -1325,7 +1325,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you have the following difficulties in seeking medical care (worried about medical expenses)",
       "description_en": ""
     },
     {
@@ -1336,7 +1336,7 @@
       "length": 1,
       "description_zh": "本題僅適用就醫上有交通問題者。 0.不適用",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "[Those with transportation problems] What kind of transportation problem",
       "description_en": ""
     },
     {
@@ -1347,7 +1347,7 @@
       "length": 1,
       "description_zh": "0.未曾發生或不需就醫 1.有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (fracture)",
       "description_en": ""
     },
     {
@@ -1358,7 +1358,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (poisoning)",
       "description_en": ""
     },
     {
@@ -1369,7 +1369,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (burn/scald)",
       "description_en": ""
     },
     {
@@ -1380,7 +1380,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (abrasion)",
       "description_en": ""
     },
     {
@@ -1391,7 +1391,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, did any of the following accidents or injuries requiring medical treatment occur (cuts/lacerations)",
       "description_en": ""
     },
     {
@@ -1402,7 +1402,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (swallowed foreign object)",
       "description_en": ""
     },
     {
@@ -1413,7 +1413,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (tinnitus)",
       "description_en": ""
     },
     {
@@ -1424,7 +1424,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment",
       "description_en": ""
     },
     {
@@ -1435,7 +1435,7 @@
       "length": 1,
       "description_zh": "本題限3歲以上者填答。 0.不適用 1.沒困難 2.需要輔具或環境改善 3.需人協助 4.完全不能",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (eating)",
       "description_en": ""
     },
     {
@@ -1446,7 +1446,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (changing clothes)",
       "description_en": ""
     },
     {
@@ -1457,7 +1457,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (bathing)",
       "description_en": ""
     },
     {
@@ -1468,7 +1468,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (getting in/out of bed)",
       "description_en": ""
     },
     {
@@ -1479,7 +1479,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (getting on/off a chair)",
       "description_en": ""
     },
     {
@@ -1490,7 +1490,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (using the toilet (sit-down type))",
       "description_en": ""
     },
     {
@@ -1501,7 +1501,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (using the toilet (squat type))",
       "description_en": ""
     },
     {
@@ -1512,7 +1512,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (bladder/bowel control)",
       "description_en": ""
     },
     {
@@ -1523,7 +1523,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (moving indoors)",
       "description_en": ""
     },
     {
@@ -1534,7 +1534,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "For the following activities, can you move on your own without difficulty (moving outdoors)",
       "description_en": ""
     },
     {
@@ -1545,8 +1545,8 @@
       "length": 1,
       "description_zh": "0.不做 1.做",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Do you currently do the following activity (housework)",
+      "description_en": "0. not performed 1. performed"
     },
     {
       "seq": 137,
@@ -1556,7 +1556,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "do you usually do this",
       "description_en": ""
     },
     {
@@ -1567,7 +1567,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you currently do the following activity (cooking)",
       "description_en": ""
     },
     {
@@ -1578,7 +1578,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you currently do the following activity (going out to buy daily necessities)",
       "description_en": ""
     },
     {
@@ -1589,7 +1589,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you currently do the following activity (managing finances)",
       "description_en": ""
     },
     {
@@ -1600,7 +1600,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you currently do the following activity (taking medicine)",
       "description_en": ""
     },
     {
@@ -1611,7 +1611,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you currently do the following activity (making phone calls)",
       "description_en": ""
     },
     {
@@ -1622,7 +1622,7 @@
       "length": 1,
       "description_zh": "0.沒困難 1.需要輔具或環境改善 2.需人協助 3.完全不能",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (housework)",
       "description_en": ""
     },
     {
@@ -1633,7 +1633,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (doing laundry)",
       "description_en": ""
     },
     {
@@ -1644,7 +1644,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (cooking)",
       "description_en": ""
     },
     {
@@ -1655,7 +1655,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (going out to buy daily necessities)",
       "description_en": ""
     },
     {
@@ -1666,7 +1666,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (managing money)",
       "description_en": ""
     },
     {
@@ -1677,7 +1677,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (eating",
       "description_en": ""
     },
     {
@@ -1688,7 +1688,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (making phone calls)",
       "description_en": ""
     },
     {
@@ -1699,8 +1699,8 @@
       "length": 1,
       "description_zh": "0.否 1.是",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Whether currently receiving the following rehabilitation treatments (Occupational therapy)",
+      "description_en": "0 no 1 yes"
     },
     {
       "seq": 151,
@@ -1710,7 +1710,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether currently receiving the following rehabilitation treatments (Physical therapy)",
       "description_en": ""
     },
     {
@@ -1721,7 +1721,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether currently receiving the following rehabilitation treatments (Speech therapy)",
       "description_en": ""
     },
     {
@@ -1732,7 +1732,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether currently receiving the following rehabilitation treatments (Psychological counseling)",
       "description_en": ""
     },
     {
@@ -1743,7 +1743,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether currently receiving the following rehabilitation treatments (No)",
       "description_en": ""
     },
     {
@@ -1754,8 +1754,8 @@
       "length": 1,
       "description_zh": "0.否 1.是",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Which assistive devices do you use in daily life (braille typewriter or braille slate)",
+      "description_en": "0 no 1 yes"
     },
     {
       "seq": 156,
@@ -1765,7 +1765,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (special glasses)",
       "description_en": ""
     },
     {
@@ -1776,7 +1776,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (wheelchair)",
       "description_en": ""
     },
     {
@@ -1787,7 +1787,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (walking aid)",
       "description_en": ""
     },
     {
@@ -1798,7 +1798,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life",
       "description_en": ""
     },
     {
@@ -1809,7 +1809,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (feeding chair or eating aid)",
       "description_en": ""
     },
     {
@@ -1820,7 +1820,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (home accessibility equipment/facilities)",
       "description_en": ""
     },
     {
@@ -1831,7 +1831,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (other)",
       "description_en": ""
     },
     {
@@ -1842,7 +1842,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (electric wheelchair/mobility scooter)",
       "description_en": ""
     },
     {
@@ -1853,7 +1853,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (prosthetic limb)",
       "description_en": ""
     },
     {
@@ -1864,7 +1864,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (hearing aid)",
       "description_en": ""
     },
     {
@@ -1875,7 +1875,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (cochlear implant)",
       "description_en": ""
     },
     {
@@ -1886,7 +1886,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (prosthetic eye)",
       "description_en": ""
     },
     {
@@ -1897,7 +1897,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (artificial voice device)",
       "description_en": ""
     },
     {
@@ -1908,7 +1908,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (brace/standing frame)",
       "description_en": ""
     },
     {
@@ -1919,7 +1919,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (air mattress or fluid pressure mattress)",
       "description_en": ""
     },
     {
@@ -1930,7 +1930,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which assistive devices do you use in daily life (none used)",
       "description_en": ""
     },
     {
@@ -1941,7 +1941,7 @@
       "length": 2,
       "description_zh": "01.就醫交通協助 02.提供醫療資源資訊 03.擴大重大傷病認定範圍 04.提供社區就近醫療服務 05.提供居家照護 06.提供醫療補助 07.提供營養、藥物、輔具諮詢服務 08.身心障礙者定期免費健康檢查 09.早期治療者 10.醫院通報系統 11.其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What items do you think the government should prioritize regarding medical care for people with disabilities (first priority)",
       "description_en": ""
     },
     {
@@ -1952,7 +1952,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What items do you think the government should prioritize regarding medical care for people with disabilities (second priority)",
       "description_en": ""
     },
     {
@@ -1963,7 +1963,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What items do you think the government should prioritize regarding medical care for people with disabilities (third priority)",
       "description_en": ""
     },
     {
@@ -1974,7 +1974,7 @@
       "length": 2,
       "description_zh": "01.生活補助 02.建立國民年金制度 03.建立社區型安置措施 04.協助解決交通問題 05.身心障礙者之老年安養 06.人身安全保護 07.保障有工作能力身心障礙者最低 合理薪資 08.建立無障礙生活環境設施及設備 09.就業政策 10.信託基金 11.居家服務 12.喘息服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What livelihood welfare measures do you think the government should prioritize for people with disabilities (first priority)",
       "description_en": ""
     },
     {
@@ -1985,7 +1985,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What livelihood welfare measures do you think the government should prioritize for people with disabilities (second priority)",
       "description_en": ""
     },
     {
@@ -1996,7 +1996,7 @@
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What livelihood welfare measures do you think the government should prioritize for people with disabilities",
       "description_en": ""
     },
     {
@@ -2007,7 +2007,7 @@
       "length": 1,
       "description_zh": "1.不知道 2.滿意 3.尚可 4.不滿意 5.不需要 6.申請麻煩 7.申請不通過 8.其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (living allowance for people with disabilities)",
       "description_en": ""
     },
     {
@@ -2018,7 +2018,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (childcare and care fee subsidy)",
       "description_en": ""
     },
     {
@@ -2029,7 +2029,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (assistive device subsidy)",
       "description_en": ""
     },
     {
@@ -2040,7 +2040,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for persons with disabilities (medical expense subsidy)",
       "description_en": ""
     },
     {
@@ -2051,7 +2051,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (improving accessibility facilities)",
       "description_en": ""
     },
     {
@@ -2062,7 +2062,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (early intervention)",
       "description_en": ""
     },
     {
@@ -2073,7 +2073,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (transportation subsidy)",
       "description_en": ""
     },
     {
@@ -2084,7 +2084,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (rent and home purchase loan interest subsidy)",
       "description_en": ""
     },
     {
@@ -2095,7 +2095,7 @@
       "length": 1,
       "description_zh": "1.身心障礙者生活補助 2.托育及養護費 3.輔具補助 4.醫療費用補助 5.改善無障礙設施 6.早期療育 7.搭乘交通工具或風景名勝半票優待 8.租屋及購屋貸款利息補助",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Welfare the government provides for people with disabilities (most needed)",
       "description_en": ""
     },
     {
@@ -2106,7 +2106,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Welfare the government provides for people with disabilities (second most needed)",
       "description_en": ""
     },
     {
@@ -2117,7 +2117,7 @@
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Welfare the government provides for people with disabilities (secondary need) — supplementary data for table construction",
       "description_en": ""
     },
     {

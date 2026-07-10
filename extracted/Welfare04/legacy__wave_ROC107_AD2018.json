@@ -38,7 +38,7 @@
       "length": 2,
       "description_zh": "1: 家計負責人 2~12:其他戶內成員",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Household member code (individual source)",
       "description_en": ""
     },
     {
@@ -60,8 +60,8 @@
       "length": 1,
       "description_zh": "1：是 2：否",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Q7A1 Are you registered as a low-income or lower-middle-income household",
+      "description_en": "1: yes 2: no"
     },
     {
       "seq": 5,
@@ -71,7 +71,7 @@
       "length": 2,
       "description_zh": "1：戶長本人 2：配偶 3：子女 4：內、外孫子女 5：父母 6：內、外祖父母 7：兄弟姊妹 8：子女之配偶 9：孫子女之配偶 10：兄弟姊妹之配偶 11：配偶之父母 12：配偶之兄弟姊妹 13：其他親屬 14：其他非親屬",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A2 Relationship to the head of household",
       "description_en": ""
     },
     {
@@ -82,8 +82,8 @@
       "length": 1,
       "description_zh": "1：男 2：女",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Q7A3 Gender",
+      "description_en": "1: male 2: female"
     },
     {
       "seq": 7,
@@ -93,7 +93,7 @@
       "length": 5,
       "description_zh": "民國年",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A41 Year of birth",
       "description_en": "ROC Year"
     },
     {
@@ -104,7 +104,7 @@
       "length": 5,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A42 Month of birth",
       "description_en": ""
     },
     {
@@ -115,7 +115,7 @@
       "length": 1,
       "description_zh": "1：不識字 2：國小及自修 3：國(初)中 4：高中(職) 5：專科 6：大學 7：碩士 8：博士",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A5 Education level",
       "description_en": ""
     },
     {
@@ -126,7 +126,7 @@
       "length": 1,
       "description_zh": "1：是 2：否，畢業 3：否，肄業",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A6 Currently enrolled in school",
       "description_en": ""
     },
     {
@@ -137,8 +137,8 @@
       "length": 1,
       "description_zh": "1：是 2：否",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Q7A7 Do you hold a disability handbook or certificate",
+      "description_en": "1: yes 2: no"
     },
     {
       "seq": 12,
@@ -148,7 +148,7 @@
       "length": 1,
       "description_zh": "1：未婚 2：有配偶 3：與人同居(含同性伴侶) 4：離婚 5：分居 6：喪偶",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A8. Current marital status",
       "description_en": ""
     },
     {
@@ -159,7 +159,7 @@
       "length": 1,
       "description_zh": "1：具原住民身分 2：具榮民、榮眷身分 3：具外籍或大陸配偶身分 4：一般身分",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A9 Status",
       "description_en": ""
     },
     {
@@ -170,7 +170,7 @@
       "length": 2,
       "description_zh": "1：未滿15小時 2：15~20小時 3：21~25小時 4：26~30小時 5：31~35小時 6：36~40小時 7：41~45小時 8：46~50小時 9：51~55小時 10：56小時及以上",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A. Average weekly working hours over the past 3 months, excluding overtime (category)",
       "description_en": ""
     },
     {
@@ -192,7 +192,7 @@
       "length": 1,
       "description_zh": "1：雇主 2：自營作業者 3：受私人僱用 4：受政府僱用 5：無酬家屬工作者",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "丙、occupational status",
       "description_en": ""
     },
     {
@@ -203,7 +203,7 @@
       "length": 1,
       "description_zh": "1：全日型經常性工作 2：部分工時經常性工作 3：臨時性或季節性工作 4：6個月內臨時、短期工作",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "丁, main job type",
       "description_en": ""
     },
     {
@@ -214,7 +214,7 @@
       "length": 2,
       "description_zh": "1：16 歲以上非在學學生，屬有 工作能力 2：25 歲以下仍在國內就讀空中 大學、大學院校以上進修學 校、在職班、學分班、僅於夜 間或假日上課、遠距教學學校 或超過25 歲在學學生 3：未滿16歲，非屬有工作能力 4：高齡(65歲以上)非屬有工作能 力 5：25 歲以下仍在國內就讀空中 大學、大學院校以上進修學 校、在職班、學分班、僅於夜 間或假日上課、遠距教學以外 學校，致不能工作 6：身心障礙致不能工作 7：罹患嚴重傷、病，需三個月以 上治療或療養致不能工作 8：因照顧特定身心障礙或罹患特 定病症且不能自理生活之共同 生活或受扶養親屬，致不能工 作 9：獨自扶養六歲以下之直系血親 卑親屬致不能工作 10：婦女懷胎六個月以上至分娩 後二個月內，致不能工作； 或懷胎期間經醫師診斷不宜",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A. Current work capacity status",
       "description_en": ""
     },
     {
@@ -225,7 +225,7 @@
       "length": 2,
       "description_zh": "1：初尋工作中 2：重尋工作中 3：正在準備就業考試或高、普、 特考試 4：參加職訓中 5：需照顧未滿 12歲兒童 6：需照顧患重傷病親屬 7：需料理家務 8：準備懷孕或已懷孕者 9：在學、準備升學或繼續進修中 10：服兵役中 11：離家出走或失蹤 12：入獄服刑中 13：謀職困難致未再尋工作 14：年紀大 15：不想工作 16：體力差無法工作 17：其他原因",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "B. Reason those currently capable of working are not working",
       "description_en": ""
     },
     {
@@ -237,7 +237,7 @@
       "description_zh": "1：有 2：沒有",
       "available_notes": [],
       "name_zh_en": "job training status",
-      "description_en": ""
+      "description_en": "1:has 2:no"
     },
     {
       "seq": 21,
@@ -247,7 +247,7 @@
       "length": 2,
       "description_zh": "0：沒有職訓 1：電腦、資訊 2：經紀銷售 3：創業經營 4：出納、會計及金融理財 5：觀光、導覽 6：餐飲服務 7：托育、照顧服務及家事管理 8：公寓大廈管理 9：美容、美髮 10：工業配線、水電維修 11：冷凍空調",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A. Type of vocational training received (multiple choice)",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": "",
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A11_11_2",
       "description_en": ""
     },
     {
@@ -269,8 +269,8 @@
       "length": 1,
       "description_zh": "1：有 2：沒有",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "B. After receiving vocational training, did you work in a field related to the training content",
+      "description_en": "1:has 2:no"
     },
     {
       "seq": 24,
@@ -280,7 +280,7 @@
       "length": 2,
       "description_zh": "0：沒有工作機會 1：身體狀況不佳 2：沒有證照，無法僱用 3：改變對就業的看法 4：家務太忙 5：酬勞太低福利差 6：工作繁重無法勝任 7：因低收入戶身分被歧視 8：結婚或生育 9：工作地點離住處太遠 10：家人生病需要照顧 11：找不到與訓練相關的工作 12：其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "C. Reason for not working in a related field after receiving vocational training",
       "description_en": ""
     },
     {
@@ -302,7 +302,7 @@
       "length": 2,
       "description_zh": "0：不願意職訓 1：電腦、資訊 2：經紀銷售 3：創業經營 4：出納、會計及金融理財 5：觀光、導覽 6：餐飲服務 7：托育、照顧服務及家事管理 8：公寓大廈管理 9：美容、美髮 10：工業配線、水電維修 11：冷凍空調 12：模具",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A. Yes, type of vocational training willing to accept (multiple choice)",
       "description_en": ""
     },
     {
@@ -313,7 +313,7 @@
       "length": "",
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Q7A11_21_2",
       "description_en": ""
     },
     {
@@ -324,7 +324,7 @@
       "length": 2,
       "description_zh": "1：基本學識低，學習力弱 2：年齡大，記憶差，學習困難 3：受訓期間無法負擔家庭生計 4：不想轉業，本職不需再訓練 5：沒有合適的訓練種類 6：需照顧家人或料理家務，沒空 接受訓練 7：身體健康不佳，無法負荷訓練 8：參加訓練後也未必能找到工作 9：已有專長，不需再訓練 10：在學中 11：其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "B. No, main reason for being unwilling to receive vocational training",
       "description_en": ""
     },
     {
@@ -346,7 +346,7 @@
       "length": 2,
       "description_zh": "0：以工代賑 1：就業輔導(全日工作) 2：就業輔導(部分時間工作) 3：創業輔導 4：創業貸款利息補貼 5：求職交通補助 6：求職或職業訓練期間之臨時托 育及日間照顧津貼 7：協助安置需照顧家人，俾可安 心就業 8：創業研習課程 9：其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "A. Yes, mainly what type of assistance",
       "description_en": ""
     },
     {
@@ -357,7 +357,7 @@
       "length": 1,
       "description_zh": "0：自己尋找工作，不需政府幫助 1：已有滿意工作，不需協助 2：暫無法工作 3：其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "B, No, Reason:",
       "description_en": ""
     },
     {
@@ -368,7 +368,7 @@
       "length": 2,
       "description_zh": "1：循環系統疾病 2：骨骼肌肉系統疾病",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "2. Type of chronic or major illness/injury",
       "description_en": ""
     },
     {
@@ -379,7 +379,7 @@
       "length": 1,
       "description_zh": "1：門診 2：住院 3：自行購藥及其他治療方式 4：機構照顧 5：未治療",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "3. Treatment method (main)",
       "description_en": ""
     },
     {
@@ -390,7 +390,7 @@
       "length": 2,
       "description_zh": "1：門診 2：住院 3：自行購藥及其他治療方式 4：機構照顧 90：沒有第二重要 99：此題跳答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "3. Treatment method (secondary)",
       "description_en": ""
     },
     {
@@ -401,7 +401,7 @@
       "length": 1,
       "description_zh": "1：完全依賴 2：部分依賴 3：不必依賴 4：無家人可依賴 5：住機構 99：此題跳答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "4. Degree of reliance on family for daily care",
       "description_en": ""
     }
   ],

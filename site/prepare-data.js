@@ -53,6 +53,89 @@ function fileTitle(versions) {
   return '';
 }
 
+// PDF-extracted English file names lose inter-word spaces (AMBULATORYCARE,
+// byAdmissions) and are frequently ALL-CAPS. These are the site's most visible
+// titles, so override them with clean canonical English names. Keys are the
+// file code; both "Society12" and "Society12-1" are listed where the code varies.
+const CANON_EN = {
+  Health01: 'Ambulatory Care Expenditures by Visits',
+  Health02: 'Inpatient Expenditures by Admissions',
+  Health03: 'Expenditures for Prescriptions Dispensed at Contracted Pharmacies',
+  Health04: 'Details of Ambulatory Care Orders',
+  Health05: 'Details of Inpatient Orders',
+  Health06: 'Details of Prescriptions Dispensed at Contracted Pharmacies',
+  Health07: 'Registry for Beneficiaries',
+  Health08: 'Registry for Catastrophic Illness Patients',
+  Health09: 'Birth Reporting Database',
+  Health10: 'Cause of Death Data',
+  Health101: 'Lung Cancer Health Database',
+  Health103: 'Cardiovascular Database — Main File',
+  Health104: 'Liver Cancer Health Database',
+  Health105: 'Lung Cancer Health Database',
+  Health12: 'Health Services Utilization of Medical Facilities',
+  Health13: 'Health Resources of Medical Facilities',
+  Health14: 'Taiwan Cancer Registry — Long Form',
+  Health15: 'Cancer Registration Database — Short Form',
+  Health16: 'Cancer Registration Database — TCDB',
+  Health17: 'Drug Data',
+  Health25: 'Registry for Contracted Medical Facilities',
+  Health29: 'Registry for Medical Personnel',
+  Health30: 'Multiple Cause of Death Data',
+  Health31: 'Delayed Report of Death Data',
+  Health37: 'National Health Insurance Drug Price File',
+  Health42: 'Monthly Claim Summary for Ambulatory Care Claims',
+  Health43: 'Monthly Claim Summary for Inpatient Claims',
+  Health48: 'Taiwan Birth Cohort Study',
+  Health51: 'Reported Rare Disease Database',
+  Health52: 'Artificial Reproduction Database',
+  Health53: 'Delayed Report of Multiple Cause of Death Data',
+  Health54: 'Pap Smear Test',
+  Health55: 'Colorectal Cancer Screening',
+  Health56: 'Breast Cancer Screening',
+  Health57: 'Oral Mucosal Screening',
+  Health59: 'National Genetic Diagnosis System Database',
+  Health61: 'Notifiable Disease Dataset of Confirmed Cases',
+  Health73: 'Tuberculosis (TB) Database',
+  Welfare20: 'Disabled Beneficiary Case Management — Case Manager Record',
+  Health82: 'Colorectal Cancer Health Database',
+  Health83: 'Breast Cancer Health Database',
+  Health99: 'Adult Preventive Health Service Database',
+  Society10: '2013 National Health Interview Survey',
+  Society12: 'Social Environmental Biomarker of Aging Study (SEBAS)',
+  'Society12-1': 'Social Environmental Biomarker of Aging Study (SEBAS)',
+  Society17: 'Survey Questionnaires (by Age Group), Physical Examination & 24-Hour Diet Recall',
+  Welfare04: 'Low-income and Middle-income Family Living Condition Survey',
+  Welfare05: 'Senior Citizen Condition Survey 2013',
+  Welfare06: 'Physically and Mentally Disabled Citizens Living and Demand Assessment Survey',
+  Welfare08: "Women's Living Conditions Survey",
+  Welfare11: 'Low-income and Middle-low-income Households — Disability',
+  Welfare12: 'Family Violence Data',
+  Welfare14: 'Reported Data of Protection of Children and Youths',
+  Welfare15: 'Reported Data of Sexual Assault',
+  Welfare19: 'Children and Youth Living Conditions Survey 2018',
+};
+
+const SMALL_WORDS = new Set(['a','an','and','as','at','by','for','from','in','of','on','or','the','to','with']);
+// Best-effort cleanup for any English name not in CANON_EN: re-insert spaces lost
+// at camelCase / letter-digit boundaries and normalise casing for readability.
+// Cannot recover spaces inside a run of all-caps (AMBULATORYCARE) — that is what
+// CANON_EN is for.
+function cleanEnglishName(s) {
+  if (!s) return '';
+  let t = String(s)
+    .replace(/([a-z])([A-Z])/g, '$1 $2')     // byAdmissions -> by Admissions
+    .replace(/([A-Za-z])(\d)/g, '$1 $2')      // File2 -> File 2
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!/[a-z]/.test(t)) t = t.toLowerCase();  // ALL CAPS -> lower, then title-case
+  return t.split(' ').map((w, i) => {
+    if (/^[A-Z]{2,}$/.test(w) && w.length <= 5) return w;      // keep acronyms (TCDB)
+    const lw = w.toLowerCase();
+    if (i > 0 && SMALL_WORDS.has(lw)) return lw;
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(' ');
+}
+
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
 const qa = fs.existsSync(QA) ? JSON.parse(fs.readFileSync(QA, 'utf8')) : { entries: [] };
 const qaByKey = new Map(qa.entries.map(e => [`${e.code}|${e.version_id}`, e]));
@@ -153,10 +236,12 @@ for (const [code, versions] of byCode) {
   // For catalogue display, prefer the PDF's English file name; fall back to the
   // LLM-translated Chinese name. Drop it if it's actually a sub-table list
   // (very long / repeated) so the card doesn't show a wall of text.
-  const enCandidate = (primaryExtracted?.name_en && primaryExtracted.name_en.trim())
+  const rawEn = (primaryExtracted?.name_en && primaryExtracted.name_en.trim())
     || primaryExtracted?.name_zh_en
     || '';
-  const englishName = (enCandidate.length > 60 || /Questionnaire.*Questionnaire/i.test(enCandidate))
+  // Curated canonical title wins; otherwise clean up the mangled PDF English.
+  const enCandidate = CANON_EN[code] || cleanEnglishName(rawEn);
+  const englishName = (enCandidate.length > 90 || /Questionnaire.*Questionnaire/i.test(enCandidate))
     ? '' : enCandidate;
   const item = {
     code,

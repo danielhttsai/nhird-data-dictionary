@@ -38,8 +38,8 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "gender by ID number",
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 3,
@@ -49,7 +49,7 @@
       "length": 1,
       "description_zh": "0：身分證符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "ID number validation error",
       "description_en": ""
     },
     {
@@ -60,7 +60,7 @@
       "length": 10,
       "description_zh": "單胞胎；雙或多胞胎",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Fetus Count",
       "description_en": ""
     },
     {
@@ -72,7 +72,7 @@
       "description_zh": "僅提供縣市。",
       "available_notes": [],
       "name_zh_en": "residence",
-      "description_en": ""
+      "description_en": "only provided at county/municipality level"
     },
     {
       "seq": 6,
@@ -82,7 +82,7 @@
       "length": 14,
       "description_zh": "本國；大陸；印尼； 越南；泰國；寮國； 菲律賓；馬來西亞； 東南亞其他國家； 其他國家",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Nationality",
       "description_en": ""
     },
     {
@@ -93,7 +93,7 @@
       "length": 14,
       "description_zh": "本國；大陸；印尼； 越南；泰國；寮國； 菲律賓；馬來西亞； 東南亞其他國家； 其他國家",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Nationality",
       "description_en": ""
     },
     {
@@ -104,7 +104,7 @@
       "length": 8,
       "description_zh": "血液；尿液；流產組織； 臍帶血；其他；血片；腦 脊髓液",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Health Checkup Category",
       "description_en": ""
     },
     {
@@ -115,7 +115,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "sample collection time",
       "description_en": ""
     },
     {
@@ -126,7 +126,7 @@
       "length": 30,
       "description_zh": "請參考適應症對照表",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Indication Code",
       "description_en": ""
     },
     {
@@ -137,8 +137,8 @@
       "length": 30,
       "description_zh": "對照檢驗項目欄位",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "test item code",
+      "description_en": "control test item field"
     },
     {
       "seq": 12,
@@ -148,7 +148,7 @@
       "length": 3,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Stillbirths",
       "description_en": ""
     },
     {
@@ -159,7 +159,7 @@
       "length": 8,
       "description_zh": "一般；低收入戶；偏遠地 區",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Family Type",
       "description_en": ""
     },
     {
@@ -181,7 +181,7 @@
       "length": 10,
       "description_zh": "正常；異常；培養失敗； 正常變異型；未發現異 常；無法確定",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Test Result",
       "description_en": ""
     },
     {
@@ -192,7 +192,7 @@
       "length": 30,
       "description_zh": "請參考適應症代碼對照檔",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Indication Code",
       "description_en": ""
     },
     {
@@ -203,8 +203,8 @@
       "length": 30,
       "description_zh": "對照檢驗項目欄位",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "test item code",
+      "description_en": "control test item field"
     },
     {
       "seq": 18,
@@ -214,7 +214,7 @@
       "length": 50,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Test Item",
       "description_en": ""
     },
     {
@@ -225,7 +225,7 @@
       "length": 2,
       "description_zh": "Y：自費 N：補助",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Self-Paid",
       "description_en": ""
     },
     {
@@ -247,7 +247,7 @@
       "length": 50,
       "description_zh": "1-1_已做人工流產，流產 物已做過確認 1-2_已做人工流產，流產 物未做過確認 2_繼續懷孕 3_自然流產 4_胎死腹中 5-1_已生產，生產外觀無 異常 5-2_已生產，與產前診斷 相符 5-3_已生產，其他 5-4_已生產，不詳 6_無法追蹤 7_其他",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Follow-Up Result",
       "description_en": ""
     },
     {
@@ -258,7 +258,7 @@
       "length": 10,
       "description_zh": "YYYY/MM/DD",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Follow-Up Date",
       "description_en": ""
     },
     {
@@ -269,7 +269,7 @@
       "length": 10,
       "description_zh": "正常；異常； 培養失敗；正常變異型",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Test Result",
       "description_en": ""
     },
     {
@@ -280,7 +280,7 @@
       "length": 4,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Gestational age in weeks (ultrasound)",
       "description_en": ""
     }
   ],
