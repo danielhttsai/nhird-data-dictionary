@@ -1043,6 +1043,6 @@
   "name_zh_from_listing": "Welfare20_長照服務資料檔",
   "data_description_en": "1. The data unit is the Department of Long-term Care under the Ministry of Health and Welfare. Contact information: Ms. Chang from the National Health Research Institute; phone: (05)620-4000 ext. 51245; email: changyw@nhri.edu.tw. 2. The data covers years 2021 and 2022. 3. All cases in this database meet the eligibility criteria for long-term care.",
   "notes_en": "1. This file can only be linked with the 'Key and Matching Fields' described below, see attachment on the last page of this manual for details.\n※This center's database has been de-identified, with personal information such as names and addresses removed. Only fields like national health insurance numbers, facility codes, employer codes, unified numbers, dates of birth, medical visit dates, admission dates have been masked, and the data can only be used within a dedicated operational area of this department, and statistical results reviewed and approved before being carried out to ensure that the data cannot be linked back to specific individuals.",
-  "primary_keys_en": "",
+  "primary_keys_en": "this file compares with home physician case referral form (W_LTC_CMS_FH100), care plan-assistive device (W_LTC_CMS_QD113), disabled person case management-evaluation/plan (W_LTC_CMS_CA110), consultation form (W_LTC_CMS_QD111) by unique key value: OBJID.",
   "name_zh_en": "disabled beneficiary case management-casemanager record"
 }

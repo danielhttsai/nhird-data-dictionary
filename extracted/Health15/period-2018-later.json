@@ -230,7 +230,7 @@
       "description_zh": "記錄在申報醫院的首次療程中，進 行放射治療的開始日期，詳欄位(變 項)譯碼(五)【放射治療開始日期 (RTB_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "Radiotherapy start date",
-      "description_en": ""
+      "description_en": "recorded on the first treatment visit reported at the申报hospital, the start date of radiotherapy, detailed field(code change) translation(five)【radiotherapy start date (RTB_DT) lookup table】."
     },
     {
       "seq": 20,
@@ -478,7 +478,7 @@
   "codebooks": {
     "CASITE": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [
@@ -2550,7 +2550,7 @@
   "doc_first_published": "2021-06-22",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health15_癌症登記檔短表SF(2018年以後版本)",
-  "data_description_en": "",
+  "data_description_en": "Cancer cases newly diagnosed since 2018, except for those reported on long forms, are now submitted using the 2018 cancer registration short form items. (Some data may include pre-2017 diagnosis year supplementary reports.)",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration short form SF (2018-2022)"

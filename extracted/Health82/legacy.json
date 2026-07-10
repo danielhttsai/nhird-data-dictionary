@@ -659,7 +659,7 @@
       "description_zh": "針對病患在癌症登記年報檔 中，第一筆大腸直腸癌紀錄 的診斷日期(DIAGDAY)，其 前後三個月內，在大腸癌篩 檢 - 大 腸 癌 確 診 檔 (H_BHP_CCS_CONF) 是 否 有紀錄。 0：沒有； 1：只有一筆(且診斷日期與 大腸癌確診檔的確診日期 (CONFIRMDATE)皆完整)； 9：有多筆大腸癌確診檔紀 錄或者診斷日期與確診日期 的資訊不完整(年、月、日 標示為9999、99 或空白)",
       "available_notes": [],
       "name_zh_en": "whether has colorectal cancer confirmed case record",
-      "description_en": ""
+      "description_en": "For patients registered for cancer registry in the annual report file, the diagnosis date (DIAGDAY) of the first record of colorectal cancer is checked against records in the colorectal cancer screening - colorectal cancer confirmation file (H_BHP_CCS_CONF) within three months before and after this date. 0: No records; 1: Only one record with complete diagnosis dates matching those in the confirmation file; 9: Multiple records or incomplete information regarding diagnosis or confirmation dates (year, month, day marked as 9999, 99, or blank)."
     },
     {
       "seq": 53,

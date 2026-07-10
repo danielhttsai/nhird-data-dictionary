@@ -4,7 +4,7 @@
   "code_short": "",
   "name_zh": "台灣癌症登記 長表",
   "name_en": "Taiwan Cancer Registry — Long Form",
-  "name_zh_en": "",
+  "name_zh_en": "Taiwan Cancer Registry Long Form",
   "version_id": "twcr_manual_LF129_2025",
   "version_label": "TWCR 登記手冊 長表 (129 欄) · 114年版",
   "record_count_raw": "",
@@ -20,7 +20,7 @@
       "seq": "1.1",
       "name_zh": "申報醫院代碼",
       "name_en": "Reporting Hospital Code",
-      "name_zh_en": "",
+      "name_zh_en": "claim hospital code",
       "type": "Char",
       "length": 10,
       "description_zh": "",
@@ -31,7 +31,7 @@
       "seq": "1.2",
       "name_zh": "病歷號碼",
       "name_en": "Medical Record Number",
-      "name_zh_en": "",
+      "name_zh_en": "Medical Record Number",
       "type": "Char",
       "length": 10,
       "description_zh": "",
@@ -42,7 +42,7 @@
       "seq": "1.3",
       "name_zh": "姓名",
       "name_en": "Name",
-      "name_zh_en": "",
+      "name_zh_en": "Patient Name",
       "type": "Char",
       "length": 200,
       "description_zh": "",
@@ -53,7 +53,7 @@
       "seq": "1.4",
       "name_zh": "身分證統一編號",
       "name_en": "ID Number",
-      "name_zh_en": "",
+      "name_zh_en": "national ID number",
       "type": "Char",
       "length": 10,
       "description_zh": "",
@@ -108,7 +108,7 @@
       "seq": "2.2",
       "name_zh": "癌症發生順序號碼",
       "name_en": "Sequence Number",
-      "name_zh_en": "",
+      "name_zh_en": "cancer occurrence sequence number",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -196,7 +196,7 @@
       "seq": "2.8",
       "name_zh": "組織型態",
       "name_en": "Histology",
-      "name_zh_en": "",
+      "name_zh_en": "Tissue Type",
       "type": "Char",
       "length": 5,
       "description_zh": "",
@@ -251,7 +251,7 @@
       "seq": "2.12",
       "name_zh": "首次顯微鏡檢證實日期",
       "name_en": "Date of First Microscopic Confirmation",
-      "name_zh_en": "",
+      "name_zh_en": "First Microscopic Confirmation Date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -262,7 +262,7 @@
       "seq": "2.13",
       "name_zh": "腫瘤大小",
       "name_en": "Tumor Size",
-      "name_zh_en": "",
+      "name_zh_en": "Tumor Size",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -284,7 +284,7 @@
       "seq": "2.13.2",
       "name_zh": "淋巴管或血管侵犯",
       "name_en": "Lymph-vascular invasion",
-      "name_zh_en": "",
+      "name_zh_en": "lymphatic or vascular invasion",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -295,7 +295,7 @@
       "seq": "2.14",
       "name_zh": "區域淋巴結檢查數目",
       "name_en": "Regional Lymph Nodes Examined",
-      "name_zh_en": "",
+      "name_zh_en": "regional lymph node examination count",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -306,7 +306,7 @@
       "seq": "2.15",
       "name_zh": "區域淋巴結侵犯數目",
       "name_en": "Regional Lymph Nodes Positive",
-      "name_zh_en": "",
+      "name_zh_en": "regional lymph node invasion count",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -317,7 +317,7 @@
       "seq": "3.1",
       "name_zh": "診斷性及分期性手術處置日期",
       "name_en": "Date of Surgical Diagnostic and Staging Procedure",
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic and staging surgery/procedure date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -338,7 +338,7 @@
       "seq": "3.2",
       "name_zh": "外院診斷性及分期性手術處置",
       "name_en": "Surgical Diagnostic and Staging Procedure at Other Facility",
-      "name_zh_en": "",
+      "name_zh_en": "diagnostic_and_staging_surgical_procedures_at_other_hospitals",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -359,7 +359,7 @@
       "seq": "3.3",
       "name_zh": "申報醫院診斷性及分期性手術處置",
       "name_en": "Surgical Diagnostic and Staging Procedure at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "reporting hospital diagnostic and staging procedures",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -380,7 +380,7 @@
       "seq": "3.4",
       "name_zh": "臨床T",
       "name_en": "Clinical T",
-      "name_zh_en": "",
+      "name_zh_en": "Clinical T",
       "type": "Char",
       "length": 4,
       "description_zh": "",
@@ -401,7 +401,7 @@
       "seq": "3.5",
       "name_zh": "臨床N",
       "name_en": "Clinical N",
-      "name_zh_en": "",
+      "name_zh_en": "Clinical N",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -422,7 +422,7 @@
       "seq": "3.6",
       "name_zh": "臨床M",
       "name_en": "Clinical M",
-      "name_zh_en": "",
+      "name_zh_en": "Clinical M",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -443,7 +443,7 @@
       "seq": "3.7",
       "name_zh": "臨床期別組合",
       "name_en": "Clinical Stage Group",
-      "name_zh_en": "",
+      "name_zh_en": "clinical stage combination",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -464,7 +464,7 @@
       "seq": "3.8",
       "name_zh": "臨床分期字根/字首",
       "name_en": "Clinical Stage (Prefix/Suffix) Descriptor",
-      "name_zh_en": "",
+      "name_zh_en": "Clinical Stage Root/Prefix",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -485,7 +485,7 @@
       "seq": "3.10",
       "name_zh": "病理T",
       "name_en": "Pathologic T",
-      "name_zh_en": "",
+      "name_zh_en": "Pathology T",
       "type": "Char",
       "length": 4,
       "description_zh": "",
@@ -506,7 +506,7 @@
       "seq": "3.11",
       "name_zh": "病理N",
       "name_en": "Pathologic N",
-      "name_zh_en": "",
+      "name_zh_en": "Pathology N",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -527,7 +527,7 @@
       "seq": "3.12",
       "name_zh": "病理M",
       "name_en": "Pathologic M",
-      "name_zh_en": "",
+      "name_zh_en": "Pathology M",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -548,7 +548,7 @@
       "seq": "3.13",
       "name_zh": "病理期別組合",
       "name_en": "Pathologic Stage Group",
-      "name_zh_en": "",
+      "name_zh_en": "pathological stage combination",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -569,7 +569,7 @@
       "seq": "3.14",
       "name_zh": "病理分期字根/字首",
       "name_en": "Pathologic Stage (Prefix/Suffix) Descriptor",
-      "name_zh_en": "",
+      "name_zh_en": "Pathological Stage Root/Prefix",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -590,7 +590,7 @@
       "seq": "3.16",
       "name_zh": "AJCC 癌症分期版本與章節",
       "name_en": "The Edition and Chapter of AJCC Cancer Staging",
-      "name_zh_en": "",
+      "name_zh_en": "AJCC cancer staging version and chapter",
       "type": "Char",
       "length": 5,
       "description_zh": "",
@@ -632,7 +632,7 @@
       "seq": "3.19",
       "name_zh": "其他分期系統期別 (臨床分期)",
       "name_en": "Clinical Other Staging System",
-      "name_zh_en": "",
+      "name_zh_en": "stage by other classification system (clinical stage)",
       "type": "Char",
       "length": 4,
       "description_zh": "",
@@ -653,7 +653,7 @@
       "seq": "3.21",
       "name_zh": "其他分期系統期別 (病理分期)",
       "name_en": "Pathologic Other Staging System",
-      "name_zh_en": "",
+      "name_zh_en": "stage by other classification system (pathological stage)",
       "type": "Char",
       "length": 4,
       "description_zh": "",
@@ -674,7 +674,7 @@
       "seq": "4.1",
       "name_zh": "首次療程開始日期",
       "name_en": "Date of First Course of Treatment",
-      "name_zh_en": "",
+      "name_zh_en": "first course start date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -696,7 +696,7 @@
       "seq": "4.1.2",
       "name_zh": "原發部位最確切的手術切除日期",
       "name_en": "Date of Most Definite Surgical Resection of the Primary Site",
-      "name_zh_en": "",
+      "name_zh_en": "date of most accurate surgical resection at primary site",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -707,7 +707,7 @@
       "seq": "4.1.3",
       "name_zh": "外院原發部位手術方式",
       "name_en": "Surgical Procedure of Primary Site at Other Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Outpatient Surgery Approach for Primary Site",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -718,7 +718,7 @@
       "seq": "4.1.4",
       "name_zh": "申報醫院原發部位手術方式",
       "name_en": "Surgical Procedure of Primary Site at this Facility",
-      "name_zh_en": "",
+      "name_zh_en": "reported_hospital_primary_site_surgical_procedure",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -751,7 +751,7 @@
       "seq": "4.1.5.1",
       "name_zh": "原發部位手術切緣距離",
       "name_en": "Surgical Margins Distance of the Primary Site",
-      "name_zh_en": "",
+      "name_zh_en": "Primary Site Surgical Margin Distance",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -762,7 +762,7 @@
       "seq": "4.1.6",
       "name_zh": "外院區域淋巴結手術範圍",
       "name_en": "Scope of Regional Lymph Node Surgery at Other Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Outpatient regional lymph node surgical scope",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -773,7 +773,7 @@
       "seq": "4.1.7",
       "name_zh": "申報醫院區域淋巴結手術範圍",
       "name_en": "Scope of Regional Lymph Node Surgery at this Facility",
-      "name_zh_en": "",
+      "name_zh_en": "reported hospital regional lymph node surgical range",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -784,7 +784,7 @@
       "seq": "4.1.8",
       "name_zh": "外院其他部位手術方式",
       "name_en": "Surgical Procedure/Other Site at Other Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Outpatient Surgery Approach for Other Sites",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -795,7 +795,7 @@
       "seq": "4.1.9",
       "name_zh": "申報醫院其他部位手術方式",
       "name_en": "Surgical Procedure/Other Site at this Facility",
-      "name_zh_en": "",
+      "name_zh_en": "reported_hospital_other_surgical_procedure_site",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -806,7 +806,7 @@
       "seq": "4.1.10",
       "name_zh": "原發部位未手術原因",
       "name_en": "Reason for No Surgery of Primary Site",
-      "name_zh_en": "",
+      "name_zh_en": "primary site unsurgery reason",
       "type": "Char",
       "length": 1,
       "description_zh": "",
@@ -817,7 +817,7 @@
       "seq": "4.2.1.1",
       "name_zh": "放射治療臨床標靶體積摘要",
       "name_en": "RT Target Summary",
-      "name_zh_en": "",
+      "name_zh_en": "summary of clinical target volume for radiotherapy",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -850,7 +850,7 @@
       "seq": "4.2.1.4",
       "name_zh": "放射治療結束日期",
       "name_en": "Date of RT Ended",
-      "name_zh_en": "",
+      "name_zh_en": "radiation therapy end date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -861,7 +861,7 @@
       "seq": "4.2.1.5",
       "name_zh": "放射治療與手術順序",
       "name_en": "Sequence of Radiotherapy and Surgery",
-      "name_zh_en": "",
+      "name_zh_en": "Radiotherapy and Surgical Sequence",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -872,7 +872,7 @@
       "seq": "4.2.1.6",
       "name_zh": "區域治療與全身性治療順序",
       "name_en": "Sequence of Locoregional Therapy and Systemic Therapy",
-      "name_zh_en": "",
+      "name_zh_en": "regional treatment and systemic treatment sequence",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -883,7 +883,7 @@
       "seq": "4.2.1.8",
       "name_zh": "放射治療執行狀態",
       "name_en": "RT Status",
-      "name_zh_en": "",
+      "name_zh_en": "radiation therapy execution status",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -894,7 +894,7 @@
       "seq": "4.2.2.1",
       "name_zh": "體外放射治療技術",
       "name_en": "EBRT Technique",
-      "name_zh_en": "",
+      "name_zh_en": "external beam radiation therapy technique",
       "type": "數字",
       "length": 3,
       "description_zh": "",
@@ -905,7 +905,7 @@
       "seq": "4.2.2.2.1",
       "name_zh": "最高放射劑量臨床標靶體積",
       "name_en": "Target of CTV_H",
-      "name_zh_en": "",
+      "name_zh_en": "maximum radiation dose clinical target volume",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -916,7 +916,7 @@
       "seq": "4.2.2.2.2",
       "name_zh": "最高放射劑量臨床標靶體積劑量",
       "name_en": "Dose to CTV_H (cGy)",
-      "name_zh_en": "",
+      "name_zh_en": "maximum clinical target volume dose of radiotherapy",
       "type": "Char",
       "length": 5,
       "description_zh": "",
@@ -927,7 +927,7 @@
       "seq": "4.2.2.2.3",
       "name_zh": "最高放射劑量臨床標靶體積治療次數",
       "name_en": "Number of Fractions to CTV_H",
-      "name_zh_en": "",
+      "name_zh_en": "Maximum radiation dose clinical target volume treatment frequency.",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -938,7 +938,7 @@
       "seq": "4.2.2.3.1",
       "name_zh": "較低放射劑量臨床標靶體積",
       "name_en": "Target of CTV_L",
-      "name_zh_en": "",
+      "name_zh_en": "clinically_target_volume_with_lower_radiotherapy_dose",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -949,7 +949,7 @@
       "seq": "4.2.2.3.2",
       "name_zh": "較低放射劑量臨床標靶體積劑量",
       "name_en": "Dose to CTV_L (cGy)",
-      "name_zh_en": "",
+      "name_zh_en": "lower clinical target volume dose of radiotherapy",
       "type": "Char",
       "length": 5,
       "description_zh": "",
@@ -960,7 +960,7 @@
       "seq": "4.2.2.3.3",
       "name_zh": "較低放射劑量臨床標靶體積治療次數",
       "name_en": "Number of Fractions to CTV_L",
-      "name_zh_en": "",
+      "name_zh_en": "Lower radiation dose clinical target volume treatment frequency.",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -971,7 +971,7 @@
       "seq": "4.2.3.1",
       "name_zh": "其他放射治療儀器",
       "name_en": "Other RT Modality",
-      "name_zh_en": "",
+      "name_zh_en": "other radiotherapy equipment",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -982,7 +982,7 @@
       "seq": "4.2.3.2",
       "name_zh": "其他放射治療技術",
       "name_en": "Other RT Technique",
-      "name_zh_en": "",
+      "name_zh_en": "other radiation therapy techniques",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -993,7 +993,7 @@
       "seq": "4.2.3.3.1",
       "name_zh": "其他放射治療臨床標靶體積",
       "name_en": "Target of Other RT",
-      "name_zh_en": "",
+      "name_zh_en": "other clinical target volume for radiotherapy",
       "type": "數字",
       "length": 2,
       "description_zh": "",
@@ -1004,7 +1004,7 @@
       "seq": "4.2.3.3.2",
       "name_zh": "其他放射治療臨床標靶體積劑量",
       "name_en": "Dose to Target of Other RT",
-      "name_zh_en": "",
+      "name_zh_en": "clinical target volume dose for other radiotherapy",
       "type": "Char",
       "length": 5,
       "description_zh": "",
@@ -1015,7 +1015,7 @@
       "seq": "4.2.3.3.3",
       "name_zh": "其他放射治療臨床標靶體積治療次數",
       "name_en": "Number of Fractions of Other RT",
-      "name_zh_en": "",
+      "name_zh_en": "Other clinical target volume treatment frequency for radiotherapy.",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -1026,7 +1026,7 @@
       "seq": "4.3.1",
       "name_zh": "全身性治療開始日期",
       "name_en": "Date of Systemic Therapy Started",
-      "name_zh_en": "",
+      "name_zh_en": "systemic treatment start date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1059,7 +1059,7 @@
       "seq": "4.3.4",
       "name_zh": "申報醫院化學治療開始日期",
       "name_en": "Date of Chemotherapy Started at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "date_of_clinic_reported_hospital_chemotherapy_start",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1070,7 +1070,7 @@
       "seq": "4.3.5",
       "name_zh": "外院荷爾蒙/類固醇治療",
       "name_en": "Hormone/Steroid Therapy at Other Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Outpatient hormone/corticosteroid treatment",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -1081,7 +1081,7 @@
       "seq": "4.3.6",
       "name_zh": "申報醫院荷爾蒙/類固醇治療",
       "name_en": "Hormone/Steroid Therapy at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "reported hospital hormone/corticosteroid treatment",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -1092,7 +1092,7 @@
       "seq": "4.3.7",
       "name_zh": "申報醫院荷爾蒙/類固醇治療開始日期",
       "name_en": "Date of Hormone/Steroid Therapy Started at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Claimed hospital hormone/corticosteroid therapy start date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1125,7 +1125,7 @@
       "seq": "4.3.10",
       "name_zh": "申報醫院免疫治療開始日期",
       "name_en": "Date of Immunotherapy Started at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "date_of_clinic_reported_hospital_immunotherapy_start",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1136,7 +1136,7 @@
       "seq": "4.3.11",
       "name_zh": "骨髓/幹細胞移植或內分泌處置",
       "name_en": "Hematologic Transplant and Endocrine Procedure",
-      "name_zh_en": "",
+      "name_zh_en": "bone marrow/stem cell transplantation or endocrine management",
       "type": "Char",
       "length": 2,
       "description_zh": "",
@@ -1147,7 +1147,7 @@
       "seq": "4.3.12",
       "name_zh": "申報醫院骨髓/幹細胞移植或內分泌處置開始日期",
       "name_en": "Date of Hematologic Transplant and Endocrine Procedure Started at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "Date of bone marrow/stem cell transplantation or endocrine management initiation at the reporting hospital.",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1180,7 +1180,7 @@
       "seq": "4.3.15",
       "name_zh": "申報醫院標靶治療開始日期",
       "name_en": "Date of Targeted therapy Started at This Facility",
-      "name_zh_en": "",
+      "name_zh_en": "date_of_clinic_reported_hospital_targeted Therapy_start",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1224,7 +1224,7 @@
       "seq": "5.1",
       "name_zh": "首次復發或癌症狀態追蹤日期",
       "name_en": "Date of First Recurrence or Cancer Status Follow-Up",
-      "name_zh_en": "",
+      "name_zh_en": "first recurrence or cancer status follow-up date",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1246,7 +1246,7 @@
       "seq": "5.3",
       "name_zh": "最後聯絡或死亡日期",
       "name_en": "Date of Last Contact or Death",
-      "name_zh_en": "",
+      "name_zh_en": "Last Contact or Date of Death",
       "type": "Char",
       "length": 8,
       "description_zh": "",
@@ -1268,7 +1268,7 @@
       "seq": "6.1",
       "name_zh": "摘錄者",
       "name_en": "Abstracted by",
-      "name_zh_en": "",
+      "name_zh_en": "Extractor",
       "type": "Char",
       "length": 10,
       "description_zh": "",
@@ -1334,7 +1334,7 @@
       "seq": "7.6",
       "name_zh": "首次治療前生活功能狀態評估",
       "name_en": "Assessment of Performance Status before Treatment",
-      "name_zh_en": "",
+      "name_zh_en": "pre-treatment functional status assessment",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1345,7 +1345,7 @@
       "seq": "7.7",
       "name_zh": "同癌家族病史",
       "name_en": "Family History of Same Cancer",
-      "name_zh_en": "",
+      "name_zh_en": "cancer family history",
       "type": "Char",
       "length": 6,
       "description_zh": "",
@@ -1356,7 +1356,7 @@
       "seq": "7.8",
       "name_zh": "其他因子 8",
       "name_en": "Other Factor 8",
-      "name_zh_en": "",
+      "name_zh_en": "other factor 8",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1367,7 +1367,7 @@
       "seq": "7.9",
       "name_zh": "其他因子 9",
       "name_en": "Other Factor 9",
-      "name_zh_en": "",
+      "name_zh_en": "other factor 9",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1378,7 +1378,7 @@
       "seq": "7.10",
       "name_zh": "其他因子 10",
       "name_en": "Other Factor 10",
-      "name_zh_en": "",
+      "name_zh_en": "other factor 10",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1542,7 +1542,7 @@
       "seq": "8.10",
       "name_zh": "癌症部位特定因子 10",
       "name_en": "Site-Specific Factor 10",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 10",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1559,7 +1559,7 @@
       "seq": "8.11",
       "name_zh": "癌症部位特定因子 11",
       "name_en": "Site-Specific Factor 11",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 11",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1570,7 +1570,7 @@
       "seq": "8.12",
       "name_zh": "癌症部位特定因子 12",
       "name_en": "Site-Specific Factor 12",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 12",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1581,7 +1581,7 @@
       "seq": "8.13",
       "name_zh": "癌症部位特定因子 13",
       "name_en": "Site-Specific Factor 13",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 13",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1592,7 +1592,7 @@
       "seq": "8.14",
       "name_zh": "癌症部位特定因子 14",
       "name_en": "Site-Specific Factor 14",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 14",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1603,7 +1603,7 @@
       "seq": "8.15",
       "name_zh": "癌症部位特定因子 15",
       "name_en": "Site-Specific Factor 15",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 15",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1614,7 +1614,7 @@
       "seq": "8.16",
       "name_zh": "癌症部位特定因子 16",
       "name_en": "Site-Specific Factor 16",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 16",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1625,7 +1625,7 @@
       "seq": "8.17",
       "name_zh": "癌症部位特定因子 17",
       "name_en": "Site-Specific Factor 17",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 17",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1636,7 +1636,7 @@
       "seq": "8.18",
       "name_zh": "癌症部位特定因子 18",
       "name_en": "Site-Specific Factor 18",
-      "name_zh_en": "",
+      "name_zh_en": "Cancer site-specific factor 18",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1647,7 +1647,7 @@
       "seq": "8.19",
       "name_zh": "癌症部位特定因子 19",
       "name_en": "Site-Specific Factor 19",
-      "name_zh_en": "",
+      "name_zh_en": "specific factor for cancer site 19",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1658,7 +1658,7 @@
       "seq": "8.20",
       "name_zh": "癌症部位特定因子 20",
       "name_en": "Site-Specific Factor 20",
-      "name_zh_en": "",
+      "name_zh_en": "specific factor for cancer site 20",
       "type": "Char",
       "length": 3,
       "description_zh": "",
@@ -1675,92 +1675,92 @@
         {
           "code": "000",
           "label_zh": "頸部淋巴結沒有被侵犯。",
-          "label_en": ""
+          "label_en": "neck lymph nodes not invaded."
         },
         {
           "code": "001-986",
           "label_zh": "頸部淋巴結(亳米)的最大徑。",
-          "label_en": ""
+          "label_en": "maximum diameter (mm) of cervical lymph nodes."
         },
         {
           "code": "987",
           "label_zh": "淋巴結大小若超過 987亳米(含)。",
-          "label_en": ""
+          "label_en": "Lymph node size exceeds 987 mm (inclusive)."
         },
         {
           "code": "988",
           "label_zh": "不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable, examination or treatment was conducted at an external hospital with no external records."
         },
         {
           "code": "990",
           "label_zh": "淋巴結只有僅由顯微鏡觀察見到微小病灶(microscopic focus 或 microinvasion )。",
-          "label_en": ""
+          "label_en": "Lymph nodes show only microscopic focus (microscopic focus or microinvasion) by microscopy observation."
         },
         {
           "code": "991",
           "label_zh": "淋巴結大小小於 10亳米。",
-          "label_en": ""
+          "label_en": "lymph node size less than 10 millimeters."
         },
         {
           "code": "992",
           "label_zh": "淋巴結大小介於 10(含)-20亳米(或描述<2cm;>1cm)。",
-          "label_en": ""
+          "label_en": "Lymph node size between 10 (inclusive) - 20 millimeters (or described as <2cm; >1cm)."
         },
         {
           "code": "993",
           "label_zh": "淋巴結大小介於 20(含)-30亳米(或描述<3cm;>2cm)。",
-          "label_en": ""
+          "label_en": "Lymph node size between 20 (inclusive) - 30 millimeters (or described as <3cm; >2cm)."
         },
         {
           "code": "994",
           "label_zh": "淋巴結大小介於 30(含)-40亳米(或描述<4cm;>3cm)。",
-          "label_en": ""
+          "label_en": "Lymph node size between 30 (inclusive) - 40 millimeters (or described as <4cm; >3cm)."
         },
         {
           "code": "995",
           "label_zh": "淋巴結大小介於 40(含)-50亳米(或描述<5cm;>4cm)。",
-          "label_en": ""
+          "label_en": "Lymph node size between 40 (inclusive) - 50 mm (or described as <5 cm; >4 cm)."
         },
         {
           "code": "996",
           "label_zh": "淋巴結大小介於 50(含)-60亳米(或描述<6cm;>5cm)。",
-          "label_en": ""
+          "label_en": "Lymph node size between 50 (inclusive) - 60 mm (or described as <6 cm; >5 cm)."
         },
         {
           "code": "997",
           "label_zh": "淋巴結大小大於 60亳米。",
-          "label_en": ""
+          "label_en": "lymph node size greater than 60 millimeters."
         },
         {
           "code": "999",
           "label_zh": "頸部淋巴結大小狀況不清楚、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "cervical lymph node size status unclear, not recorded in medical history, unable to assess from pathology report or imaging."
         },
         {
           "code": "030",
           "label_zh": "個案頸部電腦斷層攝影頸部淋巴結大小為 3.0公分，經fine needle aspiration 證實為 squamous cell carcinoma。個案先接受化學治療(neoadjuvant chemotherapy)後再手術， 全切除手術腫瘤病理報告記載之頸部淋巴結大小為 2.2公分，應編碼為 030。",
-          "label_en": ""
+          "label_en": "Gingival cancer The patient's neck CT showed cervical lymph nodes measuring 3.0 cm in size, confirmed by fine needle aspiration to be squamous cell carcinoma. After neoadjuvant chemotherapy followed by surgery, the resected tumor pathology report recorded cervical lymph node sizes of 2.2 cm, which should be coded as 030."
         },
         {
           "code": "060",
           "label_zh": "個案未接受行區域淋巴結手術，經醫師檢查病歷記錄頸部淋巴結 7公分，電腦斷層 攝影頸部淋巴結大小為 6公分。",
-          "label_en": ""
+          "label_en": "Patient did not undergo regional lymph node surgery; physician's examination records cervical lymph nodes measuring 7 cm, computed tomography showed cervical lymph nodes size as 6 cm."
         },
         {
           "code": "033",
           "label_zh": "手術切除頸部淋巴結，病理報告描述淋巴結有轉移大小為 4公分，其中被侵犯範圍 為3.25公分。",
-          "label_en": ""
+          "label_en": "neck lymph nodes were surgically removed, pathology report indicates metastasis size of 4cm, with an involved range of 3.25cm."
         },
         {
           "code": "990",
           "label_zh": "個案頸部電腦斷層攝影未發現有頸部淋巴結病變，經醫師身體檢查亦未診斷有淋巴 結侵犯，經手術切除腫瘤病理報告記載頸部淋巴結為 microinvasion。",
-          "label_en": ""
+          "label_en": "The neck CT did not find any cervical lymph node lesions. The physician's physical examination also did not diagnose extranodal involvement. Post-surgical tumor pathology reports indicate microinvasion of the cervical lymph nodes."
         },
         {
           "code": "060",
           "label_zh": "個案未接受區域淋巴結手術，於外院電腦攝影頸部淋巴結大小為 6公分，轉入本院 經醫師檢查後病歷記錄頸部淋巴結 7公分。",
-          "label_en": ""
+          "label_en": "The patient did not undergo regional lymph node surgery. The external hospital's computerized neck lymph node size was 6 cm, and upon examination by the physician at this institution, the medical record recorded a cervical lymph node size of 7 cm."
         }
       ]
     },
@@ -1772,32 +1772,32 @@
         {
           "code": "000",
           "label_zh": "沒有頸部淋巴結莢膜外侵犯情形。",
-          "label_en": ""
+          "label_en": "there was no extracapsular cervical lymph node invasion."
         },
         {
           "code": "001",
           "label_zh": "臨床評估可能有頸部淋巴結莢膜外侵犯情形，或是臨床上有固定不動的(如：Fix, Confluent, adhesion to)頸部淋巴結，但是病理報告未陳述。",
-          "label_en": ""
+          "label_en": "clinical assessment possibly with extranodal cervical lymph node involvement, or clinically fixed (e.g.: Fix, Confluent, adhesion to) cervical lymph nodes, but not stated in pathology report."
         },
         {
           "code": "002",
           "label_zh": "臨床評估個案有頸部淋巴結莢膜外侵犯情形，手術前先接受前導性治療(neoadjuvant treatment)，且於手術後其病理報告陳述無頸部淋巴結侵犯或淋巴結沒有莢膜外侵犯。",
-          "label_en": ""
+          "label_en": "Clinical assessment indicates extranodal invasion of cervical lymph nodes. Preoperative neoadjuvant treatment was administered before surgery, and the postoperative pathology report states no cervical lymph node invasion or extranodal involvement."
         },
         {
           "code": "005",
           "label_zh": "病理報告敘述有頸部淋巴結莢膜外侵犯存在。",
-          "label_en": ""
+          "label_en": "Pathological report describes extranodal involvement in the neck lymph nodes."
         },
         {
           "code": "988",
           "label_zh": "不適用。  頸部淋巴結都沒有被侵犯。  不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable. Neck lymph nodes were not involved. Not applicable, examination or treatment was performed at an external hospital with no external records available."
         },
         {
           "code": "999",
           "label_zh": "頸部淋巴結情況不明、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "Cervical lymph node status unknown, not documented in medical history, cannot be assessed from pathology report or imaging."
         }
       ]
     },
@@ -1809,147 +1809,147 @@
         {
           "code": "000",
           "label_zh": "第I、II、III區都未侵犯；N stage為0。",
-          "label_en": ""
+          "label_en": "no invasion of I, II, or III region; N stage is 0."
         },
         {
           "code": "100",
           "label_zh": "只有第I區有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only Zone I is involved."
         },
         {
           "code": "010",
           "label_zh": "只有第II區有侵犯情形。",
-          "label_en": ""
+          "label_en": "only II region was involved."
         },
         {
           "code": "001",
           "label_zh": "只有第III區有侵犯情形。",
-          "label_en": ""
+          "label_en": "involved_only_in_zone_III."
         },
         {
           "code": "110",
           "label_zh": "只有第I, II區有侵犯情形。",
-          "label_en": ""
+          "label_en": "only the I, II regions were involved."
         },
         {
           "code": "101",
           "label_zh": "只有第I, III區有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the I and III regions were involved."
         },
         {
           "code": "011",
           "label_zh": "只有第II, III區有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the II and III regions were involved."
         },
         {
           "code": "111",
           "label_zh": "第I、II、III區都被侵犯。",
-          "label_en": ""
+          "label_en": "The I, II, and III regions were involved."
         },
         {
           "code": "800",
           "label_zh": "病理報告敘述跨區侵犯第 I區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes intraversion to I zone and other zones' lymph nodes, and the exact involved area cannot be distinguished."
         },
         {
           "code": "080",
           "label_zh": "病理報告敘述跨區侵犯第 II區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving II区 and other区 lymph nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "008",
           "label_zh": "病理報告敘述跨區侵犯第 III區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-zone involvement in Zone III and inability to distinguish the correct area of lymph node invasion from other zones."
         },
         {
           "code": "088",
           "label_zh": "病理報告敘述跨區侵犯第 II-III區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving II-III区淋巴 nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "880",
           "label_zh": "病理報告敘述跨區侵犯第 I-II區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving I-II区域淋巴结 and other areas' lymph nodes, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "018",
           "label_zh": "病理報告敘述第 II區有侵犯，且無法區分第 III區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in区II, with inability to accurately distinguish the invaded areas of区III from other zones."
         },
         {
           "code": "081",
           "label_zh": "病理報告敘述第 III區有侵犯，且無法區分第 II區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in区III, with inability to accurately distinguish the invaded areas of区II from other zones."
         },
         {
           "code": "108",
           "label_zh": "病理報告敘述第 I區有侵犯，且無法區分第 III區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area I, and unable to distinguish correct areas of lymph nodes invaded in area III or other regions."
         },
         {
           "code": "180",
           "label_zh": "病理報告敘述第 I區有侵犯，且無法區分第 II 區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area I, and unable to distinguish correct areas of lymph nodes invaded in area II or other regions."
         },
         {
           "code": "801",
           "label_zh": "病理報告敘述第 III區有侵犯，且無法區分第 I區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area III, and unable to distinguish area I from other regions correctly."
         },
         {
           "code": "810",
           "label_zh": "病理報告敘述第 II區有侵犯，且無法區分第 I區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in II区, with inability to distinguish between I区 and other lymph node areas."
         },
         {
           "code": "118",
           "label_zh": "病理報告敘述第 I, II區有侵犯，且無法區分第 III區與其他區淋巴結正確的侵犯區 域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasion of I-II regions, unable to distinguish III region and other regions' lymph nodes correctly."
         },
         {
           "code": "181",
           "label_zh": "病理報告敘述第 I, III 區有侵犯，且無法區分第 II區與其他區淋巴結正確的侵犯區 域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in areas I, III and cannot distinguish the correct involved area of II area and other areas lymph nodes."
         },
         {
           "code": "811",
           "label_zh": "病理報告敘述第 II, III 區有侵犯，且無法區分第 I區與其他區淋巴結正確的侵犯區 域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in areas II, III and cannot distinguish the correct involved area of I area and other areas lymph nodes."
         },
         {
           "code": "188",
           "label_zh": "病理報告敘述有侵犯第 I區，且跨區侵犯第 II-III區但無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion into区I, with跨zone invasion into区II-III but unable to accurately distinguish the invaded area."
         },
         {
           "code": "818",
           "label_zh": "病理報告敘述有侵犯第 II區，且無法區分第 I區與其他區淋巴結、第 III區與其他區 淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of area II, unable to distinguish between areas I and other regions, areas III and other regions, correct invaded area."
         },
         {
           "code": "881",
           "label_zh": "病理報告敘述有侵犯第III區，且跨區侵犯第 I-II區但無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area III, and unable to distinguish areas I-II from other regions correctly."
         },
         {
           "code": "808",
           "label_zh": "病理報告敘述跨區侵犯第 I, III區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving I, III区淋巴 nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "888",
           "label_zh": "病理報告敘述跨區侵犯第 I-III區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes intraversion to I-III zone lymph nodes, and the exact involved area cannot be distinguished."
         },
         {
           "code": "988",
           "label_zh": "不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable, examination or treatment was conducted at an external hospital with no external records."
         },
         {
           "code": "999",
           "label_zh": "頸部該區域淋巴結情況不明、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "cervical lymph nodes in this area situation unclear, not recorded in medical history, unable to assess from pathology report or imaging."
         }
       ]
     },
@@ -1961,147 +1961,147 @@
         {
           "code": "000",
           "label_zh": "第IV-V區及後咽區淋巴結都未侵犯。",
-          "label_en": ""
+          "label_en": "IV-V区 and posterior pharyngeal lymph nodes are not involved."
         },
         {
           "code": "100",
           "label_zh": "只有第IV區有侵犯情形。",
-          "label_en": ""
+          "label_en": "only IV region was involved."
         },
         {
           "code": "010",
           "label_zh": "只有第V區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "only the V区 lymph nodes were involved."
         },
         {
           "code": "001",
           "label_zh": "只有後咽區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "involved only posterior pharyngeal lymph nodes."
         },
         {
           "code": "110",
           "label_zh": "只有第IV及V區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the IV and V lymph nodes were involved."
         },
         {
           "code": "101",
           "label_zh": "只有第IV區及後咽區有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the IV and posterior oropharynx regions were involved."
         },
         {
           "code": "011",
           "label_zh": "只有第V區及後咽區有侵犯情形。",
-          "label_en": ""
+          "label_en": "only the V region and oropharynx were involved."
         },
         {
           "code": "111",
           "label_zh": "第IV-V區及後咽區都被侵犯。",
-          "label_en": ""
+          "label_en": "The IV-V and posterior oropharynx regions were involved."
         },
         {
           "code": "800",
           "label_zh": "病理報告敘述跨區侵犯第IV與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving IV区和其他区域淋巴结, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "080",
           "label_zh": "病理報告敘述跨區侵犯第V區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving V区和其他区域淋巴结, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "008",
           "label_zh": "病理報告敘述跨區侵犯後咽區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving posterior pharyngeal region and other areas' lymph nodes, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "088",
           "label_zh": "病理報告敘述第V區與其他區淋巴結、後咽區淋巴結與其他區淋巴結均有跨區侵犯，且 無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-zone involvement of V区和其他区域淋巴结、后咽区淋巴结和其他区域淋巴结，但无法区分正确涉及区域."
         },
         {
           "code": "808",
           "label_zh": "病理報告敘述第IV區與其他區淋巴結、後咽區淋巴結與其他區淋巴結均有跨區侵犯，且 無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes trans-regional invasion of lymph nodes in areas IV and other regions, posterior pharyngeal region lymph nodes and other regions, unable to distinguish the correct invaded area."
         },
         {
           "code": "880",
           "label_zh": "病理報告敘述跨區侵犯第IV-V區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes trans区侵犯 of IV-V zone lymph nodes, with inability to distinguish the correct involved area."
         },
         {
           "code": "018",
           "label_zh": "病理報告敘述第V區有侵犯，且無法區分後咽區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of the submandibular area, but cannot distinguish between posterior pharyngeal region and other lymph node regions."
         },
         {
           "code": "081",
           "label_zh": "病理報告敘述後咽區有侵犯，且無法區分第V區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of the posterior pharyngeal region, but cannot distinguish between submandibular area and other lymph node regions."
         },
         {
           "code": "108",
           "label_zh": "病理報告敘述第IV區有侵犯，且無法區分後咽區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in Zone IV, and unable to distinguish the correct area of lymph node invasion in the posterior pharynx from other zones."
         },
         {
           "code": "180",
           "label_zh": "病理報告敘述第IV區有侵犯，且無法區分第V區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in Zone IV, and unable to distinguish between Zone V and other zones for correct area of lymph node invasion."
         },
         {
           "code": "801",
           "label_zh": "病理報告敘述後咽區有侵犯，且無法區分第IV區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes侵犯invasion of posterior pharyngeal region, but the exact involved area of IV区zone cannot be distinguished from other zones."
         },
         {
           "code": "810",
           "label_zh": "病理報告敘述第V區有侵犯，且無法區分第IV區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in Zone V, and unable to distinguish between Zone IV and other zones for correct area of lymph node invasion."
         },
         {
           "code": "118",
           "label_zh": "病理報告敘述第IV-V區有侵犯，且無法區分後咽區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in areas IV-V, and unable to distinguish the correct invaded area of the posterior oropharynx from other regions."
         },
         {
           "code": "181",
           "label_zh": "病理報告敘述第IV區及後咽區有侵犯，且無法區分第V區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in区IV and oropharynx, with inability to accurately distinguish the invaded areas of区V from other zones."
         },
         {
           "code": "811",
           "label_zh": "病理報告敘述第V區及後咽區有侵犯，且無法區分第IV區與其他區淋巴結正確的侵犯區 域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of zones V and posterior oropharynx, but unable to distinguish the exact invaded areas of zone IV and other lymph nodes."
         },
         {
           "code": "188",
           "label_zh": "病理報告敘述有侵犯第IV區，且無法區分第V區與其他區淋巴結、後咽區與其他區淋巴 結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of IV区, with inability to distinguish correct areas of involvement for V区和其他区域淋巴结、后咽区和其他区域淋巴结."
         },
         {
           "code": "818",
           "label_zh": "病理報告敘述有侵犯第V區，且無法區分第IV區與其他區淋巴結、後咽區與其他區淋巴 結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of V区, with inability to distinguish correct areas of involvement for IV区和其他区域淋巴结、后咽区和其他区域淋巴结."
         },
         {
           "code": "881",
           "label_zh": "病理報告敘述有侵犯後咽區，且跨區侵犯第IV-V區但無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasive involvement of posterior pharyngeal region with cross-zone involvement of IV-V区zones but the exact involved area cannot be distinguished."
         },
         {
           "code": "888",
           "label_zh": "病理報告敘述跨區侵犯第IV-V區及後咽區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement across IV-V区 and posterior oropharynx lymph nodes, with inability to distinguish the exact involved area."
         },
         {
           "code": "988",
           "label_zh": "不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable, examination or treatment was conducted at an external hospital with no external records."
         },
         {
           "code": "999",
           "label_zh": "頸部該區域淋巴結情況不清楚、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "neck regional lymph node condition unclear, not documented in medical record, cannot be assessed from pathology report or imaging."
         }
       ]
     },
@@ -2113,147 +2113,147 @@
         {
           "code": "000",
           "label_zh": "第VI-VII區及顏面淋巴結都未侵犯。",
-          "label_en": ""
+          "label_en": "VI-VII区 and facial lymph nodes are not involved."
         },
         {
           "code": "100",
           "label_zh": "只有第VI區有侵犯情形。",
-          "label_en": ""
+          "label_en": "only VI region was involved."
         },
         {
           "code": "010",
           "label_zh": "只有第VII區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the VII lymph nodes were involved."
         },
         {
           "code": "001",
           "label_zh": "只有顏面淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "invaded_only_in_facial_lymph_nodes."
         },
         {
           "code": "110",
           "label_zh": "只有第VI及VII區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only VI and VII区 lymph nodes are involved."
         },
         {
           "code": "101",
           "label_zh": "只有第VI區及顏面淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only involvement of the VI区 and facial lymph nodes."
         },
         {
           "code": "011",
           "label_zh": "只有第VII區及顏面淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only involvement of the VII区 and facial lymph nodes."
         },
         {
           "code": "111",
           "label_zh": "第VI-VII區及顏面淋巴結都被侵犯。",
-          "label_en": ""
+          "label_en": "VI-VII区 and facial lymph nodes are involved."
         },
         {
           "code": "800",
           "label_zh": "病理報告敘述跨區侵犯第 VI區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving VI区 and other区 lymph nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "080",
           "label_zh": "病理報告敘述跨區侵犯第 VII區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-zone involvement in Zone VII and inability to distinguish the correct area of lymph node invasion from other zones."
         },
         {
           "code": "008",
           "label_zh": "病理報告敘述跨區侵犯顏面與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes trans区侵犯 of facial and other regions' lymph nodes, with inability to distinguish the correct involved area."
         },
         {
           "code": "088",
           "label_zh": "病理報告敘述第 VII 區與其他區淋巴結、顏面淋巴結與其他區淋巴結均有跨區侵犯，且 無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes trans-regional invasion of lymph nodes in areas VII and other regions, facial lymph nodes and other regions, unable to distinguish the correct invaded area."
         },
         {
           "code": "808",
           "label_zh": "病理報告敘述第VI區與其他區淋巴結、顏面淋巴結與其他區淋巴結均有跨區侵犯，且無 法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-zone involvement of VI区和其他区域淋巴结、面部淋巴结和其他区域淋巴结，但无法区分正确涉及区域."
         },
         {
           "code": "880",
           "label_zh": "病理報告敘述跨區侵犯第 VI-VII區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving VI-VII区 lymph nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "018",
           "label_zh": "病理報告敘述第VII區有侵犯，且無法區分顏面淋巴結與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area VII, and unable to distinguish correct areas of facial lymph nodes or other regions invaded."
         },
         {
           "code": "081",
           "label_zh": "病理報告敘述顏面淋巴結有侵犯，且無法區分第 VII區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in facial lymph nodes, with inability to accurately distinguish the invaded areas of区VII from other zones."
         },
         {
           "code": "108",
           "label_zh": "病理報告敘述第VI區有侵犯，且無法區分顏面淋巴結與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area VI, and unable to distinguish facial lymph nodes from other regions correctly."
         },
         {
           "code": "180",
           "label_zh": "病理報告敘述第VI區有侵犯，且無法區分第 VII區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area VI, and unable to distinguish correct areas of lymph nodes invaded in area VII or other regions."
         },
         {
           "code": "801",
           "label_zh": "病理報告敘述顏面淋巴結有侵犯，且無法區分第 VI區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in facial lymph nodes, and unable to distinguish correct areas of lymph nodes invaded in area VI or other regions."
         },
         {
           "code": "810",
           "label_zh": "病理報告敘述第VII區有侵犯，且無法區分第 VI區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in area VII, and unable to distinguish correct areas of lymph nodes invaded in area VI or other regions."
         },
         {
           "code": "118",
           "label_zh": "病理報告敘述第VI-VII區有侵犯，且無法區分顏面淋巴結與其他區淋巴結正確的侵犯區 域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasion of VI-VII region, unable to distinguish facial lymph nodes and other regions' lymph nodes correctly."
         },
         {
           "code": "181",
           "label_zh": "病理報告敘述第VI區及顏面淋巴結有侵犯，且無法區分第VII區與其他區淋巴結正確的 侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in areas VI, facial lymph nodes and cannot distinguish the correct involved area of VII area and other areas lymph nodes."
         },
         {
           "code": "811",
           "label_zh": "病理報告敘述第VII區及顏面淋巴結有侵犯，且無法區分第 VI區與其他區淋巴結正確的 侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of facial lymph nodes and VII区, with inability to distinguish correct area of involvement for VI区和其他区域淋巴结."
         },
         {
           "code": "188",
           "label_zh": "病理報告敘述有侵犯第 VI區，且無法區分第 VII區與其他區淋巴結、顏面淋巴結與其他 區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of area VI, unable to distinguish between areas VII and other regions, facial lymph nodes and other regions, correct invaded area."
         },
         {
           "code": "818",
           "label_zh": "病理報告敘述有侵犯第 VII區，且無法區分第 VI區與其他區淋巴結、顏面淋巴結區與其 他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report indicates invasion of area VII, but it is unclear whether areas VI and others, as well as facial lymph nodes and other regions, are correctly identified."
         },
         {
           "code": "881",
           "label_zh": "病理報告敘述有侵犯顏面淋巴結，且跨區侵犯第 VI-VII區淋巴結，但無法區分正確的侵 犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of facial lymph nodes, with cross-zone invasion of VI-VII zone lymph nodes, but the exact invaded area cannot be distinguished."
         },
         {
           "code": "888",
           "label_zh": "病理報告敘述跨區侵犯第VI-VII區、顏面淋巴結與其他區淋巴結，且無法區分正確的侵 犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-area involvement in areas VI-VII, facial lymph nodes and other areas lymph nodes and cannot distinguish the correct involved area."
         },
         {
           "code": "988",
           "label_zh": "不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable, examination or treatment was conducted at an external hospital with no external records."
         },
         {
           "code": "999",
           "label_zh": "頸部該區域淋巴結情況不清楚、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "neck regional lymph node condition unclear, not documented in medical record, cannot be assessed from pathology report or imaging."
         }
       ]
     },
@@ -2265,147 +2265,147 @@
         {
           "code": "000",
           "label_zh": "側咽區、腮腺區、後枕/耳後區淋巴結都未侵犯。",
-          "label_en": ""
+          "label_en": "Neither lateral pharyngeal, parotid, nor occipital/postauricular lymph nodes were involved."
         },
         {
           "code": "100",
           "label_zh": "只有側咽區有侵犯情形。",
-          "label_en": ""
+          "label_en": "Involution Only in Lateral Pharynx Occurred."
         },
         {
           "code": "010",
           "label_zh": "只有腮腺區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "only the parotid region lymph nodes were involved."
         },
         {
           "code": "001",
           "label_zh": "只有後枕/耳後區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only the occipital/posterior auricular lymph nodes were involved."
         },
         {
           "code": "110",
           "label_zh": "只有側咽區及腮腺區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only involvement of the lateral pharyngeal and parotid lymph nodes."
         },
         {
           "code": "101",
           "label_zh": "只有側咽區、後枕/耳後區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only lateral pharyngeal and occipital/postauricular lymph nodes were involved."
         },
         {
           "code": "011",
           "label_zh": "只有腮腺區、後枕/耳後區淋巴結有侵犯情形。",
-          "label_en": ""
+          "label_en": "Only parotid area and occipital/postauricular lymph nodes were involved."
         },
         {
           "code": "111",
           "label_zh": "側咽區、腮腺區、後枕/耳後區淋巴結都被侵犯。",
-          "label_en": ""
+          "label_en": "All lateral pharyngeal, parotid, and occipital/postauricular lymph nodes were involved."
         },
         {
           "code": "800",
           "label_zh": "病理報告敘述跨區侵犯側咽區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving lateral pharyngeal region and other areas' lymph nodes, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "080",
           "label_zh": "病理報告敘述跨區侵犯腮腺區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes regional invasion involving parotid region and other areas' lymph nodes, with inability to accurately distinguish the invaded area."
         },
         {
           "code": "008",
           "label_zh": "病理報告敘述跨區侵犯後枕/耳後區與其他區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-zone involvement in the occipital/postauricular region and inability to distinguish the correct area of lymph node invasion from other zones."
         },
         {
           "code": "088",
           "label_zh": "病理報告敘述跨區侵犯腮腺、後枕/耳後區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasive involvement of parotid gland and occipital/postauricular region lymph nodes, but the exact involved area cannot be distinguished."
         },
         {
           "code": "808",
           "label_zh": "病理報告敘述跨區侵犯側咽、後枕/耳後區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes trans区侵犯ion involving lateral pharynx, posterior occipital/postauricular lymph nodes, and unable to distinguish the correct involved area."
         },
         {
           "code": "880",
           "label_zh": "病理報告敘述跨區侵犯側咽、腮腺區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes trans区侵犯 of the lateral pharynx and parotid region lymph nodes, with inability to distinguish the correct involved area."
         },
         {
           "code": "018",
           "label_zh": "病理報告敘述腮腺區有侵犯、且無法區分後枕/耳後區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion in parotid region, and unable to distinguish between occipital/postauricular and other regions correctly."
         },
         {
           "code": "081",
           "label_zh": "病理報告敘述後枕/耳後區有侵犯，且無法區分腮腺區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in occipital/postauricular region, with inability to distinguish between parotid area and other lymph node areas."
         },
         {
           "code": "108",
           "label_zh": "病理報告敘述側咽區有侵犯，且無法區分後枕/耳後區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in lateral pharynx, with inability to distinguish between occipital/postauricular region and other lymph node areas."
         },
         {
           "code": "180",
           "label_zh": "病理報告敘述側咽區有侵犯，且無法區分腮腺區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of the lateral pharyngeal region, but cannot distinguish between parotid area and other lymph node regions."
         },
         {
           "code": "801",
           "label_zh": "病理報告敘述後枕/耳後區有侵犯，且無法區分側咽區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement in occipital/postauricular region, with inability to distinguish between lateral pharynx and other lymph node areas."
         },
         {
           "code": "810",
           "label_zh": "病理報告敘述腮腺區有侵犯，且無法區分側咽區與其他區淋巴結正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes involvement of the parotid area, but cannot distinguish between lateral pharyngeal region and other lymph node regions."
         },
         {
           "code": "118",
           "label_zh": "病理報告敘述側咽區及腮腺區有侵犯，且無法區分後枕/耳後區與其他區淋巴結正確的 侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasion of lateral pharynx and parotid region, unable to distinguish occipital/postauricular region and other regions' lymph nodes correctly."
         },
         {
           "code": "181",
           "label_zh": "病理報告敘述側咽區及後枕/耳後區有侵犯，且無法區分腮腺區與其他區淋巴結正確的 侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasion of lateral pharynx and occipital/postauricular region, unable to distinguish correct lymph node involvement area from other regions."
         },
         {
           "code": "811",
           "label_zh": "病理報告敘述腮腺區及後枕/耳後區有侵犯，且無法區分側咽區與其他區淋巴結正確的 侵犯區域。",
-          "label_en": ""
+          "label_en": "pathology report describes invasion of parotid and occipital/postauricular regions, unable to distinguish lateral pharynx and other regions' lymph nodes correctly."
         },
         {
           "code": "188",
           "label_zh": "病理報告敘述有侵犯側咽區，且跨區侵犯腮腺區及後枕/耳後區但無法區分正確的侵犯 區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of lateral pharyngeal region, with cross-zone invasion into parotid and occipital/postauricular regions but unable to distinguish the exact invaded area."
         },
         {
           "code": "818",
           "label_zh": "病理報告敘述有侵犯腮腺區，且跨區侵犯側咽區及後枕/耳後區但無法區分正確的侵犯 區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of parotid region, with cross-zone invasion into lateral pharyngeal and occipital/postauricular regions but unable to distinguish the exact invaded area."
         },
         {
           "code": "881",
           "label_zh": "病理報告敘述有侵犯後枕/耳後區，且跨區侵犯側咽區及腮腺區但無法區分正確的侵犯 區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes invasion of occipital/postauricular region, with cross-zone invasion into lateral pharyngeal and parotid regions but unable to distinguish the exact invaded area."
         },
         {
           "code": "888",
           "label_zh": "病理報告敘述跨區侵犯側咽、腮腺、後枕/耳後區淋巴結，且無法區分正確的侵犯區域。",
-          "label_en": ""
+          "label_en": "Pathology report describes cross-regional invasion involving lateral pharynx, parotid, and occipital/postauricular lymph nodes, and unable to distinguish the correct invaded area."
         },
         {
           "code": "988",
           "label_zh": "不適用，於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable, examination or treatment was conducted at an external hospital with no external records."
         },
         {
           "code": "999",
           "label_zh": "頸部該區域淋巴結情況不清楚、病歷中未記載、從病理報告或影像中無法被評估。",
-          "label_en": ""
+          "label_en": "neck regional lymph node condition unclear, not documented in medical record, cannot be assessed from pathology report or imaging."
         }
       ]
     },
@@ -2417,47 +2417,47 @@
         {
           "code": "000",
           "label_zh": "實際腫瘤深度為 0 mm。",
-          "label_en": ""
+          "label_en": "actual_tumor_depth_is_0_mm."
         },
         {
           "code": "001-979",
           "label_zh": "記錄實際腫瘤深度，以 0.1mm 為單位。",
-          "label_en": ""
+          "label_en": "Actual tumor depth is recorded in units of 0.1mm."
         },
         {
           "code": "980",
           "label_zh": "腫瘤之深度≧98mm。",
-          "label_en": ""
+          "label_en": "tumor depth ≧ 98mm."
         },
         {
           "code": "987",
           "label_zh": "腫瘤病理報告屬於原位癌。",
-          "label_en": ""
+          "label_en": "tumor_pathology_report_belongs_to_in situ carcinoma."
         },
         {
           "code": "988",
           "label_zh": "不適用 ，非 口腔癌 個案 ；於外院執行檢查或治療且無外院資料。",
-          "label_en": ""
+          "label_en": "Not applicable; non-oropharyngeal cancer case; examination or treatment conducted at an external facility with no external records."
         },
         {
           "code": "990",
           "label_zh": "腫瘤只有微小侵犯(microinvasion)或是小區域(focus or foci)轉移，且未描述腫瘤深度。",
-          "label_en": ""
+          "label_en": "The tumor shows only microinvasion or small focus transfer, without describing the depth of the tumor."
         },
         {
           "code": "997",
           "label_zh": "經再次切除後病理標本無殘餘腫瘤(no residual tumor)，沒有深度可以測量，且前次病 理報告亦未描述腫瘤深度。",
-          "label_en": ""
+          "label_en": "After resection, there is no residual tumor in the pathological specimen; no depth can be measured, and the previous pathology report did not describe the tumor's depth."
         },
         {
           "code": "998",
           "label_zh": " 沒有手術標本(未接受手術個案)。  手術前已接受放射治療(neoadjuvant radiation)或全身性治療。",
-          "label_en": ""
+          "label_en": "No surgical specimen (no surgery case). Pre-surgery neoadjuvant radiation or systemic therapy received."
         },
         {
           "code": "999",
           "label_zh": "病歷的病理報告中缺乏深度的數據。",
-          "label_en": ""
+          "label_en": "The medical record lacked depth in pathological data."
         },
         {
           "code": "080",
@@ -2467,12 +2467,12 @@
         {
           "code": "030",
           "label_zh": "Buccal mucosa cancer 個案手術切除的病理報告於 gross 描述腫瘤侵犯深度為 1cm， 後續於microscopic 描述Depth of Invasion 為 3mm。",
-          "label_en": ""
+          "label_en": "For cases of buccal mucosa cancer, the surgical resection pathology report described tumor invasion depth as 1cm grossly, and microscopically, Depth of Invasion was 3mm."
         },
         {
           "code": "001",
           "label_zh": "Hard palate cancer 個案手術切除的病理報告於 gross 描述腫瘤侵犯深度為 0.5cm，後 續於microscopic 描述 Depth of Invasion <0.1mm。",
-          "label_en": ""
+          "label_en": "For hard palate cancer, the surgical resection pathology report described tumor invasion depth as 0.5cm grossly, and microscopically, Depth of Invasion was <0.1mm."
         },
         {
           "code": "990",
@@ -2489,42 +2489,42 @@
         {
           "code": "000",
           "label_zh": " 小於1mm 且未明示手術邊緣狀態。  手術切緣陽性。",
-          "label_en": ""
+          "label_en": " distance <1mm and surgical margin status not specified.  positive surgical margin."
         },
         {
           "code": "001-979",
           "label_zh": "手術邊緣狀態為陰性，則記錄實際手術切緣距離，以 0.1mm 為單位。",
-          "label_en": ""
+          "label_en": "Surgical margin status is negative; record actual surgical resection margin distance in 0.1 mm units."
         },
         {
           "code": "980",
           "label_zh": "手術切緣距離≧98mm。",
-          "label_en": ""
+          "label_en": "resection margin distance ≧ 98mm."
         },
         {
           "code": "987",
           "label_zh": "腫瘤病理報告屬於原位癌。",
-          "label_en": ""
+          "label_en": "tumor_pathology_report_belongs_to_in situ carcinoma."
         },
         {
           "code": "988",
           "label_zh": "不適用 ，非 口腔癌 個案 ；於外院執行檢查或治療且無外院資訊。",
-          "label_en": ""
+          "label_en": "Not applicable; non-oropharyngeal cancer case; examination or treatment conducted at an external facility with no external information."
         },
         {
           "code": "990",
           "label_zh": "經再次切除後病理標本無殘餘腫瘤(no residual tumor)，切緣距離不清楚。",
-          "label_en": ""
+          "label_en": "After resection, pathology specimen shows no residual tumor, margin distance unclear."
         },
         {
           "code": "998",
           "label_zh": "沒有手術標本(未 接受手術個案) 。",
-          "label_en": ""
+          "label_en": "No surgical specimen (no surgery cases)."
         },
         {
           "code": "999",
           "label_zh": "病理報告中缺乏距離的數據。",
-          "label_en": ""
+          "label_en": "pathology report lacks distance data."
         }
       ]
     },
@@ -2536,215 +2536,215 @@
         {
           "code": "0",
           "label_zh": "綜合判斷無overt ENE 侵犯狀態，ENE(-)。",
-          "label_en": ""
+          "label_en": "comprehensive judgment shows no overt ENE involvement, ENE(-)."
         },
         {
           "code": "1",
           "label_zh": "綜合判斷有overt ENE 侵犯狀態，ENE(+)。",
-          "label_en": ""
+          "label_en": "comprehensive judgment shows overt ENE involvement, ENE(+)."
         },
         {
           "code": "8",
           "label_zh": " 不使用overt ENE。  期別使用 AJCC 第八版第9章、第 10章、第14章。",
-          "label_en": ""
+          "label_en": " No overt ENE.  Period of use AJCC Eighth Edition, Chapters 9, 10, and 14."
         },
         {
           "code": "9",
           "label_zh": " 綜合判斷未描述 overt ENE侵犯狀態。  未執行綜合判斷。  不詳。",
-          "label_en": ""
+          "label_en": " Comprehensive judgment not described overt ENE invasion status.  Comprehensive judgment not performed.  Unclear."
         },
         {
           "code": "0",
           "label_zh": "經影像學檢查描述無ENE侵犯，ENE(-)。",
-          "label_en": ""
+          "label_en": "No ENE invasion as per imaging examination, ENE(-)."
         },
         {
           "code": "1",
           "label_zh": "經影像學檢查描述有ENE侵犯，且有描述淋巴結外侵犯的特徵，ENE(+)。",
-          "label_en": ""
+          "label_en": "imaging examination indicates ENE invasion with extranodal involvement characteristics, ENE(+)."
         },
         {
           "code": "2",
           "label_zh": "經影像學檢查描述有ENE侵犯，但無描述淋巴結外侵犯的特徵，ENE(+)。",
-          "label_en": ""
+          "label_en": "imaging examination indicates ENE invasion without extranodal involvement characteristics, ENE(+)."
         },
         {
           "code": "9",
           "label_zh": " 影像學檢查未描述 ENE侵犯狀態。  未執行影像學檢查。  不詳。",
-          "label_en": ""
+          "label_en": " Imaging examination does not describe ENE involvement status.  No imaging examination performed.  Unclear."
         },
         {
           "code": "0",
           "label_zh": "經理學檢查描述無ENE侵犯，ENE(-)。",
-          "label_en": ""
+          "label_en": "No ENE invasion as per physical examination, ENE(-)."
         },
         {
           "code": "1",
           "label_zh": "經理學檢查描述有ENE侵犯，且有描述淋巴結外侵犯的特徵，ENE(+)。",
-          "label_en": ""
+          "label_en": "physical examination described ENE involvement with features of extranodal侵犯, ENE(+) present."
         },
         {
           "code": "2",
           "label_zh": "經理學檢查描述有ENE侵犯，但無描述淋巴結外侵犯的特徵，ENE(+)。",
-          "label_en": ""
+          "label_en": "physical examination described ENE involvement without features of extranodal侵犯, ENE(+) present."
         },
         {
           "code": "9",
           "label_zh": " 理學檢查未描述 ENE侵犯狀態。  未執行理學檢查。  不詳。",
-          "label_en": ""
+          "label_en": "Physical examination not described. No physical examination performed. Incomplete."
         },
         {
           "code": "988",
           "label_zh": "臨床期別為cN0。",
-          "label_en": ""
+          "label_en": "Clinical Stage is cN0."
         },
         {
           "code": "998",
           "label_zh": " 於外院執行檢查或治療且無外院資料。  術後確診之個案。",
-          "label_en": ""
+          "label_en": " examination or treatment performed at an outside hospital with no outside records.  post-operative confirmed case."
         },
         {
           "code": "000",
           "label_zh": "cN1-3 的個案，臨床理學檢查描述 LAP(+) and movable，且影像檢查報告呈現 ENE(-)， 經綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3 where the clinical physical examination describes LAP(+) and movable, and the imaging report shows ENE(-), are judged as cENE(-)."
         },
         {
           "code": "001",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and non-movable，且影像檢查報告呈現 ENE(-)，經綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3 where the clinical physical examination indicates LAP(+) and non-movable, and the imaging report shows ENE(-), are judged as cENE(-)."
         },
         {
           "code": "001",
           "label_zh": "Buccal mucosa cancer 個案接受頸部電腦斷層檢查，報告以條列式呈現 ENE(-)，臨床 醫師執行身體檢查時描述為 LAP (+)，3cm fixed of left submandilbe，醫師最後給予臨 床N category 為 cN2b。",
-          "label_en": ""
+          "label_en": "Buccal mucosa cancer  The patient underwent a neck CT scan, with the report presented in a list format. ENE(-), and during the physical examination by the clinical physician, it was described as LAP (+), 3cm fixed on left submandible. The final clinical N category was cN2b."
         },
         {
           "code": "009",
           "label_zh": "cN1-3 的個案，臨床理學檢查描述 LAP(+)，且影像檢查報告呈現 ENE(-)，經綜合判 斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "For cases classified as cN1-3, clinical physical examination describes LAP (+), while imaging reports show ENE (-). After comprehensive judgment, it is categorized as cENE (-)."
         },
         {
           "code": "010",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and movable，而影像檢查報告呈現 ENE(+) and lymph nodes confluent size about 4cm，但經綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "For cases with cN1-3, clinical physical examination shows LAP(+) and movable, and imaging report presents ENE(+) and confluent lymph nodes about 4cm, but clinically determined as cENE(-) after comprehensive judgment."
         },
         {
           "code": "019",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+)，但未註明淋巴結外侵犯狀態，而影像檢查 報告呈現 ENE(+) and lymph nodes confluent size about 4cm，但經綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "The case for cN1-3, clinical and physical examination shows LAP(+), but lymph node extranodal invasion status is not specified; imaging report indicates ENE(+) with confluent lymph nodes of about 4cm in size, yet comprehensive judgment results in cENE(-)."
         },
         {
           "code": "021",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and non-movable，且影像檢查報告以條列 式呈現 ENE(+)，但未有影像檢查淋巴結外侵犯的影像特徵 A -G中任一描述，但經 綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "For cases with cN1-3, clinical physical examination shows LAP(+) and non-movable, and imaging report presents ENE(+), but there is no image feature in A-G indicating extranodal involvement, thus clinically determined as cENE(-)."
         },
         {
           "code": "090",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and movable，且「無影像檢查，或影像報告 未註明淋巴結外侵犯的特徵」，經綜合判斷後為 cENE(-)。",
-          "label_en": ""
+          "label_en": "For cases with cN1-3, if clinical physical examination shows LAP(+) and movable, and there is no imaging examination or the imaging report does not specify extranodal involvement features, it is judged as cENE(-) after comprehensive evaluation."
         },
         {
           "code": "099",
           "label_zh": "cN1-3 的個案，病歷上未描述理學檢查結果，且「無影像檢查，或影像報告未註明淋 巴結外侵犯的特徵」，經綜合判斷後為cENE(-)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3 where the medical record does not describe the physical examination results, and 'no imaging examination or imaging report fails to specify extranodal involvement characteristics,' are judged as cENE(-)."
         },
         {
           "code": "101",
           "label_zh": "Gingival cancer 個案接受頸部電腦斷層檢查，報告以條列式呈現 ENE(-)，臨床醫師 於病歷上描述 left side lift shoulder(左側垂肩)，醫師最後給予臨床N category 為N3b。 因為垂肩是第 11 對腦神經被損傷所產生的症狀。",
-          "label_en": ""
+          "label_en": "Gingival cancer The patient underwent a neck CT scan, with the report presented in a list format. ENE(-). The clinical physician described left side lift shoulder (left-sided drooping shoulder) in the medical record, indicating damage to the 11th cranial nerve, resulting in a clinical N category of N3b."
         },
         {
           "code": "110",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and movable，而影像檢查報告呈現 ENE(+) and encasement jugular vein ，經綜合判斷後為 cENE(+)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3, clinical examination shows LAP (+) and movable, while imaging report presents ENE (+) and encasement of jugular vein; comprehensive judgment results in cENE (+)."
         },
         {
           "code": "111",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and non-movable，而影像檢查報告呈現 ENE(+) and encasement jugular vein，經綜合判斷後為 cENE(+)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3, clinical examination shows LAP (+) and non-movable, while imaging report presents ENE (+) and encasement of jugular vein; comprehensive judgment results in cENE (+)."
         },
         {
           "code": "119",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+)，未註明淋巴結外侵犯狀態，而影像檢查報 告呈現 ENE(+) and jugular artery infiltration ，經綜合判斷後為cENE(+)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3, clinical examination shows LAP (+), without specified status of extranodal invasion, while imaging report presents ENE (+) and infiltration of jugular artery; comprehensive judgment results in cENE (+)."
         },
         {
           "code": "121",
           "label_zh": "cN1-3 的個案，臨床理學檢查有 LAP(+) and non-movable，影像報告以條列式呈現 ENE(+)，但未有影像檢查淋巴結外侵犯的影像特徵 A -G中任一描述，經綜合判斷後 為cENE(+)。",
-          "label_en": ""
+          "label_en": "Cases with cN1-3, clinical examination shows LAP (+) and non-movable, imaging report lists ENE (+) but lacks any description of imaging features A-G for extranodal invasion; comprehensive judgment results in cENE (+)."
         },
         {
           "code": "129",
           "label_zh": "Tongue border cancer 個案接受頸部電腦斷層檢查，報告以條列式呈現 ENE(+)，但未 有影像檢查淋巴結外侵犯的影像特徵 A -G中任一描述，臨床醫師執行身體檢查時也 未有臨床理學檢查的症狀徵兆 A-C 中任一描述，醫師最後給予臨床 N category 為 N3b。",
-          "label_en": ""
+          "label_en": "Tongue border cancer The patient underwent a neck CT scan, with the report presented in a list format. ENE(+), but there were no imaging features indicative of extranodal lymph node invasion described under A-G. During the physical examination, no clinical signs or symptoms (A-C) were noted. The final clinical N category was N3b."
         }
       ]
     },
     "Site-Specific Factor 10": {
       "field_zh": "癌症部位特定因子 10",
-      "field_en": "",
+      "field_en": "Cancer site-specific factor 10",
       "source": "TWCR SSF SSF10",
       "entries": [
         {
           "code": "000",
           "label_zh": "有病理證實淋巴結轉移，但無病理淋巴結外侵犯。",
-          "label_en": ""
+          "label_en": "Pathological evidence of lymph node metastasis exists without extranodal involvement."
         },
         {
           "code": "101-120",
           "label_zh": "有病理淋巴結外侵犯，侵犯距離≤2mm，並有確實距離數據。",
-          "label_en": ""
+          "label_en": "pathological extranodal侵犯 beyond lymph nodes with distance ≤2mm and exact distance data available."
         },
         {
           "code": "199",
           "label_zh": "有病理淋巴結外侵犯，侵犯距離≤2mm，但無確實距離數據。",
-          "label_en": ""
+          "label_en": "pathological extranodal侵犯 beyond lymph nodes with distance ≤2mm but without exact distance data."
         },
         {
           "code": "221-298",
           "label_zh": "有病理淋巴結外侵犯，侵犯距離>2mm 且≦9.8mm，並有確實距離數據。",
-          "label_en": ""
+          "label_en": "Pathological lymph node extranodal invasion with distance >2mm and ≦9.8mm, with confirmed distance data."
         },
         {
           "code": "210",
           "label_zh": "有病理淋巴結外侵犯，侵犯距離≥9.9mm。",
-          "label_en": ""
+          "label_en": "Pathological extranodal involvement exists with a distance ≥9.9mm."
         },
         {
           "code": "299",
           "label_zh": " 有病理淋巴結外侵犯，侵犯距離>2mm，但無確實距離數據。  肉眼(gross)、巨觀(macroscopic)已發現有病理 ENE，但無確實距離數據。",
-          "label_en": ""
+          "label_en": " Pathological involvement outside the lymph nodes with a distance >2mm but no exact distance data.  Gross/macroscopic pathological evidence of ENE found but no exact distance data."
         },
         {
           "code": "399",
           "label_zh": "有病理淋巴結外侵犯，但無確實距離數據。",
-          "label_en": ""
+          "label_en": "Pathological extranodal invasion exists but no exact distance data available."
         },
         {
           "code": "988",
           "label_zh": " 接受淋巴結切片、excision 或dissection 且為pN0。  無淋巴結切片、excision 或dissection。  有進行淋巴結 excision 或 dissection，但病理報告描述未有惡性腫瘤侵犯且無淋 巴組織(pNx)。",
-          "label_en": ""
+          "label_en": "接受了淋巴结活检、切除或解剖且为pN0。 未进行淋巴结活检、切除或解剖。 进行了淋巴结切除或解剖，但病理报告描述无恶性肿瘤侵犯且无淋巴组织(pNx)。"
         },
         {
           "code": "998",
           "label_zh": "於外院接受淋巴結切片或手術，外院病理淋巴結外侵犯狀態不詳。",
-          "label_en": ""
+          "label_en": "received lymph node biopsy or surgery at an outside hospital; outside hospital pathological status of extranodal侵犯 beyond lymph nodes not documented."
         },
         {
           "code": "999",
           "label_zh": " 病理報告描述無法評估或未評估。  區域淋巴結侵犯，但不知淋巴結外是否有侵犯情形。  不詳。",
-          "label_en": ""
+          "label_en": " Pathology report indicates unassessable or not assessed.  Regional lymph node involvement, but uncertain about involvement outside the lymph nodes.  Unclear."
         },
         {
           "code": "399",
           "label_zh": "舌癌個案接受Level II 淋巴結excision biopsy ，病理報告描述metastasis SCC in soft tissue，no lymphoid tissue seen。",
-          "label_en": ""
+          "label_en": "Cases with tongue cancer underwent Level II lymph node excision biopsy; the gross description in the pathology report indicated metastasis SCC in soft tissue, with no lymphoid tissue observed."
         }
       ]
     },
     "Primary Site": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [
@@ -4802,7 +4802,7 @@
     },
     "Histology": {
       "field_zh": "組織型態 (ICD-O Morphology)",
-      "field_en": "",
+      "field_en": "tissue morphology (ICD-O Morphology)",
       "source": "WHO ICD-O-3 型態碼 · TWCR M-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O組織型態Morphology-M-Code對照表.xlsx",
       "entries": [

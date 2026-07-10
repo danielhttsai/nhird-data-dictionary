@@ -327,7 +327,7 @@
       "description_zh": "各診斷年度依據當年對應之 AJCC 分 期版本之規則收錄。 詳欄位(變項)譯碼(十四)【臨床腫瘤分 期—CT, CN, CM, CSTAGE 編碼定義 表】。",
       "available_notes": [],
       "name_zh_en": "clinical tumor staging",
-      "description_en": "",
+      "description_en": "Each diagnosis year is recorded according to the rules of the corresponding AJCC staging version in that year. Detailed variable coding (14) [Clinical Tumor Staging—CT, CN, CM, CSTAGE Coding Definition Table].",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -411,7 +411,7 @@
       "description_zh": "各診斷年度依據當年對應之 AJCC 分 期版本之規則收錄。 詳欄位(變項)譯碼(十五)【病理腫瘤分 期—PT, PN, PM, PSTAGE 編碼定義 表】。",
       "available_notes": [],
       "name_zh_en": "tumor stage (pathology)",
-      "description_en": "",
+      "description_en": "Diagnoses are recorded according to the AJCC staging rules for that year. Detailed variable coding definitions (fifteen) [Pathological tumor staging—PT, PN, PM, PSTAGE code definition table].",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -1085,7 +1085,7 @@
       "description_zh": "詳欄位(變項)譯碼(五十二)【申報醫院 標靶治療開始日期(TARGET_DT)】。",
       "available_notes": [],
       "name_zh_en": "申報醫院標靶治療開始日期",
-      "description_en": ""
+      "description_en": "Detail field (variable) code (52) 【Reported hospital target therapy start date (TARGET_DT)】."
     },
     {
       "seq": 85,
@@ -1140,7 +1140,7 @@
       "description_zh": "個案經 病歷 記載經 過一段 無病 (disease-free intermission) 或 緩 解 (remission)期間，首次出現復發的型 式，詳欄位(變項)譯碼(五十七)【首次 復發型式(RECUR)】。 本欄位收錄個案經診斷為癌症後，追 蹤滿五年內是否首次發生癌症復發狀 態。若五年內首次復發後，仍再重複 復發，本欄位僅記錄第一次復發狀態； 若超過五年後才發生首次復發，則本 欄位將視為無復發。",
       "available_notes": [],
       "name_zh_en": "first recurrence pattern",
-      "description_en": ""
+      "description_en": "A case with a disease-free intermission or remission period, first presenting relapse patterns after diagnosis of cancer, as detailed in variable code (57) [First Relapse Pattern(RECUR)]. This field records whether the patient's cancer recurs within five years after being diagnosed. If there is a recurrence within five years and it happens more than once, only the first recurrence is recorded; if the first recurrence occurs beyond five years, this field will be considered as no recurrence."
     },
     {
       "seq": 90,
@@ -1419,7 +1419,7 @@
   "codebooks": {
     "CASITE": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [
@@ -3477,7 +3477,7 @@
     },
     "OPTYPE_O": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [

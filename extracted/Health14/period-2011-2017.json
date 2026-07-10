@@ -633,7 +633,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十)【外院區域淋 巴結手術範圍(OPLN_O)&申報醫院 區域淋巴結手術範圍(OPLNSCOPE)】",
       "available_notes": [],
       "name_zh_en": "outpatient regional lymph node surgical scope",
-      "description_en": ""
+      "description_en": "Outpatient regional lymph node surgery range (OPLN_O) & reported hospital regional lymph node surgery range (OPLNSCOPE)"
     },
     {
       "seq": 43,
@@ -1095,7 +1095,7 @@
       "description_zh": "個案經 病歷 記載經 過一段 無病 (disease-free intermission) 或 緩 解 (remission)期間，首次出現復發的型 式，詳欄位(變項)譯碼(五十一)【首次 復發型式(RECUR)】。 本欄位收錄個案經診斷為癌症後，追 蹤滿五年內是否首次發生癌症復發狀 態。若五年內首次復發後，仍再重複 復發，本欄位僅記錄第一次復發狀態； 若超過五年後才發生首次復發，則本 欄位將視為無復發。",
       "available_notes": [],
       "name_zh_en": "first recurrence pattern",
-      "description_en": ""
+      "description_en": "A case with a disease-free intermission or remission period, first presenting relapse patterns after diagnosis of cancer, as detailed in variable code (51) [First Relapse Pattern(RECUR)]. This field records whether the patient's cancer recurs within five years after being diagnosed. If there is a recurrence within five years and it happens more than once, only the first recurrence is recorded; if the first recurrence occurs beyond five years, this field will be considered as no recurrence."
     },
     {
       "seq": 85,
@@ -1374,7 +1374,7 @@
   "codebooks": {
     "CASITE": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [
@@ -3432,7 +3432,7 @@
     },
     "OPTYPE_O": {
       "field_zh": "原發部位 (ICD-O Topography)",
-      "field_en": "",
+      "field_en": "primary site (ICD-O Topography)",
       "source": "WHO ICD-O-3 部位碼 · TWCR T-code 對照表",
       "source_url": "https://twcr.tw/wp-content/uploads/2021/12/ICD-O癌症部位Topography-T-Code對照表（ICD-O-FT與ICD-O-3版本）.xlsx",
       "entries": [
