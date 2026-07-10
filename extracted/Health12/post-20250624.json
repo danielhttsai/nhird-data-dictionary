@@ -107,7 +107,7 @@
         }
       ],
       "name_zh_en": "county",
-      "description_en": ""
+      "description_en": "Hospital location county city town district, detailed by county city town code. Prior to 98, please provide the detailed county city town code (City-98 and earlier); from 99 to 103, refer to the county city code (City-99 onwards); after 104, refer to the county city code (City-104 onwards)."
     },
     {
       "seq": 6,
@@ -849,7 +849,7 @@
         }
       ],
       "name_zh_en": "Unregistered Mental Health Carebeds",
-      "description_en": ""
+      "description_en": "number of beds available in each hospital-unregistered mental care 1984 added; 2008 removed (divided into o_bed23, o_bed24, o_bed25; 2008 added o_bed34)"
     },
     {
       "seq": 53,
@@ -903,7 +903,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit capacity",
-      "description_en": ""
+      "description_en": "Day hospital admission capacity for psychiatric departments in hospitals from 1988, referred to as psychiatric day treatment admission capacity from 1988 to 2012; from 2013 to 2014 referred to as psychiatric day stay admission capacity; from 2015 to 2022 referred to as psychiatric department day stay admission capacity"
     },
     {
       "seq": 55,
@@ -1321,7 +1321,7 @@
         }
       ],
       "name_zh_en": "number of beds used - palliative care beds",
-      "description_en": ""
+      "description_en": "Number of Beds Used in Each Hospital - Palliative Care Beds Added in 89, Called Comfort Care Beds from 88-89, Called Palliative Care Bed from 90-98, Deleted in 106"
     },
     {
       "seq": 74,
@@ -1693,7 +1693,7 @@
         }
       ],
       "name_zh_en": "Number of occupied beds - Unregistered mental health care",
-      "description_en": ""
+      "description_en": "Number of beds used by hospitals for non-registered mental health care - added in 1989, deleted in 1998 (split into u_bed22, u_bed23, u_bed24; added u_bed33 in 2013)"
     },
     {
       "seq": 90,
@@ -1781,7 +1781,7 @@
         }
       ],
       "name_zh_en": "number of occupied beds for psychiatric care: public-funded养护beds",
-      "description_en": ""
+      "description_en": "beds used by hospitals - psychiatric care: public funding beds added in 1998, called public service beds from 1998 to 2001, deleted in 2006"
     },
     {
       "seq": 94,
@@ -1830,7 +1830,7 @@
         }
       ],
       "name_zh_en": "bed days - mental health care: contracted beds by social affairs bureau",
-      "description_en": ""
+      "description_en": "Number of Used Beds for Psychiatric Care: Contracted Beds by Social Affairs Bureau - Added in 98, Called Contracted Beds from 98 to 101, Removed in 106"
     },
     {
       "seq": 96,
@@ -2276,7 +2276,7 @@
         }
       ],
       "name_zh_en": "inpatient day - unregistered mental care",
-      "description_en": ""
+      "description_en": "Inpatient days at hospitals - psychiatric care not registered, removed in 1998 (split into dd_day19, dd_day20, dd_day21; added dd_day29 in 2013)"
     },
     {
       "seq": 124,
@@ -2315,7 +2315,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit admitted patient days",
-      "description_en": ""
+      "description_en": "Psychiatric day care unit patient days in hospitals before 2005 were called psychiatric day stay patient days; from 2016 to 2023 they are called psychiatric day care unit patient days"
     },
     {
       "seq": 126,
@@ -2827,7 +2827,7 @@
         }
       ],
       "name_zh_en": "inpatient count - not registered psychiatric care",
-      "description_en": ""
+      "description_en": "Inpatient visits for psychiatric care not registered; added in 1983, deleted in 1998 (divided into dd_times18, dd_times19, dd_times20; added dd_times28 in 2013)"
     },
     {
       "seq": 158,
@@ -2866,7 +2866,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit admission count",
-      "description_en": ""
+      "description_en": "Number of Inpatients Treated by Psychiatric Care Units in Each Hospital Added in 2014, Called Psychiatric Day Hospital Inpatient Visits; From 2015 to 2012 Called Psychiatric Day Treatment Inpatient Visits"
     },
     {
       "seq": 160,
@@ -3262,7 +3262,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-安宁床",
-      "description_en": ""
+      "description_en": "Hospitals' health insurance beds -安宁beds Added in 1989, called緩和medical beds from 1988 to 1989, called安宁care beds from 1990 to 1998; deleted in 2015"
     },
     {
       "seq": 178,
@@ -3590,7 +3590,7 @@
         }
       ],
       "name_zh_en": "long-term-care-bed-not-enrolled-psychological-treatment",
-      "description_en": ""
+      "description_en": "Health insurance beds in hospitals - psychiatric care not registered, added in 1999, removed in 1998 (divided into h_bed22, h_bed23, h_bed24; added h_bed32 in 2013)"
     },
     {
       "seq": 192,
@@ -3661,7 +3661,7 @@
         }
       ],
       "name_zh_en": "mental health inpatient - public funded care bed",
-      "description_en": ""
+      "description_en": "Hospice beds for mental health: public subsidy beds added in 98; referred to as mental health: public service beds from 98-2008 to 2011; deleted in 2015"
     },
     {
       "seq": 195,
@@ -3710,7 +3710,7 @@
         }
       ],
       "name_zh_en": "NTC bed for psychiatric care: contracted beds by social affairs bureau",
-      "description_en": ""
+      "description_en": "beds covered by health insurance at hospitals - psychiatric care: contracted beds by social work bureaus added in 1998, called contracted beds from 1998 to 2001, deleted in 2005"
     },
     {
       "seq": 197,
@@ -6396,7 +6396,7 @@
         }
       ],
       "name_zh_en": "Number of specific medical equipment - Medical Particle Therapy Equipment",
-      "description_en": ""
+      "description_en": "number of specific medical equipment - multiple treatment room proton machine added in 97, called medical proton therapy device; from 98 to 2007 called medical particle therapy device"
     },
     {
       "seq": 323,
@@ -7534,7 +7534,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates other personnel",
-      "description_en": ""
+      "description_en": "Number of staff without medical professional certificate - others (including security guards, maintenance workers, technicians, laborers, drivers) added in 1989; removed in 2024"
     },
     {
       "seq": 383,
@@ -7881,7 +7881,7 @@
         {
           "code": "01",
           "label_zh": "省市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 本署及北、高市立醫院 01 署立及直轄市立醫院 01 部立及直轄市立醫院",
-          "label_en": ""
+          "label_en": "province/city general hospital 01 this agency and northern/taiwan provincial general hospitals 01 this agency and northern/taiwan provincial general hospitals 01 this agency and northern/taiwan provincial general hospitals 01 provincial and municipal general hospitals 01 government-run and municipal general hospitals"
         },
         {
           "code": "02",
@@ -7891,12 +7891,12 @@
         {
           "code": "04",
           "label_zh": "公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院 04 公立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "Public Medical College Affiliated Hospital 04 Public Medical College Affiliated Hospital 04 Public Medical College Affiliated Hospital 04 Public Medical College Affiliated Hospital 04 Public Medical College Affiliated Hospital 04 Public Medical College Affiliated Hospital"
         },
         {
           "code": "05",
           "label_zh": "軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療) 05 軍方醫院(民眾診療)",
-          "label_en": ""
+          "label_en": "military hospital (public treatment) 05 military hospital (public treatment) 05 military hospital (public treatment) 05 military hospital (public treatment) 05 military hospital (public treatment) 05 military hospital (public treatment)"
         },
         {
           "code": "06",
@@ -7906,12 +7906,12 @@
         {
           "code": "07",
           "label_zh": "機關(構)附設醫院 07 機關(構)附設醫院 07 機關(構)附設醫院 07 公立機關(構)附設醫院 07 公立機關(構)附設醫院 07 公立機關(構)附設醫院",
-          "label_en": ""
+          "label_en": "institution-affiliated hospital 07 institution-affiliated hospital 07 institution-affiliated hospital 07 public institution-affiliated hospital 07 public institution-affiliated hospital 07 public institution-affiliated hospital"
         },
         {
           "code": "08",
           "label_zh": "公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 私立 私立 私立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital Private Private Private Non-public Non-public Non-public"
         },
         {
           "code": "09",
@@ -7921,22 +7921,22 @@
         {
           "code": "11",
           "label_zh": "財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院",
-          "label_en": ""
+          "label_en": "Charitable hospital 11 Charitable hospital 11 Charitable hospital 11 Charitable hospital 11 Medical charitable hospital 11 Medical charitable hospital"
         },
         {
           "code": "12",
           "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
-          "label_en": ""
+          "label_en": "Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital"
         },
         {
           "code": "13",
           "label_zh": "醫學院校附設醫院 13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "University-affiliated hospitals 13 University-affiliated hospitals 13 University-affiliated hospitals 13 Private university-affiliated hospitals 13 Private university-affiliated hospitals 13 Private university-affiliated hospitals"
         },
         {
           "code": "14",
           "label_zh": "其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院 14 公益法人所設醫院",
-          "label_en": ""
+          "label_en": "Other organization-affiliated hospital 14 Other organization-affiliated hospital 14 Other organization-affiliated hospital 14 Other organization-affiliated hospital 14 Public welfare organization-affiliated hospital 14 Public welfare organization-affiliated hospital"
         },
         {
           "code": "15",
@@ -7946,7 +7946,7 @@
         {
           "code": "17",
           "label_zh": "私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院",
-          "label_en": ""
+          "label_en": "Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital 17"
         },
         {
           "code": "18",
@@ -7956,137 +7956,137 @@
         {
           "code": "0205",
           "label_zh": "高雄市三民區 1706 臺中市西屯區 3105 臺北縣新店市 3128 臺北縣萬里鄉 3310 新竹縣寶山鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung City Sanmin District 1706 Taichung City Xitun District 3105 New Taipei City Xinstore District 3128 New Taipei City Wanli Township 3310 Hsinchu County Baoshan Township"
         },
         {
           "code": "CITY",
           "label_zh": "鄉鎮名稱 0205 高雄市三民區 1707 臺中市南屯區 3106 臺北縣新莊市 3129 臺北縣烏來鄉 3311 新竹縣北埔鄉",
-          "label_en": ""
+          "label_en": "Town Name 0205 Kaohsiung City Sanmin District 1707 Taichung City Nan Tun District 3106 Taipei County Xin Zhuang Town 3129 Taipei County Wulai Township 3311 Hsinchu County Beipu Township"
         },
         {
           "code": "0101",
           "label_zh": "臺北市松山區 0206 高雄市新興區 1708 臺中市北屯區 3107 臺北縣樹林鎮 3201 桃園縣桃園市 3312 新竹縣峨眉鄉",
-          "label_en": ""
+          "label_en": "Taipei City Songshan District 0206 Kaohsiung City Xinxing District 1708 Taichung City Beishun District 3107 Taipei County Shulin Town 3201 Taoyuan County Taoyuan City 3312 Hsinchu County峨眉乡"
         },
         {
           "code": "0102",
           "label_zh": "臺北市大安區 0207 高雄市前金區 2101 臺南市東區 3108 臺北縣鶯歌鎮 3202 桃園縣中壢市 3313 新竹縣尖石鄉",
-          "label_en": ""
+          "label_en": "Taipei City Da-an District 0207 Kaohsiung City Qianjin District 2101 Tainan City Dong District 3108 Taipei County Yangguo Town 3202 Taoyuan County Zhongli City 3313 Hsinchu County Jianshi Township"
         },
         {
           "code": "0109",
           "label_zh": "臺北市大同區 0208 高雄市苓雅區 2102 臺南市南區 3109 臺北縣三峽鎮 3203 桃園縣大溪鎮 3314 新竹縣五峰鄉",
-          "label_en": ""
+          "label_en": "Taipei City Datong District 0208 Kaohsiung City Lingya District 2102 Tainan City Nan District 3109 Taipei County Siaotao Town 3203 Taoyuan County Daxi Township 3314 Hsinchu County Wufeng Township"
         },
         {
           "code": "0110",
           "label_zh": "臺北市中山區 0209 高雄市前鎮區 2103 臺南市西區 3110 臺北縣淡水鎮 3204 桃園縣楊梅鎮 3401 宜蘭縣宜蘭市",
-          "label_en": ""
+          "label_en": "Taipei City Zhongshan District 0209 Kaohsiung City Qinzhen District 2103 Tainan City Xiqi District 3110 Taipei County Dashatown 3204 Taoyuan County Yamaitown 3401 Yilan County Yilan City"
         },
         {
           "code": "0111",
           "label_zh": "臺北市內湖區 0210 高雄市旗津區 2104 臺南市北區 3111 臺北縣汐止市 3205 桃園縣蘆竹鄉 3402 宜蘭縣羅東鎮",
-          "label_en": ""
+          "label_en": "Taipei City Neihu District 0210 Kaohsiung City Qitun District 2104 Tainan City Beiqu District 3111 Taipei County Xiji Town 3205 Taoyuan County Luzhu Township 3402 Yilan County Luodong Town"
         },
         {
           "code": "0112",
           "label_zh": "臺北市南港區 0211 高雄市小港區 2105 臺南市中區 3112 臺北縣瑞芳鎮 3206 桃園縣大園鄉 3403 宜蘭縣蘇澳鎮",
-          "label_en": ""
+          "label_en": "Taipei City Nan-gang District 0211 Kaohsiung City Xiaogang District 2105 Tainan City Zhong District 3112 Taipei County Rua-fang Town 3206 Taoyuan County Daguanyu Township 3403 Yilan County Suao Town"
         },
         {
           "code": "0115",
           "label_zh": "臺北市士林區 1101 基隆市中正區 2106 臺南市安南區 3113 臺北縣土城市 3207 桃園縣龜山鄉 3404 宜蘭縣頭城鎮",
-          "label_en": ""
+          "label_en": "Taipei City Shilin District 1101 Keelung City Zhongzheng District 2106 Tainan City Annan District 3113 Taipei County Tucheng District 3207 Taoyuan County Gushan Township 3404 Yilan County Tucheng Town"
         },
         {
           "code": "0116",
           "label_zh": "臺北市北投區 1102 基隆市七堵區 2107 臺南市安平區 3114 臺北縣蘆洲鄉 3208 桃園縣八德市 3405 宜蘭縣礁溪鄉",
-          "label_en": ""
+          "label_en": "Taipei City Beiti District 1102 Keelung City Qidu District 2107 Tainan City Anping District 3114 Taipei County Lusong Township 3208 Taoyuan County Baden City 3405 Yilan County Jiaoxi Township"
         },
         {
           "code": "0117",
           "label_zh": "臺北市信義區 1103 基隆市暖暖區 2108 臺南市中西區 3115 臺北縣五股鄉 3209 桃園縣龍潭鄉 3406 宜蘭縣壯圍鄉",
-          "label_en": ""
+          "label_en": "Taipei City Xinyi District 1103 Keelung City Nan'an District 2108 Tainan City Zhongxi District 3115 Taipei County Wugou Township 3209 Taoyuan County Longtan Township 3406 Yilan County Zhuangwei Township"
         },
         {
           "code": "0118",
           "label_zh": "臺北市中正區 1104 基隆市仁愛區 2201 嘉義市東區 3116 臺北縣泰山鄉 3210 桃園縣平鎮市 3407 宜蘭縣員山鄉",
-          "label_en": ""
+          "label_en": "Taipei City Zhongzheng District 1104 Keelung City Renai District 2201 Kaohsiung City Dongshi District 3116 Taipei County Taishan Township 3210 Taoyuan County Pingzhen City 3407 Yilan County Yuanshan Township"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 1105 基隆市中山區 2202 嘉義市西區 3117 臺北縣林口鄉 3211 桃園縣新屋鄉 3408 宜蘭縣冬山鄉",
-          "label_en": ""
+          "label_en": "Taipei City Wanhe District 1105 Keelung City Zhongshan District 0321 Taichung City Xiping District 0516 Yilan County Dongsha Township 3417 New Taipei City Linkou Township 3211 Taoyuan County Xinwu Township 3408"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 1106 基隆市安樂區 3101 臺北縣板橋市 3118 臺北縣深坑鄉 3212 桃園縣觀音鄉 3409 宜蘭縣五結鄉",
-          "label_en": ""
+          "label_en": "Taipei City Wanhua District 1106 Keelung City Anle District 3101 Taipei County Banqiao City 3118 Taipei County Shenkiang Township 3212 Taoyuan County Guanyin Township 3409 Yilan County Wujue Township"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 1107 基隆市信義區 3101 臺北縣板橋市 3119 臺北縣石碇鄉 3213 桃園縣復興鄉 3410 宜蘭縣三星鄉",
-          "label_en": ""
+          "label_en": "Taipei City Wanhua District 1107 Keelung City Xinyi District 3101 Taipei County Banqiao City 3119 Taipei County Shizheng Township 3213 Taoyuan County Fuxing Township 3410 Yilan County Sanshui Township"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 1201 新竹市東區 3101 臺北縣板橋市 3120 臺北縣坪林鄉 3301 新竹縣關西鎮 3411 宜蘭縣大同鄉",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 1201 Hsinchu City Dong District 3101 Taipei County Banqiao City 3120 Taipei County Pinglin Township 3301 Hsinchu County Guanxi Town 3411 Yilan County Datong Township"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 1204 新竹市北區 3102 臺北縣三重市 3121 臺北縣三芝鄉 3302 新竹縣新埔鎮 3412 宜蘭縣南澳鄉",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 1204 Taichung City Xiqiao District 3102 New Taipei City Sanzong District 3121 New Taipei City Sanchi Township 3302 Yilan County Xinpu Town 3412"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 1205 新竹市香山區 3102 臺北縣三重市 3122 臺北縣石門鄉 3303 新竹縣竹東鎮 3501 苗栗縣苗栗市",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 1205 Hsinchu City Xiangshan District 3102 Taipei County Sanzhen District 3122 Taipei County Shimen Township 3303 Hsinchu County Nguomiao Town 3501 Miaoli County Miaoli City"
         },
         {
           "code": "0201",
           "label_zh": "高雄市鹽埕區 1701 臺中市中區 3102 臺北縣三重市 3123 臺北縣八里鄉 3305 新竹縣竹北市 3502 苗栗縣苑裡鎮",
-          "label_en": ""
+          "label_en": "['Kaohsiung City Yancheng District 1701', 'Taichung City Zhong District 3102', 'Taipei County Shuangqiao Town 3123', 'Taipei County Baili Township 3305', 'Hsinchu County Hsintzu City 3502', 'Miaoli County Yuli Town']"
         },
         {
           "code": "0202",
           "label_zh": "高雄市鼓山區 1702 臺中市東區 3103 臺北縣永和市 3124 臺北縣平溪鄉 3306 新竹縣湖口鄉 3503 苗栗縣通霄鎮 頁 25 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Kaohsiung Gushan District 1702 Taichung Dong District 3103 Taipei County Yonghe City 3124 Taipei County Pingxi Township 3306 Hsinchu County Lake Mouth Township 3503 Miaoli County Tongtiao Town Page 25 / 40 Revised on January 27, 2026"
         },
         {
           "code": "3504",
           "label_zh": "苗栗縣竹南鎮 3610 臺中縣大雅鄉 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮 4108 臺南縣學甲鎮",
-          "label_en": ""
+          "label_en": "Taichung County Zhinan Town 3610 Taichung County Daya Township 3713 Changhua County Huatai Township 3811 Nantou County Shili Township 4002 Kaohsiung County Budai Town 4108 Tainan County Xiamatown"
         },
         {
           "code": "3505",
           "label_zh": "苗栗縣頭份鎮 3611 臺中縣新社鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮 4109 臺南縣柳營鄉",
-          "label_en": ""
+          "label_en": "Taichung County Toufen Township 3611 Taichung County Xinsha Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town 4109 Tainan County Liuying Township"
         },
         {
           "code": "3506",
           "label_zh": "苗栗縣後龍鎮 3612 臺中縣石岡鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉 4110 臺南縣後壁鄉",
-          "label_en": ""
+          "label_en": "Chiayi County Hulin Town 3612 Taichung County Shigang Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Kaohsiung County Minxiong Township 4110 Tainan County Houbi Township"
         },
         {
           "code": "3507",
           "label_zh": "苗栗縣卓蘭鎮 3613 臺中縣外埔鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉 4111 臺南縣東山鄉",
-          "label_en": ""
+          "label_en": "Changhua County Tulan Town 3613 Taichung County Waipu Township 3716 Changhua County Pubu Township 3901 Yunlin County Douli City 4005 Kaohsiung County溪口乡 4111 Tainan County Dongshan Township"
         },
         {
           "code": "3508",
           "label_zh": "苗栗縣大湖鄉 3614 臺中縣大安鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 4112 臺南縣下營鄉",
-          "label_en": ""
+          "label_en": "Miaoli County Da Hu Township 3614 Taichung County Dadao District 3717 Changhua County Puxin Township 3902 Yunlin County Dounan Town 4006 Kaohsiung County Xingang Township 4112 Tainan County Xiaying Township"
         },
         {
           "code": "3509",
           "label_zh": "苗栗縣公館鄉 3615 臺中縣烏日鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮 4007 嘉義縣六腳鄉 4113 臺南縣六甲鄉",
-          "label_en": ""
+          "label_en": "Miaoli County Gongguan Township 3615 Taichung County Wuri Township 3718 Changhua County Yongjing Township 3903 Yunlin County Huitai Town 4007 Kaohsiung County Liujiao Township 4113"
         },
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3616 臺中縣大肚鄉 3719 彰化縣社頭鄉 3904 雲林縣西螺鎮 4008 嘉義縣東石鄉 4114 臺南縣官田鄉",
-          "label_en": ""
+          "label_en": "Taichung County Tongluo Township 3616 Taichung County Dadu Township 3719 Changhua County Shoutou Township 3904 Yunlin County Xiluo Town 4008 Kaohsiung County Dongshi Town 4114 Tainan County Guantian Township"
         },
         {
           "code": "3511",
@@ -8096,167 +8096,167 @@
         {
           "code": "3512",
           "label_zh": "苗栗縣頭屋鄉 3618 臺中縣霧峰鄉 3721 彰化縣田尾鄉 3906 雲林縣北港鎮 4010 嘉義縣鹿草鄉 4116 臺南縣西港鄉",
-          "label_en": ""
+          "label_en": "Taichung County Wufeng Township 3721 Changhua County Tainan Township 3906 Yunlin County Beigang Town 4010 Kaohsiung County Lucoo Township 4116 Tainan County Xihang Township"
         },
         {
           "code": "3513",
           "label_zh": "苗栗縣三義鄉 3619 臺中縣太平市 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉 4011 嘉義縣太保市 4117 臺南縣七股鄉",
-          "label_en": ""
+          "label_en": "Miaoli County Sishyi Township 3619 Taichung County Taiping City 3722 Changhua County Pitou Township 3907 Yunlin County Gukeng Township 4011 Kaohsiung County Taibao City 4117 Tainan County Qigushu Township"
         },
         {
           "code": "3514",
           "label_zh": "苗栗縣西湖鄉 3620 臺中縣大里市 3723 彰化縣芳苑鄉 3908 雲林縣大埤鄉 4012 嘉義縣水上鄉 4118 臺南縣將軍鄉",
-          "label_en": ""
+          "label_en": "Taichung County Xihu Township 3620 Taichung County Dali City 3723 Changhua County Fangyuan Township 3908 Yunlin County Dayi Township 4012 Kaohsiung County Shuiwu Town 4118 Tainan County Jiangjun Township"
         },
         {
           "code": "3515",
           "label_zh": "苗栗縣造橋鄉 3621 臺中縣和平鄉 3724 彰化縣大城鄉 3909 雲林縣荊桐鄉 4013 嘉義縣中埔鄉 4119 臺南縣北門鄉",
-          "label_en": ""
+          "label_en": "Taichung County Zhaqiao Township 3621 Taichung County Heiping Township 3724 Changhua County Dacheng Township 3909 Yunlin County Jintong Township 4013 Kaohsiung County Zhongpu Town 4119 Tainan County Guantian Township"
         },
         {
           "code": "3516",
           "label_zh": "苗栗縣三灣鄉 3701 彰化縣彰化市 3725 彰化縣竹塘鄉 3910 雲林縣林內鄉 4014 嘉義縣竹崎鄉 4120 臺南縣新市鄉",
-          "label_en": ""
+          "label_en": "Miaoli County Sanwan Township 3701 Changhua County Changhua City 3725 Changhua County Zhutang Township 3910 Yunlin County Linnei Township 4014 Kaohsiung County Xiziqu Township 4120 Tainan County Xinshi Township"
         },
         {
           "code": "3517",
           "label_zh": "苗栗縣獅潭鄉 3702 彰化縣鹿港鎮 3726 彰化縣溪州鄉 3911 雲林縣二崙鄉 4015 嘉義縣梅山鄉 4121 臺南縣安定鄉",
-          "label_en": ""
+          "label_en": "Taichung County Shitang Township 3702 Changhua County Lugu Town 3726 Changhua County Xiji Township 3911 Yunlin County Erren Township 4015 Kaohsiung County Meishan Township 4121 Tainan County Anshan Township"
         },
         {
           "code": "3518",
           "label_zh": "苗栗縣泰安鄉 3703 彰化縣和美鎮 3801 南投縣南投市 3912 雲林縣崙背鄉 4016 嘉義縣番路鄉 4122 臺南縣山上鄉",
-          "label_en": ""
+          "label_en": "Taichung County Taishan Township 3703 Changhua County Huamian Town 3801 Nantou County Nantou City 3912 Yunlin County Longbeixiang 4016 Chiayi County Fanlu Township 4122 Tainan County Shangshan Township"
         },
         {
           "code": "3601",
           "label_zh": "臺中縣豐原市 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉 4017 嘉義縣大埔鄉 4123 臺南縣玉井鄉",
-          "label_en": ""
+          "label_en": "Taichung County Fengyuan City 3704 Changhua County Beidou Town 3802 Nantou County Puli Town 3913 Yunlin County Maiqiao Township 4017 Kaohsiung County Dabu Township 4123 Tainan County Yujing Township"
         },
         {
           "code": "3602",
           "label_zh": "臺中縣東勢鎮 3705 彰化縣員林鎮 3803 南投縣草屯鎮 3914 雲林縣東勢鄉 4018 嘉義縣阿里山 4124 臺南縣楠西鄉",
-          "label_en": ""
+          "label_en": "Taichung County Dongshi Town 3705 Changhua County Yuanlin Township 3803 Nantou County Caotun Township 3914 Yilan County Dongshi Township 4018 Chiayi County Alishan 4124 Taichung County Nanxi Township"
         },
         {
           "code": "3603",
           "label_zh": "臺中縣大甲鎮 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉 4101 臺南縣新營市 4125 臺南縣南化鄉",
-          "label_en": ""
+          "label_en": "Taichung County Dajia Town 3706 Changhua County Xihu Township 3804 Nantou County Zhushan Township 3915 Yilan County Baotong Township 4101 Taichung County Xinying City 4125 Taichung County Nanhua Township"
         },
         {
           "code": "3604",
           "label_zh": "臺中縣清水鎮 3707 彰化縣田中鎮 3805 南投縣集集鎮 3916 雲林縣臺西鄉 4102 臺南縣鹽水鎮 4126 臺南縣左鎮鄉",
-          "label_en": ""
+          "label_en": "Taichung County Qishen Town 3707 Changhua County Tiantong Township 3805 Nantou County Jiji Township 3916 Yilan County Taixi Township 4102 Taichung County Yanwater Town 4126 Taichung County Zhiwen Township"
         },
         {
           "code": "3605",
           "label_zh": "臺中縣沙鹿鎮 3708 彰化縣二林鎮 3806 南投縣名間鄉 3917 雲林縣元長鄉 4103 臺南縣白河鎮 4127 臺南縣仁德鄉",
-          "label_en": ""
+          "label_en": "Taichung County Shalu Town 3708 Changhua County Erlin Township 3806 Nantou County Mingian Township 3917 Yilan County Yuanzhong Township 4103 Taichung County Baihe Town 4127 Taichung County Rende Township"
         },
         {
           "code": "3606",
           "label_zh": "臺中縣梧棲鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉 4104 臺南縣麻豆鎮 4128 臺南縣歸仁鄉",
-          "label_en": ""
+          "label_en": "Taichung County Wulitown 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yilan County Sihu Township 4104 Taichung County Madou Town 4128 Taichung County Guiren Township"
         },
         {
           "code": "3607",
           "label_zh": "臺中縣后里鄉 3710 彰化縣伸港鄉 3808 南投縣中寮鄉 3919 雲林縣口湖鄉 4105 臺南縣佳里鎮 4129 臺南縣關廟鄉",
-          "label_en": ""
+          "label_en": "Taichung County Houli Township 3710 Changhua County Shenggang Township 3808 Nantou County Zhongliao Township 3919 Yilan County Kouhu Township 4105 Taichung County Jiayi Town 4129 Taichung County Guanmen Township"
         },
         {
           "code": "3608",
           "label_zh": "臺中縣神岡鄉 3711 彰化縣福興鄉 3809 南投縣魚池鄉 3920 雲林縣水林鄉 4106 臺南縣新化鎮 4130 臺南縣龍崎鄉",
-          "label_en": ""
+          "label_en": "Taichung County Shigang Township 3711 Changhua County Fuxing Township 3809 Nantou County Yuchi Township 3920 Yunlin County Shulin Township 4106 Tainan County Xinhu Town 4130 Tainan County Longzi Township"
         },
         {
           "code": "3609",
           "label_zh": "臺中縣潭子鄉 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市 4107 臺南縣善化鎮 4131 臺南縣永康市 頁 26 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Taichung County Tanzi Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City 4107 Tainan County Shansha Town 4131 Tainan County Yongkang City Jan 27, 2026"
         },
         {
           "code": "4201",
           "label_zh": "高雄縣鳳山市 4218 高雄縣永安鄉 4309 屏東縣里港鄉 4327 屏東縣霧臺鄉 4506 花蓮縣壽豐鄉 4611 台東縣綠島鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Fengshan City 4218 Kaohsiung County Yongan Township 4309 Pingtung County Ligang Township 4327 Pingtung County Wutai Township 4506 Hualien County Lifei Township 4611 Taitung County Lidi Township"
         },
         {
           "code": "4201",
           "label_zh": "高雄縣鳳山市 4219 高雄縣彌陀鄉 4310 屏東縣鹽埔鄉 4328 屏東縣瑪家鄉 4507 花蓮縣光復鄉 4612 台東縣延平鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Fengshan City 4219 Kaohsiung County Mie Township 4310 Pingtung County Yanpu Township 4328 Pingtung County Majia Township 4507 Hualien County Guangfu Township 4612 Taitung County Ynping Township"
         },
         {
           "code": "4202",
           "label_zh": "高雄縣岡山鎮 4220 高雄縣梓官鄉 4311 屏東縣高樹鄉 4329 屏東縣泰武鄉 4508 花蓮縣豐濱鄉 4613 台東縣海端鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Gangshan Town 4220 Kaohsiung County Zhiwuang Township 4311 Pingtung County Gaoshu Township 4329 Pingtung County Taiwu Township 4508 Hualien County Fengbin Township 4613 Taitung County Haiduan Township"
         },
         {
           "code": "4203",
           "label_zh": "高雄縣旗山鎮 4221 高雄縣六龜鄉 4312 屏東縣萬巒鄉 4330 屏東縣來義鄉 4509 花蓮縣瑞穗鄉 4614 台東縣達仁鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Qishan Town 4221 Kaohsiung County Liugui Township 4312 Pingtung County Wanliang Township 4330 Pingtung County Laoyi Township 4509 Hualien County Ruixi Township 4614 Taitung County Daliann Township"
         },
         {
           "code": "4204",
           "label_zh": "高雄縣美濃鎮 4222 高雄縣甲仙鄉 4313 屏東縣內埔鄉 4331 屏東縣春日鄉 4510 花蓮縣富里鄉 4615 台東縣金峰鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Mennong Town 4222 Kaohsiung County Jiaxian Township 4313 Pingtung County Neibu Township 4331 Pingtung County Chunri Township 4510 Hualien County Fur里 Township 4615 Taitung County Jin Feng Township"
         },
         {
           "code": "4205",
           "label_zh": "高雄縣林園鄉 4223 高雄縣杉林鄉 4314 屏東縣竹田鄉 4332 屏東縣獅子鄉 4511 花蓮縣秀林鄉 4616 台東縣蘭嶼鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Linyuan Township 4223 Kaohsiung County Shanli Township 4314 Pingtung County Zhutian Township 4332 Pingtung County Shishi Township 4511 Hualien County Xiulin Township 4616 Taitung County Lan Yu Township"
         },
         {
           "code": "4206",
           "label_zh": "高雄縣大寮鄉 4224 高雄縣內門鄉 4315 屏東縣新埤鄉 4333 屏東縣牡丹鄉 4512 花蓮縣萬榮鄉 9001 金門縣金城鎮",
-          "label_en": ""
+          "label_en": "Kaohsiung County Daliao Township 4224 Kaohsiung County Nimen Township 4315 Pingtung County Xinpi Township 4333 Pingtung County Matzu Township 4512 Hualien County Wanrong Township 9001 Kinmen County Jincheng Town"
         },
         {
           "code": "4207",
           "label_zh": "高雄縣大樹鄉 4225 高雄縣茂林鄉 4316 屏東縣枋寮鄉 4401 澎湖縣馬公市 4513 花蓮縣卓溪鄉 9002 金門縣金沙鎮",
-          "label_en": ""
+          "label_en": "Kaohsiung County Datu Township 4225 Kaohsiung County Maolin Township 4316 Pingtung County Fangliao Township 4401 Penghu County Magong City 4513 Hualien County Zhuoxi Township 9002 Kinmen County Jinsha Town"
         },
         {
           "code": "4208",
           "label_zh": "高雄縣仁武鄉 4226 高雄縣桃源鄉 4317 屏東縣新園鄉 4402 澎湖縣湖西鎮 4601 台東縣台東市 9003 金門縣金湖鎮",
-          "label_en": ""
+          "label_en": "Kaohsiung County Renwu Township 4226 Kaohsiung County Taoyuan Township 4317 Pingtung County Xinyuan Township 4402 Penghu County Huxi Town 4601 Taitung County Taitung City 9003 Kinmen County Jinhu Town"
         },
         {
           "code": "4209",
           "label_zh": "高雄縣大社鄉 4227 高雄縣三民鄉 4318 屏東縣崁頂鄉 4403 澎湖縣白沙鄉 4602 台東縣成功鎮 9004 金門縣金寧鎮",
-          "label_en": ""
+          "label_en": "Kaohsiung County Dasi Township 4227 Kaohsiung County Sanmin Township 4318 Pingtung County Qianting Township 4403 Penghu County Basa Township 4602 Taitung County Chenggong Township 9004 Kinmen County Jinning Town"
         },
         {
           "code": "4210",
           "label_zh": "高雄縣鳥松鄉 4301 屏東縣屏東市 4319 屏東縣林邊鄉 4404 澎湖縣西嶼鄉 4603 台東縣關山鎮 9005 金門縣烈嶼鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Nosa Township 4301 Pingtung County Pingtung City 4319 Pingtung County Linbian Township 4404 Penghu County Xiyu Township 4603 Taitung County Guanshan Town 9005 Kinmen County Liyue Township"
         },
         {
           "code": "4211",
           "label_zh": "高雄縣橋頭鄉 4302 屏東縣潮州鎮 4320 屏東縣南州鄉 4405 澎湖縣望安鄉 4604 台東縣卑南鄉 9006 金門縣烏坵鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Qiaotou Township 4302 Pingtung County Chaotou Town 4320 Pingtung County Nanzhou Township 4405 Penghu County Wang安 Township 4604 Taitung County Binna Township 9006 Kinmen County Ukv Township"
         },
         {
           "code": "4212",
           "label_zh": "高雄縣燕巢鄉 4303 屏東縣東港鎮 4321 屏東縣佳冬鄉 4406 澎湖縣七美鄉 4605 台東縣大武鄉 9101 連江縣南竿鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Yancao Township 4303 Pingtung County Donggang Town 4321 Pingtung County Jiadong Township 4406 Penghu County Qimei Township 4605 Taitung County Da Wu Township 9101 Lienchiang County Nan Gan Township"
         },
         {
           "code": "4213",
           "label_zh": "高雄縣田寮鄉 4304 屏東縣恆春鎮 4322 屏東縣琉球鄉 4501 花蓮縣花蓮市 4606 台東縣太麻里 9102 連江縣北竿鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Tialiao Township 4304 Pingtung County Hengchun Town 4322 Pingtung County Ryukyu Township 4501 Hualien County Huailian City 4606 Taitung County Tamali 9102 Lienchiang County Beigang Township"
         },
         {
           "code": "4214",
           "label_zh": "高雄縣阿蓮鄉 4305 屏東縣萬丹鄉 4323 屏東縣車城鄉 4502 花蓮縣鳳林鎮 4607 台東縣東河鄉 9103 連江縣莒光鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Ailin Township 4305 Pingtung County Wandan Township 4323 Pingtung County Chuche Township 4502 Hualien County Fenglin Town 4607 Taitung County Donghe Township 9103 Lianjiang County Juguang Township"
         },
         {
           "code": "4215",
           "label_zh": "高雄縣路竹鄉 4306 屏東縣長治鄉 4324 屏東縣滿州鄉 4503 花蓮縣玉里鎮 4608 台東縣長濱鄉 9104 連江縣東引鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Lux竹 Township 4306 Pingtung County Changzhi Township 4324 Pingtung County Manzhou Township 4503 Hualien County Yuli Town 4608 Taitung County Changbin Township 9104 Lienchiang County Dongyin Township"
         },
         {
           "code": "4216",
           "label_zh": "高雄縣湖內鄉 4307 屏東縣麟洛鄉 4325 屏東縣枋山鄉 4504 花蓮縣新城鄉 4609 台東縣鹿野鄉",
-          "label_en": ""
+          "label_en": "Kaohsiung County Hunei Township 4307 Pingtung County Linluo Township 4325 Pingtung County Fangshan Township 4504 Hualien County Xinying Township 4609 Taitung County Luoya Township 4618"
         },
         {
           "code": "4217",
@@ -8266,227 +8266,227 @@
         {
           "code": "0707",
           "label_zh": "高雄市大樹區 0731 高雄市楠梓區 0307 臺中市后里區 0502 臺南市鹽水區 0526 臺南市左鎮區",
-          "label_en": ""
+          "label_en": "Kaohsiung City Datu District 0731 Kaohsiung City Nanzi District 0307 Taichung City Houli District 0502 Tainan City Yanshui District 0526 Tainan City Zhizheng District"
         },
         {
           "code": "CITY",
           "label_zh": "鄉鎮名稱 0708 高雄市仁武區 0732 高雄市三民區 0308 臺中市神岡區 0503 臺南市白河區 0527 臺南市仁德區",
-          "label_en": ""
+          "label_en": "Town Name 0708 Kaohsiung City Renwu District 0732 Kaohsiung City Sanmin District 0308 Taichung City Shengang District 0503 Tainan City Baihe District 0527 Tainan City Rende District"
         },
         {
           "code": "0101",
           "label_zh": "臺北市松山區 0709 高雄市大社區 0733 高雄市新興區 0309 臺中市潭子區 0504 臺南市麻豆區 0528 臺南市歸仁區",
-          "label_en": ""
+          "label_en": "Taipei City Songshan District 0709 Kaohsiung City Miituo District 0733 Kaohsiung City Xingxing District 0309 Taichung City Tanzi District 0504 Tainan City Madou District 0528 Tainan City Guiren District"
         },
         {
           "code": "0102",
           "label_zh": "臺北市大安區 0710 高雄市鳥松區 0734 高雄市前金區 0310 臺中市大雅區 0505 臺南市佳里區 0529 臺南市關廟區",
-          "label_en": ""
+          "label_en": "Taipei City Dadao District 0710 Kaohsiung City Niuchong District 0734 Kaohsiung City Qianjin District 0310 Taichung City Daya District 0505 Tainan City Jiari District 0529 Tainan City Guantou District"
         },
         {
           "code": "0109",
           "label_zh": "臺北市大同區 0711 高雄市橋頭區 0735 高雄市苓雅區 0311 臺中市新社區 0506 臺南市新化區 0530 臺南市龍崎區",
-          "label_en": ""
+          "label_en": "Taipei City Datong District 0711 Kaohsiung City Qiaotou District 0735 Kaohsiung City Lingya District 0311 Taichung City Xin Community 0506 Tainan City Xinhua District 0530 Tainan City Guanzhai District"
         },
         {
           "code": "0110",
           "label_zh": "臺北市中山區 0712 高雄市燕巢區 0736 高雄市前鎮區 0312 臺中市石岡區 0507 臺南市善化區 0531 臺南市永康區",
-          "label_en": ""
+          "label_en": "Taipei City Zhongshan District 0712 Kaohsiung City Yancao District 0736 Kaohsiung City Qinzhen District 0312 Taichung City Shigang District 0507 Tainan City Shenhua District 0531 Tainan City Yongkang District"
         },
         {
           "code": "0111",
           "label_zh": "臺北市內湖區 0713 高雄市田寮區 0737 高雄市旗津區 0313 臺中市外埔區 0508 臺南市學甲區 0532 臺南市東區",
-          "label_en": ""
+          "label_en": "Taipei City Neihu District 0713 Kaohsiung City Tialiao District 0737 Kaohsiung City Qitun District 0313 Taichung City Waipu District 0508 Tainan City Xuejia District 0532 Tainan City Dong District"
         },
         {
           "code": "0112",
           "label_zh": "臺北市南港區 0714 高雄市阿蓮區 0738 高雄市小港區 0314 臺中市大安區 0509 臺南市柳營區 0533 臺南市南區",
-          "label_en": ""
+          "label_en": "Taipei City Nan-gang District 0714 Kaohsiung City Aleian District 0738 Kaohsiung City Xiaogang District 0314 Taichung City Dading District 0509 Tainan City Liuying District 0533 Tainan City Nan District"
         },
         {
           "code": "0115",
           "label_zh": "臺北市士林區 0715 高雄市路竹區 1101 基隆市中正區 0315 臺中市烏日區 0510 臺南市後壁區 0534 臺南市中西區",
-          "label_en": ""
+          "label_en": "Taipei City Shilin District 0715 Kaohsiung City Luzhutan District 1101 Keelung City Zhongzheng District 0315 Taichung City Wuri District 0510 Tainan City Houbi District 0534 Tainan City Zhongxi District"
         },
         {
           "code": "0116",
           "label_zh": "臺北市北投區 0716 高雄市湖內區 1102 基隆市七堵區 0316 臺中市大肚區 0511 臺南市東山區 0535 臺南市北區",
-          "label_en": ""
+          "label_en": "Taipei City Beiti District 0716 Kaohsiung City Hunei District 1102 Keelung City Qidou District 0316 Taichung City Dadao District 0511 Tainan City Dongshan District 0535 Tainan City Beiqu District"
         },
         {
           "code": "0117",
           "label_zh": "臺北市信義區 0717 高雄市茄萣區 1103 基隆市暖暖區 0317 臺中市龍井區 0512 臺南市下營區 0536 臺南市中區",
-          "label_en": ""
+          "label_en": "Taipei City Xinyi District 0717 Kaohsiung City Qieding District 1103 Keelung City Nan'an District 0317 Taichung City Longjing District 0512 Tainan City Xiayin District 0536 Tainan City Zhong District"
         },
         {
           "code": "0118",
           "label_zh": "臺北市中正區 0718 高雄市永安區 1104 基隆市仁愛區 0318 臺中市霧峰區 0513 臺南市六甲區 0537 臺南市安南區",
-          "label_en": ""
+          "label_en": "Taipei City Zhongzheng District 0718 Kaohsiung City Yong'an District 1104 Keelung City Renai District 0318 Taichung City Wufeng District 0513 Tainan City Liujia District 0537 Tainan City Annan District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0719 高雄市彌陀區 1105 基隆市中山區 0319 臺中市太平區 0514 臺南市官田區 0538 臺南市安平區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhua District 0719 Kaohsiung City Mita District 1105 Keelung City Zhongshan District 0319 Taichung City Taiping District 0514 Tainan City Guantian District 0538 Tainan City Anping District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0720 高雄市梓官區 1106 基隆市安樂區 0320 臺中市大里區 0515 臺南市大內區 2201 嘉義市東區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhe District 0720 Kaohsiung City Zhiguan District 1106 Keelung City Anle District 0320 Taichung City Dalin District 0515 Tainan City Daining District 2201 Chiayi City Dong District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0721 高雄市六龜區 1107 基隆市信義區 0321 臺中市和平區 0516 臺南市西港區 2202 嘉義市西區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhe District 0721 Kaohsiung City Lugu District 1107 Keelung City Xinyi District 0321 Taichung City Heping District 0516 Tainan City Xihang District 2202 Chiayi City Xi District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0722 高雄市甲仙區 1201 新竹市東區 0322 臺中市中區 0517 臺南市七股區 3101 新北市板橋區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0722 Kaohsiung City Masiansi District 1201 Hsinchu City Dong District 0322 Taichung City Zhong District 0517 Tainan City Qigushe District 3101 New Taipei City Banqiao District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0723 高雄市杉林區 1204 新竹市北區 0323 臺中市東區 0518 臺南市將軍區 3102 新北市三重區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0723 Kaohsiung City Shanlin District 1204 Hsinchu City Beixi District 0323 Taichung City Dong District 0518 Tainan City Jiangjun District 3102 New Taipei City Sanchong District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0724 高雄市內門區 1205 新竹市香山區 0324 臺中市西區 0519 臺南市北門區 3103 新北市永和區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0724 Kaohsiung City Neimen District 1205 Hsinchu City Xiangshan District 0324 Taichung City Xi District 0519 Tainan City Beimen District 3103 New Taipei City Yonghe District"
         },
         {
           "code": "0701",
           "label_zh": "高雄市鳳山區 0725 高雄市茂林區 0301 臺中市豐原區 0325 臺中市南區 0520 臺南市新市區 3104 新北市中和區",
-          "label_en": ""
+          "label_en": "['Kaohsiung City Fengshan District 0725', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Nan District 0520', 'Tainan City Xinshi District 3104', 'New Taipei City Zhonghe District']"
         },
         {
           "code": "0702",
           "label_zh": "高雄市岡山區 0726 高雄市桃源區 0302 臺中市東勢區 0326 臺中市北區 0521 臺南市安定區 3105 新北市新店區",
-          "label_en": ""
+          "label_en": "['Kaohsiung City Gangshan District 0726', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Beigang District 0520', 'Tainan City Anping District 3104', 'New Taipei City Xinjhu District']"
         },
         {
           "code": "0703",
           "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區 頁 28 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 28 / 40 Revised on January 27, 2026"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3202 桃園縣中壢市 3314 新竹縣五峰鄉 3512 苗栗縣頭屋鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮",
-          "label_en": ""
+          "label_en": "New Taipei City ShuLin District 3202 Taoyuan County ZhongTou City 3314 Hsinchu County WuFeng Township 3512 Miaoli County TouHouse Township 3718 ChangHwa County YongJing Township 3903 YunLin County HuWei Town"
         },
         {
           "code": "3108",
           "label_zh": "新北市鶯歌區 3203 桃園縣大溪鎮 3401 宜蘭縣宜蘭市 3513 苗栗縣三義鄉 3719 彰化縣社頭鄉 3904 雲林縣西螺鎮",
-          "label_en": ""
+          "label_en": "New Taipei Yinger District 3203 Taoyuan Daxi Town 3401 Yilan County Yilan City 3513 Miaoli County Sishyi Township 3719 Changhua County Shatou Township 3904 Yunlin County Xilu Town"
         },
         {
           "code": "3109",
           "label_zh": "新北市三峽區 3204 桃園縣楊梅鎮 3402 宜蘭縣羅東鎮 3514 苗栗縣西湖鄉 3720 彰化縣二水鄉 3905 雲林縣土庫鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Sanxia District 3204 Taoyuan County Yangmei Town 3402 Yilan County Ludong Town 3514 Miaoli County Xihu Township 3720 Changhua County Ershui Township 3905 Yunlin County Tukou Town"
         },
         {
           "code": "3110",
           "label_zh": "新北市淡水區 3205 桃園縣蘆竹鄉 3403 宜蘭縣蘇澳鎮 3515 苗栗縣造橋鄉 3721 彰化縣田尾鄉 3906 雲林縣北港鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Dashu District 3205 Taoyuan County Luzhuxi Township 3403 Yilan County Suao Town 3515 Miaoli County Zhaoqiao Township 3721 Changhua County Tiaowei Town 3906 Yunlin County Beigang Town"
         },
         {
           "code": "3111",
           "label_zh": "新北市汐止區 3206 桃園縣大園鄉 3404 宜蘭縣頭城鎮 3516 苗栗縣三灣鄉 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉",
-          "label_en": ""
+          "label_en": "New Taipei City XiZhi District 3206 Taoyuan County DaYuan Township 3404 Yilan County TouCheng Town 3516 Miaoli County SanWan Township 3722 ChangHwa County PiTou Township 3907 YunLin County GuKeng Township"
         },
         {
           "code": "3112",
           "label_zh": "新北市瑞芳區 3207 桃園縣龜山鄉 3405 宜蘭縣礁溪鄉 3517 苗栗縣獅潭鄉 3723 彰化縣芳苑鄉 3908 雲林縣大埤鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Taipingshan District 3207 Taoyuan County Gushan Township 3405 Yilan County Jiaoxi Township 3517 Miaoli County Shitan Township 3723 Changhua County Fangyuan Township 3908 Yunlin County Dapu Township"
         },
         {
           "code": "3113",
           "label_zh": "新北市土城區 3208 桃園縣八德市 3406 宜蘭縣壯圍鄉 3518 苗栗縣泰安鄉 3724 彰化縣大城鄉 3909 雲林縣荊桐鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Tucheng District 3208 Taoyuan County Bad德 City 3406 Yilan County Zhuang围 Township 3518 Miaoli County TaiFen Town 3724 Changhua County Big城 Township 3909 Yunlin County Jingtong Township"
         },
         {
           "code": "3114",
           "label_zh": "新北市蘆洲區 3209 桃園縣龍潭鄉 3407 宜蘭縣員山鄉 3701 彰化縣彰化市 3725 彰化縣竹塘鄉 3910 雲林縣林內鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Luzhou District 3209 Taoyuan County Longtan Township 3407 Yilan County Yuanshan Township 3701 Changhua County Changhua City 3725 Changhua County Zhutang Township 3910 Yunlin County Linnei Township"
         },
         {
           "code": "3115",
           "label_zh": "新北市五股區 3210 桃園縣平鎮市 3408 宜蘭縣冬山鄉 3702 彰化縣鹿港鎮 3726 彰化縣溪州鄉 3911 雲林縣二崙鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wugou District 3210 Taoyuan County Pingzhen City 3408 Yilan County Dongshan Town 3702 Changhua County Luhu Town 3726 Changhua County Xiji Township 3911 Yunlin County Erren Town"
         },
         {
           "code": "3116",
           "label_zh": "新北市泰山區 3211 桃園縣新屋鄉 3409 宜蘭縣五結鄉 3703 彰化縣和美鎮 3801 南投縣南投市 3912 雲林縣崙背鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Taishan District 3211 Taoyuan County Xinwu Township 3409 Yilan County Wujie Township 3703 Changhua County Hemu Town 3801 Nantou County Nantou City 3912 Yunlin County Longbeixiang 3703"
         },
         {
           "code": "3117",
           "label_zh": "新北市林口區 3212 桃園縣觀音鄉 3410 宜蘭縣三星鄉 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉",
-          "label_en": ""
+          "label_en": "New Taipei City LinKou District 3212 Taoyuan County GuanYin Township 3410 Yilan County SanXing Township 3704 ChangHwa County BeiDou Town 3802 Nantou County PuLi Town 3913 YunLin County MaiLiao Township"
         },
         {
           "code": "3118",
           "label_zh": "新北市深坑區 3213 桃園縣復興鄉 3411 宜蘭縣大同鄉 3705 彰化縣員林鎮 3803 南投縣草屯鎮 3914 雲林縣東勢鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shenku District 3213 Taoyuan County Fuxing Township 3411 Yilan County Datong Township 3705 Changhua County Yulin Town 3803 Nantou County Cazhen Town 3914 Yunlin County Dongshi Township"
         },
         {
           "code": "3119",
           "label_zh": "新北市石碇區 3301 新竹縣關西鎮 3412 宜蘭縣南澳鄉 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shizheng District 3301 Taichung County Guanxi Town 3412 Yilan County Nanao Township 3706 Changhua County Xihu Town 3804 Nantou County Zhuxiannong Township 3915 Yunlin County Baotong Township"
         },
         {
           "code": "3120",
           "label_zh": "新北市坪林區 3302 新竹縣新埔鎮 3501 苗栗縣苗栗市 3707 彰化縣田中鎮 3805 南投縣集集鎮 3916 雲林縣臺西鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Ping林 District 3302 Hsinchu County Xinpu Town 3501 Miaoli County Miaoli City 3707 Changhua County Tian中 Town 3805 Nantou County Ji集 Town 3916 Yunlin County Tai西 Township"
         },
         {
           "code": "3121",
           "label_zh": "新北市三芝區 3303 新竹縣竹東鎮 3502 苗栗縣苑裡鎮 3708 彰化縣二林鎮 3806 南投縣名間鄉 3917 雲林縣元長鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Sanzhi District 3303 Hsinchu County Xitong Town 3502 Miaoli County Yuanli Town 3708 Changhua County Ersin Town 3806 Nantou County Mingan Township 3917 Yunlin County Yuanchang Town"
         },
         {
           "code": "3122",
           "label_zh": "新北市石門區 3305 新竹縣竹北市 3503 苗栗縣通霄鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shimen District 3305 Taichung County Zhubei City 3503 Miaoli County Tongtiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yunlin County Silu Township"
         },
         {
           "code": "3123",
           "label_zh": "新北市八里區 3306 新竹縣湖口鄉 3504 苗栗縣竹南鎮 3710 彰化縣伸港鄉 3808 南投縣中寮鄉 3919 雲林縣口湖鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Eight里 District 3306 Hsinchu County Lake口 Township 3504 Miaoli County Bamboo南 Town 3710 Changhua County Stretch港 Township 3808 Nantou County MiddleLiao Township 3919 Yunlin County MouthLake Township"
         },
         {
           "code": "3124",
           "label_zh": "新北市平溪區 3307 新竹縣橫山鄉 3505 苗栗縣頭份鎮 3711 彰化縣福興鄉 3809 南投縣魚池鄉 3920 雲林縣水林鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Ping溪 District 3307 Hsinchu County Hongshan Township 3505 Miaoli County Toufen Town 3711 Changhua County Fu兴 Township 3809 Nantou County Yu池 Township 3920 Yunlin County Shuilin Township"
         },
         {
           "code": "3125",
           "label_zh": "新北市雙溪區 3308 新竹縣新豐鄉 3506 苗栗縣後龍鎮 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市",
-          "label_en": ""
+          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Town 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City"
         },
         {
           "code": "3126",
           "label_zh": "新北市貢寮區 3309 新竹縣芎林鄉 3507 苗栗縣卓蘭鎮 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Xionglin Township 3507 Miaoli County Zhuolan Town 3713 Changhua County Funtao Township 3811 Nantou County Shuilu Township 4002 Kaohsiung County Budai Town"
         },
         {
           "code": "3127",
           "label_zh": "新北市金山區 3310 新竹縣寶山鄉 3508 苗栗縣大湖鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dalu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town"
         },
         {
           "code": "3128",
           "label_zh": "新北市萬里區 3311 新竹縣北埔鄉 3509 苗栗縣公館鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wanli District 3311 Taichung County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Chiayi County Minxiong Township"
         },
         {
           "code": "3129",
           "label_zh": "新北市烏來區 3312 新竹縣峨眉鄉 3510 苗栗縣銅鑼鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wulai District 3312 Taichung County Meishan Township 3510 Miaoli County Tongluo Township 3716 Changhua County Pusilan Township 3901 Yunlin County Dali City 4005 Chiayi County Xikou Township 3901"
         },
         {
           "code": "3201",
           "label_zh": "桃園縣桃園市 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 頁 29 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Taoyuan County Taoyuan City 3313 Hsinchu County Jiaoshan Township 3511 Miaoli County Nanzhuang Township 3717 Changhua County Puxin Township 3902 Yunlin County Duntian Town 4006 Kaohsiung County Xingang Township Jan 27, 2026"
         },
         {
           "code": "4007",
@@ -8611,227 +8611,227 @@
         {
           "code": "0707",
           "label_zh": "高雄市大樹區 0731 高雄市楠梓區 0307 臺中市后里區 0502 臺南市鹽水區 0526 臺南市左鎮區",
-          "label_en": ""
+          "label_en": "Kaohsiung City Datu District 0731 Kaohsiung City Nanzi District 0307 Taichung City Houli District 0502 Tainan City Yanshui District 0526 Tainan City Zhizheng District"
         },
         {
           "code": "CITY",
           "label_zh": "鄉鎮名稱 0708 高雄市仁武區 0732 高雄市三民區 0308 臺中市神岡區 0503 臺南市白河區 0527 臺南市仁德區",
-          "label_en": ""
+          "label_en": "Town Name 0708 Kaohsiung City Renwu District 0732 Kaohsiung City Sanmin District 0308 Taichung City Shengang District 0503 Tainan City Baihe District 0527 Tainan City Rende District"
         },
         {
           "code": "0101",
           "label_zh": "臺北市松山區 0709 高雄市大社區 0733 高雄市新興區 0309 臺中市潭子區 0504 臺南市麻豆區 0528 臺南市歸仁區",
-          "label_en": ""
+          "label_en": "Taipei City Songshan District 0709 Kaohsiung City Miituo District 0733 Kaohsiung City Xingxing District 0309 Taichung City Tanzi District 0504 Tainan City Madou District 0528 Tainan City Guiren District"
         },
         {
           "code": "0102",
           "label_zh": "臺北市大安區 0710 高雄市鳥松區 0734 高雄市前金區 0310 臺中市大雅區 0505 臺南市佳里區 0529 臺南市關廟區",
-          "label_en": ""
+          "label_en": "Taipei City Dadao District 0710 Kaohsiung City Niuchong District 0734 Kaohsiung City Qianjin District 0310 Taichung City Daya District 0505 Tainan City Jiari District 0529 Tainan City Guantou District"
         },
         {
           "code": "0109",
           "label_zh": "臺北市大同區 0711 高雄市橋頭區 0735 高雄市苓雅區 0311 臺中市新社區 0506 臺南市新化區 0530 臺南市龍崎區",
-          "label_en": ""
+          "label_en": "Taipei City Datong District 0711 Kaohsiung City Qiaotou District 0735 Kaohsiung City Lingya District 0311 Taichung City Xin Community 0506 Tainan City Xinhua District 0530 Tainan City Guanzhai District"
         },
         {
           "code": "0110",
           "label_zh": "臺北市中山區 0712 高雄市燕巢區 0736 高雄市前鎮區 0312 臺中市石岡區 0507 臺南市善化區 0531 臺南市永康區",
-          "label_en": ""
+          "label_en": "Taipei City Zhongshan District 0712 Kaohsiung City Yancao District 0736 Kaohsiung City Qinzhen District 0312 Taichung City Shigang District 0507 Tainan City Shenhua District 0531 Tainan City Yongkang District"
         },
         {
           "code": "0111",
           "label_zh": "臺北市內湖區 0713 高雄市田寮區 0737 高雄市旗津區 0313 臺中市外埔區 0508 臺南市學甲區 0532 臺南市東區",
-          "label_en": ""
+          "label_en": "Taipei City Neihu District 0713 Kaohsiung City Tialiao District 0737 Kaohsiung City Qitun District 0313 Taichung City Waipu District 0508 Tainan City Xuejia District 0532 Tainan City Dong District"
         },
         {
           "code": "0112",
           "label_zh": "臺北市南港區 0714 高雄市阿蓮區 0738 高雄市小港區 0314 臺中市大安區 0509 臺南市柳營區 0533 臺南市南區",
-          "label_en": ""
+          "label_en": "Taipei City Nan-gang District 0714 Kaohsiung City Aleian District 0738 Kaohsiung City Xiaogang District 0314 Taichung City Dading District 0509 Tainan City Liuying District 0533 Tainan City Nan District"
         },
         {
           "code": "0115",
           "label_zh": "臺北市士林區 0715 高雄市路竹區 1101 基隆市中正區 0315 臺中市烏日區 0510 臺南市後壁區 0534 臺南市中西區",
-          "label_en": ""
+          "label_en": "Taipei City Shilin District 0715 Kaohsiung City Luzhutan District 1101 Keelung City Zhongzheng District 0315 Taichung City Wuri District 0510 Tainan City Houbi District 0534 Tainan City Zhongxi District"
         },
         {
           "code": "0116",
           "label_zh": "臺北市北投區 0716 高雄市湖內區 1102 基隆市七堵區 0316 臺中市大肚區 0511 臺南市東山區 0535 臺南市北區",
-          "label_en": ""
+          "label_en": "Taipei City Beiti District 0716 Kaohsiung City Hunei District 1102 Keelung City Qidou District 0316 Taichung City Dadao District 0511 Tainan City Dongshan District 0535 Tainan City Beiqu District"
         },
         {
           "code": "0117",
           "label_zh": "臺北市信義區 0717 高雄市茄萣區 1103 基隆市暖暖區 0317 臺中市龍井區 0512 臺南市下營區 0536 臺南市中區",
-          "label_en": ""
+          "label_en": "Taipei City Xinyi District 0717 Kaohsiung City Qieding District 1103 Keelung City Nan'an District 0317 Taichung City Longjing District 0512 Tainan City Xiayin District 0536 Tainan City Zhong District"
         },
         {
           "code": "0118",
           "label_zh": "臺北市中正區 0718 高雄市永安區 1104 基隆市仁愛區 0318 臺中市霧峰區 0513 臺南市六甲區 0537 臺南市安南區",
-          "label_en": ""
+          "label_en": "Taipei City Zhongzheng District 0718 Kaohsiung City Yong'an District 1104 Keelung City Renai District 0318 Taichung City Wufeng District 0513 Tainan City Liujia District 0537 Tainan City Annan District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0719 高雄市彌陀區 1105 基隆市中山區 0319 臺中市太平區 0514 臺南市官田區 0538 臺南市安平區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhua District 0719 Kaohsiung City Mita District 1105 Keelung City Zhongshan District 0319 Taichung City Taiping District 0514 Tainan City Guantian District 0538 Tainan City Anping District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0720 高雄市梓官區 1106 基隆市安樂區 0320 臺中市大里區 0515 臺南市大內區 2201 嘉義市東區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhe District 0720 Kaohsiung City Zhiguan District 1106 Keelung City Anle District 0320 Taichung City Dalin District 0515 Tainan City Daining District 2201 Chiayi City Dong District"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 0721 高雄市六龜區 1107 基隆市信義區 0321 臺中市和平區 0516 臺南市西港區 2202 嘉義市西區",
-          "label_en": ""
+          "label_en": "Taipei City Wanhe District 0721 Kaohsiung City Lugu District 1107 Keelung City Xinyi District 0321 Taichung City Heping District 0516 Tainan City Xihang District 2202 Chiayi City Xi District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0722 高雄市甲仙區 1201 新竹市東區 0322 臺中市中區 0517 臺南市七股區 3101 新北市板橋區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0722 Kaohsiung City Masiansi District 1201 Hsinchu City Dong District 0322 Taichung City Zhong District 0517 Tainan City Qigushe District 3101 New Taipei City Banqiao District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0723 高雄市杉林區 1204 新竹市北區 0323 臺中市東區 0518 臺南市將軍區 3102 新北市三重區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0723 Kaohsiung City Shanlin District 1204 Hsinchu City Beixi District 0323 Taichung City Dong District 0518 Tainan City Jiangjun District 3102 New Taipei City Sanchong District"
         },
         {
           "code": "0120",
           "label_zh": "臺北市文山區 0724 高雄市內門區 1205 新竹市香山區 0324 臺中市西區 0519 臺南市北門區 3103 新北市永和區",
-          "label_en": ""
+          "label_en": "Taipei City Wenshan District 0724 Kaohsiung City Neimen District 1205 Hsinchu City Xiangshan District 0324 Taichung City Xi District 0519 Tainan City Beimen District 3103 New Taipei City Yonghe District"
         },
         {
           "code": "0701",
           "label_zh": "高雄市鳳山區 0725 高雄市茂林區 0301 臺中市豐原區 0325 臺中市南區 0520 臺南市新市區 3104 新北市中和區",
-          "label_en": ""
+          "label_en": "['Kaohsiung City Fengshan District 0725', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Nan District 0520', 'Tainan City Xinshi District 3104', 'New Taipei City Zhonghe District']"
         },
         {
           "code": "0702",
           "label_zh": "高雄市岡山區 0726 高雄市桃源區 0302 臺中市東勢區 0326 臺中市北區 0521 臺南市安定區 3105 新北市新店區",
-          "label_en": ""
+          "label_en": "['Kaohsiung City Gangshan District 0726', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Beigang District 0520', 'Tainan City Anping District 3104', 'New Taipei City Xinjhu District']"
         },
         {
           "code": "0703",
           "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區 頁 31 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 31 / 40 Revised on January 27, 2026"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3202 桃園市中壢區 3314 新竹縣五峰鄉 3512 苗栗縣頭屋鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮",
-          "label_en": ""
+          "label_en": "New Taipei City ShuLin District 3202 Taoyuan City ZhongTou District 3314 Hsinchu County WuFeng Township 3512 Miaoli County TouHouse Township 3718 ChangHwa County YongJing Township 3903 YunLin County HuWei Town"
         },
         {
           "code": "3108",
           "label_zh": "新北市鶯歌區 3203 桃園市大溪區 3401 宜蘭縣宜蘭市 3513 苗栗縣三義鄉 3719 彰化縣社頭鄉 3904 雲林縣西螺鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Yingge District 3203 Taoyuan City Daxi District 3401 Yilan County Yilan City 3513 Miaoli County Sishyi Township 3719 Changhua County Shatou Township 3904 Yunlin County Xiluo Town"
         },
         {
           "code": "3109",
           "label_zh": "新北市三峽區 3204 桃園市楊梅區 3402 宜蘭縣羅東鎮 3514 苗栗縣西湖鄉 3720 彰化縣二水鄉 3905 雲林縣土庫鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Sanxia District 3204 Taoyuan City Yangmei District 3402 Yilan County Ludong Town 3514 Miaoli County Xihu Township 3720 Changhua County Ershui Township 3905 Yunlin County Tukou Town"
         },
         {
           "code": "3110",
           "label_zh": "新北市淡水區 3205 桃園市蘆竹區 3403 宜蘭縣蘇澳鎮 3515 苗栗縣造橋鄉 3721 彰化縣田尾鄉 3906 雲林縣北港鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Dashu District 3205 Taoyuan City Luzhuxi District 3403 Yilan County Suao Town 3515 Miaoli County Zhaoqiao Township 3721 Changhua County Tiaowei Town 3906 Yunlin County Beigang Town"
         },
         {
           "code": "3111",
           "label_zh": "新北市汐止區 3206 桃園市大園區 3404 宜蘭縣頭城鎮 3516 苗栗縣三灣鄉 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉",
-          "label_en": ""
+          "label_en": "New Taipei City XiZhi District 3206 Taoyuan City DaYuan District 3404 Yilan County TouCheng Town 3516 Miaoli County SanWan Township 3722 ChangHwa County PiTou Township 3907 YunLin County GuKeng Township"
         },
         {
           "code": "3112",
           "label_zh": "新北市瑞芳區 3207 桃園市龜山區 3405 宜蘭縣礁溪鄉 3517 苗栗縣獅潭鄉 3723 彰化縣芳苑鄉 3908 雲林縣大埤鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Taipingshan District 3207 Taoyuan City Gushan District 3405 Yilan County Jiaoxi Township 3517 Miaoli County Shitan Township 3723 Changhua County Fangyuan Township 3908 Yunlin County Dapu Township"
         },
         {
           "code": "3113",
           "label_zh": "新北市土城區 3208 桃園市八德區 3406 宜蘭縣壯圍鄉 3518 苗栗縣泰安鄉 3724 彰化縣大城鄉 3909 雲林縣荊桐鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Tucheng District 3208 Taichung City Bad德 District 3406 Yilan County Zhuang围 Township 3518 Miaoli County TaiFen Town 3724 Changhua County Big城 Township 3909 Yunlin County Jingtong Township"
         },
         {
           "code": "3114",
           "label_zh": "新北市蘆洲區 3209 桃園市龍潭區 3407 宜蘭縣員山鄉 3701 彰化縣彰化市 3725 彰化縣竹塘鄉 3910 雲林縣林內鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Luzhou District 3209 Taoyuan City Longtan District 3407 Yilan County Yuanshan Township 3701 Changhua County Changhua City 3725 Changhua County Zhutang Township 3910 Yunlin County Linnei Township"
         },
         {
           "code": "3115",
           "label_zh": "新北市五股區 3210 桃園市平鎮區 3408 宜蘭縣冬山鄉 3702 彰化縣鹿港鎮 3726 彰化縣溪州鄉 3911 雲林縣二崙鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wugou District 3210 Taoyuan City Pingzhen District 3408 Yilan County Dongshan Town 3702 Changhua County Luhu Town 3726 Changhua County Xiji Township 3911 Yunlin County Erren Town"
         },
         {
           "code": "3116",
           "label_zh": "新北市泰山區 3211 桃園市新屋區 3409 宜蘭縣五結鄉 3703 彰化縣和美鎮 3801 南投縣南投市 3912 雲林縣崙背鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Taishan District 3211 Taoyuan City Xinwu District 3409 Yilan County Wujie Township 3703 Changhua County Hemu Town 3801 Nantou County Nantou City 3912 Yunlin County Longbeixiang 3703"
         },
         {
           "code": "3117",
           "label_zh": "新北市林口區 3212 桃園市觀音區 3410 宜蘭縣三星鄉 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉",
-          "label_en": ""
+          "label_en": "New Taipei City LinKou District 3212 Taoyuan City GuanYin District 3410 Yilan County SanXing Township 3704 ChangHwa County BeiDou Town 3802 Nantou County PuLi Town 3913 YunLin County MaiLiao Township"
         },
         {
           "code": "3118",
           "label_zh": "新北市深坑區 3213 桃園市復興區 3411 宜蘭縣大同鄉 3705 彰化縣員林市 3803 南投縣草屯鎮 3914 雲林縣東勢鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shenku District 3213 Taoyuan City Fuxing District 3411 Yilan County Datong Township 3705 Changhua County Yulin City 3803 Nantou County Cazhen Town 3914 Yunlin County Dongshi Township"
         },
         {
           "code": "3119",
           "label_zh": "新北市石碇區 3301 新竹縣關西鎮 3412 宜蘭縣南澳鄉 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shizheng District 3301 Taichung County Guanxi Town 3412 Yilan County Nanao Township 3706 Changhua County Xihu Town 3804 Nantou County Zhuxiannong Township 3915 Yunlin County Baotong Township"
         },
         {
           "code": "3120",
           "label_zh": "新北市坪林區 3302 新竹縣新埔鎮 3501 苗栗縣苗栗市 3707 彰化縣田中鎮 3805 南投縣集集鎮 3916 雲林縣臺西鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Ping林 District 3302 Hsinchu County Xinpu Town 3501 Miaoli County Miaoli City 3707 Changhua County Tian中 Town 3805 Nantou County Ji集 Town 3916 Yunlin County Tai西 Township"
         },
         {
           "code": "3121",
           "label_zh": "新北市三芝區 3303 新竹縣竹東鎮 3502 苗栗縣苑裡鎮 3708 彰化縣二林鎮 3806 南投縣名間鄉 3917 雲林縣元長鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Sanzhi District 3303 Hsinchu County Xitong Town 3502 Miaoli County Yuanli Town 3708 Changhua County Ersin Town 3806 Nantou County Mingan Township 3917 Yunlin County Yuanchang Town"
         },
         {
           "code": "3122",
           "label_zh": "新北市石門區 3305 新竹縣竹北市 3503 苗栗縣通霄鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Shimen District 3305 Taichung County Zhubei City 3503 Miaoli County Tongtiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yunlin County Silu Township"
         },
         {
           "code": "3123",
           "label_zh": "新北市八里區 3306 新竹縣湖口鄉 3504 苗栗縣竹南鎮 3710 彰化縣伸港鄉 3808 南投縣中寮鄉 3919 雲林縣口湖鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Eight里 District 3306 Hsinchu County Lake口 Township 3504 Miaoli County Bamboo南 Town 3710 Changhua County Stretch港 Township 3808 Nantou County MiddleLiao Township 3919 Yunlin County MouthLake Township"
         },
         {
           "code": "3124",
           "label_zh": "新北市平溪區 3307 新竹縣橫山鄉 3505 苗栗縣頭份市 3711 彰化縣福興鄉 3809 南投縣魚池鄉 3920 雲林縣水林鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Ping溪 District 3307 Hsinchu County Hongshan Township 3505 Miaoli County Toufen Town 3711 Changhua County Fu兴 Township 3809 Nantou County Yu池 Township 3920 Yunlin County Shuilin Township"
         },
         {
           "code": "3125",
           "label_zh": "新北市雙溪區 3308 新竹縣新豐鄉 3506 苗栗縣後龍鎮 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市",
-          "label_en": ""
+          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Town 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City"
         },
         {
           "code": "3126",
           "label_zh": "新北市貢寮區 3309 新竹縣芎林鄉 3507 苗栗縣卓蘭鎮 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Xionglin Township 3507 Miaoli County Zhuolan Town 3713 Changhua County Funtao Township 3811 Nantou County Shuilu Township 4002 Kaohsiung County Budai Town"
         },
         {
           "code": "3127",
           "label_zh": "新北市金山區 3310 新竹縣寶山鄉 3508 苗栗縣大湖鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮",
-          "label_en": ""
+          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dalu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town"
         },
         {
           "code": "3128",
           "label_zh": "新北市萬里區 3311 新竹縣北埔鄉 3509 苗栗縣公館鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wanli District 3311 Taichung County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Chiayi County Minxiong Township"
         },
         {
           "code": "3129",
           "label_zh": "新北市烏來區 3312 新竹縣峨眉鄉 3510 苗栗縣銅鑼鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉",
-          "label_en": ""
+          "label_en": "New Taipei City Wulai District 3312 Taichung County Meishan Township 3510 Miaoli County Tongluo Township 3716 Changhua County Pusilan Township 3901 Yunlin County Dali City 4005 Chiayi County Xikou Township 3901"
         },
         {
           "code": "3201",
           "label_zh": "桃園市桃園區 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 頁 32 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Taoyuan City Taoyuan District 3313 Xinzhai County Jianshi Township 3511 Miaoli County Nanzhuang Township 3717 Zhanghua County Pubxin Township 3902 Yunlin County Dounan Town 4006 Jiayi County Xinggang Township"
         },
         {
           "code": "4007",
@@ -8951,7 +8951,7 @@
         {
           "code": "4312",
           "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉 頁 33 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Pingtung County Wanlu Township 4403 Penghu County Basia Township 4608 Taitung County Changbin Township Page 33 / 40 Revised on January 27, 2026"
         }
       ],
       "field_en": "ownership type"
@@ -8962,22 +8962,22 @@
         {
           "code": "01",
           "label_zh": "綜合醫院 01 綜合醫院 01 綜合醫院 01 綜合醫院 01 綜合醫院 01 綜合醫院 01 綜合醫院",
-          "label_en": ""
+          "label_en": "General hospital 01 General hospital 01 General hospital 01 General hospital 01 General hospital 01 General hospital 01 General hospital"
         },
         {
           "code": "02",
           "label_zh": "一般醫院 02 一般醫院 02 一般醫院 02 一般醫院 02 一般醫院 02 一般醫院 02 一般醫院",
-          "label_en": ""
+          "label_en": "general hospital 02 general hospital 02 general hospital 02 general hospital 02 general hospital 02 general hospital 02 general hospital 02 general hospital"
         },
         {
           "code": "03",
           "label_zh": "專科醫院 03 專科醫院 03 專科醫院 03 專科醫院 03 專科醫院 03 專科醫院 03 專科醫院(102年起停發)",
-          "label_en": ""
+          "label_en": "Specialized hospital 03 Specialized hospital 03 Specialized hospital 03 Specialized hospital 03 Specialized hospital 03 Specialized hospital 03 Specialized hospital (not issued since 2013)"
         },
         {
           "code": "04",
           "label_zh": "精神科醫院 04 精神科醫院 04 精神科醫院 04 精神科醫院 04 精神科醫院 04 精神科醫院 04 精神科醫院",
-          "label_en": ""
+          "label_en": "psychiatric hospital 04 psychiatric hospital 04 psychiatric hospital 04 psychiatric hospital 04 psychiatric hospital 04 psychiatric hospital 04 psychiatric hospital"
         },
         {
           "code": "05",
@@ -8987,22 +8987,22 @@
         {
           "code": "06",
           "label_zh": "慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 牙醫醫院",
-          "label_en": ""
+          "label_en": "Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital Dental hospital"
         },
         {
           "code": "11",
           "label_zh": "牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 中醫醫院 中醫綜合醫院(102年起停發，",
-          "label_en": ""
+          "label_en": "dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital traditional Chinese medicine (TCM) hospital TCM comprehensive hospital (from 2003, no longer issued)"
         },
         {
           "code": "21",
           "label_zh": "中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 104年無資料刪除)",
-          "label_en": ""
+          "label_en": "traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 no data in 2014)"
         },
         {
           "code": "22",
           "label_zh": "中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 頁 34 / 40 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital Page 34 / 40 Revised on January 27, 2026"
         }
       ],
       "field_en": "type"
@@ -9044,7 +9044,7 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health12_醫院醫療服務量(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. The service volume of hospital services obtained through investigation.\n2. Statistical items include bed-related data, medical service volumes, medical and non-medical personnel, and medical equipment for each hospital.\n3. Data years cover from ROC 88 to 113.\n4. All fields in 113 are Char.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "inpatient service volume file (1999-2023)"

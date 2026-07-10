@@ -29,7 +29,7 @@
       "source": "承保 檔",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 2,
@@ -65,7 +65,7 @@
       "source": "本檔 自訂",
       "available_notes": [],
       "name_zh_en": "follow-up endpoint date",
-      "description_en": ""
+      "description_en": "For cases within the data extraction range with death records, this field shows the date of death; for those without death records, it displays the final data extraction point (2023/12/31) as the end of follow-up. Date format: yyyy-mm-dd."
     },
     {
       "seq": 5,
@@ -88,7 +88,7 @@
       "source": "門住 診明 細檔",
       "available_notes": [],
       "name_zh_en": "confirmed date",
-      "description_en": ""
+      "description_en": "If the case was born before the data start date (2001/1/1), the diagnosis date is a random date between the data start date and the tracking end date (END_DATE); if the case was born after the data start date, the diagnosis date is a random date between the birth date and the tracking end date. Date format: yyyy-mm-dd."
     },
     {
       "seq": 7,
@@ -124,7 +124,7 @@
       "source": "本檔 自訂",
       "available_notes": [],
       "name_zh_en": "age group at diagnosis",
-      "description_en": ""
+      "description_en": "Based on INDEX_AGE stratified by 10-year units (excluding those not exceeding 30 years old): 1: 18-29 years old 2: 30-39 years old 3: 40-49 years old 4: 50-59 years old 5: 60-69 years old 6: 70-79 years old 7: 80-89 years old"
     },
     {
       "seq": 10,
@@ -169,7 +169,7 @@
       "description_zh": "住院期間同時有經皮冠狀動脈 擴張術及支架特材相關支付代 碼。0：無；1：有。 (詳細編碼請參考附錄四)",
       "available_notes": [],
       "name_zh_en": "coronary artery stent placement",
-      "description_en": ""
+      "description_en": "inpatient period with percutaneous coronary intervention and stent material related payment codes. 0: none; 1: yes. (detailed coding please refer to appendix four)"
     },
     {
       "seq": 14,
@@ -391,6 +391,6 @@
   "name_zh_from_listing": "Health103_心血管疾病主題式資料庫",
   "data_description_en": "",
   "notes_en": "",
-  "primary_keys_en": "",
+  "primary_keys_en": "1. Personal ID and hospital code (HOSP_ID) are encrypted.\n2. The primary key of this file is the encrypted personal ID.\n3. The key value to match with other medical records files: encrypted personal ID.\n4. Cases in the main file that have the same value in the对照档(SUBCLASS) field as those in the对照档(CVD_CTRL) are cases from the same matched group.",
   "name_zh_en": "primary record of cardiovascular diseases"
 }

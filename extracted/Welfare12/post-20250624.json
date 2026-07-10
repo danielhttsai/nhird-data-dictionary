@@ -113,7 +113,7 @@
         }
       ],
       "name_zh_en": "victim's ID number",
-      "description_en": ""
+      "description_en": "Encrypted; lengths vary by year: 2002 (58), 2003-2006, 2010-2011 (72), 2004 (74), 2005, 2009, 2011 (48), 2008, 2013 (60), 2010-2012 (52)"
     },
     {
       "seq": 5,
@@ -169,7 +169,7 @@
         }
       ],
       "name_zh_en": "victim_education_level",
-      "description_en": ""
+      "description_en": "See field education level (VEDUCATION, DEDUCTION) coding explanation: Note updated since 108"
     },
     {
       "seq": 9,
@@ -186,7 +186,7 @@
         }
       ],
       "name_zh_en": "victim's disability type",
-      "description_en": ""
+      "description_en": "See field disability codes (VDISABILITY, DDISABILITY) translation notes (multiple choices) Note 1: The coding book was updated starting from 2018."
     },
     {
       "seq": 10,
@@ -259,7 +259,7 @@
         }
       ],
       "name_zh_en": "relative ID number",
-      "description_en": ""
+      "description_en": "Encrypted processing Lengths are as follows: 101-102 years - 54 characters; 103 year - 82 characters; 104 year - 46 characters; 105 year - 48 characters; 106, 110 years - 66 characters; 107 year - 84 characters; 108 year - 68 characters; 111 year - 78 characters; 112 year - 84 characters; 113 year - 70 characters."
     },
     {
       "seq": 12,
@@ -315,7 +315,7 @@
         }
       ],
       "name_zh_en": "Relative's Education Level",
-      "description_en": ""
+      "description_en": "See field education level (VEDUCATION, DEDUCTION) coding explanation: Note updated since 108"
     },
     {
       "seq": 16,
@@ -370,7 +370,7 @@
         }
       ],
       "name_zh_en": "assisted matters",
-      "description_en": ""
+      "description_en": "Details of HELPACTION code (multiple choices) Note: No data from 2018 onwards, length was 6 for 2013 and 2016"
     },
     {
       "seq": 20,
@@ -397,7 +397,7 @@
         }
       ],
       "name_zh_en": "assistance items for the victim",
-      "description_en": ""
+      "description_en": "See follow-up actions for victim assistance (FOLLOWACTION) translation notes (multiple choices). Note: No data from 2018 onwards. Length was 11 from 2008 to 2016, and 10 in 2017."
     },
     {
       "seq": 21,
@@ -794,7 +794,7 @@
         {
           "code": "J",
           "label_zh": "現有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 現有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂））",
-          "label_en": ""
+          "label_en": "kin by consanguinity within fourth degree (e.g., cousin, niece/nephew of uncle/aunt), kin by marriage within fourth degree (e.g., aunt-in-law, uncle-in-law, mother-in-law of uncle, wife/brother-in-law of cousin)"
         },
         {
           "code": "X",
@@ -829,7 +829,7 @@
         {
           "code": "Q",
           "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他 適用於108年起 代碼 說明 9不詳",
-          "label_en": ""
+          "label_en": "History of - Consanguineous collateral relatives within four generations (such as cousins, nieces/nephews, etc.), History of - Affinal collateral relatives within four generations (such as aunt's son/daughter-in-law, uncle's daughter/son-in-law, etc.), b History of - Intimate partners not cohabiting S, Z History of - Other applicable from 2018 Code Explanation"
         },
         {
           "code": "A",

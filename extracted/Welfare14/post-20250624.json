@@ -122,7 +122,7 @@
         }
       ],
       "name_zh_en": "protected/victimized person's ID number",
-      "description_en": ""
+      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2003 Length is 48 2004-2005 Length is 44 2006 Length is 24 2007 Length is 50 2008 Length is 52 2009 Length is 48 2010 Length is 64 2011 Length is 38 2001-2002, 2012 Length is 36 2013 Length is 58"
     },
     {
       "seq": 5,
@@ -290,7 +290,7 @@
         }
       ],
       "name_zh_en": "protected/victim with disability certificate; select other when filling in data",
-      "description_en": ""
+      "description_en": "From 2018, not applicable; 2015 length: 40; 2016 length: 42; 2018 length: 27; 2020 length: 22; 2019, 2021 lengths: 44"
     },
     {
       "seq": 14,
@@ -369,7 +369,7 @@
         }
       ],
       "name_zh_en": "suspected abuser/participant/suspect identity number",
-      "description_en": ""
+      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2001 Length is 58 2002-2003 Length is 44 2004 Length is 42 2005 Length is 72 2006 Length is 48 2007 Length is 32 2008 Length is 46 2011 Length is 78 2009-2010, 2012 Length is 66 2013 Length is 64"
     },
     {
       "seq": 16,
@@ -555,7 +555,7 @@
         }
       ],
       "name_zh_en": "Suspected abuser/relative/suspect - other information when selected",
-      "description_en": ""
+      "description_en": "Since 2008, the lengths are as follows: 2001年长度为72 2002年长度为36 2003年长度为22 2004年长度为30 2005、2007年长度为26 2006年长度为34"
     },
     {
       "seq": 26,
@@ -597,7 +597,7 @@
         }
       ],
       "name_zh_en": "Suspected abuser/relative/suspect holder of disability handbook Fill data when selecting other",
-      "description_en": ""
+      "description_en": "From 2018, not applicable; 2016 length: 14; 2015, 2017 lengths: 18; 2021 length: 11; 2018, 2020 lengths: 16; 2019 length: 46"
     },
     {
       "seq": 27,
@@ -674,7 +674,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "Child and Adolescent Protection Matters - For the following emergencies, it is recommended to immediately contact local authority social workers by phone for assessment and handling. In accordance with Article 6 of the Child and Adolescent Protection Reporting and Handling Measures, appropriate protection and care should be provided before the relevant authority handles the case.",
       "description_en": "multiple selections; refer to code explanation from 2010 onwards"
     },
     {
@@ -1210,12 +1210,12 @@
         {
           "code": "J",
           "label_zh": "供應刀械或其他危險物品 利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網 際網路或其他物品 違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路 或其他物品",
-          "label_en": ""
+          "label_en": "Supplying surgical instruments or other dangerous items Utilizing them for shooting or recording violent, obscene, pornographic, or otherwise harmful to their physical and mental development publications, films, DVDs, internet, or other items Violating the Media Rating Regulations, providing or broadcasting harmful publications, films, DVDs, internet, or other items"
         },
         {
           "code": "M",
           "label_zh": "帶領或誘使其進入有礙其身心健康之場所 強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺 防治中心)",
-          "label_en": ""
+          "label_en": "leading or inducing a child or adolescent into a place detrimental to their physical and mental health forcing, enticing, accommodating, or facilitating a child or adolescent's suicide (please report to the local community mental health center or suicide prevention center)"
         },
         {
           "code": "O",
@@ -1236,7 +1236,7 @@
         {
           "code": "B",
           "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者 兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險 之虞者",
-          "label_en": ""
+          "label_en": "Childhood neglect or inadequate care leading to immediate danger to life, body, or freedom or potential danger Children in need of immediate treatment but have not sought medical attention leading to immediate danger to life, body, or freedom or potential danger"
         },
         {
           "code": "D",
@@ -1407,7 +1407,7 @@
         {
           "code": "A",
           "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造 成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為 照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、",
-          "label_en": ""
+          "label_en": "Child abuse by parents (caretakers or family members) who threaten, plan, or attempt to kill the child, or where the child is injured and claims it was done by their parents (caretakers or family members), or where the reporter doubts the cause of injury and finds mixed old and new injuries on the child. The child's injuries are accidental, but the explanation for the injuries given by the child (parents, caretakers, or family members) is reasonable and consistent, yet suspicious due to possible neglect by the caregiver."
         },
         {
           "code": "D",
@@ -1422,12 +1422,12 @@
         {
           "code": "F",
           "label_zh": "1. 6歲以下或需特別看護之兒少，獨處或由不適當之人代為照顧。 2. 兒少處於危險情境中。 父母(照顧者)有以下情形之一，致兒少日常生活受到影響，需要協助：",
-          "label_en": ""
+          "label_en": "1. Children under 6 years old or those in need of special care, left alone or cared for by inappropriate persons. 2. Children are in a dangerous situation. Parents (caretakers) have one of the following conditions leading to an impact on the child's daily life and requiring assistance:"
         },
         {
           "code": "G",
           "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有 暫時性替代照顧方案。",
-          "label_en": ""
+          "label_en": "1. Long-term absence or neglect of minors by parents (caretakers), including risks of suicide, mental illness, drug or alcohol addiction, criminal behavior, or inappropriate conduct.\n2. Abandonment of minors by parents (caretakers) with no stable alternative care plan or only temporary plans."
         },
         {
           "code": "I",
@@ -1472,7 +1472,7 @@
         {
           "code": "Q",
           "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發 展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。",
-          "label_en": ""
+          "label_en": "Childhood injuries due to hazardous objects at home, poor equipment conditions, or messy environments that may cause physical or mental harm. Parental (caretaker, family member) or other verbal actions may result in psychological trauma to the victim, repeatedly negatively impacting the child's development, social needs, self-worth, and daily life, requiring assistance."
         },
         {
           "code": "S",
@@ -1482,7 +1482,7 @@
         {
           "code": "T",
           "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他 物品。",
-          "label_en": ""
+          "label_en": "exploitation of children for sexual or indecent acts, with exhibition to others. production of images, photos, videos, discs, electronic signals, etc., depicting such acts involving children."
         },
         {
           "code": "V",
@@ -1502,7 +1502,7 @@
         {
           "code": "Y",
           "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定 足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款 行為。",
-          "label_en": ""
+          "label_en": "Children or adolescents using drugs, illegally using controlled substances, or other harmful substances to their physical or mental health. Children or adolescents working as servers at adult product retail stores, video game arcades involving gambling or violence, and places recognized by relevant authorities as potentially harmful to their well-being. Engaging in behaviors under Article 49, paragraphs 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, and 15 of the Child Welfare and Rights Protection Act."
         }
       ],
       "field_en": "type of abuse sub-item"

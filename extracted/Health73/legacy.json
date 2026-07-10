@@ -138,7 +138,7 @@
       "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "need supervisor assistance type",
-      "description_en": ""
+      "description_en": "N: not required X: required: consult committee Y: required: health center director Z: required: health bureau director Codes outside the scope of this table should be ignored."
     },
     {
       "seq": 12,
@@ -149,7 +149,7 @@
       "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士 台灣結核病防治年報之「非本國籍」結 核病，為身份別代碼 B、C、D、G。",
       "available_notes": [],
       "name_zh_en": "identity type",
-      "description_en": ""
+      "description_en": "A: General citizens B: Foreign workers C: Foreigners D: Foreign brides including mainland brides E: Homeless F: ID number not available G: Mainland residents Taiwan Tuberculosis Prevention Annual Report's 'Non-citizens' for tuberculosis are identity codes B, C, and D, and G."
     },
     {
       "seq": 13,
@@ -325,7 +325,7 @@
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "closure reason",
-      "description_en": ""
+      "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
     },
     {
       "seq": 29,
@@ -468,7 +468,7 @@
       "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "caregiver category",
-      "description_en": ""
+      "description_en": "A: Family member B: District nurse C: Hospital (or nursing home) nurse D: Volunteer F: DOTS project care provider Codes outside the scope of this table please ignore."
     },
     {
       "seq": 42,
@@ -490,7 +490,7 @@
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "reason for case closure",
-      "description_en": ""
+      "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
     },
     {
       "seq": 44,
@@ -501,7 +501,7 @@
       "description_zh": "A：本國 B：大陸人士 ( 高負擔 TB / MDR-TB ) O：日本 P：韓國 Q：美國 R：加拿大 S：新加坡 T：馬來西亞 U：菲律賓 V：泰國 W：印尼",
       "available_notes": [],
       "name_zh_en": "by nationality",
-      "description_en": ""
+      "description_en": "A: domestic B: mainland Chinese (high burden TB / MDR-TB) O: Japan P: South Korea Q: United States R: Canada S: Singapore T: Malaysia U: Philippines V: Thailand W: Indonesia"
     },
     {
       "seq": 45,
@@ -798,7 +798,7 @@
       "description_zh": "A：否（拒絕） B：否（死亡） C：否（住院中） D：否（改診斷） E：否（住在外地） F：否（居無定所） G：否（遷出） H：否（副作用） I：否（醫囑排除） J：否（停藥） K：否（遣返） Y：是（加入DOTS）",
       "available_notes": [],
       "name_zh_en": "Join DOTS Other",
-      "description_en": ""
+      "description_en": "A: No (Refusal) B: No (Death) C: No (In Hospital) D: No (Changed Diagnosis) E: No (Living Outside) F: No (Homeless) G: No (Moved Out) H: No (Side Effects) I: No (Doctor's Order Exclusion) J: No (Discontinued Medication) K: No (Repatriated) Y: Yes (Joined DOTS)"
     },
     {
       "seq": 72,
@@ -809,7 +809,7 @@
       "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "outpatient/ED condition",
-      "description_en": ""
+      "description_en": "A: Outpatient B: Inpatient: RCW C: Inpatient: Negative Pressure D: Inpatient E: Unreachable F: Emergency G: Inpatient (Other) H: Discharge Medication I: This code is out of the scope of this table, please ignore."
     },
     {
       "seq": 73,
@@ -875,7 +875,7 @@
       "description_zh": "01：現役軍人 22：醫護：含醫院工作者 23：教師：含校園工作者 84：職業駕駛 91：臨時工 X1：原住民族 X2：役男：體檢發現 X3：人口密集機構 Y2：在學學生 Y5：監獄拘留所 Y6：其他 Y7：畜牧場工作人員",
       "available_notes": [],
       "name_zh_en": "occupation or ethnic group",
-      "description_en": ""
+      "description_en": "01: Active military personnel 22: Healthcare professionals: including hospital staff 23: Teachers: including school staff 84: Professional drivers 91: Temporary workers X1: Indigenous people X2: Male conscripts:体检发现 X3: Populous institution Y2: Students Y5: Detainees Y6: Others Y7: Livestock workers"
     },
     {
       "seq": 79,
@@ -897,7 +897,7 @@
       "description_zh": "1：痰液 2：胸水 3：氣管洗出液 4：腦脊髓液 5：陽性培養菌株 6：病理切片 7：消化去污染後痰 9：其他",
       "available_notes": [],
       "name_zh_en": "extrapulmonary specimen type",
-      "description_en": ""
+      "description_en": "1: sputum, 2: pleural effusion, 3: bronchial washout fluid, 4: cerebrospinal fluid, 5: positive culture strain, 6: histopathological section, 7: decontaminated sputum from digestion, 9: other"
     },
     {
       "seq": 81,
@@ -1013,7 +1013,7 @@
         }
       ],
       "name_zh_en": "sputum culture identification result 1",
-      "description_en": ""
+      "description_en": "-：ICT鉴定( non-MTBC ) 0：其他 9：无法判断 L：已验未出 N：NTM Y：结核杆菌 备注:104年起长度调整为 4码"
     },
     {
       "seq": 91,
@@ -1030,7 +1030,7 @@
         }
       ],
       "name_zh_en": "sputum culture identification result 2",
-      "description_en": ""
+      "description_en": "-：ICT鉴定( non-MTBC ) 0：其他 9：无法判断 L：已验未出 N：NTM Y：结核杆菌 备注:104年起长度调整为 4码"
     },
     {
       "seq": 92,
@@ -1047,7 +1047,7 @@
         }
       ],
       "name_zh_en": "sputum culture identification result 3",
-      "description_en": ""
+      "description_en": "-：ICT鉴定( non-MTBC ) 0：其他 L：已验未出 9：无法判断 N：NTM Y：结核杆菌 备注:104年起长度调整为 4码"
     },
     {
       "seq": 93,
@@ -1097,7 +1097,7 @@
       "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥 空白或NULL：未判 疾管署慢性組分枝桿菌實驗室研判",
       "available_notes": [],
       "name_zh_en": "multiple drug resistance note in TCM cases",
-      "description_en": ""
+      "description_en": "M: Multidrug resistant N: Excluded X: Extensively drug-resistant Y: Drug resistance Blank or NULL: Not determined by CDC Chronic Bacterial Laboratory"
     },
     {
       "seq": 97,
@@ -1131,7 +1131,7 @@
         }
       ],
       "name_zh_en": "additional field two",
-      "description_en": ""
+      "description_en": "Starting from 104 year reporting generation, after reporting, follow-up for 2 years will be provided to provide the case closure reason of this episode: 1: completed management 2: lost 3: lost 4: death 5: death 6: transferred out 7: transferred out 8: excluded (physician diagnosis) B: excluded (BCG) C: excluded (suspected for one year) D: other (treated as loss to follow-up) F: excluded (physician diagnosis) M: excluded (NTM‧MOTT) O: other cured"
     },
     {
       "seq": 99,
@@ -1167,8 +1167,8 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health73_結核病資料庫",
-  "data_description_en": "",
-  "notes_en": "",
+  "data_description_en": "1. Data year from 91 to present. Claims from 2015 or earlier are provided for cases occurring before 2013. 2. To determine follow-up treatment outcomes, starting from 2015, follow-up generations provide case closure reasons and dates two years after the claim; 2015's follow-up treatment results were provided in 2017, those of 2022 in 2023, and so on.",
+  "notes_en": "※This center's database has been de-identified, removing personally identifiable information such as names, addresses, etc., with ID and ovedr_date serving as key values for personal data matching. Related data can only be used within a dedicated operational area of the ministry and can only be carried out after approved statistical results have been reviewed to ensure that the application and disclosure methods do not allow identification of specific individuals.",
   "primary_keys_en": "key values for personal information matching: ID and OVEDR_DATE.",
   "name_zh_en": "TB database"
 }

@@ -72,7 +72,7 @@
         }
       ],
       "name_zh_en": "residence",
-      "description_en": ""
+      "description_en": "Details of old county/city/township coding explanation (Note: Starting from 2004, 2105 is Zhongxi District, Tainan City); starting from 2010, please refer to new county/city/township coding explanation."
     },
     {
       "seq": 5,
@@ -215,7 +215,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": ""
+      "description_en": "1960-1969 coded as ICD-8, 1970-1996 coded as ICD-9 (no such column data starting from 1997). Main cause of death classification and main cancer classification details see cause of death coding explanation"
     },
     {
       "seq": 13,
@@ -276,7 +276,7 @@
         }
       ],
       "name_zh_en": "diagnoser",
-      "description_en": ""
+      "description_en": "From 1960 to 1997: 1: Western medicine, 2: Traditional Chinese medicine, 3: Forensic medicine, 4: Prosecutor, 5: Inspector, 6: Village chief, 7: Other, 9: Unclear (no data from 1998 onwards)"
     },
     {
       "seq": 16,
@@ -336,8 +336,8 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health10_死因統計檔",
-  "data_description_en": "",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
+  "notes_en": "1. One person per record.\n2. There are duplicate cases for 'serial number' or 'ID'.\n*Personal identification numbers, date of birth, and other fields in this database have been masked and can only be used within a designated area set up by the department. Statistical results must be reviewed before they can be carried out to ensure that the data cannot identify specific individuals.",
+  "primary_keys_en": "1. Personal ID is encrypted.\n2. The key field for the cause-of-death file is '连续号(s_num)' from 60-73 years, and '身分证字号(ID)' starting from 74 years.\n3. Key value for personal data comparison: ID.",
   "name_zh_en": "cause of death file"
 }

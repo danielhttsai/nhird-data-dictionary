@@ -98,7 +98,7 @@
       "description_zh": "單選 1:無； 2:小學； 3:國(初)中； 4:高中/高職； 5:專科、大學； 6:研究所以上； 7:拒答",
       "available_notes": [],
       "name_zh_en": "education",
-      "description_en": ""
+      "description_en": "Single choice 1: none; 2: elementary school; 3: junior/middle school; 4: high school/vocational school; 5: college/university; 6: graduate school and above; 7: refused to answer"
     },
     {
       "seq": 8,
@@ -857,7 +857,7 @@
       "description_zh": "單選 1:non-solid (非實心) 2:part-solid (部分實心) 3:solid(實心)",
       "available_notes": [],
       "name_zh_en": "first-lung-nodule-phenotype",
-      "description_en": ""
+      "description_en": "Single selection 1: non-solid (non-solid) 2: part-solid (part-solid) 3: solid (solid)"
     },
     {
       "seq": 77,
@@ -890,7 +890,7 @@
       "description_zh": "單選 1:unchanged 2:enlarging(>1.5 mm) 3:newly found (>4 mm) in follow-up 4:No prior chest CT comparison",
       "available_notes": [],
       "name_zh_en": "first pill compare previous imaging status",
-      "description_en": ""
+      "description_en": "Single choice 1: unchanged 2: enlarging (>1.5 mm) 3: newly found (>4 mm) in follow-up 4: no prior chest CT comparison"
     },
     {
       "seq": 80,
@@ -912,7 +912,7 @@
       "description_zh": "單選 1:non-solid (非實心) 2:part-solid (部分實心) 3:solid(實心)",
       "available_notes": [],
       "name_zh_en": "second-lung-nodule-phenotype",
-      "description_en": ""
+      "description_en": "Single selection 1: non-solid (non-solid) 2: part-solid (part-solid) 3: solid (solid)"
     },
     {
       "seq": 82,
@@ -945,7 +945,7 @@
       "description_zh": "單選 1:unchanged 2:enlarging(>1.5 mm) 3:newly found (>4 mm) in follow-up 4:No prior chest CT comparison",
       "available_notes": [],
       "name_zh_en": "second pill compare previous imaging status",
-      "description_en": ""
+      "description_en": "Single choice 1: unchanged 2: enlarging (>1.5 mm) 3: newly found (>4 mm) in follow-up 4: no prior chest CT comparison"
     },
     {
       "seq": 85,
@@ -967,7 +967,7 @@
       "description_zh": "單選 1:non-solid (非實心) 2:part-solid (部分實心) 3:solid(實心)",
       "available_notes": [],
       "name_zh_en": "lung nodule appearance 3",
-      "description_en": ""
+      "description_en": "Single selection 1: non-solid (non-solid) 2: part-solid (part-solid) 3: solid (solid)"
     },
     {
       "seq": 87,
@@ -1000,7 +1000,7 @@
       "description_zh": "單選 1:unchanged 2:enlarging(>1.5 mm) 3:newly found (>4 mm) in follow-up 4:No prior chest CT comparison",
       "available_notes": [],
       "name_zh_en": "third pill compare previous imaging status",
-      "description_en": ""
+      "description_en": "Single choice 1: unchanged 2: enlarging (>1.5 mm) 3: newly found (>4 mm) in follow-up 4: no prior chest CT comparison"
     },
     {
       "seq": 90,
@@ -1022,7 +1022,7 @@
       "description_zh": "單選 1：需之前影像對照。或攝影品質 不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
       "available_notes": [],
       "name_zh_en": "evaluate_report_result_check_3: 6 months later check follow-up_check_4: 3 months later check follow-up_check_5: need to perform confirmation procedure",
-      "description_en": ""
+      "description_en": "single choice 1: need previous imaging for comparison or poor photography quality, should redo low-dose CT. 2: every 2 years regular low-dose CT. 6: no follow-up, case closed by sending report."
     }
   ],
   "codebooks": {},
@@ -1042,7 +1042,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health105_ 癌症篩檢--肺癌篩檢檔",
   "data_description_en": "1. Data years are 2022-2024.",
-  "notes_en": "",
+  "notes_en": "※This database has been de-identified and direct identifying fields such as name and address have been deleted. If there are identification numbers such as national ID number, institution code, insured unit code, unified number, date of birth, medical visit date, admission date, etc., they have all been shielded, and the relevant data can only be used within a dedicated operational area set up by this department, and statistical results approved for release to ensure that the application and disclosure methods do not allow identification of specific individuals. Primary key with individual account and personal information matching value: ID.",
   "primary_keys_en": "",
   "name_zh_en": "lung_cancer_screening_file"
 }

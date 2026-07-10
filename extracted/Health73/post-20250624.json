@@ -84,7 +84,7 @@
       "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "need supervisor assistance type",
-      "description_en": ""
+      "description_en": "N: not required X: required: consult committee Y: required: health center director Z: required: health bureau director Codes outside the scope of this table should be ignored."
     },
     {
       "seq": 6,
@@ -95,7 +95,7 @@
       "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士 台灣結核病防治年報之「非本國籍」結 核病，為身份別代碼 B、C、D、G。",
       "available_notes": [],
       "name_zh_en": "identity type",
-      "description_en": ""
+      "description_en": "A: General citizens B: Foreign workers C: Foreigners D: Foreign brides including mainland brides E: Homeless F: ID number not available G: Mainland residents Taiwan Tuberculosis Prevention Annual Report's 'Non-citizens' for tuberculosis are identity codes B, C, and D, and G."
     },
     {
       "seq": 7,
@@ -117,7 +117,7 @@
         }
       ],
       "name_zh_en": "sputum smear day 1",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 8,
@@ -139,7 +139,7 @@
         }
       ],
       "name_zh_en": "sputum culture day",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 9,
@@ -161,7 +161,7 @@
         }
       ],
       "name_zh_en": "x-ray date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 10,
@@ -216,7 +216,7 @@
         }
       ],
       "name_zh_en": "registration review date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 14,
@@ -238,7 +238,7 @@
         }
       ],
       "name_zh_en": "start of medication date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 15,
@@ -271,7 +271,7 @@
         }
       ],
       "name_zh_en": "end of treatment date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 17,
@@ -293,7 +293,7 @@
         }
       ],
       "name_zh_en": "closure date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 18,
@@ -326,7 +326,7 @@
         }
       ],
       "name_zh_en": "reopening date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 20,
@@ -359,7 +359,7 @@
         }
       ],
       "name_zh_en": "Date of Death",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 22,
@@ -392,7 +392,7 @@
         }
       ],
       "name_zh_en": "previous move-out date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 24,
@@ -425,7 +425,7 @@
         }
       ],
       "name_zh_en": "most recent medical visit date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 26,
@@ -458,7 +458,7 @@
         }
       ],
       "name_zh_en": "report filing date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 28,
@@ -469,7 +469,7 @@
       "description_zh": "D：是(已申請留台治療之外勞) L：已逃跑無法評估 N：未評估 O：境外聘僱(不須評估) P：單純肺外(不須評估) X：否(已申請留台治療之外勞) Y：有眷",
       "available_notes": [],
       "name_zh_en": "Applying for onshore treatment",
-      "description_en": ""
+      "description_en": "D: Yes (Applied for treatment in Taiwan while working abroad) L: Fled cannot be assessed N: Not assessed O: Overseas employment (No need to assess) P: Simple pulmonary disease (No need to assess) X: No (Applied for treatment in Taiwan while working abroad) Y: Has family"
     },
     {
       "seq": 29,
@@ -480,7 +480,7 @@
       "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "caregiver category",
-      "description_en": ""
+      "description_en": "A: Family member B: District nurse C: Hospital (or nursing home) nurse D: Volunteer F: DOTS project care provider Codes outside the scope of this table please ignore."
     },
     {
       "seq": 30,
@@ -502,7 +502,7 @@
         }
       ],
       "name_zh_en": "date of case closure",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 31,
@@ -513,7 +513,7 @@
       "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "reason for case closure",
-      "description_en": ""
+      "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
     },
     {
       "seq": 32,
@@ -619,7 +619,7 @@
         }
       ],
       "name_zh_en": "date of diagnosis",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 39,
@@ -641,7 +641,7 @@
         }
       ],
       "name_zh_en": "report date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 40,
@@ -663,7 +663,7 @@
         }
       ],
       "name_zh_en": "date_received_by_health_bureau",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 41,
@@ -685,7 +685,7 @@
         }
       ],
       "name_zh_en": "admission date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 42,
@@ -707,7 +707,7 @@
         }
       ],
       "name_zh_en": "DOTS enrollment date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 43,
@@ -718,7 +718,7 @@
       "description_zh": "A：否（拒絕） B：否（死亡） C：否（住院中） D：否（改診斷） E：否（住在外地） F：否（居無定所） G：否（遷出） H：否（副作用） I：否（醫囑排除） J：否（停藥） K：否（遣返） Y：是（加入 DOTS）",
       "available_notes": [],
       "name_zh_en": "Join DOTS Other",
-      "description_en": ""
+      "description_en": "A: No (refusal) B: No (deceased) C: No (in hospital) D: No (changed diagnosis) E: No (living elsewhere) F: No (homeless) G: No (moved out) H: No (adverse reaction) I: No (medical exclusion order) J: No (discontinued medication) K: No (repatriation) Y: Yes (joined DOTS)"
     },
     {
       "seq": 44,
@@ -729,7 +729,7 @@
       "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥 本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "outpatient/ED condition",
-      "description_en": ""
+      "description_en": "A: Outpatient B: Inpatient: RCW C: Inpatient: Negative Pressure D: Inpatient E: Unreachable F: Emergency G: Inpatient (Other) H: Discharge Medication I: This code is out of the scope of this table, please ignore."
     },
     {
       "seq": 45,
@@ -751,7 +751,7 @@
         }
       ],
       "name_zh_en": "DOTS discontinuation date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 46,
@@ -762,7 +762,7 @@
       "description_zh": "A：DOTS 療程結束 B：拒絕 C：死亡 D：住院中 E：改診斷 F：遷出 G：副作用 H：醫囑停藥 I：行蹤不明 J：住在外地 K：其他 L：無細菌學證據依規定期限中止",
       "available_notes": [],
       "name_zh_en": "DOTS discontinuation reason",
-      "description_en": ""
+      "description_en": "A: End of DOTS regimen B: Refusal C: Death D: Inpatient E: Change in Diagnosis F: Relocation G: Side Effects H: Doctor's Order to Discontinue Medication I: Untraceable J: Living elsewhere K: Other L: No Bacteriological Evidence for Suspension According to Regulations"
     },
     {
       "seq": 47,
@@ -806,7 +806,7 @@
       "description_zh": "01：現役軍人 22：醫護：含醫院工作者 23：教師：含校園工作者 84：職業駕駛 91：臨時工 X1：原住民族 X2：役男：體檢發現 X3：人口密集機構 Y2：在學學生 Y5：監獄拘留所 Y6：其他 Y7：畜牧場工作人員",
       "available_notes": [],
       "name_zh_en": "occupation or ethnic group",
-      "description_en": ""
+      "description_en": "01: Active military personnel 22: Healthcare professionals: including hospital staff 23: Teachers: including school staff 84: Professional drivers 91: Temporary workers X1: Indigenous people X2: Male conscripts:体检发现 X3: Populous institution Y2: Students Y5: Detainees Y6: Others Y7: Livestock workers"
     },
     {
       "seq": 51,
@@ -828,7 +828,7 @@
       "description_zh": "1：痰液 2：胸水 3：氣管洗出液 4：腦脊髓液 5：陽性培養菌株 6：病理切片 7：消化去污染後痰 9：其他",
       "available_notes": [],
       "name_zh_en": "extrapulmonary specimen type",
-      "description_en": ""
+      "description_en": "1: sputum, 2: pleural effusion, 3: bronchial washout fluid, 4: cerebrospinal fluid, 5: positive culture strain, 6: histopathological section, 7: decontaminated sputum from digestion, 9: other"
     },
     {
       "seq": 53,
@@ -989,7 +989,7 @@
         }
       ],
       "name_zh_en": "pathology report date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 65,
@@ -1006,7 +1006,7 @@
         }
       ],
       "name_zh_en": "sputum culture identification result 1",
-      "description_en": ""
+      "description_en": "-：ICT鉴定( non-MTBC ) 0：其他 9：无法判断 L：已验未出 N：NTM Y：结核杆菌 备注:104年起长度调整为 4码"
     },
     {
       "seq": 66,
@@ -1028,7 +1028,7 @@
         }
       ],
       "name_zh_en": "sputum smear day 2",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 67,
@@ -1050,7 +1050,7 @@
         }
       ],
       "name_zh_en": "sputum smear day 3",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 68,
@@ -1106,7 +1106,7 @@
         }
       ],
       "name_zh_en": "sputum culture day 2",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 71,
@@ -1128,7 +1128,7 @@
         }
       ],
       "name_zh_en": "sputum culture day 3",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 72,
@@ -1145,7 +1145,7 @@
         }
       ],
       "name_zh_en": "sputum culture identification result 2",
-      "description_en": ""
+      "description_en": "-：ICT鉴定( non-MTBC ) 0：其他 9：无法判断 L：已验未出 N：NTM Y：结核杆菌 备注:104年起长度调整为 4码"
     },
     {
       "seq": 73,
@@ -1178,7 +1178,7 @@
         }
       ],
       "name_zh_en": "date of discharge from this episode",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 75,
@@ -1200,7 +1200,7 @@
         }
       ],
       "name_zh_en": "MDR registration date",
-      "description_en": ""
+      "description_en": "Starting from 1991: YYYY/MM/DD Starting from 2014: length adjusted to 29 digits, format as YYYY-MM-DD hh:mm:ss.fff"
     },
     {
       "seq": 76,
@@ -1222,7 +1222,7 @@
       "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥 空白或NULL：未判 疾管署慢性組分枝桿菌實驗室研判",
       "available_notes": [],
       "name_zh_en": "multiple drug resistance note in TCM cases",
-      "description_en": ""
+      "description_en": "M: Multidrug resistant N: Excluded X: Extensively drug-resistant Y: Drug resistance Blank or NULL: Not determined by CDC Chronic Bacterial Laboratory"
     },
     {
       "seq": 78,
@@ -1250,7 +1250,7 @@
       "description_zh": "將於通報後追蹤 2年期滿後，提供該次 病程之銷案原因 1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG)",
       "available_notes": [],
       "name_zh_en": "additional field two",
-      "description_en": ""
+      "description_en": "After reporting, track until the end of the 2-year period and provide reasons for case closure: 1: Completed management; 2: Lost to follow-up; 3: Lost to follow-up; 4: Death; 5: Death; 6: Transferred out; 7: Transferred out; 8: Excluded (physician diagnosis); B: Excluded (BCG)."
     },
     {
       "seq": 80,
@@ -1489,8 +1489,8 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health73_結核病資料庫(20250624起適用)",
-  "data_description_en": "",
-  "notes_en": "",
+  "data_description_en": "1. Data year from 91 to present. Claims from 2015 or earlier are provided for cases occurring before 2013. 2. To determine follow-up treatment outcomes, starting from 2015, follow-up generations provide case closure reasons and dates two years after the claim; 2015's follow-up treatment results were provided in 2017, those of 2022 in 2023, and so on.",
+  "notes_en": "※This center's database has been de-identified, removing personally identifiable information such as names and addresses. Fields like IDNO and OVEDR_DATE have been masked, and the data can only be used within a dedicated operational area of this department and statistical results must be reviewed before being carried out to ensure that no specific individual can be identified.",
   "primary_keys_en": "key values for personal information matching: IDNO and OVEDR_DATE.",
   "name_zh_en": "TB database"
 }

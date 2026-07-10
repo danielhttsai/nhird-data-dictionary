@@ -32,7 +32,7 @@
       "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
       "available_notes": [],
       "name_zh_en": "diagnosis code",
-      "description_en": ""
+      "description_en": "ICD-9-CM and A-Code detailed diagnosis codes (DISE_CODE) and catastrophic illness categories (IIV_TYPE)对照表。请参考健保局网页。"
     },
     {
       "seq": 2,
@@ -209,7 +209,7 @@
       "description_zh": "1. 經加密處理，身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "1. Encrypted identification number or foreign resident permit number (if no resident permit number, passport number). 2. Sample size of the 2 million people sample file is 9 digits."
     },
     {
       "seq": 17,
@@ -379,8 +379,8 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health08_全民健保重大傷病檔",
-  "data_description_en": "",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "data_description_en": "1. Generally one record per card issuance.\n2. Includes patient's catastrophic illness category and other relevant information at the time of card issuance.\n3. Data year ranges from 2001 to 2024.",
+  "notes_en": "※This center's database has been de-identified, with personal information such as names and addresses removed. Only fields like national health insurance numbers, facility codes, employer codes, unified numbers, dates of birth, medical visit dates, admission dates have been masked, and the data can only be used within a dedicated operational area of this department, and statistical results reviewed and approved before being carried out to ensure that the data cannot be linked back to specific individuals.",
+  "primary_keys_en": "1. ID number, physician ID number, and medical institution code have been encrypted.\n2. Key value for individual account linkage and personal information: ID.\n3. Key value for medical institution account linkage and medical institution data: HOSP_ID.",
   "name_zh_en": "Taiwan NHI Catastrophic Illness File"
 }

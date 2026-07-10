@@ -61,7 +61,7 @@
         }
       ],
       "name_zh_en": "residence",
-      "description_en": ""
+      "description_en": "Details of old county/city/township coding explanation (Note: Starting from 2004, 2105 is Zhongxi District, Tainan City); starting from 2010, please refer to new county/city/township coding explanation."
     },
     {
       "seq": 4,
@@ -227,7 +227,7 @@
         }
       ],
       "name_zh_en": "diagnoser",
-      "description_en": ""
+      "description_en": "from 1983 to 1997: 1: western medicine, 2: traditional Chinese medicine, 3: forensic medicine, 4: prosecutor, 5: laboratory technician, 6: village chief, 7: other, 9: unknown (no data since 1998)"
     },
     {
       "seq": 14,
@@ -238,7 +238,7 @@
       "description_zh": "00：未滿 1 日，01：滿 1 日，02：滿 2 日， 以此類推，至 27：滿 27 日，88：非新生兒死亡",
       "available_notes": [],
       "name_zh_en": "newborn age",
-      "description_en": ""
+      "description_en": "00: less than 1 day, 01: 1 day or more, 02: 2 days or more,以此類推至27: 27 days or more, 88: non-newborn death"
     },
     {
       "seq": 15,
@@ -721,7 +721,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health31_延遲申報死因檔(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "delayed death cause claim file"

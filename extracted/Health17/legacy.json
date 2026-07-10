@@ -213,7 +213,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health17 全民健保藥品主檔",
   "data_description_en": "1. Generally, one record per medicine.",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "notes_en": "1. This center's database has been de-identified, removing personally identifiable information such as names and addresses. Fields like IDNO and OVEDR_DATE have been masked, and the data can only be used within a dedicated operational area of this department and statistical results must be reviewed before being carried out to ensure that no specific individual can be identified. 2. Related information can be found on the Central Health Insurance Bureau's website → Chinese Medicine Section → Medicines.",
+  "primary_keys_en": "The drug master file (H_NHI_DRUG) is compared with the National Health Insurance prescription and treatment order details file - Western medicine, TCM, and dental outpatient (H_NHI_OPDTO), using DRUG_NO (drug code) as the key value. It is compared with the National Health Insurance prescription and treatment order details file - inpatient (H_NHI_IPDTO) using ORDER_CODE (drug code). It is compared with the National Health Insurance prescription and treatment order details file - pharmacy (H_NHI_DRUGO) using DRUG_NO (drug code).",
   "name_zh_en": "National Health Insurance Drug Master File"
 }

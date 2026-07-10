@@ -443,7 +443,7 @@
         }
       ],
       "name_zh_en": "national ID number",
-      "description_en": ""
+      "description_en": "encrypted. national identity card unified number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient length. 20 digits for 2023"
     },
     {
       "seq": 37,
@@ -619,7 +619,7 @@
       "description_zh": "乳房攝影資料清 理檔新增欄位體 重2(kg)/身高 2(m)^2 53. 資料保留 DATA_QC Char 1 乳房攝影資料清 理檔新增欄位 N:資料不符合保 留條件 Y:資料符合保留 條件 保留條件詳譯碼 簿說明",
       "available_notes": [],
       "name_zh_en": "body mass index",
-      "description_en": ""
+      "description_en": "BMI data cleaning file new field weight 2(kg)/height 2(m^2) 53. Data retention DATA_QC Char 1 Data cleaning file new field N:data does not meet retention criteria Y:data meets retention criteria Detailed explanation code book description"
     }
   ],
   "codebooks": {
@@ -669,7 +669,7 @@
         {
           "code": "9",
           "label_zh": "Diabetes without chronic 250.0-250.3,250.7 ComD9_ 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 癌症主檔之欄 位名稱",
-          "label_en": ""
+          "label_en": "Diabetes without chronic 250.0-250.3,250.7 ComD9_ Establish a health big data thematic database and integrate analysis—establish a cancer precision medicine thematic database (I) Version date:20251230 Cancer main file field names"
         },
         {
           "code": "10",
@@ -699,7 +699,7 @@
         {
           "code": "16",
           "label_zh": "AIDS 042.x-044x ComD16_AIDS (八) Definitions of comorbidities+ ICD-10-CM",
-          "label_en": ""
+          "label_en": "AIDS 042.x-044x ComD16_AIDS (eight) Definitions of comorbidities+ ICD-10-CM"
         },
         {
           "code": "2015",
@@ -754,7 +754,7 @@
         {
           "code": "7",
           "label_zh": "出生年月 BIRTH_YM Char 10 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
-          "label_en": ""
+          "label_en": "Birth year and month BIRTH_YM Char 10 Establishing a thematic database for precision oncology - version date:20251230 Breast cancer screening-mammography data cleaning file(H_BHP_BCS_DATA_CL) Sequence Chinese field name English field name Type Data description"
         },
         {
           "code": "1",
@@ -779,7 +779,7 @@
         {
           "code": "5",
           "label_zh": "體重 Q_WEIGHT Char 35 112年長度10 0：無；1：乳房 疾病史-有無得過下列疾 良性相關疾",
-          "label_en": ""
+          "label_en": "Weight Q_WEIGHT Char 35 Weight length was 10 in 2024 0: none; 1: breast disease history - had or not had the following diseases benign related diseases"
         },
         {
           "code": "6",
@@ -889,12 +889,12 @@
         {
           "code": "27",
           "label_zh": "用藥史-服用幾年(避) Q_5_MYEAR Num 8 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
-          "label_en": ""
+          "label_en": "Medication history - Years of use (avoid) Q_5_MYEAR Num 8 Establish a health big data thematic database and integrated analysis - Establish an accurate medical oncology thematic database(I) Version date: 20251230 Breast cancer screening- mammography cleaning file (H_BHP_BCS_DATA_CL) Item Chinese field name English field name Type Data description No Degree"
         },
         {
           "code": "28",
           "label_zh": "是否有感覺到異常腫塊 Q_TOUCH Char 1 詳譯碼說明 其他-最近二年內是否做 1：有；Null：",
-          "label_en": ""
+          "label_en": "have you felt any abnormal lumps Q_TOUCH Char 1 detailed code explanation other-whether done in the past two years 1: yes; Null:"
         },
         {
           "code": "29",
@@ -929,12 +929,12 @@
         {
           "code": "35",
           "label_zh": "其他-乳房手術右側 Q_SURGERYRIGHT Char 1 0：無；1：有 經加密處理。國 民身分證統一 編號，或外籍居 留證號碼（如無",
-          "label_en": ""
+          "label_en": "other-breast surgery right side Q_SURGERYRIGHT Char 1 0：無；1：有 encrypted national identification number or foreign resident permit number (if none"
         },
         {
           "code": "36",
           "label_zh": "身分證字號 SICKID Char 24 居留證號碼請 填護照號碼）， 左靠不足補空 白。 112年長度為20 經加密處理，為",
-          "label_en": ""
+          "label_en": "Identity card number SICKID Char 24 Residency permit number please fill in passport number)， left-aligned with spaces补足。2011年长度为20经加密处理，为"
         },
         {
           "code": "37",
@@ -979,7 +979,7 @@
         {
           "code": "45",
           "label_zh": "乳攝結果4的次選項 PH_RESULT4 Char 1 詳譯碼說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度 1：男；2：女；",
-          "label_en": ""
+          "label_en": "PH_RESULT4 Char 1 詳譯碼說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 Breast cancer screening- mammography data cleaning file (H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度 1：male；2：female"
         },
         {
           "code": "46",
@@ -989,7 +989,7 @@
         {
           "code": "47",
           "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 符合編碼原 則；1：不符合 PH_HOSPITALID_H 代碼參照醫療",
-          "label_en": ""
+          "label_en": "SICKID_ROC character 1符合编码原则；1：不符合 PH_HOSPITALID_H code reference medical"
         },
         {
           "code": "48",
@@ -1064,7 +1064,7 @@
         {
           "code": "9",
           "label_zh": "醫療機構縣市鄉鎮市區代碼 UNIT_ID_CITY Char 4 代碼參照死因統 計檔。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (三)、欄位(變項)譯碼",
-          "label_en": ""
+          "label_en": "Medical institution county city town district code UNIT_ID_CITY Char 4 Code referenced from cause of death statistics file. Establishing a health big data thematic database and integrated analysis—establishing an accurate medical cancer thematic database (I) Version date: 20251230 (Wed), Field (Variable) Coding"
         }
       ],
       "field_en": "date of diagnosis"
@@ -1199,17 +1199,17 @@
         {
           "code": "1",
           "label_zh": "傳統乳房攝影儀(105/5/1 移除) 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": ""
+          "label_en": "conventional mammography apparatus (removed on 5/1/2006) establishing health big data thematic database and integration analysis—establishing cancer precision medicine thematic database (I) version date: 20251230"
         },
         {
           "code": "2",
           "label_zh": "數位乳房攝影儀(CR) →CR 乳 房 X 光 攝 影 儀 (Computed Radiography, CR) (105/5/1 修改)",
-          "label_en": ""
+          "label_en": "Digital mammography system (CR) → Computed Radiography (CR) breast X-ray imaging (1/5/2016 revision)"
         },
         {
           "code": "3",
           "label_zh": "數位乳房攝影儀(DR) →DR 乳房X光攝影儀(Digital Radiography, DR) (105/5/1 修改)",
-          "label_en": ""
+          "label_en": "Digital mammography machine (DR) → Digital Radiography (DR) (105/5/1 modification)"
         },
         {
           "code": "4",
@@ -1328,7 +1328,7 @@
         {
           "code": "5",
           "label_zh": "高度疑似為惡性腫瘤必須採取適當的措施 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": ""
+          "label_en": "Highly疑似为恶性肿瘤必须采取适当的措施建立健康大数据主题式数据库及整合分析─建立癌症精准医疗主题式数据库(I) 版本日期：20251230"
         }
       ],
       "field_en": "mammography"
@@ -1385,7 +1385,7 @@
         {
           "code": "4",
           "label_zh": "診所 其他代碼 不詳 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": ""
+          "label_en": "clinic other codes not specified establishing health big data thematic database and integrated analysis - establishing precision medical thematic database for cancer (I) version date: 20251230"
         }
       ],
       "field_en": "hospital grade"
@@ -1551,7 +1551,7 @@
         {
           "code": "0320",
           "label_zh": "台中市大里區 0521 台南市安定區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": ""
+          "label_en": "Taichung City Dali District 0521 Tainan City Zaning District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
           "code": "0522",
@@ -1726,7 +1726,7 @@
         {
           "code": "0719",
           "label_zh": "高雄市彌陀區 3102 新北市三重區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": ""
+          "label_en": "Kaohsiung City Mido District 3102 New Taipei City Sanzhong District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
           "code": "3103",
@@ -1901,7 +1901,7 @@
         {
           "code": "3208",
           "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": ""
+          "label_en": "Taoyuan City Bade District 3505 Miaoli County Toufen Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
           "code": "3506",
@@ -2076,7 +2076,7 @@
         {
           "code": "3722",
           "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": ""
+          "label_en": "Changhua County Pitou Town 3917 Yunlin County Yuanzhong Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
           "code": "3918",
@@ -2251,7 +2251,7 @@
         {
           "code": "4314",
           "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": ""
+          "label_en": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱"
         },
         {
           "code": "4506",
@@ -2426,7 +2426,7 @@
         {
           "code": "9105",
           "label_zh": "連江縣莒光鄉2 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": ""
+          "label_en": "New Health Data Subject Database and Integration Analysis - Establish Cancer Precision Medicine Subject Database (I) Version Date: 20251230"
         }
       ],
       "field_en": "residence code"
@@ -2447,7 +2447,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-12-30",
   "name_zh_from_listing": "Health83_乳癌主題式資料庫",
-  "data_description_en": "",
+  "data_description_en": "Breast cancer theme database includes all information from the 15 data files combined including the breast cancer registration file (including Long Form LF, Short Form SF and TCDB), NHI claims file, death cause statistics merged file, and breast cancer screening-cleaning file for the years 1979-2022.\nDefinition of breast cancer cases:\nBreast cancer cases are defined as those recorded in the cancer registration annual report files (H_BHP_CRSSC) from 1979 to 2022.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "Breast cancer theme database"

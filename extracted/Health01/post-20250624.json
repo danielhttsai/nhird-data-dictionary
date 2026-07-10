@@ -94,7 +94,7 @@
       "description_zh": "空白表示無所列舉之內容，慢性病 連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM1~CURE_ITEM4） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "specific-treatment-item-code-one",
-      "description_en": ""
+      "description_en": "blank indicates no information, chronic disease continuous prescription dispensing this column is exempt from filling. See translation code explanation for details"
     },
     {
       "seq": 8,
@@ -182,7 +182,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": ""
+      "description_en": "Prior to 92nd year (inclusive), 2 digits; from 93rd year onwards, 4 digits, see field healthcare card visit sequence number (FUNC_SEQ_NO) coding explanation"
     },
     {
       "seq": 15,
@@ -255,7 +255,7 @@
         }
       ],
       "name_zh_en": "International Classification of Diseases Code 1",
-      "description_en": ""
+      "description_en": "Left-justified to fill gaps, see field International Classification of Diseases codes (ICD9CM_CODE~ ICD9CM_CODE2) translation notes: Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
     },
     {
       "seq": 20,
@@ -294,7 +294,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": ""
+      "description_en": "Left padding with ICD-9-PCS Primary Procedure Code; Preventive Health, Chronic Disease Follow-up Prescription and Traditional Chinese Medicine Not Required to Fill Notes: Starting from 105th year, medical institutions are required to report using ICD-10-PCS."
     },
     {
       "seq": 23,
@@ -305,7 +305,7 @@
       "description_zh": "本次口服藥給藥日份最高之天 數：除單次給藥為「非口服藥」外， 餘請填「口服藥」之最高給藥日份 （89.6）。慢性病連續處方調劑, 請依連續處方箋上所列 填寫；預防保健本欄為非必要欄",
       "available_notes": [],
       "name_zh_en": "dosage date",
-      "description_en": ""
+      "description_en": "Maximum number of days for oral medication administration during this episode: Except for single-dose administration, which is 'non-orally administered drug', please fill in the maximum number of days for oral medication (89.6). For chronic diseases under continuous prescription refills, please fill according to the list on the continuous prescription; preventive health care is not a required field."
     },
     {
       "seq": 24,
@@ -338,7 +338,7 @@
         }
       ],
       "name_zh_en": "secondary surgery code",
-      "description_en": ""
+      "description_en": "Left靠足補空白，ICD-9-PCS 的 主手术代码；预防保健、慢性病续处方调剂及中医本免填 注： 1. 卫生署规定医疗机构自2016年起以ICD-10-PCS 申报。 2. 自1992年起新增此字段"
     },
     {
       "seq": 26,
@@ -371,7 +371,7 @@
       "description_zh": "此項費用為OPDTO檔之醫令類別 為1之用藥明細點數之小計，如為 交付調劑之藥品費用，不得併入用 藥明細點數小計內計算；西醫一般 案件及中醫請依給藥日份計算用 藥申報點數",
       "available_notes": [],
       "name_zh_en": "medication detail points total",
-      "description_en": ""
+      "description_en": "This fee is the subtotal of OPDTO file drug detail points for category 1, which can be combined with the total drug detail points if it's a delivered medication; calculate based on dispensing days for general medical cases and traditional Chinese medicine cases."
     },
     {
       "seq": 29,
@@ -382,7 +382,7 @@
       "description_zh": "此項點數為OPDTO檔之除用藥之 外（醫令類別為2或3），各項診 療及特殊材料明細點數之小計；慢 性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of consultation fee subtotal",
-      "description_en": ""
+      "description_en": "This point value is the subtotal of each diagnostic and special material detail points for those with medical service classification code as 2 or 3, excluding medication; continuous prescription refills for chronic diseases should not be filled."
     },
     {
       "seq": 30,
@@ -404,7 +404,7 @@
       "description_zh": "診察費點數。預防保健、洗腎、慢 性病連續處方調劑本欄免填，請補 0。 詳見欄位診察點數（DIAG_DOT） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "visit points",
-      "description_en": ""
+      "description_en": "Consultation fee points. Preventive healthcare, dialysis, chronic disease续处方调剂本 exempt filling, please fill in 0. See detail in the DIAG_DOT编码说明."
     },
     {
       "seq": 32,
@@ -426,7 +426,7 @@
       "description_zh": "藥事服務費點數，洗腎本欄補0。 本欄為加總「OPDTO檔」「醫令 類別」欄位代碼「9：藥事服務費」 之項次「點數」。 詳見欄位藥事服務點數 （DSVC_DOT）譯碼說明",
       "available_notes": [],
       "name_zh_en": "pharmacy service points",
-      "description_en": ""
+      "description_en": "Pharmaceutical service fee points. For dialysis, add 0 here. This column is the sum of 'OPDTO file' and 'Medical Order Category' field code '9: Pharmaceutical Service Fee'. See explanation in the translation of pharmaceutical service point (DSVC_DOT) codes."
     },
     {
       "seq": 34,
@@ -437,7 +437,7 @@
       "description_zh": "此項點數含部分負擔金額，如為交 付調劑之藥品點數，不得併入合計 點數內計算。本欄為「用藥明細點 數小計」、「診療明細點數小計」、 「診察點數」、「藥事服務點數」 之合計",
       "available_notes": [],
       "name_zh_en": "total points",
-      "description_en": ""
+      "description_en": "This point value includes copayment amount; if for a dispensed drug, it shall not be included in the total point calculation. This column is the sum of 'Medication Detail Point Total', 'Diagnosis Detail Point Total', 'Consultation Points', and 'Pharmaceutical Service Points'."
     },
     {
       "seq": 35,
@@ -459,7 +459,7 @@
       "description_zh": "1.若為0者，請填0 2.本項費用不含部分負擔金額， 即合計點數-部分負擔金額。 3.論病例計酬案件則以定額支付點 數扣除【部分負擔點數及醫令類別 D:被替代之健保給付特材項目】合 計點數。",
       "available_notes": [],
       "name_zh_en": "application points",
-      "description_en": ""
+      "description_en": "1. If it is 0, please fill in 0; 2. The cost of this item does not include copayment amount, i.e., total points - copayment amount.; 3. For case-based payment cases, deduct the total points【copayment points and medical order category D: items replaced by health insurance】from the total points."
     },
     {
       "seq": 37,
@@ -498,7 +498,7 @@
         }
       ],
       "name_zh_en": "non-admitting-hospital-code",
-      "description_en": ""
+      "description_en": "N: non-referral cases plan code: specific treatment item code G9 Mountainous and island regions medical payment benefit enhancement plan. Blank: referral cases, please refer to the transferring hospital's institution code Note: this field was added starting from 1992"
     },
     {
       "seq": 40,
@@ -526,7 +526,7 @@
       "description_zh": "以就醫日期及生日計算。 「0-14天」、「15-28 天」、「29 天-未滿一歲」、1歲、2歲、…、 84歲、85歲以上",
       "available_notes": [],
       "name_zh_en": "age at first medical visit",
-      "description_en": ""
+      "description_en": "Calculated by visit date and birthdate. '0-14 days', '15-28 days', '29 days-under 1 year', 1 year, 2 years, ..., 84 years, 85 years and above"
     },
     {
       "seq": 42,
@@ -783,7 +783,7 @@
         {
           "code": "D2",
           "label_zh": "兒童常規疫苗、流感疫苗、75 歲以上長者肺炎鏈球菌疫苗接種、COVID-19 檢驗 費(110/6修訂)",
-          "label_en": ""
+          "label_en": "routine childhood vaccines, influenza vaccine, pneumococcal vaccine for individuals aged 75 and above, COVID-19 test fee (revised in 110/6)"
         },
         {
           "code": "D4",
@@ -808,7 +808,7 @@
         {
           "code": "E3",
           "label_zh": "愛滋病確診服藥滿 2 年後案件之慢性病連續處方再調劑(106.2.4 增訂) 2026年01月27日修訂 代辦流感病毒抗原快速篩檢（98/8/1-98/8/31 ） 新型流感(98/9/1-99/11/30)",
-          "label_en": ""
+          "label_en": "AIDS confirmed medication for chronic disease after 2 years of treatment (added on Feb 4, 2016) Revised on January 27, 2026 Proxy administration of influenza virus antigen rapid test (Aug 1-31, 1998) New influenza (Sep 1, 1998 - Nov 30, 1999)"
         },
         {
           "code": "M1",
@@ -848,7 +848,7 @@
         {
           "code": "17",
           "label_zh": "全民健康保險牙醫門診總額牙醫急診醫療不足區獎勵試辦計畫(109033 健 保醫字第 1090004037 號函)",
-          "label_en": ""
+          "label_en": "National Health Insurance Dental Outpatient Total Amount Dental Emergency Medical Insufficiency Reward Pilot Program (109033 Bao Jian Yi Zhi 1090004037 Letter)"
         },
         {
           "code": "19",
@@ -979,7 +979,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循 腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消 慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": ""
+          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
         },
         {
           "code": "27",
@@ -1459,7 +1459,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 牙醫醫療團支援治療精神疾病中度 複合樹脂 以上 （玻璃璃子）充填 FG 院所服務--極重度 牙周病手術 FH 院所服務--重度 （含齒齦下刮除術） FI 院所服務--中度",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental medical team support treatment for moderate mental disorder Composite resin (glass ionomer) filling FG Institutional services—severe Periodontal disease surgery FH Institutional services—moderate (including subgingival curettage)"
         },
         {
           "code": "P5",
@@ -1469,7 +1469,7 @@
         {
           "code": "P6",
           "label_zh": "高壓氧治療 FK 醫療團服務--極重度 口腔外科門診手術 FL 醫療團服務--重度 （包括拔牙） FM 醫療團服務--中度",
-          "label_en": ""
+          "label_en": "hyperbaric oxygen therapy FK medical team service--extremely severe FL medical team service--severe (including tooth extraction) FM medical team service--moderate"
         },
         {
           "code": "P8",
@@ -1494,47 +1494,47 @@
         {
           "code": "L3",
           "label_zh": "療服務計畫-特定需求者服務-失能 損傷之中度肢體障礙 (110/1/1起) 老人(104.01.01新增) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫 療服務計畫-社區醫療站服務-腦傷及",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - specific needs services - moderate physical impairment due to disability (effective since 1/1/110), elderly (added on 1/1/104) Dental outpatient total amount special medical service plan - community medical station service - brain injury and"
         },
         {
           "code": "L4",
           "label_zh": "療服務計畫-到宅醫療服務-中度 脊髓損傷之中度肢體障礙 (106.01.01新增) (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Special service plan - home-based medical services - moderate spinal cord injury with moderate physical disability (Added on January 1, 2016; Effective from 1/1/2021) Total cost of community dental outpatient for National Health Insurance Special Dental Outpatient Total Cost"
         },
         {
           "code": "L5",
           "label_zh": "療服務計畫-社區醫療站服務非精神 療服務計畫-居家牙醫醫療服務-腦傷 疾病者-極重度(107.01.01新增) 及脊髓損傷之中度肢體障礙 全民健康保險牙醫門診總額特殊醫 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Community medical station service non-psychiatric therapy service plan - home dental care services - brain injury diseases - severely disabled and spinal cord injuries - moderate limb impairment (added on January 1, 2017) under the total amount of general health insurance dental outpatient special medical (effective from January 1, 2021)"
         },
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試 疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額12歲至",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫 疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失 疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失 病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉 病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉 緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
         },
         {
           "code": "LC",
@@ -1574,7 +1574,7 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取 消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": ""
+          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
         },
         {
           "code": "CA",
@@ -1584,7 +1584,7 @@
         {
           "code": "JE",
           "label_zh": "JT (105.02.01新增) 照護整合方案-胃癌(112/1增訂) 肝癌患者中醫門診加強照護醫療 全民健康保險中醫癌症患者加強 (105.02.01新增) JU 照護整合方案-攝護腺癌(112/1增",
-          "label_en": ""
+          "label_en": "JT (105.02.01新增) Care integration plan - Gastric cancer (112/1增訂) Enhanced traditional Chinese medicine outpatient care for liver cancer patients National Health Insurance Traditional Chinese Medicine Cancer Patients Strengthened Care (105.02.01新增) JU Care integration plan - Prostate cancer (112/1起)"
         },
         {
           "code": "JG",
@@ -1594,62 +1594,62 @@
         {
           "code": "JH",
           "label_zh": "診延長照護試辦計畫(106.05.01 新 JY 照護整合方案-口腔癌(112/1增 增) 訂) 肺癌中醫門診加強 照護計畫 中醫醫療資源不足地區巡迴到宅",
-          "label_en": ""
+          "label_en": "Extended long-term care pilot program (Effective May 1, 2016 - New JY Care Integration Plan for Oral Cancer [Added in 2023] 中医门诊加强照护计划 中医医疗资源不足地区巡回到宅)"
         },
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他 中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴 增) AB 人類免疫缺乏病毒感染 中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": ""
+          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
         },
         {
           "code": "JL",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件 中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診 中醫-經保險人認定確有一次領取 案件(99.1修訂)",
-          "label_en": ""
+          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
         },
         {
           "code": "JN",
           "label_zh": "該處方箋總用藥量必要之特殊病 E3 結核病試辦計畫（97.1取消） 人(107.04.27新增) 以共同照護模式為基礎的糖尿病 中醫-嚴重特殊傳染性肺炎疫情期 人疾病管理實驗計畫 間，經醫師評估慢性病病情穩定， 全民健康保險週產期論人支付制",
-          "label_en": ""
+          "label_en": "Prescription for necessary special disease E3 tuberculosis trial plan (cancelled in 97.1) person (added on 107.04.27) based on integrated care model for diabetes traditional Chinese medicine-severe novel coronavirus pneumonia epidemic period person disease management experiment during which a physician assessed stable chronic condition, National Health Insurance weekly payment system"
         },
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次 度試辦計畫 領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實 全民健康保險中醫慢性腎臟病門 施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改 呼吸困難西醫住院病患中醫輔助 善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護 支援長期照護機構提供復健治療 機構中醫醫療照護方案 案件(99.1增訂) 2026年01月27日修訂 全民健康保險初期慢性腎臟病醫 整合照護執行方案 療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合 衛生福利部緊急醫療資源缺乏地",
-          "label_en": ""
+          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案 醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": ""
+          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
         },
         {
           "code": "ED",
           "label_zh": "G5 (104.10.01增訂) 療 COVID-19(武漢肺炎)疫情期間居 西醫基層醫療資源不足地區改善方",
-          "label_en": ""
+          "label_en": "G5 (Amended on 10/1/2024 for COVID-19 pandemic period, improvement measures in areas with insufficient Western medical primary care resources)"
         },
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療 案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居 已開業",
-          "label_en": ""
+          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
         },
         {
           "code": "EF",
           "label_zh": "家隔離或檢疫者之居家醫療 家庭醫師整合性照護計畫 (109/3/31起 ) (92.3.10增訂) 慢性傳染病照護品質計畫-潛伏結 全民健康保險山地離島地區醫療",
-          "label_en": ""
+          "label_en": "home medical care or quarantine者's home-based medical service integrated primary care plan (effective since 3/31/2020) (amended on 3/10/1992) chronic infectious disease quality care plan - latent tuberculosis"
         },
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫 給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援 慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": ""
+          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫 西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務 慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": ""
+          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
         },
         {
           "code": "EJ",
@@ -1659,7 +1659,7 @@
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業 示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": ""
+          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
         },
         {
           "code": "F7",
@@ -1704,12 +1704,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新 收容對象醫療服務計畫-戒護門診 增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教 罕見疾病病人，提供切結文件，一 K1",
-          "label_en": ""
+          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件 成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": ""
+          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
         },
         {
           "code": "C",
@@ -1719,17 +1719,17 @@
         {
           "code": "HE",
           "label_zh": "鼓勵院所加強推動腹膜透析與提 增) K3 升及照護品質計畫(112/7/4新增) 慢性阻塞性肺病醫療給付改善方",
-          "label_en": ""
+          "label_en": "Encourage institutions to strengthen promotion of peritoneal dialysis and improve quality care plans (added on 2023/7/4) Chronic obstructive pulmonary disease medical payment improvement measures"
         },
         {
           "code": "HF",
           "label_zh": "代號為E4、E5、E6、E8、EB、N（新個案）、 案(106.04.01新增) C（完成個案）、R（復發個案）、H1、H7、HE、 西醫-受監護或輔助宣告，經受託 HF者，案件分類為E1。",
-          "label_en": ""
+          "label_en": "Codes E4, E5, E6, E8, EB, N (new cases) (added on 106.04.01), C (completed cases), R (recurrence cases), H1, H7, HE, Western medicine - under guardianship or judicial assistance, entrusted to HF, are classified as E1."
         },
         {
           "code": "HG",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 代號為G5、G6者，案件分類為D4或E1。 (107.06.01新增) 代號為G4、G8、G9者，依所屬之案件分類 西醫-經醫師認定之失智症病人",
-          "label_en": ""
+          "label_en": "Providing court ruling copies with code G5, G6, categorized as D4 or E1. Codes G4, G8, G9 follow the category of their respective case. Western medicine - dementia patients certified by a physician."
         },
         {
           "code": "HH",
@@ -1764,12 +1764,12 @@
         {
           "code": "5",
           "label_zh": "足地區改善方案+家醫整合計G5、G6 G8 畫 西醫基層(醫院支援)醫療資源不E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "Foot region improvement plan + family medicine integration G5, G6, G8 painting Western medical grassroots (hospital support) medical resources not E4~E8, EC,"
         },
         {
           "code": "6",
           "label_zh": "足地區改善方案+醫療給付改ED、HF、N、C、G5、G6 E1 善方案 R 醫療給付改善方案+全民健康E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "足地区改善方案+医疗给付改革ED、HF、N、C、G5、G6 E1 善方案 R 医疗给付改善方案+全民健康E4~E8 、 EC ，"
         },
         {
           "code": "7",
@@ -1784,7 +1784,7 @@
         {
           "code": "9",
           "label_zh": "C6、C7 25 區改善方案 牙醫門診總額醫療資源不足地F2 F3 14 區改善方案 F3 14 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "C6, C7 25 Area Improvement Plan Dental Outpatient Total Medical Resource Insufficiency F2 F3 14 Area Improvement Plan F3 14 Revised on January 27, 2026"
         }
       ],
       "field_en": "specific treatment item code"
@@ -1795,7 +1795,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循 腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消 慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": ""
+          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
         },
         {
           "code": "27",
@@ -2275,7 +2275,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 牙醫醫療團支援治療精神疾病中度 複合樹脂 以上 （玻璃璃子）充填 FG 院所服務--極重度 牙周病手術 FH 院所服務--重度 （含齒齦下刮除術） FI 院所服務--中度",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental medical team support treatment for moderate mental disorder Composite resin (glass ionomer) filling FG Institutional services—severe Periodontal disease surgery FH Institutional services—moderate (including subgingival curettage)"
         },
         {
           "code": "P5",
@@ -2285,7 +2285,7 @@
         {
           "code": "P6",
           "label_zh": "高壓氧治療 FK 醫療團服務--極重度 口腔外科門診手術 FL 醫療團服務--重度 （包括拔牙） FM 醫療團服務--中度",
-          "label_en": ""
+          "label_en": "hyperbaric oxygen therapy FK medical team service--extremely severe FL medical team service--severe (including tooth extraction) FM medical team service--moderate"
         },
         {
           "code": "P8",
@@ -2310,47 +2310,47 @@
         {
           "code": "L3",
           "label_zh": "療服務計畫-特定需求者服務-失能 損傷之中度肢體障礙 (110/1/1起) 老人(104.01.01新增) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫 療服務計畫-社區醫療站服務-腦傷及",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - specific needs services - moderate physical impairment due to disability (effective since 1/1/110), elderly (added on 1/1/104) Dental outpatient total amount special medical service plan - community medical station service - brain injury and"
         },
         {
           "code": "L4",
           "label_zh": "療服務計畫-到宅醫療服務-中度 脊髓損傷之中度肢體障礙 (106.01.01新增) (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Special service plan - home-based medical services - moderate spinal cord injury with moderate physical disability (Added on January 1, 2016; Effective from 1/1/2021) Total cost of community dental outpatient for National Health Insurance Special Dental Outpatient Total Cost"
         },
         {
           "code": "L5",
           "label_zh": "療服務計畫-社區醫療站服務非精神 療服務計畫-居家牙醫醫療服務-腦傷 疾病者-極重度(107.01.01新增) 及脊髓損傷之中度肢體障礙 全民健康保險牙醫門診總額特殊醫 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Community medical station service non-psychiatric therapy service plan - home dental care services - brain injury diseases - severely disabled and spinal cord injuries - moderate limb impairment (added on January 1, 2017) under the total amount of general health insurance dental outpatient special medical (effective from January 1, 2021)"
         },
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試 疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額12歲至",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫 疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失 疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失 病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉 病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉 緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
         },
         {
           "code": "LC",
@@ -2390,7 +2390,7 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取 消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": ""
+          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
         },
         {
           "code": "CA",
@@ -2400,7 +2400,7 @@
         {
           "code": "JE",
           "label_zh": "JT (105.02.01新增) 照護整合方案-胃癌(112/1增訂) 肝癌患者中醫門診加強照護醫療 全民健康保險中醫癌症患者加強 (105.02.01新增) JU 照護整合方案-攝護腺癌(112/1增",
-          "label_en": ""
+          "label_en": "JT (105.02.01新增) Care integration plan - Gastric cancer (112/1增訂) Enhanced traditional Chinese medicine outpatient care for liver cancer patients National Health Insurance Traditional Chinese Medicine Cancer Patients Strengthened Care (105.02.01新增) JU Care integration plan - Prostate cancer (112/1起)"
         },
         {
           "code": "JG",
@@ -2410,62 +2410,62 @@
         {
           "code": "JH",
           "label_zh": "診延長照護試辦計畫(106.05.01 新 JY 照護整合方案-口腔癌(112/1增 增) 訂) 肺癌中醫門診加強 照護計畫 中醫醫療資源不足地區巡迴到宅",
-          "label_en": ""
+          "label_en": "Extended long-term care pilot program (Effective May 1, 2016 - New JY Care Integration Plan for Oral Cancer [Added in 2023] 中医门诊加强照护计划 中医医疗资源不足地区巡回到宅)"
         },
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他 中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴 增) AB 人類免疫缺乏病毒感染 中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": ""
+          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
         },
         {
           "code": "JL",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件 中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診 中醫-經保險人認定確有一次領取 案件(99.1修訂)",
-          "label_en": ""
+          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
         },
         {
           "code": "JN",
           "label_zh": "該處方箋總用藥量必要之特殊病 E3 結核病試辦計畫（97.1取消） 人(107.04.27新增) 以共同照護模式為基礎的糖尿病 中醫-嚴重特殊傳染性肺炎疫情期 人疾病管理實驗計畫 間，經醫師評估慢性病病情穩定， 全民健康保險週產期論人支付制",
-          "label_en": ""
+          "label_en": "Prescription for necessary special disease E3 tuberculosis trial plan (cancelled in 97.1) person (added on 107.04.27) based on integrated care model for diabetes traditional Chinese medicine-severe novel coronavirus pneumonia epidemic period person disease management experiment during which a physician assessed stable chronic condition, National Health Insurance weekly payment system"
         },
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次 度試辦計畫 領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實 全民健康保險中醫慢性腎臟病門 施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改 呼吸困難西醫住院病患中醫輔助 善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護 支援長期照護機構提供復健治療 機構中醫醫療照護方案 案件(99.1增訂) 2026年01月27日修訂 全民健康保險初期慢性腎臟病醫 整合照護執行方案 療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合 衛生福利部緊急醫療資源缺乏地",
-          "label_en": ""
+          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案 醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": ""
+          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
         },
         {
           "code": "ED",
           "label_zh": "G5 (104.10.01增訂) 療 COVID-19(武漢肺炎)疫情期間居 西醫基層醫療資源不足地區改善方",
-          "label_en": ""
+          "label_en": "G5 (Amended on 10/1/2024 for COVID-19 pandemic period, improvement measures in areas with insufficient Western medical primary care resources)"
         },
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療 案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居 已開業",
-          "label_en": ""
+          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
         },
         {
           "code": "EF",
           "label_zh": "家隔離或檢疫者之居家醫療 家庭醫師整合性照護計畫 (109/3/31起 ) (92.3.10增訂) 慢性傳染病照護品質計畫-潛伏結 全民健康保險山地離島地區醫療",
-          "label_en": ""
+          "label_en": "home medical care or quarantine者's home-based medical service integrated primary care plan (effective since 3/31/2020) (amended on 3/10/1992) chronic infectious disease quality care plan - latent tuberculosis"
         },
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫 給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援 慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": ""
+          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫 西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務 慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": ""
+          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
         },
         {
           "code": "EJ",
@@ -2475,7 +2475,7 @@
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業 示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": ""
+          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
         },
         {
           "code": "F7",
@@ -2520,12 +2520,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新 收容對象醫療服務計畫-戒護門診 增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教 罕見疾病病人，提供切結文件，一 K1",
-          "label_en": ""
+          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件 成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": ""
+          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
         },
         {
           "code": "C",
@@ -2535,17 +2535,17 @@
         {
           "code": "HE",
           "label_zh": "鼓勵院所加強推動腹膜透析與提 增) K3 升及照護品質計畫(112/7/4新增) 慢性阻塞性肺病醫療給付改善方",
-          "label_en": ""
+          "label_en": "Encourage institutions to strengthen promotion of peritoneal dialysis and improve quality care plans (added on 2023/7/4) Chronic obstructive pulmonary disease medical payment improvement measures"
         },
         {
           "code": "HF",
           "label_zh": "代號為E4、E5、E6、E8、EB、N（新個案）、 案(106.04.01新增) C（完成個案）、R（復發個案）、H1、H7、HE、 西醫-受監護或輔助宣告，經受託 HF者，案件分類為E1。",
-          "label_en": ""
+          "label_en": "Codes E4, E5, E6, E8, EB, N (new cases) (added on 106.04.01), C (completed cases), R (recurrence cases), H1, H7, HE, Western medicine - under guardianship or judicial assistance, entrusted to HF, are classified as E1."
         },
         {
           "code": "HG",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 代號為G5、G6者，案件分類為D4或E1。 (107.06.01新增) 代號為G4、G8、G9者，依所屬之案件分類 西醫-經醫師認定之失智症病人",
-          "label_en": ""
+          "label_en": "Providing court ruling copies with code G5, G6, categorized as D4 or E1. Codes G4, G8, G9 follow the category of their respective case. Western medicine - dementia patients certified by a physician."
         },
         {
           "code": "HH",
@@ -2580,12 +2580,12 @@
         {
           "code": "5",
           "label_zh": "足地區改善方案+家醫整合計G5、G6 G8 畫 西醫基層(醫院支援)醫療資源不E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "Foot region improvement plan + family medicine integration G5, G6, G8 painting Western medical grassroots (hospital support) medical resources not E4~E8, EC,"
         },
         {
           "code": "6",
           "label_zh": "足地區改善方案+醫療給付改ED、HF、N、C、G5、G6 E1 善方案 R 醫療給付改善方案+全民健康E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "足地区改善方案+医疗给付改革ED、HF、N、C、G5、G6 E1 善方案 R 医疗给付改善方案+全民健康E4~E8 、 EC ，"
         },
         {
           "code": "7",
@@ -2600,7 +2600,7 @@
         {
           "code": "9",
           "label_zh": "C6、C7 25 區改善方案 牙醫門診總額醫療資源不足地F2 F3 14 區改善方案 F3 14 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "C6, C7 25 Area Improvement Plan Dental Outpatient Total Medical Resource Insufficiency F2 F3 14 Area Improvement Plan F3 14 Revised on January 27, 2026"
         }
       ],
       "field_en": "specific treatment item code"
@@ -2611,7 +2611,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循 腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消 慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": ""
+          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
         },
         {
           "code": "27",
@@ -3091,7 +3091,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 牙醫醫療團支援治療精神疾病中度 複合樹脂 以上 （玻璃璃子）充填 FG 院所服務--極重度 牙周病手術 FH 院所服務--重度 （含齒齦下刮除術） FI 院所服務--中度",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental medical team support treatment for moderate mental disorder Composite resin (glass ionomer) filling FG Institutional services—severe Periodontal disease surgery FH Institutional services—moderate (including subgingival curettage)"
         },
         {
           "code": "P5",
@@ -3101,7 +3101,7 @@
         {
           "code": "P6",
           "label_zh": "高壓氧治療 FK 醫療團服務--極重度 口腔外科門診手術 FL 醫療團服務--重度 （包括拔牙） FM 醫療團服務--中度",
-          "label_en": ""
+          "label_en": "hyperbaric oxygen therapy FK medical team service--extremely severe FL medical team service--severe (including tooth extraction) FM medical team service--moderate"
         },
         {
           "code": "P8",
@@ -3126,47 +3126,47 @@
         {
           "code": "L3",
           "label_zh": "療服務計畫-特定需求者服務-失能 損傷之中度肢體障礙 (110/1/1起) 老人(104.01.01新增) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫 療服務計畫-社區醫療站服務-腦傷及",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - specific needs services - moderate physical impairment due to disability (effective since 1/1/110), elderly (added on 1/1/104) Dental outpatient total amount special medical service plan - community medical station service - brain injury and"
         },
         {
           "code": "L4",
           "label_zh": "療服務計畫-到宅醫療服務-中度 脊髓損傷之中度肢體障礙 (106.01.01新增) (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Special service plan - home-based medical services - moderate spinal cord injury with moderate physical disability (Added on January 1, 2016; Effective from 1/1/2021) Total cost of community dental outpatient for National Health Insurance Special Dental Outpatient Total Cost"
         },
         {
           "code": "L5",
           "label_zh": "療服務計畫-社區醫療站服務非精神 療服務計畫-居家牙醫醫療服務-腦傷 疾病者-極重度(107.01.01新增) 及脊髓損傷之中度肢體障礙 全民健康保險牙醫門診總額特殊醫 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Community medical station service non-psychiatric therapy service plan - home dental care services - brain injury diseases - severely disabled and spinal cord injuries - moderate limb impairment (added on January 1, 2017) under the total amount of general health insurance dental outpatient special medical (effective from January 1, 2021)"
         },
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試 疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額12歲至",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫 疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失 疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失 病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉 病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉 緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
         },
         {
           "code": "LC",
@@ -3206,7 +3206,7 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取 消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": ""
+          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
         },
         {
           "code": "CA",
@@ -3216,7 +3216,7 @@
         {
           "code": "JE",
           "label_zh": "JT (105.02.01新增) 照護整合方案-胃癌(112/1增訂) 肝癌患者中醫門診加強照護醫療 全民健康保險中醫癌症患者加強 (105.02.01新增) JU 照護整合方案-攝護腺癌(112/1增",
-          "label_en": ""
+          "label_en": "JT (105.02.01新增) Care integration plan - Gastric cancer (112/1增訂) Enhanced traditional Chinese medicine outpatient care for liver cancer patients National Health Insurance Traditional Chinese Medicine Cancer Patients Strengthened Care (105.02.01新增) JU Care integration plan - Prostate cancer (112/1起)"
         },
         {
           "code": "JG",
@@ -3226,62 +3226,62 @@
         {
           "code": "JH",
           "label_zh": "診延長照護試辦計畫(106.05.01 新 JY 照護整合方案-口腔癌(112/1增 增) 訂) 肺癌中醫門診加強 照護計畫 中醫醫療資源不足地區巡迴到宅",
-          "label_en": ""
+          "label_en": "Extended long-term care pilot program (Effective May 1, 2016 - New JY Care Integration Plan for Oral Cancer [Added in 2023] 中医门诊加强照护计划 中医医疗资源不足地区巡回到宅)"
         },
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他 中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴 增) AB 人類免疫缺乏病毒感染 中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": ""
+          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
         },
         {
           "code": "JL",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件 中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診 中醫-經保險人認定確有一次領取 案件(99.1修訂)",
-          "label_en": ""
+          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
         },
         {
           "code": "JN",
           "label_zh": "該處方箋總用藥量必要之特殊病 E3 結核病試辦計畫（97.1取消） 人(107.04.27新增) 以共同照護模式為基礎的糖尿病 中醫-嚴重特殊傳染性肺炎疫情期 人疾病管理實驗計畫 間，經醫師評估慢性病病情穩定， 全民健康保險週產期論人支付制",
-          "label_en": ""
+          "label_en": "Prescription for necessary special disease E3 tuberculosis trial plan (cancelled in 97.1) person (added on 107.04.27) based on integrated care model for diabetes traditional Chinese medicine-severe novel coronavirus pneumonia epidemic period person disease management experiment during which a physician assessed stable chronic condition, National Health Insurance weekly payment system"
         },
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次 度試辦計畫 領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實 全民健康保險中醫慢性腎臟病門 施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改 呼吸困難西醫住院病患中醫輔助 善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護 支援長期照護機構提供復健治療 機構中醫醫療照護方案 案件(99.1增訂) 2026年01月27日修訂 全民健康保險初期慢性腎臟病醫 整合照護執行方案 療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合 衛生福利部緊急醫療資源缺乏地",
-          "label_en": ""
+          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案 醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": ""
+          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
         },
         {
           "code": "ED",
           "label_zh": "G5 (104.10.01增訂) 療 COVID-19(武漢肺炎)疫情期間居 西醫基層醫療資源不足地區改善方",
-          "label_en": ""
+          "label_en": "G5 (Amended on 10/1/2024 for COVID-19 pandemic period, improvement measures in areas with insufficient Western medical primary care resources)"
         },
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療 案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居 已開業",
-          "label_en": ""
+          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
         },
         {
           "code": "EF",
           "label_zh": "家隔離或檢疫者之居家醫療 家庭醫師整合性照護計畫 (109/3/31起 ) (92.3.10增訂) 慢性傳染病照護品質計畫-潛伏結 全民健康保險山地離島地區醫療",
-          "label_en": ""
+          "label_en": "home medical care or quarantine者's home-based medical service integrated primary care plan (effective since 3/31/2020) (amended on 3/10/1992) chronic infectious disease quality care plan - latent tuberculosis"
         },
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫 給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援 慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": ""
+          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫 西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務 慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": ""
+          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
         },
         {
           "code": "EJ",
@@ -3291,7 +3291,7 @@
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業 示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": ""
+          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
         },
         {
           "code": "F7",
@@ -3336,12 +3336,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新 收容對象醫療服務計畫-戒護門診 增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教 罕見疾病病人，提供切結文件，一 K1",
-          "label_en": ""
+          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件 成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": ""
+          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
         },
         {
           "code": "C",
@@ -3351,17 +3351,17 @@
         {
           "code": "HE",
           "label_zh": "鼓勵院所加強推動腹膜透析與提 增) K3 升及照護品質計畫(112/7/4新增) 慢性阻塞性肺病醫療給付改善方",
-          "label_en": ""
+          "label_en": "Encourage institutions to strengthen promotion of peritoneal dialysis and improve quality care plans (added on 2023/7/4) Chronic obstructive pulmonary disease medical payment improvement measures"
         },
         {
           "code": "HF",
           "label_zh": "代號為E4、E5、E6、E8、EB、N（新個案）、 案(106.04.01新增) C（完成個案）、R（復發個案）、H1、H7、HE、 西醫-受監護或輔助宣告，經受託 HF者，案件分類為E1。",
-          "label_en": ""
+          "label_en": "Codes E4, E5, E6, E8, EB, N (new cases) (added on 106.04.01), C (completed cases), R (recurrence cases), H1, H7, HE, Western medicine - under guardianship or judicial assistance, entrusted to HF, are classified as E1."
         },
         {
           "code": "HG",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 代號為G5、G6者，案件分類為D4或E1。 (107.06.01新增) 代號為G4、G8、G9者，依所屬之案件分類 西醫-經醫師認定之失智症病人",
-          "label_en": ""
+          "label_en": "Providing court ruling copies with code G5, G6, categorized as D4 or E1. Codes G4, G8, G9 follow the category of their respective case. Western medicine - dementia patients certified by a physician."
         },
         {
           "code": "HH",
@@ -3396,12 +3396,12 @@
         {
           "code": "5",
           "label_zh": "足地區改善方案+家醫整合計G5、G6 G8 畫 西醫基層(醫院支援)醫療資源不E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "Foot region improvement plan + family medicine integration G5, G6, G8 painting Western medical grassroots (hospital support) medical resources not E4~E8, EC,"
         },
         {
           "code": "6",
           "label_zh": "足地區改善方案+醫療給付改ED、HF、N、C、G5、G6 E1 善方案 R 醫療給付改善方案+全民健康E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "足地区改善方案+医疗给付改革ED、HF、N、C、G5、G6 E1 善方案 R 医疗给付改善方案+全民健康E4~E8 、 EC ，"
         },
         {
           "code": "7",
@@ -3416,7 +3416,7 @@
         {
           "code": "9",
           "label_zh": "C6、C7 25 區改善方案 牙醫門診總額醫療資源不足地F2 F3 14 區改善方案 F3 14 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "C6, C7 25 Area Improvement Plan Dental Outpatient Total Medical Resource Insufficiency F2 F3 14 Area Improvement Plan F3 14 Revised on January 27, 2026"
         }
       ],
       "field_en": "specific treatment item code"
@@ -3427,7 +3427,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循 腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消 慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": ""
+          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
         },
         {
           "code": "27",
@@ -3907,7 +3907,7 @@
         {
           "code": "P2",
           "label_zh": "銀粉充填 牙醫醫療團支援治療精神疾病中度 複合樹脂 以上 （玻璃璃子）充填 FG 院所服務--極重度 牙周病手術 FH 院所服務--重度 （含齒齦下刮除術） FI 院所服務--中度",
-          "label_en": ""
+          "label_en": "Silver powder filling Dental medical team support treatment for moderate mental disorder Composite resin (glass ionomer) filling FG Institutional services—severe Periodontal disease surgery FH Institutional services—moderate (including subgingival curettage)"
         },
         {
           "code": "P5",
@@ -3917,7 +3917,7 @@
         {
           "code": "P6",
           "label_zh": "高壓氧治療 FK 醫療團服務--極重度 口腔外科門診手術 FL 醫療團服務--重度 （包括拔牙） FM 醫療團服務--中度",
-          "label_en": ""
+          "label_en": "hyperbaric oxygen therapy FK medical team service--extremely severe FL medical team service--severe (including tooth extraction) FM medical team service--moderate"
         },
         {
           "code": "P8",
@@ -3942,47 +3942,47 @@
         {
           "code": "L3",
           "label_zh": "療服務計畫-特定需求者服務-失能 損傷之中度肢體障礙 (110/1/1起) 老人(104.01.01新增) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫 療服務計畫-社區醫療站服務-腦傷及",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - specific needs services - moderate physical impairment due to disability (effective since 1/1/110), elderly (added on 1/1/104) Dental outpatient total amount special medical service plan - community medical station service - brain injury and"
         },
         {
           "code": "L4",
           "label_zh": "療服務計畫-到宅醫療服務-中度 脊髓損傷之中度肢體障礙 (106.01.01新增) (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Special service plan - home-based medical services - moderate spinal cord injury with moderate physical disability (Added on January 1, 2016; Effective from 1/1/2021) Total cost of community dental outpatient for National Health Insurance Special Dental Outpatient Total Cost"
         },
         {
           "code": "L5",
           "label_zh": "療服務計畫-社區醫療站服務非精神 療服務計畫-居家牙醫醫療服務-腦傷 疾病者-極重度(107.01.01新增) 及脊髓損傷之中度肢體障礙 全民健康保險牙醫門診總額特殊醫 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Community medical station service non-psychiatric therapy service plan - home dental care services - brain injury diseases - severely disabled and spinal cord injuries - moderate limb impairment (added on January 1, 2017) under the total amount of general health insurance dental outpatient special medical (effective from January 1, 2021)"
         },
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試 疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額12歲至",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫 疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失 疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失 病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉 病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉 緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人 全民健康保險牙醫門診總額特殊醫",
-          "label_en": ""
+          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
         },
         {
           "code": "LC",
@@ -4022,7 +4022,7 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取 消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": ""
+          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
         },
         {
           "code": "CA",
@@ -4032,7 +4032,7 @@
         {
           "code": "JE",
           "label_zh": "JT (105.02.01新增) 照護整合方案-胃癌(112/1增訂) 肝癌患者中醫門診加強照護醫療 全民健康保險中醫癌症患者加強 (105.02.01新增) JU 照護整合方案-攝護腺癌(112/1增",
-          "label_en": ""
+          "label_en": "JT (105.02.01新增) Care integration plan - Gastric cancer (112/1增訂) Enhanced traditional Chinese medicine outpatient care for liver cancer patients National Health Insurance Traditional Chinese Medicine Cancer Patients Strengthened Care (105.02.01新增) JU Care integration plan - Prostate cancer (112/1起)"
         },
         {
           "code": "JG",
@@ -4042,62 +4042,62 @@
         {
           "code": "JH",
           "label_zh": "診延長照護試辦計畫(106.05.01 新 JY 照護整合方案-口腔癌(112/1增 增) 訂) 肺癌中醫門診加強 照護計畫 中醫醫療資源不足地區巡迴到宅",
-          "label_en": ""
+          "label_en": "Extended long-term care pilot program (Effective May 1, 2016 - New JY Care Integration Plan for Oral Cancer [Added in 2023] 中医门诊加强照护计划 中医医疗资源不足地区巡回到宅)"
         },
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他 中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴 增) AB 人類免疫缺乏病毒感染 中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": ""
+          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
         },
         {
           "code": "JL",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件 中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診 中醫-經保險人認定確有一次領取 案件(99.1修訂)",
-          "label_en": ""
+          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
         },
         {
           "code": "JN",
           "label_zh": "該處方箋總用藥量必要之特殊病 E3 結核病試辦計畫（97.1取消） 人(107.04.27新增) 以共同照護模式為基礎的糖尿病 中醫-嚴重特殊傳染性肺炎疫情期 人疾病管理實驗計畫 間，經醫師評估慢性病病情穩定， 全民健康保險週產期論人支付制",
-          "label_en": ""
+          "label_en": "Prescription for necessary special disease E3 tuberculosis trial plan (cancelled in 97.1) person (added on 107.04.27) based on integrated care model for diabetes traditional Chinese medicine-severe novel coronavirus pneumonia epidemic period person disease management experiment during which a physician assessed stable chronic condition, National Health Insurance weekly payment system"
         },
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次 度試辦計畫 領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實 全民健康保險中醫慢性腎臟病門 施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改 呼吸困難西醫住院病患中醫輔助 善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": ""
+          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護 支援長期照護機構提供復健治療 機構中醫醫療照護方案 案件(99.1增訂) 2026年01月27日修訂 全民健康保險初期慢性腎臟病醫 整合照護執行方案 療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合 衛生福利部緊急醫療資源缺乏地",
-          "label_en": ""
+          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案 醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": ""
+          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
         },
         {
           "code": "ED",
           "label_zh": "G5 (104.10.01增訂) 療 COVID-19(武漢肺炎)疫情期間居 西醫基層醫療資源不足地區改善方",
-          "label_en": ""
+          "label_en": "G5 (Amended on 10/1/2024 for COVID-19 pandemic period, improvement measures in areas with insufficient Western medical primary care resources)"
         },
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療 案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居 已開業",
-          "label_en": ""
+          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
         },
         {
           "code": "EF",
           "label_zh": "家隔離或檢疫者之居家醫療 家庭醫師整合性照護計畫 (109/3/31起 ) (92.3.10增訂) 慢性傳染病照護品質計畫-潛伏結 全民健康保險山地離島地區醫療",
-          "label_en": ""
+          "label_en": "home medical care or quarantine者's home-based medical service integrated primary care plan (effective since 3/31/2020) (amended on 3/10/1992) chronic infectious disease quality care plan - latent tuberculosis"
         },
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫 給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援 慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": ""
+          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫 西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務 慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": ""
+          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
         },
         {
           "code": "EJ",
@@ -4107,7 +4107,7 @@
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業 示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": ""
+          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
         },
         {
           "code": "F7",
@@ -4152,12 +4152,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新 收容對象醫療服務計畫-戒護門診 增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教 罕見疾病病人，提供切結文件，一 K1",
-          "label_en": ""
+          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件 成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": ""
+          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
         },
         {
           "code": "C",
@@ -4167,17 +4167,17 @@
         {
           "code": "HE",
           "label_zh": "鼓勵院所加強推動腹膜透析與提 增) K3 升及照護品質計畫(112/7/4新增) 慢性阻塞性肺病醫療給付改善方",
-          "label_en": ""
+          "label_en": "Encourage institutions to strengthen promotion of peritoneal dialysis and improve quality care plans (added on 2023/7/4) Chronic obstructive pulmonary disease medical payment improvement measures"
         },
         {
           "code": "HF",
           "label_zh": "代號為E4、E5、E6、E8、EB、N（新個案）、 案(106.04.01新增) C（完成個案）、R（復發個案）、H1、H7、HE、 西醫-受監護或輔助宣告，經受託 HF者，案件分類為E1。",
-          "label_en": ""
+          "label_en": "Codes E4, E5, E6, E8, EB, N (new cases) (added on 106.04.01), C (completed cases), R (recurrence cases), H1, H7, HE, Western medicine - under guardianship or judicial assistance, entrusted to HF, are classified as E1."
         },
         {
           "code": "HG",
           "label_zh": "人 提 供 法 院 裁 定 文 件 影 本 代號為G5、G6者，案件分類為D4或E1。 (107.06.01新增) 代號為G4、G8、G9者，依所屬之案件分類 西醫-經醫師認定之失智症病人",
-          "label_en": ""
+          "label_en": "Providing court ruling copies with code G5, G6, categorized as D4 or E1. Codes G4, G8, G9 follow the category of their respective case. Western medicine - dementia patients certified by a physician."
         },
         {
           "code": "HH",
@@ -4212,12 +4212,12 @@
         {
           "code": "5",
           "label_zh": "足地區改善方案+家醫整合計G5、G6 G8 畫 西醫基層(醫院支援)醫療資源不E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "Foot region improvement plan + family medicine integration G5, G6, G8 painting Western medical grassroots (hospital support) medical resources not E4~E8, EC,"
         },
         {
           "code": "6",
           "label_zh": "足地區改善方案+醫療給付改ED、HF、N、C、G5、G6 E1 善方案 R 醫療給付改善方案+全民健康E4~E8 、 EC 、",
-          "label_en": ""
+          "label_en": "足地区改善方案+医疗给付改革ED、HF、N、C、G5、G6 E1 善方案 R 医疗给付改善方案+全民健康E4~E8 、 EC ，"
         },
         {
           "code": "7",
@@ -4232,7 +4232,7 @@
         {
           "code": "9",
           "label_zh": "C6、C7 25 區改善方案 牙醫門診總額醫療資源不足地F2 F3 14 區改善方案 F3 14 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "C6, C7 25 Area Improvement Plan Dental Outpatient Total Medical Resource Insufficiency F2 F3 14 Area Improvement Plan F3 14 Revised on January 27, 2026"
         }
       ],
       "field_en": "specific treatment item code"
@@ -4258,7 +4258,7 @@
         {
           "code": "22",
           "label_zh": "IC22 兒麻痺 罹患小兒麻痺且年在35歲以上者 IC23 97.12增訂 身分別為原住民且55歲以上未滿",
-          "label_en": ""
+          "label_en": "IC22 Poliomyelitis Suffered from polio and aged 35 or above IC23 97.12 Amended Separately identified as an indigenous person aged 55 or above but less than"
         },
         {
           "code": "IC24",
@@ -4268,12 +4268,12 @@
         {
           "code": "IC29",
           "label_zh": "109/9/1起 原檢查 婦女子宮頸抹片檢查 30歲以上每年乙次 31 IC31 每三年檢查乙次 32 86.03.31取消 婦女子宮頸抹片檢查-30歲以上",
-          "label_en": ""
+          "label_en": "Starting from September 1, 2019, original examination Cervical cancer screening for women aged 30 and above once a year IC31 Check every three years 32 Cancelled on March 31, 2003 Cervical cancer screening for women aged 30 and above"
         },
         {
           "code": "IC33",
           "label_zh": "113/01 新增 每年乙次(子宮頸細胞病理檢驗) 30歲以上每年乙次(助產所） 35 IC35 30歲以上每年乙次（衛生所執 業，執業登記非屬婦產科或家庭 IC37 醫學科之醫師） 婦女子宮頸抹片檢查-30歲以上",
-          "label_en": ""
+          "label_en": "2024/01 New Cervical cytology examination once a year for women aged 30 and above (in midwifery clinics) 35 IC35 Once a year for women aged 30 and above (in health centers, performed by physicians registered but not in obstetrics or family medicine IC37) Cervical smear test - for women aged 30 and above"
         },
         {
           "code": "IC38",
@@ -4293,7 +4293,7 @@
         {
           "code": "10",
           "label_zh": "IC10 97.06增訂 滋病毒計畫 無力繳納保費就醫 89 IC89 88.02增訂 軍人代辦案件 91~96 87.07-90.02 非本保險保險對象之之器官捐贈 98 IC98 HMO巡迴醫療、921震災就醫， 符合資源共享，提供CT、MRI檢 IC99 93.07 查結果之院所申報 誤為委任（或行政協助）醫療項",
-          "label_en": ""
+          "label_en": "ICD10 97.06 amendment Viral vaccination plan no payment for medical care 89 ICD89 88.02 amendment Military proxy cases 91~96 87.07-90.02 Non-insured organ donation 98 ICD98 HMO mobile doctors, 921 earthquake medical care, 符合 resource sharing, provide CT、MRI检查结果申报机构误为委任（或行政协助）医疗项目"
         },
         {
           "code": "ICB6",
@@ -4435,7 +4435,7 @@
         {
           "code": "006",
           "label_zh": "006 006 （協助勞工保險局辦理項目） 山地離島地區之就醫（88.7增訂）、山地原住民 暨離島地區接受醫療院所戒菸治療服務免除戒 007 007 007 菸藥品部分負擔 經離島醫院診所轉診至台灣本島門診及急診就",
-          "label_en": ""
+          "label_en": "006 006 (To assist the Work Injury Insurance Bureau) Medical care in mountainous and island areas (added in 88.7), mountain indigenous people and island residents exempt from smoking cessation medication copay when seeking medical services at designated institutions 007 007 007 Copayment exemption for smoking cessation treatment when transferred from off-island hospitals or clinics to outpatient/ED in Taiwan's main island"
         },
         {
           "code": "008",
@@ -4460,7 +4460,7 @@
         {
           "code": "904",
           "label_zh": "904 904 代治療計畫 (協助疾病管制署辦理項目) 三氯氰胺污染奶製品案(97.09.23增訂) 905 905 內政部役政署補助替代役役男全民健康保險自 行負擔醫療費用（102.01.01起適用；協助內政 906 906 906 部役政署辦理項目） 原住民於非山地暨離島地區接受戒菸服務者",
-          "label_en": ""
+          "label_en": "904 904 treatment plan (assisted by CDC project) melamine contaminated milk products case(added on 2009.09.23) 905 905 Ministry of Interior役政署 subsidy for alternative service personnel's own health insurance medical expenses（effective from 2003.01.01; assisted by Ministry of Interior 906 906 906 部役政署 project） indigenous people receiving smoking cessation services in non-plain and offshore areas"
         },
         {
           "code": "907",
@@ -4505,7 +4505,7 @@
         {
           "code": "L20",
           "label_zh": "精神社區復健且開立藥品（102.11.01增訂） 戒菸服務補助計畫 部分負擔金額依「醫療院所戒菸服務補助計畫」戒菸藥品部分負擔填寫（101.3 增訂） 第二碼（部分負擔方式）",
-          "label_en": ""
+          "label_en": "Community mental health rehabilitation and medication for smoking cessation (added on 102.11.01) Subsidy plan for smoking cessation services partial payment amount according to the 'Medical Institution Smoking Cessation Service Subsidy Plan' for smoking cessation medications Fill in based on the second code (payment method) (added on 101.3)"
         },
         {
           "code": "0",
@@ -4515,7 +4515,7 @@
         {
           "code": "1",
           "label_zh": "一般門診 部分負擔加收者，88/8新增，91/9 修訂，93/1修訂取消高利用率及檢驗、檢 查部分負擔",
-          "label_en": ""
+          "label_en": "outpatient partial payment payers, added in 88/8, revised in 91/9, cancelled high utilization and examination/check partial payment revision in 93/1"
         },
         {
           "code": "3",
@@ -4575,7 +4575,7 @@
         {
           "code": "P",
           "label_zh": "中低收入戶之保險對象加藥單(112年3月7日增訂) 2026年01月27日修訂 2026年01月27日修訂 (1) 應部分負擔代碼及負擔點數 西醫 代號 說明 點數 增修日期",
-          "label_en": ""
+          "label_en": "Low-income household insured party drug list (added on March 7, 2022) Revised on January 27, 2026 Revised on January 27, 2026 (1) Copayment code and point number Western medicine Code Description Points Date added"
         },
         {
           "code": "A00",
@@ -4630,7 +4630,7 @@
         {
           "code": "A17",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者 (98/ 8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": ""
+          "label_en": "holders of disability certificates or participants in pilot programs (since 08/09/2008); outpatient services at correctional institutions under medical service plans, since 01/10/2012"
         },
         {
           "code": "A1P",
@@ -4655,7 +4655,7 @@
         {
           "code": "A27",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者(98/8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": ""
+          "label_en": "Holders of disability certificates or participants in pilot programs (Starting from 2000/08); Medical services for inmates in correctional facilities (Added in 2013/01)"
         },
         {
           "code": "A2P",
@@ -4665,17 +4665,17 @@
         {
           "code": "A30",
           "label_zh": "醫學中心；轉診（轉入之院所適用）、藥品或加復健 ＊ 94/7/15 醫學中心:轉診傷病經醫師認定需繼續門診診療，轉診就醫一個",
-          "label_en": ""
+          "label_en": "medical center; referral (applicable to institutions receiving referrals), drugs or rehabilitation * 94/7/15 medical center: referral for injuries deemed by a physician as requiring continued outpatient care, one"
         },
         {
           "code": "A31",
           "label_zh": "106/4/15起 月內未逾四次之回診(轉入之院所適用) 醫學中心；轉診(轉入之院所適用)或加復健；持身心障礙證明 或參加試辦計畫補助者(98/8 起)",
-          "label_en": ""
+          "label_en": "4/15/2016 Onwards Within four visits within a month (applicable to hospitals receiving transfers) Medical center; referral (applicable to transferring hospitals) or rehabilitation; with disability certificate or participating in pilot program subsidy (starting from 8/98)"
         },
         {
           "code": "A34",
           "label_zh": "醫學中心；轉診(轉入之院所適用)加藥品或復健 醫學中心；轉診(轉入之院所適用)加藥品或復健； 持身心障礙證明或參加試辦計畫補助者(98/8 起) 醫學中心；轉診(轉入之院所適用)加藥品或復健；中低收入註 記 (112/3新增)",
-          "label_en": ""
+          "label_en": "Academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; for individuals holding a physical or mental disability certificate or participating in trial subsidy programs since August 1998; academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; low-income annotation (added March 2023)"
         },
         {
           "code": "A40",
@@ -4765,12 +4765,12 @@
         {
           "code": "B30",
           "label_zh": "區域醫院；轉診（轉入之院所適用）、藥品或加復健 ＊ 94/7/15 區域醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Regional hospital; referral (applicable to hospitals receiving referrals), drugs or rehabilitation * 94/7/15 Regional hospital; referral injuries deemed by a physician as requiring continued outpatient treatment, referral for medical care one"
         },
         {
           "code": "B31",
           "label_zh": "106/4/15 個月內未逾四次之回診(轉入之院所適用)或加復健 區域醫院；轉診(轉入之院所適用)或加復健；持身心障礙證明 或參加試辦計畫補助者 (98/8 起)",
-          "label_en": ""
+          "label_en": "106/4/15 within four visits in one month (applicable to transferred hospitals) or add rehabilitation regional hospital; transfer (applicable to transferred hospitals) or add rehabilitation; with disability certificate or participating in pilot program subsidy (effective from Aug. 98)"
         },
         {
           "code": "B34",
@@ -4850,12 +4850,12 @@
         {
           "code": "C30",
           "label_zh": "地區醫院；轉診（轉入之院所適用）、藥品或復健 ＊ 94/7/15 地區醫院;轉診傷病經醫師認定需繼續門診診療，轉診就醫一個",
-          "label_en": ""
+          "label_en": "District hospital; referral (applicable to hospitals receiving referrals), drugs or rehabilitation * 94/7/15 District hospital; referral injuries deemed by a physician as requiring continued outpatient treatment, referral for medical care one"
         },
         {
           "code": "C31",
           "label_zh": "106/4/15 月內未逾四次之回診(轉入之院所適用)或加復健 地區醫院；轉診(轉入之院所適用)或加復健；持身心障礙證明 或參加試辦計畫補助者 (98/8 起) 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Within four months as of April 15, 2016, for follow-up visits (applicable to transferred hospitals) or addition of rehabilitation in regional hospitals; referral (applicable to transferred hospitals) or addition of rehabilitation; those with a disability certificate or participating in pilot program subsidies (since August 98). Revised on January 27, 2026."
         },
         {
           "code": "C34",
@@ -4865,7 +4865,7 @@
         {
           "code": "C37",
           "label_zh": "地區醫院；轉診(轉入之院所適用)加藥品或復健 地區醫院；轉診(轉入之院所適用)加藥品或復健；中低收入註 記 (112/3新增)",
-          "label_en": ""
+          "label_en": "regional hospital; transfer (applicable to hospitals receiving transfers) plus drugs or rehabilitation; low-income annotation (added in March 2023)"
         },
         {
           "code": "C40",
@@ -4910,7 +4910,7 @@
         {
           "code": "D30",
           "label_zh": "基層院所；轉診(轉入之院所適用)、藥品或復健 106/4/15 基層院所；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "primary care facility; referral (applicable to institutions receiving referrals), medication or rehabilitation 106/4/15 primary care facility; referral injury cases deemed by physician as requiring continued outpatient care, referral for medical treatment"
         },
         {
           "code": "D31",
@@ -4950,7 +4950,7 @@
         {
           "code": "E30",
           "label_zh": "醫學中心；轉診(轉入之院所適用) 106/4/15 醫學中心；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Medical center; referral (applicable to transferring hospitals) April 15, 2016: Medical center; referral for patients whose conditions require continued outpatient care after discharge as determined by a physician."
         },
         {
           "code": "E31",
@@ -4965,7 +4965,7 @@
         {
           "code": "F10",
           "label_zh": "區域醫院；一般門診 50 2026年01月27日修訂 區域醫院；一般門診；持殘障手冊；收容對象醫療服務計畫之",
-          "label_en": ""
+          "label_en": "regional hospital; general outpatient 50 20260127 revised regional hospital; general outpatient; with disability certificate; medical services plan for accommodated objects"
         },
         {
           "code": "F13",
@@ -4985,7 +4985,7 @@
         {
           "code": "F30",
           "label_zh": "區域醫院；轉診(轉入之院所適用) 106/4/15 區域醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Regional hospital; referral (applicable to the transferring facility) 106/4/15 Regional hospital; referral injuries deemed by a physician as requiring continued outpatient care, transferred for treatment on that date"
         },
         {
           "code": "F31",
@@ -5010,7 +5010,7 @@
         {
           "code": "G30",
           "label_zh": "地區醫院；轉診(轉入之院所適用 ) 106/4/15 地區醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Regional hospital; referral (applicable for institutions receiving referrals) 04/15/2017 Regional hospital; referral for patients whose conditions require continued outpatient care, referred for medical treatment"
         },
         {
           "code": "G31",
@@ -5035,7 +5035,7 @@
         {
           "code": "H30",
           "label_zh": "基層院所；轉診(轉入之院所適用 ) 106/4/15 基層院所；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Primary care facility; referral (applicable for institutions receiving referrals) 04/15/2017 Primary care facility; referral for patients whose conditions require continued outpatient care, referred for medical treatment"
         },
         {
           "code": "H31",
@@ -5065,7 +5065,7 @@
         {
           "code": "N30",
           "label_zh": "醫學中心；轉診(轉入之院所適用)或中醫傷科 106/4/15 醫學中心；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Academic medical center; referral (applicable to institutions receiving referrals) or traditional Chinese medicine orthopedics April 15, 2016 Academic medical center; referral illness recognized by a physician as requiring continued outpatient treatment, referral for medical care one"
         },
         {
           "code": "N31",
@@ -5100,7 +5100,7 @@
         {
           "code": "Q30",
           "label_zh": "區域醫院；轉診(轉入之院所適用 )或中醫傷科 106/4/15 區域醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Regional Hospital; Referral (Applicable to hospitals receiving referrals) or Traditional Chinese Medicine Orthopedics 4/15/2016 Regional Hospital; Referral Injuries Recognized by Physicians as Requiring Continued Outpatient Care, Referral for Medical Treatment One"
         },
         {
           "code": "Q31",
@@ -5135,7 +5135,7 @@
         {
           "code": "R30",
           "label_zh": "地區醫院；轉診(轉入之院所適用 )或中醫傷科 106/4/15 地區醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "hospital; referral (applicable to institutions receiving referrals) or traditional Chinese medicine/surgery 106/4/15 hospital; referral injury cases deemed by physician as requiring continued outpatient care, referral for medical treatment"
         },
         {
           "code": "R31",
@@ -5170,7 +5170,7 @@
         {
           "code": "S30",
           "label_zh": "基層院所；轉診(轉入之院所適用 ) 106/4/15 基層院所；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": ""
+          "label_en": "Primary care facility; referral (applicable for institutions receiving referrals) 04/15/2017 Primary care facility; referral for patients whose conditions require continued outpatient care, referred for medical treatment"
         },
         {
           "code": "S31",
@@ -5180,7 +5180,7 @@
         {
           "code": "S34",
           "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科 註1：「＊」依實際情形收取部分負擔點數 註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Primary care facility; referral (applicable to hospitals receiving referrals) plus drugs or traditional Chinese medicine for orthopedic injuries Note1: '＊' partial burden points are charged according to actual circumstances Note2: From January 93/01, high-cost medications and examinations/checks no longer have a partial burden until revised on January 27, 2026."
         }
       ],
       "field_en": "co-payment code"
@@ -5196,7 +5196,7 @@
         {
           "code": "7",
           "label_zh": "112/9/1 箋 藥品自行調劑,物理（或職能）治療自行執行 A 90/7/1 藥品自行調劑,物理（或職能）治療交付執行 B 90/7/1 藥品交付調劑,物理（或職能）治療自行執行 C 90/7/1 藥品交付調劑,物理（或職能）治療交付執行 D 90/7/1 未開處方調劑,物理（或職能）治療自行執行 E 90/7/1 未開處方調劑,物理（或職能）治療交付執行 F 90/7/1 其他(如僅調劑公費口服抗病毒藥物",
-          "label_en": ""
+          "label_en": "2023/9/1 outpatient/pharmacy self-compounding, physical (or functional) therapy self-execution A 1990/7/1 pharmacy self-compounding, physical (or functional) therapy delivery execution B 1990/7/1 pharmacy delivery compounding, physical (or functional) therapy self-execution C 1990/7/1 pharmacy delivery compounding, physical (or functional) therapy delivery execution D 1990/7/1 no prescription compounding, physical (or functional) therapy self-execution E 1990/7/1 no prescription compounding, physical (or functional) therapy delivery execution F 1990/7/1 other (such as only compounding public-funded oral antiviral drugs"
         },
         {
           "code": "G",
@@ -5223,7 +5223,7 @@
         {
           "code": "1",
           "label_zh": "省市立醫院 1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 署立及直轄市立醫院",
-          "label_en": ""
+          "label_en": "Provincial and municipal hospitals 1 Provincial and municipal hospitals 1 Provincial and municipal hospitals 1 Provincial and municipal hospitals 1"
         },
         {
           "code": "2",
@@ -5233,12 +5233,12 @@
         {
           "code": "4",
           "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital"
         },
         {
           "code": "5",
           "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)",
-          "label_en": ""
+          "label_en": "military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment)"
         },
         {
           "code": "6",
@@ -5248,12 +5248,12 @@
         {
           "code": "7",
           "label_zh": "機關(構)附設醫院 7 機關(構)附設醫院 7 機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院",
-          "label_en": ""
+          "label_en": "Agency-affiliated hospital 7 Agency-affiliated hospital 7 Agency-affiliated hospital 7 Public agency-affiliated hospital 7 Public agency-affiliated hospital"
         },
         {
           "code": "8",
           "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 私立 私立 私立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital Private Private Private Non-public Non-public"
         },
         {
           "code": "9",
@@ -5268,17 +5268,17 @@
         {
           "code": "12",
           "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
-          "label_en": ""
+          "label_en": "religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital"
         },
         {
           "code": "13",
           "label_zh": "醫學院校附設醫院 13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "University-affiliated hospital 13 University-affiliated hospital 13 University-affiliated hospital 13 Private university-affiliated hospital 13 Private university-affiliated hospital"
         },
         {
           "code": "14",
           "label_zh": "其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院",
-          "label_en": ""
+          "label_en": "Other Organization-Attached Hospitals 14 Other Organization-Attached Hospitals 14 Other Organization-Attached Hospitals 14 Other Organization-Attached Hospitals 14 Charity Corporation-Operated Hospitals"
         },
         {
           "code": "15",
@@ -5293,12 +5293,12 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
-          "label_en": ""
+          "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 99-100 101 102 103 104 code item name code item name code item name code item name code item name public public public public public"
         },
         {
           "code": "1",
           "label_zh": "署立及直轄市立醫院 1 署立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院 1 部立及直轄市立醫院",
-          "label_en": ""
+          "label_en": "government or municipal hospitals 1 government or municipal hospitals 1 public or municipal hospitals 1 public or municipal hospitals 1 public or municipal hospitals"
         },
         {
           "code": "2",
@@ -5308,12 +5308,12 @@
         {
           "code": "4",
           "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital 4 Public Medical College Affiliated Hospital"
         },
         {
           "code": "5",
           "label_zh": "軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療) 5 軍方醫院(民眾診療)",
-          "label_en": ""
+          "label_en": "military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment) 5 military hospital (civilian treatment)"
         },
         {
           "code": "6",
@@ -5323,37 +5323,37 @@
         {
           "code": "7",
           "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院",
-          "label_en": ""
+          "label_en": "government agency-affiliated hospital 7"
         },
         {
           "code": "8",
           "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital Non-public Non-public Non-public Non-public Non-public"
         },
         {
           "code": "9",
           "label_zh": "醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院 9 醫療社團法人醫院",
-          "label_en": ""
+          "label_en": "9 Medical Association Hospital 9 Medical Association Hospital 9 Medical Association Hospital 9 Medical Association Hospital 9 Medical Association Hospital"
         },
         {
           "code": "11",
           "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院",
-          "label_en": ""
+          "label_en": "Charity Medical Corporation Hospital 11 Charity Medical Corporation Hospital 11 Charity Medical Corporation Hospital 11 Charity Medical Corporation Hospital 11 Charity Medical Corporation Hospital"
         },
         {
           "code": "12",
           "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
-          "label_en": ""
+          "label_en": "religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital 12 religious foundation-affiliated hospital"
         },
         {
           "code": "13",
           "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "private medical college affiliated hospital 13 private medical college affiliated hospital 13 private medical college affiliated hospital 13 private medical college affiliated hospital 13 private medical college affiliated hospital"
         },
         {
           "code": "14",
           "label_zh": "公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院 14 公益法人所設醫院",
-          "label_en": ""
+          "label_en": "Charity Corporation-Operated Hospitals 14 Charity Corporation-Operated Hospitals 14 Charity Corporation-Operated Hospitals 14 Charity Corporation-Operated Hospitals 14 Charity Corporation-Operated Hospitals"
         },
         {
           "code": "15",
@@ -5368,7 +5368,7 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
-          "label_en": ""
+          "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 2005 2006 2007 2008-2011 code item name code item name code item name code item name public public public public"
         },
         {
           "code": "1",
@@ -5398,7 +5398,7 @@
         {
           "code": "7",
           "label_zh": "公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院",
-          "label_en": ""
+          "label_en": "Public institution-affiliated hospital 7 Public institution-affiliated hospital 7 Public institution-affiliated hospital 7 Public institution-affiliated hospital"
         },
         {
           "code": "8",
@@ -5418,12 +5418,12 @@
         {
           "code": "12",
           "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院",
-          "label_en": ""
+          "label_en": "Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital 12 Religious Foundation Affiliated Hospital"
         },
         {
           "code": "13",
           "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院",
-          "label_en": ""
+          "label_en": "Private medical college affiliated hospital 13 Private medical college affiliated hospital 13 Private medical college affiliated hospital 13 Private medical college affiliated hospital"
         },
         {
           "code": "14",
@@ -5443,12 +5443,12 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以111年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
-          "label_en": ""
+          "label_en": "Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 2026-01-27 Revised 1983-1998 Clinic Ownership Code Table (Adjusted in 111) 1986-1987 1988-1994 1995 1996 1997-1998 Code Item Name Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public Public"
         },
         {
           "code": "21",
           "label_zh": "省市立診所 21 本署及北、高市立診所21 本署及北、高市立診所21 本署及北、高市立診所 21 署立及直轄市立診所",
-          "label_en": ""
+          "label_en": "county and city hospitals 21 provincial bureaus and Taipei, Kaohsiung municipal hospitals 21 provincial bureaus and Taipei, Kaohsiung municipal hospitals 21 provincial bureaus and directly administered city hospitals"
         },
         {
           "code": "22",
@@ -5463,27 +5463,27 @@
         {
           "code": "24",
           "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
-          "label_en": ""
+          "label_en": "Public school attached medical room 24"
         },
         {
           "code": "25",
           "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)",
-          "label_en": ""
+          "label_en": "Military Clinic (Public Outpatient Department) 25"
         },
         {
           "code": "26",
           "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
-          "label_en": ""
+          "label_en": "Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office)"
         },
         {
           "code": "27",
           "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 公立機關(構)附設醫務室 27 機關(構)附設醫務室",
-          "label_en": ""
+          "label_en": "institution-affiliated medical room 27 institution-affiliated medical room 27 institution-affiliated medical room 27 public institution-affiliated medical room 27 institution-affiliated medical room"
         },
         {
           "code": "28",
           "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立",
-          "label_en": ""
+          "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic private private private non-public non-public"
         },
         {
           "code": "29",
@@ -5493,22 +5493,22 @@
         {
           "code": "31",
           "label_zh": "財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 醫療財團法人附設醫務室",
-          "label_en": ""
+          "label_en": "財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 財團法人附設醫務室 31 医疗财团法人附设医务室"
         },
         {
           "code": "32",
           "label_zh": "宗教財團法人附設診所32 宗教財團法人附設診所32 宗教財團法人附設診所32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室",
-          "label_en": ""
+          "label_en": "religious foundation-affiliated clinic 32"
         },
         {
           "code": "33",
           "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室",
-          "label_en": ""
+          "label_en": "attached medical room of private school 33 attached medical room of private school 33 attached medical room of private school 33 attached medical room of private school and institute 33 attached medical room of private school, institute and hospital 33"
         },
         {
           "code": "34",
           "label_zh": "事業單位附設醫務室 34 事業單位附設醫務室 34 事業單位附設醫務室 34 私立事業單位附設醫務室34 私立事業單位或機構附設醫務室",
-          "label_en": ""
+          "label_en": "company-affiliated medical room 34"
         },
         {
           "code": "35",
@@ -5533,12 +5533,12 @@
         {
           "code": "41",
           "label_zh": "社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
-          "label_en": ""
+          "label_en": "Outpatient clinic 41 Outpatient clinic 2026-01-27 Revised 99-100 101 102 103 104 Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
           "code": "21",
           "label_zh": "署立及直轄市立診所 21 署立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所 21 部立及直轄市立診所",
-          "label_en": ""
+          "label_en": "government and directly administered city clinics 21 government and directly administered city clinics 21 public and directly administered city clinics 21 public and directly administered city clinics 21 public and directly administered city clinics"
         },
         {
           "code": "22",
@@ -5553,42 +5553,42 @@
         {
           "code": "24",
           "label_zh": "公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室 24 公立學校附設醫務室",
-          "label_en": ""
+          "label_en": "Public school attached medical room 24"
         },
         {
           "code": "25",
           "label_zh": "軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部) 25 軍方診所(民眾門診部)",
-          "label_en": ""
+          "label_en": "Military Clinic (Public Outpatient Department) 25"
         },
         {
           "code": "26",
           "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
-          "label_en": ""
+          "label_en": "Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office) 26 Veteran clinic (veteran medical office)"
         },
         {
           "code": "27",
           "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室",
-          "label_en": ""
+          "label_en": "institutional clinic 27 institutional clinic 27 institutional clinic 27 institutional clinic 27 institutional clinic"
         },
         {
           "code": "28",
           "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立",
-          "label_en": ""
+          "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic non-public non-public non-public non-public non-public"
         },
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "Charitable organization-run clinic/medical room 29 Charitable organization-run clinic/medical room 29 Charitable organization-run clinic/medical room 29 Charitable organization-run clinic/medical room 29 Charitable organization-run clinic/medical room"
         },
         {
           "code": "31",
           "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室",
-          "label_en": ""
+          "label_en": "Charitable Medical Institution Attached Clinic 31"
         },
         {
           "code": "32",
           "label_zh": "宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室",
-          "label_en": ""
+          "label_en": "Religious Foundation Attached Clinic/Health Room 32 Religious Foundation Attached Clinic/Health Room 32 Religious Foundation Attached Clinic/Health Room 32 Religious Foundation Attached Clinic/Health Room 32 Religious Foundation Attached Clinic/Health Room"
         },
         {
           "code": "33",
@@ -5598,7 +5598,7 @@
         {
           "code": "34",
           "label_zh": "私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務室 室 室 室 室",
-          "label_en": ""
+          "label_en": "Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room"
         },
         {
           "code": "35",
@@ -5618,12 +5618,12 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所 40 醫療財團法人診所",
-          "label_en": ""
+          "label_en": "Charity Medical Corporation Clinic 40 Charity Medical Corporation Clinic 40 Charity Medical Corporation Clinic 40 Charity Medical Corporation Clinic 40 Charity Medical Corporation Clinic"
         },
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-111年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
-          "label_en": ""
+          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-111th years code item name code item name code item name code item name public public public public"
         },
         {
           "code": "21",
@@ -5648,17 +5648,17 @@
         {
           "code": "25",
           "label_zh": "軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部) 25 軍方診所(民眾診療附設門診部)",
-          "label_en": ""
+          "label_en": "Military clinic (civilian medical consultation outpatient department) 25 Military clinic (civilian medical consultation outpatient department) 25 Military clinic (civilian medical consultation outpatient department) 25 Military clinic (civilian medical consultation outpatient department)"
         },
         {
           "code": "26",
           "label_zh": "榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室) 26 榮民診所(榮家醫務室)",
-          "label_en": ""
+          "label_en": "Veteran clinic (veteran health center) 26 Veteran clinic (veteran health center) 26 Veteran clinic (veteran health center) 26 Veteran clinic (veteran health center)"
         },
         {
           "code": "27",
           "label_zh": "機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室 27 機關(構)附設醫務室",
-          "label_en": ""
+          "label_en": "Agency (institution) affiliated medical room 27 Agency (institution) affiliated medical room 27 Agency (institution) affiliated medical room 27 Agency (institution) affiliated medical room"
         },
         {
           "code": "28",
@@ -5673,27 +5673,27 @@
         {
           "code": "29",
           "label_zh": "公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室 29 公益法人所設診所/醫務室",
-          "label_en": ""
+          "label_en": "Non-profit organization clinic/medical room 29 Non-profit organization clinic/medical room 29 Non-profit organization clinic/medical room 29 Non-profit organization clinic/medical room"
         },
         {
           "code": "31",
           "label_zh": "醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 醫療財團法人附設醫務室 31 欄位已刪除",
-          "label_en": ""
+          "label_en": "Taiwan Medical Foundation Attached Clinic 31 Taiwan Medical Foundation Attached Clinic 31 Taiwan Medical Foundation Attached Clinic 31 Field Deleted"
         },
         {
           "code": "32",
           "label_zh": "宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 宗教財團法人附設診所/醫務室 32 欄位已刪除",
-          "label_en": ""
+          "label_en": "religious foundation affiliated clinic/medical room 32 religious foundation affiliated clinic/medical room 32 religious foundation affiliated clinic/medical room 32 field deleted"
         },
         {
           "code": "33",
           "label_zh": "私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室 33 私立醫學校、院附設醫務室",
-          "label_en": ""
+          "label_en": "Private medical school, institution affiliated medical room 33 Private medical school, institution affiliated medical room 33 Private medical school, institution affiliated medical room 33 Private medical school, institution affiliated medical room"
         },
         {
           "code": "34",
           "label_zh": "私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室 34 私立事業單位或機構附設醫務室",
-          "label_en": ""
+          "label_en": "private enterprise unit or institution-affiliated medical room 34 private enterprise unit or institution-affiliated medical room 34 private enterprise unit or institution-affiliated medical room 34 private enterprise unit or institution-affiliated medical room"
         },
         {
           "code": "35",
@@ -5718,7 +5718,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼",
-          "label_en": ""
+          "label_en": "clinic 41 clinic 41 clinic 41 clinic 2026-01-27 revised 83-98, 99-100, 2001, 2002, 2003, 2004, 2005, 2006, 2007-2009 year code对照表（以2009年调整） 年份 83-98年 99-100年 2001年 2002年 2003年 2004年 2005年 2006年 2007-2009年 代碼"
         },
         {
           "code": "42",
@@ -5844,8 +5844,8 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health01_全民健保處方及治療明細檔_門急診(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. Generally one claim per visit (same hospital, same day, same department).\n2. Content includes patient's disease, hospital, and related cost information for the current visit.",
   "notes_en": "",
-  "primary_keys_en": "",
+  "primary_keys_en": "1. Personal ID, physician ID, pharmacist ID, and medical institution code are encrypted.\n2. The unique key value for comparison with the outpatient/ED medical order details file (H_NHI_OPDTO) is: FEE_YM＋APPL_TYPE＋HOSP_ID＋APPL_DATE＋CASE_TYPE＋SEQ_NO.\n3. Key value for personal account and personal information matching: ID.\n4. Medical institution account and data matching key value: HOSP_ID.",
   "name_zh_en": "NHI prescription and treatment details"
 }

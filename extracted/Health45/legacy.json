@@ -28,7 +28,7 @@
       "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 5: (保留碼，視為無治療) 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療 TACE)，或為新的治療方法，非 指他院治療",
       "available_notes": [],
       "name_zh_en": "Treatment Condition",
-      "description_en": ""
+      "description_en": "Combined case reported hospital treatment status 0: No treatment 1: Surgical treatment 2: Radiation therapy 3: Chemotherapy 5: (Reserved code, treated as no treatment) 6: Immunotherapy 7: Endocrine (hormonal) therapy 8: Supportive therapy 9: Traditional Chinese medicine (TCM) B: Bone marrow/stem cell transplantation O: Other treatment P: Local chemical therapy I: Local immunotherapy T: Targeted therapy X: Others (including local hepatic artery embolization therapy TACE), or a new treatment method, not other hospital treatment"
     },
     {
       "seq": 2,
@@ -94,7 +94,7 @@
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
-      "description_en": ""
+      "description_en": "0：临床症状 1：实验室诊断 2：影像检查 3：内镜 4：探查手术 5：细胞诊断 6：血液病理 7：组织病理 8：尸检 9：诊断不明"
     },
     {
       "seq": 8,
@@ -127,7 +127,7 @@
       "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌 詳組織類型與性態碼(HISTBEH)對照 表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血 液腫瘤分類表)",
       "available_notes": [],
       "name_zh_en": "type and status code",
-      "description_en": ""
+      "description_en": "Histopathology: Use ICD-O translation codes Fifth digit is 2: In situ cancer Fifth digit is 3: Invasive cancer Detailed tissue type and nature code (HISTBEH)对照表 (血液肿瘤编码范围：95903-99933，需排除99903。血液肿瘤细分详见血液肿瘤分类表)"
     },
     {
       "seq": 10,
@@ -138,7 +138,7 @@
       "description_zh": "第1碼為H者：表示為血液腫瘤個案 其他第1碼非H者：詳見原發部位 (CASITE)對照表 血液腫瘤個案若要再細分NHL(非何 杰金氏淋巴瘤)、HL(何杰金氏淋巴 瘤)及LEU(白血病)等血液腫瘤個 案，在此欄位無法辨識，請用組織類 型與性態碼(HISTBEH)區分。若是要 分析各癌症部分(CASITE欄位)，也 請先把NHL、HL、LEU等血液腫瘤 排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": ""
+      "description_en": "The first code as H indicates a hematological tumor case. Other first codes not H refer to the primary site (CASITE)对照表. For hematological tumor cases, they cannot be further distinguished into NHL (non-Hodgkin's lymphoma), HL (Hodgkin's lymphoma), and LEU (leukemia). Please use the histopathology and behavior code (HISTBEH) to differentiate. If analyzing cancer parts in the CASITE field, please exclude NHL, HL, and LEU first."
     },
     {
       "seq": 11,
@@ -190,7 +190,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health45_癌症登記年報檔",
-  "data_description_en": "",
+  "data_description_en": "Provides annual reports from 1979 to the latest published year for cancer cases after householding, including in situ and invasive cases of all cancers. The data includes both long-form and short-form hospital claims and has removed duplicate cases within the same case for the same type of cancer and tissue type group.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "Cancer Registry Annual File"

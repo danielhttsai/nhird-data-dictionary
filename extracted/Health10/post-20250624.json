@@ -72,7 +72,7 @@
         }
       ],
       "name_zh_en": "residence",
-      "description_en": ""
+      "description_en": "Detailed old system county city township code explanation (Note: Since 2004, 2105 represents Zhongxi District, Tainan City); starting from 2000, please provide detailed new system county city township code explanation"
     },
     {
       "seq": 5,
@@ -204,7 +204,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": ""
+      "description_en": "ICD-8 coding from 1960 to 1969, ICD-9 coding from 1970 to 1996 (no data since 1997). Main cause of death and main cancer classification details provided in the cause of death code translation explanation"
     },
     {
       "seq": 12,
@@ -265,7 +265,7 @@
         }
       ],
       "name_zh_en": "diagnoser",
-      "description_en": ""
+      "description_en": "From 1960 to 1997: 1: Western medicine, 2: Traditional Chinese medicine, 3: Forensic medicine, 4: Prosecutor, 5: Inspector, 6: Village chief, 7: Other, 9: Unclear (no data from 1998 onwards)"
     },
     {
       "seq": 15,
@@ -276,7 +276,7 @@
       "description_zh": "00：未滿 1日，01：滿1日，02：滿2 日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡",
       "available_notes": [],
       "name_zh_en": "newborn age",
-      "description_en": ""
+      "description_en": "00: less than 1 day, 01: 1 day or more, 02: 2 days or more,以此類推至27: 27 days or more, 88: non-newborn death"
     },
     {
       "seq": 16,
@@ -334,8 +334,8 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health10_死因統計檔(20250624起適用)",
-  "data_description_en": "",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
+  "notes_en": "1. One person per record.\n2. There may be duplicate 'serial number' or 'ID'.\n*The database has been de-identified and fields such as name, address, and other directly identifiable information have been removed. Shielded fields include National Health Insurance ID, hospital code, insured unit code, unified number, date of birth, medical visit date, admission date, etc., which can only be used within a designated area in the agency and must be reviewed before any statistical results are carried out to ensure that no specific individual can be identified.",
+  "primary_keys_en": "[1] Personal ID encrypted.\n[2] The key in cause-of-death file is 'sequential number (s_num)' from 1960 to 1973 and 'ID' from 1974 onwards.\n[3] Key value for personal data match: ID.",
   "name_zh_en": "cause of death file"
 }

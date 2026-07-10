@@ -89,7 +89,7 @@
       "description_zh": "第1碼為 H者：表示為血 液腫瘤個案 其他第1碼非 H 者：詳見 原發部位(CASITE)對照表 血液腫瘤個案若要再細分 NHL(非何杰金氏淋巴瘤)、 HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個 案，在此欄位無法辨識，請 用組織類型與性態碼 (HISTOLOG)區分。若是要 分析各癌症部分(CASITE欄 位)，也請先把NHL、HL、 LEU等血液腫瘤排除後再 計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": ""
+      "description_en": "The first code H indicates a hematologic malignancy case. Other first codes not H refer to the primary site (CASITE)对照表. For further subdivision of NHL (non-Hodgkin's lymphoma), HL (Hodgkin's lymphoma), and LEU (leukemia) within hematologic malignancies, this field cannot distinguish them; please use histology and morphology codes (HISTOLOG). When analyzing cancer cases in the CASITE field, exclude NHL, HL, and LEU first before calculating."
     },
     {
       "seq": 7,
@@ -101,7 +101,7 @@
       "description_zh": "合併個案所有申報醫院治療 狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療",
       "available_notes": [],
       "name_zh_en": "Treatment Condition",
-      "description_en": ""
+      "description_en": "Combined case reported hospital treatment status: 0: No treatment, 1: Surgical treatment, 2: Radiotherapy, 3: Chemotherapy, 6: Immunotherapy, 7: Endocrine (hormonal) therapy, 8: Supportive treatment, 9: Traditional Chinese medicine (TCM), B: Bone marrow/stem cell transplantation, O: Other treatments"
     },
     {
       "seq": 8,
@@ -143,7 +143,7 @@
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
-      "description_en": ""
+      "description_en": "0：临床症状 1：实验室诊断 2：影像检查 3：内镜 4：探查手术 5：细胞诊断 6：血液病理 7：组织病理 8：尸检 9：诊断不明"
     },
     {
       "seq": 11,
@@ -359,7 +359,7 @@
       "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "whether it is a cause-specific survival event",
-      "description_en": ""
+      "description_en": "0: Died from other causes or still alive; 1: Died from the first cancer diagnosed; 9: Unknown (not linked to death cause file, outpatient/ED, inpatient, insured file); Blank indicates not the first cancer."
     },
     {
       "seq": 28,
@@ -371,7 +371,7 @@
       "description_zh": "0：存活(無死因紀錄)； 1：死亡(有死因紀錄)； 9：未知(沒有串到死因檔、 門急診、住院、承保檔)。",
       "available_notes": [],
       "name_zh_en": "whether overall survival event occurred",
-      "description_en": ""
+      "description_en": "0:surviving(no death cause record)； 1:deceased(with death cause record)； 9:unknown(no linked death cause file, outpatient/ED, inpatient, insured file)."
     },
     {
       "seq": 29,
@@ -395,7 +395,7 @@
       "description_zh": "當診斷日期(DIAGDAY)的 日有missing 的情況，考慮 以死亡日期 (Death_D_DATE)或隨機數 字填補的方式，以便與追蹤 日期計算出存活時間。詳欄 位(變項)譯碼(四)填補後的 癌症診斷日期。",
       "available_notes": [],
       "name_zh_en": "filled cancer diagnosis date",
-      "description_en": ""
+      "description_en": "When the diagnosis date (DIAGDAY) is missing for the day, consider using death date (Death_D_DATE) or random numbers to fill in, so as to calculate survival time with follow-up dates. Detail field (variable) code (four) filled cancer diagnosis date."
     },
     {
       "seq": 31,
@@ -407,7 +407,7 @@
       "description_zh": "有串到死因檔的病患為死亡 時間(Death_D_DATE)；沒 有串到死因檔的病患為門急 診、住院、承保檔最後一次 紀錄的日期。詳欄位(變項) 譯碼(五)最後追蹤時間。",
       "available_notes": [],
       "name_zh_en": "last follow-up time",
-      "description_en": ""
+      "description_en": "Patients who linked to the cause of death file are recorded as the date of death (Death_D_DATE); those not linked have their record date as the last outpatient/ED, inpatient, or coverage file entry."
     },
     {
       "seq": 32,
@@ -419,7 +419,7 @@
       "description_zh": "最後追蹤時間(flw_up_date) 來自哪一個資料庫。 death：死因檔； opdte：門急診；",
       "available_notes": [],
       "name_zh_en": "database for last follow-up date",
-      "description_en": ""
+      "description_en": "last follow-up date (flw_up_date) from which database. death: cause of death file; opdte: outpatient/ED"
     },
     {
       "seq": 33,
@@ -431,7 +431,7 @@
       "description_zh": "從adj_diag_dt 到 flw_up_date的天數。 –9：不符合紀錄檢誤的情 況。詳欄位(變項)譯碼(四) 填補後的癌症診斷日期和 (五)最後追蹤時間。",
       "available_notes": [],
       "name_zh_en": "Survival time (unit: days)",
-      "description_en": ""
+      "description_en": "number of days from adj_diag_dt to follow-up date. -9: does not meet record error checking conditions. Details in variable coding (4) fill-in cancer diagnosis date and (5) final follow-up time."
     },
     {
       "seq": 34,
@@ -443,7 +443,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Acute Myocardial Infraction (AMI)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 35,
@@ -455,7 +455,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "History of Old Myocardial Infraction (Old MI)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 36,
@@ -467,7 +467,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is congestive heart failure (CHF)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 37,
@@ -479,7 +479,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Peripheral vascular disease (PVD)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 38,
@@ -503,7 +503,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Chronic obstructive pulmonary disease (COPD)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 40,
@@ -515,7 +515,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Dementia",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 41,
@@ -527,7 +527,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "是否有 Paralysis",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 42,
@@ -538,8 +538,8 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "No diabetes without chronic complications (DM W/O CC).",
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 43,
@@ -551,7 +551,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Diabetes with chronic complication (DM W CC)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 44,
@@ -563,7 +563,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "是否有 Chronic renal failure (renal disease) (CRF)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 45,
@@ -574,8 +574,8 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Cirrhosis/chronic hepatitis (mild liver disease) (HBV, HCV, mild LD) present or not",
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 46,
@@ -587,7 +587,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Moderate -Server Liver Disease (M S LD) present?",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 47,
@@ -599,7 +599,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is ulcer (peptic ulcer disease)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 48,
@@ -611,7 +611,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Whether there is Rheumatic disease (RD)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 49,
@@ -635,7 +635,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "是否有 Uncomplicated Hypertension (HT UC)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 51,
@@ -647,7 +647,7 @@
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Whether there is Hypertension, complicated (HT C)",
-      "description_en": ""
+      "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
       "seq": 52,
@@ -671,7 +671,7 @@
       "description_zh": "若欄位 Screening_record_1 =1，則本欄位的值依據大腸 癌 確 診 檔 的 診 斷 結 果 (CONFIRMRESULT)定為 0：正常； 1：痔瘡； 2：潰瘍性大腸炎；",
       "available_notes": [],
       "name_zh_en": "diagnosis result for colorectal cancer confirmed case",
-      "description_en": ""
+      "description_en": "If Screening_record_1 = 1, then the value of this field is determined by the colorectal cancer diagnosis record's confirmation result (CONFIRMRESULT): 0: normal; 1: hemorrhoids; 2: ulcerative colitis;"
     }
   ],
   "codebooks": {
@@ -701,7 +701,7 @@
         {
           "code": "5",
           "label_zh": "Cerebrovascular disease 430.x-438.x ComD5_CVD 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 癌症主檔之欄位 名稱",
-          "label_en": ""
+          "label_en": "Cerebrovascular disease 430.x-438.x ComD5_CVD Establish a health big data thematic database and integrated analysis - establish a precision medical theme database for cancer (I) Version date: 20251230 Cancer main file field names"
         },
         {
           "code": "6",
@@ -751,7 +751,7 @@
         {
           "code": "16",
           "label_zh": "AIDS 042.x-044x ComD16_AIDS 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (八) Definitions of comorbidities+ ICD-10-CM",
-          "label_en": ""
+          "label_en": "AIDS 042.x-044x ComD16_AIDS establishing a health big data thematic database and integrated analysis—establishing an精准医疗主题式数据库 for cancer(I) version date:202512/30 (eight) Definitions of comorbidities+ ICD-10-CM"
         },
         {
           "code": "2015",
@@ -782,7 +782,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-12-30",
   "name_zh_from_listing": "Health82_大腸直腸癌主題式資料庫",
-  "data_description_en": "",
+  "data_description_en": "The colorectal cancer cohort database includes all information from every colorectal cancer patient recorded in the 1979-2022 Cancer Registry Report (H_BHP_CRSSC), including detailed records in the long form LF, short form SF, and TCDB, as well as claims data and death certificate combined files. It also includes a colon cancer screening file for integrated use with the colorectal cancer cohort database.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "colorectal cancer theme database"
