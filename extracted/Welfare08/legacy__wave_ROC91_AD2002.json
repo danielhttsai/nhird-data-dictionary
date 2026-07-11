@@ -27,8 +27,8 @@
       "length": 2,
       "description_zh": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Age (calculated in completed years)",
+      "description_en": "1 15-17 years old 2 18-24 years old 3 25-34 years old 4 35-44 years old 5 45-54 years old 6 55-64 years old 99 Refused to answer"
     },
     {
       "seq": 2,
@@ -39,7 +39,7 @@
       "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 99 拒答 (非原住民與榮民榮眷的受 訪者，通通規入一般住民)",
       "available_notes": [],
       "name_zh_en": "patient",
-      "description_en": ""
+      "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 General residents 89 Don't know 99 Refused to answer (respondents who are neither indigenous nor veterans/veterans' dependents are all classified as general residents)"
     },
     {
       "seq": 3,
@@ -50,7 +50,7 @@
       "description_zh": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 99 不知道/拒答",
       "available_notes": [],
       "name_zh_en": "education level",
-      "description_en": ""
+      "description_en": "1 Elementary school or below 2 Junior high/vocational school 3 Senior high/vocational school 4 Junior college 5 College/university 6 Graduate school or above 99 Don't know/refused"
     },
     {
       "seq": 4,
@@ -61,7 +61,7 @@
       "description_zh": "1 已婚，目前有配偶 2 已婚，目前未離婚但分 居 3 目前與人同居(含已離婚 、喪偶或未離婚而與他 人同居者) 4 曾同居，但目前分居 5 曾結婚，目前為離婚 6 曾結婚或同居，目前為 喪偶 7 未婚",
       "available_notes": [],
       "name_zh_en": "marital status",
-      "description_en": ""
+      "description_en": "1 Married, currently has spouse 2 Married, not divorced but separated 3 Currently cohabiting (including divorced, widowed, or not yet divorced persons cohabiting with another person) 4 Previously cohabited, currently separated 5 Previously married, currently divorced 6 Previously married or cohabited, currently widowed 7 Never married"
     },
     {
       "seq": 5,
@@ -83,7 +83,7 @@
       "description_zh": "1 很好 2 還算好 3 普通 4 不太好 5 很不好 99 很難說或拒答 7~9 重大困擾_第一項 重大困擾_第二項 重大困擾_第三項 Q7_1 Q7_2 Q7_3 Char 2 1 自己健康問題 2 家人健康問題 3 自己工作問題 4 家人工作問題 5 經濟問題 6 人身安全問題 7 家庭暴力問題 8 夫妻相處問題 9 公婆妯娌相處問題 10 與其他家人相處問題 11 與娘家家人相處問題 12 家中一般兒童照顧問題 13 患病家人照顧問題 14 子女教育或溝通問題 15 自己學業問題 16 自己的愛情或結婚問題 17 自己的生育問題 18 居住問題 65 其他(請說明)",
       "available_notes": [],
       "name_zh_en": "physical and mental health condition",
-      "description_en": ""
+      "description_en": "1 Very good 2 Fairly good 3 Average 4 Not very good 5 Very poor 99 Hard to say/refused | Q7-9: Major difficulty item 1 / item 2 / item 3 Q7_1 Q7_2 Q7_3 Char 2 1 Own health problems 2 Family health problems 3 Own work problems 4 Family member's work problems 5 Financial problems 6 Personal safety problems 7 Domestic violence problems 8 Spousal relationship problems 9 Relationship problems with in-laws 10 Problems getting along with other family members 11 Problems getting along with natal family members 12 General childcare problems at home 13 Care problems for sick family members 14 Children's education or communication problems 15 Own academic problems 16 Own romance or marriage problems 17 Own fertility problems 18 Housing problems 65 Other (please specify)"
     },
     {
       "seq": 10,
@@ -115,8 +115,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Disability handbook; III. Work status",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 13,
@@ -170,7 +170,7 @@
       "length": 2,
       "description_zh": "1 未滿 4小時 2 4-(未滿)6小時 3 6-(未滿)8小時 4 8-(未滿)10個小時 5 10 個小時以上 89 不知道 99拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Average daily working hours IV. Income status",
       "description_en": "1 Less than 4 hours 2 4-under 6 hours 3 6-under 8 hours 4 8-under 10 hours 5 10+ hours 89 Don't know 99 Refused"
     },
     {
@@ -181,7 +181,7 @@
       "length": 2,
       "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Average monthly income (including salary, business profit, interest, rent, investment income, pension, relief allowance, support money from children, etc.)",
       "description_en": "1 No income 2 NT$20,000 or less 3 NT$20,000~39,999 4 NT$40,000~59,999 5 NT$60,000~79,999 6 NT$80,000~99,999 7 NT$100,000 and above 89 Don't know 99 Refused"
     },
     {
@@ -192,8 +192,8 @@
       "length": 2,
       "description_zh": "1 8(含)成以上 2 6(含)至8成 3 4(含)至6成 4 2(含)至4成 5 2成以下 89 不知道 98 NO(無) 99 拒答 20~ 29 目前和哪些人住在一 起(複選題) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 獨居 2 配偶(含同居人) 3 父母(公婆) 4 未婚子女 5 祖父(母) 6 已婚子女(含其配偶) 7 孫子女 8 兄弟姊妹",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "What percentage of income is used for the family (for those working outside, including the portion brought back for family use) V. Family status",
+      "description_en": "1 80% (inclusive) or more 2 60% (inclusive) to 80% 3 40% (inclusive) to 60% 4 20% (inclusive) to 40% 5 Under 20% 89 Don't know 98 NO (none) 99 Refused to answer 20~ 29 Who do you currently live with (multiple choice) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 Living alone 2 Spouse (including cohabiting partner) 3 Parents (parents-in-law) 4 Unmarried children 5 Grandparent(s) 6 Married children (including their spouse) 7 Grandchildren 8 Siblings"
     },
     {
       "seq": 30,
@@ -214,7 +214,7 @@
       "length": 2,
       "description_zh": "1 本人(自己) 2 丈夫 3 夫妻共管 4 父母(公婆) 5 子女、媳婦 6 祖父(母) 65 其他(請說明) 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main person who allocates/manages family finances",
       "description_en": "1 Self 2 Husband 3 Jointly managed by couple 4 Parents (parents-in-law) 5 Children, daughter-in-law 6 Grandparent 65 Other (please specify) 89 Don't know 99 Refused"
     },
     {
@@ -225,8 +225,8 @@
       "length": 2,
       "description_zh": "1 5千元以下 2 5千(含)~1萬以下 3 1(含)~2萬以下 4 2(含)~4萬以下 5 4(含)萬以上 6 沒有自由使用的金錢 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Average monthly amount available for free use (for students studying away from home, excluding basic living expenses for food, clothing, housing, and transportation)",
+      "description_en": "1 NT$5,000 or less 2 NT$5,000 (inclusive) to under 10,000 3 NT$10,000 (inclusive) to under 20,000 4 NT$20,000 (inclusive) to under 40,000 5 NT$40,000 (inclusive) or more 6 No money for free use 89 Don't know 99 Refused to answer"
     },
     {
       "seq": 33,
@@ -236,7 +236,7 @@
       "length": 2,
       "description_zh": "0 無 1 1人 2 2人 3 3人 4 4人 5 5人 6 6人以上(請訪員紀錄在",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "How many children under 12 (not asked of those living alone)",
       "description_en": "0: None, 1: 1 person, 2: 2 people, 3: 3 people, 4: 4 people, 5: 5 people, 6: 6 or more (interviewer to record in"
     },
     {
@@ -280,8 +280,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Persons with physical/mental disabilities or major illnesses",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 38,
@@ -357,8 +357,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Persons with physical/mental disabilities or major illnesses",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 45,
@@ -434,8 +434,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Persons with physical/mental disabilities or major illnesses",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 52,
@@ -500,7 +500,7 @@
       "length": 2,
       "description_zh": "1 未滿3歲 2 3-5歲 3 6-11歲 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "How old is this child?",
       "description_en": "1 Under 3 years old 2 3-5 years old 3 6-11 years old 99 Refused"
     },
     {
@@ -511,8 +511,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Persons with physical/mental disabilities or major illnesses",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 59,
@@ -533,7 +533,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "This child, at home,",
       "description_en": "0 no secondary caregiver"
     },
     {
@@ -588,8 +588,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Persons with physical/mental disabilities or major illnesses",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 66,
@@ -918,7 +918,7 @@
       "length": 2,
       "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Primary provider of general household chores",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent"
     },
     {
@@ -929,7 +929,7 @@
       "length": 2,
       "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母)(公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Secondary provider of general household chores",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses)"
     },
     {
@@ -940,7 +940,7 @@
       "length": 2,
       "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽 媽) 6 丈夫的父(母) (公公、婆 婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或 其配偶) 8 丈夫的兄弟姊妹或其配 偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女 兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Tertiary provider of general household chores",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses) 8 Husband's siblings or their spouses (brother-in-law, sister-in-law) 9 Children or their spouses (son, daughter, daughter-in-law, son-in-law) 10 Grandchildren or their spouses (grandson, granddaughter, grandson's wife, granddaughter's husband)"
     },
     {
@@ -951,8 +951,8 @@
       "length": 2,
       "description_zh": "1 1小時以下 2 1(含)~2小時以下 3 2(含)~3小時以下 4 3(含)~4小時以下 5 4(含)小時以上 88 無 99 不知道/拒答 99~ 101 先 生 最 常 做的 家 事 (最多可選三項) (限問 有配偶或同居者) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 清洗與整理衣物 2 準備三餐與點心 3 餐後清洗整理餐具 4 金錢管理 5 照顧家人生活 6 清掃整理家庭 7 指導子女課業 8 家庭維修工作 9 購買食物及日常用品 10 處理垃圾 11 NO(無配偶或同居者) 65 其他(請說明) 88 均無 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Average amount of time spent doing housework",
+      "description_en": "1 1 hour or less 2 1 (inclusive) to under 2 hours 3 2 (inclusive) to under 3 hours 4 3 (inclusive) to under 4 hours 5 4 (inclusive) hours or more 88 None 99 Don't know/refused 99~ 101 Household chores the husband does most often (up to 3 choices) (only asked if has spouse or cohabiting partner) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 Washing and organizing clothes 2 Preparing meals and snacks 3 Washing dishes after meals 4 Money management 5 Taking care of family members 6 Cleaning and tidying the home 7 Helping children with schoolwork 8 Home repair work 9 Buying food and daily necessities 10 Handling garbage 11 NO (no spouse or cohabiting partner) 65 Other (please specify) 88 None 99 Refused to answer"
     },
     {
       "seq": 102,
@@ -962,8 +962,8 @@
       "length": 2,
       "description_zh": "1 1/4以下 2 1/4(含)~1/2以下 3 1/2(含)~3/4及以下 4 3/4(含)以上",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Extent to which the husband does housework (asked only if the respondent has a spouse or cohabiting partner)",
+      "description_en": "1 1/4 or less 2 1/4 (inclusive) to under 1/2 3 1/2 (inclusive) to 3/4 or less 4 3/4 (inclusive) or more"
     },
     {
       "seq": 103,
@@ -974,7 +974,7 @@
       "description_zh": "1 很滿意 2 還算滿意 3 不太滿意 4 很不滿意 89 無意見或不知道 99 拒答 六、社會參與及休閒狀況 104 ~ 106 最常關心下列哪些資 訊(逐項提示，最多可 選三項) Q25_1 Q25_2 Q25_3 Char 2 1 政治與國際情勢 2 投資理財及財政金融 3 社會治安 4 醫療保健 5 休閒娛樂與運動 6 家庭生活(如育嬰、烹飪 等) 7 文化教育 8 科技資訊 9 兩性關係 10 環保議題 11 社區參與及志願服務 12 宗教信仰 65 其他(請說明) 89 無意見或不知道 99 拒答 107 ~ 109 從事那種性質的休閒 活動(逐項提示，最多 可選三項) Q26_1 Q26_2 Q26_3 Char 2 1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 65 其他(請說明) 88 沒有休閒活動 89 無意見或不知",
       "available_notes": [],
       "name_zh_en": "satisfaction with family life",
-      "description_en": ""
+      "description_en": "1 Very satisfied 2 Fairly satisfied 3 Not very satisfied 4 Very dissatisfied 89 No opinion or don't know 99 Refused | VI. Social participation and leisure status | Q104-106: Which of the following information do you care about most (prompt item by item, up to 3 choices) Q25_1 Q25_2 Q25_3 Char 2 1 Political and international affairs 2 Investment, finance and banking 3 Public safety 4 Healthcare 5 Leisure and sports 6 Family life (e.g. childcare, cooking) 7 Culture and education 8 Science and technology 9 Gender relations 10 Environmental issues 11 Community participation and volunteer service 12 Religious belief 65 Other (please specify) 89 No opinion or don't know 99 Refused | Q107-109: What kind of leisure activities do you engage in (prompt item by item, up to 3 choices) Q26_1 Q26_2 Q26_3 Char 2 1 Cultural 2 Physical 3 Artistic 4 Social 5 Religious 6 Recreational 65 Other (please specify) 88 No leisure activities 89 No opinion or don't know"
     },
     {
       "seq": 110,
@@ -1017,7 +1017,7 @@
       "length": 2,
       "description_zh": "1 0-10個小時",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Average monthly participation in volunteer service",
       "description_en": "1 0-10 hours"
     },
     {
@@ -1028,8 +1028,8 @@
       "length": 2,
       "description_zh": "1 否 2 是 99 拒答 131 ~ 139 使用電腦從事下列活 動(逐項提示，可複選) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 上網查詢 2 收發電子郵件 3 設計分析工作 4 電腦遊戲 5 網路採購 6 網路交談 7 文書處理 8 理財試算 65 其他(請說明) 99 拒答 140 ~ 144 曾經在家庭、工作場所 或出門在外遭遇過暴 力、性騷擾、虐待、被 迫吸毒等不好的經驗 (可複選) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 遭受配偶暴力 2 遭受配偶精神虐待 3 遭受其他家人暴力 4 遭受其他家人精神虐待 5 遭受丈夫惡意遺棄或被 迫離婚 6 被他人強暴 7 在工作場所中遭受性騷 擾",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Have used a computer 8. Special experiences",
+      "description_en": "1 No 2 Yes 99 Refused to answer 131~139 Activities performed using a computer (prompted item by item, multiple choice) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 Browsing the internet 2 Sending/receiving email 3 Design/analysis work 4 Computer games 5 Online shopping 6 Online chatting 7 Word processing 8 Financial calculations 65 Other (please specify) 99 Refused to answer 140~144 Have experienced bad experiences such as violence, sexual harassment, abuse, or forced drug use at home, in the workplace, or while out (multiple choice) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 Suffered spousal violence 2 Suffered spousal psychological abuse 3 Suffered violence from other family members 4 Suffered psychological abuse from other family members 5 Suffered malicious abandonment by husband or forced divorce 6 Was raped by another person 7 Suffered sexual harassment in the workplace"
     },
     {
       "seq": 145,
@@ -1050,7 +1050,7 @@
       "length": 2,
       "description_zh": "1 經常使用 2 偶而使用 3 未曾使用 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Frequency of using the women's service center",
       "description_en": "1 Frequently used 2 Occasionally used 3 Never used 99 Refused"
     },
     {
@@ -1204,8 +1204,8 @@
       "length": 1,
       "description_zh": "1 北部地區 2 中部地區 3 南部地區 4 東部地區 5 金馬地區",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Question items not included in the region-specific questionnaire",
+      "description_en": "1 Northern region 2 Central region 3 Southern region 4 Eastern region 5 Kinmen-Matsu region"
     },
     {
       "seq": 172,
@@ -1216,7 +1216,7 @@
       "description_zh": "1 成功訪問 2 一開始就拒答 3 中途拒答 4 約訪但未完成 5 無合格受訪者 6 空號 7 公司行號 8 傳真 9 無人接聽",
       "available_notes": [],
       "name_zh_en": "interview status",
-      "description_en": ""
+      "description_en": "1 Successful interview 2 Refused from the start 3 Refused midway 4 Appointment made but not completed 5 No qualified respondent 6 Invalid number 7 Business/company number 8 Fax number 9 No answer"
     },
     {
       "seq": 173,
@@ -1227,7 +1227,7 @@
       "description_zh": "1 台北縣 2 宜蘭縣 3 桃園縣 4 新竹縣 5 苗栗縣 6 台中縣 7 彰化縣 8 南投縣",
       "available_notes": [],
       "name_zh_en": "county city",
-      "description_en": ""
+      "description_en": "1 Taipei County 2 Yilan County 3 Taoyuan County 4 Hsinchu County 5 Miaoli County 6 Taichung County 7 Changhua County 8 Nantou County"
     },
     {
       "seq": 174,
@@ -1315,7 +1315,7 @@
       "description_zh": "1 北部地區 2 中部地區 3 南部地區 4 東部地區 5 金馬地區 註:此欄位與LOCAT重複",
       "available_notes": [],
       "name_zh_en": "Region",
-      "description_en": ""
+      "description_en": "1 Northern region 2 Central region 3 Southern region 4 Eastern region 5 Kinmen-Matsu region Note: This field duplicates LOCAT"
     },
     {
       "seq": 182,
@@ -1326,7 +1326,7 @@
       "description_zh": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲 註:此欄位與Q1重複",
       "available_notes": [],
       "name_zh_en": "age (full years)",
-      "description_en": ""
+      "description_en": "1 15-17 years old 2 18-24 years old 3 25-34 years old 4 35-44 years old 5 45-54 years old 6 55-64 years old Note: This field duplicates Q1"
     },
     {
       "seq": 183,
@@ -1337,7 +1337,7 @@
       "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 註:此欄位與Q2重複",
       "available_notes": [],
       "name_zh_en": "patient",
-      "description_en": ""
+      "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 General residents 89 Don't know Note: This field duplicates Q2"
     },
     {
       "seq": 184,
@@ -1348,7 +1348,7 @@
       "description_zh": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 註:此欄位與Q3重複",
       "available_notes": [],
       "name_zh_en": "education level",
-      "description_en": ""
+      "description_en": "1 Elementary school or below 2 Junior high/vocational school 3 Senior high/vocational school 4 Junior college 5 College/university 6 Graduate school or above Note: this field duplicates Q3"
     },
     {
       "seq": 185,
@@ -1359,7 +1359,7 @@
       "description_zh": "1 佛教 2 道教 3 基督教 4 天主教 5 一貫道",
       "available_notes": [],
       "name_zh_en": "religious belief",
-      "description_en": ""
+      "description_en": "1 Buddhism 2 Taoism 3 Christianity 4 Catholicism 5 Yiguandao"
     },
     {
       "seq": 186,

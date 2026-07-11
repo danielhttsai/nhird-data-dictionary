@@ -556,7 +556,7 @@
       "description_zh": "0：需要 2：需要，且已經改裝完畢 3：需要，但尚未改裝完畢 62 居家是否需要無障 礙 設 施 (2) 室 內 扶 手， 是否改裝完畢 B15G_2",
       "available_notes": [],
       "name_zh_en": "Whether the home needs accessible facilities (1) Bathroom fixtures, whether renovation is complete",
-      "description_en": ""
+      "description_en": "0: Needed 2: Needed, and already modified 3: Needed, but not yet modified 62 Whether home needs accessible facilities (2) Indoor handrails, whether modification completed B15G_2"
     },
     {
       "seq": 63,
@@ -754,7 +754,7 @@
       "description_zh": "0：無次要 1：玩電腦、電視遊樂器 2：看電影、戲劇、藝文展覽 3：聽音樂 4：看電視、錄影帶 5：郊遊、登山、健行、釣魚 6：球類運動、國術、打拳 7：游泳 8：閱讀書報雜誌 9：舞蹈、彈奏樂器、吟唱 10：打牌、下棋 11：園藝、手工藝 12：逛街 13：聊天 14：旅行(在外過夜) 15：書法、繪畫、攝影 16：看 MTV、VCD/DVD、唱卡拉 OK(KTV) 17：散步 18：其他 19：幾乎沒有從事休閒活動 20：無法從事休閒活動",
       "available_notes": [],
       "name_zh_en": "What is your secondary leisure activity",
-      "description_en": ""
+      "description_en": "0: No secondary activity 1: Playing computer/video games 2: Watching movies, theater, art exhibitions 3: Listening to music 4: Watching TV/videos 5: Outings, mountain climbing, hiking, fishing 6: Ball sports, martial arts, boxing 7: Swimming 8: Reading books/newspapers/magazines 9: Dancing, playing instruments, singing 10: Playing cards, chess 11: Gardening, handicrafts 12: Shopping 13: Chatting 14: Traveling (overnight) 15: Calligraphy, painting, photography 16: Watching MTV/VCD/DVD, karaoke (KTV) 17: Walking 18: Other 19: Almost no leisure activities 20: Unable to engage in leisure activities"
     },
     {
       "seq": 92,
@@ -919,7 +919,7 @@
       "description_zh": "譯 碼 同 欄 位 C211 0：無次要者不適用",
       "available_notes": [],
       "name_zh_en": "secondary method",
-      "description_en": ""
+      "description_en": "Coding same as field C211. 0: No secondary item, not applicable"
     },
     {
       "seq": 115,
@@ -941,7 +941,7 @@
       "description_zh": "譯碼同欄位 C211",
       "available_notes": [],
       "name_zh_en": "re-marriage preference",
-      "description_en": ""
+      "description_en": "Coding same as field C211"
     },
     {
       "seq": 117,
@@ -952,7 +952,7 @@
       "description_zh": "開放式填答 0：表未有交通支出",
       "available_notes": [],
       "name_zh_en": "For your outings, the average monthly transportation cost for you and your companion is about ___ yuan",
-      "description_en": ""
+      "description_en": "Open-ended response 0: Indicates no transportation expenses"
     },
     {
       "seq": 118,
@@ -2525,7 +2525,7 @@
       "description_zh": "0：無回答 1：職能治療 2：物理治療 3：語言治療 4：心理諮商 288 F35_2 289 F35_3 290 F35_4",
       "available_notes": [],
       "name_zh_en": "What type of rehabilitation treatment is needed",
-      "description_en": ""
+      "description_en": "0: No answer 1: Occupational therapy 2: Physical therapy 3: Speech therapy 4: Psychological counseling 288 F35_2 289 F35_3 290 F35_4"
     },
     {
       "seq": 293,
@@ -3174,7 +3174,7 @@
       "description_zh": "停車位補助 24：社會保險費補助 25：身障者或子女就學費用補助 26：公私立幼稚園學雜費補助 27：創業貸款補助 28：所得稅身心障礙特別扣除額 29：國民年金身心障礙基本保證年金 30：定向行動訓練服務 31：手語翻譯服務 32：人身安全保護 34：搭乘公民營公共交通工具或進入 收費之風景區、康樂場所或文教設施 優待 35：核發身心障礙者專用停車位識別 證或專用車牌 36：復康巴士 37：無障礙生活環境設施及設備 39：公益彩券經銷商之申請 40：承租商店攤位登記經營 41：保障身心障礙就業及合理薪資無 意見者為不適用 98：不知道/拒絕 99：不需要 0：無次要、再次或第二、第三優先",
       "available_notes": [],
       "name_zh_en": "Of the welfare services listed above (Question 41), which livelihood welfare measures do you think the government should prioritize (first choice)",
-      "description_en": ""
+      "description_en": "Parking space subsidy 24: Social insurance premium subsidy 25: Tuition subsidy for persons with disabilities or their children 26: Public/private kindergarten tuition and fee subsidy 27: Business start-up loan subsidy 28: Special income tax deduction for persons with disabilities 29: National Pension disability basic guaranteed pension 30: Orientation and mobility training service 31: Sign language interpretation service 32: Personal safety protection 34: Discounted fares/admission for public/private transportation, or entry to fee-charging scenic areas, recreational venues, or cultural/educational facilities 35: Issuance of a disabled parking permit or dedicated license plate 36: Rehabus (accessible transport service) 37: Barrier-free living environment facilities and equipment 39: Application for public welfare lottery dealership 40: Registration to lease and operate a store/stall 41: Protection of employment and reasonable wages for persons with disabilities; no opinion means not applicable 98: Don't know/refuse 99: Not needed 0: No secondary, subsequent, or second/third priority"
     },
     {
       "seq": 368,
@@ -3955,7 +3955,7 @@
       "description_zh": "0：若 L67 填答「1：接受僱用」，本 題不適用 1：提供創業補助 2：提供適合身心障礙者創業資訊 3：提供創業諮詢與輔導 4：其他(請說明) 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "For starting your own business, what kind of government assistance would you like",
-      "description_en": ""
+      "description_en": "0: Not applicable if L67 answered \"1: Accepted employment\" 1: Provide entrepreneurship subsidy 2: Provide entrepreneurship information suitable for persons with disabilities 3: Provide entrepreneurship consulting and guidance 4: Other (please specify) 98: Don't know/refused"
     },
     {
       "seq": 467,

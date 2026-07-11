@@ -50,7 +50,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符 合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": ""
+      "description_en": "0: National ID number matches coding rules 1: Does not match"
     },
     {
       "seq": 4,
@@ -105,7 +105,7 @@
       "description_zh": "分類 Now_SS 受訪者之戶籍地依縣市別分類 詳見「台灣地區各縣市名稱及代碼 9 Char 2 Reg_CC 表」譯碼說明 受訪者之現住地依縣市別分類 詳見「台灣地區各縣市名稱及代碼 10 Char 2 Now_CC 表」譯碼說明 受訪者之戶籍地依行政區層級別",
       "available_notes": [],
       "name_zh_en": "Char",
-      "description_en": ""
+      "description_en": "Classification Now_SS Respondent's household registration location classified by county/city, see the coding notes in the \"Taiwan Region County/City Names and Codes 9 Char 2 Reg_CC Table\" Respondent's current residence classified by county/city, see the coding notes in the \"Taiwan Region County/City Names and Codes 10 Char 2 Now_CC Table\" Respondent's household registration location classified by administrative district level"
     },
     {
       "seq": 9,
@@ -369,7 +369,7 @@
       "description_zh": "人數 Asec8父.母親教育程度",
       "available_notes": [],
       "name_zh_en": "\"Currently including himself/herself\", how many people in total live together with him/her?",
-      "description_en": ""
+      "description_en": "Number of people Asec8 Father/Mother's education level"
     },
     {
       "seq": 33,
@@ -380,7 +380,7 @@
       "description_zh": "人數 34 \"目前包含您自己在內\"，和您住在 一起的總共有幾個人？ 人數 A5b Char 4 Asec6婚姻狀況 35 請問您目前的婚姻狀況是未婚、已 婚且先生/太太同住或是其他什麼 樣的情況？ 0:從未結婚, 1:已婚，目前與配偶同 住(指一年中6個月以上時間同住), 2:已婚，現在未經常與配偶同住(指一 年中同住時間少於6個月), 3:目前已(正式)分居, 4:離婚(未再 婚), 5:喪偶(未再婚), 6:其他 A6a Char 4 36 請問您的先生/太太出生時是否為 本國人？ 1:本國人 (包含雙重國籍), 2:非本國人但目前已歸化 (曾為外國 籍但目前已歸化本國籍者), 3:非本國人 (未持有本國身分證之外 籍人士或持有外僑居留證、永久居留 證、申請入境停留、居留及定居本國 者) A6b Char 4 37 請問您的先生/太太是閩南人、客 1:本省閩南人, 2:本省客家人, 3:大 A6b_1 Char 4",
       "available_notes": [],
       "name_zh_en": "Living with other non-relatives besides peers",
-      "description_en": ""
+      "description_en": "Number of people 34 \"Currently including yourself\", how many people in total live with you? Number of people A5b Char 4 Asec6 Marital Status 35 What is your current marital status: unmarried, married and living with husband/wife, or some other situation? 0: Never married, 1: Married, currently living with spouse (meaning living together 6 or more months within the year), 2: Married, currently not regularly living with spouse (meaning living together less than 6 months within the year), 3: Currently (formally) separated, 4: Divorced (not remarried), 5: Widowed (not remarried), 6: Other A6a Char 4 36 Was your husband/wife a national of this country at birth? 1: National of this country (including dual nationality), 2: Not a national of this country but currently naturalized (formerly of foreign nationality but now naturalized to this country's nationality), 3: Not a national of this country (a foreign national without a national ID card, or holding an alien resident certificate, permanent resident certificate, or applying for entry, stay, residence, and settlement in this country) A6b Char 4 37 Is your husband/wife Hoklo, Hakka 1: Hoklo (provincial), 2: Hakka (provincial), 3: Mainland A6b_1 Char 4"
     },
     {
       "seq": 34,
@@ -2613,7 +2613,7 @@
       "description_zh": "天數 Bsec6交通事故",
       "available_notes": [],
       "name_zh_en": "How many days did this inability to go out as usual last? (Including days hospitalized due to this incident)",
-      "description_en": ""
+      "description_en": "Number of days Bsec6 Traffic accident"
     },
     {
       "seq": 237,
@@ -6056,7 +6056,7 @@
       "description_zh": "份數 Dsec10運動",
       "available_notes": [],
       "name_zh_en": "On days you eat vegetables, how many servings do you eat on average per day? \"(1 serving of cooked vegetables is about 1/2 rice bowl; 1 serving of raw leafy greens is about 1 rice bowl)\"",
-      "description_en": ""
+      "description_en": "Count Dsec10 Exercise"
     },
     {
       "seq": 550,
@@ -6111,7 +6111,7 @@
       "description_zh": "天數 Dsec12日常生活行為",
       "available_notes": [],
       "name_zh_en": "\"In the past week,\" on how many days did he engage in at least a total of 60 minutes of moderate-or-higher-intensity physical activity?",
-      "description_en": ""
+      "description_en": "Number of days Dsec12 Daily life behavior"
     },
     {
       "seq": 555,
@@ -6353,7 +6353,7 @@
       "description_zh": "分鐘 Dsec13二手菸及三手菸",
       "available_notes": [],
       "name_zh_en": "On \"holidays,\" about how many hours does he spend on average \"per week\" on \"cram school/tutoring\" [mainly academics and quiet extracurricular activities, e.g. calligraphy, art, piano, after-school care, tutoring, etc.]? __ minutes",
-      "description_en": ""
+      "description_en": "Minutes Dsec13 Secondhand and thirdhand smoke"
     },
     {
       "seq": 577,
@@ -6430,7 +6430,7 @@
       "description_zh": "天數 您\"最近這一次\"跌倒/跌落/墜落之後，是否已經會採取下列其中一項措施以預防發生跌倒？ 【逐項探問，可複選】(D1o_a～D1o_j)",
       "available_notes": [],
       "name_zh_en": "How many days did this situation of being unable to go out as usual last? \"(including days hospitalized due to this incident)\"",
-      "description_en": ""
+      "description_en": "Number of days. After your \"most recent\" fall/slip/drop, have you already taken any of the following measures to prevent falling? [Ask item by item, multiple choice allowed] (D1o_a~D1o_j)"
     },
     {
       "seq": 584,
@@ -6485,7 +6485,7 @@
       "description_zh": "天數 \"過去一星期內\"，他在家的時候，是誰在他的面前吸菸呢? 【可複選】(D13e_a~D13e_h)",
       "available_notes": [],
       "name_zh_en": "\"In the past week\", when he/she was at home, on how many days did someone smoke in front of him/her?",
-      "description_en": ""
+      "description_en": "Number of days. \"In the past week\", when he/she was at home, who smoked in front of him/her? [Multiple choice allowed] (D13e_a~D13e_h)"
     },
     {
       "seq": 589,
@@ -7376,7 +7376,7 @@
       "description_zh": "天數 670 您還有沒有去做任何其他形式的 治療處理？ 0:沒有, 1:有 D2i Char 4 \"最近這一次\"有治療處理的\"燒燙傷\"發生時，您正在做什麼活動？【最多選2項】(D2j_a~D2j_k)",
       "available_notes": [],
       "name_zh_en": "How many days did you stay in the hospital?",
-      "description_en": ""
+      "description_en": "Number of days 670. Did you also receive any other form of treatment? 0: No, 1: Yes D2i Char 4. What activity were you doing when the most recent treated \"burn/scald\" occurred? [Up to 2 choices] (D2j_a~D2j_k)"
     },
     {
       "seq": 670,
@@ -7431,7 +7431,7 @@
       "description_zh": "天數 Dsec3交通安全",
       "available_notes": [],
       "name_zh_en": "How many days did this situation of being unable to go out as usual last? \"(including days hospitalized due to this incident)\"",
-      "description_en": ""
+      "description_en": "Number of days Dsec3 Traffic safety"
     },
     {
       "seq": 675,
@@ -8157,7 +8157,7 @@
       "description_zh": "天數 741 您還有沒有去做任何其他形式的 治療處理？ 0:沒有, 1:有 D4h Char 4 742 \"最近這一次\"交通事故發生時，您 是駕駛、乘客還是行人？ 1:機動車駕駛, 2:機動車乘客, 3:行 人, 4:腳踏車或三輪車騎士或乘客, 5:踏板車、滑板、溜冰鞋或其它非機 動交通工具使用者, 6:其他 D4i Char 4",
       "available_notes": [],
       "name_zh_en": "How many days did you stay in the hospital?",
-      "description_en": ""
+      "description_en": "Number of days 741. Did you also receive any other form of treatment? 0: No, 1: Yes D4h Char 4 742. At the time of the \"most recent\" traffic accident, were you the driver, passenger, or pedestrian? 1: Motor vehicle driver, 2: Motor vehicle passenger, 3: Pedestrian, 4: Bicycle or tricycle rider or passenger, 5: User of scooter, skateboard, roller skates or other non-motorized means of transport, 6: Other D4i Char 4"
     },
     {
       "seq": 741,
@@ -8278,7 +8278,7 @@
       "description_zh": "天數 Dsec5危險用路行為",
       "available_notes": [],
       "name_zh_en": "How many days did this situation of being unable to go out as usual last? \"(including days hospitalized due to this incident)\"",
-      "description_en": ""
+      "description_en": "Number of days Dsec5 Dangerous road-use behavior"
     },
     {
       "seq": 752,
@@ -11017,7 +11017,7 @@
       "description_zh": "吋 1001 【訪員填寫】這是口述還是實際測 量的？ 1:口述, 2:訪員實際測量 D11a_1 Char 4 1002 【訪員填寫】受訪者口述的腰圍數 據，是依據： 1:個案告知測量結果, 2:個案告知衣 物尺寸 D11a_1a Char 4 1003 【訪員填寫】個案腰圍採實際測 量，其測量方式為： 1:平貼著皮膚量, 2:隔著衣物量 D11a_2a Char 4",
       "available_notes": [],
       "name_zh_en": "What is your waist circumference in inches?",
-      "description_en": ""
+      "description_en": "Inches 1001 [Interviewer to fill in] Is this self-reported or actually measured? 1:Self-reported, 2:Actually measured by interviewer D11a_1 Char 4 1002 [Interviewer to fill in] The respondent's self-reported waist circumference is based on: 1:Subject reported the measurement result, 2:Subject reported clothing size D11a_1a Char 4 1003 [Interviewer to fill in] The subject's waist circumference was actually measured; the measurement method was: 1:Measured flat against the skin, 2:Measured over clothing D11a_2a Char 4"
     },
     {
       "seq": 1001,
@@ -11039,7 +11039,7 @@
       "description_zh": "份數 Dsec14工作時的身體活動",
       "available_notes": [],
       "name_zh_en": "On days you eat vegetables, how many servings do you eat on average per day? \"(1 serving of cooked vegetables is about 1/2 rice bowl, 1 serving of raw leafy greens is about 1 rice bowl)\"",
-      "description_en": ""
+      "description_en": "Count Dsec14 Physical activity while working"
     },
     {
       "seq": 1003,
@@ -11094,7 +11094,7 @@
       "description_zh": "公斤 1008 【訪員填寫】個案的身高數據是口 述還是實際測量的？ 1:口述, 2:實際測量 D11c_3a Char 4 1009 【訪員填寫】個案的體重數據是口 述還是實際測量的？ 1:口述, 2:實際測量 D11c_3b Char 4 1010 您大概多久量一次體重？ 1:幾乎每天量, 2:幾乎每週量, 3:幾 乎每月量, 4:2~3個月以上才量一次, 5:很少量 D11d Char 4 1011 請問您在\"過去一年\"中，沒有刻意 減肥或增重的情況下，體重是否有 改變的情形？(刻意減肥包括飲食 控制、運動) 【若有】是增加還是 減少？ 0:沒有, 1:有增加, 2:有減少 D11e Char 4 1012 那請問是增加_____公斤？【不便 說出請點特殊碼】 公斤 D11e_1 Char 4 1013 那請問是增加_____公斤？ 1:不到3公斤, 2:3~4.5公斤, 3:超過 4.5公斤 D11e_1a Char 4 1014 那請問是減少_____公斤？【不便 說出請點特殊碼】 公斤 D11e_2 Char 4 1015 那請問是減少_____公斤？ 1:不到3公斤, 2:3~4.5公斤, 3:超過 4.5公斤 D11e_2a Char 4 Dsec12體重控制",
       "available_notes": [],
       "name_zh_en": "What is your current weight?",
-      "description_en": ""
+      "description_en": "Kilograms 1008 [Interviewer to fill in] Is the subject's height data self-reported or actually measured? 1:Self-reported, 2:Actually measured D11c_3a Char 4 1009 [Interviewer to fill in] Is the subject's weight data self-reported or actually measured? 1:Self-reported, 2:Actually measured D11c_3b Char 4 1010 About how often do you weigh yourself? 1:Almost every day, 2:Almost every week, 3:Almost every month, 4:Only once every 2~3 months or longer, 5:Rarely D11d Char 4 1011 In the \"past year\", without deliberately trying to lose or gain weight (deliberate weight loss includes diet control and exercise), has your weight changed? [If yes] Did it increase or decrease? 0:No, 1:Increased, 2:Decreased D11e Char 4 1012 So how many kilograms did it increase by _____? [If unwilling to state, select the special code] kilograms D11e_1 Char 4 1013 So how many kilograms did it increase by _____? 1:Less than 3kg, 2:3~4.5kg, 3:Over 4.5kg D11e_1a Char 4 1014 So how many kilograms did it decrease by _____? [If unwilling to state, select the special code] kilograms D11e_2 Char 4 1015 So how many kilograms did it decrease by _____? 1:Less than 3kg, 2:3~4.5kg, 3:Over 4.5kg D11e_2a Char 4 Dsec12 Weight control"
     },
     {
       "seq": 1008,
@@ -11138,7 +11138,7 @@
       "description_zh": "分 Dsec15交通時的身體活動",
       "available_notes": [],
       "name_zh_en": "How long do you usually spend on \"moderate-intensity activity\" at work each day? ___ minutes",
-      "description_en": ""
+      "description_en": "Minutes Dsec15 Physical activity while commuting"
     },
     {
       "seq": 1012,
@@ -11215,7 +11215,7 @@
       "description_zh": "分 Dsec16休閒性身體活動",
       "available_notes": [],
       "name_zh_en": "How much time do you usually spend per day cycling for transportation/movement? ___ minutes",
-      "description_en": ""
+      "description_en": "Minutes Dsec16 Leisure-time physical activity"
     },
     {
       "seq": 1019,
@@ -11303,7 +11303,7 @@
       "description_zh": "分 Dsec17久坐情形",
       "available_notes": [],
       "name_zh_en": "How much time do you usually spend per day on \"moderate-intensity\" exercise, fitness, and leisure physical activity? ___ minutes",
-      "description_en": ""
+      "description_en": "Minutes Dsec17 Sedentary behavior"
     },
     {
       "seq": 1027,
@@ -11501,7 +11501,7 @@
       "description_zh": "分數 G.工作與經濟狀況 Gsec1工作狀況",
       "available_notes": [],
       "name_zh_en": "[Show the health-status scale card and let the respondent point to the spot that best represents their health today; the interviewer then records the score]",
-      "description_en": ""
+      "description_en": "Score G. Work and economic status Gsec1 Employment status"
     },
     {
       "seq": 1045,
@@ -11600,7 +11600,7 @@
       "description_zh": "小時 Gsec2全民健康保險",
       "available_notes": [],
       "name_zh_en": "How many hours do you usually work per week? (Including main and secondary jobs, excluding commuting time)",
-      "description_en": ""
+      "description_en": "Hours Gsec2 National Health Insurance"
     },
     {
       "seq": 1054,

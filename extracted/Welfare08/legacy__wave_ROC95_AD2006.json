@@ -28,7 +28,7 @@
       "description_zh": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲",
       "available_notes": [],
       "name_zh_en": "age",
-      "description_en": ""
+      "description_en": "1 15-17 years old 2 18-24 years old 3 25-34 years old 4 35-44 years old 5 45-54 years old 6 55-64 years old"
     },
     {
       "seq": 2,
@@ -39,7 +39,7 @@
       "description_zh": "1 原住民 2 榮民榮眷 3 大陸籍配偶 4 外籍配偶 5 一般民眾 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "patient",
-      "description_en": ""
+      "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 Mainland Chinese spouse 4 Foreign spouse 5 General public 89 Don't know 99 Refused to answer"
     },
     {
       "seq": 3,
@@ -50,7 +50,7 @@
       "description_zh": "1 小學以下 2 國(初)中.職 3 高中.職 4 專科(含五專前三年) 5 大學院校 6 研究所及以上 99 不知道/拒答",
       "available_notes": [],
       "name_zh_en": "education level",
-      "description_en": ""
+      "description_en": "1 Elementary school or below 2 Junior high/vocational school 3 Senior high/vocational school 4 Junior college (including first 3 years of 5-year junior college) 5 University/college 6 Graduate school or above 99 Don't know/refused"
     },
     {
       "seq": 4,
@@ -61,7 +61,7 @@
       "description_zh": "1 已結婚目前有配偶 2 已結婚目前未離婚但分 居 3 目前與人同居(未正式結 婚，但目前事實上與人 同居者，包括已離婚 4 曾結婚，目前為離婚 5 曾結婚或同居，目前為 喪偶 6 未婚 99 拒答",
       "available_notes": [],
       "name_zh_en": "marital status",
-      "description_en": ""
+      "description_en": "1 Married, currently has spouse 2 Married, not divorced but separated 3 Currently cohabiting (not formally married, but currently living with someone, including divorced persons) 4 Previously married, currently divorced 5 Previously married or cohabited, currently widowed 6 Never married 99 Refused"
     },
     {
       "seq": 5,
@@ -83,7 +83,7 @@
       "description_zh": "1 很好 2 好 3 普通 4 不太好 5 很不好 98 很難說 99 拒答 7~9 重大困擾？(最多 可選三項) Q7_1 Q7_2 Q7_3 Char 2 1 自己健康問題 2 自己工作問題 3 家人工作問題 4 經濟問題 5 人身安全問題 6 家庭暴力問題 7 夫妻相處問題 8 公婆妯娌相處問題 9 家中一般兒童照顧問題 10 家中老人照顧問題 11 子女教育或溝通問題 12 自己學業問題 13 自己的愛情或結婚問題 14 居住問題 65 其他(請填寫開放紀錄 表) 98 沒有困擾問題 99 很難說/拒答",
       "available_notes": [],
       "name_zh_en": "status of physical and mental health",
-      "description_en": ""
+      "description_en": "1 Very good 2 Good 3 Average 4 Not very good 5 Very poor 98 Hard to say 99 Refused | Q7-9: Major difficulties? (up to 3 choices) Q7_1 Q7_2 Q7_3 Char 2 1 Own health problems 2 Own work problems 3 Family member's work problems 4 Financial problems 5 Personal safety problems 6 Domestic violence problems 7 Spousal relationship problems 8 Relationship problems with in-laws 9 General childcare problems at home 10 Elder care problems at home 11 Children's education or communication problems 12 Own academic problems 13 Own romance or marriage problems 14 Housing problems 65 Other (please fill in open-ended record form) 98 No difficulties 99 Hard to say/refused"
     },
     {
       "seq": 10,
@@ -192,7 +192,7 @@
       "length": 2,
       "description_zh": "1 父母或祖父母 2 配偶(含同居人) 3 子女 4 兄弟姐妹或其配偶 5 政府津貼補助 6 退休金",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "\"Primary\" source of living expenses",
       "description_en": "1 Parents or grandparents 2 Spouse (incl. cohabiting partner) 3 Children 4 Siblings or their spouses 5 Government subsidy/allowance 6 Pension"
     },
     {
@@ -203,7 +203,7 @@
       "length": 44,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "\"Primary\" source of living expenses_Other",
       "description_en": "explanation"
     },
     {
@@ -214,7 +214,7 @@
       "length": 2,
       "description_zh": "1 父母或祖父母 2 配偶(含同居人) 3 子女 4 兄弟姐妹或其配偶 5 政府津貼補助 6 退休金 7 過去之儲蓄 8 親友或娘家接濟 65 其他(請填寫開放紀錄 表) 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "\"Secondary\" source of living expenses",
       "description_en": "1 Parents or grandparents 2 Spouse (incl. cohabiting partner) 3 Children 4 Siblings or their spouses 5 Government subsidy/allowance 6 Pension 7 Past savings 8 Support from relatives/friends or natal family 65 Other (please fill in open-ended record form) 89 Don't know 99 Refused"
     },
     {
@@ -225,7 +225,7 @@
       "length": 22,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "\"Secondary\" source of living expenses_Other",
       "description_en": "explanation"
     },
     {
@@ -236,7 +236,7 @@
       "length": 2,
       "description_zh": "1 有 2 無 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Willingness to work IV. Economic status",
       "description_en": "1 Yes 2 No 89 Don't know 99 Refused"
     },
     {
@@ -248,7 +248,7 @@
       "description_zh": "1 是 2 否 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Is the main financial provider for the household",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 89 Don't know 99 Refused"
     },
     {
       "seq": 25,
@@ -258,7 +258,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(含同居人) 3 夫妻共管 4 父母(含父或母及公婆)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main person who allocates/manages family finances",
       "description_en": "1 Self 2 Spouse (incl. cohabiting partner) 3 Jointly managed by couple 4 Parents (incl. father, mother, or parents-in-law)"
     },
     {
@@ -269,7 +269,7 @@
       "length": 14,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Main person who allocates/manages family finances_Other",
       "description_en": "explanation"
     },
     {
@@ -291,8 +291,8 @@
       "length": 2,
       "description_zh": "1 8(含)成以上 2 6(含)至8成 3 4(含)至6成 4 2(含)至4成 5 2成以下 89 不知道 98 無 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "How much income is used for the household",
+      "description_en": "1 80% (inclusive) or more 2 60% (inclusive) to 80% 3 40% (inclusive) to 60% 4 20% (inclusive) to 40% 5 Under 20% 89 Don't know 98 None 99 Refused to answer"
     },
     {
       "seq": 29,
@@ -314,7 +314,7 @@
       "description_zh": "1 是 2 否 89 不知道 99 拒答 31~32 領有的救助津貼及 補助的類型(可複 選) Q20_1 Q20_2 Char 2 0 無 1 領有政府低收入戶補助 2 領有政府特殊境遇婦女 家庭扶助 3 領有政府中低收入兒少 托育補助、生活扶助 4 領有民間社福團體提供 補助 5 領有身心障礙生活補助 6 其他(請填寫開放紀錄 表) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Whether the respondent or their children receive relief allowance or subsidy",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 89 Don't know 99 Refused | Q31-32: Type of relief allowance/subsidy received (multiple choice) Q20_1 Q20_2 Char 2 0 None 1 Government low-income household subsidy 2 Government special-circumstance women's family assistance 3 Government low/middle-income child/youth childcare and living subsidy 4 Subsidy from private social welfare organization 5 Disability living subsidy 6 Other (please fill in open-ended record form) 89 Don't know 99 Refused"
     },
     {
       "seq": 33,
@@ -346,7 +346,7 @@
       "length": 2,
       "description_zh": "1 沒有工作 2 有工作但是沒有住在外 地工作 3 有工作且住在外地 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Whether the spouse (including cohabiting partner) works away from home (only asked of those with a spouse or cohabiting partner)",
       "description_en": "1 Not working 2 Working but not living away from home for work 3 Working and living away from home 89 Don't know 99 Refused"
     },
     {
@@ -357,7 +357,7 @@
       "length": 2,
       "description_zh": "0 不適用 1 臺閩地區 2 外國 3 大陸(含港澳) 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Spouse's (including cohabiting partner) workplace (only asked of those with a spouse or cohabiting partner)",
       "description_en": "0: Not applicable, 1: Taiwan-Fujian area, 2: Foreign country, 3: Mainland China (including Hong Kong/Macau), 89: Don't know, 99: Refused"
     },
     {
@@ -369,7 +369,7 @@
       "description_zh": "1 是 2 否 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Is a single mother with children under 18",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 89 Don't know 99 Refused"
     },
     {
       "seq": 43,
@@ -379,7 +379,7 @@
       "length": 2,
       "description_zh": "0 非單親 1 離婚單親 2 喪偶單親 3 未婚單親 4 夫服刑單親 5 夫失蹤單親 6 夫妻感情不睦分居單親 89 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What type of single mother",
       "description_en": "0: Not single-parent, 1: Single parent due to divorce, 2: Single parent due to spousal death, 3: Unmarried single parent, 4: Single parent due to husband's imprisonment, 5: Single parent due to husband's disappearance, 6: Single parent due to marital discord/separation, 89: Don't know, 99: Refused"
     },
     {
@@ -412,7 +412,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused"
     },
     {
@@ -423,7 +423,7 @@
       "length": 10,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is_Other",
       "description_en": "explanation"
     },
     {
@@ -445,7 +445,7 @@
       "length": 8,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "The secondary caregiver is_Other",
       "description_en": "explanation"
     },
     {
@@ -478,7 +478,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused"
     },
     {
@@ -489,7 +489,7 @@
       "length": 8,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is_Other",
       "description_en": "explanation"
     },
     {
@@ -511,7 +511,7 @@
       "length": 4,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "The secondary caregiver is_Other",
       "description_en": "explanation"
     },
     {
@@ -544,7 +544,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s)"
     },
     {
@@ -588,7 +588,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused"
     },
     {
@@ -632,7 +632,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "His/her primary caregiver is",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused"
     },
     {
@@ -907,7 +907,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who mainly handles household chores",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouse"
     },
     {
@@ -918,7 +918,7 @@
       "length": 30,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who mainly handles household chores_Other",
       "description_en": "explanation"
     },
     {
@@ -929,7 +929,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who handles household chores (secondary)",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused"
     },
     {
@@ -940,7 +940,7 @@
       "length": 8,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who handles household chores (secondary)_Other",
       "description_en": "explanation"
     },
     {
@@ -951,7 +951,7 @@
       "length": 2,
       "description_zh": "0 沒有再次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 外祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who handles household chores (tertiary)",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: Maternal grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused"
     },
     {
@@ -962,7 +962,7 @@
       "length": 4,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Who handles household chores (tertiary)_Other",
       "description_en": "explanation"
     },
     {
@@ -973,8 +973,8 @@
       "length": 2,
       "description_zh": "1 1小時以下 2 1(含)～2小時以下 3 2(含)～3小時以下 4 3(含)～4小時以下 5 4(含)小時以上 89 無 98 不知道 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Average number of hours spent handling general household chores",
+      "description_en": "1 1 hour or less 2 1 (inclusive) to under 2 hours 3 2 (inclusive) to under 3 hours 4 3 (inclusive) to under 4 hours 5 4 (inclusive) hours or more 89 None 98 Don't know 99 Refused to answer"
     },
     {
       "seq": 98,
@@ -985,7 +985,7 @@
       "description_zh": "1 很滿意 2 還算滿意 3 不太滿意 4 很不滿意 99 無意見、很難說或拒答",
       "available_notes": [],
       "name_zh_en": "satisfied with family life",
-      "description_en": ""
+      "description_en": "1 Very satisfied 2 Fairly satisfied 3 Not very satisfied 4 Very dissatisfied 99 No opinion, hard to say, or refused"
     },
     {
       "seq": 102,
@@ -1029,7 +1029,7 @@
       "description_zh": "1 是 2 否 98 不知道 99 拒答 119~122 在哪些場所使用電 腦(可複選) Q34_1 Q34_2 Q34_3 Q34_4 Char 2 0 無 1 家中有電腦 2 工作場所有電腦 3 到圖書館、學校等公共",
       "available_notes": [],
       "name_zh_en": "Do you have access to a computer",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 98 Don't know 99 Refused | Q119-122: In which places do you use a computer (multiple choice) Q34_1 Q34_2 Q34_3 Q34_4 Char 2 0 None 1 Computer at home 2 Computer at workplace 3 At libraries, schools, or other public"
     },
     {
       "seq": 123,
@@ -1039,7 +1039,7 @@
       "length": 12,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which locations used a computer_Other; VIII. Special experiences",
       "description_en": "explanation"
     },
     {
@@ -1051,7 +1051,7 @@
       "description_zh": "1 是 2 否 99 拒答 125~126 遭受何種類型家庭 暴力 Q35_1_1 Q35_1_2 Char 2 0 無 1 遭受配偶肢體暴力 2 遭受配偶精神暴力 3 遭受其他家人肢體暴力 4 遭受其他家人精神暴力 65 其他(請填寫開放紀錄 表) 99 拒答",
       "available_notes": [],
       "name_zh_en": "In the past year, have you had an unpleasant experience related to domestic violence",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused | Q125-126: What type of domestic violence experienced Q35_1_1 Q35_1_2 Char 2 0 None 1 Physical violence from spouse 2 Psychological violence from spouse 3 Physical violence from other family members 4 Psychological violence from other family members 65 Other (please fill in open-ended record form) 99 Refused"
     },
     {
       "seq": 127,
@@ -1061,8 +1061,8 @@
       "length": 2,
       "description_zh": "1 1次 2 2次 3 3次 4 4次以上 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Number of times injured due to domestic violence",
+      "description_en": "1 1 time 2 2 times 3 3 times 4 4 times or more 99 Refused to answer"
     },
     {
       "seq": 128,
@@ -1073,7 +1073,7 @@
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
       "name_zh_en": "In the past year, have you sought help from a domestic violence center, police, or called the 113 hotline",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 129,
@@ -1084,7 +1084,7 @@
       "description_zh": "1 是 2 否 99 拒答 130~131 發生場所 Q37_1 Q37_2 Char 2 0 無 1 在公共場所遭受他人性 騷擾 2 在工作場所遭受他人性 騷擾",
       "available_notes": [],
       "name_zh_en": "In the past year, have you had an unpleasant experience related to sexual harassment",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused | Q130-131: Location where it occurred Q37_1 Q37_2 Char 2 0 None 1 Sexually harassed by others in a public place 2 Sexually harassed by others in the workplace"
     },
     {
       "seq": 132,
@@ -1106,7 +1106,7 @@
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
       "name_zh_en": "In the past year, have you had an unpleasant experience related to sexual assault",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 134,
@@ -1117,7 +1117,7 @@
       "description_zh": "1 是 2 否 99 拒答 135~137 哪方面的外界暴力 Q39_1 Q39_2 Q39_3 Char 2 0 無 1 被迫從事不法工作 2 吸毒、吃搖頭丸等不法 藥物 3 被恐嚇、詐財 4 被搶奪財物 5 遭受外人傷害 65 其他(請填寫開放紀錄 表) 99 拒答",
       "available_notes": [],
       "name_zh_en": "In the past year, have you had an unpleasant experience related to external violence",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused | Q135-137: What kind of external violence Q39_1 Q39_2 Q39_3 Char 2 0 None 1 Forced into illegal work 2 Drug use, ecstasy, or other illegal substances 3 Threatened or extorted 4 Robbed of property 5 Injured by an outsider 65 Other (please fill in open-ended record form) 99 Refused"
     },
     {
       "seq": 138,
@@ -1127,7 +1127,7 @@
       "length": 28,
       "description_zh": "文字說明 九、對婦女福利措施的瞭解與期望",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "What kind of external violence _Other",
       "description_en": "Text description. Section 9: Understanding and expectations of women's welfare measures"
     },
     {
@@ -1138,8 +1138,8 @@
       "length": 2,
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Do you know where there is a women's welfare service center?",
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 140,
@@ -1149,7 +1149,7 @@
       "length": 2,
       "description_zh": "0 不知道哪裡有婦女服務 中心 1 經常使用 2 偶而使用 3 未曾使用 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Frequency of having used the women's service center",
       "description_en": "0: Don't know where a women's service center is, 1: Frequently use, 2: Occasionally use, 3: Never used, 99: Refused"
     },
     {
@@ -1161,7 +1161,7 @@
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides support/protection facilities for women in special circumstances",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 146,
@@ -1171,7 +1171,7 @@
       "length": 30,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which channel was used to obtain information_Other",
       "description_en": "explanation"
     },
     {
@@ -1193,7 +1193,7 @@
       "length": 50,
       "description_zh": "文字說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which channel was used to obtain information_Other",
       "description_en": "explanation"
     },
     {
@@ -1215,7 +1215,7 @@
       "length": 50,
       "description_zh": "文字說明 164~175 知道哪些下列政府 所辦理之婦女福利 項目 Q44_A Q44_B Q44_C Q44_D Q44_E Q44_F Q44_G Q44_H Q44_I Q44_J Q44_K Q44_L Char 2 1 113婦幼保護專線 2 特殊境遇婦女之各項生 活扶助 3 親職教育及學習成長的 服務 4 心理諮商的服務 5 法律諮詢的服務 6 婦女福利服務中心所提 供之各項活動、課程及 社工服務 7 單親家庭經濟補助 8 單親家庭服務中心所提 供之各項活動、課程及 社工服務單親家庭經濟 9 托兒方面的服務 10 托老方面的服務 11 性侵害及家庭暴力被害 人的各項服務",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Which channel was used to obtain information_Other",
       "description_en": "Text description 164-175: Which of the following women's welfare items provided by the government do you know about Q44_A Q44_B Q44_C Q44_D Q44_E Q44_F Q44_G Q44_H Q44_I Q44_J Q44_K Q44_L Char 2 1 113 women's and children's protection hotline 2 Various living subsidies for women in special circumstances 3 Parental education and learning growth services 4 Psychological counseling services 5 Legal consultation services 6 Various activities, courses, and social work services provided by women's welfare service centers 7 Economic assistance for single-parent families 8 Various activities, courses, and social work services provided by single-parent family service centers, economic assistance for single-parent families 9 Childcare services 10 Elder care services 11 Various services for victims of sexual assault and domestic violence"
     },
     {
@@ -1535,7 +1535,7 @@
       "description_zh": "1 台北市 2 台北縣 3 基隆市 4 桃園縣 5 新竹縣 6 新竹市 7 苗栗縣 8 台中縣 9 台中市 10 彰化縣 11 南投縣 12 雲林縣",
       "available_notes": [],
       "name_zh_en": "residing city",
-      "description_en": ""
+      "description_en": "1 Taipei City 2 Taipei County 3 Keelung City 4 Taoyuan County 5 Hsinchu County 6 Hsinchu City 7 Miaoli County 8 Taichung County 9 Taichung City 10 Changhua County 11 Nantou County 12 Yunlin County"
     },
     {
       "seq": 217,
@@ -1557,7 +1557,7 @@
       "description_zh": "1 1人 2 2人 3 3人 4 4人 5 5人 6 6人 7 7人 8 8人 9 9人 10 10人及以上 99 拒答(停止)",
       "available_notes": [],
       "name_zh_en": "How many females aged 15-64 are there in your household (residence)? (Refers to family members living there at least 5 days a week, excluding those working or studying away from home)",
-      "description_en": ""
+      "description_en": "1 1 person 2 2 people 3 3 people 4 4 people 5 5 people 6 6 people 7 7 people 8 8 people 9 9 people 10 10 or more people 99 Refused to answer (stop)"
     },
     {
       "seq": 219,
@@ -1666,7 +1666,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (first-ranked), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused"
     },
     {
@@ -1677,7 +1677,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q24_2_1C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (first-ranked), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q24_2_1C"
     },
     {
@@ -1688,7 +1688,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (second-ranked), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses"
     },
     {
@@ -1699,7 +1699,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q24_2_2C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (second-ranked), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q24_2_2C"
     },
     {
@@ -1710,7 +1710,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (third-ranked), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouse"
     },
     {
@@ -1721,7 +1721,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q24_2_3C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (third-ranked), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q24_2_3C"
     },
     {
@@ -1743,7 +1743,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (fourth-ranked), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper"
     },
     {
@@ -1754,7 +1754,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q24_2_5B重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (fifth-ranked), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused Note: this field duplicates Q24_2_5B"
     },
     {
@@ -1765,7 +1765,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among children under 12 in the household (fifth-ranked), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their"
     },
     {
@@ -1776,7 +1776,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他（非親屬）（請訪 員紀錄在開放問項紀錄表） 99 拒答 註:此欄位與Q25_2_1B重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household elderly aged 65+ (the oldest), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused Note: this field duplicates Q25_2_1B"
     },
     {
@@ -1787,7 +1787,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household elderly aged 65+ (the oldest), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent"
     },
     {
@@ -1798,7 +1798,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他（非親屬）（請訪 員紀錄在開放問項紀錄表）",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household elderly aged 65+ (the second oldest), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form)"
     },
     {
@@ -1809,7 +1809,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q25_2_2C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household elderly aged 65+ (the second oldest), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q25_2_2C"
     },
     {
@@ -1820,7 +1820,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the oldest), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses"
     },
     {
@@ -1831,7 +1831,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q26_2_1C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the oldest), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q26_2_1C"
     },
     {
@@ -1842,7 +1842,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母)",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the second oldest), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s)"
     },
     {
@@ -1853,7 +1853,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q26_2_2C重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the second oldest), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative) (interviewer to record in open-ended record sheet), 99: Refused. Note: This field duplicates Q26_2_2C"
     },
     {
@@ -1864,7 +1864,7 @@
       "length": 2,
       "description_zh": "1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬)(請訪員紀 錄在開放問項紀錄表) 99 拒答 註:此欄位與Q26_2_3B重複",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the third oldest), who is the primary caregiver?",
       "description_en": "1 Self 2 Spouse (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) 6 Spouse's parent(s) 7 Self's siblings or their spouses 8 Spouse's siblings or their spouses 9 Children or their spouses 10 Grandchildren or their spouses 11 Nieces/nephews or their spouses 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) (interviewer records in open-ended record form) 99 Refused Note: this field duplicates Q26_2_3B"
     },
     {
@@ -1875,7 +1875,7 @@
       "length": 2,
       "description_zh": "0 沒有次要照顧者 1 本人 2 配偶(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 本人的父(母) 6 配偶的父(母) 7 本人的兄弟姊妹或其配 偶 8 配偶的兄弟姊妹或其配 偶 9 子女或其配偶 10 孫子女或其配偶 11 姪(甥)子女或其配偶 12 其他親屬",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Among household members aged 12-64 (the third oldest), who is the secondary caregiver?",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Spouse (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent, 6: Spouse's parent, 7: Own sibling or their spouse, 8: Spouse's sibling or their spouse, 9: Child or their spouse, 10: Grandchild or their spouse, 11: Niece/nephew or their spouse, 12: Other relative"
     },
     {
@@ -1974,7 +1974,7 @@
       "length": 1,
       "description_zh": "0 不知道 1 知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Various activities, courses, and social work services provided by the Women's Welfare Service Center",
       "description_en": "0: Don't know, 1: Know"
     },
     {
@@ -1996,7 +1996,7 @@
       "length": 1,
       "description_zh": "0 不知道 1 知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Various activities, courses, and social work services provided by the Single-Parent Family Service Center",
       "description_en": "0: Don't know, 1: Know"
     },
     {
@@ -2029,7 +2029,7 @@
       "length": 1,
       "description_zh": "0 不知道 1 知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Various services for victims of sexual assault and domestic violence",
       "description_en": "0: Don't know, 1: Know"
     },
     {
@@ -2040,7 +2040,7 @@
       "length": 1,
       "description_zh": "0 不知道 1 知道",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "Related services and counseling measures to promote women's employment",
       "description_en": "0: Don't know, 1: Know"
     },
     {
@@ -2074,7 +2074,7 @@
       "description_zh": "1 台北市 2 高雄市 3 基隆市 4 新竹市 5 台北縣 6 宜蘭縣 7 桃園縣 8 新竹縣 9 台中市 10 苗栗縣 11 台中縣 12 彰化縣",
       "available_notes": [],
       "name_zh_en": "county",
-      "description_en": ""
+      "description_en": "1 Taipei City 2 Kaohsiung City 3 Keelung City 4 Hsinchu City 5 Taipei County 6 Yilan County 7 Taoyuan County 8 Hsinchu County 9 Taichung City 10 Miaoli County 11 Taichung County 12 Changhua County"
     },
     {
       "seq": 266,
@@ -2085,7 +2085,7 @@
       "description_zh": "1 台北市 2 高雄市 3 台灣北部 4 台灣中部 5 台灣南部 6 台灣東部 7 金馬地區",
       "available_notes": [],
       "name_zh_en": "region",
-      "description_en": ""
+      "description_en": "1 Taipei City 2 Kaohsiung City 3 Northern Taiwan 4 Central Taiwan 5 Southern Taiwan 6 Eastern Taiwan 7 Kinmen-Matsu region"
     },
     {
       "seq": 267,
@@ -2096,7 +2096,7 @@
       "description_zh": "1 15-17歲 2 18-24歲 3 25-34歲 4 35-44歲 5 45-54歲 6 55-64歲 註:此欄位與Q1重複",
       "available_notes": [],
       "name_zh_en": "age",
-      "description_en": ""
+      "description_en": "1 15-17 years old 2 18-24 years old 3 25-34 years old 4 35-44 years old 5 45-54 years old 6 55-64 years old Note: This field duplicates Q1"
     },
     {
       "seq": 268,
@@ -2107,7 +2107,7 @@
       "description_zh": "1 原住民 2 榮民榮眷 3 大陸籍配偶 4 外籍配偶 5 一般民眾 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "patient",
-      "description_en": ""
+      "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 Mainland Chinese spouse 4 Foreign spouse 5 General public 89 Don't know 99 Refused to answer"
     },
     {
       "seq": 269,
@@ -2118,7 +2118,7 @@
       "description_zh": "1 小學以下 2 國(初)中.職 3 高中.職 4 專科(含五專前三年) 5 大學院校 6 研究所及以上 99 不知道/拒答 註:此欄位與Q3重複",
       "available_notes": [],
       "name_zh_en": "education level",
-      "description_en": ""
+      "description_en": "1 Elementary school or below 2 Junior high/vocational school 3 Senior high/vocational school 4 Junior college (including first 3 years of 5-year junior college) 5 University/college 6 Graduate school or above 99 Don't know/refused Note: this field duplicates Q3"
     },
     {
       "seq": 270,
@@ -2151,7 +2151,7 @@
       "description_zh": "1 已結婚目前有配偶 2 已結婚目前未離婚但分 居 3 目前與人同居(未正式結 婚，但目前事實上與人 同居者，包括已離婚 4 曾結婚，目前為離婚 5 曾結婚或同居，目前為 喪偶 6 未婚 99 拒答 註:此欄位與Q4重複",
       "available_notes": [],
       "name_zh_en": "marital status",
-      "description_en": ""
+      "description_en": "1 Married, currently has spouse 2 Married, not divorced but separated 3 Currently cohabiting (not formally married, but currently living with someone, including divorced persons) 4 Previously married, currently divorced 5 Previously married or cohabited, currently widowed 6 Never married 99 Refused Note: this field duplicates Q4"
     },
     {
       "seq": 273,
@@ -2173,7 +2173,7 @@
       "description_zh": "1 很好 2 好 3 普通 4 不太好 5 很不好 98 很難說 99 拒答 註:此欄位與Q6重複",
       "available_notes": [],
       "name_zh_en": "health condition",
-      "description_en": ""
+      "description_en": "1 Very good 2 Good 3 Average 4 Not very good 5 Very poor 98 Hard to say 99 Refused Note: this field duplicates Q6"
     },
     {
       "seq": 275,
@@ -2195,7 +2195,7 @@
       "description_zh": "1 是 2 否 99 拒答",
       "available_notes": [],
       "name_zh_en": "battered family",
-      "description_en": ""
+      "description_en": "1 Yes 2 No 99 Refused"
     },
     {
       "seq": 277,
@@ -2239,7 +2239,7 @@
       "description_zh": "1 單戶家戶 2 夫妻2人家庭 3 2代家庭 4 祖孫家庭 5 3代家庭 65 其他家庭 99 拒答",
       "available_notes": [],
       "name_zh_en": "Current family household structure type",
-      "description_en": ""
+      "description_en": "1 Single-person household 2 Couple-only household (2 people) 3 Two-generation family 4 Grandparent-grandchild family 5 Three-generation family 65 Other family 99 Refused to answer"
     },
     {
       "seq": 281,

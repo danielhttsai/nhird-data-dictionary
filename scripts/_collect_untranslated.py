@@ -35,7 +35,7 @@ outdir = 'translations/_fill'
 os.makedirs(outdir, exist_ok=True)
 for old in glob.glob(f'{outdir}/*.json'):
     os.remove(old)
-BUDGET = 17000  # chars of Chinese input per chunk (English out stays well under the cap)
+BUDGET = 7000   # chars of Chinese input per chunk (English out stays well under the cap)
 chunk = {}; sz = 0; n = 0
 def flush():
     global chunk, sz, n
