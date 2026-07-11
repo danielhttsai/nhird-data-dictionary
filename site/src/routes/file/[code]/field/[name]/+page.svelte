@@ -86,6 +86,25 @@
             {/if}
           </p>
         {/if}
+        {#if latest.codebook.revisions?.length}
+          <details class="mb-3 rounded-xl border border-slate-200 bg-slate-50/60">
+            <summary class="cursor-pointer select-none px-3 py-2 text-xs font-bold text-slate-700">
+              版本沿革 Revision history · {latest.codebook.revisions.length}
+            </summary>
+            <ol class="px-3 pb-3 pt-2 space-y-2 border-t border-slate-200">
+              {#each latest.codebook.revisions as r}
+                <li class="text-xs flex gap-2">
+                  <span class="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+                  <div>
+                    <div class="font-semibold text-brand-800">{r.ver}</div>
+                    {#if r.note_zh}<div class="text-slate-700 leading-relaxed">{r.note_zh}</div>{/if}
+                    {#if r.note_en}<div class="text-slate-500 leading-relaxed">{r.note_en}</div>{/if}
+                  </div>
+                </li>
+              {/each}
+            </ol>
+          </details>
+        {/if}
         <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="overflow-x-auto max-h-96 overflow-y-auto">
             <table class="tbl w-full text-left">

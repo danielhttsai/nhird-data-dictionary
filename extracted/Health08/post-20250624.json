@@ -6345,6 +6345,33 @@
       "field_zh": "重大傷病類別",
       "source": "全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂，114/1/1 起適用）— 共 30 類",
       "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
+      "revisions": [
+        {
+          "ver": "104/12/31 前適用",
+          "note_zh": "舊制版本，診斷碼採 ICD-9-CM。",
+          "note_en": "Legacy version; diagnosis codes in ICD-9-CM."
+        },
+        {
+          "ver": "108.4 修訂",
+          "note_zh": "修訂發布。",
+          "note_en": "Revision."
+        },
+        {
+          "ver": "111.12.19 發布修訂",
+          "note_zh": "修訂發布。",
+          "note_en": "Revision."
+        },
+        {
+          "ver": "113.9.16 發布修訂（114/1/1 起適用）",
+          "note_zh": "配合健保就醫資料自 114/1/1 起全面改採 2023 年版 ICD-10-CM/PCS，增修 29 類重大傷病之診斷碼；罕見疾病（第 30 類）由國民健康署另行公告。113/12/31 前核定生效之重大傷病身分不受影響。（健保醫字第 1130119495 號）",
+          "note_en": "Aligned NHI claims with ICD-10-CM/PCS 2023 from 2025-01-01; updated diagnosis codes for the 29 non-rare-disease categories (rare disease — category 30 — announced separately by the HPA). Certificates approved before 2024-12-31 are unaffected. (NHIA letter 1130119495)"
+        },
+        {
+          "ver": "114.1.23 公告（追溯 114/1/1 生效）",
+          "note_zh": "修正 37 項公告罕見疾病之 ICD-10-CM 診斷碼，並修正 2 項罕見疾病名稱，以符國際命名一致性。（健保醫字第 1140101927 號）",
+          "note_en": "Revised the ICD-10-CM codes of 37 designated rare diseases and renamed 2, effective retroactively from 2025-01-01. (NHIA letter 1140101927)"
+        }
+      ],
       "entries": [
         {
           "code": "1",
@@ -6502,6 +6529,33 @@
       "field_zh": "診斷代碼（重大傷病項目 ICD-10-CM 對照）",
       "source": "全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂）ICD-10-CM 2023 年版",
       "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
+      "revisions": [
+        {
+          "ver": "104/12/31 前適用",
+          "note_zh": "舊制版本，診斷碼採 ICD-9-CM。",
+          "note_en": "Legacy version; diagnosis codes in ICD-9-CM."
+        },
+        {
+          "ver": "108.4 修訂",
+          "note_zh": "修訂發布。",
+          "note_en": "Revision."
+        },
+        {
+          "ver": "111.12.19 發布修訂",
+          "note_zh": "修訂發布。",
+          "note_en": "Revision."
+        },
+        {
+          "ver": "113.9.16 發布修訂（114/1/1 起適用）",
+          "note_zh": "配合健保就醫資料自 114/1/1 起全面改採 2023 年版 ICD-10-CM/PCS，增修 29 類重大傷病之診斷碼；罕見疾病（第 30 類）由國民健康署另行公告。113/12/31 前核定生效之重大傷病身分不受影響。（健保醫字第 1130119495 號）",
+          "note_en": "Aligned NHI claims with ICD-10-CM/PCS 2023 from 2025-01-01; updated diagnosis codes for the 29 non-rare-disease categories (rare disease — category 30 — announced separately by the HPA). Certificates approved before 2024-12-31 are unaffected. (NHIA letter 1130119495)"
+        },
+        {
+          "ver": "114.1.23 公告（追溯 114/1/1 生效）",
+          "note_zh": "修正 37 項公告罕見疾病之 ICD-10-CM 診斷碼，並修正 2 項罕見疾病名稱，以符國際命名一致性。（健保醫字第 1140101927 號）",
+          "note_en": "Revised the ICD-10-CM codes of 37 designated rare diseases and renamed 2, effective retroactively from 2025-01-01. (NHIA letter 1140101927)"
+        }
+      ],
       "entries": [
         {
           "code": "C73",
