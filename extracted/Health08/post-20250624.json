@@ -6343,7 +6343,7 @@
     },
     "HV_TYPE": {
       "field_zh": "重大傷病類別",
-      "source": "全民健康保險重大傷病範圍（中央健康保險署重大傷病專區，共 30 類）",
+      "source": "全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂，114/1/1 起適用）— 共 30 類",
       "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
       "entries": [
         {
@@ -6358,13 +6358,13 @@
         },
         {
           "code": "3",
-          "label_zh": "嚴重溶血性及再生不良性貧血",
+          "label_zh": "嚴重溶血性及再生不良性貧血〔血紅素未經治療，成人經常低於8gm/dl以下，新生兒經常低於12gm/dl以下者〕",
           "label_en": "Severe hemolytic and aplastic anemia"
         },
         {
           "code": "4",
-          "label_zh": "慢性腎衰竭（尿毒症），必須接受定期透析治療者",
-          "label_en": "Chronic renal failure (uremia) requiring regular dialysis"
+          "label_zh": "慢性腎衰竭〔尿毒症〕，必須接受定期透析治療者",
+          "label_en": "Chronic renal failure (uremia) on regular dialysis"
         },
         {
           "code": "5",
@@ -6373,23 +6373,23 @@
         },
         {
           "code": "6",
-          "label_zh": "慢性精神病",
+          "label_zh": "慢性精神病〔符合以下診斷，而病情已經慢性化者，除第(一)項外，限由精神科專科醫師所開具之診斷書並加註專科醫師證號〕",
           "label_en": "Chronic psychiatric illness"
         },
         {
           "code": "7",
-          "label_zh": "先天性新陳代謝異常疾病",
-          "label_en": "Congenital metabolic disorders"
+          "label_zh": "先天性新陳代謝異常疾病〔G6PD代謝異常除外〕",
+          "label_en": "Congenital metabolic disorders (excl. G6PD deficiency)"
         },
         {
           "code": "8",
           "label_zh": "心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常",
-          "label_en": "Congenital malformations (cardiac, pulmonary, GI, renal, neurological, skeletal) and chromosomal abnormalities"
+          "label_en": "Congenital malformations and chromosomal abnormalities"
         },
         {
           "code": "9",
           "label_zh": "燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者",
-          "label_en": "Burns over >=20% of body surface, or facial burns with sensory-organ dysfunction"
+          "label_en": "Burns over >=20% body surface, or facial burns with sensory-organ dysfunction"
         },
         {
           "code": "10",
@@ -6398,28 +6398,28 @@
         },
         {
           "code": "11",
-          "label_zh": "小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者",
-          "label_en": "Complications of polio or cerebral palsy (neuro / muscular / skeletal / pulmonary)"
+          "label_zh": "小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者(其身心障礙等級在中度以上者)",
+          "label_en": "Complications of polio / cerebral palsy (moderate+ disability)"
         },
         {
           "code": "12",
-          "label_zh": "重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者",
-          "label_en": "Major trauma with Injury Severity Score >=16"
+          "label_zh": "重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者(INJURY SEVERITY SCORE ≧16)(※植物人狀態不可以ISS計算)",
+          "label_en": "Major trauma (Injury Severity Score >=16)"
         },
         {
           "code": "13",
-          "label_zh": "因呼吸衰竭需長期使用呼吸器",
-          "label_en": "Respiratory failure requiring long-term ventilator use"
+          "label_zh": "因呼吸衰竭需長期使用呼吸器符合下列任一項者：",
+          "label_en": "Respiratory failure on long-term ventilator"
         },
         {
           "code": "14",
-          "label_zh": "嚴重營養不良者",
-          "label_en": "Severe malnutrition"
+          "label_zh": "嚴重營養不良者，給予全靜脈營養已超過三十天，且病情已達穩定狀態，口攝飲食仍無法提供足量營養者",
+          "label_en": "Severe malnutrition (on total parenteral nutrition >30 days)"
         },
         {
           "code": "15",
-          "label_zh": "因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症",
-          "label_en": "Severe decompression sickness or air embolism from diving / improper decompression"
+          "label_zh": "因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症，伴有呼吸、循環或神經系統之併發症且需長期治療者",
+          "label_en": "Severe decompression sickness or air embolism from diving"
         },
         {
           "code": "16",
@@ -6433,18 +6433,18 @@
         },
         {
           "code": "18",
-          "label_zh": "脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者",
-          "label_en": "Complications of spinal-cord injury or disease (neuro, muscular, skin, skeletal, cardiopulmonary, urinary, GI)"
+          "label_zh": "脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者(其身心障礙等級在中度以上者)",
+          "label_en": "Complications of spinal-cord injury/disease (moderate+ disability)"
         },
         {
           "code": "19",
-          "label_zh": "職業病",
+          "label_zh": "職業病(以勞工職業災害保險職業傷病審查準則第18條附表所載職業病範圍為限；適用對象限已退休之未具勞工保險被保險人身份之保險對象；具勞工保險被保險人身份者，應依勞工保險職業病就醫規定辦理，亦免自行負擔部分醫療費用)",
           "label_en": "Occupational diseases"
         },
         {
           "code": "20",
-          "label_zh": "急性腦血管疾病",
-          "label_en": "Acute cerebrovascular disease"
+          "label_zh": "急性腦血管疾病(限急性發作後一個月內)",
+          "label_en": "Acute cerebrovascular disease (within 1 month of onset)"
         },
         {
           "code": "21",
@@ -6468,23 +6468,23 @@
         },
         {
           "code": "25",
-          "label_zh": "肝硬化症，併有下列情形之一者",
-          "label_en": "Liver cirrhosis with one of the specified complications"
+          "label_zh": "肝硬化症，併有下列情形之一者：",
+          "label_en": "Liver cirrhosis with specified complications"
         },
         {
           "code": "26",
           "label_zh": "早產兒所引起之神經、肌肉、骨骼、心臟、肺臟等之併發症",
-          "label_en": "Complications of prematurity (neuro, muscular, skeletal, cardiac, pulmonary)"
+          "label_en": "Complications of prematurity"
         },
         {
           "code": "27",
-          "label_zh": "砷及其化合物之毒性作用（烏腳病）",
-          "label_en": "Toxic effects of arsenic and its compounds (blackfoot disease)"
+          "label_zh": "砷及其化合物之毒性作用(烏腳病)",
+          "label_en": "Toxic effects of arsenic (blackfoot disease)"
         },
         {
           "code": "28",
-          "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者",
-          "label_en": "Motor neuron disease (moderate-or-higher disability, or ventilator-dependent)"
+          "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者(AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21)，不受其身心障礙等級在中度以上或須使用呼吸器之限制】",
+          "label_en": "Motor neuron disease (moderate+ disability or ventilator-dependent; incl. ALS)"
         },
         {
           "code": "29",
@@ -6494,7 +6494,7 @@
         {
           "code": "30",
           "label_zh": "經中央主管機關依罕見疾病防治及藥物法第三條第一項指定公告之罕見疾病",
-          "label_en": "Rare diseases designated by the central authority under the Rare Disease Control and Orphan Drug Act (see the rare-disease list on the RS_CODE fields)"
+          "label_en": "Rare diseases designated under the Rare Disease Control and Orphan Drug Act (see the rare-disease list)"
         }
       ]
     }

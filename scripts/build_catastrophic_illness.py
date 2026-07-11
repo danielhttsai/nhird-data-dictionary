@@ -1,53 +1,88 @@
 import sys, io, json, glob, os
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-# 全民健康保險重大傷病範圍 — 30 categories (HV_TYPE / IIV_TYPE).
-# zh verbatim from the public 重大傷病範圍; en = faithful translation.
-CATS = [
- ("需積極或長期治療之癌症", "Cancer requiring active or long-term treatment"),
- ("遺傳性凝血因子缺乏", "Hereditary coagulation-factor deficiency"),
- ("嚴重溶血性及再生不良性貧血", "Severe hemolytic and aplastic anemia"),
- ("慢性腎衰竭（尿毒症），必須接受定期透析治療者", "Chronic renal failure (uremia) requiring regular dialysis"),
- ("需終身治療之全身性自體免疫症候群", "Systemic autoimmune syndromes requiring lifelong treatment"),
- ("慢性精神病", "Chronic psychiatric illness"),
- ("先天性新陳代謝異常疾病", "Congenital metabolic disorders"),
- ("心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常", "Congenital malformations (cardiac, pulmonary, GI, renal, neurological, skeletal) and chromosomal abnormalities"),
- ("燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者", "Burns over >=20% of body surface, or facial burns with sensory-organ dysfunction"),
- ("接受器官移植", "Organ transplantation"),
- ("小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者", "Complications of polio or cerebral palsy (neuro / muscular / skeletal / pulmonary)"),
- ("重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者", "Major trauma with Injury Severity Score >=16"),
- ("因呼吸衰竭需長期使用呼吸器", "Respiratory failure requiring long-term ventilator use"),
- ("嚴重營養不良者", "Severe malnutrition"),
- ("因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症", "Severe decompression sickness or air embolism from diving / improper decompression"),
- ("重症肌無力症", "Myasthenia gravis"),
- ("先天性免疫不全症", "Congenital immunodeficiency"),
- ("脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者", "Complications of spinal-cord injury or disease (neuro, muscular, skin, skeletal, cardiopulmonary, urinary, GI)"),
- ("職業病", "Occupational diseases"),
- ("急性腦血管疾病", "Acute cerebrovascular disease"),
- ("多發性硬化症", "Multiple sclerosis"),
- ("先天性肌肉萎縮症", "Congenital muscular dystrophy"),
- ("外皮之先天畸形", "Congenital malformations of the skin"),
- ("漢生病", "Hansen's disease (leprosy)"),
- ("肝硬化症，併有下列情形之一者", "Liver cirrhosis with one of the specified complications"),
- ("早產兒所引起之神經、肌肉、骨骼、心臟、肺臟等之併發症", "Complications of prematurity (neuro, muscular, skeletal, cardiac, pulmonary)"),
- ("砷及其化合物之毒性作用（烏腳病）", "Toxic effects of arsenic and its compounds (blackfoot disease)"),
- ("運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者", "Motor neuron disease (moderate-or-higher disability, or ventilator-dependent)"),
- ("庫賈氏病", "Creutzfeldt-Jakob disease"),
- ("經中央主管機關依罕見疾病防治及藥物法第三條第一項指定公告之罕見疾病", "Rare diseases designated by the central authority under the Rare Disease Control and Orphan Drug Act (see the rare-disease list on the RS_CODE fields)"),
-]
-entries = [{"code": str(i + 1), "label_zh": zh, "label_en": en} for i, (zh, en) in enumerate(CATS)]
-codebook = {
-    "field_zh": "重大傷病類別",
-    "source": "全民健康保險重大傷病範圍（中央健康保險署重大傷病專區，共 30 類）",
-    "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
-    "entries": entries,
+# Parsed from the official 附表一 全民健康保險重大傷病項目及其證明有效期限
+# (113.9.16 發布修訂, 適用 114/1/1 起). See raw_pdfs/catastrophic_illness_items_113.9.16.pdf
+ITEMS = json.load(open('raw_pdfs/catastrophic_illness_items_113.9.16.json', encoding='utf-8'))
+
+# category 14's header line did not survive PDF extraction; fill from its items.
+CAT_FIX = {14: '嚴重營養不良者，給予全靜脈營養已超過三十天，且病情已達穩定狀態，口攝飲食仍無法提供足量營養者'}
+# concise English for each of the 30 categories (headers have no English in the source)
+CAT_EN = {
+ 1:"Cancer requiring active or long-term treatment",2:"Hereditary coagulation-factor deficiency",
+ 3:"Severe hemolytic and aplastic anemia",4:"Chronic renal failure (uremia) on regular dialysis",
+ 5:"Systemic autoimmune syndromes requiring lifelong treatment",6:"Chronic psychiatric illness",
+ 7:"Congenital metabolic disorders (excl. G6PD deficiency)",
+ 8:"Congenital malformations and chromosomal abnormalities",
+ 9:"Burns over >=20% body surface, or facial burns with sensory-organ dysfunction",
+ 10:"Organ transplantation",11:"Complications of polio / cerebral palsy (moderate+ disability)",
+ 12:"Major trauma (Injury Severity Score >=16)",13:"Respiratory failure on long-term ventilator",
+ 14:"Severe malnutrition (on total parenteral nutrition >30 days)",
+ 15:"Severe decompression sickness or air embolism from diving",16:"Myasthenia gravis",
+ 17:"Congenital immunodeficiency",18:"Complications of spinal-cord injury/disease (moderate+ disability)",
+ 19:"Occupational diseases",20:"Acute cerebrovascular disease (within 1 month of onset)",
+ 21:"Multiple sclerosis",22:"Congenital muscular dystrophy",23:"Congenital malformations of the skin",
+ 24:"Hansen's disease (leprosy)",25:"Liver cirrhosis with specified complications",
+ 26:"Complications of prematurity",27:"Toxic effects of arsenic (blackfoot disease)",
+ 28:"Motor neuron disease (moderate+ disability or ventilator-dependent; incl. ALS)",
+ 29:"Creutzfeldt-Jakob disease",
+ 30:"Rare diseases designated under the Rare Disease Control and Orphan Drug Act (see the rare-disease list)",
 }
+
+# ---- HV_TYPE codebook: the 30 official categories ----
+cat_zh = {}
+for it in ITEMS:
+    n = it['cat_no']
+    z = (it.get('cat_zh') or '').strip() or CAT_FIX.get(n, '')
+    if n not in cat_zh and z:
+        cat_zh[n] = z
+for n, z in CAT_FIX.items():
+    cat_zh.setdefault(n, z)
+hv_entries = [{'code': str(n), 'label_zh': cat_zh.get(n, ''), 'label_en': CAT_EN.get(n, '')}
+              for n in range(1, 31)]
+hv_codebook = {
+    'field_zh': '重大傷病類別',
+    'source': '全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂，114/1/1 起適用）— 共 30 類',
+    'source_url': 'https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html',
+    'entries': hv_entries,
+}
+
+# ---- DISE_CODE codebook: the detailed ICD -> item table (診斷代碼對照) ----
+def short_cat(n):
+    z = cat_zh.get(n, '')
+    z = z.split('〔')[0].split('，')[0].split('(')[0].strip()
+    return f'{n}. {z}'
+dc_entries = []
+for it in ITEMS:
+    icd = (it.get('icd') or '').strip()
+    en = (it.get('item_en') or '').strip()
+    val = (it.get('validity') or '').strip()
+    label_en = en
+    if val:
+        label_en = (en + ' · ' if en else '') + f'證明有效期限 {val}'
+    dc_entries.append({
+        'code': icd or '—',
+        'label_zh': (it.get('item_zh') or '').strip(),
+        'label_en': label_en,
+        'section': short_cat(it['cat_no']),
+    })
+dc_codebook = {
+    'field_zh': '診斷代碼（重大傷病項目 ICD-10-CM 對照）',
+    'source': '全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂）ICD-10-CM 2023 年版',
+    'source_url': 'https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html',
+    'entries': dc_entries,
+}
+
 for f in glob.glob('extracted/Health08/*.json'):
     if os.path.basename(f).startswith('diff_'):
         continue
     d = json.load(open(f, encoding='utf-8'))
-    if not any(fl.get('name_en') == 'HV_TYPE' for fl in d.get('fields', [])):
+    names = {fl.get('name_en') for fl in d.get('fields', [])}
+    if 'HV_TYPE' not in names:
         continue
-    d.setdefault('codebooks', {})['HV_TYPE'] = codebook
+    d.setdefault('codebooks', {})
+    d['codebooks']['HV_TYPE'] = hv_codebook
+    if 'DISE_CODE' in names:
+        d['codebooks']['DISE_CODE'] = dc_codebook
     json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    print(f'attached HV_TYPE codebook ({len(entries)} categories) to {os.path.basename(f)}')
+    print(f'{os.path.basename(f)}: HV_TYPE={len(hv_entries)} cats, DISE_CODE={len(dc_entries)} items')

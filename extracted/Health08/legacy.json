@@ -6332,7 +6332,7 @@
     },
     "HV_TYPE": {
       "field_zh": "重大傷病類別",
-      "source": "全民健康保險重大傷病範圍（中央健康保險署重大傷病專區，共 30 類）",
+      "source": "全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂，114/1/1 起適用）— 共 30 類",
       "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
       "entries": [
         {
@@ -6347,13 +6347,13 @@
         },
         {
           "code": "3",
-          "label_zh": "嚴重溶血性及再生不良性貧血",
+          "label_zh": "嚴重溶血性及再生不良性貧血〔血紅素未經治療，成人經常低於8gm/dl以下，新生兒經常低於12gm/dl以下者〕",
           "label_en": "Severe hemolytic and aplastic anemia"
         },
         {
           "code": "4",
-          "label_zh": "慢性腎衰竭（尿毒症），必須接受定期透析治療者",
-          "label_en": "Chronic renal failure (uremia) requiring regular dialysis"
+          "label_zh": "慢性腎衰竭〔尿毒症〕，必須接受定期透析治療者",
+          "label_en": "Chronic renal failure (uremia) on regular dialysis"
         },
         {
           "code": "5",
@@ -6362,23 +6362,23 @@
         },
         {
           "code": "6",
-          "label_zh": "慢性精神病",
+          "label_zh": "慢性精神病〔符合以下診斷，而病情已經慢性化者，除第(一)項外，限由精神科專科醫師所開具之診斷書並加註專科醫師證號〕",
           "label_en": "Chronic psychiatric illness"
         },
         {
           "code": "7",
-          "label_zh": "先天性新陳代謝異常疾病",
-          "label_en": "Congenital metabolic disorders"
+          "label_zh": "先天性新陳代謝異常疾病〔G6PD代謝異常除外〕",
+          "label_en": "Congenital metabolic disorders (excl. G6PD deficiency)"
         },
         {
           "code": "8",
           "label_zh": "心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常",
-          "label_en": "Congenital malformations (cardiac, pulmonary, GI, renal, neurological, skeletal) and chromosomal abnormalities"
+          "label_en": "Congenital malformations and chromosomal abnormalities"
         },
         {
           "code": "9",
           "label_zh": "燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者",
-          "label_en": "Burns over >=20% of body surface, or facial burns with sensory-organ dysfunction"
+          "label_en": "Burns over >=20% body surface, or facial burns with sensory-organ dysfunction"
         },
         {
           "code": "10",
@@ -6387,28 +6387,28 @@
         },
         {
           "code": "11",
-          "label_zh": "小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者",
-          "label_en": "Complications of polio or cerebral palsy (neuro / muscular / skeletal / pulmonary)"
+          "label_zh": "小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者(其身心障礙等級在中度以上者)",
+          "label_en": "Complications of polio / cerebral palsy (moderate+ disability)"
         },
         {
           "code": "12",
-          "label_zh": "重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者",
-          "label_en": "Major trauma with Injury Severity Score >=16"
+          "label_zh": "重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者(INJURY SEVERITY SCORE ≧16)(※植物人狀態不可以ISS計算)",
+          "label_en": "Major trauma (Injury Severity Score >=16)"
         },
         {
           "code": "13",
-          "label_zh": "因呼吸衰竭需長期使用呼吸器",
-          "label_en": "Respiratory failure requiring long-term ventilator use"
+          "label_zh": "因呼吸衰竭需長期使用呼吸器符合下列任一項者：",
+          "label_en": "Respiratory failure on long-term ventilator"
         },
         {
           "code": "14",
-          "label_zh": "嚴重營養不良者",
-          "label_en": "Severe malnutrition"
+          "label_zh": "嚴重營養不良者，給予全靜脈營養已超過三十天，且病情已達穩定狀態，口攝飲食仍無法提供足量營養者",
+          "label_en": "Severe malnutrition (on total parenteral nutrition >30 days)"
         },
         {
           "code": "15",
-          "label_zh": "因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症",
-          "label_en": "Severe decompression sickness or air embolism from diving / improper decompression"
+          "label_zh": "因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症，伴有呼吸、循環或神經系統之併發症且需長期治療者",
+          "label_en": "Severe decompression sickness or air embolism from diving"
         },
         {
           "code": "16",
@@ -6422,18 +6422,18 @@
         },
         {
           "code": "18",
-          "label_zh": "脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者",
-          "label_en": "Complications of spinal-cord injury or disease (neuro, muscular, skin, skeletal, cardiopulmonary, urinary, GI)"
+          "label_zh": "脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者(其身心障礙等級在中度以上者)",
+          "label_en": "Complications of spinal-cord injury/disease (moderate+ disability)"
         },
         {
           "code": "19",
-          "label_zh": "職業病",
+          "label_zh": "職業病(以勞工職業災害保險職業傷病審查準則第18條附表所載職業病範圍為限；適用對象限已退休之未具勞工保險被保險人身份之保險對象；具勞工保險被保險人身份者，應依勞工保險職業病就醫規定辦理，亦免自行負擔部分醫療費用)",
           "label_en": "Occupational diseases"
         },
         {
           "code": "20",
-          "label_zh": "急性腦血管疾病",
-          "label_en": "Acute cerebrovascular disease"
+          "label_zh": "急性腦血管疾病(限急性發作後一個月內)",
+          "label_en": "Acute cerebrovascular disease (within 1 month of onset)"
         },
         {
           "code": "21",
@@ -6457,23 +6457,23 @@
         },
         {
           "code": "25",
-          "label_zh": "肝硬化症，併有下列情形之一者",
-          "label_en": "Liver cirrhosis with one of the specified complications"
+          "label_zh": "肝硬化症，併有下列情形之一者：",
+          "label_en": "Liver cirrhosis with specified complications"
         },
         {
           "code": "26",
           "label_zh": "早產兒所引起之神經、肌肉、骨骼、心臟、肺臟等之併發症",
-          "label_en": "Complications of prematurity (neuro, muscular, skeletal, cardiac, pulmonary)"
+          "label_en": "Complications of prematurity"
         },
         {
           "code": "27",
-          "label_zh": "砷及其化合物之毒性作用（烏腳病）",
-          "label_en": "Toxic effects of arsenic and its compounds (blackfoot disease)"
+          "label_zh": "砷及其化合物之毒性作用(烏腳病)",
+          "label_en": "Toxic effects of arsenic (blackfoot disease)"
         },
         {
           "code": "28",
-          "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者",
-          "label_en": "Motor neuron disease (moderate-or-higher disability, or ventilator-dependent)"
+          "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者(AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21)，不受其身心障礙等級在中度以上或須使用呼吸器之限制】",
+          "label_en": "Motor neuron disease (moderate+ disability or ventilator-dependent; incl. ALS)"
         },
         {
           "code": "29",
@@ -6483,7 +6483,878 @@
         {
           "code": "30",
           "label_zh": "經中央主管機關依罕見疾病防治及藥物法第三條第一項指定公告之罕見疾病",
-          "label_en": "Rare diseases designated by the central authority under the Rare Disease Control and Orphan Drug Act (see the rare-disease list on the RS_CODE fields)"
+          "label_en": "Rare diseases designated under the Rare Disease Control and Orphan Drug Act (see the rare-disease list)"
+        }
+      ]
+    },
+    "DISE_CODE": {
+      "field_zh": "診斷代碼（重大傷病項目 ICD-10-CM 對照）",
+      "source": "全民健康保險重大傷病項目及其證明有效期限（附表一，113.9.16 發布修訂）ICD-10-CM 2023 年版",
+      "source_url": "https://www.nhi.gov.tw/ch/cp-6086-caf5f-2957-1.html",
+      "entries": [
+        {
+          "code": "C73",
+          "label_zh": "(一)甲狀腺惡性腫瘤",
+          "label_en": "Malignant neoplasm of thyroid gland · 證明有效期限 三年",
+          "section": "1. 需積極或長期治療之癌症"
+        },
+        {
+          "code": "C00.0-C06.9、C09.0-C10.9、C12-C14.8",
+          "label_zh": "(二)口腔、口咽及下咽惡性腫瘤第一期",
+          "label_en": "Malignant neoplasm of oral cavity,oropharynx and hypopharynx stage I · 證明有效期限 三年",
+          "section": "1. 需積極或長期治療之癌症"
+        },
+        {
+          "code": "C50.011-C50.929",
+          "label_zh": "(三)乳房惡性腫瘤第一期",
+          "label_en": "Malignant neoplasm of breast stage I · 證明有效期限 三年",
+          "section": "1. 需積極或長期治療之癌症"
+        },
+        {
+          "code": "C53.0-C53.9、C55",
+          "label_zh": "(四)子宮頸惡性腫瘤第一期",
+          "label_en": "Malignant neoplasm of cervix uteri stage I · 證明有效期限 三年",
+          "section": "1. 需積極或長期治療之癌症"
+        },
+        {
+          "code": "C00.0-C96.9(不含C73、C94.4、C94.6)",
+          "label_zh": "(五)除(一)-(四)之其他惡性腫瘤",
+          "label_en": "other malignant neoplasm · 證明有效期限 五年",
+          "section": "1. 需積極或長期治療之癌症"
+        },
+        {
+          "code": "D66",
+          "label_zh": "(一)遺傳性第Ⅷ凝血因子缺乏症",
+          "label_en": "Hereditary factor VIII deficiency · 證明有效期限 永久",
+          "section": "2. 遺傳性凝血因子缺乏"
+        },
+        {
+          "code": "D67",
+          "label_zh": "(二)遺傳性第Ⅸ凝血因子缺乏症",
+          "label_en": "Hereditary factor IX deficiency · 證明有效期限 永久",
+          "section": "2. 遺傳性凝血因子缺乏"
+        },
+        {
+          "code": "D68.1",
+          "label_zh": "(三)遺傳性第XI凝血因子缺乏症",
+          "label_en": "Hereditary factor XI deficiency · 證明有效期限 永久",
+          "section": "2. 遺傳性凝血因子缺乏"
+        },
+        {
+          "code": "D68.2",
+          "label_zh": "(四)其他遺傳性凝血因子缺乏症",
+          "label_en": "Hereditary deficiency of other clotting factors · 證明有效期限 永久",
+          "section": "2. 遺傳性凝血因子缺乏"
+        },
+        {
+          "code": "D55.0-D58.9",
+          "label_zh": "(一)遺傳性溶血性貧血",
+          "label_en": "Hereditary hemolytic anemias · 證明有效期限 五年",
+          "section": "3. 嚴重溶血性及再生不良性貧血"
+        },
+        {
+          "code": "D59.0-D59.9",
+          "label_zh": "(二)後天性溶血性貧血",
+          "label_en": "Acquired hemolytic anemias · 證明有效期限 五年",
+          "section": "3. 嚴重溶血性及再生不良性貧血"
+        },
+        {
+          "code": "D46.4、D60.0-D60.9、D61.01-D61.9",
+          "label_zh": "(三)再生不良性貧血",
+          "label_en": "Aplastic anemias · 證明有效期限 五年",
+          "section": "3. 嚴重溶血性及再生不良性貧血"
+        },
+        {
+          "code": "N18.5、N18.6",
+          "label_zh": "(一)慢性腎臟疾病",
+          "label_en": "Chronic kidney disease · 證明有效期限 永久：申請時已確定需定期透析者；三個月：申請時尚無法確定需定期透析者",
+          "section": "4. 慢性腎衰竭"
+        },
+        {
+          "code": "I12.0",
+          "label_zh": "(二)高血壓性慢性腎臟病伴有第五期慢性腎病或末期腎病",
+          "label_en": "Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease · 證明有效期限 永久：申請時已確定需定期透析者；三個月：申請時尚無法確定需定期透析者",
+          "section": "4. 慢性腎衰竭"
+        },
+        {
+          "code": "I13.11、I13.2",
+          "label_zh": "(三)高血壓性心臟及慢性腎臟病伴有心臟衰竭及第五期慢性腎病或末期腎病(高血壓性心臟及慢性腎臟病未伴有心臟衰竭合併第五期慢性腎病或末期腎病)",
+          "label_en": "Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease (Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease) · 證明有效期限 永久：申請時已確定需定期透析者；三個月：申請時尚無法確定需定期透析者",
+          "section": "4. 慢性腎衰竭"
+        },
+        {
+          "code": "M32.0-M32.9",
+          "label_zh": "(一)全身性紅斑狼瘡",
+          "label_en": "Systemic lupus erythematosus (SLE) · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M34.0-M34.9",
+          "label_zh": "(二)全身性硬化症",
+          "label_en": "Systemic sclerosis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M05.70-M06.09、M06.20-M06.39、M06.80-M06.8A、M06.9、M08.00-M08.9A",
+          "label_zh": "(三)類風濕關節炎〔符合1987美國風濕病學院修訂之診斷標準，含青年型類風濕關節炎〕",
+          "label_en": "Rheumatoid arthritis (Rheumatoid arthritis juvenile) · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M33.20-M33.29",
+          "label_zh": "(四)多發性肌炎",
+          "label_en": "Polymyositis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M33.00-M33.19、M33.90-M33.99、M36.0",
+          "label_zh": "(五)皮多肌炎",
+          "label_en": "Dermatopolymyositis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M30.0、M30.2、M30.8",
+          "label_zh": "(六)血管炎 1.結節狀多動脈炎",
+          "label_en": "Polyarteritis nodosa · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M31.0",
+          "label_zh": "(六)血管炎 2.過敏性血管炎",
+          "label_en": "Hypersensitivity angiitis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M31.30、M31.31",
+          "label_zh": "(六)血管炎 3.韋格納氏肉芽腫",
+          "label_en": "Wegener's granulomatosis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M31.5、M31.6",
+          "label_zh": "(六)血管炎 4.巨細胞動脈炎",
+          "label_en": "Giant cell arteritis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "I73.1",
+          "label_zh": "(六)血管炎 5.血栓閉鎖性血管炎",
+          "label_en": "Thromboangiitis obliterans (Buerger's disease) · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M31.4",
+          "label_zh": "(六)血管炎 6.主動脈弓症候群",
+          "label_en": "Aortic arch syndrome (Takayasu) · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M35.2",
+          "label_zh": "(六)血管炎 7.貝賽特氏病",
+          "label_en": "Behcet's disease · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "L10.0-L10.9",
+          "label_zh": "(七)天孢瘡",
+          "label_en": "Pemphigus · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M35.00-M35.0C",
+          "label_zh": "(八)乾燥症",
+          "label_en": "Sicca syndrome · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "K50.00-K50.919",
+          "label_zh": "(九)克隆氏症",
+          "label_en": "Crohn's disease · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "K51.00-K51.919",
+          "label_zh": "(十)慢性潰瘍性結腸炎",
+          "label_en": "Ulcerative colitis · 證明有效期限 永久",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M30.3",
+          "label_zh": "(十一)皮膚粘膜淋巴結綜合症(川崎病)符合下列任一項者：1.伴隨冠狀動脈50%以上程度狹窄者或伴隨冠狀動脈瘤，大小超過8mm，持續超過1個月以上者",
+          "label_en": "Kawasaki disease · 證明有效期限 五年",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "M30.3",
+          "label_zh": "(十一)皮膚粘膜淋巴結綜合症(川崎病)符合下列任一項者：2.伴隨冠狀動脈瘤，大小6-8mm，持續超過1個月以上者",
+          "label_en": "Kawasaki disease · 證明有效期限 三年",
+          "section": "5. 需終身治療之全身性自體免疫症候群"
+        },
+        {
+          "code": "F01.A11-F01.C4、F03.A11-F03.C4",
+          "label_zh": "(一)失智症(具器質性病態)【限由精神科或神經科專科醫師開具之診斷書並加註專科醫師證號】",
+          "label_en": "Unspecified dementia · 證明有效期限 永久",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F05",
+          "label_zh": "(二)生理狀況所致之譫妄",
+          "label_en": "Delirium due to known physiological condition · 證明有效期限 六個月（每六個月重新評估）",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F02.A11-F02.C4、F06.0、F06.1、F06.8",
+          "label_zh": "(三)其他生理狀況所致之其他精神疾患",
+          "label_en": "Other mental disorders due to known physiological condition · 證明有效期限 二年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F20.0-F20.9、F25.0-F25.9",
+          "label_zh": "(四)思覺失調症",
+          "label_en": "Schizophrenia · 證明有效期限 永久",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F30.10-F30.13、F30.2-F30.9、F31.0-F31.9、F32.2-F32.5、F33.2-F33.9",
+          "label_zh": "(五)情感性疾患",
+          "label_en": "Affective disorders · 證明有效期限 二年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F22",
+          "label_zh": "(六)妄想性疾患",
+          "label_en": "Delusional disorders · 證明有效期限 二年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F84.0",
+          "label_zh": "(七)廣泛性發展疾患 1.自閉性疾患",
+          "label_en": "Autistic disorder · 證明有效期限 五年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F84.3",
+          "label_zh": "(七)廣泛性發展疾患 2.其他兒童期崩解疾患",
+          "label_en": "Other childhood disintegrative disorder · 證明有效期限 五年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F84.5、F84.8",
+          "label_zh": "(七)廣泛性發展疾患 3.其他廣泛性發展疾患(含亞斯伯格症候群)",
+          "label_en": "Other pervasive developmental disorders(Asperger's syndrome) · 證明有效期限 五年：首次；永久：續發",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "F84.9",
+          "label_zh": "(七)廣泛性發展疾患 4.未明示之廣泛性發展疾患",
+          "label_en": "Pervasive developmental disorder,unspecified · 證明有效期限 三年：首次；五年：續發；五年：再發；永久：第四次以後",
+          "section": "6. 慢性精神病"
+        },
+        {
+          "code": "E00.0-E00.9、E03.0、E03.1",
+          "label_zh": "(一)先天性缺碘症候群(含先天性甲狀腺低下)",
+          "label_en": "Congenital iodine-deficiency syndrome(Congenital hypothyroidism) · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E10.10-E10.9",
+          "label_zh": "(二)胰島素依賴型糖尿病",
+          "label_en": "Type 1 diabetes mellitus · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E23.2",
+          "label_zh": "(三)尿崩症",
+          "label_en": "Diabetes insipidus · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E25.0-E25.9",
+          "label_zh": "(四)腎上腺性生殖器疾患",
+          "label_en": "Adrenogenital disorders · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E70.0-E71.2、E72.00-E72.51、E72.59、E72.8、E72.9",
+          "label_zh": "(五)氨基酸輸送與代謝之失調",
+          "label_en": "Disorders of amino-acid transport and metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E74.00-E74.09",
+          "label_zh": "(六)肝糖儲藏疾病",
+          "label_en": "Glycogen storage disease · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E74.20-E74.29",
+          "label_zh": "(七)半乳糖血症",
+          "label_en": "Galactosemia · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E78.1",
+          "label_zh": "(八)純高三酸甘油酯血症",
+          "label_en": "Pure hyperglyceridemia · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E88.1",
+          "label_zh": "(九)脂質失養症",
+          "label_en": "Lipodystrophy · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E75.21-E75.22、E75.240-E75.249、E75.3、E77.0-E77.9",
+          "label_zh": "(十)神經脂質代謝疾患",
+          "label_en": "Disorders of sphingolipid metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E75.6、E78.70、E78.9",
+          "label_zh": "(十一)脂質代謝疾患",
+          "label_en": "Disorders of lipoid metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E83.00-E83.09",
+          "label_zh": "(十二)銅代謝疾患",
+          "label_en": "Disorders of copper metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E20.1、E83.50-E83.59、E83.81",
+          "label_zh": "(十三)鈣代謝疾患",
+          "label_en": "Disorders of calcium metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "D81.30-D81.39、D81.5、E79.1-E79.9",
+          "label_zh": "(十四)嘌呤及嘧啶代謝疾患",
+          "label_en": "Disorders of purine and pyrimidine metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E76.01-E76.9",
+          "label_zh": "(十五)葡萄糖胺聚合醣代謝疾患",
+          "label_en": "Disorders of glycosaminoglycan metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E71.310-E71.548、E80.3、E88.40-E88.89、H49.811-H49.819",
+          "label_zh": "(十六)其他特定之新陳代謝疾患",
+          "label_en": "Other specified disorders of metabolism · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "E88.9",
+          "label_zh": "(十七)新陳代謝疾患",
+          "label_en": "Metabolic disorder,unspecified · 證明有效期限 永久",
+          "section": "7. 先天性新陳代謝異常疾病"
+        },
+        {
+          "code": "Q00.0-Q00.2",
+          "label_zh": "(一)無腦症及類似畸形",
+          "label_en": "Anencephaly and similar malformations · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "G90.1、Q01.0-Q04.9、Q06.0-Q06.9、Q07.8、Q07.9",
+          "label_zh": "(二)神經系統之其他先天性畸形",
+          "label_en": "Other congenital anomalies of nervous system · 證明有效期限 三年",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q20.0-Q24.9",
+          "label_zh": "(三)先天性心球〔胚胎〕及心臟中隔閉合之畸形或心臟之其他先天性畸形",
+          "label_en": "Bulbus cordis anomalies and anomalies of cardiac septal closure or other congenital anomalies of heart · 證明有效期限 三年",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q25.0-Q28.9",
+          "label_zh": "(四)循環系統之其他先天性畸形",
+          "label_en": "Other congenital anomalies of circulatory system · 證明有效期限 三年",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q33.0",
+          "label_zh": "(五)先天性肺囊腫",
+          "label_en": "Congenital cystic lung · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q33.3、Q33.6",
+          "label_zh": "(六)肺缺乏症形成不全及形成異常",
+          "label_en": "Agenesis, hypoplasia and dysplasia of lung · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q33.8、Q33.9",
+          "label_zh": "(七)肺之其他畸形",
+          "label_en": "Other congenital malformations of lung · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q41.0-Q45.9",
+          "label_zh": "(八)消化系統之其他先天性畸形",
+          "label_en": "Other congenital anomalies of digestive system · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q60.0-Q60.6",
+          "label_zh": "(九)腎無發育及腎其他縮減缺陷",
+          "label_en": "Renal agenesis and other reduction defects of kidney · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q61.00-Q61.9",
+          "label_zh": "(十)腎囊腫性疾病",
+          "label_en": "Cystic kidney disease · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q62.0-Q62.39",
+          "label_zh": "(十一)先天性腎盂及輸尿管之阻塞性缺陷",
+          "label_en": "Congenital Obstructive defects of renal pelvis and ureter · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q63.0-Q63.9",
+          "label_zh": "(十二)先天性腎其他畸形",
+          "label_en": "Other congenital malformations of kidney · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q77.0-Q77.2、Q77.4、Q77.5、Q77.7-Q77.9、Q78.4",
+          "label_zh": "(十三)骨軟骨發育不良伴有管狀骨及脊椎生長缺陷",
+          "label_en": "Osteochondrodysplasia with defects of growth of tubular bones and spine · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q90.0-Q99.1、Q99.8、Q99.9",
+          "label_zh": "(十四)染色體異常",
+          "label_en": "Chromosomal abnormalities · 證明有效期限 永久",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "Q35.1-Q35.7、Q36.0-Q37.9",
+          "label_zh": "(十五)先天性畸形唇顎裂〔限需多次手術治療及語言復健者〕",
+          "label_en": "Congenital cleft palate and cleft lip · 證明有效期限 三年",
+          "section": "8. 心、肺、胃腸、腎臟、神經、骨骼系統等之先天性畸形及染色體異常"
+        },
+        {
+          "code": "T31.20-T31.99、T32.20-T32.99",
+          "label_zh": "(一)體表面積之大於20%之燒傷",
+          "label_en": "Burn of >20% of total body surface · 證明有效期限 一年",
+          "section": "9. 燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者"
+        },
+        {
+          "code": "T26.00XA-T26.92XA(第7位碼須為A)",
+          "label_zh": "(二)顏面燒燙傷 1.眼及其附屬器官之燒傷",
+          "label_en": "Burn confined to eye and adnexa · 證明有效期限 一年",
+          "section": "9. 燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者"
+        },
+        {
+          "code": "T20.30XA-T20.39XA、T20.70XA-T20.79XA(第7位碼須為A)",
+          "label_zh": "(二)顏面燒燙傷 2.臉及頭之燒傷，深部組織壞死(深三度)，伴有身體部位損害。",
+          "label_en": "Burn of face and head, deep necrosis of underlying tissue (deep third degree) with loss of a body part · 證明有效期限 一年",
+          "section": "9. 燒燙傷面積達全身百分之二十以上；或顏面燒燙傷合併五官功能障礙者"
+        },
+        {
+          "code": "0TY00Z0、0TY10Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 1.腎臟移植",
+          "label_en": "Transplantation of Kidney · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "02YA0Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 2.心臟移植",
+          "label_en": "Transplantation of Heart · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "0BYC0Z0、0BYD0Z0、0BYF0Z0、0BYG0Z0、0BYH0Z0、0BYJ0Z0、0BYK0Z0、0BYL0Z0、0BYM0Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 3.肺臟移植",
+          "label_en": "Transplantation of Lung · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "0FY00Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 4.肝臟移植",
+          "label_en": "Transplantation of Liver · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "30230G0、30230G1",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 5.骨髓移植",
+          "label_en": "Transfusion of Autologous Bone Marrow · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "0FYG0Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 6.胰臟移植",
+          "label_en": "Transplantation of Pancreas · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "0DY80Z0",
+          "label_zh": "(一)移植器官(摘取器官亦免自行負擔部分醫療費用) 7.小腸移植",
+          "label_en": "Transplantation of Small Intestine · 證明有效期限 手術當次，由醫師逕行認定免申請證明",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.0",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 1.腎臟移植手術後之追蹤治療",
+          "label_en": "Kidney transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.1",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 2.心臟移植手術後之追蹤治療",
+          "label_en": "Heart transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.2",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 3.肺臟移植手術後之追蹤治療",
+          "label_en": "Lung transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.4",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 4.肝臟移植手術後之追蹤治療",
+          "label_en": "Liver transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.81、Z94.84",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 5.骨髓移植手術後之追蹤治療",
+          "label_en": "Bone transplant status · 證明有效期限 五年",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.83",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 6.胰臟移植手術後之追蹤治療",
+          "label_en": "Pancreas transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "Z94.82",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 7.小腸移植手術後之追蹤治療",
+          "label_en": "Intestine transplant status · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.10-T86.19",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 8.腎臟移植併發症",
+          "label_en": "Complication of kidney transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.40-T86.49",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 9.肝臟移植併發症",
+          "label_en": "Complication of liver transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.20-T86.23、T86.290-T86.298",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 10.心臟移植併發症",
+          "label_en": "Complication of heart transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.810-T86.819",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 11.肺臟移植併發症",
+          "label_en": "Complication of lung transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.00-T86.09",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 12.骨髓移植併發症",
+          "label_en": "Complication of bone marrow transplant · 證明有效期限 五年",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.890-T86.899",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 13.胰臟移植併發症",
+          "label_en": "Complication of pancreas transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "T86.850-T86.859",
+          "label_zh": "(二)接受器官移植後之追蹤治療(於中華民國領域外接受器官移植手術者應依法完成器官移植通報) 14.小腸移植併發症",
+          "label_en": "Complication of intestine transplant · 證明有效期限 永久",
+          "section": "10. 接受器官移植"
+        },
+        {
+          "code": "A80.0-A80.2、A80.30-A80.39",
+          "label_zh": "(一)急性脊髓灰白質炎併有其他麻痺者",
+          "label_en": "Acute poliomyelitis with other paralysis · 證明有效期限 永久",
+          "section": "11. 小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者"
+        },
+        {
+          "code": "G80.0-G80.2、G80.4-G80.9",
+          "label_zh": "(二)嬰兒腦性麻痺",
+          "label_en": "Cerebral palsy · 證明有效期限 永久",
+          "section": "11. 小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者"
+        },
+        {
+          "code": "(G82.20-G82.54、G83.0-G83.9)+(B91、G14)",
+          "label_zh": "(三)其他麻痺性徵候群(急性脊髓灰白質炎之後期影響併有提及麻痺性徵候群)",
+          "label_en": "Other paralytic syndromes (late effects of acute poliomyelitis) · 證明有效期限 永久",
+          "section": "11. 小兒麻痺、腦性麻痺所引起之神經、肌肉、骨骼、肺臟等之併發症者"
+        },
+        {
+          "code": "T07.XXXA-T07.XXXS",
+          "label_zh": "重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者(INJURY SEVERITY SCORE ≧16)(※植物人狀態不可以ISS計算)",
+          "label_en": "Major trauma rated 16 or above on the severity scale (INJURY SEVERITY SCORE ≧16) · 證明有效期限 一年：首次；三年：續發",
+          "section": "12. 重大創傷且其嚴重程度到達創傷嚴重程度分數十六分以上者"
+        },
+        {
+          "code": "Z99.11",
+          "label_zh": "(一)使用侵襲性呼吸輔助器二十一天以上者",
+          "label_en": "Invasive mechanical ventilation for 21 or more days. · 證明有效期限 四十二日：首次；三個月：續發；一年：第三次以後",
+          "section": "13. 因呼吸衰竭需長期使用呼吸器符合下列任一項者："
+        },
+        {
+          "code": "Z99.11",
+          "label_zh": "(二)使用侵襲性呼吸輔助器改善後，改用非侵襲性陽壓呼吸治療總計二十一天以上者",
+          "label_en": "Invasive mechanical ventilation followed by non-invasive ventilation, with a total duration of 21 or more days. · 證明有效期限 四十二日：首次；三個月：續發；一年：第三次以後",
+          "section": "13. 因呼吸衰竭需長期使用呼吸器符合下列任一項者："
+        },
+        {
+          "code": "Z99.11",
+          "label_zh": "(三)使用侵襲性呼吸輔助器後改用負壓呼吸輔助器總計二十一天以上者",
+          "label_en": "Invasive mechanical ventilation followed by negative pressure ventilation, with a total duration of 21 or more days. · 證明有效期限 四十二日：首次；三個月：續發；一年：第三次以後",
+          "section": "13. 因呼吸衰竭需長期使用呼吸器符合下列任一項者："
+        },
+        {
+          "code": "Z99.11",
+          "label_zh": "(四)特殊疾病(末期心衰竭、慢性呼吸道疾病、原發性神經原肌肉病變、慢性換氣不足症候群)而須使用非侵襲性陽壓呼吸治療總計二十一天以上者。",
+          "label_en": "Specific diseases, e.g., End stage heart failure, chronic pulmonary diseases, primary neuromuscular diseases, chronic hypoventilation syndrome, which require non-invasive ventilation for 21 or more days. · 證明有效期限 四十二日：首次；三個月：續發；一年：第三次以後",
+          "section": "13. 因呼吸衰竭需長期使用呼吸器符合下列任一項者："
+        },
+        {
+          "code": "E41",
+          "label_zh": "(一)因腸道大量切除或失去功能引起之嚴重營養不良者，給予全靜脈營養已超過三十天，且病情已達穩定狀態，口攝飲食仍無法提供足量營養者。",
+          "label_en": "Patients suffering from severe malnutrition due to major enterectomy, intestinal failure already on a fully intravenous diet for 30 days, and unable to obtain sufficient nutrition through an oral diet · 證明有效期限 三個月：首次；三年：續發",
+          "section": "14. 嚴重營養不良者"
+        },
+        {
+          "code": "E43",
+          "label_zh": "(二)其他慢性疾病之嚴重營養不良者，給予全靜脈營養已超過三十天，且病情已達穩定狀態，口攝飲食仍無法提供足量營養者。",
+          "label_en": "Patients suffering from severe malnutrition due to other chronic disease already on a fully intravenous diet for 30 days, and unable to obtain sufficient nutrition through an oral diet · 證明有效期限 三個月：首次；三年：續發",
+          "section": "14. 嚴重營養不良者"
+        },
+        {
+          "code": "T70.3XXA",
+          "label_zh": "(一)減壓病",
+          "label_en": "Decompression sickness · 證明有效期限 永久",
+          "section": "15. 因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症"
+        },
+        {
+          "code": "T79.0XXA",
+          "label_zh": "(二)空氣栓塞症",
+          "label_en": "Air embolism · 證明有效期限 三年",
+          "section": "15. 因潛水、或減壓不當引起之嚴重型減壓病或空氣栓塞症"
+        },
+        {
+          "code": "G70.00、G70.01",
+          "label_zh": "重症肌無力症",
+          "label_en": "Myasthenia gravis · 證明有效期限 三年",
+          "section": "16. 重症肌無力症"
+        },
+        {
+          "code": "D80.1、D80.6、D80.8、D80.9",
+          "label_zh": "(一)免疫缺乏症伴有主要抗體缺陷",
+          "label_en": "Immunodeficiency with predominantly antibody defects · 證明有效期限 五年",
+          "section": "17. 先天性免疫不全症"
+        },
+        {
+          "code": "D81.0-D81.2、D81.4、D81.6、D81.7、D81.82、D81.89、D81.9",
+          "label_zh": "(二)複合性免疫缺乏症",
+          "label_en": "Combined immunodeficiencies · 證明有效期限 五年",
+          "section": "17. 先天性免疫不全症"
+        },
+        {
+          "code": "D82.0-D82.9",
+          "label_zh": "(三)與其他重大缺陷相關的免疫缺乏症",
+          "label_en": "Immunodeficiency associated with other major defects · 證明有效期限 五年",
+          "section": "17. 先天性免疫不全症"
+        },
+        {
+          "code": "D83.0-D83.9",
+          "label_zh": "(四)常見多樣性免疫缺乏症",
+          "label_en": "Common variable immunodeficiency · 證明有效期限 五年",
+          "section": "17. 先天性免疫不全症"
+        },
+        {
+          "code": "D84.0-D84.9",
+          "label_zh": "(五)其他免疫缺乏症",
+          "label_en": "Other immunodeficiencies · 證明有效期限 五年",
+          "section": "17. 先天性免疫不全症"
+        },
+        {
+          "code": "（S12.000A-S12.9XXA）+〔（S14.101A-S14.159A）、（S24.101A-S24.159A）、（S34.101A-S34.139A）〕（第7碼均須為A）",
+          "label_zh": "(一)脊柱骨折，伴有脊髓病灶",
+          "label_en": "Fracture of vertebral column with spinal cord injury · 證明有效期限 永久",
+          "section": "18. 脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者"
+        },
+        {
+          "code": "S14.101A-S14.159A、S24.101A-S24.159A、S34.101A-S34.139A(第7碼均須為A)",
+          "label_zh": "(二)無明顯脊椎損傷之脊髓傷害",
+          "label_en": "Spinal cord injury without evidence of spinal bone injury · 證明有效期限 永久",
+          "section": "18. 脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者"
+        },
+        {
+          "code": "G32.0、G95.0、G95.11-G95.89、G95.9、G99.2",
+          "label_zh": "(三)其他脊髓病變",
+          "label_en": "Other disease of spinal cord · 證明有效期限 永久",
+          "section": "18. 脊髓損傷或病變所引起之神經、肌肉、皮膚、骨骼、心肺、泌尿及腸胃等之併發症者"
+        },
+        {
+          "code": "J60",
+          "label_zh": "(一)煤礦工人塵肺症",
+          "label_en": "Coalworker's pneumoconiosis · 證明有效期限 三年：首次；永久：續發",
+          "section": "19. 職業病"
+        },
+        {
+          "code": "J61",
+          "label_zh": "(二)石綿沉著症",
+          "label_en": "Asbestosis · 證明有效期限 三年：首次；永久：續發",
+          "section": "19. 職業病"
+        },
+        {
+          "code": "J62.0、J62.8",
+          "label_zh": "(三)其他矽石或矽鹽所致之塵肺症",
+          "label_en": "Pneumoconiosis due to other silica or silicates · 證明有效期限 三年：首次；永久：續發",
+          "section": "19. 職業病"
+        },
+        {
+          "code": "J63.0-J63.6",
+          "label_zh": "(四)其他無機性塵埃所致之塵肺症",
+          "label_en": "Pneumoconiosis due to other inorganic dust · 證明有效期限 三年：首次；永久：續發",
+          "section": "19. 職業病"
+        },
+        {
+          "code": "J64、J65",
+          "label_zh": "(五)塵肺症",
+          "label_en": "Pneumoconiosis · 證明有效期限 三年：首次；永久：續發",
+          "section": "19. 職業病"
+        },
+        {
+          "code": "I60.00-I60.9",
+          "label_zh": "(一)蜘蛛膜下腔出血",
+          "label_en": "Subarachnoid hemorrhage · 證明有效期限 急性發作後一個月內由醫師逕行認定免申請證明",
+          "section": "20. 急性腦血管疾病"
+        },
+        {
+          "code": "I61.0-I62.9",
+          "label_zh": "(二)腦內出血",
+          "label_en": "Intracerebral hemorrhage · 證明有效期限 急性發作後一個月內由醫師逕行認定免申請證明",
+          "section": "20. 急性腦血管疾病"
+        },
+        {
+          "code": "I63.00-I63.9、P91.821、P91.822、P91.823、P91.829",
+          "label_zh": "(三)腦梗塞",
+          "label_en": "Cerebral infarction · 證明有效期限 急性發作後一個月內由醫師逕行認定免申請證明",
+          "section": "20. 急性腦血管疾病"
+        },
+        {
+          "code": "G45.0-G45.2、G45.4-G46.8、I67.0-I67.2、I67.4-I67.7、I67.81、I67.82、I67.841-I67.848、I67.850、I67.858、I67.89、I67.9、I68.0、I68.8",
+          "label_zh": "(四)其他腦血管疾病",
+          "label_en": "Other cerebrovascular disease · 證明有效期限 急性發作後一個月內由醫師逕行認定免申請證明",
+          "section": "20. 急性腦血管疾病"
+        },
+        {
+          "code": "G35",
+          "label_zh": "多發性硬化症",
+          "label_en": "Multiple sclerosis · 證明有效期限 五年",
+          "section": "21. 多發性硬化症"
+        },
+        {
+          "code": "G71.00-G71.29",
+          "label_zh": "先天性肌肉萎縮症",
+          "label_en": "Congenital muscular dystrophy · 證明有效期限 永久",
+          "section": "22. 先天性肌肉萎縮症"
+        },
+        {
+          "code": "Q81.0-Q81.9、Q82.8、Q82.9",
+          "label_zh": "(一)先天性水泡性表皮鬆懈症",
+          "label_en": "Congenital epidermolysis bullosa · 證明有效期限 永久",
+          "section": "23. 外皮之先天畸形"
+        },
+        {
+          "code": "Q84.9",
+          "label_zh": "(二)皮膚先天性畸形",
+          "label_en": "Congenital malformation of integument, unspecified · 證明有效期限 永久",
+          "section": "23. 外皮之先天畸形"
+        },
+        {
+          "code": "Q80.0-Q80.9",
+          "label_zh": "(三)先天性魚鱗癬(穿山甲症)",
+          "label_en": "Congenital ichthyosis · 證明有效期限 永久",
+          "section": "23. 外皮之先天畸形"
+        },
+        {
+          "code": "A30.0-A30.9",
+          "label_zh": "漢生病",
+          "label_en": "Leprosy（Hansen's disease） · 證明有效期限 永久",
+          "section": "24. 漢生病"
+        },
+        {
+          "code": "K70.2-K70.31、K74.1-K74.69",
+          "label_zh": "(一)腹水無法控制",
+          "label_en": "Ascites with poor control · 證明有效期限 五年",
+          "section": "25. 肝硬化症"
+        },
+        {
+          "code": "K70.2-K70.31、K74.1-K74.69",
+          "label_zh": "(二)食道或胃靜脈曲張出血",
+          "label_en": "Esophageal or gastric varices bleeding · 證明有效期限 五年",
+          "section": "25. 肝硬化症"
+        },
+        {
+          "code": "K70.2-K70.31、K74.1-K74.69",
+          "label_zh": "(三)肝昏迷或肝代償不全",
+          "label_en": "Hepatic coma or liver dyscompensated · 證明有效期限 五年",
+          "section": "25. 肝硬化症"
+        },
+        {
+          "code": "P07.10",
+          "label_zh": "(一)早產兒出生後三個月內因神經、肌肉、骨骼、心臟、肺臟(含支氣管)等之併發症住院者",
+          "label_en": "Neurological, muscular, skeletal, cardiac or pulmonary complications due to premature infants to have admission care within three months birth. · 證明有效期限 由醫師逕行認定免申請證明",
+          "section": "26. 早產兒所引起之神經、肌肉、骨骼、心臟、肺臟等之併發症"
+        },
+        {
+          "code": "P07.20",
+          "label_zh": "(二)早產兒出生滿三個月後，經身心障礙等級評鑑為中度以上，領有社政單位核發之身心障礙手冊者",
+          "label_en": "Neurological, muscular, skeletal, cardiac or pulmonary complications due to premature infants certified to have moderate impairments three months of age. · 證明有效期限 三年",
+          "section": "26. 早產兒所引起之神經、肌肉、骨骼、心臟、肺臟等之併發症"
+        },
+        {
+          "code": "T57.0X1A、T57.0X2A、T57.0X3A、T57.0X4A",
+          "label_zh": "砷及其化合物之毒性作用(烏腳病)",
+          "label_en": "Toxic effect of arsenic and its compounds (black foot disease) · 證明有效期限 永久",
+          "section": "27. 砷及其化合物之毒性作用"
+        },
+        {
+          "code": "G12.20-G12.29",
+          "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者(AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21)，不受其身心障礙等級在中度以上或須使用呼吸器之限制】",
+          "label_en": "Motor neuron disease · 證明有效期限 永久",
+          "section": "28. 運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者"
+        },
+        {
+          "code": "A81.00-A81.09",
+          "label_zh": "庫賈氏病",
+          "label_en": "Creutzfeldt-Jakob disease · 證明有效期限 永久",
+          "section": "29. 庫賈氏病"
+        },
+        {
+          "code": "—",
+          "label_zh": "經中央主管機關依罕見疾病防治及藥物法第三條第一項指定公告之罕見疾病",
+          "label_en": "Rare disease · 證明有效期限 永久",
+          "section": "30. 經中央主管機關依罕見疾病防治及藥物法第三條第一項指定公告之罕見疾病"
         }
       ]
     }
