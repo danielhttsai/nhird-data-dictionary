@@ -38,7 +38,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "1：男性，2：女性，4：變 性人",
+      "description_zh": "1：男性，2：女性，4：變性人",
       "available_notes": [],
       "name_zh_en": "original gender",
       "description_en": "1: male"
@@ -74,7 +74,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌",
+      "description_zh": "組織病理：用ICD-O 譯碼第5碼為2：原位癌第5碼為3：侵襲癌",
       "available_notes": [],
       "name_zh_en": "type and status code",
       "description_en": "Histopathology: ICD-O coded with the fifth digit as 2 for in situ carcinoma and 3 for invasive carcinoma."
@@ -86,7 +86,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "第1碼為 H者：表示為血 液腫瘤個案 其他第1碼非 H 者：詳見 原發部位(CASITE)對照表 血液腫瘤個案若要再細分 NHL(非何杰金氏淋巴瘤)、 HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個 案，在此欄位無法辨識，請 用組織類型與性態碼 (HISTOLOG)區分。若是要 分析各癌症部分(CASITE欄 位)，也請先把NHL、HL、 LEU等血液腫瘤排除後再 計算。",
+      "description_zh": "第1碼為 H者：表示為血液腫瘤個案其他第1碼非 H 者：詳見原發部位(CASITE)對照表血液腫瘤個案若要再細分 NHL(非何杰金氏淋巴瘤)、 HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼 (HISTOLOG)區分。若是要分析各癌症部分(CASITE欄位)，也請先把NHL、HL、 LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
       "description_en": "The first code H indicates a hematologic malignancy case. Other first codes not H refer to the primary site (CASITE)对照表. For further subdivision of NHL (non-Hodgkin's lymphoma), HL (Hodgkin's lymphoma), and LEU (leukemia) within hematologic malignancies, this field cannot distinguish them; please use histology and morphology codes (HISTOLOG). When analyzing cancer cases in the CASITE field, exclude NHL, HL, and LEU first before calculating."
@@ -98,7 +98,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "合併個案所有申報醫院治療 狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓 塞治療TACE)，或為新的",
+      "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療TACE)，或為新的",
       "available_notes": [],
       "name_zh_en": "Treatment Condition",
       "description_en": "Combined treatment status across all reporting hospitals for the case: 0：No treatment 1：Surgical treatment 2：Radiotherapy 3：Chemotherapy 6：Immunotherapy 7：Endocrine (hormonal) therapy 8：Supportive care 9：Traditional Chinese medicine B：Bone marrow/stem cell transplantation O：Other treatment P：Local chemotherapy I：Local immunotherapy T：Targeted therapy X：Other, including local hepatic artery embolization therapy TACE, or new."
@@ -122,7 +122,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "詳戶籍地代碼(RESIDCD)對 照表 100 年起開始使用新五都代 碼",
+      "description_zh": "詳戶籍地代碼(RESIDCD)對照表 100 年起開始使用新五都代碼",
       "available_notes": [
         {
           "roc_year": 100,
@@ -152,7 +152,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報檔",
-      "description_zh": "2002 年起收錄 1：Well differentiated Differentiated, NOS 2：Moderately differentiated Moderately well differentiated Intermediate differentiated 3：Poorly differentiated 4：Undifferentiated Anaplastic 9：Grade or differentiation not determined, not stated or not applicable 注意：因各癌別腫瘤分級/ 分化程度有二、三、四分 法，詳細說明請參考 100 年版之前的台灣癌症登記長 短表摘錄手冊內容，可逕至",
+      "description_zh": "2002 年起收錄 1：Well differentiated Differentiated, NOS 2：Moderately differentiated Moderately well differentiated Intermediate differentiated 3：Poorly differentiated 4：Undifferentiated Anaplastic 9：Grade or differentiation not determined, not stated or not applicable 注意：因各癌別腫瘤分級/ 分化程度有二、三、四分法，詳細說明請參考 100 年版之前的台灣癌症登記長短表摘錄手冊內容，可逕至",
       "available_notes": [
         {
           "roc_year": 100,
@@ -182,7 +182,7 @@
       "type": "Char",
       "length": "",
       "source": "癌登年報",
-      "description_zh": "0：身分證字號符合編碼原 則",
+      "description_zh": "0：身分證字號符合編碼原則",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: Identity number conforms to coding rules"
@@ -260,7 +260,7 @@
       "type": "Char",
       "length": "",
       "source": "死因檔",
-      "description_zh": "97年以後死因以 ICD10編 碼 (無死因資料者，此欄空白)",
+      "description_zh": "97年以後死因以 ICD10編碼 (無死因資料者，此欄空白)",
       "available_notes": [
         {
           "roc_year": 97,
@@ -278,7 +278,7 @@
       "type": "Char",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "詳欄位(變項)譯碼(一)癌症 類別",
+      "description_zh": "詳欄位(變項)譯碼(一)癌症類別",
       "available_notes": [],
       "name_zh_en": "Cancer Category",
       "description_en": "detail field (variable) code (1) cancer category"
@@ -290,7 +290,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "單一癌症者，此欄為 0；多發 者為順序。",
+      "description_zh": "單一癌症者，此欄為 0；多發者為順序。",
       "available_notes": [],
       "name_zh_en": "Record Order",
       "description_en": "for single cancer cases, this column is 0; for multiple cases, it's in sequence."
@@ -314,7 +314,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "各癌症類別(newca2)內的順 序，單一癌症者，此欄為 0； 多發者為順序。",
+      "description_zh": "各癌症類別(newca2)內的順序，單一癌症者，此欄為 0； 多發者為順序。",
       "available_notes": [],
       "name_zh_en": "diagnosis_order_within_cancer_category",
       "description_en": "sequence within each cancer category (newca2) - 0 for single cancer, sequence number for multiple cancers."
@@ -338,7 +338,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "癌症類別(newca2)之間的順 序，單一癌症者此欄為0；多 發者為順序。",
+      "description_zh": "癌症類別(newca2)之間的順序，單一癌症者此欄為0；多發者為順序。",
       "available_notes": [],
       "name_zh_en": "diagnostic sequence for cancer category",
       "description_en": "cancer category newca2 sequence, 0 for single cancer, sequential number for multiple occurrences"
@@ -350,7 +350,7 @@
       "type": "Char",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "依SEER 死因分類所得新死 因，若是死於其所得的癌 症，此欄與newca2 相同； 若非死於所得的癌症，則與 死因檔之死因分類 (Death_D_CODE 或 Death_ICD10)相同。詳欄位 (變項)譯碼(二)SEER 死因。",
+      "description_zh": "依SEER 死因分類所得新死因，若是死於其所得的癌症，此欄與newca2 相同； 若非死於所得的癌症，則與死因檔之死因分類 (Death_D_CODE 或 Death_ICD10)相同。詳欄位 (變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "SEER Cause of Death",
       "description_en": "Based on SEER cause of death classification, if the death was due to this cancer, this field will be the same as newca2; otherwise, it will be the same as the cause of death code (Death_D_CODE) or ICD-10 code (Death_ICD10) in the death file. Refer to Field (Variable) Coding II: SEER Cause of Death."
@@ -362,7 +362,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
+      "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌症； 9：未知(沒有串到死因檔、門急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "whether it is a cause-specific survival event",
       "description_en": "0: Died from other causes or still alive; 1: Died from the first cancer diagnosed; 9: Unknown (not linked to death cause file, outpatient/ED, inpatient, insured file); Blank indicates not the first cancer."
@@ -398,7 +398,7 @@
       "type": "Char",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "當診斷日期(DIAGDAY)的 日有missing 的情況，考慮 以死亡日期 (Death_D_DATE)或隨機數 字填補的方式，以便與追蹤 日期計算出存活時間。詳欄 位(變項)譯碼(四)填補後的 癌症診斷日期。",
+      "description_zh": "當診斷日期(DIAGDAY)的日有missing 的情況，考慮以死亡日期 (Death_D_DATE)或隨機數字填補的方式，以便與追蹤日期計算出存活時間。詳欄位(變項)譯碼(四)填補後的癌症診斷日期。",
       "available_notes": [],
       "name_zh_en": "filled cancer diagnosis date",
       "description_en": "When the diagnosis date (DIAGDAY) is missing for the day, consider using death date (Death_D_DATE) or random numbers to fill in, so as to calculate survival time with follow-up dates. Detail field (variable) code (four) filled cancer diagnosis date."
@@ -410,7 +410,7 @@
       "type": "Char",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "有串到死因檔的病患為死亡 時間(Death_D_DATE)；沒 有串到死因檔的病患為門急 診、住院、承保檔最後一次 紀錄的日期。詳欄位(變項) 譯碼(五)最後追蹤時間。",
+      "description_zh": "有串到死因檔的病患為死亡時間(Death_D_DATE)；沒有串到死因檔的病患為門急診、住院、承保檔最後一次紀錄的日期。詳欄位(變項) 譯碼(五)最後追蹤時間。",
       "available_notes": [],
       "name_zh_en": "last follow-up time",
       "description_en": "Patients who linked to the cause of death file are recorded as the date of death (Death_D_DATE); those not linked have their record date as the last outpatient/ED, inpatient, or coverage file entry."
@@ -446,7 +446,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Acute Myocardial Infraction (AMI)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -458,7 +458,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "History of Old Myocardial Infraction (Old MI)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -470,7 +470,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is congestive heart failure (CHF)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -482,7 +482,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Peripheral vascular disease (PVD)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -494,7 +494,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "has cerebro-vascular disease (CVD)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -518,7 +518,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Dementia",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -530,7 +530,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "是否有 Paralysis",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -542,7 +542,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "No diabetes without chronic complications (DM W/O CC).",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -554,7 +554,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is Diabetes with chronic complication (DM W CC)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -566,7 +566,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is chronic renal failure (renal",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -578,7 +578,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Cirrhosis/chronic hepatitis (mild liver disease) (HBV, HCV, mild LD) present or not",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -590,7 +590,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Moderate -Server Liver Disease (M S LD) present?",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -602,7 +602,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "whether there is ulcer (peptic ulcer disease)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -614,7 +614,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Whether there is Rheumatic disease (RD)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -626,7 +626,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "AIDS diagnosis",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -650,7 +650,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
+      "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
       "name_zh_en": "Whether there is Hypertension, complicated (HT C)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
@@ -662,7 +662,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (九)B 型肝炎口服抗病毒藥 物。",
+      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (九)B 型肝炎口服抗病毒藥物。",
       "available_notes": [],
       "name_zh_en": "ever used B型肝炎oral antiviral drugs",
       "description_en": "0: No; 1: Yes; drug list detailed field (variable) translation (九) B-type hepatitis oral antiviral drugs."
@@ -674,7 +674,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十)C 型肝炎口服抗病毒藥 物。",
+      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十)C 型肝炎口服抗病毒藥物。",
       "available_notes": [],
       "name_zh_en": "ever used C型肝炎oral antiviral drugs",
       "description_en": "0: No; 1: Yes; drug list detailed field (variable) translation (十) C-type hepatitis oral antiviral drugs."
@@ -698,7 +698,7 @@
       "type": "Num",
       "length": "",
       "source": "本檔自訂",
-      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十二)標靶藥物和免疫藥 物。 註：因標靶和免疫藥物不只 治療一種癌症，此欄位僅歸 納是否使用過該藥物，未判 斷是否因肝癌而治療的紀 錄。",
+      "description_zh": "0：否；1：是； 藥品清單詳欄位(變項)譯碼 (十二)標靶藥物和免疫藥物。 註：因標靶和免疫藥物不只治療一種癌症，此欄位僅歸納是否使用過該藥物，未判斷是否因肝癌而治療的紀錄。",
       "available_notes": [],
       "name_zh_en": "whether ever used insured target drugs or immunotherapy drugs",
       "description_en": "0: No; 1: Yes; Drug list detailed item code (Twelve) Target drugs and immunotherapeutic drugs. Note: As target and immunotherapeutic drugs treat more than one type of cancer, this field only records whether the drug was used, without determining if it was due to liver cancer."
@@ -725,7 +725,7 @@
         },
         {
           "code": "4",
-          "label_zh": "Peripheral vascular disease 441.x,443.9,785.4,V43.4, ComD4_PVD 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 癌症主檔之欄位 名稱",
+          "label_zh": "Peripheral vascular disease 441.x,443.9,785.4,V43.4, ComD4_PVD 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 癌症主檔之欄位名稱",
           "label_en": "Peripheral vascular disease 441.x, 443.9, 785.4, V43.4, ComD4_PVD Establishing a health big data thematic database and integrated analysis—establishing an accurate medical theme database for cancer (Version date: 202512/30 Cancer main file field names"
         },
         {
@@ -785,17 +785,17 @@
         },
         {
           "code": "2015",
-          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
+          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的人分類到comD10_DMC。 2.有comD11_CRF其他代碼而沒有 comD10_DMC 其他代碼的人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人分類到最早被記載到的其他代碼。 3-2.最早被記載到的其他代碼因日期相同無法區別先後順序者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 comD10_DMC 其他代碼,而也沒有 comD11_CRF 其他代碼分類到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
           "label_en": ""
         },
         {
           "code": "I10",
-          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對 應檔(112.05.09更新)，網址： (九) B 型肝炎口服抗病毒藥物 成分名稱 藥品代碼",
+          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對應檔(112.05.09更新)，網址： (九) B 型肝炎口服抗病毒藥物成分名稱藥品代碼",
           "label_en": ""
         },
         {
           "code": "ADEFOVIR",
-          "label_zh": "DIPIVOXIL B023920100 BC23920100 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十) C 型肝炎口服抗病毒藥物 治療組合 藥品代碼 Daklinza + Sunvepra治療基因型 1b型24週療程 HCVDAA0001 Viekirax + Exviera治療基因型 1b型，無肝硬化或具代償性 HCVDAA0002 肝硬化12週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，無肝硬化12 HCVDAA0003 週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，代償性肝硬 HCVDAA0004 化24週療程 Zepatier +/- ribavirin 治療基因型 1a型，無抗藥性病毒株，12 HCVDAA0005 週療程 Zepatier + ribavirin 治療基因型 1a型，有抗藥性病毒株，16 HCVDAA0006 週療程 Zepatier +/- ribavirin 治療基因型 1b型，12 週療程 HCVDAA0007 Zepatier治療基因型第 4型，12 週療程 HCVDAA0008 Zepatier + ribavirin 治療基因型第 4型，16 週療程 HCVDAA0009 Harvoni +/- ribavirin 治療基因型第 1、4、5 或6型，12週療 HCVDAA0010 程 Sovaldi + ribavirin 治療基因型第 2型，12 週療程 HCVDAA0011 Maviret 治療基因型第 1、2、3、4、5或6 型，8週療程 HCVDAA0012 Maviret 治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0013 Maviret 治療基因型第 1或3型，16週療程 HCVDAA0014 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 治療組合 藥品代碼 Epclusa治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0015 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，12 HCVDAA0016 週療程 Vosevi 治療基因型第 1、2、3、4、5或6型，12週療程 HCVDAA0017 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，24 HCVDAA0018 週療程 註：ribavirin 應用在 C 肝治療上，都需要和干擾素或口服抗病毒藥物併用，且單 方不適用於 C 肝治療，故 ribavirin 單方藥品沒有納入在 C 型肝炎口服抗病毒藥 物清單中。 (十一) 干擾素 成分名稱 藥品代碼 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十二) 標靶藥物和免疫藥物 成分名稱 藥品代碼 註：ATEZOLIZUMAB 和BEVACIZUMAB 合併使用才符合健保給付規定之肝癌 用藥(詳健保署「藥品給付規定內容」第九節 抗癌瘤藥物)，僅在其中一種藥不宜 使用的狀況下，這兩種藥物才會被單一使用在肝癌治療。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _門急診(西醫)(OPDTE11001_10)的紀 錄。 範例2 IPDTE11001_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_LIVER_111 肝癌死因統計合併檔 MASTER_TABLE_LIVER_111 肝癌研究主檔",
+          "label_zh": "DIPIVOXIL B023920100 BC23920100 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱藥品代碼 (十) C 型肝炎口服抗病毒藥物治療組合藥品代碼 Daklinza + Sunvepra治療基因型 1b型24週療程 HCVDAA0001 Viekirax + Exviera治療基因型 1b型，無肝硬化或具代償性 HCVDAA0002 肝硬化12週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，無肝硬化12 HCVDAA0003 週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，代償性肝硬 HCVDAA0004 化24週療程 Zepatier +/- ribavirin 治療基因型 1a型，無抗藥性病毒株，12 HCVDAA0005 週療程 Zepatier + ribavirin 治療基因型 1a型，有抗藥性病毒株，16 HCVDAA0006 週療程 Zepatier +/- ribavirin 治療基因型 1b型，12 週療程 HCVDAA0007 Zepatier治療基因型第 4型，12 週療程 HCVDAA0008 Zepatier + ribavirin 治療基因型第 4型，16 週療程 HCVDAA0009 Harvoni +/- ribavirin 治療基因型第 1、4、5 或6型，12週療 HCVDAA0010 程 Sovaldi + ribavirin 治療基因型第 2型，12 週療程 HCVDAA0011 Maviret 治療基因型第 1、2、3、4、5或6 型，8週療程 HCVDAA0012 Maviret 治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0013 Maviret 治療基因型第 1或3型，16週療程 HCVDAA0014 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 治療組合藥品代碼 Epclusa治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0015 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，12 HCVDAA0016 週療程 Vosevi 治療基因型第 1、2、3、4、5或6型，12週療程 HCVDAA0017 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，24 HCVDAA0018 週療程註：ribavirin 應用在 C 肝治療上，都需要和干擾素或口服抗病毒藥物併用，且單方不適用於 C 肝治療，故 ribavirin 單方藥品沒有納入在 C 型肝炎口服抗病毒藥物清單中。 (十一) 干擾素成分名稱藥品代碼建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱藥品代碼 (十二) 標靶藥物和免疫藥物成分名稱藥品代碼註：ATEZOLIZUMAB 和BEVACIZUMAB 合併使用才符合健保給付規定之肝癌用藥(詳健保署「藥品給付規定內容」第九節抗癌瘤藥物)，僅在其中一種藥不宜使用的狀況下，這兩種藥物才會被單一使用在肝癌治療。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度範例： 檔案名稱(Filename) 檔案內容範例1 OPDTE11001_10_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _門急診(西醫)(OPDTE11001_10)的紀錄。 範例2 IPDTE11001_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_LIVER_111 肝癌死因統計合併檔 MASTER_TABLE_LIVER_111 肝癌研究主檔",
           "label_en": "Identity-category comparison table. Data before ROC 95 (2006) vs. ROC 95 and after: veterans/veteran-survivor household representatives — identity=4 before 95; identity=2 with insured-attribute=61 from 95 on. Insurance category '62' dependents — identity=5 before 95; identity=2 with insured-attribute=62 and unit insurance-category first digit 1/2/3 from 95 on. 3. Enrollment/disenrollment types: (1) Enroll: joins NHI upon meeting eligibility. (2) Disenroll: 1) death; 2) serving a sentence in prison/detention, or a security/reformatory measure, for 2+ months; 3) missing for 6 months (or from the disaster date if missing due to disaster); 4) becoming an active-duty officer, NCO, soldier, or military-academy funded student (changed to 'transfer out' on 2001-02-01); 5) loss of enrollment conditions (e.g. household moved out, residence permit expired, foreigner's work/study ended and left). (3) Transfer in: 1) change of insurer unit; 2) change of insured identity. (4) Transfer out: 1) change of insurer unit; 2) change of insured identity. (5) Cancel: NHIA cancels a doubly-enrolled insured person. (6) Interrupted transfer in: everyone eligible must enroll; if after enrolling a gap in enrollment arose (job change, identity change, address move, etc.) with unpaid premiums, and the person re-enters NHI. (7) Interrupted transfer out: similarly, a gap leading to exit from NHI. (8) Resume: 1) a missing person found within 6 months should cancel suspension and pay back premiums; if not found after 6 months, insurance is terminated retroactively from the suspension month and disenrollment processed; 2) a person abroad 6+ months resumes on the return date, but one abroad under 6 months cancels suspension and pays back premiums. (9) Suspend: 1) registered missing but under 6 months; 2) continuously detained 2+ months; 3) planned to be abroad 6+ months, except deep-sea fishing-vessel crew; 4) continued-coverage dependents (children, grandchildren) aged 20+ without earning capacity (e.g. disability-certificate holders) or still studying without employment. (10) Suspend-resume: the field changes to 'suspend-resume' when resuming after suspension."
         }
       ],

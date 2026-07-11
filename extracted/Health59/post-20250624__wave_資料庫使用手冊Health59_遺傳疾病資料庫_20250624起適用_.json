@@ -29,7 +29,7 @@
       "name_en": "PATIENT_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼（如無居留證號碼則 為護照號碼）",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼則為護照號碼）",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "Encrypted. National ID number, or Alien Resident Certificate number (if no ARC number, then passport number)"
@@ -40,7 +40,7 @@
       "name_en": "PATIENT_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼（如無居留證號碼則 為護照號碼）",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼則為護照號碼）",
       "available_notes": [],
       "name_zh_en": "1 national ID number",
       "description_en": "Encrypted. National ID number, or Alien Resident Certificate number (if no ARC number, then passport number)"
@@ -84,7 +84,7 @@
       "name_en": "SPECIMEN_TYPE",
       "type": "Char",
       "length": 8,
-      "description_zh": "羊水；血液；尿液；流產 組織；臍帶血；其他；血 片；腦脊髓液",
+      "description_zh": "羊水；血液；尿液；流產組織；臍帶血；其他；血片；腦脊髓液",
       "available_notes": [],
       "name_zh_en": "Health Checkup Category",
       "description_en": "Amniotic fluid; blood; urine; abortion tissue; cord blood; other; blood smear; cerebrospinal fluid"
@@ -139,7 +139,7 @@
       "name_en": "FAMILY_KIND",
       "type": "Char",
       "length": 8,
-      "description_zh": "一般；低收入戶；偏遠地 區",
+      "description_zh": "一般；低收入戶；偏遠地區",
       "available_notes": [],
       "name_zh_en": "Family Type",
       "description_en": "General; low-income household; remote area"
@@ -161,7 +161,7 @@
       "name_en": "REPORT21",
       "type": "Char",
       "length": 10,
-      "description_zh": "正常；異常；培養失敗； 正常變異型；未發現異 常；無法確定",
+      "description_zh": "正常；異常；培養失敗； 正常變異型；未發現異常；無法確定",
       "available_notes": [],
       "name_zh_en": "Test Result",
       "description_en": "Normal; Abnormal; Culture failed; Normal variant; No abnormality found; Undetermined"
@@ -227,7 +227,7 @@
       "name_en": "FOLLOW_R",
       "type": "Char",
       "length": 34,
-      "description_zh": "1-1_已做人工流產，流產 物已做過確認 1-2_已做人工流產，流產 物未做過確認 2_繼續懷孕 3_自然流產",
+      "description_zh": "1-1_已做人工流產，流產物已做過確認 1-2_已做人工流產，流產物未做過確認 2_繼續懷孕 3_自然流產",
       "available_notes": [],
       "name_zh_en": "Follow-Up Result",
       "description_en": "1-1_Had induced abortion, abortus confirmed 1-2_Had induced abortion, abortus not confirmed 2_Pregnancy continued 3_Spontaneous miscarriage"
@@ -305,7 +305,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "資料庫使用手冊Health59_遺傳疾病資料庫(20250624起適用)",
   "data_description_en": "",
-  "notes_en": "",
+  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. The data years span 2010 to 2024. ID number (PATIENT_ID)",
   "primary_keys_en": "",
   "name_zh_en": ""
 }

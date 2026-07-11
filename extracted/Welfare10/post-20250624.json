@@ -29,10 +29,10 @@
       "name_en": "DID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
       "available_notes": [],
       "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National ID number or alien resident certificate number."
+      "description_en": "Encrypted. National ID number or alien residence permit number"
     },
     {
       "seq": 2,
@@ -254,11 +254,11 @@
     },
     {
       "seq": 18,
-      "name_zh": "身心障礙生活補助 金額",
+      "name_zh": "身心障礙生活補助金額",
       "name_en": "AS_1",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者生活補助 金額(元)",
+      "description_zh": "107年起新增。 指每月領取身心障礙者生活補助金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -271,11 +271,11 @@
     },
     {
       "seq": 19,
-      "name_zh": "身心障礙者日間照 顧費用補助",
+      "name_zh": "身心障礙者日間照顧費用補助",
       "name_en": "AS_2",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者日間照顧 費用補助金額(元)",
+      "description_zh": "107年起新增。 指每月領取身心障礙者日間照顧費用補助金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -288,11 +288,11 @@
     },
     {
       "seq": 20,
-      "name_zh": "身心障礙者住宿式 照顧費用補助",
+      "name_zh": "身心障礙者住宿式照顧費用補助",
       "name_en": "AS_3",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者住宿式照 顧費用金額(元)",
+      "description_zh": "107年起新增。 指每月領取身心障礙者住宿式照顧費用金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -321,7 +321,7 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare10_身心障礙資料檔(20250624起適用)",
   "data_description_en": "1. One record of a category of disability.\n2. Data for individuals holding a certificate of physical or mental disability from March 2014 to 2014-2019.",
-  "notes_en": "",
+  "notes_en": "1. The new system for classifying and assessing disability grades has been in effect since July 11, 2012 (ROC year 101).\n2. The total number of persons with disabilities is the sum under the new system plus the old system.\n※ This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals. The key for linking records to an individual and matching individual data: DID.",
   "primary_keys_en": "",
   "name_zh_en": "disability data file"
 }

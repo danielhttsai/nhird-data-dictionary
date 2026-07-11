@@ -25,7 +25,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一 編號，或外籍居留證號碼（如 無居留證號碼請填護照號碼）， 左靠不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼）， 左靠不足補空白。",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
@@ -192,10 +192,10 @@
       "name_en": "SAMP_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "sample collection institution",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 15,
@@ -275,10 +275,10 @@
       "name_en": "LAB_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "assessing institution",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 22,
@@ -856,7 +856,7 @@
         },
         {
           "code": "5",
-          "label_zh": "其它 非 in (以上) 2025年07月22日修訂",
+          "label_zh": "其它非 in (以上) 2025年07月22日修訂",
           "label_en": "other not included above, revised on 22/7/2025"
         },
         {

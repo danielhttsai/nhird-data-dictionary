@@ -47,7 +47,7 @@
       "name_en": "DISABLE",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：視覺障礙 2：聽覺機能障礙 3：平衡機能障礙 4：聲音機能或語言機能障礙 5：肢體障礙 6：智能障礙 7：重要器官失去功能 8：顏面損傷者 9：植物人 10：失智症 11：自閉症 12：慢性精神病患者 13：多重障礙 14：頑性(難治型)癲癇症 15：罕見疾病 16：其他經中央衛生主管機關認定之 障礙",
+      "description_zh": "1：視覺障礙 2：聽覺機能障礙 3：平衡機能障礙 4：聲音機能或語言機能障礙 5：肢體障礙 6：智能障礙 7：重要器官失去功能 8：顏面損傷者 9：植物人 10：失智症 11：自閉症 12：慢性精神病患者 13：多重障礙 14：頑性(難治型)癲癇症 15：罕見疾病 16：其他經中央衛生主管機關認定之障礙",
       "available_notes": [],
       "name_zh_en": "disability category",
       "description_en": "1: Visual impairment 2: Hearing impairment 3: Balance impairment 4: Voice or speech function impairment 5: Physical disability 6: Intellectual disability 7: Loss of function of a major organ 8: Facial disfigurement 9: Persistent vegetative state 10: Dementia 11: Autism 12: Chronic mental illness 13: Multiple disabilities 14: Intractable (refractory) epilepsy 15: Rare disease 16: Other disability recognized by the central health authority"
@@ -91,14 +91,14 @@
       "name_en": "SA11",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：身心障礙者為允許代答的障別 2：身心障礙者生病無法作答 3：身心障礙者因年邁、體衰或精神狀 況不佳無法溝通理解而無法作答 4：其他原因 5：年齡太小無法作答 6：家人堅持不讓受訪者面對外人 7：個案不願意面對外人 8：多次接觸未遇由家人代答",
+      "description_zh": "1：身心障礙者為允許代答的障別 2：身心障礙者生病無法作答 3：身心障礙者因年邁、體衰或精神狀況不佳無法溝通理解而無法作答 4：其他原因 5：年齡太小無法作答 6：家人堅持不讓受訪者面對外人 7：個案不願意面對外人 8：多次接觸未遇由家人代答",
       "available_notes": [],
       "name_zh_en": "Proxy Answer Reason",
       "description_en": "1: Person with disabilities has a category for which proxy answers are allowed 2: Person with disabilities is ill and unable to answer 3: Person with disabilities is unable to communicate/understand due to old age, frailty, or poor mental condition, and thus cannot answer 4: Other reason 5: Too young to answer 6: Family insists the respondent not face outsiders 7: The case is unwilling to face outsiders 8: Multiple contact attempts failed to reach respondent, so a family member answered on their behalf"
     },
     {
       "seq": 8,
-      "name_zh": "代答者與身心障礙 者關係",
+      "name_zh": "代答者與身心障礙者關係",
       "name_en": "SA2",
       "type": "Char",
       "length": 2,
@@ -109,7 +109,7 @@
     },
     {
       "seq": 9,
-      "name_zh": "承上題，代答者選其 它者與代答者關係 為",
+      "name_zh": "承上題，代答者選其它者與代答者關係為",
       "name_en": "SA22",
       "type": "Char",
       "length": 40,
@@ -131,7 +131,7 @@
     },
     {
       "seq": 11,
-      "name_zh": "代答者年齡(依足歲 填答)",
+      "name_zh": "代答者年齡(依足歲填答)",
       "name_en": "SA4",
       "type": "Num",
       "length": 3,
@@ -146,7 +146,7 @@
       "name_en": "SA5",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職 6：大專院校 7：研究所以上 99：未回答 一﹑身心障礙者基本資料",
+      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職 6：大專院校 7：研究所以上 99：未回答一﹑身心障礙者基本資料",
       "available_notes": [],
       "name_zh_en": "proxy responder's education level",
       "description_en": "1: Illiterate 2: Self-taught (literate) 3: Elementary school 4: Junior high school 5: Senior high/vocational school 6: College/university 7: Graduate school or above 99: No answer I. Basic information of persons with disabilities"
@@ -164,7 +164,7 @@
     },
     {
       "seq": 14,
-      "name_zh": "出生年：民國 年",
+      "name_zh": "出生年：民國年",
       "name_en": "A2A",
       "type": "Char",
       "length": 2,
@@ -307,7 +307,7 @@
     },
     {
       "seq": 27,
-      "name_zh": "(原)配偶年齡 歲",
+      "name_zh": "(原)配偶年齡歲",
       "name_en": "A9B",
       "type": "Char",
       "length": 3,
@@ -373,7 +373,7 @@
     },
     {
       "seq": 33,
-      "name_zh": "造成身心障礙主要 原因為何",
+      "name_zh": "造成身心障礙主要原因為何",
       "name_en": "A11",
       "type": "Char",
       "length": 2,
@@ -384,7 +384,7 @@
     },
     {
       "seq": 34,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "A11A",
       "type": "Char",
       "length": 40,
@@ -395,7 +395,7 @@
     },
     {
       "seq": 35,
-      "name_zh": "身心障礙發生時年 齡 歲( 以足歲計算)",
+      "name_zh": "身心障礙發生時年齡歲( 以足歲計算)",
       "name_en": "A12",
       "type": "Char",
       "length": 2,
@@ -406,7 +406,7 @@
     },
     {
       "seq": 36,
-      "name_zh": "身心障礙發生時年 齡分類",
+      "name_zh": "身心障礙發生時年齡分類",
       "name_en": "A12A",
       "type": "Char",
       "length": 3,
@@ -428,7 +428,7 @@
     },
     {
       "seq": 42,
-      "name_zh": "您(身心障礙者)目前 的居住地點為何",
+      "name_zh": "您(身心障礙者)目前的居住地點為何",
       "name_en": "B15_1",
       "type": "Char",
       "length": 1,
@@ -461,7 +461,7 @@
     },
     {
       "seq": 45,
-      "name_zh": "居住於非一樓者 ， 上下樓梯需否他 人協助",
+      "name_zh": "居住於非一樓者 ， 上下樓梯需否他人協助",
       "name_en": "B15C",
       "type": "Char",
       "length": 2,
@@ -476,7 +476,7 @@
       "name_en": "B15D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：自有(指本宅為戶內經常居住成員 所擁有) 2：不住在一起的配偶、父母或子女所 擁有 3：租用 4：配住 5：借住 7：其他(含占用) 98：不知道/拒答",
+      "description_zh": "1：自有(指本宅為戶內經常居住成員所擁有) 2：不住在一起的配偶、父母或子女所擁有 3：租用 4：配住 5：借住 7：其他(含占用) 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "ownership of residence",
       "description_en": "1: Self-owned (the residence is owned by a household member who usually resides there) 2: Owned by a spouse, parent, or child who does not live together 3: Rented 4: Assigned housing 5: Borrowed residence 7: Other (including unauthorized occupancy) 98: Don't know/Refused"
@@ -505,7 +505,7 @@
     },
     {
       "seq": 49,
-      "name_zh": "目前有哪些人與您 同住",
+      "name_zh": "目前有哪些人與您同住",
       "name_en": "B15E_1",
       "type": "Char",
       "length": 2,
@@ -527,7 +527,7 @@
     },
     {
       "seq": 56,
-      "name_zh": "下列親屬是否為身 心障礙者",
+      "name_zh": "下列親屬是否為身心障礙者",
       "name_en": "B15F_1",
       "type": "Char",
       "length": 1,
@@ -538,7 +538,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "居家有無需要無障 礙設施",
+      "name_zh": "居家有無需要無障礙設施",
       "name_en": "B15GR",
       "type": "Char",
       "length": 1,
@@ -549,29 +549,29 @@
     },
     {
       "seq": 61,
-      "name_zh": "居家是否需要無障 礙設施(1)衛浴設備， 是否改裝完畢",
+      "name_zh": "居家是否需要無障礙設施(1)衛浴設備， 是否改裝完畢",
       "name_en": "B15G_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：需要 2：需要，且已經改裝完畢 3：需要，但尚未改裝完畢 62 居家是否需要無障 礙 設 施 (2) 室 內 扶 手， 是否改裝完畢 B15G_2",
+      "description_zh": "0：需要 2：需要，且已經改裝完畢 3：需要，但尚未改裝完畢 62 居家是否需要無障礙設施 (2) 室內扶手， 是否改裝完畢 B15G_2",
       "available_notes": [],
       "name_zh_en": "Whether the home needs accessible facilities (1) Bathroom fixtures, whether renovation is complete",
       "description_en": "0: Needed 2: Needed, and already modified 3: Needed, but not yet modified 62 Whether home needs accessible facilities (2) Indoor handrails, whether modification completed B15G_2"
     },
     {
       "seq": 63,
-      "name_zh": "居家是否需要無障 礙設施(3)坡道，是否 改裝完畢",
+      "name_zh": "居家是否需要無障礙設施(3)坡道，是否改裝完畢",
       "name_en": "B15G_3",
       "type": "0：需要 2：需要，且已經改裝完畢 3：需要，但尚未改裝完畢",
       "length": "",
-      "description_zh": "64 居家是否需要無障 礙設施(4)廚房，是否 改裝完畢 B15G_4 65 居家是否需要無障 礙設施(5)臥室，是否 改裝完畢 B15G_5 66 居家是否需要無障 礙設施(6)走道，是否 改裝完畢 B15G_6 67 居家是否需要無障 礙設施(7)電梯，是否 改裝完畢 B15G_7 68 居家是否需要無障 礙設施(8)門鈴閃光 燈，是否改裝完畢 B15G_8 69 居家是否需要無障 礙設施(9)其他 ，是否改裝完畢 B15G_9",
+      "description_zh": "64 居家是否需要無障礙設施(4)廚房，是否改裝完畢 B15G_4 65 居家是否需要無障礙設施(5)臥室，是否改裝完畢 B15G_5 66 居家是否需要無障礙設施(6)走道，是否改裝完畢 B15G_6 67 居家是否需要無障礙設施(7)電梯，是否改裝完畢 B15G_7 68 居家是否需要無障礙設施(8)門鈴閃光燈，是否改裝完畢 B15G_8 69 居家是否需要無障礙設施(9)其他 ，是否改裝完畢 B15G_9",
       "available_notes": [],
       "name_zh_en": "Whether the home needs accessible facilities (3) Ramp, whether renovation is complete",
       "description_en": "64 Does the home need accessibility features (4) Kitchen -- has it been renovated? B15G_4 65 Does the home need accessibility features (5) Bedroom -- has it been renovated? B15G_5 66 Does the home need accessibility features (6) Hallway -- has it been renovated? B15G_6 67 Does the home need accessibility features (7) Elevator -- has it been renovated? B15G_7 68 Does the home need accessibility features (8) Flashing doorbell light -- has it been renovated? B15G_8 69 Does the home need accessibility features (9) Other -- has it been renovated? B15G_9"
     },
     {
       "seq": 70,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "B15G_9O",
       "type": "Char",
       "length": 20,
@@ -582,18 +582,18 @@
     },
     {
       "seq": 71,
-      "name_zh": "居所環境交通便利 性",
+      "name_zh": "居所環境交通便利性",
       "name_en": "B15H",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：居所至乘坐大眾運輸工具地點，以 步行或使用輪椅等行動輔具方式在 15 分鐘以內 2：居所至乘坐大眾運輸工具地點，以 步行或使用輪椅等行動輔具方式在 15 分鐘以上至未滿 30 分鐘 3：沒有大眾運輸工具可到達居所附 近，以步行或使用輪椅等行動輔具方 式超過 30 分鐘以上",
+      "description_zh": "1：居所至乘坐大眾運輸工具地點，以步行或使用輪椅等行動輔具方式在 15 分鐘以內 2：居所至乘坐大眾運輸工具地點，以步行或使用輪椅等行動輔具方式在 15 分鐘以上至未滿 30 分鐘 3：沒有大眾運輸工具可到達居所附近，以步行或使用輪椅等行動輔具方式超過 30 分鐘以上",
       "available_notes": [],
       "name_zh_en": "Transportation convenience of the residential environment",
       "description_en": "1: From residence to the public transit boarding point, within 15 minutes on foot or using a wheelchair or other mobility aid 2: From residence to the public transit boarding point, 15 minutes or more but less than 30 minutes on foot or using a wheelchair or other mobility aid 3: No public transit available near the residence; over 30 minutes on foot or using a wheelchair or other mobility aid"
     },
     {
       "seq": 72,
-      "name_zh": "住家附近的整體生 活 機 能 ( 例如：商 店、郵局、醫院、圖書 館、車站等)",
+      "name_zh": "住家附近的整體生活機能 ( 例如：商店、郵局、醫院、圖書館、車站等)",
       "name_en": "B15I",
       "type": "Char",
       "length": 1,
@@ -626,7 +626,7 @@
     },
     {
       "seq": 75,
-      "name_zh": "目前您是否有家人 或親屬",
+      "name_zh": "目前您是否有家人或親屬",
       "name_en": "B15L",
       "type": "Char",
       "length": 2,
@@ -637,7 +637,7 @@
     },
     {
       "seq": 76,
-      "name_zh": "目前您有哪些家人 或親屬",
+      "name_zh": "目前您有哪些家人或親屬",
       "name_en": "B15L1_1",
       "type": "Char",
       "length": 2,
@@ -648,7 +648,7 @@
     },
     {
       "seq": 82,
-      "name_zh": "您的家人大約多久 時間來探望一次",
+      "name_zh": "您的家人大約多久時間來探望一次",
       "name_en": "B15M",
       "type": "Char",
       "length": 2,
@@ -659,18 +659,18 @@
     },
     {
       "seq": 83,
-      "name_zh": "居住收容機構之原 因為何",
+      "name_zh": "居住收容機構之原因為何",
       "name_en": "B15N",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：收容機構離家近 2：家人或親屬無法照顧 3：可接受良好的教育或照顧 4：收費合理 5：復健需要 6：沒有家人或親屬可照顧，自費居住 收容機構 7：由政府安置 8：其他 98：不知道/拒答",
+      "description_zh": "1：收容機構離家近 2：家人或親屬無法照顧 3：可接受良好的教育或照顧 4：收費合理 5：復健需要 6：沒有家人或親屬可照顧，自費居住收容機構 7：由政府安置 8：其他 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Reason for residing in a care institution",
       "description_en": "1: Institution is close to home 2: Family or relatives unable to provide care 3: Can receive good education or care 4: Reasonable fees 5: Rehabilitation needs 6: No family or relatives available for care, self-funded residence at institution 7: Placed by government 8: Other 98: Don't know/refuse to answer"
     },
     {
       "seq": 84,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "B15N_O",
       "type": "Char",
       "length": 70,
@@ -681,7 +681,7 @@
     },
     {
       "seq": 85,
-      "name_zh": "居住在機構已有 年",
+      "name_zh": "居住在機構已有年",
       "name_en": "B15OY",
       "type": "Num",
       "length": 3,
@@ -692,7 +692,7 @@
     },
     {
       "seq": 86,
-      "name_zh": "居住在機構年數分 類",
+      "name_zh": "居住在機構年數分類",
       "name_en": "B15OYR",
       "type": "Char",
       "length": 2,
@@ -703,7 +703,7 @@
     },
     {
       "seq": 87,
-      "name_zh": "居 住 在 機 構 已 有 月",
+      "name_zh": "居住在機構已有月",
       "name_en": "B15OM",
       "type": "Num",
       "length": 3,
@@ -725,7 +725,7 @@
     },
     {
       "seq": 89,
-      "name_zh": "您平常主要的休閒 活動為何",
+      "name_zh": "您平常主要的休閒活動為何",
       "name_en": "C16A",
       "type": "Char",
       "length": 2,
@@ -736,7 +736,7 @@
     },
     {
       "seq": 90,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C16AO",
       "type": "Char",
       "length": 30,
@@ -747,7 +747,7 @@
     },
     {
       "seq": 91,
-      "name_zh": "您平常次要的休閒 活動為何",
+      "name_zh": "您平常次要的休閒活動為何",
       "name_en": "C16B",
       "type": "Char",
       "length": 2,
@@ -758,7 +758,7 @@
     },
     {
       "seq": 92,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C16BO",
       "type": "Char",
       "length": 34,
@@ -780,7 +780,7 @@
     },
     {
       "seq": 94,
-      "name_zh": "您使用電腦的頻率 每週幾天？",
+      "name_zh": "您使用電腦的頻率每週幾天？",
       "name_en": "T17A11",
       "type": "Num",
       "length": 3,
@@ -791,7 +791,7 @@
     },
     {
       "seq": 95,
-      "name_zh": "您使用電腦的頻率 每天幾小時？",
+      "name_zh": "您使用電腦的頻率每天幾小時？",
       "name_en": "T17A12",
       "type": "Num",
       "length": 3,
@@ -817,14 +817,14 @@
       "name_en": "C17A2",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：文書處理或計算(含行政處理或管 理) 2：程式設計 3：電腦繪圖 4：娛樂休閒(玩 game、社群交友等) 5：上網搜尋資料 6：上網購物 10：其他 98：不知道/拒答",
+      "description_zh": "1：文書處理或計算(含行政處理或管理) 2：程式設計 3：電腦繪圖 4：娛樂休閒(玩 game、社群交友等) 5：上網搜尋資料 6：上網購物 10：其他 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "purpose of using computer",
       "description_en": "1: Word processing or calculation (including administrative processing or management) 2: Programming 3: Computer graphics 4: Entertainment/leisure (playing games, social networking, etc.) 5: Searching for information online 6: Online shopping 10: Other 98: Don't know/refuse to answer"
     },
     {
       "seq": 98,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C17A2_O",
       "type": "Char",
       "length": 60,
@@ -835,18 +835,18 @@
     },
     {
       "seq": 99,
-      "name_zh": "不會使用電腦的主 要原因",
+      "name_zh": "不會使用電腦的主要原因",
       "name_en": "C17B",
       "type": "Char",
       "length": 2,
-      "description_zh": "0：不適用 1：沒有機會學習 2：學不來 3：缺乏電腦設備 4：無力負擔電腦費用 5：缺乏使用電腦的無障礙環境(如螢 幕語音軟體、電字顯示器) 6：沒有需要(如植物人、智障者、兒",
+      "description_zh": "0：不適用 1：沒有機會學習 2：學不來 3：缺乏電腦設備 4：無力負擔電腦費用 5：缺乏使用電腦的無障礙環境(如螢幕語音軟體、電字顯示器) 6：沒有需要(如植物人、智障者、兒",
       "available_notes": [],
       "name_zh_en": "Main reason for not being able to use a computer",
       "description_en": "0: Not applicable, 1: No opportunity to learn, 2: Unable to learn, 3: Lack of computer equipment, 4: Cannot afford computer expenses, 5: Lack of an accessible environment for using a computer (e.g., screen reader software, braille/text display), 6: No need (e.g., vegetative state, intellectually disabled, child"
     },
     {
       "seq": 100,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C17B_O",
       "type": "Char",
       "length": 60,
@@ -868,7 +868,7 @@
     },
     {
       "seq": 102,
-      "name_zh": "您最近一個月很少 外出或沒有外出的 原因",
+      "name_zh": "您最近一個月很少外出或沒有外出的原因",
       "name_en": "C19",
       "type": "Char",
       "length": 2,
@@ -879,7 +879,7 @@
     },
     {
       "seq": 103,
-      "name_zh": "您最近一個月外出 的理由",
+      "name_zh": "您最近一個月外出的理由",
       "name_en": "C20_1",
       "type": "Char",
       "length": 2,
@@ -890,7 +890,7 @@
     },
     {
       "seq": 112,
-      "name_zh": "您最近一個月外出 時最常使用的方式",
+      "name_zh": "您最近一個月外出時最常使用的方式",
       "name_en": "C211",
       "type": "Char",
       "length": 2,
@@ -901,7 +901,7 @@
     },
     {
       "seq": 113,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C211O",
       "type": "Char",
       "length": 10,
@@ -916,14 +916,14 @@
       "name_en": "C212",
       "type": "Char",
       "length": 2,
-      "description_zh": "譯 碼 同 欄 位 C211 0：無次要者不適用",
+      "description_zh": "譯碼同欄位 C211 0：無次要者不適用",
       "available_notes": [],
       "name_zh_en": "secondary method",
       "description_en": "Coding same as field C211. 0: No secondary item, not applicable"
     },
     {
       "seq": 115,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "C212O",
       "type": "Char",
       "length": 12,
@@ -945,7 +945,7 @@
     },
     {
       "seq": 117,
-      "name_zh": "為了您的外出，您本 人及陪同您的人平 均每月花在交通的 費用約 元",
+      "name_zh": "為了您的外出，您本人及陪同您的人平均每月花在交通的費用約元",
       "name_en": "C21A_1",
       "type": "Num",
       "length": 5,
@@ -956,7 +956,7 @@
     },
     {
       "seq": 118,
-      "name_zh": "最近一個月有沒有 搭過飛機",
+      "name_zh": "最近一個月有沒有搭過飛機",
       "name_en": "C22A",
       "type": "Char",
       "length": 1,
@@ -967,7 +967,7 @@
     },
     {
       "seq": 119,
-      "name_zh": "有無使用「上下階 梯」",
+      "name_zh": "有無使用「上下階梯」",
       "name_en": "C22A2A",
       "type": "Char",
       "length": 1,
@@ -978,7 +978,7 @@
     },
     {
       "seq": 120,
-      "name_zh": "「上下階梯」是否符 合您的需要",
+      "name_zh": "「上下階梯」是否符合您的需要",
       "name_en": "C22A2B",
       "type": "Char",
       "length": 2,
@@ -993,14 +993,14 @@
       "name_en": "C22A2C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 122,
-      "name_zh": "有無使用「升降設備 或無障礙出入口」",
+      "name_zh": "有無使用「升降設備或無障礙出入口」",
       "name_en": "C22A3A",
       "type": "Char",
       "length": 1,
@@ -1011,7 +1011,7 @@
     },
     {
       "seq": 123,
-      "name_zh": "「升降設備或無障 礙出入口」是否符合 您的需要",
+      "name_zh": "「升降設備或無障礙出入口」是否符合您的需要",
       "name_en": "C22A3B",
       "type": "Char",
       "length": 2,
@@ -1026,14 +1026,14 @@
       "name_en": "C22A3C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 125,
-      "name_zh": "有無使用「站名撥報 或顯示設施」",
+      "name_zh": "有無使用「站名撥報或顯示設施」",
       "name_en": "C22A4A",
       "type": "Char",
       "length": 1,
@@ -1044,7 +1044,7 @@
     },
     {
       "seq": 126,
-      "name_zh": "「站名撥報或顯示 設施」是否符合您的 需要",
+      "name_zh": "「站名撥報或顯示設施」是否符合您的需要",
       "name_en": "C22A4B",
       "type": "Char",
       "length": 2,
@@ -1059,14 +1059,14 @@
       "name_en": "C22A4C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 128,
-      "name_zh": "有無使用「輪椅停靠 或固定設施」",
+      "name_zh": "有無使用「輪椅停靠或固定設施」",
       "name_en": "C22A5A",
       "type": "Char",
       "length": 1,
@@ -1077,7 +1077,7 @@
     },
     {
       "seq": 129,
-      "name_zh": "「輪椅停靠或固定設 施」是否符合您的",
+      "name_zh": "「輪椅停靠或固定設施」是否符合您的",
       "name_en": "C22A5B",
       "type": "Char",
       "length": 2,
@@ -1092,7 +1092,7 @@
       "name_en": "C22A5C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1110,7 +1110,7 @@
     },
     {
       "seq": 132,
-      "name_zh": "「服務鈴」是否符合 您的需要",
+      "name_zh": "「服務鈴」是否符合您的需要",
       "name_en": "C22A7B",
       "type": "Char",
       "length": 2,
@@ -1125,14 +1125,14 @@
       "name_en": "C22A7C",
       "type": "Char Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 134,
-      "name_zh": "有無使用「衛生設 備」",
+      "name_zh": "有無使用「衛生設備」",
       "name_en": "C22A8A",
       "type": "Char",
       "length": 1,
@@ -1143,7 +1143,7 @@
     },
     {
       "seq": 135,
-      "name_zh": "「衛生設備」是否符 合您的需要",
+      "name_zh": "「衛生設備」是否符合您的需要",
       "name_en": "C22A8B",
       "type": "Char",
       "length": 2,
@@ -1158,14 +1158,14 @@
       "name_en": "C22A8C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 137,
-      "name_zh": "有無使用「扶手及防 滑地板」",
+      "name_zh": "有無使用「扶手及防滑地板」",
       "name_en": "C22A9A",
       "type": "Char",
       "length": 1,
@@ -1191,14 +1191,14 @@
       "name_en": "C22A9C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 140,
-      "name_zh": "最近一個月有沒有 搭過長途客運",
+      "name_zh": "最近一個月有沒有搭過長途客運",
       "name_en": "C22B",
       "type": "Char",
       "length": 1,
@@ -1209,7 +1209,7 @@
     },
     {
       "seq": 141,
-      "name_zh": "有無使用「上下階 梯」",
+      "name_zh": "有無使用「上下階梯」",
       "name_en": "C22B2A",
       "type": "Char",
       "length": 1,
@@ -1235,14 +1235,14 @@
       "name_en": "C22B2C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 144,
-      "name_zh": "有無使用「升降設備 或無障礙出入口」",
+      "name_zh": "有無使用「升降設備或無障礙出入口」",
       "name_en": "C22B3A",
       "type": "Char",
       "length": 1,
@@ -1253,7 +1253,7 @@
     },
     {
       "seq": 145,
-      "name_zh": "「升降設備或無障 礙出入口」是否符合 您的需要",
+      "name_zh": "「升降設備或無障礙出入口」是否符合您的需要",
       "name_en": "C22B3B",
       "type": "Char",
       "length": 2,
@@ -1268,14 +1268,14 @@
       "name_en": "C22B3C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 147,
-      "name_zh": "有無使用「站名撥報 或顯示設施」",
+      "name_zh": "有無使用「站名撥報或顯示設施」",
       "name_en": "C22B4A",
       "type": "Char",
       "length": 1,
@@ -1286,7 +1286,7 @@
     },
     {
       "seq": 148,
-      "name_zh": "「站名撥報或顯示 設施」是否符合您的 需要",
+      "name_zh": "「站名撥報或顯示設施」是否符合您的需要",
       "name_en": "C22B4B",
       "type": "Char",
       "length": 2,
@@ -1301,14 +1301,14 @@
       "name_en": "C22B4C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 150,
-      "name_zh": "有無使用「輪椅停靠 或固定設施」",
+      "name_zh": "有無使用「輪椅停靠或固定設施」",
       "name_en": "C22B5A",
       "type": "Char",
       "length": 1,
@@ -1319,7 +1319,7 @@
     },
     {
       "seq": 151,
-      "name_zh": "「輪椅停靠或固定 設施」是否符合您的 需要",
+      "name_zh": "「輪椅停靠或固定設施」是否符合您的需要",
       "name_en": "C22B5B",
       "type": "Char",
       "length": 2,
@@ -1334,7 +1334,7 @@
       "name_en": "C22B5C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1352,7 +1352,7 @@
     },
     {
       "seq": 154,
-      "name_zh": "「博愛座」是否符合 您的需要",
+      "name_zh": "「博愛座」是否符合您的需要",
       "name_en": "C22B6B",
       "type": "Char",
       "length": 2,
@@ -1367,7 +1367,7 @@
       "name_en": "C22B6C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1400,14 +1400,14 @@
       "name_en": "C22B7C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 159,
-      "name_zh": "有無使用「衛生設 備」",
+      "name_zh": "有無使用「衛生設備」",
       "name_en": "C22B8A",
       "type": "Char",
       "length": 1,
@@ -1418,7 +1418,7 @@
     },
     {
       "seq": 160,
-      "name_zh": "「衛生設備」是否符 合您的需要",
+      "name_zh": "「衛生設備」是否符合您的需要",
       "name_en": "C22B8B",
       "type": "Char",
       "length": 2,
@@ -1433,14 +1433,14 @@
       "name_en": "C22B8C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 162,
-      "name_zh": "有無使用「扶手及防 滑地板」",
+      "name_zh": "有無使用「扶手及防滑地板」",
       "name_en": "C22B9A",
       "type": "Char",
       "length": 1,
@@ -1466,14 +1466,14 @@
       "name_en": "C22B9C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 165,
-      "name_zh": "最近一個月有沒有 搭過市區公車(含捷 運)",
+      "name_zh": "最近一個月有沒有搭過市區公車(含捷運)",
       "name_en": "C22C",
       "type": "Char",
       "length": 1,
@@ -1484,7 +1484,7 @@
     },
     {
       "seq": 166,
-      "name_zh": "有無使用「聲音導引 設施」",
+      "name_zh": "有無使用「聲音導引設施」",
       "name_en": "C22C1A",
       "type": "Char",
       "length": 1,
@@ -1510,14 +1510,14 @@
       "name_en": "C22C1C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 169,
-      "name_zh": "有無使用「上下階 梯」",
+      "name_zh": "有無使用「上下階梯」",
       "name_en": "C22C2A",
       "type": "Char",
       "length": 1,
@@ -1528,7 +1528,7 @@
     },
     {
       "seq": 170,
-      "name_zh": "「上下階梯」是否符 合您的需要",
+      "name_zh": "「上下階梯」是否符合您的需要",
       "name_en": "C22C2B",
       "type": "Char",
       "length": 2,
@@ -1543,14 +1543,14 @@
       "name_en": "C22C2C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 172,
-      "name_zh": "有無使用「升降設備 或無障礙出入口」",
+      "name_zh": "有無使用「升降設備或無障礙出入口」",
       "name_en": "C22C3A",
       "type": "Char",
       "length": 1,
@@ -1561,7 +1561,7 @@
     },
     {
       "seq": 173,
-      "name_zh": "「升降設備或無障 礙出入口」是否符合 您的需要",
+      "name_zh": "「升降設備或無障礙出入口」是否符合您的需要",
       "name_en": "C22C3B",
       "type": "Char",
       "length": 2,
@@ -1576,14 +1576,14 @@
       "name_en": "C22C3C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 175,
-      "name_zh": "有無使用「站名撥報 或顯示設施」",
+      "name_zh": "有無使用「站名撥報或顯示設施」",
       "name_en": "C22C4A",
       "type": "Char",
       "length": 1,
@@ -1594,7 +1594,7 @@
     },
     {
       "seq": 176,
-      "name_zh": "「站名撥報或顯示 設施」是否符合您的 需要",
+      "name_zh": "「站名撥報或顯示設施」是否符合您的需要",
       "name_en": "C22C4B",
       "type": "Char",
       "length": 2,
@@ -1609,14 +1609,14 @@
       "name_en": "C22C4C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 178,
-      "name_zh": "有無使用「輪椅停靠 或固定設施」",
+      "name_zh": "有無使用「輪椅停靠或固定設施」",
       "name_en": "C22C5A",
       "type": "Char",
       "length": 1,
@@ -1627,7 +1627,7 @@
     },
     {
       "seq": 179,
-      "name_zh": "「輪椅停靠或固定 設施」是否符合您的 需要",
+      "name_zh": "「輪椅停靠或固定設施」是否符合您的需要",
       "name_en": "C22C5B",
       "type": "Char",
       "length": 2,
@@ -1642,7 +1642,7 @@
       "name_en": "C22C5C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1660,7 +1660,7 @@
     },
     {
       "seq": 182,
-      "name_zh": "「博愛座」是否符合 您的需要",
+      "name_zh": "「博愛座」是否符合您的需要",
       "name_en": "C22C6B",
       "type": "Char",
       "length": 2,
@@ -1675,7 +1675,7 @@
       "name_en": "C22C6C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1708,14 +1708,14 @@
       "name_en": "C22C7C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 187,
-      "name_zh": "有無使用「扶手及防 滑地板」",
+      "name_zh": "有無使用「扶手及防滑地板」",
       "name_en": "C22C9A",
       "type": "Char",
       "length": 1,
@@ -1741,14 +1741,14 @@
       "name_en": "C22C9C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not being needed",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 190,
-      "name_zh": "最近一個月有沒有 搭過火車",
+      "name_zh": "最近一個月有沒有搭過火車",
       "name_en": "C22D",
       "type": "Char",
       "length": 1,
@@ -1759,7 +1759,7 @@
     },
     {
       "seq": 191,
-      "name_zh": "有無使用「聲音引導 設施」",
+      "name_zh": "有無使用「聲音引導設施」",
       "name_en": "C22D1A",
       "type": "Char",
       "length": 1,
@@ -1770,7 +1770,7 @@
     },
     {
       "seq": 192,
-      "name_zh": "「聲音引導設施」是 否符合您的需用",
+      "name_zh": "「聲音引導設施」是否符合您的需用",
       "name_en": "C22D1B",
       "type": "Char",
       "length": 2,
@@ -1785,14 +1785,14 @@
       "name_en": "C22D1C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 194,
-      "name_zh": "有無使用「上下階 梯」",
+      "name_zh": "有無使用「上下階梯」",
       "name_en": "C22D2A",
       "type": "Char",
       "length": 1,
@@ -1803,7 +1803,7 @@
     },
     {
       "seq": 195,
-      "name_zh": "「上下階梯」是否符 合您的需用",
+      "name_zh": "「上下階梯」是否符合您的需用",
       "name_en": "C22D2B",
       "type": "Char",
       "length": 2,
@@ -1818,14 +1818,14 @@
       "name_en": "C22D2C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 197,
-      "name_zh": "有無使用「升降設備 或無障礙出入口」",
+      "name_zh": "有無使用「升降設備或無障礙出入口」",
       "name_en": "C22D3A",
       "type": "Char",
       "length": 1,
@@ -1836,7 +1836,7 @@
     },
     {
       "seq": 198,
-      "name_zh": "「升降設備或無障 礙出入口」是否符合 您的需要",
+      "name_zh": "「升降設備或無障礙出入口」是否符合您的需要",
       "name_en": "C22D3B",
       "type": "Char",
       "length": 2,
@@ -1851,14 +1851,14 @@
       "name_en": "C22D3C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 200,
-      "name_zh": "有無使用「站名撥報 或顯示設施」",
+      "name_zh": "有無使用「站名撥報或顯示設施」",
       "name_en": "C22D4A",
       "type": "Char",
       "length": 1,
@@ -1869,7 +1869,7 @@
     },
     {
       "seq": 201,
-      "name_zh": "「站名撥報或顯示 設施」是否符合您的 需要",
+      "name_zh": "「站名撥報或顯示設施」是否符合您的需要",
       "name_en": "C22D4B",
       "type": "Char",
       "length": 2,
@@ -1884,14 +1884,14 @@
       "name_en": "C22D4C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 203,
-      "name_zh": "有無使用「輪椅停靠 或固定設施」",
+      "name_zh": "有無使用「輪椅停靠或固定設施」",
       "name_en": "C22D5A",
       "type": "Char",
       "length": 1,
@@ -1902,7 +1902,7 @@
     },
     {
       "seq": 204,
-      "name_zh": "「輪椅停靠或固定 設施」是否符合您的 需要",
+      "name_zh": "「輪椅停靠或固定設施」是否符合您的需要",
       "name_en": "C22D5B",
       "type": "Char",
       "length": 2,
@@ -1917,7 +1917,7 @@
       "name_en": "C22D5C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1935,7 +1935,7 @@
     },
     {
       "seq": 207,
-      "name_zh": "「博愛座」是否符合 您的需要",
+      "name_zh": "「博愛座」是否符合您的需要",
       "name_en": "C22D6B",
       "type": "Char",
       "length": 2,
@@ -1950,7 +1950,7 @@
       "name_en": "C22D6C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
@@ -1983,14 +1983,14 @@
       "name_en": "C22D7C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 212,
-      "name_zh": "有無使用「衛生設 備」",
+      "name_zh": "有無使用「衛生設備」",
       "name_en": "C22D8A",
       "type": "Char",
       "length": 1,
@@ -2001,7 +2001,7 @@
     },
     {
       "seq": 213,
-      "name_zh": "「衛生設備」是否符 合您的需要",
+      "name_zh": "「衛生設備」是否符合您的需要",
       "name_en": "C22D8B",
       "type": "Char",
       "length": 2,
@@ -2016,14 +2016,14 @@
       "name_en": "C22D8C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明 999：其他",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明 999：其他",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\" 999: Other"
     },
     {
       "seq": 215,
-      "name_zh": "有無使用「扶手及防 滑地板」",
+      "name_zh": "有無使用「扶手及防滑地板」",
       "name_en": "C22D9A",
       "type": "Char",
       "length": 1,
@@ -2049,7 +2049,7 @@
       "name_en": "C22D9C",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見交通工具身障設施不符合需要 之原因譯碼說明",
+      "description_zh": "詳見交通工具身障設施不符合需要之原因譯碼說明",
       "available_notes": [],
       "name_zh_en": "reasons for not meeting the need",
       "description_en": "See coding explanation for \"reasons transportation disability facilities do not meet needs\""
@@ -2067,11 +2067,11 @@
     },
     {
       "seq": 219,
-      "name_zh": "下列活動您能否獨 自行動沒有困難(進 食)",
+      "name_zh": "下列活動您能否獨自行動沒有困難(進食)",
       "name_en": "D231",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完 成 2：需要輔具或環境改善後，可獨立完 成 3：不論有無使用輔具，都需要他人協 助，才可完成 4：完全需要他人處理(即自己完全不 能) 220 下列活動您能否獨 自行動沒有困難(穿 著) D232 221 下列活動您能否獨 自行動沒有困難(清 洗個人) D233 222 下列活動您能否獨 自行動沒有困難(移 位) D234 223 下列活動您能否獨 自行動沒有困難(如 廁活動) D235 224 下列活動您能否獨 自行動沒有困難(上 下樓梯) D236 225 下列活動您能否獨 自行動沒有困難(室 內走動) D237 226 下列活動您能否獨 自行動沒有困難(室 外走動) D238",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助，才可完成 4：完全需要他人處理(即自己完全不能) 220 下列活動您能否獨自行動沒有困難(穿著) D232 221 下列活動您能否獨自行動沒有困難(清洗個人) D233 222 下列活動您能否獨自行動沒有困難(移位) D234 223 下列活動您能否獨自行動沒有困難(如廁活動) D235 224 下列活動您能否獨自行動沒有困難(上下樓梯) D236 225 下列活動您能否獨自行動沒有困難(室內走動) D237 226 下列活動您能否獨自行動沒有困難(室外走動) D238",
       "available_notes": [],
       "name_zh_en": "Can you perform the following activity by yourself without difficulty (eating)",
       "description_en": "1: Does not need assistive devices or help from others, can complete independently 2: Needs assistive devices or environmental modification to complete independently 3: Regardless of using assistive devices, needs help from others to complete 4: Completely needs others to handle it (i.e., completely unable to do it themselves) 220 Can you perform the following activities independently without difficulty (dressing) D232 221 Can you perform the following activities independently without difficulty (personal washing) D233 222 Can you perform the following activities independently without difficulty (transferring) D234 223 Can you perform the following activities independently without difficulty (toileting) D235 224 Can you perform the following activities independently without difficulty (using stairs) D236 225 Can you perform the following activities independently without difficulty (moving indoors) D237 226 Can you perform the following activities independently without difficulty (moving outdoors) D238"
@@ -2089,29 +2089,29 @@
     },
     {
       "seq": 228,
-      "name_zh": "您獨自做下列活動 有沒有困難 (家事活動(如整理家 務、洗碗等))",
+      "name_zh": "您獨自做下列活動有沒有困難 (家事活動(如整理家務、洗碗等))",
       "name_en": "D241",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：毫無困難 2：有點困難(尚不需要輔具或他人協 助)",
+      "description_zh": "1：毫無困難 2：有點困難(尚不需要輔具或他人協助)",
       "available_notes": [],
       "name_zh_en": "Do you have difficulty doing the following activity alone (housework, such as tidying up, washing dishes, etc.)",
       "description_en": "1: No difficulty at all 2: Some difficulty (not yet requiring assistive device or assistance from others)"
     },
     {
       "seq": 229,
-      "name_zh": "您獨自做下列活動 有沒有困難( 洗衣 服、晾衣服)",
+      "name_zh": "您獨自做下列活動有沒有困難( 洗衣服、晾衣服)",
       "name_en": "D242",
       "type": "3：需用輔具/環境改善 4：需他人協助 5：完全不能做",
       "length": "",
-      "description_zh": "230 您獨自做下列活動 有沒有困難(煮飯、 做菜) D243 231 您獨自做下列活動 有沒有困難(上街買 日用品) D244 232 您獨自做下列活動 有沒有困難(理財(算 錢、找錢、付帳)) D245 233 您獨自做下列活動 有沒有困難(吃藥) D246 234 您獨自做下列活動 有沒有困難(撥打電 話) D247 235 您獨自做下列活動 有沒有困難(搭乘交 通工具) D248",
+      "description_zh": "230 您獨自做下列活動有沒有困難(煮飯、 做菜) D243 231 您獨自做下列活動有沒有困難(上街買日用品) D244 232 您獨自做下列活動有沒有困難(理財(算錢、找錢、付帳)) D245 233 您獨自做下列活動有沒有困難(吃藥) D246 234 您獨自做下列活動有沒有困難(撥打電話) D247 235 您獨自做下列活動有沒有困難(搭乘交通工具) D248",
       "available_notes": [],
       "name_zh_en": "Do you have difficulty doing the following activity by yourself (washing clothes, hanging clothes to dry)",
       "description_en": "230 Do you have difficulty doing the following activity on your own (cooking) D243 231 Do you have difficulty doing the following activity on your own (going out to buy daily necessities) D244 232 Do you have difficulty doing the following activity on your own (managing money (counting money, making change, paying bills)) D245 233 Do you have difficulty doing the following activity on your own (taking medicine) D246 234 Do you have difficulty doing the following activity on your own (making phone calls) D247 235 Do you have difficulty doing the following activity on your own (using transportation) D248"
     },
     {
       "seq": 236,
-      "name_zh": "目前的生活起居是 否可以獨立自我照 顧",
+      "name_zh": "目前的生活起居是否可以獨立自我照顧",
       "name_en": "D25",
       "type": "Char",
       "length": 1,
@@ -2155,7 +2155,7 @@
     },
     {
       "seq": 240,
-      "name_zh": "主要照顧者平均每 日照顧所花時間 小 時",
+      "name_zh": "主要照顧者平均每日照顧所花時間小時",
       "name_en": "D25A3",
       "type": "Num",
       "length": 4,
@@ -2166,7 +2166,7 @@
     },
     {
       "seq": 241,
-      "name_zh": "主要照顧者平均每 日照顧所花時間分 類",
+      "name_zh": "主要照顧者平均每日照顧所花時間分類",
       "name_en": "D25A3R",
       "type": "Char",
       "length": 2,
@@ -2210,7 +2210,7 @@
     },
     {
       "seq": 245,
-      "name_zh": "次要照顧者平均每 日照顧所花時間 小 時",
+      "name_zh": "次要照顧者平均每日照顧所花時間小時",
       "name_en": "D25B3",
       "type": "Num",
       "length": 4,
@@ -2221,7 +2221,7 @@
     },
     {
       "seq": 246,
-      "name_zh": "次要照顧者平均每 日照顧所花時間分 類",
+      "name_zh": "次要照顧者平均每日照顧所花時間分類",
       "name_en": "D25B3R",
       "type": "Char",
       "length": 2,
@@ -2232,7 +2232,7 @@
     },
     {
       "seq": 247,
-      "name_zh": "生活起居由機構或 僱人(或外勞)照顧者 每 月 費 用 約 元",
+      "name_zh": "生活起居由機構或僱人(或外勞)照顧者每月費用約元",
       "name_en": "D25C",
       "type": "Num",
       "length": 6,
@@ -2265,7 +2265,7 @@
     },
     {
       "seq": 250,
-      "name_zh": "照顧者支持、照顧者 訓練等，包括哪些",
+      "name_zh": "照顧者支持、照顧者訓練等，包括哪些",
       "name_en": "D25D_2",
       "type": "2：照顧者溝通訓練團體 3：照顧者照顧技巧訓練(含翻身拍背、 特殊飲食照護…) 4：其他 98：不知道/無意見",
       "length": "",
@@ -2276,7 +2276,7 @@
     },
     {
       "seq": 253,
-      "name_zh": "對於目前生活起居 安排的滿意程度如 何五、個人及家庭經濟狀況",
+      "name_zh": "對於目前生活起居安排的滿意程度如何五、個人及家庭經濟狀況",
       "name_en": "D26",
       "type": "Char",
       "length": 1,
@@ -2287,7 +2287,7 @@
     },
     {
       "seq": 254,
-      "name_zh": "請問您(身心障礙者) 家裡有多少人在工 作 ？ 人",
+      "name_zh": "請問您(身心障礙者) 家裡有多少人在工作 ？ 人",
       "name_en": "E27",
       "type": "Num",
       "length": 3,
@@ -2298,7 +2298,7 @@
     },
     {
       "seq": 255,
-      "name_zh": "請問您(身心障礙者) 家裡有多少人在工 作(分類)",
+      "name_zh": "請問您(身心障礙者) 家裡有多少人在工作(分類)",
       "name_en": "E27R",
       "type": "Char",
       "length": 2,
@@ -2309,18 +2309,18 @@
     },
     {
       "seq": 256,
-      "name_zh": "誰是家裡最主要的 經濟收入者",
+      "name_zh": "誰是家裡最主要的經濟收入者",
       "name_en": "E28",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：本人 2：配偶或同居人 3：父或母親(含配偶或同居人之父 或 母親) 4：兄弟或姊妹 5：兒子(含媳婦) 6：女兒(含女婿) 7：祖父母或外祖父母 8：其他 11：其他親戚 98：不知道/拒答",
+      "description_zh": "1：本人 2：配偶或同居人 3：父或母親(含配偶或同居人之父或母親) 4：兄弟或姊妹 5：兒子(含媳婦) 6：女兒(含女婿) 7：祖父母或外祖父母 8：其他 11：其他親戚 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Who is the primary economic provider in the household",
       "description_en": "1: Self 2: Spouse or cohabiting partner 3: Father or mother (including spouse's or cohabiting partner's father or mother) 4: Brother or sister 5: Son (including daughter-in-law) 6: Daughter (including son-in-law) 7: Grandparent (paternal/maternal) 8: Other 11: Other relatives 98: Don't know/refuse to answer"
     },
     {
       "seq": 257,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "E28_O",
       "type": "Char",
       "length": 46,
@@ -2331,7 +2331,7 @@
     },
     {
       "seq": 258,
-      "name_zh": "家裡最主要的經濟 收入者的性別",
+      "name_zh": "家裡最主要的經濟收入者的性別",
       "name_en": "E28S",
       "type": "Char",
       "length": 2,
@@ -2342,18 +2342,18 @@
     },
     {
       "seq": 259,
-      "name_zh": "您本人最主要的收 入來源",
+      "name_zh": "您本人最主要的收入來源",
       "name_en": "E291",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：本人工作收入 2：房租、利息、股利等收入 3：配偶或同居人工作收入 4：父母親給予 5：兄弟姊妹給予 6：兒子(含媳婦)給予 7：女兒(含女婿)給予 8：其他親戚給予 9：朋友鄰居給予 10：政府補助或津貼 11：社會慈善機構 12：退休金(俸) 13：其它 14：都沒有 92：沒有次要收入 93：沒有再次要收入 0：無次要或再次要者不適用 260 您本人次要的收入 來源 E292 261 您本人再次要的收 入來源 E293",
+      "description_zh": "1：本人工作收入 2：房租、利息、股利等收入 3：配偶或同居人工作收入 4：父母親給予 5：兄弟姊妹給予 6：兒子(含媳婦)給予 7：女兒(含女婿)給予 8：其他親戚給予 9：朋友鄰居給予 10：政府補助或津貼 11：社會慈善機構 12：退休金(俸) 13：其它 14：都沒有 92：沒有次要收入 93：沒有再次要收入 0：無次要或再次要者不適用 260 您本人次要的收入來源 E292 261 您本人再次要的收入來源 E293",
       "available_notes": [],
       "name_zh_en": "Your own main source of income",
       "description_en": "1: Own work income 2: Rent, interest, dividend income, etc. 3: Spouse's or cohabiting partner's work income 4: Given by parents 5: Given by siblings 6: Given by son (including daughter-in-law) 7: Given by daughter (including son-in-law) 8: Given by other relatives 9: Given by friends/neighbors 10: Government subsidy or allowance 11: Social charity organization 12: Pension 13: Other 14: None 92: No secondary income 93: No tertiary income 0: Not applicable if there is no secondary or tertiary income 260 Your secondary source of income E292 261 Your tertiary source of income E293"
     },
     {
       "seq": 262,
-      "name_zh": "您家裡一個月的開 支約",
+      "name_zh": "您家裡一個月的開支約",
       "name_en": "E30",
       "type": "Char",
       "length": 2,
@@ -2364,7 +2364,7 @@
     },
     {
       "seq": 263,
-      "name_zh": "您家平均每月的收 入是否足夠支應日 常生活需要",
+      "name_zh": "您家平均每月的收入是否足夠支應日常生活需要",
       "name_en": "E31",
       "type": "Char",
       "length": 2,
@@ -2375,7 +2375,7 @@
     },
     {
       "seq": 264,
-      "name_zh": "您(身心障礙者)目前 是否需要定期就醫",
+      "name_zh": "您(身心障礙者)目前是否需要定期就醫",
       "name_en": "F32",
       "type": "Char",
       "length": 1,
@@ -2390,7 +2390,7 @@
       "name_en": "F32A",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：有定期就醫 2：未定期就醫 0：若 F32 填答「2：不需要」，本題 不適用",
+      "description_zh": "1：有定期就醫 2：未定期就醫 0：若 F32 填答「2：不需要」，本題不適用",
       "available_notes": [],
       "name_zh_en": "do you have regular medical check-ups",
       "description_en": "1: Regular medical visits 2: No regular medical visits 0: If F32 is answered '2: Not needed', this item does not apply"
@@ -2408,7 +2408,7 @@
     },
     {
       "seq": 267,
-      "name_zh": "您目前有參加哪些 保險",
+      "name_zh": "您目前有參加哪些保險",
       "name_en": "F33_1",
       "type": "Char",
       "length": 1,
@@ -2419,7 +2419,7 @@
     },
     {
       "seq": 272,
-      "name_zh": "您未參加全民健保 的原因",
+      "name_zh": "您未參加全民健保的原因",
       "name_en": "F33A",
       "type": "Char",
       "length": 1,
@@ -2430,18 +2430,18 @@
     },
     {
       "seq": 273,
-      "name_zh": "您未參加國民年金 的原因",
+      "name_zh": "您未參加國民年金的原因",
       "name_en": "F33B",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：繳不起保費 2：不願意參加 3：保費不合理 4：已投保公教保、勞保、農保、軍保 5：資格不符(例如：年齡不符、已領 津貼)",
+      "description_zh": "1：繳不起保費 2：不願意參加 3：保費不合理 4：已投保公教保、勞保、農保、軍保 5：資格不符(例如：年齡不符、已領津貼)",
       "available_notes": [],
       "name_zh_en": "Reason you have not joined the National Pension",
       "description_en": "1: Cannot afford premiums 2: Unwilling to participate 3: Premiums unreasonable 4: Already insured under civil servant/teacher insurance, labor insurance, farmer insurance, or military insurance 5: Not eligible (e.g., age does not qualify, already receiving allowance)"
     },
     {
       "seq": 274,
-      "name_zh": "如果您需要就醫，您 是否能夠獨立至醫 療院所就醫",
+      "name_zh": "如果您需要就醫，您是否能夠獨立至醫療院所就醫",
       "name_en": "F34",
       "type": "Char",
       "length": 2,
@@ -2452,18 +2452,18 @@
     },
     {
       "seq": 275,
-      "name_zh": "無法獨立就醫，您在 就醫上有何困擾",
+      "name_zh": "無法獨立就醫，您在就醫上有何困擾",
       "name_en": "F342_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：交通問題難以解決 2 ：無法獨力完成掛號就醫的程 序 3：其他 4：年紀太小 98：不知道/拒答 276 F342_2 277 F342_3",
+      "description_zh": "1：交通問題難以解決 2 ：無法獨力完成掛號就醫的程序 3：其他 4：年紀太小 98：不知道/拒答 276 F342_2 277 F342_3",
       "available_notes": [],
       "name_zh_en": "Unable to seek medical care independently; what difficulties do you have in seeking medical care",
       "description_en": "1: Transportation problems hard to solve 2: Unable to complete the registration/medical visit process alone 3: Other 4: Too young 98: Don't know/refused 276 F342_2 277 F342_3"
     },
     {
       "seq": 278,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "F342_O",
       "type": "Char",
       "length": 70,
@@ -2485,7 +2485,7 @@
     },
     {
       "seq": 284,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "F34A_O",
       "type": "Char",
       "length": 20,
@@ -2496,7 +2496,7 @@
     },
     {
       "seq": 285,
-      "name_zh": "您目前是否需要接 受復健治療",
+      "name_zh": "您目前是否需要接受復健治療",
       "name_en": "F35",
       "type": "Char",
       "length": 1,
@@ -2518,7 +2518,7 @@
     },
     {
       "seq": 287,
-      "name_zh": "需要哪一種復健治 療",
+      "name_zh": "需要哪一種復健治療",
       "name_en": "F35_1",
       "type": "Char",
       "length": 2,
@@ -2529,7 +2529,7 @@
     },
     {
       "seq": 293,
-      "name_zh": "您在生活中是否需 要使用輔具",
+      "name_zh": "您在生活中是否需要使用輔具",
       "name_en": "F36",
       "type": "Char",
       "length": 1,
@@ -2540,7 +2540,7 @@
     },
     {
       "seq": 294,
-      "name_zh": "目前是否正使用輔 具",
+      "name_zh": "目前是否正使用輔具",
       "name_en": "F36A",
       "type": "Char",
       "length": 1,
@@ -2562,7 +2562,7 @@
     },
     {
       "seq": 296,
-      "name_zh": "您在生活中主要使 用哪些輔具 (使用度順序 1)",
+      "name_zh": "您在生活中主要使用哪些輔具 (使用度順序 1)",
       "name_en": "F36A1",
       "type": "Char",
       "length": 2,
@@ -2573,7 +2573,7 @@
     },
     {
       "seq": 297,
-      "name_zh": "目前正使用哪些輔 具？(使用度順序 2)",
+      "name_zh": "目前正使用哪些輔具？(使用度順序 2)",
       "name_en": "F36A2",
       "type": "Char",
       "length": 2,
@@ -2584,7 +2584,7 @@
     },
     {
       "seq": 298,
-      "name_zh": "目前正使用哪些輔 具？(使用度順序 3)",
+      "name_zh": "目前正使用哪些輔具？(使用度順序 3)",
       "name_en": "F36A3",
       "type": "Char",
       "length": 2,
@@ -2595,7 +2595,7 @@
     },
     {
       "seq": 299,
-      "name_zh": "目前是否尚缺少輔 具",
+      "name_zh": "目前是否尚缺少輔具",
       "name_en": "F36B",
       "type": "Char",
       "length": 1,
@@ -2617,7 +2617,7 @@
     },
     {
       "seq": 301,
-      "name_zh": "目前尚缺少哪些輔 具？(迫切度順序 1)",
+      "name_zh": "目前尚缺少哪些輔具？(迫切度順序 1)",
       "name_en": "F36B1",
       "type": "Char",
       "length": 2,
@@ -2628,7 +2628,7 @@
     },
     {
       "seq": 302,
-      "name_zh": "目前尚缺少哪些輔 具？(迫切度順序 2)",
+      "name_zh": "目前尚缺少哪些輔具？(迫切度順序 2)",
       "name_en": "F36B2",
       "type": "Char",
       "length": 2,
@@ -2639,7 +2639,7 @@
     },
     {
       "seq": 303,
-      "name_zh": "目前尚缺少哪些輔 具？(迫切度順序 3)",
+      "name_zh": "目前尚缺少哪些輔具？(迫切度順序 3)",
       "name_en": "F36B3",
       "type": "Char",
       "length": 2,
@@ -2650,7 +2650,7 @@
     },
     {
       "seq": 304,
-      "name_zh": "您是否向政府申請 過輔具補助",
+      "name_zh": "您是否向政府申請過輔具補助",
       "name_en": "F37",
       "type": "Char",
       "length": 1,
@@ -2683,7 +2683,7 @@
     },
     {
       "seq": 307,
-      "name_zh": "使用過的輔具經過 回收整理，您願不願 意使用",
+      "name_zh": "使用過的輔具經過回收整理，您願不願意使用",
       "name_en": "F38",
       "type": "Char",
       "length": 1,
@@ -2694,18 +2694,18 @@
     },
     {
       "seq": 308,
-      "name_zh": "您認為政府對身心障 礙者的醫療照護， 應該優先辦理的項目 是什麼 (第一優先)",
+      "name_zh": "您認為政府對身心障礙者的醫療照護， 應該優先辦理的項目是什麼 (第一優先)",
       "name_en": "F391",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：提供就醫交通協助 2：提供醫療資源的資訊 3：提供陪同就醫服務 4：提供社區就近醫療服務 5：提供居家照護 6：提供醫療補助措施 7：提供食品營養藥物的諮詢服務 8：提供輔具的諮詢服務 9：提供醫謢人員定期訪視 10：提供牙醫特別門診 11：提供出院準備服務 12：縮短身心障礙鑑定流程 13：其他 14：不需要或拒答 309 您認為政府對身心障 礙者的醫療照護， 應該優先辦理的項目 是什麼 (第二優先) F392 310 您認為政府對身心障 礙者的醫療照護， 應該優先辦理的項目 是什麼 (第三優先) F393",
+      "description_zh": "1：提供就醫交通協助 2：提供醫療資源的資訊 3：提供陪同就醫服務 4：提供社區就近醫療服務 5：提供居家照護 6：提供醫療補助措施 7：提供食品營養藥物的諮詢服務 8：提供輔具的諮詢服務 9：提供醫謢人員定期訪視 10：提供牙醫特別門診 11：提供出院準備服務 12：縮短身心障礙鑑定流程 13：其他 14：不需要或拒答 309 您認為政府對身心障礙者的醫療照護， 應該優先辦理的項目是什麼 (第二優先) F392 310 您認為政府對身心障礙者的醫療照護， 應該優先辦理的項目是什麼 (第三優先) F393",
       "available_notes": [],
       "name_zh_en": "What items do you think the government should prioritize regarding medical care for people with disabilities (first priority)",
       "description_en": "1: Provide transportation assistance for medical visits 2: Provide medical resource information 3: Provide accompanied medical visit service 4: Provide nearby community medical service 5: Provide home care 6: Provide medical subsidy measures 7: Provide consultation service for food, nutrition, and medication 8: Provide consultation service for assistive devices 9: Provide regular visits by medical/nursing staff 10: Provide special dental clinic 11: Provide discharge preparation service 12: Shorten the disability certification process 13: Other 14: Not needed or refuse to answer 309 What do you think the government should prioritize for medical care of people with disabilities (2nd priority) F392 310 What do you think the government should prioritize for medical care of people with disabilities (3rd priority) F393"
     },
     {
       "seq": 311,
-      "name_zh": "您在兒童時期(未滿 六歲)是否有發展比 較慢的情形(發展遲 緩)",
+      "name_zh": "您在兒童時期(未滿六歲)是否有發展比較慢的情形(發展遲緩)",
       "name_en": "F40",
       "type": "Char",
       "length": 1,
@@ -2727,7 +2727,7 @@
     },
     {
       "seq": 313,
-      "name_zh": "治療當時有無健保 身份",
+      "name_zh": "治療當時有無健保身份",
       "name_en": "F40B",
       "type": "Num",
       "length": 3,
@@ -2738,7 +2738,7 @@
     },
     {
       "seq": 314,
-      "name_zh": "治療當時有無接受 政府補助",
+      "name_zh": "治療當時有無接受政府補助",
       "name_en": "F40C",
       "type": "Num",
       "length": 3,
@@ -2749,18 +2749,18 @@
     },
     {
       "seq": 315,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(1)居家照 顧",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(1)居家照顧",
       "name_en": "F41_101",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：不知道 2：滿意 3：尚可 4：不滿意 5：不需要 6：申請麻煩 7：申請不通過 8：其他 316 您知道政府對身心 障礙者有提供什麼 樣的福利(2)生活重 建 F41_102 317 您知道政府對身心 障礙者有提供什麼 樣的福利(3)心理重 建 F41_103 318 您知道政府對身心 障礙者有提供什麼 樣的福利(4)社區居 住 F41_104",
+      "description_zh": "1：不知道 2：滿意 3：尚可 4：不滿意 5：不需要 6：申請麻煩 7：申請不通過 8：其他 316 您知道政府對身心障礙者有提供什麼樣的福利(2)生活重建 F41_102 317 您知道政府對身心障礙者有提供什麼樣的福利(3)心理重建 F41_103 318 您知道政府對身心障礙者有提供什麼樣的福利(4)社區居住 F41_104",
       "available_notes": [],
       "name_zh_en": "Do you know what welfare the government provides for people with disabilities (1) home care",
       "description_en": "1: Don't know 2: Satisfied 3: Acceptable 4: Dissatisfied 5: Not needed 6: Application process is troublesome 7: Application was denied 8: Other 316 Do you know what welfare benefits the government provides for persons with disabilities (2) Life reconstruction F41_102 317 Do you know what welfare benefits the government provides for persons with disabilities (3) Psychological reconstruction F41_103 318 Do you know what welfare benefits the government provides for persons with disabilities (4) Community living F41_104"
     },
     {
       "seq": 324,
-      "name_zh": "請問您有無需要政 府或民間團體提供 下列服務",
+      "name_zh": "請問您有無需要政府或民間團體提供下列服務",
       "name_en": "F41AR",
       "type": "Char",
       "length": 1,
@@ -2775,7 +2775,7 @@
       "name_en": "F41A1_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "2：居家護理 3：家事服務 4：身體照顧 5：友善服務 6：送餐到家 7：到宅評估居家無障礙環境及其改 善服務 8：居家復健 10：課業照顧、課業輔導 326 F41A1_2 327 F41A1_3 328 F41A1_4 329 F41A1_5 330 F41A1_6 331 F41A1_7",
+      "description_zh": "2：居家護理 3：家事服務 4：身體照顧 5：友善服務 6：送餐到家 7：到宅評估居家無障礙環境及其改善服務 8：居家復健 10：課業照顧、課業輔導 326 F41A1_2 327 F41A1_3 328 F41A1_4 329 F41A1_5 330 F41A1_6 331 F41A1_7",
       "available_notes": [],
       "name_zh_en": "Do you need government support",
       "description_en": "2: Home nursing 3: Housekeeping services 4: Personal care 5: Friendly visiting service 6: Home meal delivery 7: In-home assessment of home accessibility and improvement services 8: Home rehabilitation 10: Homework tutoring/academic guidance 326 F41A1_2 327 F41A1_3 328 F41A1_4 329 F41A1_5 330 F41A1_6 331 F41A1_7"
@@ -2804,18 +2804,18 @@
     },
     {
       "seq": 334,
-      "name_zh": "請問您是否考慮使 用下列身心障礙者 照護方式",
+      "name_zh": "請問您是否考慮使用下列身心障礙者照護方式",
       "name_en": "F41C",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：至安養或照護機構接受全日型照 顧 2：至日間照顧機構接受日間照顧服 務 3：至夜間住宿機構接受夜間照顧服 務 4：使用『家庭托顧』服務(限日間) 5：自立生活支持服務 6：日間社區作業活動(技藝陶冶作業 活動) 7：請看護來家裡照顧 8：其他 9：完全不考慮",
+      "description_zh": "1：至安養或照護機構接受全日型照顧 2：至日間照顧機構接受日間照顧服務 3：至夜間住宿機構接受夜間照顧服務 4：使用『家庭托顧』服務(限日間) 5：自立生活支持服務 6：日間社區作業活動(技藝陶冶作業活動) 7：請看護來家裡照顧 8：其他 9：完全不考慮",
       "available_notes": [],
       "name_zh_en": "Would you consider using the following care arrangements for persons with disabilities",
       "description_en": "1: Go to a residential/care institution for full-day care 2: Go to a day care institution for day care services 3: Go to a night residential institution for overnight care services 4: Use 'family foster care' service (daytime only) 5: Independent living support services 6: Daytime community work activities (craft/skill cultivation activities) 7: Hire a caregiver to provide home care 8: Other 9: Would not consider at all"
     },
     {
       "seq": 335,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(10)臨時及 短期照顧",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(10)臨時及短期照顧",
       "name_en": "F41_210",
       "type": "Char",
       "length": 1,
@@ -2826,7 +2826,7 @@
     },
     {
       "seq": 336,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(11)照顧者 支持、訓練及研習",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(11)照顧者支持、訓練及研習",
       "name_en": "F41_211",
       "type": "Char",
       "length": 1,
@@ -2837,7 +2837,7 @@
     },
     {
       "seq": 337,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(12)家庭托 顧",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(12)家庭托顧",
       "name_en": "F41_212",
       "type": "Char",
       "length": 1,
@@ -2859,7 +2859,7 @@
     },
     {
       "seq": 339,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(14)身心障 礙者生活補助費",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(14)身心障礙者生活補助費",
       "name_en": "F41_315",
       "type": "Char",
       "length": 1,
@@ -2870,7 +2870,7 @@
     },
     {
       "seq": 340,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(15)日間照 顧及住宿式照顧費 用補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(15)日間照顧及住宿式照顧費用補助",
       "name_en": "F41_316",
       "type": "Char",
       "length": 1,
@@ -2881,7 +2881,7 @@
     },
     {
       "seq": 341,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(16)居家照 顧費用補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(16)居家照顧費用補助",
       "name_en": "F41_317",
       "type": "Char",
       "length": 1,
@@ -2892,7 +2892,7 @@
     },
     {
       "seq": 342,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(17)發展遲 緩兒童早期療育費 用補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(17)發展遲緩兒童早期療育費用補助",
       "name_en": "F41_318",
       "type": "Char",
       "length": 1,
@@ -2903,7 +2903,7 @@
     },
     {
       "seq": 343,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(18)醫療費 用補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(18)醫療費用補助",
       "name_en": "F41_319",
       "type": "Char",
       "length": 1,
@@ -2914,7 +2914,7 @@
     },
     {
       "seq": 344,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(19)輔具費 用補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(19)輔具費用補助",
       "name_en": "F41_320",
       "type": "Char",
       "length": 1,
@@ -2925,7 +2925,7 @@
     },
     {
       "seq": 345,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(20)房屋租 金及購屋貸款利息 補貼",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(20)房屋租金及購屋貸款利息補貼",
       "name_en": "F41_321",
       "type": "Char",
       "length": 1,
@@ -2936,7 +2936,7 @@
     },
     {
       "seq": 346,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(21)中低收 入戶身心障礙者傷 病住院看護費用補 助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(21)中低收入戶身心障礙者傷病住院看護費用補助",
       "name_en": "F41_322",
       "type": "Char",
       "length": 1,
@@ -2947,7 +2947,7 @@
     },
     {
       "seq": 347,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(22)購買停 車位貸款利息補貼 或承租停車位補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(22)購買停車位貸款利息補貼或承租停車位補助",
       "name_en": "F41_323",
       "type": "Char",
       "length": 1,
@@ -2958,7 +2958,7 @@
     },
     {
       "seq": 348,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(23)社會保 險費補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(23)社會保險費補助",
       "name_en": "F41_324",
       "type": "Char",
       "length": 1,
@@ -2969,7 +2969,7 @@
     },
     {
       "seq": 349,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(24)身障者 或子女就學費用補 助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(24)身障者或子女就學費用補助",
       "name_en": "F41_325",
       "type": "Char",
       "length": 1,
@@ -2980,7 +2980,7 @@
     },
     {
       "seq": 350,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(25)公私立 幼稚園學雜費補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(25)公私立幼稚園學雜費補助",
       "name_en": "F41_326",
       "type": "Char",
       "length": 1,
@@ -2991,7 +2991,7 @@
     },
     {
       "seq": 351,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(26)創業貸 款補助",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(26)創業貸款補助",
       "name_en": "F41_327",
       "type": "Char",
       "length": 1,
@@ -3002,7 +3002,7 @@
     },
     {
       "seq": 352,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(27)所得稅 身心障礙特別扣除 額",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(27)所得稅身心障礙特別扣除額",
       "name_en": "F41_328",
       "type": "Char",
       "length": 1,
@@ -3013,7 +3013,7 @@
     },
     {
       "seq": 353,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(28)國民年 金身心障礙基本保 證年金",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(28)國民年金身心障礙基本保證年金",
       "name_en": "F41_329",
       "type": "Char",
       "length": 1,
@@ -3024,7 +3024,7 @@
     },
     {
       "seq": 354,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(29)定向行 動訓練服務",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(29)定向行動訓練服務",
       "name_en": "F41_430",
       "type": "Char",
       "length": 1,
@@ -3035,7 +3035,7 @@
     },
     {
       "seq": 355,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(30)手語翻",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(30)手語翻",
       "name_en": "F41_431",
       "type": "Char",
       "length": 1,
@@ -3046,7 +3046,7 @@
     },
     {
       "seq": 356,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(31)人身安 全保護",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(31)人身安全保護",
       "name_en": "F41_432",
       "type": "Char",
       "length": 1,
@@ -3057,7 +3057,7 @@
     },
     {
       "seq": 357,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(32)搭乘公 民營公共交通工具 或進入收費之風景 區、康樂場所或文教 設施優待",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(32)搭乘公民營公共交通工具或進入收費之風景區、康樂場所或文教設施優待",
       "name_en": "F41_434",
       "type": "Char",
       "length": 1,
@@ -3068,7 +3068,7 @@
     },
     {
       "seq": 358,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(33)核發身 心障礙者專用停車 位識別證或專用車 牌",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(33)核發身心障礙者專用停車位識別證或專用車牌",
       "name_en": "F41_435",
       "type": "Char",
       "length": 1,
@@ -3079,7 +3079,7 @@
     },
     {
       "seq": 359,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(34)復康巴 士",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(34)復康巴士",
       "name_en": "F41_436",
       "type": "Char",
       "length": 1,
@@ -3090,7 +3090,7 @@
     },
     {
       "seq": 360,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(35)無障礙 生活環境設施及設 備",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(35)無障礙生活環境設施及設備",
       "name_en": "F41_437",
       "type": "Char",
       "length": 1,
@@ -3101,7 +3101,7 @@
     },
     {
       "seq": 361,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(36)公益彩 券經銷商之申請",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(36)公益彩券經銷商之申請",
       "name_en": "F41_439",
       "type": "Char",
       "length": 1,
@@ -3112,7 +3112,7 @@
     },
     {
       "seq": 362,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(37)承租商 店攤位登記經營",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(37)承租商店攤位登記經營",
       "name_en": "F41_440",
       "type": "Char",
       "length": 1,
@@ -3123,7 +3123,7 @@
     },
     {
       "seq": 363,
-      "name_zh": "您知道政府對身心 障礙者有提供什麼 樣的福利(38)保障身 心障礙就業及合理",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利(38)保障身心障礙就業及合理",
       "name_en": "F41_441",
       "type": "Char",
       "length": 1,
@@ -3134,18 +3134,18 @@
     },
     {
       "seq": 364,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為最需要者為何",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為最需要者為何",
       "name_en": "F421",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：居家照顧 2：生活重建 3：心理重建 4：社區居住 5：婚姻及生育輔導 6：日間及住宿式照顧 7：課後照顧 8：自立生活支持服務 9：日間社區作業活動、樂活站 10：臨時及短期照顧 11：照顧者支持、訓練及研習 12：家庭托顧 14：家庭關懷訪視及服務 15：身心障礙者生活補助費 16：日間照顧及住宿式照顧費用補助 17：居家照顧費用補助 18：發展遲緩兒童早期療育費用補助 19：醫療費用補助 20：輔具費用補助 21：房屋租金及購屋貸款利息補貼 22：中低收入戶身心障礙者傷病住院 看護費用補助 23：購買停車位貸款利息補貼或承租",
+      "description_zh": "1：居家照顧 2：生活重建 3：心理重建 4：社區居住 5：婚姻及生育輔導 6：日間及住宿式照顧 7：課後照顧 8：自立生活支持服務 9：日間社區作業活動、樂活站 10：臨時及短期照顧 11：照顧者支持、訓練及研習 12：家庭托顧 14：家庭關懷訪視及服務 15：身心障礙者生活補助費 16：日間照顧及住宿式照顧費用補助 17：居家照顧費用補助 18：發展遲緩兒童早期療育費用補助 19：醫療費用補助 20：輔具費用補助 21：房屋租金及購屋貸款利息補貼 22：中低收入戶身心障礙者傷病住院看護費用補助 23：購買停車位貸款利息補貼或承租",
       "available_notes": [],
       "name_zh_en": "Of the welfare services listed above (Question 41), which do you think is most needed",
       "description_en": "1: Home care 2: Life reconstruction 3: Psychological reconstruction 4: Community living 5: Marriage and childbirth counseling 6: Day and residential care 7: After-school care 8: Independent living support services 9: Day community work activities, LOHAS station 10: Temporary and short-term care 11: Caregiver support, training, and workshops 12: Family foster care 14: Family concern visits and services 15: Living subsidy for persons with disabilities 16: Day care and residential care cost subsidy 17: Home care cost subsidy 18: Early intervention cost subsidy for developmentally delayed children 19: Medical expense subsidy 20: Assistive device cost subsidy 21: Housing rent and home purchase loan interest subsidy 22: Hospitalization/nursing cost subsidy for lower-middle-income persons with disabilities due to injury or illness 23: Parking space purchase loan interest subsidy or renting"
     },
     {
       "seq": 365,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為最需要者為何(次 要)",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為最需要者為何(次要)",
       "name_en": "F422",
       "type": "Char",
       "length": 2,
@@ -3156,7 +3156,7 @@
     },
     {
       "seq": 366,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為最需要者為何(再 次要)",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為最需要者為何(再次要)",
       "name_en": "F423",
       "type": "Char",
       "length": 2,
@@ -3167,18 +3167,18 @@
     },
     {
       "seq": 367,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為政府應優先辦理 哪些生活福利措施 (第一)",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為政府應優先辦理哪些生活福利措施 (第一)",
       "name_en": "F431",
       "type": "Char",
       "length": 2,
-      "description_zh": "停車位補助 24：社會保險費補助 25：身障者或子女就學費用補助 26：公私立幼稚園學雜費補助 27：創業貸款補助 28：所得稅身心障礙特別扣除額 29：國民年金身心障礙基本保證年金 30：定向行動訓練服務 31：手語翻譯服務 32：人身安全保護 34：搭乘公民營公共交通工具或進入 收費之風景區、康樂場所或文教設施 優待 35：核發身心障礙者專用停車位識別 證或專用車牌 36：復康巴士 37：無障礙生活環境設施及設備 39：公益彩券經銷商之申請 40：承租商店攤位登記經營 41：保障身心障礙就業及合理薪資無 意見者為不適用 98：不知道/拒絕 99：不需要 0：無次要、再次或第二、第三優先",
+      "description_zh": "停車位補助 24：社會保險費補助 25：身障者或子女就學費用補助 26：公私立幼稚園學雜費補助 27：創業貸款補助 28：所得稅身心障礙特別扣除額 29：國民年金身心障礙基本保證年金 30：定向行動訓練服務 31：手語翻譯服務 32：人身安全保護 34：搭乘公民營公共交通工具或進入收費之風景區、康樂場所或文教設施優待 35：核發身心障礙者專用停車位識別證或專用車牌 36：復康巴士 37：無障礙生活環境設施及設備 39：公益彩券經銷商之申請 40：承租商店攤位登記經營 41：保障身心障礙就業及合理薪資無意見者為不適用 98：不知道/拒絕 99：不需要 0：無次要、再次或第二、第三優先",
       "available_notes": [],
       "name_zh_en": "Of the welfare services listed above (Question 41), which livelihood welfare measures do you think the government should prioritize (first choice)",
       "description_en": "Parking space subsidy 24: Social insurance premium subsidy 25: Tuition subsidy for persons with disabilities or their children 26: Public/private kindergarten tuition and fee subsidy 27: Business start-up loan subsidy 28: Special income tax deduction for persons with disabilities 29: National Pension disability basic guaranteed pension 30: Orientation and mobility training service 31: Sign language interpretation service 32: Personal safety protection 34: Discounted fares/admission for public/private transportation, or entry to fee-charging scenic areas, recreational venues, or cultural/educational facilities 35: Issuance of a disabled parking permit or dedicated license plate 36: Rehabus (accessible transport service) 37: Barrier-free living environment facilities and equipment 39: Application for public welfare lottery dealership 40: Registration to lease and operate a store/stall 41: Protection of employment and reasonable wages for persons with disabilities; no opinion means not applicable 98: Don't know/refuse 99: Not needed 0: No secondary, subsequent, or second/third priority"
     },
     {
       "seq": 368,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為政府應優先辦理 哪些生活福利措施 (第二)",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為政府應優先辦理哪些生活福利措施 (第二)",
       "name_en": "F432",
       "type": "Char",
       "length": 2,
@@ -3189,7 +3189,7 @@
     },
     {
       "seq": 369,
-      "name_zh": "以上(第 41 題)所列 各項福利服務，您認 為政府應優先辦理 哪些生活福利措施 (第三)",
+      "name_zh": "以上(第 41 題)所列各項福利服務，您認為政府應優先辦理哪些生活福利措施 (第三)",
       "name_en": "F433",
       "type": "Char",
       "length": 2,
@@ -3200,7 +3200,7 @@
     },
     {
       "seq": 370,
-      "name_zh": "除 41-3 題所列各項 經濟補助及減免外， 請問您今年是否領取 下列哪些補助",
+      "name_zh": "除 41-3 題所列各項經濟補助及減免外， 請問您今年是否領取下列哪些補助",
       "name_en": "RF44_1",
       "type": "Char",
       "length": 2,
@@ -3222,62 +3222,62 @@
     },
     {
       "seq": 374,
-      "name_zh": "請問您是否有接受 教育的需求，需要接 受哪一階段的教育",
+      "name_zh": "請問您是否有接受教育的需求，需要接受哪一階段的教育",
       "name_en": "RG45B",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：學前教育(幼稚園、托兒所) 2：國小 3：國(初)中 4：高中、高職 5：大專院校 6：研究所以上 7：成人教育(如:終身學習課程、社區 學苑) 8：補習教育(指補習進修學校相關正 規課程) 80：無受教育需求 81：不知道 90：在學中",
+      "description_zh": "1：學前教育(幼稚園、托兒所) 2：國小 3：國(初)中 4：高中、高職 5：大專院校 6：研究所以上 7：成人教育(如:終身學習課程、社區學苑) 8：補習教育(指補習進修學校相關正規課程) 80：無受教育需求 81：不知道 90：在學中",
       "available_notes": [],
       "name_zh_en": "Do you have a need for education, and which stage of education do you need to receive",
       "description_en": "1: Preschool education (kindergarten, nursery) 2: Elementary school 3: Junior high school 4: Senior high/vocational school 5: College/university 6: Graduate school or above 7: Adult education (e.g., lifelong learning courses, community college) 8: Supplementary education (formal courses at supplementary/continuing schools) 80: No educational need 81: Don't know 90: Currently in school"
     },
     {
       "seq": 375,
-      "name_zh": "請問您是否知道目 前特殊教育可提供 的服務有那些(1)家 庭支援服務(例如提 供社會福利消息)",
+      "name_zh": "請問您是否知道目前特殊教育可提供的服務有那些(1)家庭支援服務(例如提供社會福利消息)",
       "name_en": "G461",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：不知道 2：知道並已利用，覺得滿意 3：知道並已利用，覺得尚可 4：知道並已利用，覺得不滿意 5：知道但未利用，覺得不需要 6：知道但未利用，覺得申請麻煩 7：知道但未利用，申請不通過 8：其他 376 請問您是否知道目 前特殊教育可提供 的服務有那些(2)上 下學的接送服務或 交通補助 G462 377 請問您是否知道目 前特殊教育可提供 的服務有那些(3)獎 助學金或減免學雜 費 G463",
+      "description_zh": "1：不知道 2：知道並已利用，覺得滿意 3：知道並已利用，覺得尚可 4：知道並已利用，覺得不滿意 5：知道但未利用，覺得不需要 6：知道但未利用，覺得申請麻煩 7：知道但未利用，申請不通過 8：其他 376 請問您是否知道目前特殊教育可提供的服務有那些(2)上下學的接送服務或交通補助 G462 377 請問您是否知道目前特殊教育可提供的服務有那些(3)獎助學金或減免學雜費 G463",
       "available_notes": [],
       "name_zh_en": "Do you know what special education services are currently available? (1) Family support services (e.g. providing information on social welfare)",
       "description_en": "1: Don't know 2: Know and have used it, satisfied 3: Know and have used it, acceptable 4: Know and have used it, dissatisfied 5: Know but haven't used it, feel it's not needed 6: Know but haven't used it, feel the application process is troublesome 7: Know but haven't used it, application was denied 8: Other 376 Do you know what services special education currently provides (2) School commute pickup/drop-off service or transportation subsidy G462 377 Do you know what services special education currently provides (3) Scholarships/grants or tuition and fee waivers G463"
     },
     {
       "seq": 378,
-      "name_zh": "請問您是否知道目 前特殊教育可提供 的服務有那些(4)學 習輔具(例如盲用電 腦、助聽器)",
+      "name_zh": "請問您是否知道目前特殊教育可提供的服務有那些(4)學習輔具(例如盲用電腦、助聽器)",
       "name_en": "G464",
       "type": "1：不知道 2：知道並已利用，覺得滿意 3：知道並已利用，覺得尚可 4：知道並已利用，覺得不滿意 5：知道但未利用，覺得不需要 6：知道但未利用，覺得申請麻煩 7：知道但未利用，申請不通過 8：其他",
       "length": "",
-      "description_zh": "379 請問您是否知道目 前特殊教育可提供 的服務有那些(5)提 供大字課本、點字書 或有聲書 G465 380 請問您是否知道目 前特殊教育可提供 的服務有那些(6)適 當的考試服務措施 G466 381 請問您是否知道目 前特殊教育可提供 的服務有那些(7)無 障礙環境 G467 382 請問您是否知道目 前特殊教育可提供 的服務有那些(8)特 教(輔導)老師之協助 G468",
+      "description_zh": "379 請問您是否知道目前特殊教育可提供的服務有那些(5)提供大字課本、點字書或有聲書 G465 380 請問您是否知道目前特殊教育可提供的服務有那些(6)適當的考試服務措施 G466 381 請問您是否知道目前特殊教育可提供的服務有那些(7)無障礙環境 G467 382 請問您是否知道目前特殊教育可提供的服務有那些(8)特教(輔導)老師之協助 G468",
       "available_notes": [],
       "name_zh_en": "Do you know what services are currently available from special education (4) learning aids (e.g., computers for the blind, hearing aids)",
       "description_en": "379 Do you know what services are currently provided by special education? (5) Providing large-print textbooks, braille books, or audio books G465 380 Do you know what services are currently provided by special education? (6) Appropriate exam accommodation measures G466 381 Do you know what services are currently provided by special education? (7) Accessible environment G467 382 Do you know what services are currently provided by special education? (8) Assistance from special education (counseling) teachers G468"
     },
     {
       "seq": 383,
-      "name_zh": "您認為政府對身心 障礙者的教育，應該 優先辦理的項目是 什麼(第一優先)",
+      "name_zh": "您認為政府對身心障礙者的教育，應該優先辦理的項目是什麼(第一優先)",
       "name_en": "G471",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：12 年國民義務教育 2：提供學習輔具 3：依需求提供學雜費補助 4：依需求提供接送上下學 5：提供獎助學金 6：成人教育 7：補習教育 8：升學考試或國家考試的計分優待 9：其他 98：不知道/拒答 0：無第二或第三優先 384 您認為政府對身心 障礙者的教育，應該 優先辦理的項目是 什麼(第二優先) G472 385 您認為政府對身心 障礙者的教育，應該 優先辦理的項目是 什麼(第三優先) G473",
+      "description_zh": "1：12 年國民義務教育 2：提供學習輔具 3：依需求提供學雜費補助 4：依需求提供接送上下學 5：提供獎助學金 6：成人教育 7：補習教育 8：升學考試或國家考試的計分優待 9：其他 98：不知道/拒答 0：無第二或第三優先 384 您認為政府對身心障礙者的教育，應該優先辦理的項目是什麼(第二優先) G472 385 您認為政府對身心障礙者的教育，應該優先辦理的項目是什麼(第三優先) G473",
       "available_notes": [],
       "name_zh_en": "What items do you think the government should prioritize regarding education for people with disabilities (first priority)",
       "description_en": "1: 12-year compulsory national education 2: Provide learning aids 3: Provide tuition/fee subsidy as needed 4: Provide school transportation as needed 5: Provide scholarships/grants 6: Adult education 7: Supplementary/cram education 8: Scoring preference for entrance/national exams 9: Other 98: Don't know/refused 0: No second or third priority 384 What do you think the government should prioritize regarding education for persons with disabilities (second priority) G472 385 What do you think the government should prioritize regarding education for persons with disabilities (third priority) G473"
     },
     {
       "seq": 386,
-      "name_zh": "您 在 100 年 8 月 15 日那一週是否有再 工作？",
+      "name_zh": "您在 100 年 8 月 15 日那一週是否有再工作？",
       "name_en": "H48",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：從事某種工作 2：有工作而未做，但領有報酬 3：利用課餘或假期工作 4：家事餘暇從事工作 5：在找尋工作或等待恢復工作而無 報酬 6：想工作但未去找工作且隨時可以 開始工作 7：料理家務(兼有工作者選(4)) 8：在家或準備升學(兼有工作者選(3)) 9：因身心障礙疾病，無法工作 10：因傷病(非身心障礙疾病)，無法 工作，沒有領薪水 11：已退休 12：其他 13：現役軍人、監管人口、失蹤人口",
+      "description_zh": "1：從事某種工作 2：有工作而未做，但領有報酬 3：利用課餘或假期工作 4：家事餘暇從事工作 5：在找尋工作或等待恢復工作而無報酬 6：想工作但未去找工作且隨時可以開始工作 7：料理家務(兼有工作者選(4)) 8：在家或準備升學(兼有工作者選(3)) 9：因身心障礙疾病，無法工作 10：因傷病(非身心障礙疾病)，無法工作，沒有領薪水 11：已退休 12：其他 13：現役軍人、監管人口、失蹤人口",
       "available_notes": [],
       "name_zh_en": "During the week of August 15, ROC year 100 (2011), were you working again?",
       "description_en": "1: Engaged in some kind of work 2: Has a job but not currently working, yet still receiving pay 3: Working during school breaks/holidays 4: Working in spare time from housework 5: Looking for work or waiting to resume work, unpaid 6: Wants to work but hasn't looked, and can start anytime 7: Doing housework (if also working, choose (4)) 8: At home or preparing for further schooling (if also working, choose (3)) 9: Unable to work due to disability/illness 10: Unable to work due to injury/illness (not a disability-related illness), unpaid 11: Retired 12: Other 13: Active-duty military, institutionalized population, missing person"
     },
     {
       "seq": 387,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "H48_O",
       "type": "Char",
       "length": 30,
@@ -3299,7 +3299,7 @@
     },
     {
       "seq": 389,
-      "name_zh": "如果現在有工作機 會，您能不能立刻開 始工作",
+      "name_zh": "如果現在有工作機會，您能不能立刻開始工作",
       "name_en": "H49",
       "type": "Char",
       "length": 1,
@@ -3310,7 +3310,7 @@
     },
     {
       "seq": 390,
-      "name_zh": "不能立刻開始工作 的原因",
+      "name_zh": "不能立刻開始工作的原因",
       "name_en": "H492_OLD",
       "type": "Char",
       "length": 1,
@@ -3332,7 +3332,7 @@
     },
     {
       "seq": 392,
-      "name_zh": "您在目前的工作場 所工作 年",
+      "name_zh": "您在目前的工作場所工作年",
       "name_en": "J501",
       "type": "Num",
       "length": 3,
@@ -3343,7 +3343,7 @@
     },
     {
       "seq": 393,
-      "name_zh": "您在目前的工作場 所工作 月",
+      "name_zh": "您在目前的工作場所工作月",
       "name_en": "J502",
       "type": "Num",
       "length": 3,
@@ -3365,7 +3365,7 @@
     },
     {
       "seq": 395,
-      "name_zh": "總工作年資 年",
+      "name_zh": "總工作年資年",
       "name_en": "J503",
       "type": "Num",
       "length": 3,
@@ -3376,7 +3376,7 @@
     },
     {
       "seq": 396,
-      "name_zh": "總工作年資 月",
+      "name_zh": "總工作年資月",
       "name_en": "J504",
       "type": "Num",
       "length": 3,
@@ -3387,7 +3387,7 @@
     },
     {
       "seq": 397,
-      "name_zh": "工作總年資狀況分 類",
+      "name_zh": "工作總年資狀況分類",
       "name_en": "RJ5034",
       "type": "Char",
       "length": 1,
@@ -3398,7 +3398,7 @@
     },
     {
       "seq": 398,
-      "name_zh": "發生身心障礙以來 您做過幾個工作(包 括目前的工作)",
+      "name_zh": "發生身心障礙以來您做過幾個工作(包括目前的工作)",
       "name_en": "J511",
       "type": "Num",
       "length": 3,
@@ -3420,7 +3420,7 @@
     },
     {
       "seq": 400,
-      "name_zh": "工作最久的時間是 年",
+      "name_zh": "工作最久的時間是年",
       "name_en": "J512",
       "type": "Num",
       "length": 3,
@@ -3431,7 +3431,7 @@
     },
     {
       "seq": 401,
-      "name_zh": "工作最久的時間是 月",
+      "name_zh": "工作最久的時間是月",
       "name_en": "J513",
       "type": "Num",
       "length": 3,
@@ -3453,11 +3453,11 @@
     },
     {
       "seq": 403,
-      "name_zh": "您離開上一個工作 的原因為何",
+      "name_zh": "您離開上一個工作的原因為何",
       "name_en": "J52_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：交通困難 2：工作場所欠缺無障礙設施 3：待遇太低 4：工作受到差別待遇 5：被無故減薪 6：工作場所停業或業務緊縮 7：季節性或臨時性工作結束 8：被解僱(非因工作場所停業或業務 緊縮) 9：結束參加政府臨時性就業服務方 案(例如公共服務、多元案、臨時工作 津貼) 10：工作負荷重 11：體力無法勝任 12：工作技能無法勝任 13：與主管或同事人際關係問題",
+      "description_zh": "1：交通困難 2：工作場所欠缺無障礙設施 3：待遇太低 4：工作受到差別待遇 5：被無故減薪 6：工作場所停業或業務緊縮 7：季節性或臨時性工作結束 8：被解僱(非因工作場所停業或業務緊縮) 9：結束參加政府臨時性就業服務方案(例如公共服務、多元案、臨時工作津貼) 10：工作負荷重 11：體力無法勝任 12：工作技能無法勝任 13：與主管或同事人際關係問題",
       "available_notes": [],
       "name_zh_en": "What is the reason you left your previous job",
       "description_en": "1: Transportation difficulty 2: Workplace lacks accessible facilities 3: Pay too low 4: Discriminatory treatment at work 5: Pay cut without cause 6: Workplace closure or business downsizing 7: Seasonal or temporary job ended 8: Dismissed (not due to workplace closure or business downsizing) 9: Ended participation in a government temporary employment service program (e.g., public service, multi-employment program, temporary work subsidy) 10: Heavy workload 11: Physically unable to cope 12: Unable to handle job skill requirements 13: Interpersonal problems with supervisor or colleagues"
@@ -3486,18 +3486,18 @@
     },
     {
       "seq": 406,
-      "name_zh": "您是如何找到目前 的工作",
+      "name_zh": "您是如何找到目前的工作",
       "name_en": "J53",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：親朋介紹 2：師長介紹 3：民意代表介紹 4：參加政府考試分發 5：公立就業服務機構轉介 6：民間社會福利機構就業服務方案 轉介 7：職業訓練機構轉介 8：學校就業輔導單位 9：醫療機構轉介 10：透過人力銀行 11：應徵報紙或各類廣告 12：自我推薦 13：自家經營 14：其他",
+      "description_zh": "1：親朋介紹 2：師長介紹 3：民意代表介紹 4：參加政府考試分發 5：公立就業服務機構轉介 6：民間社會福利機構就業服務方案轉介 7：職業訓練機構轉介 8：學校就業輔導單位 9：醫療機構轉介 10：透過人力銀行 11：應徵報紙或各類廣告 12：自我推薦 13：自家經營 14：其他",
       "available_notes": [],
       "name_zh_en": "How did you find your current job",
       "description_en": "1: Referred by relatives/friends 2: Referred by teacher/mentor 3: Referred by an elected representative 4: Assigned through government examination 5: Referred by public employment service agency 6: Referred by private social welfare organization employment service program 7: Referred by vocational training institution 8: School employment guidance unit 9: Referred by medical institution 10: Through job bank/recruitment website 11: Applied via newspaper or other advertisements 12: Self-recommendation 13: Family business 14: Other"
     },
     {
       "seq": 407,
-      "name_zh": "您目前從事何種行 業",
+      "name_zh": "您目前從事何種行業",
       "name_en": "J54",
       "type": "Char",
       "length": 2,
@@ -3508,7 +3508,7 @@
     },
     {
       "seq": 408,
-      "name_zh": "您目前擔任的職務 是什麼",
+      "name_zh": "您目前擔任的職務是什麼",
       "name_en": "J55",
       "type": "Char",
       "length": 2,
@@ -3519,7 +3519,7 @@
     },
     {
       "seq": 409,
-      "name_zh": "請問您在 100 年 8 月 15 日這週，於工作場 所內工作天數為 天",
+      "name_zh": "請問您在 100 年 8 月 15 日這週，於工作場所內工作天數為天",
       "name_en": "J56D",
       "type": "Num",
       "length": 3,
@@ -3541,7 +3541,7 @@
     },
     {
       "seq": 411,
-      "name_zh": "加班工時 小時",
+      "name_zh": "加班工時小時",
       "name_en": "J56AH",
       "type": "Num",
       "length": 4,
@@ -3552,7 +3552,7 @@
     },
     {
       "seq": 412,
-      "name_zh": "您在工作場所內身 份是什麼",
+      "name_zh": "您在工作場所內身份是什麼",
       "name_en": "J57",
       "type": "Char",
       "length": 2,
@@ -3563,7 +3563,7 @@
     },
     {
       "seq": 413,
-      "name_zh": "您目前是否從事部 分工時、定期契約或 勞動派遣等非典型 勞動的工作",
+      "name_zh": "您目前是否從事部分工時、定期契約或勞動派遣等非典型勞動的工作",
       "name_en": "J58",
       "type": "Char",
       "length": 1,
@@ -3574,7 +3574,7 @@
     },
     {
       "seq": 414,
-      "name_zh": "請問您從事的是哪 一類非典型勞動的 工作",
+      "name_zh": "請問您從事的是哪一類非典型勞動的工作",
       "name_en": "J582_1",
       "type": "Char",
       "length": 2,
@@ -3585,7 +3585,7 @@
     },
     {
       "seq": 416,
-      "name_zh": "您從事非典型勞動 工作的原因是什麼",
+      "name_zh": "您從事非典型勞動工作的原因是什麼",
       "name_en": "J59_1",
       "type": "Char",
       "length": 2,
@@ -3596,7 +3596,7 @@
     },
     {
       "seq": 420,
-      "name_zh": "您在工作場所內之經 常性薪資或收入為",
+      "name_zh": "您在工作場所內之經常性薪資或收入為",
       "name_en": "J60",
       "type": "Char",
       "length": 1,
@@ -3607,18 +3607,18 @@
     },
     {
       "seq": 421,
-      "name_zh": "身心障礙就業者薪 資方式",
+      "name_zh": "身心障礙就業者薪資方式",
       "name_en": "J60A",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：月薪制 2：日薪制 3：時薪制 4：按件計酬 5：為雇主、自營作業者之平均月淨收 入 98：不知道/拒答 99：雇主、自營作業者",
+      "description_zh": "1：月薪制 2：日薪制 3：時薪制 4：按件計酬 5：為雇主、自營作業者之平均月淨收入 98：不知道/拒答 99：雇主、自營作業者",
       "available_notes": [],
       "name_zh_en": "Wage arrangement for employed persons with disabilities",
       "description_en": "1: Monthly salary 2: Daily wage 3: Hourly wage 4: Piece-rate pay 5: Average net monthly income for employer/self-employed 98: Don't know/refuse to answer 99: Employer, self-employed"
     },
     {
       "seq": 422,
-      "name_zh": "雇主、自營作業者平 均每月淨收入 元",
+      "name_zh": "雇主、自營作業者平均每月淨收入元",
       "name_en": "MJ60_2",
       "type": "Num",
       "length": 6,
@@ -3629,7 +3629,7 @@
     },
     {
       "seq": 423,
-      "name_zh": "月、日薪制平均每月 薪資____元",
+      "name_zh": "月、日薪制平均每月薪資____元",
       "name_en": "RMJ601",
       "type": "Num",
       "length": 6,
@@ -3640,7 +3640,7 @@
     },
     {
       "seq": 424,
-      "name_zh": "月、日薪制平均每月 加班費____元",
+      "name_zh": "月、日薪制平均每月加班費____元",
       "name_en": "RMJ602",
       "type": "Num",
       "length": 5,
@@ -3651,7 +3651,7 @@
     },
     {
       "seq": 425,
-      "name_zh": "月薪制平均每月薪 資____元",
+      "name_zh": "月薪制平均每月薪資____元",
       "name_en": "MJ60A1",
       "type": "Num",
       "length": 6,
@@ -3662,7 +3662,7 @@
     },
     {
       "seq": 426,
-      "name_zh": "月薪制平均每月加 班費____元",
+      "name_zh": "月薪制平均每月加班費____元",
       "name_en": "MJ60A2",
       "type": "Num",
       "length": 5,
@@ -3673,7 +3673,7 @@
     },
     {
       "seq": 427,
-      "name_zh": "日薪制平均每日薪 資____元",
+      "name_zh": "日薪制平均每日薪資____元",
       "name_en": "MJ60B1",
       "type": "Num",
       "length": 4,
@@ -3684,7 +3684,7 @@
     },
     {
       "seq": 428,
-      "name_zh": "日薪制平均每月薪 資____元",
+      "name_zh": "日薪制平均每月薪資____元",
       "name_en": "MJ60B2",
       "type": "Num",
       "length": 5,
@@ -3695,7 +3695,7 @@
     },
     {
       "seq": 429,
-      "name_zh": "日薪制平均每月加 班費____元",
+      "name_zh": "日薪制平均每月加班費____元",
       "name_en": "MJ60B3",
       "type": "Num",
       "length": 4,
@@ -3706,7 +3706,7 @@
     },
     {
       "seq": 430,
-      "name_zh": "時薪制平均每小時 薪資____元",
+      "name_zh": "時薪制平均每小時薪資____元",
       "name_en": "MJ60C1",
       "type": "Num",
       "length": 3,
@@ -3717,7 +3717,7 @@
     },
     {
       "seq": 431,
-      "name_zh": "時薪制平均每月薪 資____元",
+      "name_zh": "時薪制平均每月薪資____元",
       "name_en": "MJ60C2",
       "type": "Num",
       "length": 5,
@@ -3728,7 +3728,7 @@
     },
     {
       "seq": 432,
-      "name_zh": "時薪制平均每月加 班費____元",
+      "name_zh": "時薪制平均每月加班費____元",
       "name_en": "MJ60C3",
       "type": "Num",
       "length": 4,
@@ -3739,7 +3739,7 @@
     },
     {
       "seq": 433,
-      "name_zh": "按件計酬平均每月 收入____元",
+      "name_zh": "按件計酬平均每月收入____元",
       "name_en": "MJ60D1",
       "type": "Num",
       "length": 5,
@@ -3750,7 +3750,7 @@
     },
     {
       "seq": 434,
-      "name_zh": "您在工作場所是否 因身心障礙的身分 而受到不公平待遇",
+      "name_zh": "您在工作場所是否因身心障礙的身分而受到不公平待遇",
       "name_en": "J61",
       "type": "Char",
       "length": 1,
@@ -3761,7 +3761,7 @@
     },
     {
       "seq": 435,
-      "name_zh": "在工作場所受到不公 平 待 遇 措 施 為何？",
+      "name_zh": "在工作場所受到不公平待遇措施為何？",
       "name_en": "J61_2_1",
       "type": "Char",
       "length": 2,
@@ -3772,7 +3772,7 @@
     },
     {
       "seq": 441,
-      "name_zh": "請問您滿不滿意目 前的工作",
+      "name_zh": "請問您滿不滿意目前的工作",
       "name_en": "J62",
       "type": "Char",
       "length": 1,
@@ -3783,7 +3783,7 @@
     },
     {
       "seq": 442,
-      "name_zh": "您不滿意目前工作 的主要原因為何",
+      "name_zh": "您不滿意目前工作的主要原因為何",
       "name_en": "J62A",
       "type": "Char",
       "length": 2,
@@ -3794,7 +3794,7 @@
     },
     {
       "seq": 443,
-      "name_zh": "請問您在工作場所 上是否需要協助",
+      "name_zh": "請問您在工作場所上是否需要協助",
       "name_en": "J63",
       "type": "Char",
       "length": 1,
@@ -3816,7 +3816,7 @@
     },
     {
       "seq": 447,
-      "name_zh": "是否需要提供在職 訓練",
+      "name_zh": "是否需要提供在職訓練",
       "name_en": "J63A",
       "type": "Char",
       "length": 1,
@@ -3827,7 +3827,7 @@
     },
     {
       "seq": 448,
-      "name_zh": "您希望參加的在職 訓練是",
+      "name_zh": "您希望參加的在職訓練是",
       "name_en": "J63A1",
       "type": "Char",
       "length": 2,
@@ -3838,7 +3838,7 @@
     },
     {
       "seq": 450,
-      "name_zh": "是否需要提供第二 專長訓練",
+      "name_zh": "是否需要提供第二專長訓練",
       "name_en": "J63B",
       "type": "Char",
       "length": 1,
@@ -3849,7 +3849,7 @@
     },
     {
       "seq": 451,
-      "name_zh": "您希望參加的第二 專長訓練是",
+      "name_zh": "您希望參加的第二專長訓練是",
       "name_en": "J63B1",
       "type": "Char",
       "length": 2,
@@ -3860,7 +3860,7 @@
     },
     {
       "seq": 453,
-      "name_zh": "您有無轉職或轉業 的計畫",
+      "name_zh": "您有無轉職或轉業的計畫",
       "name_en": "J64",
       "type": "Char",
       "length": 1,
@@ -3871,7 +3871,7 @@
     },
     {
       "seq": 454,
-      "name_zh": "轉職或轉業計畫原 因為何？附表二",
+      "name_zh": "轉職或轉業計畫原因為何？附表二",
       "name_en": "J64A_1",
       "type": "Char",
       "length": 2,
@@ -3893,7 +3893,7 @@
     },
     {
       "seq": 461,
-      "name_zh": "從來沒有過工作的 主要原因為何",
+      "name_zh": "從來沒有過工作的主要原因為何",
       "name_en": "L65A",
       "type": "Char",
       "length": 2,
@@ -3904,7 +3904,7 @@
     },
     {
       "seq": 462,
-      "name_zh": "有過工作，您離開上 次工作的原因為何",
+      "name_zh": "有過工作，您離開上次工作的原因為何",
       "name_en": "L65B",
       "type": "Char",
       "length": 2,
@@ -3915,7 +3915,7 @@
     },
     {
       "seq": 463,
-      "name_zh": "您找工作時間已經 有 週",
+      "name_zh": "您找工作時間已經有週",
       "name_en": "RL66",
       "type": "Char",
       "length": 2,
@@ -3926,7 +3926,7 @@
     },
     {
       "seq": 464,
-      "name_zh": "接受雇用，您無法找 到工作之主要原因",
+      "name_zh": "接受雇用，您無法找到工作之主要原因",
       "name_en": "L67A",
       "type": "Char",
       "length": 2,
@@ -3937,7 +3937,7 @@
     },
     {
       "seq": 465,
-      "name_zh": "您現在想接受僱用 或自行創業",
+      "name_zh": "您現在想接受僱用或自行創業",
       "name_en": "L67",
       "type": "Char",
       "length": 1,
@@ -3948,18 +3948,18 @@
     },
     {
       "seq": 466,
-      "name_zh": "自行創業，您希望政 府提供何種創業的 協助",
+      "name_zh": "自行創業，您希望政府提供何種創業的協助",
       "name_en": "L67B",
       "type": "Char",
       "length": 2,
-      "description_zh": "0：若 L67 填答「1：接受僱用」，本 題不適用 1：提供創業補助 2：提供適合身心障礙者創業資訊 3：提供創業諮詢與輔導 4：其他(請說明) 98：不知道/拒答",
+      "description_zh": "0：若 L67 填答「1：接受僱用」，本題不適用 1：提供創業補助 2：提供適合身心障礙者創業資訊 3：提供創業諮詢與輔導 4：其他(請說明) 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "For starting your own business, what kind of government assistance would you like",
       "description_en": "0: Not applicable if L67 answered \"1: Accepted employment\" 1: Provide entrepreneurship subsidy 2: Provide entrepreneurship information suitable for persons with disabilities 3: Provide entrepreneurship consulting and guidance 4: Other (please specify) 98: Don't know/refused"
     },
     {
       "seq": 467,
-      "name_zh": "您用什麼方法找尋 工作",
+      "name_zh": "您用什麼方法找尋工作",
       "name_en": "L68_1",
       "type": "Char",
       "length": 2,
@@ -3970,7 +3970,7 @@
     },
     {
       "seq": 472,
-      "name_zh": "您最希望從事的職 業為何",
+      "name_zh": "您最希望從事的職業為何",
       "name_en": "L69",
       "type": "Char",
       "length": 2,
@@ -3981,7 +3981,7 @@
     },
     {
       "seq": 473,
-      "name_zh": "您期待每月的收入 多少",
+      "name_zh": "您期待每月的收入多少",
       "name_en": "L70",
       "type": "Char",
       "length": 1,
@@ -4003,29 +4003,29 @@
     },
     {
       "seq": 475,
-      "name_zh": "請問您願不願意接 受臨時性工作",
+      "name_zh": "請問您願不願意接受臨時性工作",
       "name_en": "L72A",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：願意 2：不願意 476 請問您願不願意接 受部分工時工作 L72B",
+      "description_zh": "1：願意 2：不願意 476 請問您願不願意接受部分工時工作 L72B",
       "available_notes": [],
       "name_zh_en": "Would you be willing to accept temporary work",
       "description_en": "1: Willing 2: Unwilling 476 Are you willing to accept part-time work? L72B"
     },
     {
       "seq": 477,
-      "name_zh": "您較願意接受臨時 性工作、部分工時工 作、派遣工作或其他 工作機會的理由為 何",
+      "name_zh": "您較願意接受臨時性工作、部分工時工作、派遣工作或其他工作機會的理由為何",
       "name_en": "L73_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：自認找不到合適的全時正職工作 2：體能限制，只能從事部分工時工作 3：時間限制，只能從事部分工時工作 4：未來另有規劃，所以只想找個臨時 工作 5：先累積工作經歷，希望對自己未來 職涯發展有幫助 6：其他 98：不知道/拒答 478 L73_2 479 L73_3",
+      "description_zh": "1：自認找不到合適的全時正職工作 2：體能限制，只能從事部分工時工作 3：時間限制，只能從事部分工時工作 4：未來另有規劃，所以只想找個臨時工作 5：先累積工作經歷，希望對自己未來職涯發展有幫助 6：其他 98：不知道/拒答 478 L73_2 479 L73_3",
       "available_notes": [],
       "name_zh_en": "What is the reason you are more willing to accept temporary work, part-time work, dispatched work, or other work opportunities",
       "description_en": "1: Believe I can't find a suitable full-time job 2: Physical limitations, can only work part-time 3: Time constraints, can only work part-time 4: Have other plans for the future, so only want a temporary job 5: Want to accumulate work experience first, hoping it helps future career development 6: Other 98: Don't know/Refused 478 L73_2 479 L73_3"
     },
     {
       "seq": 480,
-      "name_zh": "您不願意接受臨時 性工作機會的理由 為何",
+      "name_zh": "您不願意接受臨時性工作機會的理由為何",
       "name_en": "L74A_1_1",
       "type": "Char",
       "length": 2,
@@ -4036,7 +4036,7 @@
     },
     {
       "seq": 485,
-      "name_zh": "您不願意接受部分 工時工作機會的理 由為何",
+      "name_zh": "您不願意接受部分工時工作機會的理由為何",
       "name_en": "L74B_1_1",
       "type": "Char",
       "length": 2,
@@ -4047,7 +4047,7 @@
     },
     {
       "seq": 490,
-      "name_zh": "請問您願不願意接 受派遣工作",
+      "name_zh": "請問您願不願意接受派遣工作",
       "name_en": "L72C",
       "type": "Char",
       "length": 1,
@@ -4058,7 +4058,7 @@
     },
     {
       "seq": 491,
-      "name_zh": "您不願意派遣工作 機會的理由為何",
+      "name_zh": "您不願意派遣工作機會的理由為何",
       "name_en": "L74C_1_1",
       "type": "Char",
       "length": 2,
@@ -4069,7 +4069,7 @@
     },
     {
       "seq": 496,
-      "name_zh": "您知不知道勞委會 職訓局的就業服務 中心(站)有提供就業 媒合服務(職業介紹)",
+      "name_zh": "您知不知道勞委會職訓局的就業服務中心(站)有提供就業媒合服務(職業介紹)",
       "name_en": "L75",
       "type": "Char",
       "length": 1,
@@ -4080,7 +4080,7 @@
     },
     {
       "seq": 497,
-      "name_zh": "您知不知道勞委會 職訓局的全國就業 e 網可登錄求職",
+      "name_zh": "您知不知道勞委會職訓局的全國就業 e 網可登錄求職",
       "name_en": "L76",
       "type": "Char",
       "length": 1,
@@ -4091,7 +4091,7 @@
     },
     {
       "seq": 498,
-      "name_zh": "您知不知道各直轄 市、縣(市)政府有提 供職業重建服務(包 括職業輔導評量、職 務再設計、支持性就 業服務等)",
+      "name_zh": "您知不知道各直轄市、縣(市)政府有提供職業重建服務(包括職業輔導評量、職務再設計、支持性就業服務等)",
       "name_en": "L77",
       "type": "Char",
       "length": 1,
@@ -4102,7 +4102,7 @@
     },
     {
       "seq": 499,
-      "name_zh": "您是否需要政府協 助提供您就業服務 措施",
+      "name_zh": "您是否需要政府協助提供您就業服務措施",
       "name_en": "L78",
       "type": "Char",
       "length": 1,
@@ -4113,7 +4113,7 @@
     },
     {
       "seq": 500,
-      "name_zh": "您希望政府提供哪 些服務措施協助您 就業",
+      "name_zh": "您希望政府提供哪些服務措施協助您就業",
       "name_en": "L78A_1",
       "type": "Char",
       "length": 1,
@@ -4124,7 +4124,7 @@
     },
     {
       "seq": 503,
-      "name_zh": "您最希望接受的職 業訓練是",
+      "name_zh": "您最希望接受的職業訓練是",
       "name_en": "L79A1",
       "type": "Char",
       "length": 2,
@@ -4135,7 +4135,7 @@
     },
     {
       "seq": 504,
-      "name_zh": "承上題，選擇其他者 為",
+      "name_zh": "承上題，選擇其他者為",
       "name_en": "L79A1O",
       "type": "Char",
       "length": 40,
@@ -4157,7 +4157,7 @@
     },
     {
       "seq": 506,
-      "name_zh": "您目前是否有能力 工作",
+      "name_zh": "您目前是否有能力工作",
       "name_en": "N80",
       "type": "Char",
       "length": 1,
@@ -4168,7 +4168,7 @@
     },
     {
       "seq": 507,
-      "name_zh": "您目前是否有意願 工作",
+      "name_zh": "您目前是否有意願工作",
       "name_en": "N81",
       "type": "Char",
       "length": 1,
@@ -4179,7 +4179,7 @@
     },
     {
       "seq": 508,
-      "name_zh": "您有意願從事的職 業為何",
+      "name_zh": "您有意願從事的職業為何",
       "name_en": "N82",
       "type": "Char",
       "length": 2,
@@ -4190,7 +4190,7 @@
     },
     {
       "seq": 509,
-      "name_zh": "您期待每月的收入 為多少",
+      "name_zh": "您期待每月的收入為多少",
       "name_en": "N83",
       "type": "Char",
       "length": 2,
@@ -4201,7 +4201,7 @@
     },
     {
       "seq": 510,
-      "name_zh": "您未去找工作的主 要原因",
+      "name_zh": "您未去找工作的主要原因",
       "name_en": "N84",
       "type": "Char",
       "length": 2,
@@ -4223,29 +4223,29 @@
     },
     {
       "seq": 512,
-      "name_zh": "您較願意接受臨時 性工作、部分工時工 作、派遣工作或其他 工作機會的理由為 何",
+      "name_zh": "您較願意接受臨時性工作、部分工時工作、派遣工作或其他工作機會的理由為何",
       "name_en": "N87_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1：自認找不到合適的全時正職工作 2：體能限制，只能從事部分工時工作 3：時間限制，只能從事部分工時工作 4：未來另有規劃，所以只想找個臨時 工作 5：先累積工作經歷，希望對自己未來 職涯發展有幫助 513 N87_2",
+      "description_zh": "1：自認找不到合適的全時正職工作 2：體能限制，只能從事部分工時工作 3：時間限制，只能從事部分工時工作 4：未來另有規劃，所以只想找個臨時工作 5：先累積工作經歷，希望對自己未來職涯發展有幫助 513 N87_2",
       "available_notes": [],
       "name_zh_en": "What is the reason you are more willing to accept temporary work, part-time work, dispatched work, or other work opportunities",
       "description_en": "1: Believe I can't find a suitable full-time job 2: Physical limitations, can only work part-time 3: Time constraints, can only work part-time 4: Have other plans for the future, so only want a temporary job 5: Want to accumulate work experience first, hoping it helps future career development 513 N87_2"
     },
     {
       "seq": 515,
-      "name_zh": "請問您願不願意接 受(1)臨時性工作",
+      "name_zh": "請問您願不願意接受(1)臨時性工作",
       "name_en": "N86A",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：願意 2：不願意 516 請問您願不願意接 受(2)部分工時工作 N86B 517 請問您願不願意接 受(3)派遣工作 N86C",
+      "description_zh": "1：願意 2：不願意 516 請問您願不願意接受(2)部分工時工作 N86B 517 請問您願不願意接受(3)派遣工作 N86C",
       "available_notes": [],
       "name_zh_en": "Would you be willing to accept (1) temporary work",
       "description_en": "1: Willing 2: Unwilling 516 Are you willing to accept (2) part-time work? N86B 517 Are you willing to accept (3) dispatched/temp work? N86C"
     },
     {
       "seq": 518,
-      "name_zh": "您不願意接受臨時 性工作機會的理由 為何",
+      "name_zh": "您不願意接受臨時性工作機會的理由為何",
       "name_en": "N88A_1_1",
       "type": "Char",
       "length": 2,
@@ -4256,7 +4256,7 @@
     },
     {
       "seq": 523,
-      "name_zh": "您不願意接受部分 工時工作機會的理 由為何",
+      "name_zh": "您不願意接受部分工時工作機會的理由為何",
       "name_en": "N88B_1_1",
       "type": "Char",
       "length": 2,
@@ -4267,7 +4267,7 @@
     },
     {
       "seq": 528,
-      "name_zh": "您不願意接受派遣 工作機會的理由為 何",
+      "name_zh": "您不願意接受派遣工作機會的理由為何",
       "name_en": "N88C_1_1",
       "type": "Char",
       "length": 2,
@@ -4278,7 +4278,7 @@
     },
     {
       "seq": 533,
-      "name_zh": "您是否需要政府協 助提供您哪些就業 服務措施",
+      "name_zh": "您是否需要政府協助提供您哪些就業服務措施",
       "name_en": "N89",
       "type": "Char",
       "length": 1,
@@ -4289,7 +4289,7 @@
     },
     {
       "seq": 534,
-      "name_zh": "您希望政府提供哪 些服務措施協助您 就業",
+      "name_zh": "您希望政府提供哪些服務措施協助您就業",
       "name_en": "N89A_1",
       "type": "Char",
       "length": 2,
@@ -4300,7 +4300,7 @@
     },
     {
       "seq": 537,
-      "name_zh": "您最希望接受的職 業訓練是",
+      "name_zh": "您最希望接受的職業訓練是",
       "name_en": "N90A1",
       "type": "Char",
       "length": 2,
@@ -4524,8 +4524,8 @@
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2025-06-24",
   "name_zh_from_listing": "資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年)",
-  "data_description_en": "",
-  "notes_en": "",
+  "data_description_en": "The survey subjects were persons with disabilities in the Taiwan-Fukien Area. The survey mainly covered their basic information, living and daily-life conditions, personal and family economic status, leisure activities, social-participation status, transportation for going out, use of related accessibility facilities, education and learning status, needs for welfare services and medical care, and current employment status and vocational-rehabilitation service needs, to serve as a reference for the government and private organizations in promoting welfare service measures for persons with disabilities and to enable them to receive more appropriate life care. It also serves as an important reference for government agencies at all levels in formulating welfare-service policies related to persons with disabilities.\nThis survey used a \"stratified two-stage systematic random sampling method,\" with in-person field interviews conducted by assigned staff.",
+  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. Data fields vary somewhat by survey year.\n3. The questionnaire is divided into a main form (Form A, for the case sample) and a supplementary form (Form B, for primary family caregivers). To avoid affecting the response rate and quality of the main form (Form A), the primary-family-caregiver supplementary form (Form B) was completed on a voluntary basis by the primary caregiver, and the distribution of the collected sample may not match that of the population; please use this data with caution.\n4. The Data100_1 file contains basic information and the first part of the survey.",
   "primary_keys_en": "",
   "name_zh_en": ""
 }

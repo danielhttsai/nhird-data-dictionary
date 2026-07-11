@@ -29,7 +29,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居 留證號碼請填護照號碼），左靠 不足補空白。 112年長度24",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。 112年長度24",
       "available_notes": [
         {
           "roc_year": 112,
@@ -46,7 +46,7 @@
       "name_en": "Q_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：乳房良性相關疾 病；2：乳癌；3：其他癌症",
+      "description_zh": "0：無；1：乳房良性相關疾病；2：乳癌；3：其他癌症",
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
@@ -448,7 +448,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統 一編號，或外籍居留證號碼 （如無居留證號碼請填護 照號碼），左靠不足補空白。 112 年起長度為20",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼 （如無居留證號碼請填護照號碼），左靠不足補空白。 112 年起長度為20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -465,7 +465,7 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原 則；1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0：身分證字號符合編碼原 則；1：不符合"
@@ -537,10 +537,10 @@
       "name_en": "PH_HOSPITALID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別院所鍵 值。",
+      "description_zh": "經加密處理，為辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
-      "description_en": "encrypted for identifying institution key value."
+      "description_en": "encrypted value for hospital key."
     },
     {
       "seq": 39,
@@ -805,12 +805,12 @@
         },
         {
           "code": "2",
-          "label_zh": "數位乳房攝影儀(CR) →CR 乳 房 X 光 攝 影 儀 (Computed Radiography, CR) (105/5/1 修改)",
+          "label_zh": "數位乳房攝影儀(CR) →CR 乳房 X 光攝影儀 (Computed Radiography, CR) (105/5/1 修改)",
           "label_en": "Digital mammography system (CR) → Computed Radiography (CR) breast X-ray imaging (1/5/2016 revision)"
         },
         {
           "code": "3",
-          "label_zh": "數位乳房攝影儀(DR) →DR 乳 房 X 光 攝 影 儀 (Digital Radiography, DR) (105/5/1 修改)",
+          "label_zh": "數位乳房攝影儀(DR) →DR 乳房 X 光攝影儀 (Digital Radiography, DR) (105/5/1 修改)",
           "label_en": "Digital mammography DR → Digital Radiography (DR) (105/5/1 modified)"
         },
         {
@@ -851,7 +851,7 @@
         },
         {
           "code": "5",
-          "label_zh": "Scattered fibroglandular density (105/5/1 新 增)",
+          "label_zh": "Scattered fibroglandular density (105/5/1 新增)",
           "label_en": "Scattered fibroglandular density (105/5/1 New Addition)"
         }
       ],
@@ -986,7 +986,7 @@
         },
         {
           "code": "4",
-          "label_zh": "診所 其他代碼 不詳 2025年11月18日修訂",
+          "label_zh": "診所其他代碼不詳 2025年11月18日修訂",
           "label_en": "Clinic Other Code Unavailable, revised on November 18, 2025"
         }
       ],
@@ -1152,7 +1152,7 @@
         },
         {
           "code": "0320",
-          "label_zh": "台中市大里區 0521 台南市安定區 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "台中市大里區 0521 台南市安定區 2025年11月18日修訂鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Taichung City Dali District 0521 Tainan City Anping District 2025-11-18 revised Township district code Township district name Township district code Township district name"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
           "code": "0719",
-          "label_zh": "高雄市彌陀區 3102 新北市三重區 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "高雄市彌陀區 3102 新北市三重區 2025年11月18日修訂鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Kaohsiung City Miituo District 3102 New Taipei City Sanzong District 20251118 Revised Township District Code Township District Name Township District Code Township District Name"
         },
         {
@@ -1502,7 +1502,7 @@
         },
         {
           "code": "3208",
-          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮 2025年11月18日修訂鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Taoyuan County Baden Township 3505 Miaoli County Toufen Town 2025-11-18 revised Town/Village Code Town/Village Name Town/Village Code Town/Village Name"
         },
         {
@@ -1677,7 +1677,7 @@
         },
         {
           "code": "3722",
-          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 2025年11月18日修訂鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Changhua County Pitou Township 3917 Yulin County Yuanzheng Township 2025-11-18 revised Town/Village Code Town/Village Name Town/Village Code Town/Village Name"
         },
         {
@@ -1852,7 +1852,7 @@
         },
         {
           "code": "4314",
-          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 2025年11月18日修訂鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Pingtung County Zhuotian Township 4505 Hualien County Jiaan Township 2025-11-18 revised Town/Village Code Town/Village Name Town/Village Code Town/Village Name"
         },
         {
@@ -2049,7 +2049,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health56_癌症篩檢--乳癌篩檢檔(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. Since 2010 (ROC year 99), the Health Promotion Administration has expanded the provision of screening services for 4 cancers (colorectal cancer, oral cancer, breast cancer, and cervical cancer), offering colorectal, breast, cervical, and oral cancer screening comprehensively through NHI-contracted preventive-care medical institutions. Colorectal and oral cancer screening were incorporated into the preventive-care service items, and breast cancer screening eligibility was expanded to women aged 40 to under 45 who are at high risk due to a second-degree relative (mother, daughter, sister, grandmother, or maternal grandmother) with a history of breast cancer.\n2. The government subsidizes a mammogram every 2 years for women aged 45-69; screening is also provided for women aged 40-44 with a family history of breast cancer among second-degree relatives (grandmother, maternal grandmother, mother, daughter, or sister).\n3. Mammography: women aged 45-69, and women aged 40-44 with a second-degree blood relative who has had breast cancer, every 2 years.\n4. Screening dates span from July 2004 to December 2024.",
   "notes_en": "1. Height and weight fields contain numbers, text, symbols, or combinations thereof.\n2. Screening units include county-level health bureaus and foreign institutions.",
   "primary_keys_en": "",
   "name_zh_en": "cancer screening – breast cancer screening file"

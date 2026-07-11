@@ -25,7 +25,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
@@ -36,7 +36,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號碼 為護照號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
@@ -47,7 +47,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
@@ -113,10 +113,10 @@
       "name_en": "CONF_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "hospital code for diagnosis",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 10,
@@ -124,10 +124,10 @@
       "name_en": "CHECK_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "inpatient medical facility code",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 11,
@@ -157,7 +157,7 @@
       "name_en": "VERSION",
       "type": "Char",
       "length": 3,
-      "description_zh": "辨別病理診斷(確診)結果表單 版本。 113年起新增。",
+      "description_zh": "辨別病理診斷(確診)結果表單版本。 113年起新增。",
       "available_notes": [
         {
           "roc_year": 113,
@@ -185,10 +185,10 @@
       "name_en": "TRANS_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "referral medical institution code",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 16,
@@ -196,10 +196,10 @@
       "name_en": "TREAT_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "hospital code",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 17,
@@ -338,7 +338,7 @@
         },
         {
           "code": "5",
-          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
+          "label_zh": "疣狀增生張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
           "label_en": "wart-like hyperplasia of the mouth opening difficult or tongue movement受限 (oral submucous fibrosis)"
         },
         {
@@ -363,7 +363,7 @@
         },
         {
           "code": "76",
-          "label_zh": "口腔黏膜下纖維化症(張口不易或舌頭活 動困難)",
+          "label_zh": "口腔黏膜下纖維化症(張口不易或舌頭活動困難)",
           "label_en": "oral mucosal fibrosis (difficulty opening mouth or tongue movement)"
         },
         {
@@ -408,7 +408,7 @@
         },
         {
           "code": "5",
-          "label_zh": "疣狀增生 張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
+          "label_zh": "疣狀增生張口不易或舌頭活動困難 (口腔黏膜下纖維化症)",
           "label_en": "wart-like hyperplasia of the mouth opening difficult or tongue movement受限 (oral submucous fibrosis)"
         },
         {
@@ -428,7 +428,7 @@
         },
         {
           "code": "73",
-          "label_zh": "均質性薄白斑 口腔黏膜下纖維化症(張口不易或舌頭活 動困難)",
+          "label_zh": "均質性薄白斑口腔黏膜下纖維化症(張口不易或舌頭活動困難)",
           "label_en": "homogeneous thin white patch oral mucosal fibrosis (difficulty opening mouth or tongue movement difficulty)"
         },
         {
@@ -627,7 +627,7 @@
         },
         {
           "code": "00",
-          "label_zh": "無明顯異常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
+          "label_zh": "無明顯異常上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
           "label_en": "no significant abnormality hyperkeratosis mild epithelial variation (mild dysplasia, SIN1, basal moderate epithelial variation (moderate dysplasia, SIN2, severe epithelial variation (severe dysplasia, SIN3"
         },
         {
@@ -662,7 +662,7 @@
         },
         {
           "code": "00",
-          "label_zh": "正常 上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
+          "label_zh": "正常上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
           "label_en": "normal hyperkeratosis with mild epithelial dysplasia (SIN1), moderate epithelial dysplasia (SIN2), severe epithelial dysplasia (SIN3"
         },
         {
@@ -682,7 +682,7 @@
         },
         {
           "code": "12",
-          "label_zh": "salivary gland carcinoma, other 疣狀病變/增生(Verrucous lesion, Verrucous 口腔黏膜下纖 維化症(Oral submucous fibrosis) 扁平苔癬或類扁平苔癬反應(lichen planus,",
+          "label_zh": "salivary gland carcinoma, other 疣狀病變/增生(Verrucous lesion, Verrucous 口腔黏膜下纖維化症(Oral submucous fibrosis) 扁平苔癬或類扁平苔癬反應(lichen planus,",
           "label_en": "salivary gland carcinoma, other  Wart-like lesions/hyperplasia (Verrucous lesion, Verrucous oral mucosa submucosal fibrosis, Oral submucous fibrosis, lichen planus or lichenoid reaction"
         },
         {

@@ -51,7 +51,7 @@
       "name_en": "RESID",
       "type": "Char",
       "length": 4,
-      "description_zh": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳 詳欄位(變項)譯碼(一)【戶籍地代碼 (RESID)對照表】",
+      "description_zh": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳詳欄位(變項)譯碼(一)【戶籍地代碼 (RESID)對照表】",
       "available_notes": [],
       "name_zh_en": "household registration code",
       "description_en": "Residence code at the time of cancer diagnosis. 9999: Residence not specified. Detailed variable coding (one)【Residence Code (RESID)对照表】"
@@ -62,10 +62,10 @@
       "name_en": "DIAGAGE",
       "type": "Char",
       "length": 3,
-      "description_zh": "記錄個案診斷此癌症時之實足年 齡。 000：小於1歲 001：1歲，但是小於 2歲 002：2歲 …：填入診斷年齡 120：120歲 999：診斷年齡不詳。",
+      "description_zh": "記錄個案診斷此癌症時之實足年齡。 000：小於1歲 001：1歲，但是小於 2歲 002：2歲 …：填入診斷年齡 120：120歲 999：診斷年齡不詳。",
       "available_notes": [],
       "name_zh_en": "age at diagnosis",
-      "description_en": "recorded age in years at diagnosis of this cancer. 000: less than 1 year old 001: 1 year old but less than 2 years old 002: 2 years old ... : enter diagnosed age 120: 120 years old 999: age at diagnosis not documented"
+      "description_en": "Record the actual age of diagnosis for this cancer. 000: Less than 1 year old 001: 1 year old but less than 2 years old 002: 2 years old … Fill in the diagnosed age 120: 120 years old 999: Age at diagnosis not specified."
     },
     {
       "seq": 5,
@@ -73,7 +73,7 @@
       "name_en": "DIAG_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD：最初診斷日期是指 此癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳 年不詳：9999 月不詳：99 日不詳：99。",
+      "description_zh": "YYYYMMDD：最初診斷日期是指此癌症最早被醫師診斷的日期。 99999999：最初診斷日期不詳年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "initial diagnosis date",
       "description_en": "YYYYMMDD：Initial diagnosis date refers to the earliest date when a physician diagnosed this cancer. 99999999：Initial diagnosis date unknown Year unknown: 9999 Month unknown: 99 Day unknown: 99."
@@ -84,7 +84,7 @@
       "name_en": "GRADE_C",
       "type": "Char",
       "length": 1,
-      "description_zh": "收錄實質腫瘤於首次治療前的分級/ 分化，描述腫瘤和正常組織的相似 程度。各癌別編碼原則詳欄位(變項) 譯碼(二十)【分級/分化對照表(1) 臨 床分級/分化(GRADE_C)對照表】。",
+      "description_zh": "收錄實質腫瘤於首次治療前的分級/ 分化，描述腫瘤和正常組織的相似程度。各癌別編碼原則詳欄位(變項) 譯碼(二十)【分級/分化對照表(1) 臨床分級/分化(GRADE_C)對照表】。",
       "available_notes": [],
       "name_zh_en": "clinical_grade_differentiation",
       "description_en": "Records the grading/differentiation of实质性肿瘤 before first treatment, describing the similarity between the tumor and normal tissue. Grading/pronunciation rules for each cancer type are detailed in the code translation (Twenty)【Grading/Differentiation Table (1) Clinical Grading/Differentiation(GRADE_C) Table】."
@@ -95,7 +95,7 @@
       "name_en": "GRADE_P",
       "type": "Char",
       "length": 1,
-      "description_zh": "收錄實質腫瘤於原發部位手術之後 的分級/分化，描述腫瘤和正常組織 的相似程度。各癌別編碼原則請詳 欄位(變項)譯碼(二十)【分級/分化對",
+      "description_zh": "收錄實質腫瘤於原發部位手術之後的分級/分化，描述腫瘤和正常組織的相似程度。各癌別編碼原則請詳欄位(變項)譯碼(二十)【分級/分化對",
       "available_notes": [],
       "name_zh_en": "Pathological Grade/Differentiation",
       "description_en": "Grade/ Differentiation of solid tumors after primary site surgery, describing the similarity between the tumor and normal tissue. Coding principles for each cancer type please refer to Detailed field (variable) translation (20)【Grade/Differentiation Table】."
@@ -106,7 +106,7 @@
       "name_en": "HISTBEH",
       "type": "Char",
       "length": 5,
-      "description_zh": "組織病理：使用 ICD-O-3之組織病 理碼(Morphology)譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌",
+      "description_zh": "組織病理：使用 ICD-O-3之組織病理碼(Morphology)譯碼第5碼為2：原位癌第5碼為3：侵襲癌",
       "available_notes": [],
       "name_zh_en": "type and status code",
       "description_en": "Pathology: ICD-O-3 tissue morphology code, 5th digit 2: in situ carcinoma, 5th digit 3: invasive carcinoma"
@@ -117,7 +117,7 @@
       "name_en": "CASITE",
       "type": "Char",
       "length": 4,
-      "description_zh": "依 ICD-O-3腫瘤部位碼 (topography code)進行原發部位編碼。 NHL(非何杰金氏淋巴瘤)、HL(何杰 金氏淋巴瘤)及 LEU(白血病)等血液 腫瘤個案，在此欄位無法辨識，請 用組織類型與性態碼(HISTBEH)區 分。若是要分析各癌症部分(CASITE 欄位)，也請先把 NHL、HL、LEU 等血液腫瘤排除後再計算。",
+      "description_zh": "依 ICD-O-3腫瘤部位碼 (topography code)進行原發部位編碼。 NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE 欄位)，也請先把 NHL、HL、LEU 等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
       "description_en": "Topography code (ICD-O-3) is used for primary site coding. Cases of NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia) cannot be identified in this field; please use histological type and behavior code (HISTBEH) to distinguish. If analyzing cancer sites (CASITE field), please exclude NHL, HL, and LEU cases first."
@@ -139,7 +139,7 @@
       "name_en": "CLASS_D",
       "type": "Char",
       "length": 1,
-      "description_zh": "記錄個案至申報醫院首次為此癌症 就診時的癌症診療情境，詳欄位(變 項)譯碼(二)【個案分類(CLASS)對照 表(1) 診斷狀態分類(CLASS_D)對照 表】。",
+      "description_zh": "記錄個案至申報醫院首次為此癌症就診時的癌症診療情境，詳欄位(變項)譯碼(二)【個案分類(CLASS)對照表(1) 診斷狀態分類(CLASS_D)對照表】。",
       "available_notes": [],
       "name_zh_en": "diagnosis status classification",
       "description_en": "Record the cancer treatment scenario at the first visit to the reporting hospital for this cancer case, detailed field (item) coding (II) [Case classification(CLASS) lookup table (1) Diagnosis status classification(CLASS_D) lookup table]."
@@ -161,7 +161,7 @@
       "name_en": "LATERAL",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：非成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或 右側則不清楚 4：雙側侵犯但起源之側位不清楚， 且病歷描述是單一原發(較少見) ․ 雙側卵巢同時有單一組織類型 之腫瘤侵犯。",
+      "description_zh": "0：非成對器官 1：原發起源位在右側 2：原發起源位在左側 3：只有單側侵犯，但起源於左側或右側則不清楚 4：雙側侵犯但起源之側位不清楚， 且病歷描述是單一原發(較少見) ․ 雙側卵巢同時有單一組織類型之腫瘤侵犯。",
       "available_notes": [],
       "name_zh_en": "laterality",
       "description_en": "0: Unpaired organ 1: Primary origin on right side 2: Primary origin on left side 3: Only unilateral invasion, but unclear whether from left or right side 4: Bilateral invasion with unclear origin side, and single primary diagnosis in medical record (rare) • Simultaneous bilateral ovary invasion by a single tissue type tumor."
@@ -172,7 +172,7 @@
       "name_en": "CONFIRM",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼(三)【癌症確診方 式(CONFIRM)對照表】",
+      "description_zh": "詳欄位(變項)譯碼(三)【癌症確診方式(CONFIRM)對照表】",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
       "description_en": "Detailed Field (Variable) Translation (III) [Cancer Confirmation Method (CONFIRM) Lookup Table]"
@@ -183,20 +183,20 @@
       "name_en": "CONT_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD：個案因此癌症至申 報醫院門診或住院之最早日期。 99999999：個案首次到申報醫院就 診日期不詳。年不詳：9999 月不 詳：99 日不詳：99。",
+      "description_zh": "YYYYMMDD：個案因此癌症至申報醫院門診或住院之最早日期。 99999999：個案首次到申報醫院就診日期不詳。年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "first visit date",
-      "description_en": "YYYYMMDD：the earliest date of the patient's visit to a clinic or hospital due to cancer for the first time. 99999999：patient's first visit date to the reporting hospital is unknown. Year unknown: 9999 Month unknown: 99 Day unknown: 99."
+      "description_en": "YYYYMMDD: The earliest date of outpatient or inpatient visit to the reporting hospital due to this cancer. 99999999: Unclear about the first visit date to the reporting hospital for this cancer case. Year unclear: 9999 Month unclear: 99 Day unclear: 99."
     },
     {
       "seq": 16,
-      "name_zh": "首次顯微鏡檢證實 日期",
+      "name_zh": "首次顯微鏡檢證實日期",
       "name_en": "MCONF_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD：指此癌症最早顯微 鏡檢證實的日期。 00000000：個案未做顯微鏡檢檢查 99999999：不清楚個案是否有接受 顯微鏡檢檢查、「首次顯微鏡檢證實 日期」期不詳。 年不詳：9999 月不詳：99 日不 詳：99。",
+      "description_zh": "YYYYMMDD：指此癌症最早顯微鏡檢證實的日期。 00000000：個案未做顯微鏡檢檢查 99999999：不清楚個案是否有接受顯微鏡檢檢查、「首次顯微鏡檢證實日期」期不詳。 年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
-      "name_zh_en": "First microscopic confirmation date",
+      "name_zh_en": "First Microscopic Confirmation Date",
       "description_en": "YYYYMMDD: refers to the date when this cancer was first confirmed under microscopic examination. 00000000: patient did not undergo microscopic examination 99999999: unclear whether the patient underwent microscopic examination or 'first microscopic confirmation date' is unknown. Year unknown: 9999 Month unknown: 99 Day unknown: 99"
     },
     {
@@ -205,20 +205,20 @@
       "name_en": "OP_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD：記錄個案在申報醫 院最早針對癌症進行手術的日期。 00000000：沒有進行任何手術、於 屍體解剖時才診斷為癌症。 99999999：不知道個案是否有接受 手術治療、個案有接受手術治療但 是接受手術治療的日期不清楚、僅 由死亡證明書得知個案有癌症。 年不詳：9999 月不詳：99 日不 詳：99。",
+      "description_zh": "YYYYMMDD：記錄個案在申報醫院最早針對癌症進行手術的日期。 00000000：沒有進行任何手術、於屍體解剖時才診斷為癌症。 99999999：不知道個案是否有接受手術治療、個案有接受手術治療但是接受手術治療的日期不清楚、僅由死亡證明書得知個案有癌症。 年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "first surgery date",
       "description_en": "The date of the first surgery for cancer at the申报医院. 00000000: No surgery, diagnosed with cancer only during autopsy. 99999999: Unknown if surgery was performed, surgery details unknown, known from death certificate alone. Year not available: 99 Month not available: 99 Day not available: 99."
     },
     {
       "seq": 18,
-      "name_zh": "申報醫院原發部位 手術方式",
+      "name_zh": "申報醫院原發部位手術方式",
       "name_en": "OPTYPE",
       "type": "Char",
       "length": 2,
-      "description_zh": "記錄在申報醫院對原發部位所進行 的手術方式，詳欄位(變項)譯碼(四) 【申報醫院原發部位手術方式 (OPTYPE)對照表】。",
+      "description_zh": "記錄在申報醫院對原發部位所進行的手術方式，詳欄位(變項)譯碼(四) 【申報醫院原發部位手術方式 (OPTYPE)對照表】。",
       "available_notes": [],
-      "name_zh_en": "申報醫院原發部位手術方式",
+      "name_zh_en": "reported_hospital_primary_site_surgical_procedure",
       "description_en": "Record the surgical procedure performed on the primary site in the申报医院, detailed field(coded variable) translation (4) 【申报医院原发部位手术方式(OPTYPE)对照表】."
     },
     {
@@ -227,7 +227,7 @@
       "name_en": "RTB_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "記錄在申報醫院的首次療程中，進 行放射治療的開始日期，詳欄位(變 項)譯碼(五)【放射治療開始日期 (RTB_DT)對照表】。",
+      "description_zh": "記錄在申報醫院的首次療程中，進行放射治療的開始日期，詳欄位(變項)譯碼(五)【放射治療開始日期 (RTB_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "Radiotherapy start date",
       "description_en": "recorded on the first treatment visit reported at the申报hospital, the start date of radiotherapy, detailed field(code change) translation(five)【radiotherapy start date (RTB_DT) lookup table】."
@@ -238,7 +238,7 @@
       "name_en": "RTINSTI",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼(六)【放射治療機 構(RTINSTI)對照表】。",
+      "description_zh": "詳欄位(變項)譯碼(六)【放射治療機構(RTINSTI)對照表】。",
       "available_notes": [],
       "name_zh_en": "radiation therapy institution",
       "description_en": "Translation of field (variable) code (6) [Radiation therapy institution table (RTINSTI)]."
@@ -256,14 +256,14 @@
     },
     {
       "seq": 22,
-      "name_zh": "申報醫院化學治療 開始日期",
+      "name_zh": "申報醫院化學治療開始日期",
       "name_en": "CH_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(八)【申報醫院化 學治療開始日期(CH_DT)對照表】。",
+      "description_zh": "詳欄位(變項)譯碼(八)【申報醫院化學治療開始日期(CH_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "申報醫院化學治療開始日期",
-      "description_en": "Detailed field (variable) code (8) [Reported hospital chemotherapy start date (CH_DT)对照表]."
+      "name_zh_en": "date_of_clinic_reported_hospital_chemotherapy_start",
+      "description_en": "Translation of detailed field (variable) code (八) [对照表 for申报医院化学治疗开始日期 (CH_DT)]"
     },
     {
       "seq": 23,
@@ -271,21 +271,21 @@
       "name_en": "HORM",
       "type": "Char",
       "length": 2,
-      "description_zh": "記載個案在申報醫院首次療程中， 所給予荷爾蒙治療的相關情形，詳 欄位(變項)譯碼(九)【申報醫院荷爾 蒙治療(HORM)對照表】。",
+      "description_zh": "記載個案在申報醫院首次療程中， 所給予荷爾蒙治療的相關情形，詳欄位(變項)譯碼(九)【申報醫院荷爾蒙治療(HORM)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital report of hormone / corticosteroid treatment",
       "description_en": "Records the case's condition for hormone therapy provided during the first course of treatment at the申报医院, detailed in Section (Variable) Code Nine [申报医院激素治疗对照表] (HORM)."
     },
     {
       "seq": 24,
-      "name_zh": "申報醫院荷爾蒙 /類固醇治療開始日 期",
+      "name_zh": "申報醫院荷爾蒙 /類固醇治療開始日期",
       "name_en": "HORM_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(十)【申報醫院荷 爾蒙治療開始日期(HORM_DT)對照 表】。",
+      "description_zh": "詳欄位(變項)譯碼(十)【申報醫院荷爾蒙治療開始日期(HORM_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "date of申报医院激素/皮质类固醇治疗开始",
-      "description_en": "detail field (variable) code (10) [reference table for申报医院激素治疗开始日期 (HORM_DT)]"
+      "name_zh_en": "Reported hospital hormone / steroid therapy start date",
+      "description_en": "Detailed field (variable) code (10) [Claimed hospital hormone treatment start date (HORM_DT)对照表]."
     },
     {
       "seq": 25,
@@ -293,42 +293,42 @@
       "name_en": "IMMU",
       "type": "Char",
       "length": 2,
-      "description_zh": "記載申報醫院於首次療程中，所給 予免疫治療的相關情形，詳欄位(變 項)譯碼(十一)【申報醫院免疫治療 (IMMU)對照表】。",
+      "description_zh": "記載申報醫院於首次療程中，所給予免疫治療的相關情形，詳欄位(變項)譯碼(十一)【申報醫院免疫治療 (IMMU)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported immunotherapy",
       "description_en": "Records the relevant circumstances of immunotherapy provided by the reporting hospital during the first course, detailed in field (item) coding (11)【Reporting Hospital Immunotherapy (IMMU)对照表】."
     },
     {
       "seq": 26,
-      "name_zh": "申報醫院免疫治療 開始日期",
+      "name_zh": "申報醫院免疫治療開始日期",
       "name_en": "IMMU_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(十二)【申報醫院 免疫治療開始日期(IMMU_DT)對照 表】。",
+      "description_zh": "詳欄位(變項)譯碼(十二)【申報醫院免疫治療開始日期(IMMU_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "申報醫院免疫治療開始日期",
+      "name_zh_en": "date_of_clinic_reported_hospital_immunotherapy_start",
       "description_en": "Detailed field (variable) code (12) [Claimed hospital immunotherapy start date (IMMU_DT)对照表]."
     },
     {
       "seq": 27,
-      "name_zh": "申報醫院骨髓/幹細 胞移植或內分泌處 置",
+      "name_zh": "申報醫院骨髓/幹細胞移植或內分泌處置",
       "name_en": "BM",
       "type": "Char",
       "length": 2,
-      "description_zh": "記錄個案在申報醫院首次治療時， 給予骨髓/幹細胞移植或內分泌治療 情形，詳欄位(變項)譯碼(十三)【申 報醫院骨髓/幹細胞移植或內分泌處 置(BM)對照表】。",
+      "description_zh": "記錄個案在申報醫院首次治療時， 給予骨髓/幹細胞移植或內分泌治療情形，詳欄位(變項)譯碼(十三)【申報醫院骨髓/幹細胞移植或內分泌處置(BM)對照表】。",
       "available_notes": [],
-      "name_zh_en": "report hospital bone marrow/cord blood transplant or endocrine treatment",
+      "name_zh_en": "Claimed hospital bone marrow/cord blood transplantation or endocrine management.",
       "description_en": "Record the case's first treatment at the reporting hospital, including bone marrow/stem cell transplantation or endocrine therapy, detailed field (variable) code (13) [Bone Marrow/Stem Cell Transplantation or Endocrine Treatment (BM)对照表]."
     },
     {
       "seq": 28,
-      "name_zh": "申報醫院骨髓/幹細 胞移植或內分泌處 置開始日期",
+      "name_zh": "申報醫院骨髓/幹細胞移植或內分泌處置開始日期",
       "name_en": "BM_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(十四)【申報醫院 骨髓/幹細胞移植或內分泌處置開始 日期(BM_DT)對照表】。",
+      "description_zh": "詳欄位(變項)譯碼(十四)【申報醫院骨髓/幹細胞移植或內分泌處置開始日期(BM_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "Claimed hospital bone marrow/cell transplant or endocrine treatment start date",
+      "name_zh_en": "Date of bone marrow/stem cell transplantation or endocrine management initiation at the reporting hospital.",
       "description_en": "Detailed field (variable) code (14) 【申报医院骨髓/干细胞移植或内分泌处置开始日期 (BM_DT) Lookup Table】."
     },
     {
@@ -344,13 +344,13 @@
     },
     {
       "seq": 30,
-      "name_zh": "申報醫院標靶治療 開始日期",
+      "name_zh": "申報醫院標靶治療開始日期",
       "name_en": "TARGET_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(十六)【申報醫院 標靶治療開始日期(TARGET_DT)對 照表】。",
+      "description_zh": "詳欄位(變項)譯碼(十六)【申報醫院標靶治療開始日期(TARGET_DT)對照表】。",
       "available_notes": [],
-      "name_zh_en": "申報醫院標靶治療開始日期",
+      "name_zh_en": "date_of_clinic_reported_hospital_targeted Therapy_start",
       "description_en": "Field item code (XVI) [对照表 for target treatment start date (TARGET_DT)]"
     },
     {
@@ -359,7 +359,7 @@
       "name_en": "PALLI",
       "type": "Char",
       "length": 1,
-      "description_zh": "申報醫院為緩解或減輕個案症狀所 提供之照護，包括手術治療、放射 治療、全身性治療(化學治療、荷爾 蒙治療或其他全身性藥物)及疼痛控 制治療，詳欄位(變項)譯碼(十七) 【申報醫院緩和照護(PALLI)對照 表】。",
+      "description_zh": "申報醫院為緩解或減輕個案症狀所提供之照護，包括手術治療、放射治療、全身性治療(化學治療、荷爾蒙治療或其他全身性藥物)及疼痛控制治療，詳欄位(變項)譯碼(十七) 【申報醫院緩和照護(PALLI)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported palliative care",
       "description_en": "Claims for palliative care provided by the hospital to alleviate or relieve the patient's symptoms, including surgical treatment, radiation therapy, systemic treatments (chemotherapy, hormone therapy, or other systemic medications), and pain control treatment, as detailed in code field (17) [Palliative Care对照表]."
@@ -370,7 +370,7 @@
       "name_en": "OTHER",
       "type": "Char",
       "length": 2,
-      "description_zh": "記錄個案在任何醫療機構的首次療 程中，所給予其他治療相關情形。 其他治療的定義為未能歸類於手 術、放射治療、全身性藥物治療或 輔助性治療(ancillary treatment) ，詳 欄位(變項)譯碼(十八)【其他治療 (OTHER)對照表】。",
+      "description_zh": "記錄個案在任何醫療機構的首次療程中，所給予其他治療相關情形。 其他治療的定義為未能歸類於手術、放射治療、全身性藥物治療或輔助性治療(ancillary treatment) ，詳欄位(變項)譯碼(十八)【其他治療 (OTHER)對照表】。",
       "available_notes": [],
       "name_zh_en": "other treatment",
       "description_en": "Record other treatment related circumstances given to the case during their first course of treatment at any medical institution. The definition of other treatments is those that cannot be categorized as surgery, radiation therapy, systemic drug therapy, or auxiliary treatment (ancillary treatment). Detailed translation code explanation (Item 18) [Other Treatment (OTHER)对照表]."
@@ -381,7 +381,7 @@
       "name_en": "OTHER_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "詳欄位(變項)譯碼(十九)【其他治療 開始日期(OTHER_DT)對照表】。",
+      "description_zh": "詳欄位(變項)譯碼(十九)【其他治療開始日期(OTHER_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "other treatment start date",
       "description_en": "Translation of detailed field (variable) code (十九) [对照表 for其他治疗 开始日期 (OTHER_DT)]"
@@ -414,7 +414,7 @@
       "name_en": "SMOKING",
       "type": "Char",
       "length": 6,
-      "description_zh": "記錄個案於最初診斷日前的吸菸行 為。 1-2碼為每日吸菸量(以支為單位) 00：無吸菸 10：每日10支(半包) 20：每日20支(1包) 90：每日≧90支(≧4.5包) 91：偶爾吸(無規律或無定量) 98：有吸，但量不詳 99：病歷未記載或吸菸狀態完全 不詳者。 3-4碼為吸菸年 00：無吸菸 05：吸菸5年 15：每日20支(1包) 98：每日≧90支(≧4.5包) 99：病歷未記載或吸菸狀態完全 不詳者。 5-6碼為戒菸年 00：無戒吸菸 05：已戒 5年 15：已戒15年 88：無吸菸 98：已戒，但年不詳 99：病歷未記載或戒菸狀態完全不 詳者。",
+      "description_zh": "記錄個案於最初診斷日前的吸菸行為。 1-2碼為每日吸菸量(以支為單位) 00：無吸菸 10：每日10支(半包) 20：每日20支(1包) 90：每日≧90支(≧4.5包) 91：偶爾吸(無規律或無定量) 98：有吸，但量不詳 99：病歷未記載或吸菸狀態完全不詳者。 3-4碼為吸菸年 00：無吸菸 05：吸菸5年 15：每日20支(1包) 98：每日≧90支(≧4.5包) 99：病歷未記載或吸菸狀態完全不詳者。 5-6碼為戒菸年 00：無戒吸菸 05：已戒 5年 15：已戒15年 88：無吸菸 98：已戒，但年不詳 99：病歷未記載或戒菸狀態完全不詳者。",
       "available_notes": [],
       "name_zh_en": "smoking behavior",
       "description_en": "1. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 2. In principle each medical personnel has one record. 3. For 2017, only records with practice status (WORK_STATUS) 01 (practicing) are extracted. 4. In 2017 data, a blank NHI region indicates erroneous data (practicing but no practice institution). 5. In 2020 data, two fields were added: practice city/county and practice township. Primary key: none."
@@ -425,7 +425,7 @@
       "name_en": "BTCHEW",
       "type": "Char",
       "length": 6,
-      "description_zh": "記錄個案於最初診斷日前的嚼檳榔 行為。 1-2碼為每日嚼檳榔量，以”顆”計算 00：無嚼檳榔 10：每日10顆 20：每日20顆 90：每日≧90顆 91：偶爾嚼(無規律或無定量) 98：有嚼，但量不詳 99：病歷未記載或嚼檳榔狀態完全",
+      "description_zh": "記錄個案於最初診斷日前的嚼檳榔行為。 1-2碼為每日嚼檳榔量，以”顆”計算 00：無嚼檳榔 10：每日10顆 20：每日20顆 90：每日≧90顆 91：偶爾嚼(無規律或無定量) 98：有嚼，但量不詳 99：病歷未記載或嚼檳榔狀態完全",
       "available_notes": [],
       "name_zh_en": "chewing betel nut behavior",
       "description_en": "Record tobacco chewing behavior before the initial diagnosis date of the case. Codes 1-2 represent daily amount of betel nut chewing, measured in 'pieces': 00: No betel nut chewing; 10: Daily 10 pieces; 20: Daily 20 pieces; 90: Daily ≥90 pieces; 91: Occasionally chew (irregular or unspecified quantity); 98: Chewed but amount unknown; 99: Medical record not documented or complete betel nut chewing status"
@@ -447,10 +447,10 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。 身分證字號或外籍居留證號碼(如無 居留證號碼為護照號碼)。 9999999999 ：個案無身分證統一編 號。",
+      "description_zh": "經加密處理。 身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。 9999999999 ：個案無身分證統一編號。",
       "available_notes": [],
       "name_zh_en": "National ID number",
-      "description_en": "encrypted. identity number or alien resident permit number (if no resident permit number, passport number). 9999999999: case has no national identification number."
+      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number). 9999999999 : case has no national ID number."
     },
     {
       "seq": 40,

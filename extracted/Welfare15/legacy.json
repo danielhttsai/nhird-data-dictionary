@@ -58,7 +58,7 @@
       "name_en": "ID_C",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼（如無居留證號碼 請填護照號碼），左靠不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
       "available_notes": [],
       "name_zh_en": "victim's ID number",
       "description_en": "Encrypted. National ID number or alien residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if necessary."
@@ -120,7 +120,7 @@
     },
     {
       "seq": 10,
-      "name_zh": "被害人職業 選其他時 所填資料",
+      "name_zh": "被害人職業選其他時所填資料",
       "name_en": "OTHEROCCUPATI ON",
       "type": "Char",
       "length": 50,
@@ -153,7 +153,7 @@
     },
     {
       "seq": 13,
-      "name_zh": "被害人疑似身心障礙者 選其他時所填資料",
+      "name_zh": "被害人疑似身心障礙者選其他時所填資料",
       "name_en": "OTHERMAIMED",
       "type": "Char",
       "length": 60,
@@ -165,12 +165,12 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "victim suspected person with physical or mental disability - when selecting other, fill in the data",
+      "name_zh_en": "victim suspected of mental or physical disability data filled when selecting other options",
       "description_en": "2023年起无"
     },
     {
       "seq": 14,
-      "name_zh": "被害人領有身心障礙手 冊 選其他時所填資料",
+      "name_zh": "被害人領有身心障礙手冊選其他時所填資料",
       "name_en": "OTHERMAIMED2",
       "type": "Char",
       "length": 80,
@@ -182,7 +182,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "victim holds a disability certificate fill other times with the data",
+      "name_zh_en": "data filled when victim with mental or physical disability handbook chose other option",
       "description_en": "2023年起无"
     },
     {
@@ -202,10 +202,10 @@
       "name_en": "ID_D",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居留 證號碼請填護照號碼），左靠不足補 空白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
       "available_notes": [],
       "name_zh_en": "relative ID number",
-      "description_en": "Encrypted. National ID number or alien residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added as needed."
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 17,
@@ -213,7 +213,7 @@
       "name_en": "SEX_D",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男；2：女；3：不詳(社工填寫 時直接選不詳)；9：不詳(用身份證 判斷還是不詳)",
+      "description_zh": "1：男；2：女；3：不詳(社工填寫時直接選不詳)；9：不詳(用身份證判斷還是不詳)",
       "available_notes": [],
       "name_zh_en": "relative original file gender",
       "description_en": "1: male; 2: female; 3: unknown (social worker fills in as unknown); 9: unknown (still unclear after ID verification)"
@@ -314,7 +314,7 @@
     },
     {
       "seq": 26,
-      "name_zh": "主要發生場所選其他時 所填的資料",
+      "name_zh": "主要發生場所選其他時所填的資料",
       "name_en": "OTHEROCCURPL ACE",
       "type": "Char",
       "length": 80,
@@ -362,7 +362,7 @@
       "name_en": "LASTOCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "民國年YYYMMDDHH；108年起改 為民國年YYYMMDDHHMI，長度為 11",
+      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為 11",
       "available_notes": [
         {
           "roc_year": 108,
@@ -730,7 +730,7 @@
         },
         {
           "code": "108",
-          "label_zh": "年起修改如下： 代碼 說明 代碼 說明",
+          "label_zh": "年起修改如下： 代碼說明代碼說明",
           "label_en": "effective from year起修改如下： 代碼 說明 代碼 說明"
         },
         {
@@ -806,7 +806,7 @@
         },
         {
           "code": "108",
-          "label_zh": "年起修改如下： 代碼 說明 代碼 說明 a 現為/曾為同居伴侶 E 未同居伴侶(含男女朋友) b 直系親屬 F 現為/曾為直系親屬:父(含養、繼父) c 手足 G 現為/曾為直系親屬:母(含養、繼母) d 其他旁系親屬(四親等以內) H 現為/曾為直系親屬:(曾) (外)祖父母 e 家長家屬或家屬間關係者 I 現為/曾為直系親屬:卑親屬(如子女、孫子 2025年07月22日修訂 女) 現為/曾為家長家屬或家屬間關係者:父 f 前男女朋友 J 之同居人 現為/曾為家長家屬或家屬間關係者:母 g 男女朋友 K 之同居人 現為/曾為家長家屬或家屬間關係者:父 h 保母-本人 L 之同居人之子女 現為/曾為家長家屬或家屬間關係者:母 i 保母-同住家人 M 之同居人之子女 其他親屬:現為/曾為四親等以內之旁系 j 機構人員-管理者 Z 血親或旁系姻親 k 機構人員-工作人員 N 照顧者 l 機構人員-志工 O 保母 m 機構人員-院生/安置對象 P 機構人員 n 普通朋友 Q 朋友(家人朋友/鄰居/普通朋友/同學) o 同學 R 職場關係(上司下屬/同事/客戶) p 家人朋友 S 師生關係-學校教師 q 鄰居 T 師生關係-補習班老師 r 職場關係-上司下屬 2 師生關係-幼兒園老師 s 職場關係-客戶 U 師生關係-安親班老師 t 職場關係-同事 V 師生關係-社團老師/教練 u 師生關係-家教 W 網友",
+          "label_zh": "年起修改如下： 代碼說明代碼說明 a 現為/曾為同居伴侶 E 未同居伴侶(含男女朋友) b 直系親屬 F 現為/曾為直系親屬:父(含養、繼父) c 手足 G 現為/曾為直系親屬:母(含養、繼母) d 其他旁系親屬(四親等以內) H 現為/曾為直系親屬:(曾) (外)祖父母 e 家長家屬或家屬間關係者 I 現為/曾為直系親屬:卑親屬(如子女、孫子 2025年07月22日修訂女) 現為/曾為家長家屬或家屬間關係者:父 f 前男女朋友 J 之同居人現為/曾為家長家屬或家屬間關係者:母 g 男女朋友 K 之同居人現為/曾為家長家屬或家屬間關係者:父 h 保母-本人 L 之同居人之子女現為/曾為家長家屬或家屬間關係者:母 i 保母-同住家人 M 之同居人之子女其他親屬:現為/曾為四親等以內之旁系 j 機構人員-管理者 Z 血親或旁系姻親 k 機構人員-工作人員 N 照顧者 l 機構人員-志工 O 保母 m 機構人員-院生/安置對象 P 機構人員 n 普通朋友 Q 朋友(家人朋友/鄰居/普通朋友/同學) o 同學 R 職場關係(上司下屬/同事/客戶) p 家人朋友 S 師生關係-學校教師 q 鄰居 T 師生關係-補習班老師 r 職場關係-上司下屬 2 師生關係-幼兒園老師 s 職場關係-客戶 U 師生關係-安親班老師 t 職場關係-同事 V 師生關係-社團老師/教練 u 師生關係-家教 W 網友",
           "label_en": "1. To implement birth notification, the MOHW established the 'Birth Notification Operation Plan' and, after multiple negotiations with the Ministry of the Interior (competent authority for the Child Welfare Act), the MOI finalized and announced the 'Birth Notification Workflow' on 13 September 1994. That December 28 the MOHW promulgated the newly revised 'Birth Certificate' and 'Stillbirth Certificate', and paper-based birth notification began in March 1995. 2. From 2004, medical units switched to online reporting and stopped using paper, while household-registration reporting still used both methods; after continued coordination between the HPA and the MOI's Department of Household Registration, online birth notification was fully implemented from 2005, entirely eliminating paper mailing. 3. On 28 May 2003 the Child Welfare Act and Youth Welfare Act were merged and revised into the Child and Youth Welfare Act, Article 13 of which requires: 'Within 7 days of a fetus's birth, the attendant shall report the birth data to the household-registration and health authorities.' 4. On 30 November 2011 the Child and Youth Welfare and Rights Protection Act was amended, Article 14 requiring: 'Within 7 days of birth, the attendant shall report the birth data to the health authority; the same applies for stillbirths.' For births outside a hospital, clinic, or midwifery clinic where a birth certificate cannot be obtained, a DNA parentage report from a medical institution or a birth-notification form issued by a licensed medical professional must be presented for birth registration. 5. Unlike 'birth registration', 'birth notification' covers all births in Taiwan (regardless of nationality): a. live newborns; b. stillbirths of >=20 weeks' gestation or >=500 g. (Quoted from the HPA's birth-notification background notes.)"
         },
         {
@@ -847,7 +847,7 @@
         },
         {
           "code": "C",
-          "label_zh": "疑似身心障礙者－聽障 c 領有身心障礙證明－平衡機能障礙者 領有身心障礙證明－聲音機能或語言機",
+          "label_zh": "疑似身心障礙者－聽障 c 領有身心障礙證明－平衡機能障礙者領有身心障礙證明－聲音機能或語言機",
           "label_en": "Suspected persons with physical or mental disabilities - hearing impairment Has a certificate of physical or mental disability - balance function障碍者 Has a certificate of physical or mental disability - voice function or language disorder"
         },
         {
@@ -897,17 +897,17 @@
         },
         {
           "code": "M",
-          "label_zh": "領有身心障礙手冊－精神障礙 m 領有身心障礙證明－多重障礙者 領有身心障礙證明－頑性（難治型）癲癇",
+          "label_zh": "領有身心障礙手冊－精神障礙 m 領有身心障礙證明－多重障礙者領有身心障礙證明－頑性（難治型）癲癇",
           "label_en": "Holder of mental disorder disability certificate m Holder of multiple disabilities proof Chronic (refractory) epilepsy holder of proof"
         },
         {
           "code": "N",
-          "label_zh": "領有身心障礙手冊－多重障礙 n 症者 領有身心障礙證明－經中央衛生主管機",
+          "label_zh": "領有身心障礙手冊－多重障礙 n 症者領有身心障礙證明－經中央衛生主管機",
           "label_en": "holder of disability certificate - multiple disabilities holder of disability certificate - certified by central health authority"
         },
         {
           "code": "Q",
-          "label_zh": "領有身心障礙手冊－失智症 o 關認定，因罕見疾病而致身心功能障礙 者領 有身心障礙證明－其他經中央衛生主",
+          "label_zh": "領有身心障礙手冊－失智症 o 關認定，因罕見疾病而致身心功能障礙者領有身心障礙證明－其他經中央衛生主",
           "label_en": "Holder of a Disability Certificate - Dementia o Recognized due to functional impairment caused by rare diseases, holder of a Disability Certificate - Other as certified by the Central Health Authority"
         },
         {
@@ -917,7 +917,7 @@
         },
         {
           "code": "X",
-          "label_zh": "非身心障礙者 99 代領謝有異身常心、障先礙天證缺明陷－)多 重障礙者(同m)",
+          "label_zh": "非身心障礙者 99 代領謝有異身常心、障先礙天證缺明陷－)多重障礙者(同m)",
           "label_en": "Not a person with physical or mental disabilities 99 proxy issuance differs from regular disability certification - multiple disabilities (same)"
         },
         {
@@ -948,12 +948,12 @@
         },
         {
           "code": "3",
-          "label_zh": "非私人場所－社會福利機構或其他機構 M 非私人場所－停車場 非私人場所－高級中等以下有提供住宿",
+          "label_zh": "非私人場所－社會福利機構或其他機構 M 非私人場所－停車場非私人場所－高級中等以下有提供住宿",
           "label_en": "Non-private场所 - Social welfare institutions or other organizations Non-private场所 - Parking lot Non-private场所 - Senior high school and below with accommodation"
         },
         {
           "code": "4",
-          "label_zh": "N 非私人場所－計程車 之學校或其他機構",
+          "label_zh": "N 非私人場所－計程車之學校或其他機構",
           "label_en": "N Non-private Place-Taxi to School or Other Institutions"
         },
         {
@@ -1018,7 +1018,7 @@
         },
         {
           "code": "108",
-          "label_zh": "年起修改如下： 代碼 說明 代碼 說明",
+          "label_zh": "年起修改如下： 代碼說明代碼說明",
           "label_en": "effective from year起修改如下： 代碼 說明 代碼 說明"
         },
         {
@@ -1028,12 +1028,12 @@
         },
         {
           "code": "B",
-          "label_zh": "辦公/工作場所 I 矯正機關 特殊營業場所(視聽歌唱業、理髮業、三",
+          "label_zh": "辦公/工作場所 I 矯正機關特殊營業場所(視聽歌唱業、理髮業、三",
           "label_en": "Office/workplace I correction agency special business premises (audio-visual entertainment, barber shops, etc.)"
         },
         {
           "code": "C",
-          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒吧 業、特殊咖啡茶室業)",
+          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒吧業、特殊咖啡茶室業)",
           "label_en": "Public places J Warmth industry, dance hall industry, dance floor industry, wine house industry, bar industry, special coffee tea room industry)"
         },
         {

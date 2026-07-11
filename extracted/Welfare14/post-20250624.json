@@ -64,11 +64,11 @@
     },
     {
       "seq": 4,
-      "name_zh": "受保護/被害人身分證 字號",
+      "name_zh": "受保護/被害人身分證字號",
       "name_en": "VVID",
       "type": "Char",
       "length": 42,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
       "available_notes": [
         {
           "roc_year": 103,
@@ -137,7 +137,7 @@
     },
     {
       "seq": 6,
-      "name_zh": "受保護/被害人身分證 字號檢誤",
+      "name_zh": "受保護/被害人身分證字號檢誤",
       "name_en": "VVID_ROC",
       "type": "Char",
       "length": 1,
@@ -148,7 +148,7 @@
     },
     {
       "seq": 7,
-      "name_zh": "受保護/被害人出生年 月",
+      "name_zh": "受保護/被害人出生年月",
       "name_en": "VBIRTH_YM",
       "type": "Char",
       "length": 5,
@@ -181,7 +181,7 @@
     },
     {
       "seq": 10,
-      "name_zh": "受保護/被害人教育程 度",
+      "name_zh": "受保護/被害人教育程度",
       "name_en": "EDUCATION",
       "type": "Char",
       "length": 1,
@@ -225,7 +225,7 @@
     },
     {
       "seq": 12,
-      "name_zh": "受保護/被害人疑似身 心障礙者 選其他時所 填資料",
+      "name_zh": "受保護/被害人疑似身心障礙者選其他時所填資料",
       "name_en": "OTHERMAIMED",
       "type": "Char",
       "length": 44,
@@ -252,7 +252,7 @@
     },
     {
       "seq": 13,
-      "name_zh": "受保護/被害人領有身 心障礙手冊 選其他時 所填資料",
+      "name_zh": "受保護/被害人領有身心障礙手冊選其他時所填資料",
       "name_en": "OTHERMAIMED2",
       "type": "Char",
       "length": 28,
@@ -294,7 +294,7 @@
     },
     {
       "seq": 14,
-      "name_zh": "受保護/被害人是否為 身心障礙者及其障別",
+      "name_zh": "受保護/被害人是否為身心障礙者及其障別",
       "name_en": "VDISABILITY",
       "type": "Char",
       "length": 1,
@@ -311,11 +311,11 @@
     },
     {
       "seq": 15,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號",
+      "name_zh": "疑似施虐者/相對人/嫌疑人身分證字號",
       "name_en": "DVID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
       "available_notes": [
         {
           "roc_year": 101,
@@ -373,7 +373,7 @@
     },
     {
       "seq": 16,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人性別",
+      "name_zh": "疑似施虐者/相對人/嫌疑人性別",
       "name_en": "DGENDER",
       "type": "Char",
       "length": 1,
@@ -384,7 +384,7 @@
     },
     {
       "seq": 17,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號檢誤",
+      "name_zh": "疑似施虐者/相對人/嫌疑人身分證字號檢誤",
       "name_en": "DVID_ROC",
       "type": "Char",
       "length": 1,
@@ -395,7 +395,7 @@
     },
     {
       "seq": 18,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人出生年月",
+      "name_zh": "疑似施虐者/相對人/嫌疑人出生年月",
       "name_en": "DBIRTH_YM",
       "type": "Char",
       "length": 5,
@@ -406,7 +406,7 @@
     },
     {
       "seq": 19,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人教育程度",
+      "name_zh": "疑似施虐者/相對人/嫌疑人教育程度",
       "name_en": "DEDUCATION",
       "type": "Char",
       "length": 1,
@@ -485,7 +485,7 @@
     },
     {
       "seq": 24,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人障礙別",
+      "name_zh": "疑似施虐者/相對人/嫌疑人障礙別",
       "name_en": "DMAIMED",
       "type": "Char",
       "length": 3,
@@ -512,7 +512,7 @@
     },
     {
       "seq": 25,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人疑似身心障礙者 選其他時所填資料",
+      "name_zh": "疑似施虐者/相對人/嫌疑人疑似身心障礙者選其他時所填資料",
       "name_en": "DOTHERMAIMED",
       "type": "Char",
       "length": 24,
@@ -559,7 +559,7 @@
     },
     {
       "seq": 26,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人領有身心障礙手冊 選其他時所填資料",
+      "name_zh": "疑似施虐者/相對人/嫌疑人領有身心障礙手冊選其他時所填資料",
       "name_en": "DOTHERMAIMED2",
       "type": "Char",
       "length": 8,
@@ -618,7 +618,7 @@
     },
     {
       "seq": 28,
-      "name_zh": "兒少保護情事-兒少有下 列行為者",
+      "name_zh": "兒少保護情事-兒少有下列行為者",
       "name_en": "CPARTICLE1",
       "type": "Char",
       "length": 2,
@@ -635,12 +635,12 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "child protection matters - child has the following behavior",
+      "name_zh_en": "child protection matters - the child has engaged in certain behaviors",
       "description_en": "Optional; detailed code description: from 2018 no longer applicable for 2013, 2017 versions with length of 1"
     },
     {
       "seq": 29,
-      "name_zh": "兒少保護情事-任何人 對兒少有下列行為者",
+      "name_zh": "兒少保護情事-任何人對兒少有下列行為者",
       "name_en": "CPARTICLE2",
       "type": "Char",
       "length": 5,
@@ -662,7 +662,7 @@
     },
     {
       "seq": 30,
-      "name_zh": "兒少保護情事-下列緊 急情況，建議立即以電 話聯繫當地主管機關社 工員評估處理，並依兒 少保護通報及處理辦法 第 6 條規定，於主管機 關處理前，提供兒少適 當之保護及照顧",
+      "name_zh": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依兒少保護通報及處理辦法第 6 條規定，於主管機關處理前，提供兒少適當之保護及照顧",
       "name_en": "CPARTICLE3",
       "type": "Char",
       "length": 4,
@@ -679,7 +679,7 @@
     },
     {
       "seq": 31,
-      "name_zh": "兒少保護情事-父母、監 護人或其他實際照顧兒 童及少年之人對兒少有 下列行為者",
+      "name_zh": "兒少保護情事-父母、監護人或其他實際照顧兒童及少年之人對兒少有下列行為者",
       "name_en": "CPARTICLE4",
       "type": "Char",
       "length": 1,
@@ -868,7 +868,7 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "M 村里幹事 員",
+          "label_zh": "M 村里幹事員",
           "label_en": "M village cadre"
         },
         {
@@ -888,12 +888,12 @@
         },
         {
           "code": "5",
-          "label_zh": "資訊休閒業從業人員 Q 法(獄)政人員 原：法(獄)政人員、矯正人 員",
+          "label_zh": "資訊休閒業從業人員 Q 法(獄)政人員原：法(獄)政人員、矯正人員",
           "label_en": "Information industry employees Q law/police personnel原：law/police personnel, correctional staff"
         },
         {
           "code": "A",
-          "label_zh": "司(軍)法人員 R 公寓大廈管理員 其他執行兒童少年福利業務人",
+          "label_zh": "司(軍)法人員 R 公寓大廈管理員其他執行兒童少年福利業務人",
           "label_en": "Civil Servants' Association (Military) Property Manager Other personnel executing children's welfare services"
         },
         {
@@ -1070,7 +1070,7 @@
         },
         {
           "code": "M",
-          "label_zh": "本國籍原住民－排灣 108年起參閱： 代碼 說明 代碼 說明",
+          "label_zh": "本國籍原住民－排灣 108年起參閱： 代碼說明代碼說明",
           "label_en": "Indigenous people of Taiwan - Paiwan starting from 2018: Code Description Code Description"
         },
         {
@@ -1106,7 +1106,7 @@
         },
         {
           "code": "C",
-          "label_zh": "就學中 F 未再升學 108年起參閱： 代碼 說明 代碼 說明 代碼 說明",
+          "label_zh": "就學中 F 未再升學 108年起參閱： 代碼說明代碼說明代碼說明",
           "label_en": "still enrolled in school F not continuing education since 2018"
         },
         {
@@ -1153,7 +1153,7 @@
       "entries": [
         {
           "code": "A",
-          "label_zh": "兒少施用毒品、非法施用管制藥品或其他有害身心健康之物質 兒少充當酒家、特種咖啡茶室、限制級電子遊戲場及其他涉及賭博、色情、暴力等足以 危害其身心健康場所之侍應",
+          "label_zh": "兒少施用毒品、非法施用管制藥品或其他有害身心健康之物質兒少充當酒家、特種咖啡茶室、限制級電子遊戲場及其他涉及賭博、色情、暴力等足以危害其身心健康場所之侍應",
           "label_en": "Minors using drugs, illegally using controlled substances, or other substances harmful to physical and mental health; minors working in entertainment venues such as bars, special coffee shops, video arcades, etc., involving gambling, pornography, violence, etc., which may endanger their physical and mental health."
         }
       ],
@@ -1209,12 +1209,12 @@
         },
         {
           "code": "J",
-          "label_zh": "供應刀械或其他危險物品 利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網 際網路或其他物品 違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路 或其他物品",
+          "label_zh": "供應刀械或其他危險物品利用其拍攝或錄製暴力、猥褻、色情或其他有害其身心發展之出版品、影片、光碟、網際網路或其他物品違反媒體分級辦法，對其提供或播送有害其身心發展之出版品、影片、光碟、網際網路或其他物品",
           "label_en": "Supplying surgical instruments or other dangerous items Utilizing them for shooting or recording violent, obscene, pornographic, or otherwise harmful to their physical and mental development publications, films, DVDs, internet, or other items Violating the Media Rating Regulations, providing or broadcasting harmful publications, films, DVDs, internet, or other items"
         },
         {
           "code": "M",
-          "label_zh": "帶領或誘使其進入有礙其身心健康之場所 強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺 防治中心)",
+          "label_zh": "帶領或誘使其進入有礙其身心健康之場所強迫、引誘、容留或媒介兒童及少年為自殺行為(請併通報當地社區心理衛生中心或自殺防治中心)",
           "label_en": "leading or inducing a child or adolescent into a place detrimental to their physical and mental health forcing, enticing, accommodating, or facilitating a child or adolescent's suicide (please report to the local community mental health center or suicide prevention center)"
         },
         {
@@ -1235,7 +1235,7 @@
       "entries": [
         {
           "code": "B",
-          "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者 兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險 之虞者",
+          "label_zh": "兒少未受適當之養育或照顧，致其生命身體或自由有立即之危險或有危險之虞者兒少有立即接受診治之必要，但未就醫者，致其生命身體或自由有立即之危險或有危險之虞者",
           "label_en": "Childhood neglect or inadequate care leading to immediate danger to life, body, or freedom or potential danger Children in need of immediate treatment but have not sought medical attention leading to immediate danger to life, body, or freedom or potential danger"
         },
         {
@@ -1272,12 +1272,12 @@
         },
         {
           "code": "B",
-          "label_zh": "辦公/工作場所 I 矯正機關 特殊營業場所(視聽歌唱業、理髮業、三",
+          "label_zh": "辦公/工作場所 I 矯正機關特殊營業場所(視聽歌唱業、理髮業、三",
           "label_en": "Office/workplace I correction agency special business premises (audio-visual entertainment, barber shops, etc.)"
         },
         {
           "code": "C",
-          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒 吧業、特殊咖啡茶室業)",
+          "label_zh": "公共場所 J 溫暖業、舞廳業、舞場業、酒家業、酒吧業、特殊咖啡茶室業)",
           "label_en": "Public places J Warmth industry, dance hall industry, dance floor industry, wine house industry, bar industry, special coffee tea room industry)"
         },
         {
@@ -1385,12 +1385,12 @@
         },
         {
           "code": "B",
-          "label_zh": "兒少之父母(照顧者)監護不周 F 兒少遭受性剝削 因父母(照顧者)因素，兒少飲食、衛生",
+          "label_zh": "兒少之父母(照顧者)監護不周 F 兒少遭受性剝削因父母(照顧者)因素，兒少飲食、衛生",
           "label_en": "adolescent's parents (caretakers) neglect F adolescent sexual exploitation due to parental (caretaker) factors, inadequate diet and hygiene"
         },
         {
           "code": "C",
-          "label_zh": "衣著、居住環境照顧不周，有接受協助 G 兒少遭其他不當對待 之需求",
+          "label_zh": "衣著、居住環境照顧不周，有接受協助 G 兒少遭其他不當對待之需求",
           "label_en": "Inadequate care for clothing and living environment, assistance needed for children subjected to improper treatment G"
         },
         {
@@ -1406,12 +1406,12 @@
       "entries": [
         {
           "code": "A",
-          "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造 成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為 照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、",
+          "label_zh": "兒少的父母(照顧者或家庭成員)威脅、計畫要殺害兒少，或對兒少出現殺害之舉。 兒少有受傷情形，且兒少表示是被父母(照顧者或家庭成員)所傷害，或通報者對於傷勢造成原因感到懷疑、兒少身上的傷痕新舊雜陳。 兒少的傷為意外所致，且兒少(父母、照顧者、家庭成員)對傷勢的解釋合理ㄧ致，但疑為照顧者未善盡照顧所致。 兒少目前並未受傷，但兒少父母(照顧者或家庭成員)有下列行為之一：習慣性使用體罰、",
           "label_en": "Child abuse by parents (caretakers or family members) who threaten, plan, or attempt to kill the child, or where the child is injured and claims it was done by their parents (caretakers or family members), or where the reporter doubts the cause of injury and finds mixed old and new injuries on the child. The child's injuries are accidental, but the explanation for the injuries given by the child (parents, caretakers, or family members) is reasonable and consistent, yet suspicious due to possible neglect by the caregiver."
         },
         {
           "code": "D",
-          "label_zh": "即將或已出現可能使兒少成傷行為、出現危險的舉動、衝突或劇烈爭吵，以致可能波及 兒少。",
+          "label_zh": "即將或已出現可能使兒少成傷行為、出現危險的舉動、衝突或劇烈爭吵，以致可能波及兒少。",
           "label_en": "imminent or already exhibited behaviors that may lead to harm of minors, appearance of dangerous actions, conflicts, or intense quarrels, potentially affecting minors."
         },
         {
@@ -1426,7 +1426,7 @@
         },
         {
           "code": "G",
-          "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有 暫時性替代照顧方案。",
+          "label_zh": "1. 父母(照顧者)長期不在兒少身邊、對兒少照顧不周或缺乏合理關心。 2. 父母(照顧者)有自殺風險、精神疾病或藥酒癮、犯罪或不妥當行為。 兒少被遺棄或父母(照顧者)即將不再提供兒少基本照顧，且無穩定替代照顧方案或僅有暫時性替代照顧方案。",
           "label_en": "1. Long-term absence or neglect of minors by parents (caretakers), including risks of suicide, mental illness, drug or alcohol addiction, criminal behavior, or inappropriate conduct.\n2. Abandonment of minors by parents (caretakers) with no stable alternative care plan or only temporary plans."
         },
         {
@@ -1471,7 +1471,7 @@
         },
         {
           "code": "Q",
-          "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發 展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。",
+          "label_zh": "兒少因住家有危險物體、設備條件有問題或環境髒亂，而可能導致身心傷害。 父母(照顧者、家庭成員)或他人的言行可能造成被害人精神創傷，或一再負面影響兒少發展、社會需求、自我價值，致兒少日常生活受到影響，需要協助。",
           "label_en": "Childhood injuries due to hazardous objects at home, poor equipment conditions, or messy environments that may cause physical or mental harm. Parental (caretaker, family member) or other verbal actions may result in psychological trauma to the victim, repeatedly negatively impacting the child's development, social needs, self-worth, and daily life, requiring assistance."
         },
         {
@@ -1481,7 +1481,7 @@
         },
         {
           "code": "T",
-          "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他 物品。",
+          "label_zh": "利用兒少為性交、猥褻之行為，以供人觀覽。 拍攝、製造兒少為性交或猥褻行為之圖片、照片、影片、影帶、光碟、電子訊號或其他物品。",
           "label_en": "exploitation of children for sexual or indecent acts, with exhibition to others. production of images, photos, videos, discs, electronic signals, etc., depicting such acts involving children."
         },
         {
@@ -1501,7 +1501,7 @@
         },
         {
           "code": "Y",
-          "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定 足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款 行為。",
+          "label_zh": "兒少有施用毒品、非法施用管制藥品或其他有害身心健康之物質。 兒少充當成人用品零售店、限制級電子遊戲場及其他涉及賭博、暴力等經主管機關認定足以危害其身心健康之場所侍應。 有兒童及少年福利與權益保障法第49條第3、4、5、7、8、10、11、12、13、14、15款行為。",
           "label_en": "Children or adolescents using drugs, illegally using controlled substances, or other harmful substances to their physical or mental health. Children or adolescents working as servers at adult product retail stores, video game arcades involving gambling or violence, and places recognized by relevant authorities as potentially harmful to their well-being. Engaging in behaviors under Article 49, paragraphs 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, and 15 of the Child Welfare and Rights Protection Act."
         }
       ],
@@ -1523,7 +1523,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare14_兒童及少年保護通報明細檔(20250624起適用)",
-  "data_description_en": "",
+  "data_description_en": "1. In principle, one notification report corresponds to one record.\n2. The Regulations on Child and Youth Protection Reporting, Classification, Handling, and Investigation are established pursuant to Article 53 of the Protection of Children and Youths Welfare and Rights Act.\n3. Pursuant to Article 2 of the Regulations on Child and Youth Protection Reporting and Handling, medical personnel, social workers, education personnel, childcare personnel, police, judicial personnel, village/borough administrative assistants, and other personnel engaged in child and youth welfare work who, in the course of their duties, become aware of a child or youth in need of protection, shall immediately complete a notification form and report it to the competent municipal or county/city authority via the internet, fax, or other technological means, no later than 24 hours after becoming aware; in urgent situations, they may first report verbally or by telephone, and then complete and submit the notification form to the competent municipal or county/city authority within 24 hours of becoming aware.\nThe notification content submitted by the reporting personnel described above shall include the reason for the report, the circumstances constituting a violation under the subparagraphs of Article 53, Paragraph 1 of the Act, the child's or youth's basic information, and other relevant information.\n4. Pursuant to Article 3 of the Regulations on Child and Youth Protection Reporting and Handling, any person other than those described in the preceding article who becomes aware of a child or youth in need of protection may report it to the competent municipal or county/city authority using the method described in the preceding article or by any other means.",
   "notes_en": "1. Taiwan's assisted-reproduction database was established in ROC year 87 (1998); assisted-reproduction institutions periodically report cases treated at their facility (excluding artificial insemination between spouses). 2. The Assisted Reproduction Data Reporting and Management Regulations were made under Article 27(2) of the Assisted Reproduction Act. 3. The 'Assisted Reproduction Data Reporting Regulations' were promulgated in full (15 articles) by DOH order Shou-Guo-Zi No. 0960400731 on 8 August 2007 and took effect on the promulgation date. 4. Data that assisted-reproduction institutions must report: (i) health exams and assessments of gamete donors; (ii) results of procedures using donated gametes; (iii) data on donated gametes or embryos formed from them that were not completed for donation, returned, destroyed, re-donated, or transferred; (iv) data on cases starting ovulation drugs to enter a treatment cycle; (v) assisted-reproduction case data; (vi) data on destruction of the treated couple's gametes or embryos. 5. The drug-start years span ROC 87 to 112 (1998-2023).",
   "primary_keys_en": "",
   "name_zh_en": "child and youth protection report details"

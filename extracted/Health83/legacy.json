@@ -25,7 +25,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國 民身分證統一編 號，或外籍居留 證號碼（如無居 留證號碼請填護 照號碼），左靠不 足補空白。 112年長度20",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。 112年長度20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -88,13 +88,13 @@
     },
     {
       "seq": 6,
-      "name_zh": "疾病史-有無得過下列疾 病",
+      "name_zh": "疾病史-有無得過下列疾病",
       "name_en": "Q_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：乳房 良性相關疾 病；2：乳癌；3： 其他癌症",
+      "description_zh": "0：無；1：乳房良性相關疾病；2：乳癌；3： 其他癌症",
       "available_notes": [],
-      "name_zh_en": "疾病史-有無得過下列疾病",
+      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: None; 1: Benign breast disease; 2: Breast cancer; 3: Other cancers"
     },
     {
@@ -114,10 +114,10 @@
       "name_en": "UNIT_ID_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫療機 構現況檔。",
+      "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": "Code referenced based on current medical institutions."
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 9,
@@ -125,10 +125,10 @@
       "name_en": "UNIT_ID_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照死因統 計檔。",
+      "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
-      "description_en": "代码参照行政院主计处死因统计档。"
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 10,
@@ -276,13 +276,13 @@
     },
     {
       "seq": 22,
-      "name_zh": "用藥史-是否服用荷爾蒙 補充劑",
+      "name_zh": "用藥史-是否服用荷爾蒙補充劑",
       "name_en": "Q_5_S",
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "medication history - whether taking hormone supplements",
+      "name_zh_en": "history of medication - whether taking hormone replacement therapy",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -353,57 +353,57 @@
     },
     {
       "seq": 29,
-      "name_zh": "其他-最近二年內是否做 過-觸診",
+      "name_zh": "其他-最近二年內是否做過-觸診",
       "name_en": "Q_6_1",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null： 沒有勾選",
       "available_notes": [],
-      "name_zh_en": "other - whether done within the last two years - palpation",
+      "name_zh_en": "whether underwent physical examination within the last two years",
       "description_en": "1: Yes; Null: Not selected"
     },
     {
       "seq": 30,
-      "name_zh": "其他-最近二年內是否做 過-乳攝",
+      "name_zh": "其他-最近二年內是否做過-乳攝",
       "name_en": "Q_6_2",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null： 沒有勾選",
       "available_notes": [],
-      "name_zh_en": "other - whether done within the last two years - mammography",
+      "name_zh_en": "whether underwent mammography within the last two years",
       "description_en": "1: Yes; Null: Not selected"
     },
     {
       "seq": 31,
-      "name_zh": "其他-最近二年內是否做 過-超音波",
+      "name_zh": "其他-最近二年內是否做過-超音波",
       "name_en": "Q_6_3",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null： 沒有勾選",
       "available_notes": [],
-      "name_zh_en": "Other - Whether Done Over the Past Two Years - Ultrasound",
+      "name_zh_en": "other - whether done within the last two years - ultrasound",
       "description_en": "1: Yes; Null: Not selected"
     },
     {
       "seq": 32,
-      "name_zh": "其他-最近二年內是否做 過-皆未做過",
+      "name_zh": "其他-最近二年內是否做過-皆未做過",
       "name_en": "Q_6_4",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null： 沒有勾選",
       "available_notes": [],
-      "name_zh_en": "other - whether done within the last two years - never done",
+      "name_zh_en": "Other - Whether Done Over the Past Two Years - None of the Above",
       "description_en": "1: Yes; Null: Not selected"
     },
     {
       "seq": 33,
-      "name_zh": "其他-是否接受過乳房手 術",
+      "name_zh": "其他-是否接受過乳房手術",
       "name_en": "Q_SURGERY",
       "type": "Char",
       "length": 1,
       "description_zh": "T：是；F：否",
       "available_notes": [],
-      "name_zh_en": "other-whether breast surgery has been received",
+      "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
     },
     {
@@ -434,7 +434,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國 民身分證統一 編號，或外籍居 留證號碼（如無 居留證號碼請 填護照號碼）， 左靠不足補空 白。 112年長度為20",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼）， 左靠不足補空白。 112年長度為20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -451,10 +451,10 @@
       "name_en": "PH_HOSPITALID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為 辨別院所鍵值。",
+      "description_zh": "經加密處理，為辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
-      "description_en": "encrypted for identifying institution key value."
+      "description_en": "encrypted value for hospital key."
     },
     {
       "seq": 38,
@@ -561,10 +561,10 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號 符合編碼原 則；1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0: ID card number conforms to coding rules; 1: does not conform"
+      "description_en": "0：身分證字號符合編碼原 則；1：不符合"
     },
     {
       "seq": 48,
@@ -572,21 +572,21 @@
       "name_en": "PH_HOSPITALID_H OS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫療 機構現況檔。",
+      "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": "code based on current medical institution status file."
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 49,
-      "name_zh": "醫療機構縣市鄉鎮市區 代碼",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
       "name_en": "PH_HOSPITALID_C ITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照死因 統計檔。",
+      "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "county city township district code of medical institution",
-      "description_en": "代码参照行政院主计处死因统计档。"
+      "name_zh_en": "medical_institution_county_city_township_code",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 50,
@@ -594,7 +594,7 @@
       "name_en": "WEIGHT2",
       "type": "Num",
       "length": 8,
-      "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的體重 (公斤)",
+      "description_zh": "乳房攝影資料清理檔新增欄位經過整理的體重 (公斤)",
       "available_notes": [],
       "name_zh_en": "weight2",
       "description_en": "weight (kg) field added to the breast imaging data cleaning file after整理"
@@ -605,7 +605,7 @@
       "name_en": "HIGHET2",
       "type": "Num",
       "length": 8,
-      "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的身高 (公分)",
+      "description_zh": "乳房攝影資料清理檔新增欄位經過整理的身高 (公分)",
       "available_notes": [],
       "name_zh_en": "height2",
       "description_en": "height (cm) field added to the breast imaging data cleaning file after整理"
@@ -616,7 +616,7 @@
       "name_en": "BMI",
       "type": "Num",
       "length": 8,
-      "description_zh": "乳房攝影資料清 理檔新增欄位體 重2(kg)/身高 2(m)^2 53. 資料保留 DATA_QC Char 1 乳房攝影資料清 理檔新增欄位 N:資料不符合保 留條件 Y:資料符合保留 條件 保留條件詳譯碼 簿說明",
+      "description_zh": "乳房攝影資料清理檔新增欄位體重2(kg)/身高 2(m)^2 53. 資料保留 DATA_QC Char 1 乳房攝影資料清理檔新增欄位 N:資料不符合保留條件 Y:資料符合保留條件保留條件詳譯碼簿說明",
       "available_notes": [],
       "name_zh_en": "body mass index",
       "description_en": "BMI data cleaning file new field weight 2(kg)/height 2(m^2) 53. Data retention DATA_QC Char 1 Data cleaning file new field N:data does not meet retention criteria Y:data meets retention criteria Detailed explanation code book description"
@@ -668,7 +668,7 @@
         },
         {
           "code": "9",
-          "label_zh": "Diabetes without chronic 250.0-250.3,250.7 ComD9_ 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 癌症主檔之欄 位名稱",
+          "label_zh": "Diabetes without chronic 250.0-250.3,250.7 ComD9_ 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 癌症主檔之欄位名稱",
           "label_en": "Diabetes without chronic 250.0-250.3,250.7 ComD9_ Establish a health big data thematic database and integrate analysis—establish a cancer precision medicine thematic database (I) Version date:20251230 Cancer main file field names"
         },
         {
@@ -703,27 +703,27 @@
         },
         {
           "code": "2015",
-          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對 應不確定的部分均以下列依規則處理： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
+          "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成ICD-10-CM，所以須將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應不確定的部分均以下列依規則處理： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的人分類到comD10_DMC。 2.有comD11_CRF其他代碼而沒有 comD10_DMC 其他代碼的人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人分類到最早被記載到的其他代碼。 3-2.最早被記載到的其他代碼因日期相同無法區別先後順序者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒有 comD11_CRF 其他代碼分類到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
           "label_en": ""
         },
         {
           "code": "I10",
-          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中2014年版_ICD-9-CM2001年版與ICD-10-CM/PCS對 應檔(112.05.09更新)，網址： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_BREAST_11 使用癌症研究主檔 1979-2022 年版本，",
+          "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生福利部中央健康保險署中2014年版_ICD-9-CM2001年版與ICD-10-CM/PCS對應檔(112.05.09更新)，網址： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度範例： 檔案名稱(Filename) 檔案內容範例1 OPDTE11001_10_BREAST_11 使用癌症研究主檔 1979-2022 年版本，",
           "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (PHAR_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (R_HOSP_ID) are encrypted. 2. This file's unique key is R_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (R_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is R_HOSP_ID."
         },
         {
           "code": "1",
-          "label_zh": "篩選出乳癌個案後，擷取乳癌個案在 110年1月全民健保處方及治療明細檔_ 門急診(西醫)(OPDTE11001_10)的紀 錄。 範例2 IPDTE11001_ BREAST_111 使用癌症研究主檔 1979-2022 年版本， 篩選出乳癌個案後，擷取乳癌個案在 110年1月全民健保處方及治療明細檔_ 住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_ BREAST_111 乳癌死因統計合併檔 MASTER_TABLE_ BREAST__111 乳癌研究主檔 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 五、癌症篩檢—乳癌篩檢清理檔 根據2025 年 04 月 01 日修訂修訂版本製作 (一) 、檔案內容說明 檔案 H_BHP_BCS_CL 資料 H_BHP_BCS_PD：931,571筆 代號 筆數 H_BHP_BCS_DATA_CL：931,676筆 H_BHP_BCS_UNIT：69,249筆 (以112年為例) 中文 1. 乳癌篩檢-個案基本資料檔 英文 檔名 (H_BHP_BCS_PD) 檔名 2. 乳癌篩檢-乳攝資料清理檔 3. 乳癌篩檢-篩檢單位檔 檔案 1. H_BHP_BCS_PD：34MB 欄位 1. H_BHP_BCS_PD：7 大小 數",
+          "label_zh": "篩選出乳癌個案後，擷取乳癌個案在 110年1月全民健保處方及治療明細檔_ 門急診(西醫)(OPDTE11001_10)的紀錄。 範例2 IPDTE11001_ BREAST_111 使用癌症研究主檔 1979-2022 年版本， 篩選出乳癌個案後，擷取乳癌個案在 110年1月全民健保處方及治療明細檔_ 住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_ BREAST_111 乳癌死因統計合併檔 MASTER_TABLE_ BREAST__111 乳癌研究主檔建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 五、癌症篩檢—乳癌篩檢清理檔根據2025 年 04 月 01 日修訂修訂版本製作 (一) 、檔案內容說明檔案 H_BHP_BCS_CL 資料 H_BHP_BCS_PD：931,571筆代號筆數 H_BHP_BCS_DATA_CL：931,676筆 H_BHP_BCS_UNIT：69,249筆 (以112年為例) 中文 1. 乳癌篩檢-個案基本資料檔英文檔名 (H_BHP_BCS_PD) 檔名 2. 乳癌篩檢-乳攝資料清理檔 3. 乳癌篩檢-篩檢單位檔檔案 1. H_BHP_BCS_PD：34MB 欄位 1. H_BHP_BCS_PD：7 大小數",
           "label_en": ""
         },
         {
           "code": "235MB",
-          "label_zh": "3. H_BHP_BCS_UNIT：9 (以112年為例) 屬性 歷史資料檔 週期 無 譯碼簿 2025/12/09 更新日期 資料 1. 國民健康署自民國99年起擴大辦理4項癌症（大腸癌、口腔癌、乳癌及子 描述 宮頸癌）篩檢服務，透過全民健保預防保健服務特約醫事服務機構全面提 供大腸癌、乳癌、子宮頸癌與口腔癌篩檢，並將大腸癌、口腔癌篩檢納入 預防保健服務項目，及擴大乳癌篩檢對象至40歲以上至未滿45歲二等親乳 癌高危險群（即其母親、女兒、姊妹、祖母或外祖母曾患有乳癌）之婦女。 2. 政府補助45-69歲婦女每2年一次乳房攝影檢查；40-44歲婦女，二等親內具 乳癌家族史（指祖母、外婆、母親、女兒、姊妹曾有人罹患乳癌）婦女亦 提供篩檢服務。 3. 乳房X光攝影檢查：45-69歲婦女、40-44歲二等血親內曾罹患乳癌之婦女， 每2年1次。 4. 篩檢日期 包含 2004年7月到 2023年12月。 5. 「癌症篩檢-乳癌篩檢清理檔｣新增欄位：身高2、體重2、身體質量指數及 資料保留。 注意 1. 身高及體重欄位有數字、文字、符號及其組合 。 事項 2. 篩檢單位包含各縣市衛生局及國外機構。 ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如 有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、 入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內 使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 識別特定當事人。 主鍵 1. 個案基本資料檔(H_BHP_PD) 與乳攝資料清理檔 與比 (H_BHP_BCS_DATA_CL) 比對之唯一鍵值為 SICKID 。 對欄 2. 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT)與乳攝資料清理檔 位 (H_BHP_BCS_DATA_CL)比對之唯一鍵值為 UNIT_ID、 3. 個人歸戶及個人資料比對的鍵值：SICKID 。 4. 醫事機構歸戶與資料比對的鍵值： UNIT_ID、PH_HOSPITALIDID 。 (二)、 檔案格式及資料描述 乳癌篩檢-個案基本資料檔(H_BHP_BCS_PD) 序 中文欄位名稱 英文欄位名稱 型態 長 資料描述 號 度 經加密處理。國 民身分證統一編 號，或外籍居留 證號碼（如無居",
+          "label_zh": "3. H_BHP_BCS_UNIT：9 (以112年為例) 屬性歷史資料檔週期無譯碼簿 2025/12/09 更新日期資料 1. 國民健康署自民國99年起擴大辦理4項癌症（大腸癌、口腔癌、乳癌及子描述宮頸癌）篩檢服務，透過全民健保預防保健服務特約醫事服務機構全面提供大腸癌、乳癌、子宮頸癌與口腔癌篩檢，並將大腸癌、口腔癌篩檢納入預防保健服務項目，及擴大乳癌篩檢對象至40歲以上至未滿45歲二等親乳癌高危險群（即其母親、女兒、姊妹、祖母或外祖母曾患有乳癌）之婦女。 2. 政府補助45-69歲婦女每2年一次乳房攝影檢查；40-44歲婦女，二等親內具乳癌家族史（指祖母、外婆、母親、女兒、姊妹曾有人罹患乳癌）婦女亦提供篩檢服務。 3. 乳房X光攝影檢查：45-69歲婦女、40-44歲二等血親內曾罹患乳癌之婦女， 每2年1次。 4. 篩檢日期包含 2004年7月到 2023年12月。 5. 「癌症篩檢-乳癌篩檢清理檔｣新增欄位：身高2、體重2、身體質量指數及資料保留。 注意 1. 身高及體重欄位有數字、文字、符號及其組合 。 事項 2. 篩檢單位包含各縣市衛生局及國外機構。 ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、 入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 識別特定當事人。 主鍵 1. 個案基本資料檔(H_BHP_PD) 與乳攝資料清理檔與比 (H_BHP_BCS_DATA_CL) 比對之唯一鍵值為 SICKID 。 對欄 2. 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT)與乳攝資料清理檔位 (H_BHP_BCS_DATA_CL)比對之唯一鍵值為 UNIT_ID、 3. 個人歸戶及個人資料比對的鍵值：SICKID 。 4. 醫事機構歸戶與資料比對的鍵值： UNIT_ID、PH_HOSPITALIDID 。 (二)、 檔案格式及資料描述乳癌篩檢-個案基本資料檔(H_BHP_BCS_PD) 序中文欄位名稱英文欄位名稱型態長資料描述號度經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居",
           "label_en": ""
         },
         {
           "code": "1",
-          "label_zh": "身分證字號 SICKID Char 24 留證號碼請填護 照號碼），左靠不 足補空白。 112年長度20 1：身分證；2：",
+          "label_zh": "身分證字號 SICKID Char 24 留證號碼請填護照號碼），左靠不足補空白。 112年長度20 1：身分證；2：",
           "label_en": "National Health Insurance ID SICKID, 24 characters, use passport number if no ID, left-align and pad with spaces for不足20位数。1: 身份证；2："
         },
         {
@@ -748,12 +748,12 @@
         },
         {
           "code": "6",
-          "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 合編碼原則； 1：不符合 提供西元年月",
+          "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 合編碼原則； 1：不符合提供西元年月",
           "label_en": "SICKID_ROC validation 1 Char 1 Combined coding rule; 1: invalid Western year-month provided"
         },
         {
           "code": "7",
-          "label_zh": "出生年月 BIRTH_YM Char 10 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
+          "label_zh": "出生年月 BIRTH_YM Char 10 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序長中文欄位名稱英文欄位名稱型態資料描述號度",
           "label_en": "Birth year and month BIRTH_YM Char 10 Establishing a thematic database for precision oncology - version date:20251230 Breast cancer screening-mammography data cleaning file(H_BHP_BCS_DATA_CL) Sequence Chinese field name English field name Type Data description"
         },
         {
@@ -778,17 +778,17 @@
         },
         {
           "code": "5",
-          "label_zh": "體重 Q_WEIGHT Char 35 112年長度10 0：無；1：乳房 疾病史-有無得過下列疾 良性相關疾",
+          "label_zh": "體重 Q_WEIGHT Char 35 112年長度10 0：無；1：乳房疾病史-有無得過下列疾良性相關疾",
           "label_en": "Weight Q_WEIGHT Char 35 Weight length was 10 in 2024 0: none; 1: breast disease history - had or not had the following diseases benign related diseases"
         },
         {
           "code": "6",
-          "label_zh": "Q_1 Char 1 病 病；2：乳癌；3： 其他癌症 家族史-與您有血緣的家",
+          "label_zh": "Q_1 Char 1 病病；2：乳癌；3： 其他癌症家族史-與您有血緣的家",
           "label_en": "Q_1 Char 1 Disease; 2：Breast cancer; 3： Other cancers Family history - with you having a blood relation"
         },
         {
           "code": "7",
-          "label_zh": "Q_2 Char 1 0：無；1：有 屬中，有無人得過癌症",
+          "label_zh": "Q_2 Char 1 0：無；1：有屬中，有無人得過癌症",
           "label_en": "Q_2 Char 1 0: No; 1: Yes Whether anyone in the family has had cancer"
         },
         {
@@ -863,7 +863,7 @@
         },
         {
           "code": "22",
-          "label_zh": "Q_5_S Char 1 0：否；1：是 補充劑",
+          "label_zh": "Q_5_S Char 1 0：否；1：是補充劑",
           "label_en": "Q_5_S Char 1 0: no; 1: yes 补充剂"
         },
         {
@@ -888,37 +888,37 @@
         },
         {
           "code": "27",
-          "label_zh": "用藥史-服用幾年(避) Q_5_MYEAR Num 8 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
+          "label_zh": "用藥史-服用幾年(避) Q_5_MYEAR Num 8 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序長中文欄位名稱英文欄位名稱型態資料描述號度",
           "label_en": "Medication history - Years of use (avoid) Q_5_MYEAR Num 8 Establish a health big data thematic database and integrated analysis - Establish an accurate medical oncology thematic database(I) Version date: 20251230 Breast cancer screening- mammography cleaning file (H_BHP_BCS_DATA_CL) Item Chinese field name English field name Type Data description No Degree"
         },
         {
           "code": "28",
-          "label_zh": "是否有感覺到異常腫塊 Q_TOUCH Char 1 詳譯碼說明 其他-最近二年內是否做 1：有；Null：",
+          "label_zh": "是否有感覺到異常腫塊 Q_TOUCH Char 1 詳譯碼說明其他-最近二年內是否做 1：有；Null：",
           "label_en": "have you felt any abnormal lumps Q_TOUCH Char 1 detailed code explanation other-whether done in the past two years 1: yes; Null:"
         },
         {
           "code": "29",
-          "label_zh": "Q_6_1 Char 1 過-觸診 沒有勾選 其他-最近二年內是否做 1：有；Null：",
+          "label_zh": "Q_6_1 Char 1 過-觸診沒有勾選其他-最近二年內是否做 1：有；Null：",
           "label_en": "Q_6_1 Char 1 Palpation No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "30",
-          "label_zh": "Q_6_2 Char 1 過-乳攝 沒有勾選 其他-最近二年內是否做 1：有；Null：",
+          "label_zh": "Q_6_2 Char 1 過-乳攝沒有勾選其他-最近二年內是否做 1：有；Null：",
           "label_en": "Q_6_2 Char 1 Mammography No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "31",
-          "label_zh": "Q_6_3 Char 1 過-超音波 沒有勾選 其他-最近二年內是否做 1：有；Null：",
+          "label_zh": "Q_6_3 Char 1 過-超音波沒有勾選其他-最近二年內是否做 1：有；Null：",
           "label_en": "Q_6_3 Char 1 Ultrasound No selection Other-Within the last two years, has done 1: Yes; Null:"
         },
         {
           "code": "32",
-          "label_zh": "Q_6_4 Char 1 過-皆未做過 沒有勾選 其他-是否接受過乳房手",
+          "label_zh": "Q_6_4 Char 1 過-皆未做過沒有勾選其他-是否接受過乳房手",
           "label_en": "Q_6_4 Char 1 过-皆未做过 没有勾选 其他-是否接受过乳房手"
         },
         {
           "code": "33",
-          "label_zh": "Q_SURGERY Char 1 T：是；F：否 術",
+          "label_zh": "Q_SURGERY Char 1 T：是；F：否術",
           "label_en": "Q_SURGERY Char 1 T：是；F：否 Surgery"
         },
         {
@@ -928,12 +928,12 @@
         },
         {
           "code": "35",
-          "label_zh": "其他-乳房手術右側 Q_SURGERYRIGHT Char 1 0：無；1：有 經加密處理。國 民身分證統一 編號，或外籍居 留證號碼（如無",
+          "label_zh": "其他-乳房手術右側 Q_SURGERYRIGHT Char 1 0：無；1：有經加密處理。國民身分證統一編號，或外籍居留證號碼（如無",
           "label_en": "other-breast surgery right side Q_SURGERYRIGHT Char 1 0：無；1：有 encrypted national identification number or foreign resident permit number (if none"
         },
         {
           "code": "36",
-          "label_zh": "身分證字號 SICKID Char 24 居留證號碼請 填護照號碼）， 左靠不足補空 白。 112年長度為20 經加密處理，為",
+          "label_zh": "身分證字號 SICKID Char 24 居留證號碼請填護照號碼）， 左靠不足補空白。 112年長度為20 經加密處理，為",
           "label_en": "Identity card number SICKID Char 24 Residency permit number please fill in passport number)， left-aligned with spaces补足。2011年长度为20经加密处理，为"
         },
         {
@@ -978,7 +978,7 @@
         },
         {
           "code": "45",
-          "label_zh": "乳攝結果4的次選項 PH_RESULT4 Char 1 詳譯碼說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度 1：男；2：女；",
+          "label_zh": "乳攝結果4的次選項 PH_RESULT4 Char 1 詳譯碼說明建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL) 序長中文欄位名稱英文欄位名稱型態資料描述號度 1：男；2：女；",
           "label_en": "PH_RESULT4 Char 1 詳譯碼說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 Breast cancer screening- mammography data cleaning file (H_BHP_BCS_DATA_CL) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度 1：male；2：female"
         },
         {
@@ -988,7 +988,7 @@
         },
         {
           "code": "47",
-          "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 符合編碼原 則；1：不符合 PH_HOSPITALID_H 代碼參照醫療",
+          "label_zh": "身分證字號檢誤 SICKID_ROC Char 1 符合編碼原則；1：不符合 PH_HOSPITALID_H 代碼參照醫療",
           "label_en": "SICKID_ROC character 1符合编码原则；1：不符合 PH_HOSPITALID_H code reference medical"
         },
         {
@@ -1003,27 +1003,27 @@
         },
         {
           "code": "49",
-          "label_zh": "Char 4 代碼 ITY 統計檔。 乳房攝影資料清 理檔新增欄位經",
+          "label_zh": "Char 4 代碼 ITY 統計檔。 乳房攝影資料清理檔新增欄位經",
           "label_en": "Code ITY Statistical File. Additional fields for mammography data cleaning added."
         },
         {
           "code": "50",
-          "label_zh": "體重2 WEIGHT2 Num 8 過整理的體重 (公斤) 乳房攝影資料清 理檔新增欄位經",
+          "label_zh": "體重2 WEIGHT2 Num 8 過整理的體重 (公斤) 乳房攝影資料清理檔新增欄位經",
           "label_en": "Weight2 Num 8 Cleaned Weight (kg) Breast摄影资料整理档新增字段经"
         },
         {
           "code": "51",
-          "label_zh": "身高2 HIGHET2 Num 8 過整理的身高 (公分) 乳房攝影資料清 理檔新增欄位體",
+          "label_zh": "身高2 HIGHET2 Num 8 過整理的身高 (公分) 乳房攝影資料清理檔新增欄位體",
           "label_en": "height2 Num 8 Cleaned height (cm) Mammography data cleaning file new field"
         },
         {
           "code": "52",
-          "label_zh": "身體質量指數 BMI Num 8 重2(kg)/身高 乳房攝影資料清 理檔新增欄位 N:資料不符合保 留條件 53. 資料保留 DATA_QC Char 1 Y:資料符合保留 條件 保留條件詳譯碼 簿說明 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT) 序 長 中文欄位名稱 英文欄位名稱 型態 資料描述 號 度",
+          "label_zh": "身體質量指數 BMI Num 8 重2(kg)/身高乳房攝影資料清理檔新增欄位 N:資料不符合保留條件 53. 資料保留 DATA_QC Char 1 Y:資料符合保留條件保留條件詳譯碼簿說明建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT) 序長中文欄位名稱英文欄位名稱型態資料描述號度",
           "label_en": "Lower gingival cancer: the surgical resection pathology report's final diagnosis is microinvasion squamous cell carcinoma; the microscopic description of Depth of Invasion is 'not applicable'."
         },
         {
           "code": "1",
-          "label_zh": "單位代碼 UNIT_ID Char 20 經加密處理，為 辨別院所鍵值。",
+          "label_zh": "單位代碼 UNIT_ID Char 20 經加密處理，為辨別院所鍵值。",
           "label_en": "unit_code_UNIT_ID_Encrypted_20_Characters_Distinguishing_Hospital_Key_Value"
         },
         {
@@ -1058,12 +1058,12 @@
         },
         {
           "code": "8",
-          "label_zh": "醫療機構權屬別 UNIT_ID_HOS Char 2 代碼參照醫療機 構現況檔。",
+          "label_zh": "醫療機構權屬別 UNIT_ID_HOS Char 2 代碼參照醫療機構現況檔。",
           "label_en": "healthcare institution ownership UNIT_ID_HOS Char 2 code referenced from the healthcare institution current status file."
         },
         {
           "code": "9",
-          "label_zh": "醫療機構縣市鄉鎮市區代碼 UNIT_ID_CITY Char 4 代碼參照死因統 計檔。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (三)、欄位(變項)譯碼",
+          "label_zh": "醫療機構縣市鄉鎮市區代碼 UNIT_ID_CITY Char 4 代碼參照死因統計檔。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (三)、欄位(變項)譯碼",
           "label_en": "Medical institution county city town district code UNIT_ID_CITY Char 4 Code referenced from cause of death statistics file. Establishing a health big data thematic database and integrated analysis—establishing an accurate medical cancer thematic database (I) Version date: 20251230 (Wed), Field (Variable) Coding"
         }
       ],
@@ -1203,7 +1203,7 @@
         },
         {
           "code": "2",
-          "label_zh": "數位乳房攝影儀(CR) →CR 乳 房 X 光 攝 影 儀 (Computed Radiography, CR) (105/5/1 修改)",
+          "label_zh": "數位乳房攝影儀(CR) →CR 乳房 X 光攝影儀 (Computed Radiography, CR) (105/5/1 修改)",
           "label_en": "Digital mammography system (CR) → Computed Radiography (CR) breast X-ray imaging (1/5/2016 revision)"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
           "code": "5",
-          "label_zh": "高度疑似為惡性腫瘤必須採取適當的措施 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
+          "label_zh": "高度疑似為惡性腫瘤必須採取適當的措施建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
           "label_en": "Highly疑似为恶性肿瘤必须采取适当的措施建立健康大数据主题式数据库及整合分析─建立癌症精准医疗主题式数据库(I) 版本日期：20251230"
         }
       ],
@@ -1384,7 +1384,7 @@
         },
         {
           "code": "4",
-          "label_zh": "診所 其他代碼 不詳 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
+          "label_zh": "診所其他代碼不詳建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
           "label_en": "clinic other codes not specified establishing health big data thematic database and integrated analysis - establishing precision medical thematic database for cancer (I) version date: 20251230"
         }
       ],
@@ -1550,7 +1550,7 @@
         },
         {
           "code": "0320",
-          "label_zh": "台中市大里區 0521 台南市安定區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "台中市大里區 0521 台南市安定區建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Taichung City Dali District 0521 Tainan City Zaning District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -1725,7 +1725,7 @@
         },
         {
           "code": "0719",
-          "label_zh": "高雄市彌陀區 3102 新北市三重區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "高雄市彌陀區 3102 新北市三重區建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Kaohsiung City Mido District 3102 New Taipei City Sanzhong District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -1900,7 +1900,7 @@
         },
         {
           "code": "3208",
-          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Taoyuan City Bade District 3505 Miaoli County Toufen Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -2075,7 +2075,7 @@
         },
         {
           "code": "3722",
-          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "Changhua County Pitou Town 3917 Yunlin County Yuanzhong Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -2250,7 +2250,7 @@
         },
         {
           "code": "4314",
-          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱",
+          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱",
           "label_en": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱"
         },
         {

@@ -84,7 +84,7 @@
       "name_en": "H_BIRTH",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國年 僅提供出生年，97年後為必填項目，部分 數值異常為機構誤植",
+      "description_zh": "民國年僅提供出生年，97年後為必填項目，部分數值異常為機構誤植",
       "available_notes": [
         {
           "roc_year": 97,
@@ -358,7 +358,7 @@
       "name_en": "E_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "2005年列入通報必填項目 0、4、5：未填答 1：新鮮 2：冷凍 3：二者皆有 空白：未通報",
+      "description_zh": "2005年列入通報必填項目 0、4、5：未填答 1：新鮮 2：冷凍 3：二者皆有空白：未通報",
       "available_notes": [],
       "name_zh_en": "embryo type",
       "description_en": "2005 Year Listed as Mandatory Reporting Item 0, 4, 5: Not Answered 1: Fresh 2: Frozen 3: Both Blank: Not Reported"
@@ -369,7 +369,7 @@
       "name_en": "EMB_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填寫胚胎、受精卵或精卵植入之日期；0為 未植入，統計資料係以受術妻開始治療週 期年度計算，因此植入年度可能會在 112 年，非87-112年或數值異常者為機構誤植",
+      "description_zh": "民國年月日(YYYMMDD) 填寫胚胎、受精卵或精卵植入之日期；0為未植入，統計資料係以受術妻開始治療週期年度計算，因此植入年度可能會在 112 年，非87-112年或數值異常者為機構誤植",
       "available_notes": [
         {
           "roc_year": 112,
@@ -387,7 +387,7 @@
     },
     {
       "seq": 28,
-      "name_zh": "卵巢過度刺激臨床症候 群",
+      "name_zh": "卵巢過度刺激臨床症候群",
       "name_en": "OVA_HS",
       "type": "Char",
       "length": 1,
@@ -413,7 +413,7 @@
       "name_en": "C_PRE_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填入確知是否臨床懷孕日期或因故只刺激 排卵未進行取卵與因故已取卵未植入，兩",
+      "description_zh": "民國年月日(YYYMMDD) 填入確知是否臨床懷孕日期或因故只刺激排卵未進行取卵與因故已取卵未植入，兩",
       "available_notes": [],
       "name_zh_en": "clinical pregnancy date",
       "description_en": "Year month day (YYYYMMDD) enter confirmed clinical pregnancy date or due to reasons only stimulated ovulation without egg retrieval or due to reasons already retrieved eggs but not implanted,"
@@ -497,7 +497,7 @@
       "name_en": "END_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填寫確知懷孕結果之日期；0 為無懷孕結 果(未植入或未懷孕)，當年開始療程個案 可能於隔年確知懷孕結果(孕期為280天)， 非87-112年或數值異常者為機構誤植",
+      "description_zh": "民國年月日(YYYMMDD) 填寫確知懷孕結果之日期；0 為無懷孕結果(未植入或未懷孕)，當年開始療程個案可能於隔年確知懷孕結果(孕期為280天)， 非87-112年或數值異常者為機構誤植",
       "available_notes": [
         {
           "roc_year": 112,
@@ -857,7 +857,7 @@
       "name_en": "STIMU_DETAIL",
       "type": "Char",
       "length": 1,
-      "description_zh": "102年新增欄位 詳譯碼說明",
+      "description_zh": "102年新增欄位詳譯碼說明",
       "available_notes": [
         {
           "roc_year": 102,
@@ -887,7 +887,7 @@
     },
     {
       "seq": 68,
-      "name_zh": "胚胎受精卵培育第2天 植入數",
+      "name_zh": "胚胎受精卵培育第2天植入數",
       "name_en": "EMB_ZYG_2D",
       "type": "Char",
       "length": 1,
@@ -904,7 +904,7 @@
     },
     {
       "seq": 69,
-      "name_zh": "胚胎受精卵培育第3天 植入數",
+      "name_zh": "胚胎受精卵培育第3天植入數",
       "name_en": "EMB_ZYG_3D",
       "type": "Char",
       "length": 1,
@@ -921,7 +921,7 @@
     },
     {
       "seq": 70,
-      "name_zh": "胚胎受精卵培育第4天 植入數",
+      "name_zh": "胚胎受精卵培育第4天植入數",
       "name_en": "EMB_ZYG_4D",
       "type": "Char",
       "length": 1,
@@ -938,7 +938,7 @@
     },
     {
       "seq": 71,
-      "name_zh": "胚胎受精卵培育第5天 植入數",
+      "name_zh": "胚胎受精卵培育第5天植入數",
       "name_en": "EMB_ZYG_5D",
       "type": "Char",
       "length": 1,
@@ -1048,7 +1048,7 @@
         },
         {
           "code": "6",
-          "label_zh": "GnRHantagonist 藥物刺激 7、空白 其他",
+          "label_zh": "GnRHantagonist 藥物刺激 7、空白其他",
           "label_en": "GnRH antagonist drug stimulation 7, Blank Other"
         }
       ],
@@ -1242,7 +1242,7 @@
         },
         {
           "code": "207",
-          "label_zh": "新生兒死亡 0、*、空白 無須填列 2026年05月28日修訂",
+          "label_zh": "新生兒死亡 0、*、空白無須填列 2026年05月28日修訂",
           "label_en": "Neonatal death 0, *、空白 不需填写 2026年05月28日修订"
         }
       ],
@@ -1283,7 +1283,7 @@
         },
         {
           "code": "7",
-          "label_zh": "其他 0、空白 無須填列",
+          "label_zh": "其他 0、空白無須填列",
           "label_en": "other 0, blank no need to fill"
         }
       ],
@@ -1306,7 +1306,7 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Health52_人工生殖資料庫(20250624起適用)",
   "data_description_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Contains raw data for cases diagnosed 2007-2010 as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 3. The cancers covered by the cancer-registry short form include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 4. To analyze data grouped and de-duplicated across hospitals from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID.",
-  "notes_en": "",
+  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. The infertility-duration field was not validated at the time of entry; going forward, notifications will check that the infertility duration does not exceed the age of the wife undergoing treatment.\n3. A value of 0 in the newborn-related information fields indicates that there is no newborn data.\n4. After the Assisted Reproduction Data Reporting and Management Regulations took effect in 2007 (ROC year 96), the coding scheme was revised because linkage with other databases was required; data prior to 2007 was also converted to the new coding scheme. However, for some codes, due to format issues or gaps in the new coding scheme, garbled or unrecognized codes may appear.\n5. For further information, see: Health Promotion Administration - Assisted Reproduction Data Reporting and Management Regulations.",
   "primary_keys_en": "",
   "name_zh_en": "reproductive technology database"
 }

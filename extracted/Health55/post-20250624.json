@@ -29,7 +29,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "Encrypted. National ID number or alien residence permit number"
@@ -40,7 +40,7 @@
       "name_en": "PAYWAY101",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付 4：其他公務預算補助 5：自費健康檢查 9：其他 自105年8月1日起新增 項目3、4、5、9且項目 2 停用。",
+      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付 4：其他公務預算補助 5：自費健康檢查 9：其他自105年8月1日起新增項目3、4、5、9且項目 2 停用。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -68,7 +68,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。國民身分證 統一編號，或外籍居留證 號碼",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "Encrypted. National ID number or alien residence permit number"
@@ -90,7 +90,7 @@
       "name_en": "CUTDATE",
       "type": "Char",
       "length": 8,
-      "description_zh": "年4碼+月 2碼+日2碼 西元年YYYYMMDD 其他數值：不詳",
+      "description_zh": "年4碼+月 2碼+日2碼西元年YYYYMMDD 其他數值：不詳",
       "available_notes": [],
       "name_zh_en": "colonoscopy examination date",
       "description_en": "year 4 digits + month 2 digits + day 2 digits in Western calendar YYYYMMDD; other values: unknown"
@@ -101,10 +101,10 @@
       "name_en": "CONFIRMUNIT",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別院所 鍵值。",
+      "description_zh": "經加密處理，為辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "confirmed medical institution code",
-      "description_en": "encrypted for identifying institution key value."
+      "description_en": "encrypted value for hospital key."
     },
     {
       "seq": 8,
@@ -112,7 +112,7 @@
       "name_en": "CONFIRMDATE",
       "type": "Char",
       "length": 8,
-      "description_zh": "年4碼+月2碼+日2碼 西元年YYYYMMDD",
+      "description_zh": "年4碼+月2碼+日2碼西元年YYYYMMDD",
       "available_notes": [],
       "name_zh_en": "confirmed date",
       "description_en": "Year4Code+Month2Code+Day2Code AD YYYYMMDD"
@@ -123,7 +123,7 @@
       "name_en": "CONFIRMWAY",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：大腸鏡 2：乙狀結腸鏡加大腸鋇 劑攝影 3：乙狀結腸鏡 4：大腸鋇劑攝影 5：其他(104年起停用) 6：糞便潛血篩檢 9：其他",
+      "description_zh": "1：大腸鏡 2：乙狀結腸鏡加大腸鋇劑攝影 3：乙狀結腸鏡 4：大腸鋇劑攝影 5：其他(104年起停用) 6：糞便潛血篩檢 9：其他",
       "available_notes": [
         {
           "roc_year": 104,
@@ -162,7 +162,7 @@
       "name_en": "CHECKSCOPE",
       "type": "Char",
       "length": 6,
-      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他其他數值：不詳",
       "available_notes": [],
       "name_zh_en": "Examination Scope",
       "description_en": "Optional. 1: Appendicitis; 2: Ascending Colon; 3: Transverse Colon; 4: Descending Colon; 5: Sigmoid Colon; 6: Rectum; 7: Other; other values: Unclear"
@@ -173,7 +173,7 @@
       "name_en": "CUTRESULT",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：正常 1：痔瘡；2：潰 瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
+      "description_zh": "0：正常 1：痔瘡；2：潰瘍性大腸炎；3：瘜肉；4： 大腸癌；5：其他",
       "available_notes": [],
       "name_zh_en": "result of diagnosis",
       "description_en": "0: normal 1: hemorrhoids; 2: ulcerative colitis; 3: polyp; 4: colorectal cancer; 5: other"
@@ -184,7 +184,7 @@
       "name_en": "FOBTTEST",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：Eiken 1：Kyowa（第1代 HM-JACK） 2：其他(105年8月 1日 起停用) 3：Kyowa（第2代 HM-JACKarc）",
+      "description_zh": "0：Eiken 1：Kyowa（第1代 HM-JACK） 2：其他(105年8月 1日起停用) 3：Kyowa（第2代 HM-JACKarc）",
       "available_notes": [
         {
           "roc_year": 105,
@@ -201,10 +201,10 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0: ID card number conforms to coding rules; 1: does not conform"
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 16,
@@ -212,7 +212,7 @@
       "name_en": "PLUGPLACE",
       "type": "Char",
       "length": 6,
-      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳",
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他其他數值：不詳",
       "available_notes": [],
       "name_zh_en": "polyp location",
       "description_en": "Optional. 1: Appendicitis; 2: Ascending Colon; 3: Transverse Colon; 4: Descending Colon; 5: Sigmoid Colon; 6: Rectum; 7: Other; other values: Unclear"
@@ -223,7 +223,7 @@
       "name_en": "PLUGRESECTION",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除； 4：瘜肉未完整切除 其他數值：不詳",
+      "description_zh": "1：未切除； 2：已完全切除； 3：未完全切除； 4：瘜肉未完整切除其他數值：不詳",
       "available_notes": [],
       "name_zh_en": "whether polyp removed if present",
       "description_en": "1: Not removed; 2: Completely removed; 3: Partially removed; 4: Polyp not fully removed Other values: Unclear"
@@ -234,7 +234,7 @@
       "name_en": "CHECKUNIT_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫事機構基本 資料檔。",
+      "description_zh": "代碼參照醫事機構基本資料檔。",
       "available_notes": [],
       "name_zh_en": "institutional ownership of examination medical facility",
       "description_en": "Code Referenced from Basic Medical Institution Data File."
@@ -262,7 +262,7 @@
       "name_en": "REPORTAA",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是；2：否；3：不確 定； 其他數值：不詳 112 年起無",
+      "description_zh": "1：是；2：否；3：不確定； 其他數值：不詳 112 年起無",
       "available_notes": [
         {
           "roc_year": 112,
@@ -279,7 +279,7 @@
       "name_en": "CANCERPLACE",
       "type": "Char",
       "length": 12,
-      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他 其他數值：不詳 112 年起無",
+      "description_zh": "可複選。 1：盲腸；2：升結腸；3： 橫結腸；4：降結腸；5： 乙狀結腸；6：直腸；7： 其他其他數值：不詳 112 年起無",
       "available_notes": [
         {
           "roc_year": 112,
@@ -307,10 +307,10 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼 原則； 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0: ID card number conforms to coding rules; 1: does not conform"
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 24,
@@ -318,10 +318,10 @@
       "name_en": "CUTUNIT_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫療機構現況 檔。",
+      "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "Colonoscopy Medical Institution Ownership Type",
-      "description_en": "code based on current medical institution status file."
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 25,
@@ -329,10 +329,10 @@
       "name_en": "CUTUNIT_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照醫療機構現況 檔。",
+      "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "county of colorectal endoscopy medical institution",
-      "description_en": "code based on current medical institution status file."
+      "description_en": "Codes referenced from the current medical institution file."
     }
   ],
   "codebooks": {},

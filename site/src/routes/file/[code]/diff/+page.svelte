@@ -3,7 +3,6 @@
   let { data } = $props();
   const file = data.file;
 
-  // Versions that actually have a field table (query targets).
   const versions = (file.versions || []).filter((v) => v.fields_file && (v.field_count || 0) > 0);
   const mains = versions.filter((v) => v.file_type !== 'xls' && !v.version_id.includes('__wave_'));
 
@@ -51,7 +50,7 @@
     if (!a || !b || a === b) { result = null; return; }
     loading = true;
     const [af, bf] = await Promise.all([loadFields(a), loadFields(b)]);
-    if (t !== token) return; // a newer request superseded this one
+    if (t !== token) return;
     const am = new Map(af.map((f) => [f.name_en, f]));
     const bm = new Map(bf.map((f) => [f.name_en, f]));
     const added = [], removed = [], changed = [];
@@ -65,11 +64,10 @@
       if ((f.description_zh || '') !== (g.description_zh || '')) ch.description = { from: f.description_zh, to: g.description_zh };
       if (Object.keys(ch).length) changed.push({ key: k, name_zh: g.name_zh, changes: ch });
     }
-    result = { added, removed, changed, afc: af.length, bfc: bf.length };
+    result = { added, removed, changed };
     loading = false;
   }
   $effect(() => { compute(fromId, toId); });
-
   function swap() { const t = fromId; fromId = toId; toId = t; }
 
   const ATTR = { type: 'Type', length: 'Length', description: 'Description' };
@@ -102,7 +100,6 @@
       This file has a single version with fields, so there's nothing to compare.
     </div>
   {:else}
-    <!-- Interactive query bar: pick any two versions + filter fields -->
     <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
       <div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr] gap-3 items-end">
         <label class="block">
@@ -134,62 +131,71 @@
       {@const A = result.added.filter(match)}
       {@const R = result.removed.filter(match)}
       {@const C = result.changed.filter(match)}
-      <p class="text-slate-700 text-sm">
+      <p class="text-sm text-slate-600">
         {#if result.added.length + result.removed.length + result.changed.length === 0}
           These two versions have the same fields.
         {:else}
-          <span class="font-bold text-emerald-700">{result.added.length}</span> added ·
-          <span class="font-bold text-rose-700">{result.removed.length}</span> removed ·
-          <span class="font-bold text-amber-700">{result.changed.length}</span> changed
-          {#if q.trim()}<span class="text-slate-400"> · showing matches for “{q.trim()}”</span>{/if}
+          <span class="font-semibold text-slate-800">{result.added.length}</span> added ·
+          <span class="font-semibold text-slate-800">{result.removed.length}</span> removed ·
+          <span class="font-semibold text-slate-800">{result.changed.length}</span> changed
+          {#if q.trim()}<span class="text-slate-400"> · matches for “{q.trim()}”</span>{/if}
         {/if}
       </p>
 
       <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-start">
-        <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4">
-          <h3 class="text-sm font-bold text-emerald-800 mb-3 flex items-center gap-2">
-            <span class="inline-grid place-items-center w-5 h-5 rounded bg-emerald-600 text-white text-xs">+</span> New in “{vLabel(byId(toId))}”
-            <span class="text-xs bg-white text-emerald-700 rounded-full px-2 py-0.5 ring-1 ring-emerald-200">{A.length}</span>
+        <!-- Added -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <h3 class="text-sm font-semibold text-slate-700 mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-teal-500"></span> Added in {vLabel(byId(toId))}
+            <span class="ml-auto text-xs text-slate-400 tabular-nums">{A.length}</span>
           </h3>
-          {#if !A.length}<p class="text-xs text-slate-400">none</p>{/if}
-          {#each A as f}
-            <div class="text-sm mb-2 rounded-lg bg-white p-2.5 ring-1 ring-emerald-100">
-              <a href="{base}/file/{file.code}/field/{f.name_en}/?v={toId}" class="mono font-semibold text-emerald-800 hover:underline">{f.name_en}</a>
-              <div class="text-slate-800">{f.name_zh}</div>
-            </div>
-          {/each}
+          {#if !A.length}<p class="text-xs text-slate-400">—</p>{/if}
+          <ul class="divide-y divide-slate-100">
+            {#each A as f}
+              <li class="py-2">
+                <a href="{base}/file/{file.code}/field/{f.name_en}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{f.name_en}</a>
+                <div class="text-xs text-slate-500">{f.name_zh}</div>
+              </li>
+            {/each}
+          </ul>
         </div>
-        <div class="rounded-2xl border border-amber-200 bg-amber-50/40 p-4">
-          <h3 class="text-sm font-bold text-amber-800 mb-3 flex items-center gap-2">
-            <span class="inline-grid place-items-center w-5 h-5 rounded bg-amber-500 text-white text-xs">~</span> Changed
-            <span class="text-xs bg-white text-amber-700 rounded-full px-2 py-0.5 ring-1 ring-amber-200">{C.length}</span>
+        <!-- Changed -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <h3 class="text-sm font-semibold text-slate-700 mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-amber-400"></span> Changed
+            <span class="ml-auto text-xs text-slate-400 tabular-nums">{C.length}</span>
           </h3>
-          {#if !C.length}<p class="text-xs text-slate-400">none</p>{/if}
-          {#each C as m}
-            <div class="text-sm mb-2 rounded-lg bg-white p-2.5 ring-1 ring-amber-100">
-              <a href="{base}/file/{file.code}/field/{m.key}/?v={toId}" class="mono font-semibold text-amber-800 hover:underline">{m.key}</a>
-              {#each Object.entries(m.changes) as [attr, ch]}
-                <div class="mt-1.5">
-                  <div class="text-[11px] uppercase tracking-wide text-slate-500 font-semibold">{ATTR[attr] || attr}</div>
-                  <div class="text-rose-700 bg-rose-50 rounded px-1.5 py-0.5 mt-0.5">{short(ch.from) || '∅'}</div>
-                  <div class="text-emerald-800 bg-emerald-50 rounded px-1.5 py-0.5 mt-0.5">{short(ch.to) || '∅'}</div>
-                </div>
-              {/each}
-            </div>
-          {/each}
+          {#if !C.length}<p class="text-xs text-slate-400">—</p>{/if}
+          <ul class="divide-y divide-slate-100">
+            {#each C as m}
+              <li class="py-2">
+                <a href="{base}/file/{file.code}/field/{m.key}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{m.key}</a>
+                {#each Object.entries(m.changes) as [attr, ch]}
+                  <div class="mt-1">
+                    <div class="text-[11px] uppercase tracking-wide text-slate-400 font-semibold">{ATTR[attr] || attr}</div>
+                    <div class="text-xs text-slate-400 line-through decoration-slate-300">{short(ch.from) || '∅'}</div>
+                    <div class="text-xs text-slate-700">{short(ch.to) || '∅'}</div>
+                  </div>
+                {/each}
+              </li>
+            {/each}
+          </ul>
         </div>
-        <div class="rounded-2xl border border-rose-200 bg-rose-50/40 p-4">
-          <h3 class="text-sm font-bold text-rose-800 mb-3 flex items-center gap-2">
-            <span class="inline-grid place-items-center w-5 h-5 rounded bg-rose-600 text-white text-xs">−</span> Gone from “{vLabel(byId(fromId))}”
-            <span class="text-xs bg-white text-rose-700 rounded-full px-2 py-0.5 ring-1 ring-rose-200">{R.length}</span>
+        <!-- Removed -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <h3 class="text-sm font-semibold text-slate-700 mb-3 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-rose-300"></span> Removed since {vLabel(byId(fromId))}
+            <span class="ml-auto text-xs text-slate-400 tabular-nums">{R.length}</span>
           </h3>
-          {#if !R.length}<p class="text-xs text-slate-400">none</p>{/if}
-          {#each R as f}
-            <div class="text-sm mb-2 rounded-lg bg-white p-2.5 ring-1 ring-rose-100">
-              <div class="mono font-semibold text-rose-800 line-through">{f.name_en}</div>
-              <div class="text-slate-600">{f.name_zh}</div>
-            </div>
-          {/each}
+          {#if !R.length}<p class="text-xs text-slate-400">—</p>{/if}
+          <ul class="divide-y divide-slate-100">
+            {#each R as f}
+              <li class="py-2">
+                <span class="mono text-sm text-slate-500 line-through decoration-slate-300">{f.name_en}</span>
+                <div class="text-xs text-slate-400">{f.name_zh}</div>
+              </li>
+            {/each}
+          </ul>
         </div>
       </section>
     {/if}

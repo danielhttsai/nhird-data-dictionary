@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 原則上一家機構一筆資料。\n2. 包含健保特約醫事機構權屬、型態別等資料。\n3. 資料年度為 2016、2017年。",
-  "notes_zh": "1. 醫療機構代碼經加密處理。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與 醫院資料串檔的鍵值：HOSP_ID＋HOSP_ID_CITY＋HOSP_ID_HOS。",
+  "notes_zh": "1. 醫療機構代碼經加密處理。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與醫院資料串檔的鍵值：HOSP_ID＋HOSP_ID_CITY＋HOSP_ID_HOS。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -75,14 +75,14 @@
       "name_en": "HOSP_ID_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "請見三、欄位（變項）譯碼之 權屬別(HOS)譯碼說明",
+      "description_zh": "請見三、欄位（變項）譯碼之權屬別(HOS)譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "See section three, field (variable) code explanation on ownership type (HOS) code explanation"
     },
     {
       "seq": 6,
-      "name_zh": "醫療機構縣市鄉鎮市區代碼 縣市鄉鎮代碼(104年以後)",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼縣市鄉鎮代碼(104年以後)",
       "name_en": "HOSP_ID_CITY",
       "type": "Char",
       "length": 4,
@@ -109,17 +109,17 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 署立及直轄市立醫院 省市立醫院",
+          "label_zh": "1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 本署及北、高市立醫院 1 署立及直轄市立醫院省市立醫院",
           "label_en": "1: Ministry of Health and Welfare and Taipei, Kaohsiung Municipal Hospitals 1: Ministry of Health and Welfare and Taipei, Kaohsiung Municipal Hospitals 1: Ministry of Health and Welfare and Taipei, Kaohsiung Municipal Hospitals 1: Provincial/Municipal Government-run Hospitals"
         },
         {
           "code": "2",
-          "label_zh": "2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 縣市立醫院",
+          "label_zh": "2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院縣市立醫院",
           "label_en": "2 County-owned Hospital 2 County-owned Hospital 2 County-owned Hospital 2 County-owned Hospital County-owned Hospital"
         },
         {
           "code": "4",
-          "label_zh": "4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 公立醫學院校附設醫院",
+          "label_zh": "4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院公立醫學院校附設醫院",
           "label_en": "4 public medical college affiliated hospital 4 public medical college affiliated hospital 4 public medical college affiliated hospital 4 public medical college affiliated hospital public medical college affiliated hospital"
         },
         {
@@ -129,17 +129,17 @@
         },
         {
           "code": "6",
-          "label_zh": "6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院 榮民醫院",
+          "label_zh": "6 榮民醫院 6 榮民醫院 6 榮民醫院 6 榮民醫院榮民醫院",
           "label_en": "6 veterans hospital 6 veterans hospital 6 veterans hospital 6 veterans hospital veterans hospital"
         },
         {
           "code": "7",
-          "label_zh": "7 機關(構)附設醫院 7 機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院 機關(構)附設醫院",
+          "label_zh": "7 機關(構)附設醫院 7 機關(構)附設醫院 7 公立機關(構)附設醫院 7 公立機關(構)附設醫院機關(構)附設醫院",
           "label_en": "7 Institutional (institution) affiliated hospital 7 Institutional (institution) affiliated hospital 7 Public institutional (institution) affiliated hospital 7 Public institutional (institution) affiliated hospital Institutional (institution) affiliated hospital"
         },
         {
           "code": "8",
-          "label_zh": "8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 公立中醫醫院 私立 私立 私立 非公立 非公立",
+          "label_zh": "8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院公立中醫醫院私立私立私立非公立非公立",
           "label_en": "8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital Private hospital Private hospital Private hospital Non-public Non-public"
         },
         {
@@ -149,37 +149,37 @@
         },
         {
           "code": "11",
-          "label_zh": "11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院 財團法人醫院",
+          "label_zh": "11 財團法人醫院 11 財團法人醫院 11 財團法人醫院 11 醫療財團法人醫院財團法人醫院",
           "label_en": "11:财团法人医院 11:财团法人医院 11:财团法人医院 11:医疗财团法人医院 财团法人医院"
         },
         {
           "code": "12",
-          "label_zh": "12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 宗教財團法人附設醫院",
+          "label_zh": "12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院宗教財團法人附設醫院",
           "label_en": "12 religious foundation affiliated hospitals 12 religious foundation affiliated hospitals 12 religious foundation affiliated hospitals 12 religious foundation affiliated hospitals religious foundation affiliated hospital"
         },
         {
           "code": "13",
-          "label_zh": "13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 醫學院校附設醫院",
+          "label_zh": "13 醫學院校附設醫院 13 醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院醫學院校附設醫院",
           "label_en": "13 University-affiliated hospital 13 University-affiliated hospital 13 Private university-affiliated hospital 13 Private university-affiliated hospital Affiliated hospital"
         },
         {
           "code": "14",
-          "label_zh": "14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院 其他法人附設醫院",
+          "label_zh": "14 其他法人附設醫院 14 其他法人附設醫院 14 其他法人附設醫院 14 公益法人所設醫院其他法人附設醫院",
           "label_en": "14: Other institution-affiliated hospitals 14: Other institution-affiliated hospitals 14: Other institution-affiliated hospitals 14: Non-profit organization-run hospitals Other institution-affiliated hospitals"
         },
         {
           "code": "15",
-          "label_zh": "15 私立醫院 15 私立醫院 15 私立西醫醫院 15 私立西醫醫院 私立醫院",
+          "label_zh": "15 私立醫院 15 私立醫院 15 私立西醫醫院 15 私立西醫醫院私立醫院",
           "label_en": "15 Private Hospital 15 Private Hospital 15 Private Western Medical Hospital 15 Private Western Medical Hospital Private Hospital"
         },
         {
           "code": "17",
-          "label_zh": "17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 私立牙醫醫院",
+          "label_zh": "17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院 17 私立牙醫醫院私立牙醫醫院",
           "label_en": "17 Private dental hospital 17 Private dental hospital 17 Private dental hospital 17 Private dental hospital Private dental hospital"
         },
         {
           "code": "18",
-          "label_zh": "18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 私立中醫醫院 2025年06月24日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院私立中醫醫院 2025年06月24日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital Private TCM hospital Revised on June 24, 2025 99-100 years 101 year 102 year 103 year 104 year Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
@@ -189,12 +189,12 @@
         },
         {
           "code": "2",
-          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 公立醫學院校附設醫",
+          "label_zh": "縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院 2 縣市立醫院公立醫學院校附設醫",
           "label_en": "Public city hospitals 2 Public city hospitals 2 Public city hospitals 2 Public city hospitals 2 Public city hospitals Attached medical institutions of public medical colleges"
         },
         {
           "code": "4",
-          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 院",
+          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院院",
           "label_en": "Public medical school-affiliated hospital 4 Public medical school-affiliated hospital 4 4 Public medical school-affiliated hospital 4 Public medical school-affiliated hospital Hospital"
         },
         {
@@ -214,7 +214,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立非公立",
           "label_en": "Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital Non-public Non-public Non-public Non-public Non-public"
         },
         {
@@ -224,17 +224,17 @@
         },
         {
           "code": "11",
-          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 宗教財團法人附設醫",
+          "label_zh": "醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院 11 醫療財團法人醫院宗教財團法人附設醫",
           "label_en": "Charitable foundation hospital 11 Charitable foundation hospital 11 Charitable foundation hospital 11 Charitable foundation hospital 11 Charitable foundation hospital Religious foundation-affiliated hospital"
         },
         {
           "code": "12",
-          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 院 私立醫學院校附設醫",
+          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院院私立醫學院校附設醫",
           "label_en": "religious foundation affiliated hospital 12 religious foundation affiliated hospital 12 12 religious foundation affiliated hospital 12 religious foundation affiliated hospital institution"
         },
         {
           "code": "13",
-          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 院",
+          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院院",
           "label_en": "private medical college affiliated hospital 13 private medical college affiliated hospital 13 private medical college affiliated hospital 13 private medical college affiliated hospital 院"
         },
         {
@@ -254,7 +254,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年06月24日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年06月24日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital revision on 24/06/2025 105 year 106 year 107 year 108-109 years"
         },
         {
@@ -289,7 +289,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立",
           "label_en": "Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital Non-public Non-public Non-public Non-public"
         },
         {
@@ -329,7 +329,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 2025-06-24 Revised 83-109 Year Clinic Ownership Code Table (Adjusted in 109) 86-87 Years 88-94 Years 95 Year 96 Year 97-98 Years Code Item Name Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public Public"
         },
         {
@@ -369,7 +369,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所私立私立私立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic private private private non-public non-public"
         },
         {
@@ -389,7 +389,7 @@
         },
         {
           "code": "33",
-          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室 私立事業單位或機構附設醫務",
+          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室私立事業單位或機構附設醫務",
           "label_en": "private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-medical-school-affiliated-clinic-33-private-medical-school-or-institution-affiliated-clinic"
         },
         {
@@ -419,7 +419,7 @@
         },
         {
           "code": "41",
-          "label_zh": "社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Outpatient clinic 41 Outpatient clinic 2025-06-24 Revised 99-100 101 102 103 104 Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
@@ -459,7 +459,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所非公立非公立非公立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic non-public non-public non-public non-public non-public"
         },
         {
@@ -474,7 +474,7 @@
         },
         {
           "code": "32",
-          "label_zh": "宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務室 室 室 務室 室",
+          "label_zh": "宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務室室室務室室",
           "label_en": "Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical Office Office Office Office Office"
         },
         {
@@ -484,7 +484,7 @@
         },
         {
           "code": "34",
-          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務室 務室 務室 務室 室",
+          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務室務室務室務室室",
           "label_en": "Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room"
         },
         {
@@ -509,7 +509,7 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 2025-06-24 Revised 2005 2006 2007 2008-2009 Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public"
         },
         {
@@ -554,7 +554,7 @@
         },
         {
           "code": "47",
-          "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
+          "label_zh": "行政法人附設診所 47 行政法人附設診所非公立非公立非公立非公立",
           "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
@@ -604,62 +604,62 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
           "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 2025-06-24 revised 83-2009 year code table based on 2009 adjustment year"
         },
         {
           "code": "42",
-          "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
+          "label_zh": "財團法人其他醫療機構醫療財團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "43",
-          "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
+          "label_zh": "社團法人其他醫療機構醫療社團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "77",
-          "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
+          "label_zh": "財團法人醫療機構附設護產機構醫療財團法人醫療機構附設護產機構",
           "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
-          "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
+          "label_zh": "社團法人醫療機構附設護產機構醫療社團法人醫療機構附設護產機構",
           "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
-          "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
+          "label_zh": "法人或其他人民團體附設機構精神復健機構法人或其他人民團體附設精神復健機構",
           "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
-          "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
+          "label_zh": "醫療財團法人醫療機構附設精神復健機構醫療財團法人附設精神復健機構",
           "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
-          "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
+          "label_zh": "醫療社團法人醫療機構附設精神復健機構醫療社團法人附設精神復健機構",
           "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",
-          "label_zh": "助產機構 私立助產機構",
+          "label_zh": "助產機構私立助產機構",
           "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
-          "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
+          "label_zh": "醫事檢驗機構私立醫事檢驗機構",
           "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
-          "label_zh": "鑲牙所 私立鑲牙所",
+          "label_zh": "鑲牙所私立鑲牙所",
           "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",
-          "label_zh": "物理治療機構 私立物理治療機構",
+          "label_zh": "物理治療機構私立物理治療機構",
           "label_en": "physical therapy institution private physical therapy institution"
         },
         {
@@ -669,12 +669,12 @@
         },
         {
           "code": "RY",
-          "label_zh": "職能治療機構 私立職能治療機構",
+          "label_zh": "職能治療機構私立職能治療機構",
           "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
-          "label_zh": "醫事放射機構 私立醫事放射機構",
+          "label_zh": "醫事放射機構私立醫事放射機構",
           "label_en": "medical radiological institution private medical radiological institution"
         },
         {
@@ -704,12 +704,12 @@
         },
         {
           "code": "5Y",
-          "label_zh": "驗光所 私立驗光所",
+          "label_zh": "驗光所私立驗光所",
           "label_en": "optician private optician"
         },
         {
           "code": "Z7",
-          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
+          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2025年06月24日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
           "label_en": ""
         }
       ],

@@ -25,7 +25,7 @@
       "name_en": "OWNERCITYCODE",
       "type": "Char",
       "length": 10,
-      "description_zh": "詳見欄位縣市別 (OWNERCITYCODE)譯碼 說明",
+      "description_zh": "詳見欄位縣市別 (OWNERCITYCODE)譯碼說明",
       "available_notes": [],
       "name_zh_en": "county city",
       "description_en": "details of field county/city code (OWNERCITYCODE) explanation"
@@ -36,7 +36,7 @@
       "name_en": "INFOERTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位通報人員 (INFOERTYPE)譯碼說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位通報人員 (INFOERTYPE)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -53,7 +53,7 @@
       "name_en": "INFOUNIT",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位通報單位 (INFOUNIT)譯碼說明 註:108 年起無資料",
+      "description_zh": "詳見欄位通報單位 (INFOUNIT)譯碼說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -66,11 +66,11 @@
     },
     {
       "seq": 4,
-      "name_zh": "通報人員選其他時 填的資料",
+      "name_zh": "通報人員選其他時填的資料",
       "name_en": "OTHERINFOERTYPE",
       "type": "Char",
       "length": 30,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -83,11 +83,11 @@
     },
     {
       "seq": 5,
-      "name_zh": "通報單位選其他時 填的資料",
+      "name_zh": "通報單位選其他時填的資料",
       "name_en": "OTHERINFOUNIT",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -111,7 +111,7 @@
     },
     {
       "seq": 7,
-      "name_zh": "被害人身分證字號 所判讀之性別",
+      "name_zh": "被害人身分證字號所判讀之性別",
       "name_en": "CLIENTID_S",
       "type": "Char",
       "length": 1,
@@ -122,13 +122,13 @@
     },
     {
       "seq": 8,
-      "name_zh": "被害人身分證字號 檢誤",
+      "name_zh": "被害人身分證字號檢誤",
       "name_en": "CLIENTID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
       "available_notes": [],
-      "name_zh_en": "victim's identity number error",
+      "name_zh_en": "misalignment-of-victim-s-identity-card-number",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
     },
     {
@@ -159,7 +159,7 @@
       "name_en": "IDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說 明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -176,7 +176,7 @@
       "name_en": "EDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位教育程度 (EDUCATION、DEDUCATIO N) 譯碼說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位教育程度 (EDUCATION、DEDUCATIO N) 譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -193,18 +193,18 @@
       "name_en": "MAIMED",
       "type": "Char",
       "length": 6,
-      "description_zh": "詳見欄位障礙別 (MAIMED、DMAIMED)譯碼 說明(可複選)",
+      "description_zh": "詳見欄位障礙別 (MAIMED、DMAIMED)譯碼說明(可複選)",
       "available_notes": [],
       "name_zh_en": "victim's disability type",
       "description_en": "Detail field障碍别 (MAIMED, DMAIMED) code explanation (multiple choices available)"
     },
     {
       "seq": 14,
-      "name_zh": "被害人疑似身心障 礙者 選其他時所填 的資料",
+      "name_zh": "被害人疑似身心障礙者選其他時所填的資料",
       "name_en": "OTHERMAIMED",
       "type": "Char",
       "length": 64,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -217,11 +217,11 @@
     },
     {
       "seq": 15,
-      "name_zh": "被害人領有身心障 礙手冊選其他時所 填的資料",
+      "name_zh": "被害人領有身心障礙手冊選其他時所填的資料",
       "name_en": "OTHERMAIMED2",
       "type": "Char",
       "length": 50,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -245,11 +245,11 @@
     },
     {
       "seq": 17,
-      "name_zh": "被害人職業 選其他 時所填的資料",
+      "name_zh": "被害人職業選其他時所填的資料",
       "name_en": "OTHEROCCUPATION",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明 註:108年起無資料",
+      "description_zh": "文字說明註:108年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -273,7 +273,7 @@
     },
     {
       "seq": 19,
-      "name_zh": "相對人身分證字號 所判讀之性別",
+      "name_zh": "相對人身分證字號所判讀之性別",
       "name_en": "DID_S",
       "type": "Char",
       "length": 1,
@@ -284,13 +284,13 @@
     },
     {
       "seq": 20,
-      "name_zh": "相對人身分證字號 檢誤",
+      "name_zh": "相對人身分證字號檢誤",
       "name_en": "DID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
       "available_notes": [],
-      "name_zh_en": "relative ID number error",
+      "name_zh_en": "relative_person_id_card_number_correction",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
     },
     {
@@ -321,7 +321,7 @@
       "name_en": "DIDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說 明",
+      "description_zh": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說明",
       "available_notes": [],
       "name_zh_en": "relative current nationality",
       "description_en": "See explanation for field current resident type (IDTYPE, DIDTYPE) coding"
@@ -343,7 +343,7 @@
       "name_en": "DMAIMED",
       "type": "Char",
       "length": 6,
-      "description_zh": "詳見欄位障礙別(MAIMED、 DMAIMED)譯碼說明(可複 選) 註1:108 年起譯碼簿更新 註2:108 年起為單選，長度1",
+      "description_zh": "詳見欄位障礙別(MAIMED、 DMAIMED)譯碼說明(可複選) 註1:108 年起譯碼簿更新註2:108 年起為單選，長度1",
       "available_notes": [
         {
           "roc_year": 108,
@@ -361,11 +361,11 @@
     },
     {
       "seq": 26,
-      "name_zh": "相對人疑似身心障 礙者選其他時所填 的資料",
+      "name_zh": "相對人疑似身心障礙者選其他時所填的資料",
       "name_en": "DOTHERMAIMED",
       "type": "Char",
       "length": 64,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -378,11 +378,11 @@
     },
     {
       "seq": 27,
-      "name_zh": "相對人領有身心障 礙手冊選其他時所 填的資料",
+      "name_zh": "相對人領有身心障礙手冊選其他時所填的資料",
       "name_en": "DOTHERMAIMED2",
       "type": "Char",
       "length": 42,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -406,11 +406,11 @@
     },
     {
       "seq": 29,
-      "name_zh": "相對人職業選其他 時所填的資料",
+      "name_zh": "相對人職業選其他時所填的資料",
       "name_en": "DOTHEROCCUPATION",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -434,11 +434,11 @@
     },
     {
       "seq": 31,
-      "name_zh": "兩造關係選其他時 所填的資料",
+      "name_zh": "兩造關係選其他時所填的資料",
       "name_en": "OTHERRELATIONSHIP",
       "type": "Char",
       "length": 88,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -468,11 +468,11 @@
     },
     {
       "seq": 33,
-      "name_zh": "已協助事項選其他 時所填的資料",
+      "name_zh": "已協助事項選其他時所填的資料",
       "name_en": "OTHERHELPACTION",
       "type": "Char",
       "length": 100,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -485,11 +485,11 @@
     },
     {
       "seq": 34,
-      "name_zh": "被害人後續待協助 事項",
+      "name_zh": "被害人後續待協助事項",
       "name_en": "FOLLOWACTION",
       "type": "Char",
       "length": 12,
-      "description_zh": "詳見欄位被害人後續待協助 事項(FOLLOWACTION)譯 碼說明(可複選) 註:108 年起無資料",
+      "description_zh": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選) 註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -497,16 +497,16 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "subsequent assistance matters for the victim",
+      "name_zh_en": "subsequent matters requiring assistance for the victim",
       "description_en": "See field follow-up assistance matters for victim (FOLLOWACTION) coding explanation (multiple choices): Note no data since 108"
     },
     {
       "seq": 35,
-      "name_zh": "被害人後續待協助 事項 選其他時所填 的資料",
+      "name_zh": "被害人後續待協助事項選其他時所填的資料",
       "name_en": "OTHERFOLLOWACTION",
       "type": "Char",
       "length": 180,
-      "description_zh": "文字說明 註:108 年起無資料",
+      "description_zh": "文字說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -519,7 +519,7 @@
     },
     {
       "seq": 36,
-      "name_zh": "有無兒少目睹家庭 暴力",
+      "name_zh": "有無兒少目睹家庭暴力",
       "name_en": "CASEEVAL",
       "type": "Char",
       "length": 1,
@@ -580,18 +580,18 @@
     },
     {
       "seq": 41,
-      "name_zh": "相對人是否為家庭 成員",
+      "name_zh": "相對人是否為家庭成員",
       "name_en": "ISFAMILYMEMBER",
       "type": "Char",
       "length": 1,
-      "description_zh": "A:家庭成員 B:非家庭成員 註:不提供",
+      "description_zh": "A:家庭成員 B:非家庭成員註:不提供",
       "available_notes": [],
       "name_zh_en": "relative is family member",
       "description_en": "A: Family Member B: Non-family Member Note: Not Provided"
     },
     {
       "seq": 42,
-      "name_zh": "相對人為家庭成 員，關係為",
+      "name_zh": "相對人為家庭成員，關係為",
       "name_en": "FAMILYMEMBER",
       "type": "Char",
       "length": 1,
@@ -602,7 +602,7 @@
     },
     {
       "seq": 43,
-      "name_zh": "相對人為非家庭成 員，關係為",
+      "name_zh": "相對人為非家庭成員，關係為",
       "name_en": "NOTFAMILYMEMBER",
       "type": "Char",
       "length": 1,
@@ -617,7 +617,7 @@
       "name_en": "ISLIVETOGETHER",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:108 年起新增",
+      "description_zh": "Y:是 N:否註:108 年起新增",
       "available_notes": [
         {
           "roc_year": 108,
@@ -630,77 +630,77 @@
     },
     {
       "seq": 45,
-      "name_zh": "相對人為非家庭成 員選其他時所填的 資料",
+      "name_zh": "相對人為非家庭成員選其他時所填的資料",
       "name_en": "NOTFAMILYMEMBER1",
       "type": "Char",
       "length": 88,
-      "description_zh": "文字說明 註:不提供",
+      "description_zh": "文字說明註:不提供",
       "available_notes": [],
       "name_zh_en": "relative is not a family member - other information filled out",
       "description_en": "notes: not provided"
     },
     {
       "seq": 46,
-      "name_zh": "與被害人是否已有 仍在效期內民事保 護令",
+      "name_zh": "與被害人是否已有仍在效期內民事保護令",
       "name_en": "CIVILPROTECTIONORD ER",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim already has an effective civil protection order",
       "description_en": "Yes:Y No:N Note:not provided"
     },
     {
       "seq": 47,
-      "name_zh": "被害人是否有自殺 意念",
+      "name_zh": "被害人是否有自殺意念",
       "name_en": "VSUICIDEIDEA",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim has suicidal ideation",
       "description_en": "Yes:Y No:N Note:not provided"
     },
     {
       "seq": 48,
-      "name_zh": "被害人是否有自殺 企圖",
+      "name_zh": "被害人是否有自殺企圖",
       "name_en": "VSUICIDEATTEMPT",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim has attempted suicide",
       "description_en": "Yes:Y No:N Note:not provided"
     },
     {
       "seq": 49,
-      "name_zh": "相對人是否有自殺 意念",
+      "name_zh": "相對人是否有自殺意念",
       "name_en": "DSUICIDEIDEA",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "relative's suicidal ideation",
       "description_en": "Yes:Y No:N Note:not provided"
     },
     {
       "seq": 50,
-      "name_zh": "相對人是否有自殺 企圖",
+      "name_zh": "相對人是否有自殺企圖",
       "name_en": "DSUICIDEATTEMPT",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "relative's suicidal attempt",
       "description_en": "Yes:Y No:N Note:not provided"
     },
     {
       "seq": 51,
-      "name_zh": "被害人後續是否願 意社工介入協助",
+      "name_zh": "被害人後續是否願意社工介入協助",
       "name_en": "VDOSTEPINHELP",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:不提供",
+      "description_zh": "Y:是 N:否註:不提供",
       "available_notes": [],
       "name_zh_en": "subsequent willingness for social worker intervention",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -711,14 +711,14 @@
       "name_en": "VIOLENCETYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "A:家庭暴力 B:老人保護 C:身心障礙者保護 註:不提供",
+      "description_zh": "A:家庭暴力 B:老人保護 C:身心障礙者保護註:不提供",
       "available_notes": [],
       "name_zh_en": "type of violence",
       "description_en": "A: Domestic violence B: Elderly protection C: Protection for persons with physical and mental disabilities Note: Not provided"
     },
     {
       "seq": 53,
-      "name_zh": "家庭暴力之受暴類 型",
+      "name_zh": "家庭暴力之受暴類型",
       "name_en": "DOMESTICVIOLENCETY PE",
       "type": "Char",
       "length": 5,
@@ -729,7 +729,7 @@
     },
     {
       "seq": 54,
-      "name_zh": "家庭暴力之本次家 暴事件促發因素",
+      "name_zh": "家庭暴力之本次家暴事件促發因素",
       "name_en": "DVPRIMINGFACTOR",
       "type": "Char",
       "length": 5,
@@ -740,18 +740,18 @@
     },
     {
       "seq": 55,
-      "name_zh": "本次家暴事件促發 因素為其他時所填",
+      "name_zh": "本次家暴事件促發因素為其他時所填",
       "name_en": "DVPRIMINGFACTOR1",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明 註:不提供",
+      "description_zh": "文字說明註:不提供",
       "available_notes": [],
       "name_zh_en": "domestic violence event trigger factor other than filled",
       "description_en": "notes: not provided"
     },
     {
       "seq": 56,
-      "name_zh": "家庭暴力之被害人 是否有遭受下列狀 況",
+      "name_zh": "家庭暴力之被害人是否有遭受下列狀況",
       "name_en": "DVVSITUATION",
       "type": "Char",
       "length": 62,
@@ -762,7 +762,7 @@
     },
     {
       "seq": 57,
-      "name_zh": "老人保護之受暴類 型",
+      "name_zh": "老人保護之受暴類型",
       "name_en": "SENIORCITIZENPROTEC TTYPE",
       "type": "Char",
       "length": 5,
@@ -773,7 +773,7 @@
     },
     {
       "seq": 58,
-      "name_zh": "老人保護之老人日 常生活功能評估",
+      "name_zh": "老人保護之老人日常生活功能評估",
       "name_en": "SENIORADLASSESSMEN T",
       "type": "Char",
       "length": 62,
@@ -784,7 +784,7 @@
     },
     {
       "seq": 59,
-      "name_zh": "老人保護之老人是 否有下列狀況",
+      "name_zh": "老人保護之老人是否有下列狀況",
       "name_en": "SENIORSITUATION",
       "type": "Char",
       "length": 62,
@@ -795,7 +795,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "身心障礙保護之受 暴類型",
+      "name_zh": "身心障礙保護之受暴類型",
       "name_en": "DISABLEDPROTECTTYP E",
       "type": "Char",
       "length": 5,
@@ -806,7 +806,7 @@
     },
     {
       "seq": 61,
-      "name_zh": "身心障礙保護之身 心障礙者日常生活 功能評估",
+      "name_zh": "身心障礙保護之身心障礙者日常生活功能評估",
       "name_en": "DISABLEDADLASSESSM ENT",
       "type": "Char",
       "length": 62,
@@ -817,7 +817,7 @@
     },
     {
       "seq": 62,
-      "name_zh": "身心障礙保護之身 心障礙者是否有下 列狀況",
+      "name_zh": "身心障礙保護之身心障礙者是否有下列狀況",
       "name_en": "DISABLEDSITUATION",
       "type": "Char",
       "length": 62,
@@ -903,17 +903,17 @@
         },
         {
           "code": "K",
-          "label_zh": "憲兵 Z 其他 2026年05月28日修訂 適用於 108年起 代碼 說明",
+          "label_zh": "憲兵 Z 其他 2026年05月28日修訂適用於 108年起代碼說明",
           "label_en": "military police Z others revised on May 28, 2026 applicable from 2018 onward"
         },
         {
           "code": "1",
-          "label_zh": "社會福利、安置照護機構 人員",
+          "label_zh": "社會福利、安置照護機構人員",
           "label_en": "social welfare, placement care institution staff"
         },
         {
           "code": "2",
-          "label_zh": "就業服務機構及其從業人 員",
+          "label_zh": "就業服務機構及其從業人員",
           "label_en": "employment service agencies and their staff"
         },
         {
@@ -1150,7 +1150,7 @@
         },
         {
           "code": "Q",
-          "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他 適用於 108年起 代碼 說明",
+          "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他適用於 108年起代碼說明",
           "label_en": "Blood relatives within four generations (e.g., cousins, aunts/uncles' children)\nBlood relatives within four generations through marriage (e.g., aunt-in-law, uncle-in-law, etc.)\nb. Other close relationships not involving cohabitation\nApplicable from 2018\nCode Explanation"
         },
         {

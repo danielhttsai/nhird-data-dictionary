@@ -53,7 +53,7 @@
       "name_en": "agey",
       "type": "數字",
       "length": 8,
-      "description_zh": "說明： (1) 年齡計算： a.若個案為訪視前過生日，則 年齡為訪視年份-出生年份 b.若個案為訪視後過生日，則 年齡為訪視年份-出生年份-1",
+      "description_zh": "說明： (1) 年齡計算： a.若個案為訪視前過生日，則年齡為訪視年份-出生年份 b.若個案為訪視後過生日，則年齡為訪視年份-出生年份-1",
       "available_notes": [],
       "name_zh_en": "age",
       "description_en": "Note: (1) Age calculation: a. If the case's birthday falls before the interview, age = interview year - birth year b. If the case's birthday falls after the interview, age = interview year - birth year - 1"
@@ -64,7 +64,7 @@
       "name_en": "agey",
       "type": "數字",
       "length": 8,
-      "description_zh": "說明： (1) 年齡計算： a.若個案為訪視前過生日，則年 齡為訪視年份-出生年份 b.若個案為訪視後過生日，則年 齡為訪視年份-出生年份-1 (2) 2個月~未滿 1歲個案的年齡 為0歲，可參考月齡 (3) 0-18歲個案的除年齡外亦呈現 月齡",
+      "description_zh": "說明： (1) 年齡計算： a.若個案為訪視前過生日，則年齡為訪視年份-出生年份 b.若個案為訪視後過生日，則年齡為訪視年份-出生年份-1 (2) 2個月~未滿 1歲個案的年齡為0歲，可參考月齡 (3) 0-18歲個案的除年齡外亦呈現月齡",
       "available_notes": [],
       "name_zh_en": "age",
       "description_en": "Note: (1) Age calculation: a. If the case's birthday falls before the interview, age = interview year - birth year b. If the case's birthday falls after the interview, age = interview year - birth year - 1 (2) For cases aged 2 months to under 1 year, age is recorded as 0; refer to age in months (3) For cases aged 0-18, age in months is also shown in addition to age"
@@ -152,7 +152,7 @@
       "name_en": "fd_category",
       "type": "文字",
       "length": 2,
-      "description_zh": "說明： 請參照「24 小時飲食食物分類 表」",
+      "description_zh": "說明： 請參照「24 小時飲食食物分類表」",
       "available_notes": [],
       "name_zh_en": "food category",
       "description_en": "Note: Please refer to the \"24-Hour Dietary Food Classification Table\""
@@ -163,7 +163,7 @@
       "name_en": "fd_group",
       "type": "文字",
       "length": 6,
-      "description_zh": "說明： 請參照「24 小時飲食食物分類 表」",
+      "description_zh": "說明： 請參照「24 小時飲食食物分類表」",
       "available_notes": [],
       "name_zh_en": "food subcategory",
       "description_en": "Note: Please refer to the \"24-Hour Dietary Food Classification Table\""
@@ -174,7 +174,7 @@
       "name_en": "PS0041_3",
       "type": "文字",
       "length": 5,
-      "description_zh": "1：已上小學 2：已上幼兒園 3：未開始上學 88888：不知道 99999：拒答 說明： (1)年齡層差異： 僅詢問3-6歲個案 3. 請問您，○○○的主要照顧 PS0042 文字 5 4：（外）祖父 者是? 88888：不知道 17 3. 請問您，○○○的主要照顧 PS0042_other 文字 50 者是? 其他（請說明） 4. 請問您的教育程度是？ PS0043 文字 5 10：高職畢業（含士官學校） 13：大學/技術學院肄業 14：大學/技術學院畢業 88888：不知道 19 4. 請問您的教育程度是？ PS0043_other 文字 50 5.請問您的國籍是？（可複選） 華民國與其他國籍者，不需回答",
+      "description_zh": "1：已上小學 2：已上幼兒園 3：未開始上學 88888：不知道 99999：拒答說明： (1)年齡層差異： 僅詢問3-6歲個案 3. 請問您，○○○的主要照顧 PS0042 文字 5 4：（外）祖父者是? 88888：不知道 17 3. 請問您，○○○的主要照顧 PS0042_other 文字 50 者是? 其他（請說明） 4. 請問您的教育程度是？ PS0043 文字 5 10：高職畢業（含士官學校） 13：大學/技術學院肄業 14：大學/技術學院畢業 88888：不知道 19 4. 請問您的教育程度是？ PS0043_other 文字 50 5.請問您的國籍是？（可複選） 華民國與其他國籍者，不需回答",
       "available_notes": [],
       "name_zh_en": "2. Currently, who is your ○○○? 1: mother 2: father 3: (maternal) grandmother 5: domestic helper 99999: refused. Education — 1: none 2: self-study/private tutoring 3: primary school incomplete 4: primary graduate 5: junior high incomplete 6: junior high graduate 7: senior high incomplete 8: senior high graduate 9: vocational high incomplete (incl. NCO school) 11: junior college incomplete (incl. military prep program) 12: junior college graduate (incl. military academy regular program) 15: graduate school or above 99999: refused; other (please specify). Note: if nationality is not ROC, also mark the ancestral-origin question.",
       "description_en": "1: Already attending elementary school 2: Already attending kindergarten 3: Not yet started school 88888: Don't know 99999: Refuse to answer Note: (1) Age group difference: only asked for cases aged 3-6 3. Who is XXX's main caregiver? PS0042 Text 5 4: (Maternal/paternal) grandfather Don't know 17 3. Who is XXX's main caregiver? PS0042_other Text 50 Other (please specify) 4. What is your education level? PS0043 Text 5 10: Vocational senior high school graduate (incl. NCO school) 13: University/technical college incomplete 14: University/technical college graduate 88888: Don't know 19 4. What is your education level? PS0043_other Text 50 5. What is your nationality? (multiple choice) Not required for ROC nationals and those with other nationalities"
@@ -229,7 +229,7 @@
       "name_en": "PD0022",
       "type": "文字",
       "length": 4,
-      "description_zh": "1：一般生 88888：不知道 NA.不適用 說明： (1)年度差異： 僅用於2020 年",
+      "description_zh": "1：一般生 88888：不知道 NA.不適用說明： (1)年度差異： 僅用於2020 年",
       "available_notes": [],
       "name_zh_en": "5-a. What is your enrollment status? 2: cooperative-education (work-study) student 99999: refused",
       "description_en": "1: Regular student 88888: Don't know NA. Not applicable Note: (1) Year difference: Only used for year 2020"
@@ -240,7 +240,7 @@
       "name_en": "physical_current _height",
       "type": "文字",
       "length": 8,
-      "description_zh": "88888：不知道 99999：拒測 說明： (1)年度差異: 僅用於2018、2019、2020年",
+      "description_zh": "88888：不知道 99999：拒測說明： (1)年度差異: 僅用於2018、2019、2020年",
       "available_notes": [],
       "name_zh_en": "__ cm",
       "description_en": "88888: Don't know 99999: Refused to be measured Note: (1) Year difference: used only for 2018, 2019, 2020"
@@ -251,7 +251,7 @@
       "name_en": "physical_current _height",
       "type": "文字",
       "length": 8,
-      "description_zh": "88888：不知道 99999：拒測 說明： (1)年度差異: 僅用於2018、2019、2020年",
+      "description_zh": "88888：不知道 99999：拒測說明： (1)年度差異: 僅用於2018、2019、2020年",
       "available_notes": [],
       "name_zh_en": "__ cm",
       "description_en": "88888: Don't know 99999: Refused to be measured Note: (1) Year difference: used only for 2018, 2019, 2020"

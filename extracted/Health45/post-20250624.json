@@ -29,7 +29,7 @@
       "name_en": "CURECOND",
       "type": "Char",
       "length": 15,
-      "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 5: (保留碼，視為無治療) 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療 TACE)，或為新的治療方法，非 指他院治療",
+      "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 5: (保留碼，視為無治療) 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療 TACE)，或為新的治療方法，非指他院治療",
       "available_notes": [],
       "name_zh_en": "Treatment Condition",
       "description_en": "Combined case reported hospital treatment status 0: No treatment 1: Surgical treatment 2: Radiation therapy 3: Chemotherapy 5: (Reserved code, treated as no treatment) 6: Immunotherapy 7: Endocrine (hormonal) therapy 8: Supportive therapy 9: Traditional Chinese medicine (TCM) B: Bone marrow/stem cell transplantation O: Other treatment P: Local chemical therapy I: Local immunotherapy T: Targeted therapy X: Others (including local hepatic artery embolization therapy TACE), or a new treatment method, not other hospital treatment"
@@ -73,7 +73,7 @@
       "name_en": "RESIDCD",
       "type": "Char",
       "length": 4,
-      "description_zh": "詳戶籍地代碼(RESIDCD)對照表 本檔案皆使用新五都代碼",
+      "description_zh": "詳戶籍地代碼(RESIDCD)對照表本檔案皆使用新五都代碼",
       "available_notes": [],
       "name_zh_en": "household registration code",
       "description_en": "Detailed household code (RESIDCD)对照表 - all files use new five metropolitan area codes"
@@ -106,7 +106,7 @@
       "name_en": "GRADE",
       "type": "Char",
       "length": 1,
-      "description_zh": "2002年起收錄 1：Well differentiated Differentiated,NOS 2：Moderatelydifferentiated Moderatelywell differentiated Intermediatedifferentiated 3：Poorlydifferentiated 4：Undifferentiated Anaplastic 9：Gradeordifferentiationnot determined,not statedor not applicable 注意：因各癌別腫瘤分級/分化程度 有二、三、四分法，詳細說明請參考 100年版之前的台灣癌症登記長短表 摘錄手冊內容，可逕至台灣癌症登記 中心網站[癌症登記申報相關參考資 料]處下載，網址如下： http://tcr.cph.ntu.edu.tw/main.php?Page =A6) ForLymphomas and Leukemias 5：Tcell 6：B cell；pre-B；B-precursor 7：Null cell；nonT-non B 8：NK(natural killer)cell 9：Cell typenot determined,not stated ornot applicable ForOvaryborderlinetumor B：Ovaryborderlinetumor(Low malignant potential)合併intraepithelial carcinoma或/及microinvasion ForColon-Rectumtumor B：Colon-Rectum Highgrade dysplasia(severedysplasia) 2018年起，新增編碼A/B/C/D/E/H/L /M/S/X(詳見台灣癌症登記中心網站 [癌症登記申報相關參考資料]_107年 版癌症登記摘錄手冊短表45欄位與",
+      "description_zh": "2002年起收錄 1：Well differentiated Differentiated,NOS 2：Moderatelydifferentiated Moderatelywell differentiated Intermediatedifferentiated 3：Poorlydifferentiated 4：Undifferentiated Anaplastic 9：Gradeordifferentiationnot determined,not statedor not applicable 注意：因各癌別腫瘤分級/分化程度有二、三、四分法，詳細說明請參考 100年版之前的台灣癌症登記長短表摘錄手冊內容，可逕至台灣癌症登記中心網站[癌症登記申報相關參考資料]處下載，網址如下： http://tcr.cph.ntu.edu.tw/main.php?Page =A6) ForLymphomas and Leukemias 5：Tcell 6：B cell；pre-B；B-precursor 7：Null cell；nonT-non B 8：NK(natural killer)cell 9：Cell typenot determined,not stated ornot applicable ForOvaryborderlinetumor B：Ovaryborderlinetumor(Low malignant potential)合併intraepithelial carcinoma或/及microinvasion ForColon-Rectumtumor B：Colon-Rectum Highgrade dysplasia(severedysplasia) 2018年起，新增編碼A/B/C/D/E/H/L /M/S/X(詳見台灣癌症登記中心網站 [癌症登記申報相關參考資料]_107年版癌症登記摘錄手冊短表45欄位與",
       "available_notes": [
         {
           "roc_year": 100,
@@ -128,7 +128,7 @@
       "name_en": "HISTOLOG",
       "type": "Char",
       "length": 5,
-      "description_zh": "組織病理：用ICD-O 譯碼 第5碼為2：原位癌 第5碼為3：侵襲癌 詳組織類型與性態碼(HISTOLOG)對 照表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血 液腫瘤分類表)",
+      "description_zh": "組織病理：用ICD-O 譯碼第5碼為2：原位癌第5碼為3：侵襲癌詳組織類型與性態碼(HISTOLOG)對照表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血液腫瘤分類表)",
       "available_notes": [],
       "name_zh_en": "type and status code",
       "description_en": "Histopathology: ICD-O coded Fifth digit 2: in situ carcinoma Fifth digit 3: invasive carcinoma Detailed histological type and nature code (HISTOLOG)对照表 (hematologic tumor coding range: 95903-99933, excluding 99903. Hematologic tumor classification details see hematologic tumor classification table)."
@@ -139,7 +139,7 @@
       "name_en": "CASITE",
       "type": "Char",
       "length": 4,
-      "description_zh": "詳原發部位(CASITE)對照表 NHL(非何杰金氏淋巴瘤)、HL(何杰 金氏淋巴瘤)及LEU(白血病)等血液 腫瘤個案，在此欄位無法辨識，請用 組織類型與性態碼(HISTOLOG)區 分。若是要分析各癌症部分(CASITE 欄位)，也請先把NHL、HL、LEU 等血液腫瘤排除後再計算。",
+      "description_zh": "詳原發部位(CASITE)對照表 NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTOLOG)區分。若是要分析各癌症部分(CASITE 欄位)，也請先把NHL、HL、LEU 等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
       "description_en": "详原发部位(CASITE)对照表 NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液肿瘤案例，在此字段无法辨识，请用组织类型与性态码(HISTOLOG)区分。若要分析各癌症部分(CASITE字段)，也请先把NHL、HL、LEU等血液肿瘤排除后再计算。"
@@ -195,7 +195,7 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health45_癌症登記年報檔(20250624起適用)",
   "data_description_en": "Provides annual reports from 1979 to the latest published year for cancer cases after householding, including in situ and invasive cases of all cancers. The data includes both long-form and short-form hospital claims and has removed duplicate cases within the same case for the same type of cancer and tissue type group.",
-  "notes_en": "",
+  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. To distinguish in-situ carcinoma from invasive carcinoma cases, use the histology behavior code (5th digit of the HISTOLOG field).\n3. The date-of-death and cause-of-death fields reflect the data as reported by the hospital at the time; if the case subsequently dies, these fields are not updated, so this field's data is not provided in order to avoid misinterpretation. If needed, please link directly to the Cause of Death Statistics File (Health-10).\n4. Hematologic malignancy cases such as NHL (non-Hodgkin's lymphoma), HL (Hodgkin's lymphoma), and LEU (leukemia) must be distinguished using the histopathology field (HISTBEH). When analyzing by cancer site (CASITE field), first exclude NHL, HL, LEU, and other hematologic malignancies before calculating.\n5. A histopathology (HISTOLOG field) value of 99903 applies only to codes used in 2001 (ROC year 90) or earlier, meaning clinically malignant tumors not confirmed by microscopic examination.\n6. Grade/differentiation data (GRADE field) has only been collected for newly diagnosed cancer cases from 2002 onward. In addition, starting in 2018, codes A/B/C/D/E/H/L/M/S/X were added (see the 2018/ROC year 107 edition Cancer Registry Abstracting Manual, short-form field 45 and long-form field 115, for details).\n7. The treatment status field (CURECOND) has been consolidated across all reporting hospitals for a case. For detailed treatment data collected from 2007 onward, see the separate long-form and short-form treatment fields.\n1. The ID number (IDNO) is encrypted.\n2. The key for linking records to an individual and matching individual data: IDNO.",
   "primary_keys_en": "",
   "name_zh_en": "Cancer Registry Annual File"
 }

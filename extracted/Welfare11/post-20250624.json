@@ -16,16 +16,16 @@
     }
   ],
   "data_description_zh": "資料為 101 年 7 月至 104 年 12 月各月及 105 年至 114 年之列冊低收入戶及中\n低收入戶之名冊。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比對 個人歸戶及個人資料比對的鍵值：ID。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比對個人歸戶及個人資料比對的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
       "seq": 1,
-      "name_zh": "低收入戶列冊人口 身分證號",
+      "name_zh": "低收入戶列冊人口身分證號",
       "name_en": "ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經過加密處理。國民身分證統 一編號",
+      "description_zh": "經過加密處理。國民身分證統一編號",
       "available_notes": [],
       "name_zh_en": "low-income household registered person ID card number",
       "description_en": "Encrypted National ID number"
@@ -76,7 +76,7 @@
     },
     {
       "seq": 6,
-      "name_zh": "低收入戶列冊起始 年月",
+      "name_zh": "低收入戶列冊起始年月",
       "name_en": "STARTYM",
       "type": "Char",
       "length": 5,
@@ -87,7 +87,7 @@
     },
     {
       "seq": 7,
-      "name_zh": "低收入戶列冊迄止 年月",
+      "name_zh": "低收入戶列冊迄止年月",
       "name_en": "UNTILYM",
       "type": "Char",
       "length": 5,
@@ -124,10 +124,10 @@
       "name_en": "APPID",
       "type": "Char",
       "length": 20,
-      "description_zh": "國民身分證統一編號經加密處 理",
+      "description_zh": "國民身分證統一編號經加密處理",
       "available_notes": [],
       "name_zh_en": "head of household identity number",
-      "description_en": "national ID number encrypted"
+      "description_en": "national identity number encrypted"
     },
     {
       "seq": 11,
@@ -142,7 +142,7 @@
     },
     {
       "seq": 12,
-      "name_zh": "戶長身份證字號檢 誤",
+      "name_zh": "戶長身份證字號檢誤",
       "name_en": "APPID_ROC",
       "type": "Char",
       "length": 1,
@@ -157,7 +157,7 @@
       "name_en": "FAMILY_ALLOWAN CE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -179,7 +179,7 @@
       "name_en": "SCHOOL_LIFE_ALL OWANCE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -201,7 +201,7 @@
       "name_en": "CHILD_LIVING_ALL OWANCE",
       "type": "Char",
       "length": 7,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -223,7 +223,7 @@
       "name_en": "LOWTYPE_STAT",
       "type": "Char",
       "length": 1,
-      "description_zh": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增 僅106年無",
+      "description_zh": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,

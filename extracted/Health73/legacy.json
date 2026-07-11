@@ -25,7 +25,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "已加密轉碼 遺失率<0.01%",
+      "description_zh": "已加密轉碼遺失率<0.01%",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted with loss rate <0.01%"
@@ -76,7 +76,7 @@
     },
     {
       "seq": 6,
-      "name_zh": "通報單位鄉鎮市區 代碼",
+      "name_zh": "通報單位鄉鎮市區代碼",
       "name_en": "rep_hspt_CITY",
       "type": "Char",
       "length": 4,
@@ -87,7 +87,7 @@
     },
     {
       "seq": 7,
-      "name_zh": "通報單位權屬別代 碼",
+      "name_zh": "通報單位權屬別代碼",
       "name_en": "rep_hspt_HOS",
       "type": "Char",
       "length": 2,
@@ -109,7 +109,7 @@
     },
     {
       "seq": 9,
-      "name_zh": "銷案單位鄉鎮市區 代碼",
+      "name_zh": "銷案單位鄉鎮市區代碼",
       "name_en": "chg_hspt_CITY",
       "type": "Char",
       "length": 4,
@@ -120,7 +120,7 @@
     },
     {
       "seq": 10,
-      "name_zh": "銷案單位權屬別代 碼",
+      "name_zh": "銷案單位權屬別代碼",
       "name_en": "chg_hspt_HOS",
       "type": "Char",
       "length": 2,
@@ -135,7 +135,7 @@
       "name_en": "ill_sk",
       "type": "Char",
       "length": 1,
-      "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管 本表範圍外之代碼請忽略。",
+      "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "need supervisor assistance type",
       "description_en": "N: not required X: required: consult committee Y: required: health center director Z: required: health bureau director Codes outside the scope of this table should be ignored."
@@ -146,7 +146,7 @@
       "name_en": "iden_no",
       "type": "Char",
       "length": 2,
-      "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士 台灣結核病防治年報之「非本國籍」結 核病，為身份別代碼 B、C、D、G。",
+      "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士台灣結核病防治年報之「非本國籍」結核病，為身份別代碼 B、C、D、G。",
       "available_notes": [],
       "name_zh_en": "identity type",
       "description_en": "A: General citizens B: Foreign workers C: Foreigners D: Foreign brides including mainland brides E: Homeless F: ID number not available G: Mainland residents Taiwan Tuberculosis Prevention Annual Report's 'Non-citizens' for tuberculosis are identity codes B, C, and D, and G."
@@ -256,7 +256,7 @@
       "name_en": "xres3",
       "type": "Char",
       "length": 1,
-      "description_zh": "a：結核性腦膜炎 (013) c：淋巴結核 (014) d：骨及關節結核 (015) e：泌尿及生殖結核 (016) f：皮膚及眼結核 (017) g：消化道結核 (014) h：其他器官結核 (017) i：粟粒狀結核 (000) j：胸肋膜結核 (000) k：咽喉結核 (000) l：膀胱癌灌注治療(016) m：疑似 BCG 不良反應(接種部位局部 病灶) n：疑似BCG不良反應(接種部位同側腋 下淋巴結腫大)",
+      "description_zh": "a：結核性腦膜炎 (013) c：淋巴結核 (014) d：骨及關節結核 (015) e：泌尿及生殖結核 (016) f：皮膚及眼結核 (017) g：消化道結核 (014) h：其他器官結核 (017) i：粟粒狀結核 (000) j：胸肋膜結核 (000) k：咽喉結核 (000) l：膀胱癌灌注治療(016) m：疑似 BCG 不良反應(接種部位局部病灶) n：疑似BCG不良反應(接種部位同側腋下淋巴結腫大)",
       "available_notes": [],
       "name_zh_en": "extrapulmonary TB notation",
       "description_en": "0: Not a paired organ; 1: Primary origin on the right side; 2: Primary origin on the left side; 3: Unilateral involvement only, but origin (left or right) unclear; 4: Bilateral involvement but laterality of origin unclear, and the record describes a single primary (uncommon) — e.g. single-histology tumor involving both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor; 9: Paired organ but laterality unclear."
@@ -289,7 +289,7 @@
       "name_en": "trmt_way",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：初次治療 3：補充治療 4：慢開治療 5：肺外治療 F：治療失敗 本表範圍外之代碼請忽略。",
+      "description_zh": "1：初次治療 3：補充治療 4：慢開治療 5：肺外治療 F：治療失敗本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "Therapy Method",
       "description_en": "1: Initial Treatment 3: Supplementary Treatment 4: Maintenance Treatment 5: Extrapulmonary Treatment F: Treatment Failure Codes outside the scope of this table should be ignored."
@@ -322,7 +322,7 @@
       "name_en": "why_miss",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
+      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "closure reason",
       "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
@@ -417,7 +417,7 @@
     },
     {
       "seq": 37,
-      "name_zh": "建檔單位鄉鎮市區 代碼",
+      "name_zh": "建檔單位鄉鎮市區代碼",
       "name_en": "USER_NAME_CITY",
       "type": "Char",
       "length": 4,
@@ -428,7 +428,7 @@
     },
     {
       "seq": 38,
-      "name_zh": "建檔單位權屬別代 碼",
+      "name_zh": "建檔單位權屬別代碼",
       "name_en": "USER_NAME_HOS",
       "type": "Char",
       "length": 2,
@@ -465,7 +465,7 @@
       "name_en": "hiv",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員 本表範圍外之代碼請忽略。",
+      "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "caregiver category",
       "description_en": "A: Family member B: District nurse C: Hospital (or nursing home) nurse D: Volunteer F: DOTS project care provider Codes outside the scope of this table please ignore."
@@ -487,7 +487,7 @@
       "name_en": "c_lgdig",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治 本表範圍外之代碼請忽略。",
+      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "reason for case closure",
       "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
@@ -516,7 +516,7 @@
     },
     {
       "seq": 46,
-      "name_zh": "痰塗片單位鄉鎮市 區代碼",
+      "name_zh": "痰塗片單位鄉鎮市區代碼",
       "name_en": "C_SPUNIT_CITY",
       "type": "Char",
       "length": 4,
@@ -527,7 +527,7 @@
     },
     {
       "seq": 47,
-      "name_zh": "痰塗片單位權屬別 代碼",
+      "name_zh": "痰塗片單位權屬別代碼",
       "name_en": "C_SPUNIT_HOS",
       "type": "Char",
       "length": 2,
@@ -549,7 +549,7 @@
     },
     {
       "seq": 49,
-      "name_zh": "痰塗片單位 2 鄉鎮 市區代碼",
+      "name_zh": "痰塗片單位 2 鄉鎮市區代碼",
       "name_en": "M_UNIT2_CITY",
       "type": "Char",
       "length": 4,
@@ -560,7 +560,7 @@
     },
     {
       "seq": 50,
-      "name_zh": "痰塗片單位 2 權屬 別代碼",
+      "name_zh": "痰塗片單位 2 權屬別代碼",
       "name_en": "M_UNIT2_HOS",
       "type": "Char",
       "length": 2,
@@ -582,7 +582,7 @@
     },
     {
       "seq": 52,
-      "name_zh": "痰塗片單位 3 鄉鎮 市區代碼",
+      "name_zh": "痰塗片單位 3 鄉鎮市區代碼",
       "name_en": "M_UNIT3_CITY",
       "type": "Char",
       "length": 4,
@@ -593,7 +593,7 @@
     },
     {
       "seq": 53,
-      "name_zh": "痰塗片單位 3 權屬 別代碼",
+      "name_zh": "痰塗片單位 3 權屬別代碼",
       "name_en": "M_UNIT3_HOS",
       "type": "Char",
       "length": 2,
@@ -637,7 +637,7 @@
     },
     {
       "seq": 57,
-      "name_zh": "痰培養單位鄉鎮市 區代碼",
+      "name_zh": "痰培養單位鄉鎮市區代碼",
       "name_en": "C_SPCUNIT_CITY",
       "type": "Char",
       "length": 4,
@@ -648,7 +648,7 @@
     },
     {
       "seq": 58,
-      "name_zh": "痰培養單位權屬別 代碼",
+      "name_zh": "痰培養單位權屬別代碼",
       "name_en": "C_SPCUNIT_HOS",
       "type": "Char",
       "length": 2,
@@ -670,7 +670,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "X 光診斷單位鄉鎮 市區代碼",
+      "name_zh": "X 光診斷單位鄉鎮市區代碼",
       "name_en": "C_XUNIT_CITY",
       "type": "Char",
       "length": 4,
@@ -681,7 +681,7 @@
     },
     {
       "seq": 61,
-      "name_zh": "X 光診斷單位權屬 別代碼",
+      "name_zh": "X 光診斷單位權屬別代碼",
       "name_en": "C_XUNIT_HOS",
       "type": "Char",
       "length": 2,
@@ -725,7 +725,7 @@
     },
     {
       "seq": 65,
-      "name_zh": "照護院所權屬別代 碼",
+      "name_zh": "照護院所權屬別代碼",
       "name_en": "C_AUNIT_HOS",
       "type": "Char",
       "length": 2,
@@ -806,7 +806,7 @@
       "name_en": "open",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥 本表範圍外之代碼請忽略。",
+      "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "outpatient/ED condition",
       "description_en": "A: Outpatient B: Inpatient: RCW C: Inpatient: Negative Pressure D: Inpatient E: Unreachable F: Emergency G: Inpatient (Other) H: Discharge Medication I: This code is out of the scope of this table, please ignore."
@@ -883,7 +883,7 @@
       "name_en": "marriage_no",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：未婚 2：已婚 3：喪偶 4：離婚 本表範圍外之代碼請忽略。",
+      "description_zh": "1：未婚 2：已婚 3：喪偶 4：離婚本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "marital status",
       "description_en": "1: unmarried 2: married 3: widow 4: divorced codes outside this table should be ignored."
@@ -1004,7 +1004,7 @@
       "name_en": "clcodekind1",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌 備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1021,7 +1021,7 @@
       "name_en": "clcodekind2",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌 備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1038,7 +1038,7 @@
       "name_en": "clcodekind3",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 L：已驗未出 9：無法判斷 N：NTM Y：結核桿菌 備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 L：已驗未出 9：無法判斷 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1055,7 +1055,7 @@
       "name_en": "ovedr_date",
       "type": "Char",
       "length": 10,
-      "description_zh": "104年起通報世代，提供該次病程關帳 日 YYYY/MM/DD",
+      "description_zh": "104年起通報世代，提供該次病程關帳日 YYYY/MM/DD",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1094,7 +1094,7 @@
       "name_en": "jobkind",
       "type": "Char",
       "length": 1,
-      "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥 空白或NULL：未判 疾管署慢性組分枝桿菌實驗室研判",
+      "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥空白或NULL：未判疾管署慢性組分枝桿菌實驗室研判",
       "available_notes": [],
       "name_zh_en": "multiple drug resistance note in TCM cases",
       "description_en": "M: Multidrug resistant N: Excluded X: Extensively drug-resistant Y: Drug resistance Blank or NULL: Not determined by CDC Chronic Bacterial Laboratory"

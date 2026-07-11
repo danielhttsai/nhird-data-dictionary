@@ -21,7 +21,7 @@
   ],
   "data_description_zh": "1. 為一次住院多筆醫令資料。\n2. 相同之 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋SEQ_NO＋\nHOSP_ID視為同一次就醫之醫令。\n3. 每一筆資料包含醫令代碼、數量及點數等資料。\n4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、住\n院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央健康\n保險署首頁∕健保服務/健保醫療費用/醫療費用申報與給付∕醫療費用支付∕醫療費\n用申報規定∕醫療費用 XML 申報格式∕全民健康保險醫事服務機構(門診、住院及\n交付機構)醫療費用點數申報格式及填表說明。",
   "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
-  "primary_keys_raw": "1. 醫療機構代碼(HOSP_ID)經加密處理。\n2. 本 檔 無 病 人 身 份 證 字 號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\nCASE_TYPE＋SEQ_NO＋HOSP_ID為鍵值與住院明細檔(H_NHI_IPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。",
+  "primary_keys_raw": "1. 醫療機構代碼(HOSP_ID)經加密處理。\n2. 本檔無病人身份證字號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\nCASE_TYPE＋SEQ_NO＋HOSP_ID為鍵值與住院明細檔(H_NHI_IPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。",
   "fields": [
     {
       "seq": 1,
@@ -103,13 +103,13 @@
     },
     {
       "seq": 7,
-      "name_zh": "醫療機構縣市鄉鎮 市區代碼",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
       "name_en": "CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "醫療機構所在鄉鎮 代碼參照醫療機構現況檔。",
+      "description_zh": "醫療機構所在鄉鎮代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "county city township district code of medical institution",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "medical institution town code referenced from current medical institution file."
     },
     {
@@ -146,7 +146,7 @@
       "name_en": "ORDER_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0: 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5: EPO注射 6: HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9: 藥事服務費 A:Tw-DRG 醫 令 代 碼 必 為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為5 。 B:部分負擔代碼改變已切帳申報費用 之 資 料 ， 醫 令 代 碼 必 為 「G00000~G00001」。",
+      "description_zh": "0: 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5: EPO注射 6: HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9: 藥事服務費 A:Tw-DRG 醫令代碼必為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為5 。 B:部分負擔代碼改變已切帳申報費用之資料 ， 醫令代碼必為 「G00000~G00001」。",
       "available_notes": [],
       "name_zh_en": "order type",
       "description_en": "0: Consultation fee 1: Medication details 2: Treatment details 3: Special materials 4: Drugs or treatment items not separately chargeable 5: EPO injection 6: HCT test 7: Outsourced tests and referrals not applicable to this level's category 8: Organ donation. 9: Pharmacy service fee A: Tw-DRG order code must be A00000~F00001, H00000~H00032, J00001, and the case classification must be 5. B: For billed/claimed data where the co-payment code has changed, the order code must be \"G00000~G00001\"."
@@ -157,7 +157,7 @@
       "name_en": "ORDER_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "全民健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支付標 準碼或特殊材料碼，按醫令代碼序依 序申報，如係規律連續執行之醫令或 同一醫令加成費用種類相同者，醫令 則彙總列報，詳情請自健保署之醫事 機構專區網頁查詢。",
+      "description_zh": "全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼，按醫令代碼序依序申報，如係規律連續執行之醫令或同一醫令加成費用種類相同者，醫令則彙總列報，詳情請自健保署之醫事機構專區網頁查詢。",
       "available_notes": [],
       "name_zh_en": "medical order code",
       "description_en": "National Health Insurance drug payment item or medical service payment standard code or special material code, reported in the order of medical order codes, if it is a regular execution medical order or same medical order with additional fee category type the same, then summarize and report, details please refer to the Medical Institution Zone on the MOHFW website."
@@ -168,7 +168,7 @@
       "name_en": "RATE_TYPE",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.23．全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有加成 或折扣者，按成數填報(如：加二成表 示為 1.20，無加成為 1.00，打八折 為.80)註：兒童加成年齡以入院日期計",
+      "description_zh": "1.23．全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加二成表示為 1.20，無加成為 1.00，打八折為.80)註：兒童加成年齡以入院日期計",
       "available_notes": [],
       "name_zh_en": "co-payment ratio",
       "description_en": "1.23. According to the National Health Insurance Medical Service Payment Item and Fee Schedule, if the diagnostic item has an additional charge or discount, report as follows: (e.g., a 20% additional charge is indicated by 1.20, no additional charge is 1.00, and an 80% discount is .80). Note: Children's additional charges are calculated based on the date of admission."
@@ -179,7 +179,7 @@
       "name_en": "ORDER_Q",
       "type": "Num",
       "length": 8,
-      "description_zh": "小數點需填載，取至小數點下一位，第 二位四捨五入",
+      "description_zh": "小數點需填載，取至小數點下一位，第二位四捨五入",
       "available_notes": [],
       "name_zh_en": "quantity of medical order",
       "description_en": "decimal point should be filled, rounded to the second digit after the decimal point"
@@ -190,7 +190,7 @@
       "name_en": "ORDER_P",
       "type": "Num",
       "length": 8,
-      "description_zh": "小數點需填載，取至小數點下二位，第 三位四捨五入",
+      "description_zh": "小數點需填載，取至小數點下二位，第三位四捨五入",
       "available_notes": [],
       "name_zh_en": "unit price of medical order",
       "description_en": "decimal point should be filled, rounded to the third digit after the decimal point"
@@ -201,7 +201,7 @@
       "name_en": "ORDER_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "數量乘單價，加成計算，四捨五入取整 數。",
+      "description_zh": "數量乘單價，加成計算，四捨五入取整數。",
       "available_notes": [],
       "name_zh_en": "point of medical order",
       "description_en": "unit price multiplied, rounded off to the nearest whole number."
@@ -212,7 +212,7 @@
       "name_en": "DRUG_USE",
       "type": "Num",
       "length": 8,
-      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 註：100年起新增。",
+      "description_zh": "依全民健康保險藥品使用標準碼之原則輸入。 註：100年起新增。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -229,7 +229,7 @@
       "name_en": "DRUG_FRE",
       "type": "Char",
       "length": 18,
-      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 若醫令為精神科治療費、復健治療費、 治療處置費、血液透析費等項目此欄 為必要欄位。 詳藥品使用頻率(DRUG_FRE) 譯碼 說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為36碼。",
+      "description_zh": "依全民健康保險藥品使用標準碼之原則輸入。 若醫令為精神科治療費、復健治療費、 治療處置費、血液透析費等項目此欄為必要欄位。 詳藥品使用頻率(DRUG_FRE) 譯碼說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為36碼。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -251,7 +251,7 @@
       "name_en": "DRUG_PATH",
       "type": "Char",
       "length": 15,
-      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。 詳給藥途徑/作用部位(DRUG_PATH) 譯碼說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為8碼。",
+      "description_zh": "依全民健康保險藥品使用標準碼之原則輸入。 詳給藥途徑/作用部位(DRUG_PATH) 譯碼說明。 註：100年起新增。 107年起欄位格式為文字型態， 長度為8碼。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -273,7 +273,7 @@
       "name_en": "CON_FUNC_TYPE",
       "type": "Char",
       "length": 15,
-      "description_zh": "1. 若醫令為會診費則此欄為必要欄 位(請填會診科別) 2. 若醫令代碼為註5之診療項目者， 則此欄為必要欄位。診療之部位代 碼：右側填R、左側填L、雙側填",
+      "description_zh": "1. 若醫令為會診費則此欄為必要欄位(請填會診科別) 2. 若醫令代碼為註5之診療項目者， 則此欄為必要欄位。診療之部位代碼：右側填R、左側填L、雙側填",
       "available_notes": [],
       "name_zh_en": "consulting department/therapy site",
       "description_en": "1. If the medical order is a consultation fee, this field is a required field (please fill in the department).\n2. If the medical procedure code is as noted in footnote 5, this field is a required field. The site of treatment code: right side filled with R, left side with L, both sides with"
@@ -306,7 +306,7 @@
       "name_en": "TW_DRGS_CALCU",
       "type": "Num",
       "length": 8,
-      "description_zh": "若醫令類別為A或醫令別B且醫令代 碼為G00001時，則此欄為必要欄位。 註：100年起新增。",
+      "description_zh": "若醫令類別為A或醫令別B且醫令代碼為G00001時，則此欄為必要欄位。 註：100年起新增。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -323,7 +323,7 @@
       "name_en": "PART_ACCO_DATA",
       "type": "Char",
       "length": 28,
-      "description_zh": "醫令代碼為 G00000、903 者此欄為必 要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，未經加密 處理）/ 案件分類(第 14-15 碼，若為 １碼者左靠補「-」/流水號（第 16-21 碼）。 若 要 申 請 此 欄 位 必 需 一 同 申 請 Health02 和 Health05 的申報日期解密 註：100年起新增。",
+      "description_zh": "醫令代碼為 G00000、903 者此欄為必要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，未經加密處理）/ 案件分類(第 14-15 碼，若為 １碼者左靠補「-」/流水號（第 16-21 碼）。 若要申請此欄位必需一同申請 Health02 和 Health05 的申報日期解密註：100年起新增。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -346,12 +346,12 @@
         },
         {
           "code": "2",
-          "label_zh": "論病例計酬案件 特定案件",
+          "label_zh": "論病例計酬案件特定案件",
           "label_en": "case paid per service special cases"
         },
         {
           "code": "3",
-          "label_zh": "(1)住院申報五十萬元以上之高額案件 (2)血管支架及肺臟、肝臟、心臟、骨髓移植之案件 支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼 健保給付案件 4 吸照護99.1、急性後期照護103.01） Tw-DRGs 案件(99.01)案件分類為5者：",
+          "label_zh": "(1)住院申報五十萬元以上之高額案件 (2)血管支架及肺臟、肝臟、心臟、骨髓移植之案件支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼健保給付案件 4 吸照護99.1、急性後期照護103.01） Tw-DRGs 案件(99.01)案件分類為5者：",
           "label_en": "(1) inpatient claims over NT$500,000 high-cost cases (2) cases involving vascular stents and lung, liver, heart, bone marrow transplants Payment system pilot program (breast cancer 2008.12, hepatitis 2010.10 applicable, acute post-acute care 2014.01) Tw-DRGs cases (2009.01) classified as category 5"
         },
         {
@@ -381,27 +381,27 @@
         },
         {
           "code": "A3",
-          "label_zh": "特定案件 支付制度試辦計畫 (1)全民健康保險乳癌醫療給付改善方案者，來源應為 「N、C、R:乳癌計畫」 (2) 全民健康保險加強慢性B、C 型肝炎治療試辦計 勞保局(A1-AZ)",
+          "label_zh": "特定案件支付制度試辦計畫 (1)全民健康保險乳癌醫療給付改善方案者，來源應為 「N、C、R:乳癌計畫」 (2) 全民健康保險加強慢性B、C 型肝炎治療試辦計勞保局(A1-AZ)",
           "label_en": "Specific cases Payment system pilot plan (1) National Health Insurance Breast Cancer Medical Care Improvement Program: source should be 'N, C, R: Breast Cancer Plan' (2) National Health Insurance Enhanced Chronic B and C Hepatitis Treatment Pilot Program: Bureau of Labor Affairs (A1-AZ)"
         },
         {
           "code": "A4",
-          "label_zh": "畫者C 型肝炎全口服新藥健保給付執行計畫者，給付 類別應為「M: 肝炎試辦計畫」109.07.01(費用年月) 起適用 (3) 呼吸照護試辦計畫者，給付類別應為「9:呼吸照 護」 職業傷病住院膳食費(97 年3月26日健保醫字第 0970002000號函增訂) 精神病嚴重病人送醫及強制住院案件(項次07部分負 衛生福利部(B1-BZ) B1 擔代碼應為「009:本署其他規定免部分負擔者」)",
+          "label_zh": "畫者C 型肝炎全口服新藥健保給付執行計畫者，給付類別應為「M: 肝炎試辦計畫」109.07.01(費用年月) 起適用 (3) 呼吸照護試辦計畫者，給付類別應為「9:呼吸照護」 職業傷病住院膳食費(97 年3月26日健保醫字第 0970002000號函增訂) 精神病嚴重病人送醫及強制住院案件(項次07部分負衛生福利部(B1-BZ) B1 擔代碼應為「009:本署其他規定免部分負擔者」)",
           "label_en": "For patients enrolled in the hepatitis C full oral new drug health insurance payment plan, the payment category should be 'M: Hepatitis Pilot Program' effective from July 1, 2019 (fee month). (3) For those enrolled in the respiratory care pilot program, the payment category should be '9: Respiratory Care'. Occupational injury hospitalization meal expenses (added by Health Insurance Administration Letter No. 0970002000 on March 26, 1997). Severe mental illness patients' medical referral and mandatory hospitalization cases (Item 07 partial payment) - Ministry of Health and Welfare (B1-BZ) B1 code should be '009: Exempt from partial payment under the authority's other regulations'."
         },
         {
           "code": "AIDS",
-          "label_zh": "案件：依疾病管制署訂定「人類免疫缺乏病毒 檢驗預防治療費用支付手冊」規定 【費用年月103.02.01(含)起刪除)】【(費用年用 疾病管制署(C1-CZ) 104.01.01(含)起刪除】。 結核病痰抹片陽性個案住院<=14天內案件(算進不算 出)。",
+          "label_zh": "案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定 【費用年月103.02.01(含)起刪除)】【(費用年用疾病管制署(C1-CZ) 104.01.01(含)起刪除】。 結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。",
           "label_en": "Case: According to the Centers for Disease Control's 'HIV Testing and Prevention Treatment Fee Payment Manual' regulations [deleted as of February 1, 2013] [(deleted as of January 1, 2015)]. Tuberculosis sputum smear positive cases admitted for <=14 days (counted in but not out)."
         },
         {
           "code": "C3",
-          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算 2026年01月27日修訂 代辦單位 代碼 名稱 進不算出)。96年5月2日健保醫字第0960014750號 函自96年5月1日起修訂適用範圍和申報醫院資格 為抗結核藥物副作用個案住院≦30天，且限該局 「MDR 結核病醫療照護體系」之合作醫院及各醫學 中心申報。 無健保結核病患之醫療費用(96 年7月9日健保醫字 第0960023163號函增訂)",
+          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算 2026年01月27日修訂代辦單位代碼名稱進不算出)。96年5月2日健保醫字第0960014750號函自96年5月1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院≦30天，且限該局 「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。 無健保結核病患之醫療費用(96 年7月9日健保醫字第0960023163號函增訂)",
           "label_en": "Tuberculosis MDR and antitubercular drug side effects hospitalization ≤60 days (not including discharge). Revised on January 27, 2026. For cases of antitubercular drug side effects hospitalized for ≤30 days, limited to hospitals in the 'MDR Tuberculosis Medical Care System' and medical centers. No health insurance costs for tuberculosis patients (amended by letter No. 0960023163 from July 9, 1996)"
         },
         {
           "code": "C5",
-          "label_zh": "法定傳染病通報且隔離案件(110.1.1) 低收入戶住院膳食費(97 年3月26日健保醫字第 衛生福利部 DZ 0970002000號函增訂) 2026年01月27日修訂",
+          "label_zh": "法定傳染病通報且隔離案件(110.1.1) 低收入戶住院膳食費(97 年3月26日健保醫字第衛生福利部 DZ 0970002000號函增訂) 2026年01月27日修訂",
           "label_en": "Notifiable infectious disease report and isolation cases (since Jan. 1, 2021) Low-income household inpatient meal expenses (added by Council of Health Affairs DZ 0970002000 letter since Mar. 26, 2007; revised on Jan. 27, 2026)"
         }
       ],
@@ -442,7 +442,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 私立 私立 私立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院私立私立私立非公立非公立",
           "label_en": "Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital Private Private Private Non-public Non-public"
         },
         {
@@ -482,7 +482,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 99-100 101 102 103 104 code item name code item name code item name code item name code item name public public public public public"
         },
         {
@@ -497,7 +497,7 @@
         },
         {
           "code": "4",
-          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院 院",
+          "label_zh": "公立醫學院校附設醫院 4 公立醫學院校附設醫院 4 公立醫學院校附設醫 4 公立醫學院校附設醫院 4 公立醫學院校附設醫院院",
           "label_en": "public medical school affiliated hospital 4 public medical school affiliated hospital 4 public medical school affiliated hospital 4 public medical school affiliated hospital 4 public medical school affiliated hospital"
         },
         {
@@ -517,7 +517,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立非公立",
           "label_en": "Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital Non-public Non-public Non-public Non-public Non-public"
         },
         {
@@ -532,12 +532,12 @@
         },
         {
           "code": "12",
-          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院 院",
+          "label_zh": "宗教財團法人附設醫院 12 宗教財團法人附設醫院 12 宗教財團法人附設醫 12 宗教財團法人附設醫院 12 宗教財團法人附設醫院院",
           "label_en": "religious foundation affiliated hospital 12 religious foundation affiliated hospital 12 religious foundation affiliated hospital 12 religious foundation affiliated hospital 12 religious foundation affiliated hospital institution"
         },
         {
           "code": "13",
-          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院 院",
+          "label_zh": "私立醫學院校附設醫院 13 私立醫學院校附設醫院 13 私立醫學院校附設醫 13 私立醫學院校附設醫院 13 私立醫學院校附設醫院院",
           "label_en": "private medical school affiliated hospital 13 private medical school affiliated hospital 13 private medical school affiliated hospital 13 private medical school affiliated hospital 13 private medical school affiliated hospital institution"
         },
         {
@@ -557,7 +557,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital revision on 27/01/2026 105 year 106 year 107 year 108-109 years"
         },
         {
@@ -592,7 +592,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立",
           "label_en": "Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital Non-public Non-public Non-public Non-public"
         },
         {
@@ -632,7 +632,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 86-87年 88-94年 95年 96年 97-98年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 2026-01-27 Revised 83-109 Year Clinic Ownership Code Table (Adjusted in 109) 86-87 Years 88-94 Years 95 Year 96 Year 97-98 Years Code Item Name Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public Public"
         },
         {
@@ -672,7 +672,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所私立私立私立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic private private private non-public non-public"
         },
         {
@@ -687,12 +687,12 @@
         },
         {
           "code": "32",
-          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室 宗教財團法人附設診所",
+          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室宗教財團法人附設診所",
           "label_en": "32 宗教财团法人附设诊所 32 宗教财团法人附设诊所 32 公益法人附设医疗机构 32 宗教财团法人附设诊所/医务室 宗教财团法人附设诊所"
         },
         {
           "code": "33",
-          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室 私立事業單位或機構附設醫務",
+          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室私立事業單位或機構附設醫務",
           "label_en": "private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-medical-school-affiliated-clinic-33-private-medical-school-or-institution-affiliated-clinic"
         },
         {
@@ -722,7 +722,7 @@
         },
         {
           "code": "41",
-          "label_zh": "社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Outpatient clinic 41 Outpatient clinic 2026-01-27 Revised 99-100 101 102 103 104 Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
@@ -762,7 +762,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所非公立非公立非公立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic non-public non-public non-public non-public non-public"
         },
         {
@@ -777,7 +777,7 @@
         },
         {
           "code": "32",
-          "label_zh": "宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 室 室 務室 室 室",
+          "label_zh": "宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務室室務室室室",
           "label_en": "Religious foundation-affiliated clinic/medical service 32 Religious foundation-affiliated clinic/medical service 32 Religious foundation-affiliated clinic/medical department 32 Religious foundation-affiliated clinic/medical service 32 Religious foundation-affiliated clinic/medical service room"
         },
         {
@@ -787,7 +787,7 @@
         },
         {
           "code": "34",
-          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務 務室 務室 務室 室 室",
+          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務務室務室務室室室",
           "label_en": "Private enterprise unit or institution attached medical 34 Private enterprise unit or institution attached medical 34 Private enterprise unit or institution attached medical 34 Private enterprise unit or institution attached medical office 34 Private enterprise unit or institution attached medical office"
         },
         {
@@ -812,7 +812,7 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-109th years code item name code item name code item name code item name public public public public"
         },
         {
@@ -857,7 +857,7 @@
         },
         {
           "code": "47",
-          "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
+          "label_zh": "行政法人附設診所 47 行政法人附設診所非公立非公立非公立非公立",
           "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
@@ -907,62 +907,62 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
           "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic January 27, 2026 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
         },
         {
           "code": "42",
-          "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
+          "label_zh": "財團法人其他醫療機構醫療財團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "43",
-          "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
+          "label_zh": "社團法人其他醫療機構醫療社團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "77",
-          "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
+          "label_zh": "財團法人醫療機構附設護產機構醫療財團法人醫療機構附設護產機構",
           "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
-          "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
+          "label_zh": "社團法人醫療機構附設護產機構醫療社團法人醫療機構附設護產機構",
           "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
-          "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
+          "label_zh": "法人或其他人民團體附設機構精神復健機構法人或其他人民團體附設精神復健機構",
           "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
-          "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
+          "label_zh": "醫療財團法人醫療機構附設精神復健機構醫療財團法人附設精神復健機構",
           "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
-          "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
+          "label_zh": "醫療社團法人醫療機構附設精神復健機構醫療社團法人附設精神復健機構",
           "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",
-          "label_zh": "助產機構 私立助產機構",
+          "label_zh": "助產機構私立助產機構",
           "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
-          "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
+          "label_zh": "醫事檢驗機構私立醫事檢驗機構",
           "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
-          "label_zh": "鑲牙所 私立鑲牙所",
+          "label_zh": "鑲牙所私立鑲牙所",
           "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",
-          "label_zh": "物理治療機構 私立物理治療機構",
+          "label_zh": "物理治療機構私立物理治療機構",
           "label_en": "physical therapy institution private physical therapy institution"
         },
         {
@@ -972,12 +972,12 @@
         },
         {
           "code": "RY",
-          "label_zh": "職能治療機構 私立職能治療機構",
+          "label_zh": "職能治療機構私立職能治療機構",
           "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
-          "label_zh": "醫事放射機構 私立醫事放射機構",
+          "label_zh": "醫事放射機構私立醫事放射機構",
           "label_en": "medical radiological institution private medical radiological institution"
         },
         {
@@ -1007,12 +1007,12 @@
         },
         {
           "code": "5Y",
-          "label_zh": "驗光所 私立驗光所",
+          "label_zh": "驗光所私立驗光所",
           "label_en": "optician private optician"
         },
         {
           "code": "Z7",
-          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85 2026年01月27日修訂",
+          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85 2026年01月27日修訂",
           "label_en": ""
         }
       ],
@@ -1023,7 +1023,7 @@
       "entries": [
         {
           "code": "QOD",
-          "label_zh": "隔日使用一次 非每日常 QxD 每 x 日一次(x=2,3,4,….) 規使用頻 QxW 每 x 星期一次(x,y=1,2,3,4,….) 率 QxM 每 x 月一次(x,y=1,2,3,4,….)",
+          "label_zh": "隔日使用一次非每日常 QxD 每 x 日一次(x=2,3,4,….) 規使用頻 QxW 每 x 星期一次(x,y=1,2,3,4,….) 率 QxM 每 x 月一次(x,y=1,2,3,4,….)",
           "label_en": "Used once every other day Non-daily QxD Usage frequency QxW Used once every x weeks (x,y=1,2,3,4,...) Rate QxM Used once every x months (x,y=1,2,3,4,...)"
         },
         {
@@ -1048,7 +1048,7 @@
         },
         {
           "code": "ASORDER",
-          "label_zh": "依照醫師指示使用 每 x 小時使用一次 每 x 分鐘使用一次 每日常規 使用頻率",
+          "label_zh": "依照醫師指示使用每 x 小時使用一次每 x 分鐘使用一次每日常規使用頻率",
           "label_en": "as directed by physician, every x hours, every x minutes, daily routine, usage frequency"
         },
         {
@@ -1063,7 +1063,7 @@
         },
         {
           "code": "QDPM",
-          "label_zh": "每日一次下午使用 2026年01月27日修訂 藥品使用 代碼 名稱 備註 頻率",
+          "label_zh": "每日一次下午使用 2026年01月27日修訂藥品使用代碼名稱備註頻率",
           "label_en": "Once daily in the afternoon Revised on January 27, 2026 Medication usage Code Name Notes Frequency"
         },
         {
@@ -1098,12 +1098,12 @@
         },
         {
           "code": "AC",
-          "label_zh": "飯前 ACxH 飯前 x 小時使用 ACxM 飯前 x 分鐘使用 服用時間",
+          "label_zh": "飯前 ACxH 飯前 x 小時使用 ACxM 飯前 x 分鐘使用服用時間",
           "label_en": "Before meal ACxH Before meal x hours use ACxM Before meal x minutes use Time of administration"
         },
         {
           "code": "PC",
-          "label_zh": "飯後 PCxH 飯後 x 小時使用 PCxM 飯後 x 分鐘使用 prn prn 需要時使用 如：Q3HPRN：每三小時一次 2026年01月27日修訂",
+          "label_zh": "飯後 PCxH 飯後 x 小時使用 PCxM 飯後 x 分鐘使用 prn prn 需要時使用如：Q3HPRN：每三小時一次 2026年01月27日修訂",
           "label_en": "postprandial PCxH postprandially x hours usage PCxM postprandially x minutes usage prn prn as needed e.g.: Q3HPRN: every three hours once revised on January 27, 2026"
         }
       ],
@@ -1219,7 +1219,7 @@
         },
         {
           "code": "IVI",
-          "label_zh": "玻璃体內注射 2026年01月27日修訂 代碼 名稱 備註",
+          "label_zh": "玻璃体內注射 2026年01月27日修訂代碼名稱備註",
           "label_en": "vitrectomy revised on January 27, 2026 code name notes"
         },
         {
@@ -1244,7 +1244,7 @@
         },
         {
           "code": "OD",
-          "label_zh": "右眼 口咽直接用藥(如噴劑、塗",
+          "label_zh": "右眼口咽直接用藥(如噴劑、塗",
           "label_en": "right eye throat direct medication (e.g., spray, ointment)"
         },
         {

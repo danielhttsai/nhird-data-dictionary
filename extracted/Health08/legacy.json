@@ -29,7 +29,7 @@
       "name_en": "DISE_CODE",
       "type": "Char",
       "length": 7,
-      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
+      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
       "available_notes": [],
       "name_zh_en": "diagnosis code",
       "description_en": "ICD-9-CM and A-Code detailed diagnosis codes (DISE_CODE) and catastrophic illness categories (IIV_TYPE)对照表。请参考健保局网页。"
@@ -40,7 +40,7 @@
       "name_en": "HV_TYPE",
       "type": "Char",
       "length": 2,
-      "description_zh": "詳診斷代碼(DISE_CODE)與重大 傷病類別(IIV_TYPE)對照表。",
+      "description_zh": "詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。",
       "available_notes": [],
       "name_zh_en": "catastrophic illness category",
       "description_en": "Correspondence table of diagnosis code (DISE_CODE) and catastrophic illness category (IIV_TYPE)."
@@ -106,7 +106,7 @@
       "name_en": "ACPT_NO_B",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區 分局 5：高屏分局 6：東區分局",
+      "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區分局 5：高屏分局 6：東區分局",
       "available_notes": [],
       "name_zh_en": "procedure number_分局",
       "description_en": "0: Central Bureau 1: Taipei Branch Bureau 2: Hsinchu Branch Bureau 3: Zhongzheng Branch Bureau 4: Nanjing Branch Bureau 5: Kaohsiung Branch Bureau 6: Dongjiu Branch Bureau"
@@ -145,7 +145,7 @@
       "name_en": "VALID_E_DATE",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD。 未訂定有效期限者皆為永久有效， 故有效期限距今遠超過5年者應可 視為永久效期。",
+      "description_zh": "YYYYMMDD。 未訂定有效期限者皆為永久有效， 故有效期限距今遠超過5年者應可視為永久效期。",
       "available_notes": [],
       "name_zh_en": "Effective Until Date",
       "description_en": "YYYYMMDD. If no expiration date is set, it is considered permanent; thus, dates more than 5 years old can be treated as permanent."
@@ -195,7 +195,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
+      "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0：身分證字號符合編碼原則1：不 符合。"
@@ -206,20 +206,20 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "1. 經加密處理，身分證字號或外 籍居留證號碼(如無居留證號 碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 經加密處理，身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "1. Encrypted identification number or foreign resident permit number (if no resident permit number, passport number). 2. Sample size of the 2 million people sample file is 9 digits."
     },
     {
       "seq": 17,
-      "name_zh": "醫療機構縣市鄉鎮 市區代碼",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
       "name_en": "CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "醫療機構所在鄉鎮，代碼參照醫療 機構現況檔。",
+      "description_zh": "醫療機構所在鄉鎮，代碼參照醫療機構現況檔。",
       "available_notes": [],
-      "name_zh_en": "county city township district code of medical institution",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "medical institution town code referenced to the current medical institution file."
     },
     {
@@ -239,7 +239,7 @@
       "name_en": "HOSP_ID",
       "type": "Char",
       "length": 9,
-      "description_zh": "1. 經加密處理，為辨別醫療機構 的鍵值。 2. 200萬人抽樣檔長度為6",
+      "description_zh": "1. 經加密處理，為辨別醫療機構的鍵值。 2. 200萬人抽樣檔長度為6",
       "available_notes": [],
       "name_zh_en": "hospital code",
       "description_en": "1. encrypted key value for identifying medical institution 2. length of 2 million people sample file is 6"
@@ -250,7 +250,7 @@
       "name_en": "PRSN_ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "1. 經加密處理，醫師或原處方醫 師之身分證字號或外籍居留 證號。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "physician ID number",
       "description_en": "1. Encrypted physician or original prescriber identification number or foreign resident permit number. 2. Length of sampled file for 2 million people is 9 digits."
@@ -268,13 +268,13 @@
     },
     {
       "seq": 22,
-      "name_zh": "醫師身分證字號檢 誤",
+      "name_zh": "醫師身分證字號檢誤",
       "name_en": "PRSN_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則1：不 符合。",
+      "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
-      "name_zh_en": "physician ID number error",
+      "name_zh_en": "physician ID verification error",
       "description_en": "0：身分證字號符合編碼原則1：不 符合。"
     },
     {
@@ -300,7 +300,7 @@
       "name_en": "RS_CODE_A",
       "type": "Char",
       "length": 15,
-      "description_zh": "96年起新增，詳罕見疾病序號對照 表",
+      "description_zh": "96年起新增，詳罕見疾病序號對照表",
       "available_notes": [
         {
           "roc_year": 96,
@@ -317,7 +317,7 @@
       "name_en": "RS_CODE_B",
       "type": "Char",
       "length": 15,
-      "description_zh": "96年起新增，詳罕見疾病序號對照 表",
+      "description_zh": "96年起新增，詳罕見疾病序號對照表",
       "available_notes": [
         {
           "roc_year": 96,

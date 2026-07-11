@@ -29,10 +29,10 @@
       "name_en": "HOSP_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵 值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "hospital code",
-      "description_en": "encrypted key value to identify the medical institution"
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 2,
@@ -73,10 +73,10 @@
       "name_en": "CASE_TYPE",
       "type": "Char",
       "length": 2,
-      "description_zh": "詳案件分類（CASE_TYPE）譯碼 說明。",
+      "description_zh": "詳案件分類（CASE_TYPE）譯碼說明。",
       "available_notes": [],
       "name_zh_en": "Case Category",
-      "description_en": "detailed case classification CASE_TYPE code explanation."
+      "description_en": "Detailed case classification (CASE_TYPE) code explanation."
     },
     {
       "seq": 6,
@@ -95,7 +95,7 @@
       "name_en": "PART_CODE",
       "type": "Char",
       "length": 3,
-      "description_zh": "000：應部分負擔 詳見欄位部分負擔代號 （PART_CODE）說明。",
+      "description_zh": "000：應部分負擔詳見欄位部分負擔代號 （PART_CODE）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment code",
       "description_en": "000: Partial burden see field partial burden code (PART_CODE) explanation."
@@ -106,7 +106,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。身分證字號或外籍居 留證號碼(如無居留證號碼為護照 號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
@@ -145,7 +145,7 @@
       "name_en": "FUNC_SEQ_NO",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國92年(含)以前2碼，93年以 後4碼，詳見欄位健保卡就醫序號 （FUNC_SEQ_NO）譯碼說明。",
+      "description_zh": "民國92年(含)以前2碼，93年以後4碼，詳見欄位健保卡就醫序號 （FUNC_SEQ_NO）譯碼說明。",
       "available_notes": [
         {
           "roc_year": 92,
@@ -167,7 +167,7 @@
       "name_en": "FUNC_TYPE",
       "type": "Char",
       "length": 2,
-      "description_zh": "保險對象住院中有二次以上轉就 醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明。",
+      "description_zh": "保險對象住院中有二次以上轉就醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明。",
       "available_notes": [],
       "name_zh_en": "department visited",
       "description_en": "For insured patients with more than two transfers to medical specialties during hospitalization, the specialty at discharge should be recorded. Refer to the field for medical specialty (FUNC_TYPE) for details."
@@ -189,7 +189,7 @@
       "name_en": "ACU_BED_DAYS",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住急性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
+      "description_zh": "病人住急性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
       "available_notes": [],
       "name_zh_en": "acute inpatient days",
       "description_en": "Total inpatient days for acute bed stay, counted from the date of admission to the day before discharge, including days with ORDER_TYPE Z in the inpatient medical order file."
@@ -200,7 +200,7 @@
       "name_en": "CHR_BED_DAYS",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住慢性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
+      "description_zh": "病人住慢性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
       "available_notes": [],
       "name_zh_en": "chronic inpatient days",
       "description_en": "Total inpatient days for chronic bed stay, counted from the date of admission to the day before discharge, including days with ORDER_TYPE Z in the inpatient medical order file."
@@ -211,7 +211,7 @@
       "name_en": "PAT_SOURCE",
       "type": "Char",
       "length": 1,
-      "description_zh": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段 結清，致部分負擔小於法定比例或 每次最高上限金額 5: N、C、R 乳癌試辦計畫 N、C、R：乳癌試辦計畫（90.12） S：代辦精神病嚴重病人送醫及強 制住院（92.06代辦）(98.07起適用) 7:同次住院費用依規定切帳申報案 件 註:92 年起新增此欄位",
+      "description_zh": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段結清，致部分負擔小於法定比例或每次最高上限金額 5: N、C、R 乳癌試辦計畫 N、C、R：乳癌試辦計畫（90.12） S：代辦精神病嚴重病人送醫及強制住院（92.06代辦）(98.07起適用) 7:同次住院費用依規定切帳申報案件註:92 年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 92,
@@ -228,7 +228,7 @@
       "name_en": "PRSN_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，醫師或原處方醫師之 身分證字號或外籍居留證號。",
+      "description_zh": "經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。",
       "available_notes": [],
       "name_zh_en": "physician ID number",
       "description_en": "Encrypted, physician or original prescriber's ID number or foreign resident permit number."
@@ -239,7 +239,7 @@
       "name_en": "DRG_CODE",
       "type": "Char",
       "length": 5,
-      "description_zh": "詳情請於健保署之醫事機構專區 網頁查詢。",
+      "description_zh": "詳情請於健保署之醫事機構專區網頁查詢。",
       "available_notes": [],
       "name_zh_en": "DRG reference code",
       "description_en": "for details please visit the medical institutions section on the MOHCS website."
@@ -250,7 +250,7 @@
       "name_en": "EXT_CODE1",
       "type": "Char",
       "length": 5,
-      "description_zh": "汽機車交通事故為Y時，本欄不得 空白。 ICD-9-CM 之E碼 註: 1.健保署規定醫療院所自105年起 以ICD-10-CM 申報。 2.108年起無",
+      "description_zh": "汽機車交通事故為Y時，本欄不得空白。 ICD-9-CM 之E碼註: 1.健保署規定醫療院所自105年起以ICD-10-CM 申報。 2.108年起無",
       "available_notes": [
         {
           "roc_year": 105,
@@ -272,7 +272,7 @@
       "name_en": "EXT_CODE2",
       "type": "Char",
       "length": 5,
-      "description_zh": "ICD-9-CM 之E碼 註: 1.健保署規定醫療院所自105年起 以ICD-10-CM 申報。 2.108年起無",
+      "description_zh": "ICD-9-CM 之E碼註: 1.健保署規定醫療院所自105年起以ICD-10-CM 申報。 2.108年起無",
       "available_notes": [
         {
           "roc_year": 105,
@@ -305,7 +305,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-CM 之代 碼 案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之 主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年 起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -377,7 +377,7 @@
       "name_en": "OP_CODE1",
       "type": "Char",
       "length": 9,
-      "description_zh": "註: 1. 健保署規定醫療院所自 105 年 起以ICD-10-PCS 申報。",
+      "description_zh": "註: 1. 健保署規定醫療院所自 105 年起以ICD-10-PCS 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -625,7 +625,7 @@
       "name_en": "EXP_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (OP_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數",
+      "description_zh": "為診察點數(DIAG_DOT)、病房點數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (OP_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數",
       "available_notes": [],
       "name_zh_en": "medical point",
       "description_en": "Diagnosis points (DIAG_DOT), ward points (ROOM_DOT), enteral nutrition points (MEAL_DOT), examination points (AMIN_DOT), radiological treatment points (RADO_DOT), therapeutic procedure points (THRP_DOT), surgical points (OP_DOT), physical therapy points (PHSC_DOT), blood plasma points (BLOD_DOT), hemodialysis points (HD_DOT), anesthesia points, special material points"
@@ -636,7 +636,7 @@
       "name_en": "PART_AMT",
       "type": "Num",
       "length": 8,
-      "description_zh": "醫事服務機構收取之部分負擔點 數。 應不含住院醫令檔醫令類別 (ORDER_TYPE)有「Z:部分已切帳 申報費用之藥品、診療明細、特殊 材料醫令」之G00001部分負擔點 數，詳見欄位部分負擔金額 （PART_AMT）說明。",
+      "description_zh": "醫事服務機構收取之部分負擔點數。 應不含住院醫令檔醫令類別 (ORDER_TYPE)有「Z:部分已切帳申報費用之藥品、診療明細、特殊材料醫令」之G00001部分負擔點數，詳見欄位部分負擔金額 （PART_AMT）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
       "description_en": "The copayment points collected by medical service institutions. Should not include outpatient orders (ORDER_TYPE) with 'Z: partial billing claimed for drugs, treatments, or special materials', as detailed in the field description of copayment amount (PART_AMT)."
@@ -658,14 +658,14 @@
       "name_en": "ACU_EXP30_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.住院之部分負擔隨著住院天數及 病床類別(急性病床或慢性病床)有 不同的負擔比率，因此住院之醫療 費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以 上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請 將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
+      "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
       "available_notes": [],
       "name_zh_en": "acute bed points (30 days or less)",
       "description_en": "1. Multiple order records for one admission. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
     },
     {
       "seq": 54,
-      "name_zh": "部分負擔點數(急性 病床1-30天)",
+      "name_zh": "部分負擔點數(急性病床1-30天)",
       "name_en": "ACU_PART30_DOT",
       "type": "Num",
       "length": 8,
@@ -687,7 +687,7 @@
     },
     {
       "seq": 56,
-      "name_zh": "部分負擔點數(急性 病床31-60天)",
+      "name_zh": "部分負擔點數(急性病床31-60天)",
       "name_en": "ACU_PART60_DOT",
       "type": "Num",
       "length": 8,
@@ -709,7 +709,7 @@
     },
     {
       "seq": 58,
-      "name_zh": "部分負擔點數(急性 病床61天以上)",
+      "name_zh": "部分負擔點數(急性病床61天以上)",
       "name_en": "ACU_PART61_DOT",
       "type": "Num",
       "length": 8,
@@ -731,7 +731,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "部分負擔點數(慢性 病床1-30天)",
+      "name_zh": "部分負擔點數(慢性病床1-30天)",
       "name_en": "CHR_PART30_DOT",
       "type": "Num",
       "length": 8,
@@ -753,7 +753,7 @@
     },
     {
       "seq": 62,
-      "name_zh": "部分負擔點數(慢性 病床31-90天)",
+      "name_zh": "部分負擔點數(慢性病床31-90天)",
       "name_en": "CHR_PART90_DOT",
       "type": "Num",
       "length": 8,
@@ -775,7 +775,7 @@
     },
     {
       "seq": 64,
-      "name_zh": "部分負擔點數(慢性 病床91-180天)",
+      "name_zh": "部分負擔點數(慢性病床91-180天)",
       "name_en": "CHR_PART180_DOT",
       "type": "Num",
       "length": 8,
@@ -797,7 +797,7 @@
     },
     {
       "seq": 66,
-      "name_zh": "部分負擔點數(慢性 病床181天以上)",
+      "name_zh": "部分負擔點數(慢性病床181天以上)",
       "name_en": "CHR_PART181_DOT",
       "type": "Num",
       "length": 8,
@@ -829,7 +829,7 @@
       "name_en": "APPL_CAUSE_MARK",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：補報整筆案件 2：補報部分醫 令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄 位，送核案件免填補空白 註:98 年起新增此欄位",
+      "description_zh": "1：補報整筆案件 2：補報部分醫令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄位，送核案件免填補空白註:98 年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 103,
@@ -847,22 +847,22 @@
     },
     {
       "seq": 69,
-      "name_zh": "TW_DRGS 支付型 態",
+      "name_zh": "TW_DRGS 支付型態",
       "name_en": "TW_DRGS_PAY_TYP E",
       "type": "Char",
       "length": 1,
-      "description_zh": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點 範圍內者 1：費用高於Tw-DRG 上限臨界點 者 2：費用低於Tw-DRG 下限臨界點 核實申報者 3：無權重之Tw-DRG 核實申報者 4：該Tw-DRG個案<20 核實申報 者 5：論日支付者（轉歸代碼為一般",
+      "description_zh": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點範圍內者 1：費用高於Tw-DRG 上限臨界點者 2：費用低於Tw-DRG 下限臨界點核實申報者 3：無權重之Tw-DRG 核實申報者 4：該Tw-DRG個案<20 核實申報者 5：論日支付者（轉歸代碼為一般",
       "available_notes": [],
       "name_zh_en": "TW_DRGS payment type",
       "description_en": "For claims categorized as '5', this column must be filled: 0: Fees within the Tw-DRG range, 1: Fees above the upper Tw-DRG limit, 2: Fees below the lower Tw-DRG limit requiring verification, 3: Verification required for weightless Tw-DRG, 4: Cases with less than 20 Tw-DRGs requiring verification, 5: Daily payment (transfer code as general"
     },
     {
       "seq": 70,
-      "name_zh": "依附就醫新生兒胞 胎註記",
+      "name_zh": "依附就醫新生兒胞胎註記",
       "name_en": "CHILD_MARK",
       "type": "Char",
       "length": 1,
-      "description_zh": "單胞胎或多胞胎之新生兒出生順 序及性別表示，如下表 配合健保卡資料上傳格式1.0作業 說明修正如下表 新生兒出生順序 性別 男 女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 註:98 年起新增此欄位 10~26 J~Z j~z",
+      "description_zh": "單胞胎或多胞胎之新生兒出生順序及性別表示，如下表配合健保卡資料上傳格式1.0作業說明修正如下表新生兒出生順序性別男女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 註:98 年起新增此欄位 10~26 J~Z j~z",
       "available_notes": [
         {
           "roc_year": 98,
@@ -875,11 +875,11 @@
     },
     {
       "seq": 71,
-      "name_zh": "不適 TW_DRGS 案 件特殊註記",
+      "name_zh": "不適 TW_DRGS 案件特殊註記",
       "name_en": "TW_DRGS_SUIT_MA RK",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位不適TW_DRGS 案件特 殊註記 （TW_DRGS_SUIT_MARK）說明 註:98 年起新增此欄位",
+      "description_zh": "詳見欄位不適TW_DRGS 案件特殊註記 （TW_DRGS_SUIT_MARK）說明註:98 年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 98,
@@ -903,11 +903,11 @@
     },
     {
       "seq": 73,
-      "name_zh": "依附就醫新生兒日 齡",
+      "name_zh": "依附就醫新生兒日齡",
       "name_en": "CHILD_AGE",
       "type": "Char",
       "length": 20,
-      "description_zh": "以就醫日期及新生兒生日計算 欄位PART_NO(部分負擔代號)為",
+      "description_zh": "以就醫日期及新生兒生日計算欄位PART_NO(部分負擔代號)為",
       "available_notes": [],
       "name_zh_en": "days of newborns attached to hospitalization",
       "description_en": "计算就医日期及新生儿生日 括号内PART_NO(自付费用代码)为"
@@ -936,13 +936,13 @@
     },
     {
       "seq": 76,
-      "name_zh": "醫師身分證字號檢 誤",
+      "name_zh": "醫師身分證字號檢誤",
       "name_en": "PRSN_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
-      "name_zh_en": "physician ID number error",
+      "name_zh_en": "physician ID verification error",
       "description_en": "0：身分證字號符合編碼原則 1：不符合。"
     },
     {
@@ -958,13 +958,13 @@
     },
     {
       "seq": 78,
-      "name_zh": "醫療機構縣市鄉鎮 市區代碼",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
       "name_en": "CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "醫療機構所在鄉鎮。 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市 升格或合併而變更。",
+      "description_zh": "醫療機構所在鄉鎮。 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市升格或合併而變更。",
       "available_notes": [],
-      "name_zh_en": "county city township district code of medical institution",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "Medical institution township. Code referenced from current medical institution file. Based on the摘录信息, will not change due to county-city upgrades or mergers."
     },
     {
@@ -1006,7 +1006,7 @@
         },
         {
           "code": "4",
-          "label_zh": "支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼吸 照護99.1、急性後期照護103.01）",
+          "label_zh": "支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼吸照護99.1、急性後期照護103.01）",
           "label_en": "trial payment system (breast cancer applicable since December 2000, hepatitis applicable since October 2004, respiratory care applicable since January 2009, acute post-acute care applicable since January 2014)"
         },
         {
@@ -1041,27 +1041,27 @@
         },
         {
           "code": "AZ",
-          "label_zh": "職業傷病住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 衛生福利部(B1-BZ) B1 精神病嚴重病人送醫及強制住院案件(部分負擔代碼應 為「009:本署其他規定免部分負擔者」) 疾病管制署(C1-CZ) C1 AIDS 案件：依疾病管制署訂定「人類免疫缺乏病毒檢 驗預防治療費用支付手冊」規定 請參閱「衛生福利部法定傳染病醫療服務費用支付作業 規範」規定。 【費用年月103.02.01(含)起刪除)】【(費用年用 104.01.01(含)起刪除】。",
+          "label_zh": "職業傷病住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 衛生福利部(B1-BZ) B1 精神病嚴重病人送醫及強制住院案件(部分負擔代碼應為「009:本署其他規定免部分負擔者」) 疾病管制署(C1-CZ) C1 AIDS 案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。 【費用年月103.02.01(含)起刪除)】【(費用年用 104.01.01(含)起刪除】。",
           "label_en": "I20: Requires additional drug-fee copayment. I21: Clinics, district hospitals, or low/middle-low-income and disability-certificate holders are exempt from additional drug-fee copayment for referred cases at medical centers/regional hospitals with drug fees under NT$100. I22: Those meeting the NHI drug-fee copayment-exemption rules, including clinic-referred chronic refillable-prescription cases, the 2nd and later dispensings of hospital-referred chronic prescriptions, low/middle-low-income and disability-certificate holders' chronic-prescription cases referred at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. See the Copayment Code (PART_NO) coding notes. Note: added July ROC 98 (2009)."
         },
         {
           "code": "C2",
-          "label_zh": "結核病痰抹片陽性個案住院<=14天內案件(算進不算 出)。",
+          "label_zh": "結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。",
           "label_en": "Tuberculosis sputum smear positive cases inpatient <=14 days within case (count in but not out)."
         },
         {
           "code": "C3",
-          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算進 不算出)。96年5月2日健保醫字第0960014750號函自 2026年01月27日修訂 代辦單位 代碼 名稱 96年5月1日起修訂適用範圍和申報醫院資格為抗結核 藥物副作用個案住院≦30天，且限該局「MDR 結核病 醫療照護體系」之合作醫院及各醫學中心申報。",
+          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算進不算出)。96年5月2日健保醫字第0960014750號函自 2026年01月27日修訂代辦單位代碼名稱 96年5月1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院≦30天，且限該局「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。",
           "label_en": "Tuberculosis MDR and antituberculosis drug side effects inpatient stay ≤60 days (inclusive of entry, exclusive of exit). Effective since May 2, 1996, letter No. 0960014750 from the National Health Insurance on May 2, 1996, revised on January 27, 2026. For cases with antituberculosis drug side effects, inpatient stay ≤30 days is required and must be reported to hospitals participating in the MDR Tuberculosis medical care system or medical centers."
         },
         {
           "code": "C4",
-          "label_zh": "無健保結核病患之醫療費用(96年7月9日健保醫字第 0960023163號函增訂) 請參閱「衛生福利部法定傳染病醫療服務費用支付作業 規範」規定。",
+          "label_zh": "無健保結核病患之醫療費用(96年7月9日健保醫字第 0960023163號函增訂) 請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。",
           "label_en": "Medical expenses for non-Insured tuberculosis patients(自96年7月9日健保医字第0960023163号函增订) 请参阅「卫生福利部法定传染病医疗服务费用支付作业规范」规定。"
         },
         {
           "code": "C5",
-          "label_zh": "110/1/1起 法定傳染病通報且隔離案件 請參閱「衛生福利部法定傳染病醫療服務費用支付作業 規範」規定。 衛生福利部 DZ 低收入戶住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 2026年01月27日修訂",
+          "label_zh": "110/1/1起法定傳染病通報且隔離案件請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。 衛生福利部 DZ 低收入戶住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 2026年01月27日修訂",
           "label_en": "Starting from 2021/01/01, report and isolate cases of statutory notifiable infectious diseases as per the regulations in 'Payment Rules for Medical Expenses of Statutory Notifiable Infectious Diseases under the Ministry of Health and Welfare'. Low-income household inpatient meal expenses (added on March 26, 97 by Council of Health, MOHW No. 0970002000) were revised on January 27, 2026"
         }
       ],
@@ -1092,27 +1092,27 @@
         },
         {
           "code": "6",
-          "label_zh": "自然生產 保險對象不符醫療上適應症而自行要求施",
+          "label_zh": "自然生產保險對象不符醫療上適應症而自行要求施",
           "label_en": "natural delivery insured party did not meet medical indications but requested it on their own"
         },
         {
           "code": "7",
-          "label_zh": "剖腹生產 行剖腹產手術者，給付類別填『7』 88.09起申報類別為「2」補報者使用，",
+          "label_zh": "剖腹生產行剖腹產手術者，給付類別填『7』 88.09起申報類別為「2」補報者使用，",
           "label_en": "cesarean delivery those who undergo cesarean section surgery, payment category fill '7' Starting from 2008.09, claim category is '2' for retroactive claims;"
         },
         {
           "code": "8",
-          "label_zh": "天然災害 目前暫停使用 89.04增訂，89.06起申報類別為「2」補報 者使用 自99年1月(費用年月)起，「全民健康保 險呼吸器依賴患者整合性照護前瞻性支付 方式」試辦計畫之醫療費用申報，請依98 年11月5日健保醫字第0980091465號公",
+          "label_zh": "天然災害目前暫停使用 89.04增訂，89.06起申報類別為「2」補報者使用自99年1月(費用年月)起，「全民健康保險呼吸器依賴患者整合性照護前瞻性支付方式」試辦計畫之醫療費用申報，請依98 年11月5日健保醫字第0980091465號公",
           "label_en": "Natural disaster Currently suspended for use 89.04 amendment, claims category '2' for supplementary reporting starting from June 1990, 'National Health Insurance Respiratory Device Dependence Patients Integrated Care Prospective Payment Scheme' medical expense claims since January 1999, please refer to the 5th notice of NHRI No. 0980091465 on November 5, 1998"
         },
         {
           "code": "9",
-          "label_zh": "呼吸照護 告辦理，其中申報類別(欄位IDt5)為「1: 送核」者，參與試辦計畫之案件以案件分 類「4:支付制度試辦計畫」申報。未參與 試辦計畫案件之案件分類為「1:一般案件 或3:特定案件」，參與或未參與試辦計畫 案件之給付類別均為「9:呼吸照護」。 1.89.07起申報類別為「2」補報者使用 2.98.08增訂 1.安寧照護",
+          "label_zh": "呼吸照護告辦理，其中申報類別(欄位IDt5)為「1: 送核」者，參與試辦計畫之案件以案件分類「4:支付制度試辦計畫」申報。未參與試辦計畫案件之案件分類為「1:一般案件或3:特定案件」，參與或未參與試辦計畫案件之給付類別均為「9:呼吸照護」。 1.89.07起申報類別為「2」補報者使用 2.98.08增訂 1.安寧照護",
           "label_en": "Respiratory care claims processed, among which claims category (field IDt5) is '1: Submit for Review', cases participating in the pilot program are reported under case classification '4: Payment System Pilot Program'. Cases not participating in the pilot program are classified as '1: General Case' or '3: Special Case'. The payment category for both participating and non-participating cases is '9: Respiratory Care'. Effective from 1.89.07, claims category '2' for supplementary reports was added on 1.98.08."
         },
         {
           "code": "A",
-          "label_zh": "98年9月起案件申報類別以「1:送核」、 2.天然災害-巡迴 給付類別「A:安寧療護」、案件分類以「6: 安寧療護案件」申報 1新加坡航空空難 (1)89.10.31增訂，現已刪除 2天然災害-非巡迴 (2)98.08增訂",
+          "label_zh": "98年9月起案件申報類別以「1:送核」、 2.天然災害-巡迴給付類別「A:安寧療護」、案件分類以「6: 安寧療護案件」申報 1新加坡航空空難 (1)89.10.31增訂，現已刪除 2天然災害-非巡迴 (2)98.08增訂",
           "label_en": "Cases reported from September 1, 1998, categorized as '1: Submission for review', natural disaster - mobile service category 'A: Palliative care', case classification as '6: Palliative care cases' 1 Singapore Airlines air crash (1) Added on October 31, 1989, now deleted 2 Natural disaster - non-mobile (2) Added in August 1998"
         },
         {
@@ -1147,7 +1147,7 @@
         },
         {
           "code": "I",
-          "label_zh": "代辦法定傳染病(SARS於署市立醫院居家 隔離) 2026年01月27日修訂",
+          "label_zh": "代辦法定傳染病(SARS於署市立醫院居家隔離) 2026年01月27日修訂",
           "label_en": "Handling statutory infectious diseases (SARS home isolation at municipal hospitals) revised on January 27, 2026"
         },
         {
@@ -1162,7 +1162,7 @@
         },
         {
           "code": "M",
-          "label_zh": "全民健康保險加強慢性B、C型肝炎治療試辦92.10增訂 計畫、C型肝炎全口服新藥健保給付執行計畫 106.1.24新增",
+          "label_zh": "全民健康保險加強慢性B、C型肝炎治療試辦92.10增訂計畫、C型肝炎全口服新藥健保給付執行計畫 106.1.24新增",
           "label_en": "National Health Insurance Enhanced Chronic B, C Hepatitis Treatment Pilot Program (92.10) Plan for New Direct Oral Antiviral Medications for Hepatitis C Added (106.1.24)"
         },
         {
@@ -1177,7 +1177,7 @@
         },
         {
           "code": "X",
-          "label_zh": "法定傳染病通報且隔離之費用拆疾管署及 110/1/1起 健保支付案件",
+          "label_zh": "法定傳染病通報且隔離之費用拆疾管署及 110/1/1起健保支付案件",
           "label_en": "notifiable infectious disease reporting and isolation costs split by CDC and starting from 2021/1/1 insured cases"
         },
         {
@@ -1223,7 +1223,7 @@
         },
         {
           "code": "C000",
-          "label_zh": "停電 例外就醫者(首次加保1個月內，補換發卡 14日內) 醫療資訊系統(HIS)當機/",
+          "label_zh": "停電例外就醫者(首次加保1個月內，補換發卡 14日內) 醫療資訊系統(HIS)當機/",
           "label_en": "power outage patients (within 1 month of initial insurance enrollment, card replacement within 14 days) / hospital information system failure"
         },
         {
@@ -1243,7 +1243,7 @@
         },
         {
           "code": "E001",
-          "label_zh": "控卡名單已簽切結書 醫事機構赴偏遠地區因無電話撥接上網設 備之居家醫療照護",
+          "label_zh": "控卡名單已簽切結書醫事機構赴偏遠地區因無電話撥接上網設備之居家醫療照護",
           "label_en": "cardholder list signed settlement agreement medical institutions providing home healthcare to remote areas due to lack of phone access"
         },
         {
@@ -1258,12 +1258,12 @@
         },
         {
           "code": "H000",
-          "label_zh": "高齡醫師 居家輕量藍牙方案之離線認卡(無法過卡 取得就醫序號)(108.03.01新增) 住院中執行床號變更轉床及非手術、CT、",
+          "label_zh": "高齡醫師居家輕量藍牙方案之離線認卡(無法過卡取得就醫序號)(108.03.01新增) 住院中執行床號變更轉床及非手術、CT、",
           "label_en": "Geriatric Physician Home Light Bluetooth Program Offline Card Recognition (unable to swipe card for medical visit number) during inpatient bed change and non-surgical, CT,"
         },
         {
           "code": "J000",
-          "label_zh": "MRI、PET 時，因辦理住院手續查驗其 健保卡後歸還保險對象無法取得健保卡。 說明 ： (1)在卡片取得就醫序號前，即發生異常，造成無法讀寫健保IC卡時，使用「尚未取得 就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (2)若已自卡片中取得就醫序號後，才發生異常，造成無法繼續讀寫健保IC卡時，使用 「已取得就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (3)若屬於「尚未取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，會更新 其「最近一次就醫序號」（就醫類別為01-08）及所有費用與次數之加總。 (4)若屬於「已取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，僅會更新 其所有費用與次數之加總。 (5)服務機構經健保署分區業務組輔導後，確實因故未能配合建置健保IC卡網路連線等 作業，無法受理以健保IC卡就診者，可專案申請，經健保署分區業務組同意後，以 H000申報。 2026年01月27日修訂",
+          "label_zh": "MRI、PET 時，因辦理住院手續查驗其健保卡後歸還保險對象無法取得健保卡。 說明 ： (1)在卡片取得就醫序號前，即發生異常，造成無法讀寫健保IC卡時，使用「尚未取得就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (2)若已自卡片中取得就醫序號後，才發生異常，造成無法繼續讀寫健保IC卡時，使用 「已取得就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (3)若屬於「尚未取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，會更新其「最近一次就醫序號」（就醫類別為01-08）及所有費用與次數之加總。 (4)若屬於「已取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，僅會更新其所有費用與次數之加總。 (5)服務機構經健保署分區業務組輔導後，確實因故未能配合建置健保IC卡網路連線等作業，無法受理以健保IC卡就診者，可專案申請，經健保署分區業務組同意後，以 H000申報。 2026年01月27日修訂",
           "label_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Contains raw data for cases diagnosed from 2011-2017 onward as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 3. The cancers covered by the cancer-registry short form (ROC-100 edition) include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 4. For cases classified as 0 or 3, field sequences 7.1-7.5 need not be reported and are filled with 9. 5. To analyze de-duplicated grouped annual-report data from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
         }
       ],
@@ -1274,12 +1274,12 @@
       "entries": [
         {
           "code": "906",
-          "label_zh": "906 906 用（102.01.01起適用；協助內政部役政署辦理項目） 2026年01月27日修訂 原住民於非山地暨離島地區接受戒菸服務者【104.11.01(含)",
+          "label_zh": "906 906 用（102.01.01起適用；協助內政部役政署辦理項目） 2026年01月27日修訂原住民於非山地暨離島地區接受戒菸服務者【104.11.01(含)",
           "label_en": "906 906 Used (effective since January 1, 2003; for assistance with the Ministry of Interior's Veterans Affairs Administration) Revised on January 27, 2026: Indigenous people receiving smoking cessation services in non- mountainous and offshore areas [Effective from November 1, 2014 (inclusive)]"
         },
         {
           "code": "907",
-          "label_zh": "907 起適用】。 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫 I21 學中心、區域醫院交付案件藥費一百元以下免加收藥費部分 負擔者 符合本保險藥費免部分負擔範圍規定者，包括基層診所交付 I22 慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次 (含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、 區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病 例計酬案件 代辦海洋委員會海巡署補助部分負擔(108/5/1起 ) 908 908 代辦中央警察大學補助部分負擔(108/5/1起 ) 909 909 代辦內政部消防署補助部分負擔(108/5/1起 ) 910 910 代辦內政部空勤總隊補助部分負擔(108/5/1起 ) 911 911 代辦內政部警政署補助部分負擔(108/5/1起 ) 912 912 代辦國防部補助部分負擔(108/5/1起 ) 913 913 行政協助法定傳染病通報隔離案件(110/1/1起 ) 914 914 代辦內政部移民署補助部分負擔 (110/11/1起 ) 915 915 長照機構加強型結核病防治計畫免部分負擔 916 註： 依97年2月13日健保醫字第0970001927號函，倘同一案件同時符合二項以上免部分負 擔條件者，門、住診皆依下列原則填寫： (1)依全民健康保險法規定(健保法 94 條)職業災害(含職業傷害及職業病)優先填寫，即部 分負擔代碼「006(勞工保險被保險人因職業傷害或職業病就診者)」優先填寫。 (2)非屬上開案件，則依全民健康保險法規定(健保法48條)免自行負擔者優先擇一適用填 寫，包括重大傷病(部分負擔代碼：001)、分娩(部分負擔代碼：002)、預防保健服務 (部分負擔代碼：009)及山地離島地區之就醫(部分負擔代碼：007)之部分。 (3)再者，若非上開(1)、(2)情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填 寫。 2026年01月27日修訂",
+          "label_zh": "907 起適用】。 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫 I21 學中心、區域醫院交付案件藥費一百元以下免加收藥費部分負擔者符合本保險藥費免部分負擔範圍規定者，包括基層診所交付 I22 慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次 (含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、 區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件代辦海洋委員會海巡署補助部分負擔(108/5/1起 ) 908 908 代辦中央警察大學補助部分負擔(108/5/1起 ) 909 909 代辦內政部消防署補助部分負擔(108/5/1起 ) 910 910 代辦內政部空勤總隊補助部分負擔(108/5/1起 ) 911 911 代辦內政部警政署補助部分負擔(108/5/1起 ) 912 912 代辦國防部補助部分負擔(108/5/1起 ) 913 913 行政協助法定傳染病通報隔離案件(110/1/1起 ) 914 914 代辦內政部移民署補助部分負擔 (110/11/1起 ) 915 915 長照機構加強型結核病防治計畫免部分負擔 916 註： 依97年2月13日健保醫字第0970001927號函，倘同一案件同時符合二項以上免部分負擔條件者，門、住診皆依下列原則填寫： (1)依全民健康保險法規定(健保法 94 條)職業災害(含職業傷害及職業病)優先填寫，即部分負擔代碼「006(勞工保險被保險人因職業傷害或職業病就診者)」優先填寫。 (2)非屬上開案件，則依全民健康保險法規定(健保法48條)免自行負擔者優先擇一適用填寫，包括重大傷病(部分負擔代碼：001)、分娩(部分負擔代碼：002)、預防保健服務 (部分負擔代碼：009)及山地離島地區之就醫(部分負擔代碼：007)之部分。 (3)再者，若非上開(1)、(2)情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填寫。 2026年01月27日修訂",
           "label_en": "Care Plan — Assistive Devices (W_LTC_CMS_QD113). Records: 66,924 (ROC 110/2021); 94,847 (ROC 111/2022). File size: 5.18 MB (2021); 7.37 MB (2022). Fields: 10. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: matches the case master file (W_LTC_CMS_CA100) on the case serial number CA100_ID; matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID; matches Service Item (W_LTC_CMS_QD100) on the assistive-device item serial number."
         }
       ],
@@ -1330,22 +1330,22 @@
         },
         {
           "code": "8",
-          "label_zh": "案件分類改變之切帳申報（健保給付案件改為代辦案件或代辦案件間之案件分類改 變或代辦案件改為健保給付案件或健保給付案件間代碼改變或非健保給付案 件改健保給付案件。）",
+          "label_zh": "案件分類改變之切帳申報（健保給付案件改為代辦案件或代辦案件間之案件分類改變或代辦案件改為健保給付案件或健保給付案件間代碼改變或非健保給付案件改健保給付案件。）",
           "label_en": "Claim adjustment due to changes in case classification (from health insurance claims cases to代办cases, or between different types of代办cases, or from代办cases back to health insurance claims cases, or code changes between health insurance claims cases)."
         },
         {
           "code": "9",
-          "label_zh": "住院30日內未出院之切帳申報個案(如部分負擔代碼改變)，但仍為健保給付案件。 申報本註記者申請費用點數應為「0」，轉歸代碼應為「7」身分變更或「2繼續住 院」",
+          "label_zh": "住院30日內未出院之切帳申報個案(如部分負擔代碼改變)，但仍為健保給付案件。 申報本註記者申請費用點數應為「0」，轉歸代碼應為「7」身分變更或「2繼續住院」",
           "label_en": "Inpatient claims within 30 days of admission where discharge was not recorded but still covered by the National Health Insurance (NHI), with claim for payment points as '0' and transfer code as '7' identity change or '2 continue hospitalization'."
         },
         {
           "code": "A",
-          "label_zh": "因住院30日內切帳申報(如部分負擔代碼改變)，且出院之非DRG 案件或>30天未 出院之非DRG案件。申報本註記者 ，醫令清單應有醫令類別B、Z之醫令",
+          "label_zh": "因住院30日內切帳申報(如部分負擔代碼改變)，且出院之非DRG 案件或>30天未出院之非DRG案件。申報本註記者 ，醫令清單應有醫令類別B、Z之醫令",
           "label_en": "Inpatient claims within 30 days of discharge where the copayment code has changed or for non-DRG cases that have not been discharged after more than 30 days. Claims should include medical orders with categories B and Z."
         },
         {
           "code": "B",
-          "label_zh": "其他非屬「醫院醫療給付費用總額」範圍之案件(案件分類應為代辦案件之代碼或西 醫基層診所住院案件)",
+          "label_zh": "其他非屬「醫院醫療給付費用總額」範圍之案件(案件分類應為代辦案件之代碼或西醫基層診所住院案件)",
           "label_en": "Cases not within the scope of 'Hospital Medical Payment Total Amount' (cases classified as proxy service codes or inpatient cases from Western medical clinics)"
         },
         {
@@ -1355,12 +1355,12 @@
         },
         {
           "code": "D",
-          "label_zh": "服務機構之服務機構代號改變【舊代號；如保險對象繼續住院者，「出院年月日」欄 位免填，「轉歸代碼」欄位應填報2（繼續住院）】或停約開始之切帳申報(出院日期 在合約迄日當天或停約起日前一當天者)",
+          "label_zh": "服務機構之服務機構代號改變【舊代號；如保險對象繼續住院者，「出院年月日」欄位免填，「轉歸代碼」欄位應填報2（繼續住院）】或停約開始之切帳申報(出院日期在合約迄日當天或停約起日前一當天者)",
           "label_en": "Service institution service institution code change [old code; if the insured continues to be hospitalized, the 'discharge date' field should not be filled, and the 'outcome code' field should report 2 (continued hospitalization)] or stop contract billing start (discharge date on the same day as the contract end date or one day before the stop contract start date)"
         },
         {
           "code": "E",
-          "label_zh": "服務機構之服務機構代號改變(新代號) 或停約屆滿之切帳申報(入院日在合約起日 當天或停約迄日之次一日者)",
+          "label_zh": "服務機構之服務機構代號改變(新代號) 或停約屆滿之切帳申報(入院日在合約起日當天或停約迄日之次一日者)",
           "label_en": "Service institution service institution code change (new code) or billing report due to contract expiration (admission date on the day of contract start date or next day after contract end date)"
         },
         {
@@ -1400,7 +1400,7 @@
         },
         {
           "code": "N",
-          "label_zh": "同次住院多胎生產，一胎自然產，其餘胎數非自行要求改以剖腹產，以論量計酬方 式申報(105.03.01增訂）",
+          "label_zh": "同次住院多胎生產，一胎自然產，其餘胎數非自行要求改以剖腹產，以論量計酬方式申報(105.03.01增訂）",
           "label_en": "Multiple births during the same hospital stay, one natural delivery, others not requested to be delivered by cesarean section, reported under a volume-based payment system (added on 2015.03.01)"
         },
         {
@@ -1446,7 +1446,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 私立 私立 私立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院私立私立私立非公立非公立",
           "label_en": "Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital 8 Public Traditional Chinese Medicine Hospital Private Private Private Non-public Non-public"
         },
         {
@@ -1486,7 +1486,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 99-100 101 102 103 104 code item name code item name code item name code item name code item name public public public public public"
         },
         {
@@ -1521,7 +1521,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立非公立",
           "label_en": "Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital 8 Public TCM Hospital Non-public Non-public Non-public Non-public Non-public"
         },
         {
@@ -1561,7 +1561,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 2005 2006 2007 2008-2011 code item name code item name code item name code item name public public public public"
         },
         {
@@ -1596,7 +1596,7 @@
         },
         {
           "code": "8",
-          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院 8 公立中醫醫院非公立非公立非公立非公立",
           "label_en": "Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital 8 Public traditional Chinese medicine hospital Non-public Non-public Non-public Non-public"
         },
         {
@@ -1636,7 +1636,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以111年調整） 86-87年 88-94年 95年 96年 97-98年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以111年調整） 86-87年 88-94年 95年 96年 97-98年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 2025-04-01 Revised 83-109 Year Clinic Ownership Code Table (Adjusted in 111) 86-87 Years 88-94 Years 95 Year 96 Year 97-98 Years Code Item Name Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public Public"
         },
         {
@@ -1676,7 +1676,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 私立 私立 私立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所私立私立私立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic private private private non-public non-public"
         },
         {
@@ -1691,12 +1691,12 @@
         },
         {
           "code": "32",
-          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室 宗教財團法人附設診所",
+          "label_zh": "32 宗教財團法人附設診所 32 宗教財團法人附設診所 32 公益法人附設醫療機構 32 宗教財團法人附設診所/醫務室宗教財團法人附設診所",
           "label_en": "32 宗教财团法人附设诊所 32 宗教财团法人附设诊所 32 公益法人附设医疗机构 32 宗教财团法人附设诊所/医务室 宗教财团法人附设诊所"
         },
         {
           "code": "33",
-          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室 私立事業單位或機構附設醫務",
+          "label_zh": "私立學校附設醫務室 33 私立學校附設醫務室 33 私立學校附設醫務室 33 私立醫學校附設醫務室 33 私立醫學校、院附設醫務室私立事業單位或機構附設醫務",
           "label_en": "private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-school-affiliated-clinic-33-private-medical-school-affiliated-clinic-33-private-medical-school-or-institution-affiliated-clinic"
         },
         {
@@ -1726,7 +1726,7 @@
         },
         {
           "code": "41",
-          "label_zh": "社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 99-100年 101年 102年 103年 104年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立 公立",
+          "label_zh": "社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
           "label_en": "Outpatient clinic 41 Outpatient clinic 2025-04-01 Revised 99-100 101 102 103 104 Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
@@ -1766,7 +1766,7 @@
         },
         {
           "code": "28",
-          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 非公立 非公立 非公立 非公立 非公立",
+          "label_zh": "公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所 28 公立中醫診所非公立非公立非公立非公立非公立",
           "label_en": "public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic 28 public TCM clinic non-public non-public non-public non-public non-public"
         },
         {
@@ -1781,7 +1781,7 @@
         },
         {
           "code": "32",
-          "label_zh": "宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務室 務室 務室 務室 室",
+          "label_zh": "宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫 32 宗教財團法人附設診所/醫務 32 宗教財團法人附設診所/醫務室務室務室務室室",
           "label_en": "Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical 32 Religious Foundation-Attached Clinic/Medical Office 32 Religious Foundation-Attached Clinic/Medical Room Room Room Room"
         },
         {
@@ -1791,7 +1791,7 @@
         },
         {
           "code": "34",
-          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務室 務室 務室 務室 室",
+          "label_zh": "私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫 34 私立事業單位或機構附設醫務 34 私立事業單位或機構附設醫務室務室務室務室室",
           "label_en": "Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room 34 Private enterprise unit or institution attached medical room"
         },
         {
@@ -1816,7 +1816,7 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 105年 106年 107年 108-111年 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 代碼 項目名稱 公立 公立 公立 公立",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
           "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 2025-04-01 Revised 2005 2006 2007 2008-2009 Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public"
         },
         {
@@ -1861,7 +1861,7 @@
         },
         {
           "code": "47",
-          "label_zh": "行政法人附設診所 47 行政法人附設診所 非公立 非公立 非公立 非公立",
+          "label_zh": "行政法人附設診所 47 行政法人附設診所非公立非公立非公立非公立",
           "label_en": "Government agency-affiliated clinic 47 Government agency-affiliated clinic Non-profit Non-profit Non-profit Non-profit"
         },
         {
@@ -1911,62 +1911,62 @@
         },
         {
           "code": "41",
-          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代碼",
+          "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
           "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic April 1, 2025 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
         },
         {
           "code": "42",
-          "label_zh": "財團法人其他醫療機構 醫療財團法人其他醫療機構",
+          "label_zh": "財團法人其他醫療機構醫療財團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "43",
-          "label_zh": "社團法人其他醫療機構 醫療社團法人其他醫療機構",
+          "label_zh": "社團法人其他醫療機構醫療社團法人其他醫療機構",
           "label_en": "corporation medical institution other corporation medical institution"
         },
         {
           "code": "77",
-          "label_zh": "財團法人醫療機構附設護產機構 醫療財團法人醫療機構附設護產機構",
+          "label_zh": "財團法人醫療機構附設護產機構醫療財團法人醫療機構附設護產機構",
           "label_en": "Nonprofit Medical Institution Attached Maternity and Child Care Institution"
         },
         {
           "code": "79",
-          "label_zh": "社團法人醫療機構附設護產機構 醫療社團法人醫療機構附設護產機構",
+          "label_zh": "社團法人醫療機構附設護產機構醫療社團法人醫療機構附設護產機構",
           "label_en": "Medical institution affiliated with midwifery institution of medical association Medical institution affiliated with midwifery institution of medical association"
         },
         {
           "code": "83",
-          "label_zh": "法人或其他人民團體附設機構精神復健機構 法人或其他人民團體附設精神復健機構",
+          "label_zh": "法人或其他人民團體附設機構精神復健機構法人或其他人民團體附設精神復健機構",
           "label_en": "institution affiliated with corporation or other individuals for mental rehabilitation institution"
         },
         {
           "code": "87",
-          "label_zh": "醫療財團法人醫療機構附設精神復健機構 醫療財團法人附設精神復健機構",
+          "label_zh": "醫療財團法人醫療機構附設精神復健機構醫療財團法人附設精神復健機構",
           "label_en": "charitable foundation medical institution mental health rehabilitation facility attached to medical institution charitable foundation"
         },
         {
           "code": "88",
-          "label_zh": "醫療社團法人醫療機構附設精神復健機構 醫療社團法人附設精神復健機構",
+          "label_zh": "醫療社團法人醫療機構附設精神復健機構醫療社團法人附設精神復健機構",
           "label_en": "mental health rehabilitation facility attached to medical institution mental health rehabilitation facility attached to medical institution"
         },
         {
           "code": "HY",
-          "label_zh": "助產機構 私立助產機構",
+          "label_zh": "助產機構私立助產機構",
           "label_en": "midwifery institution private midwifery institution"
         },
         {
           "code": "JY",
-          "label_zh": "醫事檢驗機構 私立醫事檢驗機構",
+          "label_zh": "醫事檢驗機構私立醫事檢驗機構",
           "label_en": "medical laboratory institution private medical laboratory institution"
         },
         {
           "code": "LY",
-          "label_zh": "鑲牙所 私立鑲牙所",
+          "label_zh": "鑲牙所私立鑲牙所",
           "label_en": "Dental Clinic Private Dental Clinic"
         },
         {
           "code": "QY",
-          "label_zh": "物理治療機構 私立物理治療機構",
+          "label_zh": "物理治療機構私立物理治療機構",
           "label_en": "physical therapy institution private physical therapy institution"
         },
         {
@@ -1976,12 +1976,12 @@
         },
         {
           "code": "RY",
-          "label_zh": "職能治療機構 私立職能治療機構",
+          "label_zh": "職能治療機構私立職能治療機構",
           "label_en": "occupational therapy institution private occupational therapy institution"
         },
         {
           "code": "SY",
-          "label_zh": "醫事放射機構 私立醫事放射機構",
+          "label_zh": "醫事放射機構私立醫事放射機構",
           "label_en": "medical radiological institution private medical radiological institution"
         },
         {
@@ -2011,12 +2011,12 @@
         },
         {
           "code": "5Y",
-          "label_zh": "驗光所 私立驗光所",
+          "label_zh": "驗光所私立驗光所",
           "label_en": "optician private optician"
         },
         {
           "code": "Z7",
-          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容 權屬別代碼 代碼內容 權屬別代碼 公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
+          "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
           "label_en": ""
         }
       ],
@@ -2039,7 +2039,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health02_全民健保處方及治療明細檔_住院(20250624起適用)",
   "data_description_en": "1. Generally one or a period of inpatient records.\n2. Includes diagnosis, healthcare institution, and related cost information during the patient's hospital stay.",
-  "notes_en": "",
-  "primary_keys_en": "",
+  "notes_en": "1. When a patient's hospital stay is relatively long (usually more than one month), inpatient data is reported monthly, so calculating a single hospitalization requires consolidating the split-billing records under the same case.\n2. Supplementary (late) reports should be handled carefully: when calculating costs, supplementary reports should be included in the total; however, when calculating medical utilization (visits or patient-days), a complete supplementary report should be counted, but a partial-fee supplementary report should not be double-counted.\n3. The file formats and data descriptions listed in this manual are based on the \"National Health Insurance Medical Institution (Outpatient, Inpatient, and Referral Institution) Medical Expense Points Reporting Format and Form Instructions,\" available at: National Health Insurance Administration, Ministry of Health and Welfare homepage / Medical Institutions / Medical Expense Payment / Medical Expense Reporting Regulations / Medical Expense XML Reporting Format / National Health Insurance Medical Institution (Outpatient, Inpatient, and Referral Institution) Medical Expense Points Reporting Format and Form Instructions.\n※ This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.",
+  "primary_keys_en": "1. The ID number (ID), physician ID number (PRSN_ID), and medical institution code (HOSP_ID) are encrypted.\n2. The unique key of this file is: FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID, which is the key used to match with the Inpatient Order File (H_NHI_IPDTO).\n3. The key for grouping records into the same hospitalization: ID + HOSP_ID + IN_DATE.\n4. The key for linking records to an individual and matching individual data: ID.\n5. The key for linking records to a medical institution and matching institutional data: HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Detail File—Western Medicine Inpatient"
 }

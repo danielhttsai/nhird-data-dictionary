@@ -29,7 +29,7 @@
       "name_en": "OWNERCITYCODE",
       "type": "Char",
       "length": 10,
-      "description_zh": "詳見欄位縣市別 (OWNERCITYCODE)譯碼 說明",
+      "description_zh": "詳見欄位縣市別 (OWNERCITYCODE)譯碼說明",
       "available_notes": [],
       "name_zh_en": "county city",
       "description_en": "details of field county/city code (OWNERCITYCODE) explanation"
@@ -40,7 +40,7 @@
       "name_en": "INFOERTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位通報人員 (INFOERTYPE)譯碼說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位通報人員 (INFOERTYPE)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -57,7 +57,7 @@
       "name_en": "INFOUNIT",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位通報單位 (INFOUNIT)譯碼說明 註:108 年起無資料",
+      "description_zh": "詳見欄位通報單位 (INFOUNIT)譯碼說明註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -143,7 +143,7 @@
       "name_en": "VIDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼 說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -160,7 +160,7 @@
       "name_en": "VEDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位教育程度 (VEDUCATION、 DEDUCATION)譯碼說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位教育程度 (VEDUCATION、 DEDUCATION)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -289,7 +289,7 @@
       "name_en": "DIDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼 說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -306,7 +306,7 @@
       "name_en": "DEDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位教育程度 (VEDUCATION、DEDUCA TION)譯碼說明 註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位教育程度 (VEDUCATION、DEDUCA TION)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -374,11 +374,11 @@
     },
     {
       "seq": 20,
-      "name_zh": "被害人後續待協助事 項",
+      "name_zh": "被害人後續待協助事項",
       "name_en": "FOLLOWACTION",
       "type": "Char",
       "length": 12,
-      "description_zh": "詳見欄位被害人後續待協助 事項(FOLLOWACTION)譯 碼說明(可複選) 註:108 年起無資料 103-106年長度為11 107年長度為10",
+      "description_zh": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選) 註:108 年起無資料 103-106年長度為11 107年長度為10",
       "available_notes": [
         {
           "roc_year": 108,
@@ -396,12 +396,12 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "assistance items for the victim",
+      "name_zh_en": "subsequent matters requiring assistance for the victim",
       "description_en": "See follow-up actions for victim assistance (FOLLOWACTION) translation notes (multiple choices). Note: No data from 2018 onwards. Length was 11 from 2008 to 2016, and 10 in 2017."
     },
     {
       "seq": 21,
-      "name_zh": "有無兒少目睹家庭暴 力",
+      "name_zh": "有無兒少目睹家庭暴力",
       "name_en": "CASEEVAL",
       "type": "Char",
       "length": 1,
@@ -445,18 +445,18 @@
     },
     {
       "seq": 25,
-      "name_zh": "被害人身分證字號檢 誤",
+      "name_zh": "被害人身分證字號檢誤",
       "name_en": "VVID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0:身分證字號符合編碼原則 1:不符合",
       "available_notes": [],
-      "name_zh_en": "victim's identity number error",
+      "name_zh_en": "misalignment-of-victim-s-identity-card-number",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
     },
     {
       "seq": 26,
-      "name_zh": "被害人身分證字號所 判讀之性別",
+      "name_zh": "被害人身分證字號所判讀之性別",
       "name_en": "VVID_S",
       "type": "Char",
       "length": 1,
@@ -478,7 +478,7 @@
     },
     {
       "seq": 28,
-      "name_zh": "相對人身分證字號所 判讀之性別",
+      "name_zh": "相對人身分證字號所判讀之性別",
       "name_en": "DVID_S",
       "type": "Char",
       "length": 1,
@@ -493,7 +493,7 @@
       "name_en": "ISLIVETOGETHER",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否 註:108 年起新增",
+      "description_zh": "Y:是 N:否註:108 年起新增",
       "available_notes": [
         {
           "roc_year": 108,
@@ -581,17 +581,17 @@
         },
         {
           "code": "K",
-          "label_zh": "憲兵 Z 其他 2026年05月28日修訂 適用於108年起 代碼 說明",
+          "label_zh": "憲兵 Z 其他 2026年05月28日修訂適用於108年起代碼說明",
           "label_en": "military Z other 2026-05-28 amendment applicable since 2019 code explanation"
         },
         {
           "code": "1",
-          "label_zh": "社會福利、安置照護機構 人員",
+          "label_zh": "社會福利、安置照護機構人員",
           "label_en": "social welfare, placement care institution staff"
         },
         {
           "code": "2",
-          "label_zh": "就業服務機構及其從業人 員",
+          "label_zh": "就業服務機構及其從業人員",
           "label_en": "employment service agencies and their staff"
         },
         {
@@ -828,7 +828,7 @@
         },
         {
           "code": "Q",
-          "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他 適用於108年起 代碼 說明 9不詳",
+          "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他適用於108年起代碼說明 9不詳",
           "label_en": "History of - Consanguineous collateral relatives within four generations (such as cousins, nieces/nephews, etc.), History of - Affinal collateral relatives within four generations (such as aunt's son/daughter-in-law, uncle's daughter/son-in-law, etc.), b History of - Intimate partners not cohabiting S, Z History of - Other applicable from 2018 Code Explanation"
         },
         {
@@ -1040,7 +1040,7 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare12_家暴通報明細檔(20250624起適用)",
   "data_description_en": "1. Generally report one record per incident.\n2. Content includes the reporting unit, reporter, victim, and other relevant parties.",
-  "notes_en": "",
+  "notes_en": "1. For fields whose content is a text description, since the content differs by year, the field length is shown as a range.\n2. The following fields allow multiple selections: victim's disability type, respondent's disability type, assistance already provided, and follow-up assistance needed by the victim.\n※ This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals. The key for matching victim personal data: VVID.\nThe key for matching respondent personal data: DVID.",
   "primary_keys_en": "",
   "name_zh_en": "domestic violence report details"
 }

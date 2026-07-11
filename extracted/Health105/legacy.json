@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "1.資料年度為2022-2024年。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與 個人歸戶及個人資料對照的鍵值：ID。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與個人歸戶及個人資料對照的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -168,7 +168,7 @@
     },
     {
       "seq": 14,
-      "name_zh": "肺部相關疾病史- 塵 肺 症 (Pneumoconiosis)",
+      "name_zh": "肺部相關疾病史- 塵肺症 (Pneumoconiosis)",
       "name_en": "MedicalHistory5",
       "type": "Char",
       "length": 1,
@@ -179,7 +179,7 @@
     },
     {
       "seq": 15,
-      "name_zh": "肺部相關疾病史- 肺 氣 腫 (Emphysema)",
+      "name_zh": "肺部相關疾病史- 肺氣腫 (Emphysema)",
       "name_en": "MedicalHistory6",
       "type": "Char",
       "length": 1,
@@ -205,7 +205,7 @@
       "name_en": "MedicalHistory8",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:無勾選； 1:勾選 全 身 性 硬 化 症 (Systemic Sclerosis)",
+      "description_zh": "0:無勾選； 1:勾選全身性硬化症 (Systemic Sclerosis)",
       "available_notes": [],
       "name_zh_en": "history of pulmonary diseases-",
       "description_en": "0:未選；1:選 全身性硬化症(Systemic Sclerosis)"
@@ -421,7 +421,7 @@
     },
     {
       "seq": 37,
-      "name_zh": "是否提供戒菸服 務2:已在戒菸療程3:轉介(因無戒菸服務)",
+      "name_zh": "是否提供戒菸服務2:已在戒菸療程3:轉介(因無戒菸服務)",
       "name_en": "SmokingHelp",
       "type": "Char",
       "length": 1,
@@ -502,7 +502,7 @@
       "name_en": "Occupational1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:無勾選； 1:勾選 造/拆船、鍋爐管",
+      "description_zh": "0:無勾選； 1:勾選造/拆船、鍋爐管",
       "available_notes": [],
       "name_zh_en": "occupational exposure to asbestos such as asbestos manufacturing, insulation maintenance industries",
       "description_en": "0: Unselected; 1: Selected Shipbuilding/Cooking Vessel Repair, Boiler Tube"
@@ -619,7 +619,7 @@
     },
     {
       "seq": 55,
-      "name_zh": "總體劑量長度乘 績",
+      "name_zh": "總體劑量長度乘績",
       "name_en": "TotalDLP",
       "type": "Char",
       "length": 7,
@@ -630,7 +630,7 @@
     },
     {
       "seq": 56,
-      "name_zh": "是否比較前次胸 部CT影像",
+      "name_zh": "是否比較前次胸部CT影像",
       "name_en": "CTavailable",
       "type": "Char",
       "length": 1,
@@ -641,7 +641,7 @@
     },
     {
       "seq": 57,
-      "name_zh": "所比較之前次胸 部CT影像攝影日 期",
+      "name_zh": "所比較之前次胸部CT影像攝影日期",
       "name_en": "CTDate",
       "type": "Char",
       "length": 8,
@@ -674,7 +674,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "顯著肺部結節_其 他為01：勾選",
+      "name_zh": "顯著肺部結節_其他為01：勾選",
       "name_en": "LungNodulesElse",
       "type": "Char",
       "length": 1,
@@ -850,7 +850,7 @@
     },
     {
       "seq": 76,
-      "name_zh": "第 1 顆肺部結節 樣態",
+      "name_zh": "第 1 顆肺部結節樣態",
       "name_en": "Density_1",
       "type": "Char",
       "length": 1,
@@ -876,14 +876,14 @@
       "name_en": "LobeOptione_1",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選結節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "first significant lung nodule",
       "description_en": "single choice node location RUL、RML、RLL、LUL、LLL"
     },
     {
       "seq": 79,
-      "name_zh": "第 1 顆比較前次 影像狀況",
+      "name_zh": "第 1 顆比較前次影像狀況",
       "name_en": "NoduleType_1",
       "type": "Char",
       "length": 1,
@@ -905,7 +905,7 @@
     },
     {
       "seq": 81,
-      "name_zh": "第 2 顆肺部結節 樣態",
+      "name_zh": "第 2 顆肺部結節樣態",
       "name_en": "Density_2",
       "type": "Char",
       "length": 1,
@@ -931,14 +931,14 @@
       "name_en": "LobeOptione_2",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選結節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "second significant lung nodule",
       "description_en": "single choice node location RUL、RML、RLL、LUL、LLL"
     },
     {
       "seq": 84,
-      "name_zh": "第 2 顆比較前次 影像狀況",
+      "name_zh": "第 2 顆比較前次影像狀況",
       "name_en": "NoduleType_2",
       "type": "Char",
       "length": 1,
@@ -953,14 +953,14 @@
       "name_en": "EntireNodule_3",
       "type": "Num",
       "length": 8,
-      "description_zh": "數字 大小_3",
+      "description_zh": "數字大小_3",
       "available_notes": [],
       "name_zh_en": "third nodule diameter",
       "description_en": "number size _3"
     },
     {
       "seq": 86,
-      "name_zh": "第 3 顆肺部結節 樣態_3",
+      "name_zh": "第 3 顆肺部結節樣態_3",
       "name_en": "Density_3",
       "type": "Char",
       "length": 1,
@@ -975,7 +975,7 @@
       "name_en": "DensitySolidPart_3",
       "type": "Num",
       "length": 8,
-      "description_zh": "數字，Density_2為3，此欄必填 大小_3",
+      "description_zh": "數字，Density_2為3，此欄必填大小_3",
       "available_notes": [],
       "name_zh_en": "third part solid",
       "description_en": "number, Density_2 is 3, this column must be filled 大小_3"
@@ -986,14 +986,14 @@
       "name_en": "LobeOptione_3",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 結節_位置_3 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選結節_位置_3 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "third significant lung nodule",
       "description_en": "single choice: nodule location - RUL, RML, RLL, LUL, or LLL"
     },
     {
       "seq": 89,
-      "name_zh": "第 3 顆比較前次 影像狀況",
+      "name_zh": "第 3 顆比較前次影像狀況",
       "name_en": "NoduleType_3",
       "type": "Char",
       "length": 1,
@@ -1019,7 +1019,7 @@
       "name_en": "AssessmentReport",
       "type": "Char",
       "length": 1,
-      "description_zh": "單選 1：需之前影像對照。或攝影品質 不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
+      "description_zh": "單選 1：需之前影像對照。或攝影品質不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
       "available_notes": [],
       "name_zh_en": "evaluate_report_result_check_3: 6 months later check follow-up_check_4: 3 months later check follow-up_check_5: need to perform confirmation procedure",
       "description_en": "single choice 1: need previous imaging for comparison or poor photography quality, should redo low-dose CT. 2: every 2 years regular low-dose CT. 6: no follow-up, case closed by sending report."

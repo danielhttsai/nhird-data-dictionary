@@ -196,7 +196,7 @@
       "name_en": "D_CODE",
       "type": "Char",
       "length": 4,
-      "description_zh": "60-69年為 ICD-8，70-96年為ICD-9編碼 (97年起無此欄資料) 。主要死因分類與主要癌 症分類詳死因分類譯碼說明",
+      "description_zh": "60-69年為 ICD-8，70-96年為ICD-9編碼 (97年起無此欄資料) 。主要死因分類與主要癌症分類詳死因分類譯碼說明",
       "available_notes": [
         {
           "roc_year": 69,
@@ -245,7 +245,7 @@
       "name_en": "ICD10",
       "type": "Char",
       "length": 4,
-      "description_zh": "97年以後死因以ICD-10 編碼。主要死因分類 與主要癌症分類詳死因分類譯碼說明",
+      "description_zh": "97年以後死因以ICD-10 編碼。主要死因分類與主要癌症分類詳死因分類譯碼說明",
       "available_notes": [
         {
           "roc_year": 97,
@@ -284,7 +284,7 @@
       "name_en": "NB_DAGE",
       "type": "Char",
       "length": 2,
-      "description_zh": "00：未滿1日，01：滿1日，02：滿2日， 以此類推，至 27：滿 27 日，88：非新生兒死 亡",
+      "description_zh": "00：未滿1日，01：滿1日，02：滿2日， 以此類推，至 27：滿 27 日，88：非新生兒死亡",
       "available_notes": [],
       "name_zh_en": "newborn age",
       "description_en": "00：less than 1 day, 01：1 day, 02：2 days, 以此類推，至 27：27 days, 88：non-neonatal death"

@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "1.資料年度為2022-2024年。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與 個人歸戶及個人資料對照的鍵值：ID。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與個人歸戶及個人資料對照的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -124,7 +124,7 @@
     },
     {
       "seq": 10,
-      "name_zh": "肺部相關疾病史-肺 阻塞(COPD)",
+      "name_zh": "肺部相關疾病史-肺阻塞(COPD)",
       "name_en": "MedicalHistory1",
       "type": "Char",
       "length": 1,
@@ -135,7 +135,7 @@
     },
     {
       "seq": 11,
-      "name_zh": "肺部相關疾病史-肺 結核(TB)",
+      "name_zh": "肺部相關疾病史-肺結核(TB)",
       "name_en": "MedicalHistory2",
       "type": "Char",
       "length": 1,
@@ -146,7 +146,7 @@
     },
     {
       "seq": 12,
-      "name_zh": "肺部相關疾病史-肺 炎",
+      "name_zh": "肺部相關疾病史-肺炎",
       "name_en": "MedicalHistory3",
       "type": "Char",
       "length": 1,
@@ -157,7 +157,7 @@
     },
     {
       "seq": 13,
-      "name_zh": "肺部相關疾病史-慢 性支氣管炎",
+      "name_zh": "肺部相關疾病史-慢性支氣管炎",
       "name_en": "MedicalHistory4",
       "type": "Char",
       "length": 1,
@@ -168,7 +168,7 @@
     },
     {
       "seq": 14,
-      "name_zh": "肺部相關疾病史-塵 肺 症 (Pneumoconiosis)",
+      "name_zh": "肺部相關疾病史-塵肺症 (Pneumoconiosis)",
       "name_en": "MedicalHistory5",
       "type": "Char",
       "length": 1,
@@ -190,7 +190,7 @@
     },
     {
       "seq": 16,
-      "name_zh": "肺部相關疾病史-特 發性肺纖維化(IPF)",
+      "name_zh": "肺部相關疾病史-特發性肺纖維化(IPF)",
       "name_en": "MedicalHistory7",
       "type": "Char",
       "length": 1,
@@ -205,7 +205,7 @@
       "name_en": "MedicalHistory8",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:無勾選； 1:勾選 身 性 硬 化 症 (Systemic Sclerosis)",
+      "description_zh": "0:無勾選； 1:勾選身性硬化症 (Systemic Sclerosis)",
       "available_notes": [],
       "name_zh_en": "pulmonary-related diseases history - all",
       "description_en": "0: Unselected; 1: Selected Scleroderma"
@@ -502,7 +502,7 @@
       "name_en": "Occupational1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:無勾選； 1:勾選 如石綿製造、造/拆",
+      "description_zh": "0:無勾選； 1:勾選如石綿製造、造/拆",
       "available_notes": [],
       "name_zh_en": "occupational exposure to asbestos in ship maintenance, boiler pipe maintenance industries etc.",
       "description_en": "0: not selected; 1: selected such as asbestos manufacturing, construction/deconstruction"
@@ -663,7 +663,7 @@
     },
     {
       "seq": 60,
-      "name_zh": "顯著肺部結節_其 他為01：勾選",
+      "name_zh": "顯著肺部結節_其他為01：勾選",
       "name_en": "LungNodulesElse",
       "type": "Char",
       "length": 1,
@@ -762,18 +762,18 @@
     },
     {
       "seq": 69,
-      "name_zh": "其 他 肺 部 發 現 -腫)",
+      "name_zh": "其他肺部發現 -腫)",
       "name_en": "OtherLungFindings1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:無勾選； 1:勾選 Emphysema( 肺 氣",
+      "description_zh": "0:無勾選； 1:勾選 Emphysema( 肺氣",
       "available_notes": [],
       "name_zh_en": "other lung findings - tumor",
       "description_en": "0: Not selected; 1: Selected Emphysema(肺气肿)"
     },
     {
       "seq": 70,
-      "name_zh": "其 他 肺 部 發 現 -管擴張)",
+      "name_zh": "其他肺部發現 -管擴張)",
       "name_en": "OtherLungFindings2",
       "type": "Char",
       "length": 1,
@@ -784,7 +784,7 @@
     },
     {
       "seq": 71,
-      "name_zh": "其 他 肺 部 發 現 -氣管炎)",
+      "name_zh": "其他肺部發現 -氣管炎)",
       "name_en": "OtherLungFindings3",
       "type": "Char",
       "length": 1,
@@ -795,7 +795,7 @@
     },
     {
       "seq": 72,
-      "name_zh": "其 他 肺 部 發 現 -",
+      "name_zh": "其他肺部發現 -",
       "name_en": "OtherLungFindings4",
       "type": "Char",
       "length": 1,
@@ -806,7 +806,7 @@
     },
     {
       "seq": 73,
-      "name_zh": "其 他 肺 部 發 現 -型結節)",
+      "name_zh": "其他肺部發現 -型結節)",
       "name_en": "OtherLungFindings5",
       "type": "Char",
       "length": 1,
@@ -839,13 +839,13 @@
     },
     {
       "seq": 76,
-      "name_zh": "第 1 顆肺部結節樣 態",
+      "name_zh": "第 1 顆肺部結節樣態",
       "name_en": "Density_1",
       "type": "Char",
       "length": 1,
       "description_zh": "單選 1:non-solid (非實心) 2:part-solid (部分實心) 3:solid(實心)",
       "available_notes": [],
-      "name_zh_en": "first-lung-nodule-appearancetype",
+      "name_zh_en": "first-lung-nodule-phenotype",
       "description_en": "Single selection 1: non-solid (non-solid) 2: part-solid (part-solid) 3: solid (solid)"
     },
     {
@@ -865,14 +865,14 @@
       "name_en": "LobeOptione_1",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 節_位置 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "first_significant_pulmonary_nodule",
       "description_en": "single selection location RUL, RML, RLL, LUL, LLL"
     },
     {
       "seq": 79,
-      "name_zh": "第 1 顆比較前次影 像狀況",
+      "name_zh": "第 1 顆比較前次影像狀況",
       "name_en": "NoduleType_1",
       "type": "Char",
       "length": 1,
@@ -894,13 +894,13 @@
     },
     {
       "seq": 81,
-      "name_zh": "第 2 顆肺部結節樣 態",
+      "name_zh": "第 2 顆肺部結節樣態",
       "name_en": "Density_2",
       "type": "Char",
       "length": 1,
       "description_zh": "單選 1:non-solid (非實心) 2:part-solid (部分實心) 3:solid(實心)",
       "available_notes": [],
-      "name_zh_en": "second-lung-nodule-appearancetype",
+      "name_zh_en": "second-lung-nodule-phenotype",
       "description_en": "Single selection 1: non-solid (non-solid) 2: part-solid (part-solid) 3: solid (solid)"
     },
     {
@@ -920,14 +920,14 @@
       "name_en": "LobeOptione_2",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 節_位置 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選節_位置 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "second_significant_pulmonary_nodule",
       "description_en": "single selection location RUL, RML, RLL, LUL, LLL"
     },
     {
       "seq": 84,
-      "name_zh": "第 2 顆比較前次影 像狀況",
+      "name_zh": "第 2 顆比較前次影像狀況",
       "name_en": "NoduleType_2",
       "type": "Char",
       "length": 1,
@@ -949,7 +949,7 @@
     },
     {
       "seq": 86,
-      "name_zh": "第 3 顆肺部結節樣 態_3",
+      "name_zh": "第 3 顆肺部結節樣態_3",
       "name_en": "Density_3",
       "type": "Char",
       "length": 1,
@@ -964,7 +964,7 @@
       "name_en": "DensitySolidPart_3",
       "type": "Num",
       "length": 8,
-      "description_zh": "數字，Density_2為3，此欄必填 小_3",
+      "description_zh": "數字，Density_2為3，此欄必填小_3",
       "available_notes": [],
       "name_zh_en": "third_partially_solids_nodule_large",
       "description_en": "Number Density_2 is 3, this field is mandatory Small_3"
@@ -975,14 +975,14 @@
       "name_en": "LobeOptione_3",
       "type": "Char",
       "length": 3,
-      "description_zh": "單選 節_位置_3 RUL、RML、RLL、LUL、LLL",
+      "description_zh": "單選節_位置_3 RUL、RML、RLL、LUL、LLL",
       "available_notes": [],
       "name_zh_en": "third_significant_pulmonary_nodule",
       "description_en": "single choice: location RUL, RML, RLL, LUL, or LLL"
     },
     {
       "seq": 89,
-      "name_zh": "第 3 顆比較前次影 像狀況",
+      "name_zh": "第 3 顆比較前次影像狀況",
       "name_en": "NoduleType_3",
       "type": "Char",
       "length": 1,
@@ -1008,7 +1008,7 @@
       "name_en": "AssessmentReport",
       "type": "Char",
       "length": 1,
-      "description_zh": "單選 1：需之前影像對照。或攝影品質 不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
+      "description_zh": "單選 1：需之前影像對照。或攝影品質不佳，應重作低劑量電腦斷層檢 2：每 2 年定期低劑量電腦斷層檢 6：未回診，已寄送報告方式結案",
       "available_notes": [],
       "name_zh_en": "evaluate_report_result_check_3: 6 months later check follow-up_check_4: 3 months later check follow-up_check_5: need to perform confirmation procedure",
       "description_en": "single choice 1: need previous imaging for comparison or poor photography quality, should redo low-dose CT. 2: every 2 years regular low-dose CT. 6: no follow-up, case closed by sending report."

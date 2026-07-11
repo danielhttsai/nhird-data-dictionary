@@ -25,7 +25,7 @@
   "fields": [
     {
       "seq": 1,
-      "name_zh": "醫療機構代碼對應縣 市鄉鎮",
+      "name_zh": "醫療機構代碼對應縣市鄉鎮",
       "name_en": "HOSP_ID_CI TY",
       "type": "Char",
       "length": 4,
@@ -36,7 +36,7 @@
     },
     {
       "seq": 2,
-      "name_zh": "醫療機構代碼對應之 權屬別",
+      "name_zh": "醫療機構代碼對應之權屬別",
       "name_en": "HOSP_ID_HO S",
       "type": "Char",
       "length": 2,
@@ -62,7 +62,7 @@
       "name_en": "HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "識別醫院為公立或非公立，詳欄位權屬別譯碼 說明。",
+      "description_zh": "識別醫院為公立或非公立，詳欄位權屬別譯碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership type",
       "description_en": "Identify hospital as public or non-public, detailed ownership attribute coding explanation."
@@ -73,7 +73,7 @@
       "name_en": "CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "醫院所在縣市鄉鎮市區，詳縣市鄉鎮代碼。 98 年(含)以前請詳縣市鄉鎮代碼(City-98 年以前)；99- 103 年請參考縣市代碼(City-99 年起)；104 年以後請參 考縣市代碼(City-104年起)。",
+      "description_zh": "醫院所在縣市鄉鎮市區，詳縣市鄉鎮代碼。 98 年(含)以前請詳縣市鄉鎮代碼(City-98 年以前)；99- 103 年請參考縣市代碼(City-99 年起)；104 年以後請參考縣市代碼(City-104年起)。",
       "available_notes": [
         {
           "roc_year": 98,
@@ -115,7 +115,7 @@
       "name_en": "TYPE",
       "type": "Char",
       "length": 2,
-      "description_zh": "可用其辨別該機構為西醫、中醫或牙醫，詳欄 位型態別譯碼說明。",
+      "description_zh": "可用其辨別該機構為西醫、中醫或牙醫，詳欄位型態別譯碼說明。",
       "available_notes": [],
       "name_zh_en": "type",
       "description_en": "This can be used to identify the institution as Western medicine, traditional Chinese medicine, or dentistry. Detailed field type code explanation provided elsewhere."
@@ -228,7 +228,7 @@
     },
     {
       "seq": 13,
-      "name_zh": "許可病床數-精神急性 一般",
+      "name_zh": "許可病床數-精神急性一般",
       "name_en": "A_BED02",
       "type": "Num",
       "length": 8,
@@ -262,7 +262,7 @@
     },
     {
       "seq": 15,
-      "name_zh": "許可病床數-精神慢性 一般",
+      "name_zh": "許可病床數-精神慢性一般",
       "name_en": "A_BED04",
       "type": "Num",
       "length": 8,
@@ -329,7 +329,7 @@
     },
     {
       "seq": 19,
-      "name_zh": "許可病床數-急性後期 照護病床",
+      "name_zh": "許可病床數-急性後期照護病床",
       "name_en": "A_BED08",
       "type": "Num",
       "length": 8,
@@ -346,7 +346,7 @@
     },
     {
       "seq": 20,
-      "name_zh": "許可病床數-整合醫學 急診後送病床",
+      "name_zh": "許可病床數-整合醫學急診後送病床",
       "name_en": "A_BED09",
       "type": "Num",
       "length": 8,
@@ -385,7 +385,7 @@
     },
     {
       "seq": 23,
-      "name_zh": "開放病床數-精神急性 一般",
+      "name_zh": "開放病床數-精神急性一般",
       "name_en": "O_BED02",
       "type": "Num",
       "length": 8,
@@ -407,7 +407,7 @@
     },
     {
       "seq": 25,
-      "name_zh": "開放病床數-精神慢性 一般",
+      "name_zh": "開放病床數-精神慢性一般",
       "name_en": "O_BED04",
       "type": "Num",
       "length": 8,
@@ -446,7 +446,7 @@
     },
     {
       "seq": 28,
-      "name_zh": "開放病床數-國際醫療 病床",
+      "name_zh": "開放病床數-國際醫療病床",
       "name_en": "O_BED26",
       "type": "Num",
       "length": 8,
@@ -546,7 +546,7 @@
     },
     {
       "seq": 35,
-      "name_zh": "開放病床數-慢性呼吸 照護病床",
+      "name_zh": "開放病床數-慢性呼吸照護病床",
       "name_en": "O_BED12",
       "type": "Num",
       "length": 8,
@@ -568,7 +568,7 @@
     },
     {
       "seq": 36,
-      "name_zh": "開放病床數-亞急性呼 吸照護病床",
+      "name_zh": "開放病床數-亞急性呼吸照護病床",
       "name_en": "O_BED13",
       "type": "Num",
       "length": 8,
@@ -590,7 +590,7 @@
     },
     {
       "seq": 37,
-      "name_zh": "開放病床數-急性結核 病床",
+      "name_zh": "開放病床數-急性結核病床",
       "name_en": "O_BED14",
       "type": "Num",
       "length": 8,
@@ -612,7 +612,7 @@
     },
     {
       "seq": 38,
-      "name_zh": "開放病床數-普通隔離 病床",
+      "name_zh": "開放病床數-普通隔離病床",
       "name_en": "O_BED28",
       "type": "Num",
       "length": 8,
@@ -629,7 +629,7 @@
     },
     {
       "seq": 39,
-      "name_zh": "開放病床數-正壓隔離 病床",
+      "name_zh": "開放病床數-正壓隔離病床",
       "name_en": "O_BED29",
       "type": "Num",
       "length": 8,
@@ -657,7 +657,7 @@
     },
     {
       "seq": 41,
-      "name_zh": "開放病床數-骨髓移植 病床",
+      "name_zh": "開放病床數-骨髓移植病床",
       "name_en": "O_BED31",
       "type": "Num",
       "length": 8,
@@ -674,11 +674,11 @@
     },
     {
       "seq": 42,
-      "name_zh": "開放病床數-性侵害犯 罪加害人強制治療病 床",
+      "name_zh": "開放病床數-性侵害犯罪加害人強制治療病床",
       "name_en": "O_BED32",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院開放病床數-性侵害犯罪加害人強制治 療病床 102年增列",
+      "description_zh": "各醫院開放病床數-性侵害犯罪加害人強制治療病床 102年增列",
       "available_notes": [
         {
           "roc_year": 102,
@@ -691,7 +691,7 @@
     },
     {
       "seq": 43,
-      "name_zh": "開放病床數-急性後期 照護病床",
+      "name_zh": "開放病床數-急性後期照護病床",
       "name_en": "O_BED35",
       "type": "Num",
       "length": 8,
@@ -708,7 +708,7 @@
     },
     {
       "seq": 44,
-      "name_zh": "開放病床數-整合醫學 急診後送病床",
+      "name_zh": "開放病床數-整合醫學急診後送病床",
       "name_en": "O_BED36",
       "type": "Num",
       "length": 8,
@@ -742,7 +742,7 @@
     },
     {
       "seq": 46,
-      "name_zh": "開放病床數-司法精神 病床",
+      "name_zh": "開放病床數-司法精神病床",
       "name_en": "O_BED38",
       "type": "Num",
       "length": 8,
@@ -759,7 +759,7 @@
     },
     {
       "seq": 47,
-      "name_zh": "開放病床數-手術恢復 床",
+      "name_zh": "開放病床數-手術恢復床",
       "name_en": "O_BED15",
       "type": "Num",
       "length": 8,
@@ -770,7 +770,7 @@
     },
     {
       "seq": 48,
-      "name_zh": "開放病床數-血液透析 床",
+      "name_zh": "開放病床數-血液透析床",
       "name_en": "O_BED16",
       "type": "Num",
       "length": 8,
@@ -787,7 +787,7 @@
     },
     {
       "seq": 49,
-      "name_zh": "開放病床數-腹膜透析 床",
+      "name_zh": "開放病床數-腹膜透析床",
       "name_en": "O_BED33",
       "type": "Num",
       "length": 8,
@@ -804,7 +804,7 @@
     },
     {
       "seq": 50,
-      "name_zh": "開放病床數-急診觀察 床",
+      "name_zh": "開放病床數-急診觀察床",
       "name_en": "O_BED17",
       "type": "Num",
       "length": 8,
@@ -826,7 +826,7 @@
     },
     {
       "seq": 52,
-      "name_zh": "開放病床數-未登記精 神療養",
+      "name_zh": "開放病床數-未登記精神療養",
       "name_en": "O_BED19",
       "type": "Num",
       "length": 8,
@@ -853,7 +853,7 @@
     },
     {
       "seq": 53,
-      "name_zh": "開放病床數-未登記其 他療養",
+      "name_zh": "開放病床數-未登記其他療養",
       "name_en": "O_BED20",
       "type": "Num",
       "length": 8,
@@ -875,11 +875,11 @@
     },
     {
       "seq": 54,
-      "name_zh": "精神科日間照護單位 可收治人數",
+      "name_zh": "精神科日間照護單位可收治人數",
       "name_en": "O_BED21",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院精神科日間照護單位可收治人數 88 年增列，88-102 年稱為精神日間治療可收治人數； 103-104年稱為精神日間留院可收治人數；105-112年稱 為精神科日間留院可收治人數",
+      "description_zh": "各醫院精神科日間照護單位可收治人數 88 年增列，88-102 年稱為精神日間治療可收治人數； 103-104年稱為精神日間留院可收治人數；105-112年稱為精神科日間留院可收治人數",
       "available_notes": [
         {
           "roc_year": 88,
@@ -907,7 +907,7 @@
     },
     {
       "seq": 55,
-      "name_zh": "開放病床數-精神科加 護病床",
+      "name_zh": "開放病床數-精神科加護病床",
       "name_en": "O_BED22",
       "type": "Num",
       "length": 8,
@@ -924,7 +924,7 @@
     },
     {
       "seq": 56,
-      "name_zh": "開放病床數-精神養 護:公費養護床",
+      "name_zh": "開放病床數-精神養護:公費養護床",
       "name_en": "O_BED23",
       "type": "Num",
       "length": 8,
@@ -946,7 +946,7 @@
     },
     {
       "seq": 57,
-      "name_zh": "開放病床數-精神養 護:公務預算床",
+      "name_zh": "開放病床數-精神養護:公務預算床",
       "name_en": "O_BED34",
       "type": "Num",
       "length": 8,
@@ -963,7 +963,7 @@
     },
     {
       "seq": 58,
-      "name_zh": "開放病床數-精神養 護:社會局合約床",
+      "name_zh": "開放病床數-精神養護:社會局合約床",
       "name_en": "O_BED24",
       "type": "Num",
       "length": 8,
@@ -985,7 +985,7 @@
     },
     {
       "seq": 59,
-      "name_zh": "開放病床數-精神養 護:小康床",
+      "name_zh": "開放病床數-精神養護:小康床",
       "name_en": "O_BED25",
       "type": "Num",
       "length": 8,
@@ -1046,7 +1046,7 @@
     },
     {
       "seq": 62,
-      "name_zh": "使用病床數-精神急性 一般",
+      "name_zh": "使用病床數-精神急性一般",
       "name_en": "U_BED02",
       "type": "Num",
       "length": 8,
@@ -1090,7 +1090,7 @@
     },
     {
       "seq": 64,
-      "name_zh": "使用病床數-精神慢性 一般",
+      "name_zh": "使用病床數-精神慢性一般",
       "name_en": "U_BED04",
       "type": "Num",
       "length": 8,
@@ -1161,7 +1161,7 @@
     },
     {
       "seq": 67,
-      "name_zh": "使用病床數-國際醫療 病床",
+      "name_zh": "使用病床數-國際醫療病床",
       "name_en": "U_BED25",
       "type": "Num",
       "length": 8,
@@ -1297,7 +1297,7 @@
       "name_en": "U_BED11",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院使用病床數-安寧病床 89 年新增，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；106年刪除",
+      "description_zh": "各醫院使用病床數-安寧病床 89 年新增，88-89 年稱為緩和醫療床，90-98 年稱為安寧療護病床；106年刪除",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1325,7 +1325,7 @@
     },
     {
       "seq": 74,
-      "name_zh": "使用病床數-慢性呼吸 照護病床",
+      "name_zh": "使用病床數-慢性呼吸照護病床",
       "name_en": "U_BED12",
       "type": "Num",
       "length": 8,
@@ -1352,7 +1352,7 @@
     },
     {
       "seq": 75,
-      "name_zh": "使用病床數-亞急性呼 吸照護病床",
+      "name_zh": "使用病床數-亞急性呼吸照護病床",
       "name_en": "U_BED13",
       "type": "Num",
       "length": 8,
@@ -1379,7 +1379,7 @@
     },
     {
       "seq": 76,
-      "name_zh": "使用病床數-急性結核 病床",
+      "name_zh": "使用病床數-急性結核病床",
       "name_en": "U_BED14",
       "type": "Num",
       "length": 8,
@@ -1401,7 +1401,7 @@
     },
     {
       "seq": 77,
-      "name_zh": "使用病床數-普通隔離 病床",
+      "name_zh": "使用病床數-普通隔離病床",
       "name_en": "U_BED27",
       "type": "Num",
       "length": 8,
@@ -1423,7 +1423,7 @@
     },
     {
       "seq": 78,
-      "name_zh": "使用病床數-正壓隔離 病床",
+      "name_zh": "使用病床數-正壓隔離病床",
       "name_en": "U_BED28",
       "type": "Num",
       "length": 8,
@@ -1445,7 +1445,7 @@
     },
     {
       "seq": 79,
-      "name_zh": "使用病床數-負壓隔離 病床",
+      "name_zh": "使用病床數-負壓隔離病床",
       "name_en": "U_BED29",
       "type": "Num",
       "length": 8,
@@ -1467,7 +1467,7 @@
     },
     {
       "seq": 80,
-      "name_zh": "使用病床數-骨髓移植 病床",
+      "name_zh": "使用病床數-骨髓移植病床",
       "name_en": "U_BED30",
       "type": "Num",
       "length": 8,
@@ -1489,11 +1489,11 @@
     },
     {
       "seq": 81,
-      "name_zh": "使用病床數-性侵害犯 罪加害人強制治療病 床",
+      "name_zh": "使用病床數-性侵害犯罪加害人強制治療病床",
       "name_en": "U_BED31",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院使用病床數-性侵害犯罪加害人強制治 療病床 102年增列，106年刪除",
+      "description_zh": "各醫院使用病床數-性侵害犯罪加害人強制治療病床 102年增列，106年刪除",
       "available_notes": [
         {
           "roc_year": 102,
@@ -1511,7 +1511,7 @@
     },
     {
       "seq": 82,
-      "name_zh": "使用病床數-急性後期 照護病床",
+      "name_zh": "使用病床數-急性後期照護病床",
       "name_en": "U_BED35",
       "type": "Num",
       "length": 8,
@@ -1533,7 +1533,7 @@
     },
     {
       "seq": 83,
-      "name_zh": "使用病床數-整合醫學 急診後送病床",
+      "name_zh": "使用病床數-整合醫學急診後送病床",
       "name_en": "U_BED36",
       "type": "Num",
       "length": 8,
@@ -1555,7 +1555,7 @@
     },
     {
       "seq": 84,
-      "name_zh": "使用病床數-手術恢復 床",
+      "name_zh": "使用病床數-手術恢復床",
       "name_en": "U_BED15",
       "type": "Num",
       "length": 8,
@@ -1577,7 +1577,7 @@
     },
     {
       "seq": 85,
-      "name_zh": "使用病床數-血液透析 床",
+      "name_zh": "使用病床數-血液透析床",
       "name_en": "U_BED16",
       "type": "Num",
       "length": 8,
@@ -1604,7 +1604,7 @@
     },
     {
       "seq": 86,
-      "name_zh": "使用病床數-腹膜透析 床",
+      "name_zh": "使用病床數-腹膜透析床",
       "name_en": "U_BED32",
       "type": "Num",
       "length": 8,
@@ -1626,7 +1626,7 @@
     },
     {
       "seq": 87,
-      "name_zh": "使用病床數-急診觀察 床",
+      "name_zh": "使用病床數-急診觀察床",
       "name_en": "U_BED17",
       "type": "Num",
       "length": 8,
@@ -1670,7 +1670,7 @@
     },
     {
       "seq": 89,
-      "name_zh": "使用病床數-未登記精 神療養",
+      "name_zh": "使用病床數-未登記精神療養",
       "name_en": "U_BED19",
       "type": "Num",
       "length": 8,
@@ -1697,7 +1697,7 @@
     },
     {
       "seq": 90,
-      "name_zh": "使用病床數-未登記其 他療養",
+      "name_zh": "使用病床數-未登記其他療養",
       "name_en": "U_BED20",
       "type": "Num",
       "length": 8,
@@ -1719,7 +1719,7 @@
     },
     {
       "seq": 91,
-      "name_zh": "精神科日間照護單位 實際收治人數",
+      "name_zh": "精神科日間照護單位實際收治人數",
       "name_en": "U_BED34",
       "type": "Num",
       "length": 8,
@@ -1736,7 +1736,7 @@
     },
     {
       "seq": 92,
-      "name_zh": "使用病床數-精神科加 護病床",
+      "name_zh": "使用病床數-精神科加護病床",
       "name_en": "U_BED21",
       "type": "Num",
       "length": 8,
@@ -1758,11 +1758,11 @@
     },
     {
       "seq": 93,
-      "name_zh": "使用病床數-精神養 護:公費養護床",
+      "name_zh": "使用病床數-精神養護:公費養護床",
       "name_en": "U_BED22",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院使用病床數-精神養護:公費養護床 98 年增列，98-101 年稱為精神養護:公務床；106 年刪 除",
+      "description_zh": "各醫院使用病床數-精神養護:公費養護床 98 年增列，98-101 年稱為精神養護:公務床；106 年刪除",
       "available_notes": [
         {
           "roc_year": 98,
@@ -1785,7 +1785,7 @@
     },
     {
       "seq": 94,
-      "name_zh": "使用病床數-精神養 護:公務預算床",
+      "name_zh": "使用病床數-精神養護:公務預算床",
       "name_en": "U_BED33",
       "type": "Num",
       "length": 8,
@@ -1807,11 +1807,11 @@
     },
     {
       "seq": 95,
-      "name_zh": "使用病床數-精神養 護:社會局合約床",
+      "name_zh": "使用病床數-精神養護:社會局合約床",
       "name_en": "U_BED23",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院使用病床數-精神養護:社會局合約床 98 年增列，98-101 年稱為精神養護:合約床；106 年刪 除",
+      "description_zh": "各醫院使用病床數-精神養護:社會局合約床 98 年增列，98-101 年稱為精神養護:合約床；106 年刪除",
       "available_notes": [
         {
           "roc_year": 98,
@@ -1834,7 +1834,7 @@
     },
     {
       "seq": 96,
-      "name_zh": "使用病床數-精神養 護:小康床",
+      "name_zh": "使用病床數-精神養護:小康床",
       "name_en": "U_BED24",
       "type": "Num",
       "length": 8,
@@ -1878,7 +1878,7 @@
     },
     {
       "seq": 99,
-      "name_zh": "住院人日-精神急性一 般",
+      "name_zh": "住院人日-精神急性一般",
       "name_en": "DD_DAY02",
       "type": "Num",
       "length": 8,
@@ -1900,7 +1900,7 @@
     },
     {
       "seq": 101,
-      "name_zh": "住院人日-精神慢性一 般",
+      "name_zh": "住院人日-精神慢性一般",
       "name_en": "DD_DAY04",
       "type": "Num",
       "length": 8,
@@ -1939,7 +1939,7 @@
     },
     {
       "seq": 104,
-      "name_zh": "住院人日-國際醫療病 床",
+      "name_zh": "住院人日-國際醫療病床",
       "name_en": "DD_DAY22",
       "type": "Num",
       "length": 8,
@@ -2039,7 +2039,7 @@
     },
     {
       "seq": 111,
-      "name_zh": "住院人日-慢性呼吸照 護病床",
+      "name_zh": "住院人日-慢性呼吸照護病床",
       "name_en": "DD_DAY12",
       "type": "Num",
       "length": 8,
@@ -2061,7 +2061,7 @@
     },
     {
       "seq": 112,
-      "name_zh": "住院人日-亞急性呼吸 照護病床",
+      "name_zh": "住院人日-亞急性呼吸照護病床",
       "name_en": "DD_DAY13",
       "type": "Num",
       "length": 8,
@@ -2083,7 +2083,7 @@
     },
     {
       "seq": 113,
-      "name_zh": "住院人日-急性結核病 床",
+      "name_zh": "住院人日-急性結核病床",
       "name_en": "DD_DAY14",
       "type": "Num",
       "length": 8,
@@ -2105,7 +2105,7 @@
     },
     {
       "seq": 114,
-      "name_zh": "住院人日-普通隔離病 床",
+      "name_zh": "住院人日-普通隔離病床",
       "name_en": "DD_DAY24",
       "type": "Num",
       "length": 8,
@@ -2122,7 +2122,7 @@
     },
     {
       "seq": 115,
-      "name_zh": "住院人日-正壓隔離病 床",
+      "name_zh": "住院人日-正壓隔離病床",
       "name_en": "DD_DAY25",
       "type": "Num",
       "length": 8,
@@ -2139,7 +2139,7 @@
     },
     {
       "seq": 116,
-      "name_zh": "住院人日-負壓隔離病 床",
+      "name_zh": "住院人日-負壓隔離病床",
       "name_en": "DD_DAY26",
       "type": "Num",
       "length": 8,
@@ -2156,7 +2156,7 @@
     },
     {
       "seq": 117,
-      "name_zh": "住院人日-骨髓移植病 床",
+      "name_zh": "住院人日-骨髓移植病床",
       "name_en": "DD_DAY27",
       "type": "Num",
       "length": 8,
@@ -2173,11 +2173,11 @@
     },
     {
       "seq": 118,
-      "name_zh": "住院人日-性侵害犯罪 加害人強制治療病床 床",
+      "name_zh": "住院人日-性侵害犯罪加害人強制治療病床床",
       "name_en": "DD_DAY28",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院住院人日-性侵害犯罪加害人強制治療 病床 102年增列",
+      "description_zh": "各醫院住院人日-性侵害犯罪加害人強制治療病床 102年增列",
       "available_notes": [
         {
           "roc_year": 102,
@@ -2190,7 +2190,7 @@
     },
     {
       "seq": 119,
-      "name_zh": "住院人日-急性後期照 護病床",
+      "name_zh": "住院人日-急性後期照護病床",
       "name_en": "DD_DAY30",
       "type": "Num",
       "length": 8,
@@ -2207,7 +2207,7 @@
     },
     {
       "seq": 120,
-      "name_zh": "住院人日-整合醫學急 診後送病床",
+      "name_zh": "住院人日-整合醫學急診後送病床",
       "name_en": "DD_DAY31",
       "type": "Num",
       "length": 8,
@@ -2241,7 +2241,7 @@
     },
     {
       "seq": 122,
-      "name_zh": "住院人日-司法精神病 床",
+      "name_zh": "住院人日-司法精神病床",
       "name_en": "DD_DAY33",
       "type": "Num",
       "length": 8,
@@ -2258,7 +2258,7 @@
     },
     {
       "seq": 123,
-      "name_zh": "住院人日-未登記精神 療養",
+      "name_zh": "住院人日-未登記精神療養",
       "name_en": "DD_DAY15",
       "type": "Num",
       "length": 8,
@@ -2280,7 +2280,7 @@
     },
     {
       "seq": 124,
-      "name_zh": "住院人日-未登記其他 療養",
+      "name_zh": "住院人日-未登記其他療養",
       "name_en": "DD_DAY16",
       "type": "Num",
       "length": 8,
@@ -2297,11 +2297,11 @@
     },
     {
       "seq": 125,
-      "name_zh": "精神科日間照護單位 收治人日數",
+      "name_zh": "精神科日間照護單位收治人日數",
       "name_en": "DD_DAY17",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院精神科日間照護單位收治人日數 104年以前稱為精神日間留院收治人日數；105-112年稱 為精神科日間留院收治人日數",
+      "description_zh": "各醫院精神科日間照護單位收治人日數 104年以前稱為精神日間留院收治人日數；105-112年稱為精神科日間留院收治人日數",
       "available_notes": [
         {
           "roc_year": 104,
@@ -2319,7 +2319,7 @@
     },
     {
       "seq": 126,
-      "name_zh": "住院人日-精神科加護 病床",
+      "name_zh": "住院人日-精神科加護病床",
       "name_en": "DD_DAY18",
       "type": "Num",
       "length": 8,
@@ -2430,7 +2430,7 @@
     },
     {
       "seq": 133,
-      "name_zh": "住院人次-精神急性一 般",
+      "name_zh": "住院人次-精神急性一般",
       "name_en": "DD_TIMES02",
       "type": "Num",
       "length": 8,
@@ -2452,7 +2452,7 @@
     },
     {
       "seq": 135,
-      "name_zh": "住院人次-精神慢性一 般",
+      "name_zh": "住院人次-精神慢性一般",
       "name_en": "DD_TIMES04",
       "type": "Num",
       "length": 8,
@@ -2491,7 +2491,7 @@
     },
     {
       "seq": 138,
-      "name_zh": "住院人次-國際醫療病 床",
+      "name_zh": "住院人次-國際醫療病床",
       "name_en": "DD_TIMES21",
       "type": "Num",
       "length": 8,
@@ -2591,7 +2591,7 @@
     },
     {
       "seq": 145,
-      "name_zh": "住院人次-慢性呼吸照 護病床",
+      "name_zh": "住院人次-慢性呼吸照護病床",
       "name_en": "DD_TIMES12",
       "type": "Num",
       "length": 8,
@@ -2613,7 +2613,7 @@
     },
     {
       "seq": 146,
-      "name_zh": "住院人次-亞急性呼吸 照護病床",
+      "name_zh": "住院人次-亞急性呼吸照護病床",
       "name_en": "DD_TIMES13",
       "type": "Num",
       "length": 8,
@@ -2635,7 +2635,7 @@
     },
     {
       "seq": 147,
-      "name_zh": "住院人次-急性結核病 床",
+      "name_zh": "住院人次-急性結核病床",
       "name_en": "DD_TIMES14",
       "type": "Num",
       "length": 8,
@@ -2657,7 +2657,7 @@
     },
     {
       "seq": 148,
-      "name_zh": "住院人次-普通隔離病 床",
+      "name_zh": "住院人次-普通隔離病床",
       "name_en": "DD_TIMES23",
       "type": "Num",
       "length": 8,
@@ -2674,7 +2674,7 @@
     },
     {
       "seq": 149,
-      "name_zh": "住院人次-正壓隔離病 床",
+      "name_zh": "住院人次-正壓隔離病床",
       "name_en": "DD_TIMES24",
       "type": "Num",
       "length": 8,
@@ -2691,7 +2691,7 @@
     },
     {
       "seq": 150,
-      "name_zh": "住院人次-負壓隔離病 床",
+      "name_zh": "住院人次-負壓隔離病床",
       "name_en": "DD_TIMES25",
       "type": "Num",
       "length": 8,
@@ -2708,7 +2708,7 @@
     },
     {
       "seq": 151,
-      "name_zh": "住院人次-骨髓移植病 床",
+      "name_zh": "住院人次-骨髓移植病床",
       "name_en": "DD_TIMES26",
       "type": "Num",
       "length": 8,
@@ -2725,18 +2725,18 @@
     },
     {
       "seq": 152,
-      "name_zh": "住院人次-性侵害犯罪 加害人強制治療病床",
+      "name_zh": "住院人次-性侵害犯罪加害人強制治療病床",
       "name_en": "DD_TIMES27",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院住院人次-性侵害犯罪加害人強制治療 病床",
+      "description_zh": "各醫院住院人次-性侵害犯罪加害人強制治療病床",
       "available_notes": [],
       "name_zh_en": "inpatient visits - sexual assault crime perpetrator mandatory treatment bed",
       "description_en": "inpatient visits for beds required for mandatory treatment of perpetrators of sexual assault at hospitals added in 2015"
     },
     {
       "seq": 153,
-      "name_zh": "住院人次-急性後期照 護病床",
+      "name_zh": "住院人次-急性後期照護病床",
       "name_en": "DD_TIMES30",
       "type": "Num",
       "length": 8,
@@ -2753,7 +2753,7 @@
     },
     {
       "seq": 154,
-      "name_zh": "住院人次-整合醫學急 診後送病床",
+      "name_zh": "住院人次-整合醫學急診後送病床",
       "name_en": "DD_TIMES31",
       "type": "Num",
       "length": 8,
@@ -2787,7 +2787,7 @@
     },
     {
       "seq": 156,
-      "name_zh": "住院人次-司法精神病 床",
+      "name_zh": "住院人次-司法精神病床",
       "name_en": "DD_TIMES33",
       "type": "Num",
       "length": 8,
@@ -2804,7 +2804,7 @@
     },
     {
       "seq": 157,
-      "name_zh": "住院人次-未登記精神 療養",
+      "name_zh": "住院人次-未登記精神療養",
       "name_en": "DD_TIMES15",
       "type": "Num",
       "length": 8,
@@ -2831,7 +2831,7 @@
     },
     {
       "seq": 158,
-      "name_zh": "住院人次-未登記其他 療養",
+      "name_zh": "住院人次-未登記其他療養",
       "name_en": "DD_TIMES16",
       "type": "Num",
       "length": 8,
@@ -2848,11 +2848,11 @@
     },
     {
       "seq": 159,
-      "name_zh": "精神科日間照護單位 收治人次",
+      "name_zh": "精神科日間照護單位收治人次",
       "name_en": "DD_TIMES29",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院精神科照護單位留院收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱 為精神科日間留院收治人次",
+      "description_zh": "各醫院精神科照護單位留院收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱為精神科日間留院收治人次",
       "available_notes": [
         {
           "roc_year": 104,
@@ -2870,7 +2870,7 @@
     },
     {
       "seq": 160,
-      "name_zh": "住院人次-精神科加護 病床",
+      "name_zh": "住院人次-精神科加護病床",
       "name_en": "DD_TIMES17",
       "type": "Num",
       "length": 8,
@@ -3009,7 +3009,7 @@
     },
     {
       "seq": 167,
-      "name_zh": "健保病床-精神急性一 般",
+      "name_zh": "健保病床-精神急性一般",
       "name_en": "H_BED02",
       "type": "Num",
       "length": 8,
@@ -3053,7 +3053,7 @@
     },
     {
       "seq": 169,
-      "name_zh": "健保病床-精神慢性一 般",
+      "name_zh": "健保病床-精神慢性一般",
       "name_en": "H_BED04",
       "type": "Num",
       "length": 8,
@@ -3238,7 +3238,7 @@
       "name_en": "H_BED11",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院健保病床-安寧病床 89 年增列，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；105年刪除",
+      "description_zh": "各醫院健保病床-安寧病床 89 年增列，88-89 年稱為緩和醫療床，90-98 年稱為安寧療護病床；105年刪除",
       "available_notes": [
         {
           "roc_year": 89,
@@ -3266,7 +3266,7 @@
     },
     {
       "seq": 178,
-      "name_zh": "健保病床-慢性呼吸照 護病床",
+      "name_zh": "健保病床-慢性呼吸照護病床",
       "name_en": "H_BED12",
       "type": "Num",
       "length": 8,
@@ -3293,7 +3293,7 @@
     },
     {
       "seq": 179,
-      "name_zh": "健保病床-亞急性呼吸 照護病床",
+      "name_zh": "健保病床-亞急性呼吸照護病床",
       "name_en": "H_BED13",
       "type": "Num",
       "length": 8,
@@ -3320,7 +3320,7 @@
     },
     {
       "seq": 180,
-      "name_zh": "健保病床-急性結核病 床",
+      "name_zh": "健保病床-急性結核病床",
       "name_en": "H_BED14",
       "type": "Num",
       "length": 8,
@@ -3342,7 +3342,7 @@
     },
     {
       "seq": 181,
-      "name_zh": "健保病床-普通隔離病 床",
+      "name_zh": "健保病床-普通隔離病床",
       "name_en": "H_BED26",
       "type": "Num",
       "length": 8,
@@ -3364,7 +3364,7 @@
     },
     {
       "seq": 182,
-      "name_zh": "健保病床-正壓隔離病 床",
+      "name_zh": "健保病床-正壓隔離病床",
       "name_en": "H_BED27",
       "type": "Num",
       "length": 8,
@@ -3386,7 +3386,7 @@
     },
     {
       "seq": 183,
-      "name_zh": "健保病床-負壓隔離病 床",
+      "name_zh": "健保病床-負壓隔離病床",
       "name_en": "H_BED28",
       "type": "Num",
       "length": 8,
@@ -3408,7 +3408,7 @@
     },
     {
       "seq": 184,
-      "name_zh": "健保病床-骨髓移植病 床",
+      "name_zh": "健保病床-骨髓移植病床",
       "name_en": "H_BED29",
       "type": "Num",
       "length": 8,
@@ -3430,11 +3430,11 @@
     },
     {
       "seq": 185,
-      "name_zh": "健保病床-性侵害犯罪 加害人強制治療病床",
+      "name_zh": "健保病床-性侵害犯罪加害人強制治療病床",
       "name_en": "H_BED30",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院健保病床-性侵害犯罪加害人強制治療 病床 102年增列，105年刪除",
+      "description_zh": "各醫院健保病床-性侵害犯罪加害人強制治療病床 102年增列，105年刪除",
       "available_notes": [
         {
           "roc_year": 102,
@@ -3567,7 +3567,7 @@
     },
     {
       "seq": 191,
-      "name_zh": "健保病床-未登記精神 療養",
+      "name_zh": "健保病床-未登記精神療養",
       "name_en": "H_BED19",
       "type": "Num",
       "length": 8,
@@ -3594,7 +3594,7 @@
     },
     {
       "seq": 192,
-      "name_zh": "健保病床-未登記其他 療養",
+      "name_zh": "健保病床-未登記其他療養",
       "name_en": "H_BED20",
       "type": "Num",
       "length": 8,
@@ -3616,7 +3616,7 @@
     },
     {
       "seq": 193,
-      "name_zh": "健保病床-精神科加護 病床",
+      "name_zh": "健保病床-精神科加護病床",
       "name_en": "H_BED21",
       "type": "Num",
       "length": 8,
@@ -3642,7 +3642,7 @@
       "name_en": "H_BED22",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院健保病床-精神養護:公費養護床 98 年增列；98-101 年稱為精神養護:公務床；105 年刪 除",
+      "description_zh": "各醫院健保病床-精神養護:公費養護床 98 年增列；98-101 年稱為精神養護:公務床；105 年刪除",
       "available_notes": [
         {
           "roc_year": 98,
@@ -3691,7 +3691,7 @@
       "name_en": "H_BED23",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院健保病床-精神養護:社會局合約床 98 年增列；98-101 年稱為精神養護:合約床；105 年刪 除",
+      "description_zh": "各醫院健保病床-精神養護:社會局合約床 98 年增列；98-101 年稱為精神養護:合約床；105 年刪除",
       "available_notes": [
         {
           "roc_year": 98,
@@ -4548,7 +4548,7 @@
     },
     {
       "seq": 235,
-      "name_zh": "專科醫師人數(專任)- 特殊需求者口腔醫學 科",
+      "name_zh": "專科醫師人數(專任)- 特殊需求者口腔醫學科",
       "name_en": "FULL_DOC3 7",
       "type": "Num",
       "length": 8,
@@ -5360,7 +5360,7 @@
     },
     {
       "seq": 271,
-      "name_zh": "專科醫師人數(兼任)- 特殊需求者口腔醫學 科",
+      "name_zh": "專科醫師人數(兼任)- 特殊需求者口腔醫學科",
       "name_en": "PT_DOC37",
       "type": "Num",
       "length": 8,
@@ -5382,7 +5382,7 @@
     },
     {
       "seq": 272,
-      "name_zh": "服務人次-震波骨科治 療機",
+      "name_zh": "服務人次-震波骨科治療機",
       "name_en": "EQU_USE01",
       "type": "Num",
       "length": 8,
@@ -5404,13 +5404,13 @@
     },
     {
       "seq": 273,
-      "name_zh": "服務人次-電腦斷層掃 描儀",
+      "name_zh": "服務人次-電腦斷層掃描儀",
       "name_en": "EQU_USE02",
       "type": "Num",
       "length": 8,
       "description_zh": "服務人次-電腦斷層掃描儀",
       "available_notes": [],
-      "name_zh_en": "服務人次-電腦斷層掃描儀",
+      "name_zh_en": "visits-for-computer-tomography-scan",
       "description_en": "visits-for-computer-tomography-scan"
     },
     {
@@ -5426,7 +5426,7 @@
     },
     {
       "seq": 275,
-      "name_zh": "服務人次-電腦斷層掃 描模擬定位儀",
+      "name_zh": "服務人次-電腦斷層掃描模擬定位儀",
       "name_en": "EQU_USE04",
       "type": "Num",
       "length": 8,
@@ -5448,18 +5448,18 @@
     },
     {
       "seq": 276,
-      "name_zh": "服務人次-高能遠距放 射治療設備",
+      "name_zh": "服務人次-高能遠距放射治療設備",
       "name_en": "EQU_USE05",
       "type": "Num",
       "length": 8,
       "description_zh": "服務人次-高能遠距放射治療設備",
       "available_notes": [],
-      "name_zh_en": "number of service visits - high-energy remote radiation therapy equipment",
+      "name_zh_en": "service visits - high-energy distant radiotherapy equipment",
       "description_en": "service visits - high-energy distant radiotherapy equipment"
     },
     {
       "seq": 277,
-      "name_zh": "服務人次-近接式放射 治療設備",
+      "name_zh": "服務人次-近接式放射治療設備",
       "name_en": "EQU_USE06",
       "type": "Num",
       "length": 8,
@@ -5476,7 +5476,7 @@
     },
     {
       "seq": 278,
-      "name_zh": "服務人次-單光子斷層 掃描儀",
+      "name_zh": "服務人次-單光子斷層掃描儀",
       "name_en": "EQU_USE07",
       "type": "Num",
       "length": 8,
@@ -5498,7 +5498,7 @@
     },
     {
       "seq": 279,
-      "name_zh": "服務人次-正子斷層掃 描儀",
+      "name_zh": "服務人次-正子斷層掃描儀",
       "name_en": "EQU_USE08",
       "type": "Num",
       "length": 8,
@@ -5520,7 +5520,7 @@
     },
     {
       "seq": 280,
-      "name_zh": "服務人次-醫用迴旋加 速器",
+      "name_zh": "服務人次-醫用迴旋加速器",
       "name_en": "EQU_USE09",
       "type": "Num",
       "length": 8,
@@ -5542,7 +5542,7 @@
     },
     {
       "seq": 281,
-      "name_zh": "服務人次-體外震波碎 石機",
+      "name_zh": "服務人次-體外震波碎石機",
       "name_en": "EQU_USE10",
       "type": "Num",
       "length": 8,
@@ -5581,7 +5581,7 @@
     },
     {
       "seq": 283,
-      "name_zh": "服務人次-磁珠標記自 動細胞分選儀",
+      "name_zh": "服務人次-磁珠標記自動細胞分選儀",
       "name_en": "EQU_USE37",
       "type": "Num",
       "length": 8,
@@ -5598,11 +5598,11 @@
     },
     {
       "seq": 284,
-      "name_zh": "服務人次-醫用粒子治 療設備",
+      "name_zh": "服務人次-醫用粒子治療設備",
       "name_en": "EQU_USE12",
       "type": "Num",
       "length": 8,
-      "description_zh": "服務人次-醫用粒子治療設備 97年增列，稱為醫用質子治療設備；98-107年稱為醫用 粒子治療設備",
+      "description_zh": "服務人次-醫用粒子治療設備 97年增列，稱為醫用質子治療設備；98-107年稱為醫用粒子治療設備",
       "available_notes": [
         {
           "roc_year": 97,
@@ -5620,7 +5620,7 @@
     },
     {
       "seq": 285,
-      "name_zh": "服務人次-放射性同位 素診斷",
+      "name_zh": "服務人次-放射性同位素診斷",
       "name_en": "EQU_USE13",
       "type": "Num",
       "length": 8,
@@ -5637,7 +5637,7 @@
     },
     {
       "seq": 286,
-      "name_zh": "服務人次-單機型質子 機",
+      "name_zh": "服務人次-單機型質子機",
       "name_en": "EQU_USE32",
       "type": "Num",
       "length": 8,
@@ -5654,7 +5654,7 @@
     },
     {
       "seq": 287,
-      "name_zh": "服務人次-重粒子治療 設備",
+      "name_zh": "服務人次-重粒子治療設備",
       "name_en": "EQU_USE33",
       "type": "Num",
       "length": 8,
@@ -5671,7 +5671,7 @@
     },
     {
       "seq": 288,
-      "name_zh": "服務人次-放射性同位 素治療",
+      "name_zh": "服務人次-放射性同位素治療",
       "name_en": "EQU_USE14",
       "type": "Num",
       "length": 8,
@@ -5693,7 +5693,7 @@
     },
     {
       "seq": 289,
-      "name_zh": "服務人次-準分子雷射 血管成形術系統",
+      "name_zh": "服務人次-準分子雷射血管成形術系統",
       "name_en": "EQU_USE15",
       "type": "Num",
       "length": 8,
@@ -5710,7 +5710,7 @@
     },
     {
       "seq": 290,
-      "name_zh": "服務人次-準分子雷射 屈光性角膜切除設備",
+      "name_zh": "服務人次-準分子雷射屈光性角膜切除設備",
       "name_en": "EQU_USE16",
       "type": "Num",
       "length": 8,
@@ -5732,7 +5732,7 @@
     },
     {
       "seq": 291,
-      "name_zh": "服務人次-植入型心律 去顫器",
+      "name_zh": "服務人次-植入型心律去顫器",
       "name_en": "EQU_USE17",
       "type": "Num",
       "length": 8,
@@ -5754,7 +5754,7 @@
     },
     {
       "seq": 292,
-      "name_zh": "服務人次-冠狀動脈旋 轉研磨鑽",
+      "name_zh": "服務人次-冠狀動脈旋轉研磨鑽",
       "name_en": "EQU_USE18",
       "type": "Num",
       "length": 8,
@@ -5776,7 +5776,7 @@
     },
     {
       "seq": 293,
-      "name_zh": "服務人次-心房中膈缺 損關閉器",
+      "name_zh": "服務人次-心房中膈缺損關閉器",
       "name_en": "EQU_USE19",
       "type": "Num",
       "length": 8,
@@ -5798,7 +5798,7 @@
     },
     {
       "seq": 294,
-      "name_zh": "服務人次-帕瑪司卡特 球狀冠狀動脈擴充網 管",
+      "name_zh": "服務人次-帕瑪司卡特球狀冠狀動脈擴充網管",
       "name_en": "EQU_USE20",
       "type": "Num",
       "length": 8,
@@ -5820,7 +5820,7 @@
     },
     {
       "seq": 295,
-      "name_zh": "服務人次-顱內血管支 架",
+      "name_zh": "服務人次-顱內血管支架",
       "name_en": "EQU_USE21",
       "type": "Num",
       "length": 8,
@@ -5842,7 +5842,7 @@
     },
     {
       "seq": 296,
-      "name_zh": "服務人次-人工耳蝸植 入術",
+      "name_zh": "服務人次-人工耳蝸植入術",
       "name_en": "EQU_USE22",
       "type": "Num",
       "length": 8,
@@ -5908,7 +5908,7 @@
     },
     {
       "seq": 299,
-      "name_zh": "服務人次-電動式或氣 動式左心室輔助器",
+      "name_zh": "服務人次-電動式或氣動式左心室輔助器",
       "name_en": "EQU_USE25",
       "type": "Num",
       "length": 8,
@@ -5930,7 +5930,7 @@
     },
     {
       "seq": 300,
-      "name_zh": "服務人次-心室中膈缺 損關閉器",
+      "name_zh": "服務人次-心室中膈缺損關閉器",
       "name_en": "EQU_USE26",
       "type": "Num",
       "length": 8,
@@ -5952,11 +5952,11 @@
     },
     {
       "seq": 301,
-      "name_zh": "服務人次-胎兒內視鏡 治療單一胎盤多胞胎 併發症",
+      "name_zh": "服務人次-胎兒內視鏡治療單一胎盤多胞胎併發症",
       "name_en": "EQU_USE27",
       "type": "Num",
       "length": 8,
-      "description_zh": "服務人次-胎兒內視鏡治療單一胎盤多胞胎併 發症 105年增列；113年刪除",
+      "description_zh": "服務人次-胎兒內視鏡治療單一胎盤多胞胎併發症 105年增列；113年刪除",
       "available_notes": [
         {
           "roc_year": 105,
@@ -5974,7 +5974,7 @@
     },
     {
       "seq": 302,
-      "name_zh": "服務人次-深層透熱治 療系統",
+      "name_zh": "服務人次-深層透熱治療系統",
       "name_en": "EQU_USE28",
       "type": "Num",
       "length": 8,
@@ -5996,7 +5996,7 @@
     },
     {
       "seq": 303,
-      "name_zh": "服務人次-美容醫學手 術",
+      "name_zh": "服務人次-美容醫學手術",
       "name_en": "EQU_USE29",
       "type": "Num",
       "length": 8,
@@ -6018,7 +6018,7 @@
     },
     {
       "seq": 304,
-      "name_zh": "服務人次-美容醫學針 劑注射",
+      "name_zh": "服務人次-美容醫學針劑注射",
       "name_en": "EQU_USE30",
       "type": "Num",
       "length": 8,
@@ -6040,7 +6040,7 @@
     },
     {
       "seq": 305,
-      "name_zh": "服務人次-美容醫學光 電治療",
+      "name_zh": "服務人次-美容醫學光電治療",
       "name_en": "EQU_USE31",
       "type": "Num",
       "length": 8,
@@ -6062,7 +6062,7 @@
     },
     {
       "seq": 306,
-      "name_zh": "服務人次-微菌叢植入 治療",
+      "name_zh": "服務人次-微菌叢植入治療",
       "name_en": "EQU_USE34",
       "type": "Num",
       "length": 8,
@@ -6084,7 +6084,7 @@
     },
     {
       "seq": 307,
-      "name_zh": "服務人次-實驗室開發 檢測",
+      "name_zh": "服務人次-實驗室開發檢測",
       "name_en": "EQU_USE38",
       "type": "Num",
       "length": 8,
@@ -6106,7 +6106,7 @@
     },
     {
       "seq": 308,
-      "name_zh": "服務人次-細胞治療技 術",
+      "name_zh": "服務人次-細胞治療技術",
       "name_en": "EQU_USE35",
       "type": "Num",
       "length": 8,
@@ -6128,7 +6128,7 @@
     },
     {
       "seq": 309,
-      "name_zh": "服務人次-特定美容醫 學手術",
+      "name_zh": "服務人次-特定美容醫學手術",
       "name_en": "EQU_USE36",
       "type": "Num",
       "length": 8,
@@ -6206,11 +6206,11 @@
     },
     {
       "seq": 313,
-      "name_zh": "特定醫療儀器設備數- 電腦斷層掃描模擬定 位儀",
+      "name_zh": "特定醫療儀器設備數- 電腦斷層掃描模擬定位儀",
       "name_en": "EQU_QTY04",
       "type": "Num",
       "length": 8,
-      "description_zh": "特定醫療儀器設備數-電腦斷層掃描模擬定位 儀 94年增列，104年刪除",
+      "description_zh": "特定醫療儀器設備數-電腦斷層掃描模擬定位儀 94年增列，104年刪除",
       "available_notes": [
         {
           "roc_year": 94,
@@ -6228,7 +6228,7 @@
     },
     {
       "seq": 314,
-      "name_zh": "特定醫療儀器設備數- 高能遠距放射治療設 備",
+      "name_zh": "特定醫療儀器設備數- 高能遠距放射治療設備",
       "name_en": "EQU_QTY05",
       "type": "Num",
       "length": 8,
@@ -6361,11 +6361,11 @@
     },
     {
       "seq": 321,
-      "name_zh": "特定醫療儀器設備數- 磁珠標記自動細胞分 選儀",
+      "name_zh": "特定醫療儀器設備數- 磁珠標記自動細胞分選儀",
       "name_en": "EQU_QTY32",
       "type": "Num",
       "length": 8,
-      "description_zh": "特定醫療儀器設備數-磁珠標記自動細胞分選 儀 110年增列",
+      "description_zh": "特定醫療儀器設備數-磁珠標記自動細胞分選儀 110年增列",
       "available_notes": [
         {
           "roc_year": 110,
@@ -6382,7 +6382,7 @@
       "name_en": "EQU_QTY12",
       "type": "Num",
       "length": 8,
-      "description_zh": "特定醫療儀器設備數-多治療室質子機 97年增列，稱為醫用質子治療設備；98-107年稱為醫用 粒子治療設備",
+      "description_zh": "特定醫療儀器設備數-多治療室質子機 97年增列，稱為醫用質子治療設備；98-107年稱為醫用粒子治療設備",
       "available_notes": [
         {
           "roc_year": 97,
@@ -6654,7 +6654,7 @@
       "name_en": "EQU_QTY23",
       "type": "Num",
       "length": 8,
-      "description_zh": "特定醫療儀器設備數-心房中膈缺損關閉器 僅93年有此欄位",
+      "description_zh": "特定醫療儀器設備數-心房中膈缺損關閉器僅93年有此欄位",
       "available_notes": [
         {
           "roc_year": 93,
@@ -6693,7 +6693,7 @@
       "name_en": "EQU_QTY26",
       "type": "Num",
       "length": 8,
-      "description_zh": "設備數-租借救護車 僅88年有此欄位",
+      "description_zh": "設備數-租借救護車僅88年有此欄位",
       "available_notes": [
         {
           "roc_year": 88,
@@ -6772,7 +6772,7 @@
     },
     {
       "seq": 342,
-      "name_zh": "執業醫事人員數-西醫 師",
+      "name_zh": "執業醫事人員數-西醫師",
       "name_en": "PRA01",
       "type": "Num",
       "length": 8,
@@ -6789,7 +6789,7 @@
     },
     {
       "seq": 343,
-      "name_zh": "執業醫事人員數-中醫 師",
+      "name_zh": "執業醫事人員數-中醫師",
       "name_en": "PRA02",
       "type": "Num",
       "length": 8,
@@ -6806,7 +6806,7 @@
     },
     {
       "seq": 344,
-      "name_zh": "執業醫事人員數-牙醫 師",
+      "name_zh": "執業醫事人員數-牙醫師",
       "name_en": "PRA03",
       "type": "Num",
       "length": 8,
@@ -6840,7 +6840,7 @@
     },
     {
       "seq": 346,
-      "name_zh": "執業醫事人員數-藥劑 生",
+      "name_zh": "執業醫事人員數-藥劑生",
       "name_en": "PRA05",
       "type": "Num",
       "length": 8,
@@ -6857,7 +6857,7 @@
     },
     {
       "seq": 347,
-      "name_zh": "執業醫事人員數-醫檢 師",
+      "name_zh": "執業醫事人員數-醫檢師",
       "name_en": "PRA06",
       "type": "Num",
       "length": 8,
@@ -6874,7 +6874,7 @@
     },
     {
       "seq": 348,
-      "name_zh": "執業醫事人員數-醫檢 生",
+      "name_zh": "執業醫事人員數-醫檢生",
       "name_en": "PRA07",
       "type": "Num",
       "length": 8,
@@ -6891,7 +6891,7 @@
     },
     {
       "seq": 349,
-      "name_zh": "執業醫事人員數-醫事 放射師",
+      "name_zh": "執業醫事人員數-醫事放射師",
       "name_en": "PRA08",
       "type": "Num",
       "length": 8,
@@ -6908,7 +6908,7 @@
     },
     {
       "seq": 350,
-      "name_zh": "執業醫事人員數-醫事 放射士",
+      "name_zh": "執業醫事人員數-醫事放射士",
       "name_en": "PRA09",
       "type": "Num",
       "length": 8,
@@ -6925,7 +6925,7 @@
     },
     {
       "seq": 351,
-      "name_zh": "執業醫事人員數-護理 師",
+      "name_zh": "執業醫事人員數-護理師",
       "name_en": "PRA10",
       "type": "Num",
       "length": 8,
@@ -6970,7 +6970,7 @@
     },
     {
       "seq": 354,
-      "name_zh": "執業醫事人員數-助產 士",
+      "name_zh": "執業醫事人員數-助產士",
       "name_en": "PRA13",
       "type": "Num",
       "length": 8,
@@ -6987,7 +6987,7 @@
     },
     {
       "seq": 355,
-      "name_zh": "執業醫事人員數-鑲牙 生",
+      "name_zh": "執業醫事人員數-鑲牙生",
       "name_en": "PRA14",
       "type": "Num",
       "length": 8,
@@ -7009,7 +7009,7 @@
     },
     {
       "seq": 356,
-      "name_zh": "執業醫事人員數-營養 師",
+      "name_zh": "執業醫事人員數-營養師",
       "name_en": "PRA15",
       "type": "Num",
       "length": 8,
@@ -7026,7 +7026,7 @@
     },
     {
       "seq": 357,
-      "name_zh": "執業醫事人員數-物理 治療師",
+      "name_zh": "執業醫事人員數-物理治療師",
       "name_en": "PRA16",
       "type": "Num",
       "length": 8,
@@ -7043,7 +7043,7 @@
     },
     {
       "seq": 358,
-      "name_zh": "執業醫事人員數-物理 治療生",
+      "name_zh": "執業醫事人員數-物理治療生",
       "name_en": "PRA17",
       "type": "Num",
       "length": 8,
@@ -7060,7 +7060,7 @@
     },
     {
       "seq": 359,
-      "name_zh": "執業醫事人員數-職能 治療師",
+      "name_zh": "執業醫事人員數-職能治療師",
       "name_en": "PRA18",
       "type": "Num",
       "length": 8,
@@ -7077,7 +7077,7 @@
     },
     {
       "seq": 360,
-      "name_zh": "執業醫事人員數-職能 治療生",
+      "name_zh": "執業醫事人員數-職能治療生",
       "name_en": "PRA19",
       "type": "Num",
       "length": 8,
@@ -7094,7 +7094,7 @@
     },
     {
       "seq": 361,
-      "name_zh": "執業醫事人員數-臨床 心理師",
+      "name_zh": "執業醫事人員數-臨床心理師",
       "name_en": "PRA20",
       "type": "Num",
       "length": 8,
@@ -7111,7 +7111,7 @@
     },
     {
       "seq": 362,
-      "name_zh": "執業醫事人員數-諮商 心理師",
+      "name_zh": "執業醫事人員數-諮商心理師",
       "name_en": "PRA21",
       "type": "Num",
       "length": 8,
@@ -7128,7 +7128,7 @@
     },
     {
       "seq": 363,
-      "name_zh": "執業醫事人員數-呼吸 治療師",
+      "name_zh": "執業醫事人員數-呼吸治療師",
       "name_en": "PRA22",
       "type": "Num",
       "length": 8,
@@ -7145,7 +7145,7 @@
     },
     {
       "seq": 364,
-      "name_zh": "執業醫事人員數-語言 治療師",
+      "name_zh": "執業醫事人員數-語言治療師",
       "name_en": "PRA23",
       "type": "Num",
       "length": 8,
@@ -7162,7 +7162,7 @@
     },
     {
       "seq": 365,
-      "name_zh": "執業醫事人員數-聽力 師",
+      "name_zh": "執業醫事人員數-聽力師",
       "name_en": "PRA24",
       "type": "Num",
       "length": 8,
@@ -7179,7 +7179,7 @@
     },
     {
       "seq": 366,
-      "name_zh": "執業醫事人員數-牙體 技術師",
+      "name_zh": "執業醫事人員數-牙體技術師",
       "name_en": "PRA25",
       "type": "Num",
       "length": 8,
@@ -7196,7 +7196,7 @@
     },
     {
       "seq": 367,
-      "name_zh": "執業醫事人員數-牙體 技術生",
+      "name_zh": "執業醫事人員數-牙體技術生",
       "name_en": "PRA26",
       "type": "Num",
       "length": 8,
@@ -7213,7 +7213,7 @@
     },
     {
       "seq": 368,
-      "name_zh": "執業醫事人員數-驗光 師",
+      "name_zh": "執業醫事人員數-驗光師",
       "name_en": "PRA27",
       "type": "Num",
       "length": 8,
@@ -7230,7 +7230,7 @@
     },
     {
       "seq": 369,
-      "name_zh": "執業醫事人員數-驗光 生",
+      "name_zh": "執業醫事人員數-驗光生",
       "name_en": "PRA28",
       "type": "Num",
       "length": 8,
@@ -7247,7 +7247,7 @@
     },
     {
       "seq": 370,
-      "name_zh": "未具醫事專門職業證 書工作人員數-感染控 制",
+      "name_zh": "未具醫事專門職業證書工作人員數-感染控制",
       "name_en": "NOCC01",
       "type": "Num",
       "length": 8,
@@ -7269,7 +7269,7 @@
     },
     {
       "seq": 371,
-      "name_zh": "未具醫事專門職業證 書工作人員數-聽力",
+      "name_zh": "未具醫事專門職業證書工作人員數-聽力",
       "name_en": "NOCC02",
       "type": "Num",
       "length": 8,
@@ -7296,7 +7296,7 @@
     },
     {
       "seq": 372,
-      "name_zh": "未具醫事專門職業證 書工作人員數-其他",
+      "name_zh": "未具醫事專門職業證書工作人員數-其他",
       "name_en": "NOCC03",
       "type": "Num",
       "length": 8,
@@ -7318,11 +7318,11 @@
     },
     {
       "seq": 373,
-      "name_zh": "未具醫事專門職業證 書工作人員數-醫學臨 床工程",
+      "name_zh": "未具醫事專門職業證書工作人員數-醫學臨床工程",
       "name_en": "NOCC04",
       "type": "Num",
       "length": 8,
-      "description_zh": "未具醫事專門職業證書工作人員數-醫學臨床 工程 89年增列；113年刪除",
+      "description_zh": "未具醫事專門職業證書工作人員數-醫學臨床工程 89年增列；113年刪除",
       "available_notes": [
         {
           "roc_year": 89,
@@ -7340,11 +7340,11 @@
     },
     {
       "seq": 374,
-      "name_zh": "未具醫事專門職業證 書工作人員數-工務建 築等",
+      "name_zh": "未具醫事專門職業證書工作人員數-工務建築等",
       "name_en": "NOCC05",
       "type": "Num",
       "length": 8,
-      "description_zh": "未具醫事專門職業證書工作人員數-工務建築 等 89年增列；113年刪除",
+      "description_zh": "未具醫事專門職業證書工作人員數-工務建築等 89年增列；113年刪除",
       "available_notes": [
         {
           "roc_year": 89,
@@ -7362,11 +7362,11 @@
     },
     {
       "seq": 375,
-      "name_zh": "未具醫事專門職業證 書工作人員數-社會工 作師",
+      "name_zh": "未具醫事專門職業證書工作人員數-社會工作師",
       "name_en": "NOCC06",
       "type": "Num",
       "length": 8,
-      "description_zh": "未具醫事專門職業證書工作人員數-社會工作 師 95年增列；113年刪除",
+      "description_zh": "未具醫事專門職業證書工作人員數-社會工作師 95年增列；113年刪除",
       "available_notes": [
         {
           "roc_year": 95,
@@ -7384,7 +7384,7 @@
     },
     {
       "seq": 376,
-      "name_zh": "未具醫事專門職業證 書工作人員數-社工人 員",
+      "name_zh": "未具醫事專門職業證書工作人員數-社工人員",
       "name_en": "NOCC07",
       "type": "Num",
       "length": 8,
@@ -7406,7 +7406,7 @@
     },
     {
       "seq": 377,
-      "name_zh": "未具醫事專門職業證 書工作人員數-醫務行 政",
+      "name_zh": "未具醫事專門職業證書工作人員數-醫務行政",
       "name_en": "NOCC08",
       "type": "Num",
       "length": 8,
@@ -7428,7 +7428,7 @@
     },
     {
       "seq": 378,
-      "name_zh": "未具醫事專門職業證 書工作人員數-一般行 政",
+      "name_zh": "未具醫事專門職業證書工作人員數-一般行政",
       "name_en": "NOCC09",
       "type": "Num",
       "length": 8,
@@ -7450,7 +7450,7 @@
     },
     {
       "seq": 379,
-      "name_zh": "未具醫事專門職業證 書工作人員數-資訊人 員",
+      "name_zh": "未具醫事專門職業證書工作人員數-資訊人員",
       "name_en": "NOCC10",
       "type": "Num",
       "length": 8,
@@ -7472,7 +7472,7 @@
     },
     {
       "seq": 380,
-      "name_zh": "未具醫事專門職業證 書工作人員數-研究人 員",
+      "name_zh": "未具醫事專門職業證書工作人員數-研究人員",
       "name_en": "NOCC11",
       "type": "Num",
       "length": 8,
@@ -7494,11 +7494,11 @@
     },
     {
       "seq": 381,
-      "name_zh": "未具醫事專門職業證 書工作人員數-照顧服 務員",
+      "name_zh": "未具醫事專門職業證書工作人員數-照顧服務員",
       "name_en": "NOCC15",
       "type": "Num",
       "length": 8,
-      "description_zh": "未具醫事專門職業證書工作人員數-照顧服務 員 107年增列；113年刪除",
+      "description_zh": "未具醫事專門職業證書工作人員數-照顧服務員 107年增列；113年刪除",
       "available_notes": [
         {
           "roc_year": 107,
@@ -7516,7 +7516,7 @@
     },
     {
       "seq": 382,
-      "name_zh": "未具醫事專門職業證 書工作人員數-其他人 員",
+      "name_zh": "未具醫事專門職業證書工作人員數-其他人員",
       "name_en": "NOCC12",
       "type": "Num",
       "length": 8,
@@ -7538,7 +7538,7 @@
     },
     {
       "seq": 383,
-      "name_zh": "未具醫事專門職業證 書工作人員數-麻醉",
+      "name_zh": "未具醫事專門職業證書工作人員數-麻醉",
       "name_en": "NOCC13",
       "type": "Num",
       "length": 8,
@@ -7560,7 +7560,7 @@
     },
     {
       "seq": 384,
-      "name_zh": "未具醫事專門職業證 書工作人員數-臨床心 理",
+      "name_zh": "未具醫事專門職業證書工作人員數-臨床心理",
       "name_en": "NOCC14",
       "type": "Num",
       "length": 8,
@@ -7796,7 +7796,7 @@
       "name_en": "ELSE06",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院院內感染病例數 89年增列，89-92年稱為院內感染率；93-107年稱為院 內感染病例數",
+      "description_zh": "各醫院院內感染病例數 89年增列，89-92年稱為院內感染率；93-107年稱為院內感染病例數",
       "available_notes": [
         {
           "roc_year": 89,
@@ -7823,7 +7823,7 @@
       "name_en": "ELSE07",
       "type": "Num",
       "length": 8,
-      "description_zh": "各醫院處方箋數 僅95年、100年有此欄位",
+      "description_zh": "各醫院處方箋數僅95年、100年有此欄位",
       "available_notes": [
         {
           "roc_year": 95,
@@ -7841,11 +7841,11 @@
     },
     {
       "seq": 404,
-      "name_zh": "長期派駐國(境)外據 點知僱用員工人數-中 國大陸(含港澳)",
+      "name_zh": "長期派駐國(境)外據點知僱用員工人數-中國大陸(含港澳)",
       "name_en": "FOR01",
       "type": "Num",
       "length": 8,
-      "description_zh": "長期派駐國(境)外據點知僱用員工人數-中國 大陸(含港澳) 僅100年有此欄位",
+      "description_zh": "長期派駐國(境)外據點知僱用員工人數-中國大陸(含港澳) 僅100年有此欄位",
       "available_notes": [
         {
           "roc_year": 100,
@@ -7858,11 +7858,11 @@
     },
     {
       "seq": 405,
-      "name_zh": "長期派駐國(境)外據 點知僱用員工人數-其 他地區",
+      "name_zh": "長期派駐國(境)外據點知僱用員工人數-其他地區",
       "name_en": "FOR02",
       "type": "Num",
       "length": 8,
-      "description_zh": "長期派駐國(境)外據點知僱用員工人數-其他 地區 僅100年有此欄位",
+      "description_zh": "長期派駐國(境)外據點知僱用員工人數-其他地區僅100年有此欄位",
       "available_notes": [
         {
           "roc_year": 100,
@@ -7910,7 +7910,7 @@
         },
         {
           "code": "08",
-          "label_zh": "公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 私立 私立 私立 非公立 非公立 非公立",
+          "label_zh": "公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院 08 公立中醫醫院私立私立私立非公立非公立非公立",
           "label_en": "Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital 08 Public TCM hospital Private Private Private Non-public Non-public Non-public"
         },
         {
@@ -7950,7 +7950,7 @@
         },
         {
           "code": "18",
-          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 頁 24 / 40 2026年01月27日修訂 2. 98年以前-縣市 0203 高雄市左營區 1703 臺中市西區 3104 臺北縣中和市 3125 臺北縣雙溪鄉 3307 新竹縣橫山鄉 鄉鎮代碼 0204 高雄市楠梓區 1704 臺中市南區 3104 臺北縣中和市 3126 臺北縣貢寮鄉 3308 新竹縣新豐鄉 (CITY)： 0205 高雄市三民區 1705 臺中市北區 3104 臺北縣中和市 3127 臺北縣金山鄉 3309 新竹縣芎林鄉",
+          "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院頁 24 / 40 2026年01月27日修訂 2. 98年以前-縣市 0203 高雄市左營區 1703 臺中市西區 3104 臺北縣中和市 3125 臺北縣雙溪鄉 3307 新竹縣橫山鄉鄉鎮代碼 0204 高雄市楠梓區 1704 臺中市南區 3104 臺北縣中和市 3126 臺北縣貢寮鄉 3308 新竹縣新豐鄉 (CITY)： 0205 高雄市三民區 1705 臺中市北區 3104 臺北縣中和市 3127 臺北縣金山鄉 3309 新竹縣芎林鄉",
           "label_en": "1. To meet clinical cancer-care needs, from ROC year 98 (2009) the Health Promotion Administration began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height and weight were also added and revised in the ROC-100 (2011) cancer-registry abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and those added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophagus, stomach, prostate...)."
         },
         {
@@ -8050,7 +8050,7 @@
         },
         {
           "code": "0202",
-          "label_zh": "高雄市鼓山區 1702 臺中市東區 3103 臺北縣永和市 3124 臺北縣平溪鄉 3306 新竹縣湖口鄉 3503 苗栗縣通霄鎮 頁 25 / 40 2026年01月27日修訂",
+          "label_zh": "高雄市鼓山區 1702 臺中市東區 3103 臺北縣永和市 3124 臺北縣平溪鄉 3306 新竹縣湖口鄉 3503 苗栗縣通霄鎮頁 25 / 40 2026年01月27日修訂",
           "label_en": "Kaohsiung Gushan District 1702 Taichung Dong District 3103 Taipei County Yonghe City 3124 Taipei County Pingxi Township 3306 Hsinchu County Lake Mouth Township 3503 Miaoli County Tongtiao Town Page 25 / 40 Revised on January 27, 2026"
         },
         {
@@ -8170,7 +8170,7 @@
         },
         {
           "code": "3609",
-          "label_zh": "臺中縣潭子鄉 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市 4107 臺南縣善化鎮 4131 臺南縣永康市 頁 26 / 40 2026年01月27日修訂",
+          "label_zh": "臺中縣潭子鄉 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市 4107 臺南縣善化鎮 4131 臺南縣永康市頁 26 / 40 2026年01月27日修訂",
           "label_en": "Taichung County Tanzi Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City 4107 Tainan County Shansha Town 4131 Tainan County Yongkang City Jan 27, 2026"
         },
         {
@@ -8260,7 +8260,7 @@
         },
         {
           "code": "4217",
-          "label_zh": "高雄縣茄萣鄉 4308 屏東縣九如鄉 4326 屏東縣三地鄉 4505 花蓮縣吉安鄉 4610 台東縣池上鄉 頁 27 / 40 2026年01月27日修訂 3. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-99 年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區 後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
+          "label_zh": "高雄縣茄萣鄉 4308 屏東縣九如鄉 4326 屏東縣三地鄉 4505 花蓮縣吉安鄉 4610 台東縣池上鄉頁 27 / 40 2026年01月27日修訂 3. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-99 年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
           "label_en": ""
         },
         {
@@ -8365,7 +8365,7 @@
         },
         {
           "code": "0703",
-          "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區 頁 28 / 40 2026年01月27日修訂",
+          "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區頁 28 / 40 2026年01月27日修訂",
           "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 28 / 40 Revised on January 27, 2026"
         },
         {
@@ -8485,7 +8485,7 @@
         },
         {
           "code": "3201",
-          "label_zh": "桃園縣桃園市 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 頁 29 / 40 2026年01月27日修訂",
+          "label_zh": "桃園縣桃園市 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉頁 29 / 40 2026年01月27日修訂",
           "label_en": "Taoyuan County Taoyuan City 3313 Hsinchu County Jiaoshan Township 3511 Miaoli County Nanzhuang Township 3717 Changhua County Puxin Township 3902 Yunlin County Duntian Town 4006 Kaohsiung County Xingang Township Jan 27, 2026"
         },
         {
@@ -8605,7 +8605,7 @@
         },
         {
           "code": "4312",
-          "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉 頁 30 / 40 2026年01月27日修訂 4. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-104年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區 後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
+          "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉頁 30 / 40 2026年01月27日修訂 4. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-104年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
           "label_en": ""
         },
         {
@@ -8710,7 +8710,7 @@
         },
         {
           "code": "0703",
-          "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區 頁 31 / 40 2026年01月27日修訂",
+          "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區頁 31 / 40 2026年01月27日修訂",
           "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 31 / 40 Revised on January 27, 2026"
         },
         {
@@ -8830,7 +8830,7 @@
         },
         {
           "code": "3201",
-          "label_zh": "桃園市桃園區 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 頁 32 / 40 2026年01月27日修訂",
+          "label_zh": "桃園市桃園區 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉頁 32 / 40 2026年01月27日修訂",
           "label_en": "Taoyuan City Taoyuan District 3313 Xinzhai County Jianshi Township 3511 Miaoli County Nanzhuang Township 3717 Zhanghua County Pubxin Township 3902 Yunlin County Dounan Town 4006 Jiayi County Xinggang Township"
         },
         {
@@ -8950,7 +8950,7 @@
         },
         {
           "code": "4312",
-          "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉 頁 33 / 40 2026年01月27日修訂",
+          "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉頁 33 / 40 2026年01月27日修訂",
           "label_en": "Pingtung County Wanlu Township 4403 Penghu County Basia Township 4608 Taitung County Changbin Township Page 33 / 40 Revised on January 27, 2026"
         }
       ],
@@ -8986,12 +8986,12 @@
         },
         {
           "code": "06",
-          "label_zh": "慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 牙醫醫院",
+          "label_zh": "慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院 06 慢性醫院牙醫醫院",
           "label_en": "Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital 06 Chronic hospital Dental hospital"
         },
         {
           "code": "11",
-          "label_zh": "牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 中醫醫院 中醫綜合醫院(102年起停發，",
+          "label_zh": "牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院中醫醫院中醫綜合醫院(102年起停發，",
           "label_en": "dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital traditional Chinese medicine (TCM) hospital TCM comprehensive hospital (from 2003, no longer issued)"
         },
         {
@@ -9001,7 +9001,7 @@
         },
         {
           "code": "22",
-          "label_zh": "中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 頁 34 / 40 2026年01月27日修訂",
+          "label_zh": "中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院頁 34 / 40 2026年01月27日修訂",
           "label_en": "Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital Page 34 / 40 Revised on January 27, 2026"
         }
       ],
@@ -9022,7 +9022,7 @@
         },
         {
           "code": "03",
-          "label_zh": "一般級急救責任醫院 頁 40 / 40",
+          "label_zh": "一般級急救責任醫院頁 40 / 40",
           "label_en": "general-level emergency responsibility hospital"
         }
       ],

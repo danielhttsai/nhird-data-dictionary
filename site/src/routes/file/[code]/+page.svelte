@@ -86,6 +86,8 @@
     const arr = list.map((f) => f[key]).filter(Boolean);
     return arr.slice(0, n).join(', ') + (arr.length > n ? ` +${arr.length - n} more` : '');
   }
+  const HIST = { '初版': 'first edition', '修訂': 'revised', '新增': 'added', '修正': 'amended', '版': 'ed.' };
+  function histNote(n) { n = (n || '').trim(); return HIST[n] ? `${n} · ${HIST[n]}` : n; }
   function vGroup(v) {
     if (v.file_type === 'xls') return '編碼簿 Codebooks';
     if (v.version_id.includes('__wave_')) return '附屬檔 / 波次 Sub-files';
@@ -256,7 +258,7 @@
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Codebook history</div>
           <ul class="flex flex-wrap gap-x-3 gap-y-1 text-xs mono text-slate-600">
-            {#each meta.update_history as h}<li>{h.date} {h.note}</li>{/each}
+            {#each meta.update_history as h}<li>{h.date} {histNote(h.note)}</li>{/each}
           </ul>
         </div>
       {/if}
