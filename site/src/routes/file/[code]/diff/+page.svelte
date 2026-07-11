@@ -29,10 +29,8 @@
 
   const rows = diffs.map((d, i) => {
     const t = d.data;
-    const a = t.added.length, r = t.removed.length, m = t.modified.length;
-    return { i, data: t, a, r, m, total: a + r + m };
+    return { i, data: t, a: t.added.length, r: t.removed.length, m: t.modified.length };
   });
-  const maxTotal = Math.max(1, ...rows.map((x) => x.total));
 
   let idx = $state(0);
   const cur = $derived(rows[idx] || null);
@@ -62,87 +60,67 @@
       This file has a single version, so there's nothing to compare.
     </div>
   {:else}
-    <!-- GRAPHIC OVERVIEW: one proportional bar per comparison; bar length ∝ total change -->
-    <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-      <div class="flex items-center justify-between mb-3">
-        <h2 class="text-sm font-bold text-slate-900">Each comparison, by amount changed</h2>
-        <div class="hidden sm:flex items-center gap-3 text-[11px] font-semibold">
-          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-500"></span>added</span>
-          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-rose-500"></span>removed</span>
-          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-amber-400"></span>changed</span>
-        </div>
+    <!-- Clean comparison list: pick one to see the detail -->
+    <section class="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+      <div class="px-4 py-2.5 border-b border-slate-100 text-xs uppercase tracking-wide text-slate-500 font-semibold">
+        Pick two versions to compare
       </div>
-      <div class="space-y-1.5">
+      <ul class="divide-y divide-slate-100">
         {#each rows as x}
-          <button onclick={() => (idx = x.i)}
-            class="w-full text-left rounded-xl px-3 py-2 transition border
-                   {idx === x.i ? 'border-brand-400 bg-brand-50/50 ring-1 ring-brand-200' : 'border-transparent hover:bg-slate-50'}">
-            <div class="flex items-center justify-between gap-3 text-xs mb-1">
-              <span class="font-semibold text-slate-800 truncate">
-                {vLabel(x.data.earlier_version_id)} <span class="text-slate-400">→</span> {vLabel(x.data.later_version_id)}
+          <li>
+            <button onclick={() => (idx = x.i)}
+              class="w-full text-left flex items-center justify-between gap-4 px-4 py-3 transition
+                     {idx === x.i ? 'bg-brand-50/60' : 'hover:bg-slate-50'}">
+              <span class="text-sm min-w-0 flex items-center gap-2">
+                {#if idx === x.i}<span class="w-1.5 h-1.5 rounded-full bg-brand-500 shrink-0"></span>{/if}
+                <span class="truncate {idx === x.i ? 'font-semibold text-brand-900' : 'text-slate-700'}">
+                  {vLabel(x.data.earlier_version_id)} <span class="text-slate-400 mx-0.5">→</span> {vLabel(x.data.later_version_id)}
+                </span>
               </span>
-              <span class="shrink-0 tabular-nums text-slate-500">
-                {#if x.total === 0}no change{:else}<span class="text-emerald-700 font-semibold">+{x.a}</span> <span class="text-rose-700 font-semibold">−{x.r}</span> <span class="text-amber-700 font-semibold">~{x.m}</span>{/if}
+              <span class="shrink-0 flex items-center gap-2 text-xs tabular-nums font-semibold">
+                {#if x.a + x.r + x.m === 0}
+                  <span class="text-slate-400">no change</span>
+                {:else}
+                  <span class="text-emerald-700">+{x.a}</span>
+                  <span class="text-rose-700">−{x.r}</span>
+                  <span class="text-amber-700">~{x.m}</span>
+                {/if}
               </span>
-            </div>
-            <div class="h-2.5 rounded-full bg-slate-100 overflow-hidden">
-              <div class="h-full flex" style="width:{(x.total / maxTotal) * 100}%">
-                {#if x.a}<div class="bg-emerald-500 h-full" style="width:{(x.a / x.total) * 100}%"></div>{/if}
-                {#if x.r}<div class="bg-rose-500 h-full" style="width:{(x.r / x.total) * 100}%"></div>{/if}
-                {#if x.m}<div class="bg-amber-400 h-full" style="width:{(x.m / x.total) * 100}%"></div>{/if}
-              </div>
-            </div>
-          </button>
+            </button>
+          </li>
         {/each}
-      </div>
+      </ul>
     </section>
 
     {#if cur}
       {@const ef = fc(cur.data.earlier_version_id)}
       {@const lf = fc(cur.data.later_version_id)}
-      <!-- SELECTED COMPARISON: field-count change + big proportional bar -->
       <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <div class="flex items-center gap-3 flex-wrap text-sm mb-4">
+        <div class="flex items-center gap-3 flex-wrap text-sm">
           <span class="rounded-lg bg-slate-100 px-3 py-1.5 font-semibold text-slate-700">{vLabel(cur.data.earlier_version_id)}</span>
           <span class="text-brand-600 text-lg">→</span>
           <span class="rounded-lg bg-brand-50 px-3 py-1.5 font-semibold text-brand-800">{vLabel(cur.data.later_version_id)}</span>
+          {#if ef != null && lf != null}
+            <span class="ml-auto text-sm text-slate-500">
+              <span class="tabular-nums font-semibold text-slate-600">{ef}</span>
+              <span class="mx-1 text-brand-500">→</span>
+              <span class="tabular-nums font-semibold text-brand-700">{lf}</span> fields
+              <span class="ml-1 font-semibold {lf - ef > 0 ? 'text-emerald-700' : lf - ef < 0 ? 'text-rose-700' : 'text-slate-400'}">({lf - ef > 0 ? '+' : ''}{lf - ef})</span>
+            </span>
+          {/if}
         </div>
-
-        {#if ef != null && lf != null}
-          <div class="flex items-end gap-4 mb-4">
-            <div class="text-center">
-              <div class="text-3xl font-extrabold text-slate-400 leading-none tabular-nums">{ef}</div>
-              <div class="text-[10px] uppercase tracking-wide text-slate-400 mt-1">fields before</div>
-            </div>
-            <div class="text-brand-500 text-2xl pb-3">→</div>
-            <div class="text-center">
-              <div class="text-3xl font-extrabold text-brand-700 leading-none tabular-nums">{lf}</div>
-              <div class="text-[10px] uppercase tracking-wide text-slate-500 mt-1">fields after</div>
-            </div>
-            <div class="pb-2 text-sm font-semibold {lf - ef > 0 ? 'text-emerald-700' : lf - ef < 0 ? 'text-rose-700' : 'text-slate-400'}">
-              {lf - ef > 0 ? '+' : ''}{lf - ef} net
-            </div>
-          </div>
-        {/if}
-
-        {#if cur.total === 0}
-          <p class="text-slate-500 text-sm">No field-level changes between these two versions.</p>
-        {:else}
-          <div class="h-5 rounded-lg overflow-hidden flex text-[10px] font-bold text-white">
-            {#if cur.a}<div class="bg-emerald-500 grid place-items-center" style="width:{(cur.a / cur.total) * 100}%" title="added">{cur.a >= 3 ? cur.a : ''}</div>{/if}
-            {#if cur.m}<div class="bg-amber-400 grid place-items-center" style="width:{(cur.m / cur.total) * 100}%" title="changed">{cur.m >= 3 ? cur.m : ''}</div>{/if}
-            {#if cur.r}<div class="bg-rose-500 grid place-items-center" style="width:{(cur.r / cur.total) * 100}%" title="removed">{cur.r >= 3 ? cur.r : ''}</div>{/if}
-          </div>
-          <div class="mt-2 flex gap-4 text-xs font-semibold">
-            <span class="text-emerald-700">+{cur.a} added</span>
-            <span class="text-amber-700">~{cur.m} changed</span>
-            <span class="text-rose-700">−{cur.r} removed</span>
-          </div>
-        {/if}
+        <p class="mt-3 text-slate-700 text-sm">
+          {#if cur.a + cur.r + cur.m === 0}
+            No field-level changes between these two versions.
+          {:else}
+            <span class="font-bold text-emerald-700">{cur.a}</span> added ·
+            <span class="font-bold text-rose-700">{cur.r}</span> removed ·
+            <span class="font-bold text-amber-700">{cur.m}</span> changed
+          {/if}
+        </p>
       </section>
 
-      {#if cur.total > 0}
-        <!-- Field detail, secondary to the chart -->
+      {#if cur.a + cur.r + cur.m > 0}
         <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-start">
           <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4">
             <h3 class="text-sm font-bold text-emerald-800 mb-3 flex items-center gap-2">
