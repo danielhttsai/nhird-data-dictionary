@@ -37,7 +37,7 @@
       "value_labels": "1:母親, 2:父親, 3:祖母, 4:祖父, 5:外祖母, 6:外祖父, 7:其他親戚, 8:外傭, 9:保母, 10:其他非親戚",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is your [the respondent's] relationship to the child?"
     },
     {
       "seq": 3,
@@ -49,7 +49,7 @@
       "value_labels": "1:男, 2:女, 3:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is your [the respondent's] gender:"
     },
     {
       "seq": 4,
@@ -60,7 +60,7 @@
       "description_zh": "請問您【代答者】的年齡是幾足歲？",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is your [the respondent's] age in full years?"
     },
     {
       "seq": 5,
@@ -71,7 +71,7 @@
       "description_zh": "請問您【代答者】家的住址是否跟小朋友的戶籍或現住地址相同?【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Is your [respondent's] home address the same as the child's household registration or current residential address? [Multiple choices allowed]"
     },
     {
       "seq": 6,
@@ -83,7 +83,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Same, same as the child's household registration address"
     },
     {
       "seq": 7,
@@ -131,7 +131,7 @@
       "value_labels": "1:是, 2:不是",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Is the child's actual date of birth ROC year ${A:birthY}, month ${A:birthM}, day ${A:birthD}?"
     },
     {
       "seq": 11,
@@ -234,7 +234,7 @@
       "value_labels": "1:本國人(包含雙重國籍), 2:非本國人但目前已歸化(曾為外國籍但已歸化本國籍)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was the child a national (citizen) at birth?"
     },
     {
       "seq": 20,
@@ -246,7 +246,7 @@
       "value_labels": "0:不具有原住民身份, 1:具有原住民身份",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does the child have indigenous status?"
     },
     {
       "seq": 21,
@@ -270,7 +270,7 @@
       "value_labels": "1:已婚同住（指一年中6個月以上時間同住）, 2:已婚, 現在未經常同住（指一年中6個月以上時間沒有同住）, 3:離婚, 4:（正式）分居, 5:未婚同住, 6:未婚且無同住, 7:父親已過世, 8:母親已過世, 9:父母親均已過世, 10:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is the marital status of the child's parents? Married and currently living together, or some other situation?"
     },
     {
       "seq": 23,
@@ -281,7 +281,7 @@
       "description_zh": "目前和他同住在一起的有哪些人？【若無該類同住者，人數請補0】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Who currently lives with him? [If no such cohabitant, enter 0]"
     },
     {
       "seq": 24,
@@ -369,7 +369,7 @@
       "description_zh": "目前包含他自己在內，和他住在一起的總共有幾個人？",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Currently, including himself, how many people live with him in total?"
     },
     {
       "seq": 32,
@@ -381,7 +381,7 @@
       "value_labels": "1:小學一年級, 2:小學二年級, 3:小學三年級, 4:小學四年級, 5:小學五年級, 6:小學六年級, 7:國中/初中(職)一年級, 8:國中/初中(職)二年級, 9:國中/初中(職)三年級, 10:高中(職)一年級/五專一年級, 11:高中(職)二年級/五專二年級, 12:高中(職)三年級/五專三年級, 13:大學.四技一年級/二專.三專一年級/五專四年級, 14:大學.四技二年級/二專.三專二年級/五專五年級/空中行(商)專畢業, 15:大學.四技三年級/三專畢業/二技一年級, 16:大學.四技四年級/二技二年級/空中大學畢業, 17:研究所及以上/中醫、牙醫學系畢業, 18:不識字, 19:識字, 91:空中大學肄業, 92:空中行(商)專肄業, 99:不詳",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is the child's father's highest education level (highest school education received)? Father's education level code:"
     },
     {
       "seq": 33,
@@ -393,7 +393,7 @@
       "value_labels": "1:已畢業, 2:肄業",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did the father complete his highest degree, or leave without graduating?"
     },
     {
       "seq": 34,
@@ -405,7 +405,7 @@
       "value_labels": "1:小學一年級, 2:小學二年級, 3:小學三年級, 4:小學四年級, 5:小學五年級, 6:小學六年級, 7:國中/初中(職)一年級, 8:國中/初中(職)二年級, 9:國中/初中(職)三年級, 10:高中(職)一年級/五專一年級, 11:高中(職)二年級/五專二年級, 12:高中(職)三年級/五專三年級, 13:大學.四技一年級/二專.三專一年級/五專四年級, 14:大學.四技二年級/二專.三專二年級/五專五年級/空中行(商)專畢業, 15:大學.四技三年級/三專畢業/二技一年級, 16:大學.四技四年級/二技二年級/空中大學畢業, 17:研究所及以上/中醫、牙醫學系畢業, 18:不識字, 19:識字, 91:空中大學肄業, 92:空中行(商)專肄業, 99:不詳",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is the child's mother's highest education level (highest school education received)? Mother's education level code:"
     },
     {
       "seq": 35,
@@ -417,7 +417,7 @@
       "value_labels": "1:已畢業, 2:肄業",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did the mother complete her highest degree, or leave without graduating?"
     },
     {
       "seq": 36,
@@ -429,7 +429,7 @@
       "value_labels": "1:本國人(包含雙重國籍), 2:非本國人但目前已歸化(曾為外國籍但目前已歸化本國籍者), 3:非本國人(未持有本國身分證之外籍人士或持有外僑居留證、永久居留證、申請入境停留、居留及定居本國者)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was the child's father a national (citizen) at birth?"
     },
     {
       "seq": 37,
@@ -441,7 +441,7 @@
       "value_labels": "0:不具有原住民身份, 1:具有原住民身份",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does the child's father have indigenous status?"
     },
     {
       "seq": 38,
@@ -453,7 +453,7 @@
       "value_labels": "1:大陸地區(不含港澳), 2:香港、澳門, 3:越南籍, 4:泰國籍, 5:印尼籍, 6:菲律賓籍, 7:柬埔寨籍, 8:其他國籍",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What was the child's father's original nationality?"
     },
     {
       "seq": 39,
@@ -465,7 +465,7 @@
       "value_labels": "1:本國人(包含雙重國籍), 2:非本國人但目前已歸化(曾為外國籍但目前已歸化本國籍者), 3:非本國人(未持有本國身分證之外籍人士或持有外僑居留證、永久居留證、申請入境停留、居留及定居本國者)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was the child's mother a national (citizen) at birth?"
     },
     {
       "seq": 40,
@@ -477,7 +477,7 @@
       "value_labels": "0:不具有原住民身份, 1:具有原住民身份",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does the child's mother have indigenous status?"
     },
     {
       "seq": 41,
@@ -489,7 +489,7 @@
       "value_labels": "1:大陸地區(不含港澳), 2:香港、澳門, 3:越南籍, 4:泰國籍, 5:印尼籍, 6:菲律賓籍, 7:柬埔寨籍, 8:其他國籍",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What was the child's mother's original nationality?"
     },
     {
       "seq": 42,
@@ -501,7 +501,7 @@
       "value_labels": "1:很好, 2:好, 3:普通, 4:不太好, 5:很不好",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think his/her current health condition is very good, good, average, not very good, or very poor?"
     },
     {
       "seq": 43,
@@ -513,7 +513,7 @@
       "value_labels": "1:好很多, 2:好一些, 3:差不多, 4:差一些, 5:差很多",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Compared to children of the same age, do you think his/her current health condition is much better, somewhat better, about the same, somewhat worse, or much worse?"
     },
     {
       "seq": 44,
@@ -655,7 +655,7 @@
       "description_zh": "請問影響他發生氣喘的因素有哪些？【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What factors affect his asthma occurrence? [Multiple choices allowed]"
     },
     {
       "seq": 56,
@@ -715,7 +715,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Pollen, hay"
     },
     {
       "seq": 61,
@@ -739,7 +739,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Viral infection (such as a cold)"
     },
     {
       "seq": 63,
@@ -775,7 +775,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Intense emotional reactions (such as laughing or crying hard)"
     },
     {
       "seq": 66,
@@ -787,7 +787,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Mosquito coil, incense burning"
     },
     {
       "seq": 67,
@@ -799,7 +799,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Smoke from burning tobacco products"
     },
     {
       "seq": 68,
@@ -928,7 +928,7 @@
       "description_zh": "是否曾有醫師告訴過您們，他有下列的視力問題或是眼睛方面的疾病？【逐項詢問】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Has a doctor ever told you that he/she has any of the following vision problems or eye diseases? [Ask item by item]"
     },
     {
       "seq": 79,
@@ -1012,7 +1012,7 @@
       "value_labels": "0:沒有 或不確定或沒做過檢查, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Retinal or optic nerve disease"
     },
     {
       "seq": 86,
@@ -1060,7 +1060,7 @@
       "value_labels": "1:視力篩檢異常, 2:因感染眼睛痛癢, 3:因過敏眼睛痛癢, 4:懷疑他有視力問題, 5:定期檢查, 6:其他原因",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What was the main reason you took him to see an ophthalmologist?"
     },
     {
       "seq": 90,
@@ -1107,7 +1107,7 @@
       "description_zh": "非假日每天平均_____分鐘",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Average of _____ minutes per day on non-holidays"
     },
     {
       "seq": 94,
@@ -1130,7 +1130,7 @@
       "value_labels": "1:對, 2:不對, 3:不知道",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think the statement \"myopia is a disease\" is correct?"
     },
     {
       "seq": 96,
@@ -1142,7 +1142,7 @@
       "value_labels": "1:對, 2:不對, 3:不知道",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think the statement \"children under 2 years old should avoid screen time\" is correct?"
     },
     {
       "seq": 97,
@@ -1154,7 +1154,7 @@
       "value_labels": "1:對, 2:不對, 3:不知道",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think the statement \"children over 2 years old should not have more than 1 hour of screen time per day\" is correct?"
     },
     {
       "seq": 98,
@@ -1166,7 +1166,7 @@
       "value_labels": "1:對, 2:不對, 3:不知道",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think the statement \"high myopia can lead to blindness\" is correct?"
     },
     {
       "seq": 99,
@@ -1190,7 +1190,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he receive treatment from a medical professional, such as: a Chinese or Western medicine doctor?"
     },
     {
       "seq": 101,
@@ -1415,7 +1415,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent fall/slip/drop?"
     },
     {
       "seq": 120,
@@ -1427,7 +1427,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent fall/slip/drop?"
     },
     {
       "seq": 121,
@@ -1439,7 +1439,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent fall/slip/drop?"
     },
     {
       "seq": 122,
@@ -1451,7 +1451,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent fall/slip/drop?"
     },
     {
       "seq": 123,
@@ -1546,7 +1546,7 @@
       "value_labels": "1:滑倒或絆倒, 2:跳躍或跳水, 3:被他人推擠, 4:碰到或撞上物品或人, 5:從沙發、椅子或床墜落, 6:失去平衡或頭昏, 7:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What was the cause of this most recent fall/slip/drop?"
     },
     {
       "seq": 131,
@@ -1569,7 +1569,7 @@
       "description_zh": "最近這一次發生跌倒/跌落/墜落事故時，他正在做什麼活動？【最多可複選2項】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent fall/slip/drop, what activity was he/she doing? [Up to 2 choices]"
     },
     {
       "seq": 133,
@@ -1629,7 +1629,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Play (leisure activities other than sports or competitions)"
     },
     {
       "seq": 138,
@@ -1689,7 +1689,7 @@
       "value_labels": "0:沒有, 1:有, 2:非學生",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to attend school as usual because of this most recent fall/slip/drop?"
     },
     {
       "seq": 143,
@@ -1712,7 +1712,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to go out as usual because of this most recent fall/slip/drop?"
     },
     {
       "seq": 145,
@@ -1747,7 +1747,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he receive treatment from a medical professional, such as a Chinese or Western medicine doctor?"
     },
     {
       "seq": 148,
@@ -1876,7 +1876,7 @@
       "value_labels": "1:熱水、液體或蒸氣燙傷, 2:接觸到酸、鹼或腐蝕性化學物質, 3:因化學品點燃所導致火焰燒傷, 4:因易燃液體點燃而燒傷（汽油、煤油或其他可燃性液體）, 5:使用或觸碰到使用後的電毯或其他電器產品而燙傷, 6:長期暴露在檯燈燈光下造成表皮燒燙傷, 7:接觸使用中或剛使用完畢的檯燈燈罩造成表皮燒燙傷, 8:過於接近燒金爐或接觸到其未燃燒完全的灰燼而燒燙傷, 9:接觸到機車排氣管, 10:接觸到加熱之鍋具、爐具或茶壺, 11:無法分類",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What was the cause of this most recent burn/scald?"
     },
     {
       "seq": 159,
@@ -1900,7 +1900,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent burn/scald?"
     },
     {
       "seq": 161,
@@ -1912,7 +1912,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent burn/scald?"
     },
     {
       "seq": 162,
@@ -1924,7 +1924,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent burn/scald?"
     },
     {
       "seq": 163,
@@ -1936,7 +1936,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent burn/scald?"
     },
     {
       "seq": 164,
@@ -1970,7 +1970,7 @@
       "description_zh": "最近這一次有治療處理的燒燙傷時，他正在做什麼活動？【最多可複選2項】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent treated burn/scald, what activity was he/she doing? [Up to 2 choices]"
     },
     {
       "seq": 167,
@@ -2030,7 +2030,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Play (leisure activities other than sports or competitions)"
     },
     {
       "seq": 172,
@@ -2089,7 +2089,7 @@
       "description_zh": "最近這一次有治療處理的燒燙傷發生時，他在什麼地方？【最多可複選2項】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent treated burn/scald, where was he/she? [Up to 2 choices]"
     },
     {
       "seq": 177,
@@ -2341,7 +2341,7 @@
       "value_labels": "0:沒有, 1:有, 2:非學生",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to attend school as usual because of this most recent burn/scald?"
     },
     {
       "seq": 198,
@@ -2364,7 +2364,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to go out as usual because of this most recent burn/scald?"
     },
     {
       "seq": 200,
@@ -2399,7 +2399,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he receive treatment from a medical professional, such as a Chinese or Western medicine doctor?"
     },
     {
       "seq": 203,
@@ -2624,7 +2624,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent traffic accident?"
     },
     {
       "seq": 222,
@@ -2636,7 +2636,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent traffic accident?"
     },
     {
       "seq": 223,
@@ -2648,7 +2648,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent traffic accident?"
     },
     {
       "seq": 224,
@@ -2660,7 +2660,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent traffic accident?"
     },
     {
       "seq": 225,
@@ -2695,7 +2695,7 @@
       "value_labels": "1:機動車駕駛, 2:機動車乘客, 3:行人, 4:腳踏車或三輪車騎士或乘客, 5:踏板車、滑板、溜冰鞋或其它非機動交通工具使用者, 6:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "In your most recent traffic accident, was he/she a passenger or a pedestrian?"
     },
     {
       "seq": 228,
@@ -2707,7 +2707,7 @@
       "value_labels": "1:汽車, 2:小巴士、廂型車, 3:公車, 4:大型巴士或十八輪大型交通車, 5:機車, 6:吉普車、跨界休旅車或雪地機動車, 7:拖曳車, 8:產業用交通工具, 9:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent traffic accident, what mode of transportation was he/she using?"
     },
     {
       "seq": 229,
@@ -2719,7 +2719,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of your most recent traffic accident, was he/she wearing a seatbelt?"
     },
     {
       "seq": 230,
@@ -2731,7 +2731,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of your most recent traffic accident, was he/she wearing a helmet?"
     },
     {
       "seq": 231,
@@ -2743,7 +2743,7 @@
       "value_labels": "0:沒有, 1:有, 2:不需要",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of your most recent traffic accident, was he/she wearing a seatbelt?"
     },
     {
       "seq": 232,
@@ -2755,7 +2755,7 @@
       "value_labels": "0:沒有, 1:有, 2:不需要",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of your most recent traffic accident, was he/she wearing a helmet?"
     },
     {
       "seq": 233,
@@ -2766,7 +2766,7 @@
       "description_zh": "最近這一次發生交通事故事故時，他正在做什麼活動？【最多可複選2項】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent traffic accident, what activity was he/she doing? [Up to 2 choices]"
     },
     {
       "seq": 234,
@@ -2826,7 +2826,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Play (leisure activities other than sports or competitions)"
     },
     {
       "seq": 239,
@@ -2885,7 +2885,7 @@
       "description_zh": "最近這一次有治療處理的交通事故發生時，他在什麼地方？【最多可複選2項】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "At the time of this most recent treated traffic accident, where was he/she? [Up to 2 choices]"
     },
     {
       "seq": 244,
@@ -2981,7 +2981,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Street or roadside"
     },
     {
       "seq": 252,
@@ -3137,7 +3137,7 @@
       "value_labels": "0:沒有, 1:有, 2:非學生",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to attend school as usual because of this most recent traffic accident?"
     },
     {
       "seq": 265,
@@ -3160,7 +3160,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she unable to go out as usual because of this most recent traffic accident?"
     },
     {
       "seq": 267,
@@ -3195,7 +3195,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he receive treatment from a medical professional, such as a Chinese or Western medicine doctor?"
     },
     {
       "seq": 270,
@@ -3207,7 +3207,7 @@
       "value_labels": "1:溺水, 2:被落物擊中, 3:被玩具、魚刺、食物等異物噎到, 4:中毒, 5:其他事故傷害",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What type of accidental injury was it?"
     },
     {
       "seq": 271,
@@ -3432,7 +3432,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent (other injury)?"
     },
     {
       "seq": 290,
@@ -3444,7 +3444,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent (other injury)?"
     },
     {
       "seq": 291,
@@ -3456,7 +3456,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent (other injury)?"
     },
     {
       "seq": 292,
@@ -3468,7 +3468,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent (other injury)?"
     },
     {
       "seq": 293,
@@ -3515,7 +3515,7 @@
       "value_labels": "1:溺水, 2:被落物擊中, 3:被玩具、魚刺、食物等異物噎到, 4:中毒, 5:其他事故傷害",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What type of accidental injury was it?"
     },
     {
       "seq": 297,
@@ -3740,7 +3740,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent (other injury)?"
     },
     {
       "seq": 316,
@@ -3752,7 +3752,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent (other injury)?"
     },
     {
       "seq": 317,
@@ -3764,7 +3764,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent (other injury)?"
     },
     {
       "seq": 318,
@@ -3776,7 +3776,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent (other injury)?"
     },
     {
       "seq": 319,
@@ -3823,7 +3823,7 @@
       "value_labels": "1:溺水, 2:被落物擊中, 3:被玩具、魚刺、食物等異物噎到, 4:中毒, 5:其他事故傷害",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What type of accidental injury was it?"
     },
     {
       "seq": 323,
@@ -3880,7 +3880,7 @@
       "value_labels": "1:骨折或脫臼, 2:扭傷、拉傷、挫傷, 3:切、割傷, 4:擦傷, 5:瘀傷, 6:燒燙傷, 7:昆蟲咬傷, 8:動物咬傷, 9:內出血, 10:撕裂傷, 11:穿刺傷, 12:其他, 95:不知道",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "In your most recent (other injury), which body part was injured, and what type of injury? Injury type 1"
     },
     {
       "seq": 328,
@@ -4048,7 +4048,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent (other injury)?"
     },
     {
       "seq": 342,
@@ -4060,7 +4060,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent (other injury)?"
     },
     {
       "seq": 343,
@@ -4072,7 +4072,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent (other injury)?"
     },
     {
       "seq": 344,
@@ -4084,7 +4084,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent (other injury)?"
     },
     {
       "seq": 345,
@@ -4131,7 +4131,7 @@
       "value_labels": "1:溺水, 2:被落物擊中, 3:被玩具、魚刺、食物等異物噎到, 4:中毒, 5:其他事故傷害",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What type of accidental injury was it?"
     },
     {
       "seq": 349,
@@ -4356,7 +4356,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she take an ambulance because of this most recent (other injury)?"
     },
     {
       "seq": 368,
@@ -4368,7 +4368,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she visit the emergency room because of this most recent (other injury)?"
     },
     {
       "seq": 369,
@@ -4380,7 +4380,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Did he/she have an outpatient visit because of this most recent (other injury)?"
     },
     {
       "seq": 370,
@@ -4392,7 +4392,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Was he/she hospitalized because of this most recent (other injury)?"
     },
     {
       "seq": 371,
@@ -4438,7 +4438,7 @@
       "description_zh": "請問他為什麼沒有去看醫生或牙醫？【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Why didn't he go see a doctor or dentist? [Multiple choices allowed]"
     },
     {
       "seq": 375,
@@ -4522,7 +4522,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Not enrolled in National Health Insurance, or NHI card lost"
     },
     {
       "seq": 382,
@@ -4534,7 +4534,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Self-medicate"
     },
     {
       "seq": 383,
@@ -4558,7 +4558,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Feels symptoms are not severe"
     },
     {
       "seq": 385,
@@ -4582,7 +4582,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Has he ever used the government's free child health checkup (i.e. the child preventive health care service listed in the Child Health Handbook)?"
     },
     {
       "seq": 387,
@@ -4675,7 +4675,7 @@
       "description_zh": "沒有接受兒童健康檢查（兒童預防保健服務）的原因是什麼?【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is the reason for not receiving a child health check (child preventive health care service)? [Multiple choice]"
     },
     {
       "seq": 395,
@@ -4723,7 +4723,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Worried about the cost"
     },
     {
       "seq": 399,
@@ -4783,7 +4783,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Payment schedule not yet reached, or the covered number of times for that schedule has been used up"
     },
     {
       "seq": 404,
@@ -4830,7 +4830,7 @@
       "description_zh": "是哪一種自費疫苗呢?【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Which type of self-paid vaccine was it? [Multiple choice]"
     },
     {
       "seq": 408,
@@ -4842,7 +4842,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Pneumococcal vaccine (additional self-paid dose beyond publicly funded)"
     },
     {
       "seq": 409,
@@ -4878,7 +4878,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does he currently have a disability certificate?"
     },
     {
       "seq": 412,
@@ -4962,7 +4962,7 @@
       "value_labels": "0:從不搭乘或很少搭乘機車, 1:從來沒有或幾乎沒有戴安全帽, 2:偶爾會戴安全帽, 3:幾乎多數的時候都會戴安全帽, 4:每次都有戴安全帽, 5:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does he wear a helmet every time he rides on a motorcycle/scooter?"
     },
     {
       "seq": 419,
@@ -4974,7 +4974,7 @@
       "value_labels": "0:從不騎乘或很少騎乘（二輪）腳踏車, 1:從來沒有或幾乎沒有戴安全帽, 2:偶爾會戴安全帽, 3:幾乎多數的時候都會戴安全帽, 4:每次都有戴安全帽, 5:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Does he wear a helmet every time he rides a (two-wheeled) bicycle?"
     },
     {
       "seq": 420,
@@ -5082,7 +5082,7 @@
       "value_labels": "0:沒有, 1:偶爾有, 2:常常有, 3:每次都有, 4:很少",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Now, after feeding him milk (including breastfeeding and bottle feeding), do you clean his mouth? (e.g., brushing teeth, wiping teeth with cotton...) [If yes] Is it occasionally, often, or every time?"
     },
     {
       "seq": 429,
@@ -5247,7 +5247,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "After eating a snack each time"
     },
     {
       "seq": 443,
@@ -5259,7 +5259,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Before sleep (after the last thing eaten that day)"
     },
     {
       "seq": 444,
@@ -5283,7 +5283,7 @@
       "value_labels": "1:全部由他自己來, 2:自己會, 但仍需父母親或照護者幫忙, 3:全部由父母親或照護者幫忙, 4:其他",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Who currently helps him brush his teeth or clean his mouth? Does he do it entirely by himself, or does someone help?"
     },
     {
       "seq": 446,
@@ -5412,7 +5412,7 @@
       "description_zh": "請問他現在的身高是多少?",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is his current height?"
     },
     {
       "seq": 457,
@@ -5423,7 +5423,7 @@
       "description_zh": "請問他現在的體重是多少?",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "What is his current weight?"
     },
     {
       "seq": 458,
@@ -5459,7 +5459,7 @@
       "value_labels": "1:體重過重, 2:體重剛好或差不多, 3:體重過輕, 4:不知道算不算剛好",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you think his/her weight is just right? Is there an issue of being overweight or underweight?"
     },
     {
       "seq": 461,
@@ -5542,7 +5542,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Reduce calorie intake"
     },
     {
       "seq": 468,
@@ -5578,7 +5578,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Reduce or avoid meat products"
     },
     {
       "seq": 471,
@@ -5626,7 +5626,7 @@
       "value_labels": "0:沒有, 1:有",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Self-controlled diet (eating more fruits and vegetables, or reducing sweets and refined foods, controlling food intake, quitting late-night snacks)"
     },
     {
       "seq": 475,
@@ -5697,7 +5697,7 @@
       "description_zh": "蔬果攝取情形 D9a 一般來說，他一星期內有幾天會吃到水果？",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Fruit and vegetable intake D9a Generally, how many days a week does he eat fruit?"
     },
     {
       "seq": 481,
@@ -5708,7 +5708,7 @@
       "description_zh": "有吃水果的日子，他平均一天吃到多少份？(1份水果約1個拳頭大小)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "On days he eats fruit, how many servings does he eat per day on average? (1 serving of fruit is about the size of a fist)"
     },
     {
       "seq": 482,
@@ -5730,7 +5730,7 @@
       "description_zh": "有吃蔬菜的日子，平均一天吃到多少份？(煮熟蔬菜1份約1/2飯碗，生鮮葉菜1份約1飯碗)",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "On days vegetables are eaten, how many servings on average per day? (1 serving of cooked vegetables is about 1/2 a rice bowl; 1 serving of raw leafy greens is about 1 rice bowl)"
     },
     {
       "seq": 484,
@@ -5766,7 +5766,7 @@
       "value_labels": "1:少於5分鐘, 2:5~10分鐘, 3:11~30分鐘, 4:31~60分鐘, 5:超過1小時",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "When he walks or rides a bicycle to/from school, how long does one way take, approximately?"
     },
     {
       "seq": 487,
@@ -6187,7 +6187,7 @@
       "description_zh": "目前有誰吸菸呢?【可複選】",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Who currently smokes? [Multiple choices allowed]"
     },
     {
       "seq": 525,
@@ -6413,7 +6413,7 @@
       "value_labels": "1:家裡的任何地方都可以吸菸, 2:家裡的某些地方或某些時間可以吸菸, 3:家裡的任何地方都不准吸菸",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Which of the following best describes your household's current situation? [Interviewer: read options (01) to (03) one by one; if the respondent answers \"no one smokes at home,\" ask further whether there are any smoking rules when smoking guests visit] [An enclosed balcony counts as indoors]"
     },
     {
       "seq": 544,
@@ -6640,7 +6640,7 @@
       "value_labels": "0:不願意簽署, 1:有簽署「健康或衛生福利相關資料」、「區域環境資料」, 2:僅簽署「健康或衛生福利相關資料」, 3:僅簽署「區域環境資料」",
       "available_notes": [],
       "name_zh_en": "",
-      "description_en": ""
+      "description_en": "Do you consent to the linkage/matching of \"health or welfare-related data\" and \"regional environmental data\"? [To be selected by the interviewer; please present the consent form and explain to the respondent before the interview]"
     }
   ],
   "codebooks": {},

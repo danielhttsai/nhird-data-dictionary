@@ -847,7 +847,7 @@
       "description_zh": "記錄在申報醫院的首次療程中， CTV_L的放射劑量。本欄位的單位 是centiGray (縮寫 cGy)，與舊單位 rads 相同大小。 00000：沒有體外放射治療，或是有 體外放射治療但沒有 CTV_L 00001-99996：實際接受的放射治療 劑量 99997：CTV_L的體外放射治療劑量 是 99997cGy或更多 99998：有體外放射治療，但 CTV_L 的體外放射治療劑量不詳 99999：資料不詳，不清楚有沒有體 外放射治療。",
       "available_notes": [],
       "name_zh_en": "lower radiation dose clinical target volume dose",
-      "description_en": ""
+      "description_en": "Records the radiation dose to CTV_L during the first course of treatment at the reporting hospital. The unit of this field is centiGray (abbreviated cGy), equivalent to the old unit rads. 00000: No external beam radiotherapy, or external beam radiotherapy given but not to CTV_L 00001-99996: Actual radiation dose received 99997: CTV_L external beam radiotherapy dose is 99997cGy or more 99998: External beam radiotherapy given, but CTV_L dose unknown 99999: Data unknown, unclear whether external beam radiotherapy was given."
     },
     {
       "seq": 61,
