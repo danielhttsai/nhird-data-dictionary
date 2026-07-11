@@ -175,18 +175,15 @@
     {/if}
   </section>
 
-  <!-- Version changes live on their own graphical page (kept out of the way here). -->
-  {#if file.diffs?.length}
+  <!-- Version changes live on their own interactive page (kept out of the way here). -->
+  {#if selectable.length > 1}
     <a href="{base}/file/{file.code}/diff/"
-       class="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm hover:border-brand-400 hover:shadow-md transition group">
-      <span class="flex items-center gap-3 min-w-0">
-        <span class="inline-grid place-items-center w-9 h-9 rounded-lg bg-brand-50 text-brand-700 text-lg shrink-0">📊</span>
-        <span class="min-w-0">
-          <span class="block text-sm font-bold text-slate-900">版本沿革 · How the fields changed across versions</span>
-          <span class="block text-xs text-slate-500">{selectable.length} versions · {file.diffs.length} comparison{file.diffs.length === 1 ? '' : 's'}</span>
-        </span>
+       class="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm hover:border-brand-400 transition group">
+      <span class="text-sm font-semibold text-slate-800">
+        版本沿革 <span class="text-slate-300 font-normal mx-1">·</span>
+        <span class="text-slate-600 font-normal">compare fields across {selectable.length} versions</span>
       </span>
-      <span class="text-sm font-semibold text-brand-700 group-hover:underline whitespace-nowrap shrink-0">View chart →</span>
+      <span class="text-sm font-semibold text-brand-700 group-hover:underline whitespace-nowrap shrink-0">Open →</span>
     </a>
   {/if}
 
