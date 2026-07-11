@@ -175,43 +175,19 @@
     {/if}
   </section>
 
-  <!-- Auto-generated revision-history note: what changed across versions -->
+  <!-- Version changes live on their own graphical page (kept out of the way here). -->
   {#if file.diffs?.length}
-    <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-      <div class="flex items-center justify-between gap-3 mb-3">
-        <h2 class="text-sm font-bold text-slate-900">版本沿革 · What changed across versions</h2>
-        <a href="{base}/file/{file.code}/diff/" class="text-xs font-semibold text-brand-700 hover:underline whitespace-nowrap">Full field-by-field →</a>
-      </div>
-      <ol class="space-y-3">
-        {#each file.diffs as d}
-          {@const data = d.data}
-          <li class="text-xs border-l-2 border-brand-200 pl-3">
-            <div class="font-semibold text-slate-800">
-              {vLabelId(data.earlier_version_id)}
-              <span class="text-slate-400 mx-1">→</span>
-              {vLabelId(data.later_version_id)}
-            </div>
-            <div class="mt-0.5 flex gap-3 text-[11px]">
-              <span class="text-emerald-700 font-semibold">+{data.added.length} added</span>
-              <span class="text-rose-700 font-semibold">−{data.removed.length} removed</span>
-              <span class="text-amber-700 font-semibold">~{data.modified.length} changed</span>
-            </div>
-            {#if !data.added.length && !data.removed.length && !data.modified.length}
-              <div class="text-slate-400 mt-1">No field-level changes.</div>
-            {/if}
-            {#if data.added.length}
-              <div class="mt-1 text-slate-600"><span class="text-emerald-700 font-semibold">Added</span> <span class="mono">{names(data.added)}</span></div>
-            {/if}
-            {#if data.removed.length}
-              <div class="text-slate-600"><span class="text-rose-700 font-semibold">Removed</span> <span class="mono">{names(data.removed)}</span></div>
-            {/if}
-            {#if data.modified.length}
-              <div class="text-slate-600"><span class="text-amber-700 font-semibold">Changed</span> <span class="mono">{names(data.modified, 'key')}</span></div>
-            {/if}
-          </li>
-        {/each}
-      </ol>
-    </section>
+    <a href="{base}/file/{file.code}/diff/"
+       class="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm hover:border-brand-400 hover:shadow-md transition group">
+      <span class="flex items-center gap-3 min-w-0">
+        <span class="inline-grid place-items-center w-9 h-9 rounded-lg bg-brand-50 text-brand-700 text-lg shrink-0">📊</span>
+        <span class="min-w-0">
+          <span class="block text-sm font-bold text-slate-900">版本沿革 · How the fields changed across versions</span>
+          <span class="block text-xs text-slate-500">{selectable.length} versions · {file.diffs.length} comparison{file.diffs.length === 1 ? '' : 's'}</span>
+        </span>
+      </span>
+      <span class="text-sm font-semibold text-brand-700 group-hover:underline whitespace-nowrap shrink-0">View chart →</span>
+    </a>
   {/if}
 
   {#if !meta}
