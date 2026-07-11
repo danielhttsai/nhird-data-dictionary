@@ -1,0 +1,63 @@
+{
+  "code": "Health60",
+  "category": "Health",
+  "code_short": "H_MOHW_MCHD",
+  "name_zh": "婦幼主題式資料庫",
+  "name_en": "Maternal and Child Health Database",
+  "field_count_declared": 4,
+  "record_count_raw": "2,171,765筆(2004-2014年); 599,045筆(2015-2017年); 361,607筆(2018-2019年); 164,139筆(2020年)",
+  "frequency": "",
+  "attribute": "歷史檔",
+  "data_description_zh": "婦幼主題式資料庫（H_MOHW_MCHD），串聯出生通報、死因統計等婦幼相關檔案。",
+  "notes_zh": "",
+  "fields": [
+    {
+      "seq": 1,
+      "name_zh": "小孩身分證字號",
+      "name_en": "Id_c",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。",
+      "name_zh_en": "Child's National ID number",
+      "description_en": "Encrypted."
+    },
+    {
+      "seq": 2,
+      "name_zh": "父親身分證字號",
+      "name_en": "Id_f",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。",
+      "name_zh_en": "Father's National ID number",
+      "description_en": "Encrypted."
+    },
+    {
+      "seq": 3,
+      "name_zh": "母親身分證字號",
+      "name_en": "Id_m",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。",
+      "name_zh_en": "Mother's National ID number",
+      "description_en": "Encrypted."
+    },
+    {
+      "seq": 4,
+      "name_zh": "新生兒出生年度",
+      "name_en": "Yr",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "出生登記檔年度。註：2015年起新增「新生兒出生年度」欄位。",
+      "name_zh_en": "Newborn's birth year",
+      "description_en": "Year of the birth-registration file. Note: the 'newborn birth year' field was added from 2015."
+    }
+  ],
+  "codebooks": {},
+  "_ocr_recovered": true,
+  "data_description_en": "",
+  "notes_en": "",
+  "primary_keys_en": "",
+  "name_zh_en": "Maternal and Child Health Database",
+  "version_id": "legacy",
+  "version_label": "legacy"
+}

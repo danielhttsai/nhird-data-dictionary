@@ -94,7 +94,9 @@ const CANON_EN = {
   Health56: 'Breast Cancer Screening',
   Health57: 'Oral Mucosal Screening',
   Health59: 'National Genetic Diagnosis System Database',
+  Health60: 'Maternal and Child Health Database',
   Health61: 'Notifiable Disease Dataset of Confirmed Cases',
+  Health79: 'National Immunization Information System (NIIS)',
   Health73: 'Tuberculosis (TB) Database',
   Welfare20: 'Disabled Beneficiary Case Management — Case Manager Record',
   Health82: 'Colorectal Cancer Health Database',
@@ -148,7 +150,7 @@ for (const v of manifest.versions) {
 }
 
 // Topic-specific Health## that are subject-domain databases (not core claims)
-const TOPIC_CODES = new Set(['Health82','Health83','Health101','Health103','Health104','Health102','Health48','Health49']);
+const TOPIC_CODES = new Set(['Health82','Health83','Health101','Health103','Health104','Health102','Health48','Health49','Health60']);
 
 const catalogue = [];   // top-level entries shown on the landing page
 const allFields = [];   // for search index

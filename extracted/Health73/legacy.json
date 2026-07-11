@@ -27,7 +27,7 @@
       "length": 12,
       "description_zh": "已加密轉碼 遺失率<0.01%",
       "available_notes": [],
-      "name_zh_en": "national ID number",
+      "name_zh_en": "National ID number",
       "description_en": "encrypted with loss rate <0.01%"
     },
     {
@@ -38,7 +38,7 @@
       "length": 1,
       "description_zh": "1：男 2：女 9：不詳",
       "available_notes": [],
-      "name_zh_en": "gender",
+      "name_zh_en": "Sex",
       "description_en": "1: male"
     },
     {
@@ -49,8 +49,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": "0：身份證字號符合編碼原則 1：不符合"
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: ID number conforms to coding rules; 1: does not conform"
     },
     {
       "seq": 4,
@@ -863,7 +863,7 @@
       "length": 1,
       "description_zh": "1：男 2：女",
       "available_notes": [],
-      "name_zh_en": "gender",
+      "name_zh_en": "Sex",
       "description_en": "1: male 2: female"
     },
     {
