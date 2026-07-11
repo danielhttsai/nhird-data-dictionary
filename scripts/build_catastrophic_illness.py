@@ -82,7 +82,10 @@ for f in glob.glob('extracted/Health08/*.json'):
         continue
     d.setdefault('codebooks', {})
     d['codebooks']['HV_TYPE'] = hv_codebook
-    if 'DISE_CODE' in names:
-        d['codebooks']['DISE_CODE'] = dc_codebook
+    # the diagnosis-code field is named DISE_CODE in the legacy version and was
+    # renamed ICD9CM_CODE in the 2025/06/24 version — attach to whichever exists.
+    attached = [k for k in ('DISE_CODE', 'ICD9CM_CODE') if k in names]
+    for k in attached:
+        d['codebooks'][k] = dc_codebook
     json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    print(f'{os.path.basename(f)}: HV_TYPE={len(hv_entries)} cats, DISE_CODE={len(dc_entries)} items')
+    print(f'{os.path.basename(f)}: HV_TYPE={len(hv_entries)} cats, {"/".join(attached)}={len(dc_entries)} items')
