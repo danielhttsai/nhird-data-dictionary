@@ -151,7 +151,7 @@
             </optgroup>
           {/each}
         </select>
-        {#if file.diffs?.length}
+        {#if selectable.length > 1}
           <a class="text-sm font-semibold text-brand-700 hover:underline"
              href="{base}/file/{file.code}/diff/">Compare →</a>
         {/if}
@@ -169,7 +169,7 @@
             onclick={() => selectedId = v.version_id}
           >{vLabel(v)}</button>
         {/each}
-        {#if file.diffs?.length}
+        {#if selectable.length > 1}
           <a class="ml-auto text-sm font-semibold text-brand-700 hover:underline"
              href="{base}/file/{file.code}/diff/">Compare versions →</a>
         {/if}

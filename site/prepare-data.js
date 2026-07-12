@@ -303,8 +303,9 @@ for (const [code, versions] of byCode) {
     category,
     name_zh: item.name_zh,
     name_en: item.name_en,
-    versions: slimVersions,
-    diffs
+    versions: slimVersions
+    // NB: precomputed diffs are no longer emitted — the compare page derives
+    // added/removed/changed client-side from the per-version field files.
   };
   fs.writeFileSync(
     path.join(OUT, 'file', `${code}.json`),
