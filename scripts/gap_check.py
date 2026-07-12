@@ -17,8 +17,8 @@ def norm(s):
     s = s.replace('鄉鎮市區', '鄉鎮').replace('縣市鄉鎮', '鄉鎮').replace('鄉鎮市', '鄉鎮')
     return s.replace('表', '').strip()
 
-garbled = untr_name = untr_desc = 0
-sg, su = [], []
+garbled = untr_name = untr_desc = half_en = 0
+sg, su, sh = [], [], []
 cb_names = set()          # every table a codebook already defines (by field_zh)
 refs = {}                 # normalized table name -> example "code:field"
 for f in glob.glob('extracted/*/*.json'):
@@ -42,8 +42,12 @@ for f in glob.glob('extracted/*/*.json'):
             untr_name += 1
             if len(su) < 5: su.append(f'{code}:{nz[:12]}')
         dz = (x.get('description_zh') or '').strip()
-        if len(dz) >= 8 and U not in dz and not (x.get('description_en') or '').strip():
+        de = (x.get('description_en') or '').strip()
+        if len(dz) >= 8 and U not in dz and not de:
             untr_desc += 1
+        if len(re.findall(r'[一-鿿]', de)) >= 2:   # English that still carries Chinese = failed translation
+            half_en += 1
+            if len(sh) < 6: sh.append(f'{code}:{x.get("name_en")}')
         for m in NAMED.finditer(dz):
             nm = norm(m.group(1) or m.group(2))
             if len(nm) >= 2:
@@ -66,6 +70,7 @@ gaps = []
 if garbled: gaps.append(f'garbled names: {garbled} {sg}')
 if untr_name: gaps.append(f'untranslated names: {untr_name} {su}')
 if untr_desc: gaps.append(f'untranslated descriptions: {untr_desc}')
+if half_en: gaps.append(f'English descriptions still containing Chinese: {half_en} {sh}')
 if missing:
     gaps.append(f'named code-tables referenced but NOT built: {len(missing)}')
     for nm, ex in sorted(missing.items()):
