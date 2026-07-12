@@ -5847,7 +5847,7 @@
     "CITY": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
       "source": "資料庫使用手冊Health13_醫療機構現況檔_20260127.pdf, appendix section 4 \"縣市鄉鎮代碼(CITY-104年起)\", PDF pages 19-21 (0-indexed pages 18-20), rendered to images and read visually because the PDF text layer is garbled (custom font encoding, multi-column mojibake under standard text extraction).",
-      "notes": "This is the current (104年以後) 4-digit ROC municipality/township code scheme referenced by NHIRD manuals for hospital/clinic location (CITY), patient household registration location (RESID/RESIDCD), and rare-disease reporting/treating hospital location fields (TRA_CITY/PRA_CITY). Codes 0119/0120 (Taipei Wanhua/Wenshan Districts) appeared visually tripled in the source PDF due to a merged-cell rendering artifact; only one entry each is kept here. Code 4326 is printed in the source as \"屏東縣三地鄉\" (dropping the middle character of the official name 三地門鄉/Sandimen Township) -- transcribed literally per the source, with the correct official identity noted in label_en. Code 0536 \"臺南市中區\" appears in the source alongside 0534 \"臺南市中西區\"; both are transcribed as printed even though modern Tainan City has no separate 中區 administrative district (中區 and 西區 were merged into 中西區 in 1990) -- this looks like a legacy/duplicate code retained in the NHI table.",
+      "note": "同一代碼在不同年度可能對應不同行政區（直轄市改制）：桃園 103.12.25、臺中/臺南/高雄/新北 99.12.25 改制。本表為現行（104 年後）碼制，改制前不同者已於括號註記；惟 98 年以前另有一套不同碼制，未含於此表。 · Some codes map to different areas by era (municipality reorganizations: Taoyuan 2014-12-25; Taichung/Tainan/Kaohsiung/New Taipei 2010-12-25). This is the current (post-2014) scheme, with pre-reorganization names noted in parentheses where they differ; a separate pre-2010 scheme is not included here.",
       "entries": [
         {
           "code": "0101",
@@ -6641,68 +6641,68 @@
         },
         {
           "code": "3201",
-          "label_zh": "桃園市桃園區",
-          "label_en": "Taoyuan District, Taoyuan City"
+          "label_zh": "桃園市桃園區（改制前：桃園縣桃園市）",
+          "label_en": "Taoyuan District, Taoyuan City (before reorganization: Taoyuan City (township-level), Taoyuan County)"
         },
         {
           "code": "3202",
-          "label_zh": "桃園市中壢區",
-          "label_en": "Zhongli District, Taoyuan City"
+          "label_zh": "桃園市中壢區（改制前：桃園縣中壢市）",
+          "label_en": "Zhongli District, Taoyuan City (before reorganization: Zhongli City (township-level), Taoyuan County)"
         },
         {
           "code": "3203",
-          "label_zh": "桃園市大溪區",
-          "label_en": "Daxi District, Taoyuan City"
+          "label_zh": "桃園市大溪區（改制前：桃園縣大溪鎮）",
+          "label_en": "Daxi District, Taoyuan City (before reorganization: Daxi Town, Taoyuan County)"
         },
         {
           "code": "3204",
-          "label_zh": "桃園市楊梅區",
-          "label_en": "Yangmei District, Taoyuan City"
+          "label_zh": "桃園市楊梅區（改制前：桃園縣楊梅鎮）",
+          "label_en": "Yangmei District, Taoyuan City (before reorganization: Yangmei Town, Taoyuan County)"
         },
         {
           "code": "3205",
-          "label_zh": "桃園市蘆竹區",
-          "label_en": "Luzhu District, Taoyuan City"
+          "label_zh": "桃園市蘆竹區（改制前：桃園縣蘆竹鄉）",
+          "label_en": "Luzhu District, Taoyuan City (before reorganization: Luzhu Township, Taoyuan County)"
         },
         {
           "code": "3206",
-          "label_zh": "桃園市大園區",
-          "label_en": "Dayuan District, Taoyuan City"
+          "label_zh": "桃園市大園區（改制前：桃園縣大園鄉）",
+          "label_en": "Dayuan District, Taoyuan City (before reorganization: Dayuan Township, Taoyuan County)"
         },
         {
           "code": "3207",
-          "label_zh": "桃園市龜山區",
-          "label_en": "Guishan District, Taoyuan City"
+          "label_zh": "桃園市龜山區（改制前：桃園縣龜山鄉）",
+          "label_en": "Guishan District, Taoyuan City (before reorganization: Guishan Township, Taoyuan County)"
         },
         {
           "code": "3208",
-          "label_zh": "桃園市八德區",
-          "label_en": "Bade District, Taoyuan City"
+          "label_zh": "桃園市八德區（改制前：桃園縣八德市）",
+          "label_en": "Bade District, Taoyuan City (before reorganization: Bade City (township-level), Taoyuan County)"
         },
         {
           "code": "3209",
-          "label_zh": "桃園市龍潭區",
-          "label_en": "Longtan District, Taoyuan City"
+          "label_zh": "桃園市龍潭區（改制前：桃園縣龍潭鄉）",
+          "label_en": "Longtan District, Taoyuan City (before reorganization: Longtan Township, Taoyuan County)"
         },
         {
           "code": "3210",
-          "label_zh": "桃園市平鎮區",
-          "label_en": "Pingzhen District, Taoyuan City"
+          "label_zh": "桃園市平鎮區（改制前：桃園縣平鎮市）",
+          "label_en": "Pingzhen District, Taoyuan City (before reorganization: Pingzhen City (township-level), Taoyuan County)"
         },
         {
           "code": "3211",
-          "label_zh": "桃園市新屋區",
-          "label_en": "Xinwu District, Taoyuan City"
+          "label_zh": "桃園市新屋區（改制前：桃園縣新屋鄉）",
+          "label_en": "Xinwu District, Taoyuan City (before reorganization: Xinwu Township, Taoyuan County)"
         },
         {
           "code": "3212",
-          "label_zh": "桃園市觀音區",
-          "label_en": "Guanyin District, Taoyuan City"
+          "label_zh": "桃園市觀音區（改制前：桃園縣觀音鄉）",
+          "label_en": "Guanyin District, Taoyuan City (before reorganization: Guanyin Township, Taoyuan County)"
         },
         {
           "code": "3213",
-          "label_zh": "桃園市復興區",
-          "label_en": "Fuxing District, Taoyuan City"
+          "label_zh": "桃園市復興區（改制前：桃園縣復興鄉）",
+          "label_en": "Fuxing District, Taoyuan City (before reorganization: Fuxing Township, Taoyuan County)"
         },
         {
           "code": "3301",
@@ -7699,7 +7699,7 @@
     "TRAN_IN_CITY": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
       "source": "資料庫使用手冊Health13_醫療機構現況檔_20260127.pdf, appendix section 4 \"縣市鄉鎮代碼(CITY-104年起)\", PDF pages 19-21 (0-indexed pages 18-20), rendered to images and read visually because the PDF text layer is garbled (custom font encoding, multi-column mojibake under standard text extraction).",
-      "notes": "This is the current (104年以後) 4-digit ROC municipality/township code scheme referenced by NHIRD manuals for hospital/clinic location (CITY), patient household registration location (RESID/RESIDCD), and rare-disease reporting/treating hospital location fields (TRA_CITY/PRA_CITY). Codes 0119/0120 (Taipei Wanhua/Wenshan Districts) appeared visually tripled in the source PDF due to a merged-cell rendering artifact; only one entry each is kept here. Code 4326 is printed in the source as \"屏東縣三地鄉\" (dropping the middle character of the official name 三地門鄉/Sandimen Township) -- transcribed literally per the source, with the correct official identity noted in label_en. Code 0536 \"臺南市中區\" appears in the source alongside 0534 \"臺南市中西區\"; both are transcribed as printed even though modern Tainan City has no separate 中區 administrative district (中區 and 西區 were merged into 中西區 in 1990) -- this looks like a legacy/duplicate code retained in the NHI table.",
+      "note": "同一代碼在不同年度可能對應不同行政區（直轄市改制）：桃園 103.12.25、臺中/臺南/高雄/新北 99.12.25 改制。本表為現行（104 年後）碼制，改制前不同者已於括號註記；惟 98 年以前另有一套不同碼制，未含於此表。 · Some codes map to different areas by era (municipality reorganizations: Taoyuan 2014-12-25; Taichung/Tainan/Kaohsiung/New Taipei 2010-12-25). This is the current (post-2014) scheme, with pre-reorganization names noted in parentheses where they differ; a separate pre-2010 scheme is not included here.",
       "entries": [
         {
           "code": "0101",
@@ -8493,68 +8493,68 @@
         },
         {
           "code": "3201",
-          "label_zh": "桃園市桃園區",
-          "label_en": "Taoyuan District, Taoyuan City"
+          "label_zh": "桃園市桃園區（改制前：桃園縣桃園市）",
+          "label_en": "Taoyuan District, Taoyuan City (before reorganization: Taoyuan City (township-level), Taoyuan County)"
         },
         {
           "code": "3202",
-          "label_zh": "桃園市中壢區",
-          "label_en": "Zhongli District, Taoyuan City"
+          "label_zh": "桃園市中壢區（改制前：桃園縣中壢市）",
+          "label_en": "Zhongli District, Taoyuan City (before reorganization: Zhongli City (township-level), Taoyuan County)"
         },
         {
           "code": "3203",
-          "label_zh": "桃園市大溪區",
-          "label_en": "Daxi District, Taoyuan City"
+          "label_zh": "桃園市大溪區（改制前：桃園縣大溪鎮）",
+          "label_en": "Daxi District, Taoyuan City (before reorganization: Daxi Town, Taoyuan County)"
         },
         {
           "code": "3204",
-          "label_zh": "桃園市楊梅區",
-          "label_en": "Yangmei District, Taoyuan City"
+          "label_zh": "桃園市楊梅區（改制前：桃園縣楊梅鎮）",
+          "label_en": "Yangmei District, Taoyuan City (before reorganization: Yangmei Town, Taoyuan County)"
         },
         {
           "code": "3205",
-          "label_zh": "桃園市蘆竹區",
-          "label_en": "Luzhu District, Taoyuan City"
+          "label_zh": "桃園市蘆竹區（改制前：桃園縣蘆竹鄉）",
+          "label_en": "Luzhu District, Taoyuan City (before reorganization: Luzhu Township, Taoyuan County)"
         },
         {
           "code": "3206",
-          "label_zh": "桃園市大園區",
-          "label_en": "Dayuan District, Taoyuan City"
+          "label_zh": "桃園市大園區（改制前：桃園縣大園鄉）",
+          "label_en": "Dayuan District, Taoyuan City (before reorganization: Dayuan Township, Taoyuan County)"
         },
         {
           "code": "3207",
-          "label_zh": "桃園市龜山區",
-          "label_en": "Guishan District, Taoyuan City"
+          "label_zh": "桃園市龜山區（改制前：桃園縣龜山鄉）",
+          "label_en": "Guishan District, Taoyuan City (before reorganization: Guishan Township, Taoyuan County)"
         },
         {
           "code": "3208",
-          "label_zh": "桃園市八德區",
-          "label_en": "Bade District, Taoyuan City"
+          "label_zh": "桃園市八德區（改制前：桃園縣八德市）",
+          "label_en": "Bade District, Taoyuan City (before reorganization: Bade City (township-level), Taoyuan County)"
         },
         {
           "code": "3209",
-          "label_zh": "桃園市龍潭區",
-          "label_en": "Longtan District, Taoyuan City"
+          "label_zh": "桃園市龍潭區（改制前：桃園縣龍潭鄉）",
+          "label_en": "Longtan District, Taoyuan City (before reorganization: Longtan Township, Taoyuan County)"
         },
         {
           "code": "3210",
-          "label_zh": "桃園市平鎮區",
-          "label_en": "Pingzhen District, Taoyuan City"
+          "label_zh": "桃園市平鎮區（改制前：桃園縣平鎮市）",
+          "label_en": "Pingzhen District, Taoyuan City (before reorganization: Pingzhen City (township-level), Taoyuan County)"
         },
         {
           "code": "3211",
-          "label_zh": "桃園市新屋區",
-          "label_en": "Xinwu District, Taoyuan City"
+          "label_zh": "桃園市新屋區（改制前：桃園縣新屋鄉）",
+          "label_en": "Xinwu District, Taoyuan City (before reorganization: Xinwu Township, Taoyuan County)"
         },
         {
           "code": "3212",
-          "label_zh": "桃園市觀音區",
-          "label_en": "Guanyin District, Taoyuan City"
+          "label_zh": "桃園市觀音區（改制前：桃園縣觀音鄉）",
+          "label_en": "Guanyin District, Taoyuan City (before reorganization: Guanyin Township, Taoyuan County)"
         },
         {
           "code": "3213",
-          "label_zh": "桃園市復興區",
-          "label_en": "Fuxing District, Taoyuan City"
+          "label_zh": "桃園市復興區（改制前：桃園縣復興鄉）",
+          "label_en": "Fuxing District, Taoyuan City (before reorganization: Fuxing Township, Taoyuan County)"
         },
         {
           "code": "3301",

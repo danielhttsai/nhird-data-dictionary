@@ -86,6 +86,9 @@
             {/if}
           </p>
         {/if}
+        {#if latest.codebook.note}
+          <p class="text-xs text-amber-700 bg-amber-50/60 border border-amber-100 rounded-lg px-2.5 py-1.5 mb-2">ⓘ {latest.codebook.note}</p>
+        {/if}
         {#if latest.codebook.revisions?.length}
           <details class="mb-3 rounded-xl border border-slate-200 bg-slate-50/60">
             <summary class="cursor-pointer select-none px-3 py-2 text-xs font-bold text-slate-700">
