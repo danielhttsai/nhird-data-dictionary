@@ -2154,7 +2154,3990 @@
       "description_en": "Weighting coefficient used to extrapolate to the population."
     }
   ],
-  "codebooks": {},
+  "codebooks": {
+    "E5501": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E56_2_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_2": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_3": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_4": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_5": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_6": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_7": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_8": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_9": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_10": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_11": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_12": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_13": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_14": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_15": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_16": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E58_17": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E59_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E61_3": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "E61A": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    }
+  },
   "raw_text_first_page": "2025年06月24日修訂\n89 年身心障礙者生活需求調查檔\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_PMDCLDAS89 資料筆數 7,958\n中文檔名 89年身心障礙者生活需求 英文檔名 PHYSICALLY AND MENTALLY\n調查檔 DISABLED CITIZENS LIVING AND\nDEMAND ASSESSMENT SURVEY\n檔案大小 2.32 MB 欄位數 191\n譯碼簿\n屬性 調查檔 週期 2025/06/24\n更新日期\n資料描述 調查對象為台閩地區身心障礙者，主要調查身心障礙者其基本資料、居住及起居生活\n狀況、個人及家庭經濟狀況、休閒活動、社會參與狀況、外出交通狀況、相關無障礙\n設施使用情形、教育學習狀況、對福利服務及醫療照顧需求、工作現況及職業重建服\n務需求等資料，以作為政府及民間團體推動身心障礙者各項福利服務措施之參考，使\n身心障礙者獲得更妥適的生活照顧。此外，亦可作為各級政府機關(單位)釐訂身心障\n礙者相關福利服務政策之重要參考。\n本次調查採採「分層二階段系統隨機抽樣法」，派員實地訪問方式。\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。\n主鍵與比\n無\n對欄位\n1",
   "qa": {
     "errors": [],

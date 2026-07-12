@@ -7426,6 +7426,438 @@
         }
       ],
       "field_en": ""
+    },
+    "HOS": {
+      "field_zh": "醫事機構權屬別代碼 (HOS)",
+      "source": "Health25 (醫事機構基本資料檔) section 3.2 'Quan Shu Bie (HOS)', 83-109 nian hospital/clinic ownership code tables (pages 6-13, 1-indexed); cross-validated against Health01 (門急診 manual) section 12, pages 43-51 (1-indexed), which reproduces an identical table. Labels use the most recent stable name for each code (108-111 nian revision where available).",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "部立及直轄市立醫院(公立)",
+          "label_en": "Ministry-run or special-municipality-run hospital (public)"
+        },
+        {
+          "code": "2",
+          "label_zh": "縣市立醫院(公立)",
+          "label_en": "County/city-run hospital (public)"
+        },
+        {
+          "code": "4",
+          "label_zh": "公立醫學院校附設醫院(公立)",
+          "label_en": "Public medical university/college-affiliated hospital (public)"
+        },
+        {
+          "code": "5",
+          "label_zh": "軍方醫院(民眾診療)(公立)",
+          "label_en": "Military hospital, civilian treatment (public)"
+        },
+        {
+          "code": "6",
+          "label_zh": "榮民醫院(公立)",
+          "label_en": "Veterans hospital (public)"
+        },
+        {
+          "code": "7",
+          "label_zh": "公立機關(構)附設醫院(公立)",
+          "label_en": "Public agency/institution-affiliated hospital (public)"
+        },
+        {
+          "code": "8",
+          "label_zh": "公立中醫醫院(公立)",
+          "label_en": "Public traditional-Chinese-medicine hospital (public)"
+        },
+        {
+          "code": "9",
+          "label_zh": "醫療社團法人醫院(非公立)",
+          "label_en": "Medical corporation (association-type) hospital (non-public)"
+        },
+        {
+          "code": "11",
+          "label_zh": "醫療財團法人醫院(非公立)",
+          "label_en": "Medical foundation (trust-type) hospital (non-public)"
+        },
+        {
+          "code": "12",
+          "label_zh": "宗教財團法人附設醫院(非公立)",
+          "label_en": "Religious-foundation-affiliated hospital (non-public)"
+        },
+        {
+          "code": "13",
+          "label_zh": "私立醫學院校附設醫院(非公立)",
+          "label_en": "Private medical university/college-affiliated hospital (non-public)"
+        },
+        {
+          "code": "14",
+          "label_zh": "公益法人所設醫院(非公立)",
+          "label_en": "Public-interest corporation-established hospital (non-public)"
+        },
+        {
+          "code": "15",
+          "label_zh": "私立西醫醫院(非公立)",
+          "label_en": "Private Western-medicine hospital (non-public)"
+        },
+        {
+          "code": "17",
+          "label_zh": "私立牙醫醫院(非公立)",
+          "label_en": "Private dental hospital (non-public)"
+        },
+        {
+          "code": "18",
+          "label_zh": "私立中醫醫院(非公立)",
+          "label_en": "Private traditional-Chinese-medicine hospital (non-public)"
+        },
+        {
+          "code": "21",
+          "label_zh": "部立及直轄市立診所(公立)",
+          "label_en": "Ministry-run or special-municipality-run clinic (public)"
+        },
+        {
+          "code": "22",
+          "label_zh": "縣市立診所(公立)",
+          "label_en": "County/city-run clinic (public)"
+        },
+        {
+          "code": "23",
+          "label_zh": "衛生所(公立)",
+          "label_en": "Public health station/center (public)"
+        },
+        {
+          "code": "24",
+          "label_zh": "公立學校附設醫務室(公立)",
+          "label_en": "Public school-affiliated medical office (public)"
+        },
+        {
+          "code": "25",
+          "label_zh": "軍方診所(民眾診療附設門診部)(公立)",
+          "label_en": "Military clinic, civilian outpatient department (public)"
+        },
+        {
+          "code": "26",
+          "label_zh": "榮民診所(榮家醫務室)(公立)",
+          "label_en": "Veterans clinic (veterans home medical office) (public)"
+        },
+        {
+          "code": "27",
+          "label_zh": "機關(構)附設醫務室(公立)",
+          "label_en": "Government agency/institution-affiliated medical office (public)"
+        },
+        {
+          "code": "28",
+          "label_zh": "公立中醫診所(公立)",
+          "label_en": "Public traditional-Chinese-medicine clinic (public)",
+          "note": "code retired/merged starting 108-109 nian per source manual"
+        },
+        {
+          "code": "47",
+          "label_zh": "行政法人附設診所(公立)(107年新增)",
+          "label_en": "Administrative corporation-affiliated clinic (public) (added 2018)"
+        },
+        {
+          "code": "29",
+          "label_zh": "公益法人所設診所/醫務室(非公立)",
+          "label_en": "Public-interest corporation-established clinic/medical office (non-public)"
+        },
+        {
+          "code": "31",
+          "label_zh": "醫療財團法人附設醫務室(非公立)",
+          "label_en": "Medical-foundation-affiliated medical office (non-public)"
+        },
+        {
+          "code": "32",
+          "label_zh": "宗教財團法人附設診所/醫務室(非公立)",
+          "label_en": "Religious-foundation-affiliated clinic/medical office (non-public)"
+        },
+        {
+          "code": "33",
+          "label_zh": "私立醫學校、院附設醫務室(非公立)",
+          "label_en": "Private medical school/college-affiliated medical office (non-public)"
+        },
+        {
+          "code": "34",
+          "label_zh": "私立事業單位或機構附設醫務室(非公立)",
+          "label_en": "Private enterprise/institution-affiliated medical office (non-public)"
+        },
+        {
+          "code": "35",
+          "label_zh": "私立西醫診所(非公立)",
+          "label_en": "Private Western-medicine clinic (non-public)"
+        },
+        {
+          "code": "37",
+          "label_zh": "私立牙醫診所(非公立)",
+          "label_en": "Private dental clinic (non-public)"
+        },
+        {
+          "code": "38",
+          "label_zh": "私立中醫診所(非公立)",
+          "label_en": "Private traditional-Chinese-medicine clinic (non-public)"
+        },
+        {
+          "code": "40",
+          "label_zh": "醫療財團法人診所(非公立)",
+          "label_en": "Medical-foundation-run clinic (non-public)"
+        },
+        {
+          "code": "41",
+          "label_zh": "醫療社團法人診所(非公立)",
+          "label_en": "Medical-corporation-run clinic (non-public)"
+        },
+        {
+          "code": "42",
+          "label_zh": "醫療財團法人其他醫療機構",
+          "label_en": "Medical-foundation-run other medical institution"
+        },
+        {
+          "code": "43",
+          "label_zh": "醫療社團法人其他醫療機構",
+          "label_en": "Medical-corporation-run other medical institution"
+        },
+        {
+          "code": "44",
+          "label_zh": "公立其他醫療機構",
+          "label_en": "Public other medical institution"
+        },
+        {
+          "code": "45",
+          "label_zh": "私立其他醫療機構",
+          "label_en": "Private other medical institution"
+        },
+        {
+          "code": "46",
+          "label_zh": "公益法人所設其他醫療機構",
+          "label_en": "Public-interest corporation-established other medical institution"
+        },
+        {
+          "code": "59",
+          "label_zh": "藥局",
+          "label_en": "Pharmacy"
+        },
+        {
+          "code": "60",
+          "label_zh": "列冊中藥商",
+          "label_en": "Registered Chinese-herbal-medicine dealer"
+        },
+        {
+          "code": "61",
+          "label_zh": "製造業",
+          "label_en": "Pharmaceutical manufacturer"
+        },
+        {
+          "code": "62",
+          "label_zh": "販賣業",
+          "label_en": "Pharmaceutical distributor/seller"
+        },
+        {
+          "code": "71",
+          "label_zh": "公立護理機構",
+          "label_en": "Public nursing institution"
+        },
+        {
+          "code": "72",
+          "label_zh": "財團法人護理機構",
+          "label_en": "Foundation-run nursing institution"
+        },
+        {
+          "code": "73",
+          "label_zh": "私立護理機構(其他法人附設)",
+          "label_en": "Private nursing institution (affiliated with another juridical person)"
+        },
+        {
+          "code": "74",
+          "label_zh": "私立護理機構(個人設置)",
+          "label_en": "Private nursing institution (individually established)"
+        },
+        {
+          "code": "75",
+          "label_zh": "公立醫療機構附設護產機構",
+          "label_en": "Public medical institution-affiliated maternity/midwifery institution"
+        },
+        {
+          "code": "76",
+          "label_zh": "私立醫療機構附設護產機構",
+          "label_en": "Private medical institution-affiliated maternity/midwifery institution"
+        },
+        {
+          "code": "77",
+          "label_zh": "醫療財團法人醫療機構附設護產機構",
+          "label_en": "Medical-foundation medical institution-affiliated maternity/midwifery institution"
+        },
+        {
+          "code": "78",
+          "label_zh": "其他(護產機構)",
+          "label_en": "Other maternity/midwifery institution"
+        },
+        {
+          "code": "79",
+          "label_zh": "醫療社團法人醫療機構附設護產機構",
+          "label_en": "Medical-corporation medical institution-affiliated maternity/midwifery institution"
+        },
+        {
+          "code": "81",
+          "label_zh": "公立精神復健機構",
+          "label_en": "Public psychiatric rehabilitation institution"
+        },
+        {
+          "code": "82",
+          "label_zh": "法人或其他人民團體醫療機構附設精神復健機構",
+          "label_en": "Juridical-person or civil-organization medical institution-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "83",
+          "label_zh": "法人或其他人民團體附設精神復健機構",
+          "label_en": "Juridical-person or civil-organization-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "84",
+          "label_zh": "私立精神復健機構",
+          "label_en": "Private psychiatric rehabilitation institution"
+        },
+        {
+          "code": "85",
+          "label_zh": "公立醫療機構附設精神復健機構",
+          "label_en": "Public medical institution-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "86",
+          "label_zh": "私立醫療機構附設精神復健機構",
+          "label_en": "Private medical institution-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "87",
+          "label_zh": "醫療財團法人附設精神復健機構",
+          "label_en": "Medical-foundation-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "88",
+          "label_zh": "醫療社團法人附設精神復健機構",
+          "label_en": "Medical-corporation-affiliated psychiatric rehabilitation institution"
+        },
+        {
+          "code": "91",
+          "label_zh": "公立其他醫事機構",
+          "label_en": "Public other medical/health-professional institution"
+        },
+        {
+          "code": "92",
+          "label_zh": "財團法人其他醫事機構",
+          "label_en": "Foundation-run other medical/health-professional institution"
+        },
+        {
+          "code": "93",
+          "label_zh": "其他法人附設其他醫事機構",
+          "label_en": "Other-juridical-person-affiliated other medical/health-professional institution"
+        },
+        {
+          "code": "94",
+          "label_zh": "私立其他醫事機構",
+          "label_en": "Private other medical/health-professional institution"
+        },
+        {
+          "code": "97",
+          "label_zh": "財團法人醫療機構附設其他醫事機構",
+          "label_en": "Foundation medical institution-affiliated other medical/health-professional institution"
+        },
+        {
+          "code": "98",
+          "label_zh": "其他(其他醫事機構)",
+          "label_en": "Other (other medical/health-professional institution)"
+        },
+        {
+          "code": "9A",
+          "label_zh": "公立非醫事機構",
+          "label_en": "Public non-medical institution"
+        },
+        {
+          "code": "9K",
+          "label_zh": "醫療法人非醫事機構",
+          "label_en": "Medical juridical-person non-medical institution"
+        },
+        {
+          "code": "9N",
+          "label_zh": "財團法人非醫事機構",
+          "label_en": "Foundation non-medical institution"
+        },
+        {
+          "code": "9T",
+          "label_zh": "法人附設非醫事機構",
+          "label_en": "Juridical-person-affiliated non-medical institution"
+        },
+        {
+          "code": "9Y",
+          "label_zh": "私立非醫事機構",
+          "label_en": "Private non-medical institution"
+        },
+        {
+          "code": "HY",
+          "label_zh": "私立助產機構",
+          "label_en": "Private midwifery institution"
+        },
+        {
+          "code": "JY",
+          "label_zh": "私立醫事檢驗機構",
+          "label_en": "Private medical laboratory"
+        },
+        {
+          "code": "LY",
+          "label_zh": "私立鑲牙所",
+          "label_en": "Private denture-fitting practice"
+        },
+        {
+          "code": "QY",
+          "label_zh": "私立物理治療機構",
+          "label_en": "Private physical-therapy institution"
+        },
+        {
+          "code": "RA",
+          "label_zh": "公立職能治療機構(107年新增)",
+          "label_en": "Public occupational-therapy institution (added 2018)"
+        },
+        {
+          "code": "RY",
+          "label_zh": "私立職能治療機構",
+          "label_en": "Private occupational-therapy institution"
+        },
+        {
+          "code": "SY",
+          "label_zh": "私立醫事放射機構",
+          "label_en": "Private medical-radiology institution"
+        },
+        {
+          "code": "XY",
+          "label_zh": "私立心理機構",
+          "label_en": "Private psychology practice"
+        },
+        {
+          "code": "1Y",
+          "label_zh": "私立語言治療所",
+          "label_en": "Private speech-therapy practice"
+        },
+        {
+          "code": "2Y",
+          "label_zh": "私立牙體技術所",
+          "label_en": "Private dental-technician practice"
+        },
+        {
+          "code": "3Y",
+          "label_zh": "私立聽力所",
+          "label_en": "Private audiology practice"
+        },
+        {
+          "code": "4Y",
+          "label_zh": "私立居家呼吸照護所",
+          "label_en": "Private home respiratory-care institution"
+        },
+        {
+          "code": "5Y",
+          "label_zh": "私立驗光所",
+          "label_en": "Private optometry practice"
+        },
+        {
+          "code": "Z7",
+          "label_zh": "私立營養諮詢機構",
+          "label_en": "Private nutrition-counseling institution"
+        }
+      ]
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保重大傷病檔\n（HEALTH-08：H_NHI_ CATAS）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_CATAS 資料筆數 6,349,182筆（截至2024年）\n中文檔名 全民健保重大傷病檔 英文檔名 RegistryforCatastrophic Illness Patients\n檔案大小 4GB 欄位數 27\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 年\n更新日期 2026/01/27修訂\n1. 原則上一次領卡一筆資料。\n資料描述 2. 包含病人當次領卡之重大傷病類別等相關資料。\n3. 資料年度包含2001-2024年。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n注意事項 均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 85-93年資料中，重複發卡 (DUPRINT)等於 1表示被退件，不列入計算。\n1. 身分證字號(ID)、醫師身分證字號(PRSN_ID)與醫療機構代號(HOSP_ID)經加密處\n主鍵與比 理。\n對欄位\n2. 個人歸戶及個人資料對照的鍵值：ID。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",

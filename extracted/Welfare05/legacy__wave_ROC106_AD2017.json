@@ -1874,7 +1874,907 @@
       "description_en": "1: No abnormality 2: Dementia (incl. intellectual disability) 3: Poor mental/cognitive state 4: Unconscious (incl. complete coma) 5: Other 9: Proxy response skip"
     }
   ],
-  "codebooks": {},
+  "codebooks": {
+    "MQ19_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "MQ20_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "MQ21_1": {
+      "field_zh": "輔具類別（A-H 分組：個人醫療/矯具義具/個人照顧保護/個人行動/居家生活/住家家具改裝/溝通資訊/物品裝置處理輔具）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(100年).pdf, p.70 (三、欄位譯碼 2.輔具類別)",
+      "entries": [
+        {
+          "code": "01",
+          "label_zh": "避免壓瘡坐墊、床墊或背墊",
+          "label_en": "Anti-pressure-sore cushion, mattress, or backrest"
+        },
+        {
+          "code": "02",
+          "label_zh": "站立架或傾斜床",
+          "label_en": "Standing frame or tilt table"
+        },
+        {
+          "code": "03",
+          "label_zh": "皮膚或循環醫療輔具",
+          "label_en": "Skin- or circulation-related medical device"
+        },
+        {
+          "code": "04",
+          "label_zh": "呼吸治療相關輔具",
+          "label_en": "Respiratory therapy device"
+        },
+        {
+          "code": "05",
+          "label_zh": "脊柱矯具",
+          "label_en": "Spinal orthosis"
+        },
+        {
+          "code": "06",
+          "label_zh": "上肢矯具",
+          "label_en": "Upper-limb orthosis"
+        },
+        {
+          "code": "07",
+          "label_zh": "下肢矯具或矯正鞋",
+          "label_en": "Lower-limb orthosis or corrective shoes"
+        },
+        {
+          "code": "08",
+          "label_zh": "上肢義肢",
+          "label_en": "Upper-limb prosthesis"
+        },
+        {
+          "code": "09",
+          "label_zh": "下肢義肢",
+          "label_en": "Lower-limb prosthesis"
+        },
+        {
+          "code": "10",
+          "label_zh": "非義肢之義具",
+          "label_en": "Non-limb prosthetic device"
+        },
+        {
+          "code": "11",
+          "label_zh": "顏面矯具",
+          "label_en": "Facial orthosis"
+        },
+        {
+          "code": "12",
+          "label_zh": "頭護具",
+          "label_en": "Head protector/helmet"
+        },
+        {
+          "code": "13",
+          "label_zh": "穿著活動相關輔具",
+          "label_en": "Dressing-activity device"
+        },
+        {
+          "code": "14",
+          "label_zh": "如廁活動相關輔具",
+          "label_en": "Toileting-activity device"
+        },
+        {
+          "code": "15",
+          "label_zh": "清洗個人或照護身體部位活動相關輔具",
+          "label_en": "Personal washing/body-care activity device"
+        },
+        {
+          "code": "16",
+          "label_zh": "步行活動相關輔具",
+          "label_en": "Walking-activity device"
+        },
+        {
+          "code": "17",
+          "label_zh": "車輛改裝",
+          "label_en": "Vehicle modification"
+        },
+        {
+          "code": "18",
+          "label_zh": "輪椅類、推車或四處移動相關輔具",
+          "label_en": "Wheelchairs, carts, or general mobility devices"
+        },
+        {
+          "code": "19",
+          "label_zh": "移轉位活動相關輔具",
+          "label_en": "Transfer-activity device"
+        },
+        {
+          "code": "20",
+          "label_zh": "白手杖",
+          "label_en": "White cane"
+        },
+        {
+          "code": "21",
+          "label_zh": "飲食活動相關輔具",
+          "label_en": "Eating-activity device"
+        },
+        {
+          "code": "22",
+          "label_zh": "特製餵食椅或桌椅",
+          "label_en": "Special feeding chair or table/chair"
+        },
+        {
+          "code": "23",
+          "label_zh": "電動床或手動床",
+          "label_en": "Electric or manual bed"
+        },
+        {
+          "code": "24",
+          "label_zh": "住家無障礙物理環境改善",
+          "label_en": "Home accessibility/physical-environment modification"
+        },
+        {
+          "code": "25",
+          "label_zh": "增強垂直可進性用輔具",
+          "label_en": "Vertical-accessibility enhancement device"
+        },
+        {
+          "code": "26",
+          "label_zh": "視覺輔具",
+          "label_en": "Visual aid"
+        },
+        {
+          "code": "27",
+          "label_zh": "聽覺功能相關輔具",
+          "label_en": "Hearing-function device"
+        },
+        {
+          "code": "28",
+          "label_zh": "發聲輔具",
+          "label_en": "Voice/speech-generating device"
+        },
+        {
+          "code": "29",
+          "label_zh": "繪圖與書寫輔具",
+          "label_en": "Drawing and writing aid"
+        },
+        {
+          "code": "30",
+          "label_zh": "處理聽覺、視覺與錄影資訊之輔具",
+          "label_en": "Device for processing audio, visual and recorded information"
+        },
+        {
+          "code": "31",
+          "label_zh": "面對面溝通輔具",
+          "label_en": "Face-to-face communication aid"
+        },
+        {
+          "code": "32",
+          "label_zh": "電話使用輔具",
+          "label_en": "Telephone-use aid"
+        },
+        {
+          "code": "33",
+          "label_zh": "警示、指示與信號輔具",
+          "label_en": "Alert, indicator and signal device"
+        },
+        {
+          "code": "34",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        },
+        {
+          "code": "35",
+          "label_zh": "物品與裝置處理輔具",
+          "label_en": "Object/device handling aid"
+        }
+      ]
+    },
+    "y14_1C1": {
+      "field_zh": "職業類別序號列表（職業類別譯碼，Q60.2/Q86.1/Q99.2/Q101.1/Q105.2/Q111.1 等欄位「詳見職業類別譯碼說明」所指之外部代碼表）",
+      "source": "Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(105年).pdf, p.74-75 (三、欄位譯碼 3.職業類別)；Welfare06_legacy.zip > 資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(110年).pdf, p.55-56 同表",
+      "entries": [
+        {
+          "code": "101",
+          "label_zh": "高階主管(總經理)",
+          "label_en": "Senior executive (CEO / general manager)"
+        },
+        {
+          "code": "102",
+          "label_zh": "中階主管(經理)",
+          "label_en": "Mid-level manager"
+        },
+        {
+          "code": "103",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "201",
+          "label_zh": "醫師",
+          "label_en": "Physician"
+        },
+        {
+          "code": "202",
+          "label_zh": "護士",
+          "label_en": "Nurse"
+        },
+        {
+          "code": "203",
+          "label_zh": "設計師",
+          "label_en": "Designer"
+        },
+        {
+          "code": "204",
+          "label_zh": "軟體與程式開發人員即分析師",
+          "label_en": "Software/program developer and analyst"
+        },
+        {
+          "code": "205",
+          "label_zh": "工程師",
+          "label_en": "Engineer"
+        },
+        {
+          "code": "206",
+          "label_zh": "教師",
+          "label_en": "Teacher"
+        },
+        {
+          "code": "207",
+          "label_zh": "作家",
+          "label_en": "Writer"
+        },
+        {
+          "code": "208",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "301",
+          "label_zh": "資訊管理及維護技術員",
+          "label_en": "IT management and maintenance technician"
+        },
+        {
+          "code": "302",
+          "label_zh": "電機技術員",
+          "label_en": "Electrical technician"
+        },
+        {
+          "code": "303",
+          "label_zh": "製圖員",
+          "label_en": "Draftsperson"
+        },
+        {
+          "code": "304",
+          "label_zh": "醫療助理",
+          "label_en": "Medical assistant"
+        },
+        {
+          "code": "305",
+          "label_zh": "社會工作助理專業人員",
+          "label_en": "Social work associate professional"
+        },
+        {
+          "code": "306",
+          "label_zh": "宗教助理專業人員(修道士)",
+          "label_en": "Religious associate professional (monk/friar)"
+        },
+        {
+          "code": "307",
+          "label_zh": "運動員",
+          "label_en": "Athlete"
+        },
+        {
+          "code": "308",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "401",
+          "label_zh": "一般辦公室事務人員(文書)",
+          "label_en": "General office clerk"
+        },
+        {
+          "code": "402",
+          "label_zh": "事務秘書",
+          "label_en": "Administrative secretary"
+        },
+        {
+          "code": "403",
+          "label_zh": "資料輸入人員",
+          "label_en": "Data entry clerk"
+        },
+        {
+          "code": "404",
+          "label_zh": "銀行、郵局櫃檯事務人員",
+          "label_en": "Bank/post-office counter clerk"
+        },
+        {
+          "code": "405",
+          "label_zh": "收帳、收費人員(帳款催收)",
+          "label_en": "Billing/collections clerk (debt collection)"
+        },
+        {
+          "code": "406",
+          "label_zh": "總機人員",
+          "label_en": "Switchboard operator"
+        },
+        {
+          "code": "407",
+          "label_zh": "電話及網路客服人員",
+          "label_en": "Telephone and online customer-service staff"
+        },
+        {
+          "code": "408",
+          "label_zh": "統計調查訪談人員",
+          "label_en": "Statistical survey interviewer"
+        },
+        {
+          "code": "409",
+          "label_zh": "會計、簿記、出納",
+          "label_en": "Accounting, bookkeeping, cashier"
+        },
+        {
+          "code": "410",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "501",
+          "label_zh": "旅運服務人員(含嚮導、查票員)",
+          "label_en": "Travel service staff (incl. tour guide, ticket inspector)"
+        },
+        {
+          "code": "502",
+          "label_zh": "廚師",
+          "label_en": "Cook / chef"
+        },
+        {
+          "code": "503",
+          "label_zh": "餐飲服務人員",
+          "label_en": "Food and beverage service staff"
+        },
+        {
+          "code": "504",
+          "label_zh": "美髮、美容及造型設計人員",
+          "label_en": "Hairdressing, beauty and styling professional"
+        },
+        {
+          "code": "505",
+          "label_zh": "殯葬服務人員",
+          "label_en": "Funeral service staff"
+        },
+        {
+          "code": "506",
+          "label_zh": "占星、算命(含算命師、乩童)",
+          "label_en": "Astrology/fortune-telling (incl. fortune tellers, spirit mediums)"
+        },
+        {
+          "code": "507",
+          "label_zh": "按摩師",
+          "label_en": "Masseur"
+        },
+        {
+          "code": "508",
+          "label_zh": "固定攤販及市場銷售員",
+          "label_en": "Fixed-stall vendor and market salesperson"
+        },
+        {
+          "code": "509",
+          "label_zh": "商店銷售人員",
+          "label_en": "Shop salesperson"
+        },
+        {
+          "code": "510",
+          "label_zh": "保安服務工作人員(含警衛、保全)",
+          "label_en": "Security service worker (incl. guards, security personnel)"
+        },
+        {
+          "code": "511",
+          "label_zh": "收銀員及售票員",
+          "label_en": "Cashier and ticket seller"
+        },
+        {
+          "code": "512",
+          "label_zh": "電話及網路行銷人員",
+          "label_en": "Telemarketing and online marketing staff"
+        },
+        {
+          "code": "513",
+          "label_zh": "公益彩券販售人員(含商店或固定攤位售貨員)",
+          "label_en": "Lottery-ticket seller (incl. shop or fixed-stall vendor)"
+        },
+        {
+          "code": "514",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "601",
+          "label_zh": "園藝作物栽培",
+          "label_en": "Horticultural crop cultivation"
+        },
+        {
+          "code": "602",
+          "label_zh": "飼育",
+          "label_en": "Animal husbandry/breeding"
+        },
+        {
+          "code": "603",
+          "label_zh": "漁撈、水產養殖",
+          "label_en": "Fishing, aquaculture"
+        },
+        {
+          "code": "701",
+          "label_zh": "木工",
+          "label_en": "Carpenter"
+        },
+        {
+          "code": "702",
+          "label_zh": "泥作工作人員",
+          "label_en": "Mason/plasterer"
+        },
+        {
+          "code": "703",
+          "label_zh": "建築物電力系統裝修人員(含水電工)",
+          "label_en": "Building electrical-system repair worker (incl. plumber/electrician)"
+        },
+        {
+          "code": "704",
+          "label_zh": "油漆、噴漆人員",
+          "label_en": "Painter, spray painter"
+        },
+        {
+          "code": "705",
+          "label_zh": "車輛維修人員(自行車、機車)",
+          "label_en": "Vehicle repair worker (bicycle, motorcycle)"
+        },
+        {
+          "code": "706",
+          "label_zh": "樂器製造及調音人員",
+          "label_en": "Musical-instrument maker and tuner"
+        },
+        {
+          "code": "707",
+          "label_zh": "焊接及切割人員(含電焊工)",
+          "label_en": "Welding and cutting worker (incl. electric welder)"
+        },
+        {
+          "code": "708",
+          "label_zh": "鎖匠",
+          "label_en": "Locksmith"
+        },
+        {
+          "code": "709",
+          "label_zh": "招牌書寫、雕刻及整修人員",
+          "label_en": "Signboard writing, engraving and refurbishing worker"
+        },
+        {
+          "code": "710",
+          "label_zh": "木、竹、藤材質手工藝工作人員",
+          "label_en": "Wood/bamboo/rattan handicraft worker"
+        },
+        {
+          "code": "711",
+          "label_zh": "麵包點心及糖果製作人員",
+          "label_en": "Bread, pastry and candy maker"
+        },
+        {
+          "code": "712",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "801",
+          "label_zh": "生產機械操作人員",
+          "label_en": "Production machine operator"
+        },
+        {
+          "code": "802",
+          "label_zh": "組裝人員",
+          "label_en": "Assembler"
+        },
+        {
+          "code": "803",
+          "label_zh": "駕駛及移運設備操作人員",
+          "label_en": "Driver and transport-equipment operator"
+        },
+        {
+          "code": "804",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        },
+        {
+          "code": "901",
+          "label_zh": "公益彩券販售人員(流動攤販)",
+          "label_en": "Lottery-ticket seller (mobile vendor)"
+        },
+        {
+          "code": "902",
+          "label_zh": "車輛清潔工",
+          "label_en": "Vehicle cleaner"
+        },
+        {
+          "code": "903",
+          "label_zh": "家庭清潔及幫工",
+          "label_en": "Domestic cleaner and helper"
+        },
+        {
+          "code": "904",
+          "label_zh": "運輸及倉儲勞力工(含理貨、搬運)",
+          "label_en": "Transport and warehousing laborer (incl. cargo handling, moving)"
+        },
+        {
+          "code": "905",
+          "label_zh": "廢棄物服務工及環境清掃工",
+          "label_en": "Waste-service worker and environmental cleaner"
+        },
+        {
+          "code": "906",
+          "label_zh": "製造勞力工(含手工包裝)",
+          "label_en": "Manufacturing laborer (incl. manual packaging)"
+        },
+        {
+          "code": "907",
+          "label_zh": "小販或宛售員(非餐飲)",
+          "label_en": "Peddler or hawker (non-food)"
+        },
+        {
+          "code": "908",
+          "label_zh": "其他(請說明)",
+          "label_en": "Other (please specify)"
+        }
+      ]
+    }
+  },
   "raw_text_first_page": "2025年06月24日修訂\n衛生福利部 106 年老人狀況調查資料檔\n（W_SASW_ Senior Citizen）\n資料庫使用手冊\n一、 檔案內容說明\nW_MOHW_ SeniorCitizen106 55歲以上：6,920 筆\n檔案代號 資料筆數\nW_MOHW_SeniorCitizen_carer106 主要家庭照顧者：469筆\nReport of the Senior Citizen Condition Survey\n中文檔名 106年老人狀況調查 英文檔名\n2017\nW_MOHW_ SeniorCitizen106：266\n檔案大小 6.3MB、0.2MB 欄位數\nW_MOHW_ SeniorCitizen_carer 106：84\n譯碼簿\n屬性 調查檔 週期 4-5年 2025/06/24\n更新日期\n資料描述 1.本調查係依據老人福利法第 10 條規定辦理，主要為蒐集我國 55 歲以上人口生活情形，本\n次調查為關心家庭照顧者，另外又訪問65 歲以上無法獨立生活之主要家庭照顧者照顧相關\n問項。\n2.問卷分為「65歲以上」、「55-64歲」及「主要家庭照顧者」等3種。問卷內容包含：家庭及\n居住狀況、健康狀況、日常生活與自我照顧能力(僅65歲以上)、就業狀況、社會活動狀況、\n家庭照顧情形、經濟狀況、對老人福利措施之瞭解情形、對進住老人福利機構、老人公寓、\n老人住宅、社區安養堂或護理之家的意願情形、對已進住老人福利機構、老人公寓、老人\n住宅、社區安養堂或護理之家者居住情形、對老年生活的看法或感受、基本資料等；「主要\n家庭照顧者」問卷內容包含：基本資料、照顧工作情形及政府提供照顧者支持服務需求。\n3.本次調查共完成訪問「65歲以上」4,310人、「55-64歲」2,610人、主要家庭照顧者469人。\n4. 調 查 實 施 計 畫 、 抽 樣 設 計 、 調 查 表 ， 可 參 閱 衛 生 福 利 部 統 計 處 網 頁 ( 網\n址:https://dep.mohw.gov.tw/DOS/lp-1767-113.html)。\n注意事項 1.檔案 W_MOHW_ SeniorCitizen106 共 6,920 筆，包括「55-64 歲」(2,610 人)、「65 歲以上」\n(4,310人)問卷調查結果資料。\n2.檔案W_MOHW_ SeniorCitizen_carer106 為「主要家庭照顧者」問卷調查結果，係調查 65歲\n以上無法獨立生活之主要家庭照顧者(469人)，為避免影響主卷之回表與調查品質，主要家\n庭照顧者副卷係採由主要照顧者自願填答方式辦理，致回收樣本數有限，且分配未必與母\n體一致，應用時請審慎。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證字號、\n院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位均經屏蔽處理，\n且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過之統計結果，以確保資\n料應用及其揭露方式已無從識別特定當事人。\n主鍵與比\n檔案資料比對的鍵值:樣本編號(CASEID)\n對欄位\n1",
   "qa": {
     "errors": [],
