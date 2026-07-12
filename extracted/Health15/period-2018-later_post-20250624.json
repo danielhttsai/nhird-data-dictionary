@@ -2529,6 +2529,358 @@
           "label_en": ""
         }
       ]
+    },
+    "AGE": {
+      "field_zh": "診斷年齡",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "000",
+          "label_zh": "小於1歲",
+          "label_en": "Less than 1 year old"
+        },
+        {
+          "code": "001",
+          "label_zh": "1歲，但是小於2歲",
+          "label_en": "1 year old but less than 2 years old"
+        },
+        {
+          "code": "002",
+          "label_zh": "2歲",
+          "label_en": "2 years old"
+        },
+        {
+          "code": "120",
+          "label_zh": "120歲",
+          "label_en": "120 years old"
+        },
+        {
+          "code": "999",
+          "label_zh": "診斷年齡不詳",
+          "label_en": "Age at diagnosis not specified"
+        }
+      ]
+    },
+    "BTCHEW": {
+      "field_zh": "嚼檳榔行為",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕無嚼檳榔",
+          "label_en": "[digits 1-2, daily amount] No betel nut chewing"
+        },
+        {
+          "code": "10",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕每日10顆",
+          "label_en": "[digits 1-2, daily amount] Daily 10 pieces"
+        },
+        {
+          "code": "20",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕每日20顆",
+          "label_en": "[digits 1-2, daily amount] Daily 20 pieces"
+        },
+        {
+          "code": "90",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕每日≧90顆",
+          "label_en": "[digits 1-2, daily amount] Daily ≥90 pieces"
+        },
+        {
+          "code": "91",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕偶爾嚼(無規律或無定量)",
+          "label_en": "[digits 1-2, daily amount] Occasionally chew (irregular or unspecified quantity)"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕有嚼，但量不詳",
+          "label_en": "[digits 1-2, daily amount] Chewed but amount unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔1-2碼，每日嚼檳榔量〕病歷未記載或嚼檳榔狀態完全不詳者",
+          "label_en": "[digits 1-2, daily amount] Medical record not documented or betel-nut chewing status completely unknown"
+        },
+        {
+          "code": "00",
+          "label_zh": "〔3-4碼，嚼檳榔年〕無嚼檳榔",
+          "label_en": "[digits 3-4, years chewed] No betel nut chewing"
+        },
+        {
+          "code": "05",
+          "label_zh": "〔3-4碼，嚼檳榔年〕嚼5年",
+          "label_en": "[digits 3-4, years chewed] Chewed for 5 years"
+        },
+        {
+          "code": "15",
+          "label_zh": "〔3-4碼，嚼檳榔年〕嚼15年",
+          "label_en": "[digits 3-4, years chewed] Chewed for 15 years"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔3-4碼，嚼檳榔年〕嚼檳榔，但年不詳",
+          "label_en": "[digits 3-4, years chewed] Chewed betel nut, but duration unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔3-4碼，嚼檳榔年〕病歷未記載或嚼檳榔狀態完全不詳者",
+          "label_en": "[digits 3-4, years chewed] Medical record not documented or betel-nut chewing status completely unknown"
+        },
+        {
+          "code": "00",
+          "label_zh": "〔5-6碼，戒檳榔年〕無戒嚼檳榔",
+          "label_en": "[digits 5-6, years quit] Never quit chewing betel nut"
+        },
+        {
+          "code": "05",
+          "label_zh": "〔5-6碼，戒檳榔年〕已戒5年",
+          "label_en": "[digits 5-6, years quit] Quit for 5 years"
+        },
+        {
+          "code": "15",
+          "label_zh": "〔5-6碼，戒檳榔年〕已戒15年",
+          "label_en": "[digits 5-6, years quit] Quit for 15 years"
+        },
+        {
+          "code": "88",
+          "label_zh": "〔5-6碼，戒檳榔年〕無嚼檳榔",
+          "label_en": "[digits 5-6, years quit] No betel nut chewing (not applicable)"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔5-6碼，戒檳榔年〕已戒，但年不詳",
+          "label_en": "[digits 5-6, years quit] Quit, but duration unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔5-6碼，戒檳榔年〕病歷未記載或嚼檳榔狀態完全不詳者",
+          "label_en": "[digits 5-6, years quit] Medical record not documented or betel-nut chewing status completely unknown"
+        }
+      ]
+    },
+    "DRINKING": {
+      "field_zh": "喝酒行為",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "000",
+          "label_zh": "從未喝酒",
+          "label_en": "Never drank alcohol"
+        },
+        {
+          "code": "001",
+          "label_zh": "已戒",
+          "label_en": "Quit drinking"
+        },
+        {
+          "code": "002",
+          "label_zh": "偶爾喝(不論年數)",
+          "label_en": "Occasional drinker (regardless of years)"
+        },
+        {
+          "code": "003",
+          "label_zh": "習慣性喝酒＜10年",
+          "label_en": "Habitual drinker <10 years"
+        },
+        {
+          "code": "004",
+          "label_zh": "習慣性喝酒≧10年",
+          "label_en": "Habitual drinker ≥10 years"
+        },
+        {
+          "code": "009",
+          "label_zh": "習慣性喝酒，但年數不詳",
+          "label_en": "Habitual drinker, but duration unknown"
+        },
+        {
+          "code": "999",
+          "label_zh": "病歷未記載或不詳",
+          "label_en": "Medical record not recorded or unknown"
+        }
+      ]
+    },
+    "IDNO_ROC": {
+      "field_zh": "身分證字號檢誤",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "身分證字號符合編碼原則",
+          "label_en": "ID number conforms to coding rules"
+        },
+        {
+          "code": "1",
+          "label_zh": "不符合",
+          "label_en": "does not conform"
+        }
+      ]
+    },
+    "LATERAL": {
+      "field_zh": "側性",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "非成對器官",
+          "label_en": "Not a paired organ"
+        },
+        {
+          "code": "1",
+          "label_zh": "原發起源位在右側",
+          "label_en": "Origin on the right side"
+        },
+        {
+          "code": "2",
+          "label_zh": "原發起源位在左側",
+          "label_en": "Origin on the left side"
+        },
+        {
+          "code": "3",
+          "label_zh": "只有單側侵犯，但起源於左側或右側則不清楚",
+          "label_en": "Involvement on only one side, but unclear whether origin is left or right"
+        },
+        {
+          "code": "4",
+          "label_zh": "雙側侵犯但起源之側位不清楚，且病歷描述是單一原發(較少見)：雙側卵巢同時有單一組織類型之腫瘤侵犯；雙側同時有視網膜芽細胞瘤(retinoblastomas)；雙側同時有Wilm腫瘤(Wilm tumors)",
+          "label_en": "Bilateral involvement but the side of origin is unclear, and the medical record describes it as a single primary (rarer): both ovaries simultaneously invaded by a single tumor histology type; retinoblastomas present bilaterally at the same time; Wilms tumors present bilaterally at the same time"
+        },
+        {
+          "code": "5",
+          "label_zh": "成對器官，位於身體中線的腫瘤",
+          "label_en": "Paired organ, tumor located at the body midline"
+        },
+        {
+          "code": "9",
+          "label_zh": "成對器官，但其側位不清楚",
+          "label_en": "Paired organ, but the side is unclear"
+        }
+      ]
+    },
+    "SEX": {
+      "field_zh": "原始檔性別",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "男性",
+          "label_en": "Male"
+        },
+        {
+          "code": "2",
+          "label_zh": "女性",
+          "label_en": "Female"
+        },
+        {
+          "code": "3",
+          "label_zh": "其他(如雙性人，hermaphrodite)",
+          "label_en": "Other (e.g., hermaphrodite)"
+        },
+        {
+          "code": "4",
+          "label_zh": "變性人",
+          "label_en": "Transgender"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳或在病歷上未記載",
+          "label_en": "Unknown or not recorded in the medical history"
+        }
+      ]
+    },
+    "SMOKING": {
+      "field_zh": "吸菸行為",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "〔1-2碼，每日吸菸量〕無吸菸",
+          "label_en": "[digits 1-2, daily amount] No smoking"
+        },
+        {
+          "code": "10",
+          "label_zh": "〔1-2碼，每日吸菸量〕每日10支(半包)",
+          "label_en": "[digits 1-2, daily amount] 10 sticks/day (half pack)"
+        },
+        {
+          "code": "20",
+          "label_zh": "〔1-2碼，每日吸菸量〕每日20支(1包)",
+          "label_en": "[digits 1-2, daily amount] 20 sticks/day (1 pack)"
+        },
+        {
+          "code": "90",
+          "label_zh": "〔1-2碼，每日吸菸量〕每日≧90支(≧4.5包)",
+          "label_en": "[digits 1-2, daily amount] ≥90 sticks/day (≥4.5 packs)"
+        },
+        {
+          "code": "91",
+          "label_zh": "〔1-2碼，每日吸菸量〕偶爾吸(無規律或無定量)",
+          "label_en": "[digits 1-2, daily amount] Occasional smoker (no regular or fixed amount)"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔1-2碼，每日吸菸量〕有吸，但量不詳",
+          "label_en": "[digits 1-2, daily amount] Smoker, but amount unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔1-2碼，每日吸菸量〕病歷未記載或吸菸狀態完全不詳者",
+          "label_en": "[digits 1-2, daily amount] Not recorded in medical record or smoking status completely unknown"
+        },
+        {
+          "code": "00",
+          "label_zh": "〔3-4碼，吸菸年〕無吸菸",
+          "label_en": "[digits 3-4, years smoked] No smoking"
+        },
+        {
+          "code": "05",
+          "label_zh": "〔3-4碼，吸菸年〕吸菸5年",
+          "label_en": "[digits 3-4, years smoked] Smoked for 5 years"
+        },
+        {
+          "code": "15",
+          "label_zh": "〔3-4碼，吸菸年 (原文如此，疑手冊誤植)〕每日20支(1包)",
+          "label_en": "[digits 3-4, years smoked (as literally printed in the manual; likely a copy-paste error in the source)] 20 sticks/day (1 pack)"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔3-4碼，吸菸年 (原文如此，疑手冊誤植)〕每日≧90支(≧4.5包)",
+          "label_en": "[digits 3-4, years smoked (as literally printed in the manual; likely a copy-paste error in the source)] ≥90 sticks/day (≥4.5 packs)"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔3-4碼，吸菸年〕病歷未記載或吸菸狀態完全不詳者",
+          "label_en": "[digits 3-4, years smoked] Not recorded in medical record or smoking status completely unknown"
+        },
+        {
+          "code": "00",
+          "label_zh": "〔5-6碼，戒菸年〕無戒吸菸",
+          "label_en": "[digits 5-6, years quit] Never quit smoking"
+        },
+        {
+          "code": "05",
+          "label_zh": "〔5-6碼，戒菸年〕已戒5年",
+          "label_en": "[digits 5-6, years quit] Quit for 5 years"
+        },
+        {
+          "code": "15",
+          "label_zh": "〔5-6碼，戒菸年〕已戒15年",
+          "label_en": "[digits 5-6, years quit] Quit for 15 years"
+        },
+        {
+          "code": "88",
+          "label_zh": "〔5-6碼，戒菸年〕無吸菸",
+          "label_en": "[digits 5-6, years quit] No smoking (not applicable)"
+        },
+        {
+          "code": "98",
+          "label_zh": "〔5-6碼，戒菸年〕已戒，但年不詳",
+          "label_en": "[digits 5-6, years quit] Quit smoking, but duration unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "〔5-6碼，戒菸年〕病歷未記載或戒菸狀態完全不詳者",
+          "label_en": "[digits 5-6, years quit] Not recorded in medical record or smoking cessation status completely unknown"
+        }
+      ]
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔短表 SF (2018 年以後版本)\n（HEALTH-15：H_BHP_CRFSF_3）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFSF_3 資料筆數 117,314筆\n中文檔名 癌症登記檔短表 SF 英文檔名 Cancer registration databases—Short\n(2018-2022 年) Form\n檔案大小 24 MB 欄位數 41\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24 初版\n更新日期\n資料描述 各醫院自2018 年起新診斷的癌症個案，除申報長表的個案外，均改採107 年版癌症\n登記短表項目申報。(少數資料會包含 2017診斷年以前之補申報個案)\n注意事項 1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 2018年 1月1日以後所有診斷年癌症個案，依107年版癌症登記摘錄手冊申報。\n3. 收錄各醫院申報原始資料，並未進行院際間相同個案同一癌症同一組織型態分組\n之重複個案去除。\n4. 癌症登記短表(107年版)所包含之癌症別，除短表醫院申報的所有癌症外，還包含\n長表醫院申報之外其他所有癌別，均以短表申報。\n5. 個案分類為 0或3者，不需申報欄位序號 7.1-7.5，以9補滿。\n6. 如需分析自 1979年診斷至最新發表年度，且已去除院際重複之年報歸戶資料，請\n申請年報歸戶檔。\n主鍵與比 1. 身分證字號(ID)經加密處理。\n對欄位\n2. 個人歸戶及個人資料對照的鍵值：ID。\n1",

@@ -7029,6 +7029,680 @@
           "label_en": ""
         }
       ]
+    },
+    "BEHAVIOR": {
+      "field_zh": "性態碼",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "2",
+          "label_zh": "原位癌",
+          "label_en": "in situ cancer"
+        },
+        {
+          "code": "3",
+          "label_zh": "侵襲性癌",
+          "label_en": "invasive cancer"
+        }
+      ]
+    },
+    "BRT": {
+      "field_zh": "申報醫院近接放射線治療",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做",
+          "label_en": "not performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "已做",
+          "label_en": "performed"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "unclear"
+        }
+      ]
+    },
+    "CH": {
+      "field_zh": "申報醫院化學治療",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做",
+          "label_en": "not performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "已做",
+          "label_en": "performed"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "unclear"
+        }
+      ]
+    },
+    "HORM": {
+      "field_zh": "申報醫院荷爾蒙治療",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做",
+          "label_en": "not performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "已做",
+          "label_en": "performed"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "unclear"
+        }
+      ]
+    },
+    "OP": {
+      "field_zh": "申報醫院針對腫瘤原發部位進行手術治療",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做",
+          "label_en": "not performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "已做",
+          "label_en": "performed"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "unclear"
+        }
+      ]
+    },
+    "CAC": {
+      "field_zh": "是否開過癌症團隊會議",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "否",
+          "label_en": "No"
+        },
+        {
+          "code": "1",
+          "label_zh": "是",
+          "label_en": "Yes"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "CHRT": {
+      "field_zh": "化學與放射線同步治療",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "無",
+          "label_en": "None"
+        },
+        {
+          "code": "1",
+          "label_zh": "有",
+          "label_en": "Yes"
+        },
+        {
+          "code": "8",
+          "label_zh": "不適用，無法填寫此欄位",
+          "label_en": "Not applicable, unable to fill in this field"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "CHCYCLE": {
+      "field_zh": "化學治療療程數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "未進行化學治療",
+          "label_en": "No chemotherapy administered"
+        },
+        {
+          "code": "01-97",
+          "label_zh": "記錄所有療程的總治療次數",
+          "label_en": "Total number of treatment courses recorded"
+        },
+        {
+          "code": "98",
+          "label_zh": "無法計算療程數",
+          "label_en": "Unable to calculate the number of treatment courses"
+        },
+        {
+          "code": "99",
+          "label_zh": "不清楚",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "CSTATUS": {
+      "field_zh": "癌症狀態",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "原癌症未復發",
+          "label_en": "The original cancer has not recurred"
+        },
+        {
+          "code": "2",
+          "label_zh": "仍有腫瘤細胞存在(包含有遠端轉移的情形存在)",
+          "label_en": "Tumor cells are still present (including cases with distant metastasis)"
+        },
+        {
+          "code": "3",
+          "label_zh": "有第二個原發癌症",
+          "label_en": "A second primary cancer is present"
+        },
+        {
+          "code": "4",
+          "label_zh": "有原發癌症及第二種癌症存在",
+          "label_en": "Both the primary cancer and a second cancer are present"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "ER": {
+      "field_zh": "腫瘤標記-動情素接受器(針對乳癌使用)",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "陰性",
+          "label_en": "negative"
+        },
+        {
+          "code": "2",
+          "label_zh": "陽性，弱",
+          "label_en": "weak positive"
+        },
+        {
+          "code": "3",
+          "label_zh": "陽性，中",
+          "label_en": "moderate positive"
+        },
+        {
+          "code": "4",
+          "label_zh": "陽性，強",
+          "label_en": "strong positive"
+        },
+        {
+          "code": "5",
+          "label_zh": "陽性，狀況不明",
+          "label_en": "positive, condition unknown"
+        },
+        {
+          "code": "8",
+          "label_zh": "非乳癌之病人",
+          "label_en": "not breast cancer patient"
+        },
+        {
+          "code": "9",
+          "label_zh": "狀況不明或未檢測",
+          "label_en": "condition unknown or not tested"
+        }
+      ]
+    },
+    "PR": {
+      "field_zh": "腫瘤標記-黃體素接受器(針對乳癌使用)",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "陰性",
+          "label_en": "negative"
+        },
+        {
+          "code": "2",
+          "label_zh": "陽性，弱",
+          "label_en": "weak positive"
+        },
+        {
+          "code": "3",
+          "label_zh": "陽性，中",
+          "label_en": "moderate positive"
+        },
+        {
+          "code": "4",
+          "label_zh": "陽性，強",
+          "label_en": "strong positive"
+        },
+        {
+          "code": "5",
+          "label_zh": "陽性，狀況不明",
+          "label_en": "positive, condition unknown"
+        },
+        {
+          "code": "8",
+          "label_zh": "非乳癌之病人",
+          "label_en": "not breast cancer patient"
+        },
+        {
+          "code": "9",
+          "label_zh": "狀況不明或未檢測",
+          "label_en": "condition unknown or not tested"
+        }
+      ]
+    },
+    "GRADE": {
+      "field_zh": "分級/分化",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "分化良好",
+          "label_en": "well-differentiated"
+        },
+        {
+          "code": "2",
+          "label_zh": "中度分化",
+          "label_en": "moderately differentiated"
+        },
+        {
+          "code": "3",
+          "label_zh": "分化差",
+          "label_en": "poorly differentiated"
+        },
+        {
+          "code": "4",
+          "label_zh": "未分化",
+          "label_en": "undifferentiated"
+        },
+        {
+          "code": "5",
+          "label_zh": "T-cell. T-precursor cell",
+          "label_en": "T-cell. T-precursor cell"
+        },
+        {
+          "code": "6",
+          "label_zh": "B-cell. Pre-B cell. B-precursor cell",
+          "label_en": "B-cell. Pre-B cell. B-precursor cell"
+        },
+        {
+          "code": "7",
+          "label_zh": "Null cell. Non T-non B cell",
+          "label_en": "null cell. Non T-non B cell"
+        },
+        {
+          "code": "8",
+          "label_zh": "NK (natural killer) cell",
+          "label_en": "NK (natural killer) cell"
+        },
+        {
+          "code": "9",
+          "label_zh": "分化程度不明",
+          "label_en": "differentiation grade unknown"
+        }
+      ]
+    },
+    "ID_ROC": {
+      "field_zh": "身分證字號檢誤",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "身分證字號符合編碼原則",
+          "label_en": "ID number conforms to coding rules"
+        },
+        {
+          "code": "1",
+          "label_zh": "不符合",
+          "label_en": "does not conform"
+        }
+      ]
+    },
+    "ID_S": {
+      "field_zh": "性別",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "男性",
+          "label_en": "Male"
+        },
+        {
+          "code": "2",
+          "label_zh": "女性",
+          "label_en": "Female"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳",
+          "label_en": "Unknown"
+        }
+      ]
+    },
+    "LATERAL": {
+      "field_zh": "側性",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "非成對器官",
+          "label_en": "non-paired organs"
+        },
+        {
+          "code": "1",
+          "label_zh": "左側",
+          "label_en": "left side"
+        },
+        {
+          "code": "2",
+          "label_zh": "右側",
+          "label_en": "right side"
+        },
+        {
+          "code": "3",
+          "label_zh": "雙側",
+          "label_en": "bilateral"
+        },
+        {
+          "code": "8",
+          "label_zh": "不適用，(如位於中線)",
+          "label_en": "not applicable, (e.g., midline location)"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳，左右側不明",
+          "label_en": "unknown, both sides unclear"
+        }
+      ]
+    },
+    "OPMARGD": {
+      "field_zh": "手術邊緣與腫瘤細胞的距離",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "手術的邊緣仍有腫瘤細胞的存在",
+          "label_en": "Tumor cells still present at surgical margin"
+        },
+        {
+          "code": "1",
+          "label_zh": "小於1毫米",
+          "label_en": "Less than 1 mm"
+        },
+        {
+          "code": "2",
+          "label_zh": "1-2毫米",
+          "label_en": "1-2 mm"
+        },
+        {
+          "code": "3",
+          "label_zh": "3-5毫米",
+          "label_en": "3-5 mm"
+        },
+        {
+          "code": "4",
+          "label_zh": "6-10毫米",
+          "label_en": "6-10 mm"
+        },
+        {
+          "code": "5",
+          "label_zh": "大於10毫米",
+          "label_en": "Greater than 10 mm"
+        },
+        {
+          "code": "8",
+          "label_zh": "無法適用",
+          "label_en": "Not applicable"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "NEXAM": {
+      "field_zh": "區域淋巴結檢查數目",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "未檢查，或檢查數目為0",
+          "label_en": "Not examined, or number examined is 0"
+        },
+        {
+          "code": "01-95",
+          "label_zh": "區域性淋巴結檢查數目",
+          "label_en": "Number of regional lymph nodes examined"
+        },
+        {
+          "code": "96",
+          "label_zh": "區域性淋巴結數目為96顆或大於96顆",
+          "label_en": "Number of regional lymph nodes examined is 96 or more"
+        },
+        {
+          "code": "98",
+          "label_zh": "有檢查區域性淋巴結，但數目不明",
+          "label_en": "Regional lymph nodes were examined, but the number is unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "不清楚是否有檢查區域性淋巴結",
+          "label_en": "Unclear whether regional lymph nodes were examined"
+        }
+      ]
+    },
+    "NPOSIT": {
+      "field_zh": "區域淋巴結侵犯數目",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "區域性淋巴結沒有被侵犯",
+          "label_en": "Regional lymph nodes not invaded"
+        },
+        {
+          "code": "01-95",
+          "label_zh": "區域性淋巴結侵犯數目",
+          "label_en": "Number of regional lymph nodes invaded"
+        },
+        {
+          "code": "96",
+          "label_zh": "區域性淋巴結侵犯數目為96顆或大於96顆",
+          "label_en": "Number of regional lymph nodes invaded is 96 or more"
+        },
+        {
+          "code": "97",
+          "label_zh": "有侵犯區域性淋巴結，但數目不明",
+          "label_en": "Invaded regional lymph nodes but number unknown"
+        },
+        {
+          "code": "98",
+          "label_zh": "未檢查區域性淋巴結，或有對於區域性淋巴結開刀，但淋巴結檢查數目為0",
+          "label_en": "No check on regional lymph nodes, or surgery performed on regional lymph nodes with a check count of 0"
+        },
+        {
+          "code": "99",
+          "label_zh": "有檢查區域性淋巴結，但狀況不明",
+          "label_en": "Regional lymph nodes were examined, but the status is unclear"
+        }
+      ]
+    },
+    "OPLN": {
+      "field_zh": "申報醫院週邊淋巴結切除",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做週邊淋巴結切除",
+          "label_en": "No peripheral lymph node dissection performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "有做週邊淋巴結切除",
+          "label_en": "Peripheral lymph node dissection performed"
+        },
+        {
+          "code": "8",
+          "label_zh": "不適用",
+          "label_en": "Not applicable"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚是否有接受週邊淋巴結切除",
+          "label_en": "Unclear whether peripheral lymph node dissection was performed"
+        }
+      ]
+    },
+    "VSTATUS": {
+      "field_zh": "生存狀態",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "死亡",
+          "label_en": "Deceased"
+        },
+        {
+          "code": "1",
+          "label_zh": "存活",
+          "label_en": "Alive"
+        },
+        {
+          "code": "9",
+          "label_zh": "存活狀況不明",
+          "label_en": "Survival status unknown"
+        }
+      ]
+    },
+    "RTNO": {
+      "field_zh": "體外放射線治療次數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "未進行",
+          "label_en": "Not performed"
+        },
+        {
+          "code": "01-80",
+          "label_zh": "依實際治療次數填入",
+          "label_en": "Fill in according to the actual number of treatments"
+        },
+        {
+          "code": "99",
+          "label_zh": "不清楚",
+          "label_en": "Unclear"
+        }
+      ]
+    },
+    "TACENO": {
+      "field_zh": "栓塞次數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "未進行栓塞",
+          "label_en": "Not performed"
+        },
+        {
+          "code": "01-97",
+          "label_zh": "記錄同一療程的治療次數",
+          "label_en": "Number of treatments recorded in the same course of therapy"
+        },
+        {
+          "code": "99",
+          "label_zh": "次數不清楚",
+          "label_en": "Number unclear"
+        }
+      ]
+    },
+    "TACE": {
+      "field_zh": "栓塞治療(TACE、 TAE)",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "未做",
+          "label_en": "not performed"
+        },
+        {
+          "code": "1",
+          "label_zh": "肝動脈化學藥物栓塞治療",
+          "label_en": "hepatic artery chemoembolization therapy"
+        },
+        {
+          "code": "2",
+          "label_zh": "肝動脈栓塞治療",
+          "label_en": "hepatic artery embolization therapy"
+        },
+        {
+          "code": "3",
+          "label_zh": "合併肝動脈化學藥物栓塞治療及肝動脈栓塞治療",
+          "label_en": "combined hepatic artery chemoembolization and embolization therapy"
+        },
+        {
+          "code": "9",
+          "label_zh": "不清楚",
+          "label_en": "unclear"
+        }
+      ]
+    },
+    "SEX": {
+      "field_zh": "原始檔性別",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "男性",
+          "label_en": "Male"
+        },
+        {
+          "code": "2",
+          "label_zh": "女性",
+          "label_en": "Female"
+        },
+        {
+          "code": "3",
+          "label_zh": "其他(如陰陽人，Hermaphrodite)",
+          "label_en": "Other (e.g., Hermaphrodite)"
+        },
+        {
+          "code": "4",
+          "label_zh": "變性",
+          "label_en": "Transgender"
+        },
+        {
+          "code": "9",
+          "label_zh": "未說明",
+          "label_en": "Unspecified"
+        }
+      ]
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔 TCDB\n（HEALTH-16：H_BHP_CRSLF）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRSLF 資料筆數 161,272筆(以2002-2006年為例)\n中文檔名 癌症登記檔 TCDB 英文檔名 Cancer registration databases—TCDB\n檔案大小 52MB 欄位數 65\n譯碼簿\n屬性 歷史檔 週期 2025/06/24修訂\n更新日期\n資料描述 癌症防治中心(每年≧500 例醫院)針對新診斷為六大癌症(子宮頸癌、乳癌、口腔癌、\n肺癌、肝癌、結直腸癌)的病人申報詳細的診療資料。\n注意事項 1. 一個病人因同一癌症部位可能至不同醫院診斷治療，要特別注意一個人一個癌症\n部位的歸戶處理。\n2. 91年僅子宮頸癌為強制申報，93 年度起六癌均須申報。\n3. 癌症防治中心(每年≧500例醫院)共15-17家於2002-2006年申報TCDB長表資料。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 身分證字號(ID)經加密處理。\n對欄位\n2. 個人歸戶籍個人資料對照的鍵值：ID。\n1",

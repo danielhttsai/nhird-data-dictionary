@@ -5528,6 +5528,281 @@
           "label_en": ""
         }
       ]
+    },
+    "AGE": {
+      "field_zh": "診斷年齡",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "000",
+          "label_zh": "小於1歲",
+          "label_en": "less than 1 year old"
+        },
+        {
+          "code": "001",
+          "label_zh": "1歲，但是小於2歲",
+          "label_en": "1 year old but less than 2 years old"
+        },
+        {
+          "code": "002",
+          "label_zh": "2歲",
+          "label_en": "2 years old"
+        },
+        {
+          "code": "120",
+          "label_zh": "120歲",
+          "label_en": "120 years old"
+        },
+        {
+          "code": "999",
+          "label_zh": "診斷年齡不詳",
+          "label_en": "age at diagnosis not documented"
+        }
+      ]
+    },
+    "AJCC_ED": {
+      "field_zh": "AJCC 癌症分期版本",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "未判定期別(個案癌症有可判斷分期的參考資料，但未予以判定期別)",
+          "label_en": "Unstaged (the case has reference materials to determine stage but no stage was assigned)"
+        },
+        {
+          "code": "06",
+          "label_zh": "第六版",
+          "label_en": "Sixth edition"
+        },
+        {
+          "code": "07",
+          "label_zh": "第七版",
+          "label_en": "Seventh edition"
+        },
+        {
+          "code": "88",
+          "label_zh": "不適用(個案無適用之AJCC分期)",
+          "label_en": "Not applicable (no AJCC stage applies to the case)"
+        },
+        {
+          "code": "99",
+          "label_zh": "判定期別，但版本不詳",
+          "label_en": "Staged, but edition unknown"
+        }
+      ]
+    },
+    "IDNO_ROC": {
+      "field_zh": "身分證字號檢誤",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "身分證字號符合編碼原則",
+          "label_en": "ID number conforms to coding rules"
+        },
+        {
+          "code": "1",
+          "label_zh": "不符合",
+          "label_en": "does not conform"
+        }
+      ]
+    },
+    "IDNO_S": {
+      "field_zh": "性別",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "男性",
+          "label_en": "Male"
+        },
+        {
+          "code": "2",
+          "label_zh": "女性",
+          "label_en": "Female"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳",
+          "label_en": "Unknown"
+        }
+      ]
+    },
+    "LATERAL": {
+      "field_zh": "側性",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "不是成對器官",
+          "label_en": "Not a paired organ"
+        },
+        {
+          "code": "1",
+          "label_zh": "原發起源位在右側",
+          "label_en": "Primary origin on the right side"
+        },
+        {
+          "code": "2",
+          "label_zh": "原發起源位在左側",
+          "label_en": "Primary origin on the left side"
+        },
+        {
+          "code": "3",
+          "label_zh": "只有單側侵犯，但起源於左側或右側則不清楚",
+          "label_en": "Unilateral involvement only, but unclear whether origin is left or right side"
+        },
+        {
+          "code": "4",
+          "label_zh": "雙側侵犯但起源之側位不清楚，且病歷描述是單一原發(較少見)，如以下三例：雙側卵巢同時有單一組織類型之腫瘤侵犯；雙側同時有視網膜芽細胞瘤(retinoblastomas)；雙側同時有Wilm腫瘤(Wilm tumors)",
+          "label_en": "Bilateral involvement with unclear side of origin, and the medical record describes a single primary (less common), such as the following three examples: bilateral ovaries simultaneously invaded by a single histologic type of tumor; bilateral retinoblastomas simultaneously; bilateral Wilms tumors simultaneously"
+        },
+        {
+          "code": "5",
+          "label_zh": "成對器官，位於身體中線的腫瘤",
+          "label_en": "Paired organ, tumor located at the body midline"
+        }
+      ]
+    },
+    "ORT_NF": {
+      "field_zh": "其他放射治療臨床標靶體積治療次數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "沒有其他特殊放射治療",
+          "label_en": "no other special radiotherapy"
+        },
+        {
+          "code": "00-96",
+          "label_zh": "實際接受的放射治療次數",
+          "label_en": "actual number of radiotherapy sessions received"
+        },
+        {
+          "code": "97",
+          "label_zh": "其他特殊放射療法治療次數是97或更多",
+          "label_en": "other special radiotherapy treatments are 97 or more"
+        },
+        {
+          "code": "98",
+          "label_zh": "有其他特殊放射療法但其治療次數不詳",
+          "label_en": "there is other special radiotherapy but the number of treatment sessions is unknown"
+        },
+        {
+          "code": "99",
+          "label_zh": "資料不詳，不清楚有沒有其他特殊放射療法",
+          "label_en": "data not available, unclear whether there were any other special radiotherapy treatments"
+        }
+      ]
+    },
+    "RTH_NF": {
+      "field_zh": "最高放射劑量臨床標靶體積治療次數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "沒有體外放射治療",
+          "label_en": "No external beam radiation therapy"
+        },
+        {
+          "code": "01-96",
+          "label_zh": "實際接受的放射治療次數",
+          "label_en": "Actual number of received external beam radiation therapy"
+        },
+        {
+          "code": "97",
+          "label_zh": "CTV_H體外放射治療次數是97或更多",
+          "label_en": "Number of CTV_H external beam radiation therapy is 97 or more"
+        },
+        {
+          "code": "98",
+          "label_zh": "有體外放射治療，但CTV_H體外放射治療次數不詳",
+          "label_en": "External beam radiation therapy exists, but the number of CTV_H external beam radiation therapy is not clear"
+        },
+        {
+          "code": "99",
+          "label_zh": "資料不詳，不清楚有沒有體外放射治療",
+          "label_en": "Data unclear, unsure if there was external beam radiation therapy"
+        }
+      ]
+    },
+    "RTL_NF": {
+      "field_zh": "較低放射劑量臨床標靶體積治療次數",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "00",
+          "label_zh": "沒有體外放射治療，或是有體外放射治療但沒有CTV_L",
+          "label_en": "No external beam radiation therapy, or there is external radiation therapy but no CTV_L"
+        },
+        {
+          "code": "01-96",
+          "label_zh": "實際接受的放射劑量次數",
+          "label_en": "Actual number of radiation doses received"
+        },
+        {
+          "code": "97",
+          "label_zh": "CTV_L體外放射治療次數是97或更多",
+          "label_en": "The number of external radiation treatments for CTV_L is 97 or more"
+        },
+        {
+          "code": "98",
+          "label_zh": "有體外放射治療但CTV_L體外放射治療次數不詳",
+          "label_en": "There is external radiation therapy but the number of CTV_L external radiation treatments is not detailed"
+        },
+        {
+          "code": "99",
+          "label_zh": "資料不詳，不清楚有沒有體外放射治療",
+          "label_en": "Data is missing, unclear whether there was external radiation therapy"
+        }
+      ]
+    },
+    "SEX": {
+      "field_zh": "原始檔性別",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "男性",
+          "label_en": "Male"
+        },
+        {
+          "code": "2",
+          "label_zh": "女性",
+          "label_en": "Female"
+        },
+        {
+          "code": "3",
+          "label_zh": "其他(如雙性人，hermaphrodite)",
+          "label_en": "Other (e.g., hermaphrodite)"
+        },
+        {
+          "code": "4",
+          "label_zh": "變性人",
+          "label_en": "Transgender"
+        },
+        {
+          "code": "9",
+          "label_zh": "不詳或在病歷上未記載",
+          "label_en": "Unknown or not recorded in the medical history"
+        }
+      ]
+    },
+    "VSTATUS": {
+      "field_zh": "生存狀態",
+      "source": "臺灣癌症登記摘錄手冊 (欄位譯碼說明)",
+      "entries": [
+        {
+          "code": "0",
+          "label_zh": "死亡",
+          "label_en": "deceased"
+        },
+        {
+          "code": "1",
+          "label_zh": "存活",
+          "label_en": "alive"
+        }
+      ]
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔長表 LF (2018 年以後版本)\n（HEALTH-14：H_BHP_CRFLF_3）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFLF_3 資料筆數 832,459筆(2022年)\n中文檔名 癌症登記檔長表 LF 英文檔名 Taiwan Cancer Registry—Long Form\n(2018年)\n檔案大小 340 MB 欄位數 112\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24 初版\n更新日期\n資料描述\n1. 各醫院自 2018 年起新診斷的癌症個案改採 107 年版癌症登記項目申報。50 床以上\n醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；其中參與長表申報醫院，\n依長表摘錄手冊申報主要癌症的期別、詳細治療與復發等重要癌症照護資料。(少數\n資料會包含 2017診斷年以前之補申報個案)\n2. 自2002診斷年起，長表 TCDB首先針對子宮頸癌、乳癌、口腔癌、結直腸癌、肝癌、\n肺癌來收錄。\n3. 自2008診斷年起新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n4. 自2009診斷年起新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n5. 自2013診斷年起新增喉癌，共十六大癌症。\n6. 自2022診斷年起新增胰臟癌，共十七大癌症。\n7. AJCC 癌症分期版本於長表資料庫內共有三種版本：\n2003-2009年間診斷為癌症之個案，以 AJCC第六版作為分期依據。\n2010-2017年間診斷為癌症之個案，以 AJCC第七版作為分期依據。\n2018年起診斷為癌症之個案，以 AJCC 第八版作為分期依據。\n2021年起診斷為子宮頸癌個案，以AJCC 第九版作為分期依據。\n自AJCC 第九版起，各癌症依需求更新期別資訊。\n8. 有關長表資料分析指引，可參考台灣癌症登記中心網站：https://twcr.tw/?p=3284。\n9. 欲分析放射治療儀器或劑量等詳細資訊，請務必參閱臺灣癌症登記長表摘錄手冊內\n容，並注意各放療欄位間之相關性。\n注意事項 1. 為因應癌症診療實務之需求，國民健康署於民國 98年起，開始著手規劃於台灣癌\n症登記長表資料庫中增收癌症部位特定因子之資料；同時基於公共衛生的考量，並\n將吸菸、嚼檳榔、飲酒、身體及體重之收錄納入 100年版癌症登記摘錄手冊中增\n修。\n2. 長表醫院所需申報之癌症類型除 2007 年申報的子宮頸癌、乳癌、結直腸癌、口腔\n癌、肺癌、肝癌，及 2008年新增的攝護腺癌、胃癌、食道癌和膀胱癌外，2009年\n再增加鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，2010年擴大至男、\n女前10癌(口腔癌、結直腸癌、肝癌、肺癌、乳癌、子宮頸癌、食道癌、胃癌、攝\n1",
