@@ -80,7 +80,7 @@
     },
     {
       "seq": 6,
-      "name_zh": "流水號",
+      "name_zh": "流水號",
       "name_en": "SEQ_NO",
       "type": "Num",
       "length": 8,
@@ -106,7 +106,7 @@
       "name_en": "ORDER_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0 : 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5 : EPO注射 6 : HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9 : 藥事服務費 A:Tw-DRG 醫令代碼必為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為 5 。 B:部分負擔代碼改變已切帳申報費用之資料 ， 醫令代碼必為 「G00000~G00001」。 C:急診治療起迄時間 D:被替代之健保給付特材項目 E:自費特材項目-未支付 F:自費特材項目-不符給付規定 G:專案支付參考數值 H:醫療科技評估(HTA)自費診療項目 (104.02.15新增) K:全日平均護病比達特定範圍加成不計入醫療費用點數合計欄位項目 (費用年月108年7月修訂)",
+      "description_zh": "0 : 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5 : EPO注射 6 : HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9 : 藥事服務費 A:Tw-DRG 醫令代碼必為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為 5 。 B:部分負擔代碼改變已切帳申報費用之資料 ， 醫令代碼必為 「G00000~G00001」。 C:急診治療起迄時間 D:被替代之健保給付特材項目 E:自費特材項目-未支付 F:自費特材項目-不符給付規定 G:專案支付參考數值 H:醫療科技評估(HTA)自費診療項目 (104.02.15新增) K:全日平均護病比達特定範圍加成不計入醫療費用點數合計欄位項目 (費用年月108年7月修訂)",
       "available_notes": [
         {
           "roc_year": 108,
@@ -123,7 +123,7 @@
       "name_en": "ORDER_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼，按醫令代碼序依序申報，如係規律連續執行之醫令或同一醫令加成費用種類相同者，醫令則彙總列報，詳情請自健保署之醫事機構專區網頁查詢。",
+      "description_zh": "全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼，按醫令代碼序依序申報，如係規律連續執行之醫令或同一醫令加成費用種類相同者，醫令則彙總列報，詳情請自健保署之醫事機構專區網頁查詢。",
       "available_notes": [],
       "name_zh_en": "medical order code",
       "description_en": "National Health Insurance drug payment item or medical service payment standard code or special material code, reported in the order of medical order codes, if it is a regular execution medical order or same medical order with additional fee category type the same, then summarize and report, details please refer to the Medical Institution Zone on the MOHFW website."
@@ -199,7 +199,7 @@
         }
       ],
       "name_zh_en": "consulting department/therapy site",
-      "description_en": "1. 若医嘱为会诊费则此栏为必要字段(请填会诊科别) 2. 若医嘱代码为注5之诊疗项目者，则此栏为必要字段。诊疗部位代码：右侧填R、左侧填L、双侧填B。 注：92年起新增。"
+      "description_en": "1. If the order is a consultation fee, this field is required (enter the consulting specialty). 2. If the order code is an item noted under Note 5, this field is required. Treatment site code: R for right side, L for left side, B for bilateral. Note: added starting ROC year 92 (AD 2003)."
     },
     {
       "seq": 15,
@@ -274,7 +274,7 @@
       "name_en": "PART_ACCO_DATA",
       "type": "Char",
       "length": 28,
-      "description_zh": "醫令代碼為 G00000、903 者此欄為必要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，經加密處理）/ 案件分類(第 14-15 碼，若為１ 碼者左靠補「-」/流水號（第 16-21碼）。 註:若申報日期有申請解密此欄位也可申請解密",
+      "description_zh": "醫令代碼為 G00000、903 者此欄為必要欄位。 費用年月（第 1-5 碼）/申報類別(第 6 碼)/申報日期（第 7-13 碼，經加密處理）/ 案件分類(第 14-15 碼，若為１ 碼者左靠補「-」/流水號（第 16-21碼）。 註:若申報日期有申請解密此欄位也可申請解密",
       "available_notes": [],
       "name_zh_en": "pre-billing record",
       "description_en": "For claims with medical order codes G00000, 903, this column is mandatory. Fee year and month (first 5 digits)/claim category (sixth digit)/claim date (seventh to thirteenth digits, encrypted)/case classification (fourteenth and fifteenth digits, left-padded with '-' if one digit)/serial number (last six digits). Note: If the claim date is decrypted, this field can also be decrypted"
@@ -299,7 +299,7 @@
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼， 詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": "Original hospital institution code's first two digits, detailed authority别(HOS) explanation."
+      "description_en": "Original hospital institution code's first two digits, detailed authority category (HOS) explanation."
     }
   ],
   "codebooks": {
@@ -358,12 +358,12 @@
         },
         {
           "code": "AIDS",
-          "label_zh": "案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定 【費用年月103.02.01(含)起刪除)】【(費用年用疾病管制署(C1-CZ) 104.01.01(含)起刪除】。 結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。",
+          "label_zh": "案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定 【費用年月103.02.01(含)起刪除)】【(費用年用疾病管制署(C1-CZ) 104.01.01(含)起刪除】。 結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。",
           "label_en": "Case: According to the Centers for Disease Control's 'HIV Testing and Prevention Treatment Fee Payment Manual' regulations [deleted as of February 1, 2013] [(deleted as of January 1, 2015)]. Tuberculosis sputum smear positive cases admitted for <=14 days (counted in but not out)."
         },
         {
           "code": "C3",
-          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算 2026年01月27日修訂代辦單位代碼名稱進不算出)。96 年5月2日健保醫字第0960014750 號函自96年5月 1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院≦30天，且限該局 「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。 無健保結核病患之醫療費用(96年7月9 日健保醫字第0960023163 號函增訂)",
+          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算 2026年01月27日修訂代辦單位代碼名稱進不算出)。96 年5月2日健保醫字第0960014750 號函自96年5月 1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院≦30天，且限該局 「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。 無健保結核病患之醫療費用(96年7月9 日健保醫字第0960023163 號函增訂)",
           "label_en": "multidrug-resistant tuberculosis and antituberculosis drug adverse events inpatient <=60 days (calculated as of January 27, 2026). Revised scope and eligibility for reporting hospitals effective from May 2, 1996. For cases with antituberculosis drug adverse events hospitalized ≤30 days, only applicable to cooperating hospitals and medical centers under the 'Multidrug-Resistant Tuberculosis Healthcare System' of the relevant authority. No health insurance costs for tuberculosis patients (added in July 9, 1996)"
         },
         {
@@ -1186,7 +1186,7 @@
         },
         {
           "code": "IVI",
-          "label_zh": "玻璃体內注射 2026年01月27日修訂代碼名稱備註",
+          "label_zh": "玻璃體內注射 2026年01月27日修訂代碼名稱備註",
           "label_en": "vitrectomy revised on January 27, 2026 code name notes"
         },
         {

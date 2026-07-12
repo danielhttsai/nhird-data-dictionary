@@ -76,7 +76,7 @@
       "description_zh": "詳戶籍地代碼(RESIDCD)對照表本檔案皆使用新五都代碼",
       "available_notes": [],
       "name_zh_en": "household registration code",
-      "description_en": "Detailed household code (RESIDCD)对照表 - all files use new five metropolitan area codes"
+      "description_en": "See the Household Registration Location Code (RESIDCD) correspondence table; this file uses the new five-special-municipality codes throughout."
     },
     {
       "seq": 6,
@@ -98,7 +98,7 @@
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
-      "description_en": "0：临床症状 1：实验室诊断 2：影像检查 3：内镜 4：探查手术 5：细胞诊断 6：血液病理 7：组织病理 8：尸检 9：诊断不明"
+      "description_en": "0: Clinical presentation; 1: Laboratory diagnosis; 2: Imaging examination; 3: Endoscopy; 4: Exploratory surgery; 5: Cytology; 6: Hematologic pathology; 7: Histopathology; 8: Autopsy; 9: Diagnosis unknown."
     },
     {
       "seq": 8,
@@ -131,7 +131,7 @@
       "description_zh": "組織病理：用ICD-O 譯碼第5碼為2：原位癌第5碼為3：侵襲癌詳組織類型與性態碼(HISTOLOG)對照表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血液腫瘤分類表)",
       "available_notes": [],
       "name_zh_en": "type and status code",
-      "description_en": "Histopathology: ICD-O coded Fifth digit 2: in situ carcinoma Fifth digit 3: invasive carcinoma Detailed histological type and nature code (HISTOLOG)对照表 (hematologic tumor coding range: 95903-99933, excluding 99903. Hematologic tumor classification details see hematologic tumor classification table)."
+      "description_en": "Histopathology: coded using ICD-O. 5th digit 2 = carcinoma in situ; 5th digit 3 = invasive carcinoma. See the histologic type and behavior code (HISTOLOG) cross-reference table. (Hematologic malignancy code range: 95903-99933, excluding 99903. For hematologic malignancy subclassification, see the hematologic malignancy classification table.)"
     },
     {
       "seq": 10,
@@ -142,7 +142,7 @@
       "description_zh": "詳原發部位(CASITE)對照表 NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTOLOG)區分。若是要分析各癌症部分(CASITE 欄位)，也請先把NHL、HL、LEU 等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "详原发部位(CASITE)对照表 NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液肿瘤案例，在此字段无法辨识，请用组织类型与性态码(HISTOLOG)区分。若要分析各癌症部分(CASITE字段)，也请先把NHL、HL、LEU等血液肿瘤排除后再计算。"
+      "description_en": "See the Primary Site (CASITE) table. Hematologic tumor cases such as NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia) cannot be identified in this field; use the Histologic Type and Behavior Code (HISTOLOG) to distinguish them. When analyzing by cancer site (CASITE field), first exclude NHL, HL, LEU, and other hematologic tumors before calculating."
     },
     {
       "seq": 11,

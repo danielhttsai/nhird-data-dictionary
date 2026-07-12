@@ -137,7 +137,7 @@
         }
       ],
       "name_zh_en": "car accident",
-      "description_en": "Y：汽车摩托车交通事故 N：非汽车摩托车交通事故或原因不明。 注:108年起无"
+      "description_en": "Y: Motor vehicle traffic accident; N: Not a motor vehicle traffic accident, or cause unknown. Note: not available from ROC year 108 (AD 2019) onward."
     },
     {
       "seq": 11,
@@ -305,7 +305,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -441,7 +441,7 @@
       "description_zh": "依支付標準各部章節對應",
       "available_notes": [],
       "name_zh_en": "visit points",
-      "description_en": "按支付标准各章节对应"
+      "description_en": "Corresponds to the chapters/sections of the NHI fee schedule (payment standards)."
     },
     {
       "seq": 34,
@@ -899,7 +899,7 @@
       "description_zh": "以入院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at admission",
-      "description_en": "以入院日期及出生日计算。"
+      "description_en": "Calculated based on admission date and date of birth."
     },
     {
       "seq": 73,
@@ -910,7 +910,7 @@
       "description_zh": "以就醫日期及新生兒生日計算欄位PART_NO(部分負擔代號)為",
       "available_notes": [],
       "name_zh_en": "days of newborns attached to hospitalization",
-      "description_en": "计算就医日期及新生儿生日 括号内PART_NO(自付费用代码)为"
+      "description_en": "Calculated from the visit date and the newborn's date of birth, the field PART_NO (copayment code) is"
     },
     {
       "seq": 74,
@@ -921,7 +921,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原則 1：不符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
     },
     {
       "seq": 75,
@@ -943,7 +943,7 @@
       "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
       "available_notes": [],
       "name_zh_en": "physician ID verification error",
-      "description_en": "0：身分證字號符合編碼原則 1：不符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
     },
     {
       "seq": 77,
@@ -965,7 +965,7 @@
       "description_zh": "醫療機構所在鄉鎮。 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市升格或合併而變更。",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
-      "description_en": "Medical institution township. Code referenced from current medical institution file. Based on the摘录信息, will not change due to county-city upgrades or mergers."
+      "description_en": "Township/district where the medical institution is located. Code refers to the Medical Institution Status File. Extracted from the medical institution record and does not change due to county/city upgrades or mergers."
     },
     {
       "seq": 79,
@@ -987,7 +987,7 @@
       "description_zh": "以出院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at discharge",
-      "description_en": "以出院日期及出生日计算。"
+      "description_en": "Calculated using the discharge date and date of birth."
     }
   ],
   "codebooks": {

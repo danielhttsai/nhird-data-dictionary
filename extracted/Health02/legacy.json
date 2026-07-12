@@ -75,7 +75,7 @@
     },
     {
       "seq": 5,
-      "name_zh": "流水號",
+      "name_zh": "流水號",
       "name_en": "SEQ_NO",
       "type": "Char",
       "length": 8,
@@ -138,7 +138,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": "Prior to ROC Year 92 (inclusive), 2 digits, after ROC Year 93, 4 digits, see field claims card就医序号 (CARD_SEQ_NO) decoding explanation"
+      "description_en": "2 digits through ROC year 92 (AD 2003) inclusive, 4 digits from ROC year 93 (AD 2004) onward; see the coding explanation for the field NHI card visit sequence number (CARD_SEQ_NO)."
     },
     {
       "seq": 9,
@@ -149,7 +149,7 @@
       "description_zh": "保險對象住院中有二次以上轉就醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "department visited",
-      "description_en": "insured person had more than two transfers to different medical specialties during hospitalization, fill in the specialty at discharge, see field就医科室（FUNC_TYPE） 译码说明"
+      "description_en": "For an insured person who transferred between specialties two or more times during a single hospitalization, this is entered as the specialty at discharge; see the specialty (FUNC_TYPE) coding explanation."
     },
     {
       "seq": 10,
@@ -171,7 +171,7 @@
       "description_zh": "以入院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at admission",
-      "description_en": "以入院日期及出生日计算。"
+      "description_en": "Calculated based on admission date and date of birth."
     },
     {
       "seq": 12,
@@ -182,7 +182,7 @@
       "description_zh": "以出院日期及生日計算。",
       "available_notes": [],
       "name_zh_en": "age at discharge",
-      "description_en": "以出院日期及出生日计算。"
+      "description_en": "Calculated using the discharge date and date of birth."
     },
     {
       "seq": 13,
@@ -270,7 +270,7 @@
       "description_zh": "1：治療出院 2：繼續住院 3：改門診治療 4：死亡 5：一般自動出院 6：轉院 7：身份變更 8：逾假未歸或不假離院 9：自殺 0：其它 A：病危自動出院。 B:住院30日內因身分變更切帳申報後，轉為論日支付或代辦之非 Tw-DRGs案件 D:醫院間轉急性後期照護 E:院內轉急性後期照護 F:因療程需要計劃性出院 G:依醫囑出院轉機構照護",
       "available_notes": [],
       "name_zh_en": "outcome code",
-      "description_en": "1: Discharged after treatment 2: Continue住院 3: Switch to outpatient care 4: Death 5: General automatic discharge 6: Transfer to another hospital 7: Identity change 8: Overdue absence or unauthorized departure 9: Suicide 0: Other A: Critical condition leading to automatic discharge. B: Discharge within 30 days due to identity change and subsequent billing adjustment for non-Tw-DRGs cases D: Transfer between hospitals for acute post-treatment care E: In-hospital transfer for acute post-treatment care F: Planned discharge due to treatment needs G: Discharged as per doctor's order for institutional care"
+      "description_en": "1: Discharged after treatment. 2: Continued hospitalization. 3: Changed to outpatient treatment. 4: Death. 5: General self-discharge. 6: Transferred to another hospital. 7: Change of eligibility status. 8: Failed to return from leave or left without leave. 9: Suicide. 0: Other. A: Self-discharge in critical condition. B: Within 30 days of admission, converted to per-diem payment or a non-Tw-DRGs case handled on behalf of another payer, after eligibility-status account-switch billing. D: Transferred between hospitals for post-acute care. E: Transferred to post-acute care within the same hospital. F: Planned discharge required by the treatment course. G: Discharged per physician's order to institutional care."
     },
     {
       "seq": 19,
@@ -278,7 +278,7 @@
       "name_en": "ICD9CM_1",
       "type": "Char",
       "length": 5,
-      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼。",
+      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -606,7 +606,7 @@
         }
       ],
       "name_zh_en": "proxy points",
-      "description_en": "2010年起无"
+      "description_en": "Not available since ROC year 100 (AD 2011)."
     },
     {
       "seq": 47,
@@ -837,7 +837,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 68,
@@ -870,7 +870,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "physician ID verification error",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 71,
@@ -892,7 +892,7 @@
       "description_zh": "醫療機構所在鄉鎮。 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市升格或合併而變更。",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
-      "description_en": "Medical institution township. Code referenced from current medical institution file. Based on the摘录信息, will not change due to county-city upgrades or mergers."
+      "description_en": "Township/district where the medical institution is located. Code refers to the Medical Institution Status File. Extracted from the medical institution record and does not change due to county/city upgrades or mergers."
     },
     {
       "seq": 73,
@@ -931,7 +931,7 @@
         }
       ],
       "name_zh_en": "total quantity of medical orders",
-      "description_en": "Total number of inpatient orders for this admission 注：This field was added starting from 2010"
+      "description_en": "Total number of inpatient orders for this admission Note: This field was added starting from 2010"
     },
     {
       "seq": 76,

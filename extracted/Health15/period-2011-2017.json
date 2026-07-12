@@ -65,7 +65,7 @@
       "description_zh": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳詳欄位(變項)譯碼(一)【戶籍地代碼 (RESID)對照表】",
       "available_notes": [],
       "name_zh_en": "household registration code",
-      "description_en": "Residence code at the time of cancer diagnosis. 9999: Residence not specified. Detailed variable coding (one)【Residence Code (RESID)对照表】"
+      "description_en": "Household registration location code at the time the case was diagnosed with cancer. 9999: household registration location unknown; see field (variable) coding (1) [Household registration location code (RESID) cross-reference table]."
     },
     {
       "seq": 5,
@@ -120,7 +120,7 @@
       "description_zh": "詳欄位(變項)譯碼(二)【個案分類 (CLASS)對照表】",
       "available_notes": [],
       "name_zh_en": "case classification",
-      "description_en": "Details of field (variable) coding (two) 【Case classification (CLASS)对照表】"
+      "description_en": "See field (variable) coding explanation (2) [Case Classification (CLASS) Table]."
     },
     {
       "seq": 10,
@@ -208,7 +208,7 @@
       "description_zh": "記錄在申報醫院對原發部位所進行的手術方式，詳欄位(變項)譯碼(四)【申報醫院原發部位手術方式(OPTYPE) 對照表】。",
       "available_notes": [],
       "name_zh_en": "reported_hospital_primary_site_surgical_procedure",
-      "description_en": "Record the surgical procedure performed on the primary site in the申报医院, detailed field(coded variable) translation (4) 【申报医院原发部位手术方式(OPTYPE)对照表】."
+      "description_en": "Records the surgical procedure performed on the primary site at the reporting hospital; see field (variable) coding explanation (4) [Reporting hospital primary site surgical procedure (OPTYPE) reference table]."
     },
     {
       "seq": 18,
@@ -219,7 +219,7 @@
       "description_zh": "記錄在申報醫院的首次療程中，進行放射治療的開始日期，詳欄位(變項) 譯碼(五)【放射治療開始日期 (RTB_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "Radiotherapy start date",
-      "description_en": "Radiation therapy start date recorded during the first course of treatment at the申报医院, detailed field(变量)译码(五)[放射治疗开始日期(RTB_DT)对照表]。"
+      "description_en": "Records the start date of radiotherapy during the first course of treatment at the reporting hospital; see field (variable) coding (5) [Radiotherapy Start Date (RTB_DT) table]."
     },
     {
       "seq": 19,
@@ -241,7 +241,7 @@
       "description_zh": "記錄個案於申報醫院首次療程中，所給予化學治療相關情形，詳欄位(變項)譯碼(七)【申報醫院化學治療(CH) 對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported chemotherapy",
-      "description_en": "In the first course of treatment at the申报医院, the details of chemotherapy provided, as coded in field (variable) 7 【Chemotherapy at申报医院(CH)对照表】."
+      "description_en": "Records details of chemotherapy given to the case during the first course of treatment at the reporting hospital; see field (variable) coding (7) [Reporting hospital chemotherapy (CH) lookup table]."
     },
     {
       "seq": 21,
@@ -252,7 +252,7 @@
       "description_zh": "詳欄位(變項)譯碼(八)【申報醫院化學治療開始日期(CH_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "date_of_clinic_reported_hospital_chemotherapy_start",
-      "description_en": "Translation of detailed field (variable) code (八) [对照表 for申报医院化学治疗开始日期 (CH_DT)]"
+      "description_en": "See field (variable) coding explanation (8) [Chemotherapy start date at reporting hospital (CH_DT) correspondence table]."
     },
     {
       "seq": 22,
@@ -263,7 +263,7 @@
       "description_zh": "記載個案在申報醫院首次療程中，所給予荷爾蒙治療的相關情形，詳欄位 (變項)譯碼(九)【申報醫院荷爾蒙治療 (HORM)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital report of hormone / corticosteroid treatment",
-      "description_en": "Records the case's condition for hormone therapy provided during the first course of treatment at the申报医院, detailed in Section (Variable) Code Nine [申报医院激素治疗对照表] (HORM)."
+      "description_en": "Records details of hormone therapy given during the case's first course of treatment at the reporting hospital; see field (variable) coding (9) [Reporting hospital hormone therapy (HORM) cross-reference table]."
     },
     {
       "seq": 23,
@@ -274,7 +274,7 @@
       "description_zh": "詳欄位(變項)譯碼(十)【申報醫院荷爾蒙治療開始日期(HORM_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "Reported hospital hormone / steroid therapy start date",
-      "description_en": "Detailed field (variable) code (10) [Claimed hospital hormone treatment start date (HORM_DT)对照表]."
+      "description_en": "See field (variable) coding explanation (10) [Reporting Hospital Hormone Therapy Start Date (HORM_DT) Table]."
     },
     {
       "seq": 24,
@@ -285,7 +285,7 @@
       "description_zh": "記載申報醫院於首次療程中，所給予免疫治療的相關情形，詳欄位(變項) 譯碼(十一)【申報醫院免疫治療 (IMMU)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported immunotherapy",
-      "description_en": "Records the relevant circumstances of immunotherapy provided by the reporting hospital during the first course, detailed in field (item) coding (11)【Reporting Hospital Immunotherapy (IMMU)对照表】."
+      "description_en": "Records the immunotherapy given by the reporting hospital during the first course of treatment; see field (variable) coding explanation (11) [Reporting hospital immunotherapy (IMMU) reference table]."
     },
     {
       "seq": 25,
@@ -296,7 +296,7 @@
       "description_zh": "詳欄位(變項)譯碼(十二)【申報醫院免疫治療開始日期(IMMU_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "date_of_clinic_reported_hospital_immunotherapy_start",
-      "description_en": "Detailed field (variable) code (12) [Claimed hospital immunotherapy start date (IMMU_DT)对照表]."
+      "description_en": "See field (variable) coding (12) [Reporting Hospital Immunotherapy Start Date (IMMU_DT) table]."
     },
     {
       "seq": 26,
@@ -307,7 +307,7 @@
       "description_zh": "記錄個案在申報醫院首次治療時，給予骨髓/幹細胞移植或內分泌治療情形，詳欄位(變項)譯碼(十三)【申報醫院骨髓/幹細胞移植或內分泌處置 (BM)對照表】。",
       "available_notes": [],
       "name_zh_en": "Claimed hospital bone marrow/cord blood transplantation or endocrine management.",
-      "description_en": "Record the case's first treatment at the reporting hospital, including bone marrow/stem cell transplantation or endocrine therapy, detailed field (variable) code (13) [Bone Marrow/Stem Cell Transplantation or Endocrine Treatment (BM)对照表]."
+      "description_en": "Records whether bone marrow/stem cell transplantation or endocrine therapy was given to the case during the first treatment at the reporting hospital; see field (variable) coding (13) [Reporting hospital bone marrow/stem cell transplantation or endocrine procedure (BM) lookup table]."
     },
     {
       "seq": 27,
@@ -318,7 +318,7 @@
       "description_zh": "詳欄位(變項)譯碼(十四)【申報醫院骨髓/幹細胞移植或內分泌處置開始日期(BM_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "Date of bone marrow/stem cell transplantation or endocrine management initiation at the reporting hospital.",
-      "description_en": "Detailed field (variable) code (14) 【申报医院骨髓/干细胞移植或内分泌处置开始日期 (BM_DT) Lookup Table】."
+      "description_en": "See field (variable) coding explanation (14) [Start date of bone marrow/stem cell transplant or endocrine treatment at reporting hospital (BM_DT) correspondence table]."
     },
     {
       "seq": 28,
@@ -329,7 +329,7 @@
       "description_zh": "記錄個案在申報醫院首次治療時，給予標靶治療情形，詳欄位(變項)譯碼 (十五)【申報醫院標靶治療(TARGET) 對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported targeted therapy",
-      "description_en": "Record the target therapy given at the first treatment in the申报医院, detailed field(coded variable) translation (15) 【申报医院靶向治疗(TARGET)对照表】."
+      "description_en": "Records whether targeted therapy was given during the case's first treatment at the reporting hospital; see field (variable) coding (15) [Reporting hospital targeted therapy (TARGET) cross-reference table]."
     },
     {
       "seq": 29,
@@ -340,7 +340,7 @@
       "description_zh": "詳欄位(變項)譯碼(十六)【申報醫院標靶治療開始日期(TARGET_DT)對照表】。",
       "available_notes": [],
       "name_zh_en": "date_of_clinic_reported_hospital_targeted Therapy_start",
-      "description_en": "Field item code (XVI) [对照表 for target treatment start date (TARGET_DT)]"
+      "description_en": "See field (variable) coding explanation (16) [Reporting Hospital Targeted Therapy Start Date (TARGET_DT) Table]."
     },
     {
       "seq": 30,
@@ -351,7 +351,7 @@
       "description_zh": "申報醫院為緩解或減輕個案症狀所提供之照護，包括手術治療、放射治療、 全身性治療(化學治療、荷爾蒙治療或其他全身性藥物)及疼痛控制治療，詳欄位(變項)譯碼(十七)【申報醫院緩和照護(PALLI)對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported palliative care",
-      "description_en": "Hospital care provided to alleviate or relieve patient symptoms, including surgery, radiotherapy, systemic therapy (chemotherapy, hormone therapy, or other systemic drugs), and pain control treatment, detailed item (variable) code (17) [PALLI对照表]."
+      "description_en": "Care provided by the reporting hospital to relieve or alleviate the case's symptoms, including surgical treatment, radiotherapy, systemic therapy (chemotherapy, hormone therapy, or other systemic drugs), and pain control treatment; see field (variable) coding explanation (17) [Reporting hospital palliative care (PALLI) reference table]."
     },
     {
       "seq": 31,

@@ -25,7 +25,7 @@
   "fields": [
     {
       "seq": 1,
-      "name_zh": "申請類別",
+      "name_zh": "申請類別",
       "name_en": "APPL_TYPE",
       "type": "Char",
       "length": 1,
@@ -47,7 +47,7 @@
     },
     {
       "seq": 3,
-      "name_zh": "受理日期",
+      "name_zh": "受理日期",
       "name_en": "RECV_DATE",
       "type": "Char",
       "length": 8,
@@ -121,7 +121,7 @@
       "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
       "available_notes": [],
       "name_zh_en": "diagnosis code",
-      "description_en": "ICD-9-CM and A-Code detailed diagnosis codes (DISE_CODE) and catastrophic illness categories (IIV_TYPE)对照表。请参考健保局网页。"
+      "description_en": "ICD-9-CM and A-Code: see the diagnosis code (DISE_CODE) and catastrophic illness category (IIV_TYPE) cross-reference table. Please refer to the Bureau of National Health Insurance website."
     },
     {
       "seq": 9,
@@ -196,7 +196,7 @@
       "name_en": "CARD_MARK",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷 6：撤銷卡證 7：民眾自行撤銷（106年起新增） 空白：有效正常卡。 100年起新增",
+      "description_zh": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷 6：撤銷卡證 7：民眾自行撤銷（106年起新增） 空白：有效正常卡。 100年起新增",
       "available_notes": [
         {
           "roc_year": 106,
@@ -227,7 +227,7 @@
         }
       ],
       "name_zh_en": "rare disease notation",
-      "description_en": "Y：罕见病 1996年起新增"
+      "description_en": "Y: rare disease. Added starting ROC year 96 (AD 2007)."
     },
     {
       "seq": 16,
@@ -305,7 +305,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 22,
@@ -327,7 +327,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "physician ID verification error",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 24,
@@ -342,33 +342,33 @@
     },
     {
       "seq": 25,
-      "name_zh": "受理編號_年度",
+      "name_zh": "受理編號_年度",
       "name_en": "ACPT_NO_YYY",
       "type": "Char",
       "length": 3,
-      "description_zh": "YYY(民國年)。",
+      "description_zh": "YYY(民國年)。",
       "available_notes": [],
       "name_zh_en": "procedure number_",
-      "description_en": "YYY(民國)"
+      "description_en": "YYY (ROC year)."
     },
     {
       "seq": 26,
-      "name_zh": "受理編號_分局",
+      "name_zh": "受理編號_分局",
       "name_en": "ACPT_NO_B",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區分局 5：高屏分局 6：東區分局",
+      "description_zh": "0：總局 1：台北分局 2：北區分局 3：中區分局 4：南區分局 5：高屏分局 6：東區分局",
       "available_notes": [],
       "name_zh_en": "procedure number_分局",
       "description_en": "0: Central Bureau 1: Taipei Branch Bureau 2: Hsinchu Branch Bureau 3: Zhongzheng Branch Bureau 4: Nanjing Branch Bureau 5: Kaohsiung Branch Bureau 6: Dongjiu Branch Bureau"
     },
     {
       "seq": 27,
-      "name_zh": "受理編號_流水號",
+      "name_zh": "受理編號_流水號",
       "name_en": "ACPT_NO_SEQ",
       "type": "Char",
       "length": 7,
-      "description_zh": "受理編號之流水號。",
+      "description_zh": "受理編號之流水號。",
       "available_notes": [],
       "name_zh_en": "insured number_watermark",
       "description_en": "Subject ID."

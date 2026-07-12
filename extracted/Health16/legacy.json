@@ -72,7 +72,7 @@
       "description_zh": "YYYYMMDD 88888888：病人未做病理檢查 99999999：最初診斷日期不詳年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "First pathological diagnosis date",
-      "description_en": "YYYYMMDD 88888888：病人未做病理检查 99999999：最初诊断日期不详 年不详：9999 月不详：99 日不详：99。"
+      "description_en": "YYYYMMDD. 88888888: patient did not undergo pathological examination. 99999999: date of initial diagnosis unknown. Year unknown: 9999. Month unknown: 99. Day unknown: 99."
     },
     {
       "seq": 6,
@@ -193,7 +193,7 @@
       "description_zh": "00：未檢查，或檢查數目為 0 01-95：區域性淋巴結檢查數目 96：區域性淋巴結數目為 96顆或大於 96顆 98：有檢查區域性淋巴結，但數目不明 99：不清楚是否有檢查區域性淋巴結",
       "available_notes": [],
       "name_zh_en": "regional lymph node examination count",
-      "description_en": "00：未检查，或检查数目为 0 01-95：区域淋巴结检查数目 96：区域淋巴结数目为96颗或大于96颗 98：有检查区域淋巴结但数目不明 99：不清楚是否有检查区域淋巴结"
+      "description_en": "00: Not examined, or number examined is 0; 01-95: Number of regional lymph nodes examined; 96: Number of regional lymph nodes is 96 or more; 98: Regional lymph nodes were examined but the number is unknown; 99: Unknown whether regional lymph nodes were examined."
     },
     {
       "seq": 17,
@@ -204,7 +204,7 @@
       "description_zh": "00：區域性淋巴結沒有被侵犯 01-95：區域性淋巴結侵犯數目 96：區域性淋巴結侵犯數目為 96顆或大於96顆 97：有侵犯區域性淋巴結，但數目不明 98：未檢查區域性淋巴結，或有對於區域性淋巴結開刀，但淋巴結檢查數目為0 99：有檢查區域性淋巴結，但狀況不明",
       "available_notes": [],
       "name_zh_en": "regional lymph node invasion count",
-      "description_en": "00：无区域淋巴结侵犯 01-95：区域淋巴结侵犯数目 96：区域淋巴结侵犯数目为96颗或以上 97：有侵犯区域淋巴结，但数目不明 98：未检查区域淋巴结，或有对区域淋巴结手术，但淋巴结检查数目为0 99：检查了区域淋巴结，但情况不明"
+      "description_en": "00: regional lymph nodes not involved. 01-95: number of regional lymph nodes involved. 96: number of regional lymph nodes involved is 96 or more. 97: regional lymph nodes involved but the number is unknown. 98: regional lymph nodes not examined, or regional lymph node surgery performed but the number of lymph nodes examined was 0. 99: regional lymph nodes examined but status unknown."
     },
     {
       "seq": 18,
@@ -426,7 +426,7 @@
       "description_zh": "詳欄位(變項)譯碼 (七) 【其他分期系統 (OSTAGE)對照表】",
       "available_notes": [],
       "name_zh_en": "other installment systems",
-      "description_en": "detailed field (variable) code (seven) [OSTAGE staging system对照表]",
+      "description_en": "See field (variable) coding (7) [Other staging system (OSTAGE) cross-reference table].",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -544,7 +544,7 @@
       "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域淋巴結手術範圍(OPLNSCOPE)對照表】",
       "available_notes": [],
       "name_zh_en": "reported hospital regional lymph node surgical range",
-      "description_en": "Field item code (IX) [对照表 for lymph node surgery range (OPLNSCOPE)]"
+      "description_en": "See field (variable) coding explanation (9) [Reporting Hospital Regional Lymph Node Surgery Scope (OPLNSCOPE) Table]."
     },
     {
       "seq": 38,
@@ -577,7 +577,7 @@
       "description_zh": "詳欄位(變項)譯碼 (十) 【放射線治療方式(針對原發部位)(RTTYPE)對照表】",
       "available_notes": [],
       "name_zh_en": "radiotherapy method (targeting primary site)",
-      "description_en": "Detailed Field (Variable) Code (X) [Radiotherapy Type (针对原发部位)(RTTYPE) Lookup Table]"
+      "description_en": "See field (variable) coding explanation (10) [Radiotherapy modality (for the primary site) (RTTYPE) reference table]."
     },
     {
       "seq": 41,
@@ -599,7 +599,7 @@
       "description_zh": "00：未進行 01-80：依實際治療次數填入 99：不清楚。",
       "available_notes": [],
       "name_zh_en": "external beam radiotherapy次数",
-      "description_en": "00: Not performed 01-80: Fill according to actual treatment次数 99: Unclear"
+      "description_en": "00: not performed. 01-80: enter the actual number of treatments. 99: unknown."
     },
     {
       "seq": 43,
@@ -775,7 +775,7 @@
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
       "available_notes": [],
       "name_zh_en": "survival status",
-      "description_en": "0：死亡 1：存活 9：生存状况不明。"
+      "description_en": "0: Deceased; 1: Alive; 9: Survival status unknown."
     },
     {
       "seq": 59,
@@ -786,7 +786,7 @@
       "description_zh": "1：原癌症未復發 2：仍有腫瘤細胞存在(包含有遠端轉移的情形存在) 3：有第二個原發癌症 4：有原發癌症及第二種癌症存在 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "cancer status",
-      "description_en": "1：原癌未复发 2：仍有肿瘤细胞存在(包含有远端转移的情形存在) 3：有第二个原发癌症 4：有原发癌症及第二种癌症存在 9：不清楚。"
+      "description_en": "1: the original cancer has not recurred. 2: tumor cells are still present (including cases with distant metastasis). 3: a second primary cancer is present. 4: both the original primary cancer and a second cancer are present. 9: unknown."
     },
     {
       "seq": 60,
@@ -808,7 +808,7 @@
       "description_zh": "詳欄位(變項)譯碼 (十三) 【首次復發型式(RECUR)對照表】 本欄位收錄個案經診斷為癌症後，追蹤滿五年內是否首次發生癌症復發狀態。 若五年內首次復發後，仍再重複復發， 本欄位僅記錄第一次復發狀態；若超過五年後才發生首次復發，則本欄位將視為無復發。",
       "available_notes": [],
       "name_zh_en": "first recurrence pattern",
-      "description_en": "detail field (variable) coding (thirteen) [RECUR]对照表 本字段收录个案经诊断为癌症后，追踪五年内是否首次发生癌症复发状态。若五年内首次复发后，仍再重复复发，本字段仅记录第一次复发状态；若超过五年后才发生首次复发，则本字段将视为无复发。"
+      "description_en": "See field (variable) coding (13) [First recurrence pattern (RECUR) cross-reference table]. This field records whether the case had a first cancer recurrence within five years of follow-up after being diagnosed with cancer. If recurrence happens again after the first recurrence within five years, this field records only the first recurrence status; if the first recurrence occurs more than five years after diagnosis, this field is treated as no recurrence."
     },
     {
       "seq": 62,
@@ -819,7 +819,7 @@
       "description_zh": "詳欄位(變項)譯碼 (十四) 【死亡原因 (CAUDEATH)對照表】",
       "available_notes": [],
       "name_zh_en": "Cause of Death",
-      "description_en": "Translation of detailed field (variable) codes (fourteen) 【death cause (CAUDEATH)对照表】"
+      "description_en": "See field (variable) coding explanation (14) [Cause of Death (CAUDEATH) Table]."
     },
     {
       "seq": 63,

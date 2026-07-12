@@ -75,7 +75,7 @@
     },
     {
       "seq": 5,
-      "name_zh": "流水號",
+      "name_zh": "流水號",
       "name_en": "SEQ_NO",
       "type": "Char",
       "length": 8,
@@ -121,7 +121,7 @@
       "description_zh": "醫療機構之原醫療機構代碼前 2 碼， 詳權屬別(HOS) 譯碼說明。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": "Original hospital institution code's first two digits, detailed authority别(HOS) explanation."
+      "description_en": "Original hospital institution code's first two digits, detailed authority category (HOS) explanation."
     },
     {
       "seq": 9,
@@ -129,7 +129,7 @@
       "name_en": "ORDER_SEQ_NO",
       "type": "Num",
       "length": 8,
-      "description_zh": "依同一病患申報之醫令順序編號。 106年欄位格式為文字型態， 長度為10碼。",
+      "description_zh": "依同一病患申報之醫令順序編號。 106年欄位格式為文字型態， 長度為10碼。",
       "available_notes": [
         {
           "roc_year": 106,
@@ -146,7 +146,7 @@
       "name_en": "ORDER_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0: 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5: EPO注射 6: HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9: 藥事服務費 A:Tw-DRG 醫令代碼必為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為5 。 B:部分負擔代碼改變已切帳申報費用之資料 ， 醫令代碼必為 「G00000~G00001」。",
+      "description_zh": "0: 診察費 1：用藥明細 2：診療明細 3：特殊材料 4：不得另計價之藥品或診療項目 5: EPO注射 6: HCT檢驗 7：代檢及非該層級適用類別之轉檢 8：器官捐贈。 9: 藥事服務費 A:Tw-DRG 醫令代碼必為 A00000~F00001、H00000~H00032、 J00001，且案件分類應為5 。 B:部分負擔代碼改變已切帳申報費用之資料 ， 醫令代碼必為 「G00000~G00001」。",
       "available_notes": [],
       "name_zh_en": "order type",
       "description_en": "0: Consultation fee 1: Medication details 2: Treatment details 3: Special materials 4: Drugs or treatment items not separately chargeable 5: EPO injection 6: HCT test 7: Outsourced tests and referrals not applicable to this level's category 8: Organ donation. 9: Pharmacy service fee A: Tw-DRG order code must be A00000~F00001, H00000~H00032, J00001, and the case classification must be 5. B: For billed/claimed data where the co-payment code has changed, the order code must be \"G00000~G00001\"."
@@ -157,7 +157,7 @@
       "name_en": "ORDER_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼，按醫令代碼序依序申報，如係規律連續執行之醫令或同一醫令加成費用種類相同者，醫令則彙總列報，詳情請自健保署之醫事機構專區網頁查詢。",
+      "description_zh": "全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼，按醫令代碼序依序申報，如係規律連續執行之醫令或同一醫令加成費用種類相同者，醫令則彙總列報，詳情請自健保署之醫事機構專區網頁查詢。",
       "available_notes": [],
       "name_zh_en": "medical order code",
       "description_en": "National Health Insurance drug payment item or medical service payment standard code or special material code, reported in the order of medical order codes, if it is a regular execution medical order or same medical order with additional fee category type the same, then summarize and report, details please refer to the Medical Institution Zone on the MOHFW website."
@@ -168,7 +168,7 @@
       "name_en": "RATE_TYPE",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.23．全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加二成表示為 1.20，無加成為 1.00，打八折為.80)註：兒童加成年齡以入院日期計",
+      "description_zh": "1.23．全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加二成表示為 1.20，無加成為 1.00，打八折為.80)註：兒童加成年齡以入院日期計",
       "available_notes": [],
       "name_zh_en": "co-payment ratio",
       "description_en": "1.23. According to the National Health Insurance Medical Service Payment Item and Fee Schedule, if the diagnostic item has an additional charge or discount, report as follows: (e.g., a 20% additional charge is indicated by 1.20, no additional charge is 1.00, and an 80% discount is .80). Note: Children's additional charges are calculated based on the date of admission."
@@ -201,7 +201,7 @@
       "name_en": "ORDER_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "數量乘單價，加成計算，四捨五入取整數。",
+      "description_zh": "數量乘單價，加成計算，四捨五入取整數。",
       "available_notes": [],
       "name_zh_en": "point of medical order",
       "description_en": "unit price multiplied, rounded off to the nearest whole number."
@@ -221,7 +221,7 @@
         }
       ],
       "name_zh_en": "dosage of drug",
-      "description_en": "根据全民健康保险药品使用标准码的原则输入。 注：100年起新增。"
+      "description_en": "Entered according to the principles of the National Health Insurance Drug Usage Standard Code. Note: added starting ROC year 100 (AD 2011)."
     },
     {
       "seq": 17,
@@ -1219,7 +1219,7 @@
         },
         {
           "code": "IVI",
-          "label_zh": "玻璃体內注射 2026年01月27日修訂代碼名稱備註",
+          "label_zh": "玻璃體內注射 2026年01月27日修訂代碼名稱備註",
           "label_en": "vitrectomy revised on January 27, 2026 code name notes"
         },
         {

@@ -19,8 +19,8 @@
       "note": "修訂"
     }
   ],
-  "data_description_zh": "1. 台灣地區人工生殖資料庫於民國 87 年建立，由各人工生殖機構定期通報期間內於\n其機構接受人工生殖（但不含配偶間的人工授精）之個案資料。\n2. 人工生殖資料通報及管理辦法依人工生殖法第二十七條第二項規定訂定之。\n3. 「人工生殖資料通報辦法」中華民國九十六年八月八日行政院衛生署署授國字第\n0960400731 號令訂定發布全文 15 條；並自發布日施行。\n4. 人工生殖機構應通報之人工生殖資料如下：\n一、生殖細胞捐贈人健康檢查及評估。\n二、捐贈生殖細胞施術結果。\n三、捐贈生殖細胞或以捐贈之生殖細胞形成之胚胎未完成捐贈、返還、銷毀、 轉贈或\n轉移之資料。\n四、人工生殖開始使用排卵藥物等進入治療週期個案之資料。\n五、人工生殖個案資料。\n六、受術夫妻生殖細胞或胚胎銷毀資料\n5. 開始使用藥物年度包含民國87年至112 年。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 未控管不孕期間之資料填寫，未來通報時會檢查不孕期間不大於受術妻年齡。\n3. 新生兒相關資訊為0者，表示沒有新生兒資料。\n4. 人工生殖資料通報及管理辦法於 96 年施行後，因需與其他資料庫鏈接，故將編碼\n改版，96年以前舊資料也依新版編碼轉換。惟部分編碼因格式或新版編碼之闕漏，\n會產生亂碼或不明之編碼。\n5. 其他資料可參考：國民健康署-人工生殖資料通報及管理辦法。",
+  "data_description_zh": "1. 台灣地區人工生殖資料庫於民國 87 年建立，由各人工生殖機構定期通報期間內於\n其機構接受人工生殖（但不含配偶間的人工授精）之個案資料。\n2. 人工生殖資料通報及管理辦法依人工生殖法第二十七條第二項規定訂定之。\n3. 「人工生殖資料通報辦法」中華民國九十六年八月八日行政院衛生署署授國字第\n0960400731 號令訂定發布全文 15 條；並自發布日施行。\n4. 人工生殖機構應通報之人工生殖資料如下：\n一、生殖細胞捐贈人健康檢查及評估。\n二、捐贈生殖細胞施術結果。\n三、捐贈生殖細胞或以捐贈之生殖細胞形成之胚胎未完成捐贈、返還、銷毀、 轉贈或\n轉移之資料。\n四、人工生殖開始使用排卵藥物等進入治療週期個案之資料。\n五、人工生殖個案資料。\n六、受術夫妻生殖細胞或胚胎銷毀資料\n5. 開始使用藥物年度包含民國87年至112 年。",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 未控管不孕期間之資料填寫，未來通報時會檢查不孕期間不大於受術妻年齡。\n3. 新生兒相關資訊為0者，表示沒有新生兒資料。\n4. 人工生殖資料通報及管理辦法於 96 年施行後，因需與其他資料庫鏈接，故將編碼\n改版，96年以前舊資料也依新版編碼轉換。惟部分編碼因格式或新版編碼之闕漏，\n會產生亂碼或不明之編碼。\n5. 其他資料可參考：國民健康署-人工生殖資料通報及管理辦法。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -405,7 +405,7 @@
       "description_zh": "1：是 0、2、3：否",
       "available_notes": [],
       "name_zh_en": "clinical pregnancy",
-      "description_en": "1：是 0、2、3：否"
+      "description_en": "1: yes; 0, 2, 3: no."
     },
     {
       "seq": 30,
@@ -433,7 +433,7 @@
         }
       ],
       "name_zh_en": "blastocyst number",
-      "description_en": "2021年起缺失值视为0"
+      "description_en": "From ROC year 110 (AD 2021) onward, missing values are treated as 0."
     },
     {
       "seq": 32,
@@ -450,7 +450,7 @@
         }
       ],
       "name_zh_en": "Fetal Heartbeats",
-      "description_en": "2021年起缺失值视为0"
+      "description_en": "From ROC year 110 (AD 2021) onward, missing values are treated as 0."
     },
     {
       "seq": 33,
@@ -523,7 +523,7 @@
         }
       ],
       "name_zh_en": "spontaneous abortion number",
-      "description_en": "2021年起缺失值视为0"
+      "description_en": "From ROC year 110 (AD 2021) onward, missing values are treated as 0."
     },
     {
       "seq": 38,
@@ -557,7 +557,7 @@
         }
       ],
       "name_zh_en": "abortion count",
-      "description_en": "2021年起缺失值视为0"
+      "description_en": "From ROC year 110 (AD 2021) onward, missing values are treated as 0."
     },
     {
       "seq": 40,
@@ -596,7 +596,7 @@
         }
       ],
       "name_zh_en": "livebirths",
-      "description_en": "2021年起缺失值视为0"
+      "description_en": "From ROC year 110 (AD 2021) onward, missing values are treated as 0."
     },
     {
       "seq": 43,
@@ -849,7 +849,7 @@
       "description_zh": "僅提供出生年(民國年)",
       "available_notes": [],
       "name_zh_en": "procedure wife date of birth",
-      "description_en": "仅提供出生年(民国年)"
+      "description_en": "Only the birth year is provided (ROC year)."
     },
     {
       "seq": 66,
@@ -982,7 +982,7 @@
         },
         {
           "code": "1",
-          "label_zh": "輸卵管因素",
+          "label_zh": "輸卵管因素",
           "label_en": "reason for hospitalization"
         },
         {
@@ -1096,7 +1096,7 @@
       "field_en": "microsurgery"
     },
     "OVA_HS": {
-      "field_zh": "卵巢過度刺激臨床症候群",
+      "field_zh": "卵巢過度刺激臨床症候群",
       "entries": [
         {
           "code": "2",
@@ -1217,7 +1217,7 @@
         },
         {
           "code": "202",
-          "label_zh": "需要治療之黃疸",
+          "label_zh": "需要治療之黃疸",
           "label_en": "need_treatment_haemolytic_jaundice"
         },
         {

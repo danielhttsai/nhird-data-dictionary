@@ -50,7 +50,7 @@
       "description_zh": "個案診斷為癌症時之戶籍地代碼。 9999：戶籍地不詳。詳欄位(變項)譯碼(一)【戶籍地代碼(RESID)對照表】。",
       "available_notes": [],
       "name_zh_en": "household registration code",
-      "description_en": "Residence code at the time of cancer diagnosis. 9999: residence information not available. Detailed variable translation (one)【residence code(RESID)对照表】."
+      "description_en": "Household registration location code at the time the case was diagnosed with cancer. 9999: household registration location unknown. See field (variable) coding (1) [Household Registration Location Code (RESID) table]."
     },
     {
       "seq": 4,
@@ -72,7 +72,7 @@
       "description_zh": "詳欄位(變項)譯碼(二)【個案分類 (CLASS)對照表】。",
       "available_notes": [],
       "name_zh_en": "case classification",
-      "description_en": "Detailed field (variable) coding (two) 【case classification (CLASS)对照表】."
+      "description_en": "See field (variable) coding explanation (2) [Case classification (CLASS) reference table]."
     },
     {
       "seq": 6,
@@ -105,7 +105,7 @@
       "description_zh": "依 ICD-O-3腫瘤部位碼進行原發部位編碼。 詳原發部位(SITE)對照表",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "ICD-O-3 tumor site code for primary site coding. Detailed primary site (SITE)对照表"
+      "description_en": "Primary site coded per the ICD-O-3 tumor site code. See the Primary Site (SITE) correspondence table."
     },
     {
       "seq": 9,
@@ -149,7 +149,7 @@
       "description_zh": "詳欄位(變項)譯碼(四)【分級/分化 （GRADE）對照表】。",
       "available_notes": [],
       "name_zh_en": "grading/differentiation",
-      "description_en": "Detailed field (variable) translation (IV) [分级/g分化 （GRADE）对照表]."
+      "description_en": "See field (variable) coding (4) [Grade/differentiation (GRADE) cross-reference table]."
     },
     {
       "seq": 13,
@@ -193,7 +193,7 @@
       "description_zh": "詳欄位(變項)譯碼(七)【區域淋巴結檢查數目（NEXAM）對照表】。",
       "available_notes": [],
       "name_zh_en": "regional lymph node examination count",
-      "description_en": "Translation of detailed field (variable) codes (seven) 【regional lymph node examination number (NEXAM)对照表】."
+      "description_en": "See field (variable) coding explanation (7) [Number of Regional Lymph Nodes Examined (NEXAM) Table]."
     },
     {
       "seq": 17,
@@ -204,7 +204,7 @@
       "description_zh": "詳欄位(變項)譯碼(八)【區域淋巴結侵犯數目（NPOSIT）對照表】。",
       "available_notes": [],
       "name_zh_en": "regional lymph node invasion count",
-      "description_en": "Detailed field (variable) code (8) [Regional lymph node invasion count (NPOSIT)对照表]."
+      "description_en": "See field (variable) coding explanation (8) [Number of regional lymph nodes involved (NPOSIT) reference table]."
     },
     {
       "seq": 18,
@@ -236,7 +236,7 @@
       "description_zh": "詳欄位(變項)譯碼(九)【外院診斷性及分期性手術處置（SDIAG_O）& 申報醫院診斷性及分期性手術處置 （SDIAG_H）對照表】。",
       "available_notes": [],
       "name_zh_en": "diagnostic_and_staging_surgical_procedures_at_other_hospitals",
-      "description_en": "Detailed field/code translation(nine)【Outpatient diagnostic and staging surgery disposition(SDIAG_O)&申报医院 diagnostic and staging surgery disposition(SDIAG_H)对照表】."
+      "description_en": "See field (variable) coding (9) [Other Hospital Diagnostic and Staging Surgical Procedure (SDIAG_O) & Reporting Hospital Diagnostic and Staging Surgical Procedure (SDIAG_H) table]."
     },
     {
       "seq": 20,
@@ -352,7 +352,7 @@
       "description_zh": "詳欄位(變項)譯碼(五十)【臨床分期字根/字首(CDESCR)對照表】",
       "available_notes": [],
       "name_zh_en": "Clinical Stage Root/Prefix",
-      "description_en": "Detailed field (variable) code (50) [Clinical stage root/code (CDESCR)对照表]",
+      "description_en": "See field (variable) coding (50) [Clinical staging root/prefix (CDESCR) lookup table].",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -457,7 +457,7 @@
       "description_zh": "指AJCC 病理分期字根/字首的描述符號。詳欄位(變項)譯碼(四十九) 【病理分期字根/字首(PDESCR)對照表】。",
       "available_notes": [],
       "name_zh_en": "Pathological Stage Root/Prefix",
-      "description_en": "Indicates the AJCC pathological staging root/code description symbol. Refer to Field (Variable) Translation (49) [AJCC Pathological Staging Root/Code Description (PDESCR)对照表].",
+      "description_en": "Refers to the AJCC pathologic stage prefix/root descriptor. See field (variable) coding explanation (49) [Pathologic Stage Prefix (PDESCR) correspondence table].",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -478,7 +478,7 @@
       "description_zh": "西元2004年1月 1日以後診斷為癌症之個案，需以 AJCC第六版作為分期依據。 00：未判定期別(個案癌症有可判斷分期的參考資料，但未予以判定期別) 06：第六版 07：第七版 88：不適用(個案無適用之 AJCC 分期) 99：有判定期別，但版本不詳。",
       "available_notes": [],
       "name_zh_en": "AJCC cancer staging version",
-      "description_en": "Diagnosed with cancer on or after January 1, 2004,分期依据AJCC第六版。 00：未判定期别(个案癌症有可判断分期的参考资料，但未予以判定期别) 06：第六版 07：第七版 88：不适用(个案无适用之AJCC分期) 99：有判定期别，但版本不明",
+      "description_en": "For cases diagnosed with cancer on or after January 1, 2004 (AD), staging must be based on AJCC 6th edition. 00: Stage not determined (reference data for staging is available for the case's cancer, but staging was not determined). 06: 6th edition. 07: 7th edition. 88: Not applicable (no applicable AJCC staging for the case). 99: Staged, but edition unknown.",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -520,7 +520,7 @@
       "description_zh": "版本以西元年或其他方式表示。 0000：無使用其他分期系統 8888：其他分期系統並無版本之別 (不適用) 9999：不清楚所使用之其他分期系統的版本(不詳)。",
       "available_notes": [],
       "name_zh_en": "other分期systemversion",
-      "description_en": "Version indicated by Gregorian year or other methods. 0000: No use of other分期systems 8888: Other分期systems have no version differences (not applicable) 9999: Unclear about the version of other分期systems used (unclear)",
+      "description_en": "Version expressed as the AD year or other means. 0000: No other staging system used; 8888: the other staging system has no version distinction (not applicable); 9999: the version of the other staging system used is unclear (unknown).",
       "refs": [
         {
           "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
@@ -616,7 +616,7 @@
       "description_zh": "詳欄位(變項)譯碼(十六)【外院原發部位手術方式（OPTYPE_O）&申報",
       "available_notes": [],
       "name_zh_en": "Outpatient Surgery Approach for Primary Site",
-      "description_en": "Translation of detailed field (variable) code (十六) [对照表 for外院原发 部位手术方式（OPTYPE_O）&申报"
+      "description_en": "See field (variable) coding explanation (16) [External hospital primary site surgical procedure (OPTYPE_O) & reporting"
     },
     {
       "seq": 40,
@@ -638,7 +638,7 @@
       "description_zh": "記錄原發腫瘤切除後手術邊緣的最後狀態。詳欄位(變項)譯碼(十七)【原發部位手術邊緣（SMARGIN）對照表】。",
       "available_notes": [],
       "name_zh_en": "primary surgical margin of origin",
-      "description_en": "Record the final status of the surgical margin after resection of the primary tumor. Refer to the SMARGIN对照表 for detailed field coding (17)."
+      "description_en": "Records the final status of the surgical margin after resection of the primary tumor. See field (variable) coding (17) [Primary Site Surgical Margin (SMARGIN) table]."
     },
     {
       "seq": 42,
@@ -649,7 +649,7 @@
       "description_zh": "詳欄位(變項)譯碼(十八)【外院區域淋巴結手術範圍（OPLN_O）&申報醫院區域淋巴結手術範圍(OPLN_H) 對照表】。",
       "available_notes": [],
       "name_zh_en": "Outpatient regional lymph node surgical scope",
-      "description_en": "Detailed field(变量)译码(十八)[外院区域淋巴结手术范围(OPLN_O)&申报医院区域淋巴结手术范围(OPLN_H)对照表]。"
+      "description_en": "See field (variable) coding (18) [Extent of regional lymph node surgery at outside hospital (OPLN_O) & extent of regional lymph node surgery at reporting hospital (OPLN_H) lookup table]."
     },
     {
       "seq": 43,
@@ -671,7 +671,7 @@
       "description_zh": "詳欄位(變項)譯碼(十九)【外院其他部位手術方式（OPOTHER_O）&申報醫院其他部位手術方式 （OPOTHER_H）對照檔】。",
       "available_notes": [],
       "name_zh_en": "Outpatient Surgery Approach for Other Sites",
-      "description_en": "Detailed field (variable) code (nineteen) [Examination Site Surgery Method at外院(OPOTHER_O) & 申报医院(OPOTHER_H)]对照表."
+      "description_en": "See field (variable) coding explanation (19) [Other-site surgery method at other hospital (OPOTHER_O) & other-site surgery method at reporting hospital (OPOTHER_H) correspondence file]."
     },
     {
       "seq": 45,
@@ -693,7 +693,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十)【原發部位未手術原因（NOOP）對照表】。",
       "available_notes": [],
       "name_zh_en": "primary site unsurgery reason",
-      "description_en": "Detailed field (variable) code (20) 【primary site non-surgical reason (NOOP)对照表】."
+      "description_en": "See field (variable) coding (20) [Reason primary site not operated on (NOOP) cross-reference table]."
     },
     {
       "seq": 47,
@@ -704,7 +704,7 @@
       "description_zh": "申報醫院的首次療程中，進行放射治療之放射線標靶體積涵蓋的範圍（局部原發腫瘤「T」、區域淋巴結「N」 和遠端轉移「M」）。詳欄位(變項)譯碼(二十一)【放射治療臨床標靶體積摘要（RTSUMM）對照表】。",
       "available_notes": [],
       "name_zh_en": "summary of clinical target volume for radiotherapy",
-      "description_en": "The range covered by the radiation target volume during the first course of treatment at the reporting hospital, including the primary tumor 'T', regional lymph nodes 'N', and distant metastasis 'M'. Detailed field (variable) translation (21) [Radiation Therapy Clinical Target Volume Summary (RTSUMM)对照表]."
+      "description_en": "For the first course of treatment at the reporting hospital, the extent of coverage of the radiation target volume for radiation therapy (primary tumor \"T\", regional lymph nodes \"N\", and distant metastasis \"M\"). See field (variable) coding explanation (21) [Radiation Therapy Clinical Target Volume Summary (RTSUMM) Table]."
     },
     {
       "seq": 48,
@@ -715,7 +715,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十二)【放射治療儀器（RTMODAL）對照表】。",
       "available_notes": [],
       "name_zh_en": "radiation therapy equipment",
-      "description_en": "Detailed field (variable) code (22) [Radiation therapy modality (RTMODAL)对照表]."
+      "description_en": "See field (variable) coding explanation (22) [Radiotherapy equipment (RTMODAL) reference table]."
     },
     {
       "seq": 49,
@@ -726,7 +726,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十三)【放射治療開始日期（DRT_1ST）對照表】。",
       "available_notes": [],
       "name_zh_en": "Radiotherapy start date",
-      "description_en": "Detailed field (variable) code (23) [Radiation therapy start date (DRT_1ST)对照表]."
+      "description_en": "See field (variable) coding (23) [Radiotherapy Start Date (DRT_1ST) table]."
     },
     {
       "seq": 50,
@@ -737,7 +737,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十四)【放射治療結束日期（DRT_END）對照表】。",
       "available_notes": [],
       "name_zh_en": "radiation therapy end date",
-      "description_en": "Detailed field (variable) code (24) [Radiation therapy end date (DRT_END)对照表]."
+      "description_en": "See field (variable) coding (24) [Radiotherapy end date (DRT_END) lookup table]."
     },
     {
       "seq": 51,
@@ -748,7 +748,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十五)【放射治療與手術順序（SRS）對照表】。",
       "available_notes": [],
       "name_zh_en": "Radiotherapy and Surgical Sequence",
-      "description_en": "Detailed field (variable) code (25) [Radiotherapy and Surgical Sequence (SRS)对照表]."
+      "description_en": "See field (variable) coding explanation (25) [Sequence of Radiotherapy and Surgery (SRS) correspondence table]."
     },
     {
       "seq": 52,
@@ -781,7 +781,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十八)【未放射治療原因（NORT）對照表】。",
       "available_notes": [],
       "name_zh_en": "reason for no radiation therapy",
-      "description_en": "Translation of field (variable) code (twenty-eight) 【未放射治療原因（NORT）對照表】."
+      "description_en": "See field (variable) coding (28) [Reason radiotherapy not given (NORT) cross-reference table]."
     },
     {
       "seq": 55,
@@ -792,7 +792,7 @@
       "description_zh": "詳欄位(變項)譯碼(二十九)【體外放射治療技術（EBRT）對照表】。",
       "available_notes": [],
       "name_zh_en": "external beam radiation therapy technique",
-      "description_en": "Detailed field (variable) code (29) [External Beam Radiation Therapy Technique (EBRT)对照表]."
+      "description_en": "See field (variable) coding explanation (29) [External Beam Radiation Therapy Technique (EBRT) Table]."
     },
     {
       "seq": 56,
@@ -814,7 +814,7 @@
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H的放射劑量。本欄位的單位是centiGray (縮寫 cGy)，與舊單位 “rads”相同大小。 00000：沒有體外放射治療 00001-99996：實際接受的放射劑量 99997：CTV_H 的體外放射治療劑量是99997 cGy或更多 99998：有體外放射治療，但 CTV_H 的體外放射治療劑量不詳 99999：資料不詳，不清楚有沒有體外放射治療。",
       "available_notes": [],
       "name_zh_en": "maximum clinical target volume dose of radiotherapy",
-      "description_en": "Recorded in the first course of treatment at the申报医院, CTV_H radiation dose. The unit is centiGray (cGy), equivalent to the old unit 'rads'. 00000: No external beam radiotherapy 00001-99996: Actual received radiation dose 99997: CTV_H external beam radiotherapy dose of 99997 cGy or more 99998: External beam radiotherapy present, but dose for CTV_H not specified 99999: Unclear whether there was any external beam radiotherapy"
+      "description_en": "Records the radiation dose to CTV_H during the first course of treatment at the reporting hospital. The unit for this field is centiGray (abbreviated cGy), equivalent in size to the old unit \"rads\". 00000: no external beam radiotherapy. 00001-99996: actual radiation dose received. 99997: the external beam radiotherapy dose to CTV_H is 99997 cGy or more. 99998: external beam radiotherapy was given, but the dose to CTV_H is unknown. 99999: data unknown, unclear whether external beam radiotherapy was given."
     },
     {
       "seq": 58,
@@ -825,7 +825,7 @@
       "description_zh": "記錄在申報醫院的首次療程中， CTV_H的放射治療次數(fractions or sessions)。 00：沒有體外放射治療 01-96：實際接受的放射治療次數 97：CTV_H體外放射治療次數是 97 或更多 98：有體外放射治療，但 CTV_H體外放射治療次數不詳 99：資料不詳，不清楚有沒有體外放射治療。",
       "available_notes": [],
       "name_zh_en": "Maximum radiation dose clinical target volume treatment frequency.",
-      "description_en": "The number of external beam radiotherapy fractions during the first treatment course at the申报医院. 00: No external beam radiotherapy 01-96: Actual number of external beam radiotherapy sessions 97: Number of external beam radiotherapy sessions for CTV_H is 97 or more 98: External beam radiotherapy was received, but the number of CTV_H external beam radiotherapy sessions is unknown 99: Data unavailable, unclear if external beam radiotherapy was received."
+      "description_en": "Records the number of radiotherapy fractions (sessions) for CTV_H during the first course of treatment at the reporting hospital. 00: no external beam radiotherapy. 01-96: actual number of radiotherapy fractions received. 97: CTV_H external beam radiotherapy fractions is 97 or more. 98: external beam radiotherapy given, but the number of CTV_H external beam radiotherapy fractions is unknown. 99: data unknown, unclear whether external beam radiotherapy was given."
     },
     {
       "seq": 59,
@@ -869,7 +869,7 @@
       "description_zh": "記錄在申報醫院的首次療程中，進行放射治療所使用的特殊放射治療儀器或治療方式，詳欄位(變項)譯碼(三十",
       "available_notes": [],
       "name_zh_en": "other radiotherapy equipment",
-      "description_en": "For the first course of treatment recorded at the申报医院, specify the special radiotherapy equipment or treatment method used in radiotherapy. Detailed field (variable) code explanation (thirty"
+      "description_en": "Records the special radiotherapy equipment or treatment modality used for radiotherapy during the first course of treatment at the reporting hospital; see field (variable) coding (30"
     },
     {
       "seq": 63,
@@ -880,7 +880,7 @@
       "description_zh": "記錄在申報醫院的首次療程中，進行特殊放射治療所使用的技術，詳欄位 (變項)譯碼(三十三)【其他放射治療技術（ORT_TECH）對照表】。",
       "available_notes": [],
       "name_zh_en": "other radiation therapy techniques",
-      "description_en": "The special radiotherapy techniques used in the first course of treatment at the reported hospital, detailed field (variable) code (thirty-three) 【Other Radiotherapy Techniques (ORT_TECH)对照表】."
+      "description_en": "Records the technique used for special radiotherapy during the first course of treatment at the reporting hospital; see field (variable) coding explanation (33) [Other Radiotherapy Technique (ORT_TECH) correspondence table]."
     },
     {
       "seq": 64,
@@ -913,7 +913,7 @@
       "description_zh": "記錄在申報醫院的首次療程中，其他特殊放射治療次數(fractions or sessions)。 00：沒有其他特殊放射治療 00-96：實際接受的放射治療次數 97：其他特殊放射療法治療次數是 97或更多 98：有其他特殊放射療法但其治療次數不詳 99：資料不詳，不清楚有沒有其他特殊放射療法。",
       "available_notes": [],
       "name_zh_en": "Other clinical target volume treatment frequency for radiotherapy.",
-      "description_en": "Recorded during the first therapy session at申报医院, other special radiotherapy sessions (fractions or sessions). 00: No additional special radiotherapy 00-96: Actual number of received radiotherapy sessions 97: Other special radiotherapy treatment sessions are 97 or more 98: There is other special radiotherapy but the number of treatments is unknown 99: Data not available, unclear if there was any additional special radiotherapy."
+      "description_en": "Records the number of other special radiotherapy fractions (or sessions) during the first course of treatment at the reporting hospital. 00: No other special radiotherapy. 00-96: Actual number of radiotherapy fractions received. 97: Other special radiotherapy fractions were 97 or more. 98: Other special radiotherapy given, but the number of fractions is unknown. 99: Data unknown; unclear whether other special radiotherapy was given."
     },
     {
       "seq": 67,
@@ -924,7 +924,7 @@
       "description_zh": "記錄在任何醫療機構的首次療程中， 全身性治療開始日期(包含外院資料) 。全身性治療包括化學治療、荷爾蒙治療、免疫治療、骨髓/幹細胞移植或內分泌治療，詳欄位(變項)譯碼(三十六)【全身性治療開始日期 （DSYT）對照表】。",
       "available_notes": [],
       "name_zh_en": "systemic treatment start date",
-      "description_en": "Recorded in the first course of treatment at any medical institution, including outpatient and emergency department data.全身性治疗包括化学治疗、激素治疗、免疫治疗、骨髓/干细胞移植或内分泌治疗，详见字段(变量)编码表【全身性治疗开始日期对照表】。"
+      "description_en": "Records the start date of systemic therapy during the first course of treatment at any medical institution (including data from external hospitals). Systemic therapy includes chemotherapy, hormone therapy, immunotherapy, bone marrow/stem cell transplantation, or endocrine therapy; see field (variable) coding explanation (36) [Systemic Therapy Start Date (DSYT) Table]."
     },
     {
       "seq": 68,
@@ -935,7 +935,7 @@
       "description_zh": "記錄個案在外院首次療程中，所給予化學治療相關情形，詳欄位(變項)譯碼(三十六)【申報醫院化學治療 （CH）& 外院化學治療 （CHEM_O）對照表】。",
       "available_notes": [],
       "name_zh_en": "outpatient chemotherapy",
-      "description_en": "Record the case's first chemotherapy regimen at an external hospital, detailed in translation code (thirty-six) [Reported Hospital Chemotherapy (CH) & External Hospital Chemotherapy (CHEM_O)对照表]."
+      "description_en": "Records the chemotherapy given to the case during the first course of treatment at an external hospital; see field (variable) coding explanation (36) [Reporting hospital chemotherapy (CH) & external hospital chemotherapy (CHEM_O) reference table]."
     },
     {
       "seq": 69,
@@ -946,7 +946,7 @@
       "description_zh": "記錄個案於申報醫院首次療程中，所給予化學治療相關情形，詳欄位(變項)譯碼(三十七)【申報醫院化學治療 （CHEM_H）& 外院化學治療 （CHEM_O）對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported chemotherapy",
-      "description_en": "Record the chemotherapy-related circumstances given to the case during the first treatment course in the reporting hospital, detailed field (variable) code (37) 【CHEM_H & CHEM_O对照表】 for reporting and external hospital chemotherapy."
+      "description_en": "Records chemotherapy given to the case during the first course of treatment at the reporting hospital; see field (variable) coding (37) [Reporting Hospital Chemotherapy (CHEM_H) & Other Hospital Chemotherapy (CHEM_O) table]."
     },
     {
       "seq": 70,
@@ -968,7 +968,7 @@
       "description_zh": "記載個案在外院首次療程中，所給予荷爾蒙治療的相關情形，詳欄位(變項)譯碼(三十九)【申報醫院荷爾蒙治療（HORM_H）& 外院荷爾蒙治療 （HORM_O）對照表】。",
       "available_notes": [],
       "name_zh_en": "treatment at outside hospital for hormones",
-      "description_en": "Inpatient initial therapy at external hospitals, details of hormone treatment provided, coded (39) [Hormone treatment at reporting hospital (HORM_H) & external hospital hormone treatment (HORM_O)对照表]."
+      "description_en": "Records details of hormone therapy given to the case during the first course of treatment at an outside hospital; see field (variable) coding (39) [Reporting hospital hormone therapy (HORM_H) & outside hospital hormone therapy (HORM_O) lookup table]."
     },
     {
       "seq": 72,
@@ -979,7 +979,7 @@
       "description_zh": "記載個案在申報醫院首次療程中，所給予荷爾蒙治療的相關情形，詳欄位 (變項)譯碼(三十九)【申報醫院荷爾蒙治療（HORM_H）& 外院荷爾蒙治療（HORM_O）對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital申报 hormone therapy",
-      "description_en": "Records the case's first treatment course at the reporting hospital, including hormone therapy details, detailed field (variable) coding (39) [Hormone therapy at reporting hospital (HORM_H) & external hospital hormone therapy (HORM_O)对照表]"
+      "description_en": "Records hormone therapy given to the case during the first course of treatment at the reporting hospital; see field (variable) coding explanation (39) [Hormone therapy at reporting hospital (HORM_H) & hormone therapy at other hospital (HORM_O) correspondence table]."
     },
     {
       "seq": 73,
@@ -990,7 +990,7 @@
       "description_zh": "詳欄位(變項)譯碼(四十)【申報醫院荷爾蒙治療開始日期（DHORM）對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital report of hormone treatment start date",
-      "description_en": "Detailed field (variable) code (40) [Claimed hospital hormone therapy start date (DHORM)对照表]."
+      "description_en": "See field (variable) coding (40) [Reporting hospital hormone therapy start date (DHORM) cross-reference table]."
     },
     {
       "seq": 74,
@@ -1001,7 +1001,7 @@
       "description_zh": "記載個案在外院首次療程中，所給予免疫治療的相關情形，詳欄位(變項) 譯碼(四十一)【申報醫院免疫治療 （IMMU_H）& 外院免疫治療 （IMMU_O）對照表】。",
       "available_notes": [],
       "name_zh_en": "outpatient immunotherapy",
-      "description_en": "Records the case's first course of immunotherapy at an external hospital, including details from field (variable) translation code 41 [申报医院免疫治疗 (IMMU_H) & 外院免疫治疗 (IMMU_O)]"
+      "description_en": "Records the immunotherapy given to the case during the first course of treatment at an external hospital; see field (variable) coding explanation (41) [Reporting Hospital Immunotherapy (IMMU_H) & External Hospital Immunotherapy (IMMU_O) Table]."
     },
     {
       "seq": 75,
@@ -1012,7 +1012,7 @@
       "description_zh": "記載申報醫院於首次療程中，所給予免疫治療的相關情形，詳欄位(變項) 譯碼(四十一)【申報醫院免疫治療 （IMMU_H）& 外院免疫治療",
       "available_notes": [],
       "name_zh_en": "hospital reported immunotherapy",
-      "description_en": "Records the relevant circumstances of immunotherapy provided by the申报医院 during the first course of treatment, detailed field (variable) translation code (forty-one)【申报医院免疫治疗 & 外院免疫治疗 IMMU_H】"
+      "description_en": "Records the immunotherapy given by the reporting hospital during the first course of treatment; see field (variable) coding explanation (41) [Reporting hospital immunotherapy (IMMU_H) & external hospital immunotherapy"
     },
     {
       "seq": 76,
@@ -1023,7 +1023,7 @@
       "description_zh": "詳欄位(變項)譯碼(四十二)【申報醫院免疫治療開始日期（DIMMU）對照表】。",
       "available_notes": [],
       "name_zh_en": "date_of_clinic_reported_hospital_immunotherapy_start",
-      "description_en": "Detailed field (variable) code (42) [Claimed hospital immunotherapy start date (DIMMU)对照表]."
+      "description_en": "See field (variable) coding (42) [Reporting Hospital Immunotherapy Start Date (DIMMU) table]."
     },
     {
       "seq": 77,
@@ -1056,7 +1056,7 @@
       "description_zh": "申報醫院為緩解或減輕個案症狀所提供之照護，包括手術治療、放射治療、全身性治療(化學治療、荷爾蒙治療或其他全身性藥物)及疼痛控制治療，詳欄位(變項)譯碼(四十五) 【申報醫院緩和照護（PALLI_H）對照表】。",
       "available_notes": [],
       "name_zh_en": "hospital reported palliative care",
-      "description_en": "Palliative care provided by the hospital to alleviate or relieve patient symptoms, including surgery, radiotherapy, systemic therapy (chemotherapy, hormone therapy, etc.), and pain control treatment, as per field (variable) code translation (45). 【PALLI_H对照表】."
+      "description_en": "Care provided by the reporting hospital to relieve or alleviate the case's symptoms, including surgical treatment, radiotherapy, systemic therapy (chemotherapy, hormone therapy, or other systemic drugs), and pain control treatment; see field (variable) coding (45) [Reporting hospital palliative care (PALLI_H) lookup table]."
     },
     {
       "seq": 80,
@@ -1067,7 +1067,7 @@
       "description_zh": "記錄此癌症首次復發的日期，詳欄位 (變項)譯碼(四十六)【首次復發日期 （DRECUR）對照表】。",
       "available_notes": [],
       "name_zh_en": "first recurrence date",
-      "description_en": "Record the date of first recurrence of this cancer, detailed field (variable) code (46) 【First recurrence date （DRECUR）对照表】."
+      "description_en": "Records the date of the first recurrence of this cancer; see field (variable) coding explanation (46) [First Recurrence Date (DRECUR) correspondence table]."
     },
     {
       "seq": 81,
@@ -1133,7 +1133,7 @@
       "description_zh": "0：身分證字號符合編碼原則， 1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原則， 1：不符合"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 87,

@@ -20,7 +20,7 @@
     }
   ],
   "data_description_zh": "包含保險對象投保類別、投保單位、投保金額等相關資料。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n5. 若個人身份證字號(ID)與被保險人身份證字號(ID1)相同，則該筆資料為被保險\n人。若個人身份證字號(ID)不同於被保險人身份證字號(ID1)，則該筆資料為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自96年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情形\n之資料以身分證字號及生日歸戶(人)後之資料。 1. 個人身分證字號(ID)與被保險人身分證字號(ID1)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n5. 若個人身份證字號(ID)與被保險人身份證字號(ID1)相同，則該筆資料為被保險\n人。若個人身份證字號(ID)不同於被保險人身份證字號(ID1)，則該筆資料為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自96年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情形\n之資料以身分證字號及生日歸戶(人)後之資料。 1. 個人身分證字號(ID)與被保險人身分證字號(ID1)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -32,7 +32,7 @@
       "description_zh": "0：總局(局本部、署本部)1：台北區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
       "available_notes": [],
       "name_zh_en": "Insurance unit NHI region",
-      "description_en": "0：总局(局本部、署本部)1：台北区 2：北区 3：中区 4：南区 5：高屏区 6：东区"
+      "description_en": "0: Head Office (Bureau/Department headquarters); 1: Taipei Division; 2: Northern Division; 3: Central Division; 4: Southern Division; 5: Kaohsiung-Pingtung Division; 6: Eastern Division."
     },
     {
       "seq": 2,
@@ -76,7 +76,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "individual ID number error",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 6,
@@ -109,7 +109,7 @@
       "description_zh": "0：身分證字號符合編碼原則1：不符合。",
       "available_notes": [],
       "name_zh_en": "insured person's ID number error",
-      "description_en": "0：身分證字號符合編碼原則1：不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 9,
@@ -137,7 +137,7 @@
         }
       ],
       "name_zh_en": "birth year",
-      "description_en": "YYYY。 107年起欄位格式為文字型態， 長度為4碼。"
+      "description_en": "YYYY. Starting ROC year 107 (AD 2018), the field format is text type, with a length of 4 digits."
     },
     {
       "seq": 11,
@@ -156,10 +156,10 @@
       "name_en": "ID_RELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子女",
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子女",
       "available_notes": [],
       "name_zh_en": "relationship_to_insured",
-      "description_en": "1：配偶 2：父母 3：子女4：祖父母 5：孙子女 6：外祖父母 7：外孙子女 8：曾祖父母 9：外曾祖父 母 0：其他荣民遗眷 P：受监护人 U：X：从未投保 A：曾孙子女"
+      "description_en": "1: Spouse 2: Parents 3: Children 4: Grandparents (paternal) 5: Grandchildren (paternal line) 6: Grandparents (maternal) 7: Grandchildren (maternal line) 8: Great-grandparents (paternal) 9: Great-grandparents (maternal) 0: Other veteran's surviving dependents P: Ward (under guardianship) U: Unknown X: Never insured A: Great-grandchildren"
     },
     {
       "seq": 13,
@@ -220,7 +220,7 @@
       "description_zh": "Y：被保險人 N：眷屬",
       "available_notes": [],
       "name_zh_en": "insured person note",
-      "description_en": "Y：被保险人 N：家属"
+      "description_en": "Y: Insured person; N: Dependent."
     },
     {
       "seq": 18,
@@ -253,7 +253,7 @@
       "description_zh": "代碼參照醫療機構現況檔 1200 表示為新竹市，2200 表示為嘉義市",
       "available_notes": [],
       "name_zh_en": "residential area code",
-      "description_en": "代码参照医疗机构现况档 1200 表示为新竹市，2200 表示为 嘉义市"
+      "description_en": "Code refers to the Medical Institution Current Status file; 1200 denotes Hsinchu City, 2200 denotes Chiayi City."
     },
     {
       "seq": 21,
@@ -387,22 +387,22 @@
         },
         {
           "code": "11",
-          "label_zh": "D 私立大專學校教職員",
+          "label_zh": "D 私立大專學校教職員",
           "label_en": "D 私立大专学校教职员"
         },
         {
           "code": "11",
-          "label_zh": "E 私立中小學校教職員",
+          "label_zh": "E 私立中小學校教職員",
           "label_en": "E 私立中小学校教职员"
         },
         {
           "code": "12",
-          "label_zh": "F 公營事業機構職員(參加公保)",
+          "label_zh": "F 公營事業機構職員(參加公保)",
           "label_en": "F Employees of Public Institutions (under the Civil Service Insurance Scheme)"
         },
         {
           "code": "12",
-          "label_zh": "G 公營事業機構工員(參加勞保)",
+          "label_zh": "G 公營事業機構工員(參加勞保)",
           "label_en": "G Employees of Public Enterprise Institutions (Insured)"
         },
         {
@@ -412,7 +412,7 @@
         },
         {
           "code": "13",
-          "label_zh": "I 中央非事業機關工員、國立學校工員",
+          "label_zh": "I 中央非事業機關工員、國立學校工員",
           "label_en": "I Central government non-employment agency employees, national schools staff"
         },
         {
@@ -422,7 +422,7 @@
         },
         {
           "code": "13",
-          "label_zh": "K 私立學校工員",
+          "label_zh": "K 私立學校工員",
           "label_en": "K private school employee"
         },
         {
@@ -432,12 +432,12 @@
         },
         {
           "code": "12",
-          "label_zh": "M 非營利事業機構之受雇者",
+          "label_zh": "M 非營利事業機構之受雇者",
           "label_en": "M employees of non-business entities"
         },
         {
           "code": "13",
-          "label_zh": "N 職業訓練機構之學員",
+          "label_zh": "N 職業訓練機構之學員",
           "label_en": "N 职业训练机构之学员"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
           "code": "15",
-          "label_zh": "P 專門職業及技術人員自行執行業者",
+          "label_zh": "P 專門職業及技術人員自行執行業者",
           "label_en": "P specialized occupational and technical personnel self-employed"
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "code": "31",
-          "label_zh": "R 水利會會員",
+          "label_zh": "R 水利會會員",
           "label_en": "R Waterworks Member"
         },
         {
@@ -532,7 +532,7 @@
         },
         {
           "code": "41",
-          "label_zh": "E 行政院海巡署東區巡防局 2026年01月27日修訂保險類目屬性代碼被保險人",
+          "label_zh": "E 行政院海巡署東區巡防局 2026年01月27日修訂保險類目屬性代碼被保險人",
           "label_en": "E: Ministry of Interior Coast Guard Bureau Eastern Region Patrol Division revised on 2026-01-27 Insurance item attribute code insured person"
         },
         {
@@ -562,12 +562,12 @@
         },
         {
           "code": "51",
-          "label_zh": "安置於社會福利服務機構之低收入戶",
+          "label_zh": "安置於社會福利服務機構之低收入戶",
           "label_en": "placed in low-income social service institutions"
         },
         {
           "code": "52",
-          "label_zh": "由鄉(鎮市區)公所辦理投保之低收入戶",
+          "label_zh": "由鄉(鎮市區)公所辦理投保之低收入戶",
           "label_en": "low-income household insured by the township office"
         },
         {
@@ -587,7 +587,7 @@
         },
         {
           "code": "62",
-          "label_zh": "T 安置於社福機構之院民(地區人口)、外籍生",
+          "label_zh": "T 安置於社福機構之院民(地區人口)、外籍生",
           "label_en": "T Residents Placed in Social Institutions (Local Population, Foreign Students)"
         },
         {
@@ -603,7 +603,7 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "雇主無勞保",
+          "label_zh": "雇主無勞保",
           "label_en": "employer without insurance"
         },
         {
@@ -618,7 +618,7 @@
         },
         {
           "code": "5",
-          "label_zh": "保險類目為「62」依附",
+          "label_zh": "保險類目為「62」依附",
           "label_en": "保险项目为「62」附"
         },
         {
@@ -638,12 +638,12 @@
         },
         {
           "code": "3",
-          "label_zh": "專技一自行執業之會計師、律師、建築師、醫師、牙醫師及中醫師。",
+          "label_zh": "專技一自行執業之會計師、律師、建築師、醫師、牙醫師及中醫師。",
           "label_en": "professional level I includes accountants, auditors, architects, physicians, dentists, and traditional Chinese medicine practitioners who are registered"
         },
         {
           "code": "4",
-          "label_zh": "專技二前項以外之專門職業技術人員自行執業者。",
+          "label_zh": "專技二前項以外之專門職業技術人員自行執業者。",
           "label_en": "professional technician II non-primary professionals with specialized technical skills."
         },
         {
@@ -663,7 +663,7 @@
         },
         {
           "code": "U",
-          "label_zh": "不詳空白眷屬身分別差異對照表 95年以前資料 95年(含)以後資料榮民/榮民遺眷之家戶代表身分別=4 身分別=2且保險對象身分屬性=61 保險類目為「62」依附身分別=5 身分別=2且保險對象身分屬性=62且單位保險類別第1碼=1或2或3者 2026年01月27日修訂 3. 加退保別說明 (1) 加保：符合投保資格加入全民健保。 (2) 退保： 1) 死亡。 2) 在監獄、看守所接受刑的執行，或接受保安處分、管訓處分的執行，其執行期間在二個月以上。 3) 失蹤滿六個月；如因遭遇災難失蹤，可以從災難發生的當天起退保。 4) 成為現役軍官、士官、士兵、軍校軍費生。(90.02.01 改為轉出) 5) 喪失投保條件者(例如戶籍遷出、居留證逾期、外籍人士工作或就學期滿離境)。 (3) 轉入： 1) 轉換投保單位。 2) 改變投保身份。 (4) 轉出： 1) 轉換投保單位。 2) 改變投保身分。 (5) 註銷：健保局將重複投保之被保險人註銷。 (6) 中斷轉入：凡符合參加全民健康保險資格者，一律都要依規定加保。如果加保後，因轉換工作、身分變更、地址遷移---等原因，曾經有段時日未加入全民健保，也沒有繳納健保費，造成投保紀錄不銜接，重新加入全民健保體制內。 (7) 中斷轉出：凡符合參加全民健康保險資格者，一律都要依規定加保。如果加保後，因轉換工作、身分變更、地址遷移---等原因，曾經有段時日未加入全民健保，也沒有繳納健保費，造成投保紀錄不銜接，退出全民健保體制。 (8) 復保： 1) 失蹤的人在六個月內尋獲時，應該註銷停保，並補繳停保期間的保險費；超過六個月未尋獲時，應該追溯自停保當月起終止保險，並辦理退保手續。 2) 出國六個月以上的人，從返國當天辦理復保。但出國未滿六個月返國的人，應該註銷停保，並補繳停保期間的保險費。 (9) 停保： 1) 戶籍註記失蹤但未滿六個月。 2) 連續羈押達兩個月以上者。 3) 預定出國六個月以上，但遠洋漁船船員除外。 4) 續保：被保險人依附加保的子女、孫子女、外孫子女，如果符合年滿二十歲沒有謀生能力(例如：持有身心障礙手冊者)或仍在學就讀且沒有職業者。 (10) 停復：停保後復保者其停保欄位改成停復。",
+          "label_zh": "不詳空白眷屬身分別差異對照表 95年以前資料 95年(含)以後資料榮民/榮民遺眷之家戶代表身分別=4 身分別=2且保險對象身分屬性=61 保險類目為「62」依附身分別=5 身分別=2且保險對象身分屬性=62且單位保險類別第1碼=1或2或3者 2026年01月27日修訂 3. 加退保別說明 (1) 加保：符合投保資格加入全民健保。 (2) 退保： 1) 死亡。 2) 在監獄、看守所接受刑的執行，或接受保安處分、管訓處分的執行，其執行期間在二個月以上。 3) 失蹤滿六個月；如因遭遇災難失蹤，可以從災難發生的當天起退保。 4) 成為現役軍官、士官、士兵、軍校軍費生。(90.02.01 改為轉出) 5) 喪失投保條件者(例如戶籍遷出、居留證逾期、外籍人士工作或就學期滿離境)。 (3) 轉入： 1) 轉換投保單位。 2) 改變投保身份。 (4) 轉出： 1) 轉換投保單位。 2) 改變投保身分。 (5) 註銷：健保局將重複投保之被保險人註銷。 (6) 中斷轉入：凡符合參加全民健康保險資格者，一律都要依規定加保。如果加保後，因轉換工作、身分變更、地址遷移---等原因，曾經有段時日未加入全民健保，也沒有繳納健保費，造成投保紀錄不銜接，重新加入全民健保體制內。 (7) 中斷轉出：凡符合參加全民健康保險資格者，一律都要依規定加保。如果加保後，因轉換工作、身分變更、地址遷移---等原因，曾經有段時日未加入全民健保，也沒有繳納健保費，造成投保紀錄不銜接，退出全民健保體制。 (8) 復保： 1) 失蹤的人在六個月內尋獲時，應該註銷停保，並補繳停保期間的保險費；超過六個月未尋獲時，應該追溯自停保當月起終止保險，並辦理退保手續。 2) 出國六個月以上的人，從返國當天辦理復保。但出國未滿六個月返國的人，應該註銷停保，並補繳停保期間的保險費。 (9) 停保： 1) 戶籍註記失蹤但未滿六個月。 2) 連續羈押達兩個月以上者。 3) 預定出國六個月以上，但遠洋漁船船員除外。 4) 續保：被保險人依附加保的子女、孫子女、外孫子女，如果符合年滿二十歲沒有謀生能力(例如：持有身心障礙手冊者)或仍在學就讀且沒有職業者。 (10) 停復：停保後復保者其停保欄位改成停復。",
           "label_en": "907 [effective from ROC 104-11-01 (2015)]. Copayment codes for drug-fee copayment: I20 requires additional drug-fee copayment; I21: clinics, district hospitals, or low/middle-low-income and disability-certificate holders are exempt from additional drug-fee copayment for referred cases at medical centers/regional hospitals with drug fees under NT$100; I22: those meeting the drug-fee copayment-exemption rules, including clinic-referred chronic refillable-prescription cases, the 2nd and later dispensings of hospital-referred chronic prescriptions, low/middle-low-income and disability-certificate holders' chronic-prescription cases at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. Agency-subsidized copayment codes: 908 Ocean Affairs Council Coast Guard (from 2019-05-01); 909 Central Police University; 910 MOI Fire Agency; 911 MOI Air Corps; 912 MOI National Police Agency; 913 Ministry of National Defense; 914 administrative assistance for statutory-infectious-disease reporting/isolation (from 2021-01-01); 915 MOI National Immigration Agency (from 2021-11-01); 916 long-term-care-institution enhanced TB-control program copayment exemption. Note: per NHIA letter 0970001927 (13 Feb 2008), when one case meets two or more copayment-exemption conditions, fill in for both outpatient and inpatient by these priorities: (1) occupational injury/disease first (code 006, occupational injury/disease of a labor-insurance insured); (2) otherwise, choose one applicable exemption code under the NHI Act, including catastrophic illness (001), childbirth (002), preventive care (009), and mountain/outlying-island care (007); (3) if neither (1) nor (2) applies, for agency-subsidized copayment choose one applicable code top-down."
         }
       ],

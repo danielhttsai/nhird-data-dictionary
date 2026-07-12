@@ -15,8 +15,8 @@
       "note": ""
     }
   ],
-  "data_description_zh": "1. 居住臺閩地區年滿15至64歲之我國女性人口(含調查期間在臺而尚未取得本國國\n籍之外籍配偶及大陸、港澳配偶)為調查母體，並採分層比例隨機抽樣法，在考慮\n抽樣誤差不超過1.5％及信賴水準至少95％。\n2. 調查項目包含：我國婦女之婚育狀況、個人狀況、工作狀況、經濟狀況、家庭狀\n況、社會參與及休閒活動狀況、資訊技能及終身學習狀況、人身威脅經驗、對婦\n女福利措施的瞭解與使用及期望政府或民間團體應加強提供的服務措施等。\n(引述行政院主計總處)",
-  "notes_zh": "1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011及2019年，因年度不同，資料\n欄位不盡相同。 無",
+  "data_description_zh": "1. 居住臺閩地區年滿15至64歲之我國女性人口(含調查期間在臺而尚未取得本國國\n籍之外籍配偶及大陸、港澳配偶)為調查母體，並採分層比例隨機抽樣法，在考慮\n抽樣誤差不超過1.5％及信賴水準至少95％。\n2. 調查項目包含：我國婦女之婚育狀況、個人狀況、工作狀況、經濟狀況、家庭狀\n況、社會參與及休閒活動狀況、資訊技能及終身學習狀況、人身威脅經驗、對婦\n女福利措施的瞭解與使用及期望政府或民間團體應加強提供的服務措施等。\n(引述行政院主計總處)",
+  "notes_zh": "1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011及2019年，因年度不同，資料\n欄位不盡相同。 無",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -36,7 +36,7 @@
       "name_en": "Q2",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 99 拒答 (非原住民與榮民榮眷的受訪者，通通規入一般住民)",
+      "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道 99 拒答 (非原住民與榮民榮眷的受訪者，通通規入一般住民)",
       "available_notes": [],
       "name_zh_en": "patient",
       "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 General residents 89 Don't know 99 Refused to answer (respondents who are neither indigenous nor veterans/veterans' dependents are all classified as general residents)"
@@ -47,7 +47,7 @@
       "name_en": "Q3",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 99 不知道/拒答",
+      "description_zh": "1 小學以下 2 國(初)中、職 3 高中、職 4 專科 5 大專院校 6 研究所以上 99 不知道/拒答",
       "available_notes": [],
       "name_zh_en": "education level",
       "description_en": "1 Elementary school or below 2 Junior high/vocational school 3 Senior high/vocational school 4 Junior college 5 College/university 6 Graduate school or above 99 Don't know/refused"
@@ -80,7 +80,7 @@
       "name_en": "Q6",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 很好 2 還算好 3 普通 4 不太好 5 很不好 99 很難說或拒答 7~9 重大困擾_第一項重大困擾_第二項重大困擾_第三項 Q7_1 Q7_2 Q7_3 Char 2 1 自己健康問題 2 家人健康問題 3 自己工作問題 4 家人工作問題 5 經濟問題 6 人身安全問題 7 家庭暴力問題 8 夫妻相處問題 9 公婆妯娌相處問題 10 與其他家人相處問題 11 與娘家家人相處問題 12 家中一般兒童照顧問題 13 患病家人照顧問題 14 子女教育或溝通問題 15 自己學業問題 16 自己的愛情或結婚問題 17 自己的生育問題 18 居住問題 65 其他(請說明)",
+      "description_zh": "1 很好 2 還算好 3 普通 4 不太好 5 很不好 99 很難說或拒答 7~9 重大困擾_第一項重大困擾_第二項重大困擾_第三項 Q7_1 Q7_2 Q7_3 Char 2 1 自己健康問題 2 家人健康問題 3 自己工作問題 4 家人工作問題 5 經濟問題 6 人身安全問題 7 家庭暴力問題 8 夫妻相處問題 9 公婆妯娌相處問題 10 與其他家人相處問題 11 與娘家家人相處問題 12 家中一般兒童照顧問題 13 患病家人照顧問題 14 子女教育或溝通問題 15 自己學業問題 16 自己的愛情或結婚問題 17 自己的生育問題 18 居住問題 65 其他(請說明)",
       "available_notes": [],
       "name_zh_en": "physical and mental health condition",
       "description_en": "1 Very good 2 Fairly good 3 Average 4 Not very good 5 Very poor 99 Hard to say/refused | Q7-9: Major difficulty item 1 / item 2 / item 3 Q7_1 Q7_2 Q7_3 Char 2 1 Own health problems 2 Family health problems 3 Own work problems 4 Family member's work problems 5 Financial problems 6 Personal safety problems 7 Domestic violence problems 8 Spousal relationship problems 9 Relationship problems with in-laws 10 Problems getting along with other family members 11 Problems getting along with natal family members 12 General childcare problems at home 13 Care problems for sick family members 14 Children's education or communication problems 15 Own academic problems 16 Own romance or marriage problems 17 Own fertility problems 18 Housing problems 65 Other (please specify)"
@@ -135,7 +135,7 @@
       "name_en": "Q11_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 照顧小孩 2 照顧老人或病人 3 料理家事 4 退休 5 在學或進修中 6 找工作中(含失業) 7 健康不佳",
+      "description_zh": "1 照顧小孩 2 照顧老人或病人 3 料理家事 4 退休 5 在學或進修中 6 找工作中(含失業) 7 健康不佳",
       "available_notes": [],
       "name_zh_en": "reasons for not working",
       "description_en": "1 Caring for children 2 Caring for elderly or sick person 3 Doing housework 4 Retired 5 In school or further education 6 Looking for a job (incl. unemployed) 7 Poor health"
@@ -146,7 +146,7 @@
       "name_en": "Q11_2",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 農、林、漁、牧 2 礦業及土石採取 3 製造 4 水電燃氣 5 營造業 6 住宿及餐飲業 7 批發及零售業(含大企業的獨立銷售部門) 8 運輸、倉儲及通信業 9 金融及保險業 10 不動產及租賃業 11 專業、科學及技術服務類(如會計、法律、建築師、顧問等) 12 教育服務業 13 醫療保健及社會福利服務業 14 文化、運動及休閒服務業 15 其他服務業 16 公共行政業 65 其他(請說明) 89 不知道 99 拒答",
+      "description_zh": "1 農、林、漁、牧 2 礦業及土石採取 3 製造 4 水電燃氣 5 營造業 6 住宿及餐飲業 7 批發及零售業(含大企業的獨立銷售部門) 8 運輸、倉儲及通信業 9 金融及保險業 10 不動產及租賃業 11 專業、科學及技術服務類(如會計、法律、建築師、顧問等) 12 教育服務業 13 醫療保健及社會福利服務業 14 文化、運動及休閒服務業 15 其他服務業 16 公共行政業 65 其他(請說明) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "industry engaged in",
       "description_en": "1 Agriculture, forestry, fishery, animal husbandry 2 Mining and quarrying 3 Manufacturing 4 Water, electricity, gas 5 Construction 6 Accommodation and food service 7 Wholesale and retail trade (incl. independent sales departments of large enterprises) 8 Transportation, warehousing, and communication 9 Finance and insurance 10 Real estate and leasing 11 Professional, scientific, and technical services (e.g. accounting, law, architecture, consulting) 12 Education services 13 Healthcare and social welfare services 14 Cultural, sports, and recreation services 15 Other services 16 Public administration 65 Other (please specify) 89 Don't know 99 Refused"
@@ -157,7 +157,7 @@
       "name_en": "Q12",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 雇主 2 自營作業者(包含只雇用無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工作15小時以上，或一天3 小時以上) 89 不知道",
+      "description_zh": "1 雇主 2 自營作業者(包含只雇用無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工作15小時以上，或一天3 小時以上) 89 不知道",
       "available_notes": [],
       "name_zh_en": "occupational identity",
       "description_en": "1 Employer 2 Self-employed (including bosses who only employ unpaid family workers) 3 Employee 4 Unpaid family worker (working 15+ hours a week, or 3+ hours a day) 89 Don't know"
@@ -168,18 +168,18 @@
       "name_en": "Q13",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿 4小時 2 4-(未滿)6小時 3 6-(未滿)8小時 4 8-(未滿)10個小時 5 10 個小時以上 89 不知道 99拒答",
+      "description_zh": "1 未滿 4小時 2 4-(未滿)6小時 3 6-(未滿)8小時 4 8-(未滿)10個小時 5 10 個小時以上 89 不知道 99拒答",
       "available_notes": [],
       "name_zh_en": "Average daily working hours IV. Income status",
       "description_en": "1 Less than 4 hours 2 4-under 6 hours 3 6-under 8 hours 4 8-under 10 hours 5 10+ hours 89 Don't know 99 Refused"
     },
     {
       "seq": 18,
-      "name_zh": "平均每月收入(包括薪資、營業利潤、利息、 租金、投資收益、退休金、救助津貼、子女奉養金等)",
+      "name_zh": "平均每月收入(包括薪資、營業利潤、利息、 租金、投資收益、退休金、救助津貼、子女奉養金等)",
       "name_en": "Q14",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答",
+      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Average monthly income (including salary, business profit, interest, rent, investment income, pension, relief allowance, support money from children, etc.)",
       "description_en": "1 No income 2 NT$20,000 or less 3 NT$20,000~39,999 4 NT$40,000~59,999 5 NT$60,000~79,999 6 NT$80,000~99,999 7 NT$100,000 and above 89 Don't know 99 Refused"
@@ -190,7 +190,7 @@
       "name_en": "Q15",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 8(含)成以上 2 6(含)至8成 3 4(含)至6成 4 2(含)至4成 5 2成以下 89 不知道 98 NO(無) 99 拒答 20~ 29 目前和哪些人住在一起(複選題) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 獨居 2 配偶(含同居人) 3 父母(公婆) 4 未婚子女 5 祖父(母) 6 已婚子女(含其配偶) 7 孫子女 8 兄弟姊妹",
+      "description_zh": "1 8(含)成以上 2 6(含)至8成 3 4(含)至6成 4 2(含)至4成 5 2成以下 89 不知道 98 NO(無) 99 拒答 20~ 29 目前和哪些人住在一起(複選題) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 獨居 2 配偶(含同居人) 3 父母(公婆) 4 未婚子女 5 祖父(母) 6 已婚子女(含其配偶) 7 孫子女 8 兄弟姊妹",
       "available_notes": [],
       "name_zh_en": "What percentage of income is used for the family (for those working outside, including the portion brought back for family use) V. Family status",
       "description_en": "1 80% (inclusive) or more 2 60% (inclusive) to 80% 3 40% (inclusive) to 60% 4 20% (inclusive) to 40% 5 Under 20% 89 Don't know 98 NO (none) 99 Refused to answer 20~ 29 Who do you currently live with (multiple choice) Q16_1 Q16_2 Q16_3 Q16_4 Q16_5 Q16_6 Q16_7 Q16_8 Char 2 1 Living alone 2 Spouse (including cohabiting partner) 3 Parents (parents-in-law) 4 Unmarried children 5 Grandparent(s) 6 Married children (including their spouse) 7 Grandchildren 8 Siblings"
@@ -212,25 +212,25 @@
       "name_en": "Q18",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 本人(自己) 2 丈夫 3 夫妻共管 4 父母(公婆) 5 子女、媳婦 6 祖父(母) 65 其他(請說明) 89 不知道 99 拒答",
+      "description_zh": "1 本人(自己) 2 丈夫 3 夫妻共管 4 父母(公婆) 5 子女、媳婦 6 祖父(母) 65 其他(請說明) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Main person who allocates/manages family finances",
       "description_en": "1 Self 2 Husband 3 Jointly managed by couple 4 Parents (parents-in-law) 5 Children, daughter-in-law 6 Grandparent 65 Other (please specify) 89 Don't know 99 Refused"
     },
     {
       "seq": 32,
-      "name_zh": "平均每月可自由使用之金額(外地求學的學生，不包括一般食衣住行之必要費用)",
+      "name_zh": "平均每月可自由使用之金額(外地求學的學生，不包括一般食衣住行之必要費用)",
       "name_en": "Q19",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 5千元以下 2 5千(含)~1萬以下 3 1(含)~2萬以下 4 2(含)~4萬以下 5 4(含)萬以上 6 沒有自由使用的金錢 89 不知道 99 拒答",
+      "description_zh": "1 5千元以下 2 5千(含)~1萬以下 3 1(含)~2萬以下 4 2(含)~4萬以下 5 4(含)萬以上 6 沒有自由使用的金錢 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Average monthly amount available for free use (for students studying away from home, excluding basic living expenses for food, clothing, housing, and transportation)",
       "description_en": "1 NT$5,000 or less 2 NT$5,000 (inclusive) to under 10,000 3 NT$10,000 (inclusive) to under 20,000 4 NT$20,000 (inclusive) to under 40,000 5 NT$40,000 (inclusive) or more 6 No money for free use 89 Don't know 99 Refused to answer"
     },
     {
       "seq": 33,
-      "name_zh": "幾個未滿12歲兒童(不問 \"獨居者\")",
+      "name_zh": "幾個未滿12歲兒童(不問 \"獨居者\")",
       "name_en": "Q20_1",
       "type": "Char",
       "length": 2,
@@ -311,7 +311,7 @@
       "name_en": "Q20_2_1F",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -366,7 +366,7 @@
       "name_en": "Q20_2_2E_A",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "main caregiver is",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses) 8 Husband's siblings or their spouses (brother-in-law, sister-in-law) 9 Children or their spouses (son, daughter, daughter-in-law, son-in-law) 10 Grandchildren or their spouses (grandson, granddaughter, grandson's wife, granddaughter's husband) 11 Niece or her spouse (nephew, niece, sister's son, sister's daughter, or their spouse) 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) 89 Don't know 99 Refused"
@@ -377,7 +377,7 @@
       "name_en": "Q20_2_2E_B",
       "type": "Char",
       "length": 2,
-      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "secondary caregiver is",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Husband (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent (father, mother), 6: Husband's parent (father-in-law, mother-in-law), 7: Sibling or their spouse (older brother, younger brother, older sister, younger sister, or their spouse), 8: Husband's sibling or their spouse (brother-in-law, sister-in-law, or their spouse), 9: Child or their spouse (son, daughter, daughter-in-law, son-in-law), 10: Grandchild or their spouse (grandson, granddaughter, grandson's wife, granddaughter's husband), 11: Niece/nephew or their spouse (nephew or niece on brother's or sister's side, or their spouse), 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative), 89: Don't know, 99: Refused"
@@ -388,7 +388,7 @@
       "name_en": "Q20_2_2F",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care"
@@ -465,7 +465,7 @@
       "name_en": "Q20_2_3F",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -520,7 +520,7 @@
       "name_en": "Q20_2_4E_A",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "main caregiver is",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses) 8 Husband's siblings or their spouses (brother-in-law, sister-in-law) 9 Children or their spouses (son, daughter, daughter-in-law, son-in-law) 10 Grandchildren or their spouses (grandson, granddaughter, grandson's wife, granddaughter's husband) 11 Niece or her spouse (nephew, niece, sister's son, sister's daughter, or their spouse) 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) 89 Don't know 99 Refused"
@@ -542,7 +542,7 @@
       "name_en": "Q20_2_4F",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know"
@@ -619,7 +619,7 @@
       "name_en": "Q20_2_5F",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -663,7 +663,7 @@
       "name_en": "Q21_2_1C",
       "type": "Char",
       "length": 2,
-      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "secondary caregiver is",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Husband (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent (father, mother), 6: Husband's parent (father-in-law, mother-in-law), 7: Sibling or their spouse (older brother, younger brother, older sister, younger sister, or their spouse), 8: Husband's sibling or their spouse (brother-in-law, sister-in-law, or their spouse), 9: Child or their spouse (son, daughter, daughter-in-law, son-in-law), 10: Grandchild or their spouse (grandson, granddaughter, grandson's wife, granddaughter's husband), 11: Niece/nephew or their spouse (nephew or niece on brother's or sister's side, or their spouse), 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative), 89: Don't know, 99: Refused"
@@ -718,7 +718,7 @@
       "name_en": "Q21_2_2D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -751,7 +751,7 @@
       "name_en": "Q21_2_3C",
       "type": "Char",
       "length": 2,
-      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "0 沒有次要照顧者 1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "secondary caregiver is",
       "description_en": "0: No secondary caregiver, 1: Self, 2: Husband (cohabiting partner), 3: Great-grandparent, 4: (Paternal/maternal) grandparent, 5: Own parent (father, mother), 6: Husband's parent (father-in-law, mother-in-law), 7: Sibling or their spouse (older brother, younger brother, older sister, younger sister, or their spouse), 8: Husband's sibling or their spouse (brother-in-law, sister-in-law, or their spouse), 9: Child or their spouse (son, daughter, daughter-in-law, son-in-law), 10: Grandchild or their spouse (grandson, granddaughter, grandson's wife, granddaughter's husband), 11: Niece/nephew or their spouse (nephew or niece on brother's or sister's side, or their spouse), 12: Other relative, 13: Foreign domestic helper, 14: Local domestic helper, 65: Other (non-relative), 89: Don't know, 99: Refused"
@@ -762,7 +762,7 @@
       "name_en": "Q21_2_3D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -795,7 +795,7 @@
       "name_en": "Q22_2_1B",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "main caregiver is",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses) 8 Husband's siblings or their spouses (brother-in-law, sister-in-law) 9 Children or their spouses (son, daughter, daughter-in-law, son-in-law) 10 Grandchildren or their spouses (grandson, granddaughter, grandson's wife, granddaughter's husband) 11 Niece or her spouse (nephew, niece, sister's son, sister's daughter, or their spouse) 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) 89 Don't know 99 Refused"
@@ -817,7 +817,7 @@
       "name_en": "Q22_2_1D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -861,7 +861,7 @@
       "name_en": "Q22_2_2D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -883,7 +883,7 @@
       "name_en": "Q22_2_3B",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
+      "description_zh": "1 本人(自己) 2 丈夫(同居人) 3 曾祖父(母) 4 (外)祖父(母) 5 自己的父(母)(爸爸、媽媽) 6 丈夫的父(母)(公公、婆婆) 7 兄弟姊妹或其配偶(哥哥 、弟弟、姐姐、妹妹或其配偶) 8 丈夫的兄弟姊妹或其配偶(大伯、小叔、大姑、 小姑或其配偶) 9 子女或其配偶(兒子、女兒、媳婦、女婿) 10 孫子女或其配偶(孫子、 孫女、孫媳婦、孫女婿) 11 姪(甥)女或其配偶(姪子 、姪女、外甥、外甥女或其配偶) 12 其他親屬 13 外籍幫傭 14 本國幫傭 65 其他(非親屬) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "main caregiver is",
       "description_en": "1 Self 2 Husband (cohabiting partner) 3 Great-grandparent 4 Grandparent (incl. maternal) 5 Self's parent(s) (father, mother) 6 Husband's parent(s) (father-in-law, mother-in-law) 7 Siblings or their spouses (older/younger brother, older/younger sister, or their spouses) 8 Husband's siblings or their spouses (brother-in-law, sister-in-law) 9 Children or their spouses (son, daughter, daughter-in-law, son-in-law) 10 Grandchildren or their spouses (grandson, granddaughter, grandson's wife, granddaughter's husband) 11 Niece or her spouse (nephew, niece, sister's son, sister's daughter, or their spouse) 12 Other relatives 13 Foreign domestic helper 14 Local domestic helper 65 Other (non-relative) 89 Don't know 99 Refused"
@@ -905,7 +905,7 @@
       "name_en": "Q22_2_3D",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
+      "description_zh": "1 未滿2小時 2 2-(未滿)4小時 3 4-(未滿)6小時 4 6-(未滿)8小時 5 8-(未滿)10小時 6 10小時以上 7 不用本人照顧 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "average time spent caring for",
       "description_en": "1 Less than 2 hours 2 2-under 4 hours 3 4-under 6 hours 4 6-under 8 hours 5 8-under 10 hours 6 10+ hours 7 Does not require personal care 89 Don't know 99 Refused"
@@ -949,7 +949,7 @@
       "name_en": "Q23_2",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 1小時以下 2 1(含)~2小時以下 3 2(含)~3小時以下 4 3(含)~4小時以下 5 4(含)小時以上 88 無 99 不知道/拒答 99~ 101 先生最常做的家事 (最多可選三項) (限問有配偶或同居者) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 清洗與整理衣物 2 準備三餐與點心 3 餐後清洗整理餐具 4 金錢管理 5 照顧家人生活 6 清掃整理家庭 7 指導子女課業 8 家庭維修工作 9 購買食物及日常用品 10 處理垃圾 11 NO(無配偶或同居者) 65 其他(請說明) 88 均無 99 拒答",
+      "description_zh": "1 1小時以下 2 1(含)~2小時以下 3 2(含)~3小時以下 4 3(含)~4小時以下 5 4(含)小時以上 88 無 99 不知道/拒答 99~ 101 先生最常做的家事 (最多可選三項) (限問有配偶或同居者) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 清洗與整理衣物 2 準備三餐與點心 3 餐後清洗整理餐具 4 金錢管理 5 照顧家人生活 6 清掃整理家庭 7 指導子女課業 8 家庭維修工作 9 購買食物及日常用品 10 處理垃圾 11 NO(無配偶或同居者) 65 其他(請說明) 88 均無 99 拒答",
       "available_notes": [],
       "name_zh_en": "Average amount of time spent doing housework",
       "description_en": "1 1 hour or less 2 1 (inclusive) to under 2 hours 3 2 (inclusive) to under 3 hours 4 3 (inclusive) to under 4 hours 5 4 (inclusive) hours or more 88 None 99 Don't know/refused 99~ 101 Household chores the husband does most often (up to 3 choices) (only asked if has spouse or cohabiting partner) Q23_3_1 Q23_3_2 Q23_3_3 Char 2 1 Washing and organizing clothes 2 Preparing meals and snacks 3 Washing dishes after meals 4 Money management 5 Taking care of family members 6 Cleaning and tidying the home 7 Helping children with schoolwork 8 Home repair work 9 Buying food and daily necessities 10 Handling garbage 11 NO (no spouse or cohabiting partner) 65 Other (please specify) 88 None 99 Refused to answer"
@@ -971,18 +971,18 @@
       "name_en": "Q24",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 很滿意 2 還算滿意 3 不太滿意 4 很不滿意 89 無意見或不知道 99 拒答六、社會參與及休閒狀況 104 ~ 106 最常關心下列哪些資訊(逐項提示，最多可選三項) Q25_1 Q25_2 Q25_3 Char 2 1 政治與國際情勢 2 投資理財及財政金融 3 社會治安 4 醫療保健 5 休閒娛樂與運動 6 家庭生活(如育嬰、烹飪等) 7 文化教育 8 科技資訊 9 兩性關係 10 環保議題 11 社區參與及志願服務 12 宗教信仰 65 其他(請說明) 89 無意見或不知道 99 拒答 107 ~ 109 從事那種性質的休閒活動(逐項提示，最多可選三項) Q26_1 Q26_2 Q26_3 Char 2 1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 65 其他(請說明) 88 沒有休閒活動 89 無意見或不知",
+      "description_zh": "1 很滿意 2 還算滿意 3 不太滿意 4 很不滿意 89 無意見或不知道 99 拒答六、社會參與及休閒狀況 104 ~ 106 最常關心下列哪些資訊(逐項提示，最多可選三項) Q25_1 Q25_2 Q25_3 Char 2 1 政治與國際情勢 2 投資理財及財政金融 3 社會治安 4 醫療保健 5 休閒娛樂與運動 6 家庭生活(如育嬰、烹飪等) 7 文化教育 8 科技資訊 9 兩性關係 10 環保議題 11 社區參與及志願服務 12 宗教信仰 65 其他(請說明) 89 無意見或不知道 99 拒答 107 ~ 109 從事那種性質的休閒活動(逐項提示，最多可選三項) Q26_1 Q26_2 Q26_3 Char 2 1 文化性 2 體能性 3 藝術性 4 社交性 5 宗教性 6 娛樂性 65 其他(請說明) 88 沒有休閒活動 89 無意見或不知",
       "available_notes": [],
       "name_zh_en": "satisfaction with family life",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Not very satisfied 4 Very dissatisfied 89 No opinion or don't know 99 Refused | VI. Social participation and leisure status | Q104-106: Which of the following information do you care about most (prompt item by item, up to 3 choices) Q25_1 Q25_2 Q25_3 Char 2 1 Political and international affairs 2 Investment, finance and banking 3 Public safety 4 Healthcare 5 Leisure and sports 6 Family life (e.g. childcare, cooking) 7 Culture and education 8 Science and technology 9 Gender relations 10 Environmental issues 11 Community participation and volunteer service 12 Religious belief 65 Other (please specify) 89 No opinion or don't know 99 Refused | Q107-109: What kind of leisure activities do you engage in (prompt item by item, up to 3 choices) Q26_1 Q26_2 Q26_3 Char 2 1 Cultural 2 Physical 3 Artistic 4 Social 5 Religious 6 Recreational 65 Other (please specify) 88 No leisure activities 89 No opinion or don't know"
     },
     {
       "seq": 110,
-      "name_zh": "最近一年內是否參加社會團體(或基金會) 的活動",
+      "name_zh": "最近一年內是否參加社會團體(或基金會) 的活動",
       "name_en": "Q27",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 111 ~ 122 參與哪種性質的團體 (可複選) Q27A Q27B Q27C Q27D Q27E Q27F Q27G Q27H Q27I Q27J Q27K Q27L Char 2 1 醫療衛生團體 2 宗教團體 3 體育團體 4 社會服務及慈善團體 5 國際團體 6 宗親會 7 同鄉會 8 同學校友會 9 學術文化團體 10 經濟業務團體 11 政治團體 12 社運團體 65 其他(請說明) 89 不知道 99 拒答",
+      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 111 ~ 122 參與哪種性質的團體 (可複選) Q27A Q27B Q27C Q27D Q27E Q27F Q27G Q27H Q27I Q27J Q27K Q27L Char 2 1 醫療衛生團體 2 宗教團體 3 體育團體 4 社會服務及慈善團體 5 國際團體 6 宗親會 7 同鄉會 8 同學校友會 9 學術文化團體 10 經濟業務團體 11 政治團體 12 社運團體 65 其他(請說明) 89 不知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Have you participated in activities of a social organization (or foundation) in the past year",
       "description_en": "1 Never participated 2 Participated 99 Hard to say/Refused 111~122 What type of group participated in (multiple choice) Q27A Q27B Q27C Q27D Q27E Q27F Q27G Q27H Q27I Q27J Q27K Q27L Char 2 1 Medical/health group 2 Religious group 3 Sports group 4 Social service and charity group 5 International group 6 Clan association 7 Native-place association 8 Alumni association 9 Academic/cultural group 10 Economic/business group 11 Political group 12 Social movement group 65 Other (please specify) 89 Don't know 99 Refused"
@@ -1000,18 +1000,18 @@
     },
     {
       "seq": 124,
-      "name_zh": "是否捐款、捐血或參加過社會服務",
+      "name_zh": "是否捐款、捐血或參加過社會服務",
       "name_en": "Q28",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 125 ~ 128 參加的項目(可複選) Q28A Q28B Q28C Q28D Char 2 1 捐贈金錢或實物給政府 、民間團體或個人 2 各項志願服務(義工) 3 捐血 65 其他(請說明) 99 拒答",
+      "description_zh": "1 未曾參與 2 有參與 99 很難說/拒答 125 ~ 128 參加的項目(可複選) Q28A Q28B Q28C Q28D Char 2 1 捐贈金錢或實物給政府 、民間團體或個人 2 各項志願服務(義工) 3 捐血 65 其他(請說明) 99 拒答",
       "available_notes": [],
       "name_zh_en": "Have you donated money, blood, or participated in social service?",
       "description_en": "1 Never participated 2 Participated 99 Hard to say/Refused 125~128 Items participated in (multiple choice) Q28A Q28B Q28C Q28D Char 2 1 Donated money or goods to government, private organizations, or individuals 2 Various volunteer services 3 Blood donation 65 Other (please specify) 99 Refused"
     },
     {
       "seq": 129,
-      "name_zh": "平均每月參加志願服",
+      "name_zh": "平均每月參加志願服",
       "name_en": "Q28_1",
       "type": "Char",
       "length": 2,
@@ -1026,18 +1026,18 @@
       "name_en": "Q29_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 否 2 是 99 拒答 131 ~ 139 使用電腦從事下列活動(逐項提示，可複選) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 上網查詢 2 收發電子郵件 3 設計分析工作 4 電腦遊戲 5 網路採購 6 網路交談 7 文書處理 8 理財試算 65 其他(請說明) 99 拒答 140 ~ 144 曾經在家庭、工作場所或出門在外遭遇過暴力、性騷擾、虐待、被迫吸毒等不好的經驗 (可複選) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 遭受配偶暴力 2 遭受配偶精神虐待 3 遭受其他家人暴力 4 遭受其他家人精神虐待 5 遭受丈夫惡意遺棄或被迫離婚 6 被他人強暴 7 在工作場所中遭受性騷擾",
+      "description_zh": "1 否 2 是 99 拒答 131 ~ 139 使用電腦從事下列活動(逐項提示，可複選) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 上網查詢 2 收發電子郵件 3 設計分析工作 4 電腦遊戲 5 網路採購 6 網路交談 7 文書處理 8 理財試算 65 其他(請說明) 99 拒答 140 ~ 144 曾經在家庭、工作場所或出門在外遭遇過暴力、性騷擾、虐待、被迫吸毒等不好的經驗 (可複選) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 遭受配偶暴力 2 遭受配偶精神虐待 3 遭受其他家人暴力 4 遭受其他家人精神虐待 5 遭受丈夫惡意遺棄或被迫離婚 6 被他人強暴 7 在工作場所中遭受性騷擾",
       "available_notes": [],
       "name_zh_en": "Have used a computer 8. Special experiences",
       "description_en": "1 No 2 Yes 99 Refused to answer 131~139 Activities performed using a computer (prompted item by item, multiple choice) Q29_2_1 Q29_2_2 Q29_2_3 Q29_2_4 Q29_2_5 Q29_2_6 Q29_2_7 Q29_2_8 Q29_2_9 Char 2 1 Browsing the internet 2 Sending/receiving email 3 Design/analysis work 4 Computer games 5 Online shopping 6 Online chatting 7 Word processing 8 Financial calculations 65 Other (please specify) 99 Refused to answer 140~144 Have experienced bad experiences such as violence, sexual harassment, abuse, or forced drug use at home, in the workplace, or while out (multiple choice) Q30_1 Q30_2 Q30_3 Q30_4 Q30_5 Char 2 1 Suffered spousal violence 2 Suffered spousal psychological abuse 3 Suffered violence from other family members 4 Suffered psychological abuse from other family members 5 Suffered malicious abandonment by husband or forced divorce 6 Was raped by another person 7 Suffered sexual harassment in the workplace"
     },
     {
       "seq": 145,
-      "name_zh": "是否知道哪裡有婦女福利服務中心",
+      "name_zh": "是否知道哪裡有婦女福利服務中心",
       "name_en": "Q31_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 不知道 2 知道 99 拒答",
+      "description_zh": "1 不知道 2 知道 99 拒答",
       "available_notes": [],
       "name_zh_en": "Do you know where the women's welfare service center is",
       "description_en": "1 Don't know 2 Know 99 Refused"
@@ -1055,11 +1055,11 @@
     },
     {
       "seq": 147,
-      "name_zh": "是否知道政府有提供 \"支持保護設施\"給特殊境遇(或不幸遭遇) 的婦女(如中途之家、 庇護中心、單親家園等)",
+      "name_zh": "是否知道政府有提供 \"支持保護設施\"給特殊境遇(或不幸遭遇) 的婦女(如中途之家、 庇護中心、單親家園等)",
       "name_en": "Q32_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 不知道 2 知道 99 拒答 148 ~ 152 取得資訊之管道(可複選) Q32_2_1 Q32_2_2 Q32_2_3 Q32_2_4 Q32_2_5 Char 2 1 報章雜誌 2 親友 3 電視廣播 4 網路 65 其他(請說明)",
+      "description_zh": "1 不知道 2 知道 99 拒答 148 ~ 152 取得資訊之管道(可複選) Q32_2_1 Q32_2_2 Q32_2_3 Q32_2_4 Q32_2_5 Char 2 1 報章雜誌 2 親友 3 電視廣播 4 網路 65 其他(請說明)",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"support/protection facilities\" for women in special or unfortunate circumstances (such as halfway houses, shelters, single-parent family homes, etc.)",
       "description_en": "1 Don't know 2 Know 99 Refused 148~152 Channel through which information was obtained (multiple choice) Q32_2_1 Q32_2_2 Q32_2_3 Q32_2_4 Q32_2_5 Char 2 1 Newspapers/magazines 2 Relatives/friends 3 TV/radio 4 Internet 65 Other (please specify)"
@@ -1070,7 +1070,7 @@
       "name_en": "Q33_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides the \"113 Women's and Children's Protection Hotline,\" used for counseling services, emergency rescue for victims, emergency shelter placement, etc.",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1081,7 +1081,7 @@
       "name_en": "Q33_2",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"various living subsidies for women,\" referring to subsidies such as child living allowances, education subsidies, and childbirth subsidies for low-income households and women in special circumstances",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1092,7 +1092,7 @@
       "name_en": "Q33_3",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"parental education and learning growth,\" such as reading groups, women's academies, or knowledge about child/adolescent development for parents",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1103,7 +1103,7 @@
       "name_en": "Q33_4",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"psychological counseling or legal consultation services\" for family, marital, legal, and psychological adjustment problems faced by women",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1114,18 +1114,18 @@
       "name_en": "Q33_5",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"leisure activity services,\" such as folk dance classes, Mother's Day or Women's Day celebration events, etc.",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion"
     },
     {
       "seq": 158,
-      "name_zh": "是否知道各縣市政府的婦女福利服務中心有提供\"各項活動及成長課程\"，包括心裡諮商、法律輔導、技藝訓練、衛生保健等服務",
+      "name_zh": "是否知道各縣市政府的婦女福利服務中心有提供\"各項活動及成長課程\"，包括心裡諮商、法律輔導、技藝訓練、衛生保健等服務",
       "name_en": "Q33_6",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that your city/county government's women's welfare service center provides \"various activities and growth courses,\" including psychological counseling, legal guidance, skills training, health care services, etc.",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1136,7 +1136,7 @@
       "name_en": "Q33_7",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides various \"childcare services\" such as \"establishing nurseries,\" \"recruiting community babysitters,\" or \"distributing education vouchers\"",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1147,7 +1147,7 @@
       "name_en": "Q33_8",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"elder care services\" such as \"home care\" and \"meal delivery service\"",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1158,7 +1158,7 @@
       "name_en": "Q33_9",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides various \"services for people with disabilities\" such as \"childcare services\" and \"employment services\"",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
@@ -1169,7 +1169,7 @@
       "name_en": "Q33_10",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides various \"services for victims of sexual assault and domestic violence\" such as an \"emergency rescue and reporting system for victims\" and \"protection order enforcement\"",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion"
@@ -1180,18 +1180,18 @@
       "name_en": "Q33_11",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
+      "description_zh": "1 非常滿意 2 還算滿意 3 普通 4 不太滿意 5 非常不滿意 89 無意見 99 不知道或拒答",
       "available_notes": [],
       "name_zh_en": "Do you know that the government provides \"measures to promote women's employment and related counseling,\" including employment information, career counseling, or job referral services for women",
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Average 4 Not very satisfied 5 Very dissatisfied 89 No opinion 99 Don't know or refused"
     },
     {
       "seq": 164,
-      "name_zh": "除了以上幾項措施，請問是否有其他所知道目前政府已經有提供的婦女福利措施想要提出來",
+      "name_zh": "除了以上幾項措施，請問是否有其他所知道目前政府已經有提供的婦女福利措施想要提出來",
       "name_en": "Q33_12",
       "type": "Char",
       "length": 1,
-      "description_zh": "1 有(請受訪者舉例，請訪員紀錄在開放問項紀錄表上) 2 沒有 165 ~ 167 為增進婦女個人的權益及提供全人發展，政府應該加強提供哪些服務(逐項提示，最多可選三項) Q34_1 Q34_2 Q34_3 Char 2 1 職訓就業 2 法律諮詢服務 3 生涯規劃 4 終生學習 5 休閒活動 6 創業貸款 7 促進兩性平權措施 8 社會治安 9 婦女保護 10 生活扶助 65 其他(請說明) 89 無意見/不知道 99 拒答 168 ~ 170 期望政府或民間機構團體如何建立完善的托兒、托老及身心障礙者服務措施(逐項提示，最多可選三項) Q35_1 Q35_2 Q35_3 Char 2 1 辦理社區、鄰里照顧人員訓練(居家服務、保母)，儲備照顧人才 2 鼓勵延長托兒收托時間 3 輔導機構附設托兒所 4 辦理課後收托服務 5 加強托兒機構的評鑑 6 鼓勵設立老人安養、養護機構",
+      "description_zh": "1 有(請受訪者舉例，請訪員紀錄在開放問項紀錄表上) 2 沒有 165 ~ 167 為增進婦女個人的權益及提供全人發展，政府應該加強提供哪些服務(逐項提示，最多可選三項) Q34_1 Q34_2 Q34_3 Char 2 1 職訓就業 2 法律諮詢服務 3 生涯規劃 4 終生學習 5 休閒活動 6 創業貸款 7 促進兩性平權措施 8 社會治安 9 婦女保護 10 生活扶助 65 其他(請說明) 89 無意見/不知道 99 拒答 168 ~ 170 期望政府或民間機構團體如何建立完善的托兒、托老及身心障礙者服務措施(逐項提示，最多可選三項) Q35_1 Q35_2 Q35_3 Char 2 1 辦理社區、鄰里照顧人員訓練(居家服務、保母)，儲備照顧人才 2 鼓勵延長托兒收托時間 3 輔導機構附設托兒所 4 辦理課後收托服務 5 加強托兒機構的評鑑 6 鼓勵設立老人安養、養護機構",
       "available_notes": [],
       "name_zh_en": "Besides the measures above, is there any other women's welfare measure currently provided by the government that you know of and would like to mention?",
       "description_en": "1 Yes (ask respondent for examples, interviewer records in open-ended record form) 2 No 165~167 To enhance women's personal rights and holistic development, which services should the government strengthen (read out each item, up to 3 choices) Q34_1 Q34_2 Q34_3 Char 2 1 Vocational training/employment 2 Legal consultation service 3 Career planning 4 Lifelong learning 5 Leisure activities 6 Business start-up loans 7 Measures to promote gender equality 8 Social security/public order 9 Women's protection 10 Living assistance 65 Other (please specify) 89 No opinion/don't know 99 Refused 168~170 How is the government or private organizations/groups expected to establish comprehensive childcare, elder care, and disability services (read out each item, up to 3 choices) Q35_1 Q35_2 Q35_3 Char 2 1 Provide community/neighborhood caregiver training (home care, babysitting), build up a pool of caregivers 2 Encourage extending childcare hours 3 Assist institutions in setting up affiliated nurseries 4 Provide after-school care services 5 Strengthen evaluation of childcare institutions 6 Encourage establishment of elder care/nursing institutions"
@@ -1290,7 +1290,7 @@
       "name_en": "VAR179",
       "type": "Char",
       "length": 1,
-      "description_zh": "1 有工作者 2 無工作者註:此欄位與Q11同義，只是編碼不同",
+      "description_zh": "1 有工作者 2 無工作者註:此欄位與Q11同義，只是編碼不同",
       "available_notes": [],
       "name_zh_en": "employment status",
       "description_en": "1 Employed 2 Not employed Note: this field is synonymous with Q11, only the coding differs"
@@ -1334,7 +1334,7 @@
       "name_en": "VAR183",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道註:此欄位與Q2重複",
+      "description_zh": "1 原住民 2 榮民榮眷 3 一般住民 89 不知道註:此欄位與Q2重複",
       "available_notes": [],
       "name_zh_en": "patient",
       "description_en": "1 Indigenous 2 Veterans and veterans' dependents 3 General residents 89 Don't know Note: This field duplicates Q2"
@@ -1367,7 +1367,7 @@
       "name_en": "VAR186",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 雇主 2 自營作業者(包含只雇用無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工作15小時以上，或一天3 小時以上) 89 不知道註:此欄位與Q12重複",
+      "description_zh": "1 雇主 2 自營作業者(包含只雇用無酬家屬工作者之老闆) 3 受雇者 4 無酬家屬工作者(一周工作15小時以上，或一天3 小時以上) 89 不知道註:此欄位與Q12重複",
       "available_notes": [],
       "name_zh_en": "occupational identity",
       "description_en": "1 Employer 2 Self-employed (including bosses who only employ unpaid family workers) 3 Employee 4 Unpaid family worker (working 15+ hours a week, or 3+ hours a day) 89 Don't know Note: this field duplicates Q12"
@@ -1378,7 +1378,7 @@
       "name_en": "VAR187",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答註:此欄位與Q14重複",
+      "description_zh": "1 沒有收入 2 20,000元以下 3 20,000~39,999元 4 40,000~59,999元 5 60,000~79,999元 6 80,000~99,999元 7 100,000元以上 89 不知道 99 拒答註:此欄位與Q14重複",
       "available_notes": [],
       "name_zh_en": "average monthly income",
       "description_en": "1 No income 2 NT$20,000 or less 3 NT$20,000~39,999 4 NT$40,000~59,999 5 NT$60,000~79,999 6 NT$80,000~99,999 7 NT$100,000 and above 89 Don't know 99 Refused Note: this field duplicates Q14"

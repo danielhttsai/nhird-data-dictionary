@@ -15,8 +15,8 @@
       "note": ""
     }
   ],
-  "data_description_zh": "1. 本調查係以我國年滿 15 至 64 歲之女性人口為調查母體，並採分層比例隨\n機抽樣法，在考慮抽樣誤差不超過 0.97％及信賴水準至少 99％。\n2. 調查項目包含：我國婦女之就業、經濟與福利、婚育與家庭、健康管理、\n社會參與、教育與休閒、人身安全、生活滿意度及期望政府應加強提供的\n服務措施等。\n3. 部分調查問像音資料品質不佳未提供。\n(引述行政院主計總處)",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有\n身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011、2015，因年度不同，資\n料欄位不盡相同。",
+  "data_description_zh": "1. 本調查係以我國年滿 15 至 64 歲之女性人口為調查母體，並採分層比例隨\n機抽樣法，在考慮抽樣誤差不超過 0.97％及信賴水準至少 99％。\n2. 調查項目包含：我國婦女之就業、經濟與福利、婚育與家庭、健康管理、\n社會參與、教育與休閒、人身安全、生活滿意度及期望政府應加強提供的\n服務措施等。\n3. 部分調查問像音資料品質不佳未提供。\n(引述行政院主計總處)",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有\n身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011、2015，因年度不同，資\n料欄位不盡相同。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "seq": 3,
-      "name_zh": "請問您目前是否尚在求學中?（不含在職進修）",
+      "name_zh": "請問您目前是否尚在求學中?（不含在職進修）",
       "name_en": "Q3_2",
       "type": "Char",
       "length": 2,
@@ -80,7 +80,7 @@
       "name_en": "Q4_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1找工作中，但未找到 2想工作，但未去找工作 3長期(一年以上)找不到工作，現已未找工作 4暫時休息，不想找工作 5健康不佳 6家人反對工作 7不需要工作(賦閒) 8尚未有工作權 9在學或進修中 10照顧小孩 11照顧老人或病人 12料理家務 13退休 65其他",
+      "description_zh": "1找工作中，但未找到 2想工作，但未去找工作 3長期(一年以上)找不到工作，現已未找工作 4暫時休息，不想找工作 5健康不佳 6家人反對工作 7不需要工作(賦閒) 8尚未有工作權 9在學或進修中 10照顧小孩 11照顧老人或病人 12料理家務 13退休 65其他",
       "available_notes": [],
       "name_zh_en": "What is the main reason you are not working?",
       "description_en": "1 Looking for work but haven't found any 2 Want to work but haven't looked for work 3 Long-term (over a year) unable to find work, currently not looking 4 Temporarily resting, don't want to look for work 5 Poor health 6 Family opposes working 7 Don't need to work (unemployed by choice) 8 Not yet eligible to work 9 In school or further education 10 Caring for children 11 Caring for elderly or sick family members 12 Doing housework 13 Retired 65 Other"
@@ -109,7 +109,7 @@
     },
     {
       "seq": 9,
-      "name_zh": "請問您主要工作是不是臨時性或人力派遣工",
+      "name_zh": "請問您主要工作是不是臨時性或人力派遣工",
       "name_en": "Q5_2",
       "type": "Char",
       "length": 1,
@@ -197,11 +197,11 @@
     },
     {
       "seq": 17,
-      "name_zh": "您的收入約有多少是拿出來供家庭共同開支 (指家庭生活之花費如食、衣、住、 行、育、樂，以及付保險費、利息、還債、給婆 （娘） 家、贍養費等，但不含個人儲蓄、投資) 使用？(含拿給未同住家人使用部分)",
+      "name_zh": "您的收入約有多少是拿出來供家庭共同開支 (指家庭生活之花費如食、衣、住、 行、育、樂，以及付保險費、利息、還債、給婆 （娘） 家、贍養費等，但不含個人儲蓄、投資) 使用？(含拿給未同住家人使用部分)",
       "name_en": "Q8_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 ~9%(~不到1成) 2 10%~19%(1~2成) 3 20%~29%(2~3成) 4 30%~39%(3~4成) 5 40%~49%(4~5成) 6 50%~59%(5~6成) 7 60%~69%(6~7成) 8 70%~79%(7~8成) 9 80%~89%(8~9成) 10 90%~(9成以上)",
+      "description_zh": "1 ~9%(~不到1成) 2 10%~19%(1~2成) 3 20%~29%(2~3成) 4 30%~39%(3~4成) 5 40%~49%(4~5成) 6 50%~59%(5~6成) 7 60%~69%(6~7成) 8 70%~79%(7~8成) 9 80%~89%(8~9成) 10 90%~(9成以上)",
       "available_notes": [],
       "name_zh_en": "About how much of your income do you contribute to shared household expenses (i.e., household living expenses such as food, clothing, housing, transportation, education, entertainment, plus insurance premiums, interest, debt repayment, alimony to in-laws, spousal support, etc., but excluding personal savings/investment)? (Including the portion given to non-cohabiting family members)",
       "description_en": "1 Under 9% (less than 1 tenth) 2 10%-19% (1-2 tenths) 3 20%-29% (2-3 tenths) 4 30%-39% (3-4 tenths) 5 40%-49% (4-5 tenths) 6 50%-59% (5-6 tenths) 7 60%-69% (6-7 tenths) 8 70%-79% (7-8 tenths) 9 80%-89% (8-9 tenths) 10 90% or more (over 9 tenths)"
@@ -329,11 +329,11 @@
     },
     {
       "seq": 29,
-      "name_zh": "有，但不知道補助名稱",
+      "name_zh": "有，但不知道補助名稱",
       "name_en": "Q9_11",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1不知道補助名稱",
+      "description_zh": "0無 1不知道補助名稱",
       "available_notes": [],
       "name_zh_en": "Yes, but doesn't know the name of the subsidy",
       "description_en": "0: None, 1: Don't know the name of the subsidy"
@@ -417,7 +417,7 @@
     },
     {
       "seq": 37,
-      "name_zh": "請問您是不是家庭財務分配或管理的主導人？三、婚育與家庭",
+      "name_zh": "請問您是不是家庭財務分配或管理的主導人？三、婚育與家庭",
       "name_en": "Q12",
       "type": "Char",
       "length": 1,
@@ -476,7 +476,7 @@
       "name_en": "Q14_1",
       "type": "Char",
       "length": 8,
-      "description_zh": "1婚姻恐懼 2想過自由生活 3已習慣目前的生活 4已有伴侶 5要照顧家人 6要自己扶養小孩 7子女不同意",
+      "description_zh": "1婚姻恐懼 2想過自由生活 3已習慣目前的生活 4已有伴侶 5要照顧家人 6要自己扶養小孩 7子女不同意",
       "available_notes": [],
       "name_zh_en": "Main reason for being unwilling?",
       "description_en": "1 Fear of marriage 2 Want to live freely 3 Already used to current lifestyle 4 Already have a partner 5 Need to care for family 6 Want to raise children alone 7 Children disapprove"
@@ -912,7 +912,7 @@
     },
     {
       "seq": 82,
-      "name_zh": "您是這位需協助家人的照顧者嗎？(不同住，但受訪者有照顧也算)",
+      "name_zh": "您是這位需協助家人的照顧者嗎？(不同住，但受訪者有照顧也算)",
       "name_en": "Q18_31",
       "type": "Char",
       "length": 1,
@@ -1088,11 +1088,11 @@
     },
     {
       "seq": 98,
-      "name_zh": "沒有做過，年紀大了不用做",
+      "name_zh": "沒有做過，年紀大了不用做",
       "name_en": "Q212_2",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1年紀大了不用做",
+      "description_zh": "0無 1年紀大了不用做",
       "available_notes": [],
       "name_zh_en": "Never had one, too old to need it",
       "description_en": "0: None, 1: Too old, no need to do it"
@@ -1110,22 +1110,22 @@
     },
     {
       "seq": 100,
-      "name_zh": "沒有做過，覺得不好意思",
+      "name_zh": "沒有做過，覺得不好意思",
       "name_en": "Q212_4",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1覺得不好意思",
+      "description_zh": "0無 1覺得不好意思",
       "available_notes": [],
       "name_zh_en": "Never had one, felt embarrassed",
       "description_en": "0: None, 1: Feel embarrassed"
     },
     {
       "seq": 101,
-      "name_zh": "沒有做過，不知道為什麼要做",
+      "name_zh": "沒有做過，不知道為什麼要做",
       "name_en": "Q212_5",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1不知道為什麼要做",
+      "description_zh": "0無 1不知道為什麼要做",
       "available_notes": [],
       "name_zh_en": "Never had one, didn't know why it should be done",
       "description_en": "0: None, 1: Don't know why it's needed"
@@ -1143,22 +1143,22 @@
     },
     {
       "seq": 103,
-      "name_zh": "沒有做過，聽說檢查過程不舒服會痛",
+      "name_zh": "沒有做過，聽說檢查過程不舒服會痛",
       "name_en": "Q212_7",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1聽說檢查過程不舒服會痛",
+      "description_zh": "0無 1聽說檢查過程不舒服會痛",
       "available_notes": [],
       "name_zh_en": "Never had one, heard the exam is uncomfortable/painful",
       "description_en": "0: None, 1: Heard the check-up process is uncomfortable/painful"
     },
     {
       "seq": 104,
-      "name_zh": "沒有做過，不知道政府有免費健檢",
+      "name_zh": "沒有做過，不知道政府有免費健檢",
       "name_en": "Q212_8",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1不知道政府有免費健檢",
+      "description_zh": "0無 1不知道政府有免費健檢",
       "available_notes": [],
       "name_zh_en": "Never had one, didn't know the government offers a free health check",
       "description_en": "0: None, 1: Did not know the government offers free health check-ups"
@@ -1242,7 +1242,7 @@
     },
     {
       "seq": 112,
-      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第一優先",
+      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第一優先",
       "name_en": "Q23_1",
       "type": "Char",
       "length": 2,
@@ -1253,7 +1253,7 @@
     },
     {
       "seq": 113,
-      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第二優先",
+      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第二優先",
       "name_en": "Q23_2",
       "type": "Char",
       "length": 2,
@@ -1264,7 +1264,7 @@
     },
     {
       "seq": 114,
-      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第三優先",
+      "name_zh": "請問您情緒不佳或有困擾時傾訴或求助對象，第三優先",
       "name_en": "Q23_3",
       "type": "Char",
       "length": 2,
@@ -1275,7 +1275,7 @@
     },
     {
       "seq": 115,
-      "name_zh": "您情緒不佳或有困擾時傾訴或求助其他對象?五、社會參與",
+      "name_zh": "您情緒不佳或有困擾時傾訴或求助其他對象?五、社會參與",
       "name_en": "O23",
       "type": "Char",
       "length": 750,
@@ -1396,11 +1396,11 @@
     },
     {
       "seq": 126,
-      "name_zh": "沒參與社會活動原因? 家人不支持",
+      "name_zh": "沒參與社會活動原因? 家人不支持",
       "name_en": "Q242_4",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1家人不支持",
+      "description_zh": "0無 1家人不支持",
       "available_notes": [],
       "name_zh_en": "Did not participate in social activities — Reason? Family does not support",
       "description_en": "0 no family support, 1 has"
@@ -1418,22 +1418,22 @@
     },
     {
       "seq": 128,
-      "name_zh": "沒參與社會活動原因? 資訊管道不佳",
+      "name_zh": "沒參與社會活動原因? 資訊管道不佳",
       "name_en": "Q242_6",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1資訊管道不佳",
+      "description_zh": "0無 1資訊管道不佳",
       "available_notes": [],
       "name_zh_en": "Did not participate in social activities — Reason? Poor access to information",
       "description_en": "0: None, 1: Poor information channels"
     },
     {
       "seq": 129,
-      "name_zh": "沒參與社會活動原因? 健康不佳",
+      "name_zh": "沒參與社會活動原因? 健康不佳",
       "name_en": "Q242_7",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1健康不佳",
+      "description_zh": "0無 1健康不佳",
       "available_notes": [],
       "name_zh_en": "Did not participate in social activities — Reason? Poor health",
       "description_en": "0 No 1 Healthy"
@@ -1517,11 +1517,11 @@
     },
     {
       "seq": 137,
-      "name_zh": "沒參與志願服務原因? 家人不支持",
+      "name_zh": "沒參與志願服務原因? 家人不支持",
       "name_en": "Q252_4",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1家人不支持",
+      "description_zh": "0無 1家人不支持",
       "available_notes": [],
       "name_zh_en": "Did not participate in volunteer service — Reason? Family does not support",
       "description_en": "0 no family support, 1 has"
@@ -1539,22 +1539,22 @@
     },
     {
       "seq": 139,
-      "name_zh": "沒參與志願服務原因? 資訊管道不佳",
+      "name_zh": "沒參與志願服務原因? 資訊管道不佳",
       "name_en": "Q252_6",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1資訊管道不佳",
+      "description_zh": "0無 1資訊管道不佳",
       "available_notes": [],
       "name_zh_en": "Did not participate in volunteer service — Reason? Poor access to information",
       "description_en": "0: None, 1: Poor information channels"
     },
     {
       "seq": 140,
-      "name_zh": "沒參與志願服務原因? 健康不佳",
+      "name_zh": "沒參與志願服務原因? 健康不佳",
       "name_en": "Q252_7",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1健康不佳",
+      "description_zh": "0無 1健康不佳",
       "available_notes": [],
       "name_zh_en": "Did not participate in volunteer service — Reason? Poor health",
       "description_en": "0 No 1 Healthy"
@@ -1825,11 +1825,11 @@
     },
     {
       "seq": 165,
-      "name_zh": "您最近一年是否有從事娛樂性休閒活動?",
+      "name_zh": "您最近一年是否有從事娛樂性休閒活動?",
       "name_en": "Q27_6",
       "type": "Char",
       "length": 1,
-      "description_zh": "0無 1娛樂性",
+      "description_zh": "0無 1娛樂性",
       "available_notes": [],
       "name_zh_en": "In the past year, have you engaged in recreational leisure activities?",
       "description_en": "0 none 1 recreational"
@@ -2104,7 +2104,7 @@
       "name_en": "Q30_2",
       "type": "Char",
       "length": 2,
-      "description_zh": "0 0分 1 1分 2 2分 3 3分 4 4分 5 5分 6 6分 7 7分 8 8分 9 9分 10 10分 98不知道",
+      "description_zh": "0 0分 1 1分 2 2分 3 3分 4 4分 5 5分 6 6分 7 7分 8 8分 9 9分 10 10分 98不知道",
       "available_notes": [],
       "name_zh_en": "job satisfaction?",
       "description_en": "0: 0 points, 1: 1 point, 2: 2 points, 3: 3 points, 4: 4 points, 5: 5 points, 6: 6 points, 7: 7 points, 8: 8 points, 9: 9 points, 10: 10 points, 98: Don't know"
@@ -2313,7 +2313,7 @@
       "name_en": "Q313_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1推動完整之幼托服務 2 利用國小廣設幼兒園 3推動學童課後照顧措施 4推動優質教育環境 5鼓勵男性參與照顧小孩與家務工作 6推動友善的哺乳空間與環境 7推動彈性友善的工作環境 (彈性工時、在家工作) 8鼓勵雇主提供員工友善育兒服務 9推動育嬰留職帶薪之親職假 10提供育兒津貼 11開設第三胎補助金 12不論第幾胎均有生育補助金 13教育補助 14提供扶養幼兒稅賦之減免措施 15改善社會治安和社會風氣 16開放生育第二胎以上家庭申請外籍幫傭申請 65其他 66無意見",
+      "description_zh": "1推動完整之幼托服務 2 利用國小廣設幼兒園 3推動學童課後照顧措施 4推動優質教育環境 5鼓勵男性參與照顧小孩與家務工作 6推動友善的哺乳空間與環境 7推動彈性友善的工作環境 (彈性工時、在家工作) 8鼓勵雇主提供員工友善育兒服務 9推動育嬰留職帶薪之親職假 10提供育兒津貼 11開設第三胎補助金 12不論第幾胎均有生育補助金 13教育補助 14提供扶養幼兒稅賦之減免措施 15改善社會治安和社會風氣 16開放生育第二胎以上家庭申請外籍幫傭申請 65其他 66無意見",
       "available_notes": [],
       "name_zh_en": "What services do you hope the government will provide? In terms of creating a favorable environment for having children, what is your first priority?",
       "description_en": "1 Promote comprehensive childcare services 2 Use elementary schools to widely establish kindergartens 3 Promote after-school care measures for students 4 Promote a high-quality education environment 5 Encourage men to participate in childcare and housework 6 Promote friendly breastfeeding spaces and environments 7 Promote a flexible, family-friendly work environment (flexible hours, work from home) 8 Encourage employers to provide employee-friendly childcare services 9 Promote paid parental leave 10 Provide childcare allowance 11 Establish a third-child subsidy 12 Provide birth subsidy regardless of birth order 13 Education subsidy 14 Provide tax relief measures for raising children 15 Improve public safety and social atmosphere 16 Allow families with a second or subsequent child to apply for a foreign domestic helper 65 Other 66 No opinion"
@@ -2335,7 +2335,7 @@
       "name_en": "Q313_3",
       "type": "Char",
       "length": 2,
-      "description_zh": "1推動完整之幼托服務 2 利用國小廣設幼兒園 3推動學童課後照顧措施 4推動優質教育環境 5鼓勵男性參與照顧小孩與家務工作 6推動友善的哺乳空間與環境 7推動彈性友善的工作環境 (彈性工時、在家工作) 8鼓勵雇主提供員工友善育兒服務 9推動育嬰留職帶薪之親職假 10提供育兒津貼 11開設第三胎補助金 12不論第幾胎均有生育補助金 13教育補助 14提供扶養幼兒稅賦之減免措施 15改善社會治安和社會風氣 16開放生育第二胎以上家庭申請外籍幫傭申請 65其他 98無再次要",
+      "description_zh": "1推動完整之幼托服務 2 利用國小廣設幼兒園 3推動學童課後照顧措施 4推動優質教育環境 5鼓勵男性參與照顧小孩與家務工作 6推動友善的哺乳空間與環境 7推動彈性友善的工作環境 (彈性工時、在家工作) 8鼓勵雇主提供員工友善育兒服務 9推動育嬰留職帶薪之親職假 10提供育兒津貼 11開設第三胎補助金 12不論第幾胎均有生育補助金 13教育補助 14提供扶養幼兒稅賦之減免措施 15改善社會治安和社會風氣 16開放生育第二胎以上家庭申請外籍幫傭申請 65其他 98無再次要",
       "available_notes": [],
       "name_zh_en": "In terms of creating a favorable environment for childbearing, third priority?",
       "description_en": "1 Promote comprehensive childcare services 2 Use elementary schools to widely establish kindergartens 3 Promote after-school care measures for students 4 Promote a high-quality education environment 5 Encourage men to participate in childcare and housework 6 Promote friendly breastfeeding spaces and environments 7 Promote a flexible, family-friendly work environment (flexible hours, work from home) 8 Encourage employers to provide employee-friendly childcare services 9 Promote paid parental leave 10 Provide childcare allowance 11 Establish a third-child subsidy 12 Provide birth subsidy regardless of birth order 13 Education subsidy 14 Provide tax relief measures for raising children 15 Improve public safety and social atmosphere 16 Allow families with a second or subsequent child to apply for a foreign domestic helper 65 Other 98 No third priority"

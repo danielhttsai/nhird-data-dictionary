@@ -75,7 +75,7 @@
     },
     {
       "seq": 5,
-      "name_zh": "流水號",
+      "name_zh": "流水號",
       "name_en": "SEQ_NO",
       "type": "Char",
       "length": 8,
@@ -173,7 +173,7 @@
       "name_en": "DRUG_DAY",
       "type": "Num",
       "length": 8,
-      "description_zh": "本次給藥日份最高之天數。",
+      "description_zh": "本次給藥日份最高之天數。",
       "available_notes": [],
       "name_zh_en": "dosage date",
       "description_en": "maximum-day-of-medication-dose-this-time"
@@ -282,7 +282,7 @@
       "description_zh": "0：身分證字號符合編碼原則1： 不符合。",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原則1： 不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 21,
@@ -315,7 +315,7 @@
       "description_zh": "0：身分證字號符合編碼原則1： 不符合。",
       "available_notes": [],
       "name_zh_en": "physician ID verification error",
-      "description_en": "0：身分證字號符合編碼原則1： 不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 24,
@@ -348,7 +348,7 @@
       "description_zh": "0：身分證字號符合編碼原則1： 不符合。",
       "available_notes": [],
       "name_zh_en": "Pharmacist ID Verification Error",
-      "description_en": "0：身分證字號符合編碼原則1： 不 符合。"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 27,
@@ -500,7 +500,7 @@
       "name_en": "ICD9CM_1",
       "type": "Char",
       "length": 5,
-      "description_zh": "左靠不足補空白。 註： 1.100年起新增。 2. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 3. 自105年起欄位長度調整為7 碼(僅106年資料長度為15碼)。",
+      "description_zh": "左靠不足補空白。 註： 1.100年起新增。 2. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 3. 自105年起欄位長度調整為7 碼(僅106年資料長度為15碼)。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -622,7 +622,7 @@
         },
         {
           "code": "2",
-          "label_zh": "慢性病連續處方調劑(原處方服務機構為基層診所)或慢性病連續處方箋第二次(含)以後調劑(原處方服務機構為地區醫院、區域醫院、醫學中心等)",
+          "label_zh": "慢性病連續處方調劑(原處方服務機構為基層診所)或慢性病連續處方箋第二次(含)以後調劑(原處方服務機構為地區醫院、區域醫院、醫學中心等)",
           "label_en": "chronic disease续处方调剂(原处方服务机构为基层诊所)或慢性病连续处方笺第二次(含)以后调剂(原处方服务机构为地区医院、区域医院、医学中心等)"
         },
         {
@@ -632,7 +632,7 @@
         },
         {
           "code": "4",
-          "label_zh": "結核病個案DOTS 執行服務費",
+          "label_zh": "結核病個案DOTS 執行服務費",
           "label_en": "TB case DOTS service fee"
         },
         {
@@ -693,7 +693,7 @@
         },
         {
           "code": "08",
-          "label_zh": "慢性病連續處方調劑",
+          "label_zh": "慢性病連續處方調劑",
           "label_en": "chronic disease续处方调配"
         },
         {
@@ -1159,7 +1159,7 @@
         },
         {
           "code": "4",
-          "label_zh": "健保卡就醫序號(CARD_SEQ_NO) (1) 92年(含)以前：依卡別，每卡有6 格，每年由A1，A2…，A6，B1…，預防保健等其他特殊規定詳下表。 (2) 93年以後：健保IC 卡規定之就醫序號為四碼流水號，例如：0001。 (3) 請至國民健康署[健康促進法規-預防保健服務類]處下載服務醫事服務機構辦理預防保健注意事項。 各類案件在IC卡實施前後申報方式列示如下表： 84-92年 93年以後說明備註慢性處方箋",
+          "label_zh": "健保卡就醫序號(CARD_SEQ_NO) (1) 92年(含)以前：依卡別，每卡有6 格，每年由A1，A2…，A6，B1…，預防保健等其他特殊規定詳下表。 (2) 93年以後：健保IC 卡規定之就醫序號為四碼流水號，例如：0001。 (3) 請至國民健康署[健康促進法規-預防保健服務類]處下載服務醫事服務機構辦理預防保健注意事項。 各類案件在IC卡實施前後申報方式列示如下表： 84-92年 93年以後說明備註慢性處方箋",
           "label_en": "1. For the start and end times of each notifiable-disease dataset, see the application time-limit table. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked. Data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The serial number (REPORT) is the notifiable-disease report number and serves as the key linking to other notifiable-disease data files."
         },
         {
@@ -1459,7 +1459,7 @@
         },
         {
           "code": "01",
-          "label_zh": "IC01 65歲以上老人流行感冒疫苗注射 88.10新增 02~04 IC02-IC04 慢性病連續處方第二次以後調劑者",
+          "label_zh": "IC01 65歲以上老人流行感冒疫苗注射 88.10新增 02~04 IC02-IC04 慢性病連續處方第二次以後調劑者",
           "label_en": "IC01 Influenza vaccination for individuals aged 65 and above 88.10 added IC02-IC04 Chronic disease follow-up prescription adjusters after the second time"
         },
         {
@@ -1474,7 +1474,7 @@
         },
         {
           "code": "08",
-          "label_zh": "IC08 代辦精神科強制住院 92.06新增代辦無健保愛滋病患就醫(95/1 增) 95.01新增 96/7 修訂為「代辦無健保病患就醫」 96.07修訂",
+          "label_zh": "IC08 代辦精神科強制住院 92.06新增代辦無健保愛滋病患就醫(95/1 增) 95.01新增 96/7 修訂為「代辦無健保病患就醫」 96.07修訂",
           "label_en": "IC08 Proxy mandatory hospitalization Added on June 92, 1995 Proxy medical services for uninsured patients with HIV (Added on January 1, 1998) Added on January 1, 1998 Revised to 'Proxy medical services for uninsured patients' on July 96, 1997 Revised on July 96, 1997"
         },
         {
@@ -1489,7 +1489,7 @@
         },
         {
           "code": "89",
-          "label_zh": "IC89 無力繳納保費就醫 88.02增訂 91~96 軍人代辦案件 87.07-90.02",
+          "label_zh": "IC89 無力繳納保費就醫 88.02增訂 91~96 軍人代辦案件 87.07-90.02",
           "label_en": "IC89 No payment of premium for medical care 88.02 Added 91~96 Military代办 cases 87.07-90.02"
         },
         {
@@ -1514,7 +1514,7 @@
         },
         {
           "code": "98",
-          "label_zh": "IC98 未加保之移植捐贈 HMO巡迴醫療、921震災就醫，符合資源共",
+          "label_zh": "IC98 未加保之移植捐贈 HMO巡迴醫療、921震災就醫，符合資源共",
           "label_en": "IC98 Uninsured Transplant Donor HMO Mobile Doctor, 921 Earthquake Medical Care,符合资源共"
         },
         {
@@ -1816,7 +1816,7 @@
         },
         {
           "code": "006",
-          "label_zh": "006 006 （代辦） 山地離島地區之就醫",
+          "label_zh": "006 006 （代辦） 山地離島地區之就醫",
           "label_en": "006 006 (代理) 山地岛屿地区的就医"
         },
         {
@@ -2331,12 +2331,12 @@
         },
         {
           "code": "E20",
-          "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止",
           "label_en": "Medical center; high-risk * stopped on 1/1/93"
         },
         {
           "code": "E23",
-          "label_zh": "醫學中心；高利用率者；持殘障手冊 ＊ 93/1/1停止",
+          "label_zh": "醫學中心；高利用率者；持殘障手冊 ＊ 93/1/1停止",
           "label_en": "Academic medical center; high-risk patients; holder of disability certificate * stopped on January 1, 2004"
         },
         {
@@ -2366,12 +2366,12 @@
         },
         {
           "code": "F20",
-          "label_zh": "區域醫院；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "區域醫院；高利用率者 ＊ 93/1/1停止",
           "label_en": "regional hospital; high users * 93/1/1 discontinued"
         },
         {
           "code": "F23",
-          "label_zh": "區域醫院；高利用率者；持殘障手冊 ＊ 93.1.1停止",
+          "label_zh": "區域醫院；高利用率者；持殘障手冊 ＊ 93.1.1停止",
           "label_en": "regional hospital; high-risk patients; disabled person certificate * effective from 2003-01-01 stopped"
         },
         {
@@ -2396,7 +2396,7 @@
         },
         {
           "code": "G20",
-          "label_zh": "地區醫院；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "地區醫院；高利用率者 ＊ 93/1/1停止",
           "label_en": "regional hospital; high users * stopped on 93/1/1"
         },
         {
@@ -2421,7 +2421,7 @@
         },
         {
           "code": "H20",
-          "label_zh": "基層醫療；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "基層醫療；高利用率者 ＊ 93/1/1停止",
           "label_en": "primary care clinic; high users * stopped on 93/1/1"
         },
         {
@@ -2571,7 +2571,7 @@
         },
         {
           "code": "S34",
-          "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
+          "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
           "label_en": "Primary care facility; referral (applicable to hospitals receiving referrals) plus drugs or traditional Chinese medicine for orthopedic injuries Note1: '＊' partial burden points are charged according to actual circumstances Note2: From January 93/01, high-cost medications and examinations/checks no longer have a partial burden until revised on January 27, 2026."
         }
       ],

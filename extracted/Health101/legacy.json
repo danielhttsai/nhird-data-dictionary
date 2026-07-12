@@ -89,7 +89,7 @@
       "description_zh": "第1碼為 H者：表示為血液腫瘤個案其他第1碼非 H 者：詳見原發部位(CASITE)對照表血液腫瘤個案若要再細分 NHL(非何杰金氏淋巴瘤)、 HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼 (HISTOLOG)區分。若是要分析各癌症部分(CASITE欄位)，也請先把NHL、HL、 LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "The first code H indicates a hematologic malignancy case. Other first codes not H refer to the primary site (CASITE)对照表. For further subdivision of NHL (non-Hodgkin's lymphoma), HL (Hodgkin's lymphoma), and LEU (leukemia) within hematologic malignancies, this field cannot distinguish them; please use histology and morphology codes (HISTOLOG). When analyzing cancer cases in the CASITE field, exclude NHL, HL, and LEU first before calculating."
+      "description_en": "If the 1st character is H, this indicates a hematologic malignancy case; for cases where the 1st character is not H, see the Primary Site (CASITE) coding table. To further subdivide hematologic malignancy cases into NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia), this field cannot distinguish them - use the Histology Type and Behavior Code (HISTOLOG) instead. When analyzing by cancer site (CASITE field), first exclude NHL, HL, LEU, and other hematologic malignancy cases before calculating."
     },
     {
       "seq": 7,
@@ -143,7 +143,7 @@
       "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
-      "description_en": "0：临床症状 1：实验室诊断 2：影像检查 3：内镜 4：探查手术 5：细胞诊断 6：血液病理 7：组织病理 8：尸检 9：诊断不明"
+      "description_en": "0: Clinical presentation; 1: Laboratory diagnosis; 2: Imaging examination; 3: Endoscopy; 4: Exploratory surgery; 5: Cytology; 6: Hematologic pathology; 7: Histopathology; 8: Autopsy; 9: Diagnosis unknown."
     },
     {
       "seq": 11,
@@ -305,7 +305,7 @@
       "description_zh": "1：單一；2以上為多發",
       "available_notes": [],
       "name_zh_en": "Record Times",
-      "description_en": "1：單一；2以上為多發"
+      "description_en": "1: single; 2 or more indicates multiple."
     },
     {
       "seq": 23,

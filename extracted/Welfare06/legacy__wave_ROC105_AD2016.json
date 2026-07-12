@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "本調查原名「臺灣地區殘障者生活狀況調查」，於民國 83 年由內政部首次辦理，84\n年第 2 次辦理，調查區域範圍擴及金馬地區，89 年第 3 次辦理時調查名稱改為「身\n心障礙者生活需求調查」，由內政部、衛生署及勞工委員會共同辦理，92年、95年、\n100年各辦理 1次，本次為第7次調查。\n本調查係依據身心障礙者權益保障法第 11條規定辦理，調查目的在於了解我國領有\n身心障礙手冊或證明者之生活狀況與需求，以提供政府規劃各項身心障礙福利服務\n之參考依據，調查內容包含身心障礙者之基本資料、居住及起居生活狀況、休閒活動\n及交通狀況、個人及家庭經濟狀況、健康及醫療照顧、教育服務需求、社會參與及自\n我決定、工作現況及職業服務需求等議題之調查。調查方法採實地訪查方式辦理，自\n105年12月5 日至106年4月30日執行調查工作。\n本次調查共完成訪問 14,120 位身心障礙者，其中 8,053 位為無法完全獨立自我照顧\n生活起居且有家庭照顧者的身心障礙者。當中有 3,082人接受主要家庭照顧者問卷訪\n問。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並\n攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當\n事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。 檔案資料比對的鍵值：樣本編號(ID_SAMPLE)。",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並\n攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當\n事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。 檔案資料比對的鍵值：樣本編號(ID_SAMPLE)。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -102,18 +102,18 @@
       "name_en": "Q5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：極重度 2：重度 3：中度 4：輕度",
+      "description_zh": "1：極重度 2：重度 3：中度 4：輕度",
       "available_notes": [],
       "name_zh_en": "Q5_disability level",
       "description_en": "1: Extremely severe 2: Severe 3: Moderate 4: Mild"
     },
     {
       "seq": 9,
-      "name_zh": "Q6目前最高教育程度",
+      "name_zh": "Q6目前最高教育程度",
       "name_en": "Q6",
       "type": "尺度",
       "length": 11,
-      "description_zh": "1：未上幼兒園之學齡前兒童 2：上幼兒園之學齡前兒童 3：不識字(6 歲以上) 4：自修(識字6歲以上) 5：國小 6：國(初)中 7：高中、高職(含五專前三年) 8：專科及大學 9：研究所以上",
+      "description_zh": "1：未上幼兒園之學齡前兒童 2：上幼兒園之學齡前兒童 3：不識字(6 歲以上) 4：自修(識字6歲以上) 5：國小 6：國(初)中 7：高中、高職(含五專前三年) 8：專科及大學 9：研究所以上",
       "available_notes": [],
       "name_zh_en": "Q6 Current highest education level",
       "description_en": "1: Preschool child not yet in kindergarten 2: Preschool child attending kindergarten 3: Illiterate (age 6+) 4: Self-taught (literate) (age 6+) 5: Elementary school 6: Junior high school 7: Senior high/vocational school (including first 3 years of 5-year junior college) 8: Junior college and university 9: Graduate school and above"
@@ -135,7 +135,7 @@
       "name_en": "Q7a",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：本國籍 2：大陸籍 3：東南亞國家 4：其他外國籍 98：不知道/拒答 999：無配偶",
+      "description_zh": "1：本國籍 2：大陸籍 3：東南亞國家 4：其他外國籍 98：不知道/拒答 999：無配偶",
       "available_notes": [],
       "name_zh_en": "Q7a Spouse/cohabiting partner's nationality",
       "description_en": "1: ROC nationality 2: Mainland Chinese nationality 3: Southeast Asian country 4: Other foreign nationality 98: Don't know/refuse to answer 999: No spouse"
@@ -146,18 +146,18 @@
       "name_en": "Q7b",
       "type": "尺度",
       "length": 15,
-      "description_zh": "998：不知道/拒答 999：無配偶",
+      "description_zh": "998：不知道/拒答 999：無配偶",
       "available_notes": [],
       "name_zh_en": "Q7b Spouse/cohabiting partner's age",
       "description_en": "998: Don't know/refuse to answer 999: No spouse"
     },
     {
       "seq": 13,
-      "name_zh": "Q7c 配偶/同居人教育程度",
+      "name_zh": "Q7c 配偶/同居人教育程度",
       "name_en": "Q7c",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職(含五專前三年) 6：專科 7：大學 8：研究所以上 98：不知道/拒答 999：無配偶",
+      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職(含五專前三年) 6：專科 7：大學 8：研究所以上 98：不知道/拒答 999：無配偶",
       "available_notes": [],
       "name_zh_en": "Q7c Spouse/cohabiting partner's education level",
       "description_en": "1: Illiterate 2: Self-taught (literate) 3: Elementary school 4: Junior high school 5: Senior high/vocational school (including first 3 years of 5-year junior college) 6: Junior college 7: University 8: Graduate school or above 98: Don't know/Refused 999: No spouse"
@@ -168,18 +168,18 @@
       "name_en": "Q8",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：家族遺傳 2：基因突變 3：早產 4：母親妊娠期間，因感染、疾病或其他行為所致 5：因生產過程之任何處置導致 6：後天疾病而致 7：老年退化 8：職業傷害 9：家庭或社會因素 10：交通事故 11：其他事故傷害 98：其他(含不知道/拒答)",
+      "description_zh": "1：家族遺傳 2：基因突變 3：早產 4：母親妊娠期間，因感染、疾病或其他行為所致 5：因生產過程之任何處置導致 6：後天疾病而致 7：老年退化 8：職業傷害 9：家庭或社會因素 10：交通事故 11：其他事故傷害 98：其他(含不知道/拒答)",
       "available_notes": [],
       "name_zh_en": "Q8 Main cause of your (person with disability) disability",
       "description_en": "1: Family hereditary 2: Genetic mutation 3: Premature birth 4: Caused by maternal infection, illness, or other behavior during pregnancy 5: Caused by any procedure during delivery 6: Caused by acquired illness 7: Age-related degeneration 8: Occupational injury 9: Family or social factors 10: Traffic accident 11: Other accidental injury 98: Other (incl. don't know/refused)"
     },
     {
       "seq": 15,
-      "name_zh": "Q4 您認為與這位身心障礙者的關係程度是如何？",
+      "name_zh": "Q4 您認為與這位身心障礙者的關係程度是如何？",
       "name_en": "MQ4",
       "type": "名義",
       "length": 12,
-      "description_zh": "1：非常親密 2：親密 3：不太親密 4：完全不親密 96：拒答",
+      "description_zh": "1：非常親密 2：親密 3：不太親密 4：完全不親密 96：拒答",
       "available_notes": [],
       "name_zh_en": "Q4 What is your relationship to this person with disability",
       "description_en": "1: Very close 2: Close 3: Not very close 4: Not close at all 96: Refused"
@@ -190,7 +190,7 @@
       "name_en": "MQ5_1",
       "type": "尺度",
       "length": 12,
-      "description_zh": "996：拒答 998：不知道",
+      "description_zh": "996：拒答 998：不知道",
       "available_notes": [],
       "name_zh_en": "Q5_1 How long have you been caring for this person with disability (years)",
       "description_en": "996: Refuse to answer 998: Don't know"
@@ -201,7 +201,7 @@
       "name_en": "MQ5_2",
       "type": "名義",
       "length": 12,
-      "description_zh": "96a：拒答 98a：不知道",
+      "description_zh": "96a：拒答 98a：不知道",
       "available_notes": [],
       "name_zh_en": "Q5_2 How long have you been caring for this person with disability (months)",
       "description_en": "96a: Refuse to answer 98a: Don't know"
@@ -212,7 +212,7 @@
       "name_en": "MQ6",
       "type": "尺度",
       "length": 12,
-      "description_zh": "96：拒答 98：不知道",
+      "description_zh": "96：拒答 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q6 On average, how many hours per day do you spend caring for this person with disability (hours)",
       "description_en": "96: Refuse to answer 98: Don't know"
@@ -234,7 +234,7 @@
       "name_en": "Q11a",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：未滿55歲 2：55~64歲 3：65歲~74歲 4：75歲及以上 5：已亡故 6：其他(含不知道/拒答) 98：其他(含不知道/拒答)",
+      "description_zh": "1：未滿55歲 2：55~64歲 3：65歲~74歲 4：75歲及以上 5：已亡故 6：其他(含不知道/拒答) 98：其他(含不知道/拒答)",
       "available_notes": [],
       "name_zh_en": "Q11a father's age",
       "description_en": "1: Under 55 years old 2: 55-64 years old 3: 65-74 years old 4: 75 years and above 5: Deceased 6: Other (including don't know/refuse to answer) 98: Other (including don't know/refuse to answer)"
@@ -245,7 +245,7 @@
       "name_en": "Q11b",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：未滿55歲 2：55~64歲 3：65歲~74歲 4：75歲及以上 5：已亡故 6：其他(含不知道/拒答) 98：其他(含不知道/拒答) 22 Q12_1 您(身心障礙者) 的下列親屬是否為身心障礙者【可複選】",
+      "description_zh": "1：未滿55歲 2：55~64歲 3：65歲~74歲 4：75歲及以上 5：已亡故 6：其他(含不知道/拒答) 98：其他(含不知道/拒答) 22 Q12_1 您(身心障礙者) 的下列親屬是否為身心障礙者【可複選】",
       "available_notes": [],
       "name_zh_en": "Q11b mother's age",
       "description_en": "1: Under 55 years old 2: 55-64 years old 3: 65-74 years old 4: 75 years and above 5: Deceased 6: Other (including don't know/refuse to answer) 98: Other (including don't know/refuse to answer) 22 Q12_1 Are the following relatives of yours (person with disability) also people with disabilities? [Multiple choice]"
@@ -278,7 +278,7 @@
       "name_en": "MQ10",
       "type": "名義",
       "length": 12,
-      "description_zh": "1：非常良好 2：還算良好 3：不太好 4：非常不好 5：拒答",
+      "description_zh": "1：非常良好 2：還算良好 3：不太好 4：非常不好 5：拒答",
       "available_notes": [],
       "name_zh_en": "Q10 How would you rate your current physical and mental condition?",
       "description_en": "1: Very good 2: Fairly good 3: Not very good 4: Very bad 5: Refused"
@@ -300,7 +300,7 @@
       "name_en": "MMQ11",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：非常良好 2：還算良好 3：不太好 4：非常不好 5：拒答 27 Q12_1在照顧期間，您有沒有曾發生不舒服的情況?",
+      "description_zh": "1：非常良好 2：還算良好 3：不太好 4：非常不好 5：拒答 27 Q12_1在照顧期間，您有沒有曾發生不舒服的情況?",
       "available_notes": [],
       "name_zh_en": "MMQ11",
       "description_en": "1: Very good 2: Fairly good 3: Not very good 4: Very bad 5: Refused 27 Q12_1 During caregiving, have you ever experienced discomfort?"
@@ -351,7 +351,7 @@
     },
     {
       "seq": 31,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q12_98",
       "type": "0：否 1：是",
       "length": "",
@@ -410,7 +410,7 @@
       "name_en": "Q17",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：自有 2：不住在一起的配偶、父母或子女所擁有 3：租用 4：配住 5：借住 6：其他 37 Q18_1 目前有哪些人與您(身心障礙者)同住 【將同住人員都勾選】 【可複選】",
+      "description_zh": "1：自有 2：不住在一起的配偶、父母或子女所擁有 3：租用 4：配住 5：借住 6：其他 37 Q18_1 目前有哪些人與您(身心障礙者)同住 【將同住人員都勾選】 【可複選】",
       "available_notes": [],
       "name_zh_en": "Q17 Housing ownership status",
       "description_en": "1: Self-owned 2: Owned by a spouse, parent, or child who does not live together 3: Rented 4: Assigned housing 5: Borrowed residence 6: Other 37 Q18_1 Who currently lives with you (the person with disabilities)? [Check all who live together] [Multiple choice]"
@@ -549,7 +549,7 @@
     },
     {
       "seq": 49,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q18_98",
       "type": "0：否 1：是",
       "length": "",
@@ -560,11 +560,11 @@
     },
     {
       "seq": 50,
-      "name_zh": "Q19 您目前居住的家宅需不需要無障礙設施",
+      "name_zh": "Q19 您目前居住的家宅需不需要無障礙設施",
       "name_en": "Q19",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要無障礙設施 2：需要無障礙設施",
+      "description_zh": "1：不需要無障礙設施 2：需要無障礙設施",
       "available_notes": [],
       "name_zh_en": "Q19 Does your current residence need accessibility facilities?",
       "description_en": "1: Accessibility facilities not needed 2: Accessibility facilities needed"
@@ -575,7 +575,7 @@
       "name_en": "Q19_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_1 Bathroom facilities",
       "description_en": "0: Not needed 1: Needed"
@@ -597,7 +597,7 @@
       "name_en": "Q19_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_2 Indoor handrails",
       "description_en": "0: Not needed 1: Needed"
@@ -619,7 +619,7 @@
       "name_en": "Q19_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_3 Ramp",
       "description_en": "0: Not needed 1: Needed"
@@ -641,7 +641,7 @@
       "name_en": "Q19_4",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_4 Kitchen",
       "description_en": "0: Not needed 1: Needed"
@@ -663,7 +663,7 @@
       "name_en": "Q19_5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_5 Bedroom",
       "description_en": "0: Not needed 1: Needed"
@@ -685,7 +685,7 @@
       "name_en": "Q19_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要 1：需要",
+      "description_zh": "0：不需要 1：需要",
       "available_notes": [],
       "name_zh_en": "Q19_6 Hallway",
       "description_en": "0: Not needed 1: Needed"
@@ -707,7 +707,7 @@
       "name_en": "Q19_7",
       "type": "尺度",
       "length": 8,
-      "description_zh": "0：不需要",
+      "description_zh": "0：不需要",
       "available_notes": [],
       "name_zh_en": "Q19_7 Elevator",
       "description_en": "0：need"
@@ -729,7 +729,7 @@
       "name_en": "MQ16",
       "type": "名義",
       "length": 12,
-      "description_zh": "1：願意 2：不願意 3：無意見",
+      "description_zh": "1：願意 2：不願意 3：無意見",
       "available_notes": [],
       "name_zh_en": "Q16 The government provides 'respite care services.' Are you willing to apply for this service?",
       "description_en": "1: Willing 2: Unwilling 3: No opinion"
@@ -740,14 +740,14 @@
       "name_en": "MQ16_1",
       "type": "名義",
       "length": 12,
-      "description_zh": "0：不願意付費 1：300元以內/次 2：301-600元/次 3：601-900元/次 4：901-1200元/次 99：拒答",
+      "description_zh": "0：不願意付費 1：300元以內/次 2：301-600元/次 3：601-900元/次 4：901-1200元/次 99：拒答",
       "available_notes": [],
       "name_zh_en": "Q16_1 How much are you willing to pay out of pocket to apply for 'respite care services'?",
       "description_en": "0: Not willing to pay 1: Within NT$300/time 2: NT$301-600/time 3: NT$601-900/time 4: NT$901-1200/time 99: Refused to answer"
     },
     {
       "seq": 67,
-      "name_zh": "Q17_1 您覺得自己為 OO(身心障礙者)做的事情不夠多",
+      "name_zh": "Q17_1 您覺得自己為 OO(身心障礙者)做的事情不夠多",
       "name_en": "MQ17_1",
       "type": "名義",
       "length": 12,
@@ -813,7 +813,7 @@
     },
     {
       "seq": 73,
-      "name_zh": "Q17_7您擔心OO(身心障礙者)不知道何時會發生事情",
+      "name_zh": "Q17_7您擔心OO(身心障礙者)不知道何時會發生事情",
       "name_en": "MQ17_7",
       "type": "名義",
       "length": 12,
@@ -916,7 +916,7 @@
       "name_en": "Q24",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：每週四次以上 2：每二、三日一次 3：每週一次 4：每半個月一次 5：每個月一次 6：每年若干次 7：幾乎沒有見面 98：不知道/拒答 83 Q25_1 居住服務機構之主要原因為【可複選】",
+      "description_zh": "1：每週四次以上 2：每二、三日一次 3：每週一次 4：每半個月一次 5：每個月一次 6：每年若干次 7：幾乎沒有見面 98：不知道/拒答 83 Q25_1 居住服務機構之主要原因為【可複選】",
       "available_notes": [],
       "name_zh_en": "Q24 About how often do you (person with disability) meet with relatives?",
       "description_en": "1: Four or more times a week 2: Once every two or three days 3: Once a week 4: Once every half month 5: Once a month 6: Several times a year 7: Almost never meet 98: Don't know/refuse to answer 83 Q25_1 The main reason for residing at the service institution is [multiple choice]"
@@ -1000,7 +1000,7 @@
     },
     {
       "seq": 90,
-      "name_zh": "Q18_6 對自己照顧能力感到信心不足",
+      "name_zh": "Q18_6 對自己照顧能力感到信心不足",
       "name_en": "MQ18_6",
       "type": "名義",
       "length": 12,
@@ -1055,11 +1055,11 @@
     },
     {
       "seq": 95,
-      "name_zh": "Q28 請問您(身心障礙者)滿不滿意現在的居住狀況",
+      "name_zh": "Q28 請問您(身心障礙者)滿不滿意現在的居住狀況",
       "name_en": "Q28",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：非常不滿意 2：不太滿意 3：普通/尚可 4：還算滿意 5：非常滿意 95：拒答/不知道 96 Q29_1 請問您期待和哪些人同住在一起【可複選】",
+      "description_zh": "1：非常不滿意 2：不太滿意 3：普通/尚可 4：還算滿意 5：非常滿意 95：拒答/不知道 96 Q29_1 請問您期待和哪些人同住在一起【可複選】",
       "available_notes": [],
       "name_zh_en": "Q28 Are you (person with disability) satisfied with your current living situation?",
       "description_en": "1: Very dissatisfied 2: Somewhat dissatisfied 3: Average/acceptable 4: Fairly satisfied 5: Very satisfied 95: Refused/Don't know 96 Q29_1 Who do you hope to live together with? [Multiple choice]"
@@ -1308,40 +1308,40 @@
     },
     {
       "seq": 120,
-      "name_zh": "Q32_1 請問您(身心障礙者)在戶外使用無障礙設施是不是有困難",
+      "name_zh": "Q32_1 請問您(身心障礙者)在戶外使用無障礙設施是不是有困難",
       "name_en": "Q32_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_1 Do you (person with disability) have difficulty using accessibility facilities outdoors?",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 121,
-      "name_zh": "Q32_2 請問您(身心障礙者)在騎樓、人行道上移動是不是有困難",
+      "name_zh": "Q32_2 請問您(身心障礙者)在騎樓、人行道上移動是不是有困難",
       "name_en": "Q32_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_2 Do you (person with disability) have difficulty moving on arcades/covered walkways or sidewalks",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 122,
-      "name_zh": "Q32_3 請問您(身心障礙者)在戶外、騎樓、人行道上各種路線指引與標示的使用是不是有困難",
+      "name_zh": "Q32_3 請問您(身心障礙者)在戶外、騎樓、人行道上各種路線指引與標示的使用是不是有困難",
       "name_en": "Q32_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_3 Do you (person with disability) have difficulty using route guidance and signage outdoors, on arcades, or on sidewalks",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 123,
-      "name_zh": "Q32_4 請問您(身心障礙者)在商店、百貨公司購物是不是有困難",
+      "name_zh": "Q32_4 請問您(身心障礙者)在商店、百貨公司購物是不是有困難",
       "name_en": "Q32_4",
       "type": "尺度",
       "length": 8,
@@ -1352,55 +1352,55 @@
     },
     {
       "seq": 124,
-      "name_zh": "Q32_5 請問您(身心障礙者)在餐廳用餐是不是有困難",
+      "name_zh": "Q32_5 請問您(身心障礙者)在餐廳用餐是不是有困難",
       "name_en": "Q32_5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_5 Do you (person with disability) have difficulty dining at restaurants",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 125,
-      "name_zh": "Q32_6 請問您(身心障礙者)到公園、遊樂區活動是不是有困難",
+      "name_zh": "Q32_6 請問您(身心障礙者)到公園、遊樂區活動是不是有困難",
       "name_en": "Q32_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_6 Do you (person with disability) have difficulty visiting parks or recreation areas",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 126,
-      "name_zh": "Q32_7 請問您(身心障礙者)在銀行郵局洽辦業務是不是有困難",
+      "name_zh": "Q32_7 請問您(身心障礙者)在銀行郵局洽辦業務是不是有困難",
       "name_en": "Q32_7",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_7 Do you (person with disability) have difficulty conducting business at banks or post offices",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 127,
-      "name_zh": "Q32_8 請問您(身心障礙者)到公家機關申請業務或洽公是不是有困難",
+      "name_zh": "Q32_8 請問您(身心障礙者)到公家機關申請業務或洽公是不是有困難",
       "name_en": "Q32_8",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
+      "description_zh": "1：沒有困難 2：有點困難 3：有些困難 4：大多困難 5：非常困難 8：不知道 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q32_8 Do you (person with disability) have difficulty applying for services or handling official business at government agencies",
       "description_en": "1: No difficulty 2: Slight difficulty 3: Some difficulty 4: Mostly difficult 5: Extremely difficult 8: Don't know 98: Not applicable"
     },
     {
       "seq": 128,
-      "name_zh": "Q33 請問您(身心障礙者)外出時，需不需要家人、朋友或看護等人陪伴",
+      "name_zh": "Q33 請問您(身心障礙者)外出時，需不需要家人、朋友或看護等人陪伴",
       "name_en": "Q33",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：需要陪伴 2：不需要陪伴 3：不一定",
+      "description_zh": "1：需要陪伴 2：不需要陪伴 3：不一定",
       "available_notes": [],
       "name_zh_en": "Q33 When going out, do you (person with disability) need to be accompanied by family, friends, or a caregiver",
       "description_en": "1: Needs companionship 2: Does not need companionship 3: Not sure"
@@ -1477,7 +1477,7 @@
       "name_en": "Q35",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：沒有必要外出 2：不宜外出 3：沒有人可以陪或帶您外出 4：家人禁止您外出 5：自己不想外出 6：缺乏定向行動能力 7：缺乏外出所需輔具 8：外出場所缺乏無障礙設施 9：其他",
+      "description_zh": "1：沒有必要外出 2：不宜外出 3：沒有人可以陪或帶您外出 4：家人禁止您外出 5：自己不想外出 6：缺乏定向行動能力 7：缺乏外出所需輔具 8：外出場所缺乏無障礙設施 9：其他",
       "available_notes": [],
       "name_zh_en": "Q35 What is the reason you (person with disability) rarely or never went out in the past month",
       "description_en": "1: No need to go out 2: Unsuitable to go out 3: No one available to accompany or take you out 4: Family forbids you from going out 5: Don't want to go out yourself 6: Lack of orientation/mobility ability 7: Lack of assistive devices needed to go out 8: Places to go out lack accessible facilities 9: Other"
@@ -1726,7 +1726,7 @@
     },
     {
       "seq": 160,
-      "name_zh": "設施設計不良難以使用",
+      "name_zh": "設施設計不良難以使用",
       "name_en": "Q38_2_2",
       "type": "0：否 1：是",
       "length": "",
@@ -1737,7 +1737,7 @@
     },
     {
       "seq": 161,
-      "name_zh": "休閒設施數量/空間不足",
+      "name_zh": "休閒設施數量/空間不足",
       "name_en": "Q38_2_3",
       "type": "0：否 1：是",
       "length": "",
@@ -1770,7 +1770,7 @@
     },
     {
       "seq": 164,
-      "name_zh": "費用太高負擔不起",
+      "name_zh": "費用太高負擔不起",
       "name_en": "Q38_2_6",
       "type": "0：否 1：是",
       "length": "",
@@ -1781,7 +1781,7 @@
     },
     {
       "seq": 165,
-      "name_zh": "引導標示不清",
+      "name_zh": "引導標示不清",
       "name_en": "Q38_2_7",
       "type": "0：否 1：是",
       "length": "",
@@ -1803,7 +1803,7 @@
     },
     {
       "seq": 167,
-      "name_zh": "本身健康狀況不佳使用困難",
+      "name_zh": "本身健康狀況不佳使用困難",
       "name_en": "Q38_2_9",
       "type": "0：否 1：是",
       "length": "",
@@ -1891,7 +1891,7 @@
     },
     {
       "seq": 176,
-      "name_zh": "買車票/訂車票過程不方便",
+      "name_zh": "買車票/訂車票過程不方便",
       "name_en": "Q39_1_2",
       "type": "0：否 1：是",
       "length": "",
@@ -1902,7 +1902,7 @@
     },
     {
       "seq": 177,
-      "name_zh": "車站內外指示、引導牌不清楚",
+      "name_zh": "車站內外指示、引導牌不清楚",
       "name_en": "Q39_1_3",
       "type": "0：否 1：是",
       "length": "",
@@ -1924,7 +1924,7 @@
     },
     {
       "seq": 179,
-      "name_zh": "聲音導引設施不清楚或太快",
+      "name_zh": "聲音導引設施不清楚或太快",
       "name_en": "Q39_1_5",
       "type": "0：否 1：是",
       "length": "",
@@ -1935,7 +1935,7 @@
     },
     {
       "seq": 180,
-      "name_zh": "上下階梯、升降設備或出入口不方便",
+      "name_zh": "上下階梯、升降設備或出入口不方便",
       "name_en": "Q39_1_6",
       "type": "0：否 1：是",
       "length": "",
@@ -1946,7 +1946,7 @@
     },
     {
       "seq": 181,
-      "name_zh": "站名播報或顯示設施不清楚",
+      "name_zh": "站名播報或顯示設施不清楚",
       "name_en": "Q39_1_7",
       "type": "0：否 1：是",
       "length": "",
@@ -1990,7 +1990,7 @@
     },
     {
       "seq": 185,
-      "name_zh": "無障礙廁所使用不方便",
+      "name_zh": "無障礙廁所使用不方便",
       "name_en": "Q39_1_11",
       "type": "0：否 1：是",
       "length": "",
@@ -2001,7 +2001,7 @@
     },
     {
       "seq": 186,
-      "name_zh": "交通路線說明不清楚",
+      "name_zh": "交通路線說明不清楚",
       "name_en": "Q39_1_12",
       "type": "0：否 1：是",
       "length": "",
@@ -2034,7 +2034,7 @@
     },
     {
       "seq": 189,
-      "name_zh": "轉乘其他交通工具不方便",
+      "name_zh": "轉乘其他交通工具不方便",
       "name_en": "Q39_1_15",
       "type": "0：否 1：是",
       "length": "",
@@ -2122,7 +2122,7 @@
     },
     {
       "seq": 198,
-      "name_zh": "買車票/訂車票過程不方便",
+      "name_zh": "買車票/訂車票過程不方便",
       "name_en": "Q39_2_2",
       "type": "0：否 1：是",
       "length": "",
@@ -2133,7 +2133,7 @@
     },
     {
       "seq": 199,
-      "name_zh": "車站內外指示、引導牌不清楚",
+      "name_zh": "車站內外指示、引導牌不清楚",
       "name_en": "Q39_2_3",
       "type": "0：否 1：是",
       "length": "",
@@ -2155,7 +2155,7 @@
     },
     {
       "seq": 201,
-      "name_zh": "聲音導引設施不清楚或太快",
+      "name_zh": "聲音導引設施不清楚或太快",
       "name_en": "Q39_2_5",
       "type": "0：否 1：是",
       "length": "",
@@ -2166,7 +2166,7 @@
     },
     {
       "seq": 202,
-      "name_zh": "上下階梯、升降設備或出入口不方便",
+      "name_zh": "上下階梯、升降設備或出入口不方便",
       "name_en": "Q39_2_6",
       "type": "0：否 1：是",
       "length": "",
@@ -2177,7 +2177,7 @@
     },
     {
       "seq": 203,
-      "name_zh": "站名播報或顯示設施不清楚",
+      "name_zh": "站名播報或顯示設施不清楚",
       "name_en": "Q39_2_7",
       "type": "0：否 1：是",
       "length": "",
@@ -2221,7 +2221,7 @@
     },
     {
       "seq": 207,
-      "name_zh": "無障礙廁所使用不方便",
+      "name_zh": "無障礙廁所使用不方便",
       "name_en": "Q39_2_11",
       "type": "0：否 1：是",
       "length": "",
@@ -2232,7 +2232,7 @@
     },
     {
       "seq": 208,
-      "name_zh": "交通路線說明不清楚",
+      "name_zh": "交通路線說明不清楚",
       "name_en": "Q39_2_12",
       "type": "0：否 1：是",
       "length": "",
@@ -2265,7 +2265,7 @@
     },
     {
       "seq": 211,
-      "name_zh": "轉乘其他交通工具不方便",
+      "name_zh": "轉乘其他交通工具不方便",
       "name_en": "Q39_2_15",
       "type": "0：否 1：是",
       "length": "",
@@ -2353,7 +2353,7 @@
     },
     {
       "seq": 220,
-      "name_zh": "買車票/訂車票過程不方便",
+      "name_zh": "買車票/訂車票過程不方便",
       "name_en": "Q39_3_2",
       "type": "0：否 1：是",
       "length": "",
@@ -2364,7 +2364,7 @@
     },
     {
       "seq": 221,
-      "name_zh": "車站內外指示、引導牌不清楚",
+      "name_zh": "車站內外指示、引導牌不清楚",
       "name_en": "Q39_3_3",
       "type": "0：否 1：是",
       "length": "",
@@ -2386,7 +2386,7 @@
     },
     {
       "seq": 223,
-      "name_zh": "聲音導引設施不清楚或太快",
+      "name_zh": "聲音導引設施不清楚或太快",
       "name_en": "Q39_3_5",
       "type": "0：否 1：是",
       "length": "",
@@ -2397,7 +2397,7 @@
     },
     {
       "seq": 224,
-      "name_zh": "上下階梯、升降設備或出入口不方便",
+      "name_zh": "上下階梯、升降設備或出入口不方便",
       "name_en": "Q39_3_6",
       "type": "0：否 1：是",
       "length": "",
@@ -2408,7 +2408,7 @@
     },
     {
       "seq": 225,
-      "name_zh": "站名播報或顯示設施不清楚",
+      "name_zh": "站名播報或顯示設施不清楚",
       "name_en": "Q39_3_7",
       "type": "0：否 1：是",
       "length": "",
@@ -2452,7 +2452,7 @@
     },
     {
       "seq": 229,
-      "name_zh": "無障礙廁所使用不方便",
+      "name_zh": "無障礙廁所使用不方便",
       "name_en": "Q39_3_11",
       "type": "0：否 1：是",
       "length": "",
@@ -2463,7 +2463,7 @@
     },
     {
       "seq": 230,
-      "name_zh": "交通路線說明不清楚",
+      "name_zh": "交通路線說明不清楚",
       "name_en": "Q39_3_12",
       "type": "0：否 1：是",
       "length": "",
@@ -2496,7 +2496,7 @@
     },
     {
       "seq": 233,
-      "name_zh": "轉乘其他交通工具不方便",
+      "name_zh": "轉乘其他交通工具不方便",
       "name_en": "Q39_3_15",
       "type": "0：否 1：是",
       "length": "",
@@ -2584,7 +2584,7 @@
     },
     {
       "seq": 242,
-      "name_zh": "買車票/訂車票過程不方便",
+      "name_zh": "買車票/訂車票過程不方便",
       "name_en": "Q39_4_2",
       "type": "0：否 1：是",
       "length": "",
@@ -2595,7 +2595,7 @@
     },
     {
       "seq": 243,
-      "name_zh": "車站內外指示、引導牌不清楚",
+      "name_zh": "車站內外指示、引導牌不清楚",
       "name_en": "Q39_4_3",
       "type": "0：否 1：是",
       "length": "",
@@ -2617,7 +2617,7 @@
     },
     {
       "seq": 245,
-      "name_zh": "聲音導引設施不清楚或太快",
+      "name_zh": "聲音導引設施不清楚或太快",
       "name_en": "Q39_4_5",
       "type": "0：否 1：是",
       "length": "",
@@ -2628,7 +2628,7 @@
     },
     {
       "seq": 246,
-      "name_zh": "上下階梯、升降設備或出入口不方便",
+      "name_zh": "上下階梯、升降設備或出入口不方便",
       "name_en": "Q39_4_6",
       "type": "0：否 1：是",
       "length": "",
@@ -2639,7 +2639,7 @@
     },
     {
       "seq": 247,
-      "name_zh": "站名播報或顯示設施不清楚",
+      "name_zh": "站名播報或顯示設施不清楚",
       "name_en": "Q39_4_7",
       "type": "0：否 1：是",
       "length": "",
@@ -2683,7 +2683,7 @@
     },
     {
       "seq": 251,
-      "name_zh": "無障礙廁所使用不方",
+      "name_zh": "無障礙廁所使用不方",
       "name_en": "Q39_4_11",
       "type": "0：否 1：是",
       "length": "",
@@ -2694,7 +2694,7 @@
     },
     {
       "seq": 252,
-      "name_zh": "交通路線說明不清楚",
+      "name_zh": "交通路線說明不清楚",
       "name_en": "Q39_4_12",
       "type": "0：否 1：是",
       "length": "",
@@ -2727,7 +2727,7 @@
     },
     {
       "seq": 255,
-      "name_zh": "轉乘其他交通工具不方便",
+      "name_zh": "轉乘其他交通工具不方便",
       "name_en": "Q39_4_15",
       "type": "0：否 1：是",
       "length": "",
@@ -2815,7 +2815,7 @@
     },
     {
       "seq": 264,
-      "name_zh": "買車票/訂車票過程不方便",
+      "name_zh": "買車票/訂車票過程不方便",
       "name_en": "Q39_5_2",
       "type": "0：否 1：是",
       "length": "",
@@ -2826,7 +2826,7 @@
     },
     {
       "seq": 265,
-      "name_zh": "車站內外指示、引導牌不清楚",
+      "name_zh": "車站內外指示、引導牌不清楚",
       "name_en": "Q39_5_3",
       "type": "0：否 1：是",
       "length": "",
@@ -2848,7 +2848,7 @@
     },
     {
       "seq": 267,
-      "name_zh": "聲音導引設施不清楚或太快",
+      "name_zh": "聲音導引設施不清楚或太快",
       "name_en": "Q39_5_5",
       "type": "0：否 1：是",
       "length": "",
@@ -2859,7 +2859,7 @@
     },
     {
       "seq": 268,
-      "name_zh": "上下階梯、升降設備或出入口不方便",
+      "name_zh": "上下階梯、升降設備或出入口不方便",
       "name_en": "Q39_5_6",
       "type": "0：否 1：是",
       "length": "",
@@ -2870,7 +2870,7 @@
     },
     {
       "seq": 269,
-      "name_zh": "站名播報或顯示設施不清楚",
+      "name_zh": "站名播報或顯示設施不清楚",
       "name_en": "Q39_5_7",
       "type": "0：否 1：是",
       "length": "",
@@ -2914,7 +2914,7 @@
     },
     {
       "seq": 273,
-      "name_zh": "無障礙廁所使用不方便",
+      "name_zh": "無障礙廁所使用不方便",
       "name_en": "Q39_5_11",
       "type": "0：否 1：是",
       "length": "",
@@ -2925,7 +2925,7 @@
     },
     {
       "seq": 274,
-      "name_zh": "交通路線說明不清楚",
+      "name_zh": "交通路線說明不清楚",
       "name_en": "Q39_5_12",
       "type": "0：否 1：是",
       "length": "",
@@ -2958,7 +2958,7 @@
     },
     {
       "seq": 277,
-      "name_zh": "轉乘其他交通工具不方便",
+      "name_zh": "轉乘其他交通工具不方便",
       "name_en": "Q39_5_15",
       "type": "0：否 1：是",
       "length": "",
@@ -3050,7 +3050,7 @@
       "name_en": "Q40a",
       "type": "尺度",
       "length": 18,
-      "description_zh": "1：叫不到無障礙計程車 2：無障礙計程車車資太貴 3：司機服務態度不佳 4：無法到達要到的地方 5：上下無障礙計程車不方便 6：停靠點沒有接駁服務 7：出發/到達站沒有人協助 8：其他 9：沒有困難",
+      "description_zh": "1：叫不到無障礙計程車 2：無障礙計程車車資太貴 3：司機服務態度不佳 4：無法到達要到的地方 5：上下無障礙計程車不方便 6：停靠點沒有接駁服務 7：出發/到達站沒有人協助 8：其他 9：沒有困難",
       "available_notes": [],
       "name_zh_en": "Q40a What is the main difficulty you (person with disability) have using accessible taxis",
       "description_en": "1: Unable to hail an accessible taxi 2: Accessible taxi fare too expensive 3: Poor driver service attitude 4: Unable to reach the desired destination 5: Inconvenient to get in/out of the accessible taxi 6: No shuttle service at the stop 7: No one to assist at departure/arrival point 8: Other 9: No difficulty"
@@ -3083,7 +3083,7 @@
       "name_en": "Q41a",
       "type": "尺度",
       "length": 22,
-      "description_zh": "1：訂不到復康巴士 2：復康巴士車資太貴 3：司機服務態度不佳 4：無法到達要到的地方 5：上下復康巴士不方便 6：停靠點沒有接駁服務 7：出發/到達站沒有人協助 8：其他 9：沒有困難",
+      "description_zh": "1：訂不到復康巴士 2：復康巴士車資太貴 3：司機服務態度不佳 4：無法到達要到的地方 5：上下復康巴士不方便 6：停靠點沒有接駁服務 7：出發/到達站沒有人協助 8：其他 9：沒有困難",
       "available_notes": [],
       "name_zh_en": "Q41a What is the main difficulty you (person with disability) have applying to use the Rehabus",
       "description_en": "1: Unable to book a Fu-Kang (accessible) bus 2: Fu-Kang bus fare too expensive 3: Poor driver service attitude 4: Cannot reach destination 5: Inconvenient getting on/off the Fu-Kang bus 6: No shuttle service at stop 7: No assistance at departure/arrival station 8: Other 9: No difficulty"
@@ -3105,7 +3105,7 @@
       "name_en": "Q42_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_1 Can you (person with disability) eat by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3116,7 +3116,7 @@
       "name_en": "Q42_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_2 Can you (the person with disabilities) change clothes by yourself?",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3127,7 +3127,7 @@
       "name_en": "Q42_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_3 Can you (person with disability) wash your hair by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3138,7 +3138,7 @@
       "name_en": "Q42_4",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_4 Can you (person with disability) bathe by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3149,7 +3149,7 @@
       "name_en": "Q42_5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成",
       "available_notes": [],
       "name_zh_en": "Q42_5 Can you (person with disability) wash your face and brush your teeth by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification"
@@ -3160,7 +3160,7 @@
       "name_en": "Q42_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_6 Can you (person with disability) get in and out of bed by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3171,7 +3171,7 @@
       "name_en": "Q42_7",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_7 Can you (person with disability) get in and out of a chair by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3182,7 +3182,7 @@
       "name_en": "Q42_8",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_8 Can you (person with disability) use the toilet (sit-down) by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3193,7 +3193,7 @@
       "name_en": "Q42_9",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_9 Can you (person with disability) use the toilet (squat) by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3204,7 +3204,7 @@
       "name_en": "Q42_10",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_10 Can you (person with disability) control urination and defecation by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3215,7 +3215,7 @@
       "name_en": "Q42_11",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_11 Can you (person with disability) wipe yourself by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3226,7 +3226,7 @@
       "name_en": "Q42_12",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成",
       "available_notes": [],
       "name_zh_en": "Q42_12 Can you (person with disability) trim your (finger/toe) nails by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification"
@@ -3237,7 +3237,7 @@
       "name_en": "Q42_13",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_13 Can you (person with disability) go up and down stairs by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3248,7 +3248,7 @@
       "name_en": "Q42_14",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_14 Can you (person with disability) walk indoors by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3259,7 +3259,7 @@
       "name_en": "Q42_15",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
+      "description_zh": "1：不需要輔具或他人協助，可獨立完成 2：需要輔具或環境改善後，可獨立完成 3：不論有無使用輔具，都需要他人協助， 才可完成 4：完全需要他人處理",
       "available_notes": [],
       "name_zh_en": "Q42_15 Can you (person with disability) walk outdoors by yourself",
       "description_en": "1: Can complete independently without assistive devices or help from others 2: Can complete independently with assistive devices or environmental modification 3: Requires help from others to complete regardless of whether assistive devices are used 4: Completely requires others to handle it"
@@ -3270,7 +3270,7 @@
       "name_en": "Q43_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_1 Do you (the person with disabilities) have difficulty doing housework alone (such as tidying up, washing dishes, etc.)?",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3281,7 +3281,7 @@
       "name_en": "Q43_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_2 Do you (person with disability) have difficulty washing and hanging laundry by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3292,7 +3292,7 @@
       "name_en": "Q43_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_3 Do you (person with disability) have difficulty cooking meals by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3314,7 +3314,7 @@
       "name_en": "Q43_5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_5 Do you (person with disability) have difficulty managing money (counting, making change, paying bills) by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3325,7 +3325,7 @@
       "name_en": "Q43_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_6 Do you (person with disability) have difficulty taking medicine by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3336,7 +3336,7 @@
       "name_en": "Q43_7",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_7 Do you (person with disability) have difficulty making phone calls by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3347,7 +3347,7 @@
       "name_en": "Q43_8",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
+      "description_zh": "1：毫無困難 2：有點困難 3：需用輔具/環境改善 4：需要他人協助 5：完全不能做",
       "available_notes": [],
       "name_zh_en": "Q43_8 Do you (person with disability) have difficulty using transportation by yourself",
       "description_en": "1: No difficulty at all 2: Some difficulty 3: Needs assistive device/environmental modification 4: Needs assistance from others 5: Completely unable to do it"
@@ -3424,18 +3424,18 @@
       "name_en": "Q46b",
       "type": "尺度",
       "length": 8,
-      "description_zh": "998：不知道/拒答",
+      "description_zh": "998：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Q46b Age of this main family caregiver",
       "description_en": "998: Don't know/refuse to answer"
     },
     {
       "seq": 320,
-      "name_zh": "Q46c 這位主要家庭照顧者教育程度",
+      "name_zh": "Q46c 這位主要家庭照顧者教育程度",
       "name_en": "Q46c",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職 6：專科及大學 7：研究所以上 98：不知道/拒答",
+      "description_zh": "1：不識字 2：自修(識字) 3：國小 4：國(初)中 5：高中、高職 6：專科及大學 7：研究所以上 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Q46c Education level of this main family caregiver",
       "description_en": "1: Illiterate 2: Self-taught (literate) 3: Elementary school 4: Junior high school 5: Senior high/vocational school 6: College/university 7: Graduate school or above 98: Don't know/Refused"
@@ -3446,7 +3446,7 @@
       "name_en": "Q46d",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：全職工作 2：兼職工作 3：未就業 98：不知道/拒答",
+      "description_zh": "1：全職工作 2：兼職工作 3：未就業 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Q46d Employment status of this main family caregiver",
       "description_en": "1: Full-time work 2: Part-time work 3: Not employed 98: Don't know/refused"
@@ -3457,18 +3457,18 @@
       "name_en": "Q46e",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：一般人口 2：原住民 3：新住民(外籍配偶) 4：新住民(大陸港澳配偶) 98：不知道/拒答",
+      "description_zh": "1：一般人口 2：原住民 3：新住民(外籍配偶) 4：新住民(大陸港澳配偶) 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Q46e Identity/status of this main family caregiver",
       "description_en": "1: General population 2: Indigenous person 3: New immigrant (foreign spouse) 4: New immigrant (Mainland China/Hong Kong/Macau spouse) 98: Don't know/refused"
     },
     {
       "seq": 323,
-      "name_zh": "Q47 請問您(身心障礙者)需不需要居家照顧服務",
+      "name_zh": "Q47 請問您(身心障礙者)需不需要居家照顧服務",
       "name_en": "Q47",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要 2：需要 324 Q47a_1 需要哪些居家照顧服務【可複選】",
+      "description_zh": "1：不需要 2：需要 324 Q47a_1 需要哪些居家照顧服務【可複選】",
       "available_notes": [],
       "name_zh_en": "Q47 Do you (person with disability) need home care services",
       "description_en": "1: Not needed 2: Needed 324 Q47a_1 Which home care services are needed? [Multiple choice]"
@@ -3578,7 +3578,7 @@
       "name_en": "Q47b",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：3,000元以下 2：3,001-6,000元 3：6,001-9,000元 4：9,001-12,000元 5：12,001-15,000 元 6：15,001元以上 7：不願意部分負擔",
+      "description_zh": "1：3,000元以下 2：3,001-6,000元 3：6,001-9,000元 4：9,001-12,000元 5：12,001-15,000 元 6：15,001元以上 7：不願意部分負擔",
       "available_notes": [],
       "name_zh_en": "Q47b For the home care services listed above, are you willing to pay part of the cost? How much are you willing to pay (per month)",
       "description_en": "1: NT$3,000 or less 2: NT$3,001-6,000 3: NT$6,001-9,000 4: NT$9,001-12,000 5: NT$12,001-15,000 6: NT$15,001 or more 7: Unwilling to pay a co-payment"
@@ -3589,7 +3589,7 @@
       "name_en": "Q47c",
       "type": "尺度",
       "length": 8,
-      "description_zh": "998：無意見 999：不知道",
+      "description_zh": "998：無意見 999：不知道",
       "available_notes": [],
       "name_zh_en": "Q47c How many hours of home care service do you need per week (hours)",
       "description_en": "998: No opinion 999: Don't know"
@@ -3600,7 +3600,7 @@
       "name_en": "Q47d",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：星期一到星期五白天 2：星期一到星期五晚上 3：星期六或週日白天 4：星期六或週日晚上 5：不定時(含臨短托) 98：不知道/拒答",
+      "description_zh": "1：星期一到星期五白天 2：星期一到星期五晚上 3：星期六或週日白天 4：星期六或週日晚上 5：不定時(含臨短托) 98：不知道/拒答",
       "available_notes": [],
       "name_zh_en": "Q47d During which time period do you (person with disability) most need a care worker's service",
       "description_en": "1: Monday to Friday daytime 2: Monday to Friday evening 3: Saturday or Sunday daytime 4: Saturday or Sunday evening 5: Irregular (including short-term temporary care) 98: Don't know/refuse to answer"
@@ -3618,7 +3618,7 @@
     },
     {
       "seq": 339,
-      "name_zh": "資格不符合",
+      "name_zh": "資格不符合",
       "name_en": "Q49_1",
       "type": "尺度",
       "length": 8,
@@ -3684,7 +3684,7 @@
     },
     {
       "seq": 345,
-      "name_zh": "服務項目不符合需求",
+      "name_zh": "服務項目不符合需求",
       "name_en": "Q49_7",
       "type": "0：否 1：是",
       "length": "",
@@ -3695,7 +3695,7 @@
     },
     {
       "seq": 346,
-      "name_zh": "不知道如何申請",
+      "name_zh": "不知道如何申請",
       "name_en": "Q49_8",
       "type": "0：否 1：是",
       "length": "",
@@ -3706,7 +3706,7 @@
     },
     {
       "seq": 347,
-      "name_zh": "不知道這項服務",
+      "name_zh": "不知道這項服務",
       "name_en": "Q49_9",
       "type": "0：否 1：是",
       "length": "",
@@ -3728,7 +3728,7 @@
     },
     {
       "seq": 349,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q49_98",
       "type": "0：否 1：是",
       "length": "",
@@ -4029,14 +4029,14 @@
       "name_en": "Q55",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：大約剛好足夠 2：足夠 3：不敷實際需要",
+      "description_zh": "1：大約剛好足夠 2：足夠 3：不敷實際需要",
       "available_notes": [],
       "name_zh_en": "Q55 Is your (person with disability) household's average monthly income enough to cover daily living needs",
       "description_en": "1: About just enough 2: Enough 3: Insufficient for actual needs"
     },
     {
       "seq": 379,
-      "name_zh": "Q56請問最近一年內， 您(身心障礙者)常不常因為對您照顧、疾病、 交通需求所導致的相關費用支出感到吃力",
+      "name_zh": "Q56請問最近一年內， 您(身心障礙者)常不常因為對您照顧、疾病、 交通需求所導致的相關費用支出感到吃力",
       "name_en": "Q56",
       "type": "名義",
       "length": 8,
@@ -4047,11 +4047,11 @@
     },
     {
       "seq": 380,
-      "name_zh": "Q57 您(身心障礙者)目前需不需要定期就醫",
+      "name_zh": "Q57 您(身心障礙者)目前需不需要定期就醫",
       "name_en": "Q57",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：需要 2：不需要 3：拒答",
+      "description_zh": "1：需要 2：不需要 3：拒答",
       "available_notes": [],
       "name_zh_en": "Q57 Do you (person with disability) currently need regular medical visits",
       "description_en": "1: Needed 2: Not needed 3: Refused"
@@ -4062,7 +4062,7 @@
       "name_en": "Q57a",
       "type": "尺度",
       "length": 23,
-      "description_zh": "1：需要 2：不需要 3：拒答 382 Q58_1 請問您(身心障礙者)目前有參加哪些社會保險【可複選】",
+      "description_zh": "1：需要 2：不需要 3：拒答 382 Q58_1 請問您(身心障礙者)目前有參加哪些社會保險【可複選】",
       "available_notes": [],
       "name_zh_en": "Q57a Do you have regular medical visits",
       "description_en": "1: Needed 2: Not needed 3: Refused 382 Q58_1 Which social insurance programs does the person with disabilities currently participate in? [Multiple choice]"
@@ -4245,7 +4245,7 @@
     },
     {
       "seq": 400,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q59_98",
       "type": "0：否 1：是",
       "length": "",
@@ -4322,7 +4322,7 @@
     },
     {
       "seq": 408,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q59a_98",
       "type": "0：否 1：是",
       "length": "",
@@ -4348,7 +4348,7 @@
       "name_en": "Q60",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：有做 2：沒有做過 98：不知道",
+      "description_zh": "1：有做 2：沒有做過 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q60 Have you (the person with disabilities) ever had a health check-up?",
       "description_en": "1: Have done it 2: Have not done it 98: Don't know"
@@ -4381,7 +4381,7 @@
       "name_en": "Q61",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：有做 2：沒有做過 98：不知道",
+      "description_zh": "1：有做 2：沒有做過 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q61 Have you (person with disability) ever had a screening",
       "description_en": "1: Have done it 2: Have not done it 98: Don't know"
@@ -4410,11 +4410,11 @@
     },
     {
       "seq": 416,
-      "name_zh": "Q62 請問您(身心障礙者)目前需不需要接受復健治療",
+      "name_zh": "Q62 請問您(身心障礙者)目前需不需要接受復健治療",
       "name_en": "Q62",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：不需要 2：需要 417 Q62a_1 請問您(身心障礙者)需要接受哪一種復健治療【可複選】",
+      "description_zh": "1：不需要 2：需要 417 Q62a_1 請問您(身心障礙者)需要接受哪一種復健治療【可複選】",
       "available_notes": [],
       "name_zh_en": "Q62 Do you (person with disability) currently need rehabilitation treatment",
       "description_en": "1: Not needed 2: Needed 417 Q62a_1 Which type of rehabilitation therapy does the person with disabilities need? [Multiple choice]"
@@ -4531,7 +4531,7 @@
     },
     {
       "seq": 429,
-      "name_zh": "交通不便",
+      "name_zh": "交通不便",
       "name_en": "Q63_3",
       "type": "0：否 1：是",
       "length": "",
@@ -4564,7 +4564,7 @@
     },
     {
       "seq": 432,
-      "name_zh": "定向行動能力不夠",
+      "name_zh": "定向行動能力不夠",
       "name_en": "Q63_6",
       "type": "0：否 1：是",
       "length": "",
@@ -4597,7 +4597,7 @@
     },
     {
       "seq": 435,
-      "name_zh": "資訊不足",
+      "name_zh": "資訊不足",
       "name_en": "Q63_9",
       "type": "0：否 1：是",
       "length": "",
@@ -4641,7 +4641,7 @@
     },
     {
       "seq": 439,
-      "name_zh": "醫護人員態度不好",
+      "name_zh": "醫護人員態度不好",
       "name_en": "Q63_13",
       "type": "0：否 1：是",
       "length": "",
@@ -4707,7 +4707,7 @@
     },
     {
       "seq": 445,
-      "name_zh": "不知道/拒答",
+      "name_zh": "不知道/拒答",
       "name_en": "Q63_98",
       "type": "0：否 1：是",
       "length": "",
@@ -4744,7 +4744,7 @@
       "name_en": "Q64",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：需要且有使用 2：需要但未使用 3：不需要 449 Q64a_1 目前正使用哪些輔具【可複選】",
+      "description_zh": "1：需要且有使用 2：需要但未使用 3：不需要 449 Q64a_1 目前正使用哪些輔具【可複選】",
       "available_notes": [],
       "name_zh_en": "Q64 Do you (person with disability) need to use assistive devices in daily life",
       "description_en": "1: Needed and used 2: Needed but not used 3: Not needed 449 Q64a_1 Which assistive devices are currently being used? [Multiple choice]"
@@ -5305,7 +5305,7 @@
       "name_en": "Q64c",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：國內尚未研發出所需要的輔具 2：政府不補助需要的輔具 3：輔具補助申請程序手續繁瑣 4：經濟上無法負擔 5：要先自費購買輔具才能申請補助 6：不習慣使用輔具 7：不知道如何取得輔具資訊 8：輔具設計不當 9：沒有人教導使用及說明 10：其他",
+      "description_zh": "1：國內尚未研發出所需要的輔具 2：政府不補助需要的輔具 3：輔具補助申請程序手續繁瑣 4：經濟上無法負擔 5：要先自費購買輔具才能申請補助 6：不習慣使用輔具 7：不知道如何取得輔具資訊 8：輔具設計不當 9：沒有人教導使用及說明 10：其他",
       "available_notes": [],
       "name_zh_en": "Q64c What is the main reason for not using it",
       "description_en": "1: The needed assistive device has not yet been developed domestically 2: The government does not subsidize the needed assistive device 3: The assistive device subsidy application process is cumbersome 4: Cannot afford it financially 5: Must purchase the assistive device out of pocket first before applying for a subsidy 6: Not used to using assistive devices 7: Don't know how to get information on assistive devices 8: Poor assistive device design 9: No one to teach use or explain it 10: Other"
@@ -5323,22 +5323,22 @@
     },
     {
       "seq": 503,
-      "name_zh": "Q65 使用過的輔具經過回收整理之後，請問您(身心障礙者)願不願意使用",
+      "name_zh": "Q65 使用過的輔具經過回收整理之後，請問您(身心障礙者)願不願意使用",
       "name_en": "Q65",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：願意 2：不願意 3：沒意見或拒答",
+      "description_zh": "1：願意 2：不願意 3：沒意見或拒答",
       "available_notes": [],
       "name_zh_en": "Q65 After used assistive devices are collected and refurbished, would you (the person with disabilities) be willing to use them?",
       "description_en": "1: Willing 2: Unwilling 3: No opinion or refused"
     },
     {
       "seq": 504,
-      "name_zh": "Q66一般來說，請問您 (身心障礙者)認為目前的健康狀況是很好、 好、不好，還是很不好",
+      "name_zh": "Q66一般來說，請問您 (身心障礙者)認為目前的健康狀況是很好、 好、不好，還是很不好",
       "name_en": "Q66",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：很好 2：好 3：還可以/普通 4：不好 5：很不好 95：拒答/不知道",
+      "description_zh": "1：很好 2：好 3：還可以/普通 4：不好 5：很不好 95：拒答/不知道",
       "available_notes": [],
       "name_zh_en": "Q66 Generally speaking, would you (person with disability) say your current health is very good, good, poor, or very poor",
       "description_en": "1: Very good 2: Good 3: Fair/average 4: Not good 5: Very bad 95: Refuse to answer/don't know"
@@ -5349,7 +5349,7 @@
       "name_en": "Q67",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：曾被診斷是 2：自認是，但未經診斷確認 3：曾經疑似 4：沒有 5：不知道",
+      "description_zh": "1：曾被診斷是 2：自認是，但未經診斷確認 3：曾經疑似 4：沒有 5：不知道",
       "available_notes": [],
       "name_zh_en": "Q67 Did you (person with disability) experience developmental delay in childhood (under age 6)",
       "description_en": "1: Diagnosed 2: Self-identified, but not confirmed by diagnosis 3: Previously suspected 4: No 5: Don't know"
@@ -5389,7 +5389,7 @@
     },
     {
       "seq": 510,
-      "name_zh": "相關資訊取得不夠",
+      "name_zh": "相關資訊取得不夠",
       "name_en": "Q68_1",
       "type": "尺度",
       "length": 8,
@@ -5433,7 +5433,7 @@
     },
     {
       "seq": 514,
-      "name_zh": "補助金額不足",
+      "name_zh": "補助金額不足",
       "name_en": "Q68_5",
       "type": "0：否 1：是",
       "length": "",
@@ -5455,7 +5455,7 @@
     },
     {
       "seq": 516,
-      "name_zh": "相關規定、法律瞭解不足",
+      "name_zh": "相關規定、法律瞭解不足",
       "name_en": "Q68_7",
       "type": "0：否 1：是",
       "length": "",
@@ -5488,7 +5488,7 @@
     },
     {
       "seq": 519,
-      "name_zh": "不知道",
+      "name_zh": "不知道",
       "name_en": "Q68_98",
       "type": "0：否 1：是",
       "length": "",
@@ -5514,7 +5514,7 @@
       "name_en": "Q69a",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：想 2：不想",
+      "description_zh": "1：想 2：不想",
       "available_notes": [],
       "name_zh_en": "Q69a Do you (person with disability not currently in school) want to pursue further education in the future",
       "description_en": "1:want 2:not quite"
@@ -5547,7 +5547,7 @@
       "name_en": "Q71_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
+      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q71_1 Do you know about educational assistive devices? Usage status?",
       "description_en": "1: Satisfied 2: Acceptable 3: Not satisfied 4: Not needed 5: Application process is troublesome 6: Application not approved 7: Other 98: Don't know"
@@ -5558,7 +5558,7 @@
       "name_en": "Q71_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
+      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q71_2 Are you aware of adaptive learning materials? What is your usage of it?",
       "description_en": "1: Satisfied 2: Acceptable 3: Not satisfied 4: Not needed 5: Application process is troublesome 6: Application not approved 7: Other 98: Don't know"
@@ -5569,7 +5569,7 @@
       "name_en": "Q71_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
+      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q71_3 Are you aware of learning and daily-life personal assistance? What is your usage of it?",
       "description_en": "1: Satisfied 2: Acceptable 3: Not satisfied 4: Not needed 5: Application process is troublesome 6: Application not approved 7: Other 98: Don't know"
@@ -5580,7 +5580,7 @@
       "name_en": "Q71_4",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
+      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道",
       "available_notes": [],
       "name_zh_en": "Q71_4 Are you aware of rehabilitation services? What is your usage of it?",
       "description_en": "1: Satisfied 2: Acceptable 3: Not satisfied 4: Not needed 5: Application process is troublesome 6: Application not approved 7: Other 98: Don't know"
@@ -5591,14 +5591,14 @@
       "name_en": "Q71_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道 530 Q72_1 您(身心障礙者) 在受教育方面有沒有遇到困難【可複選】",
+      "description_zh": "1：滿意 2：尚可 3：不滿意 4：不需要 5：申請麻煩 6：申請不通過 7：其他 98：不知道 530 Q72_1 您(身心障礙者) 在受教育方面有沒有遇到困難【可複選】",
       "available_notes": [],
       "name_zh_en": "Q71_6 Are you aware of accessible campus environments? What is your usage of it?",
       "description_en": "1: Satisfied 2: Acceptable 3: Not satisfied 4: Not needed 5: Application process is troublesome 6: Application not approved 7: Other 98: Don't know 530 Q72_1 What difficulties have you (person with disability) encountered in receiving education? [Multiple choice]"
     },
     {
       "seq": 531,
-      "name_zh": "通勤不便",
+      "name_zh": "通勤不便",
       "name_en": "Q72_1",
       "type": "尺度",
       "length": 8,
@@ -5631,7 +5631,7 @@
     },
     {
       "seq": 534,
-      "name_zh": "教學內容不符合自己的需求",
+      "name_zh": "教學內容不符合自己的需求",
       "name_en": "Q72_4",
       "type": "0：否 1：是",
       "length": "",
@@ -5642,7 +5642,7 @@
     },
     {
       "seq": 535,
-      "name_zh": "跟同學或老師相處困難，所以不想上學",
+      "name_zh": "跟同學或老師相處困難，所以不想上學",
       "name_en": "Q72_5",
       "type": "0：否 1：是",
       "length": "",
@@ -5719,7 +5719,7 @@
     },
     {
       "seq": 542,
-      "name_zh": "課業表現不佳/學習落後",
+      "name_zh": "課業表現不佳/學習落後",
       "name_en": "Q72_12",
       "type": "0：否 1：是",
       "length": "",
@@ -5730,7 +5730,7 @@
     },
     {
       "seq": 543,
-      "name_zh": "不知道",
+      "name_zh": "不知道",
       "name_en": "Q72_98",
       "type": "0：否 1：是",
       "length": "",
@@ -5756,7 +5756,7 @@
       "name_en": "Q73_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_1 Have you (the person with disabilities) ever joined a political party?",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5767,7 +5767,7 @@
       "name_en": "Q73_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_2 Have you (person with disability) ever attended a political rally or campaign event",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5778,7 +5778,7 @@
       "name_en": "Q73_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_3 Have you (person with disability) ever donated money to a social or political cause, or helped raise funds for one",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5789,7 +5789,7 @@
       "name_en": "Q73_4",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_4 Have you (person with disability) ever read or listened to candidates' policy platforms",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5800,7 +5800,7 @@
       "name_en": "Q73_5",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_5 Have you (person with disability) ever campaigned for a candidate or political party",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5811,7 +5811,7 @@
       "name_en": "Q73_6",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q73_6 Have you (person with disability) ever joined a disability association as a member (including serving as an officer)",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5822,7 +5822,7 @@
       "name_en": "Q74",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
+      "description_zh": "1：過去一年中您有做過這件事 2：在更早以前您有做過這件事 3：就算過去沒有做過，將來您有可能做這件事 4：過去沒有做過，而將來無論在什麼情形下您也不會做這件事 94：拒答",
       "available_notes": [],
       "name_zh_en": "Q74 Did you (person with disability) vote in this presidential election (held on January 16, 2016)",
       "description_en": "1: You did this in the past year 2: You did this earlier than the past year 3: Even though you haven't done it before, you might do it in the future 4: You haven't done it before and would not do it in the future under any circumstances 94: Refused"
@@ -5884,7 +5884,7 @@
     },
     {
       "seq": 558,
-      "name_zh": "身心狀況健康不佳",
+      "name_zh": "身心狀況健康不佳",
       "name_en": "Q74a_5",
       "type": "0：否 1：是",
       "length": "",
@@ -5906,7 +5906,7 @@
     },
     {
       "seq": 560,
-      "name_zh": "不知道投票所在哪裡",
+      "name_zh": "不知道投票所在哪裡",
       "name_en": "Q74a_7",
       "type": "0：否 1：是",
       "length": "",
@@ -5972,7 +5972,7 @@
     },
     {
       "seq": 567,
-      "name_zh": "投票資訊不足",
+      "name_zh": "投票資訊不足",
       "name_en": "Q75_1",
       "type": "尺度",
       "length": 8,
@@ -5983,7 +5983,7 @@
     },
     {
       "seq": 568,
-      "name_zh": "交通與停車不方便",
+      "name_zh": "交通與停車不方便",
       "name_en": "Q75_2",
       "type": "0：否 1：是",
       "length": "",
@@ -5994,7 +5994,7 @@
     },
     {
       "seq": 569,
-      "name_zh": "投票所行進動線設計不佳",
+      "name_zh": "投票所行進動線設計不佳",
       "name_en": "Q75_3",
       "type": "0：否 1：是",
       "length": "",
@@ -6005,7 +6005,7 @@
     },
     {
       "seq": 570,
-      "name_zh": "選務人員協助能力不足",
+      "name_zh": "選務人員協助能力不足",
       "name_en": "Q75_4",
       "type": "0：否 1：是",
       "length": "",
@@ -6027,7 +6027,7 @@
     },
     {
       "seq": 572,
-      "name_zh": "投票票軌設計不佳",
+      "name_zh": "投票票軌設計不佳",
       "name_en": "Q75_6",
       "type": "0：否 1：是",
       "length": "",
@@ -6038,7 +6038,7 @@
     },
     {
       "seq": 573,
-      "name_zh": "選票設計不方便投票",
+      "name_zh": "選票設計不方便投票",
       "name_en": "Q75_7",
       "type": "0：否 1：是",
       "length": "",
@@ -6093,7 +6093,7 @@
     },
     {
       "seq": 578,
-      "name_zh": "不知道",
+      "name_zh": "不知道",
       "name_en": "Q75_98",
       "type": "0：否 1：是",
       "length": "",
@@ -6115,11 +6115,11 @@
     },
     {
       "seq": 580,
-      "name_zh": "Q76 您會不會因為周遭人對您的態度，而在參加社會活動時遇到問題",
+      "name_zh": "Q76 您會不會因為周遭人對您的態度，而在參加社會活動時遇到問題",
       "name_en": "Q76",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
+      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q76 Do the attitudes of people around you cause problems for you when participating in social activities",
       "description_en": "1: Almost never 2: Not very often 3: Occasionally 4: Often 5: Always 98: Not applicable"
@@ -6130,7 +6130,7 @@
       "name_en": "Q77_1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
+      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q77_1 Can you decide everyday matters yourself",
       "description_en": "1: Almost never 2: Not very often 3: Occasionally 4: Often 5: Always 98: Not applicable"
@@ -6141,7 +6141,7 @@
       "name_en": "Q77_2",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
+      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q77_2 Can you make major decisions in your life",
       "description_en": "1: Almost never 2: Not very often 3: Occasionally 4: Often 5: Always 98: Not applicable"
@@ -6152,7 +6152,7 @@
       "name_en": "Q77_3",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
+      "description_zh": "1：幾乎不會 2：不太會 3：偶而會 4：經常會 5：總是會 98：不適用",
       "available_notes": [],
       "name_zh_en": "Q77_3 Can you participate in household decisions",
       "description_en": "1: Almost never 2: Not very often 3: Occasionally 4: Often 5: Always 98: Not applicable"
@@ -6174,25 +6174,25 @@
       "name_en": "Q78_12",
       "type": "尺度",
       "length": 8,
-      "description_zh": "998a：不知道",
+      "description_zh": "998a：不知道",
       "available_notes": [],
       "name_zh_en": "Q78_12 At what age did you (person with disability) retire or leave the workforce",
       "description_en": "998a:know"
     },
     {
       "seq": 586,
-      "name_zh": "Q79.如果現在有工作機會，您能不能立刻開始工作",
+      "name_zh": "Q79.如果現在有工作機會，您能不能立刻開始工作",
       "name_en": "Q79",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：能 2：不能",
+      "description_zh": "1：能 2：不能",
       "available_notes": [],
       "name_zh_en": "Q79. If there were a job opportunity right now, could you start working immediately?",
       "description_en": "1:can 2:not quite"
     },
     {
       "seq": 587,
-      "name_zh": "Q79_2.不能立刻開始工作，原因是",
+      "name_zh": "Q79_2.不能立刻開始工作，原因是",
       "name_en": "Q79_2",
       "type": "名義",
       "length": 8,
@@ -6214,7 +6214,7 @@
     },
     {
       "seq": 589,
-      "name_zh": "Q79_2.不能立刻開始工作，原因是",
+      "name_zh": "Q79_2.不能立刻開始工作，原因是",
       "name_en": "QQ79_2",
       "type": "尺度",
       "length": 8,
@@ -6236,18 +6236,18 @@
     },
     {
       "seq": 591,
-      "name_zh": "Q80_2.有沒有因為身心障礙問題受到不平等的對待",
+      "name_zh": "Q80_2.有沒有因為身心障礙問題受到不平等的對待",
       "name_en": "Q80_2",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
+      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
       "available_notes": [],
       "name_zh_en": "Q80_2 Have you been treated unfairly because of your disability",
       "description_en": "1: Did not encounter unfair treatment 2: Encountered unfair treatment"
     },
     {
       "seq": 592,
-      "name_zh": "Q80_2_2.有遇到不平等的對待，遇到頻率為何",
+      "name_zh": "Q80_2_2.有遇到不平等的對待，遇到頻率為何",
       "name_en": "Q80_2_2",
       "type": "名義",
       "length": 8,
@@ -6324,7 +6324,7 @@
     },
     {
       "seq": 599,
-      "name_zh": "Q83.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
+      "name_zh": "Q83.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
       "name_en": "Q83",
       "type": "名義",
       "length": 8,
@@ -6335,7 +6335,7 @@
     },
     {
       "seq": 600,
-      "name_zh": "Q83_2.不到半年的工作數",
+      "name_zh": "Q83_2.不到半年的工作數",
       "name_en": "Q83_2",
       "type": "尺度",
       "length": 10,
@@ -6511,7 +6511,7 @@
     },
     {
       "seq": 617,
-      "name_zh": "工作性質與興趣不合",
+      "name_zh": "工作性質與興趣不合",
       "name_en": "Q84_16",
       "type": "0：否 1：是",
       "length": "",
@@ -6614,7 +6614,7 @@
       "name_en": "Q85",
       "type": "名義",
       "length": 15,
-      "description_zh": "1：農、林、漁、牧業 2：礦業及土石採取業 3：製造業 4：電力及燃氣供應業 5：用水供應及污染整治業 6：營建工程業 7：批發及零售業 8：運輸及倉儲業 9：住宿及餐飲業 10：出版、影音製作、傳播及資通訊服務業 11：金融及保險業 12：不動產業 13：專業、科學及技術服務業 14：支援服務業 15：公共行政及國防；強制性社會安全 16：教育業 17：醫療保健及社會工作服務業 18：藝術、娛樂及休閒服務業 19：其他服務業 998：未回答",
+      "description_zh": "1：農、林、漁、牧業 2：礦業及土石採取業 3：製造業 4：電力及燃氣供應業 5：用水供應及污染整治業 6：營建工程業 7：批發及零售業 8：運輸及倉儲業 9：住宿及餐飲業 10：出版、影音製作、傳播及資通訊服務業 11：金融及保險業 12：不動產業 13：專業、科學及技術服務業 14：支援服務業 15：公共行政及國防；強制性社會安全 16：教育業 17：醫療保健及社會工作服務業 18：藝術、娛樂及休閒服務業 19：其他服務業 998：未回答",
       "available_notes": [],
       "name_zh_en": "Q85 What industry do you currently work in",
       "description_en": "1: Agriculture, forestry, fishing, animal husbandry 2: Mining and quarrying 3: Manufacturing 4: Electricity and gas supply 5: Water supply and pollution remediation 6: Construction engineering 7: Wholesale and retail trade 8: Transportation and warehousing 9: Accommodation and food services 10: Publishing, audiovisual production, broadcasting and telecommunications services 11: Finance and insurance 12: Real estate 13: Professional, scientific, and technical services 14: Support services 15: Public administration and defense; compulsory social security 16: Education 17: Healthcare and social work services 18: Arts, entertainment, and recreation services 19: Other services 998: Not answered"
@@ -6709,7 +6709,7 @@
     },
     {
       "seq": 636,
-      "name_zh": "因定額進用人數不足",
+      "name_zh": "因定額進用人數不足",
       "name_en": "Q88_5",
       "type": "0：否 1：是",
       "length": "",
@@ -6988,7 +6988,7 @@
       "name_en": "Q91",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：不是 2：是 663 Q91_2.請問您從事的是上面所說的哪一類工作",
+      "description_zh": "1：不是 2：是 663 Q91_2.請問您從事的是上面所說的哪一類工作",
       "available_notes": [],
       "name_zh_en": "Q91 Are you currently working part-time, on a fixed-term contract, or as a dispatched (temp agency) worker",
       "description_en": "1: No 2: Yes 663 Q91_2. Which of the above job categories do you work in?"
@@ -7028,7 +7028,7 @@
     },
     {
       "seq": 668,
-      "name_zh": "找不到合適的全時正職工作",
+      "name_zh": "找不到合適的全時正職工作",
       "name_en": "Q92_1",
       "type": "名義",
       "length": 8,
@@ -7072,7 +7072,7 @@
     },
     {
       "seq": 672,
-      "name_zh": "因為目前的工作是親友或師長介紹，不好意思拒絕",
+      "name_zh": "因為目前的工作是親友或師長介紹，不好意思拒絕",
       "name_en": "Q92_5",
       "type": "0：否 1：是",
       "length": "",
@@ -7248,11 +7248,11 @@
     },
     {
       "seq": 688,
-      "name_zh": "Q95.在工作場所中，有沒有因身心障礙的身分而受到不公平待遇的經驗",
+      "name_zh": "Q95.在工作場所中，有沒有因身心障礙的身分而受到不公平待遇的經驗",
       "name_en": "Q95",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：沒有 2：有 689 Q95_2.因身心障礙的身分而受到不公平待遇",
+      "description_zh": "1：沒有 2：有 689 Q95_2.因身心障礙的身分而受到不公平待遇",
       "available_notes": [],
       "name_zh_en": "Q95 Have you experienced unfair treatment in the workplace because of your disability",
       "description_en": "1: No 2: Yes 689 Q95_2. Unfair treatment due to disability status"
@@ -7325,11 +7325,11 @@
     },
     {
       "seq": 696,
-      "name_zh": "Q96.在工作場所中，有沒有因性別而受到不公平待遇的經驗",
+      "name_zh": "Q96.在工作場所中，有沒有因性別而受到不公平待遇的經驗",
       "name_en": "Q96",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：沒有 2：有 697 Q96_2.因性別而受到不公平待遇",
+      "description_zh": "1：沒有 2：有 697 Q96_2.因性別而受到不公平待遇",
       "available_notes": [],
       "name_zh_en": "Q96 Have you experienced unfair treatment in the workplace because of your sex",
       "description_en": "1: No 2: Yes 697 Q96_2. Unfair treatment due to gender"
@@ -7406,7 +7406,7 @@
       "name_en": "Q97",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：需要協助 2：不需要協助 705 Q97_1.需要協助項目",
+      "description_zh": "1：需要協助 2：不需要協助 705 Q97_1.需要協助項目",
       "available_notes": [],
       "name_zh_en": "Q97 What kind of assistance would you like to receive in the workplace",
       "description_en": "1: Needs assistance 2: Does not need assistance 705 Q97_1. Item requiring assistance"
@@ -7655,18 +7655,18 @@
     },
     {
       "seq": 728,
-      "name_zh": "Q98.有沒有因為身心障礙問題受到不平等的對待",
+      "name_zh": "Q98.有沒有因為身心障礙問題受到不平等的對待",
       "name_en": "Q98",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
+      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
       "available_notes": [],
       "name_zh_en": "Q98 Have you been treated unfairly because of your disability",
       "description_en": "1: Did not encounter unfair treatment 2: Encountered unfair treatment"
     },
     {
       "seq": 729,
-      "name_zh": "Q98_2.有遇到不平等的對待，遇到頻率為何",
+      "name_zh": "Q98_2.有遇到不平等的對待，遇到頻率為何",
       "name_en": "Q98_2",
       "type": "名義",
       "length": 8,
@@ -7681,7 +7681,7 @@
       "name_en": "Q99_1",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：剛畢業 2：自己不想工作 3：家庭因素無法外出工作 4：家庭經濟許可，不必工作 5：找不到合意的工作",
+      "description_zh": "1：剛畢業 2：自己不想工作 3：家庭因素無法外出工作 4：家庭經濟許可，不必工作 5：找不到合意的工作",
       "available_notes": [],
       "name_zh_en": "Q99_1 If you have never worked, the main reason is",
       "description_en": "1: Just graduated 2: Doesn't want to work 3: Family reasons prevent working outside 4: Family finances allow not working 5: Can't find a suitable job"
@@ -7692,7 +7692,7 @@
       "name_en": "Q99_2",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：交通困難 2：工作場所欠缺無障礙設施 3：待遇太低 4：工作受到差別待遇 5：被無故減薪 6：工作場所停業或業務緊縮 7：季節性或臨時性工作結束 8：被解僱 9：結束參加政府臨時性就業服務方案 10：工作負荷重 11：工作技能無法勝任 12：工作性質與興趣不合 13：與主管或同事人際關係問題 14：個人技能無法有效發揮 15：受傷或生病無法工作 16：體力無法勝任 17：結婚或生育 18：照顧家人無法工作 19：想自行創業 20：準備就業考試(含公職考試) 21：準備升學 22：工作場所缺少人力支持 23：其他",
+      "description_zh": "1：交通困難 2：工作場所欠缺無障礙設施 3：待遇太低 4：工作受到差別待遇 5：被無故減薪 6：工作場所停業或業務緊縮 7：季節性或臨時性工作結束 8：被解僱 9：結束參加政府臨時性就業服務方案 10：工作負荷重 11：工作技能無法勝任 12：工作性質與興趣不合 13：與主管或同事人際關係問題 14：個人技能無法有效發揮 15：受傷或生病無法工作 16：體力無法勝任 17：結婚或生育 18：照顧家人無法工作 19：想自行創業 20：準備就業考試(含公職考試) 21：準備升學 22：工作場所缺少人力支持 23：其他",
       "available_notes": [],
       "name_zh_en": "Q99_2 If you have worked before, the main reason for leaving your last job",
       "description_en": "1: Transportation difficulty 2: Workplace lacks accessible facilities 3: Pay too low 4: Discriminatory treatment at work 5: Pay cut without cause 6: Workplace closure or business downsizing 7: Seasonal or temporary job ended 8: Dismissed 9: Ended participation in a government temporary employment program 10: Heavy workload 11: Unable to handle job skill requirements 12: Job nature does not match interests 13: Interpersonal problems with supervisor or colleagues 14: Personal skills cannot be effectively utilized 15: Injury or illness prevents work 16: Physically unable to cope 17: Marriage or childbirth 18: Unable to work due to caring for family 19: Want to start own business 20: Preparing for employment exam (incl. civil service exam) 21: Preparing for further schooling 22: Workplace lacks manpower support 23: Other"
@@ -7758,7 +7758,7 @@
       "name_en": "Q103",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：增加 2：差不多 3：減少",
+      "description_zh": "1：增加 2：差不多 3：減少",
       "available_notes": [],
       "name_zh_en": "Q103. Expected income compared to previous job",
       "description_en": "1: Increased 2: About the same 3: Decreased"
@@ -7776,7 +7776,7 @@
     },
     {
       "seq": 739,
-      "name_zh": "Q105.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
+      "name_zh": "Q105.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
       "name_en": "Q105",
       "type": "名義",
       "length": 8,
@@ -7802,7 +7802,7 @@
       "name_en": "Q106",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：不需要 2：需要 742 Q106_2.需要協助項目",
+      "description_zh": "1：不需要 2：需要 742 Q106_2.需要協助項目",
       "available_notes": [],
       "name_zh_en": "Q106. Which employment service measures do you need the government to help you with?",
       "description_en": "1: Not needed 2: Needed 742 Q106_2. Item requiring assistance"
@@ -8040,18 +8040,18 @@
     },
     {
       "seq": 764,
-      "name_zh": "Q108_2.有沒有因為身心障礙問題受到不平等的對待",
+      "name_zh": "Q108_2.有沒有因為身心障礙問題受到不平等的對待",
       "name_en": "Q108_2",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
+      "description_zh": "1：沒有遇到不平等的對待 2：有遇到不平等的對待",
       "available_notes": [],
       "name_zh_en": "Q108_2. Have you experienced unequal treatment due to a disability?",
       "description_en": "1: Did not encounter unfair treatment 2: Encountered unfair treatment"
     },
     {
       "seq": 765,
-      "name_zh": "Q108_2_2.有遇到不平等的對待，遇到頻率為何",
+      "name_zh": "Q108_2_2.有遇到不平等的對待，遇到頻率為何",
       "name_en": "Q108_2_2",
       "type": "名義",
       "length": 8,
@@ -8117,7 +8117,7 @@
     },
     {
       "seq": 771,
-      "name_zh": "Q113.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
+      "name_zh": "Q113.請問您有工作以來，做過幾次不到半年 (6個月)的工作",
       "name_en": "Q113",
       "type": "名義",
       "length": 8,
@@ -8154,7 +8154,7 @@
       "name_en": "Q114",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：在學或準備升學 2：剛畢業(指畢業 1年內) 3：家庭因素無法外出工作(料理家務) 4：家庭經濟許可，不必工作 5：找不到合意的工作 6：未被錄用 7：體力無法勝任 8：現階段有復健及治療需求 9：其他",
+      "description_zh": "1：在學或準備升學 2：剛畢業(指畢業 1年內) 3：家庭因素無法外出工作(料理家務) 4：家庭經濟許可，不必工作 5：找不到合意的工作 6：未被錄用 7：體力無法勝任 8：現階段有復健及治療需求 9：其他",
       "available_notes": [],
       "name_zh_en": "Q114. The main reason you have not looked for work",
       "description_en": "1: In school or preparing for further schooling 2: Just graduated (within 1 year of graduation) 3: Family reasons prevent working outside (housework) 4: Family finances allow not working 5: Can't find a suitable job 6: Not hired 7: Physically unable to cope 8: Currently need rehabilitation/treatment 9: Other"
@@ -8165,7 +8165,7 @@
       "name_en": "Q115",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：不需要 2：需要 776 Q115_2.需要協助項目",
+      "description_zh": "1：不需要 2：需要 776 Q115_2.需要協助項目",
       "available_notes": [],
       "name_zh_en": "Q115. Which employment service measures do you need the government to help you with?",
       "description_en": "1: Not needed 2: Needed 776 Q115_2. Item requiring assistance"
@@ -8396,7 +8396,7 @@
       "name_en": "EE1",
       "type": "尺度",
       "length": 8,
-      "description_zh": "1：未滿12歲 2：植物人 3：失智症 4：自閉症 5：智能障礙中重度以上 6：慢性精神重度以上 7：多重障礙中重度以上",
+      "description_zh": "1：未滿12歲 2：植物人 3：失智症 4：自閉症 5：智能障礙中重度以上 6：慢性精神重度以上 7：多重障礙中重度以上",
       "available_notes": [],
       "name_zh_en": "benefit category or condition",
       "description_en": "1: Under 12 years old 2: Vegetative state 3: Dementia 4: Autism 5: Moderate or above intellectual disability 6: Severe or above chronic mental illness 7: Moderate/severe or above multiple disabilities"
@@ -8418,7 +8418,7 @@
       "name_en": "E1",
       "type": "名義",
       "length": 8,
-      "description_zh": "1：障礙者為允許代答障別或條件 2：身心障礙者生病無法做答 3：身心障礙者年邁、體衰或精神狀況不佳無法溝通理解而無法回答 4：其他",
+      "description_zh": "1：障礙者為允許代答障別或條件 2：身心障礙者生病無法做答 3：身心障礙者年邁、體衰或精神狀況不佳無法溝通理解而無法回答 4：其他",
       "available_notes": [],
       "name_zh_en": "Proxy Answer Reason",
       "description_en": "1: The person with disabilities has a category or condition for which proxy answers are allowed 2: The person with disabilities is ill and unable to answer 3: The person with disabilities is unable to communicate/understand and thus cannot answer due to old age, frailty, or poor mental condition 4: Other"

@@ -28,7 +28,7 @@
       "description_zh": "經加密處理，為辨別院所鍵值",
       "available_notes": [],
       "name_zh_en": "medical institution code",
-      "description_en": "經加密處理，為辨別院所鍵值"
+      "description_en": "Encrypted; a key value used to identify the medical institution."
     },
     {
       "seq": 2,
@@ -91,7 +91,7 @@
       "name_en": "CURE_ITEM1",
       "type": "Char",
       "length": 2,
-      "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM1~CURE_ITEM4） 譯碼說明",
+      "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM1~CURE_ITEM4） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "specific treatment item code (one)",
       "description_en": "blank indicates no information, chronic disease continuous prescription dispensing this column is exempt from filling. See translation code explanation for details"
@@ -246,7 +246,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_CODE~ ICD9CM_CODE2）譯碼說明註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_CODE~ ICD9CM_CODE2）譯碼說明註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -285,7 +285,7 @@
       "name_en": "OP_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。",
+      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -324,7 +324,7 @@
       "name_en": "OP_CODE1",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。 2.92年起新增此欄位",
+      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。 2.92年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 105,
@@ -338,7 +338,7 @@
         }
       ],
       "name_zh_en": "secondary surgery code",
-      "description_en": "Left靠足補空白，ICD-9-PCS 的 主手术代码；预防保健、慢性病续处方调剂及中医本免填 注： 1. 卫生署规定医疗机构自2016年起以ICD-10-PCS 申报。 2. 自1992年起新增此字段"
+      "description_en": "Left-aligned, pad with spaces if insufficient; ICD-9-PCS primary procedure code. Leave this field blank for preventive care, chronic-illness refill prescription dispensing, and Chinese medicine. Note: 1. The National Health Insurance Administration requires medical institutions to report using ICD-10-PCS from ROC year 105 (AD 2016) onward. 2. This field was added starting ROC year 92 (AD 2003)."
     },
     {
       "seq": 26,
@@ -349,7 +349,7 @@
       "description_zh": "經加密處理，醫師或原處方醫師之國民身分證統一編號或外籍居留證號，左靠不足補空白",
       "available_notes": [],
       "name_zh_en": "physician ID number",
-      "description_en": "Encrypted, physician or original prescriber's National Health Insurance ID number or foreigner residence permit number, left-aligned with不足补空格"
+      "description_en": "Encrypted national ID number or Alien Resident Certificate number of the physician or original prescribing physician; left-aligned, pad with spaces if insufficient length."
     },
     {
       "seq": 27,
@@ -368,7 +368,7 @@
       "name_en": "DRUG_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項費用為OPDTO檔之醫令類別為1之用藥明細點數之小計，如為交付調劑之藥品費用，不得併入用藥明細點數小計內計算；西醫一般案件及中醫請依給藥日份計算用藥申報點數",
+      "description_zh": "此項費用為OPDTO檔之醫令類別為1之用藥明細點數之小計，如為交付調劑之藥品費用，不得併入用藥明細點數小計內計算；西醫一般案件及中醫請依給藥日份計算用藥申報點數",
       "available_notes": [],
       "name_zh_en": "medication detail points total",
       "description_en": "This fee is the subtotal of OPDTO file drug detail points for category 1, which can be combined with the total drug detail points if it's a delivered medication; calculate based on dispensing days for general medical cases and traditional Chinese medicine cases."
@@ -379,7 +379,7 @@
       "name_en": "CURE_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數之小計；慢性病連續處方調劑本欄免填",
+      "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數之小計；慢性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of consultation fee subtotal",
       "description_en": "This point value is the subtotal of each diagnostic and special material detail points for those with medical service classification code as 2 or 3, excluding medication; continuous prescription refills for chronic diseases should not be filled."
@@ -390,7 +390,7 @@
       "name_en": "DIAG_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫全民健保醫療點數支付標準碼。預防保健、洗腎、慢性病連續處方調劑本欄免填，補空白",
+      "description_zh": "填寫全民健保醫療點數支付標準碼。預防保健、洗腎、慢性病連續處方調劑本欄免填，補空白",
       "available_notes": [],
       "name_zh_en": "consultation fee item code",
       "description_en": "Fill in the National Health Insurance Medical Point Payment Standard form. Preventive health care, dialysis, and chronic disease follow-up prescriptions are exempt from filling this column, leave blank"
@@ -401,10 +401,10 @@
       "name_en": "DIAG_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "診察費點數。預防保健、洗腎、慢性病連續處方調劑本欄免填，請補 0。 詳見欄位診察點數（DIAG_DOT） 譯碼說明",
+      "description_zh": "診察費點數。預防保健、洗腎、慢性病連續處方調劑本欄免填，請補 0。 詳見欄位診察點數（DIAG_DOT） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "visit points",
-      "description_en": "Consultation fee points. Preventive healthcare, dialysis, chronic disease续处方调剂本 exempt filling, please fill in 0. See detail in the DIAG_DOT编码说明."
+      "description_en": "Consultation fee points. Leave this field blank (pad with zeros) for preventive care, dialysis, and chronic-illness refill prescription dispensing. See the consultation points (DIAG_DOT) coding explanation."
     },
     {
       "seq": 32,
@@ -434,7 +434,7 @@
       "name_en": "EXP_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數含部分負擔金額，如為交付調劑之藥品點數，不得併入合計點數內計算。本欄為「用藥明細點數小計」、「診療明細點數小計」、 「診察點數」、「藥事服務點數」 之合計",
+      "description_zh": "此項點數含部分負擔金額，如為交付調劑之藥品點數，不得併入合計點數內計算。本欄為「用藥明細點數小計」、「診療明細點數小計」、 「診察點數」、「藥事服務點數」 之合計",
       "available_notes": [],
       "name_zh_en": "total points",
       "description_en": "This point value includes copayment amount; if for a dispensed drug, it shall not be included in the total point calculation. This column is the sum of 'Medication Detail Point Total', 'Diagnosis Detail Point Total', 'Consultation Points', and 'Pharmaceutical Service Points'."
@@ -481,7 +481,7 @@
       "description_zh": "西醫案件分類為04且開具慢性病連續處方箋者本欄為必要欄位,其他補0",
       "available_notes": [],
       "name_zh_en": "total days of continuous prescription for chronic conditions",
-      "description_en": "For Western medicine cases classified as 04 and开具慢性病连续处方者本栏为必要栏位,其他补0"
+      "description_en": "This field is required when the Western medicine case classification is 04 and a chronic-illness refill prescription is issued; otherwise pad with zeros."
     },
     {
       "seq": 39,
@@ -692,7 +692,7 @@
         },
         {
           "code": "08",
-          "label_zh": "慢性病連續處方調劑",
+          "label_zh": "慢性病連續處方調劑",
           "label_en": "chronic disease续处方调配"
         },
         {
@@ -4287,12 +4287,12 @@
         },
         {
           "code": "IC97",
-          "label_zh": "102.06.01（費用年月）增訂住民其他 65歲以上老人流行感冒疫苗注射 01 IC01 88.10新增慢性病連續處方箋第二次（含） 以後調劑者代辦職災病患就診 06 IC06 89.01新增代辦門診戒菸 07 IC07 91.09新增代辦精神科強制住院 08 IC08 92.06新增代辦無健保病患（結核病、潛伏感染治療及接觸者診檢查、人類 95.01新增免疫缺乏病毒感染者、性病或藥 IC09 96.07修訂癮病患全面篩檢愛滋、愛滋防治替代治療計畫）就醫代辦性病或藥癮病患全面篩檢愛",
+          "label_zh": "102.06.01（費用年月）增訂住民其他 65歲以上老人流行感冒疫苗注射 01 IC01 88.10新增慢性病連續處方箋第二次（含） 以後調劑者代辦職災病患就診 06 IC06 89.01新增代辦門診戒菸 07 IC07 91.09新增代辦精神科強制住院 08 IC08 92.06新增代辦無健保病患（結核病、潛伏感染治療及接觸者診檢查、人類 95.01新增免疫缺乏病毒感染者、性病或藥 IC09 96.07修訂癮病患全面篩檢愛滋、愛滋防治替代治療計畫）就醫代辦性病或藥癮病患全面篩檢愛",
           "label_en": "1. From ROC year 99 (2010), the Health Promotion Administration expanded four cancer screenings (colorectal, oral, breast, and cervical), providing them through NHI-contracted preventive-care facilities, adding colorectal and oral cancer screening to preventive-care services, and expanding breast-cancer screening to include women aged 40 to under 45 who are second-degree relatives at high risk (mother, daughter, sister, grandmother having had breast cancer). 2. The government funds a free oral mucosal exam once every two years for people aged 30+ who chew betel nut (including those who quit) or smoke, and for indigenous people aged 18+ who chew betel nut. 3. Oral-cancer screening file contents:"
         },
         {
           "code": "10",
-          "label_zh": "IC10 97.06增訂滋病毒計畫無力繳納保費就醫 89 IC89 88.02增訂軍人代辦案件 91~96 87.07-90.02 非本保險保險對象之之器官捐贈 98 IC98 HMO巡迴醫療、921震災就醫， 符合資源共享，提供CT、MRI檢 IC99 93.07 查結果之院所申報誤為委任（或行政協助）醫療項",
+          "label_zh": "IC10 97.06增訂滋病毒計畫無力繳納保費就醫 89 IC89 88.02增訂軍人代辦案件 91~96 87.07-90.02 非本保險保險對象之之器官捐贈 98 IC98 HMO巡迴醫療、921震災就醫， 符合資源共享，提供CT、MRI檢 IC99 93.07 查結果之院所申報誤為委任（或行政協助）醫療項",
           "label_en": "ICD10 97.06 amendment Viral vaccination plan no payment for medical care 89 ICD89 88.02 amendment Military proxy cases 91~96 87.07-90.02 Non-insured organ donation 98 ICD98 HMO mobile doctors, 921 earthquake medical care, 符合 resource sharing, provide CT、MRI检查结果申报机构误为委任（或行政协助）医疗项目"
         },
         {
@@ -4939,7 +4939,7 @@
         },
         {
           "code": "E20",
-          "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止醫學中心；高利用率者；持殘障手冊；收容對象醫療服務計畫",
+          "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止醫學中心；高利用率者；持殘障手冊；收容對象醫療服務計畫",
           "label_en": "Tertiary medical center; high-risk patient * Effective from January 1, 1993 Stop tertiary medical center; high-risk patient; with disability certificate; service plan for recipients"
         },
         {
@@ -4974,7 +4974,7 @@
         },
         {
           "code": "F20",
-          "label_zh": "區域醫院；高利用率者 ＊ 93/1/1停止區域醫院；高利用率者；持殘障手冊；收容對象醫療服務計畫",
+          "label_zh": "區域醫院；高利用率者 ＊ 93/1/1停止區域醫院；高利用率者；持殘障手冊；收容對象醫療服務計畫",
           "label_en": "Regional hospital; high-dose user * effective from 93/1/1 Regional hospital; high-dose user; with disability certificate; medical services plan for recipients"
         },
         {
@@ -5004,7 +5004,7 @@
         },
         {
           "code": "G20",
-          "label_zh": "地區醫院；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "地區醫院；高利用率者 ＊ 93/1/1停止",
           "label_en": "regional hospital; high users * stopped on 93/1/1"
         },
         {
@@ -5029,7 +5029,7 @@
         },
         {
           "code": "H20",
-          "label_zh": "基層醫療；高利用率者 ＊ 93/1/1停止",
+          "label_zh": "基層醫療；高利用率者 ＊ 93/1/1停止",
           "label_en": "primary care clinic; high users * stopped on 93/1/1"
         },
         {
@@ -5179,7 +5179,7 @@
         },
         {
           "code": "S34",
-          "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
+          "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
           "label_en": "Primary care facility; referral (applicable to hospitals receiving referrals) plus drugs or traditional Chinese medicine for orthopedic injuries Note1: '＊' partial burden points are charged according to actual circumstances Note2: From January 93/01, high-cost medications and examinations/checks no longer have a partial burden until revised on January 27, 2026."
         }
       ],

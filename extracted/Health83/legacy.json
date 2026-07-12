@@ -34,7 +34,7 @@
         }
       ],
       "name_zh_en": "National ID number",
-      "description_en": "encrypted. national identity number or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with不足补空白。112年长度20"
+      "description_en": "Encrypted. National ID number, or Alien Resident Certificate number (if no resident certificate number, enter passport number); left-aligned, pad with spaces if insufficient. Length is 20 for ROC year 112 (AD 2023)."
     },
     {
       "seq": 2,
@@ -45,7 +45,7 @@
       "description_zh": "1：身分證；2： 護照",
       "available_notes": [],
       "name_zh_en": "document source",
-      "description_en": "1：身分證；2： 護照"
+      "description_en": "1: national ID card; 2: passport."
     },
     {
       "seq": 3,
@@ -564,7 +564,7 @@
       "description_zh": "0：身分證字號符合編碼原則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身分證字號符合編碼原 則；1：不符合"
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 48,
@@ -597,7 +597,7 @@
       "description_zh": "乳房攝影資料清理檔新增欄位經過整理的體重 (公斤)",
       "available_notes": [],
       "name_zh_en": "weight2",
-      "description_en": "weight (kg) field added to the breast imaging data cleaning file after整理"
+      "description_en": "Field added in the mammography data cleaning file: cleaned/processed body weight (kg)."
     },
     {
       "seq": 51,
@@ -608,7 +608,7 @@
       "description_zh": "乳房攝影資料清理檔新增欄位經過整理的身高 (公分)",
       "available_notes": [],
       "name_zh_en": "height2",
-      "description_en": "height (cm) field added to the breast imaging data cleaning file after整理"
+      "description_en": "Field added in the mammography data-cleaning file: cleaned height (cm)."
     },
     {
       "seq": 52,

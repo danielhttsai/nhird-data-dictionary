@@ -39,7 +39,7 @@
       "description_zh": "0：身分證字號符合編碼原則，1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
-      "description_en": "0：身份證字號符合編碼原則，1：不符合"
+      "description_en": "0: national ID number matches the coding rules; 1: does not match."
     },
     {
       "seq": 3,
@@ -177,7 +177,7 @@
         }
       ],
       "name_zh_en": "marital status",
-      "description_en": "「60-82年間」與「83年以後」譯碼不同， 詳譯碼說明"
+      "description_en": "Coding differs between \"ROC years 60-82 (AD 1971-1993)\" and \"ROC year 83 (AD 1994) onward\"; see the coding explanation."
     },
     {
       "seq": 11,
@@ -276,7 +276,7 @@
       "description_zh": "00：未滿 1日，01：滿1日，02：滿2 日， 以此類推，至 27：滿 27 日，88：非新生兒死亡",
       "available_notes": [],
       "name_zh_en": "newborn age",
-      "description_en": "00: less than 1 day, 01: 1 day or more, 02: 2 days or more,以此類推至27: 27 days or more, 88: non-newborn death"
+      "description_en": "00: less than 1 day old, 01: 1 full day, 02: 2 full days, and so on up to 27: 27 full days, 88: non-neonatal death."
     },
     {
       "seq": 16,
