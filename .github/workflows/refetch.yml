@@ -24,6 +24,8 @@ jobs:
         run: python scripts/extract_all.py
       - name: Diff
         run: python scripts/diff_versions.py
+      - name: Gap check (garbled / untranslated / referenced-but-unbuilt tables)
+        run: python scripts/gap_check.py   # prints to the run log; non-fatal signal
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
