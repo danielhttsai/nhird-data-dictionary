@@ -718,7 +718,7 @@
         {
           "code": "Z",
           "label_zh": "部分負擔代碼改變已切帳之醫令費用年月200601(含)以後為不可NULL之資料 2026年01月27日修訂說明： (1)欄位「藥品(項目)代號」欄位填報值為醫令代碼 R001~R008、S001~S004者，本項欄位請填G(專案支付參考數值） (2)依規定不得另行計價之藥品或診療項目(如論病例計酬案件包含於定額之項目、居家照護之特殊照護項目、洗腎包含於定額 4100元之項目、中醫及一般案件或交付處方之用藥品項等)申報時醫令類別請填4;不包含於定額費用內可另行計價之項目，餘請依醫令類別 1、2、3選擇適當類別申報計價費用。 例1：中醫以給藥日份乘上定額每日藥價來申報藥費(醫令類別為1，單價及金額依支付標準所列代碼填列)，而實際開給之中藥品項請以醫令類別4列報，單價及金額請填0。 例2：洗腎以定額4100元來申報(醫令類別為2，其代碼、單價及金額依支付標準碼所列填列)，而實際之處置、用藥品項請以醫令類別4列報，單價及金額請填0。 2026年01月27日修訂",
-          "label_en": ""
+          "label_en": "Co-payment code change: for order/prescription costs already billed, from month 200601 (inclusive) onward this field cannot be NULL. Revised 2026/01/27. Notes: (1) For the field 'Drug (Item) Code', where the entered value is order code R001-R008 or S001-S004, this field should be filled with G (special payment reference value). (2) For drugs or treatment items that may not be separately priced per regulation (e.g., items included in the case-payment lump sum, special home-care items, items included in the NT$4,100 dialysis lump sum, Chinese medicine and general cases or prescribed medication items, etc.), report the order category as 4; for items not included in the lump-sum fee that may be separately priced, report using order category 1, 2, or 3 as appropriate. Example 1: For Chinese medicine, report the drug fee by multiplying days supplied by the daily lump-sum drug price (order category 1, unit price and amount per the payment standard codes), while the actual Chinese medicine items dispensed are reported under order category 4 with unit price and amount as 0. Example 2: For dialysis, report using the NT$4,100 lump sum (order category 2, code/unit price/amount per the payment standard codes), while the actual procedures and medication items are reported under order category 4 with unit price and amount as 0. Revised 2026/01/27"
         }
       ],
       "field_en": "order type"
@@ -1911,7 +1911,8 @@
           "label_zh": "補報",
           "label_en": "supplementary reporting"
         }
-      ]
+      ],
+      "field_en": "Reporting category"
     },
     "CITY": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
@@ -3763,7 +3764,8 @@
           "label_zh": "連江縣東引鄉",
           "label_en": "Dongyin Township, Lienchiang County"
         }
-      ]
+      ],
+      "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療醫令明細檔─西醫、中醫及牙醫門診\n（HEALTH-04：H_NHI_OPDTO）\n資料庫使用手冊\n一、 檔案內容說明\n210,623,732筆（西醫）\n9,877,811筆（牙醫）\n檔案代號 H_NHI_OPDTO 資料筆數\n31,731,199筆（中醫）\n（以2024/12 為例）\n全民健保處方及治療醫令明\n中文檔名 英文檔名 Details ofAmbulatoryCareOrders\n細檔─西醫、中醫及牙醫門診\n1. 44GB（西醫）\n2. 2GB（牙醫）\n檔案大小 3. 7GB（中醫） 欄位數 22\n（以2024/12 為例）\n共601G\n譯碼簿 2009/11/01 初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27修訂\n1. 為一次門診多筆醫令資料。\n2. 相同之 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋SEQ_NO＋\nHOSP_ID視為同一次就醫之醫令。\n3. 每一筆資料包括醫令碼、數量及點數等。\n資料描述 4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、\n住院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央\n健康保險署首頁/健保服務/健保醫療費用/醫療費用申報與給付/醫療費用支付/醫\n療費用申報規定/醫療費用XML申報格式/全民健康保險醫事服務機構(門診、住\n院及交付機構)醫療費用點數申報格式及填表說明(版更日期109.08.13)\n1. 同一次門診之各筆醫令點數欄位(TOTAL_DOT)加總等於門診明細檔\n(H_NHI_OPDTE)之合計點數(T_DOT)。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n注意事項\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 醫療機構代碼(HOSP_ID)經加密處理。\n主鍵與比 2. 本 檔 無 病 人 身 份 證 字 號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\n對欄位 CASE_TYPE＋SEQ_NO＋HOSP_ID為鍵值與門診明細檔(H_NHI_OPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",

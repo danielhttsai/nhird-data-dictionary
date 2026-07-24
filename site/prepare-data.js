@@ -364,6 +364,7 @@ for (const item of catalogue) {
         code: item.code,
         version_id: v.version_id,
         field_zh: cb.field_zh,
+        field_en: cb.field_en || '',
         n_entries: cb.entries?.length || 0
       });
     }

@@ -66,12 +66,17 @@
 {#each [...groups] as [category, list]}
   <section class="py-8">
     <div class="flex items-baseline justify-between mb-4 gap-3">
-      <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-3">
+      <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-3 flex-wrap">
         <span class="pill pill-{category}">{category}</span>
-        <span>{category === 'Health' ? '健康保險與醫療登錄'
+        <span>{category === 'Health' ? 'Health insurance & medical registries'
+              : category === 'Society' ? 'Social surveys'
+              : category === 'Welfare' ? 'Social welfare & notifications'
+              : category === 'TWCR' ? 'Taiwan Cancer Registry full specification (TWCR)'
+              : 'Topic-specific value-added databases'}</span>
+        <span class="text-sm font-normal text-slate-500">{category === 'Health' ? '健康保險與醫療登錄'
               : category === 'Society' ? '社會調查'
               : category === 'Welfare' ? '社會福利與通報'
-              : category === 'TWCR' ? '台灣癌症登記詳細規格 (TWCR)'
+              : category === 'TWCR' ? '台灣癌症登記詳細規格'
               : '主題式加值資料庫'}</span>
       </h2>
       <span class="text-sm text-slate-500">{list.length} files</span>
@@ -88,10 +93,10 @@
                 {#if it.code_short}<span class="mono text-xs text-slate-400">{it.code_short}</span>{/if}
               </div>
               <h3 class="font-bold text-slate-900 leading-snug group-hover:text-brand-700">
-                {it.name_zh}
+                {it.name_en || it.name_zh}
               </h3>
-              {#if it.name_en}
-                <p class="text-xs text-slate-500 mt-1 line-clamp-2">{it.name_en}</p>
+              {#if it.name_en && it.name_zh}
+                <p class="text-xs text-slate-500 mt-1 line-clamp-2">{it.name_zh}</p>
               {/if}
             </div>
             {#if it.field_count}

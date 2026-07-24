@@ -50,7 +50,9 @@
       if (!term) return true;
       return (f.name_zh || '').toLowerCase().includes(term)
         || (f.name_en || '').toLowerCase().includes(term)
-        || (f.description_zh || '').toLowerCase().includes(term);
+        || (f.name_zh_en || '').toLowerCase().includes(term)
+        || (f.description_zh || '').toLowerCase().includes(term)
+        || (f.description_en || '').toLowerCase().includes(term);
     });
   });
 
@@ -89,10 +91,10 @@
   const HIST = { '初版': 'first edition', '修訂': 'revised', '新增': 'added', '修正': 'amended', '版': 'ed.' };
   function histNote(n) { n = (n || '').trim(); return HIST[n] ? `${n} · ${HIST[n]}` : n; }
   function vGroup(v) {
-    if (v.file_type === 'xls') return '編碼簿 Codebooks';
-    if (v.version_id.includes('__wave_')) return '附屬檔 / 波次 Sub-files';
-    if (v.version_id.includes('twcr_manual')) return '癌症登記手冊 Registry manual (TWCR)';
-    return '主檔 Main versions';
+    if (v.file_type === 'xls') return 'Codebooks 編碼簿';
+    if (v.version_id.includes('__wave_')) return 'Sub-files / waves 附屬檔';
+    if (v.version_id.includes('twcr_manual')) return 'Registry manual (TWCR) 癌症登記手冊';
+    return 'Main versions 主檔';
   }
   // Build grouped option list — only versions with an actual field table
   // (0-field supplementary docs like 問卷/實施計畫 are reachable via the
@@ -110,7 +112,7 @@
   const manyVersions = $derived(selectable.length > 8);
 </script>
 
-<svelte:head><title>{file.code} — {file.name_zh} — NHIRD data dictionary</title></svelte:head>
+<svelte:head><title>{file.code} — {file.name_en || file.name_zh} — NHIRD data dictionary</title></svelte:head>
 
 <div class="space-y-6">
   <nav class="text-sm">
@@ -123,8 +125,8 @@
       <span class="pill pill-{file.category}">{file.category}</span>
       {#if meta?.code_short}<span class="mono text-xs text-slate-500">{meta.code_short}</span>{/if}
     </div>
-    <h1 class="text-3xl font-extrabold text-slate-900 leading-tight">{file.name_zh}</h1>
-    {#if file.name_en}<p class="text-slate-500 text-sm">{file.name_en}</p>{/if}
+    <h1 class="text-3xl font-extrabold text-slate-900 leading-tight">{file.name_en || file.name_zh}</h1>
+    {#if file.name_en && file.name_zh}<p class="text-slate-500 text-sm">{file.name_zh}</p>{/if}
   </header>
 
   <!-- Version selector -->
@@ -182,7 +184,8 @@
     <a href="{base}/file/{file.code}/diff/"
        class="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm hover:border-brand-400 transition group">
       <span class="text-sm font-semibold text-slate-800">
-        版本沿革 <span class="text-slate-300 font-normal mx-1">·</span>
+        Version history <span class="text-slate-400 font-normal text-xs">版本沿革</span>
+        <span class="text-slate-300 font-normal mx-1">·</span>
         <span class="text-slate-600 font-normal">compare fields across {selectable.length} versions</span>
       </span>
       <span class="text-sm font-semibold text-brand-700 group-hover:underline whitespace-nowrap shrink-0">Open →</span>
@@ -230,27 +233,27 @@
       {#if meta.data_description_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Data description</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.data_description_zh}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.data_description_en || meta.data_description_zh}</p>
           {#if meta.data_description_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_zh}</p>
           {/if}
         </div>
       {/if}
       {#if meta.notes_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Notes</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.notes_zh}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.notes_en || meta.notes_zh}</p>
           {#if meta.notes_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_zh}</p>
           {/if}
         </div>
       {/if}
       {#if meta.primary_keys_raw}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Primary keys / linkage</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.primary_keys_raw}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.primary_keys_en || meta.primary_keys_raw}</p>
           {#if meta.primary_keys_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_en}</p>
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_raw}</p>
           {/if}
         </div>
       {/if}
@@ -303,13 +306,13 @@
             <thead>
               <tr>
                 <th class="w-12 text-right">#</th>
-                <th>中文欄位</th>
-                <th>English (code)</th>
-                <th>型態</th>
-                <th class="text-right">長</th>
-                <th>資料描述</th>
-                <th>譯碼</th>
-                <th>可用</th>
+                <th>Field name <span class="font-normal text-slate-400">名稱</span></th>
+                <th>Code</th>
+                <th>Type</th>
+                <th class="text-right">Len</th>
+                <th>Description <span class="font-normal text-slate-400">描述</span></th>
+                <th>Codes</th>
+                <th>Since</th>
               </tr>
             </thead>
             <tbody>
@@ -317,9 +320,9 @@
                 <tr>
                   <td class="text-right tabular-nums text-slate-400">{f.seq}</td>
                   <td>
-                    <div class="font-medium text-slate-800">{f.name_zh}</div>
-                    {#if f.name_zh_en}
-                      <div class="text-xs text-slate-500 mt-0.5">{f.name_zh_en}</div>
+                    <div class="font-medium text-slate-800">{f.name_zh_en || f.name_zh}</div>
+                    {#if f.name_zh_en && f.name_zh}
+                      <div class="text-xs text-slate-500 mt-0.5">{f.name_zh}</div>
                     {/if}
                   </td>
                   <td class="mono group">
@@ -336,9 +339,9 @@
                   <td class="text-slate-700 text-xs">{f.type}</td>
                   <td class="text-right tabular-nums text-slate-600">{f.length ?? ''}</td>
                   <td class="text-xs text-slate-700 max-w-md whitespace-pre-line leading-relaxed">
-                    <div>{f.description_zh}</div>
-                    {#if f.description_en}
-                      <div class="text-slate-500 mt-1">{f.description_en}</div>
+                    <div>{f.description_en || f.description_zh}</div>
+                    {#if f.description_en && f.description_zh}
+                      <div class="text-slate-500 mt-1">{f.description_zh}</div>
                     {/if}
                     {#if f.section}
                       <div class="text-[10px] text-slate-400 mt-1">§ {f.section}</div>

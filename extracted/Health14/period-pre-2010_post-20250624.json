@@ -5304,7 +5304,8 @@
           "label_zh": "診斷年齡不詳",
           "label_en": "age at diagnosis not documented"
         }
-      ]
+      ],
+      "field_en": "Age at diagnosis"
     },
     "AJCC_ED": {
       "field_zh": "AJCC 癌症分期版本",
@@ -5335,7 +5336,8 @@
           "label_zh": "判定期別，但版本不詳",
           "label_en": "Staged, but edition unknown"
         }
-      ]
+      ],
+      "field_en": "AJCC cancer staging version"
     },
     "CSTATUS": {
       "field_zh": "癌症狀態",
@@ -5356,7 +5358,8 @@
           "label_zh": "未知，不確定此一原發癌症是否存在，病歷未記載",
           "label_en": "Unknown, uncertain if primary cancer exists due to lack of medical record"
         }
-      ]
+      ],
+      "field_en": "Cancer status"
     },
     "IDNO_ROC": {
       "field_zh": "身分證字號檢誤",
@@ -5372,7 +5375,8 @@
           "label_zh": "不符合",
           "label_en": "does not conform"
         }
-      ]
+      ],
+      "field_en": "National ID number check error"
     },
     "IDNO_S": {
       "field_zh": "性別",
@@ -5393,7 +5397,8 @@
           "label_zh": "不詳",
           "label_en": "Unknown"
         }
-      ]
+      ],
+      "field_en": "Sex"
     },
     "LATERAL": {
       "field_zh": "側性",
@@ -5429,7 +5434,8 @@
           "label_zh": "成對器官，位於身體中線的腫瘤",
           "label_en": "Paired organ, tumor located at the body midline"
         }
-      ]
+      ],
+      "field_en": "Laterality"
     },
     "ORT_NF": {
       "field_zh": "其他放射治療臨床標靶體積治療次數",
@@ -5460,7 +5466,8 @@
           "label_zh": "資料不詳，不清楚有沒有其他特殊放射療法",
           "label_en": "data not available, unclear whether there were any other special radiotherapy treatments"
         }
-      ]
+      ],
+      "field_en": "Number of treatment sessions for other radiotherapy clinical target volume"
     },
     "OSTAGE_ED": {
       "field_zh": "其他分期系統版本",
@@ -5481,7 +5488,8 @@
           "label_zh": "不清楚所使用之其他分期系統的版本(不詳)",
           "label_en": "Unclear about the version of the other staging system used (unknown)"
         }
-      ]
+      ],
+      "field_en": "Other staging system version"
     },
     "RTH_NF": {
       "field_zh": "最高放射劑量臨床標靶體積治療次數",
@@ -5512,7 +5520,8 @@
           "label_zh": "資料不詳，不清楚有沒有體外放射治療",
           "label_en": "Data unclear, unsure if there was external beam radiation therapy"
         }
-      ]
+      ],
+      "field_en": "Number of treatments at highest radiation dose to clinical target volume"
     },
     "RTL_NF": {
       "field_zh": "較低放射劑量臨床標靶體積治療次數",
@@ -5543,7 +5552,8 @@
           "label_zh": "資料不詳，不清楚有沒有體外放射治療",
           "label_en": "Data is missing, unclear whether there was external radiation therapy"
         }
-      ]
+      ],
+      "field_en": "Number of treatments with lower radiation dose clinical target volume"
     },
     "SEX": {
       "field_zh": "原始檔性別",
@@ -5574,7 +5584,8 @@
           "label_zh": "不詳或在病歷上未記載",
           "label_en": "Unknown or not recorded in the medical history"
         }
-      ]
+      ],
+      "field_en": "Original file sex"
     },
     "VSTATUS": {
       "field_zh": "生存狀態",
@@ -5590,7 +5601,8 @@
           "label_zh": "存活",
           "label_en": "alive"
         }
-      ]
+      ],
+      "field_en": "Survival status"
     },
     "RESID": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
@@ -7442,7 +7454,8 @@
           "label_zh": "連江縣東引鄉",
           "label_en": "Dongyin Township, Lienchiang County"
         }
-      ]
+      ],
+      "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔長表 LF(2010 年以前版本)\n（HEALTH-14：H_BHP_CRFLF_1）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFLF_1 資料筆數 329,094筆 (2022年)\n中文檔名 癌症登記檔長表 LF 英文檔名 Taiwan Cancer Registry—Long Form\n(2007-2010年)\n檔案大小 110 MB 欄位數 88\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24初版\n更新日期\n資料描述\n1. 各醫院自2007 年起新診斷的癌症個案應全部改採新版癌症登記項目申報。其中 50\n床以上的醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；另原參與 TCDB\n申報的醫院，則依長表摘錄手冊申報六大癌症(子宮頸癌、乳癌、口腔癌、肺癌、肝\n癌、結直腸癌)之發生和診療詳細資料。\n2. 自2008診斷年新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n3. 自 2009 診斷年新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n4. AJCC 癌症分期版本於診斷年 2007-2009 年採用第六版申報，自診斷年 2010年起個\n案，均採用第七版申報。\n注意事項 1. 自2007年起，癌症登記長表申報均採用95欄位；且適用於所有診斷年2002至2010\n年個案，故癌症登記長表 95欄位資料庫包含部分 2002至2006 診斷年之個案。\n2. 長表醫院所需申報之癌症類型除 2007 年申報的子宮頸癌、乳癌、結直腸癌、口腔\n癌、肺癌、肝癌，及 2008 年新增的攝護腺癌、胃癌、食道癌和膀胱癌外，2009年\n再增加鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共 15種癌症。\n3. AJCC 癌症分期第六版與第七版之間，因部分癌別其 TNM 與期別組合 Stage 在兩\n個版本之間有不同，故分析不同診斷年之間的期別分布時，應小心詮釋。\n4. 首次復發資料收錄為個案經診斷為癌症後，追蹤滿五年內是否首次發生癌症復發狀\n態，僅個案分類 1與2 者須追蹤申報該欄位內容。若五年內首次復發後，仍再重複\n復發，本欄位僅記錄第一次復發狀態；若超過五年後才發生首次復發，則本欄位登\n錄為無復發。有關復發資訊僅於診斷後滿一年與滿五年各申報一次。\n5. 死亡日期、死亡原因等欄位，因受限於醫院申報癌登資料之時程，此二欄位較不完\n整，若需完整資料，建議申請死因統計檔使用。\n6. 本使用手冊係依據臺灣癌症登記中心手冊，詳細內容請至臺灣癌症登記中心網頁下\n載，如「96 年版台灣癌症登記摘錄手冊」。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n1",

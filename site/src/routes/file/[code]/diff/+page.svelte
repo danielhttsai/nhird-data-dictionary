@@ -154,7 +154,8 @@
             {#each A as f}
               <li class="py-2">
                 <a href="{base}/file/{file.code}/field/{f.name_en}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{f.name_en}</a>
-                <div class="text-xs text-slate-500">{f.name_zh}</div>
+                <div class="text-xs text-slate-500">{f.name_zh_en || f.name_zh}</div>
+                {#if f.name_zh_en && f.name_zh}<div class="text-[11px] text-slate-400">{f.name_zh}</div>{/if}
               </li>
             {/each}
           </ul>
@@ -192,7 +193,7 @@
             {#each R as f}
               <li class="py-2">
                 <span class="mono text-sm text-slate-500 line-through decoration-slate-300">{f.name_en}</span>
-                <div class="text-xs text-slate-400">{f.name_zh}</div>
+                <div class="text-xs text-slate-400">{f.name_zh_en || f.name_zh}</div>
               </li>
             {/each}
           </ul>

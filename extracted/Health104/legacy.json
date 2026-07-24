@@ -786,12 +786,12 @@
         {
           "code": "2015",
           "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的人分類到comD10_DMC。 2.有comD11_CRF其他代碼而沒有 comD10_DMC 其他代碼的人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人分類到最早被記載到的其他代碼。 3-2.最早被記載到的其他代碼因日期相同無法區別先後順序者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 comD10_DMC 其他代碼,而也沒有 comD11_CRF 其他代碼分類到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
-          "label_en": ""
+          "label_en": "From [year] the International Classification of Diseases in the NHI database was converted from ICD-9-CM to ICD-10-CM, so the comorbidity ICD-9-CM codes must be recoded to ICD-10-CM per the NHIA announcement. Uncertain correspondences are handled by the following rules: 1. Those with a comD10_DMC other code, and E10.21/E11.21, but without a comD11_CRF other code, are classified as comD10_DMC. 2. Those with a comD11_CRF other code but without a comD10_DMC other code are classified as comD11_CRF. 3-1. Those with both comD10_DMC and comD11_CRF other codes are classified by whichever other code was recorded earliest. 3-2. If the earliest recorded other codes cannot be ordered because dates are identical, both are treated as comD10_DMC and [comD11_CRF]. 4. Those with only E10.21/E11.21 [reference: Establishment of Health Big Data Thematic Database and Integrated Analysis - Establishment of Cancer Precision Medicine Thematic Database (I), version date 2025/12/30] and no comD10_DMC other code, and also no comD11_CRF other code, are classified as comD11_CRF. 401.1, those with only I10 and without a comD17_HTU other"
         },
         {
           "code": "I10",
           "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對應檔(112.05.09更新)，網址： (九) B 型肝炎口服抗病毒藥物成分名稱藥品代碼",
-          "label_en": ""
+          "label_en": "comD17_HTU 401.9 other codes, and there is also no comD18_HTC its 401.0 comD18_HTC other codes classified into comD17_HTU. *\"+\" indicates that the preceding and following codes appeared together in the same outpatient or inpatient file in a given instance. The preceding code is the first diagnosis in the combination, the following code is the second diagnosis in the combination. For the ordering rule, see the Ministry of Health and Welfare National Health Insurance Administration's 2014 edition ICD-9-CM to 2001 edition ICD-10-CM/PCS correspondence file (updated 112.05.09), website: (9) Hepatitis B oral antiviral drug ingredient name drug code"
         },
         {
           "code": "ADEFOVIR",
@@ -2651,7 +2651,8 @@
           "label_zh": "連江縣東引鄉",
           "label_en": "Dongyin Township, Lienchiang County"
         }
-      ]
+      ],
+      "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
   "raw_text_first_page": "建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30\n肝癌主題式資料庫使用手冊\n一、 檔案內容說明\n檔案代號 DATAY1_ Liver _111 資料筆數 肝癌研究主檔(1979-2022)：\nDATA:資料名稱 359,103筆\nY1:資料年度\n中文檔名 肝癌主題式資料庫 英文檔名 Liver Cancer Health Database\n屬性 歷史檔 週期 年\n檔案大小 192GB 譯碼簿 2025/12/30\n更新日期\n檔案列表 本資料庫包含以下 14個檔：\n及 其 年\n1. 肝癌門急診明細檔 (2000-2023)：51\n度、欄位\n2. 肝癌住院明細檔 (2000-2023)：80\n數\n3. 肝癌藥局明細檔 (2000-2023)：44\n4. 肝癌門急診醫令檔 (2000-2023)：21\n5. 肝癌住院醫令檔 (2000-2023)：22\n6. 肝癌藥局醫令檔 (2000-2023)：17\n7. 肝癌承保檔 (2000-2023)：30\n8. 肝癌重大傷病檔 (2001-2023)：27\n9. 肝癌死因統計合併檔 (1985-2023)：18 (合併 1985-2023 年\n的死因統計檔)\n10. 肝癌癌登檔LF (2007-2022)：118\n11. 肝癌癌登檔SF (2007-2022)：42\n12. 肝癌癌登檔TCDB (2002-2006)：65\n13. 肝癌癌登年報檔 (1979-2022)：13\n14. 肝癌研究主檔 (1979-2022)：55\n資料描述 肝癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年報檔\n(H_BHP_CRSSC)中之每一肝癌患者在癌症登記檔(包括長表LF、短表SF\n和 TCDB)及健保檔、死因統計合併檔，共 14 個資料檔之所有資訊。詳\n細定義如下：\n1. 定義肝癌個案：\n肝癌個案為癌症登記年報檔(H_BHP_CRSSC)1979-2022年(經IDNO\n清理後)中，曾有一筆其原發部位(CASITE)的前三碼為 155 (癌症登\n1",

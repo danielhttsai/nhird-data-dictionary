@@ -2017,7 +2017,7 @@
         {
           "code": "Z7",
           "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2025年04月01日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
-          "label_en": ""
+          "label_en": "Nutrition counseling institution (added ROC year 99) Private nutrition counseling institution Revised 2025-04-01. ROC year 83-109 Clinic Ownership-Type Code Table (adjusted as of ROC year 109). Code / Content-Ownership: Public other medical institution 44; Private medical institution attached psychiatric rehabilitation facility 86; Private other medical institution 45; Public other medical-affairs institution 91; Other medical institution established by public-welfare juridical person 46; Foundation other medical-affairs institution 92; Pharmacy 59; Other medical-affairs institution attached to other juridical person 93; Registered Chinese-medicine dealer 60; Private other medical-affairs institution 94; Manufacturing industry 61; Other medical-affairs institution attached to foundation medical institution 97; Sales industry 62; Other (other medical-affairs institution) 98; Public nursing institution 71; Public non-medical-affairs institution 9A; Foundation nursing institution 72; Medical juridical-person non-medical-affairs institution 9K; Private nursing institution (attached to other juridical person) 73; Foundation non-medical-affairs institution 9N; Private nursing institution (individually established) 74; Juridical-person attached non-medical-affairs institution 9T; Public medical institution attached maternity/midwifery institution 75; Private non-medical-affairs institution 9Y; Private medical institution attached maternity/midwifery institution 76; Other (maternity/midwifery institution) 78; Public psychiatric rehabilitation institution 81; Medical institution of juridical person or other civic group attached psychiatric rehabilitation facility 82; Private psychiatric rehabilitation institution 84; Public medical institution attached psychiatric rehabilitation facility 85"
         }
       ],
       "field_en": "ownership type"
@@ -2046,7 +2046,8 @@
           "label_zh": "申復補報",
           "label_en": "resubmit for supplementary report"
         }
-      ]
+      ],
+      "field_en": "Reporting category"
     },
     "CITY": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
@@ -3898,7 +3899,8 @@
           "label_zh": "連江縣東引鄉",
           "label_en": "Dongyin Township, Lienchiang County"
         }
-      ]
+      ],
+      "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療明細檔─西醫住院\n（HEALTH-02：H_NHI_IPDTE）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_IPDTE 資料筆數 3,688,427筆（以2024為例）\n中文檔名 全民健保處方及治療明 英文檔名 Inpatient Expenditures byAdmissions\n細檔—西醫住院\n檔案大小 3.3GB（以2024為例） 欄位數 80\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27修訂\n資料描述 1. 原則上一次或一段期間住院一筆資料。\n2. 包含病人當次住院之診斷、醫療機構及費用等相關資料。\n注意事項 1. 病人住院期間較長時(通常超過一個月以上)，按月申報住院資料，因此要計算一\n次住院必須將切帳資料歸戶處理。\n2. 補報資料應審慎處理，計算費用時，補報資料應合併計算；但計算醫療利用(人次\n或人日)時，若為整筆補報應計入，若為部分費用補報則不應重覆計算。\n3. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、\n住院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央\n健康保險署首頁∕醫事機構∕醫療費用支付∕醫療費用申報規定∕醫療費用 XML\n申報格式∕全民健康保險醫事服務機構(門診、住院及交付機構)醫療費用點數申\n報格式及填表說明。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 身分證字號(ID)、醫師身分證字號(PRSN_ID)及醫療機構代碼(HOSP_ID)經加密處\n對欄位\n理。\n2. 本檔的唯一鍵值為：FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋\nSEQ_NO＋HOSP_ID，此為與住院醫令檔(H_NHI_IPDTO)對照之鍵值。\n3. 歸同次住院的鍵值：ID＋HOSP_ID＋IN_DATE。\n4. 個人歸戶及個人資料對照的鍵值：ID。\n5. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。",

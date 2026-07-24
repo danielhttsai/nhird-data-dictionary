@@ -17,7 +17,8 @@
     const t = q.trim().toLowerCase();
     return list.filter(([k, items]) =>
       k.toLowerCase().includes(t)
-      || items.some(it => (it.field_zh || '').toLowerCase().includes(t))
+      || items.some(it => (it.field_zh || '').toLowerCase().includes(t)
+                       || (it.field_en || '').toLowerCase().includes(t))
     );
   });
 </script>
@@ -57,7 +58,7 @@
                        href="{base}/file/{it.code}/field/{name}/?v={it.version_id}">
                       {it.code}/{it.version_id}
                     </a>
-                    <span class="text-slate-500">({it.field_zh}, {it.n_entries})</span>
+                    <span class="text-slate-500">({it.field_en || it.field_zh}, {it.n_entries})</span>
                   {/each}
                 </td>
               </tr>

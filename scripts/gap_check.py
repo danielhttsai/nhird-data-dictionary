@@ -17,8 +17,11 @@ def norm(s):
     s = s.replace('鄉鎮市區', '鄉鎮').replace('縣市鄉鎮', '鄉鎮').replace('鄉鎮市', '鄉鎮')
     return s.replace('表', '').strip()
 
-garbled = untr_name = untr_desc = half_en = 0
-sg, su, sh = [], [], []
+HAN = re.compile(r'[一-鿿]')
+def zh(s): return bool(s) and bool(HAN.search(s))
+
+garbled = untr_name = untr_desc = half_en = untr_label = untr_cbt = untr_file = 0
+sg, su, sh, sl = [], [], [], []
 cb_names = set()          # every table a codebook already defines (by field_zh)
 refs = {}                 # normalized table name -> example "code:field"
 for f in glob.glob('extracted/*/*.json'):
@@ -30,6 +33,17 @@ for f in glob.glob('extracted/*/*.json'):
         if isinstance(cb, dict):
             cb_names.add(norm(cb.get('field_zh', '')))
             cb_names.add(norm(nm))
+            if zh(cb.get('field_zh')) and not (cb.get('field_en') or '').strip():
+                untr_cbt += 1
+            for e in cb.get('entries', []):
+                lz = (e.get('label_zh') or '').strip()
+                if zh(lz) and U not in lz and not (e.get('label_en') or '').strip():
+                    untr_label += 1
+                    if len(sl) < 5: sl.append(f'{code}:{nm}:{lz[:14]}')
+    for kz, ke in [('data_description_zh', 'data_description_en'), ('notes_zh', 'notes_en'),
+                   ('primary_keys_raw', 'primary_keys_en'), ('name_zh', 'name_zh_en')]:
+        if zh(d.get(kz)) and not (d.get(ke) or '').strip():
+            untr_file += 1
     for x in d.get('fields', []):
         nz = (x.get('name_zh') or '').strip()
         if not nz:
@@ -71,6 +85,9 @@ if garbled: gaps.append(f'garbled names: {garbled} {sg}')
 if untr_name: gaps.append(f'untranslated names: {untr_name} {su}')
 if untr_desc: gaps.append(f'untranslated descriptions: {untr_desc}')
 if half_en: gaps.append(f'English descriptions still containing Chinese: {half_en} {sh}')
+if untr_label: gaps.append(f'codebook labels missing English: {untr_label} {sl}')
+if untr_cbt: gaps.append(f'codebook table titles missing English: {untr_cbt}')
+if untr_file: gaps.append(f'file-level blocks missing English: {untr_file}')
 if missing:
     gaps.append(f'named code-tables referenced but NOT built: {len(missing)}')
     for nm, ex in sorted(missing.items()):

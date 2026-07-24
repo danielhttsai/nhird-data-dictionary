@@ -5558,7 +5558,8 @@
           "label_zh": "診斷年齡不詳",
           "label_en": "age at diagnosis not documented"
         }
-      ]
+      ],
+      "field_en": "Age at diagnosis"
     },
     "AJCC_ED": {
       "field_zh": "AJCC 癌症分期版本",
@@ -5589,7 +5590,8 @@
           "label_zh": "判定期別，但版本不詳",
           "label_en": "Staged, but edition unknown"
         }
-      ]
+      ],
+      "field_en": "AJCC cancer staging version"
     },
     "IDNO_ROC": {
       "field_zh": "身分證字號檢誤",
@@ -5605,7 +5607,8 @@
           "label_zh": "不符合",
           "label_en": "does not conform"
         }
-      ]
+      ],
+      "field_en": "National ID number check error"
     },
     "IDNO_S": {
       "field_zh": "性別",
@@ -5626,7 +5629,8 @@
           "label_zh": "不詳",
           "label_en": "Unknown"
         }
-      ]
+      ],
+      "field_en": "Sex"
     },
     "LATERAL": {
       "field_zh": "側性",
@@ -5662,7 +5666,8 @@
           "label_zh": "成對器官，位於身體中線的腫瘤",
           "label_en": "Paired organ, tumor located at the body midline"
         }
-      ]
+      ],
+      "field_en": "Laterality"
     },
     "ORT_NF": {
       "field_zh": "其他放射治療臨床標靶體積治療次數",
@@ -5693,7 +5698,8 @@
           "label_zh": "資料不詳，不清楚有沒有其他特殊放射療法",
           "label_en": "data not available, unclear whether there were any other special radiotherapy treatments"
         }
-      ]
+      ],
+      "field_en": "Number of treatment sessions for other radiotherapy clinical target volume"
     },
     "RTH_NF": {
       "field_zh": "最高放射劑量臨床標靶體積治療次數",
@@ -5724,7 +5730,8 @@
           "label_zh": "資料不詳，不清楚有沒有體外放射治療",
           "label_en": "Data unclear, unsure if there was external beam radiation therapy"
         }
-      ]
+      ],
+      "field_en": "Number of treatments at highest radiation dose to clinical target volume"
     },
     "RTL_NF": {
       "field_zh": "較低放射劑量臨床標靶體積治療次數",
@@ -5755,7 +5762,8 @@
           "label_zh": "資料不詳，不清楚有沒有體外放射治療",
           "label_en": "Data is missing, unclear whether there was external radiation therapy"
         }
-      ]
+      ],
+      "field_en": "Number of treatments with lower radiation dose clinical target volume"
     },
     "SEX": {
       "field_zh": "原始檔性別",
@@ -5786,7 +5794,8 @@
           "label_zh": "不詳或在病歷上未記載",
           "label_en": "Unknown or not recorded in the medical history"
         }
-      ]
+      ],
+      "field_en": "Original file sex"
     },
     "VSTATUS": {
       "field_zh": "生存狀態",
@@ -5802,7 +5811,8 @@
           "label_zh": "存活",
           "label_en": "alive"
         }
-      ]
+      ],
+      "field_en": "Survival status"
     },
     "RESID": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
@@ -7654,7 +7664,8 @@
           "label_zh": "連江縣東引鄉",
           "label_en": "Dongyin Township, Lienchiang County"
         }
-      ]
+      ],
+      "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔長表 LF (2018 年以後版本)\n（HEALTH-14：H_BHP_CRFLF_3）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFLF_3 資料筆數 832,459筆(2022年)\n中文檔名 癌症登記檔長表 LF 英文檔名 Taiwan Cancer Registry—Long Form\n(2018年)\n檔案大小 340 MB 欄位數 112\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24 初版\n更新日期\n資料描述\n1. 各醫院自 2018 年起新診斷的癌症個案改採 107 年版癌症登記項目申報。50 床以上\n醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；其中參與長表申報醫院，\n依長表摘錄手冊申報主要癌症的期別、詳細治療與復發等重要癌症照護資料。(少數\n資料會包含 2017診斷年以前之補申報個案)\n2. 自2002診斷年起，長表 TCDB首先針對子宮頸癌、乳癌、口腔癌、結直腸癌、肝癌、\n肺癌來收錄。\n3. 自2008診斷年起新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n4. 自2009診斷年起新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n5. 自2013診斷年起新增喉癌，共十六大癌症。\n6. 自2022診斷年起新增胰臟癌，共十七大癌症。\n7. AJCC 癌症分期版本於長表資料庫內共有三種版本：\n2003-2009年間診斷為癌症之個案，以 AJCC第六版作為分期依據。\n2010-2017年間診斷為癌症之個案，以 AJCC第七版作為分期依據。\n2018年起診斷為癌症之個案，以 AJCC 第八版作為分期依據。\n2021年起診斷為子宮頸癌個案，以AJCC 第九版作為分期依據。\n自AJCC 第九版起，各癌症依需求更新期別資訊。\n8. 有關長表資料分析指引，可參考台灣癌症登記中心網站：https://twcr.tw/?p=3284。\n9. 欲分析放射治療儀器或劑量等詳細資訊，請務必參閱臺灣癌症登記長表摘錄手冊內\n容，並注意各放療欄位間之相關性。\n注意事項 1. 為因應癌症診療實務之需求，國民健康署於民國 98年起，開始著手規劃於台灣癌\n症登記長表資料庫中增收癌症部位特定因子之資料；同時基於公共衛生的考量，並\n將吸菸、嚼檳榔、飲酒、身體及體重之收錄納入 100年版癌症登記摘錄手冊中增\n修。\n2. 長表醫院所需申報之癌症類型除 2007 年申報的子宮頸癌、乳癌、結直腸癌、口腔\n癌、肺癌、肝癌，及 2008年新增的攝護腺癌、胃癌、食道癌和膀胱癌外，2009年\n再增加鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，2010年擴大至男、\n女前10癌(口腔癌、結直腸癌、肝癌、肺癌、乳癌、子宮頸癌、食道癌、胃癌、攝\n1",

@@ -19,8 +19,11 @@
   <header>
     <div class="flex items-baseline gap-3 flex-wrap">
       <span class="mono text-2xl font-extrabold text-brand-700">{fieldName}</span>
-      {#if latest}<span class="text-slate-700 font-semibold">— {latest.field.name_zh}</span>{/if}
+      {#if latest}<span class="text-slate-700 font-semibold">— {latest.field.name_zh_en || latest.field.name_zh}</span>{/if}
     </div>
+    {#if latest?.field.name_zh_en && latest?.field.name_zh}
+      <p class="text-sm text-slate-500 mt-0.5">{latest.field.name_zh}</p>
+    {/if}
     <p class="text-sm text-slate-600 mt-1">
       in <a class="text-brand-700 hover:underline font-semibold" href="{base}/file/{code}/">{code}</a> {fileNameZh}
     </p>
@@ -30,12 +33,6 @@
     <p class="text-slate-600">Field not found in this file.</p>
   {:else}
     <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm grid grid-cols-2 gap-4 text-sm">
-      {#if latest.field.name_zh_en}
-        <div class="col-span-2 -mb-2">
-          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold">English name</div>
-          <div class="text-base font-semibold text-slate-800">{latest.field.name_zh_en}</div>
-        </div>
-      {/if}
       <div>
         <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold">Type</div>
         <div class="mono text-base font-bold text-slate-900">{latest.field.type}</div>
@@ -46,9 +43,9 @@
       </div>
       <div class="col-span-2">
         <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Description</div>
-        <p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.description_zh}</p>
-        {#if latest.field.description_en}
-          <p class="whitespace-pre-line leading-relaxed text-slate-500 text-sm mt-2">{latest.field.description_en}</p>
+        <p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.description_en || latest.field.description_zh}</p>
+        {#if latest.field.description_en && latest.field.description_zh}
+          <p class="whitespace-pre-line leading-relaxed text-slate-500 text-sm mt-2">{latest.field.description_zh}</p>
         {/if}
       </div>
       {#if latest.field.available_notes?.length}
@@ -72,8 +69,11 @@
 
     {#if latest.codebook && latest.codebook.entries?.length}
       <section>
-        <h2 class="text-sm font-bold text-slate-900 mb-1 flex items-center gap-2">
-          Codebook — {latest.codebook.field_zh}
+        <h2 class="text-sm font-bold text-slate-900 mb-1 flex items-center gap-2 flex-wrap">
+          Codebook — {latest.codebook.field_en || latest.codebook.field_zh}
+          {#if latest.codebook.field_en && latest.codebook.field_zh}
+            <span class="text-xs font-normal text-slate-500">{latest.codebook.field_zh}</span>
+          {/if}
           <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">
             {latest.codebook.entries.length} entries
           </span>
@@ -100,8 +100,8 @@
                   <span class="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-brand-400"></span>
                   <div>
                     <div class="font-semibold text-brand-800">{r.ver}</div>
-                    {#if r.note_zh}<div class="text-slate-700 leading-relaxed">{r.note_zh}</div>{/if}
-                    {#if r.note_en}<div class="text-slate-500 leading-relaxed">{r.note_en}</div>{/if}
+                    {#if r.note_en}<div class="text-slate-700 leading-relaxed">{r.note_en}</div>{/if}
+                    {#if r.note_zh}<div class="text-slate-500 leading-relaxed">{r.note_zh}</div>{/if}
                   </div>
                 </li>
               {/each}
@@ -111,14 +111,14 @@
         <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="overflow-x-auto max-h-96 overflow-y-auto">
             <table class="tbl w-full text-left">
-              <thead><tr><th class="w-24">Code</th><th>名稱 / English</th></tr></thead>
+              <thead><tr><th class="w-24">Code</th><th>English <span class="font-normal text-slate-400">名稱</span></th></tr></thead>
               <tbody>
                 {#each latest.codebook.entries as e}
                   <tr>
                     <td class="mono font-semibold text-brand-700">{e.code}</td>
                     <td>
-                      <div class="text-slate-800">{e.label_zh}</div>
-                      {#if e.label_en}<div class="text-xs text-slate-500">{e.label_en}</div>{/if}
+                      <div class="text-slate-800">{e.label_en || e.label_zh}</div>
+                      {#if e.label_en && e.label_zh}<div class="text-xs text-slate-500">{e.label_zh}</div>{/if}
                     </td>
                   </tr>
                 {/each}
@@ -141,7 +141,7 @@
                   <td class="mono text-xs font-semibold text-brand-700">{o.version_id}</td>
                   <td>{o.field.type}</td>
                   <td class="tabular-nums">{o.field.length ?? ''}</td>
-                  <td class="text-xs text-slate-700">{(o.field.description_zh || '').slice(0, 200)}</td>
+                  <td class="text-xs text-slate-700">{(o.field.description_en || o.field.description_zh || '').slice(0, 200)}</td>
                 </tr>
               {/each}
             </tbody>

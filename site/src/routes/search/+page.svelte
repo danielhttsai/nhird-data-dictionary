@@ -52,7 +52,7 @@
       <div class="overflow-x-auto">
         <table class="tbl w-full text-left">
           <thead>
-            <tr><th>File</th><th>Version</th><th>#</th><th>中文</th><th>English</th><th>Description</th></tr>
+            <tr><th>File</th><th>Version</th><th>#</th><th>Name <span class="font-normal text-slate-400">名稱</span></th><th>Code</th><th>Description</th></tr>
           </thead>
           <tbody>
             {#each results as r}
@@ -63,8 +63,8 @@
                 <td class="text-xs text-slate-500">{r.v}</td>
                 <td class="text-right text-slate-400">{r.s}</td>
                 <td>
-                  <div class="text-slate-800">{r.zh}</div>
-                  {#if r.ze}<div class="text-xs text-slate-500">{r.ze}</div>{/if}
+                  <div class="text-slate-800">{r.ze || r.zh}</div>
+                  {#if r.ze && r.zh}<div class="text-xs text-slate-500">{r.zh}</div>{/if}
                 </td>
                 <td class="mono">
                   {#if r.en}
