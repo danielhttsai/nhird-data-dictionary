@@ -72,7 +72,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "First Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 6,
@@ -94,7 +94,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Second Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 8,
@@ -116,7 +116,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Third Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 10,
@@ -138,7 +138,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Fourth Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 12,
@@ -160,7 +160,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Fifth Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 14,
@@ -182,7 +182,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Sixth Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 16,
@@ -204,7 +204,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Seventh Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 18,
@@ -226,7 +226,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Eighth Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 20,
@@ -248,7 +248,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "Ninth Dose Vaccine Brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 22,
@@ -270,7 +270,7 @@
       "description_zh": "詳見接種廠牌(Ecode)譯碼說明",
       "available_notes": [],
       "name_zh_en": "10th dose vaccine brand",
-      "description_en": "details of vaccination manufacturer (Ecode) coding explanation"
+      "description_en": "See the vaccine brand (Ecode) codebook; the same table applies to every dose."
     },
     {
       "seq": 24,
@@ -284,7 +284,788 @@
       "description_en": "YYYY-MM-DD"
     }
   ],
-  "codebooks": {},
+  "codebooks": {
+    "BRAND1": {
+      "field_zh": "第1劑接種廠牌",
+      "field_en": "Dose 1 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND2": {
+      "field_zh": "第2劑接種廠牌",
+      "field_en": "Dose 2 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND3": {
+      "field_zh": "第3劑接種廠牌",
+      "field_en": "Dose 3 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND4": {
+      "field_zh": "第4劑接種廠牌",
+      "field_en": "Dose 4 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND5": {
+      "field_zh": "第5劑接種廠牌",
+      "field_en": "Dose 5 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND6": {
+      "field_zh": "第6劑接種廠牌",
+      "field_en": "Dose 6 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND7": {
+      "field_zh": "第7劑接種廠牌",
+      "field_en": "Dose 7 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND8": {
+      "field_zh": "第8劑接種廠牌",
+      "field_en": "Dose 8 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND9": {
+      "field_zh": "第9劑接種廠牌",
+      "field_en": "Dose 9 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    },
+    "BRAND10": {
+      "field_zh": "第10劑接種廠牌",
+      "field_en": "Dose 10 vaccine brand (Ecode)",
+      "source": "Health102_post-20250624.pdf (COVID-19疫苗接種與COVID-19確診、中重症及死亡資料檔, 2025-06-24 修訂), section 三「欄位（變項）譯碼表」1. 疫苗廠牌（Ecode）代碼, PDF page 6; page rendered to an image and transcribed visually because the PDF text layer is garbled (broken font encoding drops the Chinese labels).",
+      "note": "全部 BRAND1–BRAND10 欄位共用同一張疫苗廠牌（Ecode）代碼表。All BRAND1–BRAND10 fields share this single vaccine-brand (Ecode) table.",
+      "entries": [
+        {
+          "code": "AZ",
+          "label_zh": "阿斯特捷利康 COVID-19 疫苗",
+          "label_en": "AstraZeneca COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna",
+          "label_zh": "莫德納 COVID-19 疫苗",
+          "label_en": "Moderna COVID-19 vaccine"
+        },
+        {
+          "code": "BioNTech",
+          "label_zh": "輝瑞/BNT COVID-19 疫苗",
+          "label_en": "Pfizer-BioNTech COVID-19 vaccine"
+        },
+        {
+          "code": "Medigen",
+          "label_zh": "高端新冠肺炎疫苗",
+          "label_en": "Medigen COVID-19 vaccine"
+        },
+        {
+          "code": "Janssen",
+          "label_zh": "嬌生 COVID-19 疫苗",
+          "label_en": "Janssen (Johnson & Johnson) COVID-19 vaccine"
+        },
+        {
+          "code": "Sinopharm",
+          "label_zh": "中國國藥 COVID-19 疫苗",
+          "label_en": "Sinopharm COVID-19 vaccine"
+        },
+        {
+          "code": "Sinovac",
+          "label_zh": "中國科興 COVID-19 疫苗",
+          "label_en": "Sinovac COVID-19 vaccine"
+        },
+        {
+          "code": "Bharat",
+          "label_zh": "COVAXIN COVID-19 vaccine",
+          "label_en": "Bharat Biotech COVAXIN COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax",
+          "label_zh": "Novavax COVID-19 疫苗",
+          "label_en": "Novavax COVID-19 vaccine"
+        },
+        {
+          "code": "SputnikV",
+          "label_zh": "衛星 V COVID-19 疫苗",
+          "label_en": "Sputnik V COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA1",
+          "label_zh": "莫德納雙價(O/O_BA.1)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.1) COVID-19 vaccine"
+        },
+        {
+          "code": "bModerna_BA4/5",
+          "label_zh": "莫德納雙價(O/O_BA.4/5)COVID-19 疫苗",
+          "label_en": "Moderna bivalent (original/Omicron BA.4/5) COVID-19 vaccine"
+        },
+        {
+          "code": "Novavax_XBB",
+          "label_zh": "Novavax XBB.1.5 COVID-19 疫苗",
+          "label_en": "Novavax XBB.1.5 COVID-19 vaccine"
+        },
+        {
+          "code": "Moderna_XBB",
+          "label_zh": "莫德納 XBB.1.5 COVID-19 疫苗",
+          "label_en": "Moderna XBB.1.5 COVID-19 vaccine"
+        }
+      ]
+    }
+  },
   "raw_text_first_page": "2025年06月24日修訂\n疾病管制署 COVID-19 疫苗接種與 COVID-19 確診、中重症及死亡資料檔\n(Health-102：H_CDC_COVID19)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代 H_CDC_COVID19 資料筆數 H_CDC_COVID19_1：2,629萬2,415筆\n號 H_CDC_COVID19_2：887萬1,744筆\n中文檔 1. COVID-19疫苗接種檔 英文檔名 無\n名\n(H_CDC_COVID19_1)\n2. COVID-19確診、中重症及死\n亡資料檔\n(H_CDC_COVID19_2)\n檔案大 1. H_CDC_COVID19_1：7GB 欄位數 H_CDC_COVID19_1：24\n小 H_CDC_COVID19_2：6\n2. H_CDC_COVID19_2：365MB\n譯碼簿\n屬性 歷史檔 週期 無 2025/06/24 初版\n更新日期\n資料描\n說明：\n述\n1. NIIS 資料庫中戶政比對到之本國籍及非本國籍所有個案。\n2. 上述接種資料為 COVID-19疫苗開打以來，接種個案的疫苗接種各劑別、廠牌及接種\n日期資訊。\n接種劑次排序及欄位資料定義說明：\n(1) 依個案接種日期排序，不論廠牌、排除兩劑間隔不足21日之後一劑。\n(2) 個案的基礎加強劑與追加劑之接種日期、廠牌、接種單位均相同，只列追加劑。\n(3) Brand3僅為基礎加強劑。\n(4) 提供Brand n 的n值為當次提供資料中之最大接種劑數。\n範例: 撈取範圍之個案接種 CoV最大劑數達13劑，則提供 Brand 的最大劑次即為\nBrand13。\n3. 排除有接種基礎加強劑下，未達2劑基礎劑，或未接種追加劑之族群註。\n（註:該排除族群限未曾接種 XBB相關疫苗。）\n4. 排除已除口或NIIS 死亡日期在110/03/21(含)註以前的個案。\n（註:即 COVID-19疫苗尚未實施之接種日期。）\n1",
   "qa": {
     "errors": [],
