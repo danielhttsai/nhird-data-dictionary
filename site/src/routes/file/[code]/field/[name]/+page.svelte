@@ -3,6 +3,9 @@
   let { data } = $props();
   const { code, name_zh: fileNameZh, fieldName, occurrences } = data;
   const latest = $derived(occurrences.at(-1) || null);
+  // Fields that hold NHI drug codes (or their ATC code) link to the drug code lookup.
+  const DRUG_FIELDS = { Health04: ['DRUG_NO', 'ORDER_CODE'], Health05: ['ORDER_CODE'], Health06: ['DRUG_NO', 'ORDER_CODE'], Health17: ['DRUG_NO', 'DRUG_ATC7_CODE'], Health37: ['ORDER_CODE'] };
+  const isDrugField = (DRUG_FIELDS[code] || []).includes(fieldName);
 </script>
 
 <svelte:head><title>{fieldName} — {code} — NHIRD data dictionary</title></svelte:head>
@@ -28,6 +31,13 @@
       in <a class="text-brand-700 hover:underline font-semibold" href="{base}/file/{code}/">{code}</a> {fileNameZh}
     </p>
   </header>
+
+  {#if isDrugField}
+    <a href="{base}/drugs/" class="flex items-center justify-between gap-3 rounded-2xl border border-brand-200 bg-brand-50 px-5 py-3 text-sm hover:border-brand-400 transition">
+      <span class="text-slate-700"><strong class="text-brand-700">Drug code lookup</strong> — map the NHI drug codes in this field to ingredient and ATC, or list every code for an ATC class. <span class="text-slate-500">健保藥品代碼查詢</span></span>
+      <span class="text-brand-700 font-semibold whitespace-nowrap">Open →</span>
+    </a>
+  {/if}
 
   {#if !latest}
     <p class="text-slate-600">Field not found in this file.</p>

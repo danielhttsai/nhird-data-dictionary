@@ -59,6 +59,9 @@
     <a href="{base}/file/Health01/" class="bg-white border border-slate-300 text-slate-700 hover:border-brand-600 hover:text-brand-700 font-semibold px-6 py-3 rounded-xl transition">
       Start where everyone starts — NHIRD claims →
     </a>
+    <a href="{base}/drugs" class="bg-white border border-slate-300 text-slate-700 hover:border-brand-600 hover:text-brand-700 font-semibold px-6 py-3 rounded-xl transition shadow-sm">
+      Map NHI drug codes to ATC →
+    </a>
   </div>
 </section>
 

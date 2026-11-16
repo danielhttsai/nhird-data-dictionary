@@ -377,3 +377,13 @@ fs.writeFileSync(path.join(OUT, 'codebooks-index.json'),
   }, null, 0));
 
 console.log(`prepare-data: ${catalogue.length} files | ${allFields.length} fields | ${codebookIndex.size} codebooks`);
+
+// Drug code lookup payload (built by scripts/build_drug_codes.py, committed under
+// drug_codes/). Copied as-is; the /drugs page loads it on demand.
+const DRUGS = path.join(ROOT, 'drug_codes', 'nhi_drug_codes.json');
+if (fs.existsSync(DRUGS)) {
+  fs.copyFileSync(DRUGS, path.join(OUT, 'drug-codes.json'));
+  console.log('drug codes: copied', (fs.statSync(DRUGS).size / 1e6).toFixed(2), 'MB');
+} else {
+  console.warn('drug codes: drug_codes/nhi_drug_codes.json not found; the /drugs page will show a load error');
+}

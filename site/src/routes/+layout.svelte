@@ -18,7 +18,8 @@
   const navItems = [
     { href: '/', label: 'Catalogue' },
     { href: '/search', label: 'Search' },
-    { href: '/codebook', label: 'Codebooks' }
+    { href: '/codebook', label: 'Codebooks' },
+    { href: '/drugs', label: 'Drug codes' }
   ];
   function isActive(href) {
     const p = page.url.pathname.replace(/\/$/, '') || '/';
@@ -34,7 +35,7 @@
   <header class="sticky top-0 z-40 bg-white/85 backdrop-blur border-b border-slate-200">
     <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
       <a href="{SITE}/" class="flex items-center gap-2 font-extrabold text-slate-900 tracking-tight">
-        <span class="inline-grid place-items-center w-8 h-8 rounded-lg bg-brand-600 text-white text-sm">DT</span>
+        <span aria-hidden="true" class="text-2xl leading-none font-extrabold tracking-tighter text-brand-700">dt<span class="text-[#458557]">.</span></span>
         <span>Daniel Tsai</span>
       </a>
       <div class="hidden md:flex items-center gap-1 lg:gap-2 text-sm font-semibold">
@@ -87,13 +88,14 @@
           Sourced from
           <a class="text-brand-700 hover:underline" target="_blank" rel="noreferrer"
              href="https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-1-20.html">MOHW Department of Statistics</a>.
-          Field-level metadata only.
+          Field-level metadata, plus a drug code lookup from the public NHI drug item query.
         </p>
       </div>
       <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
         <li><a href="{base}/" class="text-brand-700 hover:underline">Catalogue</a></li>
         <li><a href="{base}/search" class="text-brand-700 hover:underline">Search</a></li>
         <li><a href="{base}/codebook" class="text-brand-700 hover:underline">Codebooks</a></li>
+        <li><a href="{base}/drugs" class="text-brand-700 hover:underline">Drug codes</a></li>
         <li><a href="https://github.com/danielhttsai/nhird-data-dictionary" target="_blank" rel="noreferrer" class="text-brand-700 hover:underline">GitHub</a></li>
       </ul>
     </div>
