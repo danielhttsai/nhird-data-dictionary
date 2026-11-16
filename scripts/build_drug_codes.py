@@ -21,6 +21,12 @@ writes the same ingredient in several spellings, mixes Chinese qualifiers into
 English names, and leaves the label empty for some old compound products. Any
 name that still contains Chinese after cleaning is printed as a warning, so a
 new scrape that brings a new pattern is noticed.
+
+Each ingredient label is also split into components (see `components`), so a
+compound product can be found by any one of its ingredients. A label can say
+that a component may be absent ("HYDROCHLOROTHIAZIDE 0-12.5MG", "+- RIBAVIRIN")
+or name two alternatives ("OMEPRAZOLE/ESOMEPRAZOLE"); those are kept apart from
+the components that are always present, and the page decides per product.
 """
 from __future__ import annotations
 
@@ -79,6 +85,7 @@ TYPOS = {
     "DROTRERECOGIN ALPHA (=COMBINANT HUMAN": "DROTRECOGIN ALFA (=RECOMBINANT HUMAN",
     "PROPANE SULFONATE (MONOHYD ": "PROPANE SULFONATE (MONOHYDRATE) ",
     "PROPANE-1-SULPHONIC ACID, SO ": "PROPANE-1-SULPHONIC ACID, SODIUM SALT ",
+    "PREDNISOLONE1. 25MG/GM": "PREDNISOLONE 1.25MG/GM",
 }
 
 UNIT = r"(?:MG|MCG|UG|GM|G|ML|L|IU|KIU|MIU|MEQ|MMOL|U|%)"
@@ -121,6 +128,82 @@ def clean_ingredient(label: str) -> str:
         for wrong, right in table.items():
             s = s.replace(wrong, right)
     return re.sub(r"\s+", " ", s).strip()
+
+
+# ---- components of a label ----------------------------------------------------------
+
+CUNIT = r"(?:MG|MCG|UG|NG|GM|G|ML|MCL|L|IU|KIU|MIU|MU|MEQ|MMOL|UNITS?|USP-U|U|%|PH\.EUR\. UNITS)"
+PER = r"(?:ML|MCL|NL|GM|G|L|MG|KG|DOSE|TAB|CAP|VIAL)"
+NUM = r"\d+(?:[.,]\d+)*"
+# "10MG", "0.5MG/ML", "5-10MG", "0MG-1000MG", "<=50MG/ML", "3.0~3.3MG/ML", "160 (320) MCG/DOSE", "16.7%(W/W)", "20/ML"
+DOSE = re.compile(
+    rf"\*?(?:[<>]=?\s*)?{NUM}\s*(?:{CUNIT})?\s*(?:\({NUM}\)\s*)?(?:[-~]\s*{NUM}\s*)?"
+    rf"(?:{CUNIT}(?:\s*/\s*{PER})?|/\s*(?:ML|GM))(?![A-Z])(?:\s*\(=UG/ML\))?(?:\s*\(W/W\))?")
+FROM_ZERO = re.compile(rf"(?<![\d.])0(?:\.0+)?\s*(?:{CUNIT})?\s*-\s*\d")  # "0-12.5MG": the component may be absent
+EITHER = re.compile(r"[A-Z]{5,}(?:\s*/\s*[A-Z]{5,})+")                    # "OMEPRAZOLE/ESOMEPRAZOLE": one or the other
+
+# Class labels: the named component they are sure to contain, if any.
+CLASS_COMPONENTS = {
+    "ANTIHISTAMINE OR NASAL DECONGESTANT COMBINATION PRODUCTS": [],
+    "DEXTROMETHORPHAN COMBINATION ANTITUSSIVES": ["DEXTROMETHORPHAN"],
+    "CODEINE COMBINATION ANTITUSSIVES": ["CODEINE"],
+}
+
+
+def split_plus(name: str) -> list[tuple[str, bool]]:
+    """Split a label on " + " and " +- " outside brackets -> [(part, with_or_without)]."""
+    parts, depth, start, optional, i = [], 0, 0, False, 0
+    while i < len(name):
+        ch = name[i]
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(0, depth - 1)
+        elif depth == 0 and name.startswith(" +- ", i):
+            parts.append((name[start:i], optional))
+            optional, start, i = True, i + 4, i + 3
+        elif depth == 0 and name.startswith(" + ", i):
+            parts.append((name[start:i], optional))
+            optional, start, i = False, i + 3, i + 2
+        i += 1
+    parts.append((name[start:], optional))
+    return parts
+
+
+def component_name(part: str, last_of_many: bool) -> str:
+    """The substance named in one part of a label, without dose, bracketed salt or synonym."""
+    c = re.sub(r"\s*\(=[^()]*(?:\)|$)", " ", part)           # synonym "(=VIT B2)", also when cut off
+    c = re.sub(r"^\s*(?:(?:TO\s+|-\s*)?(?:[<>]=?\s*)?[\d.]+\s*%\s*)+", "", c)  # "10.0% AMINO ACIDS", ">=3% TO <4% AMINO ACIDS"
+    c = DOSE.sub(" ", c)
+    c = re.sub(r"(?<=\S)\s*\([^()]*\)(?=\s|$)", " ", c)       # "(VALERATE)", "(RECOMBINANT)"; not "BIS(SULPHANYL)PROPANE"
+    c = re.sub(r",\s*PENFILL\b", "", c)
+    if last_of_many:
+        c = re.sub(r"\s+SOLUTIONS?(?: FOR (?:PERIPHERAL )?INFUSION)?\s*$", "", c)
+    c = re.sub(r"^VIT(?:AMINE?)?\.?\s*(?=[A-Z]\d{0,2}\b)", "VITAMIN ", c.strip())  # "VIT B6", "VITAMINE B12"
+    return re.sub(r"\s+", " ", c).strip(" ,*")
+
+
+def components(name: str) -> tuple[list[str], list[str], list[str], str]:
+    """Split a cleaned label into (always present, possibly absent, alternatives, label without the possibly absent parts)."""
+    if name in CLASS_COMPONENTS:
+        return list(CLASS_COMPONENTS[name]), [], [], name
+    parts = split_plus(name) if name else []
+    req, opt, alt, kept = [], [], [], []
+    for k, (part, optional) in enumerate(parts):
+        optional = optional or bool(FROM_ZERO.search(part))
+        if not optional:
+            kept.append(part)
+        c = component_name(part, len(parts) > 1 and k == len(parts) - 1)
+        if not optional and EITHER.fullmatch(c):
+            for x in re.split(r"\s*/\s*", c):
+                if x not in alt:
+                    alt.append(x)
+        elif c and c not in req and c not in opt:
+            (opt if optional else req).append(c)
+    if not req and not alt and opt:  # a label cannot be made of optional parts only
+        req.append(opt.pop(0))
+        kept = [parts[0][0]]
+    return req, opt, alt, " + ".join(kept)
 
 
 def merge_spellings(counts: Counter) -> dict[str, str]:
@@ -257,6 +340,15 @@ def main() -> None:
         for n in leftover:
             print("   ", n)
 
+    # Components of every ingredient label, as indexes into one component list.
+    comp_index: dict[str, int] = {}
+    parts, single_label = [], {}
+    for i, name in enumerate(sorted(dicts["ingredient"], key=dicts["ingredient"].get)):
+        req, opt, alt, kept = components(name)
+        parts.append([[comp_index.setdefault(c, len(comp_index)) for c in group] for group in (req, opt, alt)])
+        if opt and len(req) == 1:  # a single-ingredient product in this group is just `kept`
+            single_label[str(i)] = kept
+
     def as_list(kind: str) -> list[str]:
         d = dicts[kind]
         return [k for k, _ in sorted(d.items(), key=lambda kv: kv[1])]
@@ -269,9 +361,15 @@ def main() -> None:
             "n_codes": len(out_rows),
             "n_priced": sum(1 for r in out_rows if r[10] == "open"),
             "n_no_ingredient": sum(1 for r in out_rows if r[2] == 0),
+            "n_components": len(comp_index),
             "columns": ["code", "name", "ingredient", "strength", "form", "mfr", "cls", "atc", "compound", "first", "last_priced"],
         },
         "ingredient": as_list("ingredient"),
+        # per ingredient: [always present, possibly absent, alternatives], as indexes into "component"
+        "parts": parts,
+        "component": sorted(comp_index, key=comp_index.get),
+        # per ingredient with one fixed and some possibly absent parts: the label of a single-ingredient product
+        "single_label": single_label,
         "strength": as_list("strength"),
         "form": as_list("form"),
         "mfr": as_list("mfr"),
@@ -285,6 +383,7 @@ def main() -> None:
     m = payload["meta"]
     print(f"wrote {OUT.relative_to(ROOT)}: {m['n_codes']} codes, {m['n_priced']} priced at {snap}, "
           f"{len(payload['ingredient']) - 1} ingredients ({m['n_no_ingredient']} codes without one), "
+          f"{m['n_components']} components, "
           f"{len(payload['atc'])} ATC codes, {OUT.stat().st_size/1e6:.2f} MB")
 
 
