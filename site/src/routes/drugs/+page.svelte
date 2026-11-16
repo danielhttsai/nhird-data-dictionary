@@ -28,8 +28,9 @@
     }
   });
 
-  // An ATC-looking query (A10, A10BA, A10BA02) matches the ATC code by prefix
-  // only, so "C10" lists lipid-modifying agents and not every code containing c10.
+  // An ATC-looking query (A10, A10BA, A10BA02) matches the ATC code by prefix,
+  // so "C10" lists lipid-modifying agents and not every code containing c10.
+  // It also matches an ingredient that has it as a whole word ("VITAMIN B12").
   const ATC_RE = /^[a-z]\d{2}([a-z]{1,2}(\d{2})?)?$/i;
 
   const matches = $derived.by(() => {
@@ -37,13 +38,14 @@
     const terms = q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     if (!terms.length || terms.join('').length < 2) return [];
     const atcTerms = terms.filter(t => ATC_RE.test(t)).map(t => t.toUpperCase());
+    const atcWord = atcTerms.map(t => new RegExp(`(^|[^A-Z0-9])${t}([^A-Z0-9]|$)`));
     const textTerms = terms.filter(t => !ATC_RE.test(t));
     const out = [];
     const rows = db.rows;
     for (let i = 0; i < rows.length; i++) {
       const r = rows[i];
       if (onlyPriced && r[10] !== 'open') continue;
-      if (atcTerms.length && !atcTerms.every(t => db.atc[r[7]].startsWith(t))) continue;
+      if (atcTerms.length && !atcTerms.every((t, k) => db.atc[r[7]].startsWith(t) || atcWord[k].test(db.ingredient[r[2]]))) continue;
       const h = hay[i];
       if (textTerms.length && !textTerms.every(t => h.includes(t))) continue;
       out.push(r);
@@ -55,7 +57,7 @@
 
   const summary = $derived.by(() => {
     const ing = new Set(), atc = new Set();
-    for (const r of matches) { ing.add(r[2]); atc.add(r[7]); }
+    for (const r of matches) { if (db.ingredient[r[2]]) ing.add(r[2]); atc.add(r[7]); }
     return { ing: ing.size, atc: atc.size };
   });
 
@@ -182,7 +184,11 @@
                   </td>
                   <td class="text-slate-800">{r[1]}</td>
                   <td>
-                    <div class="text-slate-800">{db.ingredient[r[2]]}</div>
+                    {#if db.ingredient[r[2]]}
+                      <div class="text-slate-800">{db.ingredient[r[2]]}</div>
+                    {:else}
+                      <div class="text-slate-400 italic">not given by NHI 健保未列成分</div>
+                    {/if}
                     <div class="text-xs text-slate-500">{db.strength[r[3]]}{r[8] ? ' · compound 複方' : ''}</div>
                   </td>
                   <td class="text-xs text-slate-600 whitespace-nowrap">{db.form[r[4]]}</td>
@@ -203,7 +209,9 @@
                         <div class="space-y-1.5">
                           <p class="text-slate-500">Map onwards 延伸對照</p>
                           <ul class="space-y-1">
-                            <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = db.ingredient[r[2]]; open = null; }}>All codes with this ingredient →</button></li>
+                            {#if db.ingredient[r[2]]}
+                              <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = db.ingredient[r[2]]; open = null; }}>All codes with this ingredient →</button></li>
+                            {/if}
                             <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = atc; open = null; }}>All codes under ATC {atc} →</button></li>
                             {#if atc.length === 7}
                               <li><a class="text-brand-700 font-semibold hover:underline" target="_blank" rel="noreferrer" onclick={(e) => e.stopPropagation()}
@@ -251,6 +259,11 @@
           Compiled from the public
           <a class="text-brand-700 hover:underline" target="_blank" rel="noreferrer" href="https://info.nhi.gov.tw/INAE3000/INAE3000S01">NHI drug item query 健保用藥品項查詢</a>{#if db}, snapshot of {db.meta.snapshot}{/if}.
           Codes added after that date are missing.
+        </li>
+        <li>
+          Ingredient names follow NHI's group label, tidied to one spelling per ingredient: upper case, Chinese qualifiers
+          put into English, and spacing made regular. Compound products carry their components and doses in the name.
+          {#if db?.meta.n_no_ingredient}{db.meta.n_no_ingredient.toLocaleString()} old compound products have no ingredient label at NHI; they still map to an ATC code.{/if}
         </li>
         <li>The ATC code is the one NHI records for the item. Some are shorter than 7 characters, and a few are NHI-specific and not in the WHO index.</li>
         <li>Status is read from the price history: an item counts as priced when its current price is above zero. Use the official query before relying on it.</li>
