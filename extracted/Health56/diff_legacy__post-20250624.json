@@ -11,10 +11,10 @@
       "name_en": "Q_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：乳房良性相關疾 病；2：乳癌；3：其他癌症",
+      "description_zh": "0：無；1：乳房良性相關疾病；2：乳癌；3：其他癌症",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
+      "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
     },
     {
       "seq": 3,
@@ -41,8 +41,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "family history - mother count",
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 7,
@@ -58,8 +58,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "family history - grandmother",
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 8,
@@ -76,7 +76,7 @@
         }
       ],
       "name_zh_en": "maternal grandmother's medical history",
-      "description_en": ""
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 9,
@@ -87,7 +87,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 10,
@@ -104,7 +104,7 @@
         }
       ],
       "name_zh_en": "family history - cousin",
-      "description_en": ""
+      "description_en": "starting from 112 year"
     },
     {
       "seq": 11,
@@ -121,7 +121,7 @@
         }
       ],
       "name_zh_en": "menstrual history-first menstruation age",
-      "description_en": ""
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 12,
@@ -149,7 +149,7 @@
         }
       ],
       "name_zh_en": "menopause age",
-      "description_en": ""
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 14,
@@ -166,7 +166,7 @@
         }
       ],
       "name_zh_en": "menstrual_history-menopause_cause",
-      "description_en": ""
+      "description_en": "detailed code explanation. length 3 starting from 113 year"
     },
     {
       "seq": 15,
@@ -183,7 +183,7 @@
         }
       ],
       "name_zh_en": "number of births in reproductive history",
-      "description_en": ""
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 16,
@@ -193,7 +193,7 @@
       "length": 1,
       "description_zh": "0：無；1：有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "childbirth history - breast feeding",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -210,8 +210,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "age at first childbirth",
+      "description_en": "For 2024, character type length is 2"
     },
     {
       "seq": 18,
@@ -221,7 +221,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "history of medication - whether taking hormone replacement therapy",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -238,8 +238,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (herbal)",
+      "description_en": "For 2024, character type length is 4"
     },
     {
       "seq": 20,
@@ -249,7 +249,7 @@
       "length": 21,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "drug history - years taken (herbal)",
       "description_en": ""
     },
     {
@@ -260,7 +260,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -277,8 +277,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (contraceptive)",
+      "description_en": "For 2024, character type length is 4"
     },
     {
       "seq": 23,
@@ -294,8 +294,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - years taken (contraceptive)",
+      "description_en": "In 2025, the length is 21 characters."
     },
     {
       "seq": 24,
@@ -305,7 +305,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
     },
     {
@@ -316,8 +316,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "whether underwent physical examination within the last two years",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 26,
@@ -327,8 +327,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "whether underwent mammography within the last two years",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 27,
@@ -338,8 +338,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "other - whether done within the last two years - ultrasound",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 28,
@@ -349,8 +349,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Other - Whether Done Over the Past Two Years - None of the Above",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 29,
@@ -360,7 +360,7 @@
       "length": 1,
       "description_zh": "T：是；F：否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
     },
     {
@@ -391,7 +391,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統 一編號，或外籍居留證號碼 （如無居留證號碼請填護 照號碼），左靠不足補空白。 112 年起長度為20",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼 （如無居留證號碼請填護照號碼），左靠不足補空白。 112 年起長度為20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -399,8 +399,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "national ID number",
-      "description_en": ""
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National ID number, or foreign resident certificate number (if no resident certificate number, enter the passport number); left-aligned, pad with spaces if insufficient. Length is 20 starting ROC year 112 (AD 2023)."
     },
     {
       "seq": 33,
@@ -408,10 +408,10 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原 則；1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則；1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 34,
@@ -421,8 +421,8 @@
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
       "available_notes": [],
-      "name_zh_en": "gender",
-      "description_en": ""
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 35,
@@ -455,7 +455,7 @@
         }
       ],
       "name_zh_en": "height",
-      "description_en": ""
+      "description_en": "2023 length 18, 2024 length 19"
     },
     {
       "seq": 37,
@@ -472,7 +472,7 @@
         }
       ],
       "name_zh_en": "weight",
-      "description_en": ""
+      "description_en": "length 10 starting from 112 year"
     },
     {
       "seq": 38,
@@ -480,10 +480,10 @@
       "name_en": "PH_HOSPITALID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別院所鍵 值。",
+      "description_zh": "經加密處理，為辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
-      "description_en": ""
+      "description_en": "encrypted value for hospital key."
     },
     {
       "seq": 39,
@@ -500,7 +500,7 @@
         }
       ],
       "name_zh_en": "mammography_date",
-      "description_en": ""
+      "description_en": "year-month-day YYYY-MM-DD 113 year length 10"
     },
     {
       "seq": 41,
@@ -587,7 +587,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
     },
     {
@@ -599,7 +599,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     }
   ],
   "removed": [
@@ -611,8 +611,8 @@
       "length": 1,
       "description_zh": "0：無；1：乳房良性相關疾病； 2：乳癌；3：其他癌症",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
+      "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
     },
     {
       "seq": 3,
@@ -640,7 +640,7 @@
         }
       ],
       "name_zh_en": "family history - daughter",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 8,
@@ -657,7 +657,7 @@
         }
       ],
       "name_zh_en": "family history - grandmother",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 9,
@@ -674,7 +674,7 @@
         }
       ],
       "name_zh_en": "maternal grandmother's medical history",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 10,
@@ -691,7 +691,7 @@
         }
       ],
       "name_zh_en": "family history - aunt",
-      "description_en": "2024年起无"
+      "description_en": "None from ROC year 112 (AD 2023) onward."
     },
     {
       "seq": 11,
@@ -708,7 +708,7 @@
         }
       ],
       "name_zh_en": "family history - cousin",
-      "description_en": "2024年起无"
+      "description_en": "None from ROC year 112 (AD 2023) onward."
     },
     {
       "seq": 12,
@@ -725,7 +725,7 @@
         }
       ],
       "name_zh_en": "menstrual history-first menstruation age",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 13,
@@ -753,7 +753,7 @@
         }
       ],
       "name_zh_en": "menopause age",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 15,
@@ -780,7 +780,7 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "menstrual_history-menopause_other_reasons",
       "description_en": "113 year length 31"
     },
     {
@@ -798,7 +798,7 @@
         }
       ],
       "name_zh_en": "number of births in reproductive history",
-      "description_en": ""
+      "description_en": "2024 year length 2, type is character"
     },
     {
       "seq": 18,
@@ -808,7 +808,7 @@
       "length": 1,
       "description_zh": "0：無；1：有",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "maternal history of breastfeeding",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -819,7 +819,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "age at first childbirth",
       "description_en": ""
     },
     {
@@ -830,7 +830,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "history of medication - whether taking hormone replacement therapy",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -847,8 +847,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (herbal)",
+      "description_en": "2024 year length 4, type is character"
     },
     {
       "seq": 22,
@@ -864,8 +864,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - years taken (herbal)",
+      "description_en": "Length is 21 for 2024, character type"
     },
     {
       "seq": 23,
@@ -875,7 +875,7 @@
       "length": 1,
       "description_zh": "0：否；1：是",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -892,8 +892,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - age started (contraceptive)",
+      "description_en": "2024 year length 4, type is character"
     },
     {
       "seq": 25,
@@ -909,8 +909,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "drug history - years taken (contraceptive)",
+      "description_en": "Length is 21 for 2024, character type"
     },
     {
       "seq": 26,
@@ -920,7 +920,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
     },
     {
@@ -931,8 +931,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "other - whether done within the last two years - palpation",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 28,
@@ -942,8 +942,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "other - whether done within the last two years - mammography",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 29,
@@ -953,8 +953,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Other - Whether Done Over the Past Two Years - Ultrasound",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 30,
@@ -964,8 +964,8 @@
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "other - whether done within the last two years - never done",
+      "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 31,
@@ -975,7 +975,7 @@
       "length": 1,
       "description_zh": "T：是；F：否",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
     },
     {
@@ -1006,10 +1006,10 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居 留證號碼請填護照號碼），左靠 不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
       "available_notes": [],
-      "name_zh_en": "national ID number",
-      "description_en": ""
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 35,
@@ -1019,8 +1019,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 36,
@@ -1030,8 +1030,8 @@
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
       "available_notes": [],
-      "name_zh_en": "gender",
-      "description_en": ""
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 37,
@@ -1059,7 +1059,7 @@
         }
       ],
       "name_zh_en": "height",
-      "description_en": ""
+      "description_en": "Length is 10 for 2024, character type"
     },
     {
       "seq": 39,
@@ -1076,7 +1076,7 @@
         }
       ],
       "name_zh_en": "weight",
-      "description_en": ""
+      "description_en": "Length is 10 for 2024, character type"
     },
     {
       "seq": 40,
@@ -1087,7 +1087,7 @@
       "description_zh": "經加密處理，為辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
-      "description_en": ""
+      "description_en": "encrypted value for hospital key."
     },
     {
       "seq": 41,
@@ -1098,7 +1098,7 @@
       "description_zh": "西元年YYYYMMDD",
       "available_notes": [],
       "name_zh_en": "mammography_date",
-      "description_en": ""
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 43,
@@ -1207,7 +1207,7 @@
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
     },
     {
@@ -1219,7 +1219,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     }
   ],
   "modified": [

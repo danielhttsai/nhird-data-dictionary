@@ -6,26 +6,21 @@
   "later_field_count": 14,
   "added": [
     {
-      "seq": 12,
-      "name_zh": "多重死因 1-20",
-      "name_en": "MC1-11",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "死因以 ICD-10 編碼 2019、2024年MC12至MC20無值 MC12-20 Char 1",
-      "available_notes": [],
-      "name_zh_en": "multiple causes of death 1-20",
-      "description_en": ""
-    },
-    {
-      "seq": 14,
+      "seq": 13,
       "name_zh": "出生年",
       "name_en": "BIRTH_Y",
       "type": "Char",
       "length": 8,
-      "description_zh": "西元年 YYYY",
-      "available_notes": [],
+      "description_zh": "西元年 YYYY 僅112、113年",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "birth year",
-      "description_en": "year in AD YYYY"
+      "description_en": "Year in AD (YYYY). ROC years 112 and 113 (AD 2023-2024) only."
     }
   ],
   "removed": [
@@ -39,17 +34,6 @@
       "available_notes": [],
       "name_zh_en": "Type of Death",
       "description_en": "no longer provided"
-    },
-    {
-      "seq": 13,
-      "name_zh": "多重死因 1-20",
-      "name_en": "MC1-20",
-      "type": "Char",
-      "length": 5,
-      "description_zh": "死因以 ICD-10 編碼 2019 年、2024年MC12至MC20 無值",
-      "available_notes": [],
-      "name_zh_en": "multiple causes of death 1-20",
-      "description_en": ""
     }
   ],
   "modified": [
@@ -60,6 +44,20 @@
         "length": {
           "from": 12,
           "to": 20
+        }
+      }
+    },
+    {
+      "key": "MC1-20",
+      "seq_later": 11,
+      "changes": {
+        "name_zh": {
+          "from": "多重死因 1-20",
+          "to": "多重死因1-20"
+        },
+        "description_zh": {
+          "from": "死因以 ICD-10 編碼 2019 年、2024年MC12至MC20 無值",
+          "to": "死因以ICD-10 編碼 2019、2025年MC12至MC20無值"
         }
       }
     }

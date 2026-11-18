@@ -11,21 +11,21 @@
       "name_en": "HOSP_ID_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "請見三、欄位（變項）譯碼之 權屬別(HOS)譯碼說明",
+      "description_zh": "請見三、欄位（變項）譯碼之權屬別(HOS)譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "See section three, field (variable) code explanation on ownership type (HOS) code explanation"
     },
     {
       "seq": 6,
-      "name_zh": "醫療機構縣市鄉鎮市區代碼 縣市鄉鎮代碼(104年以後)",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼縣市鄉鎮代碼(104年以後)",
       "name_en": "HOSP_ID_CITY",
       "type": "Char",
       "length": 4,
       "description_zh": "請見三、欄位（變項）譯碼之",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Medical institution county city town district code County town code (after 2014)",
+      "description_en": "refer to details three, field (variable) coding for this"
     },
     {
       "seq": 7,
@@ -36,20 +36,20 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     }
   ],
   "removed": [
     {
       "seq": 2,
-      "name_zh": "醫療機構縣市鄉鎮市區代碼 縣市鄉鎮代碼(104年以後)",
+      "name_zh": "醫療機構縣市鄉鎮市區代碼縣市鄉鎮代碼(104年以後)",
       "name_en": "CITY",
       "type": "Char",
       "length": 4,
       "description_zh": "請見三、欄位（變項）譯碼之",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Medical institution county city town district code County town code (after 2014)",
+      "description_en": "refer to details three, field (variable) coding for this"
     },
     {
       "seq": 3,
@@ -57,10 +57,10 @@
       "name_en": "HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "請見三、欄位（變項）譯碼之 權屬別(HOS)譯碼說明",
+      "description_zh": "請見三、欄位（變項）譯碼之權屬別(HOS)譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
-      "description_en": ""
+      "description_en": "See section three, field (variable) code explanation on ownership type (HOS) code explanation"
     },
     {
       "seq": 7,
@@ -71,7 +71,7 @@
       "description_zh": "1：男性 2：女性 9：不詳",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": ""
+      "description_en": "1: Male 2: Female 9: Unknown"
     }
   ],
   "modified": [

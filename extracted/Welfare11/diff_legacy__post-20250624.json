@@ -11,7 +11,7 @@
       "name_en": "FAMILY_ALLOWAN CE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -25,7 +25,7 @@
         }
       ],
       "name_zh_en": "family living allowance fee",
-      "description_en": ""
+      "description_en": "Added starting from 2014, excluded 2016"
     },
     {
       "seq": 14,
@@ -33,7 +33,7 @@
       "name_en": "SCHOOL_LIFE_ALL OWANCE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -47,7 +47,7 @@
         }
       ],
       "name_zh_en": "education living allowance fee",
-      "description_en": ""
+      "description_en": "Added starting from 2014, excluded 2016"
     },
     {
       "seq": 15,
@@ -55,7 +55,7 @@
       "name_en": "CHILD_LIVING_ALL OWANCE",
       "type": "Char",
       "length": 7,
-      "description_zh": "104年起新增 僅106年無",
+      "description_zh": "104年起新增僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -69,7 +69,7 @@
         }
       ],
       "name_zh_en": "child living allowance fee",
-      "description_en": ""
+      "description_en": "Added starting from 2014, excluded 2016"
     }
   ],
   "removed": [
@@ -93,7 +93,7 @@
         }
       ],
       "name_zh_en": "family living allowance fee",
-      "description_en": ""
+      "description_en": "93% loss rate in 2014, added in 2012"
     },
     {
       "seq": 14,
@@ -115,7 +115,7 @@
         }
       ],
       "name_zh_en": "education living allowance fee",
-      "description_en": ""
+      "description_en": "93% loss rate in 2014, added in 2012"
     },
     {
       "seq": 15,
@@ -137,7 +137,7 @@
         }
       ],
       "name_zh_en": "child living allowance fee",
-      "description_en": ""
+      "description_en": "87% loss rate in 2014, added in 2012"
     }
   ],
   "modified": [
@@ -148,10 +148,6 @@
         "length": {
           "from": 12,
           "to": 20
-        },
-        "description_zh": {
-          "from": "經過加密處理。國民身分證統一 編號",
-          "to": "經過加密處理。國民身分證統 一編號"
         }
       }
     },
@@ -192,10 +188,6 @@
         "length": {
           "from": 12,
           "to": 20
-        },
-        "description_zh": {
-          "from": "國民身分證統一編號經加密處理",
-          "to": "國民身分證統一編號經加密處 理"
         }
       }
     },
@@ -205,7 +197,7 @@
       "changes": {
         "description_zh": {
           "from": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 113年新增",
-          "to": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增 僅106年無"
+          "to": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增僅106年無"
         }
       }
     }

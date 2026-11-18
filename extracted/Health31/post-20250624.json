@@ -3,15 +3,15 @@
   "code_short": "H_OST_DEALG",
   "name_zh": "延遲申報死因檔",
   "name_en": "Delayed Report of Death Data",
-  "record_count_raw": "1,526 / 2024",
+  "record_count_raw": "1,367/ 2025",
   "field_count_declared": 16,
-  "file_size_raw": "192 KB / 2024",
+  "file_size_raw": "192 KB / 2025",
   "frequency": "年",
   "attribute": "現況檔",
-  "update_history_raw": "2025/09/02",
+  "update_history_raw": "2026/09/22",
   "update_history": [
     {
-      "date": "2025/09/02",
+      "date": "2026/09/22",
       "note": ""
     }
   ],
@@ -141,10 +141,16 @@
       "name_en": "MARRIAGE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明",
-      "available_notes": [],
+      "description_zh": "詳譯碼說明 114年無",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "marital status",
-      "description_en": "detailed translation explanation"
+      "description_en": "See the coding explanation. Not available for ROC year 114 (AD 2025)."
     },
     {
       "seq": 10,
@@ -706,7 +712,7 @@
       "field_en": "place_of_death_code"
     }
   },
-  "raw_text_first_page": "2025年09月02日修訂\n延遲申報死因檔\n(H_OST_DEALG)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_DEALG 資料筆數 1,526 / 2024\n中文檔名 延遲申報死因檔 英文檔名 Delayed Report of Death Data\n檔案大小 192 KB / 2024 欄位數 16\n譯碼簿\n屬性 現況檔 週期 年 2025/09/02\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因\n分類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n頁 1 / 22",
+  "raw_text_first_page": "2026年09月22日修訂\n延遲申報死因檔\n(H_OST_DEALG)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_OST_DEALG 資料筆數 1,367/ 2025\n中文檔名 延遲申報死因檔 英文檔名 DelayedReport ofDeathData\n檔案大小 192KB / 2025 欄位數 16\n譯碼簿\n屬性 現況檔 週期 年 2026/09/22\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因\n分類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」歷年時有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n頁 1 / 22",
   "qa": {
     "errors": [],
     "warnings": []
@@ -717,9 +723,9 @@
   "version_id": "post-20250624",
   "version_label": "20250624 起適用",
   "pdf_url": "https://www.mohw.gov.tw/dl-100551-13a856f0-9516-4b1a-9f7f-e34d396cb583.html",
-  "pdf_sha256": "cbdd835c575dad4e57d1bed0280d65c1150ce81506abc5e980fe7d5532ff4d62",
+  "pdf_sha256": "3f29a0f8e42d241883d6f00a1dd73c873b3e0d83c6a716bcb858a6ccc0d0cd69",
   "doc_first_published": "2026-05-26",
-  "doc_last_updated": "2026-05-26",
+  "doc_last_updated": "2026-09-22",
   "name_zh_from_listing": "Health31_延遲申報死因檔(20250624起適用)",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. Each record represents one individual.\n2. The \"serial number\" or \"ID\" has occasionally been duplicated across years.\n3. Because of the nature of the late-reporting file, deceased-person information may be incomplete, including cases with a blank ID field, a blank sex field, or an unknown cause-of-death code.\n※ This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n1. The individual's ID is encrypted.\n2. The key used for matching individual data: ID.",

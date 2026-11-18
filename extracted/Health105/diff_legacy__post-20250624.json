@@ -7,38 +7,38 @@
   "added": [
     {
       "seq": 16,
-      "name_zh": "肺部相關疾病史-特 發性肺纖維化(IPF)",
+      "name_zh": "肺部相關疾病史-特發性肺纖維化(IPF)",
       "name_en": "MedicalHistory7",
       "type": "Char",
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "pulmonary-related disease history-peculiar idiopathic pulmonary fibrosis (IPF)",
+      "description_en": "0: not checked; 1: checked."
     }
   ],
   "removed": [
     {
       "seq": 15,
-      "name_zh": "肺部相關疾病史- 肺 氣 腫 (Emphysema)",
+      "name_zh": "肺部相關疾病史- 肺氣腫 (Emphysema)",
       "name_en": "MedicalHistory6",
       "type": "Char",
       "length": 1,
       "description_zh": "0:無勾選； 1:勾選",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Pulmonary-related disease history - Emphysema",
+      "description_en": "0: not checked; 1: checked."
     },
     {
       "seq": 56,
-      "name_zh": "是否比較前次胸 部CT影像",
+      "name_zh": "是否比較前次胸部CT影像",
       "name_en": "CTavailable",
       "type": "Char",
       "length": 1,
       "description_zh": "單選 0:No prior chest CT available 1:Yes",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "是否比較前次胸部CT影像",
+      "description_en": "Single choice 0:No prior chest CT available 1:Yes"
     }
   ],
   "modified": [
@@ -58,7 +58,7 @@
       "changes": {
         "name_zh": {
           "from": "肺部相關疾病史- 肺阻塞(COPD)",
-          "to": "肺部相關疾病史-肺 阻塞(COPD)"
+          "to": "肺部相關疾病史-肺阻塞(COPD)"
         }
       }
     },
@@ -68,7 +68,7 @@
       "changes": {
         "name_zh": {
           "from": "肺部相關疾病史- 肺結核(TB)",
-          "to": "肺部相關疾病史-肺 結核(TB)"
+          "to": "肺部相關疾病史-肺結核(TB)"
         }
       }
     },
@@ -78,7 +78,7 @@
       "changes": {
         "name_zh": {
           "from": "肺部相關疾病史- 肺炎",
-          "to": "肺部相關疾病史-肺 炎"
+          "to": "肺部相關疾病史-肺炎"
         }
       }
     },
@@ -88,7 +88,7 @@
       "changes": {
         "name_zh": {
           "from": "肺部相關疾病史- 慢性支氣管炎",
-          "to": "肺部相關疾病史-慢 性支氣管炎"
+          "to": "肺部相關疾病史-慢性支氣管炎"
         }
       }
     },
@@ -97,8 +97,8 @@
       "seq_later": 14,
       "changes": {
         "name_zh": {
-          "from": "肺部相關疾病史- 塵 肺 症 (Pneumoconiosis)",
-          "to": "肺部相關疾病史-塵 肺 症 (Pneumoconiosis)"
+          "from": "肺部相關疾病史- 塵肺症 (Pneumoconiosis)",
+          "to": "肺部相關疾病史-塵肺症 (Pneumoconiosis)"
         }
       }
     },
@@ -125,8 +125,8 @@
           "to": "肺部相關疾病史-全"
         },
         "description_zh": {
-          "from": "0:無勾選； 1:勾選 全 身 性 硬 化 症 (Systemic Sclerosis)",
-          "to": "0:無勾選； 1:勾選 身 性 硬 化 症 (Systemic Sclerosis)"
+          "from": "0:無勾選； 1:勾選全身性硬化症 (Systemic Sclerosis)",
+          "to": "0:無勾選； 1:勾選身性硬化症 (Systemic Sclerosis)"
         }
       }
     },
@@ -219,7 +219,7 @@
       "seq_later": 37,
       "changes": {
         "name_zh": {
-          "from": "是否提供戒菸服 務2:已在戒菸療程3:轉介(因無戒菸服務)",
+          "from": "是否提供戒菸服務2:已在戒菸療程3:轉介(因無戒菸服務)",
           "to": "是否提供戒菸服務"
         },
         "description_zh": {
@@ -251,8 +251,8 @@
           "to": "職業暴露-接觸石綿船、鍋爐管線保養業等"
         },
         "description_zh": {
-          "from": "0:無勾選； 1:勾選 造/拆船、鍋爐管",
-          "to": "0:無勾選； 1:勾選 如石綿製造、造/拆"
+          "from": "0:無勾選； 1:勾選造/拆船、鍋爐管",
+          "to": "0:無勾選； 1:勾選如石綿製造、造/拆"
         }
       }
     },
@@ -281,7 +281,7 @@
       "seq_later": 55,
       "changes": {
         "name_zh": {
-          "from": "總體劑量長度乘 績",
+          "from": "總體劑量長度乘績",
           "to": "總體劑量長度乘績56 1"
         }
       }
@@ -291,7 +291,7 @@
       "seq_later": 57,
       "changes": {
         "name_zh": {
-          "from": "所比較之前次胸 部CT影像攝影日 期",
+          "from": "所比較之前次胸部CT影像攝影日期",
           "to": "所比較之前次胸部 CT影像攝影日期"
         }
       }
@@ -322,11 +322,11 @@
       "changes": {
         "name_zh": {
           "from": "其他肺部發現-",
-          "to": "其 他 肺 部 發 現 -腫)"
+          "to": "其他肺部發現 -腫)"
         },
         "description_zh": {
           "from": "0:無勾選；",
-          "to": "0:無勾選； 1:勾選 Emphysema( 肺 氣"
+          "to": "0:無勾選； 1:勾選 Emphysema( 肺氣"
         }
       }
     },
@@ -336,7 +336,7 @@
       "changes": {
         "name_zh": {
           "from": "其他肺部發現-氣管擴張)",
-          "to": "其 他 肺 部 發 現 -管擴張)"
+          "to": "其他肺部發現 -管擴張)"
         },
         "description_zh": {
           "from": "0:無勾選； 1:勾選 Bronchiectasis( 支",
@@ -350,7 +350,7 @@
       "changes": {
         "name_zh": {
           "from": "其他肺部發現-支氣管炎)",
-          "to": "其 他 肺 部 發 現 -氣管炎)"
+          "to": "其他肺部發現 -氣管炎)"
         },
         "description_zh": {
           "from": "0:無勾選； 1:勾選 Bronchitis/Bronchi olitis(支氣管炎/細",
@@ -364,7 +364,7 @@
       "changes": {
         "name_zh": {
           "from": "其他肺部發現-",
-          "to": "其 他 肺 部 發 現 -"
+          "to": "其他肺部發現 -"
         }
       }
     },
@@ -374,7 +374,7 @@
       "changes": {
         "name_zh": {
           "from": "其他肺部發現-型結節)",
-          "to": "其 他 肺 部 發 現 -型結節)"
+          "to": "其他肺部發現 -型結節)"
         }
       }
     },
@@ -393,16 +393,6 @@
       }
     },
     {
-      "key": "Density_1",
-      "seq_later": 76,
-      "changes": {
-        "name_zh": {
-          "from": "第 1 顆肺部結節 樣態",
-          "to": "第 1 顆肺部結節樣 態"
-        }
-      }
-    },
-    {
       "key": "LobeOptione_1",
       "seq_later": 78,
       "changes": {
@@ -411,28 +401,8 @@
           "to": "第 1 顆顯著肺部結"
         },
         "description_zh": {
-          "from": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
-          "to": "單選 節_位置 RUL、RML、RLL、LUL、LLL"
-        }
-      }
-    },
-    {
-      "key": "NoduleType_1",
-      "seq_later": 79,
-      "changes": {
-        "name_zh": {
-          "from": "第 1 顆比較前次 影像狀況",
-          "to": "第 1 顆比較前次影 像狀況"
-        }
-      }
-    },
-    {
-      "key": "Density_2",
-      "seq_later": 81,
-      "changes": {
-        "name_zh": {
-          "from": "第 2 顆肺部結節 樣態",
-          "to": "第 2 顆肺部結節樣 態"
+          "from": "單選結節_位置 RUL、RML、RLL、LUL、LLL",
+          "to": "單選節_位置 RUL、RML、RLL、LUL、LLL"
         }
       }
     },
@@ -445,18 +415,8 @@
           "to": "第 2 顆顯著肺部結"
         },
         "description_zh": {
-          "from": "單選 結節_位置 RUL、RML、RLL、LUL、LLL",
-          "to": "單選 節_位置 RUL、RML、RLL、LUL、LLL"
-        }
-      }
-    },
-    {
-      "key": "NoduleType_2",
-      "seq_later": 84,
-      "changes": {
-        "name_zh": {
-          "from": "第 2 顆比較前次 影像狀況",
-          "to": "第 2 顆比較前次影 像狀況"
+          "from": "單選結節_位置 RUL、RML、RLL、LUL、LLL",
+          "to": "單選節_位置 RUL、RML、RLL、LUL、LLL"
         }
       }
     },
@@ -469,18 +429,8 @@
           "to": "第 3 顆結節直徑大"
         },
         "description_zh": {
-          "from": "數字 大小_3",
+          "from": "數字大小_3",
           "to": "數字"
-        }
-      }
-    },
-    {
-      "key": "Density_3",
-      "seq_later": 86,
-      "changes": {
-        "name_zh": {
-          "from": "第 3 顆肺部結節 樣態_3",
-          "to": "第 3 顆肺部結節樣 態_3"
         }
       }
     },
@@ -493,8 +443,8 @@
           "to": "第 3 顆部分實心大"
         },
         "description_zh": {
-          "from": "數字，Density_2為3，此欄必填 大小_3",
-          "to": "數字，Density_2為3，此欄必填 小_3"
+          "from": "數字，Density_2為3，此欄必填大小_3",
+          "to": "數字，Density_2為3，此欄必填小_3"
         }
       }
     },
@@ -507,18 +457,8 @@
           "to": "第 3 顆顯著肺部結"
         },
         "description_zh": {
-          "from": "單選 結節_位置_3 RUL、RML、RLL、LUL、LLL",
-          "to": "單選 節_位置_3 RUL、RML、RLL、LUL、LLL"
-        }
-      }
-    },
-    {
-      "key": "NoduleType_3",
-      "seq_later": 89,
-      "changes": {
-        "name_zh": {
-          "from": "第 3 顆比較前次 影像狀況",
-          "to": "第 3 顆比較前次影 像狀況"
+          "from": "單選結節_位置_3 RUL、RML、RLL、LUL、LLL",
+          "to": "單選節_位置_3 RUL、RML、RLL、LUL、LLL"
         }
       }
     }

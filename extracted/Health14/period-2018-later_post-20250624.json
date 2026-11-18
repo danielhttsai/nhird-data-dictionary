@@ -3,16 +3,20 @@
   "code_short": "H_BHP_CRFLF_3",
   "name_zh": "癌症登記檔長表 LF(2018年)",
   "name_en": "Taiwan Cancer Registry—Long Form",
-  "record_count_raw": "832,459筆(2022年)",
+  "record_count_raw": "1,026,938筆(2023年)",
   "field_count_declared": 112,
-  "file_size_raw": "340 MB",
+  "file_size_raw": "420 MB",
   "frequency": "年",
   "attribute": "歷史檔",
-  "update_history_raw": "2025/06/24 初版",
+  "update_history_raw": "2025/06/24 初版\n2026/07/28 修訂",
   "update_history": [
     {
       "date": "2025/06/24",
       "note": "初版"
+    },
+    {
+      "date": "2026/07/28",
+      "note": "修訂"
     }
   ],
   "data_description_zh": "1. 各醫院自 2018 年起新診斷的癌症個案改採 107 年版癌症登記項目申報。50 床以上\n醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；其中參與長表申報醫院，\n依長表摘錄手冊申報主要癌症的期別、詳細治療與復發等重要癌症照護資料。(少數\n資料會包含 2017診斷年以前之補申報個案)\n2. 自2002診斷年起，長表 TCDB首先針對子宮頸癌、乳癌、口腔癌、結直腸癌、肝癌、\n肺癌來收錄。\n3. 自2008診斷年起新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n4. 自2009診斷年起新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n5. 自2013診斷年起新增喉癌，共十六大癌症。\n6. 自2022診斷年起新增胰臟癌，共十七大癌症。\n7. AJCC 癌症分期版本於長表資料庫內共有三種版本：\n2003-2009年間診斷為癌症之個案，以 AJCC第六版作為分期依據。\n2010-2017年間診斷為癌症之個案，以 AJCC第七版作為分期依據。\n2018年起診斷為癌症之個案，以 AJCC 第八版作為分期依據。\n2021年起診斷為子宮頸癌個案，以AJCC 第九版作為分期依據。\n自AJCC 第九版起，各癌症依需求更新期別資訊。\n8. 有關長表資料分析指引，可參考台灣癌症登記中心網站：https://twcr.tw/?p=3284。\n9. 欲分析放射治療儀器或劑量等詳細資訊，請務必參閱臺灣癌症登記長表摘錄手冊內\n容，並注意各放療欄位間之相關性。",
@@ -7668,7 +7672,7 @@
       "field_en": "County/city township code (CITY - from ROC year 104)"
     }
   },
-  "raw_text_first_page": "2025年06月24日修訂\n癌症登記檔長表 LF (2018 年以後版本)\n（HEALTH-14：H_BHP_CRFLF_3）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFLF_3 資料筆數 832,459筆(2022年)\n中文檔名 癌症登記檔長表 LF 英文檔名 Taiwan Cancer Registry—Long Form\n(2018年)\n檔案大小 340 MB 欄位數 112\n譯碼簿\n屬性 歷史檔 週期 年 2025/06/24 初版\n更新日期\n資料描述\n1. 各醫院自 2018 年起新診斷的癌症個案改採 107 年版癌症登記項目申報。50 床以上\n醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；其中參與長表申報醫院，\n依長表摘錄手冊申報主要癌症的期別、詳細治療與復發等重要癌症照護資料。(少數\n資料會包含 2017診斷年以前之補申報個案)\n2. 自2002診斷年起，長表 TCDB首先針對子宮頸癌、乳癌、口腔癌、結直腸癌、肝癌、\n肺癌來收錄。\n3. 自2008診斷年起新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n4. 自2009診斷年起新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n5. 自2013診斷年起新增喉癌，共十六大癌症。\n6. 自2022診斷年起新增胰臟癌，共十七大癌症。\n7. AJCC 癌症分期版本於長表資料庫內共有三種版本：\n2003-2009年間診斷為癌症之個案，以 AJCC第六版作為分期依據。\n2010-2017年間診斷為癌症之個案，以 AJCC第七版作為分期依據。\n2018年起診斷為癌症之個案，以 AJCC 第八版作為分期依據。\n2021年起診斷為子宮頸癌個案，以AJCC 第九版作為分期依據。\n自AJCC 第九版起，各癌症依需求更新期別資訊。\n8. 有關長表資料分析指引，可參考台灣癌症登記中心網站：https://twcr.tw/?p=3284。\n9. 欲分析放射治療儀器或劑量等詳細資訊，請務必參閱臺灣癌症登記長表摘錄手冊內\n容，並注意各放療欄位間之相關性。\n注意事項 1. 為因應癌症診療實務之需求，國民健康署於民國 98年起，開始著手規劃於台灣癌\n症登記長表資料庫中增收癌症部位特定因子之資料；同時基於公共衛生的考量，並\n將吸菸、嚼檳榔、飲酒、身體及體重之收錄納入 100年版癌症登記摘錄手冊中增\n修。\n2. 長表醫院所需申報之癌症類型除 2007 年申報的子宮頸癌、乳癌、結直腸癌、口腔\n癌、肺癌、肝癌，及 2008年新增的攝護腺癌、胃癌、食道癌和膀胱癌外，2009年\n再增加鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，2010年擴大至男、\n女前10癌(口腔癌、結直腸癌、肝癌、肺癌、乳癌、子宮頸癌、食道癌、胃癌、攝\n1",
+  "raw_text_first_page": "2026年07月28日修訂\n癌症登記檔長表 LF(2018 年以後版本)\n（HEALTH-14：H_BHP_CRFLF_3）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_CRFLF_3 資料筆數 1,026,938筆(2023年)\n中文檔名 癌症登記檔長表LF 英文檔名 TaiwanCancerRegistry—LongForm\n(2018年)\n檔案大小 420MB 欄位數 112\n譯碼簿 2025/06/24 初版\n屬性 歷史檔 週期 年\n更新日期 2026/07/28 修訂\n資料描述\n1. 各醫院自 2018 年起新診斷的癌症個案改採 107 年版癌症登記項目申報。50 床以上\n醫院依短表摘錄手冊規定申報癌症發生和診療摘要資料；其中參與長表申報醫院，\n依長表摘錄手冊申報主要癌症的期別、詳細治療與復發等重要癌症照護資料。(少數\n資料會包含2017診斷年以前之補申報個案)\n2. 自2002診斷年起，長表TCDB 首先針對子宮頸癌、乳癌、口腔癌、結直腸癌、肝癌、\n肺癌來收錄。\n3. 自2008診斷年起新增攝護腺癌、胃癌、食道癌和膀胱癌，共十大癌症。\n4. 自2009診斷年起新增鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，共十五\n大癌症。\n5. 自2013診斷年起新增喉癌，共十六大癌症。\n6. 自2022診斷年起新增胰臟癌，共十七大癌症。\n7. AJCC 癌症分期版本於長表資料庫內共有三種版本：\n2003-2009年間診斷為癌症之個案，以AJCC 第六版作為分期依據。\n2010-2017年間診斷為癌症之個案，以AJCC 第七版作為分期依據。\n2018 年起診斷為癌症之個案，以AJCC 第八版作為分期依據。\n2021 年起診斷為子宮頸癌個案，以AJCC 第九版作為分期依據。\n自 AJCC 第九版起，各癌症依需求更新期別資訊。\n8. 有關長表資料分析指引，可參考台灣癌症登記中心網站：https://twcr.tw/?p=3284。\n9. 欲分析放射治療儀器或劑量等詳細資訊，請務必參閱臺灣癌症登記長表摘錄手冊內\n容，並注意各放療欄位間之相關性。\n注意事項 1. 為因應癌症診療實務之需求，國民健康署於民國98年起，開始著手規劃於台灣癌\n症登記長表資料庫中增收癌症部位特定因子之資料；同時基於公共衛生的考量，並\n將吸菸、嚼檳榔、飲酒、身體及體重之收錄納入100年版癌症登記摘錄手冊中增\n修。\n2. 長表醫院所需申報之癌症類型除2007年申報的子宮頸癌、乳癌、結直腸癌、口腔\n癌、肺癌、肝癌，及2008年新增的攝護腺癌、胃癌、食道癌和膀胱癌外，2009年\n再增加鼻咽癌、主唾液腺癌、子宮體癌、卵巢癌和血液腫瘤，2010年擴大至男、\n女前10癌(口腔癌、結直腸癌、肝癌、肺癌、乳癌、子宮頸癌、食道癌、胃癌、攝\n1",
   "qa": {
     "errors": [],
     "warnings": []
@@ -7679,9 +7683,9 @@
   "version_id": "period-2018-later_post-20250624",
   "version_label": "2018 年以後 · 20250624 起適用",
   "pdf_url": "https://www.mohw.gov.tw/dl-100517-63c0700e-24d5-40e2-b72e-d72bd2559b5f.html",
-  "pdf_sha256": "6341680a831c69f7c34cb86b4a29481a4fb05ff63ff96930ca08ba21f81d29ac",
+  "pdf_sha256": "b7794716178167c5ba4dbc7a57aa4101d040dd0edb4022c4d2875ac91ce56ec6",
   "doc_first_published": "2026-05-25",
-  "doc_last_updated": "2026-05-25",
+  "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2018年以後版本)(20250624起適用)",
   "data_description_en": "Service Item — Category (W_LTC_CMS_SB300V2). Records: 35. File size: 128 KB. Fields: 2. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix at the end of the manual. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: this file matches Service Item — Item (W_LTC_CMS_SB301V2) on the serial number OBJID.",
   "notes_en": "1. To meet the practical needs of cancer diagnosis and treatment, starting in 2009 (ROC year 98) the Health Promotion Administration began planning to add cancer site-specific factor data to the Taiwan Cancer Registry long-form database. At the same time, out of public health considerations, the collection of smoking, betel nut chewing, alcohol consumption, body measurements, and weight was added to the 2011 (ROC year 100) edition of the Cancer Registry Abstracting Manual.\n2. In addition to the cervical, breast, colorectal, oral, lung, and liver cancers reported in 2007, and the prostate, gastric, esophageal, and bladder cancers added in 2008, long-form hospitals were required to report nasopharyngeal cancer, major salivary gland cancer, corpus uteri cancer, ovarian cancer, and hematologic malignancies starting in 2009; in 2010 this was expanded to the top 10 cancers in men and women (oral cancer, colorectal cancer, liver cancer, lung cancer, breast cancer, cervical cancer, esophageal cancer, gastric cancer, pros",

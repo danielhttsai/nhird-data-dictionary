@@ -11,7 +11,7 @@
       "name_en": "OCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "民國年YYYMMDDHH；108年起改 為民國年YYYMMDDHHMI，長度為 11",
+      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為 11",
       "available_notes": [
         {
           "roc_year": 108,
@@ -20,7 +20,7 @@
         }
       ],
       "name_zh_en": "most recent occurrence date",
-      "description_en": ""
+      "description_en": "Minguo Year YYYYMMDDHH; starting from 2018, it is Minguo Year YYYYMMDDHHMI, length is 11"
     },
     {
       "seq": 29,
@@ -30,8 +30,8 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "misalignment-of-victim-s-identity-card-number",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 30,
@@ -41,8 +41,8 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "relative_person_id_card_number_correction",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     }
   ],
   "removed": [
@@ -54,8 +54,8 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "misalignment-of-victim-s-identity-card-number",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 18,
@@ -65,8 +65,8 @@
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "relative_person_id_card_number_correction",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 30,
@@ -74,7 +74,7 @@
       "name_en": "LASTOCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "民國年YYYMMDDHH；108年起改 為民國年YYYMMDDHHMI，長度為 11",
+      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為 11",
       "available_notes": [
         {
           "roc_year": 108,
@@ -83,7 +83,7 @@
         }
       ],
       "name_zh_en": "most recent occurrence date",
-      "description_en": ""
+      "description_en": "Minguo Year YYYYMMDDHH; starting from 2018, it is Minguo Year YYYYMMDDHHMI, length is 11"
     }
   ],
   "modified": [
@@ -132,7 +132,7 @@
       "seq_later": 16,
       "changes": {
         "description_zh": {
-          "from": "1：男；2：女；3：不詳(社工填寫 時直接選不詳)；9：不詳(用身份證 判斷還是不詳)",
+          "from": "1：男；2：女；3：不詳(社工填寫時直接選不詳)；9：不詳(用身份證判斷還是不詳)",
           "to": "詳譯碼說明"
         }
       }
@@ -143,7 +143,7 @@
       "changes": {
         "name_zh": {
           "from": "與被害人關係類別選其",
-          "to": "與被害人關係類別選其 他時所填的資料"
+          "to": "與被害人關係類別選其他時所填的資料"
         },
         "description_zh": {
           "from": "108年長度為96",

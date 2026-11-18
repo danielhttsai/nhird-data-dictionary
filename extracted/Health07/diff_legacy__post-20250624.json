@@ -7,14 +7,14 @@
   "added": [
     {
       "seq": 3,
-      "name_zh": "被保險人身分證字 號",
+      "name_zh": "被保險人身分證字號",
       "name_en": "INS_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(INS_ID)不同者 為眷屬。經加密處理，身分證 字號，或外籍居留證號碼(如無 居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Insured person ID number",
+      "description_en": "1. If the individual's ID number differs from the insured person's ID number, it is considered a relative. Encrypted ID number or alien residence permit number (if no residence permit number, passport number). 2. The length of the 2 million people sample file is 9."
     },
     {
       "seq": 4,
@@ -25,7 +25,7 @@
       "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
       "available_notes": [],
       "name_zh_en": "insurance status",
-      "description_en": ""
+      "description_en": "1: In Coverage 2: Terminated Coverage 3: Transferred Out 4: General Termination of Coverage 5: Death Termination of Coverage X: Never Insured U: Unclear"
     },
     {
       "seq": 5,
@@ -33,10 +33,10 @@
       "name_en": "BRANCH_ID",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
+      "description_zh": "0：總局(局本部、署本部)1：台北區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
       "available_notes": [],
       "name_zh_en": "Insurance unit NHI region",
-      "description_en": ""
+      "description_en": "0: Head Office (Bureau/Department headquarters); 1: Taipei Division; 2: Northern Division; 3: Central Division; 4: Southern Division; 5: Kaohsiung-Pingtung Division; 6: Eastern Division."
     },
     {
       "seq": 7,
@@ -44,10 +44,10 @@
       "name_en": "UNIT_INS_TYPE",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳單位屬性(UNIT_INS_TYPE)說 明。",
+      "description_zh": "詳單位屬性(UNIT_INS_TYPE)說明。",
       "available_notes": [],
       "name_zh_en": "insured unit attribute",
-      "description_en": ""
+      "description_en": "Detailed unit attribute (UNIT_INS_TYPE) description."
     },
     {
       "seq": 8,
@@ -58,7 +58,7 @@
       "description_zh": "詳身份別(ID_TYPE)說明。",
       "available_notes": [],
       "name_zh_en": "identity type",
-      "description_en": ""
+      "description_en": "details of identity type (ID_TYPE)."
     },
     {
       "seq": 9,
@@ -77,10 +77,10 @@
       "name_en": "RELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子女",
       "available_notes": [],
       "name_zh_en": "relationship_to_insured",
-      "description_en": ""
+      "description_en": "1: Spouse 2: Parents 3: Children 4: Grandparents (paternal) 5: Grandchildren (paternal line) 6: Grandparents (maternal) 7: Grandchildren (maternal line) 8: Great-grandparents (paternal) 9: Great-grandparents (maternal) 0: Other veteran's surviving dependents P: Ward (under guardianship) U: Unknown X: Never insured A: Great-grandchildren"
     },
     {
       "seq": 12,
@@ -91,7 +91,7 @@
       "description_zh": "Y：被保險人 N：眷屬",
       "available_notes": [],
       "name_zh_en": "insured person note",
-      "description_en": ""
+      "description_en": "Y: Insured person; N: Dependent."
     },
     {
       "seq": 22,
@@ -102,7 +102,7 @@
       "description_zh": "詳身分屬性(INS_TYPE)說明。",
       "available_notes": [],
       "name_zh_en": "identity attribute",
-      "description_en": ""
+      "description_en": "details of insured type (INS_TYPE) explanation."
     }
   ],
   "removed": [
@@ -112,10 +112,10 @@
       "name_en": "ID1_DIVISION",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：總局(局本部、署本部)1：台北 區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
+      "description_zh": "0：總局(局本部、署本部)1：台北區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
       "available_notes": [],
       "name_zh_en": "Insurance unit NHI region",
-      "description_en": ""
+      "description_en": "0: Head Office (Bureau/Department headquarters); 1: Taipei Division; 2: Northern Division; 3: Central Division; 4: Southern Division; 5: Kaohsiung-Pingtung Division; 6: Eastern Division."
     },
     {
       "seq": 2,
@@ -126,18 +126,18 @@
       "description_zh": "詳單位屬性(ID1_UNIT)說明。",
       "available_notes": [],
       "name_zh_en": "insured unit attribute",
-      "description_en": ""
+      "description_en": "details of unit attribute (ID1_UNIT) explanation."
     },
     {
       "seq": 7,
-      "name_zh": "被保險人身分證字 號",
+      "name_zh": "被保險人身分證字號",
       "name_en": "ID1",
       "type": "Char",
       "length": 12,
-      "description_zh": "1. 個人身分證字號(ID)與被保險 人身分證字號(ID1)不同者為 眷屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 個人身分證字號(ID)與被保險人身分證字號(ID1)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Insured person ID number",
+      "description_en": "1. If individual ID (ID) is different from insured person's ID (ID1), it is a relative. Encrypted ID number or passport number if no residence permit number. 2. The length of 2 million people sample file is 9."
     },
     {
       "seq": 11,
@@ -148,7 +148,7 @@
       "description_zh": "詳身份別(ID1_TYPE)說明。",
       "available_notes": [],
       "name_zh_en": "identity type",
-      "description_en": ""
+      "description_en": "details of ID1_TYPE."
     },
     {
       "seq": 12,
@@ -156,10 +156,10 @@
       "name_en": "ID_RELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：配偶 2：父母 3：子女4：祖父 母 5：孫子女 6：外祖父母 7：外 孫子女 8：曾祖父母 9：外曾祖父 母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子 女",
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子女",
       "available_notes": [],
       "name_zh_en": "relationship_to_insured",
-      "description_en": ""
+      "description_en": "1: Spouse 2: Parents 3: Children 4: Grandparents (paternal) 5: Grandchildren (paternal line) 6: Grandparents (maternal) 7: Grandchildren (maternal line) 8: Great-grandparents (paternal) 9: Great-grandparents (maternal) 0: Other veteran's surviving dependents P: Ward (under guardianship) U: Unknown X: Never insured A: Great-grandchildren"
     },
     {
       "seq": 13,
@@ -181,7 +181,7 @@
       "description_zh": "詳身分屬性(ID1_IDENT)說明。",
       "available_notes": [],
       "name_zh_en": "identity attribute",
-      "description_en": ""
+      "description_en": "detailed description of ID1_ident"
     },
     {
       "seq": 16,
@@ -192,7 +192,7 @@
       "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
       "available_notes": [],
       "name_zh_en": "insurance status",
-      "description_en": ""
+      "description_en": "1: In Coverage 2: Terminated Coverage 3: Transferred Out 4: General Termination of Coverage 5: Death Termination of Coverage X: Never Insured U: Unclear"
     },
     {
       "seq": 17,
@@ -203,7 +203,7 @@
       "description_zh": "Y：被保險人 N：眷屬",
       "available_notes": [],
       "name_zh_en": "insured person note",
-      "description_en": ""
+      "description_en": "Y: Insured person; N: Dependent."
     }
   ],
   "modified": [
@@ -226,8 +226,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1. 亦即保險對象，與被保險人身 分證字號(ID1)不同者為眷屬。 經加密處理，身分證字號，或 外籍居留證號碼(如無居留證 號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
-          "to": "1. 亦即保險對象，與被保險人身 分證字號(INS_ID)不同者為眷 屬。經加密處理，身分證字 號，或外籍居留證號碼(如無居 留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9"
+          "from": "1. 亦即保險對象，與被保險人身分證字號(ID1)不同者為眷屬。 經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+          "to": "1. 亦即保險對象，與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9"
         }
       }
     },
@@ -247,7 +247,7 @@
       "changes": {
         "name_zh": {
           "from": "被保險人全戶政補",
-          "to": "被保險人全戶政補 金額"
+          "to": "被保險人全戶政補金額"
         }
       }
     },

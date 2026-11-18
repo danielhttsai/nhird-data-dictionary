@@ -14,7 +14,7 @@
       "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "location of medical institution",
-      "description_en": ""
+      "description_en": "medical institution county town code referenced to the cause of death statistics file."
     },
     {
       "seq": 8,
@@ -25,7 +25,7 @@
       "description_zh": "詳欄位權屬別(HOS)譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical institution",
-      "description_en": ""
+      "description_en": "detail field ownership code (HOS) translation explanation"
     }
   ],
   "removed": [
@@ -38,7 +38,7 @@
       "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "location of medical institution",
-      "description_en": ""
+      "description_en": "medical institution county town code referenced to the cause of death statistics file."
     },
     {
       "seq": 5,
@@ -46,10 +46,10 @@
       "name_en": "HOSP_ID_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "詳欄位權屬別(HOS)譯碼說 明",
+      "description_zh": "詳欄位權屬別(HOS)譯碼說明",
       "available_notes": [],
       "name_zh_en": "ownership category of medical institution",
-      "description_en": ""
+      "description_en": "detail field ownership code (HOS) translation explanation"
     }
   ],
   "modified": [
@@ -60,16 +60,6 @@
         "length": {
           "from": 9,
           "to": 20
-        }
-      }
-    },
-    {
-      "key": "HOSP_CNT_TYPE",
-      "seq_later": 3,
-      "changes": {
-        "description_zh": {
-          "from": "詳見欄位特約類別 (HOSP_CNT_TYPE)譯碼說 明",
-          "to": "詳見欄位特約類別 (HOSP_CNT_TYPE)譯碼說明"
         }
       }
     }

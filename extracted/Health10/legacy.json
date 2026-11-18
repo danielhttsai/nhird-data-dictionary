@@ -3,15 +3,15 @@
   "code_short": "H_OST_DEATH",
   "name_zh": "死因統計檔",
   "name_en": "Cause Of Death Data",
-  "record_count_raw": "201,383 / 2024",
+  "record_count_raw": "199,576/ 2025",
   "field_count_declared": 17,
-  "file_size_raw": "10 MB /2024",
+  "file_size_raw": "10 MB /2025",
   "frequency": "年",
   "attribute": "現況檔",
-  "update_history_raw": "2025/09/02",
+  "update_history_raw": "2026/09/22",
   "update_history": [
     {
-      "date": "2025/09/02",
+      "date": "2026/09/22",
       "note": ""
     }
   ],
@@ -174,7 +174,7 @@
       "name_en": "MARRIAGE",
       "type": "Char",
       "length": 1,
-      "description_zh": "「60-82年間」與「83年以後」譯碼不同， 詳譯碼說明",
+      "description_zh": "「60-82年間」與「83年以後」譯碼不同， 詳譯碼說明 114年無",
       "available_notes": [
         {
           "roc_year": 82,
@@ -185,10 +185,15 @@
           "roc_year": 83,
           "ad_year": 1994,
           "marker": "以後"
+        },
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
         }
       ],
       "name_zh_en": "marital status",
-      "description_en": "Coding differs between \"ROC years 60-82 (AD 1971-1993)\" and \"ROC year 83 (AD 1994) onward\"; see the coding explanation."
+      "description_en": "Coding differs between \"ROC years 60-82 (AD 1971-1993)\" and \"ROC year 83 (AD 1994) onward\"; see the coding explanation. Not available for ROC year 114 (AD 2025)."
     },
     {
       "seq": 12,
@@ -319,7 +324,7 @@
     }
   ],
   "codebooks": {},
-  "raw_text_first_page": "2025年09月02日修訂\n死因統計檔\n( H_OST_DEATH)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_DEATH 資料筆數 201,383 / 2024\n中文檔名 死因統計檔 英文檔名 Cause Of Death Data\n檔案大小 10 MB /2024 欄位數 17\n譯碼簿\n屬性 現況檔 週期 年 2025/09/02\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n※本資料庫身分證字號、出生日期等欄位均經屏蔽處理，相關資料僅能於本部設置之\n獨立作業區內使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已\n無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 死因檔主鍵在60-73年為「連續號碼(s_num)」，74年起為「身分證字號(ID)」。\n3. 個人資料比對的鍵值：ID。\n頁 1 / 24",
+  "raw_text_first_page": "2026年09月22日修訂\n死因統計檔\n( H_OST_DEATH)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_OST_DEATH 資料筆數 199,576/ 2025\n中文檔名 死因統計檔 英文檔名 CauseOfDeathData\n檔案大小 10MB /2025 欄位數 17\n譯碼簿\n屬性 現況檔 週期 年 2026/09/22\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n※本資料庫身分證字號、出生日期等欄位均經屏蔽處理，相關資料僅能於本部設置之\n獨立作業區內使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已\n無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 死因檔主鍵在60-73年為「連續號碼(s_num)」，74年起為「身分證字號(ID)」。\n3. 個人資料比對的鍵值：ID。\n頁 1 / 24",
   "qa": {
     "errors": [],
     "warnings": [
@@ -332,9 +337,9 @@
   "version_id": "legacy",
   "version_label": "legacy",
   "pdf_url": "https://www.mohw.gov.tw/dl-95546-959bc000-693a-4d96-903d-d88d1e9ad1ad.html",
-  "pdf_sha256": "abdeca6b2bf8ad1ebfddbe012cf2c2c049d0eb292eaf3cb3bc02b0710b318f2b",
+  "pdf_sha256": "f3db00acc2eaf365f849f5973c98cc7fd8ab471a197f3d86cbdcb84f5f05af62",
   "doc_first_published": "2014-03-05",
-  "doc_last_updated": "2026-05-25",
+  "doc_last_updated": "2026-09-22",
   "name_zh_from_listing": "Health10_死因統計檔",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. One person per record.\n2. There are duplicate cases for 'serial number' or 'ID'.\n*Personal identification numbers, date of birth, and other fields in this database have been masked and can only be used within a designated area set up by the department. Statistical results must be reviewed before they can be carried out to ensure that the data cannot identify specific individuals.",

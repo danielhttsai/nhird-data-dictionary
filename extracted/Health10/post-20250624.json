@@ -3,15 +3,15 @@
   "code_short": "H_OST_DEATH",
   "name_zh": "死因統計檔",
   "name_en": "Cause Of Death Data",
-  "record_count_raw": "201,383 / 2024",
+  "record_count_raw": "199,576/ 2025",
   "field_count_declared": 18,
-  "file_size_raw": "13 MB /2024",
+  "file_size_raw": "12.1MB /2025",
   "frequency": "年",
   "attribute": "現況檔",
-  "update_history_raw": "2025/10/07",
+  "update_history_raw": "2026/09/22",
   "update_history": [
     {
-      "date": "2025/10/07",
+      "date": "2026/09/22",
       "note": ""
     }
   ],
@@ -163,7 +163,7 @@
       "name_en": "MARRIAGE",
       "type": "Char",
       "length": 1,
-      "description_zh": "「60-82年間」與「83年以後」譯碼不同， 詳譯碼說明",
+      "description_zh": "「60-82年間」與「83年以後」譯碼不同， 詳譯碼說明 114年無",
       "available_notes": [
         {
           "roc_year": 82,
@@ -174,10 +174,15 @@
           "roc_year": 83,
           "ad_year": 1994,
           "marker": "以後"
+        },
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
         }
       ],
       "name_zh_en": "marital status",
-      "description_en": "Coding differs between \"ROC years 60-82 (AD 1971-1993)\" and \"ROC year 83 (AD 1994) onward\"; see the coding explanation."
+      "description_en": "Coding differs between \"ROC years 60-82 (AD 1971-1993)\" and \"ROC year 83 (AD 1994) onward\"; see the coding explanation. Not available for ROC year 114 (AD 2025)."
     },
     {
       "seq": 11,
@@ -319,7 +324,7 @@
     }
   ],
   "codebooks": {},
-  "raw_text_first_page": "2025年10月07日修訂\n死因統計檔\n( H_OST_DEATH)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_DEATH 資料筆數 201,383 / 2024\n中文檔名 死因統計檔 英文檔名 Cause Of Death Data\n檔案大小 13 MB /2024 欄位數 18\n譯碼簿\n屬性 現況檔 週期 年 2025/10/07\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 死因檔主鍵在 60-73年為「連續號碼(s_num)」，74年起為「身分證字號(ID)」。\n3. 個人資料比對的鍵值：ID。\n頁 1 / 24",
+  "raw_text_first_page": "2026年09月22日修訂\n死因統計檔\n( H_OST_DEATH)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_OST_DEATH 資料筆數 199,576/ 2025\n中文檔名 死因統計檔 英文檔名 CauseOfDeathData\n檔案大小 12.1MB /2025 欄位數 18\n譯碼簿\n屬性 現況檔 週期 年 2026/09/22\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 死因檔主鍵在60-73年為「連續號碼(s_num)」，74年起為「身分證字號(ID)」。\n3. 個人資料比對的鍵值：ID。\n頁 1 / 24",
   "qa": {
     "errors": [],
     "warnings": []
@@ -330,9 +335,9 @@
   "version_id": "post-20250624",
   "version_label": "20250624 起適用",
   "pdf_url": "https://www.mohw.gov.tw/dl-100496-4a8806a4-61cb-4eea-8587-5071d63f62ce.html",
-  "pdf_sha256": "c3a5f972456799f63a4ebfbadb09860527816eb06b834c1e612d682260b31090",
+  "pdf_sha256": "971899f932bd0e3eef72354a27d36cc92d10a781f08d8d42101d3178437f08fc",
   "doc_first_published": "2026-05-25",
-  "doc_last_updated": "2026-05-25",
+  "doc_last_updated": "2026-09-22",
   "name_zh_from_listing": "Health10_死因統計檔(20250624起適用)",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. One person per record.\n2. There may be duplicate 'serial number' or 'ID'.\n*The database has been de-identified and fields such as name, address, and other directly identifiable information have been removed. Shielded fields include National Health Insurance ID, hospital code, insured unit code, unified number, date of birth, medical visit date, admission date, etc., which can only be used within a designated area in the agency and must be reviewed before any statistical results are carried out to ensure that no specific individual can be identified.",

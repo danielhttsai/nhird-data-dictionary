@@ -7,46 +7,46 @@
   "added": [
     {
       "seq": 7,
-      "name_zh": "特定治療項目 代號(一)",
+      "name_zh": "特定治療項目代號(一)",
       "name_en": "CURE_ITEM1",
       "type": "Char",
       "length": 2,
-      "description_zh": "空白表示無所列舉之內容，慢性病 連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM1~CURE_ITEM4） 譯碼說明",
+      "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM1~CURE_ITEM4） 譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "specific treatment item code (one)",
+      "description_en": "blank indicates no information, chronic disease continuous prescription dispensing this column is exempt from filling. See translation code explanation for details"
     },
     {
       "seq": 8,
-      "name_zh": "特定治療項目 代號(二)",
+      "name_zh": "特定治療項目代號(二)",
       "name_en": "CURE_ITEM2",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (two)",
       "description_en": ""
     },
     {
       "seq": 9,
-      "name_zh": "特定治療項目 代號(三)",
+      "name_zh": "特定治療項目代號(三)",
       "name_en": "CURE_ITEM3",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (three)",
       "description_en": ""
     },
     {
       "seq": 10,
-      "name_zh": "特定治療項目 代號(四)",
+      "name_zh": "特定治療項目代號(四)",
       "name_en": "CURE_ITEM4",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific treatment item code (four)",
       "description_en": ""
     },
     {
@@ -69,7 +69,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": ""
+      "description_en": "Prior to 92nd year (inclusive), 2 digits; from 93rd year onwards, 4 digits, see field healthcare card visit sequence number (FUNC_SEQ_NO) coding explanation"
     },
     {
       "seq": 15,
@@ -80,7 +80,7 @@
       "description_zh": "預防保健本欄免填補空白。 詳見欄位給付類別（PAY_TYPE） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": ""
+      "description_en": "preventive health skip this field blank details see payment type (PAY_TYPE) code explanation"
     },
     {
       "seq": 16,
@@ -88,10 +88,10 @@
       "name_en": "PART_CODE",
       "type": "Char",
       "length": 3,
-      "description_zh": "詳見欄位部分負擔代號 （PART_CODE）譯碼說明 慢性病連續處方調劑(無須加收藥",
+      "description_zh": "詳見欄位部分負擔代號 （PART_CODE）譯碼說明慢性病連續處方調劑(無須加收藥",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "See detailed explanation of partial payment code (PART_CODE) for chronic disease continuous prescription dispensing (no additional drug fee required)."
     },
     {
       "seq": 19,
@@ -99,7 +99,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_CODE~ ICD9CM_CODE2）譯碼說明 註: 1. 健保署規定醫療院所自105年 起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_CODE~ ICD9CM_CODE2）譯碼說明註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -108,7 +108,7 @@
         }
       ],
       "name_zh_en": "International Classification of Diseases Code 1",
-      "description_en": ""
+      "description_en": "Left-justified to fill gaps, see field International Classification of Diseases codes (ICD9CM_CODE~ ICD9CM_CODE2) translation notes: Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
     },
     {
       "seq": 20,
@@ -138,7 +138,7 @@
       "name_en": "OP_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-PCS 之 主手術代號；預防保健、慢性病連 續處方調劑及中醫本欄免填 註： 1. 健保署規定醫療院所自105年 起以ICD-10-PCS 申報。",
+      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -147,7 +147,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": ""
+      "description_en": "Left padding with ICD-9-PCS Primary Procedure Code; Preventive Health, Chronic Disease Follow-up Prescription and Traditional Chinese Medicine Not Required to Fill Notes: Starting from 105th year, medical institutions are required to report using ICD-10-PCS."
     },
     {
       "seq": 23,
@@ -155,10 +155,10 @@
       "name_en": "DRUG_DAYS",
       "type": "Num",
       "length": 8,
-      "description_zh": "本次口服藥給藥日份最高之天 數：除單次給藥為「非口服藥」外， 餘請填「口服藥」之最高給藥日份 （89.6）。慢性病連續處方調劑, 請依連續處方箋上所列 填寫；預防保健本欄為非必要欄",
+      "description_zh": "本次口服藥給藥日份最高之天數：除單次給藥為「非口服藥」外， 餘請填「口服藥」之最高給藥日份 （89.6）。慢性病連續處方調劑, 請依連續處方箋上所列填寫；預防保健本欄為非必要欄",
       "available_notes": [],
       "name_zh_en": "dosage date",
-      "description_en": ""
+      "description_en": "Maximum number of days for oral medication administration during this episode: Except for single-dose administration, which is 'non-orally administered drug', please fill in the maximum number of days for oral medication (89.6). For chronic diseases under continuous prescription refills, please fill according to the list on the continuous prescription; preventive health care is not a required field."
     },
     {
       "seq": 24,
@@ -169,7 +169,7 @@
       "description_zh": "詳見欄位處方調劑方式 （REL_MODE）譯碼說明",
       "available_notes": [],
       "name_zh_en": "prescription dispensing method",
-      "description_en": ""
+      "description_en": "Translation of coding description for relationship mode (REL_MODE)"
     },
     {
       "seq": 25,
@@ -177,7 +177,7 @@
       "name_en": "OP_CODE1",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-PCS 之 主手術代號；預防保健、慢性病連 續處方調劑及中醫本欄免填 註： 1. 健保署規定醫療院所自105年 起以ICD-10-PCS 申報。 2.92年起新增此欄位",
+      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。 2.92年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 105,
@@ -191,7 +191,7 @@
         }
       ],
       "name_zh_en": "secondary surgery code",
-      "description_en": ""
+      "description_en": "Left-aligned, pad with spaces if insufficient; ICD-9-PCS primary procedure code. Leave this field blank for preventive care, chronic-illness refill prescription dispensing, and Chinese medicine. Note: 1. The National Health Insurance Administration requires medical institutions to report using ICD-10-PCS from ROC year 105 (AD 2016) onward. 2. This field was added starting ROC year 92 (AD 2003)."
     },
     {
       "seq": 27,
@@ -199,10 +199,10 @@
       "name_en": "DRUG_PRSN_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，調劑藥師之國民身分 證統一編號，外籍居留證號，左靠 不足補空白",
+      "description_zh": "經加密處理，調劑藥師之國民身分證統一編號，外籍居留證號，左靠不足補空白",
       "available_notes": [],
       "name_zh_en": "pharmacist_id_number",
-      "description_en": ""
+      "description_en": "encrypted pharmacist's national identification number or foreign resident permit number, left-aligned with trailing spaces if necessary"
     },
     {
       "seq": 29,
@@ -210,10 +210,10 @@
       "name_en": "CURE_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數為OPDTO檔之除用藥之 外（醫令類別為2或3），各項診 療及特殊材料明細點數之小計；慢 性病連續處方調劑本欄免填",
+      "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數之小計；慢性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of consultation fee subtotal",
-      "description_en": ""
+      "description_en": "This point value is the subtotal of each diagnostic and special material detail points for those with medical service classification code as 2 or 3, excluding medication; continuous prescription refills for chronic diseases should not be filled."
     },
     {
       "seq": 30,
@@ -221,10 +221,10 @@
       "name_en": "DIAG_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫全民健保醫療點數支付標準 碼。預防保健、洗腎、慢性病連續 處方調劑本欄免填，補空白",
+      "description_zh": "填寫全民健保醫療點數支付標準碼。預防保健、洗腎、慢性病連續處方調劑本欄免填，補空白",
       "available_notes": [],
       "name_zh_en": "consultation fee item code",
-      "description_en": ""
+      "description_en": "Fill in the National Health Insurance Medical Point Payment Standard form. Preventive health care, dialysis, and chronic disease follow-up prescriptions are exempt from filling this column, leave blank"
     },
     {
       "seq": 32,
@@ -235,7 +235,7 @@
       "description_zh": "填寫支付標準碼，洗腎本欄免填，",
       "available_notes": [],
       "name_zh_en": "drug claims point item",
-      "description_en": ""
+      "description_en": "fill payment standard code, dialysis leave blank"
     },
     {
       "seq": 34,
@@ -243,10 +243,10 @@
       "name_en": "EXP_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數含部分負擔金額，如為交 付調劑之藥品點數，不得併入合計 點數內計算。本欄為「用藥明細點 數小計」、「診療明細點數小計」、 「診察點數」、「藥事服務點數」 之合計",
+      "description_zh": "此項點數含部分負擔金額，如為交付調劑之藥品點數，不得併入合計點數內計算。本欄為「用藥明細點數小計」、「診療明細點數小計」、 「診察點數」、「藥事服務點數」 之合計",
       "available_notes": [],
       "name_zh_en": "total points",
-      "description_en": ""
+      "description_en": "This point value includes copayment amount; if for a dispensed drug, it shall not be included in the total point calculation. This column is the sum of 'Medication Detail Point Total', 'Diagnosis Detail Point Total', 'Consultation Points', and 'Pharmaceutical Service Points'."
     },
     {
       "seq": 35,
@@ -257,7 +257,7 @@
       "description_zh": "部分負擔點數預防保健，請補0",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": ""
+      "description_en": "copayment points for preventive healthcare, please enter 0"
     },
     {
       "seq": 36,
@@ -265,10 +265,10 @@
       "name_en": "APPL_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.若為0者，請填0 2.本項費用不含部分負擔金額， 即合計點數-部分負擔金額。 3.論病例計酬案件則以定額支付點 數扣除【部分負擔點數及醫令類別 D:被替代之健保給付特材項目】合 計點數。",
+      "description_zh": "1.若為0者，請填0 2.本項費用不含部分負擔金額， 即合計點數-部分負擔金額。 3.論病例計酬案件則以定額支付點數扣除【部分負擔點數及醫令類別 D:被替代之健保給付特材項目】合計點數。",
       "available_notes": [],
       "name_zh_en": "application points",
-      "description_en": ""
+      "description_en": "1. If it is 0, please fill in 0; 2. The cost of this item does not include copayment amount, i.e., total points - copayment amount.; 3. For case-based payment cases, deduct the total points【copayment points and medical order category D: items replaced by health insurance】from the total points."
     },
     {
       "seq": 37,
@@ -276,55 +276,55 @@
       "name_en": "CASE_PAY_CODE",
       "type": "Char",
       "length": 2,
-      "description_zh": "論病例計酬代碼案件，本欄為必要 欄位，詳見欄位DRG參考碼 （CASE_PAY_CODE）譯碼說明",
+      "description_zh": "論病例計酬代碼案件，本欄為必要欄位，詳見欄位DRG參考碼 （CASE_PAY_CODE）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "DRG Code Handling",
+      "description_en": "For case-based payment cases, this field is a required field. See the DRG reference code (CASE_PAY_CODE) decoding explanation for details."
     }
   ],
   "removed": [
     {
       "seq": 6,
-      "name_zh": "特定治療項目 代號(一)",
+      "name_zh": "特定治療項目代號(一)",
       "name_en": "CURE_ITEM_NO1",
       "type": "Char",
       "length": 2,
-      "description_zh": "空白表示無所列舉之內容，慢性 病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM_NO1~ CURE_ITEM_NO4）譯碼說明",
+      "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。 詳見欄位特定治療項目 （CURE_ITEM_NO1~ CURE_ITEM_NO4）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "specific-treatment-item-code-one",
+      "description_en": "blank indicates no listed content, chronic disease continuous prescription dispensing is exempt. See field-specific treatment items (CURE_ITEM_NO1~ CURE_ITEM_NO4) code explanation"
     },
     {
       "seq": 7,
-      "name_zh": "特定治療項目 代號(二)",
+      "name_zh": "特定治療項目代號(二)",
       "name_en": "CURE_ITEM_NO2",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-two",
       "description_en": ""
     },
     {
       "seq": 8,
-      "name_zh": "特定治療項目 代號(三)",
+      "name_zh": "特定治療項目代號(三)",
       "name_en": "CURE_ITEM_NO3",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-three",
       "description_en": ""
     },
     {
       "seq": 9,
-      "name_zh": "特定治療項目 代號(四)",
+      "name_zh": "特定治療項目代號(四)",
       "name_en": "CURE_ITEM_NO4",
       "type": "Char",
       "length": 2,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "specific-treatment-item-code-four",
       "description_en": ""
     },
     {
@@ -347,7 +347,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": ""
+      "description_en": "Prior to ROC Year 92 (inclusive) - 2 digits; after ROC Year 93 - 4 digits; see coding explanation for medical visit sequence number (CARD_SEQ_NO)"
     },
     {
       "seq": 14,
@@ -358,7 +358,7 @@
       "description_zh": "預防保健本欄免填補空白。 詳見欄位給付類別 （GAVE_KIND）譯碼說明",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": ""
+      "description_en": "Preventive health Do not fill in this column See field payment category (GAVE_KIND) code explanation"
     },
     {
       "seq": 15,
@@ -369,7 +369,7 @@
       "description_zh": "詳見欄位部分負擔代號",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "detail copay code"
     },
     {
       "seq": 16,
@@ -377,7 +377,7 @@
       "name_en": "ICD9CM_1",
       "type": "Char",
       "length": 5,
-      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_1~ICD9CM_3）譯碼 說明 註: 1. 健保署規定醫療院所自105年 起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼(僅106年資料長度為15碼)。",
+      "description_zh": "左靠不足補空白， 詳見欄位國際疾病分類號 （ICD9CM_1~ICD9CM_3）譯碼說明註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼(僅106年資料長度為15碼)。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -396,7 +396,7 @@
         }
       ],
       "name_zh_en": "International Classification of Diseases Code 1",
-      "description_en": ""
+      "description_en": "Left-aligned, pad with spaces if insufficient; see the International Classification of Diseases code (ICD9CM_1~ICD9CM_3) coding explanation. Note: 1. The National Health Insurance Administration requires medical institutions to report using ICD-10-CM from ROC year 105 (AD 2016) onward. 2. From ROC year 105 (AD 2016), the field length was adjusted to 7 characters (only ROC year 106 (AD 2017) data has a length of 15 characters)."
     },
     {
       "seq": 17,
@@ -426,7 +426,7 @@
       "name_en": "ICD_OP_CODE1",
       "type": "Char",
       "length": 4,
-      "description_zh": "左靠不足補空白，ICD-9-PCS 之 主手術代號；預防保健、慢性病連 續處方調劑及中醫本欄免填 註： 1.100 年起新增「次手術代碼」欄 位 2. 健保署規定醫療院所自 105 年 起以ICD-10-PCS 申報。 3. 自105年起欄位長度調整為7碼 (僅106年資料長度為15碼) 。",
+      "description_zh": "左靠不足補空白，ICD-9-PCS 之主手術代號；預防保健、慢性病連續處方調劑及中醫本欄免填註： 1.100 年起新增「次手術代碼」欄位 2. 健保署規定醫療院所自 105 年起以ICD-10-PCS 申報。 3. 自105年起欄位長度調整為7碼 (僅106年資料長度為15碼) 。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -450,7 +450,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": ""
+      "description_en": "left justified to fill blanks ICD-9-PCS primary procedure code; preventive healthcare, chronic disease follow-up prescription filling and traditional Chinese medicine this column exempt from filling Note: 1. added 'secondary procedure code' field starting from 2000 2. NHI Bureau requires medical institutions to use ICD-10-PCS reporting starting in 2015 3. since 2015, the field length adjusted to 7 digits (only 2016 data is 15 digits)"
     },
     {
       "seq": 20,
@@ -469,7 +469,7 @@
       "name_en": "DRUG_DAY",
       "type": "Num",
       "length": 8,
-      "description_zh": "本次口服藥給藥日份最高之天 數：除單次給藥為「非口服藥」 外，餘請填「口服藥」之最高給 藥日份（89.6）。慢性病連續處方 調劑,請依連續處方箋上所列 填寫；預防保健本欄為非必要欄 位。詳見欄位（變項）譯碼說明 註:僅106年第四季資料長度為5 碼。",
+      "description_zh": "本次口服藥給藥日份最高之天數：除單次給藥為「非口服藥」 外，餘請填「口服藥」之最高給藥日份（89.6）。慢性病連續處方調劑,請依連續處方箋上所列填寫；預防保健本欄為非必要欄位。詳見欄位（變項）譯碼說明註:僅106年第四季資料長度為5 碼。",
       "available_notes": [
         {
           "roc_year": 106,
@@ -478,7 +478,7 @@
         }
       ],
       "name_zh_en": "dosage date",
-      "description_en": ""
+      "description_en": "Maximum number of days for oral medication administration on this occasion: Except for single-dose administration as 'non-oral drug', please fill in the highest dose of oral medication administration (89.6). For chronic disease continuous prescription, please fill according to the prescription; preventive health care is not a required field. See field (variable) code explanation note: Note: Only data from Q4 2010 are 5 digits long."
     },
     {
       "seq": 22,
@@ -489,18 +489,18 @@
       "description_zh": "詳見欄位處方調劑方式 （MED_TYPE）譯碼說明",
       "available_notes": [],
       "name_zh_en": "prescription dispensing method",
-      "description_en": ""
+      "description_en": "Translation of coding description for prescription dispensing method (MED_TYPE)"
     },
     {
       "seq": 24,
-      "name_zh": "診療明細點數小計",
+      "name_zh": "診療明細點數小計",
       "name_en": "TREAT_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數為OPDTO檔之除用藥之 外（醫令類別為2或3），各項診 療及特殊材料明細點數（序號 13）之小計；慢性病連續處方調 劑本欄免填",
+      "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數（序號 13）之小計；慢性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of diagnosis fee subtotal",
-      "description_en": ""
+      "description_en": "In the OPDTO file, these points are the subtotal (item no. 13) of the itemized points for treatments and special materials, excluding medication (order category 2 or 3); leave this field blank for chronic-illness refill prescription dispensing."
     },
     {
       "seq": 25,
@@ -508,21 +508,21 @@
       "name_en": "TREAT_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫全民健保醫療點數支付標準 碼。預防保健、洗腎、慢性病連 續處方調劑本欄免填，補空白",
+      "description_zh": "填寫全民健保醫療點數支付標準碼。預防保健、洗腎、慢性病連續處方調劑本欄免填，補空白",
       "available_notes": [],
       "name_zh_en": "consultation fee item code",
-      "description_en": ""
+      "description_en": "Fill in the National Health Insurance Medical Point Payment Standard form. Preventive health care, dialysis, and chronic disease follow-up prescriptions are exempt from filling this column, leave blank"
     },
     {
       "seq": 27,
-      "name_zh": "藥事服務點數 項目代號",
+      "name_zh": "藥事服務點數項目代號",
       "name_en": "DSVC_NO",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫支付標準碼，洗腎本欄免 填，補空白",
+      "description_zh": "填寫支付標準碼，洗腎本欄免填，補空白",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "pharmacy service point item code",
+      "description_en": "Fill Payment Standard Code, Dialysis Column Not Required, Leave Blank"
     },
     {
       "seq": 29,
@@ -530,10 +530,10 @@
       "name_en": "BY_PASS_CODE",
       "type": "Char",
       "length": 2,
-      "description_zh": "論病例計酬代碼案件，本欄為必 要欄位，詳見欄位DRG參考碼 （BY_PASS_CODE）譯碼說明",
+      "description_zh": "論病例計酬代碼案件，本欄為必要欄位，詳見欄位DRG參考碼 （BY_PASS_CODE）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "DRG Code Handling",
+      "description_en": "For DRG-based payment cases, this field is mandatory. See explanation for DRG reference code (BY_PASS_CODE)."
     },
     {
       "seq": 30,
@@ -541,10 +541,10 @@
       "name_en": "T_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此項點數含部分負擔點數，如為 交付調劑之藥品點數，不得併入 合計點數內計算。本欄為「用藥 明細點數小計」、「診療明細點數",
+      "description_zh": "此項點數含部分負擔點數，如為交付調劑之藥品點數，不得併入合計點數內計算。本欄為「用藥明細點數小計」、「診療明細點數",
       "available_notes": [],
       "name_zh_en": "total points",
-      "description_en": ""
+      "description_en": "This point includes copay points. If for drugs dispensed, it shall not be included in the total point calculation. This column is 'Medication Detail Point Sum', 'Diagnosis Detail Points'"
     },
     {
       "seq": 31,
@@ -555,7 +555,7 @@
       "description_zh": "部分負擔點數預防保健，請補0",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": ""
+      "description_en": "copayment points for preventive healthcare, please enter 0"
     },
     {
       "seq": 32,
@@ -563,10 +563,10 @@
       "name_en": "T_APPL_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.若為0者，請填0 2.本項費用不含部分負擔點數， 即合計點數-部分負擔點數。 3.論病例計酬案件則以定額支付 點數扣除【部分負擔點數及醫令 類別D:被替代之健保給付特材項 目】合計點數。",
+      "description_zh": "1.若為0者，請填0 2.本項費用不含部分負擔點數， 即合計點數-部分負擔點數。 3.論病例計酬案件則以定額支付點數扣除【部分負擔點數及醫令類別D:被替代之健保給付特材項目】合計點數。",
       "available_notes": [],
       "name_zh_en": "application points",
-      "description_en": ""
+      "description_en": "1. If it is 0, please fill in 0; 2. The cost of this item does not include copayment points, i.e., total points - copayment points.; 3. For case-based payment cases, deduct the total points【copayment points and medical order category D: items replaced by health insurance】from the total points."
     },
     {
       "seq": 39,
@@ -574,10 +574,10 @@
       "name_en": "PHAR_ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.經加密處理，調劑藥師之國民身 分證統一編號，外籍居留證號， 左靠不足補空白",
+      "description_zh": "1.經加密處理，調劑藥師之國民身分證統一編號，外籍居留證號， 左靠不足補空白",
       "available_notes": [],
       "name_zh_en": "pharmacist_id_number",
-      "description_en": ""
+      "description_en": "1. Encrypted, pharmacist's national unified ID number, foreign resident permit number, left-aligned with spaces added if insufficient."
     }
   ],
   "modified": [
@@ -637,10 +637,6 @@
       "key": "SEQ_NO",
       "seq_later": 6,
       "changes": {
-        "name_zh": {
-          "from": "流水號",
-          "to": "流水號"
-        },
         "type": {
           "from": "Char",
           "to": "Num"
@@ -656,8 +652,8 @@
       "seq_later": 11,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位就醫科別 （FUNC_TYPE）譯碼說明 屬整合性照護計畫個案，為當日 就醫之第1科別",
-          "to": "詳見欄位就醫科別（FUNC_TYPE） 譯碼說明 屬整合性照護計畫個案，為當日就 醫之第1科別"
+          "from": "詳見欄位就醫科別 （FUNC_TYPE）譯碼說明屬整合性照護計畫個案，為當日就醫之第1科別",
+          "to": "詳見欄位就醫科別（FUNC_TYPE） 譯碼說明屬整合性照護計畫個案，為當日就醫之第1科別"
         }
       }
     },
@@ -680,8 +676,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1.經加密處理。國民身分證統一編 號，或外籍居留證號碼（如無居 留證號碼請填護照號碼），左靠不 足補空白",
-          "to": "經加密處理。 國民身分證統一編號，或外籍居留 證號碼（如無居留證號碼請填護照 號碼），左靠不足補空白"
+          "from": "1.經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白",
+          "to": "經加密處理。 國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白"
         }
       }
     },
@@ -694,8 +690,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1.轉診單中之轉介醫事或原處方 醫療機構代號；如為慢性病連續 處方調劑本欄為必要欄位,則為原 處方醫療機構代號 2.經加密處理 註：100年起新增此欄位",
-          "to": "1.轉診單中之轉介醫事或原處方醫 療機構代號；如為慢性病連續處方 調劑本欄為必要欄位,則為原處方 醫療機構代號 2.經加密處理 註: 92 年起新增此欄位"
+          "from": "1.轉診單中之轉介醫事或原處方醫療機構代號；如為慢性病連續處方調劑本欄為必要欄位,則為原處方醫療機構代號 2.經加密處理註：100年起新增此欄位",
+          "to": "1.轉診單中之轉介醫事或原處方醫療機構代號；如為慢性病連續處方調劑本欄為必要欄位,則為原處方醫療機構代號 2.經加密處理註: 92 年起新增此欄位"
         }
       }
     },
@@ -704,8 +700,8 @@
       "seq_later": 18,
       "changes": {
         "description_zh": {
-          "from": "Y:是(病患經診斷後需轉出) N:否、慢性病連續處方調劑 註：100年起新增此欄位",
-          "to": "Y:是(病患經診斷後需轉出) N:否、慢性病連續處方調劑 註: 92 年起新增此欄位"
+          "from": "Y:是(病患經診斷後需轉出) N:否、慢性病連續處方調劑註：100年起新增此欄位",
+          "to": "Y:是(病患經診斷後需轉出) N:否、慢性病連續處方調劑註: 92 年起新增此欄位"
         }
       }
     },
@@ -718,8 +714,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1.經加密處理，醫師或原處方醫 師之國民身分證統一編號或外籍 居留證號，左靠不足補空白",
-          "to": "經加密處理，醫師或原處方醫師之 國民身分證統一編號或外籍居留 證號，左靠不足補空白"
+          "from": "1.經加密處理，醫師或原處方醫師之國民身分證統一編號或外籍居留證號，左靠不足補空白",
+          "to": "經加密處理，醫師或原處方醫師之國民身分證統一編號或外籍居留證號，左靠不足補空白"
         }
       }
     },
@@ -728,8 +724,8 @@
       "seq_later": 28,
       "changes": {
         "description_zh": {
-          "from": "此項費用為 OPDTO 檔之醫令類別 為1之用藥明細點數之小計，如為 交付調劑之藥品費用，不得併入用 藥明細點數小計內計算；西醫一般 案件及中醫請依給藥日份計算用 藥申報點數",
-          "to": "此項費用為OPDTO檔之醫令類別 為1之用藥明細點數之小計，如為 交付調劑之藥品費用，不得併入用 藥明細點數小計內計算；西醫一般 案件及中醫請依給藥日份計算用 藥申報點數"
+          "from": "此項費用為 OPDTO 檔之醫令類別為1之用藥明細點數之小計，如為交付調劑之藥品費用，不得併入用藥明細點數小計內計算；西醫一般案件及中醫請依給藥日份計算用藥申報點數",
+          "to": "此項費用為OPDTO檔之醫令類別為1之用藥明細點數之小計，如為交付調劑之藥品費用，不得併入用藥明細點數小計內計算；西醫一般案件及中醫請依給藥日份計算用藥申報點數"
         }
       }
     },
@@ -738,8 +734,8 @@
       "seq_later": 31,
       "changes": {
         "description_zh": {
-          "from": "診察費點。預防保健、洗腎、慢 性病連續處方調劑本欄免填，請 補0。 詳見欄位診察點數 （DIAG_DOT）譯碼說明",
-          "to": "診察費點數。預防保健、洗腎、慢 性病連續處方調劑本欄免填，請補 0。 詳見欄位診察點數（DIAG_DOT） 譯碼說明"
+          "from": "診察費點。預防保健、洗腎、慢性病連續處方調劑本欄免填，請補0。 詳見欄位診察點數 （DIAG_DOT）譯碼說明",
+          "to": "診察費點數。預防保健、洗腎、慢性病連續處方調劑本欄免填，請補 0。 詳見欄位診察點數（DIAG_DOT） 譯碼說明"
         }
       }
     },
@@ -748,8 +744,8 @@
       "seq_later": 33,
       "changes": {
         "description_zh": {
-          "from": "藥事服務費點數，洗腎本欄補0。 本欄為加總「OPDTO 檔」「醫令 類別」欄位代碼「9：藥事服務 費」之項次「點數」。 詳見欄位藥事服務點數 （DSVC_DOT）譯碼說明",
-          "to": "藥事服務費點數，洗腎本欄補0。 本欄為加總「OPDTO檔」「醫令 類別」欄位代碼「9：藥事服務費」 之項次「點數」。 詳見欄位藥事服務點數 （DSVC_DOT）譯碼說明"
+          "from": "藥事服務費點數，洗腎本欄補0。 本欄為加總「OPDTO 檔」「醫令類別」欄位代碼「9：藥事服務費」之項次「點數」。 詳見欄位藥事服務點數 （DSVC_DOT）譯碼說明",
+          "to": "藥事服務費點數，洗腎本欄補0。 本欄為加總「OPDTO檔」「醫令類別」欄位代碼「9：藥事服務費」 之項次「點數」。 詳見欄位藥事服務點數 （DSVC_DOT）譯碼說明"
         }
       }
     },
@@ -757,13 +753,9 @@
       "key": "CHR_DAYS",
       "seq_later": 38,
       "changes": {
-        "name_zh": {
-          "from": "慢性連續處方箋總 處方日份",
-          "to": "慢性連續處方箋 總處方日份"
-        },
         "description_zh": {
-          "from": "西醫案件分類為04且開具慢性病 連續處方箋者本欄為必要欄位,其 他補0 註： 1.100年起新增此欄位 2.僅106年第四季資料長度為5 碼",
-          "to": "西醫案件分類為04且開具慢性病 連續處方箋者本欄為必要欄位,其 他補0"
+          "from": "西醫案件分類為04且開具慢性病連續處方箋者本欄為必要欄位,其他補0 註： 1.100年起新增此欄位 2.僅106年第四季資料長度為5 碼",
+          "to": "西醫案件分類為04且開具慢性病連續處方箋者本欄為必要欄位,其他補0"
         }
       }
     },
@@ -772,8 +764,8 @@
       "seq_later": 39,
       "changes": {
         "description_zh": {
-          "from": "N：非轉診案件 計畫代碼：特定治療項目代號G9 山地離島地區醫療給付效益提昇 計畫。 空白：轉診案件，醫療機構代號 請參考轉入院所代碼 註：100年起新增此欄位",
-          "to": "N：非轉診案件 計畫代碼：特定治療項目代號G9 山地離島地區醫療給付效益提昇 計畫。 空白：轉診案件，醫療機構代號請 參考轉入院所代碼 註: 92 年起新增此欄位"
+          "from": "N：非轉診案件計畫代碼：特定治療項目代號G9 山地離島地區醫療給付效益提昇計畫。 空白：轉診案件，醫療機構代號請參考轉入院所代碼註：100年起新增此欄位",
+          "to": "N：非轉診案件計畫代碼：特定治療項目代號G9 山地離島地區醫療給付效益提昇計畫。 空白：轉診案件，醫療機構代號請參考轉入院所代碼註: 92 年起新增此欄位"
         }
       }
     },
@@ -782,18 +774,8 @@
       "seq_later": 40,
       "changes": {
         "description_zh": {
-          "from": "1：補報整筆案件 2：補報部分醫令或醫令差額(不計 案件數) 註：100年起新增此欄位",
-          "to": "1：補報整筆案件 2：補報部分醫令或醫令差額(不計 案件數) 註: 98 年起新增此欄位"
-        }
-      }
-    },
-    {
-      "key": "CITY",
-      "seq_later": 48,
-      "changes": {
-        "description_zh": {
-          "from": "醫療機構所在鄉鎮， 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣 市升格或合併而變更。",
-          "to": "醫療機構所在鄉鎮， 代碼參照醫療機構現況檔。 依醫事機構所摘錄出，不會因縣市 升格或合併而變更。"
+          "from": "1：補報整筆案件 2：補報部分醫令或醫令差額(不計案件數) 註：100年起新增此欄位",
+          "to": "1：補報整筆案件 2：補報部分醫令或醫令差額(不計案件數) 註: 98 年起新增此欄位"
         }
       }
     },

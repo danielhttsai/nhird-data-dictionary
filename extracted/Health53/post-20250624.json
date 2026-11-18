@@ -5,13 +5,13 @@
   "name_en": "Delayed Report of Multiple Cause of Death Data",
   "record_count_raw": "1,526 / 2024",
   "field_count_declared": 14,
-  "file_size_raw": "256 KB / 2024",
+  "file_size_raw": "320KB / (以2025年資料為例)",
   "frequency": "年",
   "attribute": "現況檔",
-  "update_history_raw": "2025/10/07",
+  "update_history_raw": "2026/09/22",
   "update_history": [
     {
-      "date": "2025/10/07",
+      "date": "2026/09/22",
       "note": ""
     }
   ],
@@ -32,17 +32,6 @@
     },
     {
       "seq": 2,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "ID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則，1：不符合",
-      "available_notes": [],
-      "name_zh_en": "ID number validity check",
-      "description_en": "0: national ID number matches the coding rules; 1: does not match."
-    },
-    {
-      "seq": 3,
       "name_zh": "性別",
       "name_en": "SEX",
       "type": "Char",
@@ -53,7 +42,7 @@
       "description_en": "1: male 2: female"
     },
     {
-      "seq": 4,
+      "seq": 3,
       "name_zh": "戶籍",
       "name_en": "COUNTY",
       "type": "Char",
@@ -75,7 +64,7 @@
       "description_en": "Details of old county/city/township coding explanation (Note: Starting from 2004, 2105 is Zhongxi District, Tainan City); starting from 2010, please refer to new county/city/township coding explanation."
     },
     {
-      "seq": 5,
+      "seq": 4,
       "name_zh": "出生年月",
       "name_en": "BIRTH_YM",
       "type": "Char",
@@ -86,7 +75,7 @@
       "description_en": "year and month AD YYYYMM"
     },
     {
-      "seq": 6,
+      "seq": 5,
       "name_zh": "死亡日期",
       "name_en": "D_DATE",
       "type": "Char",
@@ -108,7 +97,7 @@
       "description_en": "YearMonthDayYYYYMMDD Due to late reporting, only records up to the end of 2019 are included for 2021"
     },
     {
-      "seq": 7,
+      "seq": 6,
       "name_zh": "死亡地點區域代碼",
       "name_en": "D_LOCA_CO DE",
       "type": "Char",
@@ -119,7 +108,7 @@
       "description_en": "detailed translation explanation"
     },
     {
-      "seq": 8,
+      "seq": 7,
       "name_zh": "死亡場所",
       "name_en": "D_PLACE",
       "type": "Char",
@@ -130,18 +119,24 @@
       "description_en": "detailed translation explanation"
     },
     {
-      "seq": 9,
+      "seq": 8,
       "name_zh": "婚姻狀況",
       "name_en": "MARRIAGE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明",
-      "available_notes": [],
+      "description_zh": "詳譯碼說明 114年無",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "marital status",
-      "description_en": "detailed translation explanation"
+      "description_en": "See the coding explanation. Not available for ROC year 114 (AD 2025)."
     },
     {
-      "seq": 10,
+      "seq": 9,
       "name_zh": "死因分類",
       "name_en": "ICD10",
       "type": "Char",
@@ -152,7 +147,7 @@
       "description_en": "Cause of death coded per ICD-10."
     },
     {
-      "seq": 11,
+      "seq": 10,
       "name_zh": "新生兒日齡",
       "name_en": "NB_DAGE",
       "type": "Char",
@@ -163,18 +158,18 @@
       "description_en": "0: Less than 1 day, 1: 1 day or more, 2: 2 days or more, …, 27: 27 days or more, 88: Neonatal death"
     },
     {
-      "seq": 12,
-      "name_zh": "多重死因 1-20",
-      "name_en": "MC1-11",
+      "seq": 11,
+      "name_zh": "多重死因1-20",
+      "name_en": "MC1-20",
       "type": "Char",
-      "length": 4,
-      "description_zh": "死因以 ICD-10 編碼 2019、2024年MC12至MC20無值 MC12-20 Char 1",
+      "length": 5,
+      "description_zh": "死因以ICD-10 編碼 2019、2025年MC12至MC20無值",
       "available_notes": [],
       "name_zh_en": "multiple causes of death 1-20",
-      "description_en": "cause of death ICD-10 code 2019, 2024 MC12 to MC20 no value MC12-20 Char 1"
+      "description_en": "Causes of death coded in ICD-10. MC12 to MC20 have no values in 2019 and 2025."
     },
     {
-      "seq": 13,
+      "seq": 12,
       "name_zh": "普通年齡﹝足歲﹞",
       "name_en": "AGE",
       "type": "Char",
@@ -185,15 +180,32 @@
       "description_en": "000 Age 0 years, 001 1 year, 002 2 years, …: 099 99 years, 100 100 years, ….999 Unclear"
     },
     {
-      "seq": 14,
+      "seq": 13,
       "name_zh": "出生年",
       "name_en": "BIRTH_Y",
       "type": "Char",
       "length": 8,
-      "description_zh": "西元年 YYYY",
-      "available_notes": [],
+      "description_zh": "西元年 YYYY 僅112、113年",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "birth year",
-      "description_en": "year in AD YYYY"
+      "description_en": "Year in AD (YYYY). ROC years 112 and 113 (AD 2023-2024) only."
+    },
+    {
+      "seq": 14,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則，1：不符合",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: national ID number matches the coding rules; 1: does not match."
     }
   ],
   "codebooks": {
@@ -639,7 +651,7 @@
       "field_en": "place_of_death_code"
     }
   },
-  "raw_text_first_page": "2025年10月07日修訂\n(H_OST_MULLG)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_MULLG 資料筆數 1,526 / 2024\n中文檔名 延遲申報多重死因檔 英文檔名 Delayed Report of Multiple Cause of\nDeath Data\n檔案大小 256 KB / 2024 欄位數 14\n譯碼簿\n屬性 現況檔 週期 年 2025/10/07\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\\\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n1",
+  "raw_text_first_page": "2026年09月22日修訂\n延遲申報多重死因檔\n(H_OST_MULLG)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_OST_MULLG 資料筆 1,367/ (以2025年資料為例)\n數\n中文檔名 延遲申報多重死因檔 英文檔 DelayedReport ofMultipleCauseofDeath\n名 Data\n檔案大小 320KB / (以2025年資料為例) 欄位數 14\n譯碼簿\n屬性 現況檔 週期 年 2026/09/22\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分類詳\n細碼等欄位。\n注意事項 ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證字\n號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位均經\n屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過之統計\n結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含ID欄位空白、性別欄位空\n白、死因碼為不明等情況。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n1",
   "qa": {
     "errors": [],
     "warnings": []
@@ -650,9 +662,9 @@
   "version_id": "post-20250624",
   "version_label": "20250624 起適用",
   "pdf_url": "https://www.mohw.gov.tw/dl-100531-7c1f3087-8fee-4874-abeb-f3a549f218c2.html",
-  "pdf_sha256": "c4921b6b879795cf248d041ff9b9d63cd6a7a783d951ff697994a41a7218164d",
+  "pdf_sha256": "67dc291a8b346baeb8dc0867616233e3ee76f517447807f52706c25c1b4bf483",
   "doc_first_published": "2026-05-26",
-  "doc_last_updated": "2026-05-26",
+  "doc_last_updated": "2026-09-22",
   "name_zh_from_listing": "Health53_延遲申報多重死因檔(20250624起適用)",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID.",

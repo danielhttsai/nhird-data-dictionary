@@ -22,10 +22,10 @@
       "name_en": "DRUG_NUM",
       "type": "Num",
       "length": 8,
-      "description_zh": "依全民健康保險藥品使用標準碼之原 則輸入。",
+      "description_zh": "依全民健康保險藥品使用標準碼之原則輸入。",
       "available_notes": [],
       "name_zh_en": "dosage of drug",
-      "description_en": ""
+      "description_en": "Input according to the principles of the National Health Insurance Drug Usage Standard Code."
     },
     {
       "seq": 11,
@@ -33,10 +33,10 @@
       "name_en": "ORDER_UPRICE",
       "type": "Num",
       "length": 8,
-      "description_zh": "七位整數，二位小數右靠，小數點不需 表示。",
+      "description_zh": "七位整數，二位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "unit price",
-      "description_en": ""
+      "description_en": "seven-digit integer, two decimal places right-aligned, no decimal point required."
     },
     {
       "seq": 12,
@@ -47,7 +47,7 @@
       "description_zh": "五位整數，一位小數，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "five-digit integer, one decimal place not required."
     },
     {
       "seq": 13,
@@ -58,7 +58,7 @@
       "description_zh": "八位整數，小數點後四捨五入。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded to four decimal places."
     }
   ],
   "removed": [
@@ -79,7 +79,7 @@
       "name_en": "DRUG_USE",
       "type": "Char",
       "length": 6,
-      "description_zh": "依全民健康保險藥品使用標準碼 之原則輸入。 108年起欄位格式為數值型態， 長度為8碼。",
+      "description_zh": "依全民健康保險藥品使用標準碼之原則輸入。 108年起欄位格式為數值型態， 長度為8碼。",
       "available_notes": [
         {
           "roc_year": 108,
@@ -88,7 +88,7 @@
         }
       ],
       "name_zh_en": "dosage of drug",
-      "description_en": ""
+      "description_en": "Input according to the principles of the National Health Insurance drug usage standard code. Starting from 2018, the field format is numerical with a length of 8 digits."
     },
     {
       "seq": 11,
@@ -96,10 +96,10 @@
       "name_en": "UNIT_P",
       "type": "Num",
       "length": 8,
-      "description_zh": "七位整數，二位小數右靠，小數點 不需表示。",
+      "description_zh": "七位整數，二位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "unit price",
-      "description_en": ""
+      "description_en": "seven-digit integer, two decimal places right-aligned, no decimal point required."
     },
     {
       "seq": 12,
@@ -107,10 +107,10 @@
       "name_en": "TOTAL_Q",
       "type": "Num",
       "length": 8,
-      "description_zh": "五位整數，一位小數，小數點不需 表示。",
+      "description_zh": "五位整數，一位小數，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "five-digit integer, one decimal place not required."
     },
     {
       "seq": 13,
@@ -121,7 +121,7 @@
       "description_zh": "八位整數，小數點後四捨五入。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded to four decimal places."
     }
   ],
   "modified": [
@@ -148,7 +148,7 @@
       "seq_later": 4,
       "changes": {
         "description_zh": {
-          "from": "詳案件分類（CASE_TYPE）譯碼說 明。 103 年至 106 年欄位格式為文字型 態，長度為2碼。",
+          "from": "詳案件分類（CASE_TYPE）譯碼說明。 103 年至 106 年欄位格式為文字型態，長度為2碼。",
           "to": "詳案件分類（CASE_TYPE）譯碼說明。"
         }
       }
@@ -162,7 +162,7 @@
           "to": "Num"
         },
         "description_zh": {
-          "from": "102 年欄位格式為文字型態，長度 為10碼。 103 年起欄位格式為數值型態，長 度為8碼。",
+          "from": "102 年欄位格式為文字型態，長度為10碼。 103 年起欄位格式為數值型態，長度為8碼。",
           "to": ""
         }
       }
@@ -174,20 +174,6 @@
         "length": {
           "from": 9,
           "to": 20
-        },
-        "description_zh": {
-          "from": "經加密處理，為辨別醫療機構的鍵 值。",
-          "to": "經加密處理，為辨別醫療機構的鍵值。"
-        }
-      }
-    },
-    {
-      "key": "CITY",
-      "seq_later": 7,
-      "changes": {
-        "description_zh": {
-          "from": "醫療機構所在鄉鎮，代碼參照醫療 機構現況檔。",
-          "to": "醫療機構所在鄉鎮，代碼參照醫療機構 現況檔。"
         }
       }
     },
@@ -197,7 +183,7 @@
       "changes": {
         "description_zh": {
           "from": "醫療機構之原醫療機構代碼前 2 碼，詳權屬別（HOS）譯碼說明。",
-          "to": "醫療機構之原醫療機構代碼前2碼，詳 權屬別（HOS）譯碼說明。"
+          "to": "醫療機構之原醫療機構代碼前2碼，詳權屬別（HOS）譯碼說明。"
         }
       }
     },
@@ -206,8 +192,8 @@
       "seq_later": 14,
       "changes": {
         "description_zh": {
-          "from": "依同一病患申報之醫令順序編號。 註：96年起新增",
-          "to": "依同一病患申報之醫令順序編號。"
+          "from": "依同一病患申報之醫令順序編號。 註：96年起新增",
+          "to": "依同一病患申報之醫令順序編號。"
         }
       }
     },
@@ -217,7 +203,7 @@
       "changes": {
         "description_zh": {
           "from": "詳醫令類別（ORDER_TYPE）譯碼",
-          "to": "詳醫令類別（ORDER_TYPE）譯碼說 明。 註：88年11 月起新增(93 年7月~93 年 12月無資料)"
+          "to": "詳醫令類別（ORDER_TYPE）譯碼說明。 註：88年11 月起新增(93 年7月~93 年 12月無資料)"
         }
       }
     },
@@ -230,8 +216,8 @@
           "to": 36
         },
         "description_zh": {
-          "from": "詳藥品使用頻率（DRUG_FRE）譯 碼說明。 依全民健康保險藥品使用標準碼 之原則輸入 註：100年起新增 107年起欄位格式為文字型態， 長度為36碼。",
-          "to": "詳藥品使用頻率（DRUG_FRE）譯碼說 明。依全民健康保險藥品使用標準碼之 原則輸入 註：95年起新增"
+          "from": "詳藥品使用頻率（DRUG_FRE）譯碼說明。 依全民健康保險藥品使用標準碼之原則輸入註：100年起新增 107年起欄位格式為文字型態， 長度為36碼。",
+          "to": "詳藥品使用頻率（DRUG_FRE）譯碼說明。依全民健康保險藥品使用標準碼之原則輸入註：95年起新增"
         }
       }
     },
@@ -244,8 +230,8 @@
           "to": 8
         },
         "description_zh": {
-          "from": "詳 給 藥 途 徑 / 作 用 部 位 （DRUG_PATH）譯碼說明。依全 民健康保險藥品使用標準碼之原 則輸入 註：100年起新增 107年起欄位格式為文字型態， 長度為8碼。",
-          "to": "詳給藥途徑/作用部位（DRUG_PATH） 譯碼說明。依全民健康保險藥品使用標 準碼之原則輸入 註：95年起新增"
+          "from": "詳給藥途徑 / 作用部位 （DRUG_PATH）譯碼說明。依全民健康保險藥品使用標準碼之原則輸入註：100年起新增 107年起欄位格式為文字型態， 長度為8碼。",
+          "to": "詳給藥途徑/作用部位（DRUG_PATH） 譯碼說明。依全民健康保險藥品使用標準碼之原則輸入註：95年起新增"
         }
       }
     }

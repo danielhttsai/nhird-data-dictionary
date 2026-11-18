@@ -3,15 +3,15 @@
   "code_short": "H_OST_MULLG",
   "name_zh": "延遲申報多重死因檔",
   "name_en": "Delayed Report of Multiple Cause of Death Data",
-  "record_count_raw": "1,526 / 2024",
+  "record_count_raw": "1,367/ (以2025年資料為例)",
   "field_count_declared": 13,
-  "file_size_raw": "320 KB / 2024",
+  "file_size_raw": "320 KB / (以2025年資料為例)",
   "frequency": "年",
   "attribute": "現況檔",
-  "update_history_raw": "2025/10/07",
+  "update_history_raw": "2026/09/22",
   "update_history": [
     {
-      "date": "2025/10/07",
+      "date": "2026/09/22",
       "note": ""
     }
   ],
@@ -146,10 +146,16 @@
       "name_en": "MARRIAGE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明",
-      "available_notes": [],
+      "description_zh": "詳譯碼說明 114年無",
+      "available_notes": [
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "marital status",
-      "description_en": "detailed translation explanation"
+      "description_en": "See the coding explanation. Not available for ROC year 114 (AD 2025)."
     },
     {
       "seq": 11,
@@ -639,7 +645,7 @@
       "field_en": "place_of_death_code"
     }
   },
-  "raw_text_first_page": "延遲申報多重死因檔\n(H_OST_MULLG)\n資料庫使用手冊\n一. 檔案內容說明\n檔案代號 H_OST_MULLG 資料筆數 1,526 / 2024\n中文檔名 延遲申報多重死因檔 英文檔名 Delayed Report of Multiple Cause of\nDeath Data\n檔案大小 320 KB / 2024 欄位數 13\n譯碼簿\n屬性 現況檔 週期 年 2025/10/07\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n3. 延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄\n位空白、死因碼為不明等情況。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n1",
+  "raw_text_first_page": "2026年09月22日修訂\n延遲申報多重死因檔\n(H_OST_MULLG)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_OST_MULLG 資料筆數 1,367/ (以2025年資料為例)\n中文檔名 延遲申報多重死因檔 英文檔名 DelayedReport ofMultipleCauseof\nDeathData\n檔案大小 320KB / (以2025年資料為例) 欄位數 13\n譯碼簿\n屬性 現況檔 週期 年 2026/09/22\n更新日期\n資料描述 1. 依當年度死亡者之死因資料卡或死亡證明書之註碼情形編製。\n2. 統計項目包含身份證字號、出生日期、死亡日期、死亡地點、死亡場所、死因分\n類詳細碼等欄位。\n注意事項 ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 一個人為一筆資料。\n2. 「連續號碼」或「ID」有重覆情形。\n延遲申報檔案因資料性質，故死者資訊可能未詳盡，含 ID 欄位空白、性別欄位空\n白、死因碼為不明等情況。\n主鍵與比 1. 個人ID經加密處理。\n對欄位 2. 個人資料比對的鍵值：ID。\n1",
   "qa": {
     "errors": [],
     "warnings": [
@@ -652,9 +658,9 @@
   "version_id": "legacy",
   "version_label": "legacy",
   "pdf_url": "https://www.mohw.gov.tw/dl-95584-55c798ea-3f71-4d22-b30e-89b1c9ca5cf3.html",
-  "pdf_sha256": "171058022802dee24a41202d70cb8d19ead8bd1da3470787435018ce3f6af77c",
+  "pdf_sha256": "0672c88c120204adb518e640a026a5cd90d66dddfda9417b2ad26aad95aef5b0",
   "doc_first_published": "2014-03-05",
-  "doc_last_updated": "2026-05-26",
+  "doc_last_updated": "2026-09-22",
   "name_zh_from_listing": "Health53_延遲申報多重死因檔",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. For fields whose content is text, the field length is shown as a range because the content differs each year. 2. The fields victim disability type, respondent disability type, assistance already provided, and victim's follow-up assistance needed allow multiple selections. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. The victim record-matching key is CLIENTID; the respondent record-matching key is DID.",

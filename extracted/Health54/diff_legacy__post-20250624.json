@@ -11,10 +11,10 @@
       "name_en": "NEW_MEDCODE",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "new medical institution code",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 2,
@@ -24,8 +24,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 4,
@@ -33,10 +33,10 @@
       "name_en": "MEDIORG_CODE",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "old_medical_institution_code",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 6,
@@ -47,7 +47,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "former healthcare provider ownership",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 7,
@@ -68,8 +68,8 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "是否有接受過子宫放射治疗",
+      "description_en": "1: yes; 2: no; 3: unknown"
     },
     {
       "seq": 13,
@@ -80,7 +80,7 @@
       "description_zh": "西元年YYYY-MM-DD",
       "available_notes": [],
       "name_zh_en": "sample collection date",
-      "description_en": ""
+      "description_en": "year in Western calendar YYYY-MM-DD"
     },
     {
       "seq": 14,
@@ -88,10 +88,10 @@
       "name_en": "SAMPLING_ORG",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "sample collection institution",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 15,
@@ -113,7 +113,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership of specimen collection institution",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 18,
@@ -143,10 +143,10 @@
       "name_en": "LAB",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構的 鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "assessing institution",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 25,
@@ -185,7 +185,7 @@
         }
       ],
       "name_zh_en": "possible infection",
-      "description_en": ""
+      "description_en": "Detailed coding explanation (multiple choices allowed), length for 102-103 years is 4."
     }
   ],
   "removed": [
@@ -195,10 +195,10 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一 編號，或外籍居留證號碼（如 無居留證號碼請填護照號碼）， 左靠不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼）， 左靠不足補空白。",
       "available_notes": [],
-      "name_zh_en": "national ID number",
-      "description_en": ""
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 2,
@@ -208,8 +208,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 5,
@@ -241,8 +241,8 @@
       "length": 1,
       "description_zh": "1：是；2：否；3：不知道",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "是否有接受過子宫放射治疗",
+      "description_en": "1: yes; 2: no; 3: unknown"
     },
     {
       "seq": 13,
@@ -259,7 +259,7 @@
         }
       ],
       "name_zh_en": "sample collection date",
-      "description_en": ""
+      "description_en": "year YYYYMMDD, 112-year length is 30"
     },
     {
       "seq": 14,
@@ -267,10 +267,10 @@
       "name_en": "SAMP_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "sample collection institution",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 15,
@@ -292,7 +292,7 @@
       "description_zh": "代碼參照醫療機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership of specimen collection institution",
-      "description_en": ""
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 18,
@@ -322,10 +322,10 @@
       "name_en": "LAB_UNIT",
       "type": "Char",
       "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構 的鍵值。",
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "available_notes": [],
       "name_zh_en": "assessing institution",
-      "description_en": ""
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 25,
@@ -358,7 +358,7 @@
       "description_zh": "詳譯碼說明(可複選)",
       "available_notes": [],
       "name_zh_en": "possible infection",
-      "description_en": ""
+      "description_en": "Detailed translation (optional)"
     },
     {
       "seq": 32,
@@ -368,7 +368,7 @@
       "length": 1,
       "description_zh": "不提供",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "reasons why smear is readable or difficult to interpret (3)",
       "description_en": "not provided"
     }
   ],

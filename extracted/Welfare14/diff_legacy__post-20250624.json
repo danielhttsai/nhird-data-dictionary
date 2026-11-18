@@ -18,11 +18,11 @@
     },
     {
       "seq": 4,
-      "name_zh": "受保護/被害人身分證 字號",
+      "name_zh": "受保護/被害人身分證字號",
       "name_en": "VVID",
       "type": "Char",
       "length": 42,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
       "available_notes": [
         {
           "roc_year": 103,
@@ -75,8 +75,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victimized person's ID number",
+      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2003 Length is 48 2004-2005 Length is 44 2006 Length is 24 2007 Length is 50 2008 Length is 52 2009 Length is 48 2010 Length is 64 2011 Length is 38 2001-2002, 2012 Length is 36 2013 Length is 58"
     },
     {
       "seq": 5,
@@ -91,25 +91,25 @@
     },
     {
       "seq": 6,
-      "name_zh": "受保護/被害人身分證 字號檢誤",
+      "name_zh": "受保護/被害人身分證字號檢誤",
       "name_en": "VVID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victimized person's ID number correction",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 7,
-      "name_zh": "受保護/被害人出生年 月",
+      "name_zh": "受保護/被害人出生年月",
       "name_en": "VBIRTH_YM",
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim's date of birth and month",
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 8,
@@ -119,7 +119,7 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "protected/victim nationality",
       "description_en": "detailed translation explanation"
     },
     {
@@ -135,7 +135,7 @@
     },
     {
       "seq": 10,
-      "name_zh": "受保護/被害人教育程 度",
+      "name_zh": "受保護/被害人教育程度",
       "name_en": "EDUCATION",
       "type": "Char",
       "length": 1,
@@ -147,12 +147,12 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim's level of education",
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 14,
-      "name_zh": "受保護/被害人是否為 身心障礙者及其障別",
+      "name_zh": "受保護/被害人是否為身心障礙者及其障別",
       "name_en": "VDISABILITY",
       "type": "Char",
       "length": 1,
@@ -164,16 +164,16 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "whether the protected/victim is a person with physical or mental disabilities and type of disability",
       "description_en": "108th year addition"
     },
     {
       "seq": 15,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號",
+      "name_zh": "疑似施虐者/相對人/嫌疑人身分證字號",
       "name_en": "DVID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
       "available_notes": [
         {
           "roc_year": 101,
@@ -226,45 +226,45 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "suspected abuser/participant/suspect identity number",
+      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2001 Length is 58 2002-2003 Length is 44 2004 Length is 42 2005 Length is 72 2006 Length is 48 2007 Length is 32 2008 Length is 46 2011 Length is 78 2009-2010, 2012 Length is 66 2013 Length is 64"
     },
     {
       "seq": 16,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人性別",
+      "name_zh": "疑似施虐者/相對人/嫌疑人性別",
       "name_en": "DGENDER",
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "suspected abuser/participant/suspect gender",
       "description_en": "detailed translation explanation"
     },
     {
       "seq": 17,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人身分證字號檢誤",
+      "name_zh": "疑似施虐者/相對人/嫌疑人身分證字號檢誤",
       "name_en": "DVID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "suspected abuser/relative/person suspected ID number error",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 18,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人出生年月",
+      "name_zh": "疑似施虐者/相對人/嫌疑人出生年月",
       "name_en": "DBIRTH_YM",
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "suspected abuser/counterparty/suspect date of birth",
+      "description_en": "provided in ROC YYYYMM format"
     },
     {
       "seq": 19,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人教育程度",
+      "name_zh": "疑似施虐者/相對人/嫌疑人教育程度",
       "name_en": "DEDUCATION",
       "type": "Char",
       "length": 1,
@@ -276,8 +276,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "suspected abuser/counterparty/suspect education level",
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 20,
@@ -305,7 +305,7 @@
         }
       ],
       "name_zh_en": "party relationship category",
-      "description_en": ""
+      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
     },
     {
       "seq": 23,
@@ -322,11 +322,11 @@
         }
       ],
       "name_zh_en": "non-household member",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 24,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人障礙別",
+      "name_zh": "疑似施虐者/相對人/嫌疑人障礙別",
       "name_en": "DMAIMED",
       "type": "Char",
       "length": 3,
@@ -348,12 +348,12 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "suspected perpetrator/perpetuator/suspect disability",
+      "description_en": "optional; detailed code explanation from 2018, 2-digit length from 2001, 4-digit length from 2004, 10-digit length from 2005-2006"
     },
     {
       "seq": 25,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人疑似身心障礙者 選其他時所填資料",
+      "name_zh": "疑似施虐者/相對人/嫌疑人疑似身心障礙者選其他時所填資料",
       "name_en": "DOTHERMAIMED",
       "type": "Char",
       "length": 24,
@@ -395,12 +395,12 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Suspected abuser/relative/suspect - other information when selected",
+      "description_en": "None from ROC year 108 (AD 2019) onward. ROC year 101 (AD 2012): length 72. ROC year 102 (AD 2013): length 36. ROC year 103 (AD 2014): length 22. ROC year 104 (AD 2015): length 30. ROC years 105 and 107 (AD 2016 and 2018): length 26. ROC year 106 (AD 2017): length 34."
     },
     {
       "seq": 26,
-      "name_zh": "疑似施虐者/相對人/嫌 疑人領有身心障礙手冊 選其他時所填資料",
+      "name_zh": "疑似施虐者/相對人/嫌疑人領有身心障礙手冊選其他時所填資料",
       "name_en": "DOTHERMAIMED2",
       "type": "Char",
       "length": 8,
@@ -437,8 +437,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Suspected abuser/relative/suspect holder of disability handbook Fill data when selecting other",
+      "description_en": "From 2018, not applicable; 2016 length: 14; 2015, 2017 lengths: 18; 2021 length: 11; 2018, 2020 lengths: 16; 2019 length: 46"
     },
     {
       "seq": 27,
@@ -455,7 +455,7 @@
         }
       ],
       "name_zh_en": "physical and mental disability",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 33,
@@ -494,14 +494,14 @@
     },
     {
       "seq": 4,
-      "name_zh": "受保護/被害人身分證 字號",
+      "name_zh": "受保護/被害人身分證字號",
       "name_en": "ID_C",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼 請填護照號碼)，左靠不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victimized person's ID number",
+      "description_en": "Encrypted. National ID number or alien residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if necessary."
     },
     {
       "seq": 5,
@@ -516,25 +516,25 @@
     },
     {
       "seq": 6,
-      "name_zh": "受保護/被害人身分證 字號檢誤",
+      "name_zh": "受保護/被害人身分證字號檢誤",
       "name_en": "ID_ROC_C",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victimized person's ID number correction",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 7,
-      "name_zh": "受保護/被害人出生年 月",
+      "name_zh": "受保護/被害人出生年月",
       "name_en": "BIRTH_YM_C",
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM 110起長度為7",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim's date of birth and month",
+      "description_en": "provide ROC YYYYMM starting from 110"
     },
     {
       "seq": 8,
@@ -551,7 +551,7 @@
         }
       ],
       "name_zh_en": "victim's current nationality",
-      "description_en": ""
+      "description_en": "details coding explanation removed since 2018"
     },
     {
       "seq": 9,
@@ -567,8 +567,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "protected/victim nationality",
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 10,
@@ -596,11 +596,11 @@
         }
       ],
       "name_zh_en": "victim_education_level",
-      "description_en": ""
+      "description_en": "details coding explanation removed since 2018"
     },
     {
       "seq": 15,
-      "name_zh": "被害人是否為身心障 礙者及其障別",
+      "name_zh": "被害人是否為身心障礙者及其障別",
       "name_en": "DISABILITY_C",
       "type": "Char",
       "length": 1,
@@ -612,19 +612,19 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "whether the victim is a person with physical or mental disabilities and their type",
       "description_en": "108th year addition"
     },
     {
       "seq": 16,
-      "name_zh": "施虐者/相對人/嫌疑人 身分證字號",
+      "name_zh": "施虐者/相對人/嫌疑人身分證字號",
       "name_en": "ID_D",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編 號，或外籍居留證號碼(如無居留證 號碼請填護照號碼)，左靠不足補空 白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "perpetrator/perpetuator/suspect ID number",
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 17,
@@ -634,30 +634,30 @@
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "abuser/counterparty/suspect",
       "description_en": "detailed translation explanation"
     },
     {
       "seq": 18,
-      "name_zh": "施虐者/相對人/嫌疑人 身分證字號檢誤",
+      "name_zh": "施虐者/相對人/嫌疑人身分證字號檢誤",
       "name_en": "ID_ROC_D",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "Perpetrator/Relative/Suspect ID number error",
+      "description_en": "0: Complies with Coding Principles; 1: Does Not Comply."
     },
     {
       "seq": 19,
-      "name_zh": "施虐者/相對人/嫌疑人 出生年月",
+      "name_zh": "施虐者/相對人/嫌疑人出生年月",
       "name_en": "BIRTH_YM_D",
       "type": "Char",
       "length": 5,
       "description_zh": "提供民國年月YYYMM 110起長度為7",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "date of birth of abuser/participant/suspect",
+      "description_en": "provide ROC YYYYMM starting from 110"
     },
     {
       "seq": 20,
@@ -674,7 +674,7 @@
         }
       ],
       "name_zh_en": "suspected abuser's educational level",
-      "description_en": ""
+      "description_en": "details coding explanation removed since 2018"
     },
     {
       "seq": 21,
@@ -691,7 +691,7 @@
         }
       ],
       "name_zh_en": "relationship with minors",
-      "description_en": ""
+      "description_en": "details coding explanation removed since 2018"
     },
     {
       "seq": 22,
@@ -708,7 +708,7 @@
         }
       ],
       "name_zh_en": "party relationship category",
-      "description_en": ""
+      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
     },
     {
       "seq": 24,
@@ -725,7 +725,7 @@
         }
       ],
       "name_zh_en": "non-household member",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 25,
@@ -742,11 +742,11 @@
         }
       ],
       "name_zh_en": "suspected abuser disability type",
-      "description_en": ""
+      "description_en": "Multiple Choice; Refer to Code Description Starting from 2018, Deleted"
     },
     {
       "seq": 26,
-      "name_zh": "疑似施虐人疑似身心 障礙者 選其他時所填 資料",
+      "name_zh": "疑似施虐人疑似身心障礙者選其他時所填資料",
       "name_en": "OTHERMAIMED_ D",
       "type": "Char",
       "length": 90,
@@ -758,12 +758,12 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "suspected abuser suspected mental or physical disorder filled at other times",
       "description_en": "108th year deletion"
     },
     {
       "seq": 27,
-      "name_zh": "疑似施虐人領有身心 障礙手冊 選其他時所 填資料",
+      "name_zh": "疑似施虐人領有身心障礙手冊選其他時所填資料",
       "name_en": "OTHERMAIMED2_ D",
       "type": "Char",
       "length": 70,
@@ -775,7 +775,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
+      "name_zh_en": "suspected abuser with mental or physical disability other when filled out",
       "description_en": "108th year deletion"
     },
     {
@@ -793,7 +793,7 @@
         }
       ],
       "name_zh_en": "physical and mental disability",
-      "description_en": ""
+      "description_en": "details coding explanation added since 2018"
     },
     {
       "seq": 34,
@@ -852,8 +852,8 @@
       "seq_later": 12,
       "changes": {
         "name_zh": {
-          "from": "被害人疑似身心障礙 者 選其他時所填資料",
-          "to": "受保護/被害人疑似身 心障礙者 選其他時所 填資料"
+          "from": "被害人疑似身心障礙者選其他時所填資料",
+          "to": "受保護/被害人疑似身心障礙者選其他時所填資料"
         },
         "length": {
           "from": 90,
@@ -870,8 +870,8 @@
       "seq_later": 13,
       "changes": {
         "name_zh": {
-          "from": "被害人領有身心障礙 手冊 選其他時所填資 料",
-          "to": "受保護/被害人領有身 心障礙手冊 選其他時 所填資料"
+          "from": "被害人領有身心障礙手冊選其他時所填資料",
+          "to": "受保護/被害人領有身心障礙手冊選其他時所填資料"
         },
         "length": {
           "from": 70,
@@ -887,10 +887,6 @@
       "key": "CPARTICLE1",
       "seq_later": 28,
       "changes": {
-        "name_zh": {
-          "from": "兒少保護情事-兒少有 下列行為者",
-          "to": "兒少保護情事-兒少有下 列行為者"
-        },
         "description_zh": {
           "from": "可複選；詳譯碼說明 108年起刪除",
           "to": "可複選；詳譯碼說明 108年起無 103、107年長度為1"
@@ -916,8 +912,8 @@
       "seq_later": 30,
       "changes": {
         "name_zh": {
-          "from": "兒少保護情事-下列緊 急情況，建議立即以電 話聯繫當地主管機關 社工員評估處理，並依",
-          "to": "兒少保護情事-下列緊 急情況，建議立即以電 話聯繫當地主管機關社 工員評估處理，並依兒 少保護通報及處理辦法 第 6 條規定，於主管機 關處理前，提供兒少適 當之保護及照顧"
+          "from": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依",
+          "to": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依兒少保護通報及處理辦法第 6 條規定，於主管機關處理前，提供兒少適當之保護及照顧"
         },
         "description_zh": {
           "from": "可複選；詳譯碼說明 108年起刪除",
@@ -929,10 +925,6 @@
       "key": "CPARTICLE4",
       "seq_later": 31,
       "changes": {
-        "name_zh": {
-          "from": "兒少保護情事-父母、監 護人或其他實際照顧 兒童及少年之人對兒 少有下列行為者",
-          "to": "兒少保護情事-父母、監 護人或其他實際照顧兒 童及少年之人對兒少有 下列行為者"
-        },
         "length": {
           "from": 2,
           "to": 1

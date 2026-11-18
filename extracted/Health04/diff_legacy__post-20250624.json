@@ -11,10 +11,10 @@
       "name_en": "ORDER_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "參考中央健保局網頁公告之全民 健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支 付標準碼或特殊材料碼。",
+      "description_zh": "參考中央健保局網頁公告之全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼。",
       "available_notes": [],
       "name_zh_en": "drug (item) code",
-      "description_en": ""
+      "description_en": "Refer to the announcements on the Central Health Insurance Bureau's website for the National Health Insurance Drug Payment Items and Standards Code or Medical Service Payment Standard Code or Special Material Code."
     },
     {
       "seq": 12,
@@ -25,7 +25,7 @@
       "description_zh": "1234.56",
       "available_notes": [],
       "name_zh_en": "dosage of drug",
-      "description_en": ""
+      "description_en": "1234.56"
     },
     {
       "seq": 16,
@@ -33,10 +33,10 @@
       "name_en": "ORDER_UPRICE",
       "type": "Num",
       "length": 8,
-      "description_zh": "取至小數點下二位，第三位四捨五 入七位整數，二位小數右靠，小數 點不需表示。",
+      "description_zh": "取至小數點下二位，第三位四捨五入七位整數，二位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "unit price",
-      "description_en": ""
+      "description_en": "Round off to the fourth decimal place, seventh digit rounded, two decimal places right-aligned, no decimal point needed."
     },
     {
       "seq": 17,
@@ -44,10 +44,10 @@
       "name_en": "ORDER_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "八位整數，小數點後四捨五入，總 量乘單價，並加成計算至整數(點) 為止。",
+      "description_zh": "八位整數，小數點後四捨五入，總量乘單價，並加成計算至整數(點) 為止。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded up after the decimal point, calculated by multiplying total quantity with unit price and adding surcharge until whole number (point)."
     },
     {
       "seq": 18,
@@ -55,10 +55,10 @@
       "name_en": "ORDER_QTY",
       "type": "Num",
       "length": 8,
-      "description_zh": "取至小數點下一位，第二位四捨五 入五位整數，一位小數右靠，小數 點不需表示。",
+      "description_zh": "取至小數點下一位，第二位四捨五入五位整數，一位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "Round off to the second decimal place, third digit rounded, one decimal place right-aligned, no decimal point needed."
     },
     {
       "seq": 19,
@@ -75,7 +75,7 @@
         }
       ],
       "name_zh_en": "prescribed drug days by medical order",
-      "description_en": ""
+      "description_en": "maximum number of days for a single medication. Added since 1998"
     }
   ],
   "removed": [
@@ -85,18 +85,18 @@
       "name_en": "DRUG_NO",
       "type": "Char",
       "length": 12,
-      "description_zh": "參考中央健保局網頁公告之全民 健康保險藥物給付項目及支付標 準編碼或醫療服務給付項目及支 付標準碼或特殊材料碼。",
+      "description_zh": "參考中央健保局網頁公告之全民健康保險藥物給付項目及支付標準編碼或醫療服務給付項目及支付標準碼或特殊材料碼。",
       "available_notes": [],
       "name_zh_en": "drug (item) code",
-      "description_en": ""
+      "description_en": "Refer to the announcements on the Central Health Insurance Bureau's website for the National Health Insurance Drug Payment Items and Standards Code or Medical Service Payment Standard Code or Special Material Code."
     },
     {
       "seq": 8,
-      "name_zh": "藥品用量（診療部 位）",
+      "name_zh": "藥品用量（診療部位）",
       "name_en": "DRUG_USE",
       "type": "Num",
       "length": 6,
-      "description_zh": "1. 詳 藥 品 用 量 ( 診 療 部 位 ) (DRUG_USE) 譯碼說明。 2.100 年後僅紀錄藥品用量。另有 關 診 療 部 位 的 訊 息 紀 錄 於 CURE_PATH 欄位。 註： 1. 89-99、107-108年欄位格式為文 字型 2. 100-106年及108年起長度為8碼",
+      "description_zh": "1. 詳藥品用量 ( 診療部位 ) (DRUG_USE) 譯碼說明。 2.100 年後僅紀錄藥品用量。另有關診療部位的訊息紀錄於 CURE_PATH 欄位。 註： 1. 89-99、107-108年欄位格式為文字型 2. 100-106年及108年起長度為8碼",
       "available_notes": [
         {
           "roc_year": 100,
@@ -119,16 +119,16 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "dosage of medication (department)",
+      "description_en": "1. Drug usage (diagnosis site) (DRUG_USE) Translation code explanation. 2.100 and later years only record drug usage. Additional information on diagnosis site recorded in CURE_PATH field. Note: 1. For 89-99, 107-108 years, the field format is text type 2. From 100 to 106 years and from 108 onwards, the length is 8 codes"
     },
     {
       "seq": 9,
-      "name_zh": "藥品使用頻率（支 付成數）",
+      "name_zh": "藥品使用頻率（支付成數）",
       "name_en": "DRUG_FRE",
       "type": "Char",
       "length": 18,
-      "description_zh": "詳 藥 品 使 用 頻 率 ( 支 付 成 數 ) (DRUG_FRE) 譯碼說明。 註：97年起長度為36碼。",
+      "description_zh": "詳藥品使用頻率 ( 支付成數 ) (DRUG_FRE) 譯碼說明。 註：97年起長度為36碼。",
       "available_notes": [
         {
           "roc_year": 97,
@@ -136,8 +136,8 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "medication usage frequency (payment co-pay)",
+      "description_en": "Detailed drug usage frequency (payment amount) (DRUG_FRE) code explanation. Note: From 1997, length is 36 digits."
     },
     {
       "seq": 10,
@@ -145,10 +145,10 @@
       "name_en": "UNIT_P",
       "type": "Num",
       "length": 8,
-      "description_zh": "取至小數點下二位，第三位四捨五 入七位整數，二位小數右靠，小數 點不需表示。",
+      "description_zh": "取至小數點下二位，第三位四捨五入七位整數，二位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "unit price",
-      "description_en": ""
+      "description_en": "Round off to the fourth decimal place, seventh digit rounded, two decimal places right-aligned, no decimal point needed."
     },
     {
       "seq": 11,
@@ -156,10 +156,10 @@
       "name_en": "TOTAL_Q",
       "type": "Num",
       "length": 8,
-      "description_zh": "取至小數點下一位，第二位四捨五 入五位整數，一位小數右靠，小數 點不需表示。",
+      "description_zh": "取至小數點下一位，第二位四捨五入五位整數，一位小數右靠，小數點不需表示。",
       "available_notes": [],
       "name_zh_en": "total",
-      "description_en": ""
+      "description_en": "Round off to the second decimal place, third digit rounded, one decimal place right-aligned, no decimal point needed."
     },
     {
       "seq": 12,
@@ -167,10 +167,10 @@
       "name_en": "TOTAL_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "八位整數，小數點後四捨五入，總 量乘單價，並加成計算至整數(點) 為止。",
+      "description_zh": "八位整數，小數點後四捨五入，總量乘單價，並加成計算至整數(點) 為止。",
       "available_notes": [],
       "name_zh_en": "points",
-      "description_en": ""
+      "description_en": "Eight-digit integer, rounded up after the decimal point, calculated by multiplying total quantity with unit price and adding surcharge until whole number (point)."
     },
     {
       "seq": 22,
@@ -181,7 +181,7 @@
       "description_zh": "給藥日份之最高之天數。",
       "available_notes": [],
       "name_zh_en": "prescribed drug days by medical order",
-      "description_en": ""
+      "description_en": "the maximum number of days for medication administration."
     }
   ],
   "modified": [
@@ -242,7 +242,7 @@
       "seq_later": 7,
       "changes": {
         "description_zh": {
-          "from": "依同一病患申報之醫令順序編號。 註：96年新增",
+          "from": "依同一病患申報之醫令順序編號。 註：96年新增",
           "to": "依同一病患申報之醫令順序編號。"
         }
       }
@@ -252,8 +252,8 @@
       "seq_later": 8,
       "changes": {
         "description_zh": {
-          "from": "0：自行調劑、檢驗(查)或物理治 療 1：交付調劑、檢驗(查)或物理治 療 2：委託其他醫事機構(代)轉檢 3：接受其他院所委託(代)轉檢 4：委託其他醫事機構代檢 5：接受其他院所委託代檢 6：遠距醫療 醫令類別為用藥明細、診療明細(檢 驗(查)或物理治療者),本欄為必要 欄位,若醫令類別為 3 特殊材料(屬 特殊材料且未交付調劑)本欄必填 0、醫令類別為 4 不計價(特殊材料 且交付調劑者)本欄必填 1,其他醫 令類別免填 註：100年起新增",
-          "to": "0：自行調劑、檢驗(查)或物理治 療 1：交付調劑、檢驗(查)或物理治 療 2：委託其他醫事機構轉檢 3：接受其他院所委託轉檢 4：委託其他醫事機構代檢 5：接受其他院所委託代檢 6：遠距醫療 醫令類別為用藥明細、診療明細(檢 驗(查)或物理治療者),本欄為必要 欄位,若醫令類別為 3 特殊材料(屬 特殊材料且未交付調劑)本欄必填 0、醫令類別為 4 不計價(特殊材料 且交付調劑者)本欄必填 1,其他醫 令類別免填 95年起新增"
+          "from": "0：自行調劑、檢驗(查)或物理治療 1：交付調劑、檢驗(查)或物理治療 2：委託其他醫事機構(代)轉檢 3：接受其他院所委託(代)轉檢 4：委託其他醫事機構代檢 5：接受其他院所委託代檢 6：遠距醫療醫令類別為用藥明細、診療明細(檢驗(查)或物理治療者),本欄為必要欄位,若醫令類別為 3 特殊材料(屬特殊材料且未交付調劑)本欄必填 0、醫令類別為 4 不計價(特殊材料且交付調劑者)本欄必填 1,其他醫令類別免填註：100年起新增",
+          "to": "0：自行調劑、檢驗(查)或物理治療 1：交付調劑、檢驗(查)或物理治療 2：委託其他醫事機構轉檢 3：接受其他院所委託轉檢 4：委託其他醫事機構代檢 5：接受其他院所委託代檢 6：遠距醫療醫令類別為用藥明細、診療明細(檢驗(查)或物理治療者),本欄為必要欄位,若醫令類別為 3 特殊材料(屬特殊材料且未交付調劑)本欄必填 0、醫令類別為 4 不計價(特殊材料且交付調劑者)本欄必填 1,其他醫令類別免填 95年起新增"
         }
       }
     },
@@ -262,8 +262,8 @@
       "seq_later": 9,
       "changes": {
         "description_zh": {
-          "from": "2012/07以前為Y：是；N：否 2012/07（含）以後為 1：慢性病連續處方箋案件 2：同一療程案件 3：排程檢查（或檢驗）案件(含就 醫日期開立排程檢查(或檢驗)) 4：非慢性病連續處方箋、非同一療",
-          "to": "95-100年Y：是；N：否 2012/07（含）以後為 1：慢性病連續處方箋案件 2：同一療程案件 3：排程檢查（或檢驗）案件(含就 醫日期開立排程檢查(或檢驗)) 4：非慢性病連續處方箋、非同一療 程或非排程檢查(或檢驗)案件"
+          "from": "2012/07以前為Y：是；N：否 2012/07（含）以後為 1：慢性病連續處方箋案件 2：同一療程案件 3：排程檢查（或檢驗）案件(含就醫日期開立排程檢查(或檢驗)) 4：非慢性病連續處方箋、非同一療",
+          "to": "95-100年Y：是；N：否 2012/07（含）以後為 1：慢性病連續處方箋案件 2：同一療程案件 3：排程檢查（或檢驗）案件(含就醫日期開立排程檢查(或檢驗)) 4：非慢性病連續處方箋、非同一療程或非排程檢查(或檢驗)案件"
         }
       }
     },
@@ -276,8 +276,8 @@
           "to": 8
         },
         "description_zh": {
-          "from": "依全民健康保險藥品使用標準碼 之原則輸入,若醫令為藥品時,此欄 為必要欄位。 註： 1. 100年起新增 2. 107年起長度為8碼。",
-          "to": "依全民健康保險藥品使用標準碼 之原則輸入,若醫令為藥品時,此欄 為必要欄位。 95年起新增"
+          "from": "依全民健康保險藥品使用標準碼之原則輸入,若醫令為藥品時,此欄為必要欄位。 註： 1. 100年起新增 2. 107年起長度為8碼。",
+          "to": "依全民健康保險藥品使用標準碼之原則輸入,若醫令為藥品時,此欄為必要欄位。 95年起新增"
         }
       }
     },
@@ -290,8 +290,8 @@
           "to": 12
         },
         "description_zh": {
-          "from": "1. 若醫令為診療時,牙科為必要欄 位,標示牙齒部位(牙齒部位編 碼,請參照FDI及註5牙位表示 法),每次醫令最多填三個編碼。 2. 若醫令代碼為註 9 之診療項目 者，則此欄為必要欄位。診療之 部位代碼：右側填R、左側填L、 雙側填B。 3. 左靠不足補空白,中醫免填。 註： 1. 100年起新增 2. 107年起長度為12碼。",
-          "to": "1. 若醫令為診療時,牙科為必要欄 位,標示牙齒部位(牙齒部位編 碼,請參照FDI及註5牙位表示 法),每次醫令最多填三個編碼。 2. 若醫令代碼為註 9 之診療項目 者，則此欄為必要欄位。診療之 部位代碼：右側填R、左側填L、 雙側填B。 3. 左靠不足補空白,中醫免填。"
+          "from": "1. 若醫令為診療時,牙科為必要欄位,標示牙齒部位(牙齒部位編碼,請參照FDI及註5牙位表示法),每次醫令最多填三個編碼。 2. 若醫令代碼為註 9 之診療項目者，則此欄為必要欄位。診療之部位代碼：右側填R、左側填L、 雙側填B。 3. 左靠不足補空白,中醫免填。 註： 1. 100年起新增 2. 107年起長度為12碼。",
+          "to": "1. 若醫令為診療時,牙科為必要欄位,標示牙齒部位(牙齒部位編碼,請參照FDI及註5牙位表示法),每次醫令最多填三個編碼。 2. 若醫令代碼為註 9 之診療項目者，則此欄為必要欄位。診療之部位代碼：右側填R、左側填L、 雙側填B。 3. 左靠不足補空白,中醫免填。"
         }
       }
     },
@@ -300,8 +300,8 @@
       "seq_later": 15,
       "changes": {
         "description_zh": {
-          "from": "全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有 加成或折扣者，按成數填報(如：加 成 1.23%即 101.23%，資料庫中顯 示為1.0123) 註： 1. 兒童加成年齡以入院日期計 算 2. 100年起新增",
-          "to": "全民健康保險醫療服務給付項目 及支付標準表規定之診療項目有 加成或折扣者，按成數填報(如：加 成 1.23%即 101.23%，資料庫中顯 示為1.0123) 註：兒童加成年齡以入院日期計算"
+          "from": "全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加成 1.23%即 101.23%，資料庫中顯示為1.0123) 註： 1. 兒童加成年齡以入院日期計算 2. 100年起新增",
+          "to": "全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加成 1.23%即 101.23%，資料庫中顯示為1.0123) 註：兒童加成年齡以入院日期計算"
         }
       }
     }

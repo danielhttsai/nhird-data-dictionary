@@ -13,8 +13,8 @@
       "length": 8,
       "description_zh": "專科醫師人數(專任)-神經外科",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "specialist physician number (full-time)-",
+      "description_en": "number of full-time specialists - neurosurgery"
     },
     {
       "seq": 224,
@@ -24,8 +24,8 @@
       "length": 8,
       "description_zh": "專科醫師人數(專任)-其他科",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "specialist physician number (full-time)-",
+      "description_en": "number of full-time specialist physicians - other specialties"
     }
   ],
   "removed": [
@@ -48,8 +48,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "number of full-time specialist physicians - neurosurgery",
+      "description_en": "Number of Specialist Physicians - Neurosurgery; Added in 1989, Deleted in 2023"
     },
     {
       "seq": 224,
@@ -70,8 +70,8 @@
           "marker": ""
         }
       ],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "number of full-time specialists - other specialties",
+      "description_en": "Number of specialist physicians (full-time)-Other specialties added in 1989, removed in 1994"
     }
   ],
   "modified": [
@@ -104,7 +104,7 @@
       "seq_later": 18,
       "changes": {
         "name_zh": {
-          "from": "許可病床數-國際醫療 病床",
+          "from": "許可病床數-國際醫療病床",
           "to": "許可病床數-國際醫療"
         },
         "description_zh": {
@@ -118,7 +118,7 @@
       "seq_later": 40,
       "changes": {
         "name_zh": {
-          "from": "開放病床數-負壓隔離 病床",
+          "from": "開放病床數-負壓隔離病床",
           "to": "開放病床數-負壓隔離"
         },
         "description_zh": {
@@ -133,7 +133,7 @@
       "changes": {
         "name_zh": {
           "from": "開放病床數-精神科加",
-          "to": "開放病床數-精神科加 護病床"
+          "to": "開放病床數-精神科加護病床"
         },
         "description_zh": {
           "from": "各醫院開放病床數-精神科加護病床",
@@ -147,7 +147,7 @@
       "changes": {
         "description_zh": {
           "from": "各醫院使用病床數-安寧病床 88-89年稱為緩和醫療床，90-98年稱為安寧療護病床；",
-          "to": "各醫院使用病床數-安寧病床 89 年新增，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；106年刪除"
+          "to": "各醫院使用病床數-安寧病床 89 年新增，88-89 年稱為緩和醫療床，90-98 年稱為安寧療護病床；106年刪除"
         }
       }
     },
@@ -167,7 +167,7 @@
       "changes": {
         "name_zh": {
           "from": "使用病床數-未登記其",
-          "to": "使用病床數-未登記其 他療養"
+          "to": "使用病床數-未登記其他療養"
         },
         "description_zh": {
           "from": "各醫院使用病床數-未登記其他療養",
@@ -191,7 +191,7 @@
       "changes": {
         "name_zh": {
           "from": "住院人日-慢性呼吸照",
-          "to": "住院人日-慢性呼吸照 護病床"
+          "to": "住院人日-慢性呼吸照護病床"
         },
         "description_zh": {
           "from": "各醫院住院人日-慢性呼吸照護病床",
@@ -239,7 +239,7 @@
       "changes": {
         "name_zh": {
           "from": "住院人次-骨髓移植病",
-          "to": "住院人次-骨髓移植病 床"
+          "to": "住院人次-骨髓移植病床"
         },
         "description_zh": {
           "from": "各醫院住院人次-骨髓移植病床",
@@ -252,8 +252,8 @@
       "seq_later": 152,
       "changes": {
         "description_zh": {
-          "from": "各醫院住院人次-性侵害犯罪加害人強制治療 病床 102年增列",
-          "to": "各醫院住院人次-性侵害犯罪加害人強制治療 病床"
+          "from": "各醫院住院人次-性侵害犯罪加害人強制治療病床 102年增列",
+          "to": "各醫院住院人次-性侵害犯罪加害人強制治療病床"
         }
       }
     },
@@ -272,8 +272,8 @@
       "seq_later": 159,
       "changes": {
         "description_zh": {
-          "from": "各醫院精神科日間照護單位收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱 為精神科日間留院收治人次",
-          "to": "各醫院精神科照護單位留院收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱 為精神科日間留院收治人次"
+          "from": "各醫院精神科日間照護單位收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱為精神科日間留院收治人次",
+          "to": "各醫院精神科照護單位留院收治人次 104年增列，稱為精神日間留院收治人次；105-112年稱為精神科日間留院收治人次"
         }
       }
     },
@@ -303,7 +303,7 @@
       "changes": {
         "description_zh": {
           "from": "各醫院健保病床-安寧病床 88-89年稱為緩和醫療床，90-98年稱為安寧療護病床； 105年刪除",
-          "to": "各醫院健保病床-安寧病床 89 年增列，88-89 年稱為緩和醫療床，90-98 年稱為安 寧療護病床；105年刪除"
+          "to": "各醫院健保病床-安寧病床 89 年增列，88-89 年稱為緩和醫療床，90-98 年稱為安寧療護病床；105年刪除"
         }
       }
     },
@@ -410,7 +410,7 @@
       "seq_later": 353,
       "changes": {
         "name_zh": {
-          "from": "執業醫事人員數-助產 師",
+          "from": "執業醫事人員數-助產師",
           "to": "執業醫事人員數-助產"
         },
         "description_zh": {
@@ -424,8 +424,8 @@
       "seq_later": 374,
       "changes": {
         "description_zh": {
-          "from": "未具醫事專門職業證書工作人員數-工務建築 等；113年刪除",
-          "to": "未具醫事專門職業證書工作人員數-工務建築 等 89年增列；113年刪除"
+          "from": "未具醫事專門職業證書工作人員數-工務建築等；113年刪除",
+          "to": "未具醫事專門職業證書工作人員數-工務建築等 89年增列；113年刪除"
         }
       }
     },
@@ -434,8 +434,8 @@
       "seq_later": 382,
       "changes": {
         "name_zh": {
-          "from": "未具醫事專門職業證 書工作人員數-其他人",
-          "to": "未具醫事專門職業證 書工作人員數-其他人 員"
+          "from": "未具醫事專門職業證書工作人員數-其他人",
+          "to": "未具醫事專門職業證書工作人員數-其他人員"
         },
         "description_zh": {
           "from": "未具醫事專門職業證書工作人員數-其他人員 （含駐衛警、保全、技工、工友、司機）",

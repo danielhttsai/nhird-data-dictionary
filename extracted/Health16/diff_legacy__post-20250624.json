@@ -11,10 +11,10 @@
       "name_en": "IDNO",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。身分證字號或外籍居留證 號碼(如無居留證號碼為護照號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
-      "name_zh_en": "national ID number",
-      "description_en": ""
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 4,
@@ -25,7 +25,7 @@
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": ""
+      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
     },
     {
       "seq": 6,
@@ -33,21 +33,21 @@
       "name_en": "SITE",
       "type": "Char",
       "length": 4,
-      "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤 部位，表示方法為 C000-C809(“C”為大 寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (SITE)對照表】。",
+      "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤部位，表示方法為 C000-C809(“C”為大寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (SITE)對照表】。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": ""
+      "description_en": "Enter the primary tumor site according to the classification standard of the International Classification of Diseases for Oncology, 3rd edition (ICD-O-3), expressed as C000-C809 (uppercase \"C\"), without a decimal point. See field (variable) coding explanation (3) [Primary site (SITE) reference table]."
     },
     {
       "seq": 11,
-      "name_zh": "是否開過癌症團隊 會議",
+      "name_zh": "是否開過癌症團隊會議",
       "name_en": "CACONFER",
       "type": "Char",
       "length": 1,
       "description_zh": "0：否 1：是 9：不詳",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "whether attended cancer team meeting",
+      "description_en": "0: No 1: Yes 9: Unclear"
     },
     {
       "seq": 12,
@@ -55,10 +55,10 @@
       "name_en": "TRCMC",
       "type": "Char",
       "length": 4,
-      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
+      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "clinical tumor size (cm)",
+      "description_en": "00.0: No tumor found, or the primary site of the tumor could not be located, e.g., metastatic tumor but the primary location is undetermined; 00.1-99.7: Fill in according to measured numbers; 99.8: Unable to measure; 99.9: Unknown or not recorded in medical history."
     },
     {
       "seq": 13,
@@ -66,21 +66,21 @@
       "name_en": "TRCMP",
       "type": "Char",
       "length": 4,
-      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
+      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "tumor size in cm",
+      "description_en": "00.0: No tumor found, or the primary site of the tumor could not be located, e.g., metastatic tumor but the primary location is undetermined; 00.1-99.7: Fill in according to measured numbers; 99.8: Unable to measure; 99.9: Unknown or not recorded in medical history."
     },
     {
       "seq": 16,
-      "name_zh": "手術邊緣與腫瘤細 胞的距離",
+      "name_zh": "手術邊緣與腫瘤細胞的距離",
       "name_en": "MARGIND",
       "type": "Char",
       "length": 1,
       "description_zh": "0：手術的邊緣仍有腫瘤細胞的存在 1：小於1毫米 2：1-2毫米 3：3-5毫米 4：6-10毫米 5：大於10毫米 8：無法適用 9：不清楚",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "distance between surgical margin and tumor cells",
+      "description_en": "0: Tumor cells still present at surgical margin 1: Less than 1 mm 2: 1-2 mm 3: 3-5 mm 4: 6-10 mm 5: Greater than 10 mm 8: Not applicable 9: Unclear"
     },
     {
       "seq": 17,
@@ -88,10 +88,10 @@
       "name_en": "SMARGIN",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術 邊緣(SMARGIN)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術邊緣(SMARGIN)對照表】",
       "available_notes": [],
       "name_zh_en": "primary surgical margin of origin",
-      "description_en": ""
+      "description_en": "Detailed Field (Variable) Coding (IV) [Original Site Surgery Margin (SMARGIN) Table]"
     },
     {
       "seq": 27,
@@ -102,51 +102,61 @@
       "description_zh": "詳欄位(變項)譯碼 (七) 【其他分期系統 (OSTAGES)對照表】",
       "available_notes": [],
       "name_zh_en": "other installment systems",
-      "description_en": ""
+      "description_en": "See field (variable) coding (7) [Other Staging System (OSTAGES) table].",
+      "refs": [
+        {
+          "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
+          "url": "https://twcr.tw/wp-content/uploads/2026/04/ajcc-v9-20260415.pdf"
+        },
+        {
+          "label": "AJCC 第8版 期別編碼規則與操作型定義",
+          "url": "https://twcr.tw/wp-content/uploads/2021/12/AJCC%E7%AC%AC8%E7%89%88%E6%9C%9F%E5%88%A5%E7%B7%A8%E7%A2%BC%E7%9B%B8%E9%97%9C%E8%A6%8F%E5%89%87%E8%88%87%E6%93%8D%E4%BD%9C%E5%9E%8B%E5%AE%9A%E7%BE%A9.pdf"
+        }
+      ]
     },
     {
       "seq": 32,
-      "name_zh": "申報醫院針對腫瘤 原發部位進行手術 治療",
+      "name_zh": "申報醫院針對腫瘤原發部位進行手術治療",
       "name_en": "SURGERY",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital treatment for tumor primary site surgery",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 35,
-      "name_zh": "申報醫院區域淋巴 結手術範圍",
+      "name_zh": "申報醫院區域淋巴結手術範圍",
       "name_en": "LNSCOPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域 淋巴結手術範圍(LNSCOPE)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域淋巴結手術範圍(LNSCOPE)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "reported hospital regional lymph node surgical range",
+      "description_en": "detail field (variable) code (9) [reference table for lymph node surgery range (LNSCOPE)]"
     },
     {
       "seq": 36,
-      "name_zh": "申報醫院放射線治 療(針對原發部位)",
+      "name_zh": "申報醫院放射線治療(針對原發部位)",
       "name_en": "RXRT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital-reported radiation therapy for primary site",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 40,
-      "name_zh": "申報醫院近接放射 線治療",
+      "name_zh": "申報醫院近接放射線治療",
       "name_en": "RXBRT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital-nearby-radiation-therapy-reporting",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 42,
@@ -157,18 +167,18 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "hospital reported chemotherapy",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 43,
-      "name_zh": "化學與放射線同步 治療",
+      "name_zh": "化學與放射線同步治療",
       "name_en": "CCRT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 8：不適用，無法填寫此欄位 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "chemotherapy with concurrent radiation therapy",
+      "description_en": "0: None 1: Yes 8: Not applicable, unable to fill in this field 9: Unclear."
     },
     {
       "seq": 44,
@@ -176,10 +186,10 @@
       "name_en": "CTROUTE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方 式(CTROUTE)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方式(CTROUTE)對照表】",
       "available_notes": [],
       "name_zh_en": "chemotherapy method",
-      "description_en": ""
+      "description_en": "Translation of field (variable) codes (XII) [Contrast table for chemotherapy route (CTROUTE)]"
     },
     {
       "seq": 45,
@@ -190,18 +200,18 @@
       "description_zh": "00：未進行化學治療 01-97：記錄所有療程的總治療次數 98：無法計算療程數 99：不清楚。",
       "available_notes": [],
       "name_zh_en": "number of chemotherapy courses",
-      "description_en": ""
+      "description_en": "0: No chemotherapy administered, 01-97: Total number of treatment courses recorded, 98: Unable to calculate the number of treatment courses, 99: Unclear."
     },
     {
       "seq": 46,
-      "name_zh": "申報醫院荷爾蒙治 療",
+      "name_zh": "申報醫院荷爾蒙治療",
       "name_en": "HORMONE",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital申报 hormone therapy",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 47,
@@ -211,8 +221,8 @@
       "length": 1,
       "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "embolization therapy (TACE, TAE)",
+      "description_en": "0: not done 1: hepatic artery chemoembolization treatment"
     },
     {
       "seq": 48,
@@ -223,7 +233,7 @@
       "description_zh": "00：未進行栓塞 01-97：記錄同一療程的治療次數 99：次數不清楚。",
       "available_notes": [],
       "name_zh_en": "Thrombosis Occurrences",
-      "description_en": ""
+      "description_en": "0: not performed; 01-97: number of treatments in the same therapy 99: number unclear."
     },
     {
       "seq": 49,
@@ -234,7 +244,7 @@
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
       "available_notes": [],
       "name_zh_en": "survival status",
-      "description_en": ""
+      "description_en": "0: Deceased; 1: Alive; 9: Survival status unknown."
     },
     {
       "seq": 53,
@@ -244,8 +254,8 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
-      "name_zh_en": "gender",
-      "description_en": ""
+      "name_zh_en": "Sex",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 54,
@@ -255,8 +265,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: ID number conforms to coding rules; 1: does not conform"
     }
   ],
   "removed": [
@@ -269,7 +279,7 @@
       "description_zh": "YYYY：確認個案的出生年。 年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": ""
+      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
     },
     {
       "seq": 7,
@@ -277,21 +287,21 @@
       "name_en": "CASITE",
       "type": "Char",
       "length": 4,
-      "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤 部位，表示方法為 C000-C809(“C”為大 寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (CASITE)對照表】。",
+      "description_zh": "依據國際疾病分類腫瘤學第三版 (ICD-O-3)的分類標準，填寫原發的腫瘤部位，表示方法為 C000-C809(“C”為大寫)，不含小數點。 詳欄位(變項)譯碼 (三) 【原發部位 (CASITE)對照表】。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": ""
+      "description_en": "According to the classification standard of International Classification of Diseases for Oncology, third edition (ICD-O-3), fill in the primary tumor site. The representation method is C000-C809 ('C' as capital letter), without decimal points. Detailed variable code translation (3) 【Primary Site (CASITE) Lookup Table】"
     },
     {
       "seq": 12,
-      "name_zh": "是否開過癌症團隊 會議",
+      "name_zh": "是否開過癌症團隊會議",
       "name_en": "CAC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：否 1：是 9：不詳",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "whether attended cancer team meeting",
+      "description_en": "0: No 1: Yes 9: Unclear"
     },
     {
       "seq": 14,
@@ -299,10 +309,10 @@
       "name_en": "TSIZE_C",
       "type": "Char",
       "length": 4,
-      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
+      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "clinical tumor size (cm)",
+      "description_en": "00.0: No tumor found, or the primary site of the tumor could not be located, e.g., metastatic tumor but the primary location is undetermined; 00.1-99.7: Fill in according to measured numbers; 99.8: Unable to measure; 99.9: Unknown or not recorded in medical history."
     },
     {
       "seq": 15,
@@ -310,21 +320,21 @@
       "name_en": "TSIZE_P",
       "type": "Char",
       "length": 4,
-      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部 位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
+      "description_zh": "00.0：沒有腫瘤，或是沒有發現腫瘤， 例如有轉移性腫瘤，但是其原發部位腫瘤找不到 00.1-99.7：依測量數字填入 99.8：無法測量 99.9：不知道或是病歷上並未記錄",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "tumor size in cm",
+      "description_en": "00.0: No tumor found, or the primary site of the tumor could not be located, e.g., metastatic tumor but the primary location is undetermined; 00.1-99.7: Fill in according to measured numbers; 99.8: Unable to measure; 99.9: Unknown or not recorded in medical history."
     },
     {
       "seq": 18,
-      "name_zh": "手術邊緣與腫瘤細 胞的距離",
+      "name_zh": "手術邊緣與腫瘤細胞的距離",
       "name_en": "OPMARGD",
       "type": "Char",
       "length": 1,
       "description_zh": "0：手術的邊緣仍有腫瘤細胞的存在 1：小於1毫米 2：1-2毫米 3：3-5毫米 4：6-10毫米 5：大於10毫米 8：無法適用 9：不清楚",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "distance between surgical margin and tumor cells",
+      "description_en": "0: Tumor cells still present at surgical margin 1: Less than 1 mm 2: 1-2 mm 3: 3-5 mm 4: 6-10 mm 5: Greater than 10 mm 8: Not applicable 9: Unclear"
     },
     {
       "seq": 19,
@@ -332,10 +342,10 @@
       "name_en": "OPMARGS",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術 邊緣(OPMARGS)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術邊緣(OPMARGS)對照表】",
       "available_notes": [],
       "name_zh_en": "primary surgical margin of origin",
-      "description_en": ""
+      "description_en": "Detailed Field (Variable) Coding (IV) [Original Site Surgery Margin Comparison Table]"
     },
     {
       "seq": 29,
@@ -346,51 +356,61 @@
       "description_zh": "詳欄位(變項)譯碼 (七) 【其他分期系統 (OSTAGE)對照表】",
       "available_notes": [],
       "name_zh_en": "other installment systems",
-      "description_en": ""
+      "description_en": "See field (variable) coding (7) [Other staging system (OSTAGE) cross-reference table].",
+      "refs": [
+        {
+          "label": "AJCC 第9版 TNM 與期別編碼對應表 (2026)",
+          "url": "https://twcr.tw/wp-content/uploads/2026/04/ajcc-v9-20260415.pdf"
+        },
+        {
+          "label": "AJCC 第8版 期別編碼規則與操作型定義",
+          "url": "https://twcr.tw/wp-content/uploads/2021/12/AJCC%E7%AC%AC8%E7%89%88%E6%9C%9F%E5%88%A5%E7%B7%A8%E7%A2%BC%E7%9B%B8%E9%97%9C%E8%A6%8F%E5%89%87%E8%88%87%E6%93%8D%E4%BD%9C%E5%9E%8B%E5%AE%9A%E7%BE%A9.pdf"
+        }
+      ]
     },
     {
       "seq": 34,
-      "name_zh": "申報醫院針對腫瘤 原發部位進行手術 治療",
+      "name_zh": "申報醫院針對腫瘤原發部位進行手術治療",
       "name_en": "OP",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital treatment for tumor primary site surgery",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 37,
-      "name_zh": "申報醫院區域淋巴 結手術範圍",
+      "name_zh": "申報醫院區域淋巴結手術範圍",
       "name_en": "OPLNSCOPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域 淋巴結手術範圍(OPLNSCOPE)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (九) 【申報醫院區域淋巴結手術範圍(OPLNSCOPE)對照表】",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "reported hospital regional lymph node surgical range",
+      "description_en": "See field (variable) coding explanation (9) [Reporting Hospital Regional Lymph Node Surgery Scope (OPLNSCOPE) Table]."
     },
     {
       "seq": 39,
-      "name_zh": "申報醫院放射線治 療(針對原發部位)",
+      "name_zh": "申報醫院放射線治療(針對原發部位)",
       "name_en": "RT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital-reported radiation therapy for primary site",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 45,
-      "name_zh": "申報醫院近接放射 線治療",
+      "name_zh": "申報醫院近接放射線治療",
       "name_en": "BRT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital-nearby-radiation-therapy-reporting",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 47,
@@ -401,18 +421,18 @@
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
       "name_zh_en": "hospital reported chemotherapy",
-      "description_en": ""
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 48,
-      "name_zh": "化學與放射線同步 治療",
+      "name_zh": "化學與放射線同步治療",
       "name_en": "CHRT",
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 8：不適用，無法填寫此欄位 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "chemotherapy with concurrent radiation therapy",
+      "description_en": "0: None 1: Yes 8: Not applicable, unable to fill in this field 9: Unclear."
     },
     {
       "seq": 49,
@@ -420,10 +440,10 @@
       "name_en": "CHROUTE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方 式(CHROUTE)對照表】",
+      "description_zh": "詳欄位(變項)譯碼 (十二) 【化學治療方式(CHROUTE)對照表】",
       "available_notes": [],
       "name_zh_en": "chemotherapy method",
-      "description_en": ""
+      "description_en": "Translation of field (variable) codes (XII) [Contrast table for chemotherapy route (CHROUTE)]"
     },
     {
       "seq": 50,
@@ -434,18 +454,18 @@
       "description_zh": "00：未進行化學治療 01-97：記錄所有療程的總治療次數 98：無法計算療程數 99：不清楚。",
       "available_notes": [],
       "name_zh_en": "number of chemotherapy courses",
-      "description_en": ""
+      "description_en": "0: No chemotherapy administered, 01-97: Total number of treatment courses recorded, 98: Unable to calculate the number of treatment courses, 99: Unclear."
     },
     {
       "seq": 52,
-      "name_zh": "申報醫院荷爾蒙治 療",
+      "name_zh": "申報醫院荷爾蒙治療",
       "name_en": "HORM",
       "type": "Char",
       "length": 1,
       "description_zh": "0：未做 1：已做 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "hospital申报 hormone therapy",
+      "description_en": "0: not performed 1: performed 9: unclear"
     },
     {
       "seq": 54,
@@ -453,10 +473,10 @@
       "name_en": "TACE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療 2：肝動脈栓塞治療 3：合併肝動脈化學藥物栓塞治療及肝動 脈栓塞治療 9：不清楚。",
+      "description_zh": "0：未做 1：肝動脈化學藥物栓塞治療 2：肝動脈栓塞治療 3：合併肝動脈化學藥物栓塞治療及肝動脈栓塞治療 9：不清楚。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "embolization therapy (TACE, TAE)",
+      "description_en": "0: not performed 1: hepatic artery chemoembolization therapy 2: hepatic artery embolization therapy 3: combined hepatic artery chemoembolization and embolization therapy 9: unclear"
     },
     {
       "seq": 55,
@@ -467,7 +487,7 @@
       "description_zh": "00：未進行栓塞 01-97：記錄同一療程的治療次數 99：次數不清楚。",
       "available_notes": [],
       "name_zh_en": "Thrombosis Occurrences",
-      "description_en": ""
+      "description_en": "0: not performed; 01-97: number of treatments in the same therapy 99: number unclear."
     },
     {
       "seq": 58,
@@ -478,7 +498,7 @@
       "description_zh": "0：死亡 1：存活 9：存活狀況不明。",
       "available_notes": [],
       "name_zh_en": "survival status",
-      "description_en": ""
+      "description_en": "0: Deceased; 1: Alive; 9: Survival status unknown."
     },
     {
       "seq": 63,
@@ -486,10 +506,10 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。身分證字號或外籍居留證 號碼(如無居留證號碼為護照號碼)。",
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
       "available_notes": [],
-      "name_zh_en": "national ID number",
-      "description_en": ""
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 64,
@@ -499,8 +519,8 @@
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
       "available_notes": [],
-      "name_zh_en": "gender",
-      "description_en": ""
+      "name_zh_en": "Sex",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 65,
@@ -510,8 +530,8 @@
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則 1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number validation error",
-      "description_en": ""
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: ID number conforms to coding rules; 1: does not conform"
     }
   ],
   "modified": [
@@ -530,8 +550,8 @@
       "seq_later": 15,
       "changes": {
         "description_zh": {
-          "from": "00：區域性淋巴結沒有被侵犯 01-95：區域性淋巴結侵犯數目 96：區域性淋巴結侵犯數目為 96顆或大 於96顆 97：有侵犯區域性淋巴結，但數目不明 98：未檢查區域性淋巴結，或有對於區 域性淋巴結開刀，但淋巴結檢查數 目為0 99：有檢查區域性淋巴結，但狀況不明",
-          "to": "00：區域性淋巴結沒有被侵犯 01-95：區域性淋巴結侵犯數目 96：區域性淋巴結侵犯數目為 96顆或大 於96顆 97：有侵犯區域性淋巴結，但數目不明 98：未檢查區域性淋巴結，或有對於區 域性淋巴結開刀，但淋巴結檢查數 目為0"
+          "from": "00：區域性淋巴結沒有被侵犯 01-95：區域性淋巴結侵犯數目 96：區域性淋巴結侵犯數目為 96顆或大於96顆 97：有侵犯區域性淋巴結，但數目不明 98：未檢查區域性淋巴結，或有對於區域性淋巴結開刀，但淋巴結檢查數目為0 99：有檢查區域性淋巴結，但狀況不明",
+          "to": "00：區域性淋巴結沒有被侵犯 01-95：區域性淋巴結侵犯數目 96：區域性淋巴結侵犯數目為 96顆或大於96顆 97：有侵犯區域性淋巴結，但數目不明 98：未檢查區域性淋巴結，或有對於區域性淋巴結開刀，但淋巴結檢查數目為0"
         }
       }
     },
@@ -540,8 +560,8 @@
       "seq_later": 28,
       "changes": {
         "description_zh": {
-          "from": "(1) 若分期系統非 AJCC TNM 系統，且 選擇以上所列之分期方式時，記錄 其合適的臨床分期 (2) 編碼長度不足 12 者，輸入方式左 靠，長度不足補空白，不補 0 (3) 若「其他分期系統」的編碼為 0時， 此欄位請填999999999999",
-          "to": "(1) 若分期系統非 AJCC TNM 系統，且 選擇以上所列之分期方式時，記錄 其合適的臨床分期 (2) 編碼長度不足 12 者，輸入方式左"
+          "from": "(1) 若分期系統非 AJCC TNM 系統，且選擇以上所列之分期方式時，記錄其合適的臨床分期 (2) 編碼長度不足 12 者，輸入方式左靠，長度不足補空白，不補 0 (3) 若「其他分期系統」的編碼為 0時， 此欄位請填999999999999",
+          "to": "(1) 若分期系統非 AJCC TNM 系統，且選擇以上所列之分期方式時，記錄其合適的臨床分期 (2) 編碼長度不足 12 者，輸入方式左"
         }
       }
     },

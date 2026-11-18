@@ -11,10 +11,10 @@
       "name_en": "PART_CODE",
       "type": "Char",
       "length": 3,
-      "description_zh": "000：應部分負擔 詳見欄位部分負擔代號 （PART_CODE）說明。",
+      "description_zh": "000：應部分負擔詳見欄位部分負擔代號 （PART_CODE）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "000: Partial burden see field partial burden code (PART_CODE) explanation."
     },
     {
       "seq": 9,
@@ -25,7 +25,7 @@
       "description_zh": "詳見欄位給付類別（PAY_TYPE） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": ""
+      "description_en": "details of payment category (PAY_TYPE) translation code explanation"
     },
     {
       "seq": 11,
@@ -33,7 +33,7 @@
       "name_en": "FUNC_SEQ_NO",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國92年(含)以前2碼，93年以 後4碼，詳見欄位健保卡就醫序號 （FUNC_SEQ_NO）譯碼說明。",
+      "description_zh": "民國92年(含)以前2碼，93年以後4碼，詳見欄位健保卡就醫序號 （FUNC_SEQ_NO）譯碼說明。",
       "available_notes": [
         {
           "roc_year": 92,
@@ -47,7 +47,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": ""
+      "description_en": "Prior to 92 year (inclusive), 2 digits; after 93 year, 4 digits, see field claims card medical visit sequence number (FUNC_SEQ_NO) decoding explanation."
     },
     {
       "seq": 14,
@@ -55,10 +55,10 @@
       "name_en": "ACU_BED_DAYS",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住急性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
+      "description_zh": "病人住急性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
       "available_notes": [],
       "name_zh_en": "acute inpatient days",
-      "description_en": ""
+      "description_en": "Total inpatient days for acute bed stay, counted from the date of admission to the day before discharge, including days with ORDER_TYPE Z in the inpatient medical order file."
     },
     {
       "seq": 15,
@@ -66,10 +66,10 @@
       "name_en": "CHR_BED_DAYS",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住慢性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
+      "description_zh": "病人住慢性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
       "available_notes": [],
       "name_zh_en": "chronic inpatient days",
-      "description_en": ""
+      "description_en": "Total inpatient days for chronic bed stay, counted from the date of admission to the day before discharge, including days with ORDER_TYPE Z in the inpatient medical order file."
     },
     {
       "seq": 22,
@@ -77,7 +77,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白，ICD-9-CM 之代 碼 案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之 主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年 起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為 C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自 105 年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -86,7 +86,7 @@
         }
       ],
       "name_zh_en": "primary diagnosis code",
-      "description_en": ""
+      "description_en": "Left padding with zeros, ICD-9-CM code. For primary diagnosis codes of case classification C1, use 042 or V08; for C2-C3, use 010 or 018. Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
     },
     {
       "seq": 23,
@@ -141,7 +141,7 @@
       "description_zh": "ICD-9-PCS 之代碼。",
       "available_notes": [],
       "name_zh_en": "primary procedure",
-      "description_en": ""
+      "description_en": "ICD-9-PCS code."
     },
     {
       "seq": 28,
@@ -149,7 +149,7 @@
       "name_en": "OP_CODE1",
       "type": "Char",
       "length": 9,
-      "description_zh": "註: 1. 健保署規定醫療院所自 105 年 起以ICD-10-PCS 申報。",
+      "description_zh": "註: 1. 健保署規定醫療院所自 105 年起以ICD-10-PCS 申報。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -158,7 +158,7 @@
         }
       ],
       "name_zh_en": "first subsequent procedure",
-      "description_en": ""
+      "description_en": "Note: 1. According to the MOHCS, medical institutions have been required to report using ICD-10-PCS since 2016."
     },
     {
       "seq": 29,
@@ -221,10 +221,10 @@
       "name_en": "EXP_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (OP_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數",
+      "description_zh": "為診察點數(DIAG_DOT)、病房點數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (OP_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數",
       "available_notes": [],
       "name_zh_en": "medical point",
-      "description_en": ""
+      "description_en": "Diagnosis points (DIAG_DOT), ward points (ROOM_DOT), enteral nutrition points (MEAL_DOT), examination points (AMIN_DOT), radiological treatment points (RADO_DOT), therapeutic procedure points (THRP_DOT), surgical points (OP_DOT), physical therapy points (PHSC_DOT), blood plasma points (BLOD_DOT), hemodialysis points (HD_DOT), anesthesia points, special material points"
     },
     {
       "seq": 51,
@@ -232,10 +232,10 @@
       "name_en": "PART_AMT",
       "type": "Num",
       "length": 8,
-      "description_zh": "醫事服務機構收取之部分負擔點 數。 應不含住院醫令檔醫令類別 (ORDER_TYPE)有「Z:部分已切帳 申報費用之藥品、診療明細、特殊 材料醫令」之G00001部分負擔點 數，詳見欄位部分負擔金額 （PART_AMT）說明。",
+      "description_zh": "醫事服務機構收取之部分負擔點數。 應不含住院醫令檔醫令類別 (ORDER_TYPE)有「Z:部分已切帳申報費用之藥品、診療明細、特殊材料醫令」之G00001部分負擔點數，詳見欄位部分負擔金額 （PART_AMT）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": ""
+      "description_en": "The copayment points collected by medical service institutions. Should not include outpatient orders (ORDER_TYPE) with 'Z: partial billing claimed for drugs, treatments, or special materials', as detailed in the field description of copayment amount (PART_AMT)."
     },
     {
       "seq": 53,
@@ -243,20 +243,20 @@
       "name_en": "ACU_EXP30_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.住院之部分負擔隨著住院天數及 病床類別(急性病床或慢性病床)有 不同的負擔比率，因此住院之醫療 費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以 上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請 將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
+      "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分： (1)醫療點數 (急性病床1-30天) (2)醫療點數 (急性病床31-60天) (3)醫療點數 (急性病床61天以上) (4)醫療點數 (慢性病床1-30天) (5)醫療點數 (慢性病床31-90天) (6)醫療點數 (慢性病床91-180天) (7)醫療點數 (慢性病床 181 天以上)，分別計算醫療點數。 2.急性病床住院超出30日以上，請將醫療費用點數依 1-30 日，31-60 日，61日以上分別計算醫療點數。 3.慢性病床住院超出30日以上，請",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "acute bed points (30 days or less)",
+      "description_en": "1. Multiple order records for one admission. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
     },
     {
       "seq": 54,
-      "name_zh": "部分負擔點數(急性 病床1-30天)",
+      "name_zh": "部分負擔點數(急性病床1-30天)",
       "name_en": "ACU_PART30_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -267,18 +267,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (acute inpatient 31-60 days)",
       "description_en": ""
     },
     {
       "seq": 56,
-      "name_zh": "部分負擔點數(急性 病床31-60天)",
+      "name_zh": "部分負擔點數(急性病床31-60天)",
       "name_en": "ACU_PART60_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (acute inpatient days 31-60)",
       "description_en": ""
     },
     {
@@ -289,18 +289,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "acute bed points (more than 60 days)",
       "description_en": ""
     },
     {
       "seq": 58,
-      "name_zh": "部分負擔點數(急性 病床61天以上)",
+      "name_zh": "部分負擔點數(急性病床61天以上)",
       "name_en": "ACU_PART61_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 61 days and above)",
       "description_en": ""
     },
     {
@@ -311,18 +311,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "chronic bed points (30 days or less)",
       "description_en": ""
     },
     {
       "seq": 60,
-      "name_zh": "部分負擔點數(慢性 病床1-30天)",
+      "name_zh": "部分負擔點數(慢性病床1-30天)",
       "name_en": "CHR_PART30_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -338,13 +338,13 @@
     },
     {
       "seq": 62,
-      "name_zh": "部分負擔點數(慢性 病床31-90天)",
+      "name_zh": "部分負擔點數(慢性病床31-90天)",
       "name_en": "CHR_PART90_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (chronic inpatient days 31-90)",
       "description_en": ""
     },
     {
@@ -355,18 +355,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic disease bed 91-180 days)",
       "description_en": ""
     },
     {
       "seq": 64,
-      "name_zh": "部分負擔點數(慢性 病床91-180天)",
+      "name_zh": "部分負擔點數(慢性病床91-180天)",
       "name_en": "CHR_PART180_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic bed 91-180 days)",
       "description_en": ""
     },
     {
@@ -377,18 +377,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic inpatient over 181 days)",
       "description_en": ""
     },
     {
       "seq": 66,
-      "name_zh": "部分負擔點數(慢性 病床181天以上)",
+      "name_zh": "部分負擔點數(慢性病床181天以上)",
       "name_en": "CHR_PART181_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (chronic inpatient days 181+)",
       "description_en": ""
     }
   ],
@@ -402,7 +402,7 @@
       "description_zh": "詳見欄位給付類別（GAVE_KIND） 譯碼說明",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": ""
+      "description_en": "See field payment category (GAVE_KIND) coding explanation."
     },
     {
       "seq": 8,
@@ -410,7 +410,7 @@
       "name_en": "CARD_SEQ_NO",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國92年(含)以前2碼，93年以 後4碼，詳見欄位健保卡就醫序號 （CARD_SEQ_NO）譯碼說明。",
+      "description_zh": "民國92年(含)以前2碼，93年以後4碼，詳見欄位健保卡就醫序號 （CARD_SEQ_NO）譯碼說明。",
       "available_notes": [
         {
           "roc_year": 92,
@@ -424,7 +424,7 @@
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
-      "description_en": ""
+      "description_en": "2 digits through ROC year 92 (AD 2003) inclusive, 4 digits from ROC year 93 (AD 2004) onward; see the coding explanation for the field NHI card visit sequence number (CARD_SEQ_NO)."
     },
     {
       "seq": 13,
@@ -432,10 +432,10 @@
       "name_en": "E_BED_DAY",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住急性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
+      "description_zh": "病人住急性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別 (ORDER_TYPE)為Z的住院天數。",
       "available_notes": [],
       "name_zh_en": "acute inpatient days",
-      "description_en": ""
+      "description_en": "Total inpatient days for acute bed stay, counted from the date of admission to the day before discharge, including days with ORDER_TYPE Z in the inpatient medical order file."
     },
     {
       "seq": 14,
@@ -443,10 +443,10 @@
       "name_en": "S_BED_DAY",
       "type": "Num",
       "length": 8,
-      "description_zh": "病人住慢性病床之總計天數，以入 院之日起計，出院之日不計，包含 住院醫令檔醫令類別",
+      "description_zh": "病人住慢性病床之總計天數，以入院之日起計，出院之日不計，包含住院醫令檔醫令類別",
       "available_notes": [],
       "name_zh_en": "chronic inpatient days",
-      "description_en": ""
+      "description_en": "Total number of days spent in a chronic disease bed, counted from the date of admission to discharge, excluding the day of discharge, including orders from the hospital order file category."
     },
     {
       "seq": 19,
@@ -454,7 +454,7 @@
       "name_en": "ICD9CM_1",
       "type": "Char",
       "length": 5,
-      "description_zh": "左靠不足補空白，ICD-9-CM 之代 碼 案件分類為C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之 主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自105年 起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼。",
+      "description_zh": "左靠不足補空白，ICD-9-CM 之代碼案件分類為C1 之主診斷碼應為 042或V08；案件分類為C2-C3 之主診斷碼應為010或018。 註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 自105年起欄位長度調整為7 碼。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -468,7 +468,7 @@
         }
       ],
       "name_zh_en": "primary diagnosis code",
-      "description_en": ""
+      "description_en": "Left cheek padding, ICD-9-CM code for the primary diagnosis of case classification C1 should be 042 or V08; for case classification C2-C3, it should be 010 or 018. Note: 1. The MOH requires medical institutions to use ICD-10-CM reporting starting from 2016. 2. Field length adjustment to 7 digits starting from 2016."
     },
     {
       "seq": 20,
@@ -520,7 +520,7 @@
       "name_en": "ICD_OP_CODE1",
       "type": "Char",
       "length": 4,
-      "description_zh": "ICD-9-PCS 之代碼。 註: 1. 健保署規定醫療院所自105年 起以ICD-10-PCS 申報。 2. 自105年起欄位長度調整為7 碼。",
+      "description_zh": "ICD-9-PCS 之代碼。 註: 1. 健保署規定醫療院所自105年起以ICD-10-PCS 申報。 2. 自105年起欄位長度調整為7 碼。",
       "available_notes": [
         {
           "roc_year": 105,
@@ -534,7 +534,7 @@
         }
       ],
       "name_zh_en": "primary procedure",
-      "description_en": ""
+      "description_en": "ICD-9-PCS code. Note: 1. The MOH requires medical institutions to use ICD-10-PCS for claims starting from 2016. 2. Field length was adjusted to 7 digits starting from 2016."
     },
     {
       "seq": 25,
@@ -617,7 +617,7 @@
         }
       ],
       "name_zh_en": "proxy points",
-      "description_en": "2010年起无"
+      "description_en": "Not available since ROC year 100 (AD 2011)."
     },
     {
       "seq": 47,
@@ -625,10 +625,10 @@
       "name_en": "MED_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "為診察點數(DIAG_DOT)、病房點 數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (SGRY_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數 (METR_DOT)、葯點數 (DRUG_DOT)、葯事服務點數 (DSVC_DOT)、精神科治療點數 (NRTP_DOT)、注射技術點數 (INJT_DOT)、嬰兒點數 (BABY_DOT)之合計，詳代碼說明 (1-15)。",
+      "description_zh": "為診察點數(DIAG_DOT)、病房點數(ROOM_DOT)、管灌膳食點數 (MEAL_DOT)、檢查點數 (AMIN_DOT)、放射線診療點數 (RADO_DOT)、治療處置點數 (THRP_DOT)、手術點數 (SGRY_DOT)、復健治療點數 (PHSC_DOT)、血液血漿點數 (BLOD_DOT)、血液透析點數 (HD_DOT)、麻醉點數 (ANE_DOT)、特殊材料點數 (METR_DOT)、葯點數 (DRUG_DOT)、葯事服務點數 (DSVC_DOT)、精神科治療點數 (NRTP_DOT)、注射技術點數 (INJT_DOT)、嬰兒點數 (BABY_DOT)之合計，詳代碼說明 (1-15)。",
       "available_notes": [],
       "name_zh_en": "medical point",
-      "description_en": ""
+      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
     },
     {
       "seq": 48,
@@ -636,10 +636,10 @@
       "name_en": "PART_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "醫事服務機構收取之部分負擔點 數。 應不含住院醫令檔醫令類別",
+      "description_zh": "醫事服務機構收取之部分負擔點數。 應不含住院醫令檔醫令類別",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": ""
+      "description_en": "Copayment points collected by medical service institutions. Should not include inpatient order category"
     },
     {
       "seq": 50,
@@ -647,20 +647,20 @@
       "name_en": "EB_APPL30_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "1.住院之部分負擔隨著住院天數 及病床類別(急性病床或慢性病 床)有不同的負擔比率，因此住院 之醫療費用點數區分為7部分： (1)醫療費用點數 (急性病床1-30 天) (2)醫療費用點數 (急性病床 31-60天) (3)醫療費用點數 (急性病床61天 以上) (4)醫療費用點數 (慢性病床1-30 天) (5)醫療費用點數 (慢性病床 31-90天) (6)醫療費用點數 (慢性病床 91-180天) (7)醫療費用點數 (慢性病床181 天以上)，分別計算醫療費用點數。 2. 急性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-60日，61日以上分別計算醫 療費用點數。 3. 慢性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-90日，91-180日，181 日以 上，分別計算醫療費用點數。",
+      "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分： (1)醫療費用點數 (急性病床1-30 天) (2)醫療費用點數 (急性病床 31-60天) (3)醫療費用點數 (急性病床61天以上) (4)醫療費用點數 (慢性病床1-30 天) (5)醫療費用點數 (慢性病床 31-90天) (6)醫療費用點數 (慢性病床 91-180天) (7)醫療費用點數 (慢性病床181 天以上)，分別計算醫療費用點數。 2. 急性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-60日，61日以上分別計算醫療費用點數。 3. 慢性病床住院超出30日以上， 請將醫療費用點數依1-30日， 31-90日，91-180日，181 日以上，分別計算醫療費用點數。",
       "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
+      "name_zh_en": "acute bed points (30 days or less)",
+      "description_en": "1. The ID numbers of the victim and suspected abuser may be blank. 2. Multiple-choice variables, if multiple are selected, are recorded in the same field. 3. Date fields use the ROC calendar; 000/00/00 means unknown — e.g. 0000101 = year unknown, 1040001 = month unknown, 1040100 = day unknown. 4. The suspected-perpetrator fields hold the primary suspected perpetrator's data. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. The protected/victim record-grouping/matching key is VVID. 2. The suspected abuser/respondent/suspect record-grouping/matching key is DVID."
     },
     {
       "seq": 51,
-      "name_zh": "部分負擔點數(急性 病床1-30天)",
+      "name_zh": "部分負擔點數(急性病床1-30天)",
       "name_en": "EB_PART30_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -671,18 +671,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (acute inpatient 31-60 days)",
       "description_en": ""
     },
     {
       "seq": 53,
-      "name_zh": "部分負擔點數(急性 病床31-60天)",
+      "name_zh": "部分負擔點數(急性病床31-60天)",
       "name_en": "EB_PART60_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (acute inpatient days 31-60)",
       "description_en": ""
     },
     {
@@ -693,18 +693,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "acute bed points (more than 60 days)",
       "description_en": ""
     },
     {
       "seq": 55,
-      "name_zh": "部分負擔點數(急性 病床61天以上)",
+      "name_zh": "部分負擔點數(急性病床61天以上)",
       "name_en": "EB_PART61_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (acute inpatient 61 days and above)",
       "description_en": ""
     },
     {
@@ -715,18 +715,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "chronic bed points (30 days or less)",
       "description_en": ""
     },
     {
       "seq": 57,
-      "name_zh": "部分負擔點數(慢性 病床1-30天)",
+      "name_zh": "部分負擔點數(慢性病床1-30天)",
       "name_en": "SB_PART30_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic inpatient 1-30 days)",
       "description_en": ""
     },
     {
@@ -737,18 +737,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic inpatient 31-90 days)",
       "description_en": ""
     },
     {
       "seq": 59,
-      "name_zh": "部分負擔點數(慢性 病床 31-90天)",
+      "name_zh": "部分負擔點數(慢性病床 31-90天)",
       "name_en": "SB_PART90_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic bed 31-90 days)",
       "description_en": ""
     },
     {
@@ -759,18 +759,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic disease bed 91-180 days)",
       "description_en": ""
     },
     {
       "seq": 61,
-      "name_zh": "部分負擔點數(慢性 病床91-180天)",
+      "name_zh": "部分負擔點數(慢性病床91-180天)",
       "name_en": "SB_PART180_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copayment points (chronic bed 91-180 days)",
       "description_en": ""
     },
     {
@@ -781,18 +781,18 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "medical points (chronic inpatient over 181 days)",
       "description_en": ""
     },
     {
       "seq": 63,
-      "name_zh": "部分負擔點數(慢性 病床181天以上)",
+      "name_zh": "部分負擔點數(慢性病床181天以上)",
       "name_en": "SB_PART181_DOT",
       "type": "Num",
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "",
+      "name_zh_en": "copay units (chronic inpatient days 181+)",
       "description_en": ""
     },
     {
@@ -801,10 +801,10 @@
       "name_en": "PART_NO",
       "type": "Char",
       "length": 3,
-      "description_zh": "000：應部分負擔 詳見欄位部分負擔代號（PART_ NO）說明。",
+      "description_zh": "000：應部分負擔詳見欄位部分負擔代號（PART_ NO）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment code",
-      "description_en": ""
+      "description_en": "000: partial payment applicable, see explanation in PART_NO field."
     }
   ],
   "modified": [
@@ -817,8 +817,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1. 經加密處理，為辨別醫療機構的 鍵值。",
-          "to": "經加密處理，為辨別醫療機構的鍵 值。"
+          "from": "1. 經加密處理，為辨別醫療機構的鍵值。",
+          "to": "經加密處理，為辨別醫療機構的鍵值。"
         }
       }
     },
@@ -864,10 +864,6 @@
       "key": "SEQ_NO",
       "seq_later": 6,
       "changes": {
-        "name_zh": {
-          "from": "流水號",
-          "to": "流水號"
-        },
         "type": {
           "from": "Char",
           "to": "Num"
@@ -887,8 +883,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1. 經加密處理。身分證字號或外籍 居留證號碼(如無居留證號碼為護 照號碼)。",
-          "to": "經加密處理。身分證字號或外籍居 留證號碼(如無居留證號碼為護照 號碼)。"
+          "from": "1. 經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+          "to": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。"
         }
       }
     },
@@ -897,7 +893,7 @@
       "seq_later": 10,
       "changes": {
         "description_zh": {
-          "from": "Y：汽機車交通事故 N：非汽機車 交通事故或原因不明。 108年起無",
+          "from": "Y：汽機車交通事故 N：非汽機車交通事故或原因不明。 108年起無",
           "to": "Y：汽機車交通事故 N：非汽機車交通事故或原因不明。 註:108 年起無"
         }
       }
@@ -907,8 +903,8 @@
       "seq_later": 12,
       "changes": {
         "description_zh": {
-          "from": "保險對象住院中有二次以上轉就 醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明",
-          "to": "保險對象住院中有二次以上轉就 醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明。"
+          "from": "保險對象住院中有二次以上轉就醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明",
+          "to": "保險對象住院中有二次以上轉就醫科別者，以出院時之科別填寫， 詳見欄位就醫科別（FUNC_TYPE） 譯碼說明。"
         }
       }
     },
@@ -927,8 +923,8 @@
       "seq_later": 16,
       "changes": {
         "description_zh": {
-          "from": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段 結清，致部分負擔小於法定比例或",
-          "to": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段 結清，致部分負擔小於法定比例或 每次最高上限金額 5: N、C、R 乳癌試辦計畫 N、C、R：乳癌試辦計畫（90.12） S：代辦精神病嚴重病人送醫及強 制住院（92.06代辦）(98.07起適用) 7:同次住院費用依規定切帳申報案 件 註:92 年起新增此欄位"
+          "from": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段結清，致部分負擔小於法定比例或",
+          "to": "1:初、複診 2:急診3:轉診 4:同一疾病14天內再住院或分段結清，致部分負擔小於法定比例或每次最高上限金額 5: N、C、R 乳癌試辦計畫 N、C、R：乳癌試辦計畫（90.12） S：代辦精神病嚴重病人送醫及強制住院（92.06代辦）(98.07起適用) 7:同次住院費用依規定切帳申報案件註:92 年起新增此欄位"
         }
       }
     },
@@ -941,8 +937,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1. 經加密處理，醫師或原處方醫師 之身分證字號或外籍居留證號。",
-          "to": "經加密處理，醫師或原處方醫師之 身分證字號或外籍居留證號。"
+          "from": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。",
+          "to": "經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。"
         }
       }
     },
@@ -951,8 +947,8 @@
       "seq_later": 19,
       "changes": {
         "description_zh": {
-          "from": "汽機車交通事故為Y時，本欄不得 空白。 ICD-9-CM 之E碼 註: 1. 健保署規定醫療院所自105年 起以ICD-10-CM 申報。 2. 108年起無",
-          "to": "汽機車交通事故為Y時，本欄不得 空白。 ICD-9-CM 之E碼 註: 1.健保署規定醫療院所自105年起 以ICD-10-CM 申報。 2.108年起無"
+          "from": "汽機車交通事故為Y時，本欄不得空白。 ICD-9-CM 之E碼註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 108年起無",
+          "to": "汽機車交通事故為Y時，本欄不得空白。 ICD-9-CM 之E碼註: 1.健保署規定醫療院所自105年起以ICD-10-CM 申報。 2.108年起無"
         }
       }
     },
@@ -961,8 +957,8 @@
       "seq_later": 20,
       "changes": {
         "description_zh": {
-          "from": "ICD-9-CM 之E碼 註: 1. 健保署規定醫療院所自105年 起以ICD-10-CM 申報。 2. 108年起無",
-          "to": "ICD-9-CM 之E碼 註: 1.健保署規定醫療院所自105年起 以ICD-10-CM 申報。 2.108年起無"
+          "from": "ICD-9-CM 之E碼註: 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 2. 108年起無",
+          "to": "ICD-9-CM 之E碼註: 1.健保署規定醫療院所自105年起以ICD-10-CM 申報。 2.108年起無"
         }
       }
     },
@@ -971,7 +967,7 @@
       "seq_later": 21,
       "changes": {
         "description_zh": {
-          "from": "1：治療出院 2：繼續住院 3：改門診治療 4：死亡 5：一般自動出院 6：轉院 7：身份變更 8：逾假未歸或不假離院 9：自殺 0：其它 A：病危自動出院。 B:住院30日內因身分變更切帳申 報後，轉為論日支付或代辦之非 Tw-DRGs案件 D:醫院間轉急性後期照護 E:院內轉急性後期照護 F:因療程需要計劃性出院 G:依醫囑出院轉機構照護",
+          "from": "1：治療出院 2：繼續住院 3：改門診治療 4：死亡 5：一般自動出院 6：轉院 7：身份變更 8：逾假未歸或不假離院 9：自殺 0：其它 A：病危自動出院。 B:住院30日內因身分變更切帳申報後，轉為論日支付或代辦之非 Tw-DRGs案件 D:醫院間轉急性後期照護 E:院內轉急性後期照護 F:因療程需要計劃性出院 G:依醫囑出院轉機構照護",
           "to": "1：治療出院 2：繼續住院"
         }
       }
@@ -981,7 +977,7 @@
       "seq_later": 32,
       "changes": {
         "description_zh": {
-          "from": "病人此次住院醫令之總數量 註：100年起新增此欄位",
+          "from": "病人此次住院醫令之總數量註：100年起新增此欄位",
           "to": "病人此次住院醫令之總數量"
         }
       }
@@ -1045,8 +1041,8 @@
       "seq_later": 68,
       "changes": {
         "description_zh": {
-          "from": "1：補報整筆案件 2：補報部分醫 令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄 位，送核案件免填補空白 註：100年起新增此欄位",
-          "to": "1：補報整筆案件 2：補報部分醫 令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄 位，送核案件免填補空白 註:98 年起新增此欄位"
+          "from": "1：補報整筆案件 2：補報部分醫令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄位，送核案件免填補空白註：100年起新增此欄位",
+          "to": "1：補報整筆案件 2：補報部分醫令或醫令差額(案件分類 5:Tw-DRGs 案件不適用) 4: 103 年DRGs 補助專案。 申報類別為補報者，本欄為必填欄位，送核案件免填補空白註:98 年起新增此欄位"
         }
       }
     },
@@ -1056,7 +1052,7 @@
       "changes": {
         "description_zh": {
           "from": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點",
-          "to": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點 範圍內者 1：費用高於Tw-DRG 上限臨界點 者 2：費用低於Tw-DRG 下限臨界點 核實申報者 3：無權重之Tw-DRG 核實申報者 4：該Tw-DRG個案<20 核實申報 者 5：論日支付者（轉歸代碼為一般"
+          "to": "案件分類為「5」者，本欄應必填 0：費用在Tw-DRG上下限臨界點範圍內者 1：費用高於Tw-DRG 上限臨界點者 2：費用低於Tw-DRG 下限臨界點核實申報者 3：無權重之Tw-DRG 核實申報者 4：該Tw-DRG個案<20 核實申報者 5：論日支付者（轉歸代碼為一般"
         }
       }
     },
@@ -1065,8 +1061,8 @@
       "seq_later": 70,
       "changes": {
         "description_zh": {
-          "from": "單胞胎或多胞胎之新生兒出生順 序及性別表示，如下表 新生兒出生順序 性別 男 女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 10~26 J~Z j~z 配合健保卡資料上傳格式1.0作業 說明修正如下表 註：100年起新增此欄位",
-          "to": "單胞胎或多胞胎之新生兒出生順 序及性別表示，如下表 配合健保卡資料上傳格式1.0作業 說明修正如下表 新生兒出生順序 性別 男 女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 註:98 年起新增此欄位 10~26 J~Z j~z"
+          "from": "單胞胎或多胞胎之新生兒出生順序及性別表示，如下表新生兒出生順序性別男女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 10~26 J~Z j~z 配合健保卡資料上傳格式1.0作業說明修正如下表註：100年起新增此欄位",
+          "to": "單胞胎或多胞胎之新生兒出生順序及性別表示，如下表配合健保卡資料上傳格式1.0作業說明修正如下表新生兒出生順序性別男女 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 註:98 年起新增此欄位 10~26 J~Z j~z"
         }
       }
     },
@@ -1075,12 +1071,12 @@
       "seq_later": 71,
       "changes": {
         "name_zh": {
-          "from": "不適TW_DRGS 案 件特殊註記",
-          "to": "不適 TW_DRGS 案 件特殊註記"
+          "from": "不適TW_DRGS 案件特殊註記",
+          "to": "不適 TW_DRGS 案件特殊註記"
         },
         "description_zh": {
-          "from": "詳見欄位不適TW_DRGS 案件特 殊註記 （TW_DRGS_SUIT_MARK）說明 註：100年起新增此欄位",
-          "to": "詳見欄位不適TW_DRGS 案件特 殊註記 （TW_DRGS_SUIT_MARK）說明 註:98 年起新增此欄位"
+          "from": "詳見欄位不適TW_DRGS 案件特殊註記 （TW_DRGS_SUIT_MARK）說明註：100年起新增此欄位",
+          "to": "詳見欄位不適TW_DRGS 案件特殊註記 （TW_DRGS_SUIT_MARK）說明註:98 年起新增此欄位"
         }
       }
     },
@@ -1097,8 +1093,8 @@
           "to": 20
         },
         "description_zh": {
-          "from": "以就醫日期及新生兒生日計算 欄位PART_NO(部分負擔代號)為 「903：健保 IC 卡新生兒依附註記 方式就醫者」，本欄為必填欄位。 2.99.7.14健保醫字第0990073049 號公告，新生兒就醫依附註記，自 出生起31天內延長至60天，並自 99年10月1日起實施 註： 1.100年起新增此欄位；102年起欄 位格式為文字型態，長度為20碼。",
-          "to": "以就醫日期及新生兒生日計算 欄位PART_NO(部分負擔代號)為"
+          "from": "以就醫日期及新生兒生日計算欄位PART_NO(部分負擔代號)為 「903：健保 IC 卡新生兒依附註記方式就醫者」，本欄為必填欄位。 2.99.7.14健保醫字第0990073049 號公告，新生兒就醫依附註記，自出生起31天內延長至60天，並自 99年10月1日起實施註： 1.100年起新增此欄位；102年起欄位格式為文字型態，長度為20碼。",
+          "to": "以就醫日期及新生兒生日計算欄位PART_NO(部分負擔代號)為"
         }
       }
     },
@@ -1107,7 +1103,7 @@
       "seq_later": 74,
       "changes": {
         "description_zh": {
-          "from": "0：身分證字號符合編碼原則1：不 符合。",
+          "from": "0：身分證字號符合編碼原則1：不符合。",
           "to": "0：身分證字號符合編碼原則 1：不符合。"
         }
       }
@@ -1117,7 +1113,7 @@
       "seq_later": 76,
       "changes": {
         "description_zh": {
-          "from": "0：身分證字號符合編碼原則1：不 符合。",
+          "from": "0：身分證字號符合編碼原則1：不符合。",
           "to": "0：身分證字號符合編碼原則 1：不符合。"
         }
       }
