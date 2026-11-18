@@ -1,0 +1,69 @@
+{
+  "about": "Upstream changes the weekly refresh saw but did not apply. 'held': revisions that could not be merged into extracted/ safely — the repo still holds the previous file and JSON; delete an entry to have the next run try it again. 'unlisted': files the MOHW listing no longer shows; they are kept.",
+  "held": [
+    {
+      "code": "Health09",
+      "version_id": "legacy",
+      "sha256": "7455fbaf6b9b19abedb2746f4e499af253c86c6299c855887c260ed38680fd49",
+      "doc_last_updated": "2026-07-28",
+      "pdf_url": "https://www.mohw.gov.tw/dl-95544-556875e0-38d9-48c1-b4e4-1c157886ae1b.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: COM_5, SPE_3",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health55",
+      "version_id": "legacy",
+      "sha256": "b3974f229a9b622d0cb81dfdb423034494fe159ef8cd7565e19a7be0ed48939e",
+      "doc_last_updated": "2026-09-22",
+      "pdf_url": "https://www.mohw.gov.tw/dl-95588-32933eab-fffa-42ba-aed2-b83a4746b4cf.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: FOBT_CITY",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health55",
+      "version_id": "post-20250624",
+      "sha256": "05e5aef2b1430268b5e04b7a8fdfc6540125c0b956089e59db05a4bf8364f4d1",
+      "doc_last_updated": "2026-09-22",
+      "pdf_url": "https://www.mohw.gov.tw/dl-100532-d0cf8079-3b56-431c-84a2-6f9182be88f5.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: CONFIRMUNIT",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health56",
+      "version_id": "legacy",
+      "sha256": "16c272b0d847bf1410b96aa995c321ac641840502d1955c15c2d478a1facb007",
+      "doc_last_updated": "2026-07-28",
+      "pdf_url": "https://www.mohw.gov.tw/dl-95590-7bc81204-b546-4330-8218-aed7295f481d.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: BIRTH_YM, SEX",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health56",
+      "version_id": "post-20250624",
+      "sha256": "08a6b0a9941deee19a9702ee042fc076a365889f406f0b424d55c9ff0becdc4c",
+      "doc_last_updated": "2026-07-28",
+      "pdf_url": "https://www.mohw.gov.tw/dl-100533-fc3c7c79-3437-4f2b-9667-9b2a78e91911.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: Q_2_MONTHER",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health57",
+      "version_id": "legacy",
+      "sha256": "28a98322d5c23e16ece8902ff3dfdd1ef9db9f14fc5c7cdf649932daf39d633d",
+      "doc_last_updated": "2026-07-28",
+      "pdf_url": "https://www.mohw.gov.tw/dl-95592-cfbc0371-49a2-47cc-9173-c6fcb982b1b4.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: ORAL_RESULT",
+      "held_on": "2026-11-18"
+    },
+    {
+      "code": "Health57",
+      "version_id": "post-20250624",
+      "sha256": "3e03fb699c9dabad197d7017ff7084bf18bc1392eff9608885ff9faccc83196b",
+      "doc_last_updated": "2026-07-28",
+      "pdf_url": "https://www.mohw.gov.tw/dl-100534-4ba265c7-dfd8-40bb-a8eb-b31573283cdd.html",
+      "reason": "fields missing from the new extraction but still printed in the new PDF: CONFIRMUNIT_HOS",
+      "held_on": "2026-11-18"
+    }
+  ],
+  "unlisted": []
+}

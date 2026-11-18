@@ -496,7 +496,9 @@ def main():
             continue                                   # new file: extract_all.py's job
         ours = json.loads(out_path.read_text(encoding="utf-8"))
         if ours.get("pdf_sha256") == v["sha256"]:
-            pending.pop(key, None)                     # resolved since
+            # Current. A held file looks the same (its entry was put back to the
+            # old sha) and must stay in refresh_pending.json: only fetch_pdfs.py,
+            # which sees the upstream sha, can tell that it has been resolved.
             continue
         jobs.append({"v": v, "key": key, "out_path": out_path, "ours": ours,
                      "old_bytes": git_show(f"raw_pdfs/{lf}")})
