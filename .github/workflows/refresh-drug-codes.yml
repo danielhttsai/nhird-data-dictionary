@@ -18,6 +18,7 @@ on:
       - scripts/fetch_who_ddd.py
       - scripts/build_drug_codes.py
       - scripts/drug_substances.py
+      - scripts/check_drug_codes.py
 
 permissions:
   contents: write
@@ -66,3 +67,5 @@ jobs:
           git pull --rebase origin main
           git push
           gh workflow run deploy-pages.yml --ref main
+      - name: Quality checks on the payload (a finding fails the run, and GitHub emails the owner)
+        run: python scripts/check_drug_codes.py --strict
