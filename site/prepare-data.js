@@ -378,11 +378,18 @@ fs.writeFileSync(path.join(OUT, 'codebooks-index.json'),
 
 console.log(`prepare-data: ${catalogue.length} files | ${allFields.length} fields | ${codebookIndex.size} codebooks`);
 
-// Drug code lookup payload (built by scripts/build_drug_codes.py, committed under
-// drug_codes/). Copied as-is; the /drugs page loads it on demand.
+// Drug code lookup payload (built by scripts/build_drug_codes.py and refreshed every week by
+// .github/workflows/refresh-drug-codes.yml, committed under drug_codes/). The /drugs page loads
+// the main file on demand, and the price history only when a row is opened. The date of the
+// last weekly check lives in its own small file and is written into the payload's meta here.
 const DRUGS = path.join(ROOT, 'drug_codes', 'nhi_drug_codes.json');
 if (fs.existsSync(DRUGS)) {
-  fs.copyFileSync(DRUGS, path.join(OUT, 'drug-codes.json'));
+  const drugs = JSON.parse(fs.readFileSync(DRUGS, 'utf8'));
+  const refresh = path.join(ROOT, 'drug_codes', 'refresh.json');
+  drugs.meta.checked = fs.existsSync(refresh) ? JSON.parse(fs.readFileSync(refresh, 'utf8')).checked : drugs.meta.snapshot;
+  fs.writeFileSync(path.join(OUT, 'drug-codes.json'), JSON.stringify(drugs));
+  const prices = path.join(ROOT, 'drug_codes', 'nhi_drug_prices.json');
+  if (fs.existsSync(prices)) fs.copyFileSync(prices, path.join(OUT, 'drug-prices.json'));
   console.log('drug codes: copied', (fs.statSync(DRUGS).size / 1e6).toFixed(2), 'MB');
 } else {
   console.warn('drug codes: drug_codes/nhi_drug_codes.json not found; the /drugs page will show a load error');

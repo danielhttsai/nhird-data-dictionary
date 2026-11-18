@@ -1,0 +1,60 @@
+name: Weekly refresh of the drug code lookup
+
+# Downloads the NHI drug item list, the TFDA licence data and part of the WHO
+# ATC/DDD index, rebuilds the payload behind /drugs, commits it when something
+# changed, and redeploys the site. A failed download or build fails the run
+# (GitHub then emails the repository owner) and leaves the published data as
+# it was.
+
+on:
+  schedule:
+    - cron: '0 19 * * 0'   # every Monday 03:00 in Taipei
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to start the Pages deploy: a push made by a workflow does not trigger another one
+
+concurrency:
+  group: refresh-drug-codes
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Download the NHI drug item list and the TFDA licence data
+        run: python scripts/fetch_drug_sources.py work/drugs
+      - name: Build the payload (refuses to write one that lost a large part of the list)
+        env:
+          TZ: Asia/Taipei
+        run: python scripts/build_drug_codes.py work/drugs
+      - name: WHO ATC/DDD index (groups not seen yet, then the oldest pages; 10 s between requests)
+        id: who
+        continue-on-error: true   # the NHI and TFDA refresh is still published when the WHO site is down
+        run: python scripts/fetch_who_ddd.py --max 40
+      - name: Build again with the refreshed index
+        if: steps.who.outcome == 'success'
+        env:
+          TZ: Asia/Taipei
+        run: python scripts/build_drug_codes.py work/drugs
+      - name: Commit and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add drug_codes/nhi_drug_codes.json drug_codes/nhi_drug_prices.json drug_codes/refresh.json drug_codes/who_atc_ddd.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh drug codes (automated)"
+          git pull --rebase origin main
+          git push
+          gh workflow run deploy-pages.yml --ref main

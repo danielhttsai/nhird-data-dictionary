@@ -10,7 +10,7 @@ For each file (Health01, Welfare10, Society17, …) the site shows:
 - When each field appears / changes ("since ROC year 107 = AD 2018, format becomes numeric")
 - Diff between any two official release versions of the same file
 
-It also carries a **drug code lookup** (`/drugs`): 45,000 NHI drug codes with product name, ingredient, strength, form, manufacturer and ATC code, searchable in both directions (code → ATC, ATC or ingredient → every matching code) with copy and CSV export. Every product is split into its components, taken from its TFDA licence formula (食藥署 藥品詳細處方成分資料集, <https://data.fda.gov.tw>, Open Government Data License) and the NHI label, with salt forms and synonyms under one substance, so a product can be found by any one of its ingredients (a name in quotes matches a component exactly). The list comes from the public NHI drug item query (健保用藥品項查詢, <https://info.nhi.gov.tw/INAE3000/INAE3000S01>); it is a dated snapshot, rebuilt by hand with `python scripts/build_drug_codes.py path/to/nhi.db --snapshot YYYY-MM-DD --tfda path/to/tfda --tfda-date YYYY-MM-DD` (the TFDA folder holds datasets 36, 37 and 43 as downloaded; the script's docstring lists them), and is not refreshed by the weekly action. Prices and DDD values are not stored; each row links to the official source.
+It also carries a **drug code lookup** (`/drugs`): 45,000 NHI drug codes with product name in English and Chinese, ingredient, strength, form, manufacturer, ATC code, defined daily dose, current NHI price and price history, searchable in every direction (code → ATC, ATC or ingredient → every matching code) with copy and CSV export. The search box needs no syntax: an ingredient name finds every product that contains it, alone or in a compound, under any salt form or synonym; an ATC code matches by prefix; anything else matches as text. Sources: the public NHI drug item query (健保用藥品項查詢, <https://info.nhi.gov.tw/INAE3000/INAE3000S01>) for codes, names, prices and NHI's ingredient list; TFDA open data (<https://data.fda.gov.tw>, Open Government Data License) for licence formulas and licence ATC codes; and the WHO Collaborating Centre for Drug Statistics Methodology ATC/DDD Index (<https://atcddd.fhi.no/atc_ddd_index/>) for ATC names and DDDs, copied unchanged for non-commercial use with reference, as its terms require. Nothing is refreshed by hand: `.github/workflows/refresh-drug-codes.yml` runs every Monday, downloads the sources (`scripts/fetch_drug_sources.py`, `scripts/fetch_who_ddd.py`), rebuilds the payload (`scripts/build_drug_codes.py`), commits it when something changed and redeploys the site. To run it locally: `python scripts/fetch_drug_sources.py work/drugs && python scripts/build_drug_codes.py work/drugs`.
 
 ## Live site
 <!-- https://<user>.github.io/nhird-data-dictionary/ -->
@@ -24,7 +24,7 @@ A weekly GitHub Action re-crawls the MOHW page; if a PDF changed, the diff lands
 raw_pdfs/        official PDFs as downloaded
 extracted/       normalized JSON per file × version
 manifest.json    catalogue of every PDF (URL, sha256, effective date)
-drug_codes/      NHI drug code snapshot behind the /drugs lookup (JSON)
+drug_codes/      payload behind the /drugs lookup, refreshed weekly by an action (JSON)
 scripts/         Python pipeline (fetch / extract / diff / index)
 site/            SvelteKit static site (deployed to GH Pages)
 ```
