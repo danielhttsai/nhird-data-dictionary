@@ -10,7 +10,7 @@
     { href: SITE + '/', label: 'Home' },
     { href: SITE + '/about', label: 'About' },
     { href: SITE + '/publications', label: 'Publications' },
-    { href: SITE + '/writing', label: 'Writing' },
+    { href: SITE + '/posts', label: 'Posts' },
     { href: SITE + '/talks', label: 'Talks' },
     { href: SITE + '/tools', label: 'RWE Tools', active: true },
     { href: SITE + '/networks', label: 'Networks' }

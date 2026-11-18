@@ -1,6 +1,6 @@
 """Keep drug_codes/who_atc_ddd.json in step with the WHO ATC/DDD index.
 
-    python scripts/fetch_who_ddd.py [--max N]
+    python scripts/fetch_who_ddd.py [--max N | --new-only]
 
 The index (https://atcddd.fhi.no/atc_ddd_index/) has one page per ATC 4th-level
 group, listing the substances in it with their defined daily doses. This script
@@ -69,6 +69,7 @@ def parse(page: str, group: str) -> dict | None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max", type=int, default=40, help="pages to fetch in this run")
+    ap.add_argument("--new-only", action="store_true", help="fetch every group not seen yet and re-read none")
     args = ap.parse_args()
 
     store = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {
@@ -80,7 +81,7 @@ def main() -> None:
     wanted = sorted({a[:5] for a in json.loads(PAYLOAD.read_text(encoding="utf-8"))["atc"] if GROUP.match(a)})
     new = [g for g in wanted if g not in pages]
     old = sorted((g for g in wanted if g in pages), key=lambda g: pages[g]["fetched"])
-    todo = (new + old)[: args.max]
+    todo = new if args.new_only else (new + old)[: args.max]
     print(f"{len(wanted)} groups in use, {len(new)} not fetched yet; fetching {len(todo)}", flush=True)
 
     today, done, failed = date.today().isoformat(), 0, []
