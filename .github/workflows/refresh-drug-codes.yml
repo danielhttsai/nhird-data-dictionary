@@ -10,6 +10,14 @@ on:
   schedule:
     - cron: '0 19 * * 0'   # every Monday 03:00 in Taipei
   workflow_dispatch:
+  push:                    # and whenever the code that builds the data changes
+    branches: [main]
+    paths:
+      - .github/workflows/refresh-drug-codes.yml
+      - scripts/fetch_drug_sources.py
+      - scripts/fetch_who_ddd.py
+      - scripts/build_drug_codes.py
+      - scripts/drug_substances.py
 
 permissions:
   contents: write
