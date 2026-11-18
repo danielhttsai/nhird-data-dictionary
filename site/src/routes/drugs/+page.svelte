@@ -4,6 +4,7 @@
 
   // Payload columns (see scripts/build_drug_codes.py):
   // 0 code · 1 name · 2 ingredient# · 3 strength# · 4 form# · 5 mfr# · 6 cls# · 7 atc# · 8 compound · 9 first · 10 last_priced
+  // 11 set# (what the product contains) · 12 flags (1 short label, 2 compound with unnamed parts)
   let db = $state(null);
   let failed = $state(false);
   let q = $state('');
@@ -12,41 +13,28 @@
   let open = $state(null);        // code of the expanded row
   let copied = $state('');
   let hay = [];                   // lower-cased search text per row
-  let byIng = [];                 // per ingredient and compound mark: what a product contains
-  let compIndex = new Map();      // component name -> index
+  let compIndex = new Map();      // component name or any of its other names -> index
   const SHOW = 200;
 
-  // A label can list a component that may be absent ("HYDROCHLOROTHIAZIDE 0-12.5MG").
-  // NHI's single/compound mark settles it when the label has one fixed component:
-  // a single product has only that one, and a compound has the other as well when
-  // there is just one candidate. Anything else stays "may contain".
-  function composition(d) {
-    return d.ingredient.map((label, i) => {
-      const [req, opt, alt] = d.parts[i];
-      return [0, 1].map(compound => {
-        let yes = req, maybe = alt, shown = label;
-        if (opt.length) {
-          if (req.length === 1 && !compound) shown = d.single_label[i] ?? label;
-          else if (req.length === 1 && opt.length === 1) yes = [...req, ...opt];
-          else maybe = [...alt, ...opt];
-        }
-        return { yes, maybe, label: shown };
-      });
-    });
-  }
-  const parts = r => byIng[r[2]][r[8]];
-  // One fixed ingredient, nothing else possible, and not marked compound by NHI.
-  const isSingle = r => { const p = parts(r); return !r[8] && p.yes.length === 1 && !p.maybe.length; };
+  // What a product contains is worked out when the data is built: from its TFDA
+  // licence formula where there is one, and from the NHI label otherwise.
+  //   yes   components it contains
+  //   maybe components the label allows but nothing confirms
+  //   also  other names of the same substance, kept so a search still finds it
+  const parts = r => { const [yes, maybe, also] = db.sets[r[11]]; return { yes, maybe, also }; };
+  const labelOf = (d, r) => (r[12] & 1 ? d.single_label[r[2]] : d.ingredient[r[2]]) ?? '';
+  const namesOf = (d, list) => list.map(c => d.component[c]);
+  // One ingredient, nothing else possible, and no unnamed parts.
+  const isSingle = r => { const p = parts(r); return p.yes.length === 1 && !p.maybe.length && !(r[12] & 2); };
 
   onMount(async () => {
     try {
       const r = await fetch(`${base}/data/drug-codes.json`);
       if (!r.ok) throw new Error(String(r.status));
       const d = await r.json();
-      byIng = composition(d);
-      compIndex = new Map(d.component.map((c, i) => [c, i]));
+      compIndex = new Map([...d.component.map((c, i) => [c, i]), ...Object.entries(d.alias)]);
       hay = d.rows.map(r =>
-        `${r[0]} ${r[1]} ${byIng[r[2]][r[8]].label} ${d.atc[r[7]]} ${d.mfr[r[5]]} ${d.form[r[4]]}`.toLowerCase());
+        `${r[0]} ${r[1]} ${labelOf(d, r)} ${namesOf(d, d.sets[r[11]].flat()).join(' ')} ${d.atc[r[7]]} ${d.mfr[r[5]]} ${d.form[r[4]]}`.toLowerCase());
       db = d;
       const p = new URLSearchParams(location.search).get('q');
       if (p) q = p;
@@ -62,6 +50,7 @@
 
   // A name in double quotes is a component and must match one exactly:
   // "estradiol" finds ESTRADIOL alone or in a compound, and not ETHINYLESTRADIOL.
+  // Salt forms and synonyms count as the same component ("losartan potassium", "paracetamol").
   const query = $derived.by(() => {
     const exact = [];
     const rest = q.replace(/["“”]([^"“”]*)["“”]/g, (_, name) => {
@@ -89,8 +78,8 @@
       if (onlyPriced && r[10] !== 'open') continue;
       if (mix !== 'all' && isSingle(r) !== (mix === 'single')) continue;
       const p = parts(r);
-      if (want.length && !want.every(c => p.yes.includes(c) || p.maybe.includes(c))) continue;
-      if (atcTerms.length && !atcTerms.every((t, k) => db.atc[r[7]].startsWith(t) || atcWord[k].test(p.label))) continue;
+      if (want.length && !want.every(c => p.yes.includes(c) || p.maybe.includes(c) || p.also.includes(c))) continue;
+      if (atcTerms.length && !atcTerms.every((t, k) => db.atc[r[7]].startsWith(t) || atcWord[k].test(labelOf(db, r)))) continue;
       const h = hay[i];
       if (textTerms.length && !textTerms.every(t => h.includes(t))) continue;
       out.push(r);
@@ -104,7 +93,7 @@
     const ing = new Set(), atc = new Set();
     let single = 0;
     for (const r of matches) {
-      const label = parts(r).label;
+      const label = labelOf(db, r);
       if (label) ing.add(label);
       atc.add(r[7]);
       if (isSingle(r)) single++;
@@ -137,16 +126,17 @@
 
   function downloadCsv() {
     const esc = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
-    const head = ['nhi_drug_code', 'product_name', 'ingredient', 'components', 'possible_components', 'strength',
-                  'dosage_form', 'manufacturer', 'classification', 'atc_code', 'compound', 'first_listed',
-                  'priced_until', 'nhi_group_label'];
-    const names = list => list.map(c => db.component[c]).join('; ');
+    const head = ['nhi_drug_code', 'product_name', 'ingredient', 'components', 'n_components', 'possible_components',
+                  'other_names', 'strength', 'dosage_form', 'manufacturer', 'classification', 'atc_code',
+                  'single_or_compound', 'nhi_mark', 'first_listed', 'priced_until', 'nhi_group_label'];
+    const names = list => namesOf(db, list).join('; ');
     const lines = [head.join(',')];
     for (const r of matches) {
       const p = parts(r);
-      lines.push([r[0], r[1], p.label, names(p.yes), names(p.maybe), db.strength[r[3]], db.form[r[4]], db.mfr[r[5]],
-                  db.cls[r[6]], db.atc[r[7]], r[8] ? 'compound' : 'single', r[9], r[10] === 'open' ? 'current' : r[10],
-                  db.ingredient[r[2]]].map(esc).join(','));
+      lines.push([r[0], r[1], labelOf(db, r), names(p.yes), p.yes.length, names(p.maybe), names(p.also),
+                  db.strength[r[3]], db.form[r[4]], db.mfr[r[5]], db.cls[r[6]], db.atc[r[7]],
+                  isSingle(r) ? 'single' : 'compound', r[8] ? 'compound' : 'single', r[9],
+                  r[10] === 'open' ? 'current' : r[10], db.ingredient[r[2]]].map(esc).join(','));
     }
     const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
     const a = document.createElement('a');
@@ -176,8 +166,9 @@
     <p class="text-slate-600 mt-1 max-w-3xl">
       Map between the 10-character NHI drug code, the ingredient, and the ATC code. Type a code, a product or
       ingredient name, or an ATC code; an ATC code matches by prefix, so <span class="mono">C10AA</span> lists every statin.
-      Compound products are split into their components: a name in quotes, <span class="mono">"metformin"</span>,
-      finds every product that contains that component, alone or in a compound.
+      Every product is split into its components, taken from its licence formula: a name in quotes,
+      <span class="mono">"metformin"</span>, finds every product that contains that component, alone or in a compound,
+      whatever salt or synonym the label uses.
     </p>
   </header>
 
@@ -251,18 +242,22 @@
                 {@const st = status(r)}
                 {@const atc = db.atc[r[7]]}
                 {@const p = parts(r)}
+                {@const label = labelOf(db, r)}
                 <tr class="cursor-pointer" onclick={() => (open = open === r[0] ? null : r[0])}>
                   <td class="mono font-semibold text-brand-700 whitespace-nowrap">
                     <button type="button" class="hover:underline" aria-expanded={open === r[0]}>{r[0]}</button>
                   </td>
                   <td class="text-slate-800">{r[1]}</td>
                   <td>
-                    {#if p.label}
-                      <div class="text-slate-800">{p.label}</div>
+                    {#if label}
+                      <div class="text-slate-800">{label}</div>
+                    {:else if p.yes.length}
+                      <div class="text-slate-800">{namesOf(db, p.yes).join(' + ')}</div>
+                      <div class="text-xs text-slate-400 italic">from the licence; no NHI label 依許可證處方，健保未列成分</div>
                     {:else}
                       <div class="text-slate-400 italic">not given by NHI 健保未列成分</div>
                     {/if}
-                    <div class="text-xs text-slate-500">{db.strength[r[3]]}{r[8] ? ' · compound 複方' : ''}</div>
+                    <div class="text-xs text-slate-500">{db.strength[r[3]]}{isSingle(r) ? '' : `${db.strength[r[3]] ? ' · ' : ''}compound 複方${p.yes.length > 1 ? ` (${p.yes.length})` : ''}`}</div>
                   </td>
                   <td class="text-xs text-slate-600 whitespace-nowrap">{db.form[r[4]]}</td>
                   <td class="mono whitespace-nowrap">{atc}</td>
@@ -293,19 +288,22 @@
                                           onclick={(e) => { e.stopPropagation(); q = `"${db.component[c]}"`; open = null; }}>{db.component[c]} ?</button>
                                 {/each}
                                 {#if p.maybe.length}<span class="text-xs text-slate-500">? = may contain 可能含有</span>{/if}
-                                {#if r[8] && p.yes.length + p.maybe.length === 1}<span class="text-xs text-slate-500">NHI marks this product as compound but names only this component 健保註記為複方，僅列此成分</span>{/if}
+                                {#if r[12] & 2}<span class="text-xs text-slate-500">NHI marks this product as compound but names only this component, and no licence formula was found 健保註記為複方，僅列此成分</span>{/if}
                               </dd>
                             </div>
                           {/if}
-                          {#if p.label !== db.ingredient[r[2]]}
-                            <div><dt class="inline text-slate-500">NHI price group 核價分組：</dt><dd class="inline text-slate-800">{db.ingredient[r[2]]}. This product is the single-ingredient one in the group.</dd></div>
+                          {#if p.also.length}
+                            <div><dt class="inline text-slate-500">Also named 另名：</dt><dd class="inline text-slate-800">{namesOf(db, p.also).join(', ')}</dd></div>
+                          {/if}
+                          {#if label !== db.ingredient[r[2]]}
+                            <div><dt class="inline text-slate-500">NHI price group 核價分組：</dt><dd class="inline text-slate-800">{db.ingredient[r[2]]}. The group also covers combinations; this product has none of the added components.</dd></div>
                           {/if}
                         </dl>
                         <div class="space-y-1.5">
                           <p class="text-slate-500">Map onwards 延伸對照</p>
                           <ul class="space-y-1">
-                            {#if p.label}
-                              <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = p.label; open = null; }}>All codes with this ingredient →</button></li>
+                            {#if label}
+                              <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = label; open = null; }}>All codes with this ingredient →</button></li>
                             {/if}
                             <li><button type="button" class="text-brand-700 font-semibold hover:underline" onclick={(e) => { e.stopPropagation(); q = atc; open = null; }}>All codes under ATC {atc} →</button></li>
                             {#if atc.length === 7}
@@ -356,15 +354,18 @@
           Codes added after that date are missing.
         </li>
         <li>
-          Ingredient names follow NHI's group label, tidied to one spelling per ingredient: upper case, Chinese qualifiers
-          put into English, and spacing made regular. Compound products carry their components and doses in the name.
-          {#if db?.meta.n_no_ingredient}{db.meta.n_no_ingredient.toLocaleString()} old compound products have no ingredient label at NHI; they still map to an ATC code.{/if}
+          The ingredient column is NHI's group label, tidied to one spelling per ingredient.
+          Components come from each product's licence formula{#if db?.meta.formula_snapshot}{' '}
+          (<a class="text-brand-700 hover:underline" target="_blank" rel="noreferrer" href="https://data.fda.gov.tw">TFDA open data 食藥署藥品詳細處方成分資料集</a>,
+          {db.meta.formula_snapshot}; {db.meta.n_with_formula.toLocaleString()} of {db.meta.n_codes.toLocaleString()} codes){/if},
+          joined with the components the label names. Salt and ester forms and stated synonyms are put under one substance,
+          so <span class="mono">"losartan"</span> and <span class="mono">"losartan potassium"</span> give the same result.
         </li>
         <li>
-          Components are read from that label, without dose, bracketed salt or synonym. A salt written as part of the
-          name stays a separate component (CHLORPHENIRAMINE and CHLORPHENIRAMINE MALEATE), so search without quotes
-          to catch every spelling. Where a label lets a component be absent (HYDROCHLOROTHIAZIDE 0-12.5MG), NHI's
-          single or compound mark decides whether a product has it; where that cannot be told, it is shown as "may contain".
+          The licence shows today's formula, which can differ from what was reimbursed years ago, so a component named
+          only by the NHI label is kept. NHI also files some derivatives under the parent (fursultiamine under
+          VITAMIN B1); such a product answers to both names. Codes without a licence formula rely on the label and
+          NHI's single or compound mark, and a component that cannot be confirmed is shown as "may contain".
         </li>
         <li>The ATC code is the one NHI records for the item. Some are shorter than 7 characters, and a few are NHI-specific and not in the WHO index.</li>
         <li>Status is read from the price history: an item counts as priced when its current price is above zero. Use the official query before relying on it.</li>
