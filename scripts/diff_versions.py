@@ -27,6 +27,10 @@ def load_versions(code_dir: Path) -> list[dict]:
         # sets per wave, so a structural diff is noise and bloats the payload.
         if "__xls_" in p.stem or "__wave_" in p.stem:
             continue
+        # The TWCR registry manuals are a different document, not a release of
+        # the MOHW file specification.
+        if p.stem.startswith("twcr_manual_"):
+            continue
         try:
             versions.append({
                 "version_id": p.stem,

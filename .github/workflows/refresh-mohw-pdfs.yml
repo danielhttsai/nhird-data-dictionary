@@ -1,0 +1,73 @@
+name: Weekly refresh of MOHW PDFs
+
+# Re-crawls the MOHW listing. A revised PDF is merged into the curated JSON in
+# extracted/ (only what changed upstream is applied; translations and hand
+# corrections stay), a new one is extracted, and the result is committed and the
+# site redeployed. What cannot be merged safely is left as it was and listed in
+# refresh_pending.json. The run then fails — after the commit, so that what
+# could be published is — whenever something is left for a person: GitHub
+# emails the repository owner, and the run summary says what and why.
+#
+# (This file replaces refetch.yml, which GitHub had disabled for inactivity; a
+# workflow under a new file name is registered as a new, enabled workflow.)
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'   # every Monday 13:00 in Taipei
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to start the Pages deploy: a push made by a workflow does not trigger another one
+
+concurrency:
+  group: refresh-mohw-pdfs
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Fetch (merges into manifest.json; never rebuilds it)
+        run: python scripts/fetch_pdfs.py
+      - name: Merge revised PDFs into the curated JSON
+        run: python scripts/merge_upstream.py
+      - name: Extract files that are new
+        run: python scripts/extract_all.py
+      - name: Diff
+        run: python scripts/diff_versions.py
+      - name: Summarise
+        id: report
+        run: python scripts/refresh_report.py
+      - name: Commit and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- raw_pdfs extracted manifest.json qa_report.json diffs_index.json
+          git add -A -- refresh_pending.json 2>/dev/null || true   # absent when nothing is pending
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -F .refresh/commit_message.txt
+          git pull --rebase origin main
+          git push
+          gh workflow run deploy-pages.yml --ref main
+      - name: Gap check + MOHW coverage + site health (fails the run on findings)
+        if: ${{ !cancelled() }}
+        run: python scripts/watch.py --strict
+      - name: Something is left for a person (see the run summary)
+        if: ${{ !cancelled() && steps.report.outputs.attention == 'true' }}
+        run: |
+          cat .refresh/summary.md
+          exit 1

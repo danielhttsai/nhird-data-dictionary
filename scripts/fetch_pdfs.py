@@ -1,6 +1,6 @@
-"""Crawl MOHW Department of Statistics database-manual download pages
-(https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-N-20.html for N=1..6)
-and download every PDF into raw_pdfs/, building manifest.json.
+"""Crawl the MOHW Department of Statistics database-manual listing
+(https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-N-20.html, N = 1, 2, …)
+and bring raw_pdfs/ and manifest.json up to date with it.
 
 Each listing row carries TWO date columns (first-published, last-updated, ROC
 calendar). The "version" we care about for content diffing is encoded in the
@@ -8,12 +8,24 @@ title itself (suffix markers like "(20250624起適用)" or period markers like
 "2018年以後" for the cancer-registry files). We use those to build a stable
 `version_id` per (code, version).
 
-Idempotent: skip download if local sha matches remote.
+manifest.json is MERGED, never rebuilt. Besides the listing it catalogues what
+was unpacked from the survey ZIPs, the TWCR manuals and files added by hand,
+and none of those can be re-derived from the listing. So:
+  * an entry the listing does not show is kept as it is;
+  * an unchanged file (same sha256) keeps its entry, including fetched_at;
+  * a download that fails leaves the entry and the file alone;
+  * a revised PDF replaces the file and updates the entry — merge_upstream.py
+    then merges the revision into the curated JSON, or puts the PDF back;
+  * a revised ZIP is not written at all: it is recorded in refresh_pending.json.
+A run that finds nothing new writes nothing.
+
+Writes .refresh/fetch.json for refresh_report.py.
 """
 from __future__ import annotations
 import hashlib
 import json
 import re
+import sys
 import time
 import warnings
 from dataclasses import dataclass, asdict
@@ -22,7 +34,9 @@ from urllib.parse import urljoin
 
 import httpx
 import urllib3
-from selectolax.parser import HTMLParser
+from selectolax.lexbor import LexborHTMLParser as HTMLParser
+
+from refresh_state import load_pending, save_pending, write_state
 
 warnings.filterwarnings("ignore")
 try:
@@ -34,10 +48,8 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "raw_pdfs"
 MANIFEST = ROOT / "manifest.json"
 
-LIST_PAGES = [
-    f"https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-{n}-20.html"
-    for n in range(1, 7)
-]
+LIST_URL = "https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-{n}-20.html"
+MAX_LIST_PAGES = 40
 UA = "nhird-data-dictionary-fetcher/0.1 (https://github.com)"
 
 # Code at the start of the title: e.g. "Health01_..." or "Welfare10_..." or "Society12-1_..."
@@ -123,13 +135,6 @@ def normalize_code(title: str) -> tuple[str | None, str | None]:
     if "-" not in num and num.isdigit():
         num = num.zfill(2)
     return f"{category}{num}", category
-
-
-def fetch_page(client: httpx.Client, url: str) -> str:
-    r = client.get(url, headers={"User-Agent": UA}, timeout=30, follow_redirects=True)
-    r.raise_for_status()
-    r.encoding = "utf-8"
-    return r.text
 
 
 def follow_dl_link(client: httpx.Client, dl_html_url: str) -> tuple[str | None, str | None]:
@@ -232,72 +237,162 @@ def sha256_of(path: Path) -> str:
     return h.hexdigest()
 
 
+def get(client: httpx.Client, url: str, timeout: int = 60, tries: int = 3) -> httpx.Response:
+    """GET with retries: the MOHW server drops connections now and then."""
+    for attempt in range(tries):
+        try:
+            r = client.get(url, headers={"User-Agent": UA}, timeout=timeout,
+                           follow_redirects=True)
+            r.raise_for_status()
+            return r
+        except httpx.HTTPError:
+            if attempt == tries - 1:
+                raise
+            time.sleep(2 * (attempt + 1))
+    raise AssertionError("unreachable")
+
+
+def crawl_listing(client: httpx.Client) -> list[PdfVersion]:
+    """Walk the listing pages until one adds nothing new (past the last page the
+    site serves the last page again)."""
+    versions: list[PdfVersion] = []
+    seen: set[str] = set()
+    for n in range(1, MAX_LIST_PAGES + 1):
+        url = LIST_URL.format(n=n)
+        r = get(client, url)
+        r.encoding = "utf-8"
+        rows = [v for v in parse_listing(r.text, n) if v.detail_url not in seen]
+        print(f"[page {n}] {url}  new rows: {len(rows)}")
+        if not rows:
+            break
+        seen.update(v.detail_url for v in rows)
+        versions.extend(rows)
+        time.sleep(0.4)
+    return versions
+
+
+def listing_managed(v: dict) -> bool:
+    """An entry this script owns: a file taken straight from the listing, as
+    opposed to one unpacked from a ZIP, taken from TWCR or added by hand."""
+    lf = v.get("local_filename") or ""
+    return (bool(v.get("listing_page")) and not v.get("parent_zip_version")
+            and not str(v.get("fetched_at", "")).startswith(("from-", "twcr"))
+            and "/" not in lf and "\\" not in lf)
+
+
 def main():
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"Output dir: {RAW_DIR}")
+    old = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {"versions": []}
+    before = json.dumps(old.get("versions"), ensure_ascii=False, sort_keys=True)
+    versions: list[dict] = old.get("versions") or []
+    by_key = {(v["code"], v["version_id"]): v for v in versions}
+    pending = load_pending()
+    held = pending["held"]
+    held_sha = {(p["code"], p["version_id"]): p["sha256"] for p in held}
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    report = {"changed": [], "new": [], "failed": [], "zip_changed": [], "unlisted": []}
 
-    all_versions: list[PdfVersion] = []
     with httpx.Client(http2=False, timeout=60, verify=False) as client:
-        for i, url in enumerate(LIST_PAGES, start=1):
-            print(f"\n[{i}/6] Fetching listing page: {url}")
-            html = fetch_page(client, url)
-            page_versions = parse_listing(html, i)
-            print(f"   parsed {len(page_versions)} rows")
-            all_versions.extend(page_versions)
-            time.sleep(0.4)
+        listed = dedupe_versions(crawl_listing(client))
+        listed.sort(key=lambda v: (v.category, v.code, v.version_id))
+        ours = sum(1 for v in versions if listing_managed(v))
+        print(f"\nListing: {len(listed)} versions (manifest has {ours} from the listing)")
+        if len(listed) * 2 < ours:
+            # A maintenance page or a changed layout: do not conclude that half
+            # the databases were withdrawn.
+            sys.exit(f"The listing shows only {len(listed)} of {ours} known versions; "
+                     f"refusing to update the manifest from it.")
 
-        all_versions = dedupe_versions(all_versions)
-        all_versions.sort(key=lambda v: (v.category, v.code, v.version_id))
-        print(f"\nTotal unique versions after dedupe: {len(all_versions)}")
-
-        ok = fail = skipped = 0
-        for j, v in enumerate(all_versions, start=1):
-            label = f"{v.code} / {v.version_id}"
-            print(f"\n[{j}/{len(all_versions)}] {label}")
+        for j, lv in enumerate(listed, start=1):
+            key = (lv.code, lv.version_id)
+            prev = by_key.get(key)
+            label = f"[{j}/{len(listed)}] {lv.code} / {lv.version_id}"
             try:
-                final_url, ct = follow_dl_link(client, v.detail_url)
+                final_url, ct = follow_dl_link(client, lv.detail_url)
                 if not final_url:
-                    print(f"   ! could not find file URL")
-                    v.note = "file-url-unresolved"
-                    fail += 1
-                    continue
-                v.pdf_url = final_url
-                # Determine extension from final_url + content-type
-                ext = ".zip" if (final_url.lower().endswith(".zip") or "zip" in (ct or "")) else ".pdf"
-                v.file_type = "zip" if ext == ".zip" else "pdf"
-                dst = RAW_DIR / f"{v.code}_{v.version_id}{ext}"
-                r = client.get(final_url, headers={"User-Agent": UA}, timeout=120,
-                               follow_redirects=True)
-                r.raise_for_status()
-                new_sha = hashlib.sha256(r.content).hexdigest()
-                if dst.exists() and sha256_of(dst) == new_sha:
-                    print(f"   cached: {dst.name}")
-                    v.local_filename = dst.name
-                    v.sha256 = new_sha
-                    v.fetched_at = "cached"
-                    skipped += 1
-                    continue
-                dst.write_bytes(r.content)
-                v.local_filename = dst.name
-                v.sha256 = new_sha
-                v.fetched_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-                print(f"   downloaded: {dst.name} ({len(r.content)/1024:.0f} KB, {v.file_type})")
-                ok += 1
-                time.sleep(0.3)
+                    raise RuntimeError("could not find the file URL on the download page")
+                content = get(client, final_url, timeout=120).content
             except Exception as e:
-                print(f"   ! download error: {e}")
-                v.note = f"error: {e}"
-                fail += 1
+                print(f"{label}  ! {e}")
+                report["failed"].append({"code": lv.code, "version_id": lv.version_id,
+                                         "error": str(e)[:200]})
+                if prev is None:                      # listed but never fetched: say so
+                    lv.note = f"error: {e}"
+                    by_key[key] = asdict(lv)
+                    versions.append(by_key[key])
+                continue                              # a known entry stays as it is
 
-    manifest = {
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source": "https://dep.mohw.gov.tw/DOS/lp-2503-113-xCat-DOS_dc002-1-20.html",
-        "count": len(all_versions),
-        "versions": [asdict(v) for v in all_versions],
-    }
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nWrote manifest with {len(all_versions)} entries to {MANIFEST}")
-    print(f"downloaded={ok} cached={skipped} failed={fail}")
+            ext = ".zip" if (final_url.lower().endswith(".zip") or "zip" in (ct or "")) else ".pdf"
+            new_sha = hashlib.sha256(content).hexdigest()
+            dst = RAW_DIR / f"{lv.code}_{lv.version_id}{ext}"
+            listing_fields = {
+                "category": lv.category, "name_zh": lv.name_zh,
+                "version_label": lv.version_label, "detail_url": lv.detail_url,
+                "pdf_url": final_url, "doc_first_published": lv.doc_first_published,
+                "doc_last_updated": lv.doc_last_updated, "listing_page": lv.listing_page,
+            }
+            if prev is not None and prev.get("sha256") == new_sha:      # unchanged upstream
+                if not (dst.exists() and sha256_of(dst) == new_sha):
+                    dst.write_bytes(content)          # the local copy was missing or damaged
+                prev.update(listing_fields)
+                if key in held_sha:                   # resolved since it was held
+                    held = [p for p in held if (p["code"], p["version_id"]) != key]
+                continue
+            if held_sha.get(key) == new_sha:
+                continue                              # this revision is already held for review
+            if prev is not None and (prev.get("file_type") == "zip" or ext == ".zip"):
+                # A survey bundle: its PDFs and Excel codebooks were unpacked and
+                # curated by hand (process_zips.py, extract_xls.py). Keep ours.
+                print(f"{label}  ZIP revised upstream — held for review")
+                entry = {"code": lv.code, "version_id": lv.version_id, "sha256": new_sha,
+                         "doc_last_updated": lv.doc_last_updated, "pdf_url": final_url,
+                         "reason": "ZIP bundle revised; survey bundles are unpacked and curated by hand",
+                         "held_on": today}
+                held = [p for p in held if (p["code"], p["version_id"]) != key] + [entry]
+                report["zip_changed"].append(entry)
+                continue
+
+            dst.write_bytes(content)
+            entry = prev if prev is not None else asdict(lv)
+            entry.update(listing_fields)
+            entry.update({"file_type": "zip" if ext == ".zip" else "pdf", "sha256": new_sha,
+                          "local_filename": dst.name, "note": "",
+                          "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            if prev is None:
+                by_key[key] = entry
+                versions.append(entry)
+            report["new" if prev is None else "changed"].append(
+                {"code": lv.code, "version_id": lv.version_id, "file": dst.name,
+                 "file_type": entry["file_type"], "doc_last_updated": lv.doc_last_updated})
+            print(f"{label}  {'new' if prev is None else 'revised'}: {dst.name} "
+                  f"({len(content) / 1024:.0f} KB)")
+            time.sleep(0.3)
+
+    # Entries the listing no longer shows are kept; say so once.
+    listed_keys = {(v.code, v.version_id) for v in listed}
+    gone = [v for v in versions if listing_managed(v) and (v["code"], v["version_id"]) not in listed_keys]
+    known = {(u["code"], u["version_id"]): u for u in pending["unlisted"]}
+    unlisted = []
+    for v in gone:
+        k = (v["code"], v["version_id"])
+        if k not in known:
+            report["unlisted"].append({"code": v["code"], "version_id": v["version_id"]})
+        unlisted.append(known.get(k) or {"code": v["code"], "version_id": v["version_id"], "since": today})
+
+    after = json.dumps(versions, ensure_ascii=False, sort_keys=True)
+    if after != before:
+        MANIFEST.write_text(json.dumps({
+            "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "source": LIST_URL.format(n=1),
+            "count": len(versions),
+            "versions": versions,
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+    save_pending({"held": held, "unlisted": unlisted})
+    write_state("fetch", report)
+    print(f"\nrevised={len(report['changed'])} new={len(report['new'])} "
+          f"failed={len(report['failed'])} zip_held={len(report['zip_changed'])} "
+          f"unlisted={len(gone)}; manifest {'updated' if after != before else 'unchanged'} "
+          f"({len(versions)} entries)")
 
 
 if __name__ == "__main__":

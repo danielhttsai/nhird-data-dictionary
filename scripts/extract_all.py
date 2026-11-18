@@ -3,7 +3,9 @@ Writes extracted/<code>/<version_id>.json + a top-level qa_report.json.
 
 Robustness:
 - Resumable: skip a (code, version_id) whose output JSON already exists, unless
-  --force is given.
+  --force is given. The existing JSON is curated (translations, hand fixes,
+  OCR-recovered tables); a revised PDF is merged into it by merge_upstream.py,
+  so in the weekly refresh this script only extracts files that are new.
 - Per-PDF timeout: each PDF is extracted in a child process via subprocess so a
   single pathological table layout can't hang the whole batch. Default 90s.
 
@@ -30,6 +32,8 @@ RAW = ROOT / "raw_pdfs"
 OUT = ROOT / "extracted"
 QA_OUT = ROOT / "qa_report.json"
 EXTRACT_PY = SCRIPTS / "extract_pdf.py"
+
+from merge_upstream import load_cache, stamp_english  # noqa: E402
 
 
 def _safe(name: str) -> str:
@@ -62,6 +66,7 @@ def main():
     versions = manifest["versions"]
     OUT.mkdir(exist_ok=True)
 
+    cache = load_cache()
     qa: list[dict] = []
     pdf_count = zip_count = ok = fail = skipped = 0
 
@@ -106,6 +111,7 @@ def main():
             data["doc_first_published"] = v.get("doc_first_published", "")
             data["doc_last_updated"] = v.get("doc_last_updated", "")
             data["name_zh_from_listing"] = v.get("name_zh", "")
+            stamp_english(data, cache)      # English for the strings already translated elsewhere
 
             out_dir.mkdir(exist_ok=True)
             out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -133,13 +139,20 @@ def main():
             fail += 1
             print(f"  [ERR] {v['code']:14s} {v['version_id'][:28]:28s} {str(e)[:80]}")
 
-    # Merge with any prior QA report so resumed runs don't lose earlier entries
-    QA_OUT.write_text(json.dumps({
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "pdf_files_this_run": pdf_count, "zip_files": zip_count,
-        "ok": ok, "failed": fail, "skipped_existing": skipped,
-        "entries": qa,
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    # Merge into the prior QA report: a run that extracts a few files (or none)
+    # must not drop the entries of the files it skipped, and a run that
+    # extracted nothing leaves the report as it is.
+    attempted = [e for e in qa if e["type"] in ("ok", "warn", "timeout", "error")]
+    if attempted:
+        prior = json.loads(QA_OUT.read_text(encoding="utf-8")).get("entries", []) if QA_OUT.exists() else []
+        by_key = {(e["code"], e["version_id"]): e for e in prior}
+        by_key.update({(e["code"], e["version_id"]): e for e in attempted})
+        QA_OUT.write_text(json.dumps({
+            "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "pdf_files_this_run": pdf_count, "zip_files": zip_count,
+            "ok": ok, "failed": fail, "skipped_existing": skipped,
+            "entries": list(by_key.values()),
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"\nSummary: {ok} extracted | {fail} failed | {skipped} skipped(existing) | {zip_count} zips")
     print(f"QA report: {QA_OUT}")

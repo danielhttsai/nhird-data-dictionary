@@ -1,0 +1,10 @@
+# The weekly MOHW refresh (.github/workflows/refresh-mohw-pdfs.yml):
+# fetch_pdfs.py, merge_upstream.py, extract_all.py, diff_versions.py, watch.py.
+#
+# Pinned on purpose. merge_upstream.py compares the extractor's output for the
+# old and the new PDF, so the extractor has to behave the same from one run to
+# the next; and selectolax 1.0 removed the parser this project first used.
+pdfplumber==0.11.10
+httpx==0.28.1
+selectolax==1.0.2
+urllib3==2.8.0
