@@ -17,6 +17,7 @@ total the API reports, so a broken download never reaches the build.
 from __future__ import annotations
 
 import gzip
+import io
 import json
 import math
 import sys
@@ -36,16 +37,21 @@ AGENT = "Mozilla/5.0 (compatible; nhird-data-dictionary weekly refresh)"
 DROP = ("pdfList", "druG_UFILE_NAME_LIST")  # links to payment-rule PDFs; not used
 
 
-def get(req: urllib.request.Request, timeout: int, tries: int = 5) -> bytes:
+def get(req: urllib.request.Request, timeout: int, tries: int = 6, check=None) -> bytes:
+    """Fetch with retries. `check(data)` raises ValueError when the reply is not
+    what was asked for (an error page instead of a file), which is retried too."""
     for attempt in range(1, tries + 1):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read()
-        except Exception as e:  # noqa: BLE001 - network errors of any kind are retried
+                data = r.read()
+            if check:
+                check(data)
+            return data
+        except Exception as e:  # noqa: BLE001 - network errors and bad replies are retried
             if attempt == tries:
                 raise
-            wait = 5 * 2 ** (attempt - 1)
-            print(f"  attempt {attempt} failed ({e!r}); retrying in {wait}s", file=sys.stderr, flush=True)
+            wait = 15 * 2 ** (attempt - 1)  # 15 s ... 4 min: public servers that throttle need time
+            print(f"  attempt {attempt} failed ({e!r:.200}); retrying in {wait}s", file=sys.stderr, flush=True)
             time.sleep(wait)
     raise AssertionError("unreachable")
 
@@ -82,16 +88,23 @@ def fetch_nhi(out: Path) -> None:
     print(f"NHI: wrote {out.name}, {out.stat().st_size / 1e6:.1f} MB", flush=True)
 
 
+def one_csv_zip(data: bytes) -> None:
+    """A TFDA download is a zip with one CSV; anything else is an error page."""
+    try:
+        with zipfile.ZipFile(io.BytesIO(data)) as z:
+            names = z.namelist()
+            if len(names) != 1 or z.testzip() is not None:
+                raise ValueError(f"unexpected archive {names}")
+    except zipfile.BadZipFile:
+        raise ValueError(f"not a zip: {data[:120]!r}") from None
+
+
 def fetch_tfda(folder: Path) -> None:
     for n in TFDA_SETS:
-        data = get(urllib.request.Request(TFDA.format(n), headers={"User-Agent": AGENT}), 600)
+        data = get(urllib.request.Request(TFDA.format(n), headers={"User-Agent": AGENT}), 600, check=one_csv_zip)
         path = folder / f"{n}_2.csv.zip"
         tmp = path.with_suffix(".tmp")
         tmp.write_bytes(data)
-        with zipfile.ZipFile(tmp) as z:  # a zip with one CSV, or the download is not what we asked for
-            names = z.namelist()
-            if len(names) != 1 or z.testzip() is not None:
-                raise SystemExit(f"TFDA dataset {n}: unexpected archive {names}")
         tmp.replace(path)
         print(f"TFDA {n}: {len(data) / 1e6:.1f} MB", flush=True)
 
@@ -101,8 +114,15 @@ def main() -> None:
         raise SystemExit(__doc__)
     folder = Path(sys.argv[1])
     folder.mkdir(parents=True, exist_ok=True)
-    fetch_tfda(folder)
-    fetch_nhi(folder / "nhi_drug_items.jsonl.gz")
+    try:
+        fetch_tfda(folder)
+        fetch_nhi(folder / "nhi_drug_items.jsonl.gz")
+    except BaseException as e:
+        if isinstance(e, KeyboardInterrupt):
+            raise
+        # In GitHub Actions this line becomes an annotation on the run, readable without the log.
+        print(f"::error title=Download failed::{e!r:.900}", flush=True)
+        raise
 
 
 if __name__ == "__main__":
