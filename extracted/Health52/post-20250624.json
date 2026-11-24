@@ -40,7 +40,7 @@
       "name_en": "ID_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男性 2：女性 9：不詳",
+      "description_zh": "1：男性\n2：女性\n9：不詳",
       "available_notes": [],
       "name_zh_en": "gender of patient undergoing surgery",
       "description_en": "1: Male 2: Female 9: Unknown"
@@ -51,7 +51,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number error of patient who underwent surgery",
       "description_en": "0: ID number conforms to coding rules; 1: does not conform"
@@ -62,7 +62,7 @@
       "name_en": "ID_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：ID 2：其他",
+      "description_zh": "1：ID\n2：其他",
       "available_notes": [],
       "name_zh_en": "patient ID type for procedure",
       "description_en": "1: ID 2: other"
@@ -84,7 +84,7 @@
       "name_en": "H_BIRTH",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國年僅提供出生年，97年後為必填項目，部分數值異常為機構誤植",
+      "description_zh": "民國年\n僅提供出生年，97年後為必填項目，部分數值異常為機構誤植",
       "available_notes": [
         {
           "roc_year": 97,
@@ -101,7 +101,7 @@
       "name_en": "DUR",
       "type": "Char",
       "length": 3,
-      "description_zh": "00：無或未通報 01~09 同001~009",
+      "description_zh": "00：無或未通報\n01~09 同001~009",
       "available_notes": [],
       "name_zh_en": "infertility period",
       "description_en": "00: none or not reported 01~09 same as 001~009"
@@ -112,7 +112,7 @@
       "name_en": "TIMES",
       "type": "Char",
       "length": 3,
-      "description_zh": "0：無或未通報 00~09 同000~009",
+      "description_zh": "0：無或未通報\n00~09 同000~009",
       "available_notes": [],
       "name_zh_en": "number of times done",
       "description_en": "0: none or not reported 00~09 same as 000~009"
@@ -134,7 +134,7 @@
       "name_en": "STIMU",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 110年起無",
+      "description_zh": "詳譯碼說明\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -151,7 +151,7 @@
       "name_en": "O_RETRI",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：有 0、2：無",
+      "description_zh": "1：有\n0、2：無",
       "available_notes": [],
       "name_zh_en": "egg retrieval performed",
       "description_en": "1: has 0 or 2: none"
@@ -162,7 +162,7 @@
       "name_en": "IVF_ET",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -179,7 +179,7 @@
       "name_en": "GIFT",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -196,7 +196,7 @@
       "name_en": "ZIFT_TET",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -213,7 +213,7 @@
       "name_en": "AID",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -230,7 +230,7 @@
       "name_en": "IVF_ET_GIFT",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -247,7 +247,7 @@
       "name_en": "OTHERS",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 110年起無",
+      "description_zh": "1：是\n110年起無",
       "available_notes": [
         {
           "roc_year": 110,
@@ -264,7 +264,7 @@
       "name_en": "METHOD",
       "type": "Char",
       "length": 1,
-      "description_zh": "110年起新增欄位 1.IVF/ET 2.GIFT 3.ZIFT/TET 4.AID 5.IVF/ET+GIFT 9.其他",
+      "description_zh": "110年起新增欄位\n1.IVF/ET\n2.GIFT\n3.ZIFT/TET\n4.AID\n5.IVF/ET+GIFT\n9.其他",
       "available_notes": [
         {
           "roc_year": 110,
@@ -292,7 +292,7 @@
       "name_en": "SOURCE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0、空白：未通報 1：捐精 2：捐卵 3：夫妻精卵",
+      "description_zh": "0、空白：未通報\n1：捐精\n2：捐卵\n3：夫妻精卵",
       "available_notes": [],
       "name_zh_en": "source of oocytes/embryos",
       "description_en": "0. Blank: Not reported 1: Sperm donation 2: Egg donation 3: Couple's sperm and egg"
@@ -358,7 +358,7 @@
       "name_en": "E_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "2005年列入通報必填項目 0、4、5：未填答 1：新鮮 2：冷凍 3：二者皆有空白：未通報",
+      "description_zh": "2005年列入通報必填項目\n0、4、5：未填答\n1：新鮮\n2：冷凍\n3：二者皆有\n空白：未通報",
       "available_notes": [],
       "name_zh_en": "embryo type",
       "description_en": "2005 Year Listed as Mandatory Reporting Item 0, 4, 5: Not Answered 1: Fresh 2: Frozen 3: Both Blank: Not Reported"
@@ -369,7 +369,7 @@
       "name_en": "EMB_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填寫胚胎、受精卵或精卵植入之日期；0為未植入，統計資料係以受術妻開始治療週期年度計算，因此植入年度可能會在 112 年，非87-112年或數值異常者為機構誤植",
+      "description_zh": "民國年月日(YYYMMDD)\n填寫胚胎、受精卵或精卵植入之日期；0為未植入，統計資料係以受術妻開始治療週期年度計算，因此植入年度可能會在 112年，非87-112年或數值異常者為機構誤植",
       "available_notes": [
         {
           "roc_year": 112,
@@ -402,7 +402,7 @@
       "name_en": "C_PRE",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 0、2、3：否",
+      "description_zh": "1：是\n0、2、3：否",
       "available_notes": [],
       "name_zh_en": "clinical pregnancy",
       "description_en": "1: yes; 0, 2, 3: no."
@@ -413,10 +413,16 @@
       "name_en": "C_PRE_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填入確知是否臨床懷孕日期或因故只刺激排卵未進行取卵與因故已取卵未植入，兩",
-      "available_notes": [],
+      "description_zh": "民國年月日(YYYMMDD)\n填入確知是否臨床懷孕日期或因故只刺激排卵未進行取卵與因故已取卵未植入，兩種已結束治療週期之日期；統計資料係以受術妻開始治療週期年度計算，當年開始療程個案其臨床懷孕年度可能會在隔年，非87-112年或數值異常者為機構誤植",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "clinical pregnancy date",
-      "description_en": "Year month day (YYYYMMDD) enter confirmed clinical pregnancy date or due to reasons only stimulated ovulation without egg retrieval or due to reasons already retrieved eggs but not implanted,"
+      "description_en": "ROC year/month/day (YYYMMDD)\nEnter the date on which clinical pregnancy was confirmed or not, or the date on which the treatment cycle ended in either of two situations: ovulation was stimulated only without oocyte retrieval for some reason, or oocytes were retrieved but not transferred for some reason; statistics are calculated by the year the wife's treatment cycle began, so for cases that started treatment in a given year, the clinical pregnancy year may fall in the following year; values outside ROC years 87-112 (1998-2023) or abnormal values are facility entry errors"
     },
     {
       "seq": 31,
@@ -458,7 +464,7 @@
       "name_en": "ECT_PRE",
       "type": "Char",
       "length": 2,
-      "description_zh": "「是否臨床懷孕」時之子宮外孕數 110年起遺漏值視為0",
+      "description_zh": "「是否臨床懷孕」時之子宮外孕數\n110年起遺漏值視為0",
       "available_notes": [
         {
           "roc_year": 110,
@@ -497,7 +503,7 @@
       "name_en": "END_DATE",
       "type": "Char",
       "length": 9,
-      "description_zh": "民國年月日(YYYMMDD) 填寫確知懷孕結果之日期；0 為無懷孕結果(未植入或未懷孕)，當年開始療程個案可能於隔年確知懷孕結果(孕期為280天)， 非87-112年或數值異常者為機構誤植",
+      "description_zh": "民國年月日(YYYMMDD)\n填寫確知懷孕結果之日期；0 為無懷孕結果(未植入或未懷孕)，當年開始療程個案可能於隔年確知懷孕結果(孕期為280天)，非87-112年或數值異常者為機構誤植",
       "available_notes": [
         {
           "roc_year": 112,
@@ -531,7 +537,7 @@
       "name_en": "EE_PRE",
       "type": "Char",
       "length": 2,
-      "description_zh": "「懷孕結果」時之子宮外孕數 110年起遺漏值視為0",
+      "description_zh": "「懷孕結果」時之子宮外孕數\n110年起遺漏值視為0",
       "available_notes": [
         {
           "roc_year": 110,
@@ -637,7 +643,7 @@
       "name_en": "NB1_SEX",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無新生兒 1：男性 2：女性",
+      "description_zh": "0：無新生兒\n1：男性\n2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 1-gender",
       "description_en": "0: no newborn 1: male 2: female"
@@ -692,7 +698,7 @@
       "name_en": "NB2_SEX",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無新生兒 1：男性 2：女性",
+      "description_zh": "0：無新生兒\n1：男性\n2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 2-gender",
       "description_en": "0: no newborn 1: male 2: female"
@@ -747,7 +753,7 @@
       "name_en": "NB3_SEX",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無新生兒 1：男性 2：女性",
+      "description_zh": "0：無新生兒\n1：男性\n2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 3-gender",
       "description_en": "0: no newborn 1: male 2: female"
@@ -802,7 +808,7 @@
       "name_en": "NB4_SEX",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無新生兒 1：男性 2：女性",
+      "description_zh": "0：無新生兒\n1：男性\n2：女性",
       "available_notes": [],
       "name_zh_en": "newborn 4-gender",
       "description_en": "0: no newborn 1: male 2: female"
@@ -857,7 +863,7 @@
       "name_en": "STIMU_DETAIL",
       "type": "Char",
       "length": 1,
-      "description_zh": "102年起新增欄位詳譯碼說明",
+      "description_zh": "102年起新增欄位\n詳譯碼說明",
       "available_notes": [
         {
           "roc_year": 102,
@@ -874,7 +880,7 @@
       "name_en": "HW_ZYG",
       "type": "Char",
       "length": 1,
-      "description_zh": "102年起新增欄位 1：自行取精 2：MESA 3：TESE 9：其他 0、空白：無須填列",
+      "description_zh": "102年起新增欄位\n1：自行取精\n2：MESA\n3：TESE\n9：其他\n0、空白：無須填列",
       "available_notes": [
         {
           "roc_year": 102,
@@ -955,7 +961,7 @@
     },
     {
       "seq": 72,
-      "name_zh": "胚胎受精卵培育第6天",
+      "name_zh": "胚胎受精卵培育第6天植入數",
       "name_en": "EMB_ZYG_6D",
       "type": "Char",
       "length": 1,
@@ -967,7 +973,7 @@
           "marker": "起"
         }
       ],
-      "name_zh_en": "embryo_fertilized_egg_cultured_day_6",
+      "name_zh_en": "embryonic fertilized egg implantation number on the sixth day",
       "description_en": "Field added from ROC year 102 (AD 2013)"
     }
   ],
@@ -975,6 +981,11 @@
     "INF_RES": {
       "field_zh": "不孕原因",
       "entries": [
+        {
+          "code": "不孕原因代碼",
+          "label_zh": "不孕原因說明",
+          "label_en": "Description of infertility cause"
+        },
         {
           "code": "0",
           "label_zh": "未通報",
@@ -1027,6 +1038,11 @@
       "field_zh": "卵巢刺激方式(大項)",
       "entries": [
         {
+          "code": "0、1、9",
+          "label_zh": "藥物刺激",
+          "label_en": "Drug stimulation"
+        },
+        {
           "code": "2",
           "label_zh": "口服藥物刺激",
           "label_en": "oral drug stimulation"
@@ -1048,15 +1064,61 @@
         },
         {
           "code": "6",
-          "label_zh": "GnRHantagonist 藥物刺激 7、空白其他",
-          "label_en": "GnRH antagonist drug stimulation 7, Blank Other"
+          "label_zh": "GnRHantagonist 藥物刺激",
+          "label_en": "GnRH antagonist drug stimulation"
+        },
+        {
+          "code": "7、空白",
+          "label_zh": "其他",
+          "label_en": "Other"
         }
       ],
-      "field_en": "ovarian stimulation method (major)"
+      "field_en": "ovarian stimulation method (major)",
+      "grid": {
+        "header": [
+          "卵巢刺激方式(大項)代碼",
+          "卵巢刺激方式(大項)說明"
+        ],
+        "rows": [
+          [
+            "0、1、9",
+            "藥物刺激"
+          ],
+          [
+            "2",
+            "口服藥物刺激"
+          ],
+          [
+            "3",
+            "自然週期"
+          ],
+          [
+            "4",
+            "長週期藥物刺激"
+          ],
+          [
+            "5",
+            "超長週期藥物刺激"
+          ],
+          [
+            "6",
+            "GnRHantagonist 藥物刺激"
+          ],
+          [
+            "7、空白",
+            "其他"
+          ]
+        ]
+      }
     },
     "MICRO": {
       "field_zh": "顯微操作",
       "entries": [
+        {
+          "code": "顯微操作代碼",
+          "label_zh": "顯微操作說明",
+          "label_en": "Description of micromanipulation"
+        },
         {
           "code": "0",
           "label_zh": "未使用顯微操作",
@@ -1099,6 +1161,16 @@
       "field_zh": "卵巢過度刺激臨床症候群",
       "entries": [
         {
+          "code": "卵巢過度刺激臨床症候群代碼",
+          "label_zh": "卵巢過度刺激臨床症候群說明",
+          "label_en": "Description of ovarian hyperstimulation syndrome"
+        },
+        {
+          "code": "0、1",
+          "label_zh": "無",
+          "label_en": "none"
+        },
+        {
           "code": "2",
           "label_zh": "輕微",
           "label_en": "mild"
@@ -1110,8 +1182,13 @@
         },
         {
           "code": "4",
-          "label_zh": "嚴重 5、6、7 轉檔時格式錯誤",
-          "label_en": "serious 5, 6, 7 format errors when transferred in 2026"
+          "label_zh": "嚴重",
+          "label_en": "Severe"
+        },
+        {
+          "code": "5、6、7",
+          "label_zh": "轉檔時格式錯誤",
+          "label_en": "Format error during file conversion"
         },
         {
           "code": "9",
@@ -1124,6 +1201,11 @@
     "NB1_DEL~NB4_DEL": {
       "field_zh": "新生兒-生產方式譯碼",
       "entries": [
+        {
+          "code": "生產方式代碼",
+          "label_zh": "生產方式說明",
+          "label_en": "Description of delivery mode"
+        },
         {
           "code": "0",
           "label_zh": "無新生兒",
@@ -1165,6 +1247,11 @@
     "NB1_STATUS~NB4_STATUS": {
       "field_zh": "新生兒-身體狀況譯碼",
       "entries": [
+        {
+          "code": "身體狀況代碼",
+          "label_zh": "身體狀況說明",
+          "label_en": "Description of physical condition"
+        },
         {
           "code": "000",
           "label_zh": "無特殊狀況:正常",
@@ -1242,8 +1329,13 @@
         },
         {
           "code": "207",
-          "label_zh": "新生兒死亡 0、*、空白無須填列 2026年05月28日修訂",
-          "label_en": "Neonatal death 0, *、空白 不需填写 2026年05月28日修订"
+          "label_zh": "新生兒死亡",
+          "label_en": "Neonatal death"
+        },
+        {
+          "code": "0、*、空白",
+          "label_zh": "無須填列",
+          "label_en": "No entry required"
         }
       ],
       "field_en": "newborn-condition at birth code"
@@ -1283,14 +1375,59 @@
         },
         {
           "code": "7",
-          "label_zh": "其他 0、空白無須填列",
-          "label_en": "other 0, blank no need to fill"
+          "label_zh": "其他",
+          "label_en": "Other"
+        },
+        {
+          "code": "0、空白",
+          "label_zh": "無須填列",
+          "label_en": "No entry required"
         }
       ],
-      "field_en": "ovarian stimulation method (minor)"
+      "field_en": "ovarian stimulation method (minor)",
+      "grid": {
+        "header": [
+          "卵巢刺激方式(細項)代碼",
+          "卵巢刺激方式(細項)說明"
+        ],
+        "rows": [
+          [
+            "1",
+            "自然週期"
+          ],
+          [
+            "2",
+            "口服藥物刺激"
+          ],
+          [
+            "3",
+            "短週期藥物刺激"
+          ],
+          [
+            "4",
+            "長週期藥物刺激"
+          ],
+          [
+            "5",
+            "超長週期藥物刺激"
+          ],
+          [
+            "6",
+            "GnRHantagonist 藥物刺激"
+          ],
+          [
+            "7",
+            "其他"
+          ],
+          [
+            "0、空白",
+            "無須填列"
+          ]
+        ]
+      }
     }
   },
-  "raw_text_first_page": "2026年07月28日修訂\n人工生殖資料庫\n(HEALTH-52：H_BHP_ARTIF)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_BHP_ARTIF 資料筆數 58,557筆(以112年為例)\n中文檔名 人工生殖資料庫 英文檔名 Artificial Reproduction Databases\n檔案大小 12MB(以112年為例) 欄位數 72(以112年為例)\n譯碼簿 2025/06/24 初版\n屬性 歷史資料檔 週期 無\n更新日期 2026/07/28 修訂\n資料描述 1. 台灣地區人工生殖資料庫於民國 87 年建立，由各人工生殖機構定期通報期間內於\n其機構接受人工生殖（但不含配偶間的人工授精）之個案資料。\n2. 人工生殖資料通報及管理辦法依人工生殖法第二十七條第二項規定訂定之。\n3. 「人工生殖資料通報辦法」中華民國九十六年八月八日行政院衛生署署授國字第\n0960400731 號令訂定發布全文 15 條；並自發布日施行。\n4. 人工生殖機構應通報之人工生殖資料如下：\n一、生殖細胞捐贈人健康檢查及評估。\n二、捐贈生殖細胞施術結果。\n三、捐贈生殖細胞或以捐贈之生殖細胞形成之胚胎未完成捐贈、返還、銷毀、 轉贈或\n轉移之資料。\n四、人工生殖開始使用排卵藥物等進入治療週期個案之資料。\n五、人工生殖個案資料。\n六、受術夫妻生殖細胞或胚胎銷毀資料\n5. 開始使用藥物年度包含民國87年至112 年。\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 未控管不孕期間之資料填寫，未來通報時會檢查不孕期間不大於受術妻年齡。\n3. 新生兒相關資訊為0者，表示沒有新生兒資料。\n4. 人工生殖資料通報及管理辦法於 96 年施行後，因需與其他資料庫鏈接，故將編碼\n改版，96年以前舊資料也依新版編碼轉換。惟部分編碼因格式或新版編碼之闕漏，\n會產生亂碼或不明之編碼。\n5. 其他資料可參考：國民健康署-人工生殖資料通報及管理辦法。\n1",
+  "raw_text_first_page": "2026年07月28日修訂\n人工生殖資料庫\n(HEALTH-52：H_BHP_ARTIF)\n資料庫使用手冊\n一.檔案內容說明\n檔案代號 H_BHP_ARTIF 資料筆數 58,557筆(以112年為例)\n中文檔名 人工生殖資料庫 英文檔名 Artificial Reproduction Databases\n檔案大小 12MB(以112年為例) 欄位數 72(以112年為例)\n譯碼簿 2025/06/24 初版\n屬性 歷史資料檔 週期 無\n更新日期 2026/07/28 修訂\n資料描述 1. 台灣地區人工生殖資料庫於民國 87 年建立，由各人工生殖機構定期通報期間內於\n其機構接受人工生殖（但不含配偶間的人工授精）之個案資料。\n2. 人工生殖資料通報及管理辦法依人工生殖法第二十七條第二項規定訂定之。\n3. 「人工生殖資料通報辦法」中華民國九十六年八月八日行政院衛生署署授國字第\n0960400731 號令訂定發布全文 15 條；並自發布日施行。\n4. 人工生殖機構應通報之人工生殖資料如下：\n一、生殖細胞捐贈人健康檢查及評估。\n二、捐贈生殖細胞施術結果。\n三、捐贈生殖細胞或以捐贈之生殖細胞形成之胚胎未完成捐贈、返還、銷毀、 轉贈或\n轉移之資料。\n四、人工生殖開始使用排卵藥物等進入治療週期個案之資料。\n五、人工生殖個案資料。\n六、受術夫妻生殖細胞或胚胎銷毀資料\n5. 開始使用藥物年度包含民國87年至112 年。\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 未控管不孕期間之資料填寫，未來通報時會檢查不孕期間不大於受術妻年齡。\n3. 新生兒相關資訊為0者，表示沒有新生兒資料。\n4. 人工生殖資料通報及管理辦法於 96 年施行後，因需與其他資料庫鏈接，故將編碼\n改版，96年以前舊資料也依新版編碼轉換。惟部分編碼因格式或新版編碼之闕漏，\n會產生亂碼或不明之編碼。\n5. 其他資料可參考：國民健康署-人工生殖資料通報及管理辦法。\n1",
   "qa": {
     "errors": [],
     "warnings": []
@@ -1308,5 +1445,26 @@
   "data_description_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Contains raw data for cases diagnosed 2007-2010 as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 3. The cancers covered by the cancer-registry short form include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 4. To analyze data grouped and de-duplicated across hospitals from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID.",
   "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. The infertility-duration field was not validated at the time of entry; going forward, notifications will check that the infertility duration does not exceed the age of the wife undergoing treatment.\n3. A value of 0 in the newborn-related information fields indicates that there is no newborn data.\n4. After the Assisted Reproduction Data Reporting and Management Regulations took effect in 2007 (ROC year 96), the coding scheme was revised because linkage with other databases was required; data prior to 2007 was also converted to the new coding scheme. However, for some codes, due to format issues or gaps in the new coding scheme, garbled or unrecognized codes may appear.\n5. For further information, see: Health Promotion Administration - Assisted Reproduction Data Reporting and Management Regulations.",
   "primary_keys_en": "",
-  "name_zh_en": "reproductive technology database"
+  "name_zh_en": "reproductive technology database",
+  "printed": {
+    "field_rows": 72,
+    "code_tables": {
+      "INF_RES": 9,
+      "STIMU": 7,
+      "MICRO": 7,
+      "OVA_HS": 6,
+      "NB1_DEL~NB4_DEL": 7,
+      "NB1_STATUS~NB4_STATUS": 17,
+      "STIMU_DETAIL": 8
+    },
+    "code_table_headings": [
+      "INF_RES",
+      "STIMU",
+      "MICRO",
+      "OVA_HS",
+      "NB1_DEL~NB4_DEL",
+      "NB1_STATUS~NB4_STATUS",
+      "STIMU_DETAIL"
+    ]
+  }
 }

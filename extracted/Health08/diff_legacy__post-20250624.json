@@ -22,7 +22,7 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 7,
-      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
+      "description_zh": "ICD-9-CM 及A-Code\n詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。請參考健保局網頁。",
       "available_notes": [],
       "name_zh_en": "diagnosis code",
       "description_en": "ICD-9-CM and A-Code: see the diagnosis code (DISE_CODE) and catastrophic illness category (IIV_TYPE) cross-reference table. Please refer to the Bureau of National Health Insurance website."
@@ -33,7 +33,7 @@
       "name_en": "DIAG_PRSN_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。\n2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "physician ID number",
       "description_en": "1. Encrypted physician or original prescriber identification number or foreign resident permit number. 2. Length of sampled file for 2 million people is 9 digits."
@@ -46,7 +46,7 @@
       "name_en": "DISE_CODE",
       "type": "Char",
       "length": 7,
-      "description_zh": "ICD-9-CM 及A-Code 詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。 請參考健保局網頁。",
+      "description_zh": "ICD-9-CM 及A-Code\n詳診斷代碼(DISE_CODE)與重大傷病類別(IIV_TYPE)對照表。請參考健保局網頁。",
       "available_notes": [],
       "name_zh_en": "diagnosis code",
       "description_en": "ICD-9-CM and A-Code: see the diagnosis code (DISE_CODE) and catastrophic illness category (IIV_TYPE) cross-reference table. Please refer to the Bureau of National Health Insurance website."
@@ -68,7 +68,7 @@
       "name_en": "PRSN_ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 經加密處理，醫師或原處方醫師之身分證字號或外籍居留證號。\n2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "physician ID number",
       "description_en": "1. Encrypted physician or original prescriber identification number or foreign resident permit number. 2. Length of sampled file for 2 million people is 9 digits."
@@ -90,7 +90,7 @@
       "seq_later": 6,
       "changes": {
         "description_zh": {
-          "from": "YYYYMMDD。 100年起新增",
+          "from": "YYYYMMDD。\n100年起新增",
           "to": "100年起新增"
         }
       }
@@ -110,28 +110,8 @@
       "seq_later": 11,
       "changes": {
         "description_zh": {
-          "from": "YYYYMMDD。 100年起新增",
+          "from": "YYYYMMDD。\n100年起新增",
           "to": "YYYYMMDD。100年起新增"
-        }
-      }
-    },
-    {
-      "key": "VALID_E_DATE",
-      "seq_later": 13,
-      "changes": {
-        "description_zh": {
-          "from": "YYYYMMDD。 未訂定有效期限者皆為永久有效， 故有效期限距今遠超過5年者應可視為永久效期。",
-          "to": "YYYYMMDD。 未訂定有效期限者皆為永久有效，"
-        }
-      }
-    },
-    {
-      "key": "CARD_MARK",
-      "seq_later": 14,
-      "changes": {
-        "description_zh": {
-          "from": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷",
-          "to": "1：重複 2：死亡註銷 3：換卡註銷 4：逾期註銷 5更正/補發註銷 6：撤銷卡證 7：民眾自行撤銷（106年起新增） 空白：有效正常卡。 100年起新增"
         }
       }
     }

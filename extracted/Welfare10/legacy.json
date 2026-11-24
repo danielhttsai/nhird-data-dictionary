@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "1. 一種障礙類別一筆資料。\n2. 資料為103年3月及104~114 年持有身心障礙手冊之名冊。",
-  "notes_zh": "1. 身心障礙者之分級與鑑定標準自101年7月11日起施行新制。\n2. 身心障礙者之總人數為新制+舊制。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 個人歸戶及個人資料比對的鍵值：ID。",
-  "primary_keys_raw": "",
+  "notes_zh": "1. 身心障礙者之分級與鑑定標準自101年7月11日起施行新制。\n2. 身心障礙者之總人數為新制+舊制。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
+  "primary_keys_raw": "個人歸戶及個人資料比對的鍵值：ID。",
   "fields": [
     {
       "seq": 1,
@@ -36,7 +36,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: ID number conforms to coding rules; 1: does not conform"
@@ -47,7 +47,7 @@
       "name_en": "ID_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男性 2：女性 3、9：不詳",
+      "description_zh": "1：男性\n2：女性\n3、9：不詳",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male"
@@ -58,7 +58,7 @@
       "name_en": "BEFORE_YN",
       "type": "Char",
       "length": 1,
-      "description_zh": "106年起新增。 Y：民國前 N：民國後",
+      "description_zh": "106年起新增。\nY：民國前\nN：民國後",
       "available_notes": [
         {
           "roc_year": 106,
@@ -75,7 +75,7 @@
       "name_en": "BIRTH_YM",
       "type": "Char",
       "length": 6,
-      "description_zh": "出生年月(年4碼+月2碼) 西元年YYYYMM",
+      "description_zh": "出生年月(年4碼+月2碼)\n西元年YYYYMM",
       "available_notes": [],
       "name_zh_en": "birthday",
       "description_en": "date of birth (4 digits year + 2 digits month) Western year YYYYMM"
@@ -86,7 +86,7 @@
       "name_en": "DATE_NEW",
       "type": "Char",
       "length": 8,
-      "description_zh": "西元年YYYYMMDD 定義：截至目前辦理的鑑定日期",
+      "description_zh": "西元年YYYYMMDD\n定義：截至目前辦理的鑑定日期",
       "available_notes": [],
       "name_zh_en": "latest assessment date",
       "description_en": "Western calendar date YYYYMMDD: Defines the latest evaluation date to date"
@@ -97,7 +97,7 @@
       "name_en": "DATE_RE",
       "type": "Char",
       "length": 8,
-      "description_zh": "西元年YYYYMMDD 106至109年YYYYMM 111年部分為YYYYMM 永久有效該欄位可能為空白或 291012或29101231 定義：下次應辦理之鑑定日期",
+      "description_zh": "西元年YYYYMMDD\n106至109年YYYYMM\n111年部分為YYYYMM\n永久有效該欄位可能為空白或291012或29101231\n定義：下次應辦理之鑑定日期",
       "available_notes": [
         {
           "roc_year": 109,
@@ -130,7 +130,7 @@
       "name_en": "GRADE",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：極重度 2：重度 3：中度 4：輕度 5：未符合鑑定資格",
+      "description_zh": "1：極重度\n2：重度\n3：中度\n4：輕度\n5：未符合鑑定資格",
       "available_notes": [],
       "name_zh_en": "disability category level",
       "description_en": "1: Severe 2: Moderate 3: Mild 4: None 5: Unqualified for Assessment"
@@ -152,7 +152,7 @@
       "name_en": "GRADE_NEW",
       "type": "Char",
       "length": 30,
-      "description_zh": "107年起新增。 以逗號分開，詳譯碼說明",
+      "description_zh": "107年起新增。\n以逗號分開，詳譯碼說明",
       "available_notes": [
         {
           "roc_year": 107,
@@ -180,7 +180,7 @@
       "name_en": "ABORIGINES",
       "type": "Char",
       "length": 1,
-      "description_zh": "106年起新增。 Y:是 N:否",
+      "description_zh": "106年起新增。\nY:是\nN:否",
       "available_notes": [
         {
           "roc_year": 106,
@@ -197,7 +197,7 @@
       "name_en": "VETERANS",
       "type": "Char",
       "length": 1,
-      "description_zh": "106年起新增。 Y:是 N:否",
+      "description_zh": "106年起新增。\nY:是\nN:否",
       "available_notes": [
         {
           "roc_year": 106,
@@ -214,7 +214,7 @@
       "name_en": "DISABILITY",
       "type": "Char",
       "length": 2,
-      "description_zh": "106年起新增。 詳譯碼說明",
+      "description_zh": "106年起新增。\n詳譯碼說明",
       "available_notes": [
         {
           "roc_year": 106,
@@ -231,7 +231,7 @@
       "name_en": "CANCEL_REASON",
       "type": "Char",
       "length": 2,
-      "description_zh": "106年起新增。 詳譯碼說明 (遺漏值93%)",
+      "description_zh": "106年起新增。\n詳譯碼說明\n(遺漏值93%)",
       "available_notes": [
         {
           "roc_year": 106,
@@ -248,7 +248,7 @@
       "name_en": "CANCEL_DATE",
       "type": "Char",
       "length": 8,
-      "description_zh": "106年起新增。 西元年YYYYMMDD (遺漏值93%)",
+      "description_zh": "106年起新增。\n西元年YYYYMMDD\n(遺漏值93%)",
       "available_notes": [
         {
           "roc_year": 106,
@@ -265,7 +265,7 @@
       "name_en": "AMOUNT1",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者生活補助金額(元)",
+      "description_zh": "107年起新增。\n指每月領取身心障礙者生活補助金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -282,7 +282,7 @@
       "name_en": "AMOUNT2",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者日間照顧費用補助金額(元)",
+      "description_zh": "107年起新增。\n指每月領取身心障礙者日間照顧費用補助金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -299,7 +299,7 @@
       "name_en": "AMOUNT3",
       "type": "Num",
       "length": 8,
-      "description_zh": "107年起新增。 指每月領取身心障礙者住宿式照顧費用金額(元)",
+      "description_zh": "107年起新增。\n指每月領取身心障礙者住宿式照顧費用金額(元)",
       "available_notes": [
         {
           "roc_year": 107,
@@ -2182,7 +2182,12 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare10_身心障礙檔",
   "data_description_en": "1. One record of a category of disability.\n2. Data for individuals holding a certificate of physical or mental disability from March 2014 to 2014-2019.",
-  "notes_en": "0: Self-dispensing, testing, or physical therapy; 1: Referred dispensing, testing, or physical therapy; 2: Referred to another facility for testing; 3: Accepting a referral from another facility; 4: Delegated testing to another facility; 5: Accepting delegated testing from another facility; 6: Telemedicine. Required field when the order type is medication detail or treatment detail (testing or physical therapy). If order type is 3 (special material not for dispensing) fill 0; if order type is 4 (non-priced, special material for dispensing) fill 1; not required for other order types. Added from ROC year 95 (2006).",
-  "primary_keys_en": "",
-  "name_zh_en": "disability data file"
+  "notes_en": "1. The new system of classification and assessment standards for persons with disabilities has been in effect since 11 July 2012 (ROC year 101).\n2. The total number of persons with disabilities is the new system plus the old system.\n※ This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and fields such as national ID\nnumber, facility code, insured unit code, unified business number, date of birth, visit date and admission date are\nall masked. The data may be used only within the independent work area set up by the Ministry, and taken out only after review and approval of\nthe statistical results, to ensure that data use and disclosure cannot identify any specific individual.",
+  "primary_keys_en": "Key for person-level record linkage and personal data matching: ID.",
+  "name_zh_en": "disability data file",
+  "printed": {
+    "field_rows": 20,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

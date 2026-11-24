@@ -22,7 +22,7 @@
       "name_en": "VVID",
       "type": "Char",
       "length": 42,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 103年長度為48 104-105年長度為44 106年長度為24 107年長度為50 108年長度為52 109年長度為48 110年長度為64 111年長度為38 101-102、112年長度為36 113年長度為58",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。103年長度為48\n104-105年長度為44\n106年長度為24\n107年長度為50\n108年長度為52\n109年長度為48\n110年長度為64\n111年長度為38\n101-102、112年長度為36\n113年長度為58",
       "available_notes": [
         {
           "roc_year": 103,
@@ -139,7 +139,7 @@
       "name_en": "EDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起無",
+      "description_zh": "詳譯碼說明\n108年起無",
       "available_notes": [
         {
           "roc_year": 108,
@@ -173,7 +173,7 @@
       "name_en": "DVID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。 101年長度為58 102-103年長度為44 104年長度為42 105年長度為72 106年長度為48 107年長度為32 108年長度為46 111年長度為78 109-110、112年長度為66 113年長度為64",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。101年長度為58\n102-103年長度為44\n104年長度為42\n105年長度為72\n106年長度為48\n107年長度為32\n108年長度為46\n111年長度為78\n109-110、112年長度為66\n113年長度為64",
       "available_notes": [
         {
           "roc_year": 101,
@@ -268,7 +268,7 @@
       "name_en": "DEDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起無",
+      "description_zh": "詳譯碼說明\n108年起無",
       "available_notes": [
         {
           "roc_year": 108,
@@ -285,44 +285,16 @@
       "name_en": "CHILDRELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明",
-      "available_notes": [],
+      "description_zh": "詳譯碼說明108年起無",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ],
       "name_zh_en": "relationship with minors",
-      "description_en": "detailed translation explanation"
-    },
-    {
-      "seq": 21,
-      "name_zh": "兩造關係類別",
-      "name_en": "ISFAMILYMEMBER",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "A：家庭成員 B：非家庭成員 C、Z：不詳 108年起新增",
-      "available_notes": [
-        {
-          "roc_year": 108,
-          "ad_year": 2019,
-          "marker": "起"
-        }
-      ],
-      "name_zh_en": "party relationship category",
-      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
-    },
-    {
-      "seq": 23,
-      "name_zh": "非家庭成員",
-      "name_en": "NOTFAMILYMEMB ER",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "詳譯碼說明 108年起新增",
-      "available_notes": [
-        {
-          "roc_year": 108,
-          "ad_year": 2019,
-          "marker": "起"
-        }
-      ],
-      "name_zh_en": "non-household member",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "Translation starting from 2019 without"
     },
     {
       "seq": 24,
@@ -330,7 +302,7 @@
       "name_en": "DMAIMED",
       "type": "Char",
       "length": 3,
-      "description_zh": "可複選；詳譯碼說明 108年起無 101年長度為2 104年長度為4 105-106長度為10",
+      "description_zh": "可複選；詳譯碼說明\n108年起無\n101年長度為2\n104年長度為4\n105-106長度為10",
       "available_notes": [
         {
           "roc_year": 108,
@@ -357,7 +329,7 @@
       "name_en": "DOTHERMAIMED",
       "type": "Char",
       "length": 24,
-      "description_zh": "108年起無 101年長度為72 102年長度為36 103年長度為22 104年長度為30 105、107年長度為26 106年長度為34",
+      "description_zh": "108年起無\n101年長度為72\n102年長度為36\n103年長度為22\n104年長度為30\n105、107年長度為26\n106年長度為34",
       "available_notes": [
         {
           "roc_year": 108,
@@ -404,7 +376,7 @@
       "name_en": "DOTHERMAIMED2",
       "type": "Char",
       "length": 8,
-      "description_zh": "108年起無 102年長度為14 101、103年長度為18 105年長度為11 104、106年長度為16 107年長度為46",
+      "description_zh": "108年起無\n102年長度為14\n101、103年長度為18\n105年長度為11\n104、106年長度為16\n107年長度為46",
       "available_notes": [
         {
           "roc_year": 108,
@@ -446,7 +418,7 @@
       "name_en": "DDISABILITY",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起新增",
+      "description_zh": "詳譯碼說明\n108年起新增",
       "available_notes": [
         {
           "roc_year": 108,
@@ -456,17 +428,6 @@
       ],
       "name_zh_en": "physical and mental disability",
       "description_en": "details coding explanation added since 2018"
-    },
-    {
-      "seq": 33,
-      "name_zh": "受理時間-月",
-      "name_en": "RECEIVETIMEMON TH",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "MM",
-      "available_notes": [],
-      "name_zh_en": "reception time-month",
-      "description_en": ""
     },
     {
       "seq": 35,
@@ -498,7 +459,7 @@
       "name_en": "ID_C",
       "type": "Char",
       "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編號， 或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼(如無居留證號碼請填護照號碼)，左靠不足補空白。",
       "available_notes": [],
       "name_zh_en": "protected/victimized person's ID number",
       "description_en": "Encrypted. National ID number or alien residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if necessary."
@@ -531,7 +492,7 @@
       "name_en": "BIRTH_YM_C",
       "type": "Char",
       "length": 5,
-      "description_zh": "提供民國年月YYYMM 110起長度為7",
+      "description_zh": "提供民國年月YYYMM\n110起長度為7",
       "available_notes": [],
       "name_zh_en": "protected/victim's date of birth and month",
       "description_en": "provide ROC YYYYMM starting from 110"
@@ -542,7 +503,7 @@
       "name_en": "ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起刪除",
+      "description_zh": "詳譯碼說明\n108年起刪除",
       "available_notes": [
         {
           "roc_year": 108,
@@ -559,7 +520,7 @@
       "name_en": "IDTYPE_C",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起新增",
+      "description_zh": "詳譯碼說明\n108年起新增",
       "available_notes": [
         {
           "roc_year": 108,
@@ -587,7 +548,7 @@
       "name_en": "EDU",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起刪除",
+      "description_zh": "詳譯碼說明\n108年起刪除",
       "available_notes": [
         {
           "roc_year": 108,
@@ -628,13 +589,13 @@
     },
     {
       "seq": 17,
-      "name_zh": "施虐者/相對人/嫌疑人",
+      "name_zh": "施虐者/相對人/嫌疑人性別",
       "name_en": "SEX_D",
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
       "available_notes": [],
-      "name_zh_en": "abuser/counterparty/suspect",
+      "name_zh_en": "Sex of abuser/respondent/suspect",
       "description_en": "detailed translation explanation"
     },
     {
@@ -654,7 +615,7 @@
       "name_en": "BIRTH_YM_D",
       "type": "Char",
       "length": 5,
-      "description_zh": "提供民國年月YYYMM 110起長度為7",
+      "description_zh": "提供民國年月YYYMM\n110起長度為7",
       "available_notes": [],
       "name_zh_en": "date of birth of abuser/participant/suspect",
       "description_en": "provide ROC YYYYMM starting from 110"
@@ -665,7 +626,7 @@
       "name_en": "EDU_D",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起刪除",
+      "description_zh": "詳譯碼說明\n108年起刪除",
       "available_notes": [
         {
           "roc_year": 108,
@@ -682,7 +643,7 @@
       "name_en": "RELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起刪除",
+      "description_zh": "詳譯碼說明\n108年起刪除",
       "available_notes": [
         {
           "roc_year": 108,
@@ -694,46 +655,12 @@
       "description_en": "details coding explanation removed since 2018"
     },
     {
-      "seq": 22,
-      "name_zh": "兩造關係類別",
-      "name_en": "ISFAMILYMEMBE R",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "A：家庭成員 B：非家庭成員 C、Z：不詳 108年起新增",
-      "available_notes": [
-        {
-          "roc_year": 108,
-          "ad_year": 2019,
-          "marker": "起"
-        }
-      ],
-      "name_zh_en": "party relationship category",
-      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
-    },
-    {
-      "seq": 24,
-      "name_zh": "非家庭成員",
-      "name_en": "NOTFAMILYMEM BER",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "詳譯碼說明 108年起新增",
-      "available_notes": [
-        {
-          "roc_year": 108,
-          "ad_year": 2019,
-          "marker": "起"
-        }
-      ],
-      "name_zh_en": "non-household member",
-      "description_en": "details coding explanation added since 2018"
-    },
-    {
       "seq": 25,
       "name_zh": "疑似施虐人障礙別",
       "name_en": "MAIMED_D",
       "type": "Char",
       "length": 10,
-      "description_zh": "可複選；詳譯碼說明 108年起刪除",
+      "description_zh": "可複選；詳譯碼說明\n108年起刪除",
       "available_notes": [
         {
           "roc_year": 108,
@@ -746,8 +673,8 @@
     },
     {
       "seq": 26,
-      "name_zh": "疑似施虐人疑似身心障礙者選其他時所填資料",
-      "name_en": "OTHERMAIMED_ D",
+      "name_zh": "疑似施虐人疑似身心障礙者 選其他時所填資料",
+      "name_en": "OTHERMAIMED_D",
       "type": "Char",
       "length": 90,
       "description_zh": "108年起刪除",
@@ -763,8 +690,8 @@
     },
     {
       "seq": 27,
-      "name_zh": "疑似施虐人領有身心障礙手冊選其他時所填資料",
-      "name_en": "OTHERMAIMED2_ D",
+      "name_zh": "疑似施虐人領有身心障礙手冊 選其他時所填資料",
+      "name_en": "OTHERMAIMED2_D",
       "type": "Char",
       "length": 70,
       "description_zh": "108年起刪除",
@@ -784,7 +711,7 @@
       "name_en": "DISABILITY_D",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳譯碼說明 108年起新增",
+      "description_zh": "詳譯碼說明\n108年起新增",
       "available_notes": [
         {
           "roc_year": 108,
@@ -794,17 +721,6 @@
       ],
       "name_zh_en": "physical and mental disability",
       "description_en": "details coding explanation added since 2018"
-    },
-    {
-      "seq": 34,
-      "name_zh": "受理時間-月",
-      "name_en": "RECEIVETIMEMO NTH",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "MM",
-      "available_notes": [],
-      "name_zh_en": "reception time-month",
-      "description_en": ""
     },
     {
       "seq": 36,
@@ -824,8 +740,8 @@
       "seq_later": 3,
       "changes": {
         "description_zh": {
-          "from": "詳譯碼說明 108年起刪除",
-          "to": "詳譯碼說明 108年起無"
+          "from": "詳譯碼說明\n108年起刪除",
+          "to": "詳譯碼說明\n108年起無"
         }
       }
     },
@@ -842,8 +758,8 @@
           "to": 4
         },
         "description_zh": {
-          "from": "可複選；詳譯碼說明 108年起刪除",
-          "to": "可複選；詳譯碼說明 108年起無 102-103、105-106年長度為3 101、107年長度為5"
+          "from": "可複選；詳譯碼說明\n108年起刪除",
+          "to": "可複選；詳譯碼說明\n108年起無\n102-103、105-106年長度為3\n101、107年長度為5"
         }
       }
     },
@@ -852,8 +768,8 @@
       "seq_later": 12,
       "changes": {
         "name_zh": {
-          "from": "被害人疑似身心障礙者選其他時所填資料",
-          "to": "受保護/被害人疑似身心障礙者選其他時所填資料"
+          "from": "被害人疑似身心障礙者 選其他時所填資料",
+          "to": "受保護/被害人疑似身心障礙者 選其他時所填資料"
         },
         "length": {
           "from": 90,
@@ -861,7 +777,7 @@
         },
         "description_zh": {
           "from": "108年起刪除",
-          "to": "108年起無 101年長度為35 102年長度為36"
+          "to": "108年起無\n101年長度為35\n102年長度為36 103年長度為70\n104年長度為60\n105年長度為32\n106年長度為33\n107年長度為38"
         }
       }
     },
@@ -870,8 +786,8 @@
       "seq_later": 13,
       "changes": {
         "name_zh": {
-          "from": "被害人領有身心障礙手冊選其他時所填資料",
-          "to": "受保護/被害人領有身心障礙手冊選其他時所填資料"
+          "from": "被害人領有身心障礙手冊 選其他時所填資料",
+          "to": "受保護/被害人領有身心障礙手冊 選其他時所填資料"
         },
         "length": {
           "from": 70,
@@ -879,7 +795,7 @@
         },
         "description_zh": {
           "from": "108年起刪除",
-          "to": "108年起無 101年長度為40 102年長度為42 104年長度為27 106年長度為22 103、105、107年長度為44"
+          "to": "108年起無\n101年長度為40\n102年長度為42\n104年長度為27\n106年長度為22\n103、105、107年長度為44"
         }
       }
     },
@@ -888,8 +804,8 @@
       "seq_later": 28,
       "changes": {
         "description_zh": {
-          "from": "可複選；詳譯碼說明 108年起刪除",
-          "to": "可複選；詳譯碼說明 108年起無 103、107年長度為1"
+          "from": "可複選；詳譯碼說明\n108年起刪除",
+          "to": "可複選；詳譯碼說明\n108年起無\n103、107年長度為1"
         }
       }
     },
@@ -902,8 +818,8 @@
           "to": 5
         },
         "description_zh": {
-          "from": "可複選；詳譯碼說明 108年起刪除",
-          "to": "可複選；詳譯碼說明 108年起無 101年長度為15"
+          "from": "可複選；詳譯碼說明\n108年起刪除",
+          "to": "可複選；詳譯碼說明\n108年起無\n101年長度為15 104年長度為8\n105年長度為7\n102-103、106年長度為5\n107年長度為4"
         }
       }
     },
@@ -912,12 +828,12 @@
       "seq_later": 30,
       "changes": {
         "name_zh": {
-          "from": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依",
+          "from": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依兒少保護通報及處理辦法第6條規定，於主管機關處理前，提供兒少適當之保護及照顧",
           "to": "兒少保護情事-下列緊急情況，建議立即以電話聯繫當地主管機關社工員評估處理，並依兒少保護通報及處理辦法第 6 條規定，於主管機關處理前，提供兒少適當之保護及照顧"
         },
         "description_zh": {
-          "from": "可複選；詳譯碼說明 108年起刪除",
-          "to": "可複選；詳譯碼說明 108年起無"
+          "from": "可複選；詳譯碼說明\n108年起刪除",
+          "to": "可複選；詳譯碼說明\n108年起無"
         }
       }
     },
@@ -930,8 +846,8 @@
           "to": 1
         },
         "description_zh": {
-          "from": "可複選；詳譯碼說明 108年起刪除",
-          "to": "可複選；詳譯碼說明 101年起新增；108年起無 101-104年長度為2"
+          "from": "可複選；詳譯碼說明\n108年起刪除",
+          "to": "可複選；詳譯碼說明\n101年起新增；108年起無\n101-104年長度為2"
         }
       }
     },
@@ -944,13 +860,13 @@
           "to": 9
         },
         "description_zh": {
-          "from": "YYYMMDDHH 108年起刪除",
-          "to": "YYYMMDDHH 108年起無"
+          "from": "YYYMMDDHH\n108年起刪除",
+          "to": "YYYMMDDHH\n108年起無"
         }
       }
     },
     {
-      "key": "VIOLENCEMETHO D",
+      "key": "VIOLENCEMETHOD",
       "seq_later": 39,
       "changes": {
         "length": {
@@ -958,8 +874,8 @@
           "to": 5
         },
         "description_zh": {
-          "from": "詳譯碼說明 108 年起新增；110、112 年長度為 6、111、113年長度為5",
-          "to": "詳譯碼說明 108年起新增 110、112年長度為6"
+          "from": "詳譯碼說明\n108 年起新增；110、112 年長度為6、111、113年長度為5",
+          "to": "詳譯碼說明\n108年起新增\n110、112年長度為6"
         }
       }
     },
@@ -972,8 +888,8 @@
           "to": 6
         },
         "description_zh": {
-          "from": "詳譯碼說明 108年起新增；110年起長度為6",
-          "to": "詳譯碼說明 108年起新增"
+          "from": "詳譯碼說明\n108年起新增；110年起長度為6",
+          "to": "詳譯碼說明\n108年起新增"
         }
       }
     },
@@ -986,8 +902,8 @@
           "to": 22
         },
         "description_zh": {
-          "from": "詳譯碼說明 108年起新增；110年長度為14、111 年長度為16、112年長度為19、113 年長度為12",
-          "to": "詳譯碼說明 108年起新增"
+          "from": "詳譯碼說明\n108年起新增；110年長度為14、111年長度為16、112年長度為19、113年長度為12",
+          "to": "詳譯碼說明\n108年起新增109、110長度為14\n111年長度為16\n112年長度為19\n113年長度為12"
         }
       }
     }

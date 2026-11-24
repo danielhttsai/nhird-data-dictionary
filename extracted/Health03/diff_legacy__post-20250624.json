@@ -33,7 +33,7 @@
       "name_en": "CURE_ITEM1",
       "type": "Char",
       "length": 2,
-      "description_zh": "空白表示無所列舉之內容。慢性病連續處方調劑本欄免填，詳特定治療項目代號譯碼說明。 註: 1.92 年起新增「特定治療項目代號(一)」至「特定治療項目代號 (三) 」 2.93年起新增「特定治療項目代號(四)」",
+      "description_zh": "空白表示無所列舉之內容。慢性病連續處方調劑本欄免填，詳特定治療項目代號譯碼說明。\n註:\n1.92 年起新增「特定治療項目代號(一)」至「特定治療項目代號\n(三) 」\n2.93年起新增「特定治療項目代號(四)」",
       "available_notes": [
         {
           "roc_year": 92,
@@ -88,10 +88,10 @@
       "name_en": "PAY_TYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "一般處方調劑者，請依原處方所列填報慢性病連續處方調劑及藥事居家照護者，本欄免填。本欄免填，詳給付類別(PAY_TYPE)",
+      "description_zh": "一般處方調劑者，請依原處方所列填報慢性病連續處方調劑及藥事居家照護者，本欄免填。本欄免填，詳給付類別(PAY_TYPE)譯碼說明。",
       "available_notes": [],
       "name_zh_en": "benefit category",
-      "description_en": "general prescription filler, please fill according to the original prescription. Chronic disease continuous prescription and pharmacy home care providers, this column is exempt from filling. This column is exempt, details in payment category(PAY_TYPE)"
+      "description_en": "For general prescription dispensing, fill in as listed on the original prescription. For chronic disease continuous prescription dispensing and home pharmaceutical care, leave this field blank. Leave this field blank; see the payment category (PAY_TYPE) code table."
     },
     {
       "seq": 17,
@@ -99,12 +99,12 @@
       "name_en": "ICD9CM_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "左靠不足補空白。 註： 1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。",
+      "description_zh": "左靠不足補空白。\n註：\n1. 健保署規定醫療院所自105年起以ICD-10-CM 申報。",
       "available_notes": [
         {
           "roc_year": 105,
           "ad_year": 2016,
-          "marker": ""
+          "marker": "起"
         }
       ],
       "name_zh_en": "primary diagnosis code",
@@ -127,7 +127,7 @@
       "name_en": "PART_CODE",
       "type": "Char",
       "length": 9,
-      "description_zh": "I20:須加收藥費部分負擔者。 I21:基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百元以下免加收藥費部分負擔者。 I22:符合健保藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件。 詳部分負擔代號（PART_CODE） 譯碼說明。 註: 88 年起新增此欄位",
+      "description_zh": "I20:須加收藥費部分負擔者。\nI21:基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百元以下免加收藥費部分負擔者。\nI22:符合健保藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件。詳部分負擔代號（PART_CODE）譯碼說明。\n註: 88 年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 88,
@@ -177,7 +177,7 @@
       "name_en": "FUNC_SEQ_NO",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國92年(含)以前2碼，93年以後4碼，慢性病連續處方第二次以後調劑者，請依慢性病連續處方箋上調劑記錄欄之序號填IC02 或IC03 或 IC04，詳健保卡就醫序號(FUNC_SEQ_NO) 譯碼說明。",
+      "description_zh": "民國92年(含)以前2碼，93年以後4碼，慢性病連續處方第二次以後調劑者，請依慢性病連續處方箋上調劑記錄欄之序號填IC02或IC03 或 IC04，詳健保卡就醫序號(FUNC_SEQ_NO) 譯碼說明。",
       "available_notes": [
         {
           "roc_year": 92,
@@ -187,7 +187,7 @@
         {
           "roc_year": 93,
           "ad_year": 2004,
-          "marker": ""
+          "marker": "以後"
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
@@ -221,7 +221,7 @@
       "name_en": "EXP_DOT",
       "type": "Num",
       "length": 8,
-      "description_zh": "此點數為用藥明細點數小計 (DRUG_DOT)、藥事服務點數 (DSVC_DOT)、特殊材料點數小計(MET_DOT)之合計。",
+      "description_zh": "此點數為用藥明細點數小計\n(DRUG_DOT)、藥事服務點數(DSVC_DOT)、特殊材料點數小計(MET_DOT)之合計。",
       "available_notes": [],
       "name_zh_en": "total points",
       "description_en": "this point is the total of drug detail points (DRUG_DOT), pharmacy service points (DSVC_DOT), and special material points small total (MET_DOT)."
@@ -232,7 +232,7 @@
       "name_en": "DSVC_CODE",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫支付標準碼，詳診察點數及藥事服務點數(DIAG_DOT& DSVC_DOT)說明。 註:93 年起新增此欄位",
+      "description_zh": "填寫支付標準碼，詳診察點數及藥事服務點數(DIAG_DOT&\nDSVC_DOT)說明。\n註:93 年起新增此欄位",
       "available_notes": [
         {
           "roc_year": 93,
@@ -262,7 +262,7 @@
       "name_en": "CARD_SEQ_NO",
       "type": "Char",
       "length": 4,
-      "description_zh": "民國92年(含)以前2碼，93年以後4碼，慢性病連續處方第二次以後調劑者，請依慢性病連續處方箋上調劑記錄欄之序號填IC02 或IC03 或 IC04，詳健保卡就醫序號(CARD_SEQ_NO) 譯碼說明。 藥事居家照護（案件分類D）者， 本欄請填“N”。",
+      "description_zh": "民國92年(含)以前2碼，93年以後4碼，慢性病連續處方第二次以後調劑者，請依慢性病連續處方箋上調劑記錄欄之序號填IC02或IC03 或 IC04，詳健保卡就醫序號(CARD_SEQ_NO) 譯碼說明。\n藥事居家照護（案件分類D）者，本欄請填“N”。",
       "available_notes": [
         {
           "roc_year": 92,
@@ -272,7 +272,7 @@
         {
           "roc_year": 93,
           "ad_year": 2004,
-          "marker": ""
+          "marker": "以後"
         }
       ],
       "name_zh_en": "NHI card medical visit sequence number",
@@ -295,10 +295,16 @@
       "name_en": "DRUG_DAY",
       "type": "Num",
       "length": 8,
-      "description_zh": "本次給藥日份最高之天數。",
-      "available_notes": [],
+      "description_zh": "本次給藥日份最高之天數。註:\n僅106年第四季資料長度為5碼。",
+      "available_notes": [
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "dosage date",
-      "description_en": "maximum-day-of-medication-dose-this-time"
+      "description_en": "Maximum number of days of medication supplied this time. Note:\nOnly data of the fourth quarter of ROC 106 (2017) has a length of 5 characters."
     },
     {
       "seq": 15,
@@ -379,7 +385,7 @@
       "name_en": "R_HOSP_ID",
       "type": "Char",
       "length": 9,
-      "description_zh": "1. 經加密處理，為辨別醫療機構 (醫院)的鍵值。",
+      "description_zh": "1. 經加密處理，為辨別醫療機構(醫院)的鍵值。",
       "available_notes": [],
       "name_zh_en": "original处方医疗机构代码",
       "description_en": "1. Encrypted key for identifying medical institutions (hospitals)."
@@ -390,7 +396,7 @@
       "name_en": "PART_NO",
       "type": "Char",
       "length": 3,
-      "description_zh": "I20:須加收藥費部分負擔者。 I21:基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百元以下免加收藥費部分負擔者。 I22:符合健保藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件。 詳部分負擔代號（PART_NO）譯碼說明。 註：98年7月新增",
+      "description_zh": "I20:須加收藥費部分負擔者。\nI21:基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百元以下免加收藥費部分負擔者。\nI22:符合健保藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件。詳部分負擔代號（PART_NO）譯碼說明。\n註：98年7月新增",
       "available_notes": [
         {
           "roc_year": 98,
@@ -429,7 +435,7 @@
       "name_en": "CURE_ITEM_NO3",
       "type": "Char",
       "length": 2,
-      "description_zh": "定治療項目代號譯碼說明。 註：100年起新增。",
+      "description_zh": "定治療項目代號譯碼說明。\n註：100年起新增。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -457,7 +463,7 @@
       "name_en": "ICD9CM_1",
       "type": "Char",
       "length": 5,
-      "description_zh": "左靠不足補空白。 註： 1.100年起新增。 2. 健保署規定醫療院所自105年起以ICD-10-CM 申報。 3. 自105年起欄位長度調整為7 碼(僅106年資料長度為15碼)。",
+      "description_zh": "左靠不足補空白。\n註：\n1.100年起新增。\n2. 健保署規定醫療院所自105年起以ICD-10-CM 申報。\n3. 自105年起欄位長度調整為7碼(僅106年資料長度為15碼)。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -467,7 +473,7 @@
         {
           "roc_year": 105,
           "ad_year": 2016,
-          "marker": ""
+          "marker": "起"
         },
         {
           "roc_year": 105,
@@ -500,7 +506,7 @@
       "name_en": "DSVC_NO",
       "type": "Char",
       "length": 12,
-      "description_zh": "填寫支付標準碼，詳診察點數及藥事服務點數(DIAG_DOT& DSVC_DOT)說明。 註：100年起新增。",
+      "description_zh": "填寫支付標準碼，詳診察點數及藥事服務點數(DIAG_DOT&\nDSVC_DOT)說明。\n註：100年起新增。",
       "available_notes": [
         {
           "roc_year": 100,
@@ -522,7 +528,7 @@
           "to": 20
         },
         "description_zh": {
-          "from": "1. 經加密處理，為辨別醫療機構 (藥局)的鍵值。",
+          "from": "1. 經加密處理，為辨別醫療機構(藥局)的鍵值。",
           "to": "經加密處理，為辨別醫療機構(藥局)的鍵值。"
         }
       }
@@ -540,7 +546,7 @@
           "to": 8
         },
         "description_zh": {
-          "from": "YYYYMM。 107年起欄位格式為數值型態， 長度為8碼。",
+          "from": "YYYYMM。\n107年起欄位格式為數值型態，長度為8碼。",
           "to": "YYYYMM。"
         }
       }
@@ -564,7 +570,7 @@
           "to": "Num"
         },
         "description_zh": {
-          "from": "107年起欄位格式為數值型態， 長度為8碼。",
+          "from": "107年起欄位格式為數值型態，長度為8碼。",
           "to": ""
         }
       }
@@ -598,8 +604,8 @@
       "seq_later": 21,
       "changes": {
         "description_zh": {
-          "from": "慢性病連續處方調劑者，本欄為必要欄位。 一般處方調劑及藥事居家照護者，本欄免填。 註：100年起新增。",
-          "to": "慢性病連續處方調劑者，本欄為必要欄位。 一般處方調劑及藥事居家照護者，本欄免填。 註: 88 至91年無資料"
+          "from": "慢性病連續處方調劑者，本欄為必要欄位。\n一般處方調劑及藥事居家照護者，本欄免填。\n註：100年起新增。",
+          "to": "慢性病連續處方調劑者，本欄為必要欄位。\n一般處方調劑及藥事居家照護者，本欄免填。\n註: 88 至91年無資料"
         }
       }
     },
@@ -608,8 +614,8 @@
       "seq_later": 22,
       "changes": {
         "description_zh": {
-          "from": "慢性病連續處方箋上所列之可調劑次數，慢性病連續處方調劑者，本欄為必要欄位。一般處方調劑及藥事居家照護者，本欄免填。 註： 1.100年起新增。 2.僅106年第四季資料長度為5 碼。",
-          "to": "慢性病連續處方箋上所列之可調劑次數，慢性病連續處方調劑者，本欄為必要欄位。 一般處方調劑及藥事居家照護者，本欄免填。"
+          "from": "慢性病連續處方箋上所列之可調劑次數，慢性病連續處方調劑者，本欄為必要欄位。一般處方調劑及藥事居家照護者，本欄免填。\n註：\n1.100年起新增。\n2.僅106年第四季資料長度為5碼。",
+          "to": "慢性病連續處方箋上所列之可調劑次數，慢性病連續處方調劑者，本欄為必要欄位。\n一般處方調劑及藥事居家照護者，本欄免填。"
         }
       }
     },
@@ -632,8 +638,8 @@
       "seq_later": 33,
       "changes": {
         "description_zh": {
-          "from": "1：補報整筆案件 2：補報部分醫令或醫令差額。 申報類別為補報者，本欄為必填欄位，送核案件免填補空白。 註：100年起新增。",
-          "to": "1：補報整筆案件 2：補報部分醫令或醫令差額。 申報類別為補報者，本欄為必填欄位，送核案件免填補空白。 註:98 年起新增此欄位"
+          "from": "1：補報整筆案件 2：補報部分醫令或醫令差額。\n申報類別為補報者，本欄為必填欄位，送核案件免填補空白。註：100年起新增。",
+          "to": "1：補報整筆案件 2：補報部分醫令或醫令差額。\n申報類別為補報者，本欄為必填欄位，送核案件免填補空白。註:98 年起新增此欄位"
         }
       }
     },
@@ -642,8 +648,8 @@
       "seq_later": 35,
       "changes": {
         "description_zh": {
-          "from": "0：身分證字號符合編碼原則1： 不符合。",
-          "to": "0：身分證字號符合編碼原則 1：不符合。"
+          "from": "0：身分證字號符合編碼原則1：不符合。",
+          "to": "0：身分證字號符合編碼原則\n1：不符合。"
         }
       }
     },
@@ -652,8 +658,8 @@
       "seq_later": 37,
       "changes": {
         "description_zh": {
-          "from": "0：身分證字號符合編碼原則1： 不符合。",
-          "to": "0：身分證字號符合編碼原則 1：不符合。"
+          "from": "0：身分證字號符合編碼原則1：不符合。",
+          "to": "0：身分證字號符合編碼原則\n1：不符合。"
         }
       }
     },
@@ -662,8 +668,8 @@
       "seq_later": 43,
       "changes": {
         "description_zh": {
-          "from": "0：身分證字號符合編碼原則1： 不符合。",
-          "to": "0：身分證字號符合編碼原則 1：不符合。"
+          "from": "0：身分證字號符合編碼原則1：不符合。",
+          "to": "0：身分證字號符合編碼原則\n1：不符合。"
         }
       }
     }

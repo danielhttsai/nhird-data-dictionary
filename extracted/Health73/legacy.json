@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "1. 資料年度為 91年迄今。105 年提供103年(含)以前新案發生資料。\n2. 為判定追蹤治療結果，自 104 年起之追蹤世代以附加欄位方式提供個案\n追蹤 2 年後之銷案原因及銷案日期；104 年之追蹤治療結果於 106 年提\n供，113年之追蹤治療結果於 114年提供，依此類推。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如\n有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。 個人資料比對的鍵值：ID 及ovedr_date。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如\n有身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、\n入院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內\n使用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從\n識別特定當事人。",
   "primary_keys_raw": "個人資料比對的鍵值：ID 及ovedr_date。",
   "fields": [
     {
@@ -25,7 +25,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 12,
-      "description_zh": "已加密轉碼遺失率<0.01%",
+      "description_zh": "已加密轉碼\n遺失率<0.01%",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted with loss rate <0.01%"
@@ -36,7 +36,7 @@
       "name_en": "S",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男 2：女 9：不詳",
+      "description_zh": "1：男\n2：女\n9：不詳",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male"
@@ -47,7 +47,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: ID number conforms to coding rules; 1: does not conform"
@@ -135,7 +135,7 @@
       "name_en": "ill_sk",
       "type": "Char",
       "length": 1,
-      "description_zh": "N：不需要 X：需要：送諮詢小組 Y：需要：衛生所主管 Z：需要：衛生局主管本表範圍外之代碼請忽略。",
+      "description_zh": "N：不需要\nX：需要：送諮詢小組\nY：需要：衛生所主管\nZ：需要：衛生局主管\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "need supervisor assistance type",
       "description_en": "N: not required X: required: consult committee Y: required: health center director Z: required: health bureau director Codes outside the scope of this table should be ignored."
@@ -146,7 +146,7 @@
       "name_en": "iden_no",
       "type": "Char",
       "length": 2,
-      "description_zh": "A：一般國民 B：外勞 C：外籍人士 D：外籍新娘：含大陸新娘 E：遊民 F：證號不詳 G：大陸人士台灣結核病防治年報之「非本國籍」結核病，為身份別代碼 B、C、D、G。",
+      "description_zh": "A：一般國民\nB：外勞\nC：外籍人士\nD：外籍新娘：含大陸新娘\nE：遊民\nF：證號不詳\nG：大陸人士\n台灣結核病防治年報之「非本國籍」結核病，為身份別代碼 B、C、D、G。",
       "available_notes": [],
       "name_zh_en": "identity type",
       "description_en": "A: General citizens B: Foreign workers C: Foreigners D: Foreign brides including mainland brides E: Homeless F: ID number not available G: Mainland residents Taiwan Tuberculosis Prevention Annual Report's 'Non-citizens' for tuberculosis are identity codes B, C, and D, and G."
@@ -234,7 +234,7 @@
       "name_en": "xres1",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：正常 B：異常，但無空洞 C：異常，且有空洞 D：異常，無關結核病",
+      "description_zh": "A：正常\nB：異常，但無空洞\nC：異常，且有空洞\nD：異常，無關結核病",
       "available_notes": [],
       "name_zh_en": "X-ray diagnosis result",
       "description_en": "A: Normal B: Abnormal but no cavity C: Abnormal and with cavity D: Abnormal unrelated to tuberculosis"
@@ -245,7 +245,7 @@
       "name_en": "xres2",
       "type": "Char",
       "length": 1,
-      "description_zh": "空白：否 6：是",
+      "description_zh": "空白：否\n6：是",
       "available_notes": [],
       "name_zh_en": "pleural effusion",
       "description_en": "Blank: No 6: Yes"
@@ -256,7 +256,7 @@
       "name_en": "xres3",
       "type": "Char",
       "length": 1,
-      "description_zh": "a：結核性腦膜炎 (013) c：淋巴結核 (014) d：骨及關節結核 (015) e：泌尿及生殖結核 (016) f：皮膚及眼結核 (017) g：消化道結核 (014) h：其他器官結核 (017) i：粟粒狀結核 (000) j：胸肋膜結核 (000) k：咽喉結核 (000) l：膀胱癌灌注治療(016) m：疑似 BCG 不良反應(接種部位局部病灶) n：疑似BCG不良反應(接種部位同側腋下淋巴結腫大)",
+      "description_zh": "a：結核性腦膜炎 (013)\nc：淋巴結核 (014)\nd：骨及關節結核 (015)\ne：泌尿及生殖結核 (016)\nf：皮膚及眼結核 (017)\ng：消化道結核 (014)\nh：其他器官結核 (017)\ni：粟粒狀結核 (000)\nj：胸肋膜結核 (000)\nk：咽喉結核 (000)\nl：膀胱癌灌注治療(016)\nm：疑似 BCG 不良反應(接種部位局部病灶)\nn：疑似BCG不良反應(接種部位同側腋下淋巴結腫大)",
       "available_notes": [],
       "name_zh_en": "extrapulmonary TB notation",
       "description_en": "0: Not a paired organ; 1: Primary origin on the right side; 2: Primary origin on the left side; 3: Unilateral involvement only, but origin (left or right) unclear; 4: Bilateral involvement but laterality of origin unclear, and the record describes a single primary (uncommon) — e.g. single-histology tumor involving both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor; 9: Paired organ but laterality unclear."
@@ -289,7 +289,7 @@
       "name_en": "trmt_way",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：初次治療 3：補充治療 4：慢開治療 5：肺外治療 F：治療失敗本表範圍外之代碼請忽略。",
+      "description_zh": "1：初次治療\n3：補充治療\n4：慢開治療\n5：肺外治療\nF：治療失敗\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "Therapy Method",
       "description_en": "1: Initial Treatment 3: Supplementary Treatment 4: Maintenance Treatment 5: Extrapulmonary Treatment F: Treatment Failure Codes outside the scope of this table should be ignored."
@@ -322,7 +322,7 @@
       "name_en": "why_miss",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治本表範圍外之代碼請忽略。",
+      "description_zh": "1：完成管理\n2：失落\n3：失落\n4：死亡\n5：死亡\n6：轉出\n7：轉出\n8：排除 (醫師診療判定)\nB：排除 (BCG)\nC：排除(疑似滿一年)\nD：其他 (視同結果失落)\nF：排除 (醫師診療判定)\nM：排除 (NTM‧MOTT)\nO：其他完治\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "closure reason",
       "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
@@ -344,7 +344,7 @@
       "name_en": "why_open",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：X光惡化 2：查痰陽性 3：病理證據 4：臨床診斷 5：諮詢小組審議",
+      "description_zh": "1：X光惡化\n2：查痰陽性\n3：病理證據\n4：臨床診斷\n5：諮詢小組審議",
       "available_notes": [],
       "name_zh_en": "reopening reason",
       "description_en": "1: X-ray deterioration 2: sputum test positive 3: pathological evidence 4: clinical diagnosis 5: consultation group review"
@@ -366,7 +366,7 @@
       "name_en": "why_died",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：TB死亡 2：非TB死亡",
+      "description_zh": "1：TB死亡\n2：非TB死亡",
       "available_notes": [],
       "name_zh_en": "Cause of Death",
       "description_en": "1: TB death 2: Non-TB death"
@@ -454,10 +454,10 @@
       "name_en": "live_status",
       "type": "Char",
       "length": 1,
-      "description_zh": "D：是(已申請留台治療之外勞) L：已逃跑無法評估 N：未評估 O：境外聘僱(不須評估)",
+      "description_zh": "D：是(已申請留台治療之外勞)\nL：已逃跑無法評估\nN：未評估\nO：境外聘僱(不須評估)\nP：單純肺外(不須評估)\nX：否(已申請留台治療之外勞)\nY：有眷",
       "available_notes": [],
       "name_zh_en": "Applying for onshore treatment",
-      "description_en": "D: Yes (applied for onshore treatment for overseas workers) L: Ran away, cannot assess N: Not assessed O: Overseas employment (no need to assess)"
+      "description_en": "D: Yes (Applied for treatment in Taiwan while working abroad) L: Fled cannot be assessed N: Not assessed O: Overseas employment (No need to assess) P: Simple pulmonary disease (No need to assess) X: No (Applied for treatment in Taiwan while working abroad) Y: Has family"
     },
     {
       "seq": 41,
@@ -465,7 +465,7 @@
       "name_en": "hiv",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：家屬 B：地段護士 C：醫療機構（或療養院）護士 D：志工 F：其他 P：DOTS 專案計畫關懷員本表範圍外之代碼請忽略。",
+      "description_zh": "A：家屬\nB：地段護士\nC：醫療機構（或療養院）護士\nD：志工\nF：其他\nP：DOTS 專案計畫關懷員\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "caregiver category",
       "description_en": "A: Family member B: District nurse C: Hospital (or nursing home) nurse D: Volunteer F: DOTS project care provider Codes outside the scope of this table please ignore."
@@ -487,7 +487,7 @@
       "name_en": "c_lgdig",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治本表範圍外之代碼請忽略。",
+      "description_zh": "1：完成管理\n2：失落\n3：失落\n4：死亡\n5：死亡\n6：轉出\n7：轉出\n8：排除 (醫師診療判定)\nB：排除 (BCG)\nC：排除(疑似滿一年)\nD：其他 (視同結果失落)\nF：排除 (醫師診療判定)\nM：排除 (NTM‧MOTT)\nO：其他完治\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "reason for case closure",
       "description_en": "1: Completed management 2: Lost 3: Lost 4: Death 5: Death 6: Transferred 7: Transferred 8: Excluded (Physician's diagnosis) B: Excluded (BCG) C: Excluded (Suspected for one year) D: Other (Treated as data loss) F: Excluded (Physician's diagnosis) M: Excluded (NTM‧MOTT) O: Other cured This table applies to codes outside the scope please ignore."
@@ -498,10 +498,10 @@
       "name_en": "c_dci",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：本國 B：大陸人士 ( 高負擔 TB / MDR-TB ) O：日本 P：韓國 Q：美國 R：加拿大 S：新加坡 T：馬來西亞 U：菲律賓 V：泰國 W：印尼",
+      "description_zh": "A：本國\nB：大陸人士 ( 高負擔 TB / MDR-TB )\nO：日本\nP：韓國\nQ：美國\nR：加拿大\nS：新加坡\nT：馬來西亞\nU：菲律賓\nV：泰國\nW：印尼\nX：越南\nY：蒙古\nZ：其他",
       "available_notes": [],
       "name_zh_en": "by nationality",
-      "description_en": "A: domestic B: mainland Chinese (high burden TB / MDR-TB) O: Japan P: South Korea Q: United States R: Canada S: Singapore T: Malaysia U: Philippines V: Thailand W: Indonesia"
+      "description_en": "A: Taiwan citizen\nB: Mainland China national ( high-burden TB / MDR-TB )\nO: Japan\nP: South Korea\nQ: United States\nR: Canada\nS: Singapore\nT: Malaysia\nU: Philippines\nV: Thailand\nW: Indonesia\nX: Vietnam\nY: Mongolia\nZ: Other"
     },
     {
       "seq": 45,
@@ -696,7 +696,7 @@
       "name_en": "c_digflag",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：未完成登記作業 C：非結核病 Y：已完成登記作業",
+      "description_zh": "A：未完成登記作業\nC：非結核病\nY：已完成登記作業",
       "available_notes": [],
       "name_zh_en": "registration identifier",
       "description_en": "A: Incomplete registration B: Non-tuberculosis Y: Complete registration"
@@ -714,13 +714,13 @@
     },
     {
       "seq": 64,
-      "name_zh": "照護院所鄉鎮市區",
+      "name_zh": "照護院所鄉鎮市區代碼",
       "name_en": "C_AUNIT_CITY",
       "type": "Char",
       "length": 4,
       "description_zh": "參照縣市鄉鎮代碼",
       "available_notes": [],
-      "name_zh_en": "county_city_of_care_facility",
+      "name_zh_en": "long-term care facility township code",
       "description_en": "referenced county city town code"
     },
     {
@@ -795,7 +795,7 @@
       "name_en": "dots",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：否（拒絕） B：否（死亡） C：否（住院中） D：否（改診斷） E：否（住在外地） F：否（居無定所） G：否（遷出） H：否（副作用） I：否（醫囑排除） J：否（停藥） K：否（遣返） Y：是（加入DOTS）",
+      "description_zh": "A：否（拒絕）\nB：否（死亡）\nC：否（住院中）\nD：否（改診斷）\nE：否（住在外地）\nF：否（居無定所）\nG：否（遷出）\nH：否（副作用）\nI：否（醫囑排除）\nJ：否（停藥）\nK：否（遣返）\nY：是（加入DOTS）",
       "available_notes": [],
       "name_zh_en": "Join DOTS Other",
       "description_en": "A: No (Refusal) B: No (Death) C: No (In Hospital) D: No (Changed Diagnosis) E: No (Living Outside) F: No (Homeless) G: No (Moved Out) H: No (Side Effects) I: No (Doctor's Order Exclusion) J: No (Discontinued Medication) K: No (Repatriated) Y: Yes (Joined DOTS)"
@@ -806,7 +806,7 @@
       "name_en": "open",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：門診 B：住院：RCW C：住院：負壓 D：住院 E：失聯 X：急診 Y：住院中(其它) Z：出院備藥本表範圍外之代碼請忽略。",
+      "description_zh": "A：門診\nB：住院：RCW\nC：住院：負壓\nD：住院\nE：失聯\nX：急診\nY：住院中(其它)\nZ：出院備藥\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "outpatient/ED condition",
       "description_en": "A: Outpatient B: Inpatient: RCW C: Inpatient: Negative Pressure D: Inpatient E: Unreachable F: Emergency G: Inpatient (Other) H: Discharge Medication I: This code is out of the scope of this table, please ignore."
@@ -828,10 +828,10 @@
       "name_en": "pre_num",
       "type": "Char",
       "length": 1,
-      "description_zh": "A：DOTS 療程結束 B：拒絕 C：死亡 D：住院中 E：改診斷 F：遷出 G：副作用",
+      "description_zh": "A：DOTS 療程結束\nB：拒絕\nC：死亡\nD：住院中\nE：改診斷\nF：遷出\nG：副作用\nH：醫囑停藥\nI：行蹤不明\nJ：住在外地\nK：其他\nL：無細菌學證據依規定期限中止",
       "available_notes": [],
       "name_zh_en": "DOTS discontinuation reason",
-      "description_en": "A: DOT therapy ended B: Refused C: Deceased D: Inpatient E: Changed diagnosis F: Transferred out G: Adverse reaction"
+      "description_en": "A: End of DOTS regimen B: Refusal C: Death D: Inpatient E: Change in Diagnosis F: Relocation G: Side Effects H: Doctor's Order to Discontinue Medication I: Untraceable J: Living elsewhere K: Other L: No Bacteriological Evidence for Suspension According to Regulations"
     },
     {
       "seq": 75,
@@ -839,7 +839,7 @@
       "name_en": "pre_kind",
       "type": "Char",
       "length": 1,
-      "description_zh": "N：疑似 Y：確診",
+      "description_zh": "N：疑似\nY：確診",
       "available_notes": [],
       "name_zh_en": "initial confirmation review identifier",
       "description_en": "N: suspected. Y: confirmed."
@@ -861,7 +861,7 @@
       "name_en": "sex",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男 2：女",
+      "description_zh": "1：男\n2：女",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male 2: female"
@@ -872,7 +872,7 @@
       "name_en": "busins_no",
       "type": "Char",
       "length": 2,
-      "description_zh": "01：現役軍人 22：醫護：含醫院工作者 23：教師：含校園工作者 84：職業駕駛 91：臨時工 X1：原住民族 X2：役男：體檢發現 X3：人口密集機構 Y2：在學學生 Y5：監獄拘留所 Y6：其他 Y7：畜牧場工作人員",
+      "description_zh": "01：現役軍人\n22：醫護：含醫院工作者\n23：教師：含校園工作者\n84：職業駕駛\n91：臨時工\nX1：原住民族\nX2：役男：體檢發現\nX3：人口密集機構\nY2：在學學生\nY5：監獄拘留所\nY6：其他\nY7：畜牧場工作人員",
       "available_notes": [],
       "name_zh_en": "occupation or ethnic group",
       "description_en": "01: Active-duty military personnel; 22: Medical/nursing staff, including hospital workers; 23: Teachers, including campus staff; 84: Professional drivers; 91: Temporary workers; X1: Indigenous peoples; X2: Conscripts (identified through physical examination); X3: Residents of densely populated institutions; Y2: Students; Y5: Prison/detention center inmates; Y6: Other; Y7: Livestock farm workers."
@@ -883,7 +883,7 @@
       "name_en": "marriage_no",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：未婚 2：已婚 3：喪偶 4：離婚本表範圍外之代碼請忽略。",
+      "description_zh": "1：未婚\n2：已婚\n3：喪偶\n4：離婚\n本表範圍外之代碼請忽略。",
       "available_notes": [],
       "name_zh_en": "marital status",
       "description_en": "1: unmarried 2: married 3: widow 4: divorced codes outside this table should be ignored."
@@ -894,7 +894,7 @@
       "name_en": "kj_type",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：痰液 2：胸水 3：氣管洗出液 4：腦脊髓液 5：陽性培養菌株 6：病理切片 7：消化去污染後痰 9：其他",
+      "description_zh": "1：痰液\n2：胸水\n3：氣管洗出液\n4：腦脊髓液\n5：陽性培養菌株\n6：病理切片\n7：消化去污染後痰\n9：其他",
       "available_notes": [],
       "name_zh_en": "extrapulmonary specimen type",
       "description_en": "1: sputum, 2: pleural effusion, 3: bronchial washout fluid, 4: cerebrospinal fluid, 5: positive culture strain, 6: histopathological section, 7: decontaminated sputum from digestion, 9: other"
@@ -905,7 +905,7 @@
       "name_en": "mcode1",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
+      "description_zh": "-：陰性\n+：陽性 (1+)\nL：已驗未出\nS：Scanty\nU：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 1",
       "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
@@ -916,7 +916,7 @@
       "name_en": "mcode2",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
+      "description_zh": "-：陰性\n+：陽性 (1+)\nL：已驗未出\nS：Scanty\nU：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 2",
       "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
@@ -927,7 +927,7 @@
       "name_en": "mcode3",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：陰性 +：陽性 (1+) L：已驗未出 S：Scanty U：未驗",
+      "description_zh": "-：陰性\n+：陽性 (1+)\nL：已驗未出\nS：Scanty\nU：未驗",
       "available_notes": [],
       "name_zh_en": "Sputum Smear Result 3",
       "description_en": "-: Negative +: Positive (1+) L: Tested but not released S: Scanty U: Not tested"
@@ -949,7 +949,7 @@
       "name_en": "clcode1",
       "type": "Char",
       "length": 1,
-      "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
+      "description_zh": "L：已驗未出\n-：陰性 (未長菌)\n+：陽性 (長菌)\n9：無法判斷\nP：污染\nU：未驗",
       "available_notes": [],
       "name_zh_en": "sputum culture 1",
       "description_en": "L: Negative (no growth) -: Positive (growth) 9: Unable to determine P: Contaminated U: Unexamined"
@@ -960,7 +960,7 @@
       "name_en": "clcode2",
       "type": "Char",
       "length": 1,
-      "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
+      "description_zh": "L：已驗未出\n-：陰性 (未長菌)\n+：陽性 (長菌)\n9：無法判斷\nP：污染\nU：未驗",
       "available_notes": [],
       "name_zh_en": "sputum culture 2",
       "description_en": "L: Negative (no growth) -: Positive (growth) 9: Unable to determine P: Contaminated U: Unexamined"
@@ -971,7 +971,7 @@
       "name_en": "clcode3",
       "type": "Char",
       "length": 1,
-      "description_zh": "L：已驗未出 -：陰性 (未長菌) +：陽性 (長菌) 9：無法判斷 P：污染 U：未驗",
+      "description_zh": "L：已驗未出\n-：陰性 (未長菌)\n+：陽性 (長菌)\n9：無法判斷\nP：污染\nU：未驗",
       "available_notes": [],
       "name_zh_en": "sputum culture 3",
       "description_en": "L: Negative (no growth) -: Positive (growth) 9: Unable to determine P: Contaminated U: Unexamined"
@@ -982,7 +982,7 @@
       "name_en": "pathology",
       "type": "Char",
       "length": 1,
-      "description_zh": "L：已驗未出 N：未確診 P：確診 ( 肺內 ) Y：確診 ( 肺外 )",
+      "description_zh": "L：已驗未出\nN：未確診\nP：確診 ( 肺內 )\nY：確診 ( 肺外 )",
       "available_notes": [],
       "name_zh_en": "pathology report result",
       "description_en": "L: tested, result not yet available. N: not confirmed. P: confirmed (pulmonary). Y: confirmed (extrapulmonary)."
@@ -1004,7 +1004,7 @@
       "name_en": "clcodekind1",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC )\n0：其他\n9：無法判斷\nL：已驗未出\nN：NTM\nY：結核桿菌\n備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1021,7 +1021,7 @@
       "name_en": "clcodekind2",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 9：無法判斷 L：已驗未出 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC )\n0：其他\n9：無法判斷\nL：已驗未出\nN：NTM\nY：結核桿菌\n備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1038,7 +1038,7 @@
       "name_en": "clcodekind3",
       "type": "Char",
       "length": 1,
-      "description_zh": "-：ICT鑑定( non-MTBC ) 0：其他 L：已驗未出 9：無法判斷 N：NTM Y：結核桿菌備註:104年起長度調整為 4碼",
+      "description_zh": "-：ICT鑑定( non-MTBC )\n0：其他\nL：已驗未出\n9：無法判斷\nN：NTM\nY：結核桿菌\n備註:104年起長度調整為 4碼",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1055,7 +1055,7 @@
       "name_en": "ovedr_date",
       "type": "Char",
       "length": 10,
-      "description_zh": "104年起通報世代，提供該次病程關帳日 YYYY/MM/DD",
+      "description_zh": "104年起通報世代，提供該次病程關帳日\nYYYY/MM/DD",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1083,7 +1083,7 @@
       "name_en": "social",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：已交付(甲類) 2：已交付(乙類) X：拒收(甲類) Y：拒收(乙類)",
+      "description_zh": "1：已交付(甲類)\n2：已交付(乙類)\nX：拒收(甲類)\nY：拒收(乙類)",
       "available_notes": [],
       "name_zh_en": "rejection of yellow card note",
       "description_en": "1：paid (Class A) 2：paid (Class B) X：rejected (Class A) Y：rejected (Class B)"
@@ -1094,7 +1094,7 @@
       "name_en": "jobkind",
       "type": "Char",
       "length": 1,
-      "description_zh": "M：多重抗藥 N：排除 X：多重抗藥:XDR Y：抗藥空白或NULL：未判疾管署慢性組分枝桿菌實驗室研判",
+      "description_zh": "M：多重抗藥\nN：排除\nX：多重抗藥:XDR\nY：抗藥\n空白或NULL：未判\n疾管署慢性組分枝桿菌實驗室研判",
       "available_notes": [],
       "name_zh_en": "multiple drug resistance note in TCM cases",
       "description_en": "M: Multidrug resistant N: Excluded X: Extensively drug-resistant Y: Drug resistance Blank or NULL: Not determined by CDC Chronic Bacterial Laboratory"
@@ -1105,7 +1105,7 @@
       "name_en": "additional_info1",
       "type": "Char",
       "length": 10,
-      "description_zh": "104年起通報世代，將於通報後追蹤 2年期滿後，提供該次病程之銷案日期 YYYY/MM/DD",
+      "description_zh": "104年起通報世代，將於通報後追蹤2年期滿後，提供該次病程之銷案日期YYYY/MM/DD",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1122,7 +1122,7 @@
       "name_en": "additional_info2",
       "type": "Char",
       "length": 1,
-      "description_zh": "104年起通報世代，將於通報後追蹤 2年期滿後，提供該次病程之銷案原因 1：完成管理 2：失落 3：失落 4：死亡 5：死亡 6：轉出 7：轉出 8：排除 (醫師診療判定) B：排除 (BCG) C：排除(疑似滿一年) D：其他 (視同結果失落) F：排除 (醫師診療判定) M：排除 (NTM‧MOTT) O：其他完治",
+      "description_zh": "104年起通報世代，將於通報後追蹤2年期滿後，提供該次病程之銷案原因\n1：完成管理\n2：失落\n3：失落\n4：死亡\n5：死亡\n6：轉出\n7：轉出\n8：排除 (醫師診療判定)\nB：排除 (BCG)\nC：排除(疑似滿一年)\nD：其他 (視同結果失落)\nF：排除 (醫師診療判定)\nM：排除 (NTM‧MOTT)\nO：其他完治",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1139,7 +1139,7 @@
       "name_en": "hnum",
       "type": "Char",
       "length": 9,
-      "description_zh": "參照醫事機構代碼 104年起新增",
+      "description_zh": "參照醫事機構代碼\n104年起新增",
       "available_notes": [
         {
           "roc_year": 104,
@@ -1168,7 +1168,12 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health73_結核病資料庫",
   "data_description_en": "1. Data year from 91 to present. Claims from 2015 or earlier are provided for cases occurring before 2013. 2. To determine follow-up treatment outcomes, starting from 2015, follow-up generations provide case closure reasons and dates two years after the claim; 2015's follow-up treatment results were provided in 2017, those of 2022 in 2023, and so on.",
-  "notes_en": "※This center's database has been de-identified, removing personally identifiable information such as names, addresses, etc., with ID and ovedr_date serving as key values for personal data matching. Related data can only be used within a dedicated operational area of the ministry and can only be carried out after approved statistical results have been reviewed to ensure that the application and disclosure methods do not allow identification of specific individuals.",
+  "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "key values for personal information matching: ID and OVEDR_DATE.",
-  "name_zh_en": "TB database"
+  "name_zh_en": "TB database",
+  "printed": {
+    "field_rows": 99,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

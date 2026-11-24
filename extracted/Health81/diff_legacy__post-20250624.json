@@ -35,7 +35,7 @@
       "name_en": "HOSP_ID_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "醫療機構所在縣市鄉鎮， 代碼參照死因統計檔。",
+      "description_zh": "醫療機構所在縣市鄉鎮，代碼參照死因統計檔。",
       "available_notes": [],
       "name_zh_en": "location of medical institution",
       "description_en": "medical institution county town code referenced to the cause of death statistics file."
@@ -60,6 +60,36 @@
         "length": {
           "from": 9,
           "to": 20
+        }
+      }
+    },
+    {
+      "key": "BRANCH_ID",
+      "seq_later": 2,
+      "changes": {
+        "description_zh": {
+          "from": "0:總局\n1:臺北業務組\n2:北區業務組\n3:中區業務組\n4:南區業務組\n5:高屏業務組\n6:東區業務組",
+          "to": "0:總局 1:臺北業務組 2:北區業務組 3:中區業務組 4:南區業務組 5:高屏業務組 6:東區業務組"
+        }
+      }
+    },
+    {
+      "key": "HOSP_CNT_TYPE",
+      "seq_later": 3,
+      "changes": {
+        "description_zh": {
+          "from": "詳見欄位特約類別\n(HOSP_CNT_TYPE)譯碼說明",
+          "to": "詳見欄位特約類別 (HOSP_CNT_TYPE)譯碼說明"
+        }
+      }
+    },
+    {
+      "key": "HOSP_STATUS",
+      "seq_later": 6,
+      "changes": {
+        "description_zh": {
+          "from": "0：開業\n2：歇業\n3：公告註銷\n6：換區歇業\n7：跨局遷出\n8：休診\n9：變更負責人\nA：終止合約（違約被停）\nB：不續約（合約到期）\nC：醫院自行暫停",
+          "to": "0：開業 2：歇業 3：公告註銷 6：換區歇業 7：跨局遷出 8：休診 9：變更負責人 A：終止合約（違約被停） B：不續約（合約到期） C：醫院自行暫停"
         }
       }
     }

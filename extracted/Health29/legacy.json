@@ -16,63 +16,63 @@
     }
   ],
   "data_description_zh": "1. 資料所屬單位為衛福部醫事司。\n2. 資料年度為 2010、2011、2016、2017、2020年。",
-  "notes_zh": "1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有\n身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入\n院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使\n用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別\n特定當事人。\n2. 原則上每位醫事人員登錄 1筆資料。\n3. 2017年僅擷取執業狀態(WORK_STATUS)為01：執業之資料。\n4. 2017年資料健保分區空白，代表錯誤資料。(執業中，但未有執業機構)\n5. 2020年資料新增 2欄位：執業縣市、執業鄉鎮。 主鍵與無",
-  "primary_keys_raw": "",
+  "notes_zh": "1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有\n身分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入\n院日期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使\n用，並攜出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別\n特定當事人。\n2. 原則上每位醫事人員登錄 1筆資料。\n3. 2017年僅擷取執業狀態(WORK_STATUS)為01：執業之資料。\n4. 2017年資料健保分區空白，代表錯誤資料。(執業中，但未有執業機構)\n5. 2020年資料新增 2欄位：執業縣市、執業鄉鎮。",
+  "primary_keys_raw": "無",
   "fields": [
     {
       "seq": 1,
-      "name_zh": "醫事人員性別9：不詳",
+      "name_zh": "醫事人員性別",
       "name_en": "PRSN_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "2：女性",
+      "description_zh": "1：男性\n2：女性\n9：不詳",
       "available_notes": [],
-      "name_zh_en": "provider gender 9: unspecified",
-      "description_en": "2: female"
+      "name_zh_en": "healthcare provider gender",
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 2,
-      "name_zh": "出生年月1：台北區分局、2：北區分局、3：中區分局、",
+      "name_zh": "出生年月",
       "name_en": "BIRTH_YM",
       "type": "Char",
       "length": 6,
       "description_zh": "西元年 ，YYYYMM",
       "available_notes": [],
-      "name_zh_en": "birth date: Taipei District Office 1, North District Office 2, Central District Office 3:",
+      "name_zh_en": "birth year and month",
       "description_en": "year AD, YYYYMM"
     },
     {
       "seq": 3,
-      "name_zh": "健保分區4：南區分局、5：高屏分局、6：花東區分局",
+      "name_zh": "健保分區",
       "name_en": "BRANCH_CODE",
       "type": "Char",
       "length": 1,
-      "description_zh": "",
+      "description_zh": "1：台北區分局、\n2：北區分局、\n3：中區分局、\n4：南區分局、\n5：高屏分局、\n6：花東區分局",
       "available_notes": [],
-      "name_zh_en": "NHIS region 4: Southern Region Office, 5: Kaohsiung-Pingtung Region Office, 6: Hualien-Taitung Region Office",
-      "description_en": ""
+      "name_zh_en": "NHI branch",
+      "description_en": "1: Taipei Branch,\n2: Northern Branch,\n3: Central Branch,\n4: Southern Branch,\n5: Kaoping Branch,\n6: Hualien-Taitung Branch"
     },
     {
       "seq": 4,
-      "name_zh": "人員類別01：執業",
+      "name_zh": "人員類別",
       "name_en": "PRSN_TYPE",
       "type": "Char",
       "length": 1,
       "description_zh": "詳三、欄位（變項）譯碼說明",
       "available_notes": [],
-      "name_zh_en": "personnel category 01: practitioner",
+      "name_zh_en": "person type",
       "description_en": "details three, field (variable) coding explanation"
     },
     {
       "seq": 5,
-      "name_zh": "執業狀態03：歇業",
+      "name_zh": "執業狀態",
       "name_en": "WORK_STATUS",
       "type": "Char",
       "length": 2,
-      "description_zh": "02：停業",
+      "description_zh": "01：執業\n02：停業\n03：歇業",
       "available_notes": [],
-      "name_zh_en": "执业状态03：停业",
-      "description_en": "02: suspension of business"
+      "name_zh_en": "Practice status",
+      "description_en": "01: Practicing\n02: Suspended\n03: Closed"
     },
     {
       "seq": 6,
@@ -115,83 +115,163 @@
       "entries": [
         {
           "code": "1",
-          "label_zh": "語言治療師 K 醫事檢驗生",
-          "label_en": "speech therapist K medical laboratory technician"
+          "label_zh": "語言治療師",
+          "label_en": "speech therapist"
         },
         {
           "code": "2",
-          "label_zh": "牙體技術師 L 鑲牙生",
-          "label_en": "dental technologist L dental assistant"
+          "label_zh": "牙體技術師",
+          "label_en": "dentist technician"
         },
         {
           "code": "3",
-          "label_zh": "聽力師 M 中藥員",
+          "label_zh": "聽力師",
           "label_en": "audiologist"
         },
         {
           "code": "4",
-          "label_zh": "牙體技術生 N 齒模員",
-          "label_en": "dental technician N dental model maker"
+          "label_zh": "牙體技術生",
+          "label_en": "dentist technologist"
         },
         {
           "code": "5",
-          "label_zh": "驗光師 O 非醫事人員",
-          "label_en": "optometrist O non-medical personnel"
+          "label_zh": "驗光師",
+          "label_en": "optometrist"
         },
         {
           "code": "6",
-          "label_zh": "驗光生 P 接骨員",
-          "label_en": "orthopedic technician P"
+          "label_zh": "驗光生",
+          "label_en": "optometry apprentice"
         },
         {
           "code": "A",
-          "label_zh": "西醫師 Q 物理治療師",
-          "label_en": "general practitioner Q physical therapist"
+          "label_zh": "西醫師",
+          "label_en": "Spanish physician"
         },
         {
           "code": "B",
-          "label_zh": "中醫師 R 職能治療師",
-          "label_en": "traditional Chinese medicine physician R functional therapist"
+          "label_zh": "中醫師",
+          "label_en": "traditional Chinese physician"
         },
         {
           "code": "C",
-          "label_zh": "牙醫師 S 醫事放射師",
-          "label_en": "dentist S radiologic technician"
+          "label_zh": "牙醫師",
+          "label_en": "dentist"
         },
         {
           "code": "D",
-          "label_zh": "藥師 T 醫事放射士",
+          "label_zh": "藥師",
           "label_en": "pharmacist"
         },
         {
           "code": "E",
-          "label_zh": "藥劑生 U 物理治療生",
-          "label_en": "pharmacist or physical therapist"
+          "label_zh": "藥劑生",
+          "label_en": "pharmacist"
         },
         {
           "code": "F",
-          "label_zh": "護理師 V 呼吸治療師",
-          "label_en": "nurse V respiratory therapist"
+          "label_zh": "護理師",
+          "label_en": "nurse"
         },
         {
           "code": "G",
-          "label_zh": "護士 W 職能治療生",
-          "label_en": "nurse W occupational therapy session"
+          "label_zh": "護士",
+          "label_en": "nurse"
         },
         {
           "code": "H",
-          "label_zh": "助產士 X 諮商心理師",
-          "label_en": "midwife X counselor psychologist"
+          "label_zh": "助產士",
+          "label_en": "midwife"
         },
         {
           "code": "I",
-          "label_zh": "助產師 Y 臨床心理師",
-          "label_en": "laborist Y clinical psychologist"
+          "label_zh": "助產師",
+          "label_en": "matron"
         },
         {
           "code": "J",
-          "label_zh": "醫事檢驗師 Z 營養師",
-          "label_en": "medical检验师 Z nutritionist"
+          "label_zh": "醫事檢驗師",
+          "label_en": "medical laboratory technician"
+        },
+        {
+          "code": "K",
+          "label_zh": "醫事檢驗生",
+          "label_en": "medical laboratory assistant"
+        },
+        {
+          "code": "L",
+          "label_zh": "鑲牙生",
+          "label_en": "dentist apprentice"
+        },
+        {
+          "code": "M",
+          "label_zh": "中藥員",
+          "label_en": "Chinese herbal medicine dispenser"
+        },
+        {
+          "code": "N",
+          "label_zh": "齒模員",
+          "label_en": "Dental model technician"
+        },
+        {
+          "code": "O",
+          "label_zh": "非醫事人員",
+          "label_en": "Non-medical personnel"
+        },
+        {
+          "code": "P",
+          "label_zh": "接骨員",
+          "label_en": "Bone-setter"
+        },
+        {
+          "code": "Q",
+          "label_zh": "物理治療師",
+          "label_en": "physiotherapist"
+        },
+        {
+          "code": "R",
+          "label_zh": "職能治療師",
+          "label_en": "occupational therapist"
+        },
+        {
+          "code": "S",
+          "label_zh": "醫事放射師",
+          "label_en": "medical radiologist"
+        },
+        {
+          "code": "T",
+          "label_zh": "醫事放射士",
+          "label_en": "medical radiographer"
+        },
+        {
+          "code": "U",
+          "label_zh": "物理治療生",
+          "label_en": "physiotherapy student"
+        },
+        {
+          "code": "V",
+          "label_zh": "呼吸治療師",
+          "label_en": "respiratory therapist"
+        },
+        {
+          "code": "W",
+          "label_zh": "職能治療生",
+          "label_en": "occupational therapy student"
+        },
+        {
+          "code": "X",
+          "label_zh": "諮商心理師",
+          "label_en": "counseling psychologist"
+        },
+        {
+          "code": "Y",
+          "label_zh": "臨床心理師",
+          "label_en": "clinical psychologist"
+        },
+        {
+          "code": "Z",
+          "label_zh": "營養師",
+          "label_en": "nutritionist"
         }
       ],
       "field_en": "person type"
@@ -213,7 +293,16 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health29_醫事人員基本資料檔",
   "data_description_en": "1. The data belongs to the Department of Medical Affairs, Ministry of Health and Welfare.\n2. The data years are 2010, 2011, 2016, 2017, 2020.",
-  "notes_en": "1. To meet clinical cancer-care needs, from ROC year 98 (2009) the Health Promotion Administration began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height and weight were also added and revised in the ROC-100 (2011) cancer-registry abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and those added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical...).",
-  "primary_keys_en": "",
-  "name_zh_en": "medical personnel basic data file"
+  "notes_en": "1. ※ This center's database has been de-identified: directly identifying fields such as name and address were\ndeleted, and fields such as national ID number, facility code, insured unit code, unified business number, date\nof birth, date of visit and admission date are masked. The data may be used only in the\nindependent work area set up by this Ministry, and only statistical results that pass review may be\ntaken out, to ensure that the use and disclosure of the data cannot identify any specific individual.\n2. In principle, one record per healthcare professional.\n3. The 2017 data include only records with practice status (WORK_STATUS) 01: Practicing.\n4. In the 2017 data, a blank NHI branch indicates erroneous data (practicing but with no practice facility).\n5. Two fields were added to the 2020 data: practice county/city and practice township.",
+  "primary_keys_en": "none",
+  "name_zh_en": "medical personnel basic data file",
+  "printed": {
+    "field_rows": 7,
+    "code_tables": {
+      "PRSN_TYPE": 32
+    },
+    "code_table_headings": [
+      "PRSN_TYPE"
+    ]
+  }
 }

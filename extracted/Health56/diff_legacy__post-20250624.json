@@ -2,9 +2,75 @@
   "code": "Health56",
   "earlier_version_id": "legacy",
   "later_version_id": "post-20250624",
-  "earlier_field_count": 51,
-  "later_field_count": 48,
+  "earlier_field_count": 69,
+  "later_field_count": 65,
   "added": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。\n112年長度24",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National Resident Identity Card unified number, or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with insufficient numbers padded. 2024 length is 24"
+    },
+    {
+      "seq": 1,
+      "name_zh": "支付方式",
+      "name_en": "Q_FILETYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 1,
+      "name_zh": "單位代碼",
+      "name_en": "UNIT_ID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別院所鍵值。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Unit code",
+      "description_en": "encrypted value for hospital key."
+    },
+    {
+      "seq": 2,
+      "name_zh": "單位等級",
+      "name_en": "UNIT_LEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "unit level",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
+    },
     {
       "seq": 2,
       "name_zh": "疾病史-有無得過下列疾病",
@@ -12,9 +78,34 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：乳房良性相關疾病；2：乳癌；3：其他癌症",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
+    },
+    {
+      "seq": 3,
+      "name_zh": "家族史-與您有血緣的家屬中，有無人得過癌症",
+      "name_en": "Q_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "Family history: whether any blood relatives have had cancer",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 3,
+      "name_zh": "單位所在區碼",
+      "name_en": "UNIT_AREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "District code of unit location",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -23,9 +114,34 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：身分證；2：護照",
+      "table": "H_BHP_BCS_PD",
       "available_notes": [],
       "name_zh_en": "document source",
       "description_en": "1: national ID; 2: passport"
+    },
+    {
+      "seq": 4,
+      "name_zh": "醫院等級",
+      "name_en": "UNIT_HLEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "hospital grade",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 4,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 4,
@@ -34,6 +150,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -45,12 +162,85 @@
       "description_en": "For 2024, character type length is 2"
     },
     {
+      "seq": 5,
+      "name_zh": "家族史-姊妹",
+      "name_en": "Q_2_SISTER",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Family history: sister",
+      "description_en": "For 2024, character type length is 2"
+    },
+    {
+      "seq": 5,
+      "name_zh": "是否為乳攝合約醫院",
+      "name_en": "UNIT_CONTRACT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "T：是；Null：否",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Whether a mammography contracted hospital",
+      "description_en": "T: yes Null: no"
+    },
+    {
+      "seq": 6,
+      "name_zh": "是否限制乳攝車",
+      "name_en": "UNIT_CAR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Whether restricted to mobile mammography vehicle",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 6,
+      "name_zh": "家族史-女兒",
+      "name_en": "Q_2_DAUGHTER",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "family history - daughter",
+      "description_en": "For 2024, character type length is 2"
+    },
+    {
+      "seq": 7,
+      "name_zh": "現居地代碼",
+      "name_en": "LIVINGAREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明。",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "residence code",
+      "description_en": "See code table."
+    },
+    {
       "seq": 7,
       "name_zh": "家族9史-祖母",
       "name_en": "Q_2_GRANDMA",
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -63,11 +253,24 @@
     },
     {
       "seq": 8,
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
+      "name_en": "UNIT_ID_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "medical_institution_county_city_township_code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 8,
       "name_zh": "家族史-外祖母",
       "name_en": "Q_2_GRANDMA1",
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -80,11 +283,30 @@
     },
     {
       "seq": 9,
+      "name_zh": "家族史-姑姑",
+      "name_en": "Q_2_AUNT1",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "112 年起無",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "family history - aunt",
+      "description_en": "starting from 112 year"
+    },
+    {
+      "seq": 9,
       "name_zh": "醫療機構權屬別",
       "name_en": "UNIT_ID_HOS",
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_BCS_UNIT",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "Codes referenced from the current medical institution file."
@@ -96,6 +318,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "112 年起無",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -113,6 +336,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -130,6 +354,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "menstrual history-menopause status",
       "description_en": "0: no; 1: yes"
@@ -141,6 +366,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -158,6 +384,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "詳譯碼說明。113年長度3",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -175,6 +402,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -192,6 +420,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "childbirth history - breast feeding",
       "description_en": "0: no; 1: yes"
@@ -203,6 +432,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 2型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -220,6 +450,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "history of medication - whether taking hormone replacement therapy",
       "description_en": "0: no; 1: yes"
@@ -231,6 +462,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 4型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -248,6 +480,7 @@
       "type": "Char",
       "length": 21,
       "description_zh": "",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "drug history - years taken (herbal)",
       "description_en": ""
@@ -259,6 +492,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
@@ -270,6 +504,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 4型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -287,6 +522,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113 年長度 21型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -304,6 +540,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
@@ -315,6 +552,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "whether underwent physical examination within the last two years",
       "description_en": "1: yes; Null: no selection"
@@ -326,6 +564,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "whether underwent mammography within the last two years",
       "description_en": "1: yes; Null: no selection"
@@ -337,6 +576,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other - whether done within the last two years - ultrasound",
       "description_en": "1: yes; Null: no selection"
@@ -348,6 +588,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "Other - Whether Done Over the Past Two Years - None of the Above",
       "description_en": "1: yes; Null: no selection"
@@ -359,6 +600,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "T：是；F：否",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
@@ -370,6 +612,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-left-mastectomy",
       "description_en": "0: no; 1: yes"
@@ -381,6 +624,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-right breast surgery",
       "description_en": "0: no; 1: yes"
@@ -391,7 +635,8 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼 （如無居留證號碼請填護照號碼），左靠不足補空白。 112 年起長度為20",
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。112 年起長度為20",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -409,6 +654,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則；1：不符合",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
@@ -420,6 +666,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male; 2: female; 9: unknown"
@@ -431,6 +678,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "education level",
       "description_en": "detailed translation explanation"
@@ -441,7 +689,8 @@
       "name_en": "Q_HIGH",
       "type": "Char",
       "length": 17,
-      "description_zh": "112年長度 18、113年長度 19",
+      "description_zh": "112年長度 18、113年長度19",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -464,6 +713,7 @@
       "type": "Char",
       "length": 35,
       "description_zh": "112年起長度10",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -481,6 +731,7 @@
       "type": "Char",
       "length": 20,
       "description_zh": "經加密處理，為辨別院所鍵值。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
       "description_en": "encrypted value for hospital key."
@@ -492,6 +743,7 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年YYYY-MM-DD 113 年長度 10",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -509,6 +761,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "camera model",
       "description_en": "detailed translation explanation"
@@ -520,6 +773,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "palpation result",
       "description_en": "detailed translation explanation"
@@ -531,6 +785,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "breast composition",
       "description_en": "detailed translation explanation"
@@ -542,6 +797,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "F：否；T：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "comparison with old film",
       "description_en": "F: No; T: Yes"
@@ -553,6 +809,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "reason for no old film",
       "description_en": "detailed translation explanation"
@@ -564,6 +821,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "mammography_result",
       "description_en": "detailed translation explanation"
@@ -575,6 +833,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "mammography result 4 secondary option",
       "description_en": "detailed translation explanation"
@@ -586,6 +845,7 @@
       "type": "Char",
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
@@ -597,6 +857,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "Codes referenced from the current medical institution file."
@@ -604,15 +865,76 @@
   ],
   "removed": [
     {
+      "seq": 1,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 1,
+      "name_zh": "單位代碼",
+      "name_en": "HOSP_ID",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別院所鍵值。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Unit code",
+      "description_en": "encrypted value for hospital key."
+    },
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
+    },
+    {
       "seq": 2,
       "name_zh": "疾病史-有無得過下列疾病",
       "name_en": "HIS_DIS",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：乳房良性相關疾病； 2：乳癌；3：其他癌症",
+      "description_zh": "0：無；1：乳房良性相關疾病；\n2：乳癌；3：其他癌症",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+    },
+    {
+      "seq": 2,
+      "name_zh": "單位等級",
+      "name_en": "U_LEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "unit level",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 3,
@@ -621,9 +943,148 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：身分證；2：護照",
+      "table": "H_BHP_BCS_PD",
       "available_notes": [],
       "name_zh_en": "document source",
       "description_en": "1: national ID; 2: passport"
+    },
+    {
+      "seq": 3,
+      "name_zh": "疾病史-其他癌症敘述",
+      "name_en": "HIS_OC",
+      "type": "Char",
+      "length": 60,
+      "description_zh": "113年長度37",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Disease history: other cancer, description",
+      "description_en": "ROC year 113 (2024): length 37"
+    },
+    {
+      "seq": 3,
+      "name_zh": "單位所在區碼",
+      "name_en": "U_AREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "District code of unit location",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
+    },
+    {
+      "seq": 4,
+      "name_zh": "醫院等級",
+      "name_en": "U_HLEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "hospital grade",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 4,
+      "name_zh": "家族史-與您有血緣的家屬中，有無人得過癌症",
+      "name_en": "FAM_CANCER",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "Family history: whether any blood relatives have had cancer",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 5,
+      "name_zh": "是否為乳攝合約醫院",
+      "name_en": "U_MGCH",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "T：是；Null：否",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Whether a mammography contracted hospital",
+      "description_en": "T: yes Null: no"
+    },
+    {
+      "seq": 5,
+      "name_zh": "家族史-母親數",
+      "name_en": "FAM_MOM",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "family history - mother count",
+      "description_en": "2024 year length 2, type is character"
+    },
+    {
+      "seq": 6,
+      "name_zh": "是否限制乳攝車",
+      "name_en": "U_CAR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "Whether restricted to mobile mammography vehicle",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 6,
+      "name_zh": "家族史-姊妹",
+      "name_en": "FAM_SIS",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Family history: sister",
+      "description_en": "2024 year length 2, type is character"
+    },
+    {
+      "seq": 7,
+      "name_zh": "現居地代碼",
+      "name_en": "LIVING",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明。",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "residence code",
+      "description_en": "See code table."
     },
     {
       "seq": 7,
@@ -632,6 +1093,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -644,11 +1106,24 @@
     },
     {
       "seq": 8,
+      "name_zh": "醫療機構縣市鄉鎮市區代碼",
+      "name_en": "CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "medical_institution_county_city_township_code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 8,
       "name_zh": "家族史-祖母",
       "name_en": "FAM_GMA1",
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -661,11 +1136,24 @@
     },
     {
       "seq": 9,
+      "name_zh": "醫療機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "ownership category of medical facility",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 9,
       "name_zh": "家族史-外祖母",
       "name_en": "FAM_GMA2",
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -683,6 +1171,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "112年起無",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -700,6 +1189,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "112年起無",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 112,
@@ -717,6 +1207,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -734,6 +1225,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "menstrual history-menopause status",
       "description_en": "0: no; 1: yes"
@@ -745,6 +1237,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -762,6 +1255,7 @@
       "type": "Char",
       "length": 10,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "menstrual_history-menopause_cause",
       "description_en": "detailed translation explanation"
@@ -773,6 +1267,7 @@
       "type": "Char",
       "length": 60,
       "description_zh": "113年長度31",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -790,6 +1285,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度2，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -807,6 +1303,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "maternal history of breastfeeding",
       "description_en": "0: no; 1: yes"
@@ -818,6 +1315,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "age at first childbirth",
       "description_en": ""
@@ -829,6 +1327,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "history of medication - whether taking hormone replacement therapy",
       "description_en": "0: no; 1: yes"
@@ -840,6 +1339,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度4，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -857,6 +1357,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度21，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -874,6 +1375,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "whether taking contraceptive pills",
       "description_en": "0: no; 1: yes"
@@ -885,6 +1387,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度4，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -902,6 +1405,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度21，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -919,50 +1423,55 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "feel abnormal lump",
       "description_en": "detailed translation explanation"
     },
     {
       "seq": 27,
-      "name_zh": "其他-最近二年內是否做過- 觸診",
+      "name_zh": "其他-最近二年內是否做過-觸診",
       "name_en": "O_HAND",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other - whether done within the last two years - palpation",
       "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 28,
-      "name_zh": "其他-最近二年內是否做過- 乳攝",
+      "name_zh": "其他-最近二年內是否做過-乳攝",
       "name_en": "O_MG",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other - whether done within the last two years - mammography",
       "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 29,
-      "name_zh": "其他-最近二年內是否做過- 超音波",
+      "name_zh": "其他-最近二年內是否做過-超音波",
       "name_en": "O_ULTRA",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "Other - Whether Done Over the Past Two Years - Ultrasound",
       "description_en": "1: yes; Null: no selection"
     },
     {
       "seq": 30,
-      "name_zh": "其他-最近二年內是否做過- 皆未做過",
+      "name_zh": "其他-最近二年內是否做過-皆未做過",
       "name_en": "O_NON",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有；Null：沒有勾選",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other - whether done within the last two years - never done",
       "description_en": "1: yes; Null: no selection"
@@ -974,6 +1483,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "T：是；F：否",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-whether breast surgery has been performed",
       "description_en": "T: Yes; F: No"
@@ -985,6 +1495,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-left-mastectomy",
       "description_en": "0: no; 1: yes"
@@ -996,6 +1507,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "other-right breast surgery",
       "description_en": "0: no; 1: yes"
@@ -1007,6 +1519,7 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
@@ -1017,7 +1530,8 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則； 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
@@ -1029,6 +1543,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male; 2: female; 9: unknown"
@@ -1040,6 +1555,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "education level",
       "description_en": "detailed translation explanation"
@@ -1051,6 +1567,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度10，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -1068,6 +1585,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "113年長度10，型態為字元",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [
         {
           "roc_year": 113,
@@ -1085,6 +1603,7 @@
       "type": "Char",
       "length": 9,
       "description_zh": "經加密處理，為辨別院所鍵值。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
       "description_en": "encrypted value for hospital key."
@@ -1096,6 +1615,7 @@
       "type": "Char",
       "length": 8,
       "description_zh": "西元年YYYYMMDD",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "mammography_date",
       "description_en": "year AD YYYYMMDD"
@@ -1107,6 +1627,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "camera model",
       "description_en": "detailed translation explanation"
@@ -1118,6 +1639,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "palpation result",
       "description_en": "detailed translation explanation"
@@ -1129,6 +1651,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "breast composition",
       "description_en": "detailed translation explanation"
@@ -1140,6 +1663,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "F：否；T：是",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "comparison with old film",
       "description_en": "F: No; T: Yes"
@@ -1151,6 +1675,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "reason for no old film",
       "description_en": "detailed translation explanation"
@@ -1162,6 +1687,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "mammography_result",
       "description_en": "detailed translation explanation"
@@ -1173,6 +1699,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "mammography result 4 secondary option",
       "description_en": "detailed translation explanation"
@@ -1184,6 +1711,7 @@
       "type": "Char",
       "length": 5,
       "description_zh": "不提供",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "radiologist code",
       "description_en": "not provided"
@@ -1195,6 +1723,7 @@
       "type": "Char",
       "length": 5,
       "description_zh": "不提供",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "radiologic technologist code",
       "description_en": "not provided"
@@ -1206,6 +1735,7 @@
       "type": "Char",
       "length": 4,
       "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
@@ -1217,6 +1747,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "Codes referenced from the current medical institution file."
@@ -1224,7 +1755,7 @@
   ],
   "modified": [
     {
-      "key": "BIRTH_YM",
+      "key": "H_BHP_BCS_PD.BIRTH_YM",
       "seq_later": 6,
       "changes": {
         "length": {

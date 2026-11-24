@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "提供1979年至最新發表年度癌症個案歸戶後之年報資料，包含各癌症原位癌及侵\n襲癌個案。其資料的整理包含所有長表及短表醫院申報資料，且已去除同一個案同\n一癌症別，且同一組織型態組別之重複個案。",
-  "notes_zh": "1. 原位癌或侵襲癌個案之辨識，請以組織型態性態碼(HISTBEH欄位第 5碼)區\n分。\n2. 有關死亡原因及死亡日期欄位，為醫院申報當時之資料，若後續個案死亡，並\n不會再做更新，故不提供此欄位資料以免誤解。若有需要，請直接連結死因統\n計檔(Health-10)。\n3. 癌症部分(CASITE欄位)，已新增為5碼，若第1碼為”H”者，表示為血液腫瘤\n個案。若要再細分NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血\n病)等血液腫瘤個案，必須以組織病理(HISTBEH欄位)作區分。若是要分析各癌\n症部分(CASITE欄位)，請先把NHL、HL、LEU等血液腫瘤排除後再計算。\n4. 2002年起診斷之新發癌症個案，始收錄分級分化程度(GRADE 欄位)資料。另自\n2018年起新增編碼A/B/C/D/E/H/L/M/S/X(詳見107年版癌症登記摘錄手冊短表\n45欄位與長表115欄位內容)\n5. 治療情形(TX欄位)已合併個案所有申報醫院治療狀況。2007年以後收錄之詳細\n治療資料，請另見長、短表治療欄位。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 1. 身分證字號(ID)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
-  "primary_keys_raw": "",
+  "notes_zh": "1. 原位癌或侵襲癌個案之辨識，請以組織型態性態碼(HISTBEH欄位第 5碼)區\n分。\n2. 有關死亡原因及死亡日期欄位，為醫院申報當時之資料，若後續個案死亡，並\n不會再做更新，故不提供此欄位資料以免誤解。若有需要，請直接連結死因統\n計檔(Health-10)。\n3. 癌症部分(CASITE欄位)，已新增為5碼，若第1碼為”H”者，表示為血液腫瘤\n個案。若要再細分NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血\n病)等血液腫瘤個案，必須以組織病理(HISTBEH欄位)作區分。若是要分析各癌\n症部分(CASITE欄位)，請先把NHL、HL、LEU等血液腫瘤排除後再計算。\n4. 2002年起診斷之新發癌症個案，始收錄分級分化程度(GRADE 欄位)資料。另自\n2018年起新增編碼A/B/C/D/E/H/L/M/S/X(詳見107年版癌症登記摘錄手冊短表\n45欄位與長表115欄位內容)\n5. 治療情形(TX欄位)已合併個案所有申報醫院治療狀況。2007年以後收錄之詳細\n治療資料，請另見長、短表治療欄位。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
+  "primary_keys_raw": "1. 身分證字號(ID)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
   "fields": [
     {
       "seq": 1,
@@ -25,7 +25,7 @@
       "name_en": "TX",
       "type": "Char",
       "length": 15,
-      "description_zh": "合併個案所有申報醫院治療狀況 0：未治療 1：手術治療 2：放射線治療 3：化學藥物治療 5: (保留碼，視為無治療) 6：免疫治療， 7：內分泌（荷爾蒙）治療 8：支持治療 9：中藥（中醫療法） B：骨髓/幹細胞移植 O：其他治療 P：局部性化學治療 I：局部免疫治療 T：標靶治療 X：其他(包含局部肝動脈栓塞治療 TACE)，或為新的治療方法，非指他院治療",
+      "description_zh": "合併個案所有申報醫院治療狀況\n0：未治療\n1：手術治療\n2：放射線治療\n3：化學藥物治療\n5: (保留碼，視為無治療)\n6：免疫治療，\n7：內分泌（荷爾蒙）治療\n8：支持治療\n9：中藥（中醫療法）\nB：骨髓/幹細胞移植\nO：其他治療\nP：局部性化學治療\nI：局部免疫治療\nT：標靶治療\nX：其他(包含局部肝動脈栓塞治療TACE)，或為新的治療方法，非指他院治療",
       "available_notes": [],
       "name_zh_en": "Treatment Condition",
       "description_en": "Combined case reported hospital treatment status 0: No treatment 1: Surgical treatment 2: Radiation therapy 3: Chemotherapy 5: (Reserved code, treated as no treatment) 6: Immunotherapy 7: Endocrine (hormonal) therapy 8: Supportive therapy 9: Traditional Chinese medicine (TCM) B: Bone marrow/stem cell transplantation O: Other treatment P: Local chemical therapy I: Local immunotherapy T: Targeted therapy X: Others (including local hepatic artery embolization therapy TACE), or a new treatment method, not other hospital treatment"
@@ -36,7 +36,7 @@
       "name_en": "SEX",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男性 2：女性 4：變性人",
+      "description_zh": "1：男性\n2：女性\n4：變性人",
       "available_notes": [],
       "name_zh_en": "original gender",
       "description_en": "1: Male; 2: Female; 4: Transgender"
@@ -69,7 +69,7 @@
       "name_en": "RESID",
       "type": "Char",
       "length": 4,
-      "description_zh": "詳戶籍地代碼(RESID)對照表本檔案皆使用新五都代碼",
+      "description_zh": "詳戶籍地代碼(RESID)對照表\n本檔案皆使用新五都代碼",
       "available_notes": [],
       "name_zh_en": "household registration code",
       "description_en": "detailed household code (RESID) this file uses new five-capital codes"
@@ -80,7 +80,7 @@
       "name_en": "DIAG_DT",
       "type": "Char",
       "length": 8,
-      "description_zh": "YYYYMMDD 最初診斷日期不詳：99999999",
+      "description_zh": "YYYYMMDD\n最初診斷日期不詳：99999999",
       "available_notes": [],
       "name_zh_en": "initial diagnosis date",
       "description_en": "YYYYMMDD Initial diagnosis date unknown: 99999999"
@@ -91,7 +91,7 @@
       "name_en": "CONFIRM",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：臨床病狀 1：實驗診斷 2：影像檢查 3：內視鏡 4：探查手術 5：細胞診斷 6：血液病理 7：組織病理 8：屍體解剖 9：診斷未明",
+      "description_zh": "0：臨床病狀\n1：實驗診斷\n2：影像檢查\n3：內視鏡\n4：探查手術\n5：細胞診斷\n6：血液病理\n7：組織病理\n8：屍體解剖\n9：診斷未明",
       "available_notes": [],
       "name_zh_en": "diagnosis method for cancer",
       "description_en": "0: Clinical presentation; 1: Laboratory diagnosis; 2: Imaging examination; 3: Endoscopy; 4: Exploratory surgery; 5: Cytology; 6: Hematologic pathology; 7: Histopathology; 8: Autopsy; 9: Diagnosis unknown."
@@ -102,7 +102,7 @@
       "name_en": "GRADE",
       "type": "Char",
       "length": 1,
-      "description_zh": "2002年起收錄 1：Well differentiated Differentiated,NOS 2：Moderatelydifferentiated Moderatelywell differentiated Intermediatedifferentiated 3：Poorlydifferentiated 4：Undifferentiated Anaplastic 9：Gradeordifferentiationnot determined,not statedor not applicable 注意：因各癌別腫瘤分級/分化程度有二、三、四分法，詳細說明請參考 100年版之前的台灣癌症登記長短表摘錄手冊內容，可逕至台灣癌症登記中心網站[癌症登記申報相關參考資料]處下載，網址如下： http://tcr.cph.ntu.edu.tw/main.php?Page =A6) ForLymphomas and Leukemias 5：Tcell 6：B cell；pre-B；B-precursor 7：Null cell；nonT-non B 8：NK(natural killer)cell 9：Cell typenot determined,not stated ornot applicable ForOvaryborderlinetumor B：Ovaryborderlinetumor(Low malignant potential)合併intraepithelial carcinoma或/及microinvasion ForColon-Rectumtumor B：Colon-Rectum Highgrade dysplasia(severedysplasia) 2018年起，新增編碼A/B/C/D/E/H/L /M/S/X(詳見台灣癌症登記中心網站 [癌症登記申報相關參考資料]_107年版癌症登記摘錄手冊短表45欄位與",
+      "description_zh": "2002年起收錄\n1：Well differentiated\nDifferentiated,NOS\n2：Moderatelydifferentiated\nModeratelywell differentiated Intermediatedifferentiated\n3：Poorlydifferentiated\n4：Undifferentiated\nAnaplastic\n9：Gradeordifferentiationnot\ndetermined,not statedor not applicable注意：因各癌別腫瘤分級/分化程度有二、三、四分法，詳細說明請參考100年版之前的台灣癌症登記長短表摘錄手冊內容，可逕至台灣癌症登記中心網站[癌症登記申報相關參考資料]處下載，網址如下：\nhttp://tcr.cph.ntu.edu.tw/main.php?Page =A6)\nForLymphomas and Leukemias\n5：Tcell\n6：B cell；pre-B；B-precursor\n7：Null cell；nonT-non B\n8：NK(natural killer)cell\n9：Cell typenot determined,not stated ornot applicable\nForOvaryborderlinetumor\nB：Ovaryborderlinetumor(Low\nmalignant potential)合併intraepithelial carcinoma或/及microinvasion\nForColon-Rectumtumor\nB：Colon-Rectum Highgrade\ndysplasia(severedysplasia)\n2018年起，新增編碼A/B/C/D/E/H/L /M/S/X(詳見台灣癌症登記中心網站[癌症登記申報相關參考資料]_107年版癌症登記摘錄手冊短表45欄位與長表115欄位內容)",
       "available_notes": [
         {
           "roc_year": 100,
@@ -116,7 +116,7 @@
         }
       ],
       "name_zh_en": "grading/differentiation",
-      "description_en": "Consultation Form (W_LTC_CMS_QD111). Records: 822,590 (ROC 110/2021); 1,362,386 (ROC 111/2022). File size: 50.4 MB (2021); 83.5 MB (2022). Fields: 7. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID; matches Consultation Form Service-Item Detail (W_LTC_CMS_QD111100) on serial number OBJID; matches the case master file (W_LTC_CMS_CA100) on CA100_ID."
+      "description_en": "Collected from 2002\n1: Well differentiated\nDifferentiated,NOS\n2: Moderatelydifferentiated\nModeratelywell differentiated Intermediatedifferentiated\n3: Poorlydifferentiated\n4: Undifferentiated\nAnaplastic\n9: Gradeordifferentiationnot\ndetermined,not statedor not applicable Note: Because tumor grade/differentiation uses two-, three- or four-level schemes depending on cancer site, for details see the Taiwan Cancer Registry long and short form abstracting manuals before the ROC year 100 (2011) edition, which can be downloaded from the Taiwan Cancer Registry website under [Cancer registry reporting references]; URL: \nhttp://tcr.cph.ntu.edu.tw/main.php?Page =A6)\nForLymphomas and Leukemias\n5: Tcell\n6: B cell; pre-B; B-precursor\n7: Null cell; nonT-non B\n8: NK(natural killer)cell\n9: Cell typenot determined,not stated ornot applicable\nForOvaryborderlinetumor\nB: Ovaryborderlinetumor(Low\nmalignant potential) combined with intraepithelial carcinoma and/or microinvasion\nForColon-Rectumtumor\nB: Colon-Rectum Highgrade\ndysplasia(severedysplasia)\nFrom 2018, new codes were added: A/B/C/D/E/H/L /M/S/X(see the Taiwan Cancer Registry website [Cancer registry reporting references]_ROC year 107 (2018) edition Cancer Registry Abstracting Manual, short form field 45 and long form field 115)"
     },
     {
       "seq": 9,
@@ -124,7 +124,7 @@
       "name_en": "HISTBEH",
       "type": "Char",
       "length": 5,
-      "description_zh": "組織病理：用ICD-O 譯碼第5碼為2：原位癌第5碼為3：侵襲癌詳組織類型與性態碼(HISTBEH)對照表 (血液腫瘤編碼範圍：95903-99933， 需排除99903。血液腫瘤細分類詳血液腫瘤分類表)",
+      "description_zh": "組織病理：用ICD-O 譯碼\n第5碼為2：原位癌\n第5碼為3：侵襲癌\n詳組織類型與性態碼(HISTBEH)對照表\n(血液腫瘤編碼範圍：95903-99933，需排除99903。血液腫瘤細分類詳血液腫瘤分類表)",
       "available_notes": [],
       "name_zh_en": "type and status code",
       "description_en": "Histopathology: coded using ICD-O. 5th digit = 2: in situ carcinoma. 5th digit = 3: invasive carcinoma. See Histology Type and Behavior Code (HISTBEH) table (hematologic malignancy code range: 95903-99933, excluding 99903. For hematologic malignancy subclassification, see the Hematologic Malignancy Classification table)."
@@ -135,7 +135,7 @@
       "name_en": "CASITE",
       "type": "Char",
       "length": 5,
-      "description_zh": "第1碼為H者：表示為血液腫瘤個案其他第1碼非H者：詳見原發部位 (CASITE)對照表血液腫瘤個案若要再細分NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
+      "description_zh": "第1碼為H者：表示為血液腫瘤個案其他第1碼非H者：詳見原發部位(CASITE)對照表\n血液腫瘤個案若要再細分NHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及LEU(白血病)等血液腫瘤個\n案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
       "description_en": "If the first character is H, the case is a hematologic malignancy; for other cases where the first character is not H, see the primary site (CASITE) lookup table. This field cannot further distinguish hematologic malignancy cases into NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia); use the histology and behavior code (HISTBEH) to differentiate these. When analyzing by cancer site (CASITE field), first exclude NHL, HL, LEU, and other hematologic malignancy cases before calculating."
@@ -157,7 +157,7 @@
       "name_en": "ID_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男性 2：女性 9：不詳",
+      "description_zh": "1：男性\n2：女性\n9：不詳",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: Male 2: Female 9: Unknown"
@@ -168,7 +168,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則 1：不符合",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: ID number conforms to coding rules; 1: does not conform"
@@ -2045,7 +2045,12 @@
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health45_癌症登記年報檔",
   "data_description_en": "Provides annual reports from 1979 to the latest published year for cancer cases after householding, including in situ and invasive cases of all cancers. The data includes both long-form and short-form hospital claims and has removed duplicate cases within the same case for the same type of cancer and tissue type group.",
-  "notes_en": "1. To meet clinical cancer-care needs, from ROC 98 (2009) the HPA began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height, and weight were added and revised in the ROC-100 (2011) abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophagus, stomach, prostate, bladder, major salivary gland, nasopharyngeal, uterine corpus, ovarian, and hematologic tumors). From 2013, laryngeal cancer was added, and some hospitals reported the all-cancer long form from diagnosis year 2013. 3. Eligible cases are ROC nationals (foreigners excluded) first diagnosed with cancer by a physician. 4. In principle each cancer case is reported once, but another primary site (i.e. multiple primary cancer) requires an additional report. 5. Cancer cases newly diagnosed on or after 1 January 2011 are reported per the ROC-100 abstracting manual. 6. First-recurrence data records whether a first cancer recurrence occurs within five years of follow-up after diagnosis; only case classes 1 and 2 must report this field. If recurrence repeats after a first recurrence within five years, only the first recurrence status is recorded; if a first recurrence occurs after five years, the field is recorded as no recurrence. Recurrence data is reported once at one year and once at five years after diagnosis.",
-  "primary_keys_en": "",
-  "name_zh_en": "Cancer Registry Annual File"
+  "notes_en": "1. Carcinoma in situ and invasive cancer cases should be distinguished\nby the 5th digit of the histology behavior code (HISTBEH field).\n2. The cause of death and date of death fields reflect the data at the time\nof hospital reporting and are not updated if the case later dies, so these fields\nare not provided to avoid misunderstanding. If needed, link directly to the cause-of-death statistics file (Health-10).\n3. The cancer site (CASITE field) has been expanded to 5 characters; if the first\ncharacter is \"H\", the case is a hematologic malignancy. To further subdivide hematologic malignancy cases\ninto NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma) and LEU (leukemia), use histopathology (HISTBEH field). To analyze\nby cancer site (CASITE field), first exclude hematologic malignancies such as NHL, HL and LEU.\n4. Grade/differentiation (GRADE field) is collected only for new cancer cases diagnosed from\n2002. Codes A/B/C/D/E/H/L/M/S/X were added from 2018 (see the ROC year 107 (2018) edition\nCancer Registry Abstracting Manual, short form field 45 and long form field 115).\n5. Treatment status (TX field) combines the treatment status from all reporting hospitals for the case. For\ndetailed treatment data collected from 2007 onward, see the treatment fields of the long and short forms.\n※ This center's database has been de-identified: directly identifying fields such as name and address were deleted, and fields such as\nnational ID number, facility code, insured unit code, unified business number, date of birth, date of visit and admission date are\nmasked. The data may be used only in the independent work area set up by this Ministry, and only statistical results that\npass review may be taken out, to ensure that the use and disclosure of the data cannot identify any specific individual.",
+  "primary_keys_en": "1. Personal ID number (ID) is encrypted.\n2. Key for individual linkage and personal-data matching: ID.",
+  "name_zh_en": "Cancer Registry Annual File",
+  "printed": {
+    "field_rows": 13,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

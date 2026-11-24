@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "資料為 101 年 7 月至 104 年 12 月各月及 105 年至 114 年之列冊低收入戶及\n中低收入戶之名冊。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 個人歸戶及個人資料比對的鍵值：ID。",
-  "primary_keys_raw": "",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
+  "primary_keys_raw": "個人歸戶及個人資料比對的鍵值：ID。",
   "fields": [
     {
       "seq": 1,
@@ -47,7 +47,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -69,7 +69,7 @@
       "name_en": "LOWTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0~4為低收入戶款別 M為中低收入戶款別",
+      "description_zh": "0~4為低收入戶款別\nM為中低收入戶款別",
       "available_notes": [],
       "name_zh_en": "Category for low-income households",
       "description_en": "0~4 for Low-income Categories M for Middle-low income Categories"
@@ -146,7 +146,7 @@
       "name_en": "APPID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "household head ID number error",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -157,7 +157,7 @@
       "name_en": "F17",
       "type": "Char",
       "length": 5,
-      "description_zh": "114年遺失率93% 112年新增",
+      "description_zh": "114年遺失率93%\n112年新增",
       "available_notes": [
         {
           "roc_year": 114,
@@ -179,7 +179,7 @@
       "name_en": "F18",
       "type": "Char",
       "length": 4,
-      "description_zh": "114年遺失率93% 112年新增",
+      "description_zh": "114年遺失率93%\n112年新增",
       "available_notes": [
         {
           "roc_year": 114,
@@ -201,7 +201,7 @@
       "name_en": "F19",
       "type": "Char",
       "length": 4,
-      "description_zh": "114年遺失率87% 112年新增",
+      "description_zh": "114年遺失率87%\n112年新增",
       "available_notes": [
         {
           "roc_year": 114,
@@ -223,7 +223,7 @@
       "name_en": "LOWTYPE_STAT",
       "type": "Char",
       "length": 1,
-      "description_zh": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 113年新增",
+      "description_zh": "0、1歸類為1\n2 歸類為2\n3、4歸類為3\nM 歸類為M.\n113年新增",
       "available_notes": [
         {
           "roc_year": 113,
@@ -252,7 +252,12 @@
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare11_低收入戶及中低收入戶資料庫",
   "data_description_en": "Data for July 2011 to December 2014 and lists of registered low-income households and mid-low income households from 2015 to 2024.",
-  "notes_en": "The center's database has been de-identified, removing personally identifiable information such as names and addresses. Sensitive fields like ID numbers, facility codes, insured unit codes, unified numbers, dates of birth, medical visit dates, admission dates, etc., have been masked. The data can only be used within a dedicated operational area set up by the department and statistical results must be reviewed before being carried out to ensure that the data cannot be traced back to specific individuals. The key value for individual identification and personal data matching: ID.",
-  "primary_keys_en": "",
-  "name_zh_en": "low-income and low-middle income household data file"
+  "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
+  "primary_keys_en": "Key for person-level record linkage and personal data matching: ID.",
+  "name_zh_en": "low-income and low-middle income household data file",
+  "printed": {
+    "field_rows": 16,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

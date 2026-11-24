@@ -11,13 +11,9 @@
       "key": "PRSN_S",
       "seq_later": 1,
       "changes": {
-        "name_zh": {
-          "from": "醫事人員性別9：不詳",
-          "to": "醫事人員性別"
-        },
         "description_zh": {
-          "from": "2：女性",
-          "to": "F：女性"
+          "from": "1：男性\n2：女性\n9：不詳",
+          "to": "M：男性\nF：女性"
         }
       }
     },
@@ -32,26 +28,12 @@
       }
     },
     {
-      "key": "PRSN_TYPE",
-      "seq_later": 4,
-      "changes": {
-        "name_zh": {
-          "from": "人員類別01：執業",
-          "to": "人員類別1：執業"
-        }
-      }
-    },
-    {
       "key": "WORK_STATUS",
       "seq_later": 5,
       "changes": {
-        "name_zh": {
-          "from": "執業狀態03：歇業",
-          "to": "執業狀態3：歇業"
-        },
         "description_zh": {
-          "from": "02：停業",
-          "to": "2：停業"
+          "from": "01：執業\n02：停業\n03：歇業",
+          "to": "1：執業\n2：停業\n3：歇業"
         }
       }
     },

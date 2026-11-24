@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "每項藥品一個月一筆資料。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 醫令代碼：ORDER_CODE。",
-  "primary_keys_raw": "",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
+  "primary_keys_raw": "醫令代碼：ORDER_CODE。",
   "fields": [
     {
       "seq": 1,
@@ -25,7 +25,7 @@
       "name_en": "ORDER_CODE",
       "type": "CHAR",
       "length": 12,
-      "description_zh": "107年(含)以前長度為 15。",
+      "description_zh": "107年(含)以前長度為15。",
       "available_notes": [
         {
           "roc_year": 107,
@@ -82,7 +82,12 @@
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health37_全民健保藥品價格檔",
   "data_description_en": "One record per medicine per month.",
-  "notes_en": "※This center's database has been de-identified, removing personally identifiable information such as names and addresses. Fields like ID numbers, institution codes, insured unit codes, unified serial numbers, dates of birth, medical visit dates, hospital admission dates, etc., have been masked, and the data can only be used within a designated area at this department and can only be carried out with approved statistical results to ensure that the data cannot be linked back to specific individuals. Medical code: ORDER_CODE.",
-  "primary_keys_en": "",
-  "name_zh_en": "National Health Insurance Drug Price File"
+  "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
+  "primary_keys_en": "Order code: ORDER_CODE.",
+  "name_zh_en": "National Health Insurance Drug Price File",
+  "printed": {
+    "field_rows": 3,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

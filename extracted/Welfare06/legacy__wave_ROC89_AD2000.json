@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "調查對象為台閩地區身心障礙者，主要調查身心障礙者其基本資料、居住及起居生活\n狀況、個人及家庭經濟狀況、休閒活動、社會參與狀況、外出交通狀況、相關無障礙\n設施使用情形、教育學習狀況、對福利服務及醫療照顧需求、工作現況及職業重建服\n務需求等資料，以作為政府及民間團體推動身心障礙者各項福利服務措施之參考，使\n身心障礙者獲得更妥適的生活照顧。此外，亦可作為各級政府機關(單位)釐訂身心障\n礙者相關福利服務政策之重要參考。\n本次調查採採「分層二階段系統隨機抽樣法」，派員實地訪問方式。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。 無",
-  "primary_keys_raw": "",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。",
+  "primary_keys_raw": "無",
   "fields": [
     {
       "seq": 1,
@@ -25,7 +25,7 @@
       "name_en": "CITY",
       "type": "Char",
       "length": 2,
-      "description_zh": "01. 台北縣 02. 宜蘭縣 03. 桃園縣 04. 新竹縣 05. 苗栗縣 06. 台中縣 07. 彰化縣 08. 南投縣 09. 雲林縣 10. 嘉義縣 11. 台南縣 12. 高雄縣 13. 屏東縣 14. 台東縣 15. 花蓮縣 16. 澎湖縣 17. 基隆市 18. 新竹市 19. 台中市 20. 嘉義市 21. 台南市 63. 台北市 64. 高雄市 65. 金門縣 66. 連江縣",
+      "description_zh": "01. 台北縣\n02. 宜蘭縣\n03. 桃園縣\n04. 新竹縣\n05. 苗栗縣\n06. 台中縣\n07. 彰化縣\n08. 南投縣\n09. 雲林縣\n10. 嘉義縣\n11. 台南縣\n12. 高雄縣\n13. 屏東縣\n14. 台東縣\n15. 花蓮縣\n16. 澎湖縣\n17. 基隆市\n18. 新竹市\n19. 台中市\n20. 嘉義市\n21. 台南市\n63. 台北市\n64. 高雄市\n65. 金門縣\n66. 連江縣",
       "available_notes": [],
       "name_zh_en": "county city",
       "description_en": "01. Taipei County 02. Yilan County 03. Taoyuan County 04. Hsinchu County 05. Miaoli County 06. Taichung County 07. Changhua County 08. Nantou County 09. Yunlin County 10. Chiayi County 11. Tainan County 12. Kaohsiung County 13. Pingtung County 14. Taitung County 15. Hualien County 16. Penghu County 17. Keelung City 18. Hsinchu City 19. Taichung City 20. Chiayi City 21. Tainan City 63. Taipei City 64. Kaohsiung City 65. Kinmen County 66. Lienchiang County"
@@ -47,10 +47,10 @@
       "name_en": "DISABLE",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.視覺障礙 02.聽覺或平衡機能障礙 03.聲音機能語言機能障礙 04.肢體障礙 05.智能障礙 06.重要器官失去功能 07.顏面損傷者 08.植物人",
+      "description_zh": "01.視覺障礙\n02.聽覺或平衡機能障礙\n03.聲音機能語言機能障礙\n04.肢體障礙\n05.智能障礙\n06.重要器官失去功能\n07.顏面損傷者\n08.植物人\n09.癡呆症（失智症）\n10.自閉症\n11.慢性精神病患者\n12.多重殘障者（加勾選殘障類別）\n13.其它經中央主管機關認定之身心障礙類別",
       "available_notes": [],
       "name_zh_en": "disability category",
-      "description_en": "01. Visual impairment 02. Hearing or balance impairment 03. Voice or speech impairment 04. Physical disability 05. Intellectual disability 06. Loss of function of a vital organ 07. Facial disfigurement 08. Vegetative state"
+      "description_en": "01. Visual impairment 02. Hearing or balance impairment 03. Voice or speech impairment 04. Physical disability 05. Intellectual disability 06. Loss of function of a vital organ 07. Facial disfigurement 08. Vegetative state 09. Dementia 10. Autism 11. Chronic mental illness 12. Multiple disabilities (also check disability category) 13. Other disability categories recognized by the central competent authority"
     },
     {
       "seq": 4,
@@ -58,7 +58,7 @@
       "name_en": "RANK",
       "type": "Char",
       "length": 1,
-      "description_zh": "1. 極重度 2. 重度 3. 中度 4. 輕度",
+      "description_zh": "1. 極重度\n2. 重度\n3. 中度\n4. 輕度",
       "available_notes": [],
       "name_zh_en": "level",
       "description_en": "1. Extremely severe 2. Severe 3. Moderate 4. Mild"
@@ -80,10 +80,10 @@
       "name_en": "PEOPLE",
       "type": "Char",
       "length": 2,
-      "description_zh": "甲、01. 身心障礙者本人乙、監護人（或聯絡人）與受訪者關係： 02.父母 03.配偶或同居人 04.兄弟姊妹 05.（外）祖父母 06.子女（含媳婿） 07.（外）孫子女 08.其他親戚 09.鄰居 10.同學、同事或朋友 11.機構人員 12.其它________ 一﹑身心障礙者基本資料",
+      "description_zh": "甲、01. 身心障礙者本人\n乙、監護人（或聯絡人）與受訪者關係：\n02.父母\n03.配偶或同居人\n04.兄弟姊妹\n05.（外）祖父母\n06.子女（含媳婿）\n07.（外）孫子女\n08.其他親戚\n09.鄰居\n10.同學、同事或朋友\n11.機構人員\n12.其它________",
       "available_notes": [],
       "name_zh_en": "visitor identity",
-      "description_en": "A. 01. The person with disability themselves B. Relationship of guardian (or contact person) to respondent: 02. Parent 03. Spouse or cohabiting partner 04. Sibling 05. Grandparent 06. Child (including son/daughter-in-law) 07. Grandchild 08. Other relative 09. Neighbor 10. Classmate, colleague, or friend 11. Institution staff 12. Other ________ I. Basic information of the person with disability"
+      "description_en": "A. 01. Person with disability (self)\nB. Relationship of guardian (or contact person) to respondent:\n02. Parents\n03. Spouse or cohabiting partner\n04. Siblings\n05. (Maternal) grandparents\n06. Children (including children-in-law)\n07. (Maternal) grandchildren\n08. Other relatives\n09. Neighbors\n10. Classmates, colleagues or friends\n11. Institution staff\n12. Other________"
     },
     {
       "seq": 7,
@@ -91,7 +91,7 @@
       "name_en": "A0",
       "type": "Char",
       "length": 1,
-      "description_zh": "1. 原住民 2. 榮民 3. 榮眷 4. 一般人口",
+      "description_zh": "1. 原住民\n2. 榮民\n3. 榮眷\n4. 一般人口",
       "available_notes": [],
       "name_zh_en": "identity type",
       "description_en": "1. Indigenous 2. Veteran 3. Veteran's dependent 4. General population"
@@ -113,7 +113,7 @@
       "name_en": "A21",
       "type": "Char",
       "length": 2,
-      "description_zh": "00表民前出生值域：01-88",
+      "description_zh": "00表民前出生\n值域：01-88",
       "available_notes": [],
       "name_zh_en": "ROC year",
       "description_en": "00 means born before the Republic era; value range: 01-88"
@@ -135,10 +135,10 @@
       "name_en": "A3",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.學齡前兒童 2.不識字",
+      "description_zh": "1.學齡前兒童 2.不識字\n3.自修（識\n4.國小\n字）\n5.國（初）中 6.高中、高職\n7.大專及以上",
       "available_notes": [],
       "name_zh_en": "education level",
-      "description_en": "1. Preschool child 2. Illiterate"
+      "description_en": "1. Preschool children 2. Illiterate\n3. Self-taught (literate\n4. Elementary school\n)\n5. Junior high school 6. Senior high school or vocational school\n7. College or above"
     },
     {
       "seq": 12,
@@ -146,7 +146,7 @@
       "name_en": "A4",
       "type": "Char",
       "length": 1,
-      "description_zh": "1. 未婚 2. 有配偶或同居 3. 離婚或分居 4. 喪偶",
+      "description_zh": "1. 未婚\n2. 有配偶或同居\n3. 離婚或分居\n4. 喪偶",
       "available_notes": [],
       "name_zh_en": "marital status",
       "description_en": "1. Unmarried 2. Has spouse or cohabiting 3. Divorced or separated 4. Widowed"
@@ -157,7 +157,7 @@
       "name_en": "A5",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.視覺障礙 02.聽覺或平衡機能障礙 03.聲音機能語言機能障礙 04.肢體障礙 05.智能障礙 06.重要器官失去功能 07.顏面損傷者 08.植物人 09.癡呆症（失智症） 10.自閉症 11.慢性精神病患者 12.多重殘障者（加勾選殘障類別） 13.其它經中央主管機關認定之身心障礙類別",
+      "description_zh": "01.視覺障礙\n02.聽覺或平衡機能障礙\n03.聲音機能語言機能障礙\n04.肢體障礙\n05.智能障礙\n06.重要器官失去功能\n07.顏面損傷者\n08.植物人\n09.癡呆症（失智症）\n10.自閉症\n11.慢性精神病患者\n12.多重殘障者（加勾選殘障類別）\n13.其它經中央主管機關認定之身心障礙類別",
       "available_notes": [],
       "name_zh_en": "category of physical and mental disability",
       "description_en": "01. Visual impairment 02. Hearing or balance impairment 03. Voice or speech impairment 04. Physical disability 05. Intellectual disability 06. Loss of function of a vital organ 07. Facial disfigurement 08. Vegetative state 09. Dementia 10. Autism 11. Chronic mental illness 12. Multiple disabilities (also check disability category) 13. Other disability categories recognized by the central competent authority"
@@ -168,18 +168,18 @@
       "name_en": "A54",
       "type": "Char",
       "length": 1,
-      "description_zh": "0. 不適用(.) 1. 上肢（手） 2. 下肢（腳） 3. 軀幹 4. 四肢",
+      "description_zh": "0. 不適用(.)\n1. 上肢（手）\n2. 下肢（腳）\n3. 軀幹\n4. 四肢",
       "available_notes": [],
       "name_zh_en": "Further breakdown for those who selected \"4. Physical disability\" in question 5",
       "description_en": "0. Not applicable (.), 1. Upper limb (hand), 2. Lower limb (foot), 3. Trunk, 4. Limbs (all four)"
     },
     {
       "seq": 15,
-      "name_zh": "第5題選『13. 其它經中央主管機關認定之身心障礙類別』者， 再細分之",
+      "name_zh": "第5題選『13.其它經中央主管機關認定之身心障礙類別』者，再細分之",
       "name_en": "A513",
       "type": "Char",
       "length": 1,
-      "description_zh": "0. 不適用(.) 1.染色體異常 2.先天代謝異常 3.其他先天缺陷",
+      "description_zh": "0. 不適用(.)\n1.染色體異常\n2.先天代謝異常\n3.其他先天缺陷",
       "available_notes": [],
       "name_zh_en": "Further breakdown for those who selected \"13. Other disability category recognized by the central competent authority\" in question 5",
       "description_en": "0. Not applicable (.), 1. Chromosomal abnormality, 2. Congenital metabolic disorder, 3. Other congenital defect"
@@ -190,10 +190,10 @@
       "name_en": "A6",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用身心障礙類別(A5)為 「06」。 0.不適用",
+      "description_zh": "本題僅適用身心障礙類別(A5)為\n「06」。\n0.不適用\n1.心臟 2.肝臟\n3.呼吸器官 4.腎臟\n5.吞嚥機能障礙 6.胃\n7.腸道 8.膀胱",
       "available_notes": [],
       "name_zh_en": "Body part or function of the organ that has lost function",
-      "description_en": "This item applies only when disability category (A5) is \"06\". 0. Not applicable"
+      "description_en": "This item applies only when the disability category (A5) is\n\"06\".\n0. Not applicable\n1. Heart 2. Liver\n3. Respiratory organs 4. Kidney\n5. Swallowing dysfunction 6. Stomach\n7. Intestines 8. Bladder"
     },
     {
       "seq": 17,
@@ -201,7 +201,7 @@
       "name_en": "A7",
       "type": "Char",
       "length": 1,
-      "description_zh": "1. 極重度 2. 重度 3. 中度 4. 輕度",
+      "description_zh": "1. 極重度 2. 重度\n3. 中度 4. 輕度",
       "available_notes": [],
       "name_zh_en": "level of physical and mental disability",
       "description_en": "1. Extremely severe 2. Severe 3. Moderate 4. Mild"
@@ -212,7 +212,7 @@
       "name_en": "A8",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.先天(出生即有) 2.疾病而致 3.交通事故 4.職業傷害 5.老年退化 6.戰爭影響 7.其它意外傷害 8.社會因素",
+      "description_zh": "1.先天(出生即有) 2.疾病而致\n3.交通事故 4.職業傷害\n5.老年退化 6.戰爭影響\n7.其它意外傷害 8.社會因素",
       "available_notes": [],
       "name_zh_en": "Cause of the disability",
       "description_en": "1. Congenital (present at birth) 2. Caused by illness 3. Traffic accident 4. Occupational injury 5. Age-related degeneration 6. War-related 7. Other accidental injury 8. Social factors"
@@ -223,10 +223,10 @@
       "name_en": "A9",
       "type": "Char",
       "length": 2,
-      "description_zh": "值域：00-87 二﹑身心障礙者居住狀況",
+      "description_zh": "值域：00-87",
       "available_notes": [],
       "name_zh_en": "[Question 8, items 2-7 reasons] Age at time of onset",
-      "description_en": "Range: 00-87 II. Living situation of persons with disabilities"
+      "description_en": "Value range: 00-87"
     },
     {
       "seq": 20,
@@ -234,36 +234,36 @@
       "name_en": "B10",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.家宅 2.公立教養、養護機構 3.私立教養、養護機構",
+      "description_zh": "1.家宅\n2.公立教養、養護機構\n3.私立教養、養護機構",
       "available_notes": [],
       "name_zh_en": "Current place of residence is",
       "description_en": "1. Home 2. Public care/nursing institution 3. Private care/nursing institution"
     },
     {
       "seq": 21,
-      "name_zh": "[第10題(2)或 (3)]何種機構",
+      "name_zh": "[第10題(2)或(3)]何種機構",
       "name_en": "B10A",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用目前的居住地點(B10)為 「2」、「3」。 0.不適用 1.安養院(所) 2.護理之家 3.教養院 4.育幼院 5.社區家園 6.附設住宿之庇護工廠或職訓機構 7.特殊學校",
+      "description_zh": "本題僅適用目前的居住地點(B10)為「2」、「3」。\n0.不適用\n1.安養院(所)\n2.護理之家\n3.教養院\n4.育幼院\n5.社區家園\n6.附設住宿之庇護工廠或職訓機構\n7.特殊學校",
       "available_notes": [],
       "name_zh_en": "[Question 10 (2) or (3)] What kind of institution",
       "description_en": "This item applies only when current residence (B10) is \"2\" or \"3\". 0. Not applicable 1. Nursing home 2. Care facility 3. Special education institution 4. Children's home 5. Community group home 6. Sheltered workshop or vocational training institution with residential facilities 7. Special school"
     },
     {
       "seq": 22,
-      "name_zh": "[現住家宅者]有那些人與您同住 (1)配偶",
+      "name_zh": "[現住家宅者]有那些人與您同住(1)配偶",
       "name_en": "B1101",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不同住 1.同住",
+      "description_zh": "0.不同住\n1.同住",
       "available_notes": [],
       "name_zh_en": "[Currently living at home] Who lives with you (1) Spouse",
       "description_en": "0. Not living together, 1. Living together"
     },
     {
       "seq": 23,
-      "name_zh": "[現住家宅者]有那些人與您同住 (2)父親",
+      "name_zh": "[現住家宅者]有那些人與您同住(2)父親",
       "name_en": "B1102",
       "type": "Char",
       "length": 1,
@@ -274,7 +274,7 @@
     },
     {
       "seq": 24,
-      "name_zh": "[現住家宅者]有那些人與您同住 (3)母親",
+      "name_zh": "[現住家宅者]有那些人與您同住(3)母親",
       "name_en": "B1103",
       "type": "Char",
       "length": 1,
@@ -285,7 +285,7 @@
     },
     {
       "seq": 25,
-      "name_zh": "[現住家宅者]有那些人與您同住 (4)子女(媳婿)",
+      "name_zh": "[現住家宅者]有那些人與您同住(4)子女(媳婿)",
       "name_en": "B1104",
       "type": "Char",
       "length": 1,
@@ -296,7 +296,7 @@
     },
     {
       "seq": 26,
-      "name_zh": "[現住家宅者]有那些人與您同住 (5)兄弟姊妹",
+      "name_zh": "[現住家宅者]有那些人與您同住(5)兄弟姊妹",
       "name_en": "B1105",
       "type": "Char",
       "length": 1,
@@ -307,7 +307,7 @@
     },
     {
       "seq": 27,
-      "name_zh": "[現住家宅者]有那些人與您同住 (6) (外)祖父母",
+      "name_zh": "[現住家宅者]有那些人與您同住(6) (外)祖父母",
       "name_en": "B1106",
       "type": "Char",
       "length": 1,
@@ -318,7 +318,7 @@
     },
     {
       "seq": 28,
-      "name_zh": "[現住家宅者]有那些人與您同住 (7) (外)孫子女者",
+      "name_zh": "[現住家宅者]有那些人與您同住(7) (外)孫子女者",
       "name_en": "B1107",
       "type": "Char",
       "length": 1,
@@ -329,7 +329,7 @@
     },
     {
       "seq": 29,
-      "name_zh": "[現住家宅者]有那些人與您同住 (8) 朋友",
+      "name_zh": "[現住家宅者]有那些人與您同住(8)朋友",
       "name_en": "B1108",
       "type": "Char",
       "length": 1,
@@ -340,7 +340,7 @@
     },
     {
       "seq": 30,
-      "name_zh": "[現住家宅者]有那些人與您同住 (9) 其他親戚者",
+      "name_zh": "[現住家宅者]有那些人與您同住(9)其他親戚者",
       "name_en": "B1109",
       "type": "Char",
       "length": 1,
@@ -351,7 +351,7 @@
     },
     {
       "seq": 31,
-      "name_zh": "[現住家宅者]有那些人與您同住 (10)獨居",
+      "name_zh": "[現住家宅者]有那些人與您同住(10)獨居",
       "name_en": "B1110",
       "type": "Char",
       "length": 1,
@@ -362,7 +362,7 @@
     },
     {
       "seq": 32,
-      "name_zh": "同住者有幾___ 人(包括本人)",
+      "name_zh": "同住者有幾___人(包括本人)",
       "name_en": "B1111",
       "type": "Num",
       "length": 3,
@@ -377,7 +377,7 @@
       "name_en": "B12",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.獨立自我照顧 2.家人照顧 3.機構人員照顧 4.僱人照顧 5.僱外勞照顧 6.朋友照顧 7.鄰居照顧 8.其他",
+      "description_zh": "1.獨立自我照顧 2.家人照顧\n3.機構人員照顧 4.僱人照顧\n5.僱外勞照顧 6.朋友照顧\n7.鄰居照顧 8.其他",
       "available_notes": [],
       "name_zh_en": "Who mainly takes care of your daily living currently",
       "description_en": "1. Independent self-care 2. Cared for by family 3. Cared for by institution staff 4. Cared for by hired help 5. Cared for by hired foreign worker 6. Cared for by friends 7. Cared for by neighbors 8. Other"
@@ -388,7 +388,7 @@
       "name_en": "B13",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用 1.配偶 2.父親 3.母親 4.兄弟 5.姊妹 6.兒子 7.媳婦 8.女兒 9.其他親戚",
+      "description_zh": "0.不適用\n1.配偶 2.父親\n3.母親 4.兄弟\n5.姊妹 6.兒子\n7.媳婦 8.女兒\n9.其他親戚",
       "available_notes": [],
       "name_zh_en": "[Family caregiver] The main caregiver is",
       "description_en": "0. Not applicable, 1. Spouse, 2. Father, 3. Mother, 4. Brother, 5. Sister, 6. Son, 7. Daughter-in-law, 8. Daughter, 9. Other relative"
@@ -399,7 +399,7 @@
       "name_en": "B14",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用 1.幾乎每天 2.每週三、四次3. 每週一、二次 4.每月一、二次 5.每年若干次 6.幾乎沒有",
+      "description_zh": "0.不適用\n1.幾乎每天 2.每週三、四次3.每週一、二次 4.每月一、二次\n5.每年若干次 6.幾乎沒有",
       "available_notes": [],
       "name_zh_en": "[Institutional caregiver] How often does family visit",
       "description_en": "0. Not applicable, 1. Almost every day, 2. 3-4 times per week, 3. 1-2 times per week, 4. 1-2 times per month, 5. A few times per year, 6. Almost never"
@@ -410,7 +410,7 @@
       "name_en": "B151",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用 1.收容機構離家近 2.家人無法照顧 3.可接受良好教育 4.收費合理 5.孤苦無依由政府安排 6.其他",
+      "description_zh": "0.不適用\n1.收容機構離家近\n2.家人無法照顧\n3.可接受良好教育\n4.收費合理\n5.孤苦無依由政府安排\n6.其他",
       "available_notes": [],
       "name_zh_en": "[Institutional care] Reason for residing in the institution 1",
       "description_en": "0. Not applicable, 1. Care institution is close to home, 2. Family unable to provide care, 3. Can receive a good education, 4. Reasonable fees, 5. Destitute and alone, arranged by the government, 6. Other"
@@ -439,18 +439,18 @@
     },
     {
       "seq": 39,
-      "name_zh": "[機構照顧者]居住在機構已有 ___年",
+      "name_zh": "[機構照顧者]居住在機構已有___年",
       "name_en": "B16",
       "type": "Num",
       "length": 3,
-      "description_zh": "開放式問項 0.表未滿一年者",
+      "description_zh": "開放式問項\n0.表未滿一年者",
       "available_notes": [],
       "name_zh_en": "[Institutional care] Has resided in the institution for ___ years",
       "description_en": "Open-ended question item 0. Indicates less than one year"
     },
     {
       "seq": 40,
-      "name_zh": "[機構或僱人照顧者]每月費用 __元",
+      "name_zh": "[機構或僱人照顧者]每月費用__元",
       "name_en": "B171",
       "type": "Num",
       "length": 6,
@@ -461,7 +461,7 @@
     },
     {
       "seq": 41,
-      "name_zh": "[機構或僱人照顧者]其中自付 __元",
+      "name_zh": "[機構或僱人照顧者]其中自付__元",
       "name_en": "B172",
       "type": "Num",
       "length": 6,
@@ -472,7 +472,7 @@
     },
     {
       "seq": 42,
-      "name_zh": "[機構或僱人照顧者]政府補助 __元",
+      "name_zh": "[機構或僱人照顧者]政府補助__元",
       "name_en": "B173",
       "type": "Num",
       "length": 6,
@@ -498,7 +498,7 @@
       "name_en": "B18",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.幾乎每天 2.每週三、四次 3.每週一、二次 4.很少外出 5.都沒有外出",
+      "description_zh": "1.幾乎每天 2.每週三、四次\n3.每週一、二次 4.很少外出\n5.都沒有外出",
       "available_notes": [],
       "name_zh_en": "How were your outdoor activities in the past month",
       "description_en": "1. Almost every day 2. 3-4 times per week 3. 1-2 times per week 4. Rarely goes out 5. Never goes out"
@@ -509,7 +509,7 @@
       "name_en": "B191",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.玩電腦、電視遊樂器 02.看電影、戲劇、藝文展覽 03.聽音樂 04.看電視錄影帶 05.郊遊登山健行釣魚 06.球類運動國術打拳 07.游泳 08.閱讀書報雜誌 09.舞蹈、彈奏樂器、吟唱 10.打牌下棋 11.園藝手工藝 12.逛街 13.訪友聊天 14.旅行（在外過夜） 15.書法、繪畫、攝影 16.看MTV唱卡拉 OK（KTV） 17.其他 18.無法從事休閒活動 00.不適用(.)",
+      "description_zh": "01.玩電腦、電視遊樂器\n02.看電影、戲劇、藝文展覽\n03.聽音樂\n04.看電視錄影帶\n05.郊遊登山健行釣魚\n06.球類運動國術打拳\n07.游泳\n08.閱讀書報雜誌\n09.舞蹈、彈奏樂器、吟唱\n10.打牌下棋\n11.園藝手工藝\n12.逛街\n13.訪友聊天\n14.旅行（在外過夜）\n15.書法、繪畫、攝影\n16.看MTV唱卡拉 OK（KTV）\n17.其他\n18.無法從事休閒活動\n00.不適用(.)",
       "available_notes": [],
       "name_zh_en": "Main leisure activity (primary)",
       "description_en": "01. Playing computer/video games 02. Watching movies, theater, art exhibitions 03. Listening to music 04. Watching TV/videos 05. Outings, hiking, fishing 06. Ball sports, martial arts 07. Swimming 08. Reading books, newspapers, magazines 09. Dancing, playing instruments, singing 10. Playing cards, chess 11. Gardening, handicrafts 12. Shopping 13. Visiting friends, chatting 14. Traveling (overnight) 15. Calligraphy, painting, photography 16. Watching MTV, singing karaoke (KTV) 17. Other 18. Unable to engage in leisure activities 00. Not applicable (.)"
@@ -542,7 +542,7 @@
       "name_en": "B19A",
       "type": "Char",
       "length": 1,
-      "description_zh": "平常主要的休閒活動(B193)為「18. 無法從事休閒活動」者免填。 0.不適用 1.是 2.否",
+      "description_zh": "平常主要的休閒活動(B193)為「18.無法從事休閒活動」者免填。\n0.不適用\n1.是\n2.否",
       "available_notes": [],
       "name_zh_en": "Whether the leisure activity from question 19 is done regularly",
       "description_en": "For those whose usual main leisure activity (B193) is \"18. Unable to engage in leisure activities\", this item does not need to be filled in. 0. Not applicable 1. Yes 2. No"
@@ -553,7 +553,7 @@
       "name_en": "B201",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.無 1.有",
+      "description_zh": "0.無\n1.有",
       "available_notes": [],
       "name_zh_en": "Reason for going out in the past month (1) work",
       "description_en": "0 none 1 present"
@@ -641,7 +641,7 @@
       "name_en": "B211",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.無 1.有",
+      "description_zh": "0.無\n1.有",
       "available_notes": [],
       "name_zh_en": "Can you drive the following vehicles (1) car",
       "description_en": "0 none 1 present"
@@ -685,21 +685,21 @@
       "name_en": "B22",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.自行開車或騎車 2.親友開車或騎車接送 3.坐計程車 4.使用公共交通工具 5.使用電動輪椅 6.從未使用交通工具 7.無法外出或從未外出",
+      "description_zh": "1.自行開車或騎車\n2.親友開車或騎車接送\n3.坐計程車\n4.使用公共交通工具\n5.使用電動輪椅\n6.從未使用交通工具\n7.無法外出或從未外出",
       "available_notes": [],
       "name_zh_en": "Most commonly used mode of transportation when going out",
       "description_en": "1. Drives or rides self 2. Driven by family/friends 3. Takes taxi 4. Uses public transportation 5. Uses electric wheelchair 6. Never uses transportation 7. Unable to go out or never goes out"
     },
     {
       "seq": 62,
-      "name_zh": "平均每月花在交通的費用約___ 元",
+      "name_zh": "平均每月花在交通的費用約___元",
       "name_en": "B23",
       "type": "Num",
       "length": 6,
-      "description_zh": "0.表沒有支出三﹑個人及家庭經濟狀況",
+      "description_zh": "0.表沒有支出",
       "available_notes": [],
       "name_zh_en": "Average monthly transportation expenses approximately ___ NTD",
-      "description_en": "0. Indicates no expenditure. III. Personal and household economic status"
+      "description_en": "0. No expenditure"
     },
     {
       "seq": 63,
@@ -718,10 +718,10 @@
       "name_en": "C25",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.本人 2.配偶",
+      "description_zh": "1.本人\n2.配偶\n3.父或母親\n4.兄弟或姊妹\n5.兒子（含媳婦）\n6.女兒（含女婿）\n7.祖父母或外祖父母\n8.其他",
       "available_notes": [],
       "name_zh_en": "Who is the primary economic provider in the household",
-      "description_en": "1 self 2 spouse"
+      "description_en": "1. Self\n2. Spouse\n3. Father or mother\n4. Brother or sister\n5. Son (including daughter-in-law)\n6. Daughter (including son-in-law)\n7. Grandparents or maternal grandparents\n8. Other"
     },
     {
       "seq": 65,
@@ -729,10 +729,32 @@
       "name_en": "C261",
       "type": "Char",
       "length": 2,
-      "description_zh": "00.未答填 01.本人工作收入 02.配偶工作收入 03.父母親給予 04.兄弟姊妹給予 05.兒子（含媳婦）給予 06.女兒（含女婿）給予 07.其他親戚給予 08.朋友鄰居給予 09.政府補助或津貼 10.社會慈善機構 11.其它 66 本人是否有下列收入來源(次要) C262 67 本人是否有下列收入來源(再次要) C263",
+      "description_zh": "00.未答填\n01.本人工作收入\n02.配偶工作收入\n03.父母親給予\n04.兄弟姊妹給予\n05.兒子（含媳婦）給予\n06.女兒（含女婿）給予\n07.其他親戚給予\n08.朋友鄰居給予\n09.政府補助或津貼\n10.社會慈善機構\n11.其它",
       "available_notes": [],
       "name_zh_en": "Whether you (the respondent) have the following income source (the most important one)",
-      "description_en": "00. Not answered 01. Own work income 02. Spouse's work income 03. Given by parents 04. Given by siblings 05. Given by son (including daughter-in-law) 06. Given by daughter (including son-in-law) 07. Given by other relatives 08. Given by friends/neighbors 09. Government subsidy or allowance 10. Social charity organization 11. Other 66 Does the respondent have the following income source (secondary) C262 67 Does the respondent have the following income source (tertiary) C263"
+      "description_en": "00. Not answered\n01. Own work income\n02. Spouse's work income\n03. Given by parents\n04. Given by siblings\n05. Given by sons (including daughters-in-law)\n06. Given by daughters (including sons-in-law)\n07. Given by other relatives\n08. Given by friends or neighbors\n09. Government subsidies or allowances\n10. Social charitable organizations\n11. Other"
+    },
+    {
+      "seq": 66,
+      "name_zh": "本人是否有下列收入來源(次要)",
+      "name_en": "C262",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Whether the respondent has the following sources of income (secondary)",
+      "description_en": ""
+    },
+    {
+      "seq": 67,
+      "name_zh": "本人是否有下列收入來源(再次要)",
+      "name_en": "C263",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Whether the respondent has the following sources of income (tertiary)",
+      "description_en": ""
     },
     {
       "seq": 68,
@@ -762,7 +784,7 @@
       "name_en": "C28",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.20,000元以下 2.20,000--29,999 元 3.30,000--39,999 元 4.40,000--49,999 元 5.60,000--79,999 元 6.80,000以上",
+      "description_zh": "1.20,000元以下\n2.20,000--29,999 元\n3.30,000--39,999 元\n4.40,000--49,999 元\n5.60,000--79,999 元\n6.80,000以上",
       "available_notes": [],
       "name_zh_en": "Approximate monthly household expenditure",
       "description_en": "1. NT$20,000 or below 2. NT$20,000-29,999 3. NT$30,000-39,999 4. NT$40,000-49,999 5. NT$60,000-79,999 6. NT$80,000 or above"
@@ -773,21 +795,21 @@
       "name_en": "C29",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.收支平衡 2.收入大於支出（有儲蓄） 3.支出大於收入（不夠用） 四﹑身心障礙者工作現況及職業訓練",
+      "description_zh": "1.收支平衡\n2.收入大於支出（有儲蓄）\n3.支出大於收入（不夠用）",
       "available_notes": [],
       "name_zh_en": "Whether average monthly household expenses and income can balance",
-      "description_en": "1. Income and expenses balanced 2. Income exceeds expenses (savings) 3. Expenses exceed income (not enough). IV. Current employment status and vocational training for persons with disabilities"
+      "description_en": "1. Income and expenses balanced\n2. Income exceeds expenses (with savings)\n3. Expenses exceed income (not enough)"
     },
     {
       "seq": 72,
-      "name_zh": "您在89年3月 12日~18日間主要在做什麼",
+      "name_zh": "您在89年3月12日~18日間主要在做什麼",
       "name_en": "D30",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用 1.在從事工作 2.有工作而未做，但領有報酬",
+      "description_zh": "0.不適用\n1.在從事工作\n2.有工作而未做，但領有報酬\n3.在找尋工作或定於短期內開始工作或等待恢復工作而無報酬\n4.在學或準備升學\n5.料理家務\n6.已退休（未滿 65歲）\n7.身體重度殘障，無法工作\n8.高齡（65歲以上）\n9.其他",
       "available_notes": [],
       "name_zh_en": "What were you mainly doing between March 12-18, ROC year 89 (2000)",
-      "description_en": "0. Not applicable, 1. Currently working, 2. Has a job but not working, yet still receiving pay"
+      "description_en": "0. Not applicable\n1. Working\n2. Has a job but not working, still paid\n3. Looking for work, or scheduled to start work soon, or waiting to resume work without pay\n4. In school or preparing for further study\n5. Housework\n6. Retired (under 65 years)\n7. Severely physically disabled, unable to work\n8. Elderly (65 years and over)\n9. Other"
     },
     {
       "seq": 73,
@@ -828,7 +850,7 @@
       "name_en": "D33",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「1」、 「2」就業者。 0.不適用 1.親朋介紹 2.考試分發 3.師長介紹 4.民意代表介紹 5.就業服務機構轉介 6.社會福利機構轉介 7.自己應徵 8.電子媒體 9.其他",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n0.不適用\n1.親朋介紹\n2.考試分發\n3.師長介紹\n4.民意代表介紹\n5.就業服務機構轉介\n6.社會福利機構轉介\n7.自己應徵\n8.電子媒體\n9.其他",
       "available_notes": [
         {
           "roc_year": 89,
@@ -845,7 +867,7 @@
       "name_en": "D34",
       "type": "Char",
       "length": 2,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「1」、 「2」就業者。 01~98.依「中華民國行業標準分類",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n01~98.依「中華民國行業標準分類(第6次修訂，1996年)」分類。\n00.不適用",
       "available_notes": [
         {
           "roc_year": 89,
@@ -854,7 +876,7 @@
         }
       ],
       "name_zh_en": "industry classification",
-      "description_en": "This item applies only to those employed, i.e., whose main activity during March 12-18, Year 89 (D30) was \"1\" or \"2\". 01-98. Classified per the \"ROC Standard Industrial Classification..."
+      "description_en": "This item applies only to those employed (coded \"1\" or \"2\") for what you mainly did during March 12-18, ROC year 89 (2000) (D30).\n01~98. Classified according to the \"Standard Industrial Classification of the Republic of China (6th revision, 1996)\".\n00. Not applicable"
     },
     {
       "seq": 78,
@@ -862,7 +884,7 @@
       "name_en": "D343",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「1」、 「2」就業者。 0.不適用 1.1人 2.2-9人 3.10-29人 4.30-49人 5.50-99人 6.100-199人 7.200-499人 8.500人以上 9.政府機關",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n0.不適用\n1.1人\n2.2-9人\n3.10-29人\n4.30-49人\n5.50-99人\n6.100-199人\n7.200-499人\n8.500人以上\n9.政府機關",
       "available_notes": [
         {
           "roc_year": 89,
@@ -879,7 +901,7 @@
       "name_en": "D35",
       "type": "Char",
       "length": 3,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「1」、 「2」就業者。 003~990.依「中華民國職業標準分類 （第5次修正，1992 年）」 分類。 000.不適用",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n003~990.依「中華民國職業標準分類（第5次修正，1992 年）」分類。\n000.不適用",
       "available_notes": [
         {
           "roc_year": 89,
@@ -896,7 +918,7 @@
       "name_en": "D36",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「1」、 「2」就業者。 0.不適用 1.雇主 2.自營作業者 3.受政府雇用 4.受私人雇用 5.無酬家屬工作者",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n0.不適用\n1.雇主 2.自營作業者\n3.受政府雇用 4.受私人雇用\n5.無酬家屬工作者",
       "available_notes": [
         {
           "roc_year": 89,
@@ -909,13 +931,13 @@
     },
     {
       "seq": 81,
-      "name_zh": "在該工作場所內本週工作總時數",
+      "name_zh": "在該工作場所內本週工作總時數___小時(非週休二日)",
       "name_en": "D371",
       "type": "Num",
       "length": 3,
       "description_zh": "開放式填答",
       "available_notes": [],
-      "name_zh_en": "Total hours worked this week at that workplace",
+      "name_zh_en": "Total hours worked this week at the workplace ___ hours (excluding two-day weekend)",
       "description_en": "Open-ended Answer"
     },
     {
@@ -931,7 +953,7 @@
     },
     {
       "seq": 83,
-      "name_zh": "平均每日工時 ___小時",
+      "name_zh": "平均每日工時___小時",
       "name_en": "D373",
       "type": "Num",
       "length": 3,
@@ -942,7 +964,7 @@
     },
     {
       "seq": 84,
-      "name_zh": "上個月薪資總額 ___元",
+      "name_zh": "上個月薪資總額___元",
       "name_en": "D381",
       "type": "Num",
       "length": 6,
@@ -968,7 +990,7 @@
       "name_en": "D391",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18 日間主要在做什麼(D30)為「1」、「2」 就業者。 0不適用(.) 1.有 2.無 3.正在籌建 4.沒有需要",
+      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n0不適用(.)\n1.有\n2.無\n3.正在籌建\n4.沒有需要",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1036,18 +1058,18 @@
     },
     {
       "seq": 92,
-      "name_zh": "工作環境裡，有無設置下列無障",
+      "name_zh": "工作環境裡，有無設置下列無障礙設施(電子語音播報系統)",
       "name_en": "D397",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "In the work environment, are any of the following accessible",
+      "name_zh_en": "Does the work environment have the following accessibility facilities (electronic voice announcement system)",
       "description_en": ""
     },
     {
       "seq": 93,
-      "name_zh": "工作環境裡，有無設置下列無障礙設施(其它 ____(請說明))",
+      "name_zh": "工作環境裡，有無設置下列無障礙設施(其它____(請說明))",
       "name_en": "D398",
       "type": "Char",
       "length": 1,
@@ -1062,7 +1084,7 @@
       "name_en": "D40",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18 日間主要在做什麼(D30)為「1」、「2」 就業者。 0.不適用 1.上、下班之交通 2.工作場所欠缺無障礙環境 3.工作條件之差別待遇 4.同事之異樣眼光 5.工作無保障 6.無專門技術 7.其他 8.無工作上困擾",
+      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18日間主要在做什麼(D30)為「1」、「2」就業者。\n0.不適用\n1.上、下班之交通\n2.工作場所欠缺無障礙環境\n3.工作條件之差別待遇\n4.同事之異樣眼光\n5.工作無保障\n6.無專門技術\n7.其他\n8.無工作上困擾",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1079,7 +1101,7 @@
       "name_en": "D41",
       "type": "Char",
       "length": 2,
-      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18 日間主要在做什麼(D30)為「3」失業者。 甲、 01.從來沒有工作乙、 02.交通困難 03.工作場所欠缺無障礙措施 04.工作受到差別待遇 05.與同事人際關係問題 06.無法勝任 07.沒有興趣 08.受傷或生病體力無法勝任 09.待遇太低 10.工作場所停業或業務緊縮 11.被裁員",
+      "description_zh": "本題僅適用您在 89 年 3 月 12 日~18日間主要在做什麼(D30)為「3」失業者。\n甲、\n01.從來沒有工作\n乙、\n02.交通困難\n03.工作場所欠缺無障礙措施\n04.工作受到差別待遇\n05.與同事人際關係問題\n06.無法勝任\n07.沒有興趣\n08.受傷或生病體力無法勝任\n09.待遇太低\n10.工作場所停業或業務緊縮\n11.被裁員\n12.被無故減薪\n13.女性結婚或生育\n14.其他\n00.不適用",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1088,7 +1110,7 @@
         }
       ],
       "name_zh_en": "ever had a job before",
-      "description_en": "This item applies only to those unemployed, i.e., whose main activity during March 12-18, Year 89 (D30) was \"3\". A. 01. Never had a job B. 02. Transportation difficulty 03. Workplace lacks accessible measures 04. Differential treatment at work 05. Interpersonal problems with colleagues 06. Unable to perform the job 07. Not interested 08. Physically unable due to injury or illness 09. Pay too low 10. Workplace closed or business scaled down 11. Laid off"
+      "description_en": "This question applies only to those who were unemployed (\"3\") on D30 (main activity during 12-18 March of ROC year 89 (2000)).\nA.\n01. Never worked\nB.\n02. Transportation difficulties\n03. Workplace lacks accessibility measures\n04. Discriminated against at work\n05. Interpersonal problems with colleagues\n06. Unable to cope with the job\n07. No interest\n08. Injury or illness; physically unable to cope\n09. Pay too low\n10. Workplace closed or business downsized\n11. Laid off\n12. Pay cut without cause\n13. Marriage or childbirth (women)\n14. Other\n00. Not applicable"
     },
     {
       "seq": 96,
@@ -1096,7 +1118,7 @@
       "name_en": "D42",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「3」失業者。 0.不適用 1.有 2.無",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「3」失業者。\n0.不適用\n1.有 2.無",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1113,7 +1135,7 @@
       "name_en": "D43",
       "type": "Char",
       "length": 3,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「3」失業者。 003~990.依「中華民國職業標準分類 （第5次修正，1992 年）」 分類。 000.不適用",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「3」失業者。\n003~990.依「中華民國職業標準分類（第5次修正，1992 年）」分類。\n000.不適用",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1130,7 +1152,7 @@
       "name_en": "D44",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用您在 89年3月12日~18 日間主要在做什麼(D30)為「3」失業者。 0.不適用 1.上下班領月薪 2.按日計酬 3.按時計酬 4.按件計酬",
+      "description_zh": "本題僅適用您在 89年3月12日~18日間主要在做什麼(D30)為「3」失業者。\n0.不適用\n1.上下班領月薪\n2.按日計酬\n3.按時計酬\n4.按件計酬",
       "available_notes": [
         {
           "roc_year": 89,
@@ -1147,7 +1169,7 @@
       "name_en": "D45",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用非勞動力且無工作意願者 1.是 2.否",
+      "description_zh": "0.不適用非勞動力且無工作意願者\n1.是\n2.否",
       "available_notes": [],
       "name_zh_en": "Have you received vocational training",
       "description_en": "0. Not applicable (not in labor force and unwilling to work), 1. Yes, 2. No"
@@ -1158,18 +1180,29 @@
       "name_en": "D46",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用非勞動力且無工作意願者 1.知道 2.不知道",
+      "description_zh": "0.不適用非勞動力且無工作意願者\n1.知道\n2.不知道",
       "available_notes": [],
       "name_zh_en": "Do you know that people with disabilities who participate in vocational training for 3 months or more receive a monthly living allowance subsidy",
       "description_en": "0. Not applicable (not in labor force and unwilling to work), 1. Know, 2. Don't know"
     },
     {
+      "seq": 101,
+      "name_zh": "是否知道政府對身心障礙者參加職訓有優惠補助措施",
+      "name_en": "D47",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Do you know that the government offers preferential subsidies for persons with disabilities attending vocational training",
+      "description_en": ""
+    },
+    {
       "seq": 102,
-      "name_zh": "是否願意（再） 參加職業訓練",
+      "name_zh": "是否願意（再）參加職業訓練",
       "name_en": "D48",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用非勞動力且無工作意願者 1.是 2.否",
+      "description_zh": "0.不適用非勞動力且無工作意願者\n1.是 2.否",
       "available_notes": [],
       "name_zh_en": "Whether willing to (again) participate in vocational training",
       "description_en": "0. Not applicable (not in labor force and unwilling to work), 1. Yes, 2. No"
@@ -1180,7 +1213,7 @@
       "name_en": "D48A1",
       "type": "Char",
       "length": 2,
-      "description_zh": "00.不適用非勞動力且無工作意願者 A.農林漁牧業 01.農、園藝 02.其他 B.製造業 03.食品烘焙 04.成衣、縫紉 05.飾品製作 06.皮件、鞋類 07.木工 08.紙器加工及包裝 09.射出成型 10.陶藝、石材加工 11.小五金加工 12.珠寶設計製作 13.玩具製作 14.燈籠製作 15.其他 C.批發零售餐飲業 16.超商服務 17.電話行銷 18.餐飲服務 19.其他 D.工商服務業 20.電腦軟體應用 21.電腦文書處理 22.美工設計 23.其他 E.社會服務及個人服務",
+      "description_zh": "00.不適用非勞動力且無工作意願者A.農林漁牧業\n01.農、園藝\n02.其他\nB.製造業\n03.食品烘焙\n04.成衣、縫紉\n05.飾品製作\n06.皮件、鞋類\n07.木工\n08.紙器加工及包裝\n09.射出成型\n10.陶藝、石材加工\n11.小五金加工\n12.珠寶設計製作\n13.玩具製作\n14.燈籠製作\n15.其他\nC.批發零售餐飲業\n16.超商服務\n17.電話行銷\n18.餐飲服務\n19.其他\nD.工商服務業\n20.電腦軟體應用\n21.電腦文書處理\n22.美工設計\n23.其他\nE.社會服務及個人服務",
       "available_notes": [],
       "name_zh_en": "The vocational training you would most like to receive is",
       "description_en": "00. Not applicable, not in labor force and no intention to work A. Agriculture, forestry, fishing and animal husbandry 01. Farming, horticulture 02. Other B. Manufacturing 03. Food baking 04. Garment, sewing 05. Accessory making 06. Leather goods, footwear 07. Woodworking 08. Paper products processing and packaging 09. Injection molding 10. Ceramics, stone processing 11. Small hardware processing 12. Jewelry design and production 13. Toy making 14. Lantern making 15. Other C. Wholesale, retail and catering 16. Convenience store service 17. Telemarketing 18. Catering service 19. Other D. Industrial and commercial services 20. Computer software application 21. Computer word processing 22. Graphic design 23. Other E. Social and personal services"
@@ -1191,25 +1224,25 @@
       "name_en": "D48A2",
       "type": "Char",
       "length": 2,
-      "description_zh": "",
+      "description_zh": "24.環境清潔維護\n25.視聽媒體製作\n26.廣播人員\n27.汽車清潔維護\n28.家電修復\n29.鐘錶、刻印\n30.鋼琴調音\n31.店繡\n32.洗衣\n33.按摩\n34.其他\nF.其他行業\n35.其他",
       "available_notes": [],
       "name_zh_en": "next is",
-      "description_en": ""
+      "description_en": "24. Environmental cleaning and maintenance\n25. Audiovisual media production\n26. Broadcaster\n27. Car cleaning and maintenance\n28. Home appliance repair\n29. Watch/clock repair and seal engraving\n30. Piano tuning\n31. Shop embroidery\n32. Laundry\n33. Massage\n34. Other\nF. Other industries\n35. Other"
     },
     {
       "seq": 105,
-      "name_zh": "不願意的原因是 (最主要)",
+      "name_zh": "不願意的原因是(最主要)",
       "name_en": "D48B1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.不適用非勞動力且無工作意願者 1.本職不需再訓練，不想轉業 2.怕學不來 3.受訓期間無法負擔家計生計 4.沒有時間 5.沒有合適的訓練職類 6.參加職訓未必找到工作 7.年事已高不想接受訓練 8.交通不便 9.其他",
+      "description_zh": "0.不適用非勞動力且無工作意願者\n1.本職不需再訓練，不想轉業\n2.怕學不來\n3.受訓期間無法負擔家計生計\n4.沒有時間\n5.沒有合適的訓練職類\n6.參加職訓未必找到工作\n7.年事已高不想接受訓練\n8.交通不便\n9.其他",
       "available_notes": [],
       "name_zh_en": "Reason for unwillingness (primary)",
       "description_en": "0. Not applicable (not in labor force and unwilling to work), 1. Current job doesn't need retraining, doesn't want to change careers, 2. Afraid of being unable to learn, 3. Can't support the household during training, 4. No time, 5. No suitable training program available, 6. Job training doesn't guarantee finding work, 7. Too old, unwilling to undergo training, 8. Transportation inconvenient, 9. Other"
     },
     {
       "seq": 106,
-      "name_zh": "不願意的原因是 (次要)",
+      "name_zh": "不願意的原因是(次要)",
       "name_en": "D48B2",
       "type": "Char",
       "length": 1,
@@ -1220,13 +1253,13 @@
     },
     {
       "seq": 107,
-      "name_zh": "不願意的原因是 (再次要)五、福利服務及醫療照顧",
+      "name_zh": "不願意的原因是(再次要)",
       "name_en": "D48B3",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "The reason for unwillingness is (second most important) 5. Welfare services and medical care",
+      "name_zh_en": "Reason for unwillingness (tertiary)",
       "description_en": ""
     },
     {
@@ -1235,7 +1268,7 @@
       "name_en": "E49",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.很好 2.普通 3.不太好 4.很差",
+      "description_zh": "1.很好 2.普通\n3.不太好 4.很差",
       "available_notes": [],
       "name_zh_en": "How is your current health condition",
       "description_en": "1. Very good 2. Average 3. Not very good 4. Very poor"
@@ -1246,7 +1279,7 @@
       "name_en": "E50",
       "type": "Num",
       "length": 3,
-      "description_zh": "值域：1-80 88.表無健保卡 98.表使用超過 100張",
+      "description_zh": "值域：1-80\n88.表無健保卡\n98.表使用超過 100張",
       "available_notes": [],
       "name_zh_en": "Which National Health Insurance card number was used",
       "description_en": "Range: 1-80 88. Indicates no health insurance card 98. Indicates more than 100 cards used"
@@ -1257,10 +1290,10 @@
       "name_en": "E51",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.內科 02.外科 03.家醫科 04.小兒科 05.眼科 06.耳鼻喉科",
+      "description_zh": "01.內科\n02.外科\n03.家醫科\n04.小兒科\n05.眼科\n06.耳鼻喉科\n07.骨科\n08.復健科\n09.神經外科\n10.神經內科\n11.泌尿科\n12.婦產科\n13皮膚科\n14.整形外科\n15.牙科\n16.精神科\n17.中醫\n18.民俗療法",
       "available_notes": [],
       "name_zh_en": "The main medical department visited in the past year was",
-      "description_en": "01. Internal Medicine 02. Surgery 03. Family Medicine 04. Pediatrics 05. Ophthalmology 06. Otolaryngology (ENT)"
+      "description_en": "01. Internal medicine\n02. Surgery\n03. Family medicine\n04. Pediatrics\n05. Ophthalmology\n06. Otolaryngology\n07. Orthopedics\n08. Rehabilitation medicine\n09. Neurosurgery\n10. Neurology\n11. Urology\n12. Obstetrics and gynecology\n13 Dermatology\n14. Plastic surgery\n15. Dentistry\n16. Psychiatry\n17. Traditional Chinese medicine\n18. Folk therapy"
     },
     {
       "seq": 111,
@@ -1286,7 +1319,7 @@
     },
     {
       "seq": 113,
-      "name_zh": "在就醫上是否在有下列的的困難 (交通問題難以解決)",
+      "name_zh": "在就醫上是否在有下列的的困難(交通問題難以解決)",
       "name_en": "E531",
       "type": "Char",
       "length": 1,
@@ -1297,7 +1330,7 @@
     },
     {
       "seq": 114,
-      "name_zh": "在就醫上是否在有下列的的困難 (無法獨力完成掛號就醫的程序)",
+      "name_zh": "在就醫上是否在有下列的的困難(無法獨力完成掛號就醫的程序)",
       "name_en": "E532",
       "type": "Char",
       "length": 1,
@@ -1308,7 +1341,7 @@
     },
     {
       "seq": 115,
-      "name_zh": "在就醫上是否在有下列的的困難 (不知道該去哪家醫院或看哪位醫師)",
+      "name_zh": "在就醫上是否在有下列的的困難(不知道該去哪家醫院或看哪位醫師)",
       "name_en": "E533",
       "type": "Char",
       "length": 1,
@@ -1319,7 +1352,7 @@
     },
     {
       "seq": 116,
-      "name_zh": "在就醫上是否在有下列的的困難 (擔心醫療費用負擔)",
+      "name_zh": "在就醫上是否在有下列的的困難(擔心醫療費用負擔)",
       "name_en": "E534",
       "type": "Char",
       "length": 1,
@@ -1330,14 +1363,14 @@
     },
     {
       "seq": 117,
-      "name_zh": "[有交通問題者] 何種交通問題",
+      "name_zh": "[有交通問題者]何種交通問題",
       "name_en": "E53A",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題僅適用就醫上有交通問題者。 0.不適用",
+      "description_zh": "本題僅適用就醫上有交通問題者。\n0.不適用\n1.醫院太遠\n2.交通費用太貴\n3.通行環境的障礙\n4.沒人可以接送",
       "available_notes": [],
       "name_zh_en": "[Those with transportation problems] What kind of transportation problem",
-      "description_en": "This item applies only to those who have transportation problems seeking medical care. 0. Not applicable"
+      "description_en": "This item applies only to those with transportation problems in seeking medical care.\n0. Not applicable\n1. Hospital too far\n2. Transportation costs too high\n3. Barriers in the travel environment\n4. No one available to provide transportation"
     },
     {
       "seq": 118,
@@ -1345,7 +1378,7 @@
       "name_en": "E541",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.未曾發生或不需就醫 1.有",
+      "description_zh": "0.未曾發生或不需就醫\n1.有",
       "available_notes": [],
       "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment (fracture)",
       "description_en": "0. Never occurred or did not need medical attention, 1. Yes"
@@ -1418,13 +1451,13 @@
     },
     {
       "seq": 125,
-      "name_zh": "過去一年內是否曾發生下列意外或受傷而需要就",
+      "name_zh": "過去一年內是否曾發生下列意外或受傷而需要就醫(未曾發生或不需就醫)",
       "name_en": "E548",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "In the past year, have you had any of the following accidents or injuries requiring medical treatment",
+      "name_zh_en": "In the past year, did any of the following accidents or injuries requiring medical care occur (none occurred or no medical care needed)",
       "description_en": ""
     },
     {
@@ -1433,7 +1466,7 @@
       "name_en": "E5501",
       "type": "Char",
       "length": 1,
-      "description_zh": "本題限3歲以上者填答。 0.不適用 1.沒困難 2.需要輔具或環境改善 3.需人協助 4.完全不能",
+      "description_zh": "本題限3歲以上者填答。\n0.不適用\n1.沒困難\n2.需要輔具或環境改善\n3.需人協助\n4.完全不能",
       "available_notes": [],
       "name_zh_en": "For the following activities, can you move on your own without difficulty (eating)",
       "description_en": "This item is to be answered only by those aged 3 and above. 0. Not applicable 1. No difficulty 2. Needs assistive device or environmental modification 3. Needs assistance from another person 4. Completely unable"
@@ -1550,13 +1583,13 @@
     },
     {
       "seq": 137,
-      "name_zh": "您平常做不做下",
+      "name_zh": "您平常做不做下列活動(洗衣服)",
       "name_en": "E56_1_2",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "do you usually do this",
+      "name_zh_en": "Do you usually do the following activities (doing laundry)",
       "description_en": ""
     },
     {
@@ -1620,7 +1653,7 @@
       "name_en": "E56_2_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.沒困難 1.需要輔具或環境改善 2.需人協助 3.完全不能",
+      "description_zh": "0.沒困難\n1.需要輔具或環境改善\n2.需人協助\n3.完全不能",
       "available_notes": [],
       "name_zh_en": "If you had to, would you have difficulty doing these activities alone (housework)",
       "description_en": "0. No difficulty, 1. Needs assistive device or environmental modification, 2. Needs assistance from others, 3. Completely unable"
@@ -1671,13 +1704,13 @@
     },
     {
       "seq": 148,
-      "name_zh": "如果必須做，您獨自做這些活動有沒有困難(吃",
+      "name_zh": "如果必須做，您獨自做這些活動有沒有困難(吃藥)",
       "name_en": "E56_2_6",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (eating",
+      "name_zh_en": "If you had to, would you have difficulty doing these activities alone (taking medicine)",
       "description_en": ""
     },
     {
@@ -1693,18 +1726,18 @@
     },
     {
       "seq": 150,
-      "name_zh": "目前是否接受下列之復健治療 (職能治療)",
+      "name_zh": "目前是否接受下列之復健治療(職能治療)",
       "name_en": "E571",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.否 1.是",
+      "description_zh": "0.否\n1.是",
       "available_notes": [],
       "name_zh_en": "Whether currently receiving the following rehabilitation treatments (Occupational therapy)",
       "description_en": "0 no 1 yes"
     },
     {
       "seq": 151,
-      "name_zh": "目前是否接受下列之復健治療 (物理治療)",
+      "name_zh": "目前是否接受下列之復健治療(物理治療)",
       "name_en": "E572",
       "type": "Char",
       "length": 1,
@@ -1715,7 +1748,7 @@
     },
     {
       "seq": 152,
-      "name_zh": "目前是否接受下列之復健治療 (語言治療)",
+      "name_zh": "目前是否接受下列之復健治療(語言治療)",
       "name_en": "E573",
       "type": "Char",
       "length": 1,
@@ -1726,7 +1759,7 @@
     },
     {
       "seq": 153,
-      "name_zh": "目前是否接受下列之復健治療 (心理諮商)",
+      "name_zh": "目前是否接受下列之復健治療(心理諮商)",
       "name_en": "E574",
       "type": "Char",
       "length": 1,
@@ -1737,7 +1770,7 @@
     },
     {
       "seq": 154,
-      "name_zh": "目前是否接受下列之復健治療 (否)",
+      "name_zh": "目前是否接受下列之復健治療(否)",
       "name_en": "E575",
       "type": "Char",
       "length": 1,
@@ -1748,18 +1781,18 @@
     },
     {
       "seq": 155,
-      "name_zh": "你在生活中是否使用哪些輔具 (點字機或點字版)",
+      "name_zh": "你在生活中是否使用哪些輔具(點字機或點字版)",
       "name_en": "E58_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0.否 1.是",
+      "description_zh": "0.否\n1.是",
       "available_notes": [],
       "name_zh_en": "Which assistive devices do you use in daily life (braille typewriter or braille slate)",
       "description_en": "0 no 1 yes"
     },
     {
       "seq": 156,
-      "name_zh": "你在生活中是否使用哪些輔具 (特製眼鏡)",
+      "name_zh": "你在生活中是否使用哪些輔具(特製眼鏡)",
       "name_en": "E58_2",
       "type": "Char",
       "length": 1,
@@ -1770,7 +1803,7 @@
     },
     {
       "seq": 157,
-      "name_zh": "你在生活中是否使用哪些輔具 (輪椅)",
+      "name_zh": "你在生活中是否使用哪些輔具(輪椅)",
       "name_en": "E58_3",
       "type": "Char",
       "length": 1,
@@ -1781,7 +1814,7 @@
     },
     {
       "seq": 158,
-      "name_zh": "你在生活中是否使用哪些輔具 (助行器)",
+      "name_zh": "你在生活中是否使用哪些輔具(助行器)",
       "name_en": "E58_4",
       "type": "Char",
       "length": 1,
@@ -1792,18 +1825,18 @@
     },
     {
       "seq": 159,
-      "name_zh": "你在生活中是否使用哪些輔具",
+      "name_zh": "你在生活中是否使用哪些輔具(特製或改裝機車)",
       "name_en": "E58_5",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "Which assistive devices do you use in daily life",
+      "name_zh_en": "Which assistive devices do you use in daily life (specially made or modified motorcycle)",
       "description_en": ""
     },
     {
       "seq": 160,
-      "name_zh": "你在生活中是否使用哪些輔具 (餵食椅或進食輔具)",
+      "name_zh": "你在生活中是否使用哪些輔具(餵食椅或進食輔具)",
       "name_en": "E58_6",
       "type": "Char",
       "length": 1,
@@ -1814,7 +1847,7 @@
     },
     {
       "seq": 161,
-      "name_zh": "你在生活中是否使用哪些輔具 (居家無障礙設施裝備)",
+      "name_zh": "你在生活中是否使用哪些輔具(居家無障礙設施裝備)",
       "name_en": "E58_7",
       "type": "Char",
       "length": 1,
@@ -1825,7 +1858,7 @@
     },
     {
       "seq": 162,
-      "name_zh": "你在生活中是否使用哪些輔具 (其他)",
+      "name_zh": "你在生活中是否使用哪些輔具(其他)",
       "name_en": "E58_8",
       "type": "Char",
       "length": 1,
@@ -1836,7 +1869,7 @@
     },
     {
       "seq": 163,
-      "name_zh": "你在生活中是否使用哪些輔具 (電動輪椅/代步車)",
+      "name_zh": "你在生活中是否使用哪些輔具(電動輪椅/代步車)",
       "name_en": "E58_9",
       "type": "Char",
       "length": 1,
@@ -1847,7 +1880,7 @@
     },
     {
       "seq": 164,
-      "name_zh": "你在生活中是否使用哪些輔具 (義肢)",
+      "name_zh": "你在生活中是否使用哪些輔具(義肢)",
       "name_en": "E58_10",
       "type": "Char",
       "length": 1,
@@ -1858,7 +1891,7 @@
     },
     {
       "seq": 165,
-      "name_zh": "你在生活中是否使用哪些輔具 (助聽器)",
+      "name_zh": "你在生活中是否使用哪些輔具(助聽器)",
       "name_en": "E58_11",
       "type": "Char",
       "length": 1,
@@ -1869,7 +1902,7 @@
     },
     {
       "seq": 166,
-      "name_zh": "你在生活中是否使用哪些輔具 (人工電子耳)",
+      "name_zh": "你在生活中是否使用哪些輔具(人工電子耳)",
       "name_en": "E58_12",
       "type": "Char",
       "length": 1,
@@ -1880,7 +1913,7 @@
     },
     {
       "seq": 167,
-      "name_zh": "你在生活中是否使用哪些輔具 (義眼)",
+      "name_zh": "你在生活中是否使用哪些輔具(義眼)",
       "name_en": "E58_13",
       "type": "Char",
       "length": 1,
@@ -1891,7 +1924,7 @@
     },
     {
       "seq": 168,
-      "name_zh": "你在生活中是否使用哪些輔具 (人工講話器)",
+      "name_zh": "你在生活中是否使用哪些輔具(人工講話器)",
       "name_en": "E58_14",
       "type": "Char",
       "length": 1,
@@ -1902,7 +1935,7 @@
     },
     {
       "seq": 169,
-      "name_zh": "你在生活中是否使用哪些輔具 (支架/站立架)",
+      "name_zh": "你在生活中是否使用哪些輔具(支架/站立架)",
       "name_en": "E58_15",
       "type": "Char",
       "length": 1,
@@ -1913,7 +1946,7 @@
     },
     {
       "seq": 170,
-      "name_zh": "你在生活中是否使用哪些輔具 (氣墊床或流體壓力床墊)",
+      "name_zh": "你在生活中是否使用哪些輔具(氣墊床或流體壓力床墊)",
       "name_en": "E58_16",
       "type": "Char",
       "length": 1,
@@ -1924,7 +1957,7 @@
     },
     {
       "seq": 171,
-      "name_zh": "你在生活中是否使用哪些輔具 (未使用輔具)",
+      "name_zh": "你在生活中是否使用哪些輔具(未使用輔具)",
       "name_en": "E58_17",
       "type": "Char",
       "length": 1,
@@ -1939,7 +1972,7 @@
       "name_en": "E59_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.就醫交通協助 02.提供醫療資源資訊 03.擴大重大傷病認定範圍 04.提供社區就近醫療服務 05.提供居家照護 06.提供醫療補助 07.提供營養、藥物、輔具諮詢服務 08.身心障礙者定期免費健康檢查 09.早期治療者 10.醫院通報系統 11.其他",
+      "description_zh": "01.就醫交通協助\n02.提供醫療資源資訊\n03.擴大重大傷病認定範圍\n04.提供社區就近醫療服務\n05.提供居家照護\n06.提供醫療補助\n07.提供營養、藥物、輔具諮詢服務\n08.身心障礙者定期免費健康檢查\n09.早期治療者\n10.醫院通報系統\n11.其他",
       "available_notes": [],
       "name_zh_en": "What items do you think the government should prioritize regarding medical care for people with disabilities (first priority)",
       "description_en": "01. Transportation assistance for medical visits 02. Providing medical resource information 03. Expanding the scope of major illness recognition 04. Providing nearby community medical services 05. Providing home care 06. Providing medical subsidies 07. Providing nutrition, medication, and assistive device consultation services 08. Regular free health checkups for people with disabilities 09. Early treatment 10. Hospital reporting system 11. Other"
@@ -1972,7 +2005,7 @@
       "name_en": "E60_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "01.生活補助 02.建立國民年金制度 03.建立社區型安置措施 04.協助解決交通問題 05.身心障礙者之老年安養 06.人身安全保護 07.保障有工作能力身心障礙者最低合理薪資 08.建立無障礙生活環境設施及設備 09.就業政策 10.信託基金 11.居家服務 12.喘息服務",
+      "description_zh": "01.生活補助\n02.建立國民年金制度\n03.建立社區型安置措施\n04.協助解決交通問題\n05.身心障礙者之老年安養\n06.人身安全保護\n07.保障有工作能力身心障礙者最低合理薪資\n08.建立無障礙生活環境設施及設備\n09.就業政策\n10.信託基金\n11.居家服務\n12.喘息服務",
       "available_notes": [],
       "name_zh_en": "What livelihood welfare measures do you think the government should prioritize for people with disabilities (first priority)",
       "description_en": "01. Living subsidy 02. Establishing a national pension system 03. Establishing community-based placement measures 04. Assisting with transportation issues 05. Elderly care for people with disabilities 06. Personal safety protection 07. Guaranteeing a minimum reasonable wage for disabled people capable of working 08. Establishing barrier-free living facilities and equipment 09. Employment policy 10. Trust fund 11. Home care services 12. Respite care services"
@@ -1990,14 +2023,14 @@
     },
     {
       "seq": 177,
-      "name_zh": "您認為政府對於身心障礙者，應優先辦理哪些生",
+      "name_zh": "您認為政府對於身心障礙者，應優先辦理哪些生活福利措施(第三優先)",
       "name_en": "E60_3",
       "type": "Char",
       "length": 2,
-      "description_zh": "",
+      "description_zh": "13.其他",
       "available_notes": [],
-      "name_zh_en": "What livelihood welfare measures do you think the government should prioritize for people with disabilities",
-      "description_en": ""
+      "name_zh_en": "Which living welfare measures do you think the government should prioritize for persons with disabilities (third priority)",
+      "description_en": "13. Other"
     },
     {
       "seq": 178,
@@ -2005,7 +2038,7 @@
       "name_en": "E61_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.不知道 2.滿意 3.尚可 4.不滿意 5.不需要 6.申請麻煩 7.申請不通過 8.其他",
+      "description_zh": "1.不知道\n2.滿意\n3.尚可\n4.不滿意\n5.不需要\n6.申請麻煩\n7.申請不通過\n8.其他",
       "available_notes": [],
       "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (living allowance for people with disabilities)",
       "description_en": "1. Don't know 2. Satisfied 3. Acceptable 4. Unsatisfied 5. Not needed 6. Application too troublesome 7. Application rejected 8. Other"
@@ -2067,13 +2100,13 @@
     },
     {
       "seq": 184,
-      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利服務(搭乘交通工",
+      "name_zh": "您知道政府對身心障礙者有提供什麼樣的福利服務(搭乘交通工具或風景名勝半票優待)",
       "name_en": "E61_7",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "Do you know what welfare services the government provides for people with disabilities (transportation subsidy)",
+      "name_zh_en": "Do you know what welfare services the government provides for persons with disabilities (Half-price discounts for public transportation or scenic spots)",
       "description_en": ""
     },
     {
@@ -2093,7 +2126,7 @@
       "name_en": "E61A",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.身心障礙者生活補助 2.托育及養護費 3.輔具補助 4.醫療費用補助 5.改善無障礙設施 6.早期療育 7.搭乘交通工具或風景名勝半票優待 8.租屋及購屋貸款利息補助",
+      "description_zh": "1.身心障礙者生活補助\n2.托育及養護費\n3.輔具補助\n4.醫療費用補助\n5.改善無障礙設施\n6.早期療育\n7.搭乘交通工具或風景名勝半票優待\n8.租屋及購屋貸款利息補助",
       "available_notes": [],
       "name_zh_en": "Welfare the government provides for people with disabilities (most needed)",
       "description_en": "1. Living allowance for persons with disabilities 2. Childcare and nursing fees 3. Assistive device subsidy 4. Medical expense subsidy 5. Improvement of accessible facilities 6. Early intervention 7. Half-price discount on transportation or scenic spots 8. Rent and home purchase loan interest subsidy"
@@ -2111,13 +2144,13 @@
     },
     {
       "seq": 188,
-      "name_zh": "政府對身心障礙者有提供什麼樣的福利(再次要)建表用附加資料",
+      "name_zh": "政府對身心障礙者有提供什麼樣的福利(再次要)",
       "name_en": "E61C",
       "type": "Char",
       "length": 1,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "Welfare the government provides for people with disabilities (secondary need) — supplementary data for table construction",
+      "name_zh_en": "What welfare does the government provide for persons with disabilities (tertiary)",
       "description_en": ""
     },
     {
@@ -2126,7 +2159,7 @@
       "name_en": "LCLF",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.北 2.中 3.南 4.東 5.臺北市 6.高雄市 7.金門 8.馬祖",
+      "description_zh": "1.北\n2.中\n3.南\n4.東\n5.臺北市\n6.高雄市\n7.金門\n8.馬祖",
       "available_notes": [],
       "name_zh_en": "Area",
       "description_en": "1. North 2. Central 3. South 4. East 5. Taipei City 6. Kaohsiung City 7. Kinmen 8. Matsu"
@@ -2137,10 +2170,10 @@
       "name_en": "AGES",
       "type": "Char",
       "length": 2,
-      "description_zh": "11.「0-11歲」 21.「12-14歲」 22.「15-17歲」 32.「18-24歲」 33.「25-29歲」 43.「30-34歲」 44.「35-44歲」 55.「45-54歲」 56.「55-59歲」 66.「59-64歲」",
+      "description_zh": "11.「0-11歲」\n21.「12-14歲」\n22.「15-17歲」\n32.「18-24歲」\n33.「25-29歲」\n43.「30-34歲」\n44.「35-44歲」\n55.「45-54歲」\n56.「55-59歲」\n66.「59-64歲」\n77.「65歲以上」",
       "available_notes": [],
       "name_zh_en": "age",
-      "description_en": "11. \"0-11 years\" 21. \"12-14 years\" 22. \"15-17 years\" 32. \"18-24 years\" 33. \"25-29 years\" 43. \"30-34 years\" 44. \"35-44 years\" 55. \"45-54 years\" 56. \"55-59 years\" 66. \"59-64 years\""
+      "description_en": "11. \"0-11 years\"\n21. \"12-14 years\"\n22. \"15-17 years\"\n32. \"18-24 years\"\n33. \"25-29 years\"\n43. \"30-34 years\"\n44. \"35-44 years\"\n55. \"45-54 years\"\n56. \"55-59 years\"\n66. \"59-64 years\"\n77. \"65 years and over\""
     },
     {
       "seq": 191,
@@ -8016,9 +8049,7 @@
   "raw_text_first_page": "2025年06月24日修訂\n89 年身心障礙者生活需求調查檔\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_PMDCLDAS89 資料筆數 7,958\n中文檔名 89年身心障礙者生活需求 英文檔名 PHYSICALLY AND MENTALLY\n調查檔 DISABLED CITIZENS LIVING AND\nDEMAND ASSESSMENT SURVEY\n檔案大小 2.32 MB 欄位數 191\n譯碼簿\n屬性 調查檔 週期 2025/06/24\n更新日期\n資料描述 調查對象為台閩地區身心障礙者，主要調查身心障礙者其基本資料、居住及起居生活\n狀況、個人及家庭經濟狀況、休閒活動、社會參與狀況、外出交通狀況、相關無障礙\n設施使用情形、教育學習狀況、對福利服務及醫療照顧需求、工作現況及職業重建服\n務需求等資料，以作為政府及民間團體推動身心障礙者各項福利服務措施之參考，使\n身心障礙者獲得更妥適的生活照顧。此外，亦可作為各級政府機關(單位)釐訂身心障\n礙者相關福利服務政策之重要參考。\n本次調查採採「分層二階段系統隨機抽樣法」，派員實地訪問方式。\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 因年度不同，資料欄位不盡相同。\n3. 調查表分主卷(針對個案樣本)與副卷(針對主要家庭照顧者)，為避免影響主卷(A\n表)之回表與調查品質，主要家庭照顧者副卷(B 表)係採由主要照顧者自願填答\n方式辦理，回收樣本分配未必與母體一致，應用時請審慎。\n主鍵與比\n無\n對欄位\n1",
   "qa": {
     "errors": [],
-    "warnings": [
-      "field count mismatch: header=191, parsed=188"
-    ]
+    "warnings": []
   },
   "page_count": 35,
   "code": "Welfare06",
@@ -8031,7 +8062,12 @@
   "doc_last_updated": "2025-06-24",
   "name_zh_from_listing": "資料庫使用手冊Welfare6_身心障礙者生活需求調查檔(89年)",
   "data_description_en": "The survey subjects were persons with disabilities in the Taiwan-Fukien Area. The survey mainly covered their basic information, living and daily-life conditions, personal and family economic status, leisure activities, social-participation status, transportation for going out, use of related accessibility facilities, education and learning status, needs for welfare services and medical care, and current employment status and vocational-rehabilitation service needs, to serve as a reference for the government and private organizations in promoting welfare service measures for persons with disabilities and to enable them to receive more appropriate life care. It also serves as an important reference for government agencies at all levels in formulating welfare-service policies related to persons with disabilities.\nThis survey used a \"stratified two-stage systematic random sampling method,\" with in-person field interviews conducted by assigned staff.",
-  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. Data fields vary somewhat by survey year.\n3. The questionnaire is divided into a main form (Form A, for the case sample) and a supplementary form (Form B, for primary family caregivers). To avoid affecting the response rate and quality of the main form (Form A), the primary-family-caregiver supplementary form (Form B) was completed on a voluntary basis by the primary caregiver, and the distribution of the collected sample may not match that of the population; please use this data with caution. None",
-  "primary_keys_en": "",
-  "name_zh_en": "ROC year 89 Survey of Living Needs of People with Disabilities file"
+  "notes_en": "1. This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and fields such as\nnational ID number, facility code, insured unit code, unified business number, date of birth, visit date and admission date\nare all masked. The data may be used only within the independent work area set up by the Ministry, and only\nstatistical results that have passed review may be taken out, to ensure that data use and disclosure cannot identify any specific individual.\n2. Data fields differ by year.\n3. The questionnaire is divided into a main form (for the case sample) and a supplementary form (for the primary family caregiver). To avoid affecting the response and survey quality of the main form (Form\nA), the primary family caregiver supplementary form (Form B) is completed voluntarily by the primary caregiver,\nso the distribution of returned samples may not match the population; use with caution.",
+  "primary_keys_en": "none",
+  "name_zh_en": "ROC year 89 Survey of Living Needs of People with Disabilities file",
+  "printed": {
+    "field_rows": 191,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

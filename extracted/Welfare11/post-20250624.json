@@ -16,7 +16,7 @@
     }
   ],
   "data_description_zh": "資料為 101 年 7 月至 104 年 12 月各月及 105 年至 114 年之列冊低收入戶及中\n低收入戶之名冊。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比對個人歸戶及個人資料比對的鍵值：ID。",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 主鍵與比對 個人歸戶及個人資料比對的鍵值：ID。",
   "primary_keys_raw": "",
   "fields": [
     {
@@ -47,7 +47,7 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "ID number validation error",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -69,7 +69,7 @@
       "name_en": "LOWTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "0~4為低收入戶款別 M為中低收入戶款別",
+      "description_zh": "0~4為低收入戶款別\nM為中低收入戶款別",
       "available_notes": [],
       "name_zh_en": "Category for low-income households",
       "description_en": "0~4 for Low-income Categories M for Middle-low income Categories"
@@ -146,7 +146,7 @@
       "name_en": "APPID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "household head ID number error",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -154,10 +154,10 @@
     {
       "seq": 13,
       "name_zh": "家庭生活補助費",
-      "name_en": "FAMILY_ALLOWAN CE",
+      "name_en": "FAMILY_ALLOWANCE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增僅106年無",
+      "description_zh": "104年起新增\n僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -176,10 +176,10 @@
     {
       "seq": 14,
       "name_zh": "就學生活補助費",
-      "name_en": "SCHOOL_LIFE_ALL OWANCE",
+      "name_en": "SCHOOL_LIFE_ALLOWANCE",
       "type": "Char",
       "length": 5,
-      "description_zh": "104年起新增僅106年無",
+      "description_zh": "104年起新增\n僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -198,10 +198,10 @@
     {
       "seq": 15,
       "name_zh": "兒童生活補助費",
-      "name_en": "CHILD_LIVING_ALL OWANCE",
+      "name_en": "CHILD_LIVING_ALLOWANCE",
       "type": "Char",
       "length": 7,
-      "description_zh": "104年起新增僅106年無",
+      "description_zh": "104年起新增\n僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -223,7 +223,7 @@
       "name_en": "LOWTYPE_STAT",
       "type": "Char",
       "length": 1,
-      "description_zh": "0、1歸類為1 2 歸類為2 3、4歸類為3 M 歸類為M. 104年起新增僅106年無",
+      "description_zh": "0、1歸類為1\n2 歸類為2\n3、4歸類為3\nM 歸類為M.\n104年起新增\n僅106年無",
       "available_notes": [
         {
           "roc_year": 104,
@@ -259,5 +259,10 @@
   "data_description_en": "Data for July 2011 to December 2014 and lists of registered low-income households and mid-low income households from 2015 to 2024.",
   "notes_en": "※This database has been de-identified and direct identifying fields such as name and address have been deleted. If there are identification numbers such as national ID number, institution code, insured unit code, unified number, date of birth, medical visit date, admission date, etc., they have all been shielded, and the relevant data can only be used within a dedicated operational area set up by this department, and statistical results approved for release to ensure that the application and disclosure methods do not allow identification of specific individuals. Primary key with individual account and personal information matching value: ID.",
   "primary_keys_en": "",
-  "name_zh_en": "low-income and low-middle income household data file"
+  "name_zh_en": "low-income and low-middle income household data file",
+  "printed": {
+    "field_rows": 16,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

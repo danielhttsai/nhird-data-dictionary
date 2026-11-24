@@ -25,7 +25,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。 112年長度20",
+      "description_zh": "經加密處理。國 民身分證統一編 號，或外籍居留 證號碼（如無居 留證號碼請填護 照號碼），左靠不 足補空白。 112年長度20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -34,7 +34,29 @@
         }
       ],
       "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National ID number, or Alien Resident Certificate number (if no resident certificate number, enter passport number); left-aligned, pad with spaces if insufficient. Length is 20 for ROC year 112 (AD 2023)."
+      "description_en": "Encrypted. National ID number or foreign resident permit number (passport number if there is no resident permit number), left-aligned and padded with spaces. Length 20 from ROC year 112 (2023)."
+    },
+    {
+      "seq": 1,
+      "name_zh": "支付方式",
+      "name_en": "Q_FILETYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 1,
+      "name_zh": "單位代碼",
+      "name_en": "UNIT_ID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為 辨別院所鍵值。",
+      "available_notes": [],
+      "name_zh_en": "Unit code",
+      "description_en": "encrypted for identifying institution key value."
     },
     {
       "seq": 2,
@@ -48,6 +70,28 @@
       "description_en": "1: national ID card; 2: passport."
     },
     {
+      "seq": 2,
+      "name_zh": "乳攝車",
+      "name_en": "CAR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "mammography vehicle",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 2,
+      "name_zh": "單位等級",
+      "name_en": "UNIT_LEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "unit level",
+      "description_en": "detailed translation explanation"
+    },
+    {
       "seq": 3,
       "name_zh": "原始檔性別",
       "name_en": "SEX",
@@ -57,6 +101,39 @@
       "available_notes": [],
       "name_zh_en": "original gender",
       "description_en": "1: male; 2: female; 9: not specified"
+    },
+    {
+      "seq": 3,
+      "name_zh": "教育程度",
+      "name_en": "Q_EDU",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "education level",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 3,
+      "name_zh": "單位所在區碼",
+      "name_en": "UNIT_AREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "District code of unit location",
+      "description_en": ""
+    },
+    {
+      "seq": 4,
+      "name_zh": "現居地代碼",
+      "name_en": "LIVINGAREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明。",
+      "available_notes": [],
+      "name_zh_en": "residence code",
+      "description_en": "See code table."
     },
     {
       "seq": 4,
@@ -76,6 +153,17 @@
       "description_en": "112 year length 18"
     },
     {
+      "seq": 4,
+      "name_zh": "醫院等級",
+      "name_en": "UNIT_HLEVEL",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "available_notes": [],
+      "name_zh_en": "hospital grade",
+      "description_en": "detailed translation explanation"
+    },
+    {
       "seq": 5,
       "name_zh": "性別",
       "name_en": "SICKID_S",
@@ -87,15 +175,65 @@
       "description_en": "1: male; 2: female; 9: unknown"
     },
     {
+      "seq": 5,
+      "name_zh": "體重",
+      "name_en": "Q_WEIGHT",
+      "type": "Char",
+      "length": 35,
+      "description_zh": "112年長度10",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "weight",
+      "description_en": "ROC year 112 (2023): length 10"
+    },
+    {
+      "seq": 5,
+      "name_zh": "是否限制乳攝車",
+      "name_en": "UNIT_CAR",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "available_notes": [],
+      "name_zh_en": "Whether restricted to mobile mammography vehicle",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 6,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符 合編碼原則； 1：不符合",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
+    },
+    {
       "seq": 6,
       "name_zh": "疾病史-有無得過下列疾病",
       "name_en": "Q_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：乳房良性相關疾病；2：乳癌；3： 其他癌症",
+      "description_zh": "0：無；1：乳房 良性相關疾 病；2：乳癌；3： 其他癌症",
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: None; 1: Benign breast disease; 2: Breast cancer; 3: Other cancers"
+    },
+    {
+      "seq": 6,
+      "name_zh": "報表用歸屬縣市",
+      "name_en": "REPORT_CITY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "T：是；Null：否",
+      "available_notes": [],
+      "name_zh_en": "reporting authority county city",
+      "description_en": "T: yes Null: no"
     },
     {
       "seq": 7,
@@ -109,15 +247,59 @@
       "description_en": "provides Gregorian year and month YYYY-MM"
     },
     {
+      "seq": 7,
+      "name_zh": "家族史-與您有血緣的家屬中，有無人得過癌症",
+      "name_en": "Q_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "available_notes": [],
+      "name_zh_en": "Family history: whether any blood relatives have had cancer",
+      "description_en": "0: no; 1: yes"
+    },
+    {
+      "seq": 7,
+      "name_zh": "是否為乳攝合約醫院",
+      "name_en": "UNIT_CONTRACT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "T：是；Null：否",
+      "available_notes": [],
+      "name_zh_en": "Whether a mammography contracted hospital",
+      "description_en": "T: yes Null: no"
+    },
+    {
+      "seq": 8,
+      "name_zh": "家族史-母親數",
+      "name_en": "Q_2_MONTHER",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "family history - mother count",
+      "description_en": ""
+    },
+    {
       "seq": 8,
       "name_zh": "醫療機構權屬別",
       "name_en": "UNIT_ID_HOS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
+      "description_zh": "代碼參照醫療機 構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 9,
+      "name_zh": "家族史-姊妹",
+      "name_en": "Q_2_SISTER",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Family history: sister",
+      "description_en": ""
     },
     {
       "seq": 9,
@@ -125,7 +307,7 @@
       "name_en": "UNIT_ID_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
+      "description_zh": "代碼參照死因統 計檔。",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
@@ -434,7 +616,7 @@
       "name_en": "SICKID",
       "type": "Char",
       "length": 24,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼）， 左靠不足補空白。 112年長度為20",
+      "description_zh": "經加密處理。國 民身分證統一 編號，或外籍居 留證號碼（如無 居留證號碼請 填護照號碼）， 左靠不足補空 白。 112年長度為20",
       "available_notes": [
         {
           "roc_year": 112,
@@ -451,7 +633,7 @@
       "name_en": "PH_HOSPITALID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理，為辨別院所鍵值。",
+      "description_zh": "經加密處理，為 辨別院所鍵值。",
       "available_notes": [],
       "name_zh_en": "milk feeding hospital code",
       "description_en": "encrypted value for hospital key."
@@ -561,7 +743,7 @@
       "name_en": "SICKID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則；1：不符合",
+      "description_zh": "0：身分證字號 符合編碼原 則；1：不符合",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
@@ -572,7 +754,7 @@
       "name_en": "PH_HOSPITALID_H OS",
       "type": "Char",
       "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
+      "description_zh": "代碼參照醫療 機構現況檔。",
       "available_notes": [],
       "name_zh_en": "ownership category of medical facility",
       "description_en": "Codes referenced from the current medical institution file."
@@ -583,7 +765,7 @@
       "name_en": "PH_HOSPITALID_C ITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
+      "description_zh": "代碼參照死因 統計檔。",
       "available_notes": [],
       "name_zh_en": "medical_institution_county_city_township_code",
       "description_en": "code referenced to cause of death statistics file."
@@ -594,7 +776,7 @@
       "name_en": "WEIGHT2",
       "type": "Num",
       "length": 8,
-      "description_zh": "乳房攝影資料清理檔新增欄位經過整理的體重 (公斤)",
+      "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的體重 (公斤)",
       "available_notes": [],
       "name_zh_en": "weight2",
       "description_en": "Field added in the mammography data cleaning file: cleaned/processed body weight (kg)."
@@ -605,7 +787,7 @@
       "name_en": "HIGHET2",
       "type": "Num",
       "length": 8,
-      "description_zh": "乳房攝影資料清理檔新增欄位經過整理的身高 (公分)",
+      "description_zh": "乳房攝影資料清 理檔新增欄位經 過整理的身高 (公分)",
       "available_notes": [],
       "name_zh_en": "height2",
       "description_en": "Field added in the mammography data-cleaning file: cleaned height (cm)."
@@ -620,6 +802,17 @@
       "available_notes": [],
       "name_zh_en": "body mass index",
       "description_en": "BMI data cleaning file new field weight 2(kg)/height 2(m^2) 53. Data retention DATA_QC Char 1 Data cleaning file new field N:data does not meet retention criteria Y:data meets retention criteria Detailed explanation code book description"
+    },
+    {
+      "seq": 53,
+      "name_zh": "資料保留",
+      "name_en": "DATA_QC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "乳房攝影資料清 理檔新增欄位 N:資料不符合保 留條件 Y:資料符合保留 條件 保留條件詳譯碼 簿說明",
+      "available_notes": [],
+      "name_zh_en": "Data retention",
+      "description_en": "Newly added field in the mammography data cleaning file: N: Data do not meet retention criteria; Y: Data meet retention criteria; for retention criteria, see the code table"
     }
   ],
   "codebooks": {
@@ -1067,11 +1260,980 @@
           "label_en": "Medical institution county city town district code UNIT_ID_CITY Char 4 Code referenced from cause of death statistics file. Establishing a health big data thematic database and integrated analysis—establishing an accurate medical cancer thematic database (I) Version date: 20251230 (Wed), Field (Variable) Coding"
         }
       ],
-      "field_en": "date of diagnosis"
+      "field_en": "date of diagnosis",
+      "grid": {
+        "header": [
+          "No.",
+          "Disease",
+          "ICD-9-CM",
+          "",
+          "癌症主檔之欄",
+          ""
+        ],
+        "rows": [
+          [
+            "位名稱"
+          ],
+          [
+            "1",
+            "Acute Myocardial Infraction (AMI)",
+            "410.x",
+            "ComD1_AMI"
+          ],
+          [
+            "2",
+            "Old Myocardial Infraction (Old MI)",
+            "412.x",
+            "ComD2_OMI"
+          ],
+          [
+            "3",
+            "Congestive heart failure (CHF)",
+            "428.x",
+            "ComD3_CHF"
+          ],
+          [
+            "4",
+            "Peripheral vascular disease (PVD)",
+            "441.x,443.9,785.4,V43.4, Procedure 38.48",
+            "ComD4_PVD"
+          ],
+          [
+            "5",
+            "Cerebrovascular disease (CVD)",
+            "430.x-438.x",
+            "ComD5_CVD"
+          ],
+          [
+            "6",
+            "Chronic obstructive pulmonary disease (COPD)",
+            "490.x-505x,506.4",
+            "ComD6_COPD"
+          ],
+          [
+            "7",
+            "Dementia",
+            "290.x",
+            "ComD7_Demen"
+          ],
+          [
+            "8",
+            "Paralysis",
+            "342.x,344.1",
+            "ComD8_Paraly"
+          ],
+          [
+            "9",
+            "Diabetes without chronic complication (DM W/O CC)",
+            "250.0-250.3,250.7",
+            "ComD9_ DMWOC"
+          ],
+          [
+            "位名稱"
+          ],
+          [
+            "10",
+            "Diabetes with chronic complication (DM W CC)",
+            "250.4-250.6,250.8-250.9",
+            "ComD10_DMC"
+          ],
+          [
+            "11",
+            "Chronic renal failure (renal disease) (CRF)",
+            "582.x, 583.x, 585.x, 586.x, 588.x",
+            "ComD11_CRF"
+          ],
+          [
+            "12*",
+            "Cirrhosis/chronic hepatitis (Mild liver disease) (HBV, HCV, Mild LD)",
+            "571.2,571.4,571.5,571.6 070.2-070.7(excluded 070.41,070.51),070.9, V026.1",
+            "ComD12_ MLD"
+          ],
+          [
+            "13",
+            "Moderate-Server Liver Disease (M S LD)",
+            "572.2-572.8,456.0-456.21",
+            "ComD13_MSLD"
+          ],
+          [
+            "14",
+            "Ulcer (Peptic ulcer disease)",
+            "531.x-534.x",
+            "ComD14_Ulcer"
+          ],
+          [
+            "15",
+            "Rheumatic disease (RD)",
+            "710.0,710.1,710.4,714.0-714.2, 714.81, 725.x",
+            "ComD15_RD"
+          ],
+          [
+            "16",
+            "AIDS",
+            "042.x-044x",
+            "ComD16_AIDS"
+          ],
+          [
+            "17**",
+            "Hypertension, uncomplicated (HT UC)",
+            "401.1, 401.9, 642.0",
+            "ComD17_HTU"
+          ],
+          [
+            "18**",
+            "Hypertension, complicated (HT C)",
+            "401.0, 402.x-405.x, 642.1, 642.2, 642.7, 642.9",
+            "ComD18_HTC"
+          ],
+          [
+            "",
+            "",
+            "Comorbidity",
+            ""
+          ],
+          [
+            "ICD-10-CM",
+            "ICD-9-CM",
+            "Comorbidity (ICD-10-CM)"
+          ],
+          [
+            "(ICD-9-CM)"
+          ],
+          [
+            "E10.65",
+            "250.0",
+            "comD9_DMWOC",
+            "comD9_DMWOC"
+          ],
+          [
+            "250.8",
+            "comD10_DMC"
+          ],
+          [
+            "E11.65",
+            "250.0",
+            "comD9_DMWOC",
+            "comD9_DMWOC"
+          ],
+          [
+            "250.1",
+            "comD9_DMWOC"
+          ],
+          [
+            "250.8",
+            "comD10_DMC"
+          ],
+          [
+            "E11.69+E11.65*",
+            "250.1",
+            "comD9_DMWOC",
+            "comD10_DMC"
+          ],
+          [
+            "250.8",
+            "comD10_DMC"
+          ],
+          [
+            "E10.69, E10.69+E10.65*",
+            "250.2",
+            "comD9_DMWOC",
+            "comD9_DMWOC, comD10_DMC"
+          ],
+          [
+            "250.8",
+            "comD10_DMC"
+          ],
+          [
+            "E10.21, E11.21",
+            "250.4, 583.x",
+            "comD10_DMC, comD11_CRF",
+            "1.有comD10_DMC 其他代碼而沒有 comD11_CRF 其他代碼的人分類到comD10_DMC。2.有comD11_CRF其他代碼而沒有 comD10_DMC 其他代碼的人分類到comD11_CRF。3-1.皆有comD10_DMC 和comD11_CRF 其他代碼的人分類到最早被記載到的其他代碼。3-2.最早被記載到的其他代碼因日期相同無法區別先後順序者皆視為有 comD10_DMC 和comD11_CRF。4.只有E10.21、E11.21 而沒有comD10_DMC 其他代碼,而也沒有 comD11_CRF 其他代碼分類到comD11_CRF。"
+          ],
+          [
+            "I10",
+            "401.1, 401.9",
+            "comD17_HTU",
+            "只有 I10 而沒有 comD17_HTU 其他代碼,而也沒有 comD18_HTC 其他代碼分類到comD17_HTU。"
+          ],
+          [
+            "401.0",
+            "comD18_HTC"
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "檔案名稱(Filename)",
+            "",
+            "",
+            "檔案內容",
+            ""
+          ],
+          [
+            "範例1",
+            "OPDTE11001_10_BREAST_11 1",
+            "使用癌症研究主檔 1979-2022 年版本，篩選出乳癌個案後，擷取乳癌個案在110年1月全民健保處方及治療明細檔_門急診(西醫)(OPDTE11001_10)的紀錄。"
+          ],
+          [
+            "範例2",
+            "IPDTE11001_ BREAST_111",
+            "使用癌症研究主檔 1979-2022 年版本，篩選出乳癌個案後，擷取乳癌個案在110年1月全民健保處方及治療明細檔_住院的紀錄。"
+          ],
+          [
+            "",
+            "檔案名稱(Filename)",
+            "",
+            "",
+            "對應檔案中文名稱",
+            ""
+          ],
+          [
+            "DEATH_QC_ BREAST_111",
+            "乳癌死因統計合併檔"
+          ],
+          [
+            "MASTER_TABLE_ BREAST__111",
+            "乳癌研究主檔"
+          ],
+          [
+            "檔案"
+          ],
+          [
+            "代號"
+          ],
+          [
+            "資料"
+          ],
+          [
+            "筆數"
+          ],
+          [
+            "中文"
+          ],
+          [
+            "檔名"
+          ],
+          [
+            "英文"
+          ],
+          [
+            "檔名"
+          ],
+          [
+            "檔案"
+          ],
+          [
+            "大小"
+          ],
+          [
+            "欄位"
+          ],
+          [
+            "數"
+          ],
+          [
+            "資料"
+          ],
+          [
+            "描述"
+          ],
+          [
+            "注意"
+          ],
+          [
+            "事項"
+          ],
+          [
+            "",
+            "識別特定當事人。"
+          ],
+          [
+            "主鍵與比對欄位",
+            "1. 個案基本資料檔(H_BHP_PD) 與乳攝資料清理檔(H_BHP_BCS_DATA_CL) 比對之唯一鍵值為 SICKID 。2. 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT)與乳攝資料清理檔(H_BHP_BCS_DATA_CL)比對之唯一鍵值為 UNIT_ID、PH_HOSPITALID。3. 個人歸戶及個人資料比對的鍵值：SICKID 。4. 醫事機構歸戶與資料比對的鍵值： UNIT_ID、PH_HOSPITALIDID 。"
+          ],
+          [
+            "主鍵"
+          ],
+          [
+            "與比"
+          ],
+          [
+            "對欄"
+          ],
+          [
+            "位"
+          ],
+          [
+            "",
+            "乳癌篩檢-個案基本資料檔(H_BHP_BCS_PD)",
+            ""
+          ],
+          [
+            "",
+            "序",
+            "",
+            "中文欄位名稱",
+            "英文欄位名稱",
+            "型態",
+            "",
+            "長",
+            "",
+            "資料描述",
+            "資料描述"
+          ],
+          [
+            "號",
+            "度"
+          ],
+          [
+            "1",
+            "身分證字號",
+            "SICKID",
+            "Char",
+            "24",
+            "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。112年長度20"
+          ],
+          [
+            "2",
+            "證件來源",
+            "PASSPORT",
+            "Char",
+            "1",
+            "1：身分證；2：護照"
+          ],
+          [
+            "3",
+            "原始檔性別",
+            "SEX",
+            "Char",
+            "1",
+            "1、M：男；2、F：女；9：不詳"
+          ],
+          [
+            "4",
+            "現居地代碼",
+            "LIVINGAREA",
+            "Char",
+            "4",
+            "詳譯碼說明。"
+          ],
+          [
+            "5",
+            "性別",
+            "SICKID_S",
+            "Char",
+            "1",
+            "1：男；2：女；9：不詳"
+          ],
+          [
+            "6",
+            "身分證字號檢誤",
+            "SICKID_ROC",
+            "Char",
+            "1",
+            "0：身分證字號符合編碼原則；1：不符合"
+          ],
+          [
+            "7",
+            "出生年月",
+            "BIRTH_YM",
+            "Char",
+            "10",
+            "提供西元年月YYYY-MM"
+          ],
+          [
+            "乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL)"
+          ],
+          [
+            "序號",
+            "中文欄位名稱",
+            "英文欄位名稱",
+            "型態",
+            "",
+            "長",
+            "",
+            "資料描述"
+          ],
+          [
+            "度"
+          ],
+          [
+            "1",
+            "支付方式",
+            "Q_FILETYPE",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "2",
+            "乳攝車",
+            "CAR",
+            "Char",
+            "1",
+            "0：否；1：是"
+          ],
+          [
+            "3",
+            "教育程度",
+            "Q_EDU",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "4",
+            "身高",
+            "Q_HIGH",
+            "Char",
+            "17",
+            "112年長度18"
+          ],
+          [
+            "5",
+            "體重",
+            "Q_WEIGHT",
+            "Char",
+            "35",
+            "112年長度10"
+          ],
+          [
+            "6",
+            "疾病史-有無得過下列疾病",
+            "Q_1",
+            "Char",
+            "1",
+            "0：無；1：乳房良性相關疾病；2：乳癌；3：其他癌症"
+          ],
+          [
+            "7",
+            "家族史-與您有血緣的家屬中，有無人得過癌症",
+            "Q_2",
+            "Char",
+            "1",
+            "0：無；1：有"
+          ],
+          [
+            "8",
+            "家族史-母親數",
+            "Q_2_MONTHER",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "9",
+            "家族史-姊妹",
+            "Q_2_SISTER",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "10",
+            "家族史-女兒",
+            "Q_2_DAUGHTER",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "11",
+            "家族史-祖母",
+            "Q_2_GRANDMA",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "12",
+            "家族史-外祖母",
+            "Q_2_GRANDMA1",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "13",
+            "家族史-姑姑",
+            "Q_2_AUNT1",
+            "Num",
+            "8",
+            "112年無"
+          ],
+          [
+            "14",
+            "家族史-阿姨",
+            "Q_2_AUNT2",
+            "Num",
+            "8",
+            "112年無"
+          ],
+          [
+            "15",
+            "月經史-初經年齡",
+            "Q_3_S",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "16",
+            "月經史-是否停經",
+            "Q_3F",
+            "Char",
+            "1",
+            "0：否；1：是"
+          ],
+          [
+            "17",
+            "月經史-停經年齡",
+            "Q_3_E",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "18",
+            "月經史-停經原因",
+            "Q_3",
+            "Num",
+            "8",
+            "詳譯碼說明"
+          ],
+          [
+            "19",
+            "生育史-生育次數",
+            "Q_4_TIMES",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "20",
+            "生育史-有無哺餵母乳",
+            "Q_4_BREAST",
+            "Char",
+            "1",
+            "0：無；1：有"
+          ],
+          [
+            "21",
+            "生育史-第一胎生產年齡",
+            "Q_4_AGE",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "22",
+            "用藥史-是否服用荷爾蒙補充劑",
+            "Q_5_S",
+            "Char",
+            "1",
+            "0：否；1：是"
+          ],
+          [
+            "23",
+            "用藥史-幾歲開始(荷)",
+            "Q_5_SAGE",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "24",
+            "用藥史-服用幾年(荷)",
+            "Q_5_SYEAR",
+            "Char",
+            "21",
+            ""
+          ],
+          [
+            "25",
+            "用藥史-是否服用避孕藥",
+            "Q_5_M",
+            "Char",
+            "1",
+            "0：否；1：是"
+          ],
+          [
+            "26",
+            "用藥史-幾歲開始(避)",
+            "Q_5_MAGE",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "27",
+            "用藥史-服用幾年(避)",
+            "Q_5_MYEAR",
+            "Num",
+            "8",
+            ""
+          ],
+          [
+            "序"
+          ],
+          [
+            "號"
+          ],
+          [
+            "",
+            "乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL)",
+            ""
+          ],
+          [
+            "",
+            "序",
+            "",
+            "中文欄位名稱",
+            "英文欄位名稱",
+            "型態",
+            "",
+            "長",
+            "",
+            "資料描述"
+          ],
+          [
+            "號",
+            "度"
+          ],
+          [
+            "28",
+            "是否有感覺到異常腫塊",
+            "Q_TOUCH",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "29",
+            "其他-最近二年內是否做過-觸診",
+            "Q_6_1",
+            "Char",
+            "1",
+            "1：有；Null：沒有勾選"
+          ],
+          [
+            "30",
+            "其他-最近二年內是否做過-乳攝",
+            "Q_6_2",
+            "Char",
+            "1",
+            "1：有；Null：沒有勾選"
+          ],
+          [
+            "31",
+            "其他-最近二年內是否做過-超音波",
+            "Q_6_3",
+            "Char",
+            "1",
+            "1：有；Null：沒有勾選"
+          ],
+          [
+            "32",
+            "其他-最近二年內是否做過-皆未做過",
+            "Q_6_4",
+            "Char",
+            "1",
+            "1：有；Null：沒有勾選"
+          ],
+          [
+            "33",
+            "其他-是否接受過乳房手術",
+            "Q_SURGERY",
+            "Char",
+            "1",
+            "T：是；F：否"
+          ],
+          [
+            "34",
+            "其他-乳房手術左側",
+            "Q_SURGERYLEFT",
+            "Char",
+            "1",
+            "0：無；1：有"
+          ],
+          [
+            "35",
+            "其他-乳房手術右側",
+            "Q_SURGERYRIGHT",
+            "Char",
+            "1",
+            "0：無；1：有"
+          ],
+          [
+            "36",
+            "身分證字號",
+            "SICKID",
+            "Char",
+            "24",
+            "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。112年長度為20"
+          ],
+          [
+            "37",
+            "乳攝醫院代碼",
+            "PH_HOSPITALID",
+            "Char",
+            "20",
+            "經加密處理，為辨別院所鍵值。"
+          ],
+          [
+            "38",
+            "乳攝日期",
+            "PH_PHOTODATE",
+            "Char",
+            "10",
+            "西元年YYYY-MM-DD"
+          ],
+          [
+            "39",
+            "攝影機機型",
+            "PH_MACHINE",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "40",
+            "觸診結果",
+            "PH_HRESULT",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "41",
+            "乳腺組成",
+            "PH_PDATA",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "42",
+            "與舊片比較",
+            "PH_COMPARE",
+            "Char",
+            "1",
+            "F：否；T：是"
+          ],
+          [
+            "43",
+            "無舊片的原因",
+            "PH_COMPARENO",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "44",
+            "乳攝結果",
+            "PH_RESULT",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "45",
+            "乳攝結果4的次選項",
+            "PH_RESULT4",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "",
+            "乳癌篩檢-乳房攝影資料清理檔(H_BHP_BCS_DATA_CL)",
+            ""
+          ],
+          [
+            "",
+            "序",
+            "",
+            "中文欄位名稱",
+            "英文欄位名稱",
+            "型態",
+            "",
+            "長",
+            "",
+            "資料描述"
+          ],
+          [
+            "號",
+            "度"
+          ],
+          [
+            "46",
+            "性別",
+            "SICKID_S",
+            "Char",
+            "1",
+            "1：男；2：女；9：不詳"
+          ],
+          [
+            "47",
+            "身分證字號檢誤",
+            "SICKID_ROC",
+            "Char",
+            "1",
+            "0：身分證字號符合編碼原則；1：不符合"
+          ],
+          [
+            "48",
+            "醫療機構權屬別",
+            "PH_HOSPITALID_H OS",
+            "Char",
+            "2",
+            "代碼參照醫療機構現況檔。"
+          ],
+          [
+            "49",
+            "醫療機構縣市鄉鎮市區代碼",
+            "PH_HOSPITALID_C ITY",
+            "Char",
+            "4",
+            "代碼參照死因統計檔。"
+          ],
+          [
+            "50",
+            "體重2",
+            "WEIGHT2",
+            "Num",
+            "8",
+            "乳房攝影資料清理檔新增欄位經過整理的體重(公斤)"
+          ],
+          [
+            "51",
+            "身高2",
+            "HIGHET2",
+            "Num",
+            "8",
+            "乳房攝影資料清理檔新增欄位經過整理的身高(公分)"
+          ],
+          [
+            "52",
+            "身體質量指數",
+            "BMI",
+            "Num",
+            "8",
+            "乳房攝影資料清理檔新增欄位體重2(kg)/身高2(m)^2"
+          ],
+          [
+            "53.",
+            "資料保留",
+            "DATA_QC",
+            "Char",
+            "1",
+            "乳房攝影資料清理檔新增欄位N:資料不符合保留條件Y:資料符合保留條件保留條件詳譯碼簿說明"
+          ],
+          [
+            "",
+            "乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT)",
+            ""
+          ],
+          [
+            "",
+            "序",
+            "",
+            "中文欄位名稱",
+            "英文欄位名稱",
+            "型態",
+            "",
+            "長",
+            "",
+            "資料描述"
+          ],
+          [
+            "號",
+            "度"
+          ],
+          [
+            "1",
+            "單位代碼",
+            "UNIT_ID",
+            "Char",
+            "20",
+            "經加密處理，為辨別院所鍵值。"
+          ],
+          [
+            "2",
+            "單位等級",
+            "UNIT_LEVEL",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "3",
+            "單位所在區碼",
+            "UNIT_AREA",
+            "Char",
+            "4",
+            ""
+          ],
+          [
+            "4",
+            "醫院等級",
+            "UNIT_HLEVEL",
+            "Char",
+            "1",
+            "詳譯碼說明"
+          ],
+          [
+            "5",
+            "是否限制乳攝車",
+            "UNIT_CAR",
+            "Char",
+            "1",
+            "0：否；1：是"
+          ],
+          [
+            "6",
+            "報表用歸屬縣市",
+            "REPORT_CITY",
+            "Char",
+            "1",
+            "T：是；Null：否"
+          ],
+          [
+            "7",
+            "是否為乳攝合約醫院",
+            "UNIT_CONTRACT",
+            "Char",
+            "1",
+            "T：是；Null：否"
+          ],
+          [
+            "8",
+            "醫療機構權屬別",
+            "UNIT_ID_HOS",
+            "Char",
+            "2",
+            "代碼參照醫療機構現況檔。"
+          ],
+          [
+            "9",
+            "醫療機構縣市鄉鎮市區代碼",
+            "UNIT_ID_CITY",
+            "Char",
+            "4",
+            "代碼參照死因統計檔。"
+          ]
+        ]
+      }
     },
     "Q_FILETYPE": {
       "field_zh": "支付方式",
       "entries": [
+        {
+          "code": "支付方式代碼",
+          "label_zh": "支付方式說明",
+          "label_en": "Description of payment method"
+        },
         {
           "code": "1",
           "label_zh": "婦女醫療給付",
@@ -1103,6 +2265,16 @@
     "Q_3": {
       "field_zh": "月經史-停經原因",
       "entries": [
+        {
+          "code": "停經原因代碼",
+          "label_zh": "停經原因說明",
+          "label_en": "Description of reason for menopause"
+        },
+        {
+          "code": "Null",
+          "label_zh": "未停經",
+          "label_en": "Not menopausal"
+        },
         {
           "code": "2",
           "label_zh": "自然停經",
@@ -1151,6 +2323,11 @@
       "field_zh": "教育程度",
       "entries": [
         {
+          "code": "教育程度代碼",
+          "label_zh": "教育程度說明",
+          "label_en": "Description of education level"
+        },
+        {
           "code": "1",
           "label_zh": "不識字",
           "label_en": "illiterate"
@@ -1192,18 +2369,23 @@
       "field_zh": "攝影機機型",
       "entries": [
         {
+          "code": "攝影機機型代碼",
+          "label_zh": "攝影機機型說明",
+          "label_en": "Description of imaging machine model"
+        },
+        {
           "code": "0",
           "label_zh": "不詳",
           "label_en": "unclear"
         },
         {
           "code": "1",
-          "label_zh": "傳統乳房攝影儀(105/5/1 移除) 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": "conventional mammography apparatus (removed on 5/1/2006) establishing health big data thematic database and integration analysis—establishing cancer precision medicine thematic database (I) version date: 20251230"
+          "label_zh": "傳統乳房攝影儀(105/5/1 移除)",
+          "label_en": "conventional mammography apparatus(removed on 105/5/1)"
         },
         {
           "code": "2",
-          "label_zh": "數位乳房攝影儀(CR) →CR 乳房 X 光攝影儀 (Computed Radiography, CR) (105/5/1 修改)",
+          "label_zh": "數位乳房攝影儀(CR) →CR 乳 房 X 光 攝 影 儀 (Computed Radiography, CR) (105/5/1 修改)",
           "label_en": "Digital mammography system (CR) → Computed Radiography (CR) breast X-ray imaging (1/5/2016 revision)"
         },
         {
@@ -1222,6 +2404,11 @@
     "PH_PDATA": {
       "field_zh": "乳腺組成",
       "entries": [
+        {
+          "code": "乳腺組成代碼",
+          "label_zh": "乳腺組成說明",
+          "label_en": "Description of breast composition"
+        },
         {
           "code": "0",
           "label_zh": "不詳",
@@ -1301,6 +2488,11 @@
       "field_zh": "乳攝",
       "entries": [
         {
+          "code": "乳攝結果代碼",
+          "label_zh": "乳攝結果說明",
+          "label_en": "Description of mammography result"
+        },
+        {
           "code": "0",
           "label_zh": "需附加其他影像檢查再評估",
           "label_en": "require additional imaging tests for re-evaluation"
@@ -1327,8 +2519,8 @@
         },
         {
           "code": "5",
-          "label_zh": "高度疑似為惡性腫瘤必須採取適當的措施建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": "Highly疑似为恶性肿瘤必须采取适当的措施建立健康大数据主题式数据库及整合分析─建立癌症精准医疗主题式数据库(I) 版本日期：20251230"
+          "label_zh": "高度疑似為惡性腫瘤必須採取適當的措施",
+          "label_en": "highly suspected malignant tumor; appropriate measures must be taken"
         }
       ],
       "field_en": "mammography"
@@ -1336,6 +2528,11 @@
     "UNIT_LEVEL": {
       "field_zh": "單位等級",
       "entries": [
+        {
+          "code": "醫院等級代碼",
+          "label_zh": "醫院等級說明",
+          "label_en": "Description of hospital level"
+        },
         {
           "code": "1",
           "label_zh": "國民健康署",
@@ -1384,10 +2581,38 @@
         },
         {
           "code": "4",
-          "label_zh": "診所其他代碼不詳建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
+          "label_zh": "診所 其他代碼 不詳 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
           "label_en": "clinic other codes not specified establishing health big data thematic database and integrated analysis - establishing precision medical thematic database for cancer (I) version date: 20251230"
         }
       ],
+      "grid": {
+        "header": [
+          "醫院等級代碼",
+          "醫院等級說明"
+        ],
+        "rows": [
+          [
+            "1",
+            "教學醫院"
+          ],
+          [
+            "2",
+            "區域醫院"
+          ],
+          [
+            "3",
+            "地區醫院"
+          ],
+          [
+            "4",
+            "診所"
+          ],
+          [
+            "其他代碼",
+            "不詳"
+          ]
+        ]
+      },
       "field_en": "hospital grade"
     },
     "LIVING": {
@@ -1550,7 +2775,7 @@
         },
         {
           "code": "0320",
-          "label_zh": "台中市大里區 0521 台南市安定區建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
+          "label_zh": "台中市大里區 0521 台南市安定區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
           "label_en": "Taichung City Dali District 0521 Tainan City Zaning District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -1725,7 +2950,7 @@
         },
         {
           "code": "0719",
-          "label_zh": "高雄市彌陀區 3102 新北市三重區建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
+          "label_zh": "高雄市彌陀區 3102 新北市三重區 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
           "label_en": "Kaohsiung City Mido District 3102 New Taipei City Sanzhong District Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -1900,7 +3125,7 @@
         },
         {
           "code": "3208",
-          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
+          "label_zh": "桃園市八德區 3505 苗栗縣頭份鎮 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
           "label_en": "Taoyuan City Bade District 3505 Miaoli County Toufen Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -2075,7 +3300,7 @@
         },
         {
           "code": "3722",
-          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱鄉鎮市區代碼鄉鎮市區名稱",
+          "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
           "label_en": "Changhua County Pitou Town 3917 Yunlin County Yuanzhong Town Establish a health big data thematic database and integration analysis —— establish a cancer precision medical thematic database (I) Version date: 20251230 Township district code Township district name Township district code Township district name"
         },
         {
@@ -2250,7 +3475,7 @@
         },
         {
           "code": "4314",
-          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼鄉鎮市區名稱",
+          "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱",
           "label_en": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱"
         },
         {
@@ -2429,7 +3654,1364 @@
           "label_en": "New Health Data Subject Database and Integration Analysis - Establish Cancer Precision Medicine Subject Database (I) Version Date: 20251230"
         }
       ],
+      "grid": {
+        "header": [
+          "",
+          "鄉鎮市區代碼",
+          "",
+          "",
+          "鄉鎮市區名稱",
+          "",
+          "",
+          "鄉鎮市區代碼",
+          "",
+          "",
+          "鄉鎮市區名稱",
+          ""
+        ],
+        "rows": [
+          [
+            "0101",
+            "台北市松山區",
+            "0321",
+            "台中市和平區1"
+          ],
+          [
+            "0102",
+            "台北市大安區",
+            "0322",
+            "台中市中區"
+          ],
+          [
+            "0109",
+            "台北市大同區",
+            "0323",
+            "台中市東區"
+          ],
+          [
+            "0110",
+            "台北市中山區",
+            "0324",
+            "台中市西區"
+          ],
+          [
+            "0111",
+            "台北市內湖區",
+            "0325",
+            "台中市南區"
+          ],
+          [
+            "0112",
+            "台北市南港區",
+            "0326",
+            "台中市北區"
+          ],
+          [
+            "0115",
+            "台北市士林區",
+            "0327",
+            "台中市西屯區"
+          ],
+          [
+            "0116",
+            "台北市北投區",
+            "0328",
+            "台中市南屯區"
+          ],
+          [
+            "0117",
+            "台北市信義區",
+            "0329",
+            "台中市北屯區_軍"
+          ],
+          [
+            "0118",
+            "台北市中正區",
+            "0330",
+            "台中市北屯區_四"
+          ],
+          [
+            "0119",
+            "台北市萬華區",
+            "0331",
+            "台中市和平區2"
+          ],
+          [
+            "0120",
+            "台北市文山區",
+            "0501",
+            "台南市新營區"
+          ],
+          [
+            "0301",
+            "台中市豐原區",
+            "0502",
+            "台南市鹽水區"
+          ],
+          [
+            "0302",
+            "台中市東勢區",
+            "0503",
+            "台南市白河區"
+          ],
+          [
+            "0303",
+            "台中市大甲區",
+            "0504",
+            "台南市麻豆區"
+          ],
+          [
+            "0304",
+            "台中市清水區",
+            "0505",
+            "台南市佳里區"
+          ],
+          [
+            "0305",
+            "台中市沙鹿區",
+            "0506",
+            "台南市新化區"
+          ],
+          [
+            "0306",
+            "台中市梧棲區",
+            "0507",
+            "台南市善化區"
+          ],
+          [
+            "0307",
+            "台中市后里區",
+            "0508",
+            "台南市學甲區"
+          ],
+          [
+            "0308",
+            "台中市神岡區",
+            "0509",
+            "台南市柳營區"
+          ],
+          [
+            "0309",
+            "台中市潭子區",
+            "0510",
+            "台南市後壁區"
+          ],
+          [
+            "0310",
+            "台中市大雅區",
+            "0511",
+            "台南市東山區"
+          ],
+          [
+            "0311",
+            "台中市新社區",
+            "0512",
+            "台南市下營區"
+          ],
+          [
+            "0312",
+            "台中市石岡區",
+            "0513",
+            "台南市六甲區"
+          ],
+          [
+            "0313",
+            "台中市外埔區",
+            "0514",
+            "台南市官田區"
+          ],
+          [
+            "0314",
+            "台中市大安區",
+            "0515",
+            "台南市大內區"
+          ],
+          [
+            "0315",
+            "台中市烏日區",
+            "0516",
+            "台南市西港區"
+          ],
+          [
+            "0316",
+            "台中市大肚區",
+            "0517",
+            "台南市七股區"
+          ],
+          [
+            "0317",
+            "台中市龍井區",
+            "0518",
+            "台南市將軍區"
+          ],
+          [
+            "0318",
+            "台中市霧峰區",
+            "0519",
+            "台南市北門區"
+          ],
+          [
+            "0319",
+            "台中市太平區",
+            "0520",
+            "台南市新市區"
+          ],
+          [
+            "0320",
+            "台中市大里區",
+            "0521",
+            "台南市安定區"
+          ],
+          [
+            "0522",
+            "台南市山上區",
+            "0720",
+            "高雄市梓官區"
+          ],
+          [
+            "0523",
+            "台南市玉井區",
+            "0721",
+            "高雄市六龜區"
+          ],
+          [
+            "0524",
+            "台南市楠西區",
+            "0722",
+            "高雄市甲仙區"
+          ],
+          [
+            "0525",
+            "台南市南化區",
+            "0723",
+            "高雄市杉林區"
+          ],
+          [
+            "0526",
+            "台南市左鎮區",
+            "0724",
+            "高雄市內門區"
+          ],
+          [
+            "0527",
+            "台南市仁德區",
+            "0725",
+            "高雄市茂林區"
+          ],
+          [
+            "0528",
+            "台南市歸仁區",
+            "0726",
+            "高雄市桃源區"
+          ],
+          [
+            "0529",
+            "台南市關廟區",
+            "0727",
+            "高雄市那瑪夏區"
+          ],
+          [
+            "0530",
+            "台南市龍崎區",
+            "0728",
+            "高雄市鹽埕區"
+          ],
+          [
+            "0531",
+            "台南市永康區",
+            "0729",
+            "高雄市鼓山區"
+          ],
+          [
+            "0532",
+            "台南市東區",
+            "0730",
+            "高雄市左營區"
+          ],
+          [
+            "0533",
+            "台南市南區",
+            "0731",
+            "高雄市楠梓區"
+          ],
+          [
+            "0534",
+            "台南市中西區",
+            "0732",
+            "高雄市三民區1"
+          ],
+          [
+            "0535",
+            "台南市北區",
+            "0733",
+            "高雄市新興區"
+          ],
+          [
+            "0537",
+            "台南市安南區",
+            "0734",
+            "高雄市前金區"
+          ],
+          [
+            "0538",
+            "台南市安平區",
+            "0735",
+            "高雄市苓雅區"
+          ],
+          [
+            "0701",
+            "高雄市鳳山區1",
+            "0736",
+            "高雄市前鎮區"
+          ],
+          [
+            "0702",
+            "高雄市岡山區",
+            "0737",
+            "高雄市旗津區"
+          ],
+          [
+            "0703",
+            "高雄市旗山區",
+            "0738",
+            "高雄市小港區"
+          ],
+          [
+            "0704",
+            "高雄市美濃區",
+            "0739",
+            "高雄市三民區2"
+          ],
+          [
+            "0705",
+            "高雄市林園區",
+            "0740",
+            "高雄市鳳山區2"
+          ],
+          [
+            "0706",
+            "高雄市大寮區",
+            "1101",
+            "基隆市中正區"
+          ],
+          [
+            "0707",
+            "高雄市大樹區",
+            "1102",
+            "基隆市七堵區"
+          ],
+          [
+            "0708",
+            "高雄市仁武區",
+            "1103",
+            "基隆市暖暖區"
+          ],
+          [
+            "0709",
+            "高雄市大社區",
+            "1104",
+            "基隆市仁愛區"
+          ],
+          [
+            "0710",
+            "高雄市鳥松區",
+            "1105",
+            "基隆市中山區"
+          ],
+          [
+            "0711",
+            "高雄市橋頭區",
+            "1106",
+            "基隆市安樂區"
+          ],
+          [
+            "0712",
+            "高雄市燕巢區",
+            "1107",
+            "基隆市信義區"
+          ],
+          [
+            "0713",
+            "高雄市田寮區",
+            "1201",
+            "新竹市東區"
+          ],
+          [
+            "0714",
+            "高雄市阿蓮區",
+            "1204",
+            "新竹市北區"
+          ],
+          [
+            "0715",
+            "高雄市路竹區",
+            "1205",
+            "新竹市香山區"
+          ],
+          [
+            "0716",
+            "高雄市湖內區",
+            "2201",
+            "嘉義市東區"
+          ],
+          [
+            "0717",
+            "高雄市茄萣區",
+            "2202",
+            "嘉義市西區"
+          ],
+          [
+            "0718",
+            "高雄市永安區",
+            "3101",
+            "新北市板橋區"
+          ],
+          [
+            "0719",
+            "高雄市彌陀區",
+            "3102",
+            "新北市三重區"
+          ],
+          [
+            "3103",
+            "新北市永和區",
+            "3209",
+            "桃園市龍潭區"
+          ],
+          [
+            "3104",
+            "新北市中和區",
+            "3210",
+            "桃園市平鎮區"
+          ],
+          [
+            "3105",
+            "新北市新店區",
+            "3211",
+            "桃園市新屋區"
+          ],
+          [
+            "3106",
+            "新北市新莊區",
+            "3212",
+            "桃園市觀音區"
+          ],
+          [
+            "3107",
+            "新北市樹林區",
+            "3213",
+            "桃園市復興區"
+          ],
+          [
+            "3108",
+            "新北市鶯歌區",
+            "3301",
+            "新竹縣關西鎮"
+          ],
+          [
+            "3109",
+            "新北市三峽區",
+            "3302",
+            "新竹縣新埔鎮"
+          ],
+          [
+            "3110",
+            "新北市淡水區",
+            "3303",
+            "新竹縣竹東鎮"
+          ],
+          [
+            "3111",
+            "新北市汐止區",
+            "3305",
+            "新竹縣竹北市"
+          ],
+          [
+            "3112",
+            "新北市瑞芳區",
+            "3306",
+            "新竹縣湖口鄉"
+          ],
+          [
+            "3113",
+            "新北市土城區",
+            "3307",
+            "新竹縣橫山鄉"
+          ],
+          [
+            "3114",
+            "新北市蘆洲區",
+            "3308",
+            "新竹縣新豐鄉"
+          ],
+          [
+            "3115",
+            "新北市五股區",
+            "3309",
+            "新竹縣芎林鄉"
+          ],
+          [
+            "3116",
+            "新北市泰山區",
+            "3310",
+            "新竹縣寶山鄉"
+          ],
+          [
+            "3117",
+            "新北市林口區",
+            "3311",
+            "新竹縣北埔鄉"
+          ],
+          [
+            "3118",
+            "新北市深坑區",
+            "3312",
+            "新竹縣峨眉鄉"
+          ],
+          [
+            "3119",
+            "新北市石碇區",
+            "3313",
+            "新竹縣尖石鄉"
+          ],
+          [
+            "3120",
+            "新北市坪林區",
+            "3314",
+            "新竹縣五峰鄉"
+          ],
+          [
+            "3121",
+            "新北市三芝區",
+            "3401",
+            "宜蘭縣宜蘭市"
+          ],
+          [
+            "3122",
+            "新北市石門區",
+            "3402",
+            "宜蘭縣羅東鎮"
+          ],
+          [
+            "3123",
+            "新北市八里區",
+            "3403",
+            "宜蘭縣蘇澳鎮"
+          ],
+          [
+            "3124",
+            "新北市平溪區",
+            "3404",
+            "宜蘭縣頭城鎮"
+          ],
+          [
+            "3125",
+            "新北市雙溪區",
+            "3405",
+            "宜蘭縣礁溪鄉"
+          ],
+          [
+            "3126",
+            "新北市貢寮區",
+            "3406",
+            "宜蘭縣壯圍鄉"
+          ],
+          [
+            "3127",
+            "新北市金山區",
+            "3407",
+            "宜蘭縣員山鄉"
+          ],
+          [
+            "3128",
+            "新北市萬里區",
+            "3408",
+            "宜蘭縣冬山鄉"
+          ],
+          [
+            "3129",
+            "新北市烏來區",
+            "3409",
+            "宜蘭縣五結鄉"
+          ],
+          [
+            "3201",
+            "桃園市桃園區",
+            "3410",
+            "宜蘭縣三星鄉"
+          ],
+          [
+            "3202",
+            "桃園市中壢區",
+            "3411",
+            "宜蘭縣大同鄉"
+          ],
+          [
+            "3203",
+            "桃園市大溪區",
+            "3412",
+            "宜蘭縣南澳鄉"
+          ],
+          [
+            "3204",
+            "桃園市楊梅區",
+            "3501",
+            "苗栗縣苗栗市"
+          ],
+          [
+            "3205",
+            "桃園市蘆竹區",
+            "3502",
+            "苗栗縣苑裡鎮"
+          ],
+          [
+            "3206",
+            "桃園市大園區",
+            "3503",
+            "苗栗縣通霄鎮"
+          ],
+          [
+            "3207",
+            "桃園市龜山區",
+            "3504",
+            "苗栗縣竹南鎮"
+          ],
+          [
+            "3208",
+            "桃園市八德區",
+            "3505",
+            "苗栗縣頭份鎮"
+          ],
+          [
+            "3506",
+            "苗栗縣後龍鎮",
+            "3723",
+            "彰化縣芳苑鄉"
+          ],
+          [
+            "3507",
+            "苗栗縣卓蘭鎮",
+            "3724",
+            "彰化縣大城鄉"
+          ],
+          [
+            "3508",
+            "苗栗縣大湖鄉",
+            "3725",
+            "彰化縣竹塘鄉"
+          ],
+          [
+            "3509",
+            "苗栗縣公館鄉",
+            "3726",
+            "彰化縣溪州鄉"
+          ],
+          [
+            "3510",
+            "苗栗縣銅鑼鄉",
+            "3727",
+            "彰化縣彰化市東區"
+          ],
+          [
+            "3511",
+            "苗栗縣南庄鄉",
+            "3801",
+            "南投縣南投市"
+          ],
+          [
+            "3512",
+            "苗栗縣頭屋鄉",
+            "3802",
+            "南投縣埔里鎮"
+          ],
+          [
+            "3513",
+            "苗栗縣三義鄉",
+            "3803",
+            "南投縣草屯鎮"
+          ],
+          [
+            "3514",
+            "苗栗縣西湖鄉",
+            "3804",
+            "南投縣竹山鎮"
+          ],
+          [
+            "3515",
+            "苗栗縣造橋鄉",
+            "3805",
+            "南投縣集集鎮"
+          ],
+          [
+            "3516",
+            "苗栗縣三灣鄉",
+            "3806",
+            "南投縣名間鄉"
+          ],
+          [
+            "3517",
+            "苗栗縣獅潭鄉",
+            "3807",
+            "南投縣鹿谷鄉"
+          ],
+          [
+            "3518",
+            "苗栗縣泰安鄉",
+            "3808",
+            "南投縣中寮鄉"
+          ],
+          [
+            "3701",
+            "彰化縣彰化市",
+            "3809",
+            "南投縣魚池鄉"
+          ],
+          [
+            "3702",
+            "彰化縣鹿港鎮",
+            "3810",
+            "南投縣國姓鄉"
+          ],
+          [
+            "3703",
+            "彰化縣和美鎮",
+            "3811",
+            "南投縣水里鄉"
+          ],
+          [
+            "3704",
+            "彰化縣北斗鎮",
+            "3812",
+            "南投縣信義鄉"
+          ],
+          [
+            "3705",
+            "彰化縣員林鎮",
+            "3813",
+            "南投縣仁愛鄉"
+          ],
+          [
+            "3706",
+            "彰化縣溪湖鎮",
+            "3901",
+            "雲林縣斗六市"
+          ],
+          [
+            "3707",
+            "彰化縣田中鎮",
+            "3902",
+            "雲林縣斗南鎮"
+          ],
+          [
+            "3708",
+            "彰化縣二林鎮",
+            "3903",
+            "雲林縣虎尾鎮"
+          ],
+          [
+            "3709",
+            "彰化縣線西鄉",
+            "3904",
+            "雲林縣西螺鎮"
+          ],
+          [
+            "3710",
+            "彰化縣伸港鄉",
+            "3905",
+            "雲林縣土庫鎮"
+          ],
+          [
+            "3711",
+            "彰化縣福興鄉",
+            "3906",
+            "雲林縣北港鎮"
+          ],
+          [
+            "3712",
+            "彰化縣秀水鄉",
+            "3907",
+            "雲林縣古坑鄉"
+          ],
+          [
+            "3713",
+            "彰化縣花壇鄉",
+            "3908",
+            "雲林縣大埤鄉"
+          ],
+          [
+            "3714",
+            "彰化縣芬園鄉",
+            "3909",
+            "雲林縣莿桐鄉"
+          ],
+          [
+            "3715",
+            "彰化縣大村鄉",
+            "3910",
+            "雲林縣林內鄉"
+          ],
+          [
+            "3716",
+            "彰化縣埔鹽鄉",
+            "3911",
+            "雲林縣二崙鄉"
+          ],
+          [
+            "3717",
+            "彰化縣埔心鄉",
+            "3912",
+            "雲林縣崙背鄉"
+          ],
+          [
+            "3718",
+            "彰化縣永靖鄉",
+            "3913",
+            "雲林縣麥寮鄉"
+          ],
+          [
+            "3719",
+            "彰化縣社頭鄉",
+            "3914",
+            "雲林縣東勢鄉"
+          ],
+          [
+            "3720",
+            "彰化縣二水鄉",
+            "3915",
+            "雲林縣褒忠鄉"
+          ],
+          [
+            "3721",
+            "彰化縣田尾鄉",
+            "3916",
+            "雲林縣台西鄉"
+          ],
+          [
+            "3722",
+            "彰化縣埤頭鄉",
+            "3917",
+            "雲林縣元長鄉"
+          ],
+          [
+            "3918",
+            "雲林縣四湖鄉",
+            "4315",
+            "屏東縣新埤鄉"
+          ],
+          [
+            "3919",
+            "雲林縣口湖鄉",
+            "4316",
+            "屏東縣枋寮鄉"
+          ],
+          [
+            "3920",
+            "雲林縣水林鄉",
+            "4317",
+            "屏東縣新園鄉"
+          ],
+          [
+            "4001",
+            "嘉義縣朴子市",
+            "4318",
+            "屏東縣崁頂鄉"
+          ],
+          [
+            "4002",
+            "嘉義縣布袋鎮",
+            "4319",
+            "屏東縣林邊鄉"
+          ],
+          [
+            "4003",
+            "嘉義縣大林鎮",
+            "4320",
+            "屏東縣南州鄉"
+          ],
+          [
+            "4004",
+            "嘉義縣民雄鄉",
+            "4321",
+            "屏東縣佳冬鄉"
+          ],
+          [
+            "4005",
+            "嘉義縣溪口鄉",
+            "4322",
+            "屏東縣琉球鄉"
+          ],
+          [
+            "4006",
+            "嘉義縣新港鄉",
+            "4323",
+            "屏東縣車城鄉"
+          ],
+          [
+            "4007",
+            "嘉義縣六腳鄉",
+            "4324",
+            "屏東縣滿州鄉"
+          ],
+          [
+            "4008",
+            "嘉義縣東石鄉",
+            "4325",
+            "屏東縣枋山鄉"
+          ],
+          [
+            "4009",
+            "嘉義縣義竹鄉",
+            "4326",
+            "屏東縣三地門鄉"
+          ],
+          [
+            "4010",
+            "嘉義縣鹿草鄉",
+            "4327",
+            "屏東縣霧台鄉"
+          ],
+          [
+            "4011",
+            "嘉義縣太保市",
+            "4328",
+            "屏東縣瑪家鄉"
+          ],
+          [
+            "4012",
+            "嘉義縣水上鄉",
+            "4329",
+            "屏東縣泰武鄉"
+          ],
+          [
+            "4013",
+            "嘉義縣中埔鄉",
+            "4330",
+            "屏東縣來義鄉"
+          ],
+          [
+            "4014",
+            "嘉義縣竹崎鄉",
+            "4331",
+            "屏東縣春日鄉"
+          ],
+          [
+            "4015",
+            "嘉義縣梅山鄉",
+            "4332",
+            "屏東縣獅子鄉"
+          ],
+          [
+            "4016",
+            "嘉義縣番路鄉",
+            "4333",
+            "屏東縣牡丹鄉"
+          ],
+          [
+            "4017",
+            "嘉義縣大埔鄉",
+            "4401",
+            "澎湖縣馬公市1"
+          ],
+          [
+            "4018",
+            "嘉義縣阿里山鄉",
+            "4402",
+            "澎湖縣湖西鄉"
+          ],
+          [
+            "4301",
+            "屏東縣屏東市",
+            "4403",
+            "澎湖縣白沙鄉"
+          ],
+          [
+            "4302",
+            "屏東縣潮州鎮",
+            "4404",
+            "澎湖縣西嶼鄉"
+          ],
+          [
+            "4303",
+            "屏東縣東港鎮",
+            "4405",
+            "澎湖縣望安鄉"
+          ],
+          [
+            "4304",
+            "屏東縣恆春鎮",
+            "4406",
+            "澎湖縣七美鄉"
+          ],
+          [
+            "4305",
+            "屏東縣萬丹鄉",
+            "4407",
+            "澎湖縣馬公市2"
+          ],
+          [
+            "4306",
+            "屏東縣長治鄉",
+            "4408",
+            "澎湖縣馬公市3"
+          ],
+          [
+            "4307",
+            "屏東縣麟洛鄉",
+            "4409",
+            "澎湖縣白沙鄉_吉貝"
+          ],
+          [
+            "4308",
+            "屏東縣九如鄉",
+            "4410",
+            "澎湖縣白沙鄉_鳥嶼"
+          ],
+          [
+            "4309",
+            "屏東縣里港鄉",
+            "4411",
+            "澎湖縣望安鄉_將軍"
+          ],
+          [
+            "4310",
+            "屏東縣鹽埔鄉",
+            "4501",
+            "花蓮縣花蓮市"
+          ],
+          [
+            "4311",
+            "屏東縣高樹鄉",
+            "4502",
+            "花蓮縣鳳林鎮"
+          ],
+          [
+            "4312",
+            "屏東縣萬巒鄉",
+            "4503",
+            "花蓮縣玉里鎮"
+          ],
+          [
+            "4313",
+            "屏東縣內埔鄉",
+            "4504",
+            "花蓮縣新城鄉"
+          ],
+          [
+            "4314",
+            "屏東縣竹田鄉",
+            "4505",
+            "花蓮縣吉安鄉"
+          ],
+          [
+            "",
+            "鄉鎮市區代碼",
+            "",
+            "",
+            "鄉鎮市區名稱",
+            ""
+          ],
+          [
+            "4506",
+            "花蓮縣壽豐鄉"
+          ],
+          [
+            "4507",
+            "花蓮縣光復鄉"
+          ],
+          [
+            "4508",
+            "花蓮縣豐濱鄉"
+          ],
+          [
+            "4509",
+            "花蓮縣瑞穗鄉"
+          ],
+          [
+            "4510",
+            "花蓮縣富里鄉"
+          ],
+          [
+            "4511",
+            "花蓮縣秀林鄉"
+          ],
+          [
+            "4512",
+            "花蓮縣萬榮鄉"
+          ],
+          [
+            "4513",
+            "花蓮縣卓溪鄉"
+          ],
+          [
+            "4601",
+            "台東縣台東市"
+          ],
+          [
+            "4602",
+            "台東縣成功鎮"
+          ],
+          [
+            "4603",
+            "台東縣關山鎮"
+          ],
+          [
+            "4604",
+            "台東縣卑南鄉"
+          ],
+          [
+            "4605",
+            "台東縣大武鄉"
+          ],
+          [
+            "4606",
+            "台東縣太麻里鄉"
+          ],
+          [
+            "4607",
+            "台東縣東河鄉"
+          ],
+          [
+            "4608",
+            "台東縣長濱鄉"
+          ],
+          [
+            "4609",
+            "台東縣鹿野鄉"
+          ],
+          [
+            "4610",
+            "台東縣池上鄉"
+          ],
+          [
+            "4611",
+            "台東縣綠島鄉"
+          ],
+          [
+            "4612",
+            "台東縣延平鄉"
+          ],
+          [
+            "4613",
+            "台東縣海端鄉"
+          ],
+          [
+            "4614",
+            "台東縣達仁鄉"
+          ],
+          [
+            "4615",
+            "台東縣金峰鄉"
+          ],
+          [
+            "4616",
+            "台東縣蘭嶼鄉"
+          ],
+          [
+            "9001",
+            "金門縣金城鎮"
+          ],
+          [
+            "9002",
+            "金門縣金沙鎮"
+          ],
+          [
+            "9004",
+            "金門縣金寧鄉"
+          ],
+          [
+            "9005",
+            "金門縣烈嶼鄉"
+          ],
+          [
+            "9006",
+            "金門縣金湖鎮"
+          ],
+          [
+            "9007",
+            "金門縣烏坵鄉"
+          ],
+          [
+            "9101",
+            "連江縣南竿鄉"
+          ],
+          [
+            "9102",
+            "連江縣北竿鄉"
+          ],
+          [
+            "9103",
+            "連江縣莒光鄉1"
+          ],
+          [
+            "9104",
+            "連江縣東引鄉"
+          ],
+          [
+            "9105",
+            "連江縣莒光鄉2"
+          ]
+        ]
+      },
       "field_en": "residence code"
+    },
+    "PH_RESULT4": {
+      "field_zh": "乳攝結果4的次選項",
+      "entries": [
+        {
+          "code": "乳攝結果4的次選項代碼",
+          "label_zh": "乳攝結果4的次選項說明",
+          "label_en": "Description of sub-option of mammography result 4"
+        },
+        {
+          "code": "a",
+          "label_zh": "Low suspicion",
+          "label_en": ""
+        },
+        {
+          "code": "b",
+          "label_zh": "Intermediate suspicion",
+          "label_en": ""
+        },
+        {
+          "code": "c",
+          "label_zh": "Moderate suspicion",
+          "label_en": ""
+        },
+        {
+          "code": "d",
+          "label_zh": "舊資料未填",
+          "label_en": "Not filled in for legacy data"
+        }
+      ],
+      "field_en": "mammography result 4 secondary option"
+    },
+    "DATA_QC": {
+      "field_zh": "資料保留",
+      "entries": [],
+      "grid": {
+        "header": [
+          "資料欄位",
+          "欄位內容的保留條件"
+        ],
+        "rows": [
+          [
+            "家族史-母親數",
+            "0,1"
+          ],
+          [
+            "家族史-姊妹",
+            "0-10"
+          ],
+          [
+            "家族史-女兒",
+            "0-10"
+          ],
+          [
+            "家族史-祖母",
+            "0,1"
+          ],
+          [
+            "家族史-外祖母",
+            "0,1"
+          ],
+          [
+            "月經史-初經年齡",
+            "5-25歲"
+          ],
+          [
+            "月經史-停經年齡",
+            "當月經史-是否停經內容為0，則月經史-停經年齡內容為0或空白的可以保留"
+          ],
+          [
+            "當月經史-是否停經內容為1且月經史-停經原因內容為2，則月經史-停經年齡之內容為 35-70 可以保留"
+          ],
+          [
+            "當月經史-是否停經內容為1且月經史-停經原因內容為3或4 或5，則月經史-停經年齡之內容全部保留(空白除外)"
+          ],
+          [
+            "生育史-生育次數",
+            "0-15"
+          ],
+          [
+            "生育史-有無哺乳",
+            "生育史-生育次數內容為0，則生育史-有無哺乳內容為0或空白的可以保留"
+          ],
+          [
+            "生育史-生育次數內容為1-15，則生育史-有無哺乳內容為0或 1的可以保留"
+          ],
+          [
+            "生育史-第一胎生產年齡",
+            "生育史-生育次數內容為0，則生育史-第一胎生產年齡內容為 0或空白的可以保留"
+          ],
+          [
+            "生育史-生育次數內容為1-15，則第一胎生產年齡內容為10-60的可以保留"
+          ],
+          [
+            "是否服用賀爾蒙補充劑",
+            "0,1"
+          ],
+          [
+            "是否服用避孕藥",
+            "0,1"
+          ],
+          [
+            "身高 2",
+            "110-210"
+          ],
+          [
+            "體重 2",
+            "35-120"
+          ],
+          [
+            "初經年齡",
+            "第一次生育年齡",
+            "停經年齡",
+            "篩檢年齡",
+            "保留條件"
+          ],
+          [
+            "有",
+            "無",
+            "無",
+            "有",
+            "初經年齡<篩檢年齡"
+          ],
+          [
+            "有",
+            "有",
+            "無",
+            "有",
+            "初經年齡 <= 第一胎生產年齡 <= 篩檢年齡第一胎生產年齡大篩檢年齡兩歲亦算合理*"
+          ],
+          [
+            "有",
+            "無",
+            "有(含非自然停經)",
+            "有",
+            "初經年齡 < 停經年齡 <= 篩檢年齡停經年齡大篩檢年齡兩歲亦算合理*"
+          ],
+          [
+            "有",
+            "有",
+            "有(含非自然停經)",
+            "有",
+            "初經年齡<=第一胎生產年齡<停經年齡<= 篩檢年齡停經年齡大篩檢年齡兩歲亦算合理*"
+          ]
+        ]
+      },
+      "field_en": "Data retention"
+    },
+    "BIRTH_Y": {
+      "field_zh": "癌症登記年報檔的出生年",
+      "entries": [],
+      "text": "三年內的資料(限有死因資料者)",
+      "field_en": "Birth year in the cancer registry annual report file"
+    },
+    "DIAGBASE": {
+      "field_zh": "癌症登記年報檔的癌症確診方式",
+      "entries": [],
+      "text": "(四) 填補後的癌症診斷日期為了與最後追蹤日期(flw_up_date)計算出存活時間，依據下列狀態填補年報檔的診斷日期(DIAGDAY)的月份和日期為99(不詳)的情況，建立欄位「填補後的癌症診斷日期(adj_diag_dt)」，填補方法如下：",
+      "field_en": "Method of cancer confirmation in the cancer registry annual report file"
     }
   },
   "raw_text_first_page": "Page:1\n建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230\n乳癌主題式資料庫使用手冊\n一、 檔案內容說明\n檔案代號 DATAY1_ Breast _111 資料筆數 乳癌研究主檔(1979-2022)：\nDATA:資料名稱 353,356筆\nY1:資料年度\n中文檔名 乳癌主題式資料庫 英文檔名 Breast Cancer Health Database\n屬性 歷史檔 週期 年\n檔案大小 244GB 譯碼簿 2025/12/30\n更新日期\n檔案列表及 本資料庫包含以下 15個檔：\n其年度、欄位\n1. 乳癌門急診明細檔 (2000-2023)：51\n數\n2. 乳癌住院明細檔 (2000-2023)：80\n3. 乳癌藥局明細檔 (2000-2023)：44\n4. 乳癌門急診醫令檔 (2000-2023)：21\n5. 乳癌住院醫令檔 (2000-2023)：22\n6. 乳癌藥局醫令檔 (2000-2023)：17\n7. 乳癌承保檔 (2000-2023)：30\n8. 乳癌重大傷病檔 (2001-2023)：27\n9. 乳癌死因統計合併檔 (1985-2023)：16 (合併 1985-2023年\n的死因統計檔)\n10. 乳癌癌登檔LF (2007-2022)：118\n11. 乳癌癌登檔SF (2007-2022)：42\n12. 乳癌癌登檔TCDB (2002-2006)：65\n13. 乳癌癌登年報檔 (1979-2022)：13\n14. 乳癌研究主檔 (1979-2022)：51\n15. 癌症篩檢-乳癌篩檢清理檔 (2004-2023)：69\n資料描述 乳癌主題式資料庫包含了收錄在 1979-2022 年癌症登記年報檔\n(H_BHP_CRSSC)中之每一乳癌患者在癌症登記檔(包括長表 LF、短表\nSF 和 TCDB)及健保檔、死因統計合併檔、癌症篩檢-乳癌篩檢清理檔\n共15個資料檔之所有資訊。詳細定義如下：\n1. 定義乳癌個案：\n乳癌個案為癌症登記年報檔(H_BHP_CRSSC)1979-2022 年(經",
@@ -2450,5 +5032,48 @@
   "data_description_en": "Breast cancer theme database includes all information from the 15 data files combined including the breast cancer registration file (including Long Form LF, Short Form SF and TCDB), NHI claims file, death cause statistics merged file, and breast cancer screening-cleaning file for the years 1979-2022.\nDefinition of breast cancer cases:\nBreast cancer cases are defined as those recorded in the cancer registration annual report files (H_BHP_CRSSC) from 1979 to 2022.",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": "Breast cancer theme database"
+  "name_zh_en": "Breast cancer theme database",
+  "printed": {
+    "field_rows": null,
+    "code_tables": {
+      "DIAGDAY": 108,
+      "Q_FILETYPE": 5,
+      "Q_3": 5,
+      "Q_TOUCH": 3,
+      "Q_EDU": 7,
+      "PH_MACHINE": 5,
+      "PH_PDATA": 6,
+      "PH_HRESULT": 3,
+      "PH_COMPARENO": 3,
+      "PH_RESULT": 6,
+      "PH_RESULT4": 4,
+      "UNIT_LEVEL": 5,
+      "UNIT_HLEVEL": 4,
+      "LIVING": 207
+    },
+    "code_table_headings": [
+      "BIRTH_Y",
+      "DIAGDAY",
+      "BIRTH_Y",
+      "DIAGBASE",
+      "DIAGDAY",
+      "DIAGDAY",
+      "DIAGDAY",
+      "DIAGDAY",
+      "Q_FILETYPE",
+      "Q_3",
+      "Q_TOUCH",
+      "Q_EDU",
+      "PH_MACHINE",
+      "PH_PDATA",
+      "PH_HRESULT",
+      "PH_COMPARENO",
+      "PH_RESULT",
+      "PH_RESULT4",
+      "UNIT_LEVEL",
+      "UNIT_HLEVEL",
+      "LIVING",
+      "DATA_QC"
+    ]
+  }
 }

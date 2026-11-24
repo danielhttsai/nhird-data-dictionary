@@ -11,7 +11,7 @@
       "name_en": "VVID",
       "type": "Char",
       "length": 50,
-      "description_zh": "經加密處理 101年長度為58 102年長度為54 103、106-107年長度為72 104年長度為74 105、109、114年長度為48 108、113年長度為60 110-112年長度為52",
+      "description_zh": "經加密處理\n101年長度為58\n102年長度為54\n103、106-107年長度為72\n104年長度為74\n105、109、114年長度為48 108、113年長度為60\n110-112年長度為52",
       "available_notes": [
         {
           "roc_year": 101,
@@ -69,7 +69,7 @@
       "name_en": "VBDATE",
       "type": "Char",
       "length": 7,
-      "description_zh": "民國年YYYMMDD 000：年不詳 00：月、日不詳",
+      "description_zh": "民國年YYYMMDD\n000：年不詳\n00：月、日不詳",
       "available_notes": [],
       "name_zh_en": "victim_birth_date",
       "description_en": "ROC year YYYYMMDD 000: year unspecified 00: month and day unspecified"
@@ -80,7 +80,7 @@
       "name_en": "VIDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位現屬國籍別\n(VIDTYPE、DIDTYPE)譯碼說明\n註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -97,7 +97,7 @@
       "name_en": "VEDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位教育程度 (VEDUCATION、 DEDUCATION)譯碼說明註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位教育程度\n(VEDUCATION、\nDEDUCATION)譯碼說明註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -114,16 +114,41 @@
       "name_en": "VDISABILITY",
       "type": "Char",
       "length": 5,
-      "description_zh": "詳見欄位障礙別 (VDISABILITY、 DDISABILITY)譯碼說明 (可複選) 註1:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位障礙別\n(VDISABILITY、\nDDISABILITY)譯碼說明(可複選)\n註1:108 年起譯碼簿更新註2:108 年起為單選，長度1碼。\n101-102、106年長度為6\n104-105年長度為7\n107年長度為8\n108-113年長度為1",
       "available_notes": [
         {
           "roc_year": 108,
           "ad_year": 2019,
           "marker": "起"
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": ""
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        },
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": ""
         }
       ],
       "name_zh_en": "victim's disability type",
-      "description_en": "See field disability codes (VDISABILITY, DDISABILITY) translation notes (multiple choices) Note 1: The coding book was updated starting from 2018."
+      "description_en": "See code table for field disability type\n(VDISABILITY,\nDDISABILITY) (multiple choice allowed)\nNote 1: Code book updated from ROC year 108 (2019) Note 2: Single choice from ROC year 108 (2019), length 1 character.\nROC years 101-102 (2012-2013) and 106 (2017): length 6\nROC years 104-105 (2015-2016): length 7\nROC year 107 (2018): length 8\nROC years 108-113 (2019-2024): length 1"
     },
     {
       "seq": 10,
@@ -131,7 +156,7 @@
       "name_en": "VOCCUPATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位職業 (VOCCUPATION、 DOCCUPATION)譯碼說明",
+      "description_zh": "詳見欄位職業\n(VOCCUPATION、\nDOCCUPATION)譯碼說明",
       "available_notes": [],
       "name_zh_en": "victim's occupation",
       "description_en": "Occupation (VOCCUPATION, DOCCUPATION) translation explanation."
@@ -142,7 +167,7 @@
       "name_en": "DVID",
       "type": "Char",
       "length": 72,
-      "description_zh": "經加密處理 101-102年長度為54 103年長度為82 104年長度為46 105年長度為48 106、110年長度為66 107年長度為84 108年長度為68 111年長度為78 112年長度為84 113年長度為70",
+      "description_zh": "經加密處理\n101-102年長度為54\n103年長度為82\n104年長度為46\n105年長度為48\n106、110年長度為66\n107年長度為84\n108年長度為68\n111年長度為78\n112年長度為84\n113年長度為70",
       "available_notes": [
         {
           "roc_year": 102,
@@ -215,10 +240,36 @@
       "name_en": "DDISABILITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "詳見欄位障礙別 (VDISABILITY、 DDISABILITY)譯碼說明",
-      "available_notes": [],
+      "description_zh": "詳見欄位障礙別\n(VDISABILITY、\nDDISABILITY)譯碼說明(可複選)\n註1:108 年起譯碼簿更新註2:108 年起為單選，長度1碼。\n101-102、104-105、107年\n長度為6\n103、106年長度為5\n108-114年長度為1",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": ""
+        },
+        {
+          "roc_year": 106,
+          "ad_year": 2017,
+          "marker": ""
+        },
+        {
+          "roc_year": 114,
+          "ad_year": 2025,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "relative's disability category",
-      "description_en": "Translation of VDISABILITY and DDISABILITY coding explanation"
+      "description_en": "See code table for field disability type\n(VDISABILITY,\nDDISABILITY) (multiple choice allowed)\nNote 1: Code book updated from ROC year 108 (2019) Note 2: Single choice from ROC year 108 (2019), length 1 character.\nROC years 101-102 (2012-2013), 104-105 (2015-2016), 107 (2018):\nlength 6\nROC years 103 (2014), 106 (2017): length 5\nROC years 108-114 (2019-2025): length 1"
     },
     {
       "seq": 18,
@@ -226,7 +277,7 @@
       "name_en": "RELATIONTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位兩造關係 (RELATIONTYPE)譯碼說明",
+      "description_zh": "詳見欄位兩造關係\n(RELATIONTYPE)譯碼說明",
       "available_notes": [],
       "name_zh_en": "patient-physician relationship",
       "description_en": "See explanation for the relationship type (RELATIONTYPE) code description"
@@ -237,7 +288,7 @@
       "name_en": "VVID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "misalignment-of-victim-s-identity-card-number",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -255,14 +306,14 @@
     },
     {
       "seq": 27,
-      "name_zh": "相對人身分證字號檢",
+      "name_zh": "相對人身分證字號檢誤",
       "name_en": "DVID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
-      "name_zh_en": "relative's ID number check",
-      "description_en": "0:National ID number conforms to coding principles"
+      "name_zh_en": "relative_person_id_card_number_correction",
+      "description_en": "0: ID number conforms to coding rules 1: does not conform"
     },
     {
       "seq": 28,
@@ -283,7 +334,7 @@
       "name_en": "OTHERINFOERTYPE",
       "type": "Char",
       "length": 30,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -300,7 +351,7 @@
       "name_en": "OTHERINFOUNIT",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -339,7 +390,7 @@
       "name_en": "CLIENTID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "misalignment-of-victim-s-identity-card-number",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -361,7 +412,7 @@
       "name_en": "BDATE",
       "type": "Char",
       "length": 7,
-      "description_zh": "民國年YYYMMDD 000：年不詳 00：月、日不詳",
+      "description_zh": "民國年YYYMMDD\n000：年不詳\n00：月、日不詳",
       "available_notes": [],
       "name_zh_en": "victim_birth_date",
       "description_en": "ROC year YYYYMMDD 000: year unspecified 00: month and day unspecified"
@@ -372,7 +423,7 @@
       "name_en": "IDTYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位現屬國籍別\n(IDTYPE、DIDTYPE)譯碼說明\n註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -389,7 +440,7 @@
       "name_en": "EDUCATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位教育程度 (EDUCATION、DEDUCATIO N) 譯碼說明註:108 年起譯碼簿更新",
+      "description_zh": "詳見欄位教育程度\n(EDUCATION、DEDUCATIO N)\n譯碼說明\n註:108 年起譯碼簿更新",
       "available_notes": [
         {
           "roc_year": 108,
@@ -406,18 +457,29 @@
       "name_en": "MAIMED",
       "type": "Char",
       "length": 6,
-      "description_zh": "詳見欄位障礙別 (MAIMED、DMAIMED)譯碼說明(可複選)",
-      "available_notes": [],
+      "description_zh": "詳見欄位障礙別\n(MAIMED、DMAIMED)譯碼說明(可複選)註1:108 年起譯碼簿更新註2:108 年起為單選，長度1碼。",
+      "available_notes": [
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        },
+        {
+          "roc_year": 108,
+          "ad_year": 2019,
+          "marker": "起"
+        }
+      ],
       "name_zh_en": "victim's disability type",
-      "description_en": "See the disability type (MAIMED, DMAIMED) coding explanation (multiple selection allowed)."
+      "description_en": "See code table for field disability type\n(MAIMED, DMAIMED) (multiple choice allowed) Note 1: Code book updated from ROC year 108 (2019) Note 2: Single choice from ROC year 108 (2019), length 1 character."
     },
     {
       "seq": 14,
-      "name_zh": "被害人疑似身心障礙者選其他時所填的資料",
+      "name_zh": "被害人疑似身心障礙者 選其他時所填的資料",
       "name_en": "OTHERMAIMED",
       "type": "Char",
       "length": 64,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -434,7 +496,7 @@
       "name_en": "OTHERMAIMED2",
       "type": "Char",
       "length": 50,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -451,18 +513,18 @@
       "name_en": "OCCUPATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位職業 (OCCUPATION、DOCCUPA TION)譯碼說明",
+      "description_zh": "詳見欄位職業\n(OCCUPATION、DOCCUPA TION)譯碼說明",
       "available_notes": [],
       "name_zh_en": "victim's occupation",
       "description_en": "See detailed field occupation (OCCUPATION, DOCCUPA TION) code explanation."
     },
     {
       "seq": 17,
-      "name_zh": "被害人職業選其他時所填的資料",
+      "name_zh": "被害人職業 選其他時所填的資料",
       "name_en": "OTHEROCCUPATION",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明註:108年起無資料",
+      "description_zh": "文字說明\n註:108年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -501,7 +563,7 @@
       "name_en": "DID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0:身分證字號符合編碼原則 1:不符合",
+      "description_zh": "0:身分證字號符合編碼原則\n1:不符合",
       "available_notes": [],
       "name_zh_en": "relative_person_id_card_number_correction",
       "description_en": "0: ID number conforms to coding rules 1: does not conform"
@@ -523,7 +585,7 @@
       "name_en": "DMAIMED",
       "type": "Char",
       "length": 6,
-      "description_zh": "詳見欄位障礙別(MAIMED、 DMAIMED)譯碼說明(可複選) 註1:108 年起譯碼簿更新註2:108 年起為單選，長度1",
+      "description_zh": "詳見欄位障礙別(MAIMED、DMAIMED)譯碼說明(可複選)\n註1:108 年起譯碼簿更新註2:108 年起為單選，長度1碼。",
       "available_notes": [
         {
           "roc_year": 108,
@@ -537,7 +599,7 @@
         }
       ],
       "name_zh_en": "relative's disability category",
-      "description_en": "See the coding explanation for the Type of Disability field (MAIMED, DMAIMED) (multiple selection allowed). Note 1: coding manual updated starting ROC year 108 (AD 2019). Note 2: single selection starting ROC year 108 (AD 2019), length 1."
+      "description_en": "See code table for field disability type (MAIMED, DMAIMED) (multiple choice allowed)\nNote 1: Code book updated from ROC year 108 (2019) Note 2: Single choice from ROC year 108 (2019), length 1 character."
     },
     {
       "seq": 26,
@@ -545,7 +607,7 @@
       "name_en": "DOTHERMAIMED",
       "type": "Char",
       "length": 64,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -562,7 +624,7 @@
       "name_en": "DOTHERMAIMED2",
       "type": "Char",
       "length": 42,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -579,7 +641,7 @@
       "name_en": "DOTHEROCCUPATION",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -596,7 +658,7 @@
       "name_en": "RELATIONSHIP",
       "type": "Char",
       "length": 1,
-      "description_zh": "詳見欄位兩造關係 (RELATIONSHIP)譯碼說明",
+      "description_zh": "詳見欄位兩造關係\n(RELATIONSHIP)譯碼說明",
       "available_notes": [],
       "name_zh_en": "patient-physician relationship",
       "description_en": "See explanation for the relationship (RELATIONSHIP) code description"
@@ -607,7 +669,7 @@
       "name_en": "OTHERRELATIONSHIP",
       "type": "Char",
       "length": 88,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -624,7 +686,7 @@
       "name_en": "OTHERHELPACTION",
       "type": "Char",
       "length": 100,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -637,11 +699,11 @@
     },
     {
       "seq": 35,
-      "name_zh": "被害人後續待協助事項選其他時所填的資料",
+      "name_zh": "被害人後續待協助事項 選其他時所填的資料",
       "name_en": "OTHERFOLLOWACTION",
       "type": "Char",
       "length": 180,
-      "description_zh": "文字說明註:108 年起無資料",
+      "description_zh": "文字說明\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -658,7 +720,7 @@
       "name_en": "OCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "YYYMMDDHH 註:108 年起無資料",
+      "description_zh": "YYYMMDDHH\n註:108 年起無資料",
       "available_notes": [
         {
           "roc_year": 108,
@@ -708,7 +770,7 @@
       "name_en": "NOTFAMILYMEMBER1",
       "type": "Char",
       "length": 88,
-      "description_zh": "文字說明註:不提供",
+      "description_zh": "文字說明\n註:不提供",
       "available_notes": [],
       "name_zh_en": "relative is not a family member - other information filled out",
       "description_en": "notes: not provided"
@@ -716,10 +778,10 @@
     {
       "seq": 46,
       "name_zh": "與被害人是否已有仍在效期內民事保護令",
-      "name_en": "CIVILPROTECTIONORD ER",
+      "name_en": "CIVILPROTECTIONORDER",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim already has an effective civil protection order",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -730,7 +792,7 @@
       "name_en": "VSUICIDEIDEA",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim has suicidal ideation",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -741,7 +803,7 @@
       "name_en": "VSUICIDEATTEMPT",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "whether the victim has attempted suicide",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -752,7 +814,7 @@
       "name_en": "DSUICIDEIDEA",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "relative's suicidal ideation",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -763,7 +825,7 @@
       "name_en": "DSUICIDEATTEMPT",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "relative's suicidal attempt",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -774,7 +836,7 @@
       "name_en": "VDOSTEPINHELP",
       "type": "Char",
       "length": 1,
-      "description_zh": "Y:是 N:否註:不提供",
+      "description_zh": "Y:是 N:否\n註:不提供",
       "available_notes": [],
       "name_zh_en": "subsequent willingness for social worker intervention",
       "description_en": "Yes:Y No:N Note:not provided"
@@ -785,7 +847,7 @@
       "name_en": "VIOLENCETYPE",
       "type": "Char",
       "length": 1,
-      "description_zh": "A:家庭暴力 B:老人保護 C:身心障礙者保護註:不提供",
+      "description_zh": "A:家庭暴力 B:老人保護\nC:身心障礙者保護\n註:不提供",
       "available_notes": [],
       "name_zh_en": "type of violence",
       "description_en": "A: Domestic violence B: Elderly protection C: Protection for persons with physical and mental disabilities Note: Not provided"
@@ -793,7 +855,7 @@
     {
       "seq": 53,
       "name_zh": "家庭暴力之受暴類型",
-      "name_en": "DOMESTICVIOLENCETY PE",
+      "name_en": "DOMESTICVIOLENCETYPE",
       "type": "Char",
       "length": 5,
       "description_zh": "註:不提供",
@@ -814,13 +876,13 @@
     },
     {
       "seq": 55,
-      "name_zh": "本次家暴事件促發因素為其他時所填",
+      "name_zh": "本次家暴事件促發因素為其他時所填的資料",
       "name_en": "DVPRIMINGFACTOR1",
       "type": "Char",
       "length": 40,
-      "description_zh": "文字說明註:不提供",
+      "description_zh": "文字說明\n註:不提供",
       "available_notes": [],
-      "name_zh_en": "domestic violence event trigger factor other than filled",
+      "name_zh_en": "Data entered when the trigger of this domestic violence incident is \"other\"",
       "description_en": "notes: not provided"
     },
     {
@@ -837,7 +899,7 @@
     {
       "seq": 57,
       "name_zh": "老人保護之受暴類型",
-      "name_en": "SENIORCITIZENPROTEC TTYPE",
+      "name_en": "SENIORCITIZENPROTECTTYPE",
       "type": "Char",
       "length": 5,
       "description_zh": "註:不提供",
@@ -848,7 +910,7 @@
     {
       "seq": 58,
       "name_zh": "老人保護之老人日常生活功能評估",
-      "name_en": "SENIORADLASSESSMEN T",
+      "name_en": "SENIORADLASSESSMENT",
       "type": "Char",
       "length": 62,
       "description_zh": "註:不提供",
@@ -870,7 +932,7 @@
     {
       "seq": 60,
       "name_zh": "身心障礙保護之受暴類型",
-      "name_en": "DISABLEDPROTECTTYP E",
+      "name_en": "DISABLEDPROTECTTYPE",
       "type": "Char",
       "length": 5,
       "description_zh": "註:不提供",
@@ -881,7 +943,7 @@
     {
       "seq": 61,
       "name_zh": "身心障礙保護之身心障礙者日常生活功能評估",
-      "name_en": "DISABLEDADLASSESSM ENT",
+      "name_en": "DISABLEDADLASSESSMENT",
       "type": "Char",
       "length": 62,
       "description_zh": "註:不提供",
@@ -907,8 +969,8 @@
       "seq_later": 14,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位現屬國籍別 (IDTYPE、DIDTYPE)譯碼說明",
-          "to": "詳見欄位現屬國籍別 (VIDTYPE、DIDTYPE)譯碼說明註:108 年起譯碼簿更新"
+          "from": "詳見欄位現屬國籍別\n(IDTYPE、DIDTYPE)譯碼說明",
+          "to": "詳見欄位現屬國籍別\n(VIDTYPE、DIDTYPE)譯碼說明\n註:108 年起譯碼簿更新"
         }
       }
     },
@@ -917,8 +979,8 @@
       "seq_later": 15,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位教育程度 (EDUCATION、DEDUCATIO N) 譯碼說明",
-          "to": "詳見欄位教育程度 (VEDUCATION、DEDUCA TION)譯碼說明註:108 年起譯碼簿更新"
+          "from": "詳見欄位教育程度\n(EDUCATION、DEDUCATIO N)\n譯碼說明",
+          "to": "詳見欄位教育程度\n(VEDUCATION、DEDUCA TION)譯碼說明\n註:108 年起譯碼簿更新"
         }
       }
     },
@@ -927,8 +989,8 @@
       "seq_later": 17,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位職業 (OCCUPATION、DOCCUPA TION)譯碼說明",
-          "to": "詳見欄位職業 (VOCCUPATION、 DOCCUPATION)譯碼說明"
+          "from": "詳見欄位職業\n(OCCUPATION、DOCCUPA TION)譯碼說明",
+          "to": "詳見欄位職業\n(VOCCUPATION、\nDOCCUPATION)譯碼說明"
         }
       }
     },
@@ -937,8 +999,8 @@
       "seq_later": 19,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位已協助事項 (HELPACTION)譯碼說明 (可複選) 註:108 年起無資料",
-          "to": "詳見欄位已協助事項 (HELPACTION)譯碼說明 (可複選) 註:108 年起無資料 103、106年長度為6"
+          "from": "詳見欄位已協助事項\n(HELPACTION)譯碼說明(可複選)\n註:108 年起無資料",
+          "to": "詳見欄位已協助事項\n(HELPACTION)譯碼說明(可複選)\n註:108 年起無資料\n103、106年長度為6"
         }
       }
     },
@@ -947,8 +1009,8 @@
       "seq_later": 20,
       "changes": {
         "description_zh": {
-          "from": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選) 註:108 年起無資料",
-          "to": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選) 註:108 年起無資料 103-106年長度為11 107年長度為10"
+          "from": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選)\n註:108 年起無資料",
+          "to": "詳見欄位被害人後續待協助事項(FOLLOWACTION)譯碼說明(可複選)\n註:108 年起無資料\n103-106年長度為11\n107年長度為10"
         }
       }
     },
@@ -958,7 +1020,7 @@
       "changes": {
         "description_zh": {
           "from": "詳見欄位鄉鎮別(TOWNCO DE)譯碼說明",
-          "to": "詳見欄位鄉鎮別 (TOWNCODE)譯碼說明"
+          "to": "詳見欄位鄉鎮別\n(TOWNCODE)譯碼說明"
         }
       }
     }

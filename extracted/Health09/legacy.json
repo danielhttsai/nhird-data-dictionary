@@ -102,10 +102,10 @@
       "name_en": "WEIGHT",
       "type": "Num",
       "length": 8,
-      "description_zh": "如數過錄 1.單胎 2.雙胎 3.參胎 4.肆胎以上",
+      "description_zh": "如數過錄",
       "available_notes": [],
       "name_zh_en": "birth weight (grams)",
-      "description_en": "Transcribed as recorded: 1. Singleton 2. Twins 3. Triplets 4. Quadruplets or more"
+      "description_en": "as recorded"
     },
     {
       "seq": 9,
@@ -113,10 +113,10 @@
       "name_en": "DEL_NO",
       "type": "Char",
       "length": 1,
-      "description_zh": "",
+      "description_zh": "1.單胎 2.雙胎 3.參胎 4.肆胎以上",
       "available_notes": [],
       "name_zh_en": "number of fetuses delivered in this pregnancy",
-      "description_en": ""
+      "description_en": "1. Singleton 2. Twins 3. Triplets 4. Quadruplets or more"
     },
     {
       "seq": 10,
@@ -124,10 +124,10 @@
       "name_en": "DELORDER",
       "type": "Char",
       "length": 1,
-      "description_zh": "出生順序排序值 1.醫院 2.診所 3.助產 4.自宅 5. 其他",
+      "description_zh": "出生順序排序值",
       "available_notes": [],
       "name_zh_en": "fetal order",
-      "description_en": "Order of birth 1. hospital 2. clinic 3. midwife 4. home 5. other"
+      "description_en": "Birth order value"
     },
     {
       "seq": 11,
@@ -135,10 +135,10 @@
       "name_en": "BIRTH_PA",
       "type": "Char",
       "length": 1,
-      "description_zh": "",
+      "description_zh": "1.醫院 2.診所 3.助產 4.自宅 5.其他",
       "available_notes": [],
       "name_zh_en": "place of birth",
-      "description_en": ""
+      "description_en": "1. Hospital 2. Clinic 3. Midwifery 4. Home 5. Other"
     },
     {
       "seq": 12,
@@ -146,21 +146,142 @@
       "name_en": "DELIVER",
       "type": "Char",
       "length": 1,
-      "description_zh": "1.醫師 2.助產師(士)3.其他 1.陰道生產 2.陰道產鉗生產 3. 陰道真空吸引生產 4.有剖腹產史之陰道生產 5.第一次剖腹產 6.有剖腹產史之剖腹產",
+      "description_zh": "1.醫師 2.助產師(士)3.其他",
       "available_notes": [],
       "name_zh_en": "obstetrician",
-      "description_en": "1. Physician 2. Midwife 3. Other 1. Vaginal delivery 2. Forceps vaginal delivery 3. Vacuum extraction vaginal delivery 4. Vaginal delivery with previous cesarean history 5. First cesarean delivery 6. Previous cesarean section"
+      "description_en": "1. Physician 2. Midwife 3. Other"
     },
     {
       "seq": 13,
-      "name_zh": "生產方式妊娠、生產在醫學上特殊情形此次懷孕健康上危險因子之其他項文字說明註明",
+      "name_zh": "生產方式",
       "name_en": "BIRTHWAY",
       "type": "Char",
       "length": 1,
-      "description_zh": "此次懷孕健康上之危險因子代碼01 MH_1 Char 2 此次懷孕健康上之危險因子代碼02 MH_2 Char 2 此次懷孕健康上之危險因子代碼03 MH_3 Char 2 此次懷孕健康上之危險因子代碼04 MH_4 Char 2 之產婦部分詳「此次懷孕健康此次懷孕健康上之危險因子代碼05 MH_5 Char 2 14 上的危險因子代碼」 此次懷孕健康上之危險因子代碼06 MH_6 Char 2 此次懷孕健康上之危險因子代碼07 MH_7 Char 2 此次懷孕健康上之危險因子代碼08 MH_8 Char 2 MH_OTHER Char 60 孕程及產程之特殊處置代碼01 SPE_1 Char 2 孕程及產程之特殊處置代碼02 SPE_2 Char 2 欄位編碼說明詳「孕程及產程",
+      "description_zh": "1.陰道生產 2.陰道產鉗生產 3.陰道真空吸引生產\n4.有剖腹產史之陰道生產 5.第一次剖腹產\n6.有剖腹產史之剖腹產",
       "available_notes": [],
-      "name_zh_en": "Production method Pregnancy, production under medical special circumstances other risk factors for this pregnancy Text description注明",
-      "description_en": "1. When counting visits, supplementary-report data should not be double-counted. 2. When computing fees, supplementary-report data should be combined. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified."
+      "name_zh_en": "Mode of delivery",
+      "description_en": "1. Vaginal delivery 2. Forceps vaginal delivery 3. Vacuum extraction vaginal delivery\n4. Vaginal delivery with a history of cesarean section 5. First cesarean section\n6. Cesarean section with a history of cesarean section"
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼01",
+      "name_en": "MH_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 01",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼02",
+      "name_en": "MH_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 02",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼03",
+      "name_en": "MH_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 03",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼04",
+      "name_en": "MH_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 04",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼05",
+      "name_en": "MH_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 05",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼06",
+      "name_en": "MH_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 06",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼07",
+      "name_en": "MH_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 07",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上之危險因子代碼08",
+      "name_en": "MH_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "妊娠、生產在醫學上特殊情形之產婦部分詳「此次懷孕健康上的危險因子代碼」",
+      "available_notes": [],
+      "name_zh_en": "Health risk factor code for this pregnancy 08",
+      "description_en": "For mothers with medically special conditions in pregnancy or delivery, see \"Health risk factor code for this pregnancy\""
+    },
+    {
+      "seq": 14,
+      "name_zh": "此次懷孕健康上危險因子之其他項註明",
+      "name_en": "MH_OTHER",
+      "type": "Char",
+      "length": 60,
+      "description_zh": "文字說明",
+      "available_notes": [],
+      "name_zh_en": "Other health risk factors for this pregnancy, specified",
+      "description_en": "explanation"
+    },
+    {
+      "seq": 15,
+      "name_zh": "孕程及產程之特殊處置代碼01",
+      "name_en": "SPE_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「孕程及產程之特殊處置代碼」",
+      "available_notes": [],
+      "name_zh_en": "Special procedure code during pregnancy and labor 01",
+      "description_en": "For field coding, see \"Special procedure code during pregnancy and labor\""
+    },
+    {
+      "seq": 15,
+      "name_zh": "孕程及產程之特殊處置代碼02",
+      "name_en": "SPE_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「孕程及產程之特殊處置代碼」",
+      "available_notes": [],
+      "name_zh_en": "Special procedure code during pregnancy and labor 02",
+      "description_en": "For field coding, see \"Special procedure code during pregnancy and labor\""
     },
     {
       "seq": 15,
@@ -168,10 +289,87 @@
       "name_en": "SPE_3",
       "type": "Char",
       "length": 2,
-      "description_zh": "之特殊處置代碼」 孕程及產程之特殊處置代碼04 SPE_4 Char 2 孕程及產程之特殊處置代碼05 SPE_5 Char 2",
+      "description_zh": "欄位編碼說明詳「孕程及產程之特殊處置代碼」",
       "available_notes": [],
       "name_zh_en": "special disposal code for pregnancy and childbirth process 03",
-      "description_en": "Special handling code for pregnancy and childbirth Special handling code for pregnancy and childbirth 04 SPE_4 Char 2 Special handling code for pregnancy and childbirth 05 SPE_5 Char 2"
+      "description_en": "For field coding, see \"Special procedure code during pregnancy and labor\""
+    },
+    {
+      "seq": 15,
+      "name_zh": "孕程及產程之特殊處置代碼04",
+      "name_en": "SPE_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「孕程及產程之特殊處置代碼」",
+      "available_notes": [],
+      "name_zh_en": "Special procedure code during pregnancy and labor 04",
+      "description_en": "For field coding, see \"Special procedure code during pregnancy and labor\""
+    },
+    {
+      "seq": 15,
+      "name_zh": "孕程及產程之特殊處置代碼05",
+      "name_en": "SPE_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「孕程及產程之特殊處置代碼」",
+      "available_notes": [],
+      "name_zh_en": "Special procedure code during pregnancy and labor 05",
+      "description_en": "For field coding, see \"Special procedure code during pregnancy and labor\""
+    },
+    {
+      "seq": 15,
+      "name_zh": "孕程及產程特殊處置之其他項註明",
+      "name_en": "SPE_OTHER",
+      "type": "Char",
+      "length": 60,
+      "description_zh": "文字說明",
+      "available_notes": [],
+      "name_zh_en": "Other special procedures during pregnancy and labor, specified",
+      "description_en": "explanation"
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼01",
+      "name_en": "COM_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 01",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼02",
+      "name_en": "COM_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 02",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼03",
+      "name_en": "COM_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 03",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼04",
+      "name_en": "COM_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 04",
+      "description_en": "For field coding, see \"Delivery complication code\""
     },
     {
       "seq": 16,
@@ -179,21 +377,54 @@
       "name_en": "COM_5",
       "type": "Char",
       "length": 2,
-      "description_zh": "發症代碼」 生產時之併發症代碼06 COM_6 Char 2 生產時之併發症代碼07 COM_7 Char 2 生產時之併發症代碼08 COM_8 Char 2 生產時併發症之其他項註明 COM_OTHER Char 60 文字說明 92年以前 0：＜7分 1：≧7分 93年以後 1-9分 A：10分 X：不詳",
-      "available_notes": [
-        {
-          "roc_year": 92,
-          "ad_year": 2003,
-          "marker": "以前"
-        },
-        {
-          "roc_year": 93,
-          "ad_year": 2004,
-          "marker": "以後"
-        }
-      ],
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
       "name_zh_en": "complication code during delivery 05",
-      "description_en": "Complication codes：Production time complication code 06 COM_6 Char 2 Production time complication code 07 COM_7 Char 2 Production time complication code 08 COM_8 Char 2 Other notes on complications at production time COM_OTHER Char 60 Text description 92 before: 0：<7 points 1：≧7 points 93 and after: 1-9 points A：10 points X：Unclear"
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼06",
+      "name_en": "COM_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 06",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼07",
+      "name_en": "COM_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 07",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時之併發症代碼08",
+      "name_en": "COM_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "欄位編碼說明詳「生產時之併發症代碼」",
+      "available_notes": [],
+      "name_zh_en": "Delivery complication code 08",
+      "description_en": "For field coding, see \"Delivery complication code\""
+    },
+    {
+      "seq": 16,
+      "name_zh": "生產時併發症之其他項註明",
+      "name_en": "COM_OTHER",
+      "type": "Char",
+      "length": 60,
+      "description_zh": "文字說明",
+      "available_notes": [],
+      "name_zh_en": "Other delivery complications, specified",
+      "description_en": "explanation"
     },
     {
       "seq": 17,
@@ -201,7 +432,7 @@
       "name_en": "ASA",
       "type": "Char",
       "length": 1,
-      "description_zh": "92年以前 0：＜7分 1：≧7分 93年以後 1-9分 A：10分 X：不詳",
+      "description_zh": "92年以前\n0：＜7分 1：≧7分\n93年以後\n1-9分 A：10分 X：不詳",
       "available_notes": [
         {
           "roc_year": 92,
@@ -219,86 +450,113 @@
     },
     {
       "seq": 18,
-      "name_zh": "第五分鐘 APGAR SCORE活產者死亡前在",
+      "name_zh": "第五分鐘 APGAR SCORE",
       "name_en": "ASB",
       "type": "Char",
       "length": 1,
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "fifth minute APGAR SCORE live-born death before in",
-      "description_en": ""
+      "description_zh": "92年以前\n0：＜7分 1：≧7分\n93年以後\n1-9分 A：10分 X：不詳",
+      "available_notes": [
+        {
+          "roc_year": 92,
+          "ad_year": 2003,
+          "marker": "以前"
+        },
+        {
+          "roc_year": 93,
+          "ad_year": 2004,
+          "marker": "以後"
+        }
+      ],
+      "name_zh_en": "Fifth-minute APGAR SCORE",
+      "description_en": "Prior to 1992: 0：<7 points 1：≧7 points After 1992: 1-9 points A：10 points X：Unclear"
     },
     {
       "seq": 19,
-      "name_zh": "DEAD_DAY本醫療機構內之存活天數活產者死亡前在",
-      "name_en": "Num",
-      "type": "8",
-      "length": "如數過錄",
-      "description_zh": "",
+      "name_zh": "活產者死亡前在本醫療機構內之存活天數",
+      "name_en": "DEAD_DAY",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "如數過錄",
       "available_notes": [],
-      "name_zh_en": "days_in_hospital_alive_liveborn_death_before",
-      "description_en": ""
+      "name_zh_en": "Days of survival in this medical facility before death of a live birth",
+      "description_en": "as recorded"
     },
     {
       "seq": 20,
-      "name_zh": "DEAD_HOUR本醫療機構內之存活時數活產者轉院前在",
-      "name_en": "Num",
-      "type": "8",
-      "length": "如數過錄",
-      "description_zh": "",
+      "name_zh": "活產者死亡前在本醫療機構內之存活時數",
+      "name_en": "DEAD_HOUR",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "如數過錄",
       "available_notes": [],
-      "name_zh_en": "DEAD_HOURSurvival hours within this medical institution for live-borns before transfer out",
-      "description_en": ""
+      "name_zh_en": "Hours of survival in this medical facility before death of a live birth",
+      "description_en": "as recorded"
     },
     {
       "seq": 21,
-      "name_zh": "HOSP_DAY本醫療機構內之在院天數活產者轉院前在",
-      "name_en": "Num",
-      "type": "8",
-      "length": "如數過錄",
-      "description_zh": "",
+      "name_zh": "活產者轉院前在本醫療機構內之在院天數",
+      "name_en": "HOSP_DAY",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "如數過錄",
       "available_notes": [],
-      "name_zh_en": "inpatient days at this hospital before transfer for live births",
-      "description_en": ""
+      "name_zh_en": "Days in hospital in this medical facility before transfer of a live birth",
+      "description_en": "as recorded"
     },
     {
       "seq": 22,
-      "name_zh": "HOSP_HOUR本醫療機構內之在院時數",
-      "name_en": "Num",
-      "type": "8",
-      "length": "如數過錄",
-      "description_zh": "欄位編碼說明詳「國籍別代",
+      "name_zh": "活產者轉院前在本醫療機構內之在院時數",
+      "name_en": "HOSP_HOUR",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "如數過錄",
       "available_notes": [],
-      "name_zh_en": "HOSP_HOUR Hours of Inpatient Stay at This Medical Institution",
-      "description_en": "field-code-description-details-nationality"
+      "name_zh_en": "Hours in hospital in this medical facility before transfer of a live birth",
+      "description_en": "as recorded"
     },
     {
       "seq": 23,
-      "name_zh": "產婦原始國籍別93年新增98年無",
+      "name_zh": "產婦原始國籍別",
       "name_en": "NAT_M",
       "type": "Char",
       "length": 2,
-      "description_zh": "碼」 90-97年：國民身份 1.本國 2.非本國",
+      "description_zh": "欄位編碼說明詳「國籍別代碼」\n93年新增",
+      "available_notes": [
+        {
+          "roc_year": 93,
+          "ad_year": 2004,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Mother's original nationality",
+      "description_en": "For field coding, see \"Nationality code\"\nAdded ROC 93 (2004)"
+    },
+    {
+      "seq": 24,
+      "name_zh": "產婦目前國籍別",
+      "name_en": "ROC_M",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "90-97年：國民身份\n1.本國 2.非本國\n98年無\n99年起表示國籍\n欄位編碼說明詳「國籍別代碼」",
       "available_notes": [
         {
           "roc_year": 97,
           "ad_year": 2008,
           "marker": ""
+        },
+        {
+          "roc_year": 98,
+          "ad_year": 2009,
+          "marker": ""
+        },
+        {
+          "roc_year": 99,
+          "ad_year": 2010,
+          "marker": "起"
         }
       ],
-      "name_zh_en": "maternal original nationality added in 1993, not available after 1998",
-      "description_en": "'Code' 1990-1997: Nationality 1.Home Country 2.Non-home Country"
-    },
-    {
-      "seq": 24,
-      "name_zh": "產婦目前國籍別99年起表示國籍",
-      "name_en": "ROC_M",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "欄位編碼說明詳「國籍別代碼」",
-      "available_notes": [],
-      "name_zh_en": "maternal current nationality code from 1999 onwards indicates nationality",
-      "description_en": "field code description see 'nationality code'"
+      "name_zh_en": "Mother's current nationality",
+      "description_en": "ROC years 90-97 (2001-2008): nationality status\n1. Citizen 2. Non-citizen\nNone in ROC year 98 (2009)\nFrom ROC year 99 (2010): indicates nationality\nFor field coding, see \"Nationality code\""
     },
     {
       "seq": 25,
@@ -317,10 +575,742 @@
       "name_en": "NAT_F",
       "type": "Char",
       "length": 2,
-      "description_zh": "國籍別代碼，外配身份則表示原",
-      "available_notes": [],
+      "description_zh": "國籍別代碼，外配身份則表示原有國籍，詳「國籍別代碼」93年新增",
+      "available_notes": [
+        {
+          "roc_year": 93,
+          "ad_year": 2004,
+          "marker": ""
+        }
+      ],
       "name_zh_en": "spouse's current nationality",
-      "description_en": "code for nationality, foreign patients indicated origin"
+      "description_en": "Nationality code; for foreign spouses, indicates the original nationality; see \"Nationality code\". Added ROC 93 (2004)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼01",
+      "name_en": "CGD_1",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 01",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼02",
+      "name_en": "CGD_2",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 02",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼03",
+      "name_en": "CGD_3",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 03",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼04",
+      "name_en": "CGD_4",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 04",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼05",
+      "name_en": "CGD_5",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 05",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼06",
+      "name_en": "CGD_6",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 06",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼07",
+      "name_en": "CGD_7",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 07",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼08",
+      "name_en": "CGD_8",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 08",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼09",
+      "name_en": "CGD_9",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 09",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼10",
+      "name_en": "CGD_10",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 10",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼11",
+      "name_en": "CGD_11",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 11",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 27,
+      "name_zh": "先天性缺陷代碼12",
+      "name_en": "CGD_12",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "妊娠、生產在醫學上特殊情形之新生兒(胎兒)部分\n欄位編碼說明詳「先天性缺陷代碼」\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly code 12",
+      "description_en": "For newborns (fetuses) with medically special conditions in pregnancy or delivery\nFor field coding, see \"Congenital anomaly code\"\n(discontinued from October ROC year 104 (2015))\nNo data in this field from ROC year 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述01",
+      "name_en": "CGD_OTHER1",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 01",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述02",
+      "name_en": "CGD_OTHER2",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 02",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述03",
+      "name_en": "CGD_OTHER3",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 03",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述04",
+      "name_en": "CGD_OTHER4",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 04",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述05",
+      "name_en": "CGD_OTHER5",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 05",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述06",
+      "name_en": "CGD_OTHER6",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 06",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述07",
+      "name_en": "CGD_OTHER7",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 07",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述08",
+      "name_en": "CGD_OTHER8",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 08",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述09",
+      "name_en": "CGD_OTHER9",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 09",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述10",
+      "name_en": "CGD_OTHER10",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 10",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述11",
+      "name_en": "CGD_OTHER11",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 11",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 28,
+      "name_zh": "先天性缺陷其他項描述12",
+      "name_en": "CGD_OTHER12",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "文字說明\n（104年10月起停用）\n105年起欄位無資料",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        },
+        {
+          "roc_year": 105,
+          "ad_year": 2016,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "Congenital anomaly other description 12",
+      "description_en": "Text description\n(discontinued from October ROC 104 (2015))\nNo data in this field from ROC 105 (2016)"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 01",
+      "name_en": "CGD_ICD10_1",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 01",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 02",
+      "name_en": "CGD_ICD10_2",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 02",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 03",
+      "name_en": "CGD_ICD10_3",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 03",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 04",
+      "name_en": "CGD_ICD10_4",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 04",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 05",
+      "name_en": "CGD_ICD10_5",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 05",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 06",
+      "name_en": "CGD_ICD10_6",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 06",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 07",
+      "name_en": "CGD_ICD10_7",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 07",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 08",
+      "name_en": "CGD_ICD10_8",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 08",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 09",
+      "name_en": "CGD_ICD10_9",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 09",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 10",
+      "name_en": "CGD_ICD10_10",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 10",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 11",
+      "name_en": "CGD_ICD10_11",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "",
+      "available_notes": [],
+      "name_zh_en": "Congenital anomaly ICD10 code 11",
+      "description_en": ""
+    },
+    {
+      "seq": 29,
+      "name_zh": "先天性缺陷ICD10代碼 12",
+      "name_en": "CGD_ICD10_12",
+      "type": "Char",
+      "length": 17,
+      "description_zh": "先天性缺陷 ICD-10-CM 代碼（104年7月起新增）",
+      "available_notes": [
+        {
+          "roc_year": 104,
+          "ad_year": 2015,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "Congenital anomaly ICD10 code 12",
+      "description_en": "Congenital anomaly ICD-10-CM code (newly added from July ROC 104 (2015))"
     },
     {
       "seq": 30,
@@ -382,9 +1372,7 @@
   "raw_text_first_page": "2026年01月27日修訂\n出生通報檔\n（HEALTH-09：H_BHP_BIRTH）\n資料庫使用手冊\n一、檔案內容說明\n檔案代號 H_BHP_BIRTH 資料筆數 138874筆 / 113年\n中文檔名 出生通報檔 英文檔名 Birthreportingdatabases\n檔案大小 126MB/ 113年 欄位數 34欄\n譯碼簿\n屬性 現況檔 週期 1年 2026/01/27\n更新日期\n資料描述 1. 衛生福利部為落實出生通報工作，訂定「出生通報作業計畫」，多次與「兒童福利\n法」主管機關內政部會議協商，由內政部於民國83年9月13日定案公布「出生\n通報作業流程」。同年12 月28日由衛生福利部公告發布新修訂之「出生證明書」\n及「死產證明書」，並於民國84年3月起實施紙本出生通報作業。\n2. 民國 93 年起醫療單位改行網路通報不再使用紙本、而戶政聯仍採兩種通報方式\n並行。經國健署持續與內政部戶政司協調整合，民國 94 年起全面實施網路出生\n通報，完全免除紙本之寄送。\n3. 民國92年5月28日「兒童福利法」及「少年福利法」合併修正公布為「兒童及\n少年福利法」，其中第 13 條規定：「胎兒出生後 7 日內，接生人應將其出生之相\n關資料通報戶政及衛生主管機關備查」。\n4. 民國100年11月30日修正公布「兒童及少年福利與權益保障法」，其中第14條\n規定：「胎兒出生後 7 日內，接生人應將其出生之相關資料通報衛生主管機關備\n查；其為死產者，亦同」。另非在醫院、診所或助產所出生無法取得出生證明書者，\n應提憑醫療機構開立之 DNA 親子鑑定報告書或領有證照之醫護人員所開立之出\n生通報書，辦理出生登記。\n5. 不同於「出生登記」，「出生通報」為所有在我國出生(不限國籍)之\na.活產新生兒；\nb.懷孕≧20週或體重≧500公克之死產兒。\n(引述國民健康署出生通報背景說明)\n注意事項 1. 一位新生兒為一筆資料。\n2. 本資料係全國各接生醫療院所通報之「出生證明書」、「死產證明書」與「出生通\n報書」資料。\n3. 統計項目包含產婦背景資料（國籍、居住地）及懷孕情形（危險因子或特殊處置）、\n新生兒資料（出生體重、胎別、先天缺陷註記等）、產婦配偶資料（國籍、戶籍地）\n等欄位。\n4. 104 年 7 月 1 日起，出生通報系統之新生兒先天性缺陷代碼改以 ICD-10-CM 通\n報。然批次轉檔醫院因院內系統調整，給予三個月修改緩衝期，故104年7月至",
   "qa": {
     "errors": [],
-    "warnings": [
-      "field count mismatch: header=34, parsed=30"
-    ]
+    "warnings": []
   },
   "page_count": 12,
   "code": "Health09",
@@ -399,5 +1387,10 @@
   "data_description_en": "1. To implement birth-notification work, the Ministry of Health and Welfare established the \"Birth Notification Operations Plan\" and held repeated consultations with the Ministry of the Interior, the competent authority for the Child Welfare Act. The Ministry of the Interior finalized and announced the \"Birth Notification Operating Procedure\" on September 13, 1994 (ROC year 83). On December 28 of the same year, the Ministry of Health and Welfare announced the newly revised \"Birth Certificate\" and \"Stillbirth Certificate,\" and paper-based birth notification began in March 1995 (ROC year 84).\n2. Starting in 2004 (ROC year 93), medical institutions switched to online notification and stopped using paper forms, while household-registration offices continued to use both notification methods in parallel. Following continued coordination between the Health Promotion Administration and the Ministry of the Interior's Department of Household Registration Affairs, online birth notification was fully implemented starting in 2005 (ROC year 94), completely eliminating the mailing of paper forms.\n3. On May 28, 2003 (ROC year 92), the \"Child Welfare Act\" and the \"Youth Welfare Act\" were merged and amended into the \"Child and Youth Welfare Act,\" Article 13 of which provides: \"Within 7 days of a fetus's birth, the person who assisted the delivery shall report the relevant birth information to the household registration and health authorities for the record.\"\n4. On November 30, 2011 (ROC year 100), the \"Protection of Children and Youths Welfare and Rights Act\" was amended and promulgated; Article 14 provides: \"Within 7 days of a fetus's birth, the person who assisted the delivery shall report the relevant birth information to the health authority for the record; the same applies in the case of a stillbirth.\" In addition, for births that did not occur in a hospital, clinic, or midwifery institution and for which a birth certificate cannot be obtained, birth registration may be completed by presenting either a DNA parentage test report issued by a medical institution or a birth notification form issued by a licensed medical or nursing professional.\n5. Unlike \"birth registration,\" \"birth notification\" covers all of the following born in Taiwan (regardless of nationality):\na. live-born newborns;\nb. stillbirths at ≥20 weeks of gestation or with a birth weight of ≥500 grams.\n(Quoted from the Health Promotion Administration's background description of birth notification)",
   "notes_en": "1. Each newborn is one record. 2. This data comes from the 'birth certificate', 'stillbirth certificate', and 'birth notification' reported by delivery facilities nationwide. 3. Statistical items include maternal background data (nationality, residence) and pregnancy conditions (risk factors or special procedures), newborn data (birth weight, plurality, congenital-defect flag, etc.), and maternal spouse data (nationality, household registration). 4. From 1 July 2015 (ROC 104), newborn congenital-defect codes in the birth-notification system were changed to ICD-10-CM. Hospitals doing batch transfers were given a three-month buffer for system adjustment, so from July 2015...",
   "primary_keys_en": "",
-  "name_zh_en": "birth reporting file"
+  "name_zh_en": "birth reporting file",
+  "printed": {
+    "field_rows": 34,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

@@ -11,7 +11,7 @@
       "name_en": "BIRTH_Y",
       "type": "Char",
       "length": 8,
-      "description_zh": "西元年 YYYY 僅112、113年",
+      "description_zh": "西元年YYYY\n僅112、113年",
       "available_notes": [
         {
           "roc_year": 113,
@@ -51,13 +51,9 @@
       "key": "MC1-20",
       "seq_later": 11,
       "changes": {
-        "name_zh": {
-          "from": "多重死因 1-20",
-          "to": "多重死因1-20"
-        },
         "description_zh": {
-          "from": "死因以 ICD-10 編碼 2019 年、2024年MC12至MC20 無值",
-          "to": "死因以ICD-10 編碼 2019、2025年MC12至MC20無值"
+          "from": "死因以ICD-10 編碼\n2019年、2024年MC12至MC20無值",
+          "to": "死因以ICD-10 編碼\n2019、2025年MC12至MC20無值"
         }
       }
     }

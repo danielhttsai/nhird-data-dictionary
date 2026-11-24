@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "1. 為明瞭低收入戶及中低收入戶生活狀況，特依據社會救助法第 13 條第 3 項：\n「主管機關應至少每五年舉辦低收入戶及中低收入戶生活狀況調查，並出版統計\n報告。」及統計法之規定，以及衛福部 102 年度施政計畫，辦理低收入戶及中\n低收入戶生活狀況調查。\n2. 主要蒐集低收入戶及中低收入戶之家庭組成（包括有工作能力人口及其就業意\n願）、住宅及設備狀況、戶內人口健康狀況、經濟情況，對政府辦理社會救助（包\n括生活扶助、醫療補助、急難救助及災害救助）、福利措施之利用與期望等資料。",
-  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。 戶資料、個人資料及重大傷病比對的鍵值：流水號(SEQ)。",
-  "primary_keys_raw": "",
+  "notes_zh": "※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等\n欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審\n核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。",
+  "primary_keys_raw": "戶資料、個人資料及重大傷病比對的鍵值：流水號(SEQ)。",
   "fields": [
     {
       "seq": 1,
@@ -43,25 +43,25 @@
     },
     {
       "seq": 3,
-      "name_zh": "Q7_GROUP",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.1人2.2人 3.3人4.4人5.5人 6.6人7.7人 8.8人及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "Q7_GROUP",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.1人2.2人 3.3人4.4人5.5人6.6人7.7人 8.8人及以上",
       "available_notes": [],
-      "name_zh_en": "Q7_GROUP",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1.1 person 2.2 persons 3.3 persons 4.4 persons 5.5 persons 6.6 persons 7.7 persons 8.8 persons or more"
     },
     {
       "seq": 4,
-      "name_zh": "RQ7_GROUP",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.1人2.2~4 人 3.5~7人4.7 人及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RQ7_GROUP",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.1人2.2~4 人\n3.5~7人4.7 人及以上",
       "available_notes": [],
-      "name_zh_en": "RQ7_GROUP",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1.1 person 2.2~4 persons\n3.5~7 persons 4.7 persons or more"
     },
     {
       "seq": 5,
@@ -69,7 +69,7 @@
       "name_en": "CASE",
       "type": "Char",
       "length": 10,
-      "description_zh": "1:第一位成員 2:第二位成員 3:第三位成員 4:第四位成員 5第五位成員 6:第六位成員 7:第七位成員 8:第八位成員 9:第九位成員",
+      "description_zh": "1:第一位成員 2:第二位成員\n3:第三位成員 4:第四位成員\n5第五位成員 6:第六位成員\n7:第七位成員 8:第八位成員\n9:第九位成員",
       "available_notes": [],
       "name_zh_en": "household member code",
       "description_en": "1: First member 2: Second member 3: Third member 4: Fourth member 5: Fifth member 6: Sixth member 7: Seventh member 8: Eighth member 9: Ninth member"
@@ -80,7 +80,7 @@
       "name_en": "CITY5",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.新北市2.臺北市3.臺中市 4.臺南市5.高雄市6.臺灣地區 12.金馬地區",
+      "description_zh": "1.新北市2.臺北市3.臺中市\n4.臺南市5.高雄市6.臺灣地區\n12.金馬地區",
       "available_notes": [],
       "name_zh_en": "region (five metropolises)",
       "description_en": "1. New Taipei City 2. Taipei City 3. Taichung City 4. Tainan City 5. Kaohsiung City 6. Taiwan area 12. Kinmen-Matsu region"
@@ -102,7 +102,7 @@
       "name_en": "Q1",
       "type": "Char",
       "length": 8,
-      "description_zh": "1.家宅 2.安養、養護機構 3.其他",
+      "description_zh": "1.家宅\n2.安養、養護機構\n3.其他",
       "available_notes": [],
       "name_zh_en": "current living environment",
       "description_en": "1. Home 2. Assisted living/nursing institution 3. Other"
@@ -135,7 +135,7 @@
       "name_en": "Q4_GROUP",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.未滿5坪 2.5~未滿10坪 3.10~未滿15坪 4.15~未滿20坪 5.20~未滿25坪 6.25~未滿30坪 7.30~未滿35坪 8.35~未滿40坪 9.40坪以上",
+      "description_zh": "1.未滿5坪 2.5~未滿10坪\n3.10~未滿15坪 4.15~未滿20坪5.20~未滿25坪 6.25~未滿30坪7.30~未滿35坪 8.35~未滿40坪9.40坪以上",
       "available_notes": [],
       "name_zh_en": "residential building area score group",
       "description_en": "1. Under 5 ping 2. 5 to under 10 ping 3. 10 to under 15 ping 4. 15 to under 20 ping 5. 20 to under 25 ping 6. 25 to under 30 ping 7. 30 to under 35 ping 8. 35 to under 40 ping 9. 40 ping or more"
@@ -146,7 +146,7 @@
       "name_en": "A1",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.戶長本人 2.配偶 3.子女 4.內、外孫子女 5.父母 6.內、外祖父母 7.兄弟姊妹 8.子女之配偶 9.孫子女之配偶 10.兄弟姊妹之配偶 11.配偶之父母 12.配偶之兄弟姊妹 13.其他親屬 14.其他非親屬",
+      "description_zh": "1.戶長本人 2.配偶 3.子女\n4.內、外孫子女 5.父母\n6.內、外祖父母 7.兄弟姊妹\n8.子女之配偶 9.孫子女之配偶\n10.兄弟姊妹之配偶\n11.配偶之父母\n12.配偶之兄弟姊妹\n13.其他親屬\n14.其他非親屬",
       "available_notes": [],
       "name_zh_en": "relationship_to_household_head",
       "description_en": "1. Household head themselves 2. Spouse 3. Children 4. Grandchildren (paternal/maternal) 5. Parents 6. Grandparents (paternal/maternal) 7. Siblings 8. Children's spouses 9. Grandchildren's spouses 10. Siblings' spouses 11. Spouse's parents 12. Spouse's siblings 13. Other relatives 14. Other non-relatives"
@@ -190,21 +190,21 @@
       "name_en": "A4",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.不識字 2.國小及自修 3.國(初)中 4.高中(職) 5.專科 6.大學 7.碩士 8.博士",
+      "description_zh": "1.不識字\n2.國小及自修\n3.國(初)中\n4.高中(職)\n5.專科\n6.大學\n7.碩士\n8.博士",
       "available_notes": [],
       "name_zh_en": "education level",
       "description_en": "1. Illiterate 2. Elementary school and self-taught 3. Junior high school 4. Senior high/vocational school 5. Junior college 6. University 7. Master's 8. Doctorate"
     },
     {
       "seq": 17,
-      "name_zh": "A4_EDU",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.不識字 2.國小及自修 3.國(初)中 4.高中(職) 5.專科大學 6.研究所以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "A4_EDU",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.不識字\n2.國小及自修\n3.國(初)中\n4.高中(職)\n5.專科大學\n6.研究所以上",
       "available_notes": [],
-      "name_zh_en": "A4_EDU",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Illiterate\n2. Elementary school and self-study\n3. Junior high school\n4. Senior high (vocational) school\n5. Junior college/university\n6. Graduate school and above"
     },
     {
       "seq": 18,
@@ -219,14 +219,14 @@
     },
     {
       "seq": 19,
-      "name_zh": "A5_SCHOOL",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.在學2.未在學",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "A5_SCHOOL",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.在學2.未在學",
       "available_notes": [],
-      "name_zh_en": "A5_SCHOOL",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Enrolled 2. Not enrolled"
     },
     {
       "seq": 20,
@@ -245,20 +245,20 @@
       "name_en": "A7",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.未婚 2.有配偶或同居 3.離婚或分居 4.喪偶",
+      "description_zh": "1.未婚 2.有配偶或同居\n3.離婚或分居 4.喪偶",
       "available_notes": [],
       "name_zh_en": "current marital status",
       "description_en": "1. Unmarried 2. Has spouse or cohabiting 3. Divorced or separated 4. Widowed"
     },
     {
       "seq": 22,
-      "name_zh": "身分狀況目前有工作",
+      "name_zh": "身分狀況",
       "name_en": "A8",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.具原住民身分 2.具榮民、榮眷身分 3.具外籍或大陸配偶身分 4.一般身分",
+      "description_zh": "1.具原住民身分\n2.具榮民、榮眷身分\n3.具外籍或大陸配偶身分\n4.一般身分",
       "available_notes": [],
-      "name_zh_en": "Status: currently employed",
+      "name_zh_en": "Status",
       "description_en": "1. Indigenous status 2. Veteran or veteran's dependent status 3. Foreign or mainland Chinese spouse status 4. General status"
     },
     {
@@ -267,7 +267,7 @@
       "name_en": "A901",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.未滿15小時 2.15~20小時 3.21~25小時 4.26~30小時 5.31~35小時 6.36~40小時 7.41~45小時 8.46~50小時 9.51~55小時 10.56小時以上",
+      "description_zh": "1.未滿15小時 2.15~20小時3.21~25小時 4.26~30小時\n5.31~35小時 6.36~40小時\n7.41~45小時 8.46~50小時\n9.51~55小時 10.56小時以上",
       "available_notes": [],
       "name_zh_en": "Average weekly working hours in the past 3 months",
       "description_en": "1. Under 15 hours 2. 15-20 hours 3. 21-25 hours 4. 26-30 hours 5. 31-35 hours 6. 36-40 hours 7. 41-45 hours 8. 46-50 hours 9. 51-55 hours 10. 56 hours or more"
@@ -278,20 +278,20 @@
       "name_en": "A902",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.民意代表、主管及經理人員 2.專業人員 3.技術員及助理專業人員 4.事務支援人員",
+      "description_zh": "1.民意代表、主管及經理人員\n2.專業人員\n3.技術員及助理專業人員\n4.事務支援人員\n5.服務及銷售工作人員\n6.農林漁牧業生產人員\n7.技藝有關工作人員\n8.機械設備操作及組裝人員\n9.基層技術工及勞力工\n10.職業軍人",
       "available_notes": [],
       "name_zh_en": "type of occupation",
-      "description_en": "1. Legislators, senior officials and managers 2. Professionals 3. Technicians and associate professionals 4. Clerical support workers"
+      "description_en": "1. Representatives, supervisors and managers\n2. Professionals\n3. Technicians and associate professionals\n4. Clerical support workers\n5. Service and sales workers\n6. Skilled agricultural, forestry, fishing and animal husbandry workers\n7. Craft and related trades workers\n8. Plant and machine operators and assemblers\n9. Elementary technical and manual workers\n10. Career military personnel"
     },
     {
       "seq": 25,
-      "name_zh": "主要工作型態目前無工作",
+      "name_zh": "主要工作型態",
       "name_en": "A903",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.全日型經常性工作 2.部分工時經常性工作 3.臨時性或季節性工作 4.6個月內臨時、短期工作",
+      "description_zh": "1.全日型經常性工作\n2.部分工時經常性工作\n3.臨時性或季節性工作\n4.6個月內臨時、短期工作",
       "available_notes": [],
-      "name_zh_en": "Main type of work: currently not working",
+      "name_zh_en": "Main type of work",
       "description_en": "1. Regular full-time work 2. Regular part-time work 3. Temporary or seasonal work 4. Temporary/short-term work within 6 months"
     },
     {
@@ -300,21 +300,21 @@
       "name_en": "A904",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.16歲以上非在學學生，屬有工作能力 2.25 歲以下仍在國內就讀空中大學、大學院校以上進修學校、 在職班、 3.未滿16歲，非屬有工作能力 4.高齡（65 歲以上）非屬有工作能力 5.25 歲以下仍在國內就讀空中大學、大學院校以上進修學校、 在職班、 6.身心障礙致不能工作 7.罹患嚴重傷、病，需三個月以上治療或療養致不能工作 8.因照顧特定身心障礙或罹患特定病症且不能自理生活之共同生活或受 9.獨自扶養六歲以下之直系血親卑親屬致不能工作 10.婦女懷胎六個月以上至分娩後二個月，致不能工作；或懷胎期間經醫 11.受監護宣告 12.其他原因",
+      "description_zh": "1.16歲以上非在學學生，屬有工作能力\n2.25 歲以下仍在國內就讀空中大學、大學院校以上進修學校、在職班、\n3.未滿16歲，非屬有工作能力\n4.高齡（65 歲以上）非屬有工作能力\n5.25 歲以下仍在國內就讀空中大學、大學院校以上進修學校、在職班、\n6.身心障礙致不能工作\n7.罹患嚴重傷、病，需三個月以上治療或療養致不能工作\n8.因照顧特定身心障礙或罹患特定病症且不能自理生活之共同生活或受\n9.獨自扶養六歲以下之直系血親卑親屬致不能工作\n10.婦女懷胎六個月以上至分娩後二個月，致不能工作；或懷胎期間經醫\n11.受監護宣告\n12.其他原因",
       "available_notes": [],
       "name_zh_en": "current work ability status",
       "description_en": "1. Non-student aged 16 or above, considered able to work 2. Aged 25 or below still enrolled domestically in an open university, university-level continuing education program, or in-service program 3. Under age 16, not considered able to work 4. Elderly (65 or above), not considered able to work 5. Aged 25 or below still enrolled domestically in an open university, university-level continuing education program, or in-service program 6. Unable to work due to physical or mental disability 7. Unable to work due to serious injury or illness requiring 3+ months of treatment or recuperation 8. Unable to work due to caring for a cohabiting relative with a specific disability or illness who cannot manage daily living 9. Unable to work due to solely supporting a direct lineal descendant under age 6 10. Unable to work due to being 6+ months pregnant through 2 months postpartum; or during pregnancy per medical advice 11. Under guardianship declaration 12. Other reasons"
     },
     {
       "seq": 27,
-      "name_zh": "A904_other",
-      "name_en": "Char",
-      "type": "24",
-      "length": "A904為12 之其他原因說明",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "A904_other",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "A904為12 之其他原因說明",
       "available_notes": [],
-      "name_zh_en": "A904_other",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "Explanation of other reason when A904 is 12"
     },
     {
       "seq": 28,
@@ -322,21 +322,21 @@
       "name_en": "A905",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.初尋工作中（包括正在等待結果者） 2.重尋工作中 3.正在準備就業考試或高、普、 特考試",
+      "description_zh": "1.初尋工作中（包括正在等待結果者）\n2.重尋工作中\n3.正在準備就業考試或高、普、特考試\n4.參加職訓中\n5.需照顧未滿 12歲兒童\n6.需照顧患重傷病親屬\n7.需料理家務\n8.準備懷孕或已懷孕者\n9.在學、準備升學或繼續進修中\n10.服兵役中（含替代役）\n11.離家出走或失蹤\n12.入獄服刑中\n13.謀職困難致未再尋工作\n14.年紀大\n15.不想工作\n16.體力差無法工作\n17.其他原因",
       "available_notes": [],
       "name_zh_en": "Reason those able to work are not working",
-      "description_en": "1. Seeking first job (including those awaiting results) 2. Seeking job again 3. Preparing for employment exams or civil service exams (senior/general/special)"
+      "description_en": "1. Looking for first job (including awaiting results)\n2. Looking for work again\n3. Preparing for employment exams or senior, ordinary and special civil service examinations\n4. In vocational training\n5. Needs to care for a child under 12\n6. Needs to care for a relative with serious injury or illness\n7. Needs to manage housework\n8. Preparing for pregnancy or already pregnant\n9. In school, preparing for further study or continuing education\n10. In military service (including alternative service)\n11. Ran away from home or missing\n12. Serving a prison sentence\n13. Difficulty finding work so stopped looking\n14. Old age\n15. Does not want to work\n16. Poor physical strength, unable to work\n17. Other reasons"
     },
     {
       "seq": 29,
-      "name_zh": "A905_other",
-      "name_en": "Char",
-      "type": "21",
-      "length": "A905為17 之其他原因說明",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "A905_other",
+      "type": "Char",
+      "length": 21,
+      "description_zh": "A905為17 之其他原因說明",
       "available_notes": [],
-      "name_zh_en": "A905_other",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "Explanation of other reason when A905 is 17"
     },
     {
       "seq": 30,
@@ -351,29 +351,29 @@
     },
     {
       "seq": 31,
-      "name_zh": "有工作能力者，沒有受過職業訓練， 願意接受職業訓練的種類(可選兩項)",
+      "name_zh": "有工作能力者，沒有受過職業訓練，願意接受職業訓練的種類(可選兩項)",
       "name_en": "A1002",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.電腦、資訊 2.經紀銷售 3.創業經營 4.出納、會計、簿計 5.觀光、導覽 6.餐飲服務 7.褓姆、居家、病患服務 8.公寓大廈管理 9.美容、美髮 10.工業配線 11.冷凍空調 12.模具 13.珠寶飾品製作 14.手工藝品 15.汽車修護 16.其他",
+      "description_zh": "1.電腦、資訊 2.經紀銷售\n3.創業經營 4.出納、會計、簿計\n5.觀光、導覽 6.餐飲服務\n7.褓姆、居家、病患服務\n8.公寓大廈管理 9.美容、美髮\n10.工業配線 11.冷凍空調\n12.模具 13.珠寶飾品製作\n14.手工藝品 15.汽車修護\n16.其他",
       "available_notes": [],
       "name_zh_en": "For those able to work who have not received vocational training but are willing to accept training: type of training (choose up to 2)",
       "description_en": "1. Computer, IT 2. Brokerage, sales 3. Entrepreneurship, business management 4. Cashiering, accounting, bookkeeping 5. Tourism, guiding 6. Food and beverage service 7. Babysitting, home care, patient care 8. Building management 9. Beauty, hairdressing 10. Industrial wiring 11. Refrigeration and air conditioning 12. Mold making 13. Jewelry making 14. Handicrafts 15. Auto repair 16. Other"
     },
     {
       "seq": 32,
-      "name_zh": "A1003",
-      "name_en": "Char",
-      "type": "12",
-      "length": "",
+      "name_zh": "",
+      "name_en": "A1003",
+      "type": "Char",
+      "length": 12,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "A1003",
+      "name_zh_en": "",
       "description_en": ""
     },
     {
       "seq": 33,
-      "name_zh": "有工作能力者，沒有受過職業訓練： 願意接受職業訓練的種類之其他項說明",
+      "name_zh": "有工作能力者，沒有受過職業訓練：願意接受職業訓練的種類之其他項說明",
       "name_en": "A1002_OTHER",
       "type": "Char",
       "length": 12,
@@ -384,18 +384,18 @@
     },
     {
       "seq": 34,
-      "name_zh": "有工作能力者，沒有受過職業訓練， 且不願意接受職業訓練的主要原因",
+      "name_zh": "有工作能力者，沒有受過職業訓練，且不願意接受職業訓練的主要原因",
       "name_en": "A1004",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.基本學識低，學習力弱 2.年齡大，記憶差，學習困難 3.受訓期間無法負擔家庭生計 4.不想轉業，本職不需再訓練 5.沒有合適的訓練種類 6.需照顧家人或料理家務，沒空接受訓練 7.身體健康不佳，無法負荷訓練 8.參加訓練後也未必能找到工作",
+      "description_zh": "1.基本學識低，學習力弱\n2.年齡大，記憶差，學習困難\n3.受訓期間無法負擔家庭生計\n4.不想轉業，本職不需再訓練\n5.沒有合適的訓練種類\n6.需照顧家人或料理家務，沒空接受訓練\n7.身體健康不佳，無法負荷訓練\n8.參加訓練後也未必能找到工作\n9.已有專長，不需再訓練\n10.在學中\n11.其他",
       "available_notes": [],
       "name_zh_en": "For those able to work who have not received vocational training and are unwilling to accept training: main reason",
-      "description_en": "1. Low basic education, weak learning ability 2. Older age, poor memory, difficulty learning 3. Cannot support family finances during training 4. Does not want to change careers, current job needs no further training 5. No suitable training type available 6. Needs to care for family or manage household, no time for training 7. Poor health, cannot handle training 8. Even after training, may not find a job"
+      "description_en": "1. Low basic education, weak learning ability\n2. Older age, poor memory, difficulty learning\n3. Cannot afford family living expenses during training\n4. Does not want to change occupation; current job needs no further training\n5. No suitable type of training\n6. Needs to care for family or manage housework, no time for training\n7. Poor health, unable to bear training\n8. May not find a job even after training\n9. Already has expertise, no further training needed\n10. Currently in school\n11. Other"
     },
     {
       "seq": 35,
-      "name_zh": "有工作能力者，沒有受過職業訓練， 且不願意接受職業訓練之其他項說明",
+      "name_zh": "有工作能力者，沒有受過職業訓練，且不願意接受職業訓練之其他項說明",
       "name_en": "A1004_OTHER",
       "type": "Char",
       "length": 12,
@@ -410,7 +410,7 @@
       "name_en": "A1101",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.以工代賑 2.就業輔導（全日工作） 3.就業輔導（部分時間工作） 4.創業輔導 5.創業貸款利息補貼 6.求職交通補助 7.求職或職業訓練期間之臨時托育及日間照顧津貼 8.協助安置需照顧家人，俾可安心就業 9.其他",
+      "description_zh": "1.以工代賑\n2.就業輔導（全日工作）\n3.就業輔導（部分時間工作）\n4.創業輔導\n5.創業貸款利息補貼\n6.求職交通補助\n7.求職或職業訓練期間之臨時托育及日間照顧津貼\n8.協助安置需照顧家人，俾可安心就業\n9.其他",
       "available_notes": [],
       "name_zh_en": "For those with work capacity who want government assistance with employment or starting a business, what kind of assistance is mainly wanted",
       "description_en": "1. Work-for-relief 2. Employment counseling (full-time work) 3. Employment counseling (part-time work) 4. Entrepreneurship counseling 5. Startup loan interest subsidy 6. Job-seeking transportation subsidy 7. Temporary childcare and daytime care allowance during job seeking or vocational training 8. Assistance placing family members needing care so one can work with peace of mind 9. Other"
@@ -454,7 +454,7 @@
       "name_en": "A1102",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.自己尋找工作，不須政府幫助 2.已有滿意工作，不須協助 3.暫無法工作 4.其他",
+      "description_zh": "1.自己尋找工作，不須政府幫助\n2.已有滿意工作，不須協助\n3.暫無法工作\n4.其他",
       "available_notes": [],
       "name_zh_en": "Main reason those with work capacity do not want government assistance with employment or starting a business",
       "description_en": "1. Looking for work on own, no government help needed 2. Already have a satisfactory job, no assistance needed 3. Temporarily unable to work 4. Other"
@@ -476,7 +476,7 @@
       "name_en": "RSICK_PEOPLE",
       "type": "Char",
       "length": 14,
-      "description_zh": "0.無慢性病或重大傷病者 1.有慢性病或重大傷病者",
+      "description_zh": "0.無慢性病或重大傷病者\n1.有慢性病或重大傷病者",
       "available_notes": [],
       "name_zh_en": "is there a person with a catastrophic illness?",
       "description_en": "0. No chronic disease or major illness/injury 1. Has chronic disease or major illness/injury"
@@ -487,21 +487,21 @@
       "name_en": "RRSICK_PEOPLE",
       "type": "Char",
       "length": 14,
-      "description_zh": "0.無慢性病或重大傷病者 1.1人 2.2人 3.3人及以上",
+      "description_zh": "0.無慢性病或重大傷病者\n1.1人 2.2人 3.3人及以上",
       "available_notes": [],
       "name_zh_en": "人数 with catastrophic illness",
       "description_en": "0. No chronic disease or major illness/injury 1. 1 person 2. 2 people 3. 3 or more people"
     },
     {
       "seq": 44,
-      "name_zh": "平均每月維持最低生活費用為目前實",
+      "name_zh": "平均每月維持最低生活費用為目前實際生活費用之倍數(分組)",
       "name_en": "RANK",
       "type": "Char",
       "length": 10,
-      "description_zh": "1未滿0.8倍 2.0.8倍-未滿 1.0倍 3.1.0倍-未滿 1.2倍",
+      "description_zh": "1未滿0.8倍\n2.0.8倍-未滿 1.0倍\n3.1.0倍-未滿 1.2倍4.1.2倍-未滿 1.4倍\n5.1.4倍-未滿 1.6倍\n6.1.6倍以上",
       "available_notes": [],
-      "name_zh_en": "Average minimum monthly living expenses is currently actual",
-      "description_en": "1 Less than 0.8x 2. 0.8x to less than 1.0x 3. 1.0x to less than 1.2x"
+      "name_zh_en": "Average monthly minimum living cost as a multiple of current actual living expenses (grouped)",
+      "description_en": "1. Under 0.8 times\n2. 0.8 times to under 1.0 times\n3. 1.0 times to under 1.2 times 4. 1.2 times to under 1.4 times\n5. 1.4 times to under 1.6 times\n6. 1.6 times or more"
     },
     {
       "seq": 45,
@@ -527,7 +527,7 @@
     },
     {
       "seq": 47,
-      "name_zh": "戶中是否有未滿 6 歲幼兒者",
+      "name_zh": "戶中是否有未滿 6歲幼兒者",
       "name_en": "SPECIAL3",
       "type": "Char",
       "length": 10,
@@ -597,7 +597,7 @@
       "name_en": "SECTION",
       "type": "Char",
       "length": 12,
-      "description_zh": "1.第一款2.第二款 3.第三款4.第四款",
+      "description_zh": "1.第一款2.第二款\n3.第三款4.第四款",
       "available_notes": [],
       "name_zh_en": "claim type",
       "description_en": "1. Item 1 2. Item 2 3. Item 3 4. Item 4"
@@ -608,7 +608,7 @@
       "name_en": "Q6",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.有運輸或交通工具 2.無運輸或交通工具",
+      "description_zh": "1.有運輸或交通工具\n2.無運輸或交通工具",
       "available_notes": [],
       "name_zh_en": "availability of transportation",
       "description_en": "1. Has transportation 2. No transportation"
@@ -626,14 +626,14 @@
     },
     {
       "seq": 56,
-      "name_zh": "RABILITY_PEOPLE",
-      "name_en": "Char",
-      "type": "15",
-      "length": "1.0人 2.1人 3.2人 4.3人及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RABILITY_PEOPLE",
+      "type": "Char",
+      "length": 15,
+      "description_zh": "1.0人\n2.1人\n3.2人\n4.3人及以上",
       "available_notes": [],
-      "name_zh_en": "RABILITY_PEOPLE",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. 0 persons\n2. 1 person\n3. 2 persons\n4. 3 persons or more"
     },
     {
       "seq": 57,
@@ -670,25 +670,25 @@
     },
     {
       "seq": 60,
-      "name_zh": "QQ1002",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.未滿1萬元 2.1萬元~未滿 2萬元 3.2萬元~未滿 3萬元 4.3萬~未滿 4萬 5.4萬~未滿 5萬 6.5萬~未滿 6萬 7.6萬~未滿 7萬",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "QQ1002",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.未滿1萬元\n2.1萬元~未滿 2萬元\n3.2萬元~未滿 3萬元\n4.3萬~未滿 4萬\n5.4萬~未滿 5萬\n6.5萬~未滿 6萬\n7.6萬~未滿 7萬8.7萬~未滿 8萬\n9.8萬~未滿 9萬\n10.9萬元及以上",
       "available_notes": [],
-      "name_zh_en": "QQ1002",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Under NT$10,000\n2. NT$10,000 to under NT$20,000\n3. NT$20,000 to under NT$30,000\n4. NT$30,000 to under NT$40,000\n5. NT$40,000 to under NT$50,000\n6. NT$50,000 to under NT$60,000\n7. NT$60,000 to under NT$70,000 8. NT$70,000 to under NT$80,000\n9. NT$80,000 to under NT$90,000\n10. NT$90,000 or more"
     },
     {
       "seq": 61,
-      "name_zh": "RQQ102",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.未滿1萬元 2.1萬元~未滿 2萬元 3.2萬元~未滿 3萬元 4.3萬~未滿 4萬 5.4萬~未滿 5萬 6.5萬~未滿 6萬 7.6萬~未滿 7萬 8.7萬元及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RQQ102",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.未滿1萬元\n2.1萬元~未滿 2萬元\n3.2萬元~未滿 3萬元\n4.3萬~未滿 4萬\n5.4萬~未滿 5萬\n6.5萬~未滿 6萬\n7.6萬~未滿 7萬\n8.7萬元及以上",
       "available_notes": [],
-      "name_zh_en": "RQQ102",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Under NT$10,000\n2. NT$10,000 to under NT$20,000\n3. NT$20,000 to under NT$30,000\n4. NT$30,000 to under NT$40,000\n5. NT$40,000 to under NT$50,000\n6. NT$50,000 to under NT$60,000\n7. NT$60,000 to under NT$70,000\n8. NT$70,000 or more"
     },
     {
       "seq": 62,
@@ -703,14 +703,14 @@
     },
     {
       "seq": 63,
-      "name_zh": "RINCOME_PEOPLE",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.未滿3000 元 2.3千元~未滿 6千元 3.6千元~未滿 9千元 4.9千元~未滿 1萬2千元 5.1萬2千元~未滿1萬5 千元 6.1萬5千元~未滿1萬8 千元 7.1萬8千元~未滿2萬1 千元 8.2萬1千元~未滿2萬4 千元 9.2萬4千元~未滿2萬7 千元 10.2萬7千元~未滿3萬 11.3萬元及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RINCOME_PEOPLE",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.未滿3000 元\n2.3千元~未滿 6千元\n3.6千元~未滿 9千元\n4.9千元~未滿 1萬2千元\n5.1萬2千元~未滿1萬5 千元6.1萬5千元~未滿1萬8 千元7.1萬8千元~未滿2萬1 千元8.2萬1千元~未滿2萬4 千元9.2萬4千元~未滿2萬7 千元10.2萬7千元~未滿3萬\n11.3萬元及以上",
       "available_notes": [],
-      "name_zh_en": "RINCOME_PEOPLE",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Under NT$3,000\n2. NT$3,000 to under NT$6,000\n3. NT$6,000 to under NT$9,000\n4. NT$9,000 to under NT$12,000\n5. NT$12,000 to under NT$15,000 6. NT$15,000 to under NT$18,000 7. NT$18,000 to under NT$21,000 8. NT$21,000 to under NT$24,000 9. NT$24,000 to under NT$27,000 10. NT$27,000 to under NT$30,000\n11. NT$30,000 or more"
     },
     {
       "seq": 64,
@@ -718,21 +718,21 @@
       "name_en": "RQ1003",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.未滿5000 元 2.5000元~未滿 1萬元 3.1萬元~未滿 1萬5千元 4.1萬5千元~未滿2萬 5.2萬~未滿 2萬5千元 6.2萬5千元~未滿3萬 7.3萬~未滿 3萬5千元 8.3萬5千元~未滿4萬 9.4萬~未滿 4萬5千元 10.4萬5千元~未滿5萬 11.5萬~未滿 5萬5千元 12.5萬5千元~未滿6萬 13.6萬~未滿 6萬5千元 14.6萬5千元~未滿7萬 15.7萬~未滿 7萬5千元 16.7萬5千元~未滿8萬 17.8萬~未滿 8萬5千元",
+      "description_zh": "1.未滿5000 元\n2.5000元~未滿 1萬元\n3.1萬元~未滿 1萬5千元\n4.1萬5千元~未滿2萬\n5.2萬~未滿 2萬5千元\n6.2萬5千元~未滿3萬\n7.3萬~未滿 3萬5千元\n8.3萬5千元~未滿4萬\n9.4萬~未滿 4萬5千元\n10.4萬5千元~未滿5萬\n11.5萬~未滿 5萬5千元\n12.5萬5千元~未滿6萬\n13.6萬~未滿 6萬5千元\n14.6萬5千元~未滿7萬\n15.7萬~未滿 7萬5千元\n16.7萬5千元~未滿8萬\n17.8萬~未滿 8萬5千元18.8萬5千元~未滿9萬\n19.9萬元及以上",
       "available_notes": [],
       "name_zh_en": "monthly maintenance cost",
-      "description_en": "1. Under NT$5,000 2. NT$5,000 to under 10,000 3. NT$10,000 to under 15,000 4. NT$15,000 to under 20,000 5. NT$20,000 to under 25,000 6. NT$25,000 to under 30,000 7. NT$30,000 to under 35,000 8. NT$35,000 to under 40,000 9. NT$40,000 to under 45,000 10. NT$45,000 to under 50,000 11. NT$50,000 to under 55,000 12. NT$55,000 to under 60,000 13. NT$60,000 to under 65,000 14. NT$65,000 to under 70,000 15. NT$70,000 to under 75,000 16. NT$75,000 to under 80,000 17. NT$80,000 to under 85,000"
+      "description_en": "1. Under NT$5,000\n2. NT$5,000 to under NT$10,000\n3. NT$10,000 to under NT$15,000\n4. NT$15,000 to under NT$20,000\n5. NT$20,000 to under NT$25,000\n6. NT$25,000 to under NT$30,000\n7. NT$30,000 to under NT$35,000\n8. NT$35,000 to under NT$40,000\n9. NT$40,000 to under NT$45,000\n10. NT$45,000 to under NT$50,000\n11. NT$50,000 to under NT$55,000\n12. NT$55,000 to under NT$60,000\n13. NT$60,000 to under NT$65,000\n14. NT$65,000 to under NT$70,000\n15. NT$70,000 to under NT$75,000\n16. NT$75,000 to under NT$80,000\n17. NT$80,000 to under NT$85,000 18. NT$85,000 to under NT$90,000\n19. NT$90,000 or more"
     },
     {
       "seq": 65,
-      "name_zh": "RQQ103",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.未滿5000 元 2.5000元~未滿 1萬元 3.1萬元~未滿 1萬5千元 4.1萬5千元~未滿2萬 5.2萬~未滿 2萬5千元 6.2萬5千元~未滿3萬 7.3萬~未滿 3萬5千元 8.3萬5千元~未滿4萬 9.4萬~未滿 4萬5千元 10.4萬5千元~未滿5萬 11.5萬~未滿 5萬5千元 12.5萬5千元~未滿6萬 13.6萬~未滿 6萬5千元 14.6萬5千元~未滿7萬 15.7萬元以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RQQ103",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.未滿5000 元\n2.5000元~未滿 1萬元\n3.1萬元~未滿 1萬5千元\n4.1萬5千元~未滿2萬\n5.2萬~未滿 2萬5千元\n6.2萬5千元~未滿3萬\n7.3萬~未滿 3萬5千元\n8.3萬5千元~未滿4萬\n9.4萬~未滿 4萬5千元\n10.4萬5千元~未滿5萬\n11.5萬~未滿 5萬5千元\n12.5萬5千元~未滿6萬\n13.6萬~未滿 6萬5千元\n14.6萬5千元~未滿7萬\n15.7萬元以上",
       "available_notes": [],
-      "name_zh_en": "RQQ103",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Under NT$5,000\n2. NT$5,000 to under NT$10,000\n3. NT$10,000 to under NT$15,000\n4. NT$15,000 to under NT$20,000\n5. NT$20,000 to under NT$25,000\n6. NT$25,000 to under NT$30,000\n7. NT$30,000 to under NT$35,000\n8. NT$35,000 to under NT$40,000\n9. NT$40,000 to under NT$45,000\n10. NT$45,000 to under NT$50,000\n11. NT$50,000 to under NT$55,000\n12. NT$55,000 to under NT$60,000\n13. NT$60,000 to under NT$65,000\n14. NT$65,000 to under NT$70,000\n15. NT$70,000 or more"
     },
     {
       "seq": 66,
@@ -740,7 +740,7 @@
       "name_en": "RQ10041",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.未滿10萬元 2.10萬元~未滿 50萬元 3.50萬元~未滿 100萬元 4.100萬元~未滿150萬元 5.150萬元~未滿200萬元 6.200萬元~未滿250萬元 7.250萬元~未滿300萬元 8.300萬元~未滿400萬元 9.400萬元~未滿500萬元 10.500萬元及以上",
+      "description_zh": "1.未滿10萬元\n2.10萬元~未滿 50萬元\n3.50萬元~未滿 100萬元\n4.100萬元~未滿150萬元\n5.150萬元~未滿200萬元\n6.200萬元~未滿250萬元\n7.250萬元~未滿300萬元\n8.300萬元~未滿400萬元\n9.400萬元~未滿500萬元\n10.500萬元及以上",
       "available_notes": [],
       "name_zh_en": "debt (grouped)",
       "description_en": "1. Under NT$100,000 2. NT$100,000 to under 500,000 3. NT$500,000 to under 1,000,000 4. NT$1,000,000 to under 1,500,000 5. NT$1,500,000 to under 2,000,000 6. NT$2,000,000 to under 2,500,000 7. NT$2,500,000 to under 3,000,000 8. NT$3,000,000 to under 4,000,000 9. NT$4,000,000 to under 5,000,000 10. NT$5,000,000 and above"
@@ -751,7 +751,7 @@
       "name_en": "RINCOME_FAMILY",
       "type": "Char",
       "length": 14,
-      "description_zh": "1收入大於支出 2.收支平衡 3.支出大於收入",
+      "description_zh": "1收入大於支出 2.收支平衡\n3.支出大於收入",
       "available_notes": [],
       "name_zh_en": "family income and expenditure situation",
       "description_en": "1 Income exceeds expenses 2. Income equals expenses 3. Expenses exceed income"
@@ -762,7 +762,7 @@
       "name_en": "FAMILY",
       "type": "Char",
       "length": 10,
-      "description_zh": "1.單人家戶 2.夫婦 3.夫婦及未婚子女 4.夫(或婦)及未婚子女(單親家庭) 5.祖父母、父母及未婚子女 6.夫婦及已婚子女祖 7.祖父母及未婚孫子女(隔代家庭) 8.有親屬關係 9.無親屬關係",
+      "description_zh": "1.單人家戶 2.夫婦\n3.夫婦及未婚子女\n4.夫(或婦)及未婚子女(單親家庭)\n5.祖父母、父母及未婚子女\n6.夫婦及已婚子女祖\n7.祖父母及未婚孫子女(隔代家庭)\n8.有親屬關係 9.無親屬關係",
       "available_notes": [],
       "name_zh_en": "type of family structure",
       "description_en": "1. Single-person household 2. Couple 3. Couple and unmarried children 4. Husband (or wife) and unmarried children (single-parent household) 5. Grandparents, parents, and unmarried children 6. Couple and married children with grandparent 7. Grandparents and unmarried grandchildren (skip-generation household) 8. Related household 9. Unrelated household"
@@ -780,14 +780,14 @@
     },
     {
       "seq": 70,
-      "name_zh": "RAGE",
-      "name_en": "Char",
-      "type": "14",
-      "length": "1.未滿20歲 2.20~未滿30 歲 3.30~未滿40 歲 4.40~未滿50 歲 5. 50~未滿 60歲 6. 60~未滿 70歲 7. 70~未滿 80歲 8. 80歲及以上",
-      "description_zh": "",
+      "name_zh": "",
+      "name_en": "RAGE",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "1.未滿20歲\n2.20~未滿30 歲\n3.30~未滿40 歲\n4.40~未滿50 歲\n5. 50~未滿 60歲\n6. 60~未滿 70歲\n7. 70~未滿 80歲\n8. 80歲及以上",
       "available_notes": [],
-      "name_zh_en": "RAGE",
-      "description_en": ""
+      "name_zh_en": "",
+      "description_en": "1. Under 20 years\n2. 20 to under 30 years\n3. 30 to under 40 years\n4. 40 to under 50 years\n5. 50 to under 60 years\n6. 60 to under 70 years\n7. 70 to under 80 years\n8. 80 years and above"
     },
     {
       "seq": 71,
@@ -806,7 +806,7 @@
       "name_en": "GOV_HELP",
       "type": "Char",
       "length": 14,
-      "description_zh": "1.希望政府協助 2.不希望政府協助",
+      "description_zh": "1.希望政府協助\n2.不希望政府協助",
       "available_notes": [],
       "name_zh_en": "Do those with work capacity want government assistance with employment or starting a business",
       "description_en": "1. Wants government assistance 2. Does not want government assistance"
@@ -817,7 +817,7 @@
       "name_en": "TRAIN",
       "type": "Char",
       "length": 14,
-      "description_zh": "1願意接受職業訓練 2不願意接受職業訓練",
+      "description_zh": "1願意接受職業訓練\n2不願意接受職業訓練",
       "available_notes": [],
       "name_zh_en": "Willing to receive further vocational training?",
       "description_en": "1 Willing to receive vocational training 2 Unwilling to receive vocational training"
@@ -851,7 +851,12 @@
   "doc_last_updated": "2025-06-24",
   "name_zh_from_listing": "資料庫使用手冊Welfare4-102年低收入戶及中低收入戶生活狀況調查-人資料",
   "data_description_en": "1. In order to understand the living conditions of low-income and middle-low-income households, this survey on the living conditions of low-income and middle-low-income households was conducted pursuant to Article 13, Paragraph 3 of the Public Assistance Act, which provides: \"The competent authority shall conduct a survey on the living conditions of low-income and middle-low-income households at least once every five years and publish a statistical report,\" as well as the provisions of the Statistics Act and the Ministry of Health and Welfare's 2013 (ROC year 102) administrative plan.\n2. The survey mainly collects data on the family composition of low-income and middle-low-income households (including the working-age population and their employment intentions), housing and facility conditions, the health status of household members, economic conditions, and their utilization of and expectations for government social assistance (including living subsidies, medical assistance, emergency relief, and disaster relief) and welfare measures.",
-  "notes_en": "※ This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals. The key for matching household data, individual data, and catastrophic illness data: serial number (SEQ).",
-  "primary_keys_en": "",
-  "name_zh_en": "ROC year 102 Low-income and Middle-low-income Households Living Conditions Survey - individual-level data"
+  "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
+  "primary_keys_en": "Key for household data, person data and catastrophic illness data matching: serial number (SEQ).",
+  "name_zh_en": "ROC year 102 Low-income and Middle-low-income Households Living Conditions Survey - individual-level data",
+  "printed": {
+    "field_rows": 74,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

@@ -16,8 +16,8 @@
     }
   ],
   "data_description_zh": "1. 法定傳染病確定病例資料檔。\n2. 每筆資料包括個案基本資料、通報所在地資料、個案健康狀況等。\n3. 原始資料以文字說明為主。",
-  "notes_zh": "1. 各傳染病資料起始及截止時間，請參見申請年限表。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。 電腦流水號(REPORT)為法定傳染病通報單號，為對應其他傳染病相關資料檔鍵\n值。",
-  "primary_keys_raw": "",
+  "notes_zh": "1. 各傳染病資料起始及截止時間，請參見申請年限表。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。",
+  "primary_keys_raw": "電腦流水號(REPORT)為法定傳染病通報單號，為對應其他傳染病相關資料檔鍵\n值。",
   "fields": [
     {
       "seq": 1,
@@ -297,7 +297,7 @@
     {
       "seq": 26,
       "name_zh": "感染國家",
-      "name_en": "INFECTED_COUNTRY_N AME",
+      "name_en": "INFECTED_COUNTRY_NAME",
       "type": "Char",
       "length": 16,
       "description_zh": "文字說明",
@@ -334,7 +334,12 @@
   "doc_last_updated": "2025-06-24",
   "name_zh_from_listing": "Health61_法定傳染病個案通報系統資料庫_防疫資料庫",
   "data_description_en": "1. Data file for法定傳染病確定病例.\n2. Each record includes patient基本信息、reporting location信息、patient health status等.\n3. Original data is primarily text based.",
-  "notes_en": "0: Not a paired organ; 1: Primary origin on the right side; 2: Primary origin on the left side; 3: Unilateral involvement only, but origin (left or right) unclear; 4: Bilateral involvement but laterality of origin unclear, and the record describes a single primary (uncommon) — e.g. single-histology tumor involving both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor.",
-  "primary_keys_en": "",
-  "name_zh_en": "confirmed case data"
+  "notes_en": "1. For the start and end dates of the data of each infectious disease, see the application period table.\n* The database of this Center has been de-identified: directly identifying fields such as name and address have been deleted, and fields such as ID\nnumber, facility code, insurance unit code, unified business number, date of birth, date of medical visit and date of\nadmission have been masked. The data can only be used within the independent work area set up by the Ministry, and only\nstatistical results that have passed review may be taken out, so that the data application and disclosure cannot identify specific\nindividuals.",
+  "primary_keys_en": "The computer serial number (REPORT) is the notifiable infectious disease report number, which is the key\nfor linking to other infectious disease data files.",
+  "name_zh_en": "confirmed case data",
+  "printed": {
+    "field_rows": 27,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }

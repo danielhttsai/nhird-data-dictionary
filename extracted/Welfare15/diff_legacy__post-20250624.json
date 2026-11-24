@@ -11,7 +11,7 @@
       "name_en": "OCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為 11",
+      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為11",
       "available_notes": [
         {
           "roc_year": 108,
@@ -25,7 +25,7 @@
     {
       "seq": 29,
       "name_zh": "被害人身分證字號檢誤",
-      "name_en": "ID_C_ ROC",
+      "name_en": "ID_C_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
@@ -36,7 +36,7 @@
     {
       "seq": 30,
       "name_zh": "相對人身分證字號檢誤",
-      "name_en": "ID_D_ ROC",
+      "name_en": "ID_D_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：符合編碼原則；1：不符合。",
@@ -74,7 +74,7 @@
       "name_en": "LASTOCCURTIME",
       "type": "Char",
       "length": 10,
-      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為 11",
+      "description_zh": "民國年YYYMMDDHH；108年起改為民國年YYYMMDDHHMI，長度為11",
       "available_notes": [
         {
           "roc_year": 108,
@@ -108,7 +108,7 @@
       }
     },
     {
-      "key": "OTHEROCCUPATI ON",
+      "key": "OTHEROCCUPATION",
       "seq_later": 9,
       "changes": {
         "description_zh": {
@@ -141,10 +141,6 @@
       "key": "OTHERRELATION",
       "seq_later": 20,
       "changes": {
-        "name_zh": {
-          "from": "與被害人關係類別選其",
-          "to": "與被害人關係類別選其他時所填的資料"
-        },
         "description_zh": {
           "from": "108年長度為96",
           "to": "不提供"
@@ -152,7 +148,7 @@
       }
     },
     {
-      "key": "OTHEROCCURPL ACE",
+      "key": "OTHEROCCURPLACE",
       "seq_later": 24,
       "changes": {
         "description_zh": {

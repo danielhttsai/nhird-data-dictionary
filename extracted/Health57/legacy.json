@@ -26,9 +26,118 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "table": "H_BHP_OMS_PD",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
+    },
+    {
+      "seq": 2,
+      "name_zh": "性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性；2：女性；9：不詳",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
+    },
+    {
+      "seq": 3,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原\n則；\n1：不符合",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+    },
+    {
+      "seq": 4,
+      "name_zh": "證件來源",
+      "name_en": "ID_TYPE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：身分證 2：護照",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "document source",
+      "description_en": "1: ID card 2: Passport"
+    },
+    {
+      "seq": 5,
+      "name_zh": "原始檔性別",
+      "name_en": "SEX",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男 2：女",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Original file sex",
+      "description_en": "1: male 2: female"
+    },
+    {
+      "seq": 6,
+      "name_zh": "出生年月",
+      "name_en": "BIRTH_YM",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "提供西元年月 YYYYMM",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "birth year and month",
+      "description_en": "provided Western calendar year month YYYYMM"
+    },
+    {
+      "seq": 7,
+      "name_zh": "居住地代碼",
+      "name_en": "LIVING",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Residence code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 8,
+      "name_zh": "戶籍地代碼",
+      "name_en": "REG",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "household registration code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 9,
+      "name_zh": "原住民",
+      "name_en": "NATIVE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是 2：否",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Indigenous",
+      "description_en": "1: yes 2: no"
+    },
+    {
+      "seq": 1,
+      "name_zh": "篩檢流水號",
+      "name_en": "ORAL_SEQ",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "Screening serial number",
+      "description_en": ""
     },
     {
       "seq": 2,
@@ -37,20 +146,22 @@
       "type": "Char",
       "length": 12,
       "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 3,
-      "name_zh": "身分證字號",
-      "name_en": "ID",
+      "name_zh": "身分證字號性別",
+      "name_en": "ID_S",
       "type": "Char",
-      "length": 12,
-      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
+      "name_zh_en": "gender by ID number",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 4,
@@ -58,7 +169,8 @@
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則 1：不符合。",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
@@ -69,7 +181,8 @@
       "name_en": "PAYWAY",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：預防保健； 2：非預防保健費用 3：健保醫療給付； 4：其他公務預算補助； 5：自費健康檢查； 6：矯正機關(Oral99.OralA 1070116匯入) 9：其他 (3459於1050801 啟用,不再收 2)",
+      "description_zh": "1：預防保健；\n2：非預防保健費用\n3：健保醫療給付；\n4：其他公務預算補助；\n5：自費健康檢查；\n6：矯正機關(Oral99.OralA\n1070116匯入)\n9：其他\n(3459於1050801 啟用,不再收\n2)",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "payment method",
       "description_en": "1: Preventive health care; 2: Non-preventive health care costs; 3: National Health Insurance medical payment; 4: Other public budget subsidies; 5: Self-paid health check-up; 6: Orthodontic agency (Oral99.OralA 1070116 import) 9: Other (3459 activated on 20150801, no longer collected)"
@@ -80,7 +193,8 @@
       "name_en": "CHECK_P",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：社區或職場設站篩檢； 2：醫療院所。",
+      "description_zh": "1：社區或職場設站篩檢；\n2：醫療院所。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "screening location",
       "description_en": "1: Community or workplace screening station; 2: Medical facility"
@@ -91,32 +205,35 @@
       "name_en": "SUBJECT",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：牙科；2：耳鼻喉科； 3：經本署認可之其他科醫師",
+      "description_zh": "1：牙科；2：耳鼻喉科；\n3：經本署認可之其他科醫師",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "physician specialty for examination",
       "description_en": "1: Dental; 2: Otolaryngology; 3: Other physicians recognized by the authority"
     },
     {
       "seq": 8,
-      "name_zh": "病理切片醫院層級",
-      "name_en": "CUT_HOS",
+      "name_zh": "嚼檳榔",
+      "name_en": "BETELNUT",
       "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "pathology slide hospital tier",
-      "description_en": "Codes referenced from the current medical institution file."
+      "name_zh_en": "chewing betel nut",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 9,
-      "name_zh": "確診醫院代碼",
-      "name_en": "CONF_UNIT",
+      "name_zh": "吸菸",
+      "name_en": "SMOKE",
       "type": "Char",
-      "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "hospital code for diagnosis",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
+      "name_zh_en": "smoking",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 10,
@@ -125,20 +242,22 @@
       "type": "Char",
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "inpatient medical facility code",
       "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 11,
-      "name_zh": "確診醫院層級",
-      "name_en": "CONF_HOS",
+      "name_zh": "檢查醫療院所地區",
+      "name_en": "CHECK_CITY",
       "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "hierarchical level of diagnosing hospital",
-      "description_en": "Codes referenced from the current medical institution file."
+      "name_zh_en": "inpatient hospital location",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 12,
@@ -147,26 +266,22 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "inpatient healthcare facility tier",
       "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 13,
-      "name_zh": "版本",
-      "name_en": "VERSION",
+      "name_zh": "門診日期",
+      "name_en": "CHECK_DATE",
       "type": "Char",
-      "length": 3,
-      "description_zh": "辨別病理診斷(確診)結果表單版本。 113年起新增。",
-      "available_notes": [
-        {
-          "roc_year": 113,
-          "ad_year": 2024,
-          "marker": "起"
-        }
-      ],
-      "name_zh_en": "version",
-      "description_en": "Pathological diagnosis confirmation form version. Added since 2023."
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "Outpatient visit date",
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 14,
@@ -175,6 +290,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "Examination Result",
       "description_en": "detailed translation explanation"
@@ -186,20 +302,22 @@
       "type": "Char",
       "length": 9,
       "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "referral medical institution code",
       "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 16,
-      "name_zh": "治療醫院代碼",
-      "name_en": "TREAT_UNIT",
+      "name_zh": "轉診醫療院所地區",
+      "name_en": "TRANS_CITY",
       "type": "Char",
-      "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "hospital code",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
+      "name_zh_en": "referral medical institution area",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 17,
@@ -208,6 +326,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "referral medical institution level",
       "description_en": "Codes referenced from the current medical institution file."
@@ -218,10 +337,227 @@
       "name_en": "CODE",
       "type": "Char",
       "length": 2,
-      "description_zh": "95：30歲以上有嚼檳榔（含已",
+      "description_zh": "95：30歲以上有嚼檳榔（含已戒）或吸菸習慣者；\n97：18歲以上至未滿 30歲有嚼檳榔（含已戒）習慣之原住\n民。\n66：矯正機關",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "medical order code",
-      "description_en": "95: Chewing Betel Nut (including former users) over 30 years old"
+      "description_en": "95: 30 years of age and above with betel nut chewing (including former chewers) or smoking habits; 97: 18 to less than 30 years old with betel nut chewing (including former chewers) habits among indigenous people. 66: correctional institution"
+    },
+    {
+      "seq": 1,
+      "name_zh": "篩檢流水號",
+      "name_en": "ORAL_S_NO",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Screening serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "確診流水號",
+      "name_en": "CON_S_NO",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Confirmed diagnosis serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "gender by ID number",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
+    },
+    {
+      "seq": 5,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
+    },
+    {
+      "seq": 6,
+      "name_zh": "陽性個案兩個月內後續確診",
+      "name_en": "FOLLOW",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：沒有 1：有",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Whether positive case had follow-up confirmed diagnosis within 2 months",
+      "description_en": "0: No 1: Yes"
+    },
+    {
+      "seq": 7,
+      "name_zh": "沒有接受確診理由",
+      "name_en": "F_REASON",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "no confirmed diagnosis reason",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 8,
+      "name_zh": "沒有接受確診理由-其他敘述",
+      "name_en": "F_MEMO",
+      "type": "Char",
+      "length": 100,
+      "description_zh": "不提供",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Reason for not receiving confirmed diagnosis: other, description",
+      "description_en": "not provided"
+    },
+    {
+      "seq": 9,
+      "name_zh": "確診醫院代碼",
+      "name_en": "CONF_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hospital code for diagnosis",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 10,
+      "name_zh": "確診醫院地區",
+      "name_en": "CONF_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Region of confirmed diagnosis hospital",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 11,
+      "name_zh": "確診醫院層級",
+      "name_en": "CONF_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hierarchical level of diagnosing hospital",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 12,
+      "name_zh": "確診日期",
+      "name_en": "CONF_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "YYYYMMDD",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "confirmed date",
+      "description_en": "YYYYMMDD"
+    },
+    {
+      "seq": 13,
+      "name_zh": "病理切片",
+      "name_en": "CONF_CUT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無 1：有",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Pathology biopsy",
+      "description_en": "0: none 1: present"
+    },
+    {
+      "seq": 14,
+      "name_zh": "診斷結果(臨床診斷)",
+      "name_en": "CONF_RESULT",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "diagnosis(result clinical)",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 15,
+      "name_zh": "診斷結果-病理診斷",
+      "name_en": "PATHO",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "diagnosis-pathology",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 16,
+      "name_zh": "治療醫院代碼",
+      "name_en": "TREAT_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hospital code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 17,
+      "name_zh": "治療醫院地區",
+      "name_en": "TREAT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Region of treatment hospital",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 18,
+      "name_zh": "治療醫院層級",
+      "name_en": "TREAT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hospital level",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 19,
@@ -230,15 +566,183 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：無 1：有 2：拒絕治療",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
       "name_zh_en": "therapy",
       "description_en": "0: none 1: yes 2: refuse treatment"
+    },
+    {
+      "seq": 1,
+      "name_zh": "篩檢流水號",
+      "name_en": "ORAL_SEQ",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Screening serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "確診流水號",
+      "name_en": "CON_SEQ",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Confirmed diagnosis serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號性別",
+      "name_en": "ID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "gender by ID number",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
+    },
+    {
+      "seq": 5,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
+    },
+    {
+      "seq": 6,
+      "name_zh": "病理切片醫院代碼",
+      "name_en": "CUT_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Pathology biopsy hospital code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 7,
+      "name_zh": "病理切片醫院地區",
+      "name_en": "CUT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Region of pathology biopsy hospital",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 8,
+      "name_zh": "病理切片醫院層級",
+      "name_en": "CUT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "pathology slide hospital tier",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 9,
+      "name_zh": "口腔檢查結果_1",
+      "name_en": "ORAL_RESULT_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Oral examination result_1",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 10,
+      "name_zh": "口腔切片日期",
+      "name_en": "CUT_DATE",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "oral cavity biopsy date",
+      "description_en": "year AD YYYYMMDD"
+    },
+    {
+      "seq": 11,
+      "name_zh": "病理診斷(確診)結果",
+      "name_en": "CUT_RESULT",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "pathological_diagnosis确诊结果",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 12,
+      "name_zh": "切片流水號",
+      "name_en": "CUT_SEQ",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Biopsy serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 13,
+      "name_zh": "版本",
+      "name_en": "VERSION",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "辨別病理診斷(確診)結果表單版本。\n113年起新增。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [
+        {
+          "roc_year": 113,
+          "ad_year": 2024,
+          "marker": "起"
+        }
+      ],
+      "name_zh_en": "version",
+      "description_en": "Pathological diagnosis confirmation form version. Added since 2023."
     }
   ],
   "codebooks": {
     "BETELNUT": {
       "field_zh": "嚼檳榔",
       "entries": [
+        {
+          "code": "嚼檳榔代碼",
+          "label_zh": "嚼檳榔說明",
+          "label_en": "Description of betel nut chewing"
+        },
         {
           "code": "0",
           "label_zh": "無",
@@ -276,6 +780,11 @@
       "field_zh": "吸菸",
       "entries": [
         {
+          "code": "吸菸代碼",
+          "label_zh": "吸菸說明",
+          "label_en": "Description of smoking"
+        },
+        {
           "code": "0",
           "label_zh": "無",
           "label_en": "none"
@@ -302,8 +811,8 @@
         },
         {
           "code": "5",
-          "label_zh": "吸超過10 年，每天20 支及以上 2025年07月22日修訂",
-          "label_en": "Smoking over 10 years, daily 20 sticks or more revised on 2025-07-22"
+          "label_zh": "吸超過10 年，每天20 支及以上",
+          "label_en": "Smoked for more than 10 years, 20 or more cigarettes per day"
         }
       ],
       "field_en": "smoking"
@@ -447,11 +956,88 @@
           "label_en": "oral mucosa abnormal but diagnosis unclear 11(99) changed to 99.other(1050801)"
         }
       ],
-      "field_en": "Examination Result"
+      "field_en": "Examination Result",
+      "grid": {
+        "header": [
+          "口腔檢查結果代碼",
+          "口腔檢查結果說明"
+        ],
+        "rows": [
+          [
+            "0",
+            "未發現以下需轉介之異常"
+          ],
+          [
+            "1",
+            "疑似口腔癌"
+          ],
+          [
+            "2",
+            "口腔內外不明原因之持續性腫塊"
+          ],
+          [
+            "3",
+            "紅斑"
+          ],
+          [
+            "4",
+            "紅白斑"
+          ],
+          [
+            "5",
+            "疣狀增生"
+          ],
+          [
+            "6",
+            "張口不易或舌頭活動困難(口腔黏膜下纖維化症)"
+          ],
+          [
+            "7",
+            "白斑"
+          ],
+          [
+            "71",
+            "非均質性白斑"
+          ],
+          [
+            "72",
+            "均質性厚白斑"
+          ],
+          [
+            "73",
+            "均質性薄白斑"
+          ],
+          [
+            "76",
+            "口腔黏膜下纖維化症(張口不易或舌頭活動困難)"
+          ],
+          [
+            "8",
+            "約兩星期仍不癒之口腔潰爛/糜爛"
+          ],
+          [
+            "9",
+            "扁平苔蘚"
+          ],
+          [
+            "10",
+            "口腔黏膜不正常，但診斷未明"
+          ],
+          [
+            "11(99)",
+            "其他。改為 99.其他(1050801)"
+          ]
+        ]
+      }
     },
     "F_REASON": {
       "field_zh": "沒有接受確診理由",
       "entries": [
+        {
+          "code": "沒有接受確診理由代碼",
+          "label_zh": "沒有接受確診理由說明",
+          "label_en": "Description of reason for not receiving confirmed diagnosis"
+        },
         {
           "code": "1",
           "label_zh": "無法聯繫",
@@ -479,8 +1065,8 @@
         },
         {
           "code": "6",
-          "label_zh": "其他 2025年07月22日修訂",
-          "label_en": "other - revised on July 22, 2025"
+          "label_zh": "其他",
+          "label_en": "Other"
         }
       ],
       "field_en": "no confirmed diagnosis reason"
@@ -488,6 +1074,11 @@
     "CONF_RESULT": {
       "field_zh": "診斷結果(臨床診斷)",
       "entries": [
+        {
+          "code": "診斷結果(臨床診斷)代碼",
+          "label_zh": "診斷結果(臨床診斷)說明",
+          "label_en": "Description of diagnosis result (clinical diagnosis)"
+        },
         {
           "code": "00",
           "label_zh": "無明顯異常",
@@ -535,8 +1126,13 @@
         },
         {
           "code": "16",
-          "label_zh": "扁平苔蘚或類扁平苔癬反應 17(99) 其他。改為 99.其他(1050801)",
-          "label_en": "Lichen planus or similar lichenoid reaction 17(99) Others changed to 99. Others (1050801)"
+          "label_zh": "扁平苔蘚或類扁平苔癬反應",
+          "label_en": "Lichen planus or lichenoid reaction"
+        },
+        {
+          "code": "17(99)",
+          "label_zh": "其他。改為 99.其他(1050801)",
+          "label_en": "Other. Changed to 99. Other (ROC 1050801, i.e., 2016-08-01)"
         },
         {
           "code": "20",
@@ -549,6 +1145,11 @@
     "PATHO": {
       "field_zh": "診斷結果-病理診斷",
       "entries": [
+        {
+          "code": "診斷結果(臨床診斷)代碼",
+          "label_zh": "診斷結果(臨床診斷)說明",
+          "label_en": "Description of diagnosis result (clinical diagnosis)"
+        },
         {
           "code": "21",
           "label_zh": "口腔癌",
@@ -571,8 +1172,13 @@
         },
         {
           "code": "25",
-          "label_zh": "重度上皮變異 26(99) 其他。改為 99.其他(1050801) 2025年07月22日修訂",
-          "label_en": "Severe epithelial variation 26(99) Other. Changed to 99.Other(1050801) revised on July 22, 2025"
+          "label_zh": "重度上皮變異",
+          "label_en": "severe epithelial variation"
+        },
+        {
+          "code": "26(99)",
+          "label_zh": "其他。改為 99.其他(1050801)",
+          "label_en": "Other. Changed to 99. Other (ROC 1050801, i.e., 2016-08-01)"
         }
       ],
       "field_en": "diagnosis-pathology"
@@ -691,13 +1297,209 @@
           "label_en": "others"
         }
       ],
-      "field_en": "pathological_diagnosis确诊结果"
+      "field_en": "pathological_diagnosis确诊结果",
+      "grid": {
+        "header": [
+          "口腔切片結果代碼",
+          "口腔切片結果說明"
+        ],
+        "rows": [
+          [
+            "0",
+            "正常 (100年後無此欄位)"
+          ],
+          [
+            "1",
+            "鱗狀細胞增生"
+          ],
+          [
+            "2",
+            "上皮過度角化"
+          ],
+          [
+            "3",
+            "輕度上皮變異"
+          ],
+          [
+            "4",
+            "中度上皮變異"
+          ],
+          [
+            "5",
+            "重度上皮變異"
+          ],
+          [
+            "6",
+            "原位癌（carcinoma in situ），"
+          ],
+          [
+            "7",
+            "鱗狀細胞癌"
+          ],
+          [
+            "a",
+            "疣狀增生"
+          ],
+          [
+            "b",
+            "口腔黏膜下纖維化"
+          ],
+          [
+            "c",
+            "扁平苔癬"
+          ],
+          [
+            "d",
+            "疣狀癌"
+          ],
+          [
+            "8",
+            "其他(others)"
+          ],
+          [
+            "106年表單版本"
+          ],
+          [
+            "00",
+            "無明顯異常"
+          ],
+          [
+            "02",
+            "上皮過度角化或上皮增生(Hyperkeratosis and/or epithelial hyperplasia）"
+          ],
+          [
+            "03",
+            "輕度上皮變異（mild dysplasia,SIN1, basal cell hyperplasia）"
+          ],
+          [
+            "04",
+            "中度上皮變異（moderate dysplasia, SIN2, atypical hyperplasia)"
+          ],
+          [
+            "05",
+            "重度上皮變異（severe dysplasia, SIN3, atypical hyperplasia)"
+          ],
+          [
+            "06",
+            "原位癌（carcinoma in situ）"
+          ],
+          [
+            "07",
+            "鱗狀細胞癌（squamous cell carcinoma）"
+          ],
+          [
+            "e",
+            "Well differentiated"
+          ],
+          [
+            "f",
+            "moderately differentiated"
+          ],
+          [
+            "g",
+            "poorly differentiated"
+          ],
+          [
+            "09",
+            "Benign epithelial tumours(Papillomas, Granular cell tumors, etc.)"
+          ],
+          [
+            "10",
+            "炎症反應(Chronic inflammation)"
+          ],
+          [
+            "11",
+            "疣狀癌（Verrucous carcinoma）"
+          ],
+          [
+            "12",
+            "others malignant"
+          ],
+          [
+            "99",
+            "其他(others)"
+          ],
+          [
+            "113年表單版本"
+          ],
+          [
+            "00",
+            "正常"
+          ],
+          [
+            "02",
+            "上皮過度角化或上皮增生(Hyperkeratosis and/or epithelial hyperplasia）"
+          ],
+          [
+            "03",
+            "輕度上皮變異（mild dysplasia,SIN1, basal cell hyperplasia）"
+          ],
+          [
+            "04",
+            "中度上皮變異（moderate dysplasia, SIN2, atypical hyperplasia)"
+          ],
+          [
+            "05",
+            "重度上皮變異（severe dysplasia, SIN3, atypical hyperplasia)"
+          ],
+          [
+            "06",
+            "原位癌（carcinoma in situ）"
+          ],
+          [
+            "07",
+            "口腔鱗狀細胞癌（Oral Squamous cell carcinoma , including verrucous carcinoma, adenosquamous carcinoma）"
+          ],
+          [
+            "08",
+            "其他惡性度未定之非鱗狀上皮病變(squamous lesions with uncertain malignant"
+          ],
+          [
+            "",
+            "potential, including salivary gland neoplasm, atypical spindle cells, atypical lymphoid cells...)"
+          ],
+          [
+            "09",
+            "其他良性病變(other benign lesions)"
+          ],
+          [
+            "10",
+            "非典型鱗狀病變，惡性度未定(Atypical squamous lesions or atypia with uncertain malignant potential)"
+          ],
+          [
+            "11",
+            "口咽鱗狀細胞癌(Oropharyngeal squamous cell carcinoma)"
+          ],
+          [
+            "12",
+            "其他惡性腫瘤(Others malignant tumors: salivary gland carcinoma, other carcinoma, sarcoma lymphoma, melanoma…)"
+          ],
+          [
+            "14",
+            "疣狀病變/增生(Verrucous lesion, Verrucous hyperplasia, atypical verrucous hyperplasia)"
+          ],
+          [
+            "15",
+            "口腔黏膜下纖維化症(Oral submucous fibrosis)"
+          ],
+          [
+            "16",
+            "扁平苔癬或類扁平苔癬反應(lichen planus, lichenoid reaction)"
+          ],
+          [
+            "99",
+            "其他(others)"
+          ]
+        ]
+      }
     }
   },
   "raw_text_first_page": "2025年07月22日修訂\n癌症篩檢—口腔癌篩檢檔\n(HEALTH-57：H_BHP_OMS)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_BHP_OMS 資料筆數 H_BHP_OMS_PD113：418,311筆\nH_BHP_OMS_ CHECK113：420,673筆\nH_BHP_OMS_ CONFIRM113：24,818筆\nH_BHP_OMS_ CUT113：18,207筆\n(以113年為例)\n中文檔名 1. 口腔癌篩檢-個案基本資料檔 英文檔名 Oral Mucosal Screeing\n(H_BHP_OMS_PD)\n2. 口腔癌篩檢-篩檢資料檔\n(H_BHP_OMS_ CHECK)\n3. 口腔癌篩檢-口腔癌確診檔\n(H_BHP_OMS_ CONFIRM)\n4. 口腔癌篩檢-切片資料檔\n(H_BHP_OMS_ CUT)\n檔案大小 H_BHP_OMS_PD113：16 MB 欄位數 1. H_BHP_OMS_PD：9\nH_BHP_OMS_ CHECK113： 2. H_BHP_OMS_ CHECK：18\n32 MB 3. H_BHP_OMS_ CONFIRM：18\nH_BHP_OMS_ CONFIRM113：4 4. H_BHP_OMS_ CUT：13\nMB\nH_BHP_OMS_ CUT113：1 MB\n(以113年為例)\n譯碼簿\n屬性 歷史資料檔 週期 無 2025/07/22\n更新日期\n資料描述 1. 國民健康署自民國 99 年起擴大辦理 4 項癌症（大腸癌、口腔癌、乳癌及子宮頸\n癌）篩檢服務，透過全民健保預防保健服務特約醫事服務機構全面提供大腸癌、\n乳癌、子宮頸癌與口腔癌篩檢，並將大腸癌、口腔癌篩檢納入預防保健服務項\n目，及擴大乳癌篩檢對象至 40 歲以上至未滿 45 歲二等親乳癌高危險群（即其\n母親、女兒、姊妹、祖母或外祖母曾患有乳癌）之婦女。\n2. 政府補助 30 歲以上嚼檳榔(含戒除)及吸菸民眾，18 歲以上嚼檳榔之原住民，兩年一次免\n費口腔黏膜檢查。\n3. 口腔癌篩檢檔資料內容:\n1",
   "qa": {
     "errors": [],
-    "warnings": []
+    "warnings": [
+      "H_BHP_OMS_CONFIRM: field count mismatch: header=18, parsed=19"
+    ]
   },
   "page_count": 13,
   "code": "Health57",
@@ -712,5 +1514,69 @@
   "data_description_en": "Records the case's betel-nut chewing before the initial diagnosis date. Digits 1-2 are daily quids chewed: 00: None; 10: 10/day; 20: 20/day; 90: >=90/day; 91: Occasional (irregular/no fixed amount); 98: Chews, amount unknown; 99: Not recorded or status unknown. Digits 3-4 are years chewed: 00: None; 05: 5 years; 15: 15 years; 98: Chews, years unknown; 99: Not recorded/unknown. Digits 5-6 are years since quitting: 00: Not quit; 05: Quit 5 years.",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": "oral cancer screening file"
+  "name_zh_en": "oral cancer screening file",
+  "printed": {
+    "field_rows": 19,
+    "code_tables": {
+      "BETELNUT": 6,
+      "SMOKE": 6,
+      "ORAL_RESULT": 32,
+      "F_REASON": 6,
+      "CONF_RESULT": 12,
+      "PATHO": 6,
+      "CUT_RESULT": 44
+    },
+    "code_table_headings": [
+      "BETELNUT",
+      "SMOKE",
+      "ORAL_RESULT",
+      "F_REASON",
+      "CONF_RESULT",
+      "PATHO",
+      "ORAL_RESULT",
+      "CUT_RESULT"
+    ]
+  },
+  "tables": [
+    {
+      "code_short": "H_BHP_OMS_PD",
+      "name_zh": "口腔癌篩檢-個案基本資料檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": 9,
+      "file_size_raw": "",
+      "fields_parsed": 9,
+      "name_zh_en": "Oral cancer screening: case basic data file"
+    },
+    {
+      "code_short": "H_BHP_OMS_CHECK",
+      "name_zh": "口腔癌篩檢 - 篩檢資料檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": 18,
+      "file_size_raw": "",
+      "fields_parsed": 18,
+      "name_zh_en": "Oral cancer screening: screening data file"
+    },
+    {
+      "code_short": "H_BHP_OMS_CONFIRM",
+      "name_zh": "口腔癌篩檢 – 口腔癌確診檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": 18,
+      "file_size_raw": "",
+      "fields_parsed": 19,
+      "name_zh_en": "Oral cancer screening: oral cancer confirmed diagnosis file"
+    },
+    {
+      "code_short": "H_BHP_OMS_CUT",
+      "name_zh": "口腔癌篩檢 - 切片資料檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": null,
+      "file_size_raw": "13 MB",
+      "fields_parsed": 13,
+      "name_zh_en": "Oral cancer screening: biopsy data file"
+    }
+  ]
 }

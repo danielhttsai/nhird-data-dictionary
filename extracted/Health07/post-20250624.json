@@ -20,8 +20,8 @@
     }
   ],
   "data_description_zh": "包含保險對象投保類別、投保單位、投保金額等相關資料。",
-  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n5. 若個人身份證字號(ID)與被保險人身份證字號(INS_ID)相同，則該筆資料為被保\n險人。若個人身份證字號(ID)不同於被保險人身份證字號(INS_ID)，則該筆資料\n為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自107年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情\n形之資料以身分證字號及生日歸戶(人)後之資料。 1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
-  "primary_keys_raw": "",
+  "notes_zh": "1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n5. 若個人身份證字號(ID)與被保險人身份證字號(INS_ID)相同，則該筆資料為被保\n險人。若個人身份證字號(ID)不同於被保險人身份證字號(INS_ID)，則該筆資料\n為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自107年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情\n形之資料以身分證字號及生日歸戶(人)後之資料。",
+  "primary_keys_raw": "1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)經加密處理。\n2. 個人歸戶及個人資料對照的鍵值：ID。",
   "fields": [
     {
       "seq": 1,
@@ -29,7 +29,7 @@
       "name_en": "PREM_YM",
       "type": "Num",
       "length": 8,
-      "description_zh": "YYYYMM 107年起欄位格式為數字型態， 長度為8碼。",
+      "description_zh": "YYYYMM\n107年起欄位格式為數字型態，長度為8碼。",
       "available_notes": [
         {
           "roc_year": 107,
@@ -46,7 +46,7 @@
       "name_en": "ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "1. 亦即保險對象，與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 亦即保險對象，與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。\n2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "personal ID number",
       "description_en": "1. That is, the insured party, which may be a relative and is different from the insured's ID number (INS_ID). The ID number or alien resident permit number (or passport number if no resident permit number) after encryption."
@@ -57,7 +57,7 @@
       "name_en": "INS_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。 2. 200萬人抽樣檔長度為9",
+      "description_zh": "1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)不同者為眷屬。經加密處理，身分證字號，或外籍居留證號碼(如無居留證號碼為護照號碼)。\n2. 200萬人抽樣檔長度為9",
       "available_notes": [],
       "name_zh_en": "Insured person ID number",
       "description_en": "1. If the individual's ID number differs from the insured person's ID number, it is considered a relative. Encrypted ID number or alien residence permit number (if no residence permit number, passport number). 2. The length of the 2 million people sample file is 9."
@@ -68,7 +68,7 @@
       "name_en": "STATUS",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：在保 2：停保 3：轉出 4：一般退保 5：死亡退保 X：從未投保 U：不詳",
+      "description_zh": "1：在保 2：停保 3：轉出\n4：一般退保 5：死亡退保\nX：從未投保 U：不詳",
       "available_notes": [],
       "name_zh_en": "insurance status",
       "description_en": "1: In Coverage 2: Terminated Coverage 3: Transferred Out 4: General Termination of Coverage 5: Death Termination of Coverage X: Never Insured U: Unclear"
@@ -79,7 +79,7 @@
       "name_en": "BRANCH_ID",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：總局(局本部、署本部)1：台北區 2：北區 3：中區 4：南區 5： 高屏區 6：東區",
+      "description_zh": "0：總局(局本部、署本部)1：台北區 2：北區 3：中區 4：南區 5：高屏區 6：東區",
       "available_notes": [],
       "name_zh_en": "Insurance unit NHI region",
       "description_en": "0: Head Office (Bureau/Department headquarters); 1: Taipei Division; 2: Northern Division; 3: Central Division; 4: Southern Division; 5: Kaohsiung-Pingtung Division; 6: Eastern Division."
@@ -134,7 +134,7 @@
       "name_en": "RELATION",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人 U：不詳 X：從未投保 A：曾孫子女",
+      "description_zh": "1：配偶 2：父母 3：子女4：祖父母 5：孫子女 6：外祖父母 7：外孫子女 8：曾祖父母 9：外曾祖父母 0：其他榮民遺眷 P：受監護人\nU：不詳 X：從未投保 A：曾孫子女",
       "available_notes": [],
       "name_zh_en": "relationship_to_insured",
       "description_en": "1: Spouse 2: Parents 3: Children 4: Grandparents (paternal) 5: Grandchildren (paternal line) 6: Grandparents (maternal) 7: Grandchildren (maternal line) 8: Great-grandparents (paternal) 9: Great-grandparents (maternal) 0: Other veteran's surviving dependents P: Ward (under guardianship) U: Unknown X: Never insured A: Great-grandchildren"
@@ -288,7 +288,7 @@
       "name_en": "ID1_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照醫療機構現況檔。 1200 表示為新竹市，2200 表示為嘉義市。",
+      "description_zh": "代碼參照醫療機構現況檔。\n1200 表示為新竹市，2200 表示為嘉義市。",
       "available_notes": [],
       "name_zh_en": "Insurance unit area code",
       "description_en": "Refer to the current medical institution code. 1200 indicates Taichung City, 2200 indicates Chiayi City."
@@ -299,7 +299,7 @@
       "name_en": "HOME_CITY",
       "type": "Char",
       "length": 4,
-      "description_zh": "代碼參照醫療機構現況檔 1200 表示為新竹市，2200 表示為嘉義市",
+      "description_zh": "代碼參照醫療機構現況檔\n1200 表示為新竹市，2200 表示為嘉義市",
       "available_notes": [],
       "name_zh_en": "residential area code",
       "description_en": "Code refers to the Medical Institution Current Status file; 1200 denotes Hsinchu City, 2200 denotes Chiayi City."
@@ -354,10 +354,16 @@
       "name_en": "ID_BIRTH_Y",
       "type": "Char",
       "length": 4,
-      "description_zh": "YYYY。",
-      "available_notes": [],
+      "description_zh": "YYYY。107年起欄位格式為文字型態，長度為4碼。",
+      "available_notes": [
+        {
+          "roc_year": 107,
+          "ad_year": 2018,
+          "marker": "起"
+        }
+      ],
       "name_zh_en": "birth year",
-      "description_en": "YYYY."
+      "description_en": "YYYY. Starting ROC year 107 (AD 2018), the field format is text type, with a length of 4 digits."
     }
   ],
   "codebooks": {
@@ -590,7 +596,247 @@
           "label_en": "unknown 2026-01-27 revised"
         }
       ],
-      "field_en": "unit attribute"
+      "field_en": "unit attribute",
+      "grid": {
+        "header": [
+          "",
+          "保險類目",
+          "",
+          "",
+          "屬性代碼",
+          "",
+          "",
+          "被保險人",
+          ""
+        ],
+        "rows": [
+          [
+            "11",
+            "A",
+            "中央非事業機關公務人員、中央公職人員、國立大專學校教職員、志願役軍人"
+          ],
+          [
+            "11",
+            "B",
+            "中央以下政府機關、學校公教人員、公職人員"
+          ],
+          [
+            "11",
+            "C",
+            "地方公職人員"
+          ],
+          [
+            "11",
+            "D",
+            "私立大專學校教職員"
+          ],
+          [
+            "11",
+            "E",
+            "私立中小學校教職員"
+          ],
+          [
+            "12",
+            "F",
+            "公營事業機構職員(參加公保)"
+          ],
+          [
+            "12",
+            "G",
+            "公營事業機構工員(參加勞保)"
+          ],
+          [
+            "12",
+            "H",
+            "民營事業機構受雇者"
+          ],
+          [
+            "13",
+            "I",
+            "中央非事業機關工員、國立學校工員"
+          ],
+          [
+            "13",
+            "J",
+            "中央以下政府機關、學校工員"
+          ],
+          [
+            "13",
+            "K",
+            "私立學校工員"
+          ],
+          [
+            "13",
+            "L",
+            "有一定雇主之受雇者"
+          ],
+          [
+            "12",
+            "M",
+            "非營利事業機構之受雇者"
+          ],
+          [
+            "13",
+            "N",
+            "職業訓練機構之學員"
+          ],
+          [
+            "14",
+            "O",
+            "自營作業者"
+          ],
+          [
+            "15",
+            "P",
+            "專門職業及技術人員自行執行業者"
+          ],
+          [
+            "21",
+            "",
+            "職業工會會員"
+          ],
+          [
+            "22",
+            "",
+            "海員總工會或船長公會之外僱船員"
+          ],
+          [
+            "31",
+            "Q",
+            "農民"
+          ],
+          [
+            "31",
+            "R",
+            "水利會會員"
+          ],
+          [
+            "32",
+            "",
+            "漁會會員"
+          ],
+          [
+            "40",
+            "",
+            "軍眷"
+          ],
+          [
+            "40",
+            "U",
+            "在卹遺眷、無依軍眷"
+          ],
+          [
+            "41",
+            "",
+            "軍校生、義務役、遺眷、無依眷"
+          ],
+          [
+            "41",
+            "A",
+            "行政院海巡署總局"
+          ],
+          [
+            "41",
+            "A",
+            "行政院海岸巡防署海岸巡防總局"
+          ],
+          [
+            "41",
+            "B",
+            "行政院海巡署北區巡防局"
+          ],
+          [
+            "41",
+            "B",
+            "行政院海岸巡防署海岸巡防總局北部地區巡防局"
+          ],
+          [
+            "41",
+            "C",
+            "行政院海巡署中區巡防局"
+          ],
+          [
+            "41",
+            "C",
+            "行政院海岸巡防署海岸巡防總局中部地區巡防局"
+          ],
+          [
+            "41",
+            "D",
+            "行政院海巡署南區巡防局"
+          ],
+          [
+            "41",
+            "D",
+            "行政院海岸巡防署海岸巡防總局南部地區巡防局"
+          ],
+          [
+            "41",
+            "E",
+            "行政院海巡署東區巡防局"
+          ],
+          [
+            "41",
+            "E",
+            "行政院海岸巡防署海岸巡防總局東部地區巡防局"
+          ],
+          [
+            "42",
+            "",
+            "替代役"
+          ],
+          [
+            "43",
+            "V",
+            "軍監受刑人"
+          ],
+          [
+            "43",
+            "W",
+            "矯正機關受刑人"
+          ],
+          [
+            "43",
+            "X",
+            "監護處分受刑人"
+          ],
+          [
+            "51",
+            "",
+            "安置於社會福利服務機構之低收入戶"
+          ],
+          [
+            "52",
+            "",
+            "由鄉(鎮市區)公所辦理投保之低收入戶"
+          ],
+          [
+            "61",
+            "",
+            "榮民"
+          ],
+          [
+            "62",
+            "",
+            "公所投保之地區人口"
+          ],
+          [
+            "62",
+            "S",
+            "非由公所投保之地區人口，出家僧眾、宗教人士、僑生、海青、蒙藏生"
+          ],
+          [
+            "62",
+            "T",
+            "安置於社福機構之院民(地區人口)、外籍生"
+          ],
+          [
+            "U",
+            "",
+            "不詳"
+          ]
+        ]
+      }
     },
     "ID_TYPE": {
       "field_zh": "身份別",
@@ -661,10 +907,121 @@
           "label_en": "907 [effective from ROC 104-11-01 (2015)]. Copayment codes for drug-fee copayment: I20 requires additional drug-fee copayment; I21: clinics, district hospitals, or low/middle-low-income and disability-certificate holders are exempt from additional drug-fee copayment for referred cases at medical centers/regional hospitals with drug fees under NT$100; I22: those meeting the drug-fee copayment-exemption rules, including clinic-referred chronic refillable-prescription cases, the 2nd and later dispensings of hospital-referred chronic prescriptions, low/middle-low-income and disability-certificate holders' chronic-prescription cases at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. Agency-subsidized copayment codes: 908 Ocean Affairs Council Coast Guard (from 2019-05-01); 909 Central Police University; 910 MOI Fire Agency; 911 MOI Air Corps; 912 MOI National Police Agency; 913 Ministry of National Defense; 914 administrative assistance for statutory-infectious-disease reporting/isolation (from 2021-01-01); 915 MOI National Immigration Agency (from 2021-11-01); 916 long-term-care-institution enhanced TB-control program copayment exemption. Note: per NHIA letter 0970001927 (13 Feb 2008), when one case meets two or more copayment-exemption conditions, fill in for both outpatient and inpatient by these priorities: (1) occupational injury/disease first (code 006, occupational injury/disease of a labor-insurance insured); (2) otherwise, choose one applicable exemption code under the NHI Act, including catastrophic illness (001), childbirth (002), preventive care (009), and mountain/outlying-island care (007); (3) if neither (1) nor (2) applies, for agency-subsidized copayment choose one applicable code top-down."
         }
       ],
-      "field_en": "identity type"
+      "field_en": "identity type",
+      "grid": {
+        "header": [
+          "",
+          "代號",
+          "",
+          "",
+          "說明",
+          "",
+          "",
+          "備註",
+          ""
+        ],
+        "rows": [
+          [
+            "1",
+            "雇主無勞保",
+            ""
+          ],
+          [
+            "2",
+            "一般",
+            ""
+          ],
+          [
+            "4",
+            "榮民/榮民遺眷之家戶代表",
+            ""
+          ],
+          [
+            "5",
+            "保險類目為「62」依附",
+            ""
+          ],
+          [
+            "6",
+            "育嬰",
+            ""
+          ],
+          [
+            "",
+            "自95年起",
+            ""
+          ],
+          [
+            "1",
+            "雇主",
+            ""
+          ],
+          [
+            "2",
+            "一般",
+            ""
+          ],
+          [
+            "3",
+            "專技一",
+            "自行執業之會計師、律師、建築師、醫師、牙醫師及中醫師。"
+          ],
+          [
+            "4",
+            "專技二",
+            "前項以外之專門職業技術人員自行執業者。"
+          ],
+          [
+            "6",
+            "育嬰留職",
+            ""
+          ],
+          [
+            "A",
+            "榮民",
+            ""
+          ],
+          [
+            "B",
+            "62依附",
+            ""
+          ],
+          [
+            "U",
+            "不詳",
+            ""
+          ],
+          [
+            "空白",
+            "眷屬",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "95年以前資料",
+            "",
+            "",
+            "95年(含)以後資料",
+            ""
+          ],
+          [
+            "榮民/榮民遺眷之家戶代表",
+            "身分別=4",
+            "身分別=2且保險對象身分屬性=61"
+          ],
+          [
+            "保險類目為「62」依附",
+            "身分別=5",
+            "身分別=2且保險對象身分屬性=62且單位保險類別第1碼=1或2或3者"
+          ]
+        ]
+      }
     }
   },
-  "raw_text_first_page": "2026年01月27日修訂\n全民健保承保檔\n（HEALTH-07：H_NHI_ENROL）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_ENROL 資料筆數 32,342,566筆（以2024/12 資料為例）\n中文檔名 全民健保承保檔 英文檔名 RegistryforBeneficiaries\n檔案大小 7GB（以2024//12 資料為例） 欄位數 30\n譯碼簿 2025/06/24 初版\n屬性 現況檔 週期 月\n更新日期 2026/01/27 修訂\n資料描述 包含保險對象投保類別、投保單位、投保金額等相關資料。\n1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n注意事項 5. 若個人身份證字號(ID)與被保險人身份證字號(INS_ID)相同，則該筆資料為被保\n險人。若個人身份證字號(ID)不同於被保險人身份證字號(INS_ID)，則該筆資料\n為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自107年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情\n形之資料以身分證字號及生日歸戶(人)後之資料。\n主鍵與比 1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)經加密處理。\n對欄位 2. 個人歸戶及個人資料對照的鍵值：ID。\n1",
+  "raw_text_first_page": "2026年01月27日修訂\n全民健保承保檔\n（HEALTH-07：H_NHI_ENROL）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_ENROL 資料筆數 32,342,566筆（以2024/12 資料為例）\n中文檔名 全民健保承保檔 英文檔名 RegistryforBeneficiaries\n檔案大小 7GB（以2024//12 資料為例） 欄位數 30\n譯碼簿 2025/06/24 初版\n屬性 現況檔 週期 月\n更新日期 2026/01/27 修訂\n資料描述 包含保險對象投保類別、投保單位、投保金額等相關資料。\n1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 不含在軍方單位投保之保險對象。\n3. 資料為每月在保資料。\n4. 無基本資料之被保險人及其眷屬投保記錄，視為異常記錄不提供。\n注意事項 5. 若個人身份證字號(ID)與被保險人身份證字號(INS_ID)相同，則該筆資料為被保\n險人。若個人身份證字號(ID)不同於被保險人身份證字號(INS_ID)，則該筆資料\n為眷屬。\n6. 本手冊所列之檔案格式及資料描述係參考「健保承保專用表格」，路徑：衛生福\n利部中央健康保險署首頁∕下載及應用∕資料下載∕表單下載∕投保資格與異動表單∕健\n保承保專用表格。\n7. 自107年起，投保狀態為在保及停保者全部提供，其他狀態者則提供最後異動情\n形之資料以身分證字號及生日歸戶(人)後之資料。\n主鍵與比 1. 個人身分證字號(ID)與被保險人身分證字號(INS_ID)經加密處理。\n對欄位 2. 個人歸戶及個人資料對照的鍵值：ID。\n1",
   "qa": {
     "errors": [],
     "warnings": []
@@ -680,7 +1037,17 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health07_全民健保承保檔(20250624起適用)",
   "data_description_en": "includes insurance coverage categories, insured entity, premium amount, etc.",
-  "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. Does not include insured persons covered under military units.\n3. The data reflects monthly enrollment (in-coverage) records.\n4. Enrollment records of insured persons and their dependents without basic personal data are treated as abnormal records and are not provided.\n5. If an individual's ID number (ID) matches the insured person's ID number (INS_ID), the record pertains to the insured person. If an individual's ID number (ID) differs from the insured person's ID number (INS_ID), the record pertains to a dependent.\n6. The file formats and data descriptions listed in this manual are based on the \"NHI Enrollment-Specific Forms,\" available at: National Health Insurance Administration, Ministry of Health and Welfare homepage / Downloads and Applications / Data Downloads / Form Downloads / Enrollment Eligibility and Change Forms / NHI Enrollment-Specific Forms.\n7. Since 2018 (ROC year 107), records with an enrollment status of \"currently insured\" or \"coverage suspended\" are provided in full, while for other statuses only the data reflecting the most recent change is provided, consolidated by ID number and date of birth.\n1. The individual's ID number (ID) and the insured person's ID number (INS_ID) are encrypted.\n2. The key for linking records to an individual and matching individual data: ID.",
-  "primary_keys_en": "",
-  "name_zh_en": "NHI insured file"
+  "notes_en": "1. The database of this Center has been de-identified: directly identifying fields such as name and address have been deleted, and fields such as ID\nnumber, facility code, insurance unit code, unified business number, date of birth, date of medical visit and date of admission\nhave been masked. The data can only be used within the independent work area set up by the Ministry, and only statistical results\nthat have passed review may be taken out, so that the data application and disclosure cannot identify specific individuals.\n2. Excludes insured persons insured through military units.\n3. The data are monthly enrollment data.\n4. Insurance records of insured persons and their dependents without basic data are regarded as abnormal records and are not provided.\n5. If the personal ID number (ID) is the same as the insured person's ID number (INS_ID), the record is for the insured\nperson. If the personal ID number (ID) differs from the insured person's ID number (INS_ID), the record\nis for a dependent.\n6. The file formats and data descriptions listed in this manual refer to the \"NHI Enrollment Forms\"; path: Ministry of Health and\nWelfare National Health Insurance Administration homepage / Downloads and Applications / Data Downloads / Form Downloads / Insurance Eligibility and Change Forms /\nNHI Enrollment Forms.\n7. From ROC 107 (2018), all persons with insurance status of enrolled or suspended are provided; for other statuses, the data on the last change\nare provided, after linking records by ID number and birthday (per person).",
+  "primary_keys_en": "1. The personal ID number (ID) and the insured person's ID number (INS_ID) are encrypted.\n2. Key for linking personal records and personal data: ID.",
+  "name_zh_en": "NHI insured file",
+  "printed": {
+    "field_rows": 30,
+    "code_tables": {
+      "UNIT_INS_TYPE": 47
+    },
+    "code_table_headings": [
+      "UNIT_INS_TYPE",
+      "ID_TYPE"
+    ]
+  }
 }
