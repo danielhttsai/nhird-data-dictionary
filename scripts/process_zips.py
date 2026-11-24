@@ -99,11 +99,31 @@ def main():
         # Find every PDF in the extracted tree, depth-first
         pdfs = sorted(target.rglob("*.pdf"))
         print(f"  {v['code']}/{v['version_id']}: {len(pdfs)} PDFs inside")
+        # Several manuals of one survey year (Welfare04 102年 人資料 / 戶資料 / 重大傷病資料,
+        # Welfare19 111年 0-6 / 6-12 / 12-18) share a year: the wave id is then made
+        # unique with the part of the name that tells them apart. The manual that
+        # already holds the plain id keeps it, so existing links still resolve.
+        ids = {p: derive_wave_id(p.stem) for p in pdfs}
+        registered = {(x["code"], x["version_id"]): x.get("local_filename") for x in versions}
+        taken: dict[str, Path] = {}
+        for p in pdfs:
+            wid = ids[p][0]
+            rel = str(p.relative_to(ROOT)).replace("\\", "/")
+            if registered.get((v["code"], f"{v['version_id']}__{wid}")) == rel:
+                taken[wid] = p
+        for p in pdfs:
+            wid, wlabel = ids[p]
+            if sum(1 for q in pdfs if ids[q][0] == wid) > 1 and taken.get(wid) not in (None, p)                     or (sum(1 for q in pdfs if ids[q][0] == wid) > 1 and wid not in taken and p != min(
+                        (q for q in pdfs if ids[q][0] == wid), key=str)):
+                part = re.split(r"[-－─_]", p.stem)[-1].strip() or p.stem
+                if sum(1 for q in pdfs if q.stem == p.stem) > 1 or part == p.stem.strip():
+                    part = p.parent.name      # same file name in another folder (Welfare08 104/1.實施計畫)
+                ids[p] = (f"{wid}_{re.sub(r'[^0-9A-Za-z一-鿿]+', '_', part)[:30]}", f"{wlabel} · {part}")
         for p in pdfs:
             stem = p.stem
             # Skip clearly-derivative files (cover letter, ISCO codebook, etc.)
             # but still register them so the user can see they exist.
-            wave_id, wave_label = derive_wave_id(stem)
+            wave_id, wave_label = ids[p]
             # Avoid collision with parent ZIP's version_id
             sub_version_id = f"{v['version_id']}__{wave_id}"
             sha = sha256_of(p)
