@@ -88,6 +88,39 @@
       {/if}
     </section>
 
+    {#if latest.codebook?.text}
+      <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <h2 class="text-sm font-bold text-slate-900 mb-1">Coding rules <span class="text-xs font-normal text-slate-500">譯碼說明 · {latest.codebook.field_zh}</span></h2>
+        {#if latest.codebook.text_en}<p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{latest.codebook.text_en}</p>{/if}
+        <p class="whitespace-pre-line leading-relaxed {latest.codebook.text_en ? 'text-xs text-slate-500 mt-2' : 'text-sm text-slate-700'}">{latest.codebook.text}</p>
+      </section>
+    {/if}
+
+    {#if latest.codebook?.grid?.rows?.length}
+      <!-- a code table that is a grid (a column per period, several lists side by side):
+           shown cell by cell as the manual prints it -->
+      <section>
+        <h2 class="text-sm font-bold text-slate-900 mb-1 flex items-center gap-2 flex-wrap">
+          Code table as printed <span class="text-xs font-normal text-slate-500">手冊原表 · {latest.codebook.field_zh}</span>
+          <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">{latest.codebook.grid.rows.length} rows</span>
+        </h2>
+        <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <div class="overflow-x-auto max-h-96 overflow-y-auto">
+            <table class="tbl w-full text-left text-xs">
+              {#if latest.codebook.grid.header?.length}
+                <thead><tr>{#each latest.codebook.grid.header as h}<th>{h}</th>{/each}</tr></thead>
+              {/if}
+              <tbody>
+                {#each latest.codebook.grid.rows as r}
+                  <tr>{#each r as c}<td class="text-slate-700 whitespace-pre-line">{c}</td>{/each}</tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    {/if}
+
     {#if latest.codebook && latest.codebook.entries?.length}
       <section>
         <h2 class="text-sm font-bold text-slate-900 mb-1 flex items-center gap-2 flex-wrap">
@@ -134,12 +167,22 @@
             <table class="tbl w-full text-left">
               <thead><tr><th class="w-24">Code</th><th>English <span class="font-normal text-slate-400">名稱</span></th></tr></thead>
               <tbody>
-                {#each latest.codebook.entries as e}
+                {#each latest.codebook.entries as e, i}
+                  {#if e.section && e.section !== latest.codebook.entries[i - 1]?.section}
+                    <tr><td colspan="2" class="bg-slate-50 text-xs font-semibold text-slate-600">{e.section}</td></tr>
+                  {/if}
                   <tr>
                     <td class="mono font-semibold text-brand-700">{e.code}</td>
                     <td>
                       <div class="text-slate-800">{e.label_en || e.label_zh}</div>
                       {#if e.label_en && e.label_zh}<div class="text-xs text-slate-500">{e.label_zh}</div>{/if}
+                      {#if e.icd || e.validity}
+                        <div class="text-[11px] text-slate-500 mt-0.5">
+                          {#if e.icd}<span class="mono">ICD-10-CM {e.icd}</span>{/if}
+                          {#if e.icd && e.validity} · {/if}
+                          {#if e.validity}Certificate valid 證明有效期限: {e.validity}{/if}
+                        </div>
+                      {/if}
                     </td>
                   </tr>
                 {/each}

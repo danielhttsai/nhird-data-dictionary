@@ -34,8 +34,14 @@
   });
   const table = $derived(tables.length ? (tables.find(t => t.code_short === tableId) || tables[0]) : null);
   // header facts of the table shown (or of the file)
-  const info = $derived(table || meta);
+  // (a file listed under a shared header, Health55, has no description of its own:
+  // the manual's header facts stand in for what the table does not state)
+  const info = $derived(table
+    ? { ...meta, ...Object.fromEntries(Object.entries(table).filter(([, v]) => v !== '' && v != null)) }
+    : meta);
   const fkey = (f) => (f.table && f.name_en ? `${f.table}.${f.name_en}` : f.name_en);
+  // a code table of one table's field, or one the manual's files share (Health55)
+  const cbOf = (f) => codebooks?.[fkey(f)] || (f.table ? codebooks?.[f.name_en] : null);
   function pickTable(code) {
     tableId = code;
     const u = new URL(window.location.href);
@@ -425,10 +431,10 @@
                     {/if}
                   </td>
                   <td class="text-xs text-slate-600 max-w-xs whitespace-pre-line">
-                    {#if codebooks?.[fkey(f)]}
+                    {#if cbOf(f)}
                       <a href="{base}/file/{file.code}/field/{encodeURIComponent(fkey(f))}/?v={selectedId}"
                          class="inline-block text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5 hover:underline">
-                        {codebooks[fkey(f)].entries?.length || 0} codes
+                        {cbOf(f).entries?.length ? `${cbOf(f).entries.length} codes` : cbOf(f).grid ? `table, ${cbOf(f).grid.rows.length} rows` : 'coding rules'}
                       </a>
                     {/if}
                     {#if f.value_labels}
