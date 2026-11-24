@@ -6,9 +6,12 @@
   // Fields that hold NHI drug codes (or their ATC code) link to the drug code lookup.
   const DRUG_FIELDS = { Health04: ['DRUG_NO', 'ORDER_CODE'], Health05: ['ORDER_CODE'], Health06: ['DRUG_NO', 'ORDER_CODE'], Health17: ['DRUG_NO', 'DRUG_ATC7_CODE'], Health37: ['ORDER_CODE'] };
   const isDrugField = (DRUG_FIELDS[code] || []).includes(fieldName);
+  // A field of a multi-table manual is addressed <table>.<column>; show the column.
+  const colName = $derived(latest?.field?.name_en || fieldName);
+  const tbl = $derived(latest?.table || null);
 </script>
 
-<svelte:head><title>{fieldName} — {code} — NHIRD data dictionary</title></svelte:head>
+<svelte:head><title>{colName} — {code} — NHIRD data dictionary</title></svelte:head>
 
 <div class="space-y-6">
   <nav class="text-sm flex items-center gap-1 flex-wrap">
@@ -16,12 +19,16 @@
     <span class="text-slate-400">/</span>
     <a href="{base}/file/{code}/" class="text-brand-700 hover:underline">{code}</a>
     <span class="text-slate-400">/</span>
-    <span class="text-slate-700 mono">{fieldName}</span>
+    {#if tbl}
+      <a href="{base}/file/{code}/?t={tbl.code_short}" class="text-brand-700 hover:underline mono">{tbl.code_short}</a>
+      <span class="text-slate-400">/</span>
+    {/if}
+    <span class="text-slate-700 mono">{colName}</span>
   </nav>
 
   <header>
     <div class="flex items-baseline gap-3 flex-wrap">
-      <span class="mono text-2xl font-extrabold text-brand-700">{fieldName}</span>
+      <span class="mono text-2xl font-extrabold text-brand-700">{colName}</span>
       {#if latest}<span class="text-slate-700 font-semibold">— {latest.field.name_zh_en || latest.field.name_zh}</span>{/if}
     </div>
     {#if latest?.field.name_zh_en && latest?.field.name_zh}
@@ -29,6 +36,10 @@
     {/if}
     <p class="text-sm text-slate-600 mt-1">
       in <a class="text-brand-700 hover:underline font-semibold" href="{base}/file/{code}/">{code}</a> {fileNameZh}
+      {#if tbl}
+        · table <a class="mono text-brand-700 hover:underline font-semibold" href="{base}/file/{code}/?t={tbl.code_short}">{tbl.code_short}</a>
+        {tbl.name_zh_en || ''} <span class="text-slate-500">{tbl.name_zh || ''}</span>
+      {/if}
     </p>
   </header>
 

@@ -23,6 +23,26 @@
   const selected = $derived(file.versions.find(v => v.version_id === selectedId));
   const meta = $derived(selected?.meta || null);
 
+  // A manual that documents several tables (Welfare20: ten, each with its own
+  // header block, fields and code tables) lists them in meta.tables; each field
+  // carries its table's code. The page shows one table at a time (?t=<code>).
+  const tables = $derived(meta?.tables || []);
+  let tableId = $state('');
+  $effect(() => {
+    const t = page.url.searchParams.get('t');
+    if (t) tableId = t;
+  });
+  const table = $derived(tables.length ? (tables.find(t => t.code_short === tableId) || tables[0]) : null);
+  // header facts of the table shown (or of the file)
+  const info = $derived(table || meta);
+  const fkey = (f) => (f.table && f.name_en ? `${f.table}.${f.name_en}` : f.name_en);
+  function pickTable(code) {
+    tableId = code;
+    const u = new URL(window.location.href);
+    u.searchParams.set('t', code);
+    history.replaceState(history.state, '', u);
+  }
+
   // Lazy-load each version's field table on demand (keeps the initial page light).
   let fieldsCache = $state({});
   let loadingFields = $state(false);
@@ -37,7 +57,8 @@
       .finally(() => { loadingFields = false; });
   });
   const fieldData = $derived(selected ? fieldsCache[selected.version_id] : null);
-  const fields = $derived(fieldData?.fields || []);
+  const allFields = $derived(fieldData?.fields || []);
+  const fields = $derived(table ? allFields.filter(f => f.table === table.code_short) : allFields);
   const codebooks = $derived(fieldData?.codebooks || {});
 
   let q = $state('');
@@ -123,7 +144,7 @@
     <div class="flex items-center gap-3 flex-wrap">
       <span class="mono text-2xl font-extrabold text-brand-700">{file.code}</span>
       <span class="pill pill-{file.category}">{file.category}</span>
-      {#if meta?.code_short}<span class="mono text-xs text-slate-500">{meta.code_short}</span>{/if}
+      {#if info?.code_short}<span class="mono text-xs text-slate-500">{info.code_short}</span>{/if}
     </div>
     <h1 class="text-3xl font-extrabold text-slate-900 leading-tight">{file.name_en || file.name_zh}</h1>
     {#if file.name_en && file.name_zh}<p class="text-slate-500 text-sm">{file.name_zh}</p>{/if}
@@ -179,6 +200,32 @@
     {/if}
   </section>
 
+  {#if tables.length > 1}
+    <!-- One manual, several tables -->
+    <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+      <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-2">
+        Tables <span class="normal-case font-normal text-slate-400">資料表 · this manual documents {tables.length} tables</span>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+        {#each tables as t}
+          {@const n = fieldData ? allFields.filter(f => f.table === t.code_short).length : t.fields_parsed}
+          <button onclick={() => pickTable(t.code_short)}
+            class="text-left rounded-xl border px-3 py-2 transition
+              {t.code_short === table?.code_short
+                ? 'border-brand-500 bg-brand-50'
+                : 'border-slate-200 hover:border-brand-400 hover:bg-brand-50/40'}">
+            <div class="mono text-xs font-semibold text-brand-700 break-all">{t.code_short}</div>
+            <div class="text-sm font-semibold text-slate-800 leading-snug">{t.name_zh_en || t.name_zh}</div>
+            {#if t.name_zh_en}<div class="text-xs text-slate-500">{t.name_zh}</div>{/if}
+            <div class="text-[11px] text-slate-500 mt-0.5">
+              {n ?? ''} fields{#if t.field_count_declared != null && n != null && t.field_count_declared !== n}<span class="text-amber-700"> · header says {t.field_count_declared}</span>{/if}
+            </div>
+          </button>
+        {/each}
+      </div>
+    </section>
+  {/if}
+
   <!-- Version changes live on their own interactive page (kept out of the way here). -->
   {#if selectable.length > 1}
     <a href="{base}/file/{file.code}/diff/"
@@ -205,22 +252,31 @@
     <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Fields</div>
-        <div class="text-xl font-extrabold text-brand-700">{meta.field_count_declared ?? selected.field_count ?? '—'}</div>
-        {#if meta.field_count_declared && selected.field_count && meta.field_count_declared !== selected.field_count}
-          <div class="text-[10px] text-amber-700">parsed {selected.field_count}</div>
+        {#if table}
+          {@const shown = fieldData ? fields.length : table.fields_parsed}
+          <div class="text-xl font-extrabold text-brand-700">{table.field_count_declared ?? shown ?? '—'}</div>
+          {#if table.field_count_declared != null && shown != null && table.field_count_declared !== shown}
+            <div class="text-[10px] text-amber-700">the field table lists {shown}</div>
+          {/if}
+        {:else}
+          <div class="text-xl font-extrabold text-brand-700">{meta.field_count_declared ?? selected.field_count ?? '—'}</div>
+          {#if meta.field_count_declared && selected.field_count && meta.field_count_declared !== selected.field_count}
+            <div class="text-[10px] text-amber-700">parsed {selected.field_count}</div>
+          {/if}
         {/if}
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Frequency</div>
-        <div class="text-base font-bold text-slate-900">{meta.frequency || '—'}</div>
+        <div class="text-base font-bold text-slate-900">{info.frequency || '—'}</div>
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Attribute</div>
-        <div class="text-base font-bold text-slate-900">{meta.attribute || '—'}</div>
+        <div class="text-base font-bold text-slate-900">{info.attribute || '—'}</div>
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3 col-span-2">
         <div class="text-xs uppercase tracking-wide text-slate-500">Records</div>
-        <div class="text-sm text-slate-800">{meta.record_count_raw || '—'}</div>
+        <div class="text-sm text-slate-800">{info.record_count_raw || '—'}</div>
+        {#if info.file_size_raw}<div class="text-[11px] text-slate-500 mt-0.5">File size {info.file_size_raw}</div>{/if}
       </div>
       <div class="rounded-xl border border-slate-200 bg-white p-3">
         <div class="text-xs uppercase tracking-wide text-slate-500">Last updated</div>
@@ -230,38 +286,51 @@
 
     <!-- Descriptive blocks (bilingual where translation available) -->
     <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm space-y-4">
-      {#if meta.data_description_zh}
+      {#if table}
+        <div>
+          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Table</div>
+          <p class="text-sm text-slate-800"><span class="mono font-semibold">{table.code_short}</span>
+            · {table.name_zh_en || table.name_zh}{#if table.name_zh_en} <span class="text-slate-500">{table.name_zh}</span>{/if}
+            {#if table.page_start}<span class="text-xs text-slate-400"> · page {table.page_start} of the manual</span>{/if}</p>
+        </div>
+        {#if table.note || table.note_zh}
+          <p class="text-xs text-amber-800 bg-amber-50/70 border border-amber-100 rounded-lg px-3 py-2 leading-relaxed">
+            ⓘ {table.note}{#if table.note_zh}<span class="block text-amber-700/80 mt-1">{table.note_zh}</span>{/if}
+          </p>
+        {/if}
+      {/if}
+      {#if info.data_description_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Data description</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.data_description_en || meta.data_description_zh}</p>
-          {#if meta.data_description_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.data_description_zh}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{info.data_description_en || info.data_description_zh}</p>
+          {#if info.data_description_en}
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{info.data_description_zh}</p>
           {/if}
         </div>
       {/if}
-      {#if meta.notes_zh}
+      {#if info.notes_zh}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Notes</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.notes_en || meta.notes_zh}</p>
-          {#if meta.notes_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.notes_zh}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{info.notes_en || info.notes_zh}</p>
+          {#if info.notes_en}
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{info.notes_zh}</p>
           {/if}
         </div>
       {/if}
-      {#if meta.primary_keys_raw}
+      {#if info.primary_keys_raw}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Primary keys / linkage</div>
-          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{meta.primary_keys_en || meta.primary_keys_raw}</p>
-          {#if meta.primary_keys_en}
-            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{meta.primary_keys_raw}</p>
+          <p class="text-sm whitespace-pre-line leading-relaxed text-slate-700">{info.primary_keys_en || info.primary_keys_raw}</p>
+          {#if info.primary_keys_en}
+            <p class="text-xs whitespace-pre-line leading-relaxed text-slate-500 mt-1">{info.primary_keys_raw}</p>
           {/if}
         </div>
       {/if}
-      {#if meta.update_history?.length}
+      {#if info.update_history?.length}
         <div>
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Codebook history</div>
           <ul class="flex flex-wrap gap-x-3 gap-y-1 text-xs mono text-slate-600">
-            {#each meta.update_history as h}<li>{h.date} {histNote(h.note)}</li>{/each}
+            {#each info.update_history as h}<li>{h.date} {histNote(h.note)}</li>{/each}
           </ul>
         </div>
       {/if}
@@ -327,7 +396,7 @@
                   </td>
                   <td class="mono group">
                     {#if f.name_en}
-                      <a href="{base}/file/{file.code}/field/{encodeURIComponent(f.name_en)}/?v={selectedId}"
+                      <a href="{base}/file/{file.code}/field/{encodeURIComponent(fkey(f))}/?v={selectedId}"
                          class="text-brand-700 hover:underline font-semibold">{f.name_en}</a>
                       <button onclick={() => copyText(f.name_en)}
                               class="ml-1 opacity-0 group-hover:opacity-60 hover:opacity-100 text-xs"
@@ -356,10 +425,11 @@
                     {/if}
                   </td>
                   <td class="text-xs text-slate-600 max-w-xs whitespace-pre-line">
-                    {#if codebooks?.[f.name_en]}
-                      <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5">
-                        {codebooks[f.name_en].entries?.length || 0} codes
-                      </span>
+                    {#if codebooks?.[fkey(f)]}
+                      <a href="{base}/file/{file.code}/field/{encodeURIComponent(fkey(f))}/?v={selectedId}"
+                         class="inline-block text-[11px] font-semibold text-brand-700 bg-brand-50 rounded-full px-2 py-0.5 hover:underline">
+                        {codebooks[fkey(f)].entries?.length || 0} codes
+                      </a>
                     {/if}
                     {#if f.value_labels}
                       <div class="leading-snug">{f.value_labels}</div>

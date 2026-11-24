@@ -24,13 +24,17 @@ export const load = async ({ fetch, params, url }) => {
     const fr = await fetch(`${base}/data/fields/${target.fields_file}`);
     if (fr.ok) {
       const fd = await fr.json();
-      const f = (fd.fields || []).find((x) => x.name_en === params.name);
+      // In a manual that documents several tables (Welfare20) a field is
+      // addressed as <table code>.<column>, since OBJID, STATUS … recur.
+      const key = (x) => (x.table ? `${x.table}.${x.name_en}` : x.name_en);
+      const f = (fd.fields || []).find((x) => key(x) === params.name);
       if (f) {
         occurrences.push({
           version_id: target.version_id,
           version_label: target.version_label,
           doc_last_updated: target.doc_last_updated,
           field: f,
+          table: f.table ? (target.meta?.tables || []).find((t) => t.code_short === f.table) || { code_short: f.table } : null,
           codebook: fd.codebooks?.[params.name] || null
         });
       }

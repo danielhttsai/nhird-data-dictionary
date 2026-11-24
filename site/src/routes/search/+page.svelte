@@ -16,7 +16,7 @@
     const docs = raw.map((f, i) => ({ id: i, ...f }));
     mini = new MiniSearch({
       fields: ['zh', 'ze', 'en', 'd', 'c'],
-      storeFields: ['c', 'v', 's', 'zh', 'ze', 'en', 'd'],
+      storeFields: ['c', 'v', 's', 'zh', 'ze', 'en', 'd', 't'],
       searchOptions: { boost: { en: 3, zh: 2, ze: 2 }, prefix: true, fuzzy: 0.1 }
     });
     mini.addAll(docs);
@@ -68,8 +68,9 @@
                 </td>
                 <td class="mono">
                   {#if r.en}
-                    <a href="{base}/file/{r.c}/field/{encodeURIComponent(r.en)}/?v={r.v}"
+                    <a href="{base}/file/{r.c}/field/{encodeURIComponent(r.t ? `${r.t}.${r.en}` : r.en)}/?v={r.v}"
                        class="text-brand-700 hover:underline font-semibold">{r.en}</a>
+                    {#if r.t}<div class="text-[10px] text-slate-400">{r.t}</div>{/if}
                   {:else}<span class="text-slate-300">—</span>{/if}
                 </td>
                 <td class="text-xs text-slate-700 max-w-md">{r.d}</td>

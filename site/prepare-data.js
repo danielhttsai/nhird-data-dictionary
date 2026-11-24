@@ -98,7 +98,9 @@ const CANON_EN = {
   Health61: 'Notifiable Disease Dataset of Confirmed Cases',
   Health79: 'National Immunization Information System (NIIS)',
   Health73: 'Tuberculosis (TB) Database',
-  Welfare20: 'Disabled Beneficiary Case Management — Case Manager Record',
+  // 長照服務資料檔: one manual for ten tables (case master file, assessment/plan,
+  // referrals, assistive devices …); each table's own name is shown on the file page.
+  Welfare20: 'Long-term Care Services Data',
   Health82: 'Colorectal Cancer Health Database',
   Health83: 'Breast Cancer Health Database',
   Health99: 'Adult Preventive Health Service Database',
@@ -250,7 +252,10 @@ for (const [code, versions] of byCode) {
     category,
     name_zh: dbTitle,
     name_en: englishName,
-    code_short: primaryExtracted?.code_short || '',
+    // a manual that documents several tables has one code per table
+    code_short: (primaryExtracted?.tables?.length > 1)
+      ? `${primaryExtracted.tables.length} tables`
+      : (primaryExtracted?.code_short || ''),
     frequency: primaryExtracted?.frequency || '',
     field_count: primaryExtracted?.field_count_declared ?? primaryExtracted?.fields?.length ?? null,
     versions: sorted.map(v => ({
@@ -325,6 +330,8 @@ for (const [code, versions] of byCode) {
         zh: (f.name_zh || '').slice(0, 70),
         ze: (f.name_zh_en || '').slice(0, 70),
         en: f.name_en || '',
+        // table code, for a manual that documents several tables (Welfare20)
+        ...(f.table ? { t: f.table } : {}),
         // Survey (xls) fields already carry their question text in name_zh,
         // so skip the description there to keep the global index lean.
         d: v.file_type === 'xls' ? '' : (f.description_zh || '').slice(0, 70)

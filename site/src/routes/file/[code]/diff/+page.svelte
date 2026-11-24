@@ -42,6 +42,9 @@
     return f;
   }
 
+  // <table>.<column> in a manual that documents several tables (Welfare20)
+  const fkey = (f) => (f.table && f.name_en ? `${f.table}.${f.name_en}` : f.name_en);
+
   let result = $state(null);
   let loading = $state(false);
   let token = 0;
@@ -51,8 +54,8 @@
     loading = true;
     const [af, bf] = await Promise.all([loadFields(a), loadFields(b)]);
     if (t !== token) return;
-    const am = new Map(af.map((f) => [f.name_en, f]));
-    const bm = new Map(bf.map((f) => [f.name_en, f]));
+    const am = new Map(af.map((f) => [fkey(f), f]));
+    const bm = new Map(bf.map((f) => [fkey(f), f]));
     const added = [], removed = [], changed = [];
     for (const [k, f] of bm) if (k && !am.has(k)) added.push(f);
     for (const [k, f] of am) if (k && !bm.has(k)) removed.push(f);
@@ -153,7 +156,7 @@
           <ul class="divide-y divide-slate-100">
             {#each A as f}
               <li class="py-2">
-                <a href="{base}/file/{file.code}/field/{f.name_en}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{f.name_en}</a>
+                <a href="{base}/file/{file.code}/field/{encodeURIComponent(fkey(f))}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{fkey(f)}</a>
                 <div class="text-xs text-slate-500">{f.name_zh_en || f.name_zh}</div>
                 {#if f.name_zh_en && f.name_zh}<div class="text-[11px] text-slate-400">{f.name_zh}</div>{/if}
               </li>
@@ -170,7 +173,7 @@
           <ul class="divide-y divide-slate-100">
             {#each C as m}
               <li class="py-2">
-                <a href="{base}/file/{file.code}/field/{m.key}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{m.key}</a>
+                <a href="{base}/file/{file.code}/field/{encodeURIComponent(m.key)}/?v={toId}" class="mono text-sm text-slate-800 hover:text-brand-700 hover:underline">{m.key}</a>
                 {#each Object.entries(m.changes) as [attr, ch]}
                   <div class="mt-1">
                     <div class="text-[11px] uppercase tracking-wide text-slate-400 font-semibold">{ATTR[attr] || attr}</div>
@@ -192,7 +195,7 @@
           <ul class="divide-y divide-slate-100">
             {#each R as f}
               <li class="py-2">
-                <span class="mono text-sm text-slate-500 line-through decoration-slate-300">{f.name_en}</span>
+                <span class="mono text-sm text-slate-500 line-through decoration-slate-300">{fkey(f)}</span>
                 <div class="text-xs text-slate-400">{f.name_zh_en || f.name_zh}</div>
               </li>
             {/each}
