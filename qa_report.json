@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-30T12:09:27Z",
-  "pdf_files_this_run": 8,
+  "generated_at": "2026-11-24T03:46:55Z",
+  "pdf_files_this_run": 2,
   "zip_files": 0,
-  "ok": 8,
+  "ok": 2,
   "failed": 0,
   "skipped_existing": 0,
   "entries": [
@@ -84,6 +84,30 @@
       "fields_parsed": 18,
       "codebooks_parsed": 7,
       "warnings": [],
+      "errors": []
+    },
+    {
+      "code": "Welfare20",
+      "version_id": "legacy",
+      "type": "warn",
+      "field_count_declared": 115,
+      "fields_parsed": 114,
+      "codebooks_parsed": 3,
+      "warnings": [
+        "W_LTC_CMS_CA100: field count mismatch: header=21, parsed=20"
+      ],
+      "errors": []
+    },
+    {
+      "code": "Welfare20",
+      "version_id": "post-20250624",
+      "type": "warn",
+      "field_count_declared": 115,
+      "fields_parsed": 114,
+      "codebooks_parsed": 3,
+      "warnings": [
+        "W_LTC_CMS_CA100: field count mismatch: header=21, parsed=20"
+      ],
       "errors": []
     }
   ]
