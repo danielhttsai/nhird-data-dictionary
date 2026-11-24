@@ -79,12 +79,16 @@ def main():
         cbs = d.get("codebooks", {})
         n = 0
         for f in d.get("fields", []):
-            nz = f.get("name_zh", "")
+            # the field's own name, not a mention: 原發部位 is also in the names of the
+            # surgery and radiotherapy fields (OPTYPE_O, RT, RTTYPE), which take other codes
+            nz = re.sub(r"\s+", "", f.get("name_zh", ""))
             key = f.get("name_en") or f.get("seq")
-            if "原發部位" in nz and "手術" not in nz and "未" not in nz:
+            if nz == "原發部位":
                 cbs[key] = dict(icdo["topography"]); n += 1
-            elif ("組織型態" in nz) or ("病理形態" in nz) or (nz.strip() == "形態"):
+            elif nz in ("組織型態", "組織類型", "組織類型與性態碼", "病理形態", "形態"):
                 cbs[key] = dict(icdo["morphology"]); n += 1
+            elif "ICD-O" in str((cbs.get(key) or {}).get("source", "")):
+                del cbs[key]; n += 1                # attached by the earlier substring rule
         if n:
             d["codebooks"] = cbs
             p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")

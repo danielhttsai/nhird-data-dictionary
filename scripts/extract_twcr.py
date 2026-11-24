@@ -26,7 +26,7 @@ EXTRACTED = ROOT / "extracted"
 MANIFEST = ROOT / "manifest.json"
 
 SEQ_RE = re.compile(r"^\d+(?:\.\d+)*\.?$")
-TYPE_MAP = {"文字": "Char", "數值": "Number", "日期": "Date"}
+TYPE_MAP = {"文字": "Char", "數值": "Number", "數字": "Number", "日期": "Date"}
 
 # (pdf filename, code, version_id, version_label, name_zh, name_en, source_url)
 MANUALS = [
@@ -77,7 +77,9 @@ def extract_fields(pdf_path: Path) -> list[dict]:
                     name_zh = non_empty[1] if len(non_empty) > 1 else ""
                     name_en = non_empty[2] if len(non_empty) > 2 else ""
                     length = non_empty[3] if len(non_empty) > 3 else ""
-                    typ = non_empty[4] if len(non_empty) > 4 else ""
+                    # the 107 manuals add 欄位 起 / 訖 (record positions) before 資料型態
+                    pos = non_empty[4:6] if len(non_empty) > 6 else []
+                    typ = non_empty[-1] if len(non_empty) > 4 else ""
                     fields.append({
                         "seq": seq,
                         "name_zh": name_zh,
@@ -85,10 +87,36 @@ def extract_fields(pdf_path: Path) -> list[dict]:
                         "name_zh_en": name_en,   # already English — mark as translated
                         "type": TYPE_MAP.get(typ, typ),
                         "length": int(length) if length.isdigit() else length,
-                        "description_zh": "",
+                        "description_zh": f"欄位位置：{pos[0]}–{pos[1]}" if pos else "",
+                        "description_en": f"Record position {pos[0]}–{pos[1]}" if pos else "",
                         "available_notes": [],
                     })
     return fields
+
+
+def fix_shipped():
+    """The shipped JSON (extracted/Health14|15/twcr_manual_*.json) carries
+    curation (ICD-O, SSF, AJCC references); bring only the field-table values
+    read here into it: type, and the record positions of the 107 manuals."""
+    ship = {"TWCR_114_longform_129.pdf": "Health14/twcr_manual_LF129_2025",
+            "TWCR_107_longform_115.pdf": "Health14/twcr_manual_LF115_2018",
+            "TWCR_114_shortform_50.pdf": "Health15/twcr_manual_SF50_2025",
+            "TWCR_107_shortform_45.pdf": "Health15/twcr_manual_SF45_2018"}
+    for pdf_name, rel in ship.items():
+        p = ROOT / "extracted" / f"{rel}.json"
+        d = json.loads(p.read_text(encoding="utf-8"))
+        new = {f["seq"]: f for f in extract_fields(ROOT / "raw_pdfs_twcr" / pdf_name)}
+        n = 0
+        for f in d["fields"]:
+            g = new.get(str(f.get("seq")))
+            if not g:
+                continue
+            for k in ("type", "length", "description_zh", "description_en"):
+                if g.get(k) not in (None, "") and f.get(k) != g[k]:
+                    f[k] = g[k]
+                    n += 1
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  {rel}: {n} values corrected")
 
 
 def main():
@@ -141,4 +169,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    fix_shipped() if "--fix-shipped" in sys.argv else main()

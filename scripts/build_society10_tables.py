@@ -43,11 +43,28 @@ def mk(field_zh, rows):
     return {'field_zh': field_zh, 'source': SRC, 'source_url': None,
             'entries': [{'code': c, 'label_zh': z, 'label_en': e} for c, z, e in rows]}
 
+# The appendix's other code tables, read from the PDF by parse_society10_appendix.py.
+# English comes from translations/cache.json (the labels are short names).
+from pathlib import Path as _P
+import hashlib as _h
+_APP = json.load(open(_P(__file__).with_name('data') / 'society10_102_appendix.json', encoding='utf-8'))
+_CACHE = json.load(open('translations/cache.json', encoding='utf-8'))
+def _en(z): return _CACHE.get(_h.sha1(z.encode('utf-8')).hexdigest()[:16], '')
+def mk2(name):
+    return {'field_zh': name, 'source': SRC, 'source_url': None,
+            'entries': [{**e, 'label_en': _en(e['label_zh'])} for e in _APP[name]]}
+
 TABLES = [  # (marker in description, codebook builder)
     ('受傷部位代碼', mk('受傷部位代碼', BODY)),
     ('受傷種類代碼', mk('受傷種類代碼', NATURE)),
     ('酒名種類代碼', mk('酒名種類代碼', ALCOHOL)),
+    ('鄉鎮市區代碼', mk2('鄉鎮市區代碼')),
+    ('教育程度代碼', mk2('教育程度代碼')),
+    ('縣市代碼', mk2('縣市代碼')),
+    ('運動種類代碼', mk2('運動種類代碼')),
 ]
+# tables printed in the 102年 manual only: attach them to that survey year
+ONLY_102 = {'鄉鎮市區代碼', '教育程度代碼', '縣市代碼', '運動種類代碼'}
 VAR = re.compile(r'^[A-Za-z][A-Za-z0-9_]+$')   # real variable name, not 'Char' artifact
 
 attached = 0
@@ -61,6 +78,8 @@ for f in glob.glob('extracted/Society10/*.json'):
         if ne == 'Char' or not VAR.match(ne) or ne in cbs:
             continue
         for marker, cb in TABLES:
+            if marker in ONLY_102 and 'ROC102' not in f:
+                continue
             if marker in dz:
                 cbs[ne] = json.loads(json.dumps(cb))   # own copy per field
                 attached += 1; changed = True

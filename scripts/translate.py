@@ -194,6 +194,8 @@ def stamp_translations(cache: dict[str, str], only_files: list[str] | None = Non
             f["name_zh_en"] = t(f.get("name_zh", ""))
             f["description_en"] = t(f.get("description_zh", ""))
         for cb_name, cb in (d.get("codebooks") or {}).items():
+            if isinstance(cb, dict) and cb.get("source"):
+                continue        # built from another source (ICD-O, rare diseases …): its builder sets the English
             if isinstance(cb, dict):
                 cb["field_en"] = t(cb.get("field_zh", ""))
                 for e in cb.get("entries", []):

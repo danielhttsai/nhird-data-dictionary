@@ -73,13 +73,11 @@ for it in ITEMS:
     icd = (it.get('icd') or '').strip()
     en = (it.get('item_en') or '').strip()
     val = (it.get('validity') or '').strip()
-    label_en = en
-    if val:
-        label_en = (en + ' · ' if en else '') + f'證明有效期限 {val}'
     dc_entries.append({
         'code': icd or '—',
         'label_zh': (it.get('item_zh') or '').strip(),
-        'label_en': label_en,
+        'label_en': en,                      # the official English name
+        'validity': val,                     # 證明有效期限
         'section': short_cat(it['cat_no']),
     })
 dc_codebook = {

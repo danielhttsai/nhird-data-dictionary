@@ -20,7 +20,9 @@ def row_cells(tr):
             out.extend([txt] * rep)
     return out
 rows = []
-for tbl in root.iter(TBL + 'table'):
+# The list is the first table; the second is an alphabetical index of the same
+# 248 diseases (English, Chinese, ICD) and would add each one again.
+for tbl in list(root.iter(TBL + 'table'))[:1]:
     for tr in tbl.iter(TBL + 'table-row'):
         cells = row_cells(tr)
         if any(cells):
@@ -40,6 +42,9 @@ for r in rows:
         continue
     # top-level category "A.先天性代謝異常" (single meaningful cell, letter+dot)
     if len(nonempty) == 1 and re.match(r'^[A-Z]\.', nonempty[0]):
+        # a new category: its sub-groups follow (B to N have none marked ◎)
+        group = nonempty[0].strip()
+        group_prefix = ''
         continue
     # sub-group header "◎A1 尿素循環代謝異常..."
     if nonempty[0].startswith('◎'):
@@ -67,10 +72,9 @@ for r in rows:
     if not zh:
         continue
     code = f'{group_prefix}-{seq}' if (group_prefix and seq) else (group_prefix or icd or str(len(entries) + 1))
-    label_en = en
-    if icd:
-        label_en = (en + ' · ' if en else '') + f'ICD-10-CM: {icd}'
-    entries.append({'code': code, 'label_zh': zh, 'label_en': label_en, 'section': group})
+    # the official English name and the ICD-10-CM code are kept in keys of their
+    # own (translate.py leaves codebooks built from other sources alone)
+    entries.append({'code': code, 'label_zh': zh, 'label_en': en, 'icd': icd, 'section': group})
 
 print('rare-disease entries:', len(entries))
 print('sample:', entries[0], '...', entries[-1])

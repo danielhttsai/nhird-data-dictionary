@@ -1,0 +1,2170 @@
+{
+ "source": "資料庫使用手冊Society10-102年國民健康訪問調查檔.pdf",
+ "縣市代碼": [
+  {
+   "code": "01",
+   "label_zh": "台北市"
+  },
+  {
+   "code": "02",
+   "label_zh": "基隆市"
+  },
+  {
+   "code": "03",
+   "label_zh": "台中市"
+  },
+  {
+   "code": "04",
+   "label_zh": "台南市"
+  },
+  {
+   "code": "05",
+   "label_zh": "高雄市"
+  },
+  {
+   "code": "06",
+   "label_zh": "新竹市"
+  },
+  {
+   "code": "07",
+   "label_zh": "嘉義市"
+  },
+  {
+   "code": "21",
+   "label_zh": "宜蘭縣"
+  },
+  {
+   "code": "23",
+   "label_zh": "新北市*"
+  },
+  {
+   "code": "24",
+   "label_zh": "桃園縣"
+  },
+  {
+   "code": "25",
+   "label_zh": "新竹縣"
+  },
+  {
+   "code": "26",
+   "label_zh": "苗栗縣"
+  },
+  {
+   "code": "27",
+   "label_zh": "台中市*"
+  },
+  {
+   "code": "28",
+   "label_zh": "彰化縣"
+  },
+  {
+   "code": "29",
+   "label_zh": "南投縣"
+  },
+  {
+   "code": "30",
+   "label_zh": "雲林縣"
+  },
+  {
+   "code": "31",
+   "label_zh": "嘉義縣"
+  },
+  {
+   "code": "32",
+   "label_zh": "台南市*"
+  },
+  {
+   "code": "33",
+   "label_zh": "高雄市*"
+  },
+  {
+   "code": "34",
+   "label_zh": "屏東縣"
+  },
+  {
+   "code": "35",
+   "label_zh": "台東縣"
+  },
+  {
+   "code": "36",
+   "label_zh": "花蓮縣"
+  },
+  {
+   "code": "37",
+   "label_zh": "澎湖縣"
+  },
+  {
+   "code": "41",
+   "label_zh": "金門縣"
+  },
+  {
+   "code": "42",
+   "label_zh": "連江縣"
+  }
+ ],
+ "鄉鎮市區代碼": [
+  {
+   "code": "2156",
+   "label_zh": "三星鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2634",
+   "label_zh": "竹南鎮",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2933",
+   "label_zh": "草屯鎮",
+   "section": "南投縣"
+  },
+  {
+   "code": "3256",
+   "label_zh": "官田區",
+   "section": "台南市"
+  },
+  {
+   "code": "3467",
+   "label_zh": "佳冬鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0101",
+   "label_zh": "松山區",
+   "section": "台北市"
+  },
+  {
+   "code": "2157",
+   "label_zh": "大同鄉Δ",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2636",
+   "label_zh": "後龍鎮",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2934",
+   "label_zh": "竹山鎮",
+   "section": "南投縣"
+  },
+  {
+   "code": "3257",
+   "label_zh": "大內區",
+   "section": "台南市"
+  },
+  {
+   "code": "3468",
+   "label_zh": "琉球鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0102",
+   "label_zh": "信義區",
+   "section": "台北市"
+  },
+  {
+   "code": "2158",
+   "label_zh": "南澳鄉Δ",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2637",
+   "label_zh": "卓蘭鎮",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2935",
+   "label_zh": "集集鎮",
+   "section": "南投縣"
+  },
+  {
+   "code": "3258",
+   "label_zh": "西港區",
+   "section": "台南市"
+  },
+  {
+   "code": "3469",
+   "label_zh": "車城鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0103",
+   "label_zh": "大安區",
+   "section": "台北市"
+  },
+  {
+   "code": "2651",
+   "label_zh": "大湖鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2951",
+   "label_zh": "鹿谷鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3259",
+   "label_zh": "七股區",
+   "section": "台南市"
+  },
+  {
+   "code": "3470",
+   "label_zh": "滿州鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0104",
+   "label_zh": "中山區",
+   "section": "台北市"
+  },
+  {
+   "code": "2320",
+   "label_zh": "三重區",
+   "section": "新北市"
+  },
+  {
+   "code": "2652",
+   "label_zh": "公館鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2952",
+   "label_zh": "中寮鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3260",
+   "label_zh": "將軍區",
+   "section": "台南市"
+  },
+  {
+   "code": "3471",
+   "label_zh": "枋山鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0105",
+   "label_zh": "中正區",
+   "section": "台北市"
+  },
+  {
+   "code": "2321",
+   "label_zh": "板橋區",
+   "section": "新北市"
+  },
+  {
+   "code": "2653",
+   "label_zh": "銅鑼鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2953",
+   "label_zh": "魚池鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3261",
+   "label_zh": "北門區",
+   "section": "台南市"
+  },
+  {
+   "code": "3472",
+   "label_zh": "三地門鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0106",
+   "label_zh": "大同區",
+   "section": "台北市"
+  },
+  {
+   "code": "2322",
+   "label_zh": "永和區",
+   "section": "新北市"
+  },
+  {
+   "code": "2654",
+   "label_zh": "南庄鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2954",
+   "label_zh": "國姓鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3263",
+   "label_zh": "新市區",
+   "section": "台南市"
+  },
+  {
+   "code": "3473",
+   "label_zh": "霧台鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0107",
+   "label_zh": "萬華區",
+   "section": "台北市"
+  },
+  {
+   "code": "2323",
+   "label_zh": "中和區",
+   "section": "新北市"
+  },
+  {
+   "code": "2655",
+   "label_zh": "頭屋鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2955",
+   "label_zh": "水里鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3264",
+   "label_zh": "安定區",
+   "section": "台南市"
+  },
+  {
+   "code": "3474",
+   "label_zh": "瑪家鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0108",
+   "label_zh": "文山區",
+   "section": "台北市"
+  },
+  {
+   "code": "2324",
+   "label_zh": "新莊區",
+   "section": "新北市"
+  },
+  {
+   "code": "2656",
+   "label_zh": "三義鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2956",
+   "label_zh": "信義鄉Δ",
+   "section": "南投縣"
+  },
+  {
+   "code": "3265",
+   "label_zh": "山上區",
+   "section": "台南市"
+  },
+  {
+   "code": "3475",
+   "label_zh": "泰武鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0109",
+   "label_zh": "南港區",
+   "section": "台北市"
+  },
+  {
+   "code": "2325",
+   "label_zh": "新店區",
+   "section": "新北市"
+  },
+  {
+   "code": "2657",
+   "label_zh": "西湖鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2957",
+   "label_zh": "仁愛鄉Δ",
+   "section": "南投縣"
+  },
+  {
+   "code": "3266",
+   "label_zh": "玉井區",
+   "section": "台南市"
+  },
+  {
+   "code": "3476",
+   "label_zh": "來義鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0110",
+   "label_zh": "內湖區",
+   "section": "台北市"
+  },
+  {
+   "code": "2326",
+   "label_zh": "土城區",
+   "section": "新北市"
+  },
+  {
+   "code": "2658",
+   "label_zh": "造橋鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2958",
+   "label_zh": "名間鄉",
+   "section": "南投縣"
+  },
+  {
+   "code": "3267",
+   "label_zh": "楠西區",
+   "section": "台南市"
+  },
+  {
+   "code": "3477",
+   "label_zh": "春日鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0111",
+   "label_zh": "士林區",
+   "section": "台北市"
+  },
+  {
+   "code": "2327",
+   "label_zh": "蘆洲區",
+   "section": "新北市"
+  },
+  {
+   "code": "2659",
+   "label_zh": "三灣鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "3268",
+   "label_zh": "南化區",
+   "section": "台南市"
+  },
+  {
+   "code": "3478",
+   "label_zh": "獅子鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0112",
+   "label_zh": "北投區",
+   "section": "台北市"
+  },
+  {
+   "code": "2328",
+   "label_zh": "汐止區",
+   "section": "新北市"
+  },
+  {
+   "code": "2660",
+   "label_zh": "獅潭鄉",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "3020",
+   "label_zh": "斗六市",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3269",
+   "label_zh": "左鎮區",
+   "section": "台南市"
+  },
+  {
+   "code": "3479",
+   "label_zh": "牡丹鄉Δ",
+   "section": "屏東縣"
+  },
+  {
+   "code": "2329",
+   "label_zh": "樹林區",
+   "section": "新北市"
+  },
+  {
+   "code": "2661",
+   "label_zh": "泰安鄉Δ",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "3032",
+   "label_zh": "斗南鎮",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3270",
+   "label_zh": "仁德區",
+   "section": "台南市"
+  },
+  {
+   "code": "0201",
+   "label_zh": "中正區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2333",
+   "label_zh": "鶯歌區",
+   "section": "新北市"
+  },
+  {
+   "code": "3033",
+   "label_zh": "虎尾鎮",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3271",
+   "label_zh": "歸仁區",
+   "section": "台南市"
+  },
+  {
+   "code": "3520",
+   "label_zh": "台東市",
+   "section": "台東縣"
+  },
+  {
+   "code": "0202",
+   "label_zh": "七堵區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2334",
+   "label_zh": "三峽區",
+   "section": "新北市"
+  },
+  {
+   "code": "2720",
+   "label_zh": "豐原區",
+   "section": "台中市"
+  },
+  {
+   "code": "3034",
+   "label_zh": "西螺鎮",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3272",
+   "label_zh": "關廟區",
+   "section": "台南市"
+  },
+  {
+   "code": "3532",
+   "label_zh": "成功鎮",
+   "section": "台東縣"
+  },
+  {
+   "code": "0203",
+   "label_zh": "暖暖區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2339",
+   "label_zh": "淡水區",
+   "section": "新北市"
+  },
+  {
+   "code": "2721",
+   "label_zh": "大里區",
+   "section": "台中市"
+  },
+  {
+   "code": "3035",
+   "label_zh": "土庫鎮",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3273",
+   "label_zh": "龍崎區",
+   "section": "台南市"
+  },
+  {
+   "code": "3533",
+   "label_zh": "關山鎮",
+   "section": "台東縣"
+  },
+  {
+   "code": "0204",
+   "label_zh": "仁愛區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2342",
+   "label_zh": "瑞芳區",
+   "section": "新北市"
+  },
+  {
+   "code": "2722",
+   "label_zh": "太平區",
+   "section": "台中市"
+  },
+  {
+   "code": "3036",
+   "label_zh": "北港鎮",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3551",
+   "label_zh": "卑南鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0205",
+   "label_zh": "中山區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2354",
+   "label_zh": "五股區",
+   "section": "新北市"
+  },
+  {
+   "code": "2732",
+   "label_zh": "東勢區",
+   "section": "台中市"
+  },
+  {
+   "code": "3051",
+   "label_zh": "古坑鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3320",
+   "label_zh": "鳳山區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3552",
+   "label_zh": "大武鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0206",
+   "label_zh": "安樂區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2355",
+   "label_zh": "泰山區",
+   "section": "新北市"
+  },
+  {
+   "code": "2733",
+   "label_zh": "大甲區",
+   "section": "台中市"
+  },
+  {
+   "code": "3052",
+   "label_zh": "大埤鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3332",
+   "label_zh": "岡山區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3553",
+   "label_zh": "麻里鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0207",
+   "label_zh": "信義區",
+   "section": "基隆市"
+  },
+  {
+   "code": "2356",
+   "label_zh": "林口區",
+   "section": "新北市"
+  },
+  {
+   "code": "2734",
+   "label_zh": "清水區",
+   "section": "台中市"
+  },
+  {
+   "code": "3053",
+   "label_zh": "莿桐鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3333",
+   "label_zh": "旗山區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3554",
+   "label_zh": "東河鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "2358",
+   "label_zh": "深坑區",
+   "section": "新北市"
+  },
+  {
+   "code": "2735",
+   "label_zh": "沙鹿區",
+   "section": "台中市"
+  },
+  {
+   "code": "3054",
+   "label_zh": "林內鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3334",
+   "label_zh": "美濃區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3555",
+   "label_zh": "長濱鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0301",
+   "label_zh": "中區",
+   "section": "台中市"
+  },
+  {
+   "code": "2359",
+   "label_zh": "石碇區",
+   "section": "新北市"
+  },
+  {
+   "code": "2736",
+   "label_zh": "梧棲區",
+   "section": "台中市"
+  },
+  {
+   "code": "3055",
+   "label_zh": "二崙鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3352",
+   "label_zh": "林園區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3556",
+   "label_zh": "鹿野鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0302",
+   "label_zh": "東區",
+   "section": "台中市"
+  },
+  {
+   "code": "2360",
+   "label_zh": "坪林區",
+   "section": "新北市"
+  },
+  {
+   "code": "2751",
+   "label_zh": "后里區",
+   "section": "台中市"
+  },
+  {
+   "code": "3056",
+   "label_zh": "崙背鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3353",
+   "label_zh": "大寮區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3557",
+   "label_zh": "池上鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0303",
+   "label_zh": "西區",
+   "section": "台中市"
+  },
+  {
+   "code": "2361",
+   "label_zh": "三芝區",
+   "section": "新北市"
+  },
+  {
+   "code": "2752",
+   "label_zh": "神岡區",
+   "section": "台中市"
+  },
+  {
+   "code": "3057",
+   "label_zh": "麥寮鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3354",
+   "label_zh": "大樹區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3558",
+   "label_zh": "綠島鄉",
+   "section": "台東縣"
+  },
+  {
+   "code": "0304",
+   "label_zh": "南區",
+   "section": "台中市"
+  },
+  {
+   "code": "2362",
+   "label_zh": "石門區",
+   "section": "新北市"
+  },
+  {
+   "code": "2753",
+   "label_zh": "潭子區",
+   "section": "台中市"
+  },
+  {
+   "code": "3058",
+   "label_zh": "東勢鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3355",
+   "label_zh": "仁武區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3559",
+   "label_zh": "海端鄉Δ",
+   "section": "台東縣"
+  },
+  {
+   "code": "0305",
+   "label_zh": "北區",
+   "section": "台中市"
+  },
+  {
+   "code": "2363",
+   "label_zh": "八里區",
+   "section": "新北市"
+  },
+  {
+   "code": "2754",
+   "label_zh": "大雅區",
+   "section": "台中市"
+  },
+  {
+   "code": "3059",
+   "label_zh": "褒忠鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3356",
+   "label_zh": "大社區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3560",
+   "label_zh": "延平鄉Δ",
+   "section": "台東縣"
+  },
+  {
+   "code": "0306",
+   "label_zh": "西屯區",
+   "section": "台中市"
+  },
+  {
+   "code": "2365",
+   "label_zh": "平溪區",
+   "section": "新北市"
+  },
+  {
+   "code": "2755",
+   "label_zh": "新社區",
+   "section": "台中市"
+  },
+  {
+   "code": "3060",
+   "label_zh": "台西鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3357",
+   "label_zh": "鳥松區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3561",
+   "label_zh": "達仁鄉Δ",
+   "section": "台東縣"
+  },
+  {
+   "code": "0307",
+   "label_zh": "南屯區",
+   "section": "台中市"
+  },
+  {
+   "code": "2366",
+   "label_zh": "雙溪區",
+   "section": "新北市"
+  },
+  {
+   "code": "2756",
+   "label_zh": "石岡區",
+   "section": "台中市"
+  },
+  {
+   "code": "3061",
+   "label_zh": "元長鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3358",
+   "label_zh": "橋頭區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3562",
+   "label_zh": "金峰鄉Δ",
+   "section": "台東縣"
+  },
+  {
+   "code": "0308",
+   "label_zh": "北屯區",
+   "section": "台中市"
+  },
+  {
+   "code": "2367",
+   "label_zh": "貢寮區",
+   "section": "新北市"
+  },
+  {
+   "code": "2757",
+   "label_zh": "外埔區",
+   "section": "台中市"
+  },
+  {
+   "code": "3062",
+   "label_zh": "四湖鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3359",
+   "label_zh": "燕巢區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3563",
+   "label_zh": "蘭嶼鄉Δ",
+   "section": "台東縣"
+  },
+  {
+   "code": "2368",
+   "label_zh": "金山區",
+   "section": "新北市"
+  },
+  {
+   "code": "2758",
+   "label_zh": "大安區",
+   "section": "台中市"
+  },
+  {
+   "code": "3063",
+   "label_zh": "口湖鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3360",
+   "label_zh": "田寮區",
+   "section": "高雄市"
+  },
+  {
+   "code": "0401",
+   "label_zh": "東區",
+   "section": "台南市"
+  },
+  {
+   "code": "2369",
+   "label_zh": "萬里區",
+   "section": "新北市"
+  },
+  {
+   "code": "2759",
+   "label_zh": "烏日區",
+   "section": "台中市"
+  },
+  {
+   "code": "3064",
+   "label_zh": "水林鄉",
+   "section": "雲林縣"
+  },
+  {
+   "code": "3361",
+   "label_zh": "阿蓮區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3620",
+   "label_zh": "花蓮市",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0402",
+   "label_zh": "南區",
+   "section": "台南市"
+  },
+  {
+   "code": "2370",
+   "label_zh": "烏來區Δ",
+   "section": "新北市"
+  },
+  {
+   "code": "2760",
+   "label_zh": "大肚區",
+   "section": "台中市"
+  },
+  {
+   "code": "3362",
+   "label_zh": "路竹區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3631",
+   "label_zh": "鳳林鎮",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0403",
+   "label_zh": "中西區",
+   "section": "台南市"
+  },
+  {
+   "code": "2761",
+   "label_zh": "龍井區",
+   "section": "台中市"
+  },
+  {
+   "code": "3121",
+   "label_zh": "太保市",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3363",
+   "label_zh": "湖內區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3632",
+   "label_zh": "玉里鎮",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0404",
+   "label_zh": "北區",
+   "section": "台南市"
+  },
+  {
+   "code": "2420",
+   "label_zh": "中壢區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2762",
+   "label_zh": "霧峰區",
+   "section": "台中市"
+  },
+  {
+   "code": "3122",
+   "label_zh": "朴子市",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3364",
+   "label_zh": "茄萣區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3651",
+   "label_zh": "新城鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0406",
+   "label_zh": "安南區",
+   "section": "台南市"
+  },
+  {
+   "code": "2421",
+   "label_zh": "桃園區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2764",
+   "label_zh": "和平區Δ",
+   "section": "台中市"
+  },
+  {
+   "code": "3132",
+   "label_zh": "布袋鎮",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3365",
+   "label_zh": "永安區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3652",
+   "label_zh": "吉安鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0407",
+   "label_zh": "安平區",
+   "section": "台南市"
+  },
+  {
+   "code": "2422",
+   "label_zh": "平鎮區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "3133",
+   "label_zh": "大林鎮",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3366",
+   "label_zh": "彌陀區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3653",
+   "label_zh": "壽豐鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "2423",
+   "label_zh": "八德區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2820",
+   "label_zh": "彰化市",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3151",
+   "label_zh": "民雄鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3367",
+   "label_zh": "梓官區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3654",
+   "label_zh": "光復鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0501",
+   "label_zh": "鹽埕區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2424",
+   "label_zh": "楊梅區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2821",
+   "label_zh": "員林市",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3152",
+   "label_zh": "溪口鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3368",
+   "label_zh": "六龜區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3655",
+   "label_zh": "豐濱鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0502",
+   "label_zh": "鼓山區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2425",
+   "label_zh": "蘆竹區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2831",
+   "label_zh": "鹿港鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3153",
+   "label_zh": "新港鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3369",
+   "label_zh": "甲仙區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3656",
+   "label_zh": "瑞穗鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0503",
+   "label_zh": "左營區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2432",
+   "label_zh": "大溪區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2832",
+   "label_zh": "和美鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3154",
+   "label_zh": "六腳鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3370",
+   "label_zh": "杉林區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3657",
+   "label_zh": "富里鄉",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0504",
+   "label_zh": "楠梓區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2452",
+   "label_zh": "大園區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2833",
+   "label_zh": "北斗鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3155",
+   "label_zh": "東石鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3371",
+   "label_zh": "內門區",
+   "section": "高雄市"
+  },
+  {
+   "code": "3658",
+   "label_zh": "秀林鄉Δ",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0505",
+   "label_zh": "三民區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2453",
+   "label_zh": "龜山區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2835",
+   "label_zh": "溪湖鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3156",
+   "label_zh": "義竹鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3372",
+   "label_zh": "茂林區Δ",
+   "section": "高雄市"
+  },
+  {
+   "code": "3659",
+   "label_zh": "萬榮鄉Δ",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0506",
+   "label_zh": "新興區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2455",
+   "label_zh": "龍潭區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2836",
+   "label_zh": "田中鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3157",
+   "label_zh": "鹿草鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3373",
+   "label_zh": "桃源區Δ",
+   "section": "高雄市"
+  },
+  {
+   "code": "3660",
+   "label_zh": "卓溪鄉Δ",
+   "section": "花蓮縣"
+  },
+  {
+   "code": "0507",
+   "label_zh": "前金區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2457",
+   "label_zh": "新屋區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2837",
+   "label_zh": "二林鎮",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3159",
+   "label_zh": "水上鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3374",
+   "label_zh": "那瑪夏區Δ",
+   "section": "高雄市"
+  },
+  {
+   "code": "0508",
+   "label_zh": "苓雅區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2458",
+   "label_zh": "觀音區",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2851",
+   "label_zh": "線西鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3160",
+   "label_zh": "中埔鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3720",
+   "label_zh": "馬公市",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0509",
+   "label_zh": "前鎮區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2459",
+   "label_zh": "復興區Δ",
+   "section": "桃園縣"
+  },
+  {
+   "code": "2852",
+   "label_zh": "伸港鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3161",
+   "label_zh": "竹崎鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3420",
+   "label_zh": "屏東市",
+   "section": "屏東縣"
+  },
+  {
+   "code": "3751",
+   "label_zh": "湖西鄉",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0510",
+   "label_zh": "旗津區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2853",
+   "label_zh": "福興鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3162",
+   "label_zh": "梅山鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3431",
+   "label_zh": "潮州鎮",
+   "section": "屏東縣"
+  },
+  {
+   "code": "3752",
+   "label_zh": "白沙鄉",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0511",
+   "label_zh": "小港區",
+   "section": "高雄市"
+  },
+  {
+   "code": "2521",
+   "label_zh": "竹北市",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2854",
+   "label_zh": "秀水鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3163",
+   "label_zh": "番路鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3432",
+   "label_zh": "東港鎮",
+   "section": "屏東縣"
+  },
+  {
+   "code": "3753",
+   "label_zh": "西嶼鄉",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0600",
+   "label_zh": "新竹市（不分區）",
+   "section": "新竹市"
+  },
+  {
+   "code": "2531",
+   "label_zh": "關西鎮",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2855",
+   "label_zh": "花壇鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3164",
+   "label_zh": "大埔鄉",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3433",
+   "label_zh": "恆春鎮",
+   "section": "屏東縣"
+  },
+  {
+   "code": "3754",
+   "label_zh": "望安鄉",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0601",
+   "label_zh": "香山區",
+   "section": "新竹市"
+  },
+  {
+   "code": "2532",
+   "label_zh": "新埔鎮",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2856",
+   "label_zh": "芬園鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3165",
+   "label_zh": "阿里山鄉Δ",
+   "section": "嘉義縣"
+  },
+  {
+   "code": "3451",
+   "label_zh": "萬丹鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "3755",
+   "label_zh": "七美鄉",
+   "section": "澎湖縣"
+  },
+  {
+   "code": "0602",
+   "label_zh": "東區",
+   "section": "新竹市"
+  },
+  {
+   "code": "2533",
+   "label_zh": "竹東鎮",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2857",
+   "label_zh": "大村鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3452",
+   "label_zh": "長治鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0603",
+   "label_zh": "北區",
+   "section": "新竹市"
+  },
+  {
+   "code": "2553",
+   "label_zh": "湖口鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2858",
+   "label_zh": "埔鹽鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3220",
+   "label_zh": "新營區",
+   "section": "台南市"
+  },
+  {
+   "code": "3453",
+   "label_zh": "麟洛鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "0700",
+   "label_zh": "嘉義市（不分區）",
+   "section": "嘉義市"
+  },
+  {
+   "code": "2554",
+   "label_zh": "橫山鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2859",
+   "label_zh": "埔心鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3221",
+   "label_zh": "永康區",
+   "section": "台南市"
+  },
+  {
+   "code": "3454",
+   "label_zh": "九如鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4131",
+   "label_zh": "金城鎮",
+   "section": "金門縣"
+  },
+  {
+   "code": "0701",
+   "label_zh": "東區",
+   "section": "嘉義市"
+  },
+  {
+   "code": "2555",
+   "label_zh": "新豐鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2860",
+   "label_zh": "永靖鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3232",
+   "label_zh": "鹽水區",
+   "section": "台南市"
+  },
+  {
+   "code": "3455",
+   "label_zh": "里港鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4132",
+   "label_zh": "金湖鎮",
+   "section": "金門縣"
+  },
+  {
+   "code": "0702",
+   "label_zh": "西區",
+   "section": "嘉義市"
+  },
+  {
+   "code": "2556",
+   "label_zh": "芎林鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2861",
+   "label_zh": "社頭鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3233",
+   "label_zh": "白河區",
+   "section": "台南市"
+  },
+  {
+   "code": "3456",
+   "label_zh": "鹽埔鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4133",
+   "label_zh": "金沙鎮",
+   "section": "金門縣"
+  },
+  {
+   "code": "2557",
+   "label_zh": "寶山鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2862",
+   "label_zh": "二水鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3234",
+   "label_zh": "麻豆區",
+   "section": "台南市"
+  },
+  {
+   "code": "3457",
+   "label_zh": "高樹鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4151",
+   "label_zh": "金寧鄉",
+   "section": "金門縣"
+  },
+  {
+   "code": "2120",
+   "label_zh": "宜蘭市",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2558",
+   "label_zh": "北埔鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2863",
+   "label_zh": "田尾鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3235",
+   "label_zh": "佳里區",
+   "section": "台南市"
+  },
+  {
+   "code": "3458",
+   "label_zh": "萬巒鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4152",
+   "label_zh": "列嶼鄉",
+   "section": "金門縣"
+  },
+  {
+   "code": "2131",
+   "label_zh": "羅東鎮",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2559",
+   "label_zh": "峨眉鄉",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2864",
+   "label_zh": "埤頭鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3236",
+   "label_zh": "新化區",
+   "section": "台南市"
+  },
+  {
+   "code": "3459",
+   "label_zh": "內埔鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4153",
+   "label_zh": "烏坵鄉",
+   "section": "金門縣"
+  },
+  {
+   "code": "2132",
+   "label_zh": "蘇澳鎮",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2560",
+   "label_zh": "尖石鄉Δ",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2865",
+   "label_zh": "芳苑鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3237",
+   "label_zh": "善化區",
+   "section": "台南市"
+  },
+  {
+   "code": "3460",
+   "label_zh": "竹田鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "2133",
+   "label_zh": "頭城鎮",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2561",
+   "label_zh": "五峰鄉Δ",
+   "section": "新竹縣"
+  },
+  {
+   "code": "2866",
+   "label_zh": "大城鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3238",
+   "label_zh": "學甲區",
+   "section": "台南市"
+  },
+  {
+   "code": "3461",
+   "label_zh": "新埤鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4251",
+   "label_zh": "南竿鄉",
+   "section": "連江縣"
+  },
+  {
+   "code": "2151",
+   "label_zh": "礁溪鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2867",
+   "label_zh": "竹塘鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3251",
+   "label_zh": "柳營區",
+   "section": "台南市"
+  },
+  {
+   "code": "3462",
+   "label_zh": "枋寮鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4252",
+   "label_zh": "北竿鄉",
+   "section": "連江縣"
+  },
+  {
+   "code": "2152",
+   "label_zh": "壯圍鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2620",
+   "label_zh": "苗栗市",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2868",
+   "label_zh": "溪州鄉",
+   "section": "彰化縣"
+  },
+  {
+   "code": "3252",
+   "label_zh": "後璧區",
+   "section": "台南市"
+  },
+  {
+   "code": "3463",
+   "label_zh": "新園鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4253",
+   "label_zh": "莒光鄉",
+   "section": "連江縣"
+  },
+  {
+   "code": "2153",
+   "label_zh": "員山鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2621",
+   "label_zh": "頭份市",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "3253",
+   "label_zh": "東山區",
+   "section": "台南市"
+  },
+  {
+   "code": "3464",
+   "label_zh": "崁頂鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "4254",
+   "label_zh": "東引鄉",
+   "section": "連江縣"
+  },
+  {
+   "code": "2154",
+   "label_zh": "冬山鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2632",
+   "label_zh": "苑裡鎮",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2920",
+   "label_zh": "南投市",
+   "section": "南投縣"
+  },
+  {
+   "code": "3254",
+   "label_zh": "下營區",
+   "section": "台南市"
+  },
+  {
+   "code": "3465",
+   "label_zh": "林邊鄉",
+   "section": "屏東縣"
+  },
+  {
+   "code": "2155",
+   "label_zh": "五結鄉",
+   "section": "宜蘭縣"
+  },
+  {
+   "code": "2633",
+   "label_zh": "通霄鎮",
+   "section": "苗栗縣"
+  },
+  {
+   "code": "2932",
+   "label_zh": "埔里鎮",
+   "section": "南投縣"
+  },
+  {
+   "code": "3255",
+   "label_zh": "六甲區",
+   "section": "台南市"
+  },
+  {
+   "code": "3466",
+   "label_zh": "南州鄉",
+   "section": "屏東縣"
+  }
+ ],
+ "教育程度代碼": [
+  {
+   "code": "1",
+   "label_zh": "小學一年級（初等科；日制）"
+  },
+  {
+   "code": "2",
+   "label_zh": "小學二年級（初等科；日制）"
+  },
+  {
+   "code": "3",
+   "label_zh": "小學三年級（初等科；日制）"
+  },
+  {
+   "code": "4",
+   "label_zh": "小學四年級（初等科；日制）"
+  },
+  {
+   "code": "5",
+   "label_zh": "小學五年級（初等科；日制）"
+  },
+  {
+   "code": "6",
+   "label_zh": "小學六年級（初等科；日制）"
+  },
+  {
+   "code": "7",
+   "label_zh": "初中(職)一年級（高等科：日制）"
+  },
+  {
+   "code": "8",
+   "label_zh": "初中(職)二年級（高等科：日制）"
+  },
+  {
+   "code": "9",
+   "label_zh": "初中(職)三年級（高等科：日制）"
+  },
+  {
+   "code": "10",
+   "label_zh": "高中(職)一年級（五專一年級）"
+  },
+  {
+   "code": "11",
+   "label_zh": "高中(職)二年級（五專二年級）"
+  },
+  {
+   "code": "12",
+   "label_zh": "高中(職)三年級（五專三年級）"
+  },
+  {
+   "code": "13",
+   "label_zh": "大學一年級 (二三專、二四技)（五專四年級）"
+  },
+  {
+   "code": "14",
+   "label_zh": "大學二年級 (二三專、二四技)（五專五年級）"
+  },
+  {
+   "code": "15",
+   "label_zh": "大學三年級 (三專、四技)"
+  },
+  {
+   "code": "16",
+   "label_zh": "大學四年級 (四技)"
+  },
+  {
+   "code": "17",
+   "label_zh": "研究所及以上 (含醫學系、中醫系 、牙醫學系畢業)"
+  },
+  {
+   "code": "18",
+   "label_zh": "未受正規教育：識字"
+  },
+  {
+   "code": "19",
+   "label_zh": "未受正規教育：不識字"
+  }
+ ],
+ "運動種類代碼": [
+  {
+   "code": "1",
+   "label_zh": "散步"
+  },
+  {
+   "code": "2",
+   "label_zh": "跑步"
+  },
+  {
+   "code": "3",
+   "label_zh": "健走"
+  },
+  {
+   "code": "4",
+   "label_zh": "跳繩"
+  },
+  {
+   "code": "5",
+   "label_zh": "游泳"
+  },
+  {
+   "code": "6",
+   "label_zh": "體操(指有做到肢體伸展的體操)"
+  },
+  {
+   "code": "7",
+   "label_zh": "甩手運動"
+  },
+  {
+   "code": "8",
+   "label_zh": "瑜珈"
+  },
+  {
+   "code": "9",
+   "label_zh": "外丹功"
+  },
+  {
+   "code": "10",
+   "label_zh": "內丹功"
+  },
+  {
+   "code": "11",
+   "label_zh": "法輪功"
+  },
+  {
+   "code": "12",
+   "label_zh": "元極舞"
+  },
+  {
+   "code": "13",
+   "label_zh": "太極拳"
+  },
+  {
+   "code": "14",
+   "label_zh": "香功"
+  },
+  {
+   "code": "15",
+   "label_zh": "其他氣功"
+  },
+  {
+   "code": "16",
+   "label_zh": "足球"
+  },
+  {
+   "code": "17",
+   "label_zh": "高爾夫球"
+  },
+  {
+   "code": "18",
+   "label_zh": "羽毛球"
+  },
+  {
+   "code": "19",
+   "label_zh": "桌球"
+  },
+  {
+   "code": "20",
+   "label_zh": "槌球"
+  },
+  {
+   "code": "21",
+   "label_zh": "網球"
+  },
+  {
+   "code": "22",
+   "label_zh": "撞球"
+  },
+  {
+   "code": "23",
+   "label_zh": "籃球"
+  },
+  {
+   "code": "24",
+   "label_zh": "其他球類運動"
+  },
+  {
+   "code": "25",
+   "label_zh": "有氧舞蹈、跳舞"
+  },
+  {
+   "code": "26",
+   "label_zh": "土風舞、國際標準舞…"
+  },
+  {
+   "code": "27",
+   "label_zh": "騎單車(或腳踏車機)"
+  },
+  {
+   "code": "28",
+   "label_zh": "爬山"
+  },
+  {
+   "code": "29",
+   "label_zh": "爬樓梯"
+  },
+  {
+   "code": "30",
+   "label_zh": "重量訓練或肌力訓練(如舉重、包括健身房的舉重機)"
+  },
+  {
+   "code": "31",
+   "label_zh": "搖呼拉圈"
+  },
+  {
+   "code": "32",
+   "label_zh": "其他非球類運動"
+  }
+ ],
+ "notes": [
+  "桃園縣蘆竹鄉2014/06/03升格為蘆竹市，2014/12/25桃園縣改制為直轄市，蘆竹市改為蘆竹區 六都依舊區域名稱編碼",
+  "彰化縣員林鎮2015/08/08改制為員林市 104/9/15修正",
+  "苗栗縣頭份鎮2015/10/02改制為頭份市 105/12/16補充代碼600,700"
+ ]
+}

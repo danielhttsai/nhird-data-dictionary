@@ -38,11 +38,15 @@ def clean(s: str) -> str:
 def parse_ssf():
     factors = []          # list of dicts
     cur = None
+    site = ""             # 癌症部位特定因子：<site> heads each cancer site's factors
     with pdfplumber.open(SSF_PDF) as pdf:
         for page in pdf.pages:
             text = page.extract_text() or ""
             lines = [l.strip() for l in text.split("\n") if l.strip()]
 
+            sm_site = re.search(r"癌症部位特定因子[:：]\s*(\S+)", text)
+            if sm_site:
+                site = sm_site.group(1)
             # Detect a new factor block on this page
             m = FACTOR_RE.search(text)
             if m:
@@ -61,6 +65,7 @@ def parse_ssf():
                 if sm:
                     field_seq = sm.group(1).rstrip(".")
                 cur = {
+                    "site": site,
                     "ssf_id": f"SSF{m.group(1)}",
                     "length": int(m.group(2)),
                     "name_zh": name_zh,
@@ -97,47 +102,46 @@ def parse_ssf():
 
 def main():
     factors = parse_ssf()
-    print(f"Parsed {len(factors)} SSF factor blocks")
-    by_seq = {}
+    print(f"Parsed {len(factors)} SSF factor blocks, {sum(len(f['entries']) for f in factors)} code rows")
+    # 8.1 … 8.10 mean a different factor for each cancer site: keep every site's
+    by_seq: dict[str, list] = {}
     for f in factors:
         if f["field_seq"]:
-            by_seq.setdefault(f["field_seq"], f)
-    print(f"  with a 癌登欄位序號: {len(by_seq)}")
+            by_seq.setdefault(f["field_seq"], []).append(f)
+    print(f"  with a 癌登欄位序號: {len(by_seq)} fields, "
+          f"{sum(len(v) for v in by_seq.values())} site factors")
 
-    # Attach SSF detail to the matching TWCR long-form fields (both versions)
-    for vf in ["twcr_manual_LF129_2025", "twcr_manual_LF115_2018"]:
+    # The manual is the 114年 (2025) edition: it belongs to the 2025 long form only.
+    for vf, attach in (("twcr_manual_LF129_2025", True), ("twcr_manual_LF115_2018", False)):
         p = EXTRACTED / "Health14" / f"{vf}.json"
         if not p.exists():
             continue
         d = json.loads(p.read_text(encoding="utf-8"))
-        codebooks = d.get("codebooks", {})
+        codebooks = {k: v for k, v in (d.get("codebooks") or {}).items()
+                     if not str(v.get("source", "")).startswith("TWCR SSF")}
         attached = 0
         for field in d.get("fields", []):
-            seq = str(field.get("seq", ""))
-            f = by_seq.get(seq)
-            if not f:
+            field.pop("ssf", None)
+            fs = by_seq.get(str(field.get("seq", ""))) if attach else None
+            if not fs:
                 continue
-            field["ssf"] = {
-                "ssf_id": f["ssf_id"],
-                "name_en": f["name_en"],
-                "desc": f["desc"],
-                "n_codes": len(f["entries"]),
-            }
-            if f["entries"]:
-                codebooks[field.get("name_en") or f["ssf_id"]] = {
+            field["ssf"] = [{"site": f["site"], "ssf_id": f["ssf_id"], "name_zh": f["name_zh"],
+                             "name_en": f["name_en"], "desc": f["desc"], "n_codes": len(f["entries"])}
+                            for f in fs]
+            entries = [{**e, "section": f"{f['site']} · {f['ssf_id']} {f['name_zh']}".strip()}
+                       for f in fs for e in f["entries"]]
+            if entries:
+                codebooks[field.get("name_en") or fs[0]["ssf_id"]] = {
                     "field_zh": field.get("name_zh", ""),
-                    "field_en": f["name_en"],
-                    "source": f"TWCR SSF {f['ssf_id']}",
-                    "entries": f["entries"],
+                    "field_en": field.get("name_en", ""),
+                    "source": "TWCR SSF 114年版 (by cancer site)",
+                    "entries": entries,
                 }
             attached += 1
         d["codebooks"] = codebooks
         p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"  {vf}: attached SSF to {attached} fields, {len(codebooks)} codebooks")
+        print(f"  {vf}: SSF on {attached} fields")
 
-    # Also dump the raw SSF data for reference
-    (EXTRACTED / "_ssf_factors.json").write_text(
-        json.dumps(factors, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
