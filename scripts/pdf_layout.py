@@ -265,7 +265,32 @@ def row_values(row, roles):
         keep = role == "desc"
         t = cell_text(c, keep)
         vals[role] = append_text(vals[role], t, keep) if role in vals else t
+        vals.setdefault("_raw", {})[role] = c["text"]
     return vals
+
+
+_RANGE = re.compile(r"^(\d{1,4})[~～-](\d{1,4})$")
+
+
+def range_fields(vals) -> list[dict] | None:
+    """A row numbered "7~9" that lists several columns, one per line
+    (Q7_1 / Q7_2 / Q7_3 with 重大困擾_第一項 / _第二項 / _第三項): one field each,
+    numbered from the first number. None when the row is not such a range."""
+    m = _RANGE.match(_flat(vals.get("seq", "")))
+    if not m:
+        return None
+    raw = vals.get("_raw", {})
+    names = [x.strip() for x in (raw.get("name_en") or "").split(chr(10)) if x.strip()]
+    if not names or not all(re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*", n) for n in names):
+        return None
+    zh = [x.strip() for x in (raw.get("name_zh") or "").split(chr(10)) if x.strip()]
+    start = int(m.group(1))
+    out = []
+    for i, n in enumerate(names):
+        f = make_field({**vals, "seq": str(start + i), "name_en": n,
+                        "name_zh": zh[i] if len(zh) == len(names) else vals.get("name_zh", "")})
+        out.append(f)
+    return out
 
 
 _TITLE = re.compile(r"^(.{2,40}?)\s*[（(]\s*([A-Za-z][A-Za-z0-9_ ]{2,40}?)\s*[)）]$")
@@ -508,6 +533,7 @@ def parse_section(items) -> dict:
     """Field rows and code tables of one section."""
     fields, codebooks, cb_order = [], {}, []
     sub = None              # (name, code) of the file a field table is titled with
+    in_range = False        # the last numbered row was a range ("20~29")
     grids = {}              # (field_zh, codes) -> the code table's cells as printed
     prose = {}              # (field_zh, codes) -> the text printed under the heading
     phase = "fields"
@@ -564,6 +590,27 @@ def parse_section(items) -> dict:
                 cells = vals.pop("_cells")
                 if not vals:
                     continue
+                rf = range_fields(vals)
+                if rf:
+                    for f in rf:
+                        f["_sub"] = sub
+                    fields.extend(rf)
+                    last = group = rf[-1]
+                    in_range = True
+                    continue
+                more = [x.strip() for x in (vals.get("_raw", {}).get("name_en") or "").split(chr(10)) if x.strip()]
+                if (in_range and last is not None and not _flat(vals.get("seq", "")) and more
+                        and all(re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*", x) for x in more)):
+                    # the range row goes on over the page break (Q16_9, Q16_10)
+                    for x in more:
+                        last = make_field({**vals, "seq": str(last["seq"] + 1), "name_en": x,
+                                           "name_zh": group["name_zh"], "type": group["type"],
+                                           "length": str(group["length"]), "desc": group["description_zh"]})
+                        last["_sub"] = sub
+                        fields.append(last)
+                    continue
+                if _SEQ.match(_flat(vals.get("seq", ""))):
+                    in_range = False
                 if _SEQ.match(_flat(vals.get("seq", ""))):
                     last = group = make_field(vals)
                     last["_sub"] = sub
