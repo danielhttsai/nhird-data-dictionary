@@ -133,11 +133,24 @@ def append_text(a: str, b: str, keep_items: bool) -> str:
 
 # ---------------------------------------------------------------- reading stream
 
+def close_open_cells(cp) -> dict:
+    """A table that runs on to the next page has no rule under its last row (or
+    above its first): the cells there are open, and pdfplumber drops an open cell
+    with its text (Health09's 29 and its note). Rule the page across where the
+    table's vertical rules end."""
+    vert = [o for o in cp.rects + cp.lines
+            if (o["bottom"] - o["top"]) > 8 and (o["x1"] - o["x0"]) < 2.5]
+    if not vert:
+        return {}
+    ys = [min(o["top"] for o in vert), max(o["bottom"] for o in vert)]
+    return {"explicit_horizontal_lines": ys}
+
+
 def page_items(page, pno: int) -> list[dict]:
     """Tables and the text lines outside them, top to bottom."""
     cp = clean_page(page)
     items = []
-    tables = cp.find_tables()
+    tables = cp.find_tables(table_settings=close_open_cells(cp))
     chars = cp.chars if tables else []
     boxes = []
     for t in tables:
@@ -148,7 +161,7 @@ def page_items(page, pno: int) -> list[dict]:
                           "ends": _line_ends(chars, bbox) if "\n" in (txt or "") else None}
                          for bbox, txt in zip(r.cells, texts)])
         items.append({"kind": "table", "page": pno, "top": t.bbox[1], "bottom": t.bbox[3],
-                      "bbox": t.bbox, "rows": rows})
+                      "bbox": t.bbox, "rows": rows, "cells_all": list(t.cells), "chars": chars})
         boxes.append(t.bbox)
     for ln in cp.extract_text_lines(return_chars=False):
         cy = (ln["top"] + ln["bottom"]) / 2
@@ -238,8 +251,12 @@ _SEQ = re.compile(r"^(\d{1,4})[.、)）]?$")
 
 
 def row_values(row, roles):
-    vals = {}
+    vals = {"_cells": set()}         # columns with a cell of their own in this row
     for c in row:
+        if c:
+            r = assign(c["bbox"], roles)
+            if r:
+                vals["_cells"].add(r)
         if not c or not c["text"].strip():
             continue
         role = assign(c["bbox"], roles)
@@ -249,6 +266,42 @@ def row_values(row, roles):
         t = cell_text(c, keep)
         vals[role] = append_text(vals[role], t, keep) if role in vals else t
     return vals
+
+
+_TITLE = re.compile(r"^(.{2,40}?)\s*[（(]\s*([A-Za-z][A-Za-z0-9_ ]{2,40}?)\s*[)）]$")
+
+
+def table_title(row):
+    """(name, code) when a row is a field table's title, one cell spanning the
+    table: 大腸癌篩檢-糞便潛血檢測 (H_BHP_CCS_FOBT)."""
+    cells = [c for c in row if c and c["text"].strip()]
+    if len(cells) != 1:
+        return None
+    m = _TITLE.match(cell_text(cells[0], False))
+    return (m.group(1).strip(), re.sub(r"\s+", "", m.group(2))) if m else None
+
+
+def merged_seq(item, row, roles) -> int | None:
+    """The number printed in the 序號 column beside this row when it sits in a
+    merged cell (one number for several rows) that the table reader did not put
+    on any row."""
+    if "seq" not in roles:
+        return None
+    cs = [c for c in row if c]
+    if not cs:
+        return None
+    top, bottom = min(c["bbox"][1] for c in cs), max(c["bbox"][3] for c in cs)
+    cy = (top + bottom) / 2
+    a, b = roles["seq"]
+    for x0, y0, x1, y1 in item.get("cells_all") or []:
+        if min(x1, b) - max(x0, a) <= 0 or not (y0 - 1 <= cy <= y1 + 1):
+            continue
+        txt = "".join(ch["text"] for ch in sorted(item["chars"], key=lambda ch: (ch["top"], ch["x0"]))
+                      if x0 <= (ch["x0"] + ch["x1"]) / 2 <= x1 and y0 <= (ch["top"] + ch["bottom"]) / 2 <= y1)
+        m = _SEQ.match(_flat(txt))
+        if m:
+            return int(m.group(1))
+    return None
 
 
 def make_field(vals) -> dict:
@@ -290,41 +343,59 @@ _LABEL_HDR = re.compile(r"(名稱|說明|內容|意義|定義|描述|中文|Labe
 
 
 def code_table_columns(row):
-    """[(code_x, [label_x ...]), ...] when this row heads a code table
-    (代碼 名稱 [代碼 名稱 ...])."""
-    cells = [c for c in row if c and _flat(c["text"])]
+    """[(code_x, [label_x ...]), ...] when this row heads a code table: one
+    group per 代碼 column with the label columns beside it, in either order
+    (代碼 名稱 | 名稱 代碼 | 代碼 名稱 代碼 名稱 | 代碼 名稱 備註)."""
+    cells = sorted([c for c in row if c and _flat(c["text"])], key=lambda c: c["bbox"][0])
     if len(cells) < 2:
         return None
-    pairs, cur = [], None
-    for c in cells:
-        t = _flat(c["text"])
-        if _CODE_HDR.match(t):
-            cur = [(c["bbox"][0], c["bbox"][2]), []]
-            pairs.append(cur)
-        elif cur is not None and _LABEL_HDR.search(t):
-            cur[1].append((c["bbox"][0], c["bbox"][2]))
-        elif cur is not None and cur[1]:
-            cur[1].append((c["bbox"][0], c["bbox"][2]))     # 備註 etc.
-        else:
-            return None
-    if not pairs or not all(p[1] for p in pairs):
+    is_code = [bool(_CODE_HDR.match(_flat(c["text"]))) for c in cells]
+    n = sum(is_code)
+    if n == 0 or n == len(cells):
         return None
-    return pairs
+    # the other header cells name columns (名稱, 科別, 說明 …), they are not data
+    if any(re.fullmatch(r"[\dA-Z.\-]+", _flat(c["text"])) for c, k in zip(cells, is_code) if not k):
+        return None
+    if n == 1:
+        groups = [cells]
+    elif len(cells) % n == 0 and all(sum(is_code[i:i + len(cells) // n]) == 1
+                                     for i in range(0, len(cells), len(cells) // n)):
+        g = len(cells) // n
+        groups = [cells[i:i + g] for i in range(0, len(cells), g)]
+    else:
+        return None
+    out = []
+    for grp in groups:
+        code = next(c for c in grp if _CODE_HDR.match(_flat(c["text"])))
+        out.append(((code["bbox"][0], code["bbox"][2]),
+                    [(c["bbox"][0], c["bbox"][2]) for c in grp if c is not code]))
+    return out
+
+
+def aligned(rows, groups) -> bool:
+    """Do a header-less table's cells sit under the columns of the code table
+    read before it (its continuation on the next page)?"""
+    spans = [x for code_x, label_xs in groups for x in [code_x] + label_xs]
+    cells = [c for r in rows for c in r if c and c["text"].strip()]
+    if not cells:
+        return False
+    ok = sum(any(a - 3 <= (c["bbox"][0] + c["bbox"][2]) / 2 <= b + 3 for a, b in spans) for c in cells)
+    edges = sum(any(abs(c["bbox"][0] - a) <= 4 for a, _ in spans) for c in cells)
+    return ok >= 0.9 * len(cells) and edges >= 0.8 * len(cells)
 
 
 def code_rows(rows, pairs):
-    """Entries of a code table (header row excluded), reading each column pair
-    top to bottom, left pair first."""
+    """Entries of a code table (header row excluded), reading each column group
+    top to bottom, left group first."""
     out = []
     for code_x, label_xs in pairs:
-        lo = code_x[0] - 2
-        hi = (label_xs[-1][1]) + 2
+        xs = [code_x] + label_xs
+        lo = min(a for a, _ in xs) - 2
+        hi = max(b for _, b in xs) + 2
         last = None
         for row in rows:
             code, labels = "", []
-            for c in row:
-                if not c:
-                    continue
+            for c in sorted([c for c in row if c], key=lambda c: c["bbox"][0]):
                 x0, x1 = c["bbox"][0], c["bbox"][2]
                 cx = (x0 + x1) / 2
                 if not (lo <= cx <= hi):
@@ -336,6 +407,8 @@ def code_rows(rows, pairs):
                     if t:
                         labels.append(t)
             label = " ".join(labels).strip()
+            if re.search(r"代碼|代號|編碼", code):
+                continue                    # the header row printed again on a new page
             if code:
                 last = {"code": code, "label_zh": label}
                 out.append(last)
@@ -344,9 +417,45 @@ def code_rows(rows, pairs):
     return out
 
 
+def loose_code_rows(rows, pairs: int = 1):
+    """Entries of a code table without a header row: per row, the first cell is
+    the code and the rest its label; a row of 2 x pairs cells holds that many
+    code/label pairs side by side. A row with a single cell is a sub-heading (or,
+    without a code, the rest of the label above)."""
+    out, last = [], None
+    cols: list[list] = [[] for _ in range(max(1, pairs))]
+    for row in rows:
+        cells = sorted([c for c in row if c and c["text"].strip()], key=lambda c: c["bbox"][0])
+        if not cells:
+            continue
+        first_empty = bool(row) and (row[0] is None or not (row[0]["text"] or "").strip())
+        if pairs > 1 and len(cells) == 2 * pairs:
+            for p in range(pairs):
+                cols[p].append({"code": _flat(cells[2 * p]["text"]),
+                                "label_zh": cell_text(cells[2 * p + 1], False)})
+            continue
+        if len(cells) == 1:
+            t = cell_text(cells[0], False)
+            if first_empty and last is not None and not re.search(r"(門診|住院|類|別)$", t):
+                last["label_zh"] = join_wrapped(last["label_zh"], t)
+            continue                                   # a sub-heading (西醫門診)
+        if first_empty and last is not None:
+            last["label_zh"] = join_wrapped(last["label_zh"], " ".join(cell_text(c, False) for c in cells))
+            continue
+        if re.search(r"代碼|代號|編碼", _flat(cells[0]["text"])):
+            continue                        # a header row printed again
+        last = {"code": _flat(cells[0]["text"]),
+                "label_zh": " ".join(cell_text(c, False) for c in cells[1:]).strip()}
+        cols[0].append(last)
+    for c in cols:
+        out.extend(c)
+    return out
+
+
 # ================================================================ sections
 
-_CB_HEAD = re.compile(r"^\s*(\d+)\s*[.．、]\s*(.+?)\s*[（(]\s*([A-Z][A-Z0-9_~]+)\s*[）)]")
+# 10.診察點數及藥事服務點數（DIAG_DOT＆DSVC_DOT）: one code table for several fields
+_CB_HEAD = re.compile(r"^\s*(\d+)\s*[.．、]\s*(.+?)\s*[（(]\s*([A-Z][A-Z0-9_~]+(?:\s*[＆&、,，]\s*[A-Z][A-Z0-9_~]+)*)\s*[）)]")
 _PHASE3 = re.compile(r"^\s*三\s*、\s*欄位")
 
 
@@ -376,7 +485,11 @@ def read_items(pdf) -> list[dict]:
 def split_sections(items) -> list[list[dict]]:
     """One list of items per table the manual describes. A manual with a single
     header block (or none) is one section."""
-    starts = [k for k, it in enumerate(items) if it["kind"] == "table" and is_header_table(it)]
+    # a header block names its table with a code (W_LTC_CMS_CA100, CVD); a table
+    # that only explains file naming (Health83: DATA_Y1_…) is not one
+    starts = [k for k, it in enumerate(items) if it["kind"] == "table" and is_header_table(it)
+              and "欄位數" in "".join(_flat(c) for r in table_texts(it) for c in r if c)
+              and re.fullmatch(r"[A-Za-z][A-Za-z0-9_\-]*", header_code(it))]
     codes = [header_code(items[k]) for k in starts]
     if len(starts) < 2 or len(set(codes)) < 2:
         return [items]
@@ -394,6 +507,9 @@ def split_sections(items) -> list[list[dict]]:
 def parse_section(items) -> dict:
     """Field rows and code tables of one section."""
     fields, codebooks, cb_order = [], {}, []
+    sub = None              # (name, code) of the file a field table is titled with
+    grids = {}              # (field_zh, codes) -> the code table's cells as printed
+    prose = {}              # (field_zh, codes) -> the text printed under the heading
     phase = "fields"
     roles = None            # columns of the field table being read
     last = None
@@ -416,6 +532,8 @@ def parse_section(items) -> dict:
                     cb_cur = (m.group(2).strip(), m.group(3).strip())
                     cb_heads.append(cb_cur)
                     cb_cols = None
+                elif cb_cur is not None and not re.match(r"^\d{4}年\d{1,2}月\d{1,2}日修訂$|^\d{1,3}$", t):
+                    prose.setdefault(cb_cur, []).append(t)   # a rule written out, not a list
             continue
         # table
         if is_header_table(it):
@@ -425,6 +543,9 @@ def parse_section(items) -> dict:
         if phase == "fields":
             start = None
             for k, r in enumerate(rows[:4]):
+                t = table_title(r)
+                if t:
+                    sub = t          # 大腸癌確診檔 (H_BHP_CCS_CONF): the file these rows describe
                 h = header_roles(r)
                 if h:
                     roles, start = h, k + 1
@@ -440,27 +561,59 @@ def parse_section(items) -> dict:
                 start = 0
             for r in rows[start:]:
                 vals = row_values(r, roles)
+                cells = vals.pop("_cells")
                 if not vals:
                     continue
                 if _SEQ.match(_flat(vals.get("seq", ""))):
-                    last = make_field(vals)
+                    last = group = make_field(vals)
+                    last["_sub"] = sub
+                    fields.append(last)
+                elif (last is not None and "seq" not in cells and vals.get("type")
+                      and (n := merged_seq(it, r, roles)) is not None and n != group["seq"]):
+                    # the number sits in a merged cell the row reader did not attach
+                    last = group = make_field({**vals, "seq": str(n)})
+                    last["_sub"] = sub
+                    fields.append(last)
+                elif (last is not None and vals.get("type") and vals.get("name_zh")
+                      and re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*", _flat(vals.get("name_en", "")))):
+                    # one numbered row holding several columns (Health09: 14 = MH_1 … MH_OTHER):
+                    # each line is a field of its own under the row's number; a note
+                    # printed once for the whole row (a merged cell) applies to each
+                    last = make_field({**vals, "seq": str(group["seq"])})
+                    last["_sub"] = sub
+                    if "desc" not in cells:
+                        last["description_zh"] = group["description_zh"]
                     fields.append(last)
                 elif last is not None:
                     extend_field(last, vals)
         else:
             if cb_cur is None:
                 continue
+            # the table as printed, cell by cell, for code tables that are grids
+            # (a column per period: D_PLACE 60-82年 | 83-102年 | 103年起) rather than lists
+            g = grids.setdefault(cb_cur, {"header": None, "rows": []})
+            for r in rows:
+                cells = [cell_text(c, False) for c in sorted([c for c in r if c], key=lambda c: c["bbox"][0])]
+                if not any(cells):
+                    continue
+                if g["header"] is None:
+                    g["header"] = cells
+                elif cells != g["header"]:
+                    g["rows"].append(cells)
             start = None
-            for k, r in enumerate(rows[:2]):
+            for k, r in enumerate(rows[:3]):
                 cols = code_table_columns(r)
                 if cols:
                     cb_cols, start = cols, k + 1
                     break
-            if start is None:
-                if cb_cols is None:
-                    continue
-                start = 0
-            entries = code_rows(rows[start:], cb_cols)
+            if start is not None:
+                entries = code_rows(rows[start:], cb_cols)
+            elif cb_cols and aligned(rows, cb_cols):
+                entries = code_rows(rows, cb_cols)     # the table goes on from the page before
+            else:
+                # no 代碼/名稱 header (a table continued on the next page, or one
+                # block of a code table split by a sub-heading such as 牙醫門診)
+                entries = loose_code_rows(rows, len(cb_cols) if cb_cols else 1)
             if entries:
                 key = cb_cur
                 if key not in codebooks:
@@ -468,4 +621,6 @@ def parse_section(items) -> dict:
                     cb_order.append(key)
                 codebooks[key].extend(entries)
     return {"fields": fields, "codebooks": [(k, codebooks[k]) for k in cb_order],
-            "cb_heads": cb_heads, "cb_text": "\n".join(cb_lines), "header_items": header_items}
+            "cb_heads": cb_heads, "cb_text": "\n".join(cb_lines), "header_items": header_items,
+            "grids": [(k, g) for k, g in grids.items() if g["rows"]],
+            "prose": [(k, chr(10).join(v)) for k, v in prose.items()]}

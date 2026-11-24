@@ -92,16 +92,21 @@ def extract_pdf(pdf_path: Path) -> dict:
                     old = legacy_fields(pdf)
                     if len(old) > len(fields):
                         fields = old
-                out["fields"] = dedupe_fields(fields)
+                out["fields"] = split_files(out, fields)
                 # Code tables: read from the text as before (the curated JSON was
                 # built that way, and merge_upstream compares like with like);
                 # a code table only the ruled-table reading finds is added.
                 after = collect_text_from(pdf, marker="三、")
                 out["codebooks"] = parse_codebooks(after, out["fields"]) if after else {}
-                for k, cb in section_codebooks(sec, out["fields"]).items():
-                    out["codebooks"].setdefault(k, cb)
-                if out["field_count_declared"] is not None:
-                    actual = len(out["fields"])
+                ruled = section_codebooks(sec, out["fields"])
+                for k, cb in ruled.items():
+                    if k not in out["codebooks"] or fuller(cb, out["codebooks"][k]):
+                        out["codebooks"][k] = cb
+                attach_grids(out["codebooks"], section_grids(sec))
+                attach_prose(out["codebooks"], sec)
+                out["printed"] = printed_counts(sec, ruled)
+                if out["field_count_declared"] is not None and not out.get("tables"):
+                    actual = len({f["seq"] for f in out["fields"]})   # numbered rows
                     if actual != out["field_count_declared"]:
                         out["qa"]["warnings"].append(
                             f"field count mismatch: header={out['field_count_declared']}, parsed={actual}")
@@ -122,13 +127,64 @@ def extract_pdf(pdf_path: Path) -> dict:
 
 # ============== Fields: what the page geometry gives, and the older row reader ==============
 
+def split_files(out: dict, fields: list[dict]) -> list[dict]:
+    """A manual whose single header block covers several files, each with its own
+    field table titled "name (CODE)" and numbered from 1 (Health55: _PD, _FOBT,
+    _CUT, _CONF). Listed in out["tables"] like a multi-table manual; the header's
+    per-file counts ("H_BHP_CCS_PD : 9") are read into each table. Code tables stay
+    shared under their plain names. Fields of a single file are returned as they are."""
+    subs = []
+    for f in fields:
+        s = f.pop("_sub", None)
+        if s and s[1] not in [x[1] for x in subs]:
+            subs.append(s)
+        f["_t"] = s[1] if s else None
+    if len(subs) < 2 or any(f["_t"] is None for f in fields):
+        for f in fields:
+            f.pop("_t", None)
+        return dedupe_fields(fields)
+    raw = out.get("raw_text_first_page") or ""
+    tables, result = [], []
+    for name, code in subs:
+        fs = [f for f in fields if f.get("_t") == code]
+        for f in fs:
+            f.pop("_t", None)
+            f["table"] = code
+        fs = dedupe_fields(fs)
+        result.extend(fs)
+
+        # "H_BHP_CCS_PD : 9", "… : 1,267,979筆", "… : 44 MB" (the code may break: H_BHP_CCS_ CONF)
+        code_re = r"\s*".join(map(re.escape, code))
+        facts = {"": "", "筆": "", "B": ""}
+        for num, unit in re.findall(code_re + r"\s*[:：]\s*([\d,.]+)\s*(筆|[KMG]B)?", raw):
+            k = "B" if unit and unit.endswith("B") else (unit or "")
+            facts[k] = facts[k] or (num + (" " + unit if k == "B" else unit or ""))
+        declared = facts[""] if facts[""].isdigit() else ""
+        tables.append({
+            "code_short": code, "name_zh": name, "name_en": "",
+            "record_count_raw": facts["筆"],
+            "field_count_declared": int(declared) if declared else None,
+            "file_size_raw": facts["B"],
+            "fields_parsed": len({f["seq"] for f in fs}),
+        })
+        if tables[-1]["field_count_declared"] is not None and \
+                tables[-1]["fields_parsed"] != tables[-1]["field_count_declared"]:
+            out["qa"]["warnings"].append(
+                f"{code}: field count mismatch: header={declared}, parsed={tables[-1]['fields_parsed']}")
+    out["tables"] = tables
+    ds = [t["field_count_declared"] for t in tables]
+    if None not in ds:
+        out["field_count_declared"] = sum(ds)
+    return result
+
+
 def plausible(fields: list[dict], declared: int | None) -> bool:
     """Is the geometric reading complete enough to use? It is when it found the
     declared number of fields, or (no count declared) any fields at all."""
     if not fields:
         return False
     if declared:
-        return len({f["seq"] for f in fields}) >= declared
+        return len({(f.get("_sub"), f["seq"]) for f in fields}) >= declared
     return True
 
 
@@ -168,7 +224,10 @@ def legacy_fields(pdf) -> list[dict]:
 
 
 def _expand_codes(field_code: str) -> list[str]:
-    """ABC1~ABC4 or ABC1~4 -> ABC1, ABC2, ABC3, ABC4."""
+    """ABC1~ABC4 or ABC1~4 -> ABC1, ABC2, ABC3, ABC4; DIAG_DOT＆DSVC_DOT -> both."""
+    parts = [p for p in re.split(r"\s*[＆&、,，]\s*", field_code) if p]
+    if len(parts) > 1:
+        return [c for p in parts for c in _expand_codes(p)]
     rng = re.match(r"([A-Z_]+?)(\d+)~(?:([A-Z_]+?))?(\d+)$", field_code)
     if rng and (rng.group(3) is None or rng.group(3) == rng.group(1)):
         base = rng.group(1)
@@ -181,6 +240,11 @@ def section_codebooks(sec: dict, fields: list[dict], prefix: str = "") -> dict:
     heading with no ruled table, the code list read from the text."""
     out: dict = {}
     for (field_zh, code), entries in sec["codebooks"]:
+        # a table whose first column is not codes (a grid with periods across, a
+        # list of names) is not a code table this reader understands: leave it
+        bad = sum(1 for e in entries if re.search(r"[一-鿿]", e["code"]) or len(e["code"]) > 15)
+        if not entries or bad > 0.2 * len(entries):
+            continue
         for c in _expand_codes(code):
             out.setdefault(prefix + c, {"field_zh": field_zh, "entries": []})["entries"].extend(
                 [dict(e) for e in entries])
@@ -191,6 +255,47 @@ def section_codebooks(sec: dict, fields: list[dict], prefix: str = "") -> dict:
             if prefix + k not in out:
                 out[prefix + k] = cb
     return out
+
+
+def section_grids(sec: dict, prefix: str = "") -> dict:
+    """Every ruled code table of a section as printed: {"header": [...], "rows": [[...]]}."""
+    out = {}
+    for (field_zh, code), g in sec.get("grids") or []:
+        for c in _expand_codes(code):
+            out[prefix + c] = {"field_zh": field_zh, "grid": g}
+    return out
+
+
+def attach_prose(codebooks: dict, sec: dict, prefix: str = "") -> None:
+    """A heading in 三、欄位譯碼 under which the manual writes rules rather than a
+    code list (8.給藥日份（DRUG_DAY）(1)…(2)…): keep that text as the code table's
+    "text", when no list or grid was read for it."""
+    for (field_zh, code), text in sec.get("prose") or []:
+        for c in _expand_codes(code):
+            k = prefix + c
+            cb = codebooks.get(k)
+            if cb and (cb.get("entries") or cb.get("grid")):
+                continue
+            if text.strip():
+                codebooks[k] = {**(cb or {"field_zh": field_zh, "entries": []}),
+                                "text": L.cell_text(text, True)}   # rejoin wrapped lines
+
+
+def attach_grids(codebooks: dict, grids: dict) -> None:
+    """A code table the list reading could not take (a grid with a column per period,
+    a list whose codes repeat) is kept as printed, under "grid"; a list already read
+    keeps its entries."""
+    for k, g in grids.items():
+        cb = codebooks.get(k)
+        entries = (cb or {}).get("entries") or []
+        codes = [str(x["code"]) for x in entries]
+        listed = entries and len(set(codes)) == len(codes) and len(entries) >= len(g["grid"]["rows"])
+        if listed:
+            continue
+        if cb is None:
+            codebooks[k] = {"field_zh": g["field_zh"], "entries": [], "grid": g["grid"]}
+        else:
+            cb["grid"] = g["grid"]
 
 
 # ============== A manual that documents several tables ==============
@@ -207,6 +312,7 @@ def extract_tables(out: dict, sections: list[list[dict]]) -> None:
     "<table code>.<field>", since the same column name (OBJID, STATUS) occurs in
     several tables."""
     tables, fields, codebooks = [], [], {}
+    printed = {"field_rows": None, "code_tables": {}, "code_table_headings": []}
     for sec_items in sections:
         sec = L.parse_section(sec_items)
         hdr = {k: "" for k in TABLE_KEYS}
@@ -223,17 +329,51 @@ def extract_tables(out: dict, sections: list[list[dict]]) -> None:
         hdr["fields_parsed"] = len(sf)
         tables.append(hdr)
         fields.extend(sf)
-        codebooks.update(section_codebooks(sec, sf, prefix=f"{code}."))
-        if hdr["field_count_declared"] is not None and len(sf) != hdr["field_count_declared"]:
+        ruled = section_codebooks(sec, sf, prefix=f"{code}.")
+        codebooks.update(ruled)
+        attach_grids(codebooks, section_grids(sec, prefix=f"{code}."))
+        attach_prose(codebooks, sec, prefix=f"{code}.")
+        pc = printed_counts(sec, ruled, prefix=f"{code}.")
+        printed["field_rows"] = (printed["field_rows"] or 0) + (pc["field_rows"] or 0)
+        printed["code_tables"].update(pc["code_tables"])
+        printed["code_table_headings"].extend(pc["code_table_headings"])
+        rows = len({f["seq"] for f in sf})
+        if hdr["field_count_declared"] is not None and rows != hdr["field_count_declared"]:
             out["qa"]["warnings"].append(
-                f"{code}: field count mismatch: header={hdr['field_count_declared']}, parsed={len(sf)}")
+                f"{code}: field count mismatch: header={hdr['field_count_declared']}, parsed={rows}")
         if not sf:
             out["qa"]["warnings"].append(f"{code}: no fields parsed")
     out["tables"] = tables
+    out["printed"] = printed
     out["fields"] = fields
     out["codebooks"] = codebooks
     declared = [t["field_count_declared"] for t in tables]
     out["field_count_declared"] = sum(declared) if declared and None not in declared else None
+
+
+def fuller(ruled: dict, text: dict) -> bool:
+    """Does the ruled-table reading of a code table hold everything the text
+    reading has and more? The text reading runs the two halves of a two-column
+    table into one label ("A 不識字 G 大學") and loses the second half's codes."""
+    r = [str(e["code"]) for e in ruled["entries"]]
+    t = [str(e["code"]) for e in text["entries"]]
+    avg = lambda es: sum(len(e["label_zh"]) for e in es) / max(1, len(es))
+    # codes that repeat mean a grid (periods side by side, HOS), or the reading ran
+    # on into the next code table: not a list this reader can take over
+    return (len(set(r)) == len(r) and set(t) <= set(r) and len(r) > len(t)
+            and avg(ruled["entries"]) <= 1.5 * avg(text["entries"]) + 2)
+
+
+def printed_counts(sec: dict, ruled: dict, prefix: str = "") -> dict:
+    """What the PDF itself prints, read by position, for the completeness check
+    (scripts/completeness_check.py): numbered rows of its field table, the rows of
+    each ruled code table, and every code-table heading in 三、欄位譯碼."""
+    seqs = {f["seq"] for f in sec["fields"]}
+    return {
+        "field_rows": len(seqs) or None,
+        "code_tables": {k: len(cb["entries"]) for k, cb in ruled.items()},
+        "code_table_headings": [prefix + c for _, code in sec["cb_heads"] for c in _expand_codes(code)],
+    }
 
 
 def field_key(f: dict) -> str:
@@ -640,16 +780,31 @@ def parse_codebook_table(tbl: list[list], cols: dict | None):
 
 
 def dedupe_fields(rows: list[dict]) -> list[dict]:
-    by_seq: dict[int, dict] = {}
+    """One field per (number, column name): a field read twice (a table printed
+    again on the next page) keeps the reading with the longer description. Several
+    columns under one number (a row that lists MH_1 … MH_8) stay apart."""
+    by_key: dict[tuple, dict] = {}
     for r in rows:
-        if r["seq"] not in by_seq:
-            by_seq[r["seq"]] = r
+        k = (r["seq"], re.sub(r"\s+", "", r.get("name_en") or ""))
+        if k not in by_key:
+            by_key[k] = r
+        elif len(r.get("description_zh") or "") > len(by_key[k].get("description_zh") or ""):
+            by_key[k] = r
+    seqs = {}
+    for k in by_key:
+        seqs.setdefault(k[0], []).append(k)
+    # the older row reader can read the same number twice with a broken name: keep
+    # one reading per number unless the number holds several real column names
+    out = []
+    for seq in sorted(seqs):
+        ks = seqs[seq]
+        real = [k for k in ks if re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*", k[1])]
+        if len(real) > 1:
+            out.extend(by_key[k] for k in ks if k in real)
         else:
-            existing = by_seq[r["seq"]]
-            # Prefer the entry with the longer description (likely the one with continuations merged)
-            if len(r.get("description_zh") or "") > len(existing.get("description_zh") or ""):
-                by_seq[r["seq"]] = r
-    return [by_seq[k] for k in sorted(by_seq)]
+            best = max(ks, key=lambda k: len(by_key[k].get("description_zh") or ""))
+            out.append(by_key[best])
+    return out
 
 
 # ============== Codebook parsing ==============
