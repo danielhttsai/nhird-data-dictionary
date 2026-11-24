@@ -26,6 +26,10 @@ What the action will not do by itself, it records in `refresh_pending.json` and 
 - a revised survey ZIP (these are unpacked and curated by hand with `process_zips.py` and `extract_xls.py`);
 - a file that has left the listing (it is kept).
 
+Every run also checks that nothing a manual declares or prints is missing (`scripts/completeness_check.py`, run by `watch.py`): each manual's (and each of its tables') field count against the 欄位數 its header declares and the numbered rows its field table prints, every code table a field points to (詳見…(CODE)…譯碼說明) and every code table headed in 三、欄位譯碼, and the rows of each ruled code table. A difference that is legitimate (a header that counts something else, a table printed in another manual) is recorded with its reason in `qa_exceptions.json`; anything else fails the run.
+
+The extractor (`scripts/extract_pdf.py` with `scripts/pdf_layout.py`) reads tables by the position of what is printed: cells are bounded by the black rules only, each value goes to the column whose header it sits under, a manual that documents several tables (Welfare20, Health103) or several files under one header (Health54–57) is split into one table per 檔案代號, and a code table that is a grid (a column per period) is kept cell by cell. When the extractor improves, `python scripts/reextract.py --only <codes>` re-reads the curated files from their PDFs and keeps their curation (English for unchanged text, hand-added keys, code tables built from other sources).
+
 Chinese text that changed upstream gets its English from `translations/cache.json`; a string the cache does not have yet is shown in Chinese, and `scripts/gap_check.py` (part of the same run) reports it until it is translated.
 
 ## Project layout

@@ -89,7 +89,7 @@ ALL_EN = set(FILE_EN.values()) | set(FIELD_EN.values()) | set(CB_EN.values()) | 
 FILE_SKIP = {"fields", "codebooks", "source_pdf", "tables"}
 # Derived wholesale from the PDF and never curated: always follow the new PDF
 FILE_DERIVED = {"raw_text_first_page", "qa", "page_count", "update_history",
-                "update_history_raw"}
+                "update_history_raw", "printed"}
 
 _WS = re.compile(r"\s+")
 # Page furniture the extractor sweeps into cells that sit at a page break

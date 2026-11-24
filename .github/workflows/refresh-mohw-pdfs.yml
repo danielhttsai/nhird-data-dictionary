@@ -63,7 +63,7 @@ jobs:
           git pull --rebase origin main
           git push
           gh workflow run deploy-pages.yml --ref main
-      - name: Gap check + MOHW coverage + site health (fails the run on findings)
+      - name: Gap check + completeness (fields, code tables) + MOHW coverage + site health (fails the run on findings)
         if: ${{ !cancelled() }}
         run: python scripts/watch.py --strict
       - name: Something is left for a person (see the run summary)

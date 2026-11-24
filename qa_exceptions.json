@@ -1,0 +1,52 @@
+{
+  "about": "Differences scripts/completeness_check.py finds that are legitimate, with the reason, per manual (<code>/<version>) and check. The check fails the weekly refresh on anything not listed here, and reports an entry here that is no longer needed.",
+  "Health01/post-20250624": {
+    "ref:ICD9CM_CODE~ICD9CM_CODE2": "Points to the ICD-9-CM / ICD-10-CM classification itself; the manual prints no code table for it."
+  },
+  "Health03/legacy": {
+    "ref:CARD_SEQ_NO": "The 健保卡就醫序號 code table is printed in the Health01 manual, not in this one."
+  },
+  "Health03/post-20250624": {
+    "ref:FUNC_SEQ_NO": "The 健保卡就醫序號 code table is printed in the Health01 manual, not in this one."
+  },
+  "Health10/legacy": {
+    "fields": "The legacy manual's header says 17 fields but its table prints 18 (the 2025/06/24 manual declares 18 for the same table)."
+  },
+  "Health31/legacy": {
+    "fields": "The legacy manual's header says 16 fields but its table prints 17 numbered rows; all are shown as printed."
+  },
+  "Health53/legacy": {
+    "fields": "The legacy manual's header says 13 fields but its table prints 14 (the 2025/06/24 manual declares 14)."
+  },
+  "Health54/legacy": {
+    "fields:H_BHP_PST_MASTER": "The legacy manual's header says 5 fields but its table prints 6 (ID_TYPE); shown as printed.",
+    "fields:H_BHP_PST_SMEAR": "The legacy manual's header says 31 fields but its table prints 32; shown as printed."
+  },
+  "Health56/legacy": {
+    "fields:H_BHP_BCS_DATA": "The legacy manual's header says 51 fields but its table prints 53; shown as printed (the 2025/06/24 manual declares and prints 49)."
+  },
+  "Health57/legacy": {
+    "fields:H_BHP_OMS_CONFIRM": "The legacy manual's header says 18 fields but its table prints 19; shown as printed."
+  },
+  "Health81/legacy": {
+    "ref:HOS": "The 權屬別 (HOS) code table is printed in other manuals (e.g. Health01), not in this one."
+  },
+  "Health99/post-20250624": {
+    "ref:HOS": "The 權屬別 (HOS) code table is printed in other manuals (e.g. Health01), not in this one."
+  },
+  "Health103/legacy": {
+    "ref:CASE_TYPE": "AMI_IP.CASE_TYPE refers to the 案件分類 code table of the claims files (Health01/Health02); this manual prints none."
+  },
+  "Welfare12/legacy": {
+    "fields": "The header gives two counts, 40 fields for data years 100-107 and 26 from 108; the table lists the 62 columns of all years."
+  },
+  "Welfare12/post-20250624": {
+    "fields": "The header counts 26 fields for data years from 108; the table prints 29 numbered rows (rows 25-29 add ID-check columns VVID_ROC, VVID_S, DVID_ROC, DVID_S and ISLIVETOGETHER)."
+  },
+  "Welfare20/legacy": {
+    "fields:W_LTC_CMS_CA100": "The manual's CA100 header declares 21 fields but its field table prints 20 (and its 備註 column sits one row low from row 8); not recoverable from the PDF. Noted on the site."
+  },
+  "Welfare20/post-20250624": {
+    "fields:W_LTC_CMS_CA100": "The manual's CA100 header declares 21 fields but its field table prints 20 (and its 備註 column sits one row low from row 8); not recoverable from the PDF. Noted on the site."
+  }
+}

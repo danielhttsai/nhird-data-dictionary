@@ -1,4 +1,5 @@
-"""Meaningful periodic spot-check: (1) run the local gap scan, (2) compare the
+"""Meaningful periodic spot-check: (1) run the local gap scan and the completeness
+check (completeness_check.py), (2) compare the
 live MOHW listing against what the repo covers (extracted/ dirs) — an absolute
 check that needs no baseline, so it works in CI — plus a delta vs the last tick
 when a baseline dotfile exists, and (3) check the deployed site answers 200.
@@ -36,6 +37,14 @@ local = subprocess.run([sys.executable, os.path.join(HERE, 'gap_check.py')],
                        errors='replace', cwd=ROOT).stdout.strip()
 print(local)
 if not local.startswith('CLEAN'):
+    bad = True
+
+# 1b) completeness: every field and code table each manual declares or prints is in
+#     the curated JSON (or its difference is on record in qa_exceptions.json)
+comp = subprocess.run([sys.executable, os.path.join(HERE, 'completeness_check.py'), '--strict'],
+                      capture_output=True, text=True, encoding='utf-8', errors='replace', cwd=ROOT)
+print(comp.stdout.strip())
+if comp.returncode != 0:
     bad = True
 
 # 2) live listing: absolute coverage check + delta vs baseline
