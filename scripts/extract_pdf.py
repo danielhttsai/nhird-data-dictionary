@@ -20,6 +20,8 @@ from pathlib import Path
 
 import pdfplumber
 
+import pdf_layout as L
+
 # Force UTF-8 stdout/stderr so JSON printed for a parent subprocess is not
 # mangled by Windows' cp950 default console encoding.
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -32,7 +34,7 @@ HEADER_LABELS = {
     "主鍵與比對欄位",
     # variant spellings that occur due to soft line breaks in source
     "譯碼簿\n更新日期", "譯碼簿", "更新日期",
-    "主鍵與比\n對欄位", "主鍵與比", "對欄位",
+    "主鍵與比\n對欄位", "主鍵與比", "對欄位", "主鍵與",
 }
 
 ROC_YEAR_RE = re.compile(r"(\d{1,3})\s*年(起|前|以後|(?:含)?以前)?")
@@ -74,57 +76,38 @@ def extract_pdf(pdf_path: Path) -> dict:
             # Fallback: regex on raw text if table-based parse missed essentials
             backfill_from_text(out["raw_text_first_page"], out)
 
-            # Field table — walk all pages
-            all_rows: list[dict] = []
-            in_codebook = False
-            for p in pdf.pages:
-                text = p.extract_text() or ""
-                if re.search(r"三、\s*欄位譯碼說明", text):
-                    in_codebook = True
-                if in_codebook:
-                    continue
-                for tbl in p.extract_tables() or []:
-                    rows = parse_field_table(tbl)
-                    all_rows.extend(rows)
-            # Fallback: topic-specific databases (Health82/101/103/104, Health59)
-            # use a different field-table layout:
-            #   序號 / 欄位(EN) / 型態 / 來源 / 內容(ZH) / 描述   (no 長度 column)
-            if not all_rows:
-                topic_rows: list[dict] = []
-                for p in pdf.pages:
-                    for tbl in p.extract_tables() or []:
-                        topic_rows.extend(parse_field_table_topic(tbl))
-                all_rows = topic_rows
-            # Fallback 2: survey codebook layout (Health49 過錄編碼簿):
-            #   變項名稱 / 變項說明 / 選項數值說明 / 備註
-            # Header appears once; continuation tables on later pages have no
-            # header, so detect the column mapping once then reuse it.
-            if not all_rows:
-                cb_rows: list[dict] = []
-                cb_cols: dict | None = None
-                for p in pdf.pages:
-                    for tbl in p.extract_tables() or []:
-                        rows, cb_cols = parse_codebook_table(tbl, cb_cols)
-                        cb_rows.extend(rows)
-                # Renumber sequentially
-                for i, f in enumerate(cb_rows, start=1):
-                    f["seq"] = i
-                all_rows = cb_rows
-            out["fields"] = dedupe_fields(all_rows)
-
-            # Codebooks (from codebook section onwards)
-            after = collect_text_from(pdf, marker="三、")
-            if after:
-                out["codebooks"] = parse_codebooks(after, out["fields"])
-
-            # QA
-            if out["field_count_declared"] is not None:
-                actual = len(out["fields"])
-                if actual != out["field_count_declared"]:
-                    out["qa"]["warnings"].append(
-                        f"field count mismatch: header={out['field_count_declared']}, parsed={actual}")
-            if not out["fields"]:
-                out["qa"]["warnings"].append("no fields parsed")
+            try:
+                items = L.read_items(pdf)
+                sections = L.split_sections(items)
+            except Exception as e:          # an unusual page: read it the older way
+                out["qa"]["warnings"].append(f"page geometry unreadable ({type(e).__name__}); "
+                                             "fields read row by row")
+                items, sections = [], [[]]
+            if len(sections) > 1:
+                extract_tables(out, sections)
+            else:
+                sec = L.parse_section(items)
+                fields = sec["fields"]
+                if not plausible(fields, out["field_count_declared"]):
+                    old = legacy_fields(pdf)
+                    if len(old) > len(fields):
+                        fields = old
+                out["fields"] = dedupe_fields(fields)
+                # Code tables: read from the text as before (the curated JSON was
+                # built that way, and merge_upstream compares like with like);
+                # a code table only the ruled-table reading finds is added.
+                after = collect_text_from(pdf, marker="三、")
+                out["codebooks"] = parse_codebooks(after, out["fields"]) if after else {}
+                for k, cb in section_codebooks(sec, out["fields"]).items():
+                    out["codebooks"].setdefault(k, cb)
+                if out["field_count_declared"] is not None:
+                    actual = len(out["fields"])
+                    if actual != out["field_count_declared"]:
+                        out["qa"]["warnings"].append(
+                            f"field count mismatch: header={out['field_count_declared']}, parsed={actual}")
+                if not out["fields"]:
+                    out["qa"]["warnings"].append("no fields parsed")
+            check_codebook_refs(out)
     except Exception as e:
         out["qa"]["errors"].append(f"extract failed: {type(e).__name__}: {e}")
 
@@ -137,6 +120,143 @@ def extract_pdf(pdf_path: Path) -> dict:
     return out
 
 
+# ============== Fields: what the page geometry gives, and the older row reader ==============
+
+def plausible(fields: list[dict], declared: int | None) -> bool:
+    """Is the geometric reading complete enough to use? It is when it found the
+    declared number of fields, or (no count declared) any fields at all."""
+    if not fields:
+        return False
+    if declared:
+        return len({f["seq"] for f in fields}) >= declared
+    return True
+
+
+def legacy_fields(pdf) -> list[dict]:
+    """The row-by-row reader the extractor used before it read by position. Kept
+    for layouts the geometric reader does not recognise (topic databases without
+    a 中文欄位名稱 column, survey 過錄編碼簿)."""
+    all_rows: list[dict] = []
+    in_codebook = False
+    for p in pdf.pages:
+        text = p.extract_text() or ""
+        if re.search(r"三、\s*欄位譯碼說明", text):
+            in_codebook = True
+        if in_codebook:
+            continue
+        for tbl in p.extract_tables() or []:
+            all_rows.extend(parse_field_table(tbl))
+    # Topic-specific databases (Health82/101/103/104, Health59):
+    #   序號 / 欄位(EN) / 型態 / 來源 / 內容(ZH) / 描述   (no 長度 column)
+    if not all_rows:
+        for p in pdf.pages:
+            for tbl in p.extract_tables() or []:
+                all_rows.extend(parse_field_table_topic(tbl))
+    # Survey codebook layout (Health49 過錄編碼簿):
+    #   變項名稱 / 變項說明 / 選項數值說明 / 備註
+    if not all_rows:
+        cb_rows: list[dict] = []
+        cb_cols: dict | None = None
+        for p in pdf.pages:
+            for tbl in p.extract_tables() or []:
+                rows, cb_cols = parse_codebook_table(tbl, cb_cols)
+                cb_rows.extend(rows)
+        for i, f in enumerate(cb_rows, start=1):
+            f["seq"] = i
+        all_rows = cb_rows
+    return all_rows
+
+
+def _expand_codes(field_code: str) -> list[str]:
+    """ABC1~ABC4 or ABC1~4 -> ABC1, ABC2, ABC3, ABC4."""
+    rng = re.match(r"([A-Z_]+?)(\d+)~(?:([A-Z_]+?))?(\d+)$", field_code)
+    if rng and (rng.group(3) is None or rng.group(3) == rng.group(1)):
+        base = rng.group(1)
+        return [f"{base}{n}" for n in range(int(rng.group(2)), int(rng.group(4)) + 1)]
+    return [field_code]
+
+
+def section_codebooks(sec: dict, fields: list[dict], prefix: str = "") -> dict:
+    """Code tables of one section: those printed as ruled tables, and for a
+    heading with no ruled table, the code list read from the text."""
+    out: dict = {}
+    for (field_zh, code), entries in sec["codebooks"]:
+        for c in _expand_codes(code):
+            out.setdefault(prefix + c, {"field_zh": field_zh, "entries": []})["entries"].extend(
+                [dict(e) for e in entries])
+    have = {code for (_, code), _ in sec["codebooks"]}
+    if any(code not in have for _, code in sec["cb_heads"]) and sec["cb_text"]:
+        text = parse_codebooks(sec["cb_text"], fields)
+        for k, cb in text.items():
+            if prefix + k not in out:
+                out[prefix + k] = cb
+    return out
+
+
+# ============== A manual that documents several tables ==============
+
+TABLE_KEYS = ("code_short", "name_zh", "name_en", "record_count_raw", "field_count_declared",
+              "file_size_raw", "attribute", "frequency", "update_history_raw",
+              "data_description_zh", "notes_zh", "primary_keys_raw")
+
+
+def extract_tables(out: dict, sections: list[list[dict]]) -> None:
+    """Welfare20's manual describes ten tables, each with its own header block,
+    field table and code tables. Every table is listed in out["tables"]; each
+    field carries the code of its table, and a code table is stored under
+    "<table code>.<field>", since the same column name (OBJID, STATUS) occurs in
+    several tables."""
+    tables, fields, codebooks = [], [], {}
+    for sec_items in sections:
+        sec = L.parse_section(sec_items)
+        hdr = {k: "" for k in TABLE_KEYS}
+        hdr["field_count_declared"] = None
+        parse_header_rows([L.table_texts(it, joined=True) for it in sec["header_items"]], hdr)
+        code = hdr["code_short"]
+        if not code:
+            continue
+        hdr["update_history"] = parse_update_history(hdr["update_history_raw"])
+        hdr["page_start"] = sec_items[0]["page"] + 1 if sec_items else None
+        sf = dedupe_fields(sec["fields"])
+        for f in sf:
+            f["table"] = code
+        hdr["fields_parsed"] = len(sf)
+        tables.append(hdr)
+        fields.extend(sf)
+        codebooks.update(section_codebooks(sec, sf, prefix=f"{code}."))
+        if hdr["field_count_declared"] is not None and len(sf) != hdr["field_count_declared"]:
+            out["qa"]["warnings"].append(
+                f"{code}: field count mismatch: header={hdr['field_count_declared']}, parsed={len(sf)}")
+        if not sf:
+            out["qa"]["warnings"].append(f"{code}: no fields parsed")
+    out["tables"] = tables
+    out["fields"] = fields
+    out["codebooks"] = codebooks
+    declared = [t["field_count_declared"] for t in tables]
+    out["field_count_declared"] = sum(declared) if declared and None not in declared else None
+
+
+def field_key(f: dict) -> str:
+    """How a field is addressed: its column name, prefixed with its table's code
+    in a manual that documents several tables."""
+    return f"{f['table']}.{f.get('name_en')}" if f.get("table") else (f.get("name_en") or "")
+
+
+_REF = re.compile(r"[（(]\s*([A-Z][A-Z0-9_~]+)\s*[）)][^。\n]{0,12}?譯碼")
+
+
+def check_codebook_refs(out: dict) -> None:
+    """A field whose note points to a code table (詳見…(CODE)譯碼說明) must have it."""
+    have = set(out["codebooks"])
+    for f in out["fields"]:
+        for m in _REF.finditer(f.get("description_zh") or ""):
+            ref = m.group(1)
+            keys = [f"{f['table']}.{c}" if f.get("table") else c for c in _expand_codes(ref)]
+            if not any(k in have for k in keys):
+                out["qa"]["warnings"].append(
+                    f"code table referenced but not extracted: {field_key(f)} -> {ref}")
+
+
 # ============== Page-1 header parsing ==============
 
 def _norm_label(s: str) -> str:
@@ -145,11 +265,15 @@ def _norm_label(s: str) -> str:
 
 def parse_page1_table(page, out: dict):
     """Pull labeled cells out of the page-1 header table(s)."""
-    tables = page.extract_tables() or []
+    parse_header_rows(page.extract_tables() or [], out)
+
+
+def parse_header_rows(tables: list, out: dict):
+    """Labeled cells of header tables given as rows of cell text."""
     cells_by_label: dict[str, list[str]] = {}
     normalised_labels = {_norm_label(x) for x in HEADER_LABELS}
     multi_row_labels = {_norm_label(x) for x in {
-        "資料描述", "注意事項", "主鍵與比對欄位", "更新日期", "譯碼簿更新日期",
+        "資料描述", "注意事項", "主鍵與比對欄位", "更新日期", "譯碼簿更新日期", "主鍵與",
     }}
 
     def is_label_text(t: str) -> bool:
@@ -174,7 +298,9 @@ def parse_page1_table(page, out: dict):
                         bucket.append(t)
                     if row_idx + 1 < len(table):
                         next_row = table[row_idx + 1]
-                        if all(((c or "").strip() == "") for c in next_row[:i + 1]):
+                        # (a next row that carries a label of its own is not a continuation)
+                        if (all(((c or "").strip() == "") for c in next_row[:i + 1])
+                                and not any(is_label_text(c or "") for c in next_row)):
                             for c2 in next_row[i + 1:]:
                                 t = (c2 or "").strip()
                                 if not t or is_label_text(t):
@@ -208,6 +334,8 @@ def parse_page1_table(page, out: dict):
     # MOHW puts the English name without spaces in some renderings: "AMBULATORYCARE EXPENDITURES BY VISITS"
     # Best-effort split at camel boundary if missing space
     out["name_en"] = re.sub(r"\s{2,}", " ", name_en).strip()
+    if out["name_en"] in ("無", "无", "-", "—", "N/A"):        # "英文檔名 無": the manual has none
+        out["name_en"] = ""
     out["record_count_raw"] = first(_norm_label("資料筆數")).replace("\n", " ")
     out["file_size_raw"] = first(_norm_label("檔案大小")).replace("\n", " ")
     fc = first(_norm_label("欄位數"))
@@ -222,7 +350,8 @@ def parse_page1_table(page, out: dict):
     )
     out["data_description_zh"] = first(_norm_label("資料描述"))
     out["notes_zh"] = first(_norm_label("注意事項"))
-    out["primary_keys_raw"] = first(_norm_label("主鍵與比對欄位"))
+    out["primary_keys_raw"] = (first(_norm_label("主鍵與比對欄位"))
+                               or first(_norm_label("主鍵與比")) or first(_norm_label("主鍵與")))
 
 
 def backfill_from_text(text: str, out: dict):
