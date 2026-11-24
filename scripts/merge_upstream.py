@@ -86,7 +86,7 @@ CB_EN = {"field_zh": "field_en"}
 ENTRY_EN = {"label_zh": "label_en"}
 ALL_EN = set(FILE_EN.values()) | set(FIELD_EN.values()) | set(CB_EN.values()) | set(ENTRY_EN.values())
 
-FILE_SKIP = {"fields", "codebooks", "source_pdf"}
+FILE_SKIP = {"fields", "codebooks", "source_pdf", "tables"}
 # Derived wholesale from the PDF and never curated: always follow the new PDF
 FILE_DERIVED = {"raw_text_first_page", "qa", "page_count", "update_history",
                 "update_history_raw"}
@@ -152,6 +152,8 @@ def stamp_english(data: dict, cache: dict[str, str]) -> None:
             zh = (obj.get(zh_key) or "").strip()
             obj[en_key] = cache.get(sha_text(zh), "") if zh else ""
     t(data, FILE_EN)
+    for tb in data.get("tables") or []:          # a manual that documents several tables
+        t(tb, FILE_EN)
     for f in data.get("fields") or []:
         t(f, FIELD_EN)
     for cb in (data.get("codebooks") or {}).values():
@@ -213,7 +215,14 @@ def _change(b, n) -> str:
 
 
 def _field_key(f: dict) -> str:
-    return _WS.sub("", f.get("name_en") or "") or f"seq:{f.get('seq')}"
+    """A field's identity: its column name; in a manual that documents several
+    tables (Welfare20) the table's code goes in front, as OBJID occurs in each."""
+    k = _WS.sub("", f.get("name_en") or "") or f"seq:{f.get('seq')}"
+    return f"{f['table']}.{k}" if f.get("table") else k
+
+
+def _table_key(t: dict) -> str:
+    return _WS.sub("", t.get("code_short") or "")
 
 
 def _entry_key(e: dict) -> str:
@@ -374,6 +383,9 @@ class Merge:
     # -- whole file -------------------------------------------------------
     def file(self, base: dict, ours: dict, new: dict) -> dict:
         self.attrs("file", base, ours, new, FILE_EN, skip=FILE_SKIP, derived=FILE_DERIVED)
+        if base.get("tables") or ours.get("tables") or new.get("tables"):
+            ours["tables"] = self.keyed("table ", base.get("tables") or [], ours.get("tables") or [],
+                                        new.get("tables") or [], _table_key, FILE_EN, "table")
         ours["fields"] = self.keyed("", base.get("fields") or [], ours.get("fields") or [],
                                     new.get("fields") or [], _field_key, FIELD_EN, "field")
         bcb, ocb, ncb = (base.get("codebooks") or {}, ours.get("codebooks") or {},
@@ -437,10 +449,11 @@ def unstable(base: dict, new: dict, old_text: str, new_text: str) -> str:
     n = {_field_key(f) for f in new.get("fields") or []}
     if b and len(b - n) * 3 > len(b):
         return f"the new extraction lost {len(b - n)} of {len(b)} fields"
-    gone = sorted(k for k in b - n if not k.startswith("seq:") and k in new_text)
+    col = lambda k: k.rsplit(".", 1)[-1]          # the column name without its table
+    gone = sorted(k for k in b - n if not col(k).startswith("seq:") and col(k) in new_text)
     if gone:
         return "fields missing from the new extraction but still printed in the new PDF: " + ", ".join(gone)
-    came = sorted(k for k in n - b if not k.startswith("seq:") and k in old_text)
+    came = sorted(k for k in n - b if not col(k).startswith("seq:") and col(k) in old_text)
     if came:
         return "fields new in the extraction although the old PDF already printed them: " + ", ".join(came)
     return ""

@@ -163,11 +163,12 @@ def collect_strings(only_files: list[str] | None = None, max_len: int | None = N
                     add(seen, e.get("label_zh"))
             if isinstance(cb, dict):
                 add(seen, cb.get("field_zh"))
-        # File-level descriptive blocks
-        add(seen, d.get("name_zh"))
-        if include_long:
-            for k in ("data_description_zh", "notes_zh", "primary_keys_raw"):
-                add(seen, d.get(k))
+        # File-level descriptive blocks (and those of each table a manual documents)
+        for blk in [d] + list(d.get("tables") or []):
+            add(seen, blk.get("name_zh"))
+            if include_long:
+                for k in ("data_description_zh", "notes_zh", "primary_keys_raw"):
+                    add(seen, blk.get(k))
     return sorted(seen)
 
 
@@ -200,11 +201,12 @@ def stamp_translations(cache: dict[str, str], only_files: list[str] | None = Non
             elif isinstance(cb, list):
                 for e in cb:
                     e["label_en"] = t(e.get("label_zh", ""))
-        d["data_description_en"] = t(d.get("data_description_zh", ""))
-        d["notes_en"] = t(d.get("notes_zh", ""))
-        d["primary_keys_en"] = t(d.get("primary_keys_raw", ""))
-        # name_zh_en is mainly useful when PDF didn't give a name_en
-        d["name_zh_en"] = t(d.get("name_zh", ""))
+        for blk in [d] + list(d.get("tables") or []):
+            blk["data_description_en"] = t(blk.get("data_description_zh", ""))
+            blk["notes_en"] = t(blk.get("notes_zh", ""))
+            blk["primary_keys_en"] = t(blk.get("primary_keys_raw", ""))
+            # name_zh_en is mainly useful when PDF didn't give a name_en
+            blk["name_zh_en"] = t(blk.get("name_zh", ""))
         json_path.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
         n_files += 1
     print(f"  stamped translations onto {n_files} JSON files")

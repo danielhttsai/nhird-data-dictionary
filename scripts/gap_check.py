@@ -40,10 +40,11 @@ for f in glob.glob('extracted/*/*.json'):
                 if zh(lz) and U not in lz and not (e.get('label_en') or '').strip():
                     untr_label += 1
                     if len(sl) < 5: sl.append(f'{code}:{nm}:{lz[:14]}')
-    for kz, ke in [('data_description_zh', 'data_description_en'), ('notes_zh', 'notes_en'),
-                   ('primary_keys_raw', 'primary_keys_en'), ('name_zh', 'name_zh_en')]:
-        if zh(d.get(kz)) and not (d.get(ke) or '').strip():
-            untr_file += 1
+    for blk in [d] + list(d.get('tables') or []):     # each table of a multi-table manual too
+        for kz, ke in [('data_description_zh', 'data_description_en'), ('notes_zh', 'notes_en'),
+                       ('primary_keys_raw', 'primary_keys_en'), ('name_zh', 'name_zh_en')]:
+            if zh(blk.get(kz)) and not (blk.get(ke) or '').strip():
+                untr_file += 1
     for x in d.get('fields', []):
         nz = (x.get('name_zh') or '').strip()
         if not nz:

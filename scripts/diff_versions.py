@@ -46,7 +46,8 @@ def diff_versions(earlier: dict, later: dict) -> dict:
     """Compute a structural diff between two extracted JSON dicts.
     Field identity = name_en (English code). Falls back to seq if name_en is missing."""
     def key(f):
-        return f.get("name_en") or f"seq:{f.get('seq')}"
+        k = f.get("name_en") or f"seq:{f.get('seq')}"
+        return f"{f['table']}.{k}" if f.get("table") else k   # several tables in one manual
     e_fields = {key(f): f for f in earlier.get("fields", [])}
     l_fields = {key(f): f for f in later.get("fields", [])}
     e_keys = set(e_fields)
