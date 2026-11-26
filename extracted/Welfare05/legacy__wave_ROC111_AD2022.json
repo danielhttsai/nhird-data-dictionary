@@ -4,7 +4,7 @@
   "name_zh": "111年老人狀況調查",
   "name_en": "2022 the Senior Citizen Condition Survey",
   "record_count_raw": "55歲以上：6,803 筆 主要家庭照顧者：503筆",
-  "field_count_declared": null,
+  "field_count_declared": 296,
   "file_size_raw": "7.72MB、256KB",
   "frequency": "5年",
   "attribute": "調查檔",
@@ -26,6 +26,7 @@
       "type": "Char",
       "length": 10,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Sample Number",
       "description_en": ""
@@ -37,20 +38,10 @@
       "type": "Num",
       "length": 8,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "expansion factor",
       "description_en": ""
-    },
-    {
-      "seq": 2,
-      "name_zh": "CQ1您的性別",
-      "name_en": "CQ1",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：男\n2：女",
-      "available_notes": [],
-      "name_zh_en": "CQ1 Your sex",
-      "description_en": "1: male 2: female"
     },
     {
       "seq": 3,
@@ -59,26 +50,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：新北市\n2：臺北市\n3：桃園市\n4：臺中市\n5：臺南市\n6：高雄市\n7：宜蘭縣\n8：新竹縣\n9：苗栗縣\n10：彰化縣\n11：南投縣\n12：雲林縣\n13：嘉義縣\n14：屏東縣\n15：臺東縣\n16：花蓮縣\n17：澎湖縣\n18：基隆市\n19：新竹市\n20：嘉義市\n21：金馬地區",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "county city",
-      "description_en": "1: New Taipei City 2: Taipei City 3: Taoyuan City 4: Taichung City 5: Tainan City 6: Kaohsiung City 7: Yilan County 8: Hsinchu County 9: Miaoli County 10: Changhua County 11: Nantou County 12: Yunlin County 13: Chiayi County 14: Pingtung County 15: Taitung County 16: Hualien County 17: Penghu County 18: Keelung City 19: Hsinchu City 20: Chiayi City 21: Kinmen and Matsu Area"
-    },
-    {
-      "seq": 3,
-      "name_zh": "CQ2_1您的年齡",
-      "name_en": "CQ2_1",
-      "type": "Num",
-      "length": 8,
-      "description_zh": "係指111年 12月31日足歲計算",
-      "available_notes": [
-        {
-          "roc_year": 111,
-          "ad_year": 2022,
-          "marker": ""
-        }
-      ],
-      "name_zh_en": "CQ2_1 Your age",
-      "description_en": "Calculated as full years of age as of December 31, ROC year 111 (2022)"
+      "description_en": "1: New Taipei City 2:\nTaipei City 3:\nTaoyuan City\n4: Taichung City 5:\nTainan City\n6: Kaohsiung\nCity 7: Yilan County 8:\nHsinchu County\n9: Miaoli\nCounty 10: Changhua\nCounty 11: Nantou County\n12: Yunlin County 13:\nChiayi County\n14: Pingtung\nCounty 15:\nTaitung County\n16: Hualien County\n17: Penghu County 18:\nKeelung City 19: Hsinchu\nCity 20: Chiayi City 21:\nKinmen and Matsu Area"
     },
     {
       "seq": 4,
@@ -87,20 +62,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：有配偶或同居\n2：喪偶\n3：離婚或分居\n4：未婚",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q1 Actual marital status",
       "description_en": "1: Has spouse or cohabiting 2: Widowed 3: Divorced or separated 4: Unmarried"
-    },
-    {
-      "seq": 4,
-      "name_zh": "CQ3 您與被照顧者的關係?",
-      "name_en": "CQ3",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟(含其配偶)\n7：姊妹(含其配偶)\n8：父親(含配偶父親)\n9：母親(含配偶母親)\n10：孫子(含其配偶)\n11：孫女(含其配偶)\n12：其他親戚(請說明)\n13：祖父母(含配偶祖父母)",
-      "available_notes": [],
-      "name_zh_en": "CQ3 Your relationship with the care recipient?",
-      "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother (including spouse)\n7: Sister (including spouse)\n8: Father (including spouse's father)\n9: Mother (including spouse's mother)\n10: Grandson (including spouse)\n11: Granddaughter (including spouse)\n12: Other relatives (specify)\n13: Grandparents (including spouse's grandparents)"
     },
     {
       "seq": 5,
@@ -109,20 +74,10 @@
       "type": "Num",
       "length": 8,
       "description_zh": "男生人數",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "M2_1 Number of males",
       "description_en": "Number of males"
-    },
-    {
-      "seq": 5,
-      "name_zh": "CQ3_O其他說明",
-      "name_en": "CQ3_O",
-      "type": "Char",
-      "length": 6,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ3_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 6,
@@ -131,20 +86,10 @@
       "type": "Num",
       "length": 8,
       "description_zh": "女生人數",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "M2_2 Number of females",
       "description_en": "Number of females"
-    },
-    {
-      "seq": 6,
-      "name_zh": "CQ4 您的婚姻狀況",
-      "name_en": "CQ4",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：有配偶或同居\n2：喪偶\n3：離婚或分居\n4：未婚",
-      "available_notes": [],
-      "name_zh_en": "CQ4 Your marital status",
-      "description_en": "1: Has spouse or cohabiting 2: Widowed 3: Divorced or separated 4: Unmarried"
     },
     {
       "seq": 7,
@@ -153,20 +98,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有\n2：有(含收養)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q2 Current number of children",
       "description_en": "1: No\n2: Yes (including adoption)"
-    },
-    {
-      "seq": 7,
-      "name_zh": "CQ5 您的最高教育程度是什麼?",
-      "name_en": "CQ5",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：不識字\n2：自修、私塾/識字\n3：國小\n4：國(初)中\n5：高級中等(高中、高職)\n6：專科(五專前三年劃記高職)\n7：大學\n8：研究所",
-      "available_notes": [],
-      "name_zh_en": "CQ5 What is your highest level of education?",
-      "description_en": "1: Illiterate\n2: Self-taught, old-style private school/literate\n3: Primary school\n4: Junior high school\n5: Senior secondary (senior high, senior vocational)\n6: Junior college (first three years of five-year junior college coded as vocational high school)\n7: University\n8: Graduate school"
     },
     {
       "seq": 8,
@@ -175,20 +110,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：一般住宅\n2：住宿機構(如老人福利機構、護理之家、榮譽國民之家、住宿式長照機構、身心障礙福利機構等)\n3：其他",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q3 Your current place of residence",
       "description_en": "1: Ordinary residence\n2: Residential institution (such as old-age welfare institution, nursing home, veterans home, residential long-term care institution, disability welfare institution)\n3: Other"
-    },
-    {
-      "seq": 8,
-      "name_zh": "CQ6 您是否與被照顧者同住?",
-      "name_en": "CQ6",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：同住\n2：未同住，住在隔壁或上下樓或同一社區，10分鐘內可以到達\n3：未同住，住在附近(交通1小時內可以到達)\n4：未同住，住的地方交通時間超過1小時",
-      "available_notes": [],
-      "name_zh_en": "CQ6 Do you live with the care recipient?",
-      "description_en": "1: Living together\n2: Not living together, lives next door, upstairs or downstairs, or in the same community, reachable within 10 minutes\n3: Not living together, lives nearby (reachable within 1 hour by transport)\n4: Not living together, travel time to residence exceeds 1 hour"
     },
     {
       "seq": 9,
@@ -197,20 +122,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：平房(只有一層樓)\n2：有電梯透天樓房\n3：無電梯透天樓房\n4：電梯大樓\n5：有電梯公寓\n6：無電梯公寓",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q4 Type of housing you currently live in",
       "description_en": "1: Single-story house (one floor only)\n2: Townhouse with elevator\n3: Townhouse without elevator\n4: Building with elevator\n5: Apartment with elevator\n6: Apartment without elevator"
-    },
-    {
-      "seq": 9,
-      "name_zh": "CQ7 您目前有沒有在工作?",
-      "name_en": "CQ7",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：沒有工作\n2：有工作",
-      "available_notes": [],
-      "name_zh_en": "CQ7 Are you currently working?",
-      "description_en": "1: Not working\n2: Working"
     },
     {
       "seq": 10,
@@ -219,20 +134,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：獨居\n2：與他人同住",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q5 Whom do you currently live with",
       "description_en": "1: Living alone 2: Living with others"
-    },
-    {
-      "seq": 10,
-      "name_zh": "CQ7_A 您工作是全職還是兼職?",
-      "name_en": "CQ7_A",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：全職\n2：兼職(含部分工時)",
-      "available_notes": [],
-      "name_zh_en": "CQ7_A Do you work full-time or part-time?",
-      "description_en": "1: Full-time\n2: Part-time (including part-time hours)"
     },
     {
       "seq": 11,
@@ -241,20 +146,10 @@
       "type": "Num",
       "length": 8,
       "description_zh": "同住人數",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q5_2_O Number of people living together",
       "description_en": "Number of co-residents"
-    },
-    {
-      "seq": 11,
-      "name_zh": "CQ7_B_1 為了照顧他/她，您工作是否受到影響?",
-      "name_en": "CQ7_B_1",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：沒有影響\n2：有影響",
-      "available_notes": [],
-      "name_zh_en": "CQ7_B_1 Has your work been affected by caring for him/her?",
-      "description_en": "1: Not affected\n2: Affected"
     },
     {
       "seq": 12,
@@ -263,20 +158,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：父母(含配偶父母)\n2：配偶(含同居人)\n3：未婚子女\n4：已婚子女(含其配偶)\n5：孫子女\n6：其他親戚(叔/伯/姑/舅/姨/嬸)\n7：朋友\n8：家庭外國籍看護\n9：其他(請說明)\n10：兄弟姊妹(含其配偶)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q5_2_A1 Who are the people living with you?",
       "description_en": "1: Parents (including spouse's parents)\n2: Spouse (including cohabiting partner)\n3: Unmarried children\n4: Married children (including their spouses)\n5: Grandchildren\n6: Other relatives (uncles/aunts/nephews/nieces)\n7: Friends\n8: Household foreign caregiver\n9: Other (specify)\n10: Siblings (including their spouses)"
-    },
-    {
-      "seq": 12,
-      "name_zh": "CQ7_B_2 請問是哪方面的影響?",
-      "name_en": "CQ7_B_2_1",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：必須減少工作時間\n2：必須請假(事假、病假、家庭照顧假)\n3：必須彈性調整工作時間\n4：其他(請說明)",
-      "available_notes": [],
-      "name_zh_en": "CQ7_B_2 In what way was it affected?",
-      "description_en": "1: Must reduce working hours\n2: Must take leave (personal leave, sick leave, family care leave)\n3: Must adjust working hours flexibly\n4: Other (specify)"
     },
     {
       "seq": 13,
@@ -285,17 +170,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 13,
-      "name_zh": "",
-      "name_en": "CQ7_B_2_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -307,17 +182,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 14,
-      "name_zh": "",
-      "name_en": "CQ7_B_2_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -329,20 +194,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 15,
-      "name_zh": "CQ7B2_O 其他說明",
-      "name_en": "CQ7B2_O",
-      "type": "Char",
-      "length": 10,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ7B2_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 16,
@@ -351,20 +206,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 16,
-      "name_zh": "CQ8 您目前是否在就學?",
-      "name_en": "CQ8",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：是\n2：否",
-      "available_notes": [],
-      "name_zh_en": "CQ8 Are you currently in school?",
-      "description_en": "1: yes 2: no"
     },
     {
       "seq": 17,
@@ -373,20 +218,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 17,
-      "name_zh": "CQ9 您在照顧他/她之前，有沒有在外面工作?",
-      "name_en": "CQ9",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：沒有\n2：有",
-      "available_notes": [],
-      "name_zh_en": "CQ9 Before caring for him/her, did you work outside the home?",
-      "description_en": "1:no 2:has"
     },
     {
       "seq": 18,
@@ -395,20 +230,10 @@
       "type": "Char",
       "length": 12,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q5_2_A1_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 18,
-      "name_zh": "CQ9_A 您當時工作是全職還兼職?",
-      "name_en": "CQ9_A",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：全職\n2：兼職(含部分工時)",
-      "available_notes": [],
-      "name_zh_en": "CQ9_A Was your work at that time full-time or part-time?",
-      "description_en": "1: Full-time\n2: Part-time (including part-time hours)"
     },
     {
       "seq": 19,
@@ -417,20 +242,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：自有或家人的\n2：租用\n3：借用(無償租賃)\n4：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q6 Is the house you currently live in owned or rented?",
       "description_en": "1: Owned by self or family\n2: Rented\n3: Borrowed (free of charge)\n4: Other (please specify)"
-    },
-    {
-      "seq": 19,
-      "name_zh": "CQ9_B 請問您當初是否為了要照顧這位家人，才結束這份工作?",
-      "name_en": "CQ9_B",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：是\n2：不是，為了其他原因而離職",
-      "available_notes": [],
-      "name_zh_en": "CQ9_B Did you stop that job in order to care for this family member?",
-      "description_en": "1: Yes\n2: No, left the job for other reasons"
     },
     {
       "seq": 20,
@@ -439,20 +254,10 @@
       "type": "Char",
       "length": 12,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q6_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 20,
-      "name_zh": "CQ10_1 被照顧者狀況?",
-      "name_en": "CQ10_1_1",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：失能\n2：失智\n3：其他(請說明)\n4：都沒有",
-      "available_notes": [],
-      "name_zh_en": "CQ10_1 Condition of the care recipient?",
-      "description_en": "1: Disability\n2: Dementia\n3: Other (please specify)\n4: None"
     },
     {
       "seq": 21,
@@ -461,20 +266,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：非常困難\n2：還算困難\n3：不太困難\n4：非常不困難\n97：不知道\n98：拒答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q6_1 Did you encounter difficulty when renting housing?",
       "description_en": "1: Very difficult\n2: Fairly difficult\n3: Not very difficult\n4: Not difficult at all\n97: Don't know\n98: Refused"
-    },
-    {
-      "seq": 21,
-      "name_zh": "",
-      "name_en": "CQ10_1_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 22,
@@ -483,20 +278,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：獨居(自己住)\n2：僅與配偶或同居人同住\n3：與兒子或女兒【含配偶(同居人)、子女配偶、孫子女】住在一起\n4：與親戚朋友同住\n5：和其他人一起住機構(如老人福利機構、護理之家等等…)\n6：其他(請說明)\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q7 What is your most preferred or desired living arrangement?",
       "description_en": "1: Living alone\n2: Living only with spouse or cohabiting partner\n3: Living with sons or daughters [including spouse (cohabiting partner), children's spouses, grandchildren]\n4: Living with relatives or friends\n5: Living with others in an institution (e.g., elderly welfare institutions, nursing homes, etc.)\n6: Other (specify)\n998: Not the respondent, unable to answer"
-    },
-    {
-      "seq": 22,
-      "name_zh": "",
-      "name_en": "CQ10_1_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 23,
@@ -505,20 +290,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：希望\n2：不希望",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q7_A",
       "description_en": "1: Wish to\n2: Do not wish to"
-    },
-    {
-      "seq": 23,
-      "name_zh": "CQ101_O 其他說明",
-      "name_en": "CQ101_O",
-      "type": "Char",
-      "length": 18,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ101_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 24,
@@ -527,20 +302,10 @@
       "type": "Char",
       "length": 18,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q7_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 24,
-      "name_zh": "CQ10_2_y 您何時照顧這位家人?",
-      "name_en": "CQ10_2_y",
-      "type": "Char",
-      "length": 3,
-      "description_zh": "民國XXX年",
-      "available_notes": [],
-      "name_zh_en": "CQ10_2_y When did you start caring for this family member?",
-      "description_en": "ROC year XXX"
     },
     {
       "seq": 25,
@@ -549,20 +314,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：很好\n2：還算好\n3：普通\n4：不太好\n5：很不好",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q8 How is your current health?",
       "description_en": "1: Very good\n2: Fairly good\n3: Fair\n4: Not very good\n5: Very poor"
-    },
-    {
-      "seq": 25,
-      "name_zh": "CQ10_3 您多常照顧他/她?",
-      "name_en": "CQ10_3",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：偶爾(每週不到 1次)\n2：一週1~2 次\n3：一週好幾次(3次以上)\n4：每天",
-      "available_notes": [],
-      "name_zh_en": "CQ10_3 How often do you care for him/her?",
-      "description_en": "1: Occasionally (less than once a week)\n2: 1-2 times a week\n3: Several times a week (3 or more)\n4: Every day"
     },
     {
       "seq": 26,
@@ -571,20 +326,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：否\n2：是",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q9 In the past year, have you lost 3 kg or 5% or more of your body weight without trying to lose weight?",
       "description_en": "1: no 2: yes"
-    },
-    {
-      "seq": 26,
-      "name_zh": "CQ10_3_hr 平 均每日照顧的時間大約多久?",
-      "name_en": "CQ10_3_hr",
-      "type": "Num",
-      "length": 8,
-      "description_zh": "小時",
-      "available_notes": [],
-      "name_zh_en": "CQ10_3_hr About how long on average per day do you spend caring for him/her?",
-      "description_en": "hours"
     },
     {
       "seq": 27,
@@ -593,20 +338,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：可以做到\n2：不可以做到",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q10 Without using your hands for support, can you stand up from a chair five times in a row within one minute?",
       "description_en": "1: Able to do\n2: Unable to do"
-    },
-    {
-      "seq": 27,
-      "name_zh": "CQ11 除了照顧這位家人，是否還需要照顧其他生活無法自理家人?",
-      "name_en": "CQ11",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：沒有\n2：有",
-      "available_notes": [],
-      "name_zh_en": "CQ11 Besides caring for this family member, do you also need to care for other family members who cannot care for themselves?",
-      "description_en": "1:no 2:has"
     },
     {
       "seq": 28,
@@ -615,20 +350,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "0：完全不會\n1：有幾天\n2：一半以上天數\n3：幾乎每天",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q11_1 Feeling nervous, anxious or irritable",
       "description_en": "0: Not at all\n1: Several days\n2: More than half the days\n3: Nearly every day"
-    },
-    {
-      "seq": 28,
-      "name_zh": "CQ11_2 還 有 幾位?(不含這位失能家人)",
-      "name_en": "CQ11_2",
-      "type": "Num",
-      "length": 8,
-      "description_zh": "照顧其他家人數",
-      "available_notes": [],
-      "name_zh_en": "CQ11_2 How many others are there? (excluding this disabled family member)",
-      "description_en": "Number of other family members cared for"
     },
     {
       "seq": 29,
@@ -637,20 +362,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q11_2 Unable to stop or control depression",
       "description_en": ""
-    },
-    {
-      "seq": 29,
-      "name_zh": "CQ12_1 請問是否有其他人與您輪替照顧這位需協助的家人呢?",
-      "name_en": "CQ12_1",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：沒有\n2：有",
-      "available_notes": [],
-      "name_zh_en": "CQ12_1 Does anyone else take turns with you caring for this family member who needs help?",
-      "description_en": "1:no 2:has"
     },
     {
       "seq": 30,
@@ -659,20 +374,10 @@
       "type": "",
       "length": "",
       "description_zh": "998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q11_3 Little interest or pleasure in doing things",
       "description_en": "998: Not the person himself/herself, unable to answer"
-    },
-    {
-      "seq": 30,
-      "name_zh": "CQ12_2 請問輪替照顧的人是被照顧者誰?",
-      "name_en": "CQ12_2",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟\n7：姊妹\n8：父親\n9：母親\n10：孫子\n11：孫女\n12：孫媳婦\n13：孫女婿\n14：配偶的父母\n15：祖父母\n16：其他親友\n17：本國籍看護\n18：外國籍看護\n19：其他家人均攤\n20：其他(請說明)",
-      "available_notes": [],
-      "name_zh_en": "CQ12_2 Who is the rotating caregiver in relation to the care recipient?",
-      "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother\n7: Sister\n8: Father\n9: Mother\n10: Grandson\n11: Granddaughter\n12: Granddaughter-in-law\n13: Grandson-in-law\n14: Spouse's parents\n15: Grandparents\n16: Other relatives or friends\n17: Local caregiver\n18: Foreign caregiver\n19: Shared among other family members\n20: Other (specify)"
     },
     {
       "seq": 31,
@@ -681,20 +386,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q11_4 Feeling down, depressed or hopeless",
       "description_en": ""
-    },
-    {
-      "seq": 31,
-      "name_zh": "CQ12_2_O其他說明",
-      "name_en": "CQ12_2_O",
-      "type": "Char",
-      "length": 10,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ12_2_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 32,
@@ -703,20 +398,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：從未\n2：偶爾\n3：有時\n4：總是\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q12_1 Feel that you lack companionship?",
       "description_en": "1: Never\n2: Occasionally\n3: Sometimes\n4: Always\n998: Not the person themselves, unable to answer"
-    },
-    {
-      "seq": 32,
-      "name_zh": "CQ13 您是否希望有替代照顧者?",
-      "name_en": "CQ13",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：否\n2：是",
-      "available_notes": [],
-      "name_zh_en": "CQ13 Would you like to have a substitute caregiver?",
-      "description_en": "1: no 2: yes"
     },
     {
       "seq": 33,
@@ -725,20 +410,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q12_2 Feel forgotten?",
       "description_en": ""
-    },
-    {
-      "seq": 33,
-      "name_zh": "CQ131_O 您為什麼不希望有替代照顧者?",
-      "name_en": "CQ131_O",
-      "type": "Char",
-      "length": 50,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ131_O Why do you not want a substitute caregiver?",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 34,
@@ -747,20 +422,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q12_3 Feel isolated from others?",
       "description_en": ""
-    },
-    {
-      "seq": 34,
-      "name_zh": "CQ14 過去一個月內，您的身心狀況好不好?",
-      "name_en": "CQ14",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：非常良好\n2：還算良好\n3：普通\n4：不太好\n5：非常不好",
-      "available_notes": [],
-      "name_zh_en": "CQ14 How have your physical and mental conditions been in the past month?",
-      "description_en": "1: Excellent\n2: Fairly good\n3: Fair\n4: Not very good\n5: Very poor"
     },
     {
       "seq": 35,
@@ -769,20 +434,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有困難，可獨立完成\n2：需要輔具或環境改善後可獨立完成\n3：無論有無使用輔具，部分還需要他人協助\n4：完全需要他人協助",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_1 Eating",
       "description_en": "1: No difficulty, can do independently\n2: Can do independently with assistive devices or environmental modification\n3: Still needs partial help from others whether or not assistive devices are used\n4: Completely needs help from others"
-    },
-    {
-      "seq": 35,
-      "name_zh": "CQ15 您是否持有身心障礙證明、領有重大傷病卡(含癌症)、(曾)罹患骨骼系統疾病致使照顧能力有限?",
-      "name_en": "CQ15",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：否\n2：是",
-      "available_notes": [],
-      "name_zh_en": "CQ15 Do you hold a disability certificate or a catastrophic illness card (including cancer), or have (had) a skeletal system disease that limits your ability to provide care?",
-      "description_en": "1: no 2: yes"
     },
     {
       "seq": 36,
@@ -791,20 +446,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_2 Bathing",
       "description_en": ""
-    },
-    {
-      "seq": 36,
-      "name_zh": "CQ16 您在照顧這位家人時，過去一個月是否有下列狀況?【可複選】",
-      "name_en": "CQ16_1",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：擔心照顧不周\n2：照顧的體力負擔大\n3：感到疲倦\n4：肌肉痠痛\n5：無法好好休息\n6：情緒受到被照顧這影響\n7：自我壓力調適困難\n8：照顧費用負擔大\n9：不能外出工作，收入受到影響\n10：家人關係受到影響\n11：不能外出，影響社交活動\n12：其他(請說明)\n13：都沒有",
-      "available_notes": [],
-      "name_zh_en": "CQ16 While caring for this family member, did the following situations occur in the past month? [Multiple answers allowed]",
-      "description_en": "1: Worried about not providing adequate care\n2: Heavy physical burden of caregiving\n3: Feeling tired\n4: Muscle soreness\n5: Unable to rest properly\n6: Emotions affected by the care recipient\n7: Difficulty coping with own stress\n8: Heavy burden of care costs\n9: Unable to work outside; income affected\n10: Family relationships affected\n11: Unable to go out; social activities affected\n12: Other (specify)\n13: None"
     },
     {
       "seq": 37,
@@ -813,19 +458,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_3 Dressing and undressing",
-      "description_en": ""
-    },
-    {
-      "seq": 37,
-      "name_zh": "",
-      "name_en": "CQ16_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -835,19 +470,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_4 Using the toilet",
-      "description_en": ""
-    },
-    {
-      "seq": 38,
-      "name_zh": "",
-      "name_en": "CQ16_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -857,19 +482,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_5 Getting in and out of bed or a chair",
-      "description_en": ""
-    },
-    {
-      "seq": 39,
-      "name_zh": "",
-      "name_en": "CQ16_4",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -879,19 +494,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_6 Moving around indoors",
-      "description_en": ""
-    },
-    {
-      "seq": 40,
-      "name_zh": "",
-      "name_en": "CQ16_5",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -901,19 +506,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_7 Preparing meals (cooking)",
-      "description_en": ""
-    },
-    {
-      "seq": 41,
-      "name_zh": "",
-      "name_en": "CQ16_6",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -923,19 +518,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_8 Washing (and hanging) clothes",
-      "description_en": ""
-    },
-    {
-      "seq": 42,
-      "name_zh": "",
-      "name_en": "CQ16_7",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -945,19 +530,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_9 Doing housework (cleaning, wiping tables and chairs, etc.)",
-      "description_en": ""
-    },
-    {
-      "seq": 43,
-      "name_zh": "",
-      "name_en": "CQ16_8",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -967,19 +542,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_10 Going out alone",
-      "description_en": ""
-    },
-    {
-      "seq": 44,
-      "name_zh": "",
-      "name_en": "CQ16_9",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -989,20 +554,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟(含其配偶)\n7：姊妹(含其配偶)\n8：父親(含其配偶)\n9：母親(含其配偶)\n10：孫子(含其配偶)\n11：孫女(含其配偶)\n12：其他親戚(請說明)\n13：鄰居\n14：朋友\n15：外國籍看護\n16：本國籍看護\n17：居家照顧服務員\n18：社區照顧服務員(日照中心)\n19：住宿機構照顧服務員\n20：志工\n21：其他(請說明)\n97：無照顧者",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_main Who mainly helps when there is difficulty",
       "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother (including spouse)\n7: Sister (including spouse)\n8: Father (including spouse)\n9: Mother (including spouse)\n10: Grandson (including spouse)\n11: Granddaughter (including spouse)\n12: Other relatives (specify)\n13: Neighbor\n14: Friend\n15: Foreign caregiver\n16: Local caregiver\n17: Home care service worker\n18: Community care service worker (day care center)\n19: Residential institution care service worker\n20: Volunteer\n21: Other (specify)\n97: No caregiver"
-    },
-    {
-      "seq": 45,
-      "name_zh": "",
-      "name_en": "CQ16_10",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 46,
@@ -1011,20 +566,10 @@
       "type": "Char",
       "length": 20,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_main_O",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 46,
-      "name_zh": "",
-      "name_en": "CQ16_11",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 47,
@@ -1033,20 +578,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男\n2：女",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q13_A Sex of the main family caregiver",
       "description_en": "1: male 2: female"
-    },
-    {
-      "seq": 47,
-      "name_zh": "CQ16_O其他說明",
-      "name_en": "CQ16_O",
-      "type": "Char",
-      "length": 14,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ16_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 48,
@@ -1055,6 +590,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "係指111年 12月31日足歲年齡",
+      "table": "part1",
       "available_notes": [
         {
           "roc_year": 111,
@@ -1066,37 +602,16 @@
       "description_en": "Age in full years as of December 31, ROC year 111 (2022)"
     },
     {
-      "seq": 48,
-      "name_zh": "CQ17 整體來說，您對於目前整體生活是否滿意?",
-      "name_en": "CQ17",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：非常滿意\n2：還算滿意\n3：普通\n4：不太滿意\n5：非常不滿意\n6：不一定/很難說",
-      "available_notes": [],
-      "name_zh_en": "CQ17 Overall, are you satisfied with your current life?",
-      "description_en": "1: Very satisfied\n2: Fairly satisfied\n3: Average\n4: Not very satisfied\n5: Very dissatisfied\n6: Not necessarily/hard to say"
-    },
-    {
       "seq": 49,
       "name_zh": "Q14 是否有從事工作?",
       "name_en": "Q14",
       "type": "Char",
       "length": 1,
       "description_zh": "1：有\n2：沒有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14 Do you currently work?",
       "description_en": "1:has 2:no"
-    },
-    {
-      "seq": 49,
-      "name_zh": "CQ18 不論被照顧者有沒有申請過，您認為政府推動的各項長期照顧2.0 服務措施，哪些項目對您的照顧狀況有幫助?",
-      "name_en": "CQ18_1",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：居家服務\n2：日間照顧服務(含小規模多機能服務)\n3：家庭托顧\n4：營養餐飲服務\n5：交通接送服務\n6：輔具購買、租借與居家無障礙環境改善\n7：專業服務(復能服務)\n8：喘息服務\n9：巷弄長照站\n10：失智症照顧服務\n11：家庭照顧者支持服務據點\n12：其他(請說明)\n98：都沒有",
-      "available_notes": [],
-      "name_zh_en": "CQ18 Regardless of whether the care recipient has applied, which of the government's Long-Term Care 2.0 service measures do you think help your caregiving situation?",
-      "description_en": "1: Home services\n2: Day care services (including small-scale multi-functional services)\n3: Family day care\n4: Nutritious meal services\n5: Transportation services\n6: Assistive device purchase, rental and home accessibility improvements\n7: Professional services (reablement services)\n8: Respite services\n9: Neighborhood long-term care stations\n10: Dementia care services\n11: Family caregiver support service centers\n12: Other (specify)\n98: None"
     },
     {
       "seq": 50,
@@ -1105,20 +620,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：民意代表、主管及經理人員\n2：專業人員\n3：技術員及助理專業人員\n4：事務支援人員\n5：服務及銷售工作人員\n6：農、林、漁、牧業生產人員\n7：技藝有關工作人員\n8：機械設備操作及組裝人員\n9：基層技術工及勞力工",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_A What is your occupation?",
       "description_en": "1: Legislators, senior officials and managers\n2: Professionals\n3: Technicians and associate professionals\n4: Clerical support workers\n5: Service and sales workers\n6: Skilled agricultural, forestry, fishing and animal husbandry workers\n7: Craft and related trades workers\n8: Plant and machine operators and assemblers\n9: Elementary occupations (basic technicians and laborers)"
-    },
-    {
-      "seq": 50,
-      "name_zh": "",
-      "name_en": "CQ18_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 51,
@@ -1127,20 +632,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：雇主(有僱用員工)\n2：自營作業者(無雇用員工)\n3：受政府僱用者\n4：受私人僱用者\n5：無酬家屬工作者(每週工作 15小時以上者)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_B What is your employment status?",
       "description_en": "1: Employer (with employees)\n2: Self-employed (no employees)\n3: Employed by the government\n4: Employed by a private employer\n5: Unpaid family worker (working 15 hours or more per week)"
-    },
-    {
-      "seq": 51,
-      "name_zh": "",
-      "name_en": "CQ18_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 52,
@@ -1149,20 +644,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：經濟上需要(不工作錢不夠用)\n2：避免自己退化\n3：持續和社會互動，避免脫節\n4：想維持有體力上勞動\n5：希望自己能對家庭和社會貢獻\n6：想傳承經驗(或技術)\n7：怕無聊，打發時間\n8：公司留任\n9：其他(請說明)\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_C What is the main reason you work?",
       "description_en": "1: Financial need (not enough money without working)\n2: To prevent own decline\n3: To keep interacting with society and avoid becoming disconnected\n4: Wanting to keep up physical labor\n5: Hoping to contribute to family and society\n6: Wanting to pass on experience (or skills)\n7: Fear of boredom; passing the time\n8: Retained by the company\n9: Other (specify)\n998: Not the respondent, unable to answer"
-    },
-    {
-      "seq": 52,
-      "name_zh": "",
-      "name_en": "CQ18_4",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 53,
@@ -1171,20 +656,10 @@
       "type": "Char",
       "length": 58,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_C_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 53,
-      "name_zh": "",
-      "name_en": "CQ18_5",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 54,
@@ -1193,20 +668,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：___歲\n2：沒有想過\n3：不確定，視情況才決定\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_D At what age do you wish to retire completely?",
       "description_en": "1: ___ years old\n2: Have not thought about it\n3: Not sure, depends on the circumstances\n998: Not the respondent, unable to answer"
-    },
-    {
-      "seq": 54,
-      "name_zh": "",
-      "name_en": "CQ18_6",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 55,
@@ -1215,20 +680,10 @@
       "type": "Num",
       "length": 8,
       "description_zh": "退休年齡",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q14_D1O Age at retirement",
       "description_en": "Retirement age"
-    },
-    {
-      "seq": 55,
-      "name_zh": "",
-      "name_en": "CQ18_7",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 56,
@@ -1237,20 +692,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：自己工作或營業收入\n2：配偶或同居人提供\n3：自己的儲蓄、利息、租金、投資所得或商業保險給付\n4：自己的退休金、撫卹金或社會保險一次給付\n5：軍、公教、勞、農、國保年金給付\n6：子女或孫子女奉養(含媳婦、女婿、孫媳婦或孫婿)\n7：向他人或金融機構借貸\n8：政府救助或津貼\n9：社會或親友救助\n10：其他(請說明)\n98：無次要",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q15_1 What is your current source of living expenses? [Main]",
       "description_en": "1: Own work or business income\n2: Provided by spouse or cohabiting partner\n3: Own savings, interest, rent, investment income or commercial insurance benefits\n4: Own pension, condolence payment or lump-sum social insurance benefits\n5: Military, civil servant and teacher, labor, farmer and national insurance annuity benefits\n6: Support from children or grandchildren (including daughters-in-law, sons-in-law, granddaughters-in-law or grandsons-in-law)\n7: Borrowing from others or financial institutions\n8: Government assistance or allowances\n9: Assistance from society, relatives or friends\n10: Other (specify)\n98: No secondary"
-    },
-    {
-      "seq": 56,
-      "name_zh": "",
-      "name_en": "CQ18_8",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 57,
@@ -1259,19 +704,9 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q15_2 What is your current source of living expenses? [Secondary]",
-      "description_en": ""
-    },
-    {
-      "seq": 57,
-      "name_zh": "",
-      "name_en": "CQ18_9",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
       "description_en": ""
     },
     {
@@ -1281,20 +716,10 @@
       "type": "Char",
       "length": 14,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q15_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 58,
-      "name_zh": "",
-      "name_en": "CQ18_10",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 59,
@@ -1303,20 +728,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：有\n2：都沒有\n97：不知道\n98：拒答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q16 Do you and your spouse (or cohabiting partner) currently have savings or property?",
       "description_en": "1: Yes\n2: None at all\n97: Do not know\n98: Refused"
-    },
-    {
-      "seq": 59,
-      "name_zh": "",
-      "name_en": "CQ18_11",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 60,
@@ -1325,20 +740,10 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：5999元以下\n2：6000元~11,999元\n3：12,000元~17,999元\n4：18,000元~23,999元\n5：24,000元~29,999元\n6：30,000元~35,999元\n7：36,000元~41,999元\n8：42,000元~47,999元\n9：48,000元~53,999元\n10：54,000 元~59,999元\n11：60,000 元以上",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q17_1 How much money per month is currently available for living expenses (approx. NT$)?",
       "description_en": "1: NT$5,999 or below\n2: NT$6000-11,999\n3: NT$12,000-17,999\n4: NT$18,000-23,999\n5: NT$24,000-29,999\n6: NT$30,000-35,999\n7: NT$36,000-41,999\n8: NT$42,000-47,999\n9: NT$48,000-53,999\n10: NT$54,000-59,999\n11: NT$60,000 or above"
-    },
-    {
-      "seq": 60,
-      "name_zh": "CQ18_O其他說明",
-      "name_en": "CQ18_O",
-      "type": "Char",
-      "length": 24,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ18_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 61,
@@ -1347,20 +752,10 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：相當充裕，且有餘\n2：大致夠用，不感覺欠缺\n3：有點不夠用，略有困難\n4：相當困難\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q17_2 Is your current average monthly living expense sufficient?",
       "description_en": "1: Quite ample, with surplus\n2: Generally sufficient, no sense of shortage\n3: Somewhat insufficient, slightly difficult\n4: Quite difficult\n998: Not the respondent, unable to answer"
-    },
-    {
-      "seq": 61,
-      "name_zh": "CQ19 這位被照顧者是否申請過長照2.0服務?",
-      "name_en": "CQ19",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：是\n2：否",
-      "available_notes": [],
-      "name_zh_en": "CQ19 Has this care recipient applied for Long-term Care 2.0 services?",
-      "description_en": "1: yes 2: no"
     },
     {
       "seq": 62,
@@ -1369,20 +764,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：使用居家照顧或日間照顧\n2：僱用本國籍看護(居家或住院)\n3：僱用外國籍看護(居家或住院)\n4：住宿機構費用\n5：無照顧費用支出",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q17_3 In the past year, have you had the following care costs for taking care of you?",
       "description_en": "1: Use home care or day care\n2: Hire a domestic caregiver (home or hospital)\n3: Hire a foreign caregiver (home or hospital)\n4: Residential institution fees\n5: No caregiving expenses"
-    },
-    {
-      "seq": 62,
-      "name_zh": "CQ20 過去一年內，您的家庭使用/接受過的長期照顧 2.0 服務資源有哪些?",
-      "name_en": "CQ20_1",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：居家服務\n2：日間照顧服務(含小規模多機能服務)\n3：家庭托顧\n4：營養餐飲服務\n5：交通接送服務\n6：輔具購買、租借與居家無障礙環境改善\n7：專業服務(復能服務)",
-      "available_notes": [],
-      "name_zh_en": "CQ20 Which Long-Term Care 2.0 service resources has your family used/received in the past year?",
-      "description_en": "1: Home care services\n2: Day care services (including small-scale multi-function services)\n3: Family-based care\n4: Nutritious meal services\n5: Transportation services\n6: Purchase and rental of assistive devices and barrier-free home environment modification\n7: Professional services (reablement services)"
     },
     {
       "seq": 63,
@@ -1391,17 +776,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 63,
-      "name_zh": "",
-      "name_en": "CQ20_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1413,20 +788,10 @@
       "type": "Char",
       "length": 5,
       "description_zh": "居家或日間照顧平均自付費用",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q173_1_A Average out-of-pocket cost, home care or day care",
       "description_en": "Average out-of-pocket cost, home or day care"
-    },
-    {
-      "seq": 64,
-      "name_zh": "",
-      "name_en": "CQ20_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 65,
@@ -1435,20 +800,10 @@
       "type": "Char",
       "length": 5,
       "description_zh": "本國看護平均自付費用",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q173_2_A Average out-of-pocket cost, domestic caregiver",
       "description_en": "Average out-of-pocket cost, domestic caregiver"
-    },
-    {
-      "seq": 65,
-      "name_zh": "",
-      "name_en": "CQ20_4",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 66,
@@ -1457,20 +812,10 @@
       "type": "Char",
       "length": 5,
       "description_zh": "外國看護平均自付費用",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q173_3_A Average out-of-pocket cost, foreign caregiver",
       "description_en": "Average out-of-pocket cost, foreign caregiver"
-    },
-    {
-      "seq": 66,
-      "name_zh": "",
-      "name_en": "CQ20_5",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 67,
@@ -1479,20 +824,10 @@
       "type": "Char",
       "length": 5,
       "description_zh": "住宿機構平均自付費用",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q173_4_A Average out-of-pocket cost, residential institution",
       "description_en": "Average out-of-pocket cost, residential institution"
-    },
-    {
-      "seq": 67,
-      "name_zh": "",
-      "name_en": "CQ20_6",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 68,
@@ -1501,20 +836,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：意外保險",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q18 Which group currently joined",
       "description_en": "1: Accident insurance"
-    },
-    {
-      "seq": 68,
-      "name_zh": "",
-      "name_en": "CQ20_7",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 69,
@@ -1523,20 +848,10 @@
       "type": "",
       "length": "",
       "description_zh": "2：壽險\n3：醫療險\n4：儲蓄險\n5：長照服務相關保險(失能險)\n6：其他(請說明)\n7：沒有投保",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "...commercial insurance(s)?",
       "description_en": "2: Life insurance\n3: Medical insurance\n4: Savings insurance\n5: Long-term care service insurance (disability insurance)\n6: Other (specify)\n7: No insurance"
-    },
-    {
-      "seq": 69,
-      "name_zh": "",
-      "name_en": "CQ20_8",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 70,
@@ -1545,17 +860,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
-    },
-    {
-      "seq": 70,
-      "name_zh": "",
-      "name_en": "CQ20_9",
-      "type": "",
-      "length": "",
-      "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1567,20 +872,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 71,
-      "name_zh": "",
-      "name_en": "CQ20_10",
-      "type": "",
-      "length": "",
-      "description_zh": "8：喘息服務\n9：巷弄長照站\n10：失智症照顧服務\n11：家庭照顧者支持服務據點\n12：其他(請說明)",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": "8: Respite services\n9: Community care stations in alleys and lanes\n10: Dementia care services\n11: Family caregiver support centers\n12: Other (specify)"
     },
     {
       "seq": 72,
@@ -1589,20 +884,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 72,
-      "name_zh": "CQ20_O其他說明",
-      "name_en": "CQ20_O",
-      "type": "Char",
-      "length": 10,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ20_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 73,
@@ -1611,20 +896,10 @@
       "type": "Char",
       "length": 20,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q18_O Other (specify)",
       "description_en": "this column is for text description"
-    },
-    {
-      "seq": 73,
-      "name_zh": "CQ21 您不申請長期照顧 2.0 服務的理由是?",
-      "name_en": "CQ21_1",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "1：已有外國籍看護照顧\n2：不知道有長照服務\n3：申請太麻煩\n4：被照顧者不願給外人照顧\n5：照顧家人是自己不容推卸責任\n6：其他親友不同意\n7：申請過但資格不符\n8：考量部分負擔費用\n9：使用過但服務無法滿足需求\n10：其他(請說明)",
-      "available_notes": [],
-      "name_zh_en": "CQ21 What is your reason for not applying for Long-term Care 2.0 services?",
-      "description_en": "1: Already cared for by a foreign caregiver\n2: Did not know long-term care services exist\n3: Application too troublesome\n4: Care recipient unwilling to be cared for by outsiders\n5: Caring for family is one's own responsibility that cannot be shirked\n6: Other relatives or friends disagree\n7: Applied but ineligible\n8: Concerned about copayment costs\n9: Used but services did not meet needs\n10: Other (specify)"
     },
     {
       "seq": 74,
@@ -1633,20 +908,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：不需要\n2：需要",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q19 Is it necessary to provide financial support to family members?",
       "description_en": "1: Not needed 2: Needed"
-    },
-    {
-      "seq": 74,
-      "name_zh": "",
-      "name_en": "CQ21_2",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 75,
@@ -1655,20 +920,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：子女\n2：孫子女\n3：父母(含配偶父母)\n4：兄弟姊妹\n5：其他親戚(含姻親)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q19_2 Who are the people needing support?",
       "description_en": "1: Children\n2: Grandchildren\n3: Parents (including spouse's parents)\n4: Siblings\n5: Other relatives (including in-laws)"
-    },
-    {
-      "seq": 75,
-      "name_zh": "",
-      "name_en": "CQ21_3",
-      "type": "",
-      "length": "",
-      "description_zh": "",
-      "available_notes": [],
-      "name_zh_en": "",
-      "description_en": ""
     },
     {
       "seq": 76,
@@ -1677,20 +932,10 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
-    },
-    {
-      "seq": 76,
-      "name_zh": "CQ21_O其他說明",
-      "name_en": "CQ21_O",
-      "type": "Char",
-      "length": 32,
-      "description_zh": "此欄為文字說明",
-      "available_notes": [],
-      "name_zh_en": "CQ21_O Other (specify)",
-      "description_en": "this column is for text description"
     },
     {
       "seq": 77,
@@ -1699,6 +944,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1710,6 +956,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：看電視\n2：逛街、購物、旅遊、收藏物品\n3：線上(查資料、看影片…)\n4：聽廣播或聽音樂\n5：看報紙、雜誌、讀書或小說\n6：和親友聊天、泡茶、唱歌\n7：參加宗教活動(進香團)\n8：和朋友下棋或打牌\n9：戶外跳舞、練功、散步、打球\n10：室內運動、健身\n11：種花、整理花園、園藝\n12：繪畫、手工藝\n13：其他(請說明)\n98：無休閒活動",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q20_1 In the past three months, what leisure activities did you usually do? [Primary]",
       "description_en": "1: Watching TV\n2: Window shopping, shopping, traveling, collecting items\n3: Online (looking up information, watching videos...)\n4: Listening to radio or music\n5: Reading newspapers, magazines, books or novels\n6: Chatting with relatives and friends, drinking tea, singing\n7: Participating in religious activities (pilgrimage groups)\n8: Playing chess or cards with friends\n9: Outdoor dancing, exercise practice, walking, playing ball games\n10: Indoor exercise, fitness\n11: Growing flowers, tidying the garden, gardening\n12: Painting, handicrafts\n13: Other (specify)\n98: No leisure activities"
@@ -1721,6 +968,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：看電視\n2：逛街、購物、旅遊、收藏物品\n3：線上(查資料、看影片…)\n4：聽廣播或聽音樂\n5：看報紙、雜誌、讀書或小說\n6：和親友聊天、泡茶、唱歌\n7：參加宗教活動(進香團)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q20_2 In the past three months, what leisure activities did you usually do? [Secondary]",
       "description_en": "1: Watching television\n2: Window shopping, shopping, traveling, collecting items\n3: Online (looking up information, watching videos...)\n4: Listening to the radio or music\n5: Reading newspapers, magazines, books or novels\n6: Chatting with relatives and friends, drinking tea, singing\n7: Taking part in religious activities (pilgrimage groups)"
@@ -1732,6 +980,7 @@
       "type": "",
       "length": "",
       "description_zh": "8：和朋友下棋或打牌\n9：戶外跳舞、練功、散步、打球\n10：室內運動、健身\n11：種花、整理花園、園藝\n12：繪畫、手工藝\n13：其他(請說明)\n98：無次要/無再次要",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q20_3 In the past three months, what leisure activities did you usually do? [Third most important]",
       "description_en": "8: Playing chess or cards with friends\n9: Outdoor dancing, exercise routines, walking, ball games\n10: Indoor exercise, fitness\n11: Growing flowers, tending a garden, gardening\n12: Painting, handicrafts\n13: Other (specify)\n98: No secondary/no further secondary"
@@ -1743,6 +992,7 @@
       "type": "Char",
       "length": 30,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q20_O Other (specify)",
       "description_en": "this column is for text description"
@@ -1754,6 +1004,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1；沒有\n2：有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q21 When engaging in leisure activities, do you have any difficulties or restrictions?",
       "description_en": "1: No\n2: Yes"
@@ -1765,6 +1016,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：視力或聽力狀況不佳\n2：擔心自己容易跌倒\n3：擔心需要常跑廁所\n4：擔心自己關節狀況\n5：因為慢性疾病影響不方便\n6：因為情緒影響\n7：費用太高\n8：交通不方便\n9：家人不支持\n10：沒有無障礙/符合老人需求的設施\n11：擔心相關人員態度不好、不耐煩\n12：住家附近沒有場所\n13：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q21_2 What difficulties or restrictions are there? [Multiple answers allowed]",
       "description_en": "1: Poor vision or hearing\n2: Worried about falling easily\n3: Worried about needing frequent toilet trips\n4: Worried about own joint condition\n5: Inconvenient due to chronic diseases\n6: Due to emotional effects\n7: Cost too high\n8: Inconvenient transportation\n9: Family does not support\n10: No accessible facilities/facilities that meet the needs of older adults\n11: Worried that staff have bad attitudes or are impatient\n12: No venue near home\n13: Other (specify)"
@@ -1776,6 +1028,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1787,6 +1040,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1798,6 +1052,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1809,6 +1064,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1820,6 +1076,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1831,6 +1088,7 @@
       "type": "",
       "length": 1,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1842,6 +1100,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1853,6 +1112,7 @@
       "type": "",
       "length": 1,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1864,6 +1124,7 @@
       "type": "Char",
       "length": 30,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q21_2_O Other (specify)",
       "description_en": "this column is for text description"
@@ -1875,6 +1136,7 @@
       "type": "Char",
       "length": 8,
       "description_zh": "1：沒有\n2：有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q22 In the past year, have you participated in any learning activities? (courses, lectures...)",
       "description_en": "1:no 2:has"
@@ -1886,6 +1148,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：參加實體學習活動\n2：參加線上學習活動",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q22_2 Format of course participation?",
       "description_en": "1: Participate in in-person learning activities\n2: Participate in online learning activities"
@@ -1897,6 +1160,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -1908,6 +1172,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：從不\n2：每月少於 1次\n3：每個月 1次\n4：每個月 2-3次\n5：每週1次\n6：每週2-6 次\n7：每天",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q23 In the past year, how often did you have social contact with friends, relatives or colleagues (including meeting in person, phone calls, online contact, etc.) (work-related contact does not count)",
       "description_en": "1: Never\n2: Less than once a month\n3: Once a month\n4: 2-3 times a month\n5: Once a week\n6: 2-6 times a week\n7: Every day"
@@ -1919,6 +1184,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有參加\n2：有參加",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_1 Volunteer service",
       "description_en": "1: Not participating\n2: Participating"
@@ -1930,6 +1196,7 @@
       "type": "",
       "length": "",
       "description_zh": "1：一週至少一次\n2：一月至少一次\n3：一季至少一次\n4：一年至少一次",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_1_A Participation frequency",
       "description_en": "1: At least once a week\n2: At least once a month\n3: At least once a quarter\n4: At least once a year"
@@ -1941,6 +1208,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有參加\n2：有參加",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_2 Political",
       "description_en": "1: Not participating\n2: Participating"
@@ -1952,6 +1220,7 @@
       "type": "",
       "length": "",
       "description_zh": "1：一週至少一次\n2：一月至少一次\n3：一季至少一次\n4：一年至少一次",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_2_A Participation frequency",
       "description_en": "1: At least once a week\n2: At least once a month\n3: At least once a quarter\n4: At least once a year"
@@ -1963,6 +1232,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有參加\n2：有參加",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_3 Religious",
       "description_en": "1: Not participating\n2: Participating"
@@ -1974,6 +1244,7 @@
       "type": "",
       "length": "",
       "description_zh": "1：一週至少一次\n2：一月至少一次\n3：一季至少一次\n4：一年至少一次",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_3_A Participation frequency",
       "description_en": "1: At least once a week\n2: At least once a month\n3: At least once a quarter\n4: At least once a year"
@@ -1985,6 +1256,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有參加\n2：有參加",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_4 Besides the above, activities of other social groups (e.g., culture, leisure, sports...)",
       "description_en": "1: Not participating\n2: Participating"
@@ -1996,6 +1268,7 @@
       "type": "",
       "length": "",
       "description_zh": "1：一週至少一次\n2：一月至少一次\n3：一季至少一次\n4：一年至少一次",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q24_4_A Participation frequency",
       "description_en": "1: At least once a week\n2: At least once a month\n3: At least once a quarter\n4: At least once a year"
@@ -2007,6 +1280,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有\n2：有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q25 Have you participated in organizing the activities of the above groups?",
       "description_en": "1:no 2:has"
@@ -2018,6 +1292,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "0：從來沒使用(包含無設備使用)\n1：每月少於一次\n2：每月至少一次(但不是每週)\n3：每週至少一次(但不是每天)\n4：每天或幾乎每天",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q26 In the past three months, on average, about how often did you use the Internet?",
       "description_en": "0: Never used (including no equipment to use)\n1: Less than once a month\n2: At least once a month (but not weekly)\n3: At least once a week (but not daily)\n4: Daily or almost daily"
@@ -2029,6 +1304,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：使用網路查資訊\n2：學習新事物、看線上課程(線上學習)\n3：視訊診療(遠距醫療)、預約掛號、查詢看診進度、健保快易通APP…等(醫療服務)\n4：用LINE、Facebook 和親友聊天、視訊(人際互動)\n5：玩線上遊戲、聽音樂、看影片\n6：網路購物、行動支付(購物)\n7：其他(請說明)\n8：每月少於一次(含從來沒使用)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q27 Which of the following services have you used online yourself (by computer or mobile phone)? [Multiple answers allowed]",
       "description_en": "1: Using the Internet to look up information\n2: Learning new things, taking online courses (online learning)\n3: Video consultation (telemedicine), appointment booking, checking consultation progress, NHI Express App, etc. (medical services)\n4: Chatting or video calling with relatives and friends via LINE or Facebook (interpersonal interaction)\n5: Playing online games, listening to music, watching videos\n6: Online shopping, mobile payment (shopping)\n7: Other (specify)\n8: Less than once a month (including never used)"
@@ -2040,6 +1316,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2051,6 +1328,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2062,6 +1340,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2073,6 +1352,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2084,6 +1364,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2095,6 +1376,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2106,6 +1388,7 @@
       "type": "Char",
       "length": 14,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q27_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2117,6 +1400,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：從未想過\n2：繼續工作\n3：專業知識或才藝的傳授\n4：參加進修學習課程(才藝學習)\n5：志願服務\n6：四處旅遊\n7：從事宗教修行活動\n8：在家照顧孫子女\n9：從事養生保健活動\n10：賦閒在家\n11：其他(請說明)\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q28 Your future living arrangements? [Multiple answers allowed]",
       "description_en": "1: Never thought about it\n2: Continue working\n3: Teaching professional knowledge or skills\n4: Taking continuing education courses (learning skills)\n5: Volunteer work\n6: Traveling around\n7: Engaging in religious practice\n8: Caring for grandchildren at home\n9: Engaging in health-preserving activities\n10: Staying at home without work\n11: Other (specify)\n998: Not the respondent, unable to answer"
@@ -2128,6 +1412,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2139,6 +1424,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2150,6 +1436,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2161,6 +1448,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2172,6 +1460,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2183,6 +1472,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2194,6 +1484,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2205,6 +1496,7 @@
       "type": "Char",
       "length": 34,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q28_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2216,6 +1508,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有\n2：有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q29 Which public transportation have you taken in the past three months?",
       "description_en": "1:no 2:has"
@@ -2227,6 +1520,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：公車或客運\n2：火車(台鐵)\n3：捷運或輕軌\n4：高鐵",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q29_2 Which public transportation modes have you taken? [Multiple answers allowed]",
       "description_en": "1: Bus or coach\n2: Train (Taiwan Railways)\n3: MRT or light rail\n4: High-speed rail"
@@ -2238,6 +1532,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2249,6 +1544,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2260,6 +1556,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2271,6 +1568,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：沒有\n2：有",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30 Did you encounter difficulty when riding buses or coaches?",
       "description_en": "1:no 2:has"
@@ -2282,6 +1580,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：站牌\n2：班次\n3：路線不足\n4：車輛設施和司機服務狀況\n5：轉乘其他交通工具不放便\n6：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30_2 What difficulties do you encounter when riding? [Multiple answers allowed]",
       "description_en": "1: Bus stop\n2: Frequency of service\n3: Insufficient routes\n4: Vehicle facilities and driver service\n5: Inconvenient transfer to other transport\n6: Other (specify)"
@@ -2293,6 +1592,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2304,6 +1604,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2315,6 +1616,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2326,6 +1628,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2337,6 +1640,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：住家離公車或客運車站牌太遠\n2：沒有候車亭或座椅\n3：站牌設置不明顯\n4：沒有時刻表或路線圖說明不清\n5：時刻表或路線圖斑駁或字太小\n6：沒有顯示下一班車到站時間的設施，不知道車子何時會來或已經過了",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30_2A Bus stops (describe in detail)",
       "description_en": "1: Home is too far from the bus or coach stop\n2: No shelter or seats at the stop\n3: Stop sign not conspicuous\n4: No timetable, or route map unclear\n5: Timetable or route map faded or text too small\n6: No facility showing the next bus arrival time, cannot tell when the bus will come or whether it has already passed"
@@ -2348,6 +1652,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2359,6 +1664,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2370,6 +1676,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2381,6 +1688,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2392,6 +1700,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2403,6 +1712,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：班次太少\n2：時刻表不準",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30_2B Bus runs/frequency (describe in detail)",
       "description_en": "1: Too few runs\n2: Timetable inaccurate"
@@ -2414,6 +1724,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2425,6 +1736,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：車輛階梯太高，上下車困難\n2：車太舊或車內環境不佳(如有味道、座椅太老舊)\n3：車頭路線標示不清楚\n4：過站不停\n5：司機車速過快或猛起步或急煞車，容易站不穩\n6：司機服務態度不佳",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30_2D Vehicle facilities and driver service (detailed description)",
       "description_en": "1: Vehicle steps too high, difficult to board and alight\n2: Vehicle too old or poor interior environment (e.g., odor, worn seats)\n3: Route signs at the front of the vehicle unclear\n4: Skips stops without stopping\n5: Driver drives too fast or starts abruptly or brakes suddenly, easy to lose balance\n6: Poor driver service attitude"
@@ -2436,6 +1748,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2447,6 +1760,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2458,6 +1772,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2469,6 +1784,7 @@
       "type": "Char",
       "length": 90,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q30_2O Other (specify)",
       "description_en": "this column is for text description"
@@ -2480,6 +1796,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：願意\n2：不願意\n3：不知道、到時候再說、由家人決定\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q31 If you became disabled and unable to care for yourself, would you be willing to move into a residential institution?",
       "description_en": "1: Willing\n2: Unwilling\n3: Don't know, will decide when the time comes, family will decide\n998: Not the respondent, unable to answer"
@@ -2491,6 +1808,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：無力負擔費用\n2：無認識親友同住\n3：機構服務品質不佳\n4：入住機構不自由\n5：擔心他人議論子女不孝\n6：不喜歡與多人同住\n7：其他(請說明)\n8：機構是讓無依老人使用的\n9：想住在熟悉的環境\n10：想由家人照顧",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q31_2 What is the reason you are unwilling to move in? [Main]",
       "description_en": "1: Cannot afford the fees\n2: No acquaintances, relatives or friends to live with\n3: Poor service quality at institutions\n4: Lack of freedom living in an institution\n5: Worried others will say the children are unfilial\n6: Dislike living with many people\n7: Other (specify)\n8: Institutions are for destitute older people\n9: Wants to live in a familiar environment\n10: Wants to be cared for by family"
@@ -2502,6 +1820,7 @@
       "type": "Char",
       "length": 34,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q31_2_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2513,6 +1832,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：9,999元以下\n2：10,000元~14,999元\n3：15,000元~19,999元\n4：20,000元~24,999元\n5：25,000元~29,999元\n6：30,000元~34,999元\n7：35,000元~39,999元\n8：40,000元以上\n9：拒答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q32 About how much per month for a residential institution do you think you could afford?",
       "description_en": "1: NT$9,999 or below\n2: NT$10,000-14,999\n3: NT$15,000-19,999\n4: NT$20,000-24,999\n5: NT$25,000-29,999\n6: NT$30,000-34,999\n7: NT$35,000-39,999\n8: NT$40,000 or above\n9: Refused"
@@ -2524,6 +1844,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：公共安全\n2：環境衛生與設備\n3：工作人員素質及服務態度\n4：服務內容與品質\n5：收費合理\n6：合法立案\n7：離家近或交通便利\n8：能有認識的親友同住\n9：評鑑成績\n10：他人推薦或介紹(口碑)\n11：醫護服務\n12：膳食餐飲\n13：個人隱私\n14：學習與活動\n15：其他(請說明)\n98：拒答\n998：無入住意願不考慮",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q33_1 When choosing a residential institution, what are the top three things you prioritize? [Primary]",
       "description_en": "1: Public safety\n2: Environmental hygiene and facilities\n3: Staff quality and service attitude\n4: Service content and quality\n5: Reasonable fees\n6: Legally registered\n7: Close to home or convenient transportation\n8: Acquaintances, relatives or friends living there\n9: Accreditation results\n10: Recommended or introduced by others (word of mouth)\n11: Medical and nursing services\n12: Meals and dining\n13: Personal privacy\n14: Learning and activities\n15: Other (specify)\n98: Refused\n998: No intention to move in; not considered"
@@ -2535,6 +1856,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：公共安全\n2：環境衛生與設備\n3：工作人員素質及服務態度\n4：服務內容與品質\n5：收費合理\n6：合法立案\n7：離家近或交通便利\n8：能有認識的親友同住\n9：評鑑成績\n10：他人推薦或介紹(口碑)\n11：醫護服務\n12：膳食餐飲\n13：個人隱私\n14：學習與活動\n15：其他(請說明)\n98：無次要/無再次要",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q33_2 When choosing a residential institution, what are the top three things you prioritize? [Secondary]",
       "description_en": "1: Public safety\n2: Environmental hygiene and facilities\n3: Staff quality and service attitude\n4: Service content and quality\n5: Reasonable fees\n6: Legally registered\n7: Close to home or convenient transportation\n8: Acquaintances, relatives or friends living there\n9: Accreditation results\n10: Recommended or introduced by others (word of mouth)\n11: Medical and nursing services\n12: Meals and dining\n13: Personal privacy\n14: Learning and activities\n15: Other (specify)\n98: No secondary/no tertiary"
@@ -2546,6 +1868,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q33_3 When choosing a residential institution, what are the top three things you prioritize? [Third most important]",
       "description_en": ""
@@ -2557,6 +1880,7 @@
       "type": "Char",
       "length": 36,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q33_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2568,6 +1892,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：未滿1年\n2：1年至未滿 3年\n3：3年至未滿 5年\n4：5年至未滿 7年\n5：7年至未滿 10年\n6：10年以上",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q34 How long have you lived in the institution?",
       "description_en": "1: Less than 1 year\n2: 1 year to less than 3 years\n3: 3 years to less than 5 years\n4: 5 years to less than 7 years\n5: 7 years to less than 10 years\n6: 10 years or more"
@@ -2579,6 +1904,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：公共安全\n2：環境衛生與設備\n3：工作人員素質及服務態度\n4：服務內容與品質",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q35 What were your priority considerations in choosing this institution? [Multiple answers allowed]",
       "description_en": "1: Public safety\n2: Environmental hygiene and equipment\n3: Staff quality and service attitude\n4: Service content and quality"
@@ -2590,6 +1916,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2601,6 +1928,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2612,6 +1940,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2623,6 +1952,7 @@
       "type": "",
       "length": "",
       "description_zh": "5：收費合理\n6：合法立案\n7：離家近或交通便利\n8：能有認識的親友同住\n9：評鑑成績\n10：他人推薦或介紹(口碑)\n11：醫護服務\n12：膳食餐飲\n13：個人隱私\n14：學習與活動\n15：其他(請說明)\n98：代答者非家屬無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": "5: Reasonable fees\n6: Legally registered\n7: Close to home or convenient transportation\n8: Acquaintances, relatives or friends living there\n9: Accreditation results\n10: Recommended or introduced by others (word of mouth)\n11: Medical and nursing services\n12: Meals and dining\n13: Personal privacy\n14: Learning and activities\n15: Other (specify)\n98: Proxy respondent is not a family member, unable to answer"
@@ -2634,6 +1964,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2645,6 +1976,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2656,6 +1988,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2667,6 +2000,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2678,6 +2012,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2689,6 +2024,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2700,6 +2036,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2711,6 +2048,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2722,6 +2060,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2733,6 +2072,7 @@
       "type": "Char",
       "length": 47,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q35_O Other, please specify",
       "description_en": "this column is for text description"
@@ -2744,6 +2084,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：非常滿意\n2：還算滿意\n3：普通\n4：不太滿意\n5：非常不滿意\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q36 You live in this institution; are you satisfied with living here?",
       "description_en": "1: Very satisfied\n2: Fairly satisfied\n3: Average\n4: Not very satisfied\n5: Very dissatisfied\n998: Not the respondent, unable to answer"
@@ -2755,6 +2096,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：每天都會來\n2：每週都會來\n3：每個月都有來\n4：過節時候會來\n5：每年至少來一次\n6：其他(請說明)\n7：沒有人探望",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q37 How often do family or friends visit you at the institution?",
       "description_en": "1: Visit every day\n2: Visit every week\n3: Visit every month\n4: Visit during holidays\n5: Visit at least once a year\n6: Other (specify)\n7: No one visits"
@@ -2766,6 +2108,7 @@
       "type": "Char",
       "length": 12,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q37_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2777,6 +2120,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：很安全\n2：安全\n3：不安全\n4：很不安全\n5：幾乎不出門\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q38 Do you think it is safe near your home community (neighborhood)?",
       "description_en": "1: Very safe\n2: Safe\n3: Unsafe\n4: Very unsafe\n5: Hardly go out\n998: Not the respondent, unable to answer"
@@ -2788,6 +2132,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：有\n2：沒有\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q39 Have you experienced any threat to personal safety or financial security?",
       "description_en": "1: Yes\n2: No\n998: Not the person himself/herself, unable to answer"
@@ -2799,6 +2144,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：未告訴任何人\n2：告訴親近家人\n3：告訴朋友或同事\n4：告訴鄰居\n5：告訴伴侶、同居人\n6：至社福單位求救\n7：向警察報案\n8：至醫院就醫、驗傷\n9：撥打113 保護專線或向社會局求救\n10：找村(里)長/村(里)幹事幫忙\n11：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q40 How did you handle it after the above situation occurred?",
       "description_en": "1: Told no one\n2: Told close family\n3: Told friends or colleagues\n4: Told neighbors\n5: Told partner or cohabiting partner\n6: Sought help from a social welfare agency\n7: Reported to the police\n8: Went to hospital for treatment or injury examination\n9: Called the 113 protection hotline or sought help from the social affairs bureau\n10: Asked the village (neighborhood) head/village (neighborhood) clerk for help\n11: Other (specify)"
@@ -2810,6 +2156,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2821,6 +2168,7 @@
       "type": "",
       "length": 1,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2832,6 +2180,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2843,6 +2192,7 @@
       "type": "Char",
       "length": 18,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q40_O Other (specify)",
       "description_en": "this column is for text description"
@@ -2854,6 +2204,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：怕別人知道會嘲笑\n2：怕給家人帶來麻煩\n3：覺得說也沒用\n4：不知道跟誰說",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q41 What are the reasons and considerations for your answer \"told no one\"?",
       "description_en": "1: Afraid others would laugh if they knew\n2: Afraid of causing trouble for family\n3: Felt it would be useless to tell\n4: Did not know whom to tell"
@@ -2865,6 +2216,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2876,6 +2228,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：自己的健康問題\n2：自己生病(失能、失智)的照顧問題\n3：配偶或同居人的健康問題\n4：配偶或同居人生病(失能、失智)的照顧問題\n5：經濟來源問題\n6：人身安全問題\n7：人際關係問題\n8：居住問題\n9：遺產處理問題\n10：子女照顧問題\n11：事業傳承問題\n12：往生後事處理問題\n13：子女奉養問題\n14：照顧父母\n15：退休後的生活規劃",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q42 What are you most concerned or worried about at present?",
       "description_en": "1: Own health problems\n2: Care problems when self is ill (disabled, demented)\n3: Health problems of spouse or cohabiting partner\n4: Care problems when spouse or cohabiting partner is ill (disabled, demented)\n5: Financial source problems\n6: Personal safety problems\n7: Interpersonal relationship problems\n8: Housing problems\n9: Inheritance handling problems\n10: Child care problems\n11: Business succession problems\n12: Funeral arrangement problems\n13: Support from children problems\n14: Caring for parents\n15: Life planning after retirement"
@@ -2887,6 +2240,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2898,6 +2252,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2909,6 +2264,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2920,6 +2276,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2931,6 +2288,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2942,6 +2300,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2953,6 +2312,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2964,6 +2324,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2975,6 +2336,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2986,6 +2348,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -2997,6 +2360,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3008,6 +2372,7 @@
       "type": "",
       "length": 2,
       "description_zh": "16：沒地方貢獻所長\n17：孤單、寂寞\n18：想再工作不知道該怎麼找\n19：其他(請說明)\n20：子女的健康、經濟與未來發展問題\n99：沒有擔心的問題\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": "16: No place to contribute one's skills\n17: Lonely\n18: Wants to work again but does not know how to find a job\n19: Other (specify)\n20: Children's health, finances and future development\n99: No worries\n998: Not the respondent, unable to answer"
@@ -3019,6 +2384,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3030,6 +2396,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3041,6 +2408,7 @@
       "type": "",
       "length": 2,
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3052,6 +2420,7 @@
       "type": "Char",
       "length": 20,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q42_O Other (specify)",
       "description_en": "this column is for text description"
@@ -3063,6 +2432,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：非常不尊重\n2：不太尊重\n3：還算尊重\n4：非常尊重\n5：不知道/不確定/很難說\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q43 What do you think is the current attitude of the public toward older adults?",
       "description_en": "1: Very disrespectful\n2: Not very respectful\n3: Fairly respectful\n4: Very respectful\n5: Don't know/not sure/hard to say\n998: Not the respondent, unable to answer"
@@ -3074,6 +2444,7 @@
       "type": "Char",
       "length": 3,
       "description_zh": "1：很滿意\n2：還算滿意\n3：不太滿意\n4：很不滿意\n5：無意見/很難說\n998：非本人無法回答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q44 Are you satisfied with your current life overall?",
       "description_en": "1: Very satisfied\n2: Fairly satisfied\n3: Not very satisfied\n4: Very dissatisfied\n5: No opinion/hard to say\n998: Not the respondent, unable to answer"
@@ -3085,6 +2456,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：榮民\n2：原住民\n3：新住民\n4：以上均無",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q45 Do you have any of the following statuses?",
       "description_en": "1: Veteran\n2: Indigenous person\n3: New resident\n4: None of the above"
@@ -3096,6 +2468,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3107,6 +2480,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：不識字\n2：自修、私塾/識字\n3：國小\n4：國(初)中\n5：高級中等(高中、高職)\n6：專科(五專前三年劃記高職)\n7：大學\n8：研究所",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q46 What is your highest level of education?",
       "description_en": "1: Illiterate\n2: Self-taught, old-style private school/literate\n3: Primary school\n4: Junior high school\n5: Senior secondary (senior high, senior vocational)\n6: Junior college (first three years of five-year junior college coded as vocational high school)\n7: University\n8: Graduate school"
@@ -3118,6 +2492,7 @@
       "type": "Num",
       "length": 8,
       "description_zh": "係指111年 12月31日足歲計算",
+      "table": "part1",
       "available_notes": [
         {
           "roc_year": 111,
@@ -3135,6 +2510,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男\n2：女\n3：其他",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "Q48 Sex",
       "description_en": "1: Male 2: Female 3: Other"
@@ -3146,6 +2522,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：無異常\n2：坐輪椅\n3：臥床\n4：其他身體狀況不佳(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_1 Interviewer's observation of the case's physical condition",
       "description_en": "1: No abnormality\n2: Uses a wheelchair\n3: Bedridden\n4: Other poor physical condition (please specify)"
@@ -3157,6 +2534,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：無異常\n2：聽覺、聲音或語言機能障礙\n3：其他溝通不良情況，請紀錄",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_2 Interviewer's observation of the case's communication condition",
       "description_en": "1: No abnormality\n2: Hearing, voice or speech impairment\n3: Other poor communication condition, please record"
@@ -3168,6 +2546,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：無異常\n2：失智(包括弱智)\n3：精神及心智狀況不佳\n4：無意識(包括完全昏迷)\n5：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_3 Interviewer's observation of the case's mental condition",
       "description_en": "1: No abnormality\n2: Dementia (including intellectual disability)\n3: Poor mental and cognitive condition\n4: Unconscious (including complete coma)\n5: Other (specify)"
@@ -3179,6 +2558,7 @@
       "type": "Char",
       "length": 91,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_1_O Other (specify)",
       "description_en": "this column is for text description"
@@ -3190,6 +2570,7 @@
       "type": "Char",
       "length": 59,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_2_O Other (specify)",
       "description_en": "this column is for text description"
@@ -3201,6 +2582,7 @@
       "type": "Char",
       "length": 58,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S3_3_O Other (specify)",
       "description_en": "this column is for text description"
@@ -3212,6 +2594,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：全部由個案本人回答【停】\n2：部分由別人回答\n3：全部由別人代答",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S4 Who is the interviewee of this questionnaire?",
       "description_en": "1: All answered by the case themselves [stop]\n2: Partly answered by others\n3: All answered by others"
@@ -3223,6 +2606,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：一開始就因重病或身體虛弱體力無法支持\n2：一開始就因嚴重的精神或心智障礙導致無法溝通\n3：一開始就因聽力問題無法溝通\n4：中途因無法記憶換人\n5：中途因身體虛弱不能繼續\n6：中途因身心狀況顯得不想理人，不想繼續、拒絕回答\n7：中途因情緒不穩，悲傷\n8：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S5 What is the main reason for seeking a proxy respondent?",
       "description_en": "1: From the start, unable to continue due to serious illness or physical frailty\n2: From the start, unable to communicate due to severe mental or cognitive impairment\n3: From the start, unable to communicate due to hearing problems\n4: Midway, replaced by another person due to inability to remember\n5: Midway, unable to continue due to physical frailty\n6: Midway, appeared unwilling to engage due to physical or mental condition, did not want to continue, refused to answer\n7: Midway, emotionally unstable or sad\n8: Other (specify)"
@@ -3234,6 +2618,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3245,6 +2630,7 @@
       "type": "",
       "length": "",
       "description_zh": "",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "",
       "description_en": ""
@@ -3256,6 +2642,7 @@
       "type": "Char",
       "length": 44,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S5_O Other (specify)",
       "description_en": "this column is for text description"
@@ -3267,6 +2654,7 @@
       "type": "Char",
       "length": 2,
       "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟\n7：姊妹\n8：父親\n9：母親\n10：孫子\n11：孫女\n12：其他親戚(請註明)\n13：鄰居\n14：朋友\n15：家庭外國籍看護\n16：家庭本國籍照顧服務員(看護)\n17：居家照顧服務員\n18：機構工作人員\n19：志工\n20：其他(請說明)",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S6 What is the proxy respondent's relationship to the case?",
       "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother\n7: Sister\n8: Father\n9: Mother\n10: Grandson\n11: Granddaughter\n12: Other relatives (specify)\n13: Neighbor\n14: Friend\n15: Family's foreign caregiver\n16: Family's local care service worker (caregiver)\n17: Home care service worker\n18: Institution staff\n19: Volunteer\n20: Other (specify)"
@@ -3278,8 +2666,927 @@
       "type": "Char",
       "length": 14,
       "description_zh": "此欄為文字說明",
+      "table": "part1",
       "available_notes": [],
       "name_zh_en": "S6_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 1,
+      "name_zh": "樣本編號",
+      "name_en": "CASEID",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "Sample Number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "CQ1您的性別",
+      "name_en": "CQ1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男\n2：女",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ1 Your sex",
+      "description_en": "1: male 2: female"
+    },
+    {
+      "seq": 3,
+      "name_zh": "CQ2_1您的年齡",
+      "name_en": "CQ2_1",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "係指111年 12月31日足歲計算",
+      "table": "part2",
+      "available_notes": [
+        {
+          "roc_year": 111,
+          "ad_year": 2022,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "CQ2_1 Your age",
+      "description_en": "Calculated as full years of age as of December 31, ROC year 111 (2022)"
+    },
+    {
+      "seq": 4,
+      "name_zh": "CQ3 您與被照顧者的關係?",
+      "name_en": "CQ3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟(含其配偶)\n7：姊妹(含其配偶)\n8：父親(含配偶父親)\n9：母親(含配偶母親)\n10：孫子(含其配偶)\n11：孫女(含其配偶)\n12：其他親戚(請說明)\n13：祖父母(含配偶祖父母)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ3 Your relationship with the care recipient?",
+      "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother (including spouse)\n7: Sister (including spouse)\n8: Father (including spouse's father)\n9: Mother (including spouse's mother)\n10: Grandson (including spouse)\n11: Granddaughter (including spouse)\n12: Other relatives (specify)\n13: Grandparents (including spouse's grandparents)"
+    },
+    {
+      "seq": 5,
+      "name_zh": "CQ3_O其他說明",
+      "name_en": "CQ3_O",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ3_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 6,
+      "name_zh": "CQ4 您的婚姻狀況",
+      "name_en": "CQ4",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：有配偶或同居\n2：喪偶\n3：離婚或分居\n4：未婚",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ4 Your marital status",
+      "description_en": "1: Has spouse or cohabiting 2: Widowed 3: Divorced or separated 4: Unmarried"
+    },
+    {
+      "seq": 7,
+      "name_zh": "CQ5 您的最高教育程度是什麼?",
+      "name_en": "CQ5",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：不識字\n2：自修、私塾/識字\n3：國小\n4：國(初)中\n5：高級中等(高中、高職)\n6：專科(五專前三年劃記高職)\n7：大學\n8：研究所",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ5 What is your highest level of education?",
+      "description_en": "1: Illiterate\n2: Self-taught, old-style private school/literate\n3: Primary school\n4: Junior high school\n5: Senior secondary (senior high, senior vocational)\n6: Junior college (first three years of five-year junior college coded as vocational high school)\n7: University\n8: Graduate school"
+    },
+    {
+      "seq": 8,
+      "name_zh": "CQ6 您是否與被照顧者同住?",
+      "name_en": "CQ6",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：同住\n2：未同住，住在隔壁或上下樓或同一社區，10分鐘內可以到達\n3：未同住，住在附近(交通1小時內可以到達)\n4：未同住，住的地方交通時間超過1小時",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ6 Do you live with the care recipient?",
+      "description_en": "1: Living together\n2: Not living together, lives next door, upstairs or downstairs, or in the same community, reachable within 10 minutes\n3: Not living together, lives nearby (reachable within 1 hour by transport)\n4: Not living together, travel time to residence exceeds 1 hour"
+    },
+    {
+      "seq": 9,
+      "name_zh": "CQ7 您目前有沒有在工作?",
+      "name_en": "CQ7",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：沒有工作\n2：有工作",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ7 Are you currently working?",
+      "description_en": "1: Not working\n2: Working"
+    },
+    {
+      "seq": 10,
+      "name_zh": "CQ7_A 您工作是全職還是兼職?",
+      "name_en": "CQ7_A",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：全職\n2：兼職(含部分工時)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ7_A Do you work full-time or part-time?",
+      "description_en": "1: Full-time\n2: Part-time (including part-time hours)"
+    },
+    {
+      "seq": 11,
+      "name_zh": "CQ7_B_1 為了照顧他/她，您工作是否受到影響?",
+      "name_en": "CQ7_B_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：沒有影響\n2：有影響",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ7_B_1 Has your work been affected by caring for him/her?",
+      "description_en": "1: Not affected\n2: Affected"
+    },
+    {
+      "seq": 12,
+      "name_zh": "CQ7_B_2 請問是哪方面的影響?",
+      "name_en": "CQ7_B_2_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：必須減少工作時間\n2：必須請假(事假、病假、家庭照顧假)\n3：必須彈性調整工作時間\n4：其他(請說明)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ7_B_2 In what way was it affected?",
+      "description_en": "1: Must reduce working hours\n2: Must take leave (personal leave, sick leave, family care leave)\n3: Must adjust working hours flexibly\n4: Other (specify)"
+    },
+    {
+      "seq": 13,
+      "name_zh": "",
+      "name_en": "CQ7_B_2_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 14,
+      "name_zh": "",
+      "name_en": "CQ7_B_2_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 15,
+      "name_zh": "CQ7B2_O 其他說明",
+      "name_en": "CQ7B2_O",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ7B2_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 16,
+      "name_zh": "CQ8 您目前是否在就學?",
+      "name_en": "CQ8",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是\n2：否",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ8 Are you currently in school?",
+      "description_en": "1: yes 2: no"
+    },
+    {
+      "seq": 17,
+      "name_zh": "CQ9 您在照顧他/她之前，有沒有在外面工作?",
+      "name_en": "CQ9",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：沒有\n2：有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ9 Before caring for him/her, did you work outside the home?",
+      "description_en": "1:no 2:has"
+    },
+    {
+      "seq": 18,
+      "name_zh": "CQ9_A 您當時工作是全職還兼職?",
+      "name_en": "CQ9_A",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：全職\n2：兼職(含部分工時)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ9_A Was your work at that time full-time or part-time?",
+      "description_en": "1: Full-time\n2: Part-time (including part-time hours)"
+    },
+    {
+      "seq": 19,
+      "name_zh": "CQ9_B 請問您當初是否為了要照顧這位家人，才結束這份工作?",
+      "name_en": "CQ9_B",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是\n2：不是，為了其他原因而離職",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ9_B Did you stop that job in order to care for this family member?",
+      "description_en": "1: Yes\n2: No, left the job for other reasons"
+    },
+    {
+      "seq": 20,
+      "name_zh": "CQ10_1 被照顧者狀況?",
+      "name_en": "CQ10_1_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：失能\n2：失智\n3：其他(請說明)\n4：都沒有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ10_1 Condition of the care recipient?",
+      "description_en": "1: Disability\n2: Dementia\n3: Other (please specify)\n4: None"
+    },
+    {
+      "seq": 21,
+      "name_zh": "",
+      "name_en": "CQ10_1_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 22,
+      "name_zh": "",
+      "name_en": "CQ10_1_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 23,
+      "name_zh": "CQ101_O 其他說明",
+      "name_en": "CQ101_O",
+      "type": "Char",
+      "length": 18,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ101_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 24,
+      "name_zh": "CQ10_2_y 您何時照顧這位家人?",
+      "name_en": "CQ10_2_y",
+      "type": "Char",
+      "length": 3,
+      "description_zh": "民國XXX年",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ10_2_y When did you start caring for this family member?",
+      "description_en": "ROC year XXX"
+    },
+    {
+      "seq": 25,
+      "name_zh": "CQ10_3 您多常照顧他/她?",
+      "name_en": "CQ10_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：偶爾(每週不到 1次)\n2：一週1~2 次\n3：一週好幾次(3次以上)\n4：每天",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ10_3 How often do you care for him/her?",
+      "description_en": "1: Occasionally (less than once a week)\n2: 1-2 times a week\n3: Several times a week (3 or more)\n4: Every day"
+    },
+    {
+      "seq": 26,
+      "name_zh": "CQ10_3_hr 平 均每日照顧的時間大約多久?",
+      "name_en": "CQ10_3_hr",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "小時",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ10_3_hr About how long on average per day do you spend caring for him/her?",
+      "description_en": "hours"
+    },
+    {
+      "seq": 27,
+      "name_zh": "CQ11 除了照顧這位家人，是否還需要照顧其他生活無法自理家人?",
+      "name_en": "CQ11",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：沒有\n2：有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ11 Besides caring for this family member, do you also need to care for other family members who cannot care for themselves?",
+      "description_en": "1:no 2:has"
+    },
+    {
+      "seq": 28,
+      "name_zh": "CQ11_2 還 有 幾位?(不含這位失能家人)",
+      "name_en": "CQ11_2",
+      "type": "Num",
+      "length": 8,
+      "description_zh": "照顧其他家人數",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ11_2 How many others are there? (excluding this disabled family member)",
+      "description_en": "Number of other family members cared for"
+    },
+    {
+      "seq": 29,
+      "name_zh": "CQ12_1 請問是否有其他人與您輪替照顧這位需協助的家人呢?",
+      "name_en": "CQ12_1",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：沒有\n2：有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ12_1 Does anyone else take turns with you caring for this family member who needs help?",
+      "description_en": "1:no 2:has"
+    },
+    {
+      "seq": 30,
+      "name_zh": "CQ12_2 請問輪替照顧的人是被照顧者誰?",
+      "name_en": "CQ12_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：配偶或同居人\n2：兒子\n3：女兒\n4：媳婦\n5：女婿\n6：兄弟\n7：姊妹\n8：父親\n9：母親\n10：孫子\n11：孫女\n12：孫媳婦\n13：孫女婿\n14：配偶的父母\n15：祖父母\n16：其他親友\n17：本國籍看護\n18：外國籍看護\n19：其他家人均攤\n20：其他(請說明)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ12_2 Who is the rotating caregiver in relation to the care recipient?",
+      "description_en": "1: Spouse or cohabiting partner\n2: Son\n3: Daughter\n4: Daughter-in-law\n5: Son-in-law\n6: Brother\n7: Sister\n8: Father\n9: Mother\n10: Grandson\n11: Granddaughter\n12: Granddaughter-in-law\n13: Grandson-in-law\n14: Spouse's parents\n15: Grandparents\n16: Other relatives or friends\n17: Local caregiver\n18: Foreign caregiver\n19: Shared among other family members\n20: Other (specify)"
+    },
+    {
+      "seq": 31,
+      "name_zh": "CQ12_2_O其他說明",
+      "name_en": "CQ12_2_O",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ12_2_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 32,
+      "name_zh": "CQ13 您是否希望有替代照顧者?",
+      "name_en": "CQ13",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：否\n2：是",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ13 Would you like to have a substitute caregiver?",
+      "description_en": "1: no 2: yes"
+    },
+    {
+      "seq": 33,
+      "name_zh": "CQ131_O 您為什麼不希望有替代照顧者?",
+      "name_en": "CQ131_O",
+      "type": "Char",
+      "length": 50,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ131_O Why do you not want a substitute caregiver?",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 34,
+      "name_zh": "CQ14 過去一個月內，您的身心狀況好不好?",
+      "name_en": "CQ14",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：非常良好\n2：還算良好\n3：普通\n4：不太好\n5：非常不好",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ14 How have your physical and mental conditions been in the past month?",
+      "description_en": "1: Excellent\n2: Fairly good\n3: Fair\n4: Not very good\n5: Very poor"
+    },
+    {
+      "seq": 35,
+      "name_zh": "CQ15 您是否持有身心障礙證明、領有重大傷病卡(含癌症)、(曾)罹患骨骼系統疾病致使照顧能力有限?",
+      "name_en": "CQ15",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：否\n2：是",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ15 Do you hold a disability certificate or a catastrophic illness card (including cancer), or have (had) a skeletal system disease that limits your ability to provide care?",
+      "description_en": "1: no 2: yes"
+    },
+    {
+      "seq": 36,
+      "name_zh": "CQ16 您在照顧這位家人時，過去一個月是否有下列狀況?【可複選】",
+      "name_en": "CQ16_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：擔心照顧不周\n2：照顧的體力負擔大\n3：感到疲倦\n4：肌肉痠痛\n5：無法好好休息\n6：情緒受到被照顧這影響\n7：自我壓力調適困難\n8：照顧費用負擔大\n9：不能外出工作，收入受到影響\n10：家人關係受到影響\n11：不能外出，影響社交活動\n12：其他(請說明)\n13：都沒有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ16 While caring for this family member, did the following situations occur in the past month? [Multiple answers allowed]",
+      "description_en": "1: Worried about not providing adequate care\n2: Heavy physical burden of caregiving\n3: Feeling tired\n4: Muscle soreness\n5: Unable to rest properly\n6: Emotions affected by the care recipient\n7: Difficulty coping with own stress\n8: Heavy burden of care costs\n9: Unable to work outside; income affected\n10: Family relationships affected\n11: Unable to go out; social activities affected\n12: Other (specify)\n13: None"
+    },
+    {
+      "seq": 37,
+      "name_zh": "",
+      "name_en": "CQ16_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 38,
+      "name_zh": "",
+      "name_en": "CQ16_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 39,
+      "name_zh": "",
+      "name_en": "CQ16_4",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 40,
+      "name_zh": "",
+      "name_en": "CQ16_5",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 41,
+      "name_zh": "",
+      "name_en": "CQ16_6",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 42,
+      "name_zh": "",
+      "name_en": "CQ16_7",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 43,
+      "name_zh": "",
+      "name_en": "CQ16_8",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 44,
+      "name_zh": "",
+      "name_en": "CQ16_9",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 45,
+      "name_zh": "",
+      "name_en": "CQ16_10",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 46,
+      "name_zh": "",
+      "name_en": "CQ16_11",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 47,
+      "name_zh": "CQ16_O其他說明",
+      "name_en": "CQ16_O",
+      "type": "Char",
+      "length": 14,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ16_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 48,
+      "name_zh": "CQ17 整體來說，您對於目前整體生活是否滿意?",
+      "name_en": "CQ17",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：非常滿意\n2：還算滿意\n3：普通\n4：不太滿意\n5：非常不滿意\n6：不一定/很難說",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ17 Overall, are you satisfied with your current life?",
+      "description_en": "1: Very satisfied\n2: Fairly satisfied\n3: Average\n4: Not very satisfied\n5: Very dissatisfied\n6: Not necessarily/hard to say"
+    },
+    {
+      "seq": 49,
+      "name_zh": "CQ18 不論被照顧者有沒有申請過，您認為政府推動的各項長期照顧2.0 服務措施，哪些項目對您的照顧狀況有幫助?",
+      "name_en": "CQ18_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：居家服務\n2：日間照顧服務(含小規模多機能服務)\n3：家庭托顧\n4：營養餐飲服務\n5：交通接送服務\n6：輔具購買、租借與居家無障礙環境改善\n7：專業服務(復能服務)\n8：喘息服務\n9：巷弄長照站\n10：失智症照顧服務\n11：家庭照顧者支持服務據點\n12：其他(請說明)\n98：都沒有",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ18 Regardless of whether the care recipient has applied, which of the government's Long-Term Care 2.0 service measures do you think help your caregiving situation?",
+      "description_en": "1: Home services\n2: Day care services (including small-scale multi-functional services)\n3: Family day care\n4: Nutritious meal services\n5: Transportation services\n6: Assistive device purchase, rental and home accessibility improvements\n7: Professional services (reablement services)\n8: Respite services\n9: Neighborhood long-term care stations\n10: Dementia care services\n11: Family caregiver support service centers\n12: Other (specify)\n98: None"
+    },
+    {
+      "seq": 50,
+      "name_zh": "",
+      "name_en": "CQ18_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 51,
+      "name_zh": "",
+      "name_en": "CQ18_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 52,
+      "name_zh": "",
+      "name_en": "CQ18_4",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 53,
+      "name_zh": "",
+      "name_en": "CQ18_5",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 54,
+      "name_zh": "",
+      "name_en": "CQ18_6",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 55,
+      "name_zh": "",
+      "name_en": "CQ18_7",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 56,
+      "name_zh": "",
+      "name_en": "CQ18_8",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 57,
+      "name_zh": "",
+      "name_en": "CQ18_9",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 58,
+      "name_zh": "",
+      "name_en": "CQ18_10",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 59,
+      "name_zh": "",
+      "name_en": "CQ18_11",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 60,
+      "name_zh": "CQ18_O其他說明",
+      "name_en": "CQ18_O",
+      "type": "Char",
+      "length": 24,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ18_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 61,
+      "name_zh": "CQ19 這位被照顧者是否申請過長照2.0服務?",
+      "name_en": "CQ19",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是\n2：否",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ19 Has this care recipient applied for Long-term Care 2.0 services?",
+      "description_en": "1: yes 2: no"
+    },
+    {
+      "seq": 62,
+      "name_zh": "CQ20 過去一年內，您的家庭使用/接受過的長期照顧 2.0 服務資源有哪些?",
+      "name_en": "CQ20_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：居家服務\n2：日間照顧服務(含小規模多機能服務)\n3：家庭托顧\n4：營養餐飲服務\n5：交通接送服務\n6：輔具購買、租借與居家無障礙環境改善\n7：專業服務(復能服務)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ20 Which Long-Term Care 2.0 service resources has your family used/received in the past year?",
+      "description_en": "1: Home care services\n2: Day care services (including small-scale multi-function services)\n3: Family-based care\n4: Nutritious meal services\n5: Transportation services\n6: Purchase and rental of assistive devices and barrier-free home environment modification\n7: Professional services (reablement services)"
+    },
+    {
+      "seq": 63,
+      "name_zh": "",
+      "name_en": "CQ20_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 64,
+      "name_zh": "",
+      "name_en": "CQ20_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 65,
+      "name_zh": "",
+      "name_en": "CQ20_4",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 66,
+      "name_zh": "",
+      "name_en": "CQ20_5",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 67,
+      "name_zh": "",
+      "name_en": "CQ20_6",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 68,
+      "name_zh": "",
+      "name_en": "CQ20_7",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 69,
+      "name_zh": "",
+      "name_en": "CQ20_8",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 70,
+      "name_zh": "",
+      "name_en": "CQ20_9",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 71,
+      "name_zh": "",
+      "name_en": "CQ20_10",
+      "type": "",
+      "length": "",
+      "description_zh": "8：喘息服務\n9：巷弄長照站\n10：失智症照顧服務\n11：家庭照顧者支持服務據點\n12：其他(請說明)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": "8: Respite services\n9: Community care stations in alleys and lanes\n10: Dementia care services\n11: Family caregiver support centers\n12: Other (specify)"
+    },
+    {
+      "seq": 72,
+      "name_zh": "CQ20_O其他說明",
+      "name_en": "CQ20_O",
+      "type": "Char",
+      "length": 10,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ20_O Other (specify)",
+      "description_en": "this column is for text description"
+    },
+    {
+      "seq": 73,
+      "name_zh": "CQ21 您不申請長期照顧 2.0 服務的理由是?",
+      "name_en": "CQ21_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1：已有外國籍看護照顧\n2：不知道有長照服務\n3：申請太麻煩\n4：被照顧者不願給外人照顧\n5：照顧家人是自己不容推卸責任\n6：其他親友不同意\n7：申請過但資格不符\n8：考量部分負擔費用\n9：使用過但服務無法滿足需求\n10：其他(請說明)",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ21 What is your reason for not applying for Long-term Care 2.0 services?",
+      "description_en": "1: Already cared for by a foreign caregiver\n2: Did not know long-term care services exist\n3: Application too troublesome\n4: Care recipient unwilling to be cared for by outsiders\n5: Caring for family is one's own responsibility that cannot be shirked\n6: Other relatives or friends disagree\n7: Applied but ineligible\n8: Concerned about copayment costs\n9: Used but services did not meet needs\n10: Other (specify)"
+    },
+    {
+      "seq": 74,
+      "name_zh": "",
+      "name_en": "CQ21_2",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 75,
+      "name_zh": "",
+      "name_en": "CQ21_3",
+      "type": "",
+      "length": "",
+      "description_zh": "",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "",
+      "description_en": ""
+    },
+    {
+      "seq": 76,
+      "name_zh": "CQ21_O其他說明",
+      "name_en": "CQ21_O",
+      "type": "Char",
+      "length": 32,
+      "description_zh": "此欄為文字說明",
+      "table": "part2",
+      "available_notes": [],
+      "name_zh_en": "CQ21_O Other (specify)",
       "description_en": "this column is for text description"
     }
   ],
@@ -3307,5 +3614,31 @@
     "field_rows": 220,
     "code_tables": {},
     "code_table_headings": []
-  }
+  },
+  "field_count_parts": [
+    220,
+    76
+  ],
+  "tables": [
+    {
+      "code_short": "part1",
+      "name_zh": "第 1 檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": 220,
+      "file_size_raw": "",
+      "fields_parsed": 220,
+      "name_zh_en": "Batch 1"
+    },
+    {
+      "code_short": "part2",
+      "name_zh": "第 2 檔",
+      "name_en": "",
+      "record_count_raw": "",
+      "field_count_declared": 76,
+      "file_size_raw": "",
+      "fields_parsed": 76,
+      "name_zh_en": "Batch 2"
+    }
+  ]
 }

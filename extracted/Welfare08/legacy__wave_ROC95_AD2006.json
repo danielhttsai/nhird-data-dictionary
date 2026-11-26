@@ -86,9 +86,31 @@
       "description_en": "1 Very good\n2 Good\n3 Average\n4 Not very good\n5 Very bad\n98 Hard to say\n99 Refused"
     },
     {
-      "seq": 6,
+      "seq": 7,
       "name_zh": "重大困擾？(最多可選三項)",
-      "name_en": "Q7_1Q7_2Q7_3",
+      "name_en": "Q7_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 自己健康問題\n2 自己工作問題\n3 家人工作問題\n4 經濟問題\n5 人身安全問題\n6 家庭暴力問題\n7 夫妻相處問題\n8 公婆妯娌相處問題\n9 家中一般兒童照顧問題10 家中老人照顧問題\n11 子女教育或溝通問題12 自己學業問題\n13 自己的愛情或結婚問題14 居住問題\n65 其他(請填寫開放紀錄表)\n98 沒有困擾問題\n99 很難說/拒答",
+      "available_notes": [],
+      "name_zh_en": "Major troubles? (up to three choices)",
+      "description_en": "1 Own health problem\n2 Own work problem\n3 Family member's work problem\n4 Financial problem\n5 Personal safety problem\n6 Domestic violence problem\n7 Problem getting along as a couple\n8 Problem getting along with parents-in-law and sisters-in-law\n9 Problem caring for ordinary children at home 10 Problem caring for the elderly at home\n11 Problem with children's education or communication 12 Own studies problem\n13 Own love or marriage problem 14 Housing problem\n65 Other (please fill in the open-ended record form)\n98 No troubling problems\n99 Hard to say/Refused"
+    },
+    {
+      "seq": 8,
+      "name_zh": "重大困擾？(最多可選三項)",
+      "name_en": "Q7_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 自己健康問題\n2 自己工作問題\n3 家人工作問題\n4 經濟問題\n5 人身安全問題\n6 家庭暴力問題\n7 夫妻相處問題\n8 公婆妯娌相處問題\n9 家中一般兒童照顧問題10 家中老人照顧問題\n11 子女教育或溝通問題12 自己學業問題\n13 自己的愛情或結婚問題14 居住問題\n65 其他(請填寫開放紀錄表)\n98 沒有困擾問題\n99 很難說/拒答",
+      "available_notes": [],
+      "name_zh_en": "Major troubles? (up to three choices)",
+      "description_en": "1 Own health problem\n2 Own work problem\n3 Family member's work problem\n4 Financial problem\n5 Personal safety problem\n6 Domestic violence problem\n7 Problem getting along as a couple\n8 Problem getting along with parents-in-law and sisters-in-law\n9 Problem caring for ordinary children at home 10 Problem caring for the elderly at home\n11 Problem with children's education or communication 12 Own studies problem\n13 Own love or marriage problem 14 Housing problem\n65 Other (please fill in the open-ended record form)\n98 No troubling problems\n99 Hard to say/Refused"
+    },
+    {
+      "seq": 9,
+      "name_zh": "重大困擾？(最多可選三項)",
+      "name_en": "Q7_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 自己健康問題\n2 自己工作問題\n3 家人工作問題\n4 經濟問題\n5 人身安全問題\n6 家庭暴力問題\n7 夫妻相處問題\n8 公婆妯娌相處問題\n9 家中一般兒童照顧問題10 家中老人照顧問題\n11 子女教育或溝通問題12 自己學業問題\n13 自己的愛情或結婚問題14 居住問題\n65 其他(請填寫開放紀錄表)\n98 沒有困擾問題\n99 很難說/拒答",
@@ -328,9 +350,20 @@
       "description_en": "1 Yes 2 No 89 Don't know 99 Refused"
     },
     {
-      "seq": 30,
+      "seq": 31,
       "name_zh": "領有的救助津貼及補助的類型(可複選)",
-      "name_en": "Q20_1Q20_2",
+      "name_en": "Q20_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 領有政府低收入戶補助2 領有政府特殊境遇婦女家庭扶助\n3 領有政府中低收入兒少托育補助、生活扶助4 領有民間社福團體提供補助\n5 領有身心障礙生活補助6 其他(請填寫開放紀錄表)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of relief allowances and subsidies received (multiple responses allowed)",
+      "description_en": "0 None\n1 Receives government low-income household assistance 2 Receives government assistance for families of women in special circumstances\n3 Receives government childcare subsidies and living assistance for middle-low income children and youth 4 Receives subsidies from private social welfare organizations\n5 Receives disability living allowance 6 Other (please fill in the open-ended record form)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 32,
+      "name_zh": "領有的救助津貼及補助的類型(可複選)",
+      "name_en": "Q20_2",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 領有政府低收入戶補助2 領有政府特殊境遇婦女家庭扶助\n3 領有政府中低收入兒少托育補助、生活扶助4 領有民間社福團體提供補助\n5 領有身心障礙生活補助6 其他(請填寫開放紀錄表)\n89 不知道\n99 拒答",
@@ -350,9 +383,53 @@
       "description_en": "explanation"
     },
     {
-      "seq": 33,
+      "seq": 34,
       "name_zh": "與誰住同居(可複選)",
-      "name_en": "Q21_1Q21_2Q21_3Q21_4Q21_5",
+      "name_en": "Q21_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(含父或母及公婆) 4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 (外)孫子女\n8 兄弟姊妹\n9 朋友、同學、同事\n10 其他親戚",
+      "available_notes": [],
+      "name_zh_en": "Who lives with you (multiple responses allowed)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (including father or mother and parents-in-law) 4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 (Maternal) grandchildren\n8 Siblings\n9 Friends, classmates, colleagues\n10 Other relatives"
+    },
+    {
+      "seq": 35,
+      "name_zh": "與誰住同居(可複選)",
+      "name_en": "Q21_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(含父或母及公婆) 4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 (外)孫子女\n8 兄弟姊妹\n9 朋友、同學、同事\n10 其他親戚",
+      "available_notes": [],
+      "name_zh_en": "Who lives with you (multiple responses allowed)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (including father or mother and parents-in-law) 4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 (Maternal) grandchildren\n8 Siblings\n9 Friends, classmates, colleagues\n10 Other relatives"
+    },
+    {
+      "seq": 36,
+      "name_zh": "與誰住同居(可複選)",
+      "name_en": "Q21_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(含父或母及公婆) 4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 (外)孫子女\n8 兄弟姊妹\n9 朋友、同學、同事\n10 其他親戚",
+      "available_notes": [],
+      "name_zh_en": "Who lives with you (multiple responses allowed)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (including father or mother and parents-in-law) 4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 (Maternal) grandchildren\n8 Siblings\n9 Friends, classmates, colleagues\n10 Other relatives"
+    },
+    {
+      "seq": 37,
+      "name_zh": "與誰住同居(可複選)",
+      "name_en": "Q21_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(含父或母及公婆) 4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 (外)孫子女\n8 兄弟姊妹\n9 朋友、同學、同事\n10 其他親戚",
+      "available_notes": [],
+      "name_zh_en": "Who lives with you (multiple responses allowed)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (including father or mother and parents-in-law) 4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 (Maternal) grandchildren\n8 Siblings\n9 Friends, classmates, colleagues\n10 Other relatives"
+    },
+    {
+      "seq": 38,
+      "name_zh": "與誰住同居(可複選)",
+      "name_en": "Q21_5",
       "type": "Char",
       "length": 2,
       "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(含父或母及公婆) 4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 (外)孫子女\n8 兄弟姊妹\n9 朋友、同學、同事\n10 其他親戚65 其他(請填寫開放紀錄) 89 不知道\n99 拒答",
@@ -1021,14 +1098,36 @@
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Not very satisfied 4 Very dissatisfied 99 No opinion, hard to say, or refused"
     },
     {
-      "seq": 98,
-      "name_zh": "平常從事那種性質的休閒活動(最多可選三項)",
-      "name_en": "Q30_1Q30_2Q30_3",
+      "seq": 99,
+      "name_zh": "平常從事那種性質",
+      "name_en": "Q30_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n7 消費性\n8 沒有休閒活動\n9 其它(請填寫開放紀錄表)\n89 不知道\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Nature of usual leisure activities (up to three choices)",
+      "name_zh_en": "what kind of nature do you usually engage in",
+      "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Entertainment\n7 Consumer\n8 No leisure activities\n9 Other (please fill in the open-ended record form)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 100,
+      "name_zh": "的休閒活動(最多",
+      "name_en": "Q30_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n7 消費性\n8 沒有休閒活動\n9 其它(請填寫開放紀錄表)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "leisure activities (up to",
+      "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Entertainment\n7 Consumer\n8 No leisure activities\n9 Other (please fill in the open-ended record form)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 101,
+      "name_zh": "可選三項)",
+      "name_en": "Q30_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n7 消費性\n8 沒有休閒活動\n9 其它(請填寫開放紀錄表)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "can select three items)",
       "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Entertainment\n7 Consumer\n8 No leisure activities\n9 Other (please fill in the open-ended record form)\n89 Don't know\n99 Refused"
     },
     {
@@ -1043,9 +1142,42 @@
       "description_en": "1 Never participated\n2 Participated\n99 Hard to say/Refused"
     },
     {
-      "seq": 102,
+      "seq": 103,
       "name_zh": "參與哪種性質的團體(可複選)",
-      "name_en": "Q31_1Q31_2Q31_3Q31_4",
+      "name_en": "Q31_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 家長會\n10 學術文化團體\n11 經濟業務團體\n12 政治團體\n13 社運團體\n14 兩岸團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "0 None\n1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Parents' associations\n10 Academic and cultural organizations\n11 Economic and business organizations\n12 Political organizations\n13 Social movement organizations\n14 Cross-strait organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 104,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q31_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 家長會\n10 學術文化團體\n11 經濟業務團體\n12 政治團體\n13 社運團體\n14 兩岸團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "0 None\n1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Parents' associations\n10 Academic and cultural organizations\n11 Economic and business organizations\n12 Political organizations\n13 Social movement organizations\n14 Cross-strait organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 105,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q31_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 家長會\n10 學術文化團體\n11 經濟業務團體\n12 政治團體\n13 社運團體\n14 兩岸團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "0 None\n1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Parents' associations\n10 Academic and cultural organizations\n11 Economic and business organizations\n12 Political organizations\n13 Social movement organizations\n14 Cross-strait organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 106,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q31_4",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 家長會\n10 學術文化團體\n11 經濟業務團體\n12 政治團體\n13 社運團體\n14 兩岸團體\n65 其他(請說明)\n89 不知道\n99 拒答",
@@ -1065,9 +1197,97 @@
       "description_en": "0 0 hours (no volunteer service)\n1 1-10 hours\n2 11-20 hours\n3 21-30 hours\n4 31-40 hours\n5 41-50 hours\n6 51-60 hours\n7 61-70 hours\n8 71-80 hours\n9 81 hours or more\n89 Don't know\n99 Refused"
     },
     {
-      "seq": 107,
+      "seq": 108,
       "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
-      "name_en": "Q33_1Q33_2Q33_3Q33_4Q33_5Q33_6Q33_7Q33_8Q33_9",
+      "name_en": "Q33_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 109,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 110,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 111,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 112,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 113,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 114,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 115,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Whether you have the following computer skills (prompted one by one, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Chinese input and word processing 3 Online chat\n4 Sending and receiving email\n5 Image/graphic design and drawing\n6 Spreadsheets\n7 Web design\n8 Databases\n9 Programming\n65 Other (please specify)\n98 No computer skills 99 Refused"
+    },
+    {
+      "seq": 116,
+      "name_zh": "是否具有以下電腦技能(逐一提示，可複選)",
+      "name_en": "Q33_9",
       "type": "Char",
       "length": 2,
       "description_zh": "1 上網查詢\n2 中文輸入及文書處理3 網路交談\n4 收發電子郵件\n5 影像美工繪圖\n6 試算表\n7 網頁設計\n8 資料庫\n9 程式設計\n65 其他(請說明)\n98 沒有任何電腦使用技能99 拒答",
@@ -1098,9 +1318,42 @@
       "description_en": "1 Yes\n2 No\n98 Don't know\n99 Refused"
     },
     {
-      "seq": 118,
+      "seq": 119,
       "name_zh": "在哪些場所使用電腦(可複選)",
-      "name_en": "Q34_1Q34_2Q34_3Q34_4",
+      "name_en": "Q34_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 家中有電腦\n2 工作場所有電腦\n3 到圖書館、學校等公共",
+      "available_notes": [],
+      "name_zh_en": "Places where computers are used (multiple responses allowed)",
+      "description_en": "0 None\n1 Computer at home\n2 Computer at the workplace\n3 Go to public places such as libraries and schools"
+    },
+    {
+      "seq": 120,
+      "name_zh": "在哪些場所使用電腦(可複選)",
+      "name_en": "Q34_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 家中有電腦\n2 工作場所有電腦\n3 到圖書館、學校等公共",
+      "available_notes": [],
+      "name_zh_en": "Places where computers are used (multiple responses allowed)",
+      "description_en": "0 None\n1 Computer at home\n2 Computer at the workplace\n3 Go to public places such as libraries and schools"
+    },
+    {
+      "seq": 121,
+      "name_zh": "在哪些場所使用電腦(可複選)",
+      "name_en": "Q34_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 家中有電腦\n2 工作場所有電腦\n3 到圖書館、學校等公共",
+      "available_notes": [],
+      "name_zh_en": "Places where computers are used (multiple responses allowed)",
+      "description_en": "0 None\n1 Computer at home\n2 Computer at the workplace\n3 Go to public places such as libraries and schools"
+    },
+    {
+      "seq": 122,
+      "name_zh": "在哪些場所使用電腦(可複選)",
+      "name_en": "Q34_4",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 家中有電腦\n2 工作場所有電腦\n3 到圖書館、學校等公共場所使用電腦\n4 到網路咖啡店使用電腦65 其他(請填寫開放紀錄表)\n99 拒答",
@@ -1131,14 +1384,25 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 124,
-      "name_zh": "遭受何種類型家庭暴力",
-      "name_en": "Q35_1_1Q35_1_2",
+      "seq": 125,
+      "name_zh": "遭受何種類型家庭",
+      "name_en": "Q35_1_1",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 遭受配偶肢體暴力\n2 遭受配偶精神暴力\n3 遭受其他家人肢體暴力4 遭受其他家人精神暴力65 其他(請填寫開放紀錄表)\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Type of domestic violence suffered",
+      "name_zh_en": "suffered what type of domestic",
+      "description_en": "0 None\n1 Physical violence by spouse\n2 Psychological violence by spouse\n3 Physical violence by other family members 4 Psychological violence by other family members 65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 126,
+      "name_zh": "暴力",
+      "name_en": "Q35_1_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 遭受配偶肢體暴力\n2 遭受配偶精神暴力\n3 遭受其他家人肢體暴力4 遭受其他家人精神暴力65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "violence",
       "description_en": "0 None\n1 Physical violence by spouse\n2 Psychological violence by spouse\n3 Physical violence by other family members 4 Psychological violence by other family members 65 Other (please fill in the open-ended record form)\n99 Refused"
     },
     {
@@ -1175,9 +1439,20 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 129,
+      "seq": 130,
       "name_zh": "發生場所",
-      "name_en": "Q37_1Q37_2",
+      "name_en": "Q37_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 在公共場所遭受他人性騷擾\n2 在工作場所遭受他人性騷擾",
+      "available_notes": [],
+      "name_zh_en": "Place of occurrence",
+      "description_en": "0 None\n1 Sexually harassed by others in public places\n2 Sexually harassed by others in the workplace"
+    },
+    {
+      "seq": 131,
+      "name_zh": "發生場所",
+      "name_en": "Q37_2",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 在公共場所遭受他人性騷擾\n2 在工作場所遭受他人性騷擾65 其他(請說明)(請訪員紀錄在開放問項紀錄表) 99 拒答",
@@ -1219,9 +1494,31 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 134,
+      "seq": 135,
       "name_zh": "哪方面的外界暴力",
-      "name_en": "Q39_1Q39_2Q39_3",
+      "name_en": "Q39_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 被迫從事不法工作\n2 吸毒、吃搖頭丸等不法藥物\n3 被恐嚇、詐財\n4 被搶奪財物\n5 遭受外人傷害\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Type of violence from outside",
+      "description_en": "0 None\n1 Forced to engage in illegal work\n2 Taking drugs, ecstasy and other illegal drugs\n3 Threatened or defrauded\n4 Property robbed\n5 Harmed by outsiders\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 136,
+      "name_zh": "哪方面的外界暴力",
+      "name_en": "Q39_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 被迫從事不法工作\n2 吸毒、吃搖頭丸等不法藥物\n3 被恐嚇、詐財\n4 被搶奪財物\n5 遭受外人傷害\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Type of violence from outside",
+      "description_en": "0 None\n1 Forced to engage in illegal work\n2 Taking drugs, ecstasy and other illegal drugs\n3 Threatened or defrauded\n4 Property robbed\n5 Harmed by outsiders\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 137,
+      "name_zh": "哪方面的外界暴力",
+      "name_en": "Q39_3",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 被迫從事不法工作\n2 吸毒、吃搖頭丸等不法藥物\n3 被恐嚇、詐財\n4 被搶奪財物\n5 遭受外人傷害\n65 其他(請填寫開放紀錄表)\n99 拒答",
@@ -1274,9 +1571,42 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 141,
+      "seq": 142,
       "name_zh": "透過哪種管道取得資訊(可複選)",
-      "name_en": "Q41_1Q41_2Q41_3Q41_4",
+      "name_en": "Q41_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 警察局\n6 學校\n7 醫院\n8 縣市政府\n9 鄉公所\n10 社會團體\n11 工作場所\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Police station\n6 School\n7 Hospital\n8 County/city government\n9 Township office\n10 Social organization\n11 Workplace\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 143,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q41_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 警察局\n6 學校\n7 醫院\n8 縣市政府\n9 鄉公所\n10 社會團體\n11 工作場所\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Police station\n6 School\n7 Hospital\n8 County/city government\n9 Township office\n10 Social organization\n11 Workplace\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 144,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q41_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 警察局\n6 學校\n7 醫院\n8 縣市政府\n9 鄉公所\n10 社會團體\n11 工作場所\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Police station\n6 School\n7 Hospital\n8 County/city government\n9 Township office\n10 Social organization\n11 Workplace\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 145,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q41_4",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 警察局\n6 學校\n7 醫院\n8 縣市政府\n9 鄉公所\n10 社會團體\n11 工作場所\n65 其他(請填寫開放紀錄表)\n99 拒答",
@@ -1307,9 +1637,53 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 147,
+      "seq": 148,
       "name_zh": "透過哪種管道取得資訊(可複選)",
-      "name_en": "Q42_1Q42_2Q42_3Q42_4Q42_5",
+      "name_en": "Q42_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 149,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q42_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 150,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q42_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 151,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q42_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 152,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q42_5",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 其他(請填寫開放紀錄表)\n99 拒答",
@@ -1340,9 +1714,86 @@
       "description_en": "1 Know 2 Don't know 99 Refused"
     },
     {
-      "seq": 154,
+      "seq": 155,
       "name_zh": "透過哪種管道取得資訊(可複選)",
-      "name_en": "Q43_1Q43_2Q43_3Q43_4Q43_5Q43_6Q43_7Q43_8",
+      "name_en": "Q43_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 156,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 157,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 158,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 159,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 160,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 161,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained (multiple responses allowed)",
+      "description_en": "0 None\n1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n65 Other (please fill in the open-ended record form)\n99 Refused"
+    },
+    {
+      "seq": 162,
+      "name_zh": "透過哪種管道取得資訊(可複選)",
+      "name_en": "Q43_8",
       "type": "Char",
       "length": 2,
       "description_zh": "0 無\n1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 里長、里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n65 其他(請填寫開放紀錄表)\n99 拒答",
@@ -1362,9 +1813,130 @@
       "description_en": "explanation"
     },
     {
-      "seq": 163,
+      "seq": 164,
       "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
-      "name_en": "Q44_AQ44_BQ44_CQ44_DQ44_EQ44_FQ44_GQ44_HQ44_IQ44_JQ44_KQ44_L",
+      "name_en": "Q44_A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 165,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 166,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 167,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 168,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_E",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 169,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 170,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_G",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 171,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 172,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_I",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 173,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_J",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 174,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_K",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務",
+      "available_notes": [],
+      "name_zh_en": "Which of the following government women's welfare programs are known",
+      "description_en": "1 113 Women and Children Protection Hotline\n2 Various living assistance for women in special circumstances\n3 Parenting education and learning-and-growth services\n4 Psychological counseling services\n5 Legal consultation services\n6 Activities, courses and social work services provided by women's welfare service centers\n7 Economic subsidies for single-parent families\n8 Activities, courses and social work services provided by single-parent family service centers, single-parent family economic subsidies 9 Childcare-related services\n10 Elderly day-care services\n11 Services for victims of sexual assault and domestic violence"
+    },
+    {
+      "seq": 175,
+      "name_zh": "知道哪些下列政府所辦理之婦女福利項目",
+      "name_en": "Q44_L",
       "type": "Char",
       "length": 2,
       "description_zh": "1 113婦幼保護專線\n2 特殊境遇婦女之各項生活扶助\n3 親職教育及學習成長的服務\n4 心理諮商的服務\n5 法律諮詢的服務\n6 婦女福利服務中心所提供之各項活動、課程及社工服務\n7 單親家庭經濟補助\n8 單親家庭服務中心所提供之各項活動、課程及社工服務單親家庭經濟9 托兒方面的服務\n10 托老方面的服務\n11 性侵害及家庭暴力被害人的各項服務12 促進婦女就業之相關服務及輔導措施\n99 以上各項都不知道",
@@ -1637,14 +2209,36 @@
       "description_en": "0: Don't know, 1: Yes, 2: No, 99: Refused"
     },
     {
-      "seq": 199,
-      "name_zh": "為增進婦女個人的權益及提供全人發展，政府應加強",
-      "name_en": "Q45_1Q45_2Q45_3",
+      "seq": 200,
+      "name_zh": "為增進婦女個人的",
+      "name_en": "Q45_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 學習成長\n5 休閒活動",
+      "available_notes": [],
+      "name_zh_en": "To promote women's individual",
+      "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Learning and growth\n5 Leisure activities"
+    },
+    {
+      "seq": 201,
+      "name_zh": "權益及提供全人發",
+      "name_en": "Q45_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 學習成長\n5 休閒活動",
+      "available_notes": [],
+      "name_zh_en": "rights and interests and to provide holistic development",
+      "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Learning and growth\n5 Leisure activities"
+    },
+    {
+      "seq": 202,
+      "name_zh": "展，政府應加強",
+      "name_en": "Q45_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 學習成長\n5 休閒活動6 創業貸款\n7 促進兩性平權措施\n8 社會治安\n9 婦女保護\n10 生活扶助\n11 托育服務\n12 加強宣導相關政策宣導13 增加婦女就業機會及提高就業保障\n14 提供健康檢查及健康諮詢\n15 增加婦女醫療設備或診所\n16 增加補助減少經濟負擔17 提供各類婦女輔導\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 不知道",
       "available_notes": [],
-      "name_zh_en": "To promote women's individual rights and provide holistic development, the government should strengthen",
+      "name_zh_en": "development, the government should strengthen",
       "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Learning and growth\n5 Leisure activities 6 Start-up loans\n7 Measures to promote gender equality\n8 Public security\n9 Protection of women\n10 Living assistance\n11 Childcare services\n12 Strengthen publicity of related policies 13 Increase employment opportunities and employment protection for women\n14 Provide health checkups and health counseling\n15 Increase medical equipment or clinics for women\n16 Increase subsidies to reduce financial burden 17 Provide various kinds of counseling for women\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Don't know"
     },
     {
@@ -1659,14 +2253,36 @@
       "description_en": "explanation"
     },
     {
-      "seq": 203,
-      "name_zh": "期望政府或民間機構團體如何建立完善的托兒服務措施",
-      "name_en": "Q46_1Q46_2Q46_3",
+      "seq": 204,
+      "name_zh": "期望政府或民間機",
+      "name_en": "Q46_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 加強辦理保母人員訓練2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 加強辦理課後收托服務5 加強托兒機構的評鑑6 降低或補助相關照顧費用\n7 降低或補助托育費用8 加強保母督導管理\n9 介紹保母\n10 辦理臨時托育服務\n11 加強辦理托兒機構之輔導補助\n12 廣設公立托兒所\n13 增加公立托兒所名額",
+      "available_notes": [],
+      "name_zh_en": "expect the government or private organizations",
+      "description_en": "1 Strengthen training for nannies 2 Encourage extension of childcare hours 3 Assist institutions to set up affiliated nurseries 4 Strengthen after-school care services 5 Strengthen evaluation of childcare institutions 6 Reduce or subsidize related caregiving costs\n7 Reduce or subsidize childcare costs 8 Strengthen supervision and management of nannies\n9 Refer nannies\n10 Provide temporary childcare services\n11 Strengthen guidance and subsidies for childcare institutions\n12 Establish more public nurseries\n13 Increase the number of places in public nurseries"
+    },
+    {
+      "seq": 205,
+      "name_zh": "構團體如何建立完",
+      "name_en": "Q46_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 加強辦理保母人員訓練2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 加強辦理課後收托服務5 加強托兒機構的評鑑6 降低或補助相關照顧費用\n7 降低或補助托育費用8 加強保母督導管理\n9 介紹保母\n10 辦理臨時托育服務\n11 加強辦理托兒機構之輔導補助\n12 廣設公立托兒所\n13 增加公立托兒所名額",
+      "available_notes": [],
+      "name_zh_en": "groups how to establish a comprehensive",
+      "description_en": "1 Strengthen training for nannies 2 Encourage extension of childcare hours 3 Assist institutions to set up affiliated nurseries 4 Strengthen after-school care services 5 Strengthen evaluation of childcare institutions 6 Reduce or subsidize related caregiving costs\n7 Reduce or subsidize childcare costs 8 Strengthen supervision and management of nannies\n9 Refer nannies\n10 Provide temporary childcare services\n11 Strengthen guidance and subsidies for childcare institutions\n12 Establish more public nurseries\n13 Increase the number of places in public nurseries"
+    },
+    {
+      "seq": 206,
+      "name_zh": "善的托兒服務措施",
+      "name_en": "Q46_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 加強辦理保母人員訓練2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 加強辦理課後收托服務5 加強托兒機構的評鑑6 降低或補助相關照顧費用\n7 降低或補助托育費用8 加強保母督導管理\n9 介紹保母\n10 辦理臨時托育服務\n11 加強辦理托兒機構之輔導補助\n12 廣設公立托兒所\n13 增加公立托兒所名額14 公司或社區建立托兒中心\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "How the government or private organizations are expected to establish comprehensive childcare services",
+      "name_zh_en": "childcare service measures",
       "description_en": "1 Strengthen nanny training 2 Encourage longer childcare hours 3 Guide institutions in establishing affiliated nurseries 4 Strengthen after-school care services 5 Strengthen evaluation of childcare institutions 6 Reduce or subsidize related care costs\n7 Reduce or subsidize childcare costs 8 Strengthen nanny supervision and management\n9 Nanny referral\n10 Provide temporary childcare services\n11 Strengthen guidance and subsidies for childcare institutions\n12 Establish more public nurseries\n13 Increase public nursery places 14 Companies or communities set up childcare centers\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Refused"
     },
     {
@@ -1681,14 +2297,36 @@
       "description_en": "explanation"
     },
     {
-      "seq": 207,
-      "name_zh": "期望政府或民間機構團體如何建立完善的托老服務措施",
-      "name_en": "Q47_1Q47_2Q47_3",
+      "seq": 208,
+      "name_zh": "期望政府或民間機",
+      "name_en": "Q47_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 鼓勵設立老人安養、養護機構\n2 加強老人福利機構的評鑑\n3 辦理老人社區照顧，提供托老或居家服務\n4 降低或補助相關照顧費用\n5 獎勵民間興建老人住宅及社區\n6 提供照顧老人的留職帶薪親職假\n7 辦理照顧服務員訓練8 加強老人養護機構之輔導補助\n9 增設公立老人安養機構10 加強老人醫療設備及照護\n11 建立老人活動中心或休閒中心\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "How the government or private organizations are expected to establish comprehensive elderly care services",
+      "name_zh_en": "expect the government or private organizations",
+      "description_en": "1 Encourage establishment of elderly residential and nursing care institutions\n2 Strengthen evaluation of elderly welfare institutions\n3 Provide community care for the elderly, offering elder day care or home services\n4 Reduce or subsidize related care costs\n5 Reward private construction of elderly housing and communities\n6 Provide paid leave with job retention for caring for the elderly\n7 Provide care worker training 8 Strengthen guidance and subsidies for elderly nursing institutions\n9 Establish more public elderly residential institutions 10 Strengthen medical equipment and care for the elderly\n11 Establish elderly activity centers or leisure centers\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Refused"
+    },
+    {
+      "seq": 209,
+      "name_zh": "構團體如何建立完",
+      "name_en": "Q47_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 鼓勵設立老人安養、養護機構\n2 加強老人福利機構的評鑑\n3 辦理老人社區照顧，提供托老或居家服務\n4 降低或補助相關照顧費用\n5 獎勵民間興建老人住宅及社區\n6 提供照顧老人的留職帶薪親職假\n7 辦理照顧服務員訓練8 加強老人養護機構之輔導補助\n9 增設公立老人安養機構10 加強老人醫療設備及照護\n11 建立老人活動中心或休閒中心\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "groups how to establish a comprehensive",
+      "description_en": "1 Encourage establishment of elderly residential and nursing care institutions\n2 Strengthen evaluation of elderly welfare institutions\n3 Provide community care for the elderly, offering elder day care or home services\n4 Reduce or subsidize related care costs\n5 Reward private construction of elderly housing and communities\n6 Provide paid leave with job retention for caring for the elderly\n7 Provide care worker training 8 Strengthen guidance and subsidies for elderly nursing institutions\n9 Establish more public elderly residential institutions 10 Strengthen medical equipment and care for the elderly\n11 Establish elderly activity centers or leisure centers\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Refused"
+    },
+    {
+      "seq": 210,
+      "name_zh": "善的托老服務措施",
+      "name_en": "Q47_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 鼓勵設立老人安養、養護機構\n2 加強老人福利機構的評鑑\n3 辦理老人社區照顧，提供托老或居家服務\n4 降低或補助相關照顧費用\n5 獎勵民間興建老人住宅及社區\n6 提供照顧老人的留職帶薪親職假\n7 辦理照顧服務員訓練8 加強老人養護機構之輔導補助\n9 增設公立老人安養機構10 加強老人醫療設備及照護\n11 建立老人活動中心或休閒中心\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "elderly day-care service measures",
       "description_en": "1 Encourage establishment of elderly residential and nursing care institutions\n2 Strengthen evaluation of elderly welfare institutions\n3 Provide community care for the elderly, offering elder day care or home services\n4 Reduce or subsidize related care costs\n5 Reward private construction of elderly housing and communities\n6 Provide paid leave with job retention for caring for the elderly\n7 Provide care worker training 8 Strengthen guidance and subsidies for elderly nursing institutions\n9 Establish more public elderly residential institutions 10 Strengthen medical equipment and care for the elderly\n11 Establish elderly activity centers or leisure centers\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Refused"
     },
     {
@@ -1703,14 +2341,36 @@
       "description_en": "explanation"
     },
     {
-      "seq": 211,
-      "name_zh": "為營造有利的生育子女環境，認為政府應加強提供哪些服務",
-      "name_en": "Q48_1Q48_2Q48_3",
+      "seq": 212,
+      "name_zh": "為營造有利的生育",
+      "name_en": "Q48_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 提供育嬰留職帶薪之親職假\n2 提供完整之幼托服務體",
+      "available_notes": [],
+      "name_zh_en": "To create a favorable childbearing",
+      "description_en": "1 Provide paid parental leave with job retention for childcare\n2 Provide a complete childcare service system"
+    },
+    {
+      "seq": 213,
+      "name_zh": "子女環境，認為政",
+      "name_en": "Q48_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 提供育嬰留職帶薪之親職假\n2 提供完整之幼托服務體",
+      "available_notes": [],
+      "name_zh_en": "and child-rearing environment, do you think the government",
+      "description_en": "1 Provide paid parental leave with job retention for childcare\n2 Provide a complete childcare service system"
+    },
+    {
+      "seq": 214,
+      "name_zh": "府應加強提供哪些服務",
+      "name_en": "Q48_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 提供育嬰留職帶薪之親職假\n2 提供完整之幼托服務體系\n3 提供扶養幼兒稅賦之減免措施\n4 提供兒童津貼\n5 鼓勵男性參與照顧小孩與家務工作\n6 利用國小空間廣設公立托兒所及幼稚園\n7 加強教育改革\n8 改善社會治安和社會風氣\n9 開設第三胎補助金\n10 不論第幾胎均有生育補助金\n11 改善國內經濟\n12 補助教育費用\n13 提高就業機會\n14 補助生育津貼\n65 其他(請填寫開放紀錄表)\n89 無意見\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "What services the government should strengthen to create an environment favorable to childbearing",
+      "name_zh_en": "should strengthen which services",
       "description_en": "1 Provide paid parental leave with job retention for infant care\n2 Provide a complete early childhood care service system\n3 Provide tax relief for raising young children\n4 Provide child allowance\n5 Encourage men to participate in childcare and housework\n6 Use elementary school space to establish more public nurseries and kindergartens\n7 Strengthen education reform\n8 Improve public security and social ethos\n9 Establish a subsidy for third children\n10 Birth subsidy for every child regardless of birth order\n11 Improve the domestic economy\n12 Subsidize education costs\n13 Increase employment opportunities\n14 Subsidize childbirth allowance\n65 Other (please fill in the open-ended record form)\n89 No opinion\n99 Refused"
     },
     {
@@ -2283,7 +2943,7 @@
       "description_zh": "1 台北市\n2 高雄市\n3 台灣北部\n4 台灣中部\n5 台灣南部\n6 台灣東部\n7 金馬地區",
       "available_notes": [],
       "name_zh_en": "region",
-      "description_en": "1 Taipei City 2 Kaohsiung City 3 Northern Taiwan 4 Central Taiwan 5 Southern Taiwan 6 Eastern Taiwan 7 Kinmen-Matsu region"
+      "description_en": "1 Taipei City 2\nKaohsiung City\n3 Northern Taiwan 4 Central\nTaiwan 5 Southern\nTaiwan 6 Eastern\nTaiwan 7\nKinmen-Matsu region"
     },
     {
       "seq": 267,
@@ -2521,9 +3181,7 @@
   "raw_text_first_page": "2025年06月24日修訂\n95 年婦女生活狀況調查\n(W_MOHW_WLCS)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_WLCS 資料筆數 6,017\n中文檔名 婦女生活狀況調查 英文檔名 Women live conditions survey\n檔案大小 6.8MB 欄位數 287\n譯碼簿\n屬性 調查檔 週期 年 2025/06/24\n更新日期\n資料描述 1. 居住臺閩地區年滿15至64歲之我國女性人口(含調查期間在臺而尚未取得本國國\n籍之外籍配偶及大陸、港澳配偶)為調查母體，並採分層比例隨機抽樣法，在考慮\n抽樣誤差不超過1.5％及信賴水準至少95％。\n2. 調查項目包含：我國婦女之婚育狀況、個人狀況、工作狀況、經濟狀況、家庭狀\n況、社會參與及休閒活動狀況、資訊技能及終身學習狀況、人身威脅經驗、對婦\n女福利措施的瞭解與使用及期望政府或民間團體應加強提供的服務措施等。\n(引述行政院主計總處)\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011及2019年，因年度不同，資料\n欄位不盡相同。\n主鍵與比\n無\n對欄位\n二、 檔案格式及資料描述\n1",
   "qa": {
     "errors": [],
-    "warnings": [
-      "field count mismatch: header=287, parsed=209"
-    ]
+    "warnings": []
   },
   "page_count": 63,
   "code": "Welfare08",
@@ -2540,7 +3198,7 @@
   "primary_keys_en": "none",
   "name_zh_en": "women's living condition survey",
   "printed": {
-    "field_rows": 209,
+    "field_rows": 287,
     "code_tables": {},
     "code_table_headings": []
   }

@@ -94,7 +94,7 @@
       "description_zh": "1：新北市\n2：臺北市\n3：桃園市\n4：臺中市\n5：臺南市\n6：高雄市\n7：宜蘭縣\n8：新竹縣\n9：苗栗縣\n10：彰化縣\n11：南投縣\n12：雲林縣\n13：嘉義縣\n14：屏東縣\n15：臺東縣\n16：花蓮縣\n17：澎湖縣\n18：基隆市\n19：新竹市\n20：嘉義市\n21：金馬地區",
       "available_notes": [],
       "name_zh_en": "county city",
-      "description_en": "1: New Taipei City 2: Taipei City 3: Taoyuan City 4: Taichung City 5: Tainan City 6: Kaohsiung City 7: Yilan County 8: Hsinchu County 9: Miaoli County 10: Changhua County 11: Nantou County 12: Yunlin County 13: Chiayi County 14: Pingtung County 15: Taitung County 16: Hualien County 17: Penghu County 18: Keelung City 19: Hsinchu City 20: Chiayi City 21: Kinmen and Matsu Area"
+      "description_en": "1: New Taipei City 2:\nTaipei City 3:\nTaoyuan City\n4: Taichung City 5:\nTainan City\n6: Kaohsiung\nCity 7: Yilan County 8:\nHsinchu County\n9: Miaoli\nCounty 10: Changhua\nCounty 11: Nantou County\n12: Yunlin County 13:\nChiayi County\n14: Pingtung\nCounty 15:\nTaitung County\n16: Hualien County\n17: Penghu County 18:\nKeelung City 19: Hsinchu\nCity 20: Chiayi City 21:\nKinmen and Matsu Area"
     },
     {
       "seq": 8,
@@ -528,7 +528,7 @@
       "length": 1,
       "description_zh": "1：不識字\n2：國小及自修\n3：國(初)中\n4：高級中等(高中職)\n5：專科\n6：大學\n7：碩士\n8：博士",
       "available_notes": [],
-      "name_zh_en": "Q7.education level",
+      "name_zh_en": "Q7.7 Education level",
       "description_en": "1: Illiterate 2: Elementary school and self-taught 3: Junior high school 4: Senior secondary (senior high/vocational) 5: Junior college 6: University/college 7: Master's degree 8: Doctoral degree"
     },
     {
@@ -4019,32 +4019,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -4067,7 +4067,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n112 年低收入戶及中低收入戶生活狀況調查\n(W_MOHW_LIMIFLCS_H112)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_LIMIFLCS_112 資料筆數 30,679筆\n中文檔名 112年低收入戶及中低收入戶 英文檔名 The Low-income and Middle-income\n生活狀況調查 Family Living Condition Survey\n檔案大小 18 MB 欄位數 199\n譯碼簿\n屬性 調查檔 週期 5年 2025/06/24\n更新日期\n1.我國「低收入戶生活狀況調查」係由內政部於79年首次辦理，之後分別於83、90、\n93及97年賡續辦理。100年7月因社會救助法修正放寬最低生活費及審核門檻，並將\n中低收入戶納入社會救助法保障，爰於102年第6次調查增納中低收入戶為訪查對\n象，並將調查名稱更名為「低收入戶及中低收入戶生活狀況調查」，另配合行政院\n組織再造，107年由衛生福利部接續辦理第7次調查、本次(112年)為第8次調查。\n2.本調查係依據社會救助法第13條規定辦理，調查對象為各地方政府政府核定列冊之\n資料描述 低收入戶及中低收入戶。抽樣方法係以各直轄市及縣市為副母體，副母體內採分層\n二段系統抽樣。資料蒐集項目包括低收入戶及中低收入戶之住宅及設備狀況、經濟\n狀況、接受社會救助狀況、對政府社會救助政策意見、社會參與及社會支持，以及\n戶內共同生活成員之基本資料與就業情形、健康及醫療狀況等資料，旨在提供政府\n制定社會救助相關政策之參考。\n3.調查實施計畫、抽樣設計、調查表，可參閱衛生福利部統計處網頁址:\nhttps://dep.mohw.gov.tw/DOS/lp-5094-113.html。\n1.資料登打格式為戶內人口一人一筆資料，若要處理戶資料，請用「戶資料」\n(HOSUEHOLD)篩選。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n注意事項\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1",

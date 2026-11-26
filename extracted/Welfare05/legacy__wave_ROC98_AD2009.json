@@ -3974,6 +3974,457 @@
         }
       ],
       "field_en": "Assistive device category (Groups A-H: personal medical / orthoses and prostheses / personal care and protection / personal mobility / home living / housing and furniture modification / communication and information / object handling assistive devices)"
+    },
+    "鄉鎮市區代碼表": {
+      "field_zh": "鄉鎮市區代碼表",
+      "entries": [
+        {
+          "code": "基隆市",
+          "label_zh": "新竹縣 臺中縣 南投縣",
+          "label_en": "Hsinchu County Taichung County Nantou County"
+        },
+        {
+          "code": "1701",
+          "label_zh": "中正區 0401 竹北市 0601 太平市 0801 南投市",
+          "label_en": "Zhongzheng District 0401 Zhubei City 0601 Taiping City 0801 Nantou City"
+        },
+        {
+          "code": "1702",
+          "label_zh": "七堵區 0402 湖口鄉 0602 大里市 0802 中寮鄉",
+          "label_en": "Qidu District 0402 Hukou Township 0602 Dali City 0802 Zhongliao Township"
+        },
+        {
+          "code": "1703",
+          "label_zh": "暖暖區 0403 新豐鄉 0603 霧峰鄉 0803 草屯鎮",
+          "label_en": "Nuannuan District 0403 Xinfeng Township 0603 Wufeng Township 0803 Caotun Town"
+        },
+        {
+          "code": "1704",
+          "label_zh": "仁愛區 0404 新埔鎮 0604 烏日鄉 0804 國姓鄉",
+          "label_en": "Ren'ai District 0404 Xinpu Town 0604 Wuri Township 0804 Guoxing Township"
+        },
+        {
+          "code": "1705",
+          "label_zh": "中山區 0405 關西鎮 0605 豐原市 0805 埔里鎮",
+          "label_en": "Zhongshan District 0405 Guanxi Town 0605 Fengyuan City 0805 Puli Town"
+        },
+        {
+          "code": "1706",
+          "label_zh": "安樂區 0406 芎林鄉 0606 后里鄉 0806 仁愛鄉",
+          "label_en": "Anle District 0406 Qionglin Township 0606 Houli Township 0806 Ren'ai Township"
+        },
+        {
+          "code": "1707",
+          "label_zh": "信義區 0407 寶山鄉 0607 石岡鄉 0807 名間鄉",
+          "label_en": "Xinyi District 0407 Baoshan Township 0607 Shigang Township 0807 Mingjian Township"
+        },
+        {
+          "code": "臺北市",
+          "label_zh": "0408 竹東鎮 0608 東勢鎮 0808 集集鎮",
+          "label_en": "0408 Zhudong Town 0608 Dongshi Town 0808 Jiji Town"
+        },
+        {
+          "code": "2201",
+          "label_zh": "萬華區 0409 五峰鄉 0609 和平鄉 0809 水里鄉",
+          "label_en": "Wanhua District 0409 Wufeng Township 0609 Heping Township 0809 Shuili Township"
+        },
+        {
+          "code": "2202",
+          "label_zh": "中正區 0410 橫山鄉 0610 新社鄉 0810 魚池鄉",
+          "label_en": "Zhongzheng District 0410 Hengshan Township 0610 Xinshe Township 0810 Yuchi Township"
+        },
+        {
+          "code": "2203",
+          "label_zh": "大同區 0411 尖石鄉 0611 潭子鄉 0811 信義鄉",
+          "label_en": "Datong District 0411 Jianshi Township 0611 Tanzi Township 0811 Xinyi Township"
+        },
+        {
+          "code": "2204",
+          "label_zh": "中山區 0412 北埔鄉 0612 大雅鄉 0812 竹山鎮",
+          "label_en": "Zhongshan District 0412 Beipu Township 0612 Daya Township 0812 Zhushan Town"
+        },
+        {
+          "code": "2205",
+          "label_zh": "大安區 0413 峨嵋鄉 0613 神岡鄉 0813 鹿谷鄉",
+          "label_en": "Da'an District 0413 Emei Township 0613 Shengang Township 0813 Lugu Township"
+        },
+        {
+          "code": "2206",
+          "label_zh": "內湖區 苗栗縣 0614 大肚鄉 宜蘭縣",
+          "label_en": "Neihu District Miaoli County 0614 Dadu Township Yilan County"
+        },
+        {
+          "code": "2207",
+          "label_zh": "文山區 0501 竹南鎮 0615 沙鹿鎮 0201 宜蘭市",
+          "label_en": "Wenshan District 0501 Zhunan Town 0615 Shalu Town 0201 Yilan City"
+        },
+        {
+          "code": "2208",
+          "label_zh": "松山區 0502 頭份鎮 0616 龍井鄉 0202 頭城鎮",
+          "label_en": "Songshan District 0502 Toufen Town 0616 Longjing Township 0202 Toucheng Town"
+        },
+        {
+          "code": "2209",
+          "label_zh": "信義區 0505 獅潭鄉 0617 梧棲鎮 0203 礁溪鄉",
+          "label_en": "Xinyi District 0505 Shitan Township 0617 Wuqi Town 0203 Jiaoxi Township"
+        },
+        {
+          "code": "2210",
+          "label_zh": "士林區 0506 後龍鎮 0618 清水鎮 0204 壯圍鄉",
+          "label_en": "Shilin District 0506 Houlong Town 0618 Qingshui Town 0204 Zhuangwei Township"
+        },
+        {
+          "code": "2211",
+          "label_zh": "北投區 0507 通宵鎮 0619 大甲鎮 0205 員山鄉",
+          "label_en": "Beitou District 0507 Tongxiao Town 0619 Dajia Town 0205 Yuanshan Township"
+        },
+        {
+          "code": "2212",
+          "label_zh": "南港區 0508 苑裡鎮 0620 外埔鄉 0206 羅東鎮",
+          "label_en": "Nangang District 0508 Yuanli Town 0620 Waipu Township 0206 Luodong Town"
+        },
+        {
+          "code": "臺北縣",
+          "label_zh": "0509 苗栗市 0621 大安鄉 0207 三星鄉",
+          "label_en": "0509 Miaoli City 0621 Da'an Township 0207 Sanxing Township"
+        },
+        {
+          "code": "0101",
+          "label_zh": "萬里鄉 0510 造橋鄉 彰化縣 0209 五結鄉",
+          "label_en": "Wanli Township 0510 Zaoqiao Township Changhua County 0209 Wujie Township"
+        },
+        {
+          "code": "0102",
+          "label_zh": "金山鄉 0511 頭屋鄉 0701 彰化市 0210 冬山鄉",
+          "label_en": "Jinshan Township 0511 Touwu Township 0701 Changhua City 0210 Dongshan Township"
+        },
+        {
+          "code": "0103",
+          "label_zh": "板橋市 0512 公館鄉 0702 員林鎮 0211 蘇澳鎮",
+          "label_en": "Banqiao City 0512 Gongguan Township 0702 Yuanlin Town 0211 Su'ao Town"
+        },
+        {
+          "code": "0104",
+          "label_zh": "汐止市 0513 大湖鄉 0703 線西鄉 0212 南澳鄉",
+          "label_en": "Xizhi City 0513 Dahu Township 0703 Xianxi Township 0212 Nan'ao Township"
+        },
+        {
+          "code": "0105",
+          "label_zh": "深坑鄉 0514 泰安鄉 0704 花壇鄉 花蓮縣",
+          "label_en": "Shenkeng Township 0514 Tai'an Township 0704 Huatan Township Hualien County"
+        },
+        {
+          "code": "0106",
+          "label_zh": "石碇鄉 0515 銅鑼鄉 0705 鹿港鎮 1501 花蓮市",
+          "label_en": "Shiding Township 0515 Tongluo Township 0705 Lugang Town 1501 Hualien City"
+        },
+        {
+          "code": "0107",
+          "label_zh": "瑞芳鎮 0516 三義鄉 0706 溪湖鎮 1502 新城鄉",
+          "label_en": "Ruifang Town 0516 Sanyi Township 0706 Xihu Town 1502 Xincheng Township"
+        },
+        {
+          "code": "0108",
+          "label_zh": "平溪鄉 0517 西湖鄉 0707 伸港鄉 1503 秀林鄉",
+          "label_en": "Pingxi Township 0517 Xihu Township 0707 Shengang Township 1503 Xiulin Township"
+        },
+        {
+          "code": "0109",
+          "label_zh": "雙溪鄉 0518 卓蘭鎮 0708 芬園鄉 1504 吉安鄉",
+          "label_en": "Shuangxi Township 0518 Zhuolan Town 0708 Fenyuan Township 1504 Ji'an Township"
+        },
+        {
+          "code": "0110",
+          "label_zh": "貢寮鄉 嘉義市 0709 和美鎮 1505 壽豐鄉",
+          "label_en": "Gongliao Township Chiayi City 0709 Hemei Town 1505 Shoufeng Township"
+        },
+        {
+          "code": "0111",
+          "label_zh": "新店市 2001 東區 0710 田中鎮 1506 鳳林鎮",
+          "label_en": "Xindian City 2001 East District 0710 Tianzhong Town 1506 Fenglin Town"
+        },
+        {
+          "code": "0113",
+          "label_zh": "烏來鄉 2002 西區 0711 福興鄉 1507 光復鄉",
+          "label_en": "Wulai Township 2002 West District 0711 Fuxing Township 1507 Guangfu Township"
+        },
+        {
+          "code": "0114",
+          "label_zh": "永和市 嘉義縣 0712 大村鄉 1509 瑞穗鄉",
+          "label_en": "Yonghe City Chiayi County 0712 Dacun Township 1509 Ruisui Township"
+        },
+        {
+          "code": "0115",
+          "label_zh": "中和市 1001 布袋鎮 0713 北斗鎮 1510 萬榮鄉",
+          "label_en": "Zhonghe City 1001 Budai Town 0713 Beidou Town 1510 Wanrong Township"
+        },
+        {
+          "code": "0116",
+          "label_zh": "土城市 1003 梅山鄉 0714 二林鎮 1511 玉里鎮",
+          "label_en": "Tucheng City 1003 Meishan Township 0714 Erlin Town 1511 Yuli Town"
+        },
+        {
+          "code": "0117",
+          "label_zh": "三峽鎮 1004 竹崎鄉 0715 秀水鄉 1513 富里鄉",
+          "label_en": "Sanxia Town 1004 Zhuqi Township 0715 Xiushui Township 1513 Fuli Township"
+        },
+        {
+          "code": "0118",
+          "label_zh": "樹林市 1006 中埔鄉 0716 埔鹽鄉 臺東縣",
+          "label_en": "Shulin City 1006 Zhongpu Township 0716 Puyan Township Taitung County"
+        },
+        {
+          "code": "0119",
+          "label_zh": "鶯歌鎮 1007 大埔鄉 0717 埔心鄉 1401 台東市",
+          "label_en": "Yingge Town 1007 Dapu Township 0717 Puxin Township 1401 Taitung City"
+        },
+        {
+          "code": "0120",
+          "label_zh": "三重市 1008 水上鄉 0718 田尾鄉 1405 卑南鄉",
+          "label_en": "Sanchong City 1008 Shuishang Township 0718 Tianwei Township 1405 Beinan Township"
+        },
+        {
+          "code": "0121",
+          "label_zh": "新莊市 1009 鹿草鄉 0719 溪州鄉 1406 鹿野鄉",
+          "label_en": "Xinzhuang City 1009 Lucao Township 0719 Xizhou Township 1406 Luye Township"
+        },
+        {
+          "code": "0122",
+          "label_zh": "泰山鄉 1010 太保市 0720 芳苑鄉 1407 關山鎮",
+          "label_en": "Taishan Township 1010 Taibao City 0720 Fangyuan Township 1407 Guanshan Town"
+        },
+        {
+          "code": "0123",
+          "label_zh": "林口鄉 1011 朴子市 0721 永靖鄉 1409 池上鄉",
+          "label_en": "Linkou Township 1011 Puzi City 0721 Yongjing Township 1409 Chishang Township"
+        },
+        {
+          "code": "0124",
+          "label_zh": "蘆洲市 1012 東石鄉 0722 埤頭鄉 1410 東河鄉",
+          "label_en": "Luzhou City 1012 Dongshi Township 0722 Pitou Township 1410 Donghe Township"
+        },
+        {
+          "code": "0125",
+          "label_zh": "五股鄉 1013 六腳鄉 0723 竹塘鄉 1411 成功鎮",
+          "label_en": "Wugu Township 1013 Liujiao Township 0723 Zhutang Township 1411 Chenggong Town"
+        },
+        {
+          "code": "0127",
+          "label_zh": "淡水鎮 1014 新港鄉 0724 大城鄉 1412 長濱鄉",
+          "label_en": "Tamsui Town 1014 Xingang Township 0724 Dacheng Township 1412 Changbin Township"
+        },
+        {
+          "code": "0128",
+          "label_zh": "三芝鄉 1015 民雄鄉 0725 社頭鄉 1413 太麻里鄉",
+          "label_en": "Sanzhi Township 1015 Minxiong Township 0725 Shetou Township 1413 Taimali Township"
+        },
+        {
+          "code": "桃園縣",
+          "label_zh": "1016 大林鎮 0726 二水鄉 1416 達仁鄉",
+          "label_en": "1016 Dalin Town 0726 Ershui Township 1416 Daren Township"
+        },
+        {
+          "code": "0301",
+          "label_zh": "中壢市 1017 溪口鄉 臺南市 高雄市",
+          "label_en": "Zhongli City 1017 Xikou Township Tainan City Kaohsiung City"
+        },
+        {
+          "code": "0302",
+          "label_zh": "平鎮市 1018 義竹鄉 2101 東區 2301 鹽埕區",
+          "label_en": "Pingzhen City 1018 Yizhu Township 2101 East District 2301 Yancheng District"
+        },
+        {
+          "code": "0303",
+          "label_zh": "龍潭鄉 高雄縣 2102 南區 2302 鼓山區",
+          "label_en": "Longtan Township Kaohsiung County 2102 South District 2302 Gushan District"
+        },
+        {
+          "code": "0304",
+          "label_zh": "楊梅鎮 1201 仁武鄉 2103 北區 2303 左營區",
+          "label_en": "Yangmei Town 1201 Renwu Township 2103 North District 2303 Zuoying District"
+        },
+        {
+          "code": "0305",
+          "label_zh": "新屋鄉 1202 大社鄉 2104 安南區 2304 楠梓區",
+          "label_en": "Xinwu Township 1202 Dashe Township 2104 Annan District 2304 Nanzi District"
+        },
+        {
+          "code": "0306",
+          "label_zh": "觀音鄉 1203 岡山鎮 2105 安平區 2305 三民區",
+          "label_en": "Guanyin Township 1203 Gangshan Town 2105 Anping District 2305 Sanmin District"
+        },
+        {
+          "code": "0307",
+          "label_zh": "桃園市 1204 路竹鄉 2106 中西區 2306 新興區",
+          "label_en": "Taoyuan City 1204 Luzhu Township 2106 West Central District 2306 Xinxing District"
+        },
+        {
+          "code": "0308",
+          "label_zh": "龜山鄉 1205 阿蓮鄉 臺南縣 2307 前金區",
+          "label_en": "Guishan Township 1205 Alian Township Tainan County 2307 Qianjin District"
+        },
+        {
+          "code": "0309",
+          "label_zh": "八德市 1206 田寮鄉 1101 永康市 2308 芩雅區",
+          "label_en": "Bade City 1206 Tianliao Township 1101 Yongkang City 2308 Lingya District"
+        },
+        {
+          "code": "0310",
+          "label_zh": "大溪鎮 1207 燕巢鄉 1102 歸仁鄉 2309 前鎮區",
+          "label_en": "Daxi Town 1207 Yanchao Township 1102 Guiren Township 2309 Qianzhen District"
+        },
+        {
+          "code": "0311",
+          "label_zh": "復興鄉 1208 橋頭鄉 1103 新化鎮 2310 旗津區",
+          "label_en": "Fuxing Township 1208 Qiaotou Township 1103 Xinhua Town 2310 Qijin District"
+        },
+        {
+          "code": "0312",
+          "label_zh": "大園鄉 1209 梓官鄉 1104 左鎮鄉 2311 小港區",
+          "label_en": "Dayuan Township 1209 Ziguan Township 1104 Zuozhen Township 2311 Xiaogang District"
+        },
+        {
+          "code": "0313",
+          "label_zh": "蘆竹鄉 1210 彌陀鄉 1105 玉井鄉 屏東縣",
+          "label_en": "Luzhu Township 1210 Mituo Township 1105 Yujing Township Pingtung County"
+        },
+        {
+          "code": "雲林縣",
+          "label_zh": "1211 永安鄉 1106 楠西鄉 1301 屏東市",
+          "label_en": "1211 Yong'an Township 1106 Nanxi Township 1301 Pingtung City"
+        },
+        {
+          "code": "0901",
+          "label_zh": "斗六市 1212 湖內鄉 1107 南化鄉 1305 九如鄉",
+          "label_en": "Douliu City 1212 Hunei Township 1107 Nanhua Township 1305 Jiuru Township"
+        },
+        {
+          "code": "0902",
+          "label_zh": "土庫鎮 1213 鳳山市 1108 仁德鄉 1306 里港鄉",
+          "label_en": "Tuku Town 1213 Fengshan City 1108 Rende Township 1306 Ligang Township"
+        },
+        {
+          "code": "0903",
+          "label_zh": "莿桐鄉 1214 大寮鄉 1109 關廟鄉 1307 高樹鄉",
+          "label_en": "Citong Township 1214 Daliao Township 1109 Guanmiao Township 1307 Gaoshu Township"
+        },
+        {
+          "code": "0904",
+          "label_zh": "麥寮鄉 1215 林園鄉 1111 官田鄉 1308 鹽埔鄉",
+          "label_en": "Mailiao Township 1215 Linyuan Township 1111 Guantian Township 1308 Yanpu Township"
+        },
+        {
+          "code": "0905",
+          "label_zh": "斗南鎮 1216 鳥松鄉 1112 麻豆鎮 1309 長治鄉",
+          "label_en": "Dounan Town 1216 Niaosong Township 1112 Madou Town 1309 Changzhi Township"
+        },
+        {
+          "code": "0906",
+          "label_zh": "北港鎮 1217 大樹鄉 1113 佳里鎮 1310 麟洛鄉",
+          "label_en": "Beigang Town 1217 Dashu Township 1113 Jiali Town 1310 Linluo Township"
+        },
+        {
+          "code": "0907",
+          "label_zh": "林內鄉 1218 旗山鎮 1114 西港鄉 1311 竹田鄉",
+          "label_en": "Linnei Township 1218 Qishan Town 1114 Xigang Township 1311 Zhutian Township"
+        },
+        {
+          "code": "0908",
+          "label_zh": "東勢鄉 1219 美濃鎮 1115 七股鄉 1312 內埔鄉",
+          "label_en": "Dongshi Township 1219 Meinong Town 1115 Qigu Township 1312 Neipu Township"
+        },
+        {
+          "code": "0909",
+          "label_zh": "虎尾鎮 1220 六龜鄉 1116 將軍鄉 1313 萬丹鄉",
+          "label_en": "Huwei Town 1220 Liugui Township 1116 Jiangjun Township 1313 Wandan Township"
+        },
+        {
+          "code": "0910",
+          "label_zh": "古坑鄉 1221 內門鄉 1117 學甲鎮 1314 潮州鎮",
+          "label_en": "Gukeng Township 1221 Neimen Township 1117 Xuejia Town 1314 Chaozhou Town"
+        },
+        {
+          "code": "0911",
+          "label_zh": "二崙鄉 1222 杉林鄉 1119 新營市 1317 萬巒鄉",
+          "label_en": "Erlun Township 1222 Shanlin Township 1119 Xinying City 1317 Wanluan Township"
+        },
+        {
+          "code": "0912",
+          "label_zh": "褒忠鄉 1223 甲仙鄉 1120 後壁鄉 1318 崁頂鄉",
+          "label_en": "Baozhong Township 1223 Jiaxian Township 1120 Houbi Township 1318 Kanding Township"
+        },
+        {
+          "code": "0913",
+          "label_zh": "西螺鎮 1227 茄萣鄉 1121 白河鎮 1319 新埤鄉",
+          "label_en": "Xiluo Town 1227 Qieding Township 1121 Baihe Town 1319 Xinpi Township"
+        },
+        {
+          "code": "0914",
+          "label_zh": "大埤鄉 臺中市 1122 東山鄉 1320 南州鄉",
+          "label_en": "Dapi Township Taichung City 1122 Dongshan Township 1320 Nanzhou Township"
+        },
+        {
+          "code": "0915",
+          "label_zh": "崙背鄉 1901 中區 1123 六甲鄉 1321 林邊鄉",
+          "label_en": "Lunbei Township 1901 Central District 1123 Liujia Township 1321 Linbian Township"
+        },
+        {
+          "code": "0916",
+          "label_zh": "臺西鄉 1902 東區 1124 下營鄉 1322 東港鎮",
+          "label_en": "Taixi Township 1902 East District 1124 Xiaying Township 1322 Donggang Town"
+        },
+        {
+          "code": "0917",
+          "label_zh": "元長鄉 1903 西區 1125 柳營鄉 1323 琉球鄉",
+          "label_en": "Yuanchang Township 1903 West District 1125 Liuying Township 1323 Liuqiu Township"
+        },
+        {
+          "code": "0918",
+          "label_zh": "四湖鄉 1904 南區 1126 鹽水鎮 1324 佳冬鄉",
+          "label_en": "Sihu Township 1904 South District 1126 Yanshui Town 1324 Jiadong Township"
+        },
+        {
+          "code": "0919",
+          "label_zh": "口湖鄉 1905 北區 1127 善化鎮 1325 新園鄉",
+          "label_en": "Kouhu Township 1905 North District 1127 Shanhua Town 1325 Xinyuan Township"
+        },
+        {
+          "code": "0920",
+          "label_zh": "水林鄉 1906 西屯區 1128 大內鄉 1326 枋寮鄉",
+          "label_en": "Shuilin Township 1906 Xitun District 1128 Danei Township 1326 Fangliao Township"
+        },
+        {
+          "code": "金門縣",
+          "label_zh": "1907 南屯區 1129 山上鄉 1330 車城鄉",
+          "label_en": "1907 Nantun District 1129 Shanshang Township 1330 Checheng Township"
+        },
+        {
+          "code": "2401",
+          "label_zh": "金城鎮 1908 北屯區 1130 新市鄉 1332 恆春鎮",
+          "label_en": "Jincheng Town 1908 Beitun District 1130 Xinshi Township 1332 Hengchun Town"
+        },
+        {
+          "code": "2402",
+          "label_zh": "金湖鎮 連江縣 1131 安定鄉 1333 滿州鄉",
+          "label_en": "Jinhu Town Lienchiang County 1131 Anding Township 1333 Manzhou Township"
+        },
+        {
+          "code": "2403",
+          "label_zh": "金沙鎮 2501 南竿鄉 澎湖縣 新竹市",
+          "label_en": "Jinsha Town 2501 Nangan Township Penghu County Hsinchu City"
+        },
+        {
+          "code": "2404",
+          "label_zh": "金寧鄉 2502 北竿鄉 1601 馬公市 1801 東區",
+          "label_en": "Jinning Township 2502 Beigan Township 1601 Magong City 1801 East District"
+        },
+        {
+          "code": "2405",
+          "label_zh": "烈嶼鄉 2503 莒光鄉 1605 白沙鄉 1802 北區2504 東引鄉 1606 湖西鄉 1803 香山區",
+          "label_en": "Lieyu Township 2503 Juguang Township 1605 Baisha Township 1802 North District 2504 Dongyin Township 1606 Huxi Township 1803 Xiangshan District"
+        }
+      ],
+      "field_en": "Township/district code table"
     }
   },
   "raw_text_first_page": "2025年06月24日修訂\n98 年老人狀況調查資料檔\n（Welfare-5：W_MOHW_SeniorCitizen98）\n資料庫使用手冊\n一、檔案內容說明\n檔案名稱 W_MOHW_SeniorCitizen98 資料筆數 5,520筆\n中文檔名 英文檔名 2009 Report of the Senior Citizen\n98年老人狀況調查資料檔\nCondition Survey\n檔案大小 6.65MB 欄位數 326欄\n譯碼簿 2016/04/12初版\n屬性 調查檔 週期 4年\n更新日期 2025/06/24修訂\n資料描述 1. 本次調查依據統計法第 3條、第19條、老人福利法第 10條，以及內政部 98年度\n施政計畫規定辦理。\n2. 調查區域範圍：以臺閩地區為調查區域範圍，包括臺灣省各縣(市)、直轄市及金\n馬地區(金門縣、連江縣)。\n3. 調查對象：以居住於調查區域範圍內之普通住戶及共同事業戶內年滿 55歲以上之\n本國籍人口為對象。(為避免代答者過多，原則上在調查期間內出國、住院、入監\n獄服刑、常住寺廟、離家出走等年滿 55歲以上本國籍人口，不予訪查。)\n4. 調查方法：普通住戶採電話訪問法，共同事業戶採實地訪問調查法。\n(引述 98年老人狀況調查實施計畫)\n注意事項 1. 調查表分為共同問項(A表)，65歲以上者專用問項(B表)、55 至64歲者專用問項\n(C 表)三種。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比 1. 辨識樣本資料之鍵值：樣本序號(NEWID)。\n對欄位 2. 無提供身分證字號鍵值。\n1",
@@ -3997,7 +4448,11 @@
   "name_zh_en": "ROC year 98 Survey on the Elderly data file",
   "printed": {
     "field_rows": 326,
-    "code_tables": {},
-    "code_table_headings": []
+    "code_tables": {
+      "鄉鎮市區代碼表": 89
+    },
+    "code_table_headings": [
+      "鄉鎮市區代碼表"
+    ]
   }
 }

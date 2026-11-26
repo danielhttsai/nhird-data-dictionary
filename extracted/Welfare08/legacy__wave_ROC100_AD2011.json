@@ -465,9 +465,31 @@
       "description_en": "1 Want\n2 Do not want"
     },
     {
-      "seq": 24,
+      "seq": 25,
       "name_zh": "不想生小孩的原因",
-      "name_en": "Q14_1AQ14_1BQ14_1C",
+      "name_en": "Q14_1A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 教養責任太重\n2 不想影響工作\n3 經濟不佳養不起\n4 托育問題不易解決\n5 身體健康因素\n6 不想小孩改變現有生活",
+      "available_notes": [],
+      "name_zh_en": "Reasons for not wanting to have children",
+      "description_en": "1 Child-rearing responsibility too heavy\n2 Do not want to affect work\n3 Poor finances, cannot afford to raise children\n4 Childcare problem not easy to solve\n5 Physical health reasons\n6 Do not want children to change current life"
+    },
+    {
+      "seq": 26,
+      "name_zh": "不想生小孩的原因",
+      "name_en": "Q14_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 教養責任太重\n2 不想影響工作\n3 經濟不佳養不起\n4 托育問題不易解決\n5 身體健康因素\n6 不想小孩改變現有生活",
+      "available_notes": [],
+      "name_zh_en": "Reasons for not wanting to have children",
+      "description_en": "1 Child-rearing responsibility too heavy\n2 Do not want to affect work\n3 Poor finances, cannot afford to raise children\n4 Childcare problem not easy to solve\n5 Physical health reasons\n6 Do not want children to change current life"
+    },
+    {
+      "seq": 27,
+      "name_zh": "不想生小孩的原因",
+      "name_en": "Q14_1C",
       "type": "Char",
       "length": 2,
       "description_zh": "1 教養責任太重\n2 不想影響工作\n3 經濟不佳養不起\n4 托育問題不易解決\n5 身體健康因素\n6 不想小孩改變現有生活7 社會治安不佳\n8 教育制度不佳\n9 已無法生育或有不孕症10 現有小孩數已足夠或太多\n11 擔心懷孕過程辛苦與生產過程\n12 年紀還小或求學中，暫不想生小孩\n13 目前未沒有對象，還沒有生小孩想法\n77 其他\n99 不知道/未回答",
@@ -674,20 +696,97 @@
       "description_en": "1 yes 2 no"
     },
     {
-      "seq": 45,
-      "name_zh": "過去一年本人或家人所領的救助津貼或補助為哪些",
-      "name_en": "Q23_1Q23_2Q23_3",
+      "seq": 46,
+      "name_zh": "過去一年本人或家",
+      "name_en": "Q23_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 領有政府低收入戶家庭生活補助\n2 領有政府特殊境遇家庭扶助\n3 領有政府中低收入兒少托育補助、生活扶助",
+      "available_notes": [],
+      "name_zh_en": "In the past year, you or family",
+      "description_en": "1 Receiving government living allowance for low-income households\n2 Receiving government assistance for families in special circumstances\n3 Receiving government childcare subsidy or living assistance for children and youth in middle-low-income households"
+    },
+    {
+      "seq": 47,
+      "name_zh": "人所領的救助津貼",
+      "name_en": "Q23_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 領有政府低收入戶家庭生活補助\n2 領有政府特殊境遇家庭扶助\n3 領有政府中低收入兒少托育補助、生活扶助",
+      "available_notes": [],
+      "name_zh_en": "members' relief allowances received",
+      "description_en": "1 Receiving government living allowance for low-income households\n2 Receiving government assistance for families in special circumstances\n3 Receiving government childcare subsidy or living assistance for children and youth in middle-low-income households"
+    },
+    {
+      "seq": 48,
+      "name_zh": "或補助為哪些",
+      "name_en": "Q23_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 領有政府低收入戶家庭生活補助\n2 領有政府特殊境遇家庭扶助\n3 領有政府中低收入兒少托育補助、生活扶助4 領有身心障礙生活補助5 領有中低收入老人生活津貼\n6 失業給付\n7 領有民間社福團體提供補助\n77 其他\n89 不知道\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Relief allowances or subsidies received by self or family in the past year",
+      "name_zh_en": "or subsidies are which ones",
       "description_en": "1 Receives government low-income household living allowance\n2 Receives government assistance for families in special circumstances\n3 Receives government childcare subsidies and living assistance for middle-low income children and youth 4 Receives disability living allowance 5 Receives middle-low income elderly living allowance\n6 Unemployment benefits\n7 Receives subsidies from private social welfare organizations\n77 Other\n89 Don't know\n99 Refused"
     },
     {
-      "seq": 45,
+      "seq": 49,
       "name_zh": "與那些人住在一起",
-      "name_en": "Q24_1Q24_2Q24_3Q24_4Q24_5Q24_6",
+      "name_en": "Q24_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Persons living together with respondent",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Father\n4 Mother\n5 Parents-in-law\n6 Unmarried children\n7 (Maternal) grandparent\n8 Married children (including spouse)\n9 (Maternal) grandchildren\n10 Siblings\n11 Friends, classmates, colleagues\n12 Other relatives\n14 Caregiver or foreign caregiver\n77 Other\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 50,
+      "name_zh": "與那些人住在一起",
+      "name_en": "Q24_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Persons living together with respondent",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Father\n4 Mother\n5 Parents-in-law\n6 Unmarried children\n7 (Maternal) grandparent\n8 Married children (including spouse)\n9 (Maternal) grandchildren\n10 Siblings\n11 Friends, classmates, colleagues\n12 Other relatives\n14 Caregiver or foreign caregiver\n77 Other\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 51,
+      "name_zh": "與那些人住在一起",
+      "name_en": "Q24_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Persons living together with respondent",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Father\n4 Mother\n5 Parents-in-law\n6 Unmarried children\n7 (Maternal) grandparent\n8 Married children (including spouse)\n9 (Maternal) grandchildren\n10 Siblings\n11 Friends, classmates, colleagues\n12 Other relatives\n14 Caregiver or foreign caregiver\n77 Other\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 52,
+      "name_zh": "與那些人住在一起",
+      "name_en": "Q24_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Persons living together with respondent",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Father\n4 Mother\n5 Parents-in-law\n6 Unmarried children\n7 (Maternal) grandparent\n8 Married children (including spouse)\n9 (Maternal) grandchildren\n10 Siblings\n11 Friends, classmates, colleagues\n12 Other relatives\n14 Caregiver or foreign caregiver\n77 Other\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 53,
+      "name_zh": "與那些人住在一起",
+      "name_en": "Q24_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Persons living together with respondent",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Father\n4 Mother\n5 Parents-in-law\n6 Unmarried children\n7 (Maternal) grandparent\n8 Married children (including spouse)\n9 (Maternal) grandchildren\n10 Siblings\n11 Friends, classmates, colleagues\n12 Other relatives\n14 Caregiver or foreign caregiver\n77 Other\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 54,
+      "name_zh": "與那些人住在一起",
+      "name_en": "Q24_6",
       "type": "Char",
       "length": 2,
       "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父親\n4 母親\n5 公婆\n6 未婚子女\n7 (外)祖父(母)\n8 已婚子女(含其配偶)\n9 (外)孫子女\n10 兄弟姊妹\n11 朋友、同學、同事\n12 其他親屬\n14 看護或外籍看護\n77 其他\n89 不知道\n99 拒答",
@@ -1246,9 +1345,31 @@
       "description_en": "1 Very satisfied 2 Fairly satisfied 3 Not very satisfied 4 Very dissatisfied 99 No opinion, hard to say, or refused"
     },
     {
-      "seq": 104,
+      "seq": 105,
       "name_zh": "平常從事那種性質的休閒活動",
-      "name_en": "Q30_1Q30_2Q30_3",
+      "name_en": "Q30_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性(如閱讀書報雜誌等)\n2 體能性(如登山、郊遊、各種球類、體能活動等)",
+      "available_notes": [],
+      "name_zh_en": "Nature of usual leisure activities",
+      "description_en": "1 Cultural (e.g., reading books, newspapers, magazines, etc.)\n2 Physical (e.g., hiking, outings, various ball sports, physical activities, etc.)"
+    },
+    {
+      "seq": 106,
+      "name_zh": "平常從事那種性質的休閒活動",
+      "name_en": "Q30_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性(如閱讀書報雜誌等)\n2 體能性(如登山、郊遊、各種球類、體能活動等)",
+      "available_notes": [],
+      "name_zh_en": "Nature of usual leisure activities",
+      "description_en": "1 Cultural (e.g., reading books, newspapers, magazines, etc.)\n2 Physical (e.g., hiking, outings, various ball sports, physical activities, etc.)"
+    },
+    {
+      "seq": 107,
+      "name_zh": "平常從事那種性質的休閒活動",
+      "name_en": "Q30_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 文化性(如閱讀書報雜誌等)\n2 體能性(如登山、郊遊、各種球類、體能活動等) 3 藝術性(如音樂欣賞、書畫、攝影、插花等)\n4 社交性(如與朋友聊天、參加社團活動等)\n5 宗教性(如各種宗教活動)\n6 娛樂性(如影視觀賞、唱卡拉OK、KTV等)\n7 消費性(如逛街、購物等等)\n8 服務性，如義工、志工77 其他\n88 沒有休閒活動\n89 不知道\n99 拒答",
@@ -1268,9 +1389,86 @@
       "description_en": "1 Never participated\n2 Participated\n99 Hard to say/Refused"
     },
     {
-      "seq": 108,
+      "seq": 109,
       "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
-      "name_en": "Q31_1Q31_2Q31_3Q31_4Q31_5Q31_6Q31_7Q31_8",
+      "name_en": "Q31_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 110,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 111,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 112,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 113,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 114,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 115,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會",
+      "available_notes": [],
+      "name_zh_en": "Types of social group (or foundation) activities participated in during the past year",
+      "description_en": "1 Academic and cultural groups (e.g., Confucius-Mencius Society, Music Association, Peking Opera Research Society, Fine Arts Society, etc.) 2 Medical and health groups (e.g., Cancer Prevention Association, Medical Laboratory Technology Association, Medical Association, hypertension prevention) 3 Religious groups (e.g., Christian Young Women's Association, Buddhist Association, etc.)\n4 Sports groups (e.g., Baseball Association, Fishing Association, etc.)\n5 Social service and charitable groups (e.g., Women's Association, Lifeline Association, Tzu Chi Foundation, etc.)\n6 International groups (e.g., International Red Cross, Rotary Club, etc.)\n7 Economic and business groups (e.g., Forest Recreation Industry Association, Orchid Art Association"
+    },
+    {
+      "seq": 116,
+      "name_zh": "最近一年參與過那一類的社會團體(或基金會)活動",
+      "name_en": "Q31_8",
       "type": "Char",
       "length": 2,
       "description_zh": "1 學術文化團體(如孔孟學會、音樂協進會、國劇研究社及美術學會等) 2 醫療衛生團體(如防癌協會、醫事檢驗技術協會、醫學會、防高血壓) 3 宗教團體(如督教女青年會、佛教會等)\n4 體育團體(如棒球協會、釣魚協會等)\n5 社會服務及慈善團體(如婦女會、生命線協會、慈濟基金會等)\n6 國際團體(如國際紅十字會、扶輪社等)\n7 經濟業務團體(如森林遊樂事業協會、蘭藝協會等)\n8 環保團體\n9 宗親會(如陳姓宗親會、高姓宗親會等)\n10 同鄉會(如浙江同鄉會等)\n11 同學校友會(如省立屏東女子高級中學校友會等) 12 家長會(如台北市立西松高中家長會等)\n13 職業團體\n14 社運團體(如環保、人權、勞工團體等等)\n15 兩岸團體(如台海兩岸經貿文化交流協會)\n16 社區協會\n17 政治團體\n77 其他\n88 不知道\n99 拒答",
@@ -1290,20 +1488,42 @@
       "description_en": "0 0 hours (no volunteer service)\n1 10 hours or less\n2 11-20 hours\n3 21-30 hours\n4 31-40 hours\n5 41-50 hours\n6 51-60 hours\n7 61-70 hours\n8 71-80 hours\n9 81 hours or more\n89 Don't know\n99 Refused"
     },
     {
-      "seq": 117,
-      "name_zh": "請問您有沒有機會使用到資訊設備",
-      "name_en": "Q33_1Q33_2Q33_3",
+      "seq": 118,
+      "name_zh": "請問您有沒有機會",
+      "name_en": "Q33_1",
       "type": "Char",
       "length": 1,
-      "description_zh": "1 都沒有2 使用電腦\n3 使用網路\n4 使用行動上網",
+      "description_zh": "1 都沒有",
       "available_notes": [],
-      "name_zh_en": "Do you have the opportunity to use information equipment?",
-      "description_en": "1 None 2 Use computer\n3 Use Internet\n4 Use mobile Internet"
+      "name_zh_en": "Do you have the opportunity",
+      "description_en": "1 none"
     },
     {
-      "seq": 117,
+      "seq": 119,
+      "name_zh": "請問您有沒有機會",
+      "name_en": "Q33_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 都沒有",
+      "available_notes": [],
+      "name_zh_en": "Do you have the opportunity",
+      "description_en": "1 none"
+    },
+    {
+      "seq": 120,
+      "name_zh": "請問您有沒有機會",
+      "name_en": "Q33_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1 都沒有",
+      "available_notes": [],
+      "name_zh_en": "Do you have the opportunity",
+      "description_en": "1 none"
+    },
+    {
+      "seq": 121,
       "name_zh": "使用以下哪些資訊運用情形_生活應用",
-      "name_en": "Q34_1AQ34_1BQ34_1CQ34_1DQ34_1EQ34_1FQ34_1G",
+      "name_en": "Q34_1A",
       "type": "Char",
       "length": 2,
       "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
@@ -1312,9 +1532,119 @@
       "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
     },
     {
-      "seq": 117,
+      "seq": 122,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 123,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 124,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 125,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1E",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 126,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 127,
+      "name_zh": "使用以下哪些資訊運用情形_生活應用",
+      "name_en": "Q34_1G",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "0 都沒有\n1 上網查詢資料\n2 收發電子郵件\n3 網購或網售\n4 電腦或網路遊戲\n5 線上金融、報稅\n6 使用電子地圖\n7 線上觀賞影片\n8 使用網路辦公\n9 網路社交\n10 線上影音欣賞\n77 其他___(請說明)\n88 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_daily life applications",
+      "description_en": "0 None\n1 Searching for information online\n2 Sending and receiving email\n3 Online buying or selling\n4 Computer or online games\n5 Online banking, tax filing\n6 Using electronic maps\n7 Watching videos online\n8 Working online\n9 Online social networking\n10 Online audio-visual entertainment\n77 Other___ (please specify)\n88 Don't know\n99 Refused"
+    },
+    {
+      "seq": 128,
       "name_zh": "使用以下哪些資訊運用情形_網路社群參與",
-      "name_en": "Q34_2AQ34_2BQ34_2CQ34_2DQ34_2E",
+      "name_en": "Q34_2A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 網路社交(Msn、\nfacebook、Twitter等) 2 知識搜尋或提供\n3 建置部落格\n4 論壇討論(bbs、討論區等)\n77 其他\n88 不知道\n96 都沒有\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_online community participation",
+      "description_en": "1 Online social networking (Msn,\nfacebook, Twitter, etc.) 2 Knowledge search or provision\n3 Building a blog\n4 Forum discussion (BBS, discussion boards, etc.)\n77 Other\n88 Don't know\n96 None\n99 Refused"
+    },
+    {
+      "seq": 129,
+      "name_zh": "使用以下哪些資訊運用情形_網路社群參與",
+      "name_en": "Q34_2B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 網路社交(Msn、\nfacebook、Twitter等) 2 知識搜尋或提供\n3 建置部落格\n4 論壇討論(bbs、討論區等)\n77 其他\n88 不知道\n96 都沒有\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_online community participation",
+      "description_en": "1 Online social networking (Msn,\nfacebook, Twitter, etc.) 2 Knowledge search or provision\n3 Building a blog\n4 Forum discussion (BBS, discussion boards, etc.)\n77 Other\n88 Don't know\n96 None\n99 Refused"
+    },
+    {
+      "seq": 130,
+      "name_zh": "使用以下哪些資訊運用情形_網路社群參與",
+      "name_en": "Q34_2C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 網路社交(Msn、\nfacebook、Twitter等) 2 知識搜尋或提供\n3 建置部落格\n4 論壇討論(bbs、討論區等)\n77 其他\n88 不知道\n96 都沒有\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_online community participation",
+      "description_en": "1 Online social networking (Msn,\nfacebook, Twitter, etc.) 2 Knowledge search or provision\n3 Building a blog\n4 Forum discussion (BBS, discussion boards, etc.)\n77 Other\n88 Don't know\n96 None\n99 Refused"
+    },
+    {
+      "seq": 131,
+      "name_zh": "使用以下哪些資訊運用情形_網路社群參與",
+      "name_en": "Q34_2D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 網路社交(Msn、\nfacebook、Twitter等) 2 知識搜尋或提供\n3 建置部落格\n4 論壇討論(bbs、討論區等)\n77 其他\n88 不知道\n96 都沒有\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Which of the following information uses apply_online community participation",
+      "description_en": "1 Online social networking (Msn,\nfacebook, Twitter, etc.) 2 Knowledge search or provision\n3 Building a blog\n4 Forum discussion (BBS, discussion boards, etc.)\n77 Other\n88 Don't know\n96 None\n99 Refused"
+    },
+    {
+      "seq": 132,
+      "name_zh": "使用以下哪些資訊運用情形_網路社群參與",
+      "name_en": "Q34_2E",
       "type": "Char",
       "length": 2,
       "description_zh": "1 網路社交(Msn、\nfacebook、Twitter等) 2 知識搜尋或提供\n3 建置部落格\n4 論壇討論(bbs、討論區等)\n77 其他\n88 不知道\n96 都沒有\n99 拒答",
@@ -1334,15 +1664,114 @@
       "description_en": "1 Did not participate 2 Participated"
     },
     {
-      "seq": 133,
-      "name_zh": "請問您參與的課程?",
-      "name_en": "Q35_1Q35_2Q35_3Q35_4Q35_5Q35_6Q35_7Q35_8Q35_9Q35_10",
+      "seq": 134,
+      "name_zh": "請問您參與的課",
+      "name_en": "Q35_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 生活技能類\n2 運動休閒類3 衛生保健類\n4 語文類\n5 電腦資訊類\n6 生活藝能類\n7 心靈成長類\n8 工商管理類\n9 專業證照類\n10 自然環境(動物保育生態環境)\n11 親子關係教育類\n12 健康養身類\n13 生涯規劃類\n77 其他\n88 不知道\n99 拒答",
+      "description_zh": "1 生活技能類\n2 運動休閒類",
       "available_notes": [],
-      "name_zh_en": "Which courses do you participate in?",
-      "description_en": "1 Life skills\n2 Sports and leisure 3 Health and hygiene\n4 Languages\n5 Computer and information technology\n6 Life arts and crafts\n7 Spiritual growth\n8 Business administration\n9 Professional certification\n10 Natural environment (animal conservation, ecological environment)\n11 Parent-child relationship education\n12 Health and wellness\n13 Career planning\n77 Other\n88 Don't know\n99 Refused"
+      "name_zh_en": "What courses do you participate in",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 135,
+      "name_zh": "程?",
+      "name_en": "Q35_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 136,
+      "name_zh": "程?",
+      "name_en": "Q35_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 137,
+      "name_zh": "程?",
+      "name_en": "Q35_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 138,
+      "name_zh": "程?",
+      "name_en": "Q35_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 139,
+      "name_zh": "程?",
+      "name_en": "Q35_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 140,
+      "name_zh": "程?",
+      "name_en": "Q35_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 141,
+      "name_zh": "程?",
+      "name_en": "Q35_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 142,
+      "name_zh": "程?",
+      "name_en": "Q35_9",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
+    },
+    {
+      "seq": 143,
+      "name_zh": "程?",
+      "name_en": "Q35_10",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 生活技能類\n2 運動休閒類",
+      "available_notes": [],
+      "name_zh_en": "course?",
+      "description_en": "1 Life skills\n2 Sports and recreation"
     },
     {
       "seq": 144,
@@ -1356,14 +1785,36 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 144,
-      "name_zh": "最近1年遭受下列何種類型的家庭暴力",
-      "name_en": "Q36_1AQ36_1BQ36_1C",
+      "seq": 145,
+      "name_zh": "最近1年遭受下列",
+      "name_en": "Q36_1A",
       "type": "Char",
       "length": 2,
       "description_zh": "1 身體\n2 精神\n3 性暴力\n77 其他\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Type of domestic violence suffered in the past year",
+      "name_zh_en": "In the past 1 year, suffered the following",
+      "description_en": "1 Physical\n2 Psychological\n3 Sexual violence\n77 Other\n99 Refused"
+    },
+    {
+      "seq": 146,
+      "name_zh": "何種類型的家庭暴",
+      "name_en": "Q36_1B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 身體\n2 精神\n3 性暴力\n77 其他\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "what type of domestic violence",
+      "description_en": "1 Physical\n2 Psychological\n3 Sexual violence\n77 Other\n99 Refused"
+    },
+    {
+      "seq": 147,
+      "name_zh": "力",
+      "name_en": "Q36_1C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 身體\n2 精神\n3 性暴力\n77 其他\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "force",
       "description_en": "1 Physical\n2 Psychological\n3 Sexual violence\n77 Other\n99 Refused"
     },
     {
@@ -1422,9 +1873,20 @@
       "description_en": "1 Yes 2 No 99 Refused"
     },
     {
-      "seq": 152,
+      "seq": 153,
       "name_zh": "最近1年遭遇的外界暴力不愉快經驗，是哪方面的經驗",
-      "name_en": "Q39_1Q39_2",
+      "name_en": "Q39_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 被迫從事不法工作\n2 被迫吸毒、吃搖頭丸等不法藥物\n3 被恐嚇、詐財\n4 被搶奪財物\n5 遭受外人傷害\n6 言語上的侮辱\n7 電話騷擾\n77 其他\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "In what respect was the unpleasant experience of external violence encountered in the past year",
+      "description_en": "1 Forced to engage in illegal work\n2 Forced to take drugs, ecstasy and other illegal drugs\n3 Threatened or defrauded\n4 Property robbed\n5 Harmed by outsiders\n6 Verbal insult\n7 Telephone harassment\n77 Other\n99 Refused"
+    },
+    {
+      "seq": 154,
+      "name_zh": "最近1年遭遇的外界暴力不愉快經驗，是哪方面的經驗",
+      "name_en": "Q39_2",
       "type": "Char",
       "length": 2,
       "description_zh": "1 被迫從事不法工作\n2 被迫吸毒、吃搖頭丸等不法藥物\n3 被恐嚇、詐財\n4 被搶奪財物\n5 遭受外人傷害\n6 言語上的侮辱\n7 電話騷擾\n77 其他\n99 拒答",
@@ -1477,9 +1939,86 @@
       "description_en": "1 Know 2 Don't know 99 Refused"
     },
     {
-      "seq": 158,
+      "seq": 159,
       "name_zh": "透過哪種管道取得資訊",
-      "name_en": "Q42_1Q42_2Q42_3Q42_4Q42_5Q42_6Q42_7Q42_8",
+      "name_en": "Q42_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 160,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 161,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 162,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 163,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 164,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 165,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 166,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q42_8",
       "type": "Char",
       "length": 2,
       "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
@@ -1499,9 +2038,64 @@
       "description_en": "1 Know 2 Don't know 99 Refused"
     },
     {
-      "seq": 167,
+      "seq": 168,
       "name_zh": "透過哪種管道取得資訊",
-      "name_en": "Q43_1Q43_2Q43_3Q43_4Q43_5Q43_6",
+      "name_en": "Q43_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 169,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q43_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 170,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q43_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 171,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q43_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 172,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q43_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers\n7 Social welfare units\n8 Publicity leaflets, brochures, posters\n9 Friends, colleagues\n77 Other"
+    },
+    {
+      "seq": 173,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q43_6",
       "type": "Char",
       "length": 2,
       "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師\n7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
@@ -1521,9 +2115,64 @@
       "description_en": "1 Know 2 Don't know 99 Refused"
     },
     {
-      "seq": 174,
+      "seq": 175,
       "name_zh": "透過哪種管道取得資訊",
-      "name_en": "Q44_1Q44_2Q44_3Q44_4Q44_5Q44_6",
+      "name_en": "Q44_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers"
+    },
+    {
+      "seq": 176,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q44_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers"
+    },
+    {
+      "seq": 177,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q44_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers"
+    },
+    {
+      "seq": 178,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q44_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers"
+    },
+    {
+      "seq": 179,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q44_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師",
+      "available_notes": [],
+      "name_zh_en": "Channels through which information is obtained",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n5 Village/borough chief, village/borough clerk\n6 School, teachers"
+    },
+    {
+      "seq": 180,
+      "name_zh": "透過哪種管道取得資訊",
+      "name_en": "Q44_6",
       "type": "Char",
       "length": 2,
       "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n5 村里長、村里幹事\n6 學校、老師7 社福單位\n8 文宣簡章、海報\n9 朋友、同事\n77 其他",
@@ -1727,7 +2376,7 @@
       "description_zh": "1 18 歲以下\n2 18 歲以上\n3 兩者皆有",
       "available_notes": [],
       "name_zh_en": "Have you ever given birth to a child? (In your lifetime)",
-      "description_en": "1 Under 18 2 18 and above 3 Both"
+      "description_en": "1 Under 18 2 18\nand above\n3 Both"
     },
     {
       "seq": 199,
@@ -1738,7 +2387,7 @@
       "description_zh": "0 無\n1 18 歲以下\n2 18 歲以上\n3 兩者皆有",
       "available_notes": [],
       "name_zh_en": "Do you currently have any dependent children whom you need to provide financial support or care for daily life? How many? (Including adopted children)",
-      "description_en": "0: None, 1: Under 18, 2: 18 and above, 3: Both"
+      "description_en": "0: None, 1:\nUnder 18, 2:\n18 and above,\n3: Both"
     },
     {
       "seq": 200,
@@ -1910,9 +2559,7 @@
   "raw_text_first_page": "2025年06月24日修訂\n100 年婦女生活狀況調查\n(W_MOHW_WLCS)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_WLCS 資料筆數 6,455\n中文檔名 婦女生活狀況調查 英文檔名 Women live conditions survey\n檔案大小 2.6MB 欄位數 214\n譯碼簿\n屬性 調查檔 週期 年 2025/06/24\n更新日期\n資料描述 1. 居住臺閩地區年滿15至64歲之我國女性人口(含調查期間在臺而尚未取得本國國\n籍之外籍配偶及大陸、港澳配偶)為調查母體，並採分層比例隨機抽樣法，在考慮\n抽樣誤差不超過1.5％及信賴水準至少95％。\n2. 調查項目包含：我國婦女之婚育狀況、個人狀況、工作狀況、經濟狀況、家庭狀\n況、社會參與及休閒活動狀況、資訊技能及終身學習狀況、人身威脅經驗、對婦\n女福利措施的瞭解與使用及期望政府或民間團體應加強提供的服務措施等。\n(引述行政院主計總處)\n注意事項 1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分\n證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期\n等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出\n經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011及2019年，因年度不同，資料\n欄位不盡相同。\n主鍵與比\n無\n對欄位\n二、 檔案格式及資料描述\n1",
   "qa": {
     "errors": [],
-    "warnings": [
-      "field count mismatch: header=214, parsed=141"
-    ]
+    "warnings": []
   },
   "page_count": 49,
   "code": "Welfare08",
@@ -1929,7 +2576,7 @@
   "primary_keys_en": "none",
   "name_zh_en": "women's living condition survey",
   "printed": {
-    "field_rows": 141,
+    "field_rows": 214,
     "code_tables": {},
     "code_table_headings": []
   }

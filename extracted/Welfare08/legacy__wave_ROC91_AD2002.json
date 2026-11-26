@@ -86,14 +86,36 @@
       "description_en": "1 Very good\n2 Fairly good\n3 Average\n4 Not very good\n5 Very bad\n99 Hard to say or refused"
     },
     {
-      "seq": 6,
-      "name_zh": "重大困擾_第一項重大困擾_第二項重大困擾_第三項",
-      "name_en": "Q7_1Q7_2Q7_3",
+      "seq": 7,
+      "name_zh": "重大困擾_第一項",
+      "name_en": "Q7_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 自己健康問題\n2 家人健康問題\n3 自己工作問題\n4 家人工作問題\n5 經濟問題\n6 人身安全問題\n7 家庭暴力問題\n8 夫妻相處問題\n9 公婆妯娌相處問題\n10 與其他家人相處問題11 與娘家家人相處問題12 家中一般兒童照顧問題13 患病家人照顧問題\n14 子女教育或溝通問題15 自己學業問題\n16 自己的愛情或結婚問題17 自己的生育問題\n18 居住問題\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Major trouble - first item",
+      "description_en": "1 Own health problems\n2 Family members' health problems\n3 Own work problems\n4 Family members' work problems\n5 Financial problems\n6 Personal safety problems\n7 Domestic violence problems\n8 Marital relationship problems\n9 Problems getting along with parents-in-law and sisters-in-law\n10 Problems getting along with other family members 11 Problems getting along with natal family members 12 General child care problems at home 13 Care problems for sick family members\n14 Children's education or communication problems 15 Own academic problems\n16 Own romantic or marriage problems 17 Own childbearing problems\n18 Housing problems\n65 Other (please specify)"
+    },
+    {
+      "seq": 8,
+      "name_zh": "重大困擾_第二項",
+      "name_en": "Q7_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 自己健康問題\n2 家人健康問題\n3 自己工作問題\n4 家人工作問題\n5 經濟問題\n6 人身安全問題\n7 家庭暴力問題\n8 夫妻相處問題\n9 公婆妯娌相處問題\n10 與其他家人相處問題11 與娘家家人相處問題12 家中一般兒童照顧問題13 患病家人照顧問題\n14 子女教育或溝通問題15 自己學業問題\n16 自己的愛情或結婚問題17 自己的生育問題\n18 居住問題\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Major trouble - second item",
+      "description_en": "1 Own health problems\n2 Family members' health problems\n3 Own work problems\n4 Family members' work problems\n5 Financial problems\n6 Personal safety problems\n7 Domestic violence problems\n8 Marital relationship problems\n9 Problems getting along with parents-in-law and sisters-in-law\n10 Problems getting along with other family members 11 Problems getting along with natal family members 12 General child care problems at home 13 Care problems for sick family members\n14 Children's education or communication problems 15 Own academic problems\n16 Own romantic or marriage problems 17 Own childbearing problems\n18 Housing problems\n65 Other (please specify)"
+    },
+    {
+      "seq": 9,
+      "name_zh": "重大困擾_第三項",
+      "name_en": "Q7_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 自己健康問題\n2 家人健康問題\n3 自己工作問題\n4 家人工作問題\n5 經濟問題\n6 人身安全問題\n7 家庭暴力問題\n8 夫妻相處問題\n9 公婆妯娌相處問題\n10 與其他家人相處問題11 與娘家家人相處問題12 家中一般兒童照顧問題13 患病家人照顧問題\n14 子女教育或溝通問題15 自己學業問題\n16 自己的愛情或結婚問題17 自己的生育問題\n18 居住問題\n65 其他(請說明) 98 NO(無重大困擾)\n99 很難說/拒答",
       "available_notes": [],
-      "name_zh_en": "Major troubles_first major trouble_second major trouble_third major trouble",
+      "name_zh_en": "Major trouble - third item",
       "description_en": "1 Own health problem\n2 Family member's health problem\n3 Own work problem\n4 Family member's work problem\n5 Financial problem\n6 Personal safety problem\n7 Domestic violence problem\n8 Problem getting along as a couple\n9 Problem getting along with parents-in-law and sisters-in-law\n10 Problem getting along with other family members 11 Problem getting along with natal family members 12 Problem caring for ordinary children at home 13 Problem caring for sick family members\n14 Problem with children's education or communication 15 Own studies problem\n16 Own love or marriage problem 17 Own childbearing problem\n18 Housing problem\n65 Other (please specify) 98 NO (no major troubles)\n99 Hard to say/Refused"
     },
     {
@@ -207,15 +229,114 @@
       "description_en": "1 8 tenths (80%) or more\n2 6 (inclusive) to 8 tenths (60%-80%)\n3 4 (inclusive) to 6 tenths (40%-60%)\n4 2 (inclusive) to 4 tenths (20%-40%)\n5 2 tenths (20%) or less\n89 Don't know\n98 NO (none)\n99 Refused"
     },
     {
-      "seq": 19,
+      "seq": 20,
       "name_zh": "目前和哪些人住在一起(複選題)",
-      "name_en": "Q16_1Q16_2Q16_3Q16_4Q16_5Q16_6Q16_7Q16_8Q16_9Q16_10",
+      "name_en": "Q16_1",
       "type": "Char",
       "length": 2,
-      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹9 朋友、同學、同事\n10 其他親戚\n65 其他(請說明)\n99 拒答",
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
       "available_notes": [],
       "name_zh_en": "Who you currently live with (multiple-response question)",
-      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandparent\n6 Married children (including spouse)\n7 Grandchildren\n8 Siblings 9 Friends, classmates, colleagues\n10 Other relatives\n65 Other (please specify)\n99 Refused"
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 21,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 22,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 23,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 24,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 25,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 26,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 27,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 28,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_9",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
+    },
+    {
+      "seq": 29,
+      "name_zh": "目前和哪些人住在一起(複選題)",
+      "name_en": "Q16_10",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 獨居\n2 配偶(含同居人)\n3 父母(公婆)\n4 未婚子女\n5 祖父(母)\n6 已婚子女(含其配偶)\n7 孫子女\n8 兄弟姊妹",
+      "available_notes": [],
+      "name_zh_en": "Who you currently live with (multiple-response question)",
+      "description_en": "1 Living alone\n2 Spouse (including cohabiting partner)\n3 Parents (parents-in-law)\n4 Unmarried children\n5 Grandfather (grandmother)\n6 Married children (including their spouses)\n7 Grandchildren\n8 Siblings"
     },
     {
       "seq": 30,
@@ -977,14 +1098,36 @@
       "description_en": "1 1 hour or less\n2 1 (inclusive) to under 2 hours\n3 2 (inclusive) to under 3 hours\n4 3 (inclusive) to under 4 hours\n5 4 (inclusive) hours or more\n88 None\n99 Don't know/Refused"
     },
     {
-      "seq": 98,
-      "name_zh": "先 生 最 常 做的 家 事(最多可選三項) (限問有配偶或同居者)",
-      "name_en": "Q23_3_1Q23_3_2Q23_3_3",
+      "seq": 99,
+      "name_zh": "先 生 最 常 做的 家 事",
+      "name_en": "Q23_3_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 清洗與整理衣物\n2 準備三餐與點心\n3 餐後清洗整理餐具\n4 金錢管理\n5 照顧家人生活\n6 清掃整理家庭\n7 指導子女課業\n8 家庭維修工作\n9 購買食物及日常用品10 處理垃圾\n11 NO(無配偶或同居者) 65 其他(請說明)\n88 均無\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Housework most often done by the husband (up to three choices) (asked only of those with a spouse or cohabiting partner)",
+      "name_zh_en": "The household chores that the husband most often does",
+      "description_en": "1 Washing and sorting clothes\n2 Preparing meals and snacks\n3 Washing and putting away dishes after meals\n4 Money management\n5 Taking care of family members' daily life\n6 Cleaning and tidying the home\n7 Tutoring children's schoolwork\n8 Home repair work\n9 Buying food and daily necessities 10 Disposing of garbage\n11 NO (no spouse or cohabiting partner) 65 Other (please specify)\n88 None of the above\n99 Refused"
+    },
+    {
+      "seq": 100,
+      "name_zh": "(最多可選三項) (限問",
+      "name_en": "Q23_3_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 清洗與整理衣物\n2 準備三餐與點心\n3 餐後清洗整理餐具\n4 金錢管理\n5 照顧家人生活\n6 清掃整理家庭\n7 指導子女課業\n8 家庭維修工作\n9 購買食物及日常用品10 處理垃圾\n11 NO(無配偶或同居者) 65 其他(請說明)\n88 均無\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "(up to three items can be chosen) (ask only",
+      "description_en": "1 Washing and sorting clothes\n2 Preparing meals and snacks\n3 Washing and putting away dishes after meals\n4 Money management\n5 Taking care of family members' daily life\n6 Cleaning and tidying the home\n7 Tutoring children's schoolwork\n8 Home repair work\n9 Buying food and daily necessities 10 Disposing of garbage\n11 NO (no spouse or cohabiting partner) 65 Other (please specify)\n88 None of the above\n99 Refused"
+    },
+    {
+      "seq": 101,
+      "name_zh": "有配偶或同居者)",
+      "name_en": "Q23_3_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 清洗與整理衣物\n2 準備三餐與點心\n3 餐後清洗整理餐具\n4 金錢管理\n5 照顧家人生活\n6 清掃整理家庭\n7 指導子女課業\n8 家庭維修工作\n9 購買食物及日常用品10 處理垃圾\n11 NO(無配偶或同居者) 65 其他(請說明)\n88 均無\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "have a spouse or cohabiting partner)",
       "description_en": "1 Washing and sorting clothes\n2 Preparing meals and snacks\n3 Washing and putting away dishes after meals\n4 Money management\n5 Taking care of family members' daily life\n6 Cleaning and tidying the home\n7 Tutoring children's schoolwork\n8 Home repair work\n9 Buying food and daily necessities 10 Disposing of garbage\n11 NO (no spouse or cohabiting partner) 65 Other (please specify)\n88 None of the above\n99 Refused"
     },
     {
@@ -1010,25 +1153,69 @@
       "description_en": "1 Very satisfied\n2 Fairly satisfied\n3 Not very satisfied\n4 Very dissatisfied\n89 No opinion or don't know\n99 Refused"
     },
     {
-      "seq": 103,
-      "name_zh": "最常關心下列哪些資訊(逐項提示，最多可選三項)",
-      "name_en": "Q25_1Q25_2Q25_3",
+      "seq": 104,
+      "name_zh": "最常關心下列哪些資",
+      "name_en": "Q25_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 政治與國際情勢\n2 投資理財及財政金融3 社會治安\n4 醫療保健\n5 休閒娛樂與運動\n6 家庭生活(如育嬰、烹飪等)\n7 文化教育\n8 科技資訊\n9 兩性關係\n10 環保議題\n11 社區參與及志願服務12 宗教信仰\n65 其他(請說明)\n89 無意見或不知道\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Which of the following information is of most concern (prompted item by item, up to three choices)",
+      "name_zh_en": "Which of the following information do you care about most often",
       "description_en": "1 Politics and international affairs\n2 Investment and money management, public finance and banking 3 Public security\n4 Health care\n5 Leisure, entertainment and sports\n6 Family life (e.g., infant care, cooking, etc.)\n7 Culture and education\n8 Science, technology and information\n9 Gender relations\n10 Environmental issues\n11 Community participation and volunteer service 12 Religious belief\n65 Other (please specify)\n89 No opinion or don't know\n99 Refused"
     },
     {
-      "seq": 103,
-      "name_zh": "從事那種性質的休閒活動(逐項提示，最多可選三項)",
-      "name_en": "Q26_1Q26_2Q26_3",
+      "seq": 105,
+      "name_zh": "訊(逐項提示，最多可",
+      "name_en": "Q25_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 政治與國際情勢\n2 投資理財及財政金融3 社會治安\n4 醫療保健\n5 休閒娛樂與運動\n6 家庭生活(如育嬰、烹飪等)\n7 文化教育\n8 科技資訊\n9 兩性關係\n10 環保議題\n11 社區參與及志願服務12 宗教信仰\n65 其他(請說明)\n89 無意見或不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "information (prompt item by item, up to",
+      "description_en": "1 Politics and international affairs\n2 Investment and money management, public finance and banking 3 Public security\n4 Health care\n5 Leisure, entertainment and sports\n6 Family life (e.g., infant care, cooking, etc.)\n7 Culture and education\n8 Science, technology and information\n9 Gender relations\n10 Environmental issues\n11 Community participation and volunteer service 12 Religious belief\n65 Other (please specify)\n89 No opinion or don't know\n99 Refused"
+    },
+    {
+      "seq": 106,
+      "name_zh": "選三項)",
+      "name_en": "Q25_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 政治與國際情勢\n2 投資理財及財政金融3 社會治安\n4 醫療保健\n5 休閒娛樂與運動\n6 家庭生活(如育嬰、烹飪等)\n7 文化教育\n8 科技資訊\n9 兩性關係\n10 環保議題\n11 社區參與及志願服務12 宗教信仰\n65 其他(請說明)\n89 無意見或不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "select three items)",
+      "description_en": "1 Politics and international affairs\n2 Investment and money management, public finance and banking 3 Public security\n4 Health care\n5 Leisure, entertainment and sports\n6 Family life (e.g., infant care, cooking, etc.)\n7 Culture and education\n8 Science, technology and information\n9 Gender relations\n10 Environmental issues\n11 Community participation and volunteer service 12 Religious belief\n65 Other (please specify)\n89 No opinion or don't know\n99 Refused"
+    },
+    {
+      "seq": 107,
+      "name_zh": "從事那種性質的休閒",
+      "name_en": "Q26_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n65 其他(請說明)\n88 沒有休閒活動\n89 無意見或不知",
+      "available_notes": [],
+      "name_zh_en": "engage in what kind of leisure",
+      "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Recreational\n65 Other (please specify)\n88 No leisure activities\n89 No opinion or don't know"
+    },
+    {
+      "seq": 108,
+      "name_zh": "活動(逐項提示，最多",
+      "name_en": "Q26_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n65 其他(請說明)\n88 沒有休閒活動\n89 無意見或不知",
+      "available_notes": [],
+      "name_zh_en": "activities (prompt item by item, up to",
+      "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Recreational\n65 Other (please specify)\n88 No leisure activities\n89 No opinion or don't know"
+    },
+    {
+      "seq": 109,
+      "name_zh": "可選三項)",
+      "name_en": "Q26_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 文化性\n2 體能性\n3 藝術性\n4 社交性\n5 宗教性\n6 娛樂性\n65 其他(請說明)\n88 沒有休閒活動\n89 無意見或不知99 拒答",
       "available_notes": [],
-      "name_zh_en": "Nature of leisure activities engaged in (prompted item by item, up to three choices)",
+      "name_zh_en": "can select three items)",
       "description_en": "1 Cultural\n2 Physical\n3 Artistic\n4 Social\n5 Religious\n6 Entertainment\n65 Other (please specify)\n88 No leisure activities\n89 No opinion or don't know 99 Refused"
     },
     {
@@ -1043,9 +1230,130 @@
       "description_en": "1 Never participated\n2 Participated\n99 Hard to say/Refused"
     },
     {
-      "seq": 110,
+      "seq": 111,
       "name_zh": "參與哪種性質的團體(可複選)",
-      "name_en": "Q27AQ27BQ27CQ27DQ27EQ27FQ27GQ27HQ27IQ27JQ27KQ27L",
+      "name_en": "Q27A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 112,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 113,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 114,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27D",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 115,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27E",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 116,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27F",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 117,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27G",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 118,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27H",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 119,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27I",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 120,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27J",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 121,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27K",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Types of groups participated in (multiple responses allowed)",
+      "description_en": "1 Medical and health organizations\n2 Religious organizations\n3 Sports organizations\n4 Social service and charitable organizations 5 International organizations\n6 Clan associations\n7 Native-place associations\n8 Alumni associations\n9 Academic and cultural organizations\n10 Economic and business organizations\n11 Political organizations\n12 Social movement organizations\n65 Other (please specify)\n89 Don't know\n99 Refused"
+    },
+    {
+      "seq": 122,
+      "name_zh": "參與哪種性質的團體(可複選)",
+      "name_en": "Q27L",
       "type": "Char",
       "length": 2,
       "description_zh": "1 醫療衛生團體\n2 宗教團體\n3 體育團體\n4 社會服務及慈善團體5 國際團體\n6 宗親會\n7 同鄉會\n8 同學校友會\n9 學術文化團體\n10 經濟業務團體\n11 政治團體\n12 社運團體\n65 其他(請說明)\n89 不知道\n99 拒答",
@@ -1076,9 +1384,42 @@
       "description_en": "1 Never participated\n2 Participated\n99 Hard to say/Refused"
     },
     {
-      "seq": 124,
+      "seq": 125,
       "name_zh": "參加的項目(可複選)",
-      "name_en": "Q28AQ28BQ28CQ28D",
+      "name_en": "Q28A",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 捐贈金錢或實物給政府、民間團體或個人\n2 各項志願服務(義工)\n3 捐血\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Items participated in (multiple responses allowed)",
+      "description_en": "1 Donating money or goods to government, private organizations or individuals\n2 Volunteer services of all kinds\n3 Blood donation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 126,
+      "name_zh": "參加的項目(可複選)",
+      "name_en": "Q28B",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 捐贈金錢或實物給政府、民間團體或個人\n2 各項志願服務(義工)\n3 捐血\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Items participated in (multiple responses allowed)",
+      "description_en": "1 Donating money or goods to government, private organizations or individuals\n2 Volunteer services of all kinds\n3 Blood donation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 127,
+      "name_zh": "參加的項目(可複選)",
+      "name_en": "Q28C",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 捐贈金錢或實物給政府、民間團體或個人\n2 各項志願服務(義工)\n3 捐血\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Items participated in (multiple responses allowed)",
+      "description_en": "1 Donating money or goods to government, private organizations or individuals\n2 Volunteer services of all kinds\n3 Blood donation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 128,
+      "name_zh": "參加的項目(可複選)",
+      "name_en": "Q28D",
       "type": "Char",
       "length": 2,
       "description_zh": "1 捐贈金錢或實物給政府、民間團體或個人\n2 各項志願服務(義工)\n3 捐血\n65 其他(請說明)\n99 拒答",
@@ -1109,9 +1450,9 @@
       "description_en": "1 No\n2 Yes\n99 Refused"
     },
     {
-      "seq": 130,
+      "seq": 131,
       "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
-      "name_en": "Q29_2_1Q29_2_2Q29_2_3Q29_2_4Q29_2_5Q29_2_6Q29_2_7Q29_2_8Q29_2_9",
+      "name_en": "Q29_2_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
@@ -1120,14 +1461,146 @@
       "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
     },
     {
-      "seq": 130,
-      "name_zh": "曾經在家庭、工作場所或出門在外遭遇過暴力、性騷擾、虐待、被迫吸毒等不好的經驗(可複選)",
-      "name_en": "Q30_1Q30_2Q30_3Q30_4Q30_5",
+      "seq": 132,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 133,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 134,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 135,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_5",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 136,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_6",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 137,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_7",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 138,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_8",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 139,
+      "name_zh": "使用電腦從事下列活動(逐項提示，可複選)",
+      "name_en": "Q29_2_9",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 上網查詢\n2 收發電子郵件\n3 設計分析工作\n4 電腦遊戲\n5 網路採購\n6 網路交談\n7 文書處理\n8 理財試算\n65 其他(請說明)\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "Activities done using a computer (prompted item by item, multiple responses allowed)",
+      "description_en": "1 Online search\n2 Sending and receiving email\n3 Design and analysis work\n4 Computer games\n5 Online purchasing\n6 Online chat\n7 Word processing\n8 Financial calculation\n65 Other (please specify)\n99 Refused"
+    },
+    {
+      "seq": 140,
+      "name_zh": "曾經在家庭、工作場所",
+      "name_en": "Q30_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 遭受配偶暴力\n2 遭受配偶精神虐待\n3 遭受其他家人暴力\n4 遭受其他家人精神虐待5 遭受丈夫惡意遺棄或被迫離婚\n6 被他人強暴\n7 在工作場所中遭受性騷擾",
+      "available_notes": [],
+      "name_zh_en": "have you ever, at home or in the workplace",
+      "description_en": "1 Suffered violence from spouse\n2 Suffered psychological abuse from spouse\n3 Suffered violence from other family members\n4 Suffered psychological abuse from other family members 5 Maliciously abandoned by husband or forced to divorce\n6 Raped by another person\n7 Sexually harassed in the workplace"
+    },
+    {
+      "seq": 141,
+      "name_zh": "或出門在外遭遇過暴",
+      "name_en": "Q30_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 遭受配偶暴力\n2 遭受配偶精神虐待\n3 遭受其他家人暴力\n4 遭受其他家人精神虐待5 遭受丈夫惡意遺棄或被迫離婚\n6 被他人強暴\n7 在工作場所中遭受性騷擾",
+      "available_notes": [],
+      "name_zh_en": "or when going out have you encountered violence",
+      "description_en": "1 Suffered violence from spouse\n2 Suffered psychological abuse from spouse\n3 Suffered violence from other family members\n4 Suffered psychological abuse from other family members 5 Maliciously abandoned by husband or forced to divorce\n6 Raped by another person\n7 Sexually harassed in the workplace"
+    },
+    {
+      "seq": 142,
+      "name_zh": "力、性騷擾、虐待、被",
+      "name_en": "Q30_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 遭受配偶暴力\n2 遭受配偶精神虐待\n3 遭受其他家人暴力\n4 遭受其他家人精神虐待5 遭受丈夫惡意遺棄或被迫離婚\n6 被他人強暴\n7 在工作場所中遭受性騷擾",
+      "available_notes": [],
+      "name_zh_en": "violence, sexual harassment, abuse, being",
+      "description_en": "1 Suffered violence from spouse\n2 Suffered psychological abuse from spouse\n3 Suffered violence from other family members\n4 Suffered psychological abuse from other family members 5 Maliciously abandoned by husband or forced to divorce\n6 Raped by another person\n7 Sexually harassed in the workplace"
+    },
+    {
+      "seq": 143,
+      "name_zh": "迫吸毒等不好的經驗",
+      "name_en": "Q30_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 遭受配偶暴力\n2 遭受配偶精神虐待\n3 遭受其他家人暴力\n4 遭受其他家人精神虐待5 遭受丈夫惡意遺棄或被迫離婚\n6 被他人強暴\n7 在工作場所中遭受性騷擾",
+      "available_notes": [],
+      "name_zh_en": "being forced to take drugs, and other bad experiences",
+      "description_en": "1 Suffered violence from spouse\n2 Suffered psychological abuse from spouse\n3 Suffered violence from other family members\n4 Suffered psychological abuse from other family members 5 Maliciously abandoned by husband or forced to divorce\n6 Raped by another person\n7 Sexually harassed in the workplace"
+    },
+    {
+      "seq": 144,
+      "name_zh": "(可複選)",
+      "name_en": "Q30_5",
       "type": "Char",
       "length": 2,
       "description_zh": "1 遭受配偶暴力\n2 遭受配偶精神虐待\n3 遭受其他家人暴力\n4 遭受其他家人精神虐待5 遭受丈夫惡意遺棄或被迫離婚\n6 被他人強暴\n7 在工作場所中遭受性騷擾8 在外頭遭受他人性騷擾9 在家中遭到性騷擾\n10 先生外遇\n11 被迫從事不法工作\n12 企圖自殺(含有自殺意圖或自殺未遂)\n13 遭受外人傷害\n14 被搶奪財物\n15 吸毒、吃搖頭丸等不法藥物\n16 被恐嚇、詐財\n17 墮胎\n18 未婚生子\n65 其他(請說明)\n88 未曾有過\n99 拒答",
       "available_notes": [],
-      "name_zh_en": "Has had bad experiences such as violence, sexual harassment, abuse or being forced to use drugs at home, at the workplace or while out (multiple responses allowed)",
+      "name_zh_en": "(Multiple answers allowed)",
       "description_en": "1 Violence by spouse\n2 Psychological abuse by spouse\n3 Violence by other family members\n4 Psychological abuse by other family members 5 Maliciously abandoned by husband or forced to divorce\n6 Raped by others\n7 Sexually harassed at the workplace 8 Sexually harassed by others outside the home 9 Sexually harassed at home\n10 Husband's extramarital affair\n11 Forced to engage in illegal work\n12 Attempted suicide (including suicidal intent or suicide attempt)\n13 Harmed by outsiders\n14 Property robbed\n15 Taking drugs, ecstasy and other illegal drugs\n16 Threatened or defrauded\n17 Abortion\n18 Childbirth outside marriage\n65 Other (please specify)\n88 Never experienced\n99 Refused"
     },
     {
@@ -1164,9 +1637,53 @@
       "description_en": "1 Don't know 2 Know 99 Refused"
     },
     {
-      "seq": 147,
+      "seq": 148,
       "name_zh": "取得資訊之管道(可複選)",
-      "name_en": "Q32_2_1Q32_2_2Q32_2_3Q32_2_4Q32_2_5",
+      "name_en": "Q32_2_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Channels for obtaining information (multiple responses allowed)",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n65 Other (please specify)"
+    },
+    {
+      "seq": 149,
+      "name_zh": "取得資訊之管道(可複選)",
+      "name_en": "Q32_2_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Channels for obtaining information (multiple responses allowed)",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n65 Other (please specify)"
+    },
+    {
+      "seq": 150,
+      "name_zh": "取得資訊之管道(可複選)",
+      "name_en": "Q32_2_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Channels for obtaining information (multiple responses allowed)",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n65 Other (please specify)"
+    },
+    {
+      "seq": 151,
+      "name_zh": "取得資訊之管道(可複選)",
+      "name_en": "Q32_2_4",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n65 其他(請說明)",
+      "available_notes": [],
+      "name_zh_en": "Channels for obtaining information (multiple responses allowed)",
+      "description_en": "1 Newspapers and magazines\n2 Relatives and friends\n3 TV and radio\n4 Internet\n65 Other (please specify)"
+    },
+    {
+      "seq": 152,
+      "name_zh": "取得資訊之管道(可複選)",
+      "name_en": "Q32_2_5",
       "type": "Char",
       "length": 2,
       "description_zh": "1 報章雜誌\n2 親友\n3 電視廣播\n4 網路\n65 其他(請說明) 99 拒答",
@@ -1307,9 +1824,9 @@
       "description_en": "1 Yes (respondent to give examples; interviewer to record on the open-ended item record form)\n2 None"
     },
     {
-      "seq": 164,
+      "seq": 165,
       "name_zh": "為增進婦女個人的權益及提供全人發展，政府應該加強提供哪些服務(逐項提示，最多可選三項)",
-      "name_en": "Q34_1Q34_2Q34_3",
+      "name_en": "Q34_1",
       "type": "Char",
       "length": 2,
       "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 終生學習\n5 休閒活動\n6 創業貸款\n7 促進兩性平權措施\n8 社會治安\n9 婦女保護\n10 生活扶助\n65 其他(請說明)\n89 無意見/不知道\n99 拒答",
@@ -1318,9 +1835,53 @@
       "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Lifelong learning\n5 Leisure activities\n6 Start-up loans\n7 Measures to promote gender equality\n8 Public security\n9 Protection of women\n10 Living assistance\n65 Other (please specify)\n89 No opinion/Don't know\n99 Refused"
     },
     {
-      "seq": 164,
+      "seq": 166,
+      "name_zh": "為增進婦女個人的權益及提供全人發展，政府應該加強提供哪些服務(逐項提示，最多可選三項)",
+      "name_en": "Q34_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 終生學習\n5 休閒活動\n6 創業貸款\n7 促進兩性平權措施\n8 社會治安\n9 婦女保護\n10 生活扶助\n65 其他(請說明)\n89 無意見/不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "To promote women's individual rights and provide holistic development, what services the government should strengthen (prompted item by item, up to three choices)",
+      "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Lifelong learning\n5 Leisure activities\n6 Start-up loans\n7 Measures to promote gender equality\n8 Public security\n9 Protection of women\n10 Living assistance\n65 Other (please specify)\n89 No opinion/Don't know\n99 Refused"
+    },
+    {
+      "seq": 167,
+      "name_zh": "為增進婦女個人的權益及提供全人發展，政府應該加強提供哪些服務(逐項提示，最多可選三項)",
+      "name_en": "Q34_3",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 職訓就業\n2 法律諮詢服務\n3 生涯規劃\n4 終生學習\n5 休閒活動\n6 創業貸款\n7 促進兩性平權措施\n8 社會治安\n9 婦女保護\n10 生活扶助\n65 其他(請說明)\n89 無意見/不知道\n99 拒答",
+      "available_notes": [],
+      "name_zh_en": "To promote women's individual rights and provide holistic development, what services the government should strengthen (prompted item by item, up to three choices)",
+      "description_en": "1 Vocational training and employment\n2 Legal consultation services\n3 Career planning\n4 Lifelong learning\n5 Leisure activities\n6 Start-up loans\n7 Measures to promote gender equality\n8 Public security\n9 Protection of women\n10 Living assistance\n65 Other (please specify)\n89 No opinion/Don't know\n99 Refused"
+    },
+    {
+      "seq": 168,
       "name_zh": "期望政府或民間機構團體如何建立完善的托兒、托老及身心障礙者服務措施(逐項提示，最多可選三項)",
-      "name_en": "Q35_1Q35_2Q35_3",
+      "name_en": "Q35_1",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 辦理社區、鄰里照顧人員訓練(居家服務、保母)，儲備照顧人才\n2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 辦理課後收托服務\n5 加強托兒機構的評鑑6 鼓勵設立老人安養、養護機構",
+      "available_notes": [],
+      "name_zh_en": "How the government or private organizations are expected to establish comprehensive childcare, elderly care and disability services (prompted item by item, up to three choices)",
+      "description_en": "1 Conduct training for community and neighborhood caregivers (home services, nannies) to build up a pool of caregiving personnel\n2 Encourage extension of childcare hours 3 Assist institutions to set up affiliated nurseries 4 Provide after-school care services\n5 Strengthen evaluation of childcare institutions 6 Encourage establishment of elderly residential and nursing-care institutions"
+    },
+    {
+      "seq": 169,
+      "name_zh": "期望政府或民間機構團體如何建立完善的托兒、托老及身心障礙者服務措施(逐項提示，最多可選三項)",
+      "name_en": "Q35_2",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "1 辦理社區、鄰里照顧人員訓練(居家服務、保母)，儲備照顧人才\n2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 辦理課後收托服務\n5 加強托兒機構的評鑑6 鼓勵設立老人安養、養護機構",
+      "available_notes": [],
+      "name_zh_en": "How the government or private organizations are expected to establish comprehensive childcare, elderly care and disability services (prompted item by item, up to three choices)",
+      "description_en": "1 Conduct training for community and neighborhood caregivers (home services, nannies) to build up a pool of caregiving personnel\n2 Encourage extension of childcare hours 3 Assist institutions to set up affiliated nurseries 4 Provide after-school care services\n5 Strengthen evaluation of childcare institutions 6 Encourage establishment of elderly residential and nursing-care institutions"
+    },
+    {
+      "seq": 170,
+      "name_zh": "期望政府或民間機構團體如何建立完善的托兒、托老及身心障礙者服務措施(逐項提示，最多可選三項)",
+      "name_en": "Q35_3",
       "type": "Char",
       "length": 2,
       "description_zh": "1 辦理社區、鄰里照顧人員訓練(居家服務、保母)，儲備照顧人才\n2 鼓勵延長托兒收托時間3 輔導機構附設托兒所4 辦理課後收托服務\n5 加強托兒機構的評鑑6 鼓勵設立老人安養、養護機構7 加強老人福利機構的評鑑\n8 辦理老人社區照顧\n9 鼓勵設立身心障礙者照顧機構\n10 加強身心障礙者照顧機構的評鑑\n11 降低或補助相關照顧費用\n65 其他(請說明)\n89 無意見/不知道\n99 拒答",
@@ -1337,7 +1898,7 @@
       "description_zh": "1 北部地區\n2 中部地區\n3 南部地區\n4 東部地區\n5 金馬地區",
       "available_notes": [],
       "name_zh_en": "Region",
-      "description_en": "1 Northern region 2 Central region 3 Southern region 4 Eastern region 5 Kinmen-Matsu region"
+      "description_en": "1 Northern region 2\nCentral region\n3 Southern\nregion 4 Eastern region\n5 Kinmen-Matsu region"
     },
     {
       "seq": 172,
@@ -1403,7 +1964,7 @@
       "description_zh": "21 台灣省\n22 台北市\n23 高雄市\n24 金馬地區",
       "available_notes": [],
       "name_zh_en": "Municipality",
-      "description_en": "21 Taiwan Province 22 Taipei City 23 Kaohsiung City 24 Kinmen-Matsu Area"
+      "description_en": "21 Taiwan Province\n22 Taipei City 23\nKaohsiung City 24\nKinmen-Matsu Area"
     },
     {
       "seq": 178,
@@ -1447,7 +2008,7 @@
       "description_zh": "1 北部地區\n2 中部地區\n3 南部地區\n4 東部地區\n5 金馬地區\n註:此欄位與LOCAT重複",
       "available_notes": [],
       "name_zh_en": "Region",
-      "description_en": "1 Northern region 2 Central region 3 Southern region 4 Eastern region 5 Kinmen-Matsu region Note: This field duplicates LOCAT"
+      "description_en": "1 Northern region\n2 Central region\n3 Southern region 4 Eastern\nregion 5 Kinmen-Matsu region\nNote: This field\nduplicates LOCAT"
     },
     {
       "seq": 182,
@@ -1520,9 +2081,7 @@
   "raw_text_first_page": "2025年06月24日修訂\n91 年婦女生活狀況調查\n(W_MOHW_WLCS)\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_MOHW_WLCS 資料筆數 3,820\n中文檔名 婦女生活狀況調查 英文檔名 Women live conditions survey\n檔案大小 1.4MB 欄位數 187\n譯碼簿\n屬性 調查檔 週期 年 2025/06/24\n更新日期\n資料描述 1. 居住臺閩地區年滿15至64歲之我國女性人口(含調查期間在臺而尚未取得本國國\n籍之外籍配偶及大陸、港澳配偶)為調查母體，並採分層比例隨機抽樣法，在考慮\n抽樣誤差不超過1.5％及信賴水準至少95％。\n2. 調查項目包含：我國婦女之婚育狀況、個人狀況、工作狀況、經濟狀況、家庭狀\n況、社會參與及休閒活動狀況、資訊技能及終身學習狀況、人身威脅經驗、對婦\n女福利措施的瞭解與使用及期望政府或民間團體應加強提供的服務措施等。\n(引述行政院主計總處)\n注意事項 1. ※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身\n分證字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日\n期等欄位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜\n出經審核通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事\n人。\n2. 調查檔共包含五個年度：1998、2002、2006、2011及2019年，因年度不同，資料\n欄位不盡相同。\n主鍵與比\n無\n對欄位\n1",
   "qa": {
     "errors": [],
-    "warnings": [
-      "field count mismatch: header=187, parsed=124"
-    ]
+    "warnings": []
   },
   "page_count": 49,
   "code": "Welfare08",
@@ -1539,7 +2098,7 @@
   "primary_keys_en": "none",
   "name_zh_en": "women's living condition survey",
   "printed": {
-    "field_rows": 124,
+    "field_rows": 187,
     "code_tables": {},
     "code_table_headings": []
   }

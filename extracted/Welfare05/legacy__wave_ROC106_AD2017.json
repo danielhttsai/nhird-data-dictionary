@@ -4,7 +4,7 @@
   "name_zh": "106年老人狀況調查",
   "name_en": "Report of the Senior Citizen Condition Survey 2017",
   "record_count_raw": "55歲以上：6,920 筆 主要家庭照顧者：469筆",
-  "field_count_declared": null,
+  "field_count_declared": 350,
   "file_size_raw": "6.3MB、0.2MB",
   "frequency": "4-5年",
   "attribute": "調查檔",
@@ -53,7 +53,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "county or city of residence",
-      "description_en": "1: New Taipei City 2: Taipei City 3: Taoyuan City 4: Keelung City 5: Hsinchu City 6: Yilan County 7: Hsinchu County 8: Taichung City 9: Miaoli County 10: Changhua County 11: Nantou County 12: Yunlin County 13: Tainan City 14: Kaohsiung City 15: Chiayi City 16: Chiayi County 17: Pingtung County 18: Penghu County 19: Taitung County 20: Hualien County 21: Kinmen-Matsu Area"
+      "description_en": "1: New Taipei City 2:\nTaipei City 3: Taoyuan\nCity 4: Keelung City 5:\nHsinchu City 6: Yilan\nCounty 7:\nHsinchu County\n8: Taichung\nCity 9: Miaoli\nCounty 10: Changhua\nCounty 11: Nantou County\n12: Yunlin County 13:\nTainan City\n14: Kaohsiung\nCity 15: Chiayi City\n16: Chiayi County 17:\nPingtung County 18:\nPenghu County\n19: Taitung\nCounty 20:\nHualien County\n21: Kinmen-Matsu Area"
     },
     {
       "seq": 4,
@@ -244,7 +244,7 @@
       "description_zh": "0:非住機構\n1:老人福利機構\n2:護理之家\n3:榮民之家",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "What type of institution is it (【六五卷】、【五五～六四卷】：Q4.1)",
+      "name_zh_en": "What type of institution is it ([65 questionnaire], [55-64 questionnaire]: Q4.1)",
       "description_en": "0: Not living in an institution, 1: Elderly welfare institution, 2: Nursing home, 3: Veterans home"
     },
     {
@@ -268,7 +268,7 @@
       "description_zh": "1:有\n2:無",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Is there an elevator (【六五卷】、【五五～六四卷】：Q4.2,A.3)",
+      "name_zh_en": "Is there an elevator ([65 questionnaire], [55-64 questionnaire]: Q4.2, A.3)",
       "description_en": "1: yes 2: no"
     },
     {
@@ -424,7 +424,7 @@
       "description_zh": "1:不希望\n2:希望\n98:無子女",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do you wish your children to live nearby? (【六五卷】、【五五～六四卷】：Q5.2,A)",
+      "name_zh_en": "Do you wish your children to live nearby? ([65 questionnaire], [55-64 questionnaire]: Q5.2, A)",
       "description_en": "1: Do not wish 2: Wish 98: No children"
     },
     {
@@ -964,7 +964,7 @@
       "description_zh": "1:沒有\n2:有",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Are you currently employed? (【六五卷】：Q17) 【五五卷】：Q14)",
+      "name_zh_en": "Are you currently employed? ([65 questionnaire]: Q17) [55 questionnaire]: Q14)",
       "description_en": "1:no 2:yes"
     },
     {
@@ -1757,7 +1757,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "Participation status _ volunteer service (【65卷】: Q24.1.A) (【55卷】: Q23.1.A)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 146,
@@ -1769,7 +1769,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "Participation status _ political group activities (【65卷】: Q24.2.A) (【55卷】: Q23.2.A)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 147,
@@ -1781,7 +1781,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "Participation status _ religious group activities (【65卷】: Q24.3.A) (【55卷】: Q23.3.A)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 148,
@@ -1793,7 +1793,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "Participation status: other social group activities ([65 questionnaire]: Q24.4.A) ([55 questionnaire]: Q23.4.A)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 149,
@@ -1852,7 +1852,7 @@
       "description_zh": "1:沒有\n2:有",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Have you participated in any activities in the past week (【六五卷】：Q25) (【五五卷】：Q24)",
+      "name_zh_en": "Have you participated in any activities in the past week ([65 questionnaire]: Q25) ([55 questionnaire]: Q24)",
       "description_en": "1:no 2:yes"
     },
     {
@@ -1901,7 +1901,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "Is there anyone in your family who needs long-term care? ([65 questionnaire]: Q27) ([55 questionnaire]: Q26)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 158,
@@ -1949,7 +1949,7 @@
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
       "name_zh_en": "q29. Are you the primary caregiver? ([Vol. 65]: Q29) ([Vol. 55]: Q28)",
-      "description_en": "0:No"
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 162,
@@ -2014,8 +2014,8 @@
       "description_zh": "0:沒有\n1:有",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do other family members take turns caring for this family member who needs assistance, with you? (【六五卷】：Q33) (【五五卷】：Q32)",
-      "description_en": "0:No"
+      "name_zh_en": "Do other family members take turns with you in caring for this family member who needs assistance? ([65 questionnaire]: Q33) ([55 questionnaire]: Q32)",
+      "description_en": "0: No\n1: Yes"
     },
     {
       "seq": 167,
@@ -2206,7 +2206,7 @@
       "description_zh": "1:非常滿意\n2:滿意\n3:普通\n4:不太滿意\n5:非常不滿意\n9:代答跳題",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Overall, are you satisfied with your current financial situation? (【六五卷】：Q39) (【五五卷】：Q38)",
+      "name_zh_en": "Overall, how satisfied are you with your current financial situation? ([65 questionnaire]: Q39) ([55 questionnaire]: Q38)",
       "description_en": "1: Very satisfied 2: Satisfied 3: Fair 4: Not very satisfied 5: Very dissatisfied 9: Proxy response skip"
     },
     {
@@ -2218,7 +2218,7 @@
       "description_zh": "1:想用\n2:不想\n3:不需要",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Would you want to use \"community care concern stations\"? (【六五卷】：Q40.A) (【五五卷】：Q39.A)",
+      "name_zh_en": "Would you want to use a \"community care service station\"? ([65 questionnaire]: Q40.A) ([55 questionnaire]: Q39.A)",
       "description_en": "1: Want to use 2: Do not want to 3: Not needed"
     },
     {
@@ -2278,7 +2278,7 @@
       "description_zh": "1:不知道\n2:知道",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do you know about the \"county/city government long-term care management center assessment and referral services\"? (【六五卷】：Q41.A) (【五五卷】：Q40.A)",
+      "name_zh_en": "Do you know about the \"assessment and referral services of the county/city government long-term care management center\"? ([65 questionnaire]: Q41.A) ([55 questionnaire]: Q40.A)",
       "description_en": "1: Don't know 2: Know"
     },
     {
@@ -2350,7 +2350,7 @@
       "description_zh": "1:不知道\n2:知道",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do you know about the \"home care services\" policy? (【六五卷】：Q43.A) (【五五卷】：Q42.A)",
+      "name_zh_en": "Do you know about the \"home care services\" policy? ([65 questionnaire]: Q43.A) ([55 questionnaire]: Q42.A)",
       "description_en": "1: Don't know 2: Know"
     },
     {
@@ -2386,7 +2386,7 @@
       "description_zh": "1:不知道\n2:知道",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do you know about the \"ABC service points (Community-Based Integrated Care System)\" policy? (【六五卷】：Q44.A) (【五五卷】：Q43.A)",
+      "name_zh_en": "Do you know about the \"ABC service points (Community Integrated Care Service System)\" policy? ([65 questionnaire]: Q44.A) ([55 questionnaire]: Q43.A)",
       "description_en": "1: Don't know 2: Know"
     },
     {
@@ -2422,7 +2422,7 @@
       "description_zh": "1:不知道\n2:知道",
       "table": "w_mohw_seniorcitizen106",
       "available_notes": [],
-      "name_zh_en": "Do you know about the \"reverse mortgage system (commonly known as using one's home to fund retirement)\" policy? (【六五卷】：Q45.A) (【五五卷】：Q44.A)",
+      "name_zh_en": "Do you know about the \"reverse mortgage system for real estate (commonly known as using one's home to fund retirement)\" policy? ([65 questionnaire]: Q45.A) ([55 questionnaire]: Q44.A)",
       "description_en": "1: Don't know 2: Know"
     },
     {
@@ -5187,5 +5187,9 @@
       "fields_parsed": 84,
       "name_zh_en": "\"Main family caregiver\" survey file"
     }
+  ],
+  "field_count_parts": [
+    266,
+    84
   ]
 }

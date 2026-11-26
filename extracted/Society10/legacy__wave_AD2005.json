@@ -1,7 +1,7 @@
 {
   "source_pdf": "Society10_國民健康訪問調查_2005.pdf",
   "code_short": "",
-  "name_zh": "國民健康訪問調查_2005",
+  "name_zh": "",
   "name_en": "",
   "record_count_raw": "",
   "field_count_declared": null,
@@ -38,25 +38,25 @@
     },
     {
       "seq": 3,
-      "name_zh": "性別0：身分證字號符合編碼原則",
+      "name_zh": "性別",
       "name_en": "S",
       "type": "Char",
       "length": 1,
       "description_zh": "1：男、2：女、9：不詳",
       "available_notes": [],
-      "name_zh_en": "Sex 0: National ID number matches coding rule",
+      "name_zh_en": "Sex",
       "description_en": "1: Male, 2: Female, 9: Unknown"
     },
     {
       "seq": 4,
-      "name_zh": "身分證字號檢誤1：不符合",
+      "name_zh": "身分證字號檢誤",
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "",
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合",
       "available_notes": [],
-      "name_zh_en": "ID number check error 1: does not match",
-      "description_en": ""
+      "name_zh_en": "National ID number check error",
+      "description_en": "0: ID number conforms to coding rules; 1: does not conform"
     }
   ],
   "codebooks": {},
@@ -78,5 +78,10 @@
   "data_description_en": "",
   "notes_en": "",
   "primary_keys_en": "",
-  "name_zh_en": "National Health Interview Survey_2005"
+  "name_zh_en": "",
+  "printed": {
+    "field_rows": 4,
+    "code_tables": {},
+    "code_table_headings": []
+  }
 }
