@@ -481,7 +481,9 @@ def loose_code_rows(rows, pairs: int = 1):
 
 # 10.診察點數及藥事服務點數（DIAG_DOT＆DSVC_DOT）: one code table for several fields
 _CB_HEAD = re.compile(r"^\s*(\d+)\s*[.．、]\s*(.+?)\s*[（(]\s*([A-Z][A-Z0-9_~]+(?:\s*[＆&、,，]\s*[A-Z][A-Z0-9_~]+)*)\s*[）)]")
-_PHASE3 = re.compile(r"^\s*三\s*、\s*欄位")
+_PHASE3 = re.compile(r"^\s*(三\s*、\s*欄位|[(（]?[一二三四五六七八九十]+[)）、]\s*欄位\s*[(（]?變項[)）]?\s*譯碼|附錄)")
+# a code table named, not coded: "2. 行業分類表", "1. 抽樣設計分層代碼" (survey appendices)
+_NAMED_HEAD = re.compile(r"^\s*(\d+)\s*[.．、]\s*([^\s（(]{2,24}?(?:代碼表|代碼|分類表|對照表|一覽表))\s*$")
 
 
 def is_header_table(item) -> bool:
@@ -547,15 +549,21 @@ def parse_section(items) -> dict:
     for it in items:
         if it["kind"] == "line":
             t = it["text"]
-            if _PHASE3.match(t):
+            if _PHASE3.match(t) and (fields or not t.lstrip().startswith("附錄")):
+                # (附錄 counts only after the field tables: a contents page lists it too)
                 phase, roles = "codebooks", None
                 cb_lines.append(t)
                 continue
             if phase == "codebooks":
                 cb_lines.append(t)
                 m = _CB_HEAD.match(t)
+                mn = None if m else _NAMED_HEAD.match(t)
                 if m:
                     cb_cur = (m.group(2).strip(), m.group(3).strip())
+                    cb_heads.append(cb_cur)
+                    cb_cols = None
+                elif mn:
+                    cb_cur = (mn.group(2), mn.group(2))      # keyed by its name
                     cb_heads.append(cb_cur)
                     cb_cols = None
                 elif cb_cur is not None and not re.match(r"^\d{4}年\d{1,2}月\d{1,2}日修訂$|^\d{1,3}$", t):

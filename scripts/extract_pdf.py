@@ -112,6 +112,7 @@ def extract_pdf(pdf_path: Path) -> dict:
                             f"field count mismatch: header={out['field_count_declared']}, parsed={actual}")
                 if not out["fields"]:
                     out["qa"]["warnings"].append("no fields parsed")
+            link_named_tables(out)
             check_codebook_refs(out)
     except Exception as e:
         out["qa"]["errors"].append(f"extract failed: {type(e).__name__}: {e}")
@@ -139,7 +140,20 @@ def split_files(out: dict, fields: list[dict]) -> list[dict]:
         if s and s[1] not in [x[1] for x in subs]:
             subs.append(s)
         f["_t"] = s[1] if s else None
-    if len(subs) < 2 or any(f["_t"] is None for f in fields):
+    if not subs and len(out.get("field_count_parts") or []) > 1:
+        # no titles, but the header counts several files and the numbering starts
+        # again at 1 for each (Society10 102年: 12, 793, 1424, 1427 columns)
+        k, prev = 1, 0
+        for f in fields:
+            if f["seq"] == 1 and prev > 1:
+                k += 1
+            prev = f["seq"]
+            f["_t"] = f"part{k}"
+        if k > 1:
+            parts = out["field_count_parts"]
+            subs = [(f"第 {i} 檔", f"part{i}") for i in range(1, k + 1)]
+            out["_part_counts"] = parts if len(parts) == k else None
+    if len(subs) < 2 or any(f.get("_t") is None for f in fields):
         for f in fields:
             f.pop("_t", None)
         return dedupe_fields(fields)
@@ -160,6 +174,8 @@ def split_files(out: dict, fields: list[dict]) -> list[dict]:
             k = "B" if unit and unit.endswith("B") else (unit or "")
             facts[k] = facts[k] or (num + (" " + unit if k == "B" else unit or ""))
         declared = facts[""] if facts[""].isdigit() else ""
+        if code.startswith("part") and out.get("_part_counts"):
+            declared = str(out["_part_counts"][int(code[4:]) - 1])
         tables.append({
             "code_short": code, "name_zh": name, "name_en": "",
             "record_count_raw": facts["筆"],
@@ -172,6 +188,7 @@ def split_files(out: dict, fields: list[dict]) -> list[dict]:
             out["qa"]["warnings"].append(
                 f"{code}: field count mismatch: header={declared}, parsed={tables[-1]['fields_parsed']}")
     out["tables"] = tables
+    out.pop("_part_counts", None)
     ds = [t["field_count_declared"] for t in tables]
     if None not in ds:
         out["field_count_declared"] = sum(ds)
@@ -385,6 +402,24 @@ def field_key(f: dict) -> str:
 _REF = re.compile(r"[（(]\s*([A-Z][A-Z0-9_~]+)\s*[）)][^。\n]{0,12}?譯碼")
 
 
+def link_named_tables(out: dict) -> None:
+    """A field whose note cites a code table by name (詳見「行業分類表」譯碼說明) gets
+    "codebook_ref" naming that table, when the manual prints it."""
+    cbs = out.get("codebooks") or {}
+    for f in out.get("fields") or []:
+        if f.get("name_en") in cbs:
+            continue
+        pre = f"{f['table']}." if f.get("table") else ""
+        for m in re.finditer(r"「([^」]{2,24})」", f.get("description_zh") or ""):
+            n = re.sub(r"\s+", "", m.group(1))
+            for k in (n, n + "代碼", n + "表", re.sub(r"(代碼|表)$", "", n)):
+                if pre + k in cbs or k in cbs:
+                    f["codebook_ref"] = pre + k if pre + k in cbs else k
+                    break
+            if f.get("codebook_ref"):
+                break
+
+
 def check_codebook_refs(out: dict) -> None:
     """A field whose note points to a code table (詳見…(CODE)譯碼說明) must have it."""
     have = set(out["codebooks"])
@@ -481,6 +516,20 @@ def parse_header_rows(tables: list, out: dict):
     fc = first(_norm_label("欄位數"))
     if fc.isdigit():
         out["field_count_declared"] = int(fc)
+    else:
+        # one count per file of a survey ("12欄、793欄 / 1424欄、1427欄", "805、94",
+        # "W_MOHW_SeniorCitizen111：220 … carer111：76"): file sizes taken out
+        rest = re.sub(r"[\d.,]+\s*(?:MB|KB|GB|M|K)\b", " ", fc)
+        parts = [int(x.replace(",", "")) for x in re.findall(r"(?:[:：]\s*)?(\d[\d,]*)\s*欄", rest)]
+        if not parts:
+            parts = [int(x.replace(",", "")) for x in re.findall(r"[:：]\s*(\d[\d,]*)(?![\d.])", rest)]
+        if not parts and re.fullmatch(r"[\d,\s、，]+", rest.strip() or "x"):
+            parts = [int(x.replace(",", "")) for x in re.findall(r"\d[\d,]*", rest)]
+        if len(parts) > 1:
+            out["field_count_parts"] = parts
+            out["field_count_declared"] = sum(parts)
+        elif parts:
+            out["field_count_declared"] = parts[0]
     out["attribute"] = first(_norm_label("屬性"))
     out["frequency"] = first(_norm_label("週期"))
     out["update_history_raw"] = (

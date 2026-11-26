@@ -43,7 +43,7 @@ from merge_upstream import (load_cache, sha_text, _safe, FILE_EN, FIELD_EN, CB_E
 W = re.compile(r"\s+")
 HAN = re.compile(r"[一-鿿]")
 PDF_FIELD_KEYS = {"seq", "name_zh", "name_en", "type", "length", "description_zh", "source",
-                  "available_notes", "table", "value_labels"}
+                  "available_notes", "table", "value_labels", "codebook_ref"}
 
 
 def sq(s):
@@ -235,6 +235,9 @@ def main():
         # survey-wave manuals unpacked from a ZIP (process_zips.py) only when asked
         if ("/" in lf) and not (args.waves and lf.startswith("raw_pdfs_zip/")):
             continue
+        pre0 = Path(args.extracted_dir) / f"{v['code']}__{v['version_id']}.json" if args.extracted_dir else None
+        if args.extracted_dir and not pre0.exists():
+            continue                          # only the versions given in --extracted-dir
         if vers and v["version_id"] not in vers:
             continue
         path = ROOT / "extracted" / v["code"] / f"{_safe(v['version_id'])}.json"
