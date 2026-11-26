@@ -30,6 +30,8 @@ Every run also checks that nothing a manual declares or prints is missing (`scri
 
 The extractor (`scripts/extract_pdf.py` with `scripts/pdf_layout.py`) reads tables by the position of what is printed: cells are bounded by the black rules only, each value goes to the column whose header it sits under, a manual that documents several tables (Welfare20, Health103) or several files under one header (Health54–57) is split into one table per 檔案代號, and a code table that is a grid (a column per period) is kept cell by cell. When the extractor improves, `python scripts/reextract.py --only <codes>` re-reads the curated files from their PDFs and keeps their curation (English for unchanged text, hand-added keys, code tables built from other sources).
 
+`scripts/check_translations.py` checks the English against its Chinese for the errors a machine translation makes and a reader cannot see: a different place, institution, number or ROC year, unit or drug name. The TWCR registry manuals carry each data item's coding guide (欄位敘述, 收錄目的, 編碼指引 and its code table), read by `python scripts/extract_twcr.py --guides`.
+
 Chinese text that changed upstream gets its English from `translations/cache.json`; a string the cache does not have yet is shown in Chinese, and `scripts/gap_check.py` (part of the same run) reports it until it is translated.
 
 ## Project layout

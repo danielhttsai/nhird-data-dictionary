@@ -16,8 +16,9 @@ table is published elsewhere) is listed with its reason in qa_exceptions.json
 and is not reported. Anything else is a finding; with --strict the script exits
 1 (watch.py runs it that way in the weekly refresh, so the run fails loudly).
 
-Survey codebooks (__xls_ / __wave_ versions), OCR-recovered files and the TWCR
-registry manuals are checked by their own builders, not here.
+The survey-wave manuals (__wave_) are checked the same way; the TWCR registry
+manuals by check_twcr. Survey Excel codebooks (__xls_) and OCR-recovered files
+are not read from a PDF and are not checked here.
 """
 from __future__ import annotations
 import argparse
@@ -91,6 +92,31 @@ def check(d: dict) -> list[tuple[str, str]]:
     return list(dict.fromkeys(out))
 
 
+def check_twcr(d: dict, stem: str) -> list[tuple[str, str]]:
+    """A TWCR registry manual: as many data items as its edition lists (LF129 = 129),
+    a coding guide for each item the manual guides, and every code table those
+    guides print (one built from ICD-O or the SSF manual counts)."""
+    out = []
+    m = re.search(r"_(?:LF|SF)(\d+)_", stem)
+    if m and len(d.get("fields") or []) != int(m.group(1)):
+        out.append(("fields", f"the manual lists {m.group(1)} items, shown {len(d.get('fields') or [])}"))
+    pr = d.get("printed") or {}
+    if not pr.get("guides"):
+        out.append(("guides", "coding guides not extracted"))
+        return out
+    cbs = d.get("codebooks") or {}
+    by_seq = {str(f.get("seq")): f for f in d.get("fields") or []}
+    for seq, n in (pr.get("guide_code_tables") or {}).items():
+        f = by_seq.get(seq)
+        if f is None:
+            out.append((f"guide:{seq}", f"coding guide #{seq} has no data item"))
+            continue
+        cb = cbs.get(f.get("name_en") or seq) or {}
+        if len(cb.get("entries") or []) < n and not cb.get("source", "").startswith(("WHO", "TWCR SSF")):
+            out.append((f"guide:{seq}", f"#{seq} {f.get('name_en')}: the guide prints {n} codes, shown {len(cb.get('entries') or [])}"))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--strict", action="store_true", help="exit 1 on any finding")
@@ -101,7 +127,7 @@ def main():
     exc.pop("about", None)
     rows, findings, excepted, files = [], 0, 0, 0
     for p in sorted((ROOT / "extracted").glob("*/*.json")):
-        if p.name.startswith("diff_") or "__xls_" in p.stem or "__wave_" in p.stem or p.stem.startswith("twcr_"):
+        if p.name.startswith("diff_") or "__xls_" in p.stem:
             continue
         d = json.loads(p.read_text(encoding="utf-8"))
         if d.get("_ocr_recovered") or not d.get("fields") and not d.get("field_count_declared"):
@@ -109,7 +135,7 @@ def main():
         files += 1
         key = f"{p.parent.name}/{p.stem}"
         ex = exc.get(key, {})
-        for cid, msg in check(d):
+        for cid, msg in (check_twcr(d, p.stem) if p.stem.startswith("twcr_") else check(d)):
             why = ex.get(cid)
             rows.append({"file": key, "check": cid, "message": msg, "excepted": why or ""})
             if why:
