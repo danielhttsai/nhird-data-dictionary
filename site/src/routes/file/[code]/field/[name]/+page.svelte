@@ -69,6 +69,21 @@
           <p class="whitespace-pre-line leading-relaxed text-slate-500 text-sm mt-2">{latest.field.description_zh}</p>
         {/if}
       </div>
+      {#if latest.field.purpose_zh}
+        <div class="col-span-2">
+          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Purpose <span class="normal-case font-normal">收錄目的</span></div>
+          {#if latest.field.purpose_en}<p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.purpose_en}</p>{/if}
+          <p class="whitespace-pre-line leading-relaxed {latest.field.purpose_en ? 'text-slate-500 text-sm mt-1' : 'text-slate-700'}">{latest.field.purpose_zh}</p>
+        </div>
+      {/if}
+      {#if latest.field.guide_zh}
+        <!-- TWCR manuals: the item's coding guide (編碼指引), as the registry manual gives it -->
+        <div class="col-span-2">
+          <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Coding guide <span class="normal-case font-normal">編碼指引</span></div>
+          {#if latest.field.guide_en}<p class="whitespace-pre-line leading-relaxed text-slate-700">{latest.field.guide_en}</p>{/if}
+          <p class="whitespace-pre-line leading-relaxed {latest.field.guide_en ? 'text-slate-500 text-sm mt-1' : 'text-slate-700'}">{latest.field.guide_zh}</p>
+        </div>
+      {/if}
       {#if latest.field.available_notes?.length}
         <div class="col-span-2">
           <div class="text-xs uppercase tracking-wide text-slate-500 font-semibold mb-1">Period</div>

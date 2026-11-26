@@ -36,7 +36,8 @@ export const load = async ({ fetch, params, url }) => {
           field: f,
           table: f.table ? (target.meta?.tables || []).find((t) => t.code_short === f.table) || { code_short: f.table } : null,
           // a table's own code table, or one the manual's files share (Health55)
-          codebook: fd.codebooks?.[params.name] || (f.table ? fd.codebooks?.[f.name_en] : null) || null
+          codebook: fd.codebooks?.[params.name] || (f.table ? fd.codebooks?.[f.name_en] : null)
+            || (f.codebook_ref ? fd.codebooks?.[f.codebook_ref] : null) || null
         });
       }
     }

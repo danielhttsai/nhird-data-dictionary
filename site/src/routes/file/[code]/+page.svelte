@@ -41,7 +41,8 @@
     : meta);
   const fkey = (f) => (f.table && f.name_en ? `${f.table}.${f.name_en}` : f.name_en);
   // a code table of one table's field, or one the manual's files share (Health55)
-  const cbOf = (f) => codebooks?.[fkey(f)] || (f.table ? codebooks?.[f.name_en] : null);
+  const cbOf = (f) => codebooks?.[fkey(f)] || (f.table ? codebooks?.[f.name_en] : null)
+    || (f.codebook_ref ? codebooks?.[f.codebook_ref] : null);   // a table the note names (行業分類表)
   function pickTable(code) {
     tableId = code;
     const u = new URL(window.location.href);

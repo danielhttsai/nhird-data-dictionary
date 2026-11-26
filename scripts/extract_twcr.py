@@ -119,6 +119,126 @@ def fix_shipped():
         print(f"  {rel}: {n} values corrected")
 
 
+
+# ---------------------------------------------------------------- coding guides
+
+_SEC = re.compile(r"癌登欄位序號\s*#\s*([\d.]+)")
+_TITLE = re.compile(r"欄位長度\s*[:：]")
+_PAGE = re.compile(r"^(\d+\s*)?第[一二三四五六七八九十]+部[份分].*?(\s*\d+)?$")
+_PARTS = (("description", "欄位敘述"), ("purpose", "收錄目的"), ("instructions", "編碼指引"))
+
+
+def parse_guides(pdf_path: Path) -> dict:
+    """The coding guide of each data item (第二部份編碼指引): from its
+    "癌登欄位序號 #seq" line to the next item's title, the 欄位敘述 / 收錄目的 /
+    編碼指引 text and the 編碼 / 定義 code table(s). {seq: {...}}"""
+    import sys as _s
+    _s.path.insert(0, str(Path(__file__).resolve().parent))
+    import pdf_layout as L
+    with pdfplumber.open(pdf_path) as pdf:
+        items = L.read_items(pdf)
+    out, cur, part, cols, examples = {}, None, None, None, False
+    for it in items:
+        if it["kind"] == "line":
+            t = it["text"].strip()
+            if out and re.match(r"^附錄\s*[A-Z一二三四五六七八九十]", t):
+                break                         # the appendices (revision notes …) quote item numbers too
+            m = _SEC.search(t)
+            if m:
+                cur = out.setdefault(m.group(1).rstrip("."), {k: [] for k, _ in _PARTS} | {"entries": []})
+                part, cols, examples = None, None, False
+                continue
+            if cur is None:
+                continue
+            if _TITLE.search(t):            # the next item's title: this guide has ended
+                # (its name may sit on the line before "欄位長度")
+                if part and cur[part] and len(cur[part][-1]) <= 16 and not re.search(r"[。，；：:、]", cur[part][-1])                         and t.lstrip().startswith("欄位長度"):
+                    cur[part].pop()
+                cur, part = None, None
+                continue
+            if _PAGE.match(t) or re.match(r"^NAACCR Item", t) or re.fullmatch(r"\d{1,3}", t):
+                continue
+            hit = next((k for k, label in _PARTS if t.startswith(label)), None)
+            if hit:
+                part = hit
+                rest = re.sub(r"^\S+?[:：]", "", t).strip()
+                if rest:
+                    cur[part].append(rest)
+                continue
+            if re.fullmatch(r"編碼\s+定義", t):
+                part = None
+                continue
+            if t.startswith("範例"):       # examples follow: their tables are not the code list
+                examples = True
+                part = "instructions"
+                cur[part].append(t)
+                continue
+            if part:
+                cur[part].append(t)
+        elif cur is not None:
+            rows = it["rows"]
+            if examples:
+                for r in rows:
+                    cells = [L.cell_text(c, False) for c in r if c and c["text"].strip()]
+                    if cells:
+                        cur["instructions"].append("：".join(cells[:1]) + ("：" + " ".join(cells[1:]) if cells[1:] else ""))
+                continue
+            start = None
+            for k, r in enumerate(rows[:2]):
+                c = L.code_table_columns(r)
+                if c:
+                    cols, start = c, k + 1
+                    break
+            if start is not None:
+                cur["entries"].extend(L.code_rows(rows[start:], cols))
+            elif cols and L.aligned(rows, cols):
+                cur["entries"].extend(L.code_rows(rows, cols))
+            elif cols:
+                cur["entries"].extend(L.loose_code_rows(rows, len(cols)))
+    for g in out.values():
+        for k, _ in _PARTS:
+            g[k] = L.cell_text("\n".join(g[k]), True)
+    return out
+
+
+def attach_guides():
+    """Put each item's coding guide into the shipped TWCR JSON: 欄位敘述 as the
+    field's description, 收錄目的 and 編碼指引 as purpose_zh / guide_zh, and the
+    code table as the field's code table (one built from another source, ICD-O
+    or SSF, stays)."""
+    ship = {"TWCR_114_longform_129.pdf": "Health14/twcr_manual_LF129_2025",
+            "TWCR_107_longform_115.pdf": "Health14/twcr_manual_LF115_2018",
+            "TWCR_114_shortform_50.pdf": "Health15/twcr_manual_SF50_2025",
+            "TWCR_107_shortform_45.pdf": "Health15/twcr_manual_SF45_2018"}
+    for pdf_name, rel in ship.items():
+        p = ROOT / "extracted" / f"{rel}.json"
+        d = json.loads(p.read_text(encoding="utf-8"))
+        guides = parse_guides(ROOT / "raw_pdfs_twcr" / pdf_name)
+        cbs = d.setdefault("codebooks", {})
+        n = ncb = 0
+        for f in d["fields"]:
+            g = guides.get(str(f.get("seq")))
+            if not g:
+                continue
+            n += 1
+            pos = f.get("description_zh", "") if str(f.get("description_zh", "")).startswith("欄位位置") else ""
+            f["description_zh"] = "\n".join(x for x in (g["description"], pos) if x)
+            f["purpose_zh"] = g["purpose"]
+            f["guide_zh"] = g["instructions"]
+            key = f.get("name_en") or str(f.get("seq"))
+            src = (cbs.get(key) or {}).get("source", "")
+            if g["entries"] and (not src or "編碼指引" in src):
+                cbs[key] = {"field_zh": f.get("name_zh", ""), "field_en": f.get("name_en", ""),
+                            "source": f"TWCR {pdf_name.split('_')[1]}年 編碼指引 #{f.get('seq')}",
+                            "entries": g["entries"]}
+                ncb += 1
+        # what the manual prints, for scripts/completeness_check.py
+        d["printed"] = {"field_rows": len(d["fields"]), "guides": len(guides),
+                        "guide_code_tables": {k: len(g["entries"]) for k, g in guides.items() if g["entries"]}}
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  {rel}: {len(guides)} guides in the PDF, {n} attached to fields, {ncb} code tables")
+
+
 def main():
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     versions = manifest["versions"]
@@ -169,4 +289,9 @@ def main():
 
 
 if __name__ == "__main__":
-    fix_shipped() if "--fix-shipped" in sys.argv else main()
+    if "--fix-shipped" in sys.argv:
+        fix_shipped()
+    elif "--guides" in sys.argv:
+        attach_guides()
+    else:
+        main()
