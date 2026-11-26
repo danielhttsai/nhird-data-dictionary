@@ -536,6 +536,7 @@ def parse_section(items) -> dict:
     fields, codebooks, cb_order = [], {}, []
     sub = None              # (name, code) of the file a field table is titled with
     in_range = False        # the last numbered row was a range ("20~29")
+    soft = False            # the code-table part began at a 附錄 line (may be a running head)
     grids = {}              # (field_zh, codes) -> the code table's cells as printed
     prose = {}              # (field_zh, codes) -> the text printed under the heading
     phase = "fields"
@@ -549,10 +550,19 @@ def parse_section(items) -> dict:
     for it in items:
         if it["kind"] == "line":
             t = it["text"]
-            if _PHASE3.match(t) and (fields or not t.lstrip().startswith("附錄")):
-                # (附錄 counts only after the field tables: a contents page lists it too)
+            if (_PHASE3.match(t) and (fields or not t.lstrip().startswith("附錄"))
+                    and not re.search(r"\.{4,}|…{2,}|‧{3,}", t)):     # not a contents-page line
+                # (附錄 counts only after the field tables: a contents page lists it too,
+                # and a field table that follows it means the field tables go on)
                 phase, roles = "codebooks", None
+                soft = not re.match(r"^\s*三\s*、", t)
                 cb_lines.append(t)
+                # "(三) 欄位(變項)譯碼―案件分類(CASE_TYPE)": the heading names its code table
+                mh = re.search(r"譯碼\s*[―—\-－:：]\s*(.+?)\s*[（(]\s*([A-Z][A-Z0-9_~]+)\s*[）)]", t)
+                if mh:
+                    cb_cur = (mh.group(1).strip(), mh.group(2))
+                    cb_heads.append(cb_cur)
+                    cb_cols = None
                 continue
             if phase == "codebooks":
                 cb_lines.append(t)
@@ -574,6 +584,8 @@ def parse_section(items) -> dict:
             header_items.append(it)
             continue
         rows = it["rows"]
+        if phase == "codebooks" and soft and any(header_roles(r) for r in rows[:4]):
+            phase, soft = "fields", False
         if phase == "fields":
             start = None
             for k, r in enumerate(rows[:4]):

@@ -210,6 +210,8 @@ def attach_guides():
             "TWCR_107_longform_115.pdf": "Health14/twcr_manual_LF115_2018",
             "TWCR_114_shortform_50.pdf": "Health15/twcr_manual_SF50_2025",
             "TWCR_107_shortform_45.pdf": "Health15/twcr_manual_SF45_2018"}
+    import hashlib
+    cache = json.loads((ROOT / "translations" / "cache.json").read_text(encoding="utf-8"))
     for pdf_name, rel in ship.items():
         p = ROOT / "extracted" / f"{rel}.json"
         d = json.loads(p.read_text(encoding="utf-8"))
@@ -221,10 +223,15 @@ def attach_guides():
             if not g:
                 continue
             n += 1
-            pos = f.get("description_zh", "") if str(f.get("description_zh", "")).startswith("欄位位置") else ""
+            # keep the record-position line the field table gave (107 manuals)
+            pos = next((x for x in str(f.get("description_zh", "")).split("\n") if x.startswith("欄位位置")), "")
             f["description_zh"] = "\n".join(x for x in (g["description"], pos) if x)
             f["purpose_zh"] = g["purpose"]
             f["guide_zh"] = g["instructions"]
+            # English from the translation cache (empty until written; gap_check reports it)
+            for zk, ek in (("description_zh", "description_en"), ("purpose_zh", "purpose_en"),
+                           ("guide_zh", "guide_en")):
+                f[ek] = cache.get(hashlib.sha1(f[zk].strip().encode("utf-8")).hexdigest()[:16], "") if f[zk] else ""
             key = f.get("name_en") or str(f.get("seq"))
             src = (cbs.get(key) or {}).get("source", "")
             if g["entries"] and (not src or "編碼指引" in src):
