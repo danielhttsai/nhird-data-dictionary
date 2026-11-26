@@ -1149,7 +1149,7 @@
       "description_zh": "記錄個案在任何醫療機構的首次療程中，所給予其他治療相關情形。其他治療的定義為未能歸類於手術、放射治療、全身性藥物治療或輔助性治療(ancillarytreatment) ，詳欄位(變項)譯碼(五十四)【其他治療(OTHER)】。",
       "available_notes": [],
       "name_zh_en": "other treatment",
-      "description_en": "Records other treatments provided at any healthcare facility during the first course of treatment, excluding surgeries, radiation therapy, systemic drug therapy, or ancillary treatments. Other treatments refer to those that cannot be categorized under these types (Field translation: (54) Other Treatments(OTHER))."
+      "description_en": "Records other treatment given in the first course of treatment at any medical institution. Other treatment is defined as treatment that cannot be classified as surgery, radiation therapy, systemic drug therapy or ancillary treatment; see field (variable) code description (54) [Other treatment (OTHER)]."
     },
     {
       "seq": 89,
@@ -1413,7 +1413,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     }
   ],
   "codebooks": {
@@ -5153,32 +5153,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -5201,7 +5201,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HIST": {
       "field_zh": "組織型態 (ICD-O Morphology)",
@@ -12475,7 +12475,7 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2018年以後版本)(20250624起適用)",
-  "data_description_en": "Service Item — Category (W_LTC_CMS_SB300V2). Records: 35. File size: 128 KB. Fields: 2. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix at the end of the manual. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: this file matches Service Item — Item (W_LTC_CMS_SB301V2) on the serial number OBJID.",
+  "data_description_en": "1. From 2018, newly diagnosed cancer cases at each hospital are reported using the ROC 107 (2018) version of the cancer registry items. Hospitals with 50 or more beds\nreport cancer occurrence and treatment summary data as specified in the short-form abstracting manual; hospitals participating in long-form reporting,\nreport important cancer care data such as stage, detailed treatment and recurrence of the major cancers according to the long-form abstracting manual. (A small amount of\ndata includes late-reported cases diagnosed before 2017)\n2. From diagnosis year 2002, the long-form TCDB first registered cervical, breast, oral, colorectal, liver and\nlung cancers.\n3. From diagnosis year 2008, prostate, stomach, esophageal and bladder cancers were added, making ten major cancers.\n4. From diagnosis year 2009, nasopharyngeal, major salivary gland, uterine corpus and ovarian cancers and hematologic malignancies were added, making fifteen\nmajor cancers.\n5. From diagnosis year 2013, laryngeal cancer was added, making sixteen major cancers.\n6. From diagnosis year 2022, pancreatic cancer was added, making seventeen major cancers.\n7. The long-form database contains three editions of AJCC cancer staging:\nCases diagnosed with cancer in 2003-2009 are staged by the AJCC 6th edition.\nCases diagnosed with cancer in 2010-2017 are staged by the AJCC 7th edition.\nCases diagnosed with cancer from 2018 are staged by the AJCC 8th edition.\nCases of cervical cancer diagnosed from 2021 are staged by the AJCC 9th edition.\nFrom the AJCC 9th edition onward, staging information is updated for each cancer as needed.\n8. For guidance on analyzing long-form data, see the Taiwan Cancer Registry website: https://twcr.tw/?p=3284.\n9. To analyze detailed information such as radiotherapy equipment or dose, be sure to consult the Taiwan Cancer Registry long-form abstracting manual\nand note the relationships among the radiotherapy fields.",
   "notes_en": "1. To meet the practical needs of cancer diagnosis and treatment, starting in 2009 (ROC year 98) the Health Promotion Administration began planning to add cancer site-specific factor data to the Taiwan Cancer Registry long-form database. At the same time, out of public health considerations, the collection of smoking, betel nut chewing, alcohol consumption, body measurements, and weight was added to the 2011 (ROC year 100) edition of the Cancer Registry Abstracting Manual.\n2. In addition to the cervical, breast, colorectal, oral, lung, and liver cancers reported in 2007, and the prostate, gastric, esophageal, and bladder cancers added in 2008, long-form hospitals were required to report nasopharyngeal cancer, major salivary gland cancer, corpus uteri cancer, ovarian cancer, and hematologic malignancies starting in 2009; in 2010 this was expanded to the top 10 cancers in men and women (oral cancer, colorectal cancer, liver cancer, lung cancer, breast cancer, cervical cancer, esophageal cancer, gastric cancer, pros",
   "primary_keys_en": "",
   "name_zh_en": "Cancer registration long form LF (2018)",

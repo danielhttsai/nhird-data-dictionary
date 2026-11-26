@@ -43,7 +43,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     },
     {
       "seq": 3,
@@ -589,7 +589,7 @@
       "description_zh": "YYYYMMDD：記錄個案在任何醫療機構內對原發部位腫瘤所執行最確切的手術切除日期。\n00000000：沒有進行任何手術、於屍體解剖時才診斷為癌症\n99999999：不知道個案是否有接受手術治療、個案有接受手術治療但是接受手術治療的日期不清楚、僅由死亡證明書得知個案有癌症，年不詳：9999月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "date of most accurate surgical resection at primary site",
-      "description_en": "Date of surgery for the primary tumor performed at any medical institution. 00000000: No surgical procedure performed, diagnosed as cancer only during autopsy. 99999999: Unclear whether surgical treatment was received, date of surgical procedure unknown, cancer status known only from death certificate. Year unknown: 9999 Month unknown: 99 Day unknown: 99."
+      "description_en": "YYYYMMDD: Date of the most definitive surgical resection of the primary tumor performed at any medical institution.\n00000000: No surgery performed; cancer diagnosed only at autopsy\n99999999: Unknown whether the case received surgery; surgery received but date unclear; cancer known only from the death certificate. Year unknown: 9999, month unknown: 99, day unknown: 99."
     },
     {
       "seq": 39,
@@ -5152,32 +5152,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -5200,7 +5200,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HIST": {
       "field_zh": "組織型態 (ICD-O Morphology)",
@@ -12474,8 +12474,8 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2011-2017年版本)",
-  "data_description_en": "Records the case's smoking behavior before the initial diagnosis date. Digits 1-2 are daily cigarettes: 00: Non-smoker; 10: 10/day (half pack); 20: 20/day (1 pack); 90: >=90/day (>=4.5 packs); 91: Occasional; 98: Smokes, amount unknown; 99: Not recorded/unknown. Digits 3-4 are years smoked: 00: Non-smoker; 05: 5 years; 99: Not recorded/unknown. Digits 5-6 are years since quitting: 00: Not quit; 05: Quit 5 years; 15: Quit 15 years.",
-  "notes_en": "Service Item (W_LTC_CMS_QD100). Records: 199. File size: 128 KB. Fields: 4. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix at the end of the manual. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: this file matches Care Plan — Assistive Devices (W_LTC_CMS_QD113) and Consultation Form Service-Item Detail (W_LTC_CMS_QD111100) on the serial number OBJID.",
+  "data_description_en": "1. From 2007, all newly diagnosed cancer cases at each hospital are to be reported using the new cancer registry items. Hospitals with\n50 or more beds report cancer occurrence and treatment summary data as specified in the short-form abstracting manual; hospitals that previously\nparticipated in TCDB reporting report detailed occurrence and treatment data for the six major cancers (cervical, breast, oral,\nlung, liver, colorectal) according to the long-form abstracting manual.\n2. From diagnosis year 2008, prostate, stomach, esophageal and bladder cancers were added, making ten major cancers.\n3. From diagnosis year 2009, nasopharyngeal, major salivary gland, uterine corpus and ovarian cancers and hematologic malignancies were added, making\nfifteen major cancers.\n4. From diagnosis year 2013, laryngeal cancer was added, making sixteen major cancers.\n5. For cases diagnosed from 2010, the AJCC 7th edition is used for cancer staging in reporting.",
+  "notes_en": "1. To meet the needs of clinical cancer care, the Health Promotion Administration began planning, from ROC 98 (2009), to add site-specific factor data to the\nTaiwan Cancer Registry long-form database; for public health considerations, smoking, betel-nut chewing, alcohol drinking, height and weight\nwere also added and revised in the ROC 100 (2011) edition of the cancer registry\nabstracting manual.\n2. Besides the cervical, breast, colorectal, oral,\nlung and liver cancers reported in 2007 and the prostate, stomach, esophageal and bladder cancers added in 2008, the cancer types long-form hospitals must report\nwere expanded in 2009 to include nasopharyngeal, major salivary gland, uterine corpus and ovarian cancers and hematologic malignancies, and in 2010 were extended\nto the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophageal,\nstomach, prostate, bladder, major salivary gland, nasopharyngeal, uterine corpus and ovarian cancers and hematologic\nmalignancies, etc.).\nLaryngeal cancer was added from 2013, and some hospitals have reported the all-cancer long form since diagnosis year 2013.\n3. Cases registered are those of Republic of China nationality (foreign nationals are not registered) who are diagnosed with cancer by a physician for the first time.\n4. In principle each cancer case is reported once, but if there is another primary site (i.e., multiple\nprimary cancers) it must be reported again.\n5. Cancer cases newly diagnosed on or after 1 January 2011 are reported according to the ROC 100 (2011) edition of the Taiwan Cancer Registry\nabstracting manual.\n6. First recurrence data record whether, within five years of the case's cancer diagnosis, a first cancer\nrecurrence occurred; only cases in case classification 1 and 2 must be followed up and report this field.\nIf recurrence repeats after a first recurrence within five years,\nthis field records only the status of the first recurrence; if the first recurrence occurs after more than five years,\nthis field is coded as no recurrence. Recurrence information is reported only twice, once at one year and once at five years after diagnosis.",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration long form LF (2011-2017)",
   "printed": {

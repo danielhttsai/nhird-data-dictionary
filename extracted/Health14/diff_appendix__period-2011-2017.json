@@ -25,7 +25,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     },
     {
       "seq": 3,
@@ -571,7 +571,7 @@
       "description_zh": "YYYYMMDD：記錄個案在任何醫療機構內對原發部位腫瘤所執行最確切的手術切除日期。\n00000000：沒有進行任何手術、於屍體解剖時才診斷為癌症\n99999999：不知道個案是否有接受手術治療、個案有接受手術治療但是接受手術治療的日期不清楚、僅由死亡證明書得知個案有癌症，年不詳：9999月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "date of most accurate surgical resection at primary site",
-      "description_en": "Date of surgery for the primary tumor performed at any medical institution. 00000000: No surgical procedure performed, diagnosed as cancer only during autopsy. 99999999: Unclear whether surgical treatment was received, date of surgical procedure unknown, cancer status known only from death certificate. Year unknown: 9999 Month unknown: 99 Day unknown: 99."
+      "description_en": "YYYYMMDD: Date of the most definitive surgical resection of the primary tumor performed at any medical institution.\n00000000: No surgery performed; cancer diagnosed only at autopsy\n99999999: Unknown whether the case received surgery; surgery received but date unclear; cancer known only from the death certificate. Year unknown: 9999, month unknown: 99, day unknown: 99."
     },
     {
       "seq": 39,

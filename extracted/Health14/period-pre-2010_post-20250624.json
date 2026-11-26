@@ -116,7 +116,7 @@
       "description_zh": "0：不是成對器官\n1：原發起源位在右側\n2：原發起源位在左側\n3：只有單側侵犯，但起源於左側或右\n側則不清楚\n4：雙側侵犯但起源之側位不清楚，且病歷描述是單一原發。較少見，如以下三例：\n 雙側卵巢同時有單一組織類型之腫瘤侵犯。\n 雙側同時有視網膜芽細胞瘤\n(retinoblastomas)。\n 雙側同時有Wilm 腫瘤(Wilm\ntumors)。\n9：起源為成對器官，但其側位不清楚；位於身體中線的腫瘤。",
       "available_notes": [],
       "name_zh_en": "laterality",
-      "description_en": "a: Tuberculous meningitis (013); c: Tuberculosis of lymph nodes (014); d: TB of bones and joints (015); e: TB of the genitourinary system (016); f: TB of skin and eye (017); g: TB of the digestive tract (014); h: TB of other organs (017); i: Miliary TB (000); j: Pleural TB (000); k: Laryngeal TB (000); l: Bladder-cancer instillation therapy (016); m: Suspected BCG adverse reaction (local lesion at injection site); n: Suspected BCG adverse reaction (ipsilateral axillary lymph node enlargement)."
+      "description_en": "0: Not a paired organ\n1: Primary originated on the right side\n2: Primary originated on the left side\n3: Only one side involved, but it is unclear whether it originated on the left or\nright side\n4: Both sides involved but the side of origin is unclear, and the medical record describes a single primary. Rare, for example the following three:\n• Tumor of a single histologic type involving both ovaries simultaneously.\n• Retinoblastomas on both sides simultaneously\n(retinoblastomas).\n• Wilms tumors on both sides simultaneously (Wilm\ntumors).\n9: Paired organ of origin but the side is unclear; tumor located at the midline of the body."
     },
     {
       "seq": 10,
@@ -225,7 +225,7 @@
         }
       ],
       "name_zh_en": "diagnostic and staging surgery/procedure date",
-      "description_en": "Date of surgery for diagnosis and staging performed at the reporting hospital or external hospitals. 00000000: No diagnostic or staging surgery performed, diagnosed as cancer only during autopsy. 99999999: Unclear whether diagnostic or staging surgery was performed, date of surgical procedure unknown, cancer status known only from death certificate. Year unknown: 9999 Month unknown: 99 Day unknown: 99."
+      "description_en": "YYYYMMDD: Date of the surgical procedure performed for diagnosis and staging at the reporting hospital or an outside hospital.\n00000000: No diagnostic or staging surgical procedure performed; cancer diagnosed only at autopsy\n99999999: Unknown whether a diagnostic or staging surgical procedure was performed; procedure performed but date unknown; cancer known only from the death certificate.\nYear unknown: 9999 month unknown: 99 day unknown: 99."
     },
     {
       "seq": 19,
@@ -1078,7 +1078,7 @@
       "description_zh": "個案經病歷記載經過一段無病\n(disease-freeintermission)或緩解\n(remission) 期間，首次出現復發的型式，詳欄位(變項)譯碼(四十七)\n【首次復發型式（RECUR）對照\n表】。\n本欄位收錄個案經診斷為癌症後，追蹤滿五年內是否首次發生癌症復發狀態。若五年內首次復發後，仍再重複復發，本欄位僅記錄第一次復發狀態；若超過五年後才發生首次復發，則本欄位將視為無復發。",
       "available_notes": [],
       "name_zh_en": "first recurrence pattern",
-      "description_en": "Case has experienced recurrence following a disease-free intermission or remission period. Refer to code (47) for first recurrence pattern [RECUR]. This field records whether the case had a recurrence of cancer within five years after diagnosis. If there is a recurrence within five years, only the first recurrence is recorded; if it occurs more than five years later, this field indicates no recurrence."
+      "description_en": "Type of first recurrence after the case's medical record documents a disease-free\nintermission or remission\nperiod. See field (variable) code description (47)\n[First recurrence type (RECUR) lookup\ntable].\nThis field records whether, within five years of the cancer diagnosis, a first cancer recurrence occurred. If recurrence repeats after a first recurrence within five years, this field records only the status of the first recurrence; if the first recurrence occurs after more than five years, this field is regarded as no recurrence."
     },
     {
       "seq": 82,
@@ -1155,7 +1155,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     }
   ],
   "codebooks": {
@@ -4939,32 +4939,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -4987,7 +4987,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HIST": {
       "field_zh": "組織型態 (ICD-O Morphology)",
@@ -12262,7 +12262,7 @@
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health14_癌症登記檔長表LF(2010年以前版本)(20250624起適用)",
   "data_description_en": "1. Starting in 2007, all newly diagnosed cancer cases at each hospital were required to switch entirely to the new cancer registry reporting items. Hospitals with 50 or more beds report cancer incidence and treatment summary data according to the short-form abstracting manual; hospitals that previously participated in TCDB reporting report detailed incidence and treatment data for the six major cancers (cervical, breast, oral, lung, liver, and colorectal cancer) according to the long-form abstracting manual.\n2. Starting with diagnosis year 2008, prostate cancer, gastric cancer, esophageal cancer, and bladder cancer were added, bringing the total to ten major cancers.\n3. Starting with diagnosis year 2009, nasopharyngeal cancer, major salivary gland cancer, corpus uteri cancer, ovarian cancer, and hematologic malignancies were added, bringing the total to fifteen major cancers.\n4. Cases diagnosed in 2007-2009 were reported using AJCC 6th edition staging; cases diagnosed from 2010 onward have all been reported using AJCC 7th edition staging.",
-  "notes_en": "1. To meet clinical cancer-care needs, from ROC 98 (2009) the HPA began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height, and weight were added and revised in the ROC-100 (2011) abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophagus, stomach, prostate, bladder, major salivary gland, nasopharyngeal, uterine corpus, ovarian, and hematologic tumors). From 2013, laryngeal cancer was added, and some hospitals reported the all-cancer long form from diagnosis year 2013. 3. Eligible cases are ROC nationals (foreigners excluded) first diagnosed with cancer by a physician. 4. In principle each cancer case is reported once, but another primary site (i.e. multiple primary cancer) requires an additional report. 5. Cancer cases newly diagnosed on or after 1 January 2011 are reported per the ROC-100 abstracting manual. 6. First-recurrence data records whether a first cancer recurrence occurs within five years of follow-up after diagnosis; only case classes 1 and 2 must report this field. If recurrence repeats after a first recurrence within five years, only the first recurrence status is recorded; if a first recurrence occurs after five years, the field is recorded as no recurrence. Recurrence data is reported once at one year and once at five years after diagnosis.",
+  "notes_en": "1. From 2007, the cancer registry long form is reported with 95 fields, applicable to all cases of diagnosis years 2002 to 2010,\nso the 95-field long-form database includes some cases of diagnosis years 2002 to 2006.\n2. Besides the cervical, breast, colorectal, oral\ncancers reported in 2007 (cervical, breast, colorectal, oral, lung and liver) and the prostate, stomach, esophageal and bladder cancers added in 2008, in 2009\nnasopharyngeal, major salivary gland, uterine corpus and ovarian cancers and hematologic malignancies were added, for a total of 15 cancer types.\n3. Between the AJCC 6th and 7th editions, the TNM and stage group combinations differ for some cancers in the two\neditions, so the stage distribution should be interpreted with caution when comparing different diagnosis years.\n4. First recurrence data record whether a first cancer recurrence occurred within five years of the cancer diagnosis; only cases in case classification 1 and 2 must be followed up\nand report this field. If recurrence repeats after a first recurrence within five years,\nthis field records only the status of the first recurrence; if the first recurrence occurs after more than five years, this field is coded as\nno recurrence. Recurrence information is reported only twice, once at one year and once at five years after diagnosis.\n5. The fields for date of death and cause of death are less complete because of the timing of hospital cancer registry reporting;\nif complete data are needed, applying for the cause-of-death statistics file is recommended.\n6. This user manual is based on the Taiwan Cancer Registry manual; for details, download it from the Taiwan Cancer Registry website,\nfor example the \"2007 (ROC 96) edition of the Taiwan Cancer Registry Abstracting Manual\".\n*The database of this Center has been de-identified: directly identifying fields such as name and address have been deleted; any ID\nnumbers, institution codes, insured unit codes, unified business numbers, dates of birth, dates of care, admission dates and similar fields\nhave all been masked, and the data can only be used within the independent work area set up by the Ministry, with only statistical results that have passed review taken out",
   "primary_keys_en": "",
   "name_zh_en": "cancer registration long form LF (2007-2010)",
   "printed": {

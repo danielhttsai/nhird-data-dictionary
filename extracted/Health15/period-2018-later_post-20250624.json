@@ -138,7 +138,7 @@
       "description_zh": "0：非成對器官\n1：原發起源位在右側\n2：原發起源位在左側\n3：只有單側侵犯，但起源於左側或右側則不清楚\n4：雙側侵犯但起源之側位不清楚，且病歷描述是單一原發(較少見)\n․雙側卵巢同時有單一組織類型之腫瘤侵犯。\n․雙側同時有視網膜芽細胞瘤(retinoblastomas)。\n․雙側同時有Wilm 腫瘤(Wilm tumors)。\n5：成對器官，位於身體中線的腫瘤\n9：成對器官，但其側位不清楚。",
       "available_notes": [],
       "name_zh_en": "laterality",
-      "description_en": "2 digits before ROC year 92 (2003); 4 digits from year 93 onward. For the 2nd and subsequent dispensings of a chronic-illness refillable prescription, fill in IC02, IC03, or IC04 according to the sequence number in the dispensing-record field of the chronic prescription; see the Health Card Visit Sequence Number (CARD_SEQ_NO) coding notes. For pharmacist home-care (case type D), fill in 'N'."
+      "description_en": "0: Not a paired organ\n1: Primary originated on the right side\n2: Primary originated on the left side\n3: Only one side involved, but it is unclear whether it originated on the left or right\n4: Both sides involved but the side of origin is unclear, and the medical record describes a single primary (rare)\n• Tumor of a single histologic type involving both ovaries simultaneously.\n• Retinoblastomas on both sides simultaneously.\n• Wilms tumors on both sides simultaneously.\n5: Paired organ, tumor located at the midline of the body\n9: Paired organ, but the side is unclear."
     },
     {
       "seq": 12,
@@ -215,7 +215,7 @@
       "description_zh": "YYYYMMDD：記錄個案在申報醫院最早針對癌症進行手術的日期。\n00000000：沒有進行任何手術、於屍體解剖時才診斷為癌症。\n99999999：不知道個案是否有接受手術治療、個案有接受手術治療但是接受手術治療的日期不清楚、僅由死亡證明書得知個案有癌症。\n年不詳：9999 月不詳：99 日不\n詳：99。",
       "available_notes": [],
       "name_zh_en": "first surgery date",
-      "description_en": "YYYYMMDD: records the earliest date on which the case underwent cancer-related surgery at the reporting hospital. 00000000: no surgery was performed; cancer was diagnosed only at autopsy. 99999999: unknown whether the case received surgical treatment; the case received surgical treatment but the date is unknown; or the case's cancer was known only from the death certificate. Year unknown: 9999. Month unknown: 99. Day unknown: 99."
+      "description_en": "YYYYMMDD: Date of the earliest cancer-directed surgery of the case at the reporting hospital.\n00000000: No surgery performed; cancer diagnosed only at autopsy.\n99999999: Unknown whether the case received surgery; surgery received but date unclear; cancer known only from the death certificate.\nYear unknown: 9999 month unknown: 99 day unknown:\n99."
     },
     {
       "seq": 19,
@@ -380,7 +380,7 @@
       "description_zh": "記錄個案在任何醫療機構的首次療程中，所給予其他治療相關情形。其他治療的定義為未能歸類於手\n術、放射治療、全身性藥物治療或輔助性治療(ancillarytreatment) ，詳欄位(變項)譯碼(十九)【其他治療(OTHER)對照表】。",
       "available_notes": [],
       "name_zh_en": "other treatment",
-      "description_en": "Records details of other therapy given during the case's first course of treatment at any medical institution. Other therapy is defined as treatment that cannot be classified as surgery, radiotherapy, systemic drug therapy, or ancillary treatment; see field (variable) coding (19) [Other therapy (OTHER) cross-reference table]."
+      "description_en": "Records other treatment given in the first course of treatment at any medical institution. Other treatment is defined as treatment that cannot be classified as surgery,\nradiation therapy, systemic drug therapy or ancillary treatment; see field (variable) code description (19) [Other treatment (OTHER) lookup table]."
     },
     {
       "seq": 34,
@@ -424,7 +424,7 @@
       "description_zh": "記錄個案於最初診斷日前的吸菸行為。\n1-2碼為每日吸菸量(以支為單位)\n00：無吸菸\n10：每日10支(半包)\n20：每日20支(1包)\n90：每日≧90支(≧4.5包)\n91：偶爾吸(無規律或無定量)\n98：有吸，但量不詳\n99：病歷未記載或吸菸狀態完全\n不詳者。\n3-4碼為吸菸年\n00：無吸菸\n05：吸菸5年\n15：每日20支(1包)\n98：每日≧90支(≧4.5包)\n99：病歷未記載或吸菸狀態完全\n不詳者。\n5-6碼為戒菸年\n00：無戒吸菸\n05：已戒 5年\n15：已戒15年\n88：無吸菸\n98：已戒，但年不詳\n99：病歷未記載或戒菸狀態完全不詳者。",
       "available_notes": [],
       "name_zh_en": "smoking behavior",
-      "description_en": "1. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 2. In principle each medical personnel has one record. 3. For 2017, only records with practice status (WORK_STATUS) 01 (practicing) are extracted. 4. In 2017 data, a blank NHI region indicates erroneous data (practicing but no practice institution). 5. In 2020 data, two fields were added: practice city/county and practice township. Primary key: none."
+      "description_en": "Records the case's smoking behavior before the date of initial diagnosis.\nDigits 1-2 are the amount smoked per day (in cigarettes)\n00: No smoking\n10: 10 cigarettes per day (half a pack)\n20: 20 cigarettes per day (1 pack)\n90: ≥90 cigarettes per day (≥4.5 packs)\n91: Occasional smoking (irregular or unquantified)\n98: Smokes, but amount unknown\n99: Not recorded in the medical record or smoking status\nentirely unknown.\nDigits 3-4 are years of smoking\n00: No smoking\n05: Smoked for 5 years\n15: 20 cigarettes per day (1 pack)\n98: ≥90 cigarettes per day (≥4.5 packs)\n99: Not recorded in the medical record or smoking status\nentirely unknown.\nDigits 5-6 are years since quitting smoking\n00: Has not quit smoking\n05: Quit 5 years ago\n15: Quit 15 years ago\n88: No smoking\n98: Quit, but years unknown\n99: Not recorded in the medical record or smoking cessation status entirely unknown."
     },
     {
       "seq": 38,
@@ -435,7 +435,7 @@
       "description_zh": "記錄個案於最初診斷日前的嚼檳榔行為。\n1-2碼為每日嚼檳榔量，以”顆”計算\n00：無嚼檳榔\n10：每日10顆\n20：每日20顆\n90：每日≧90顆\n91：偶爾嚼(無規律或無定量)\n98：有嚼，但量不詳\n99：病歷未記載或嚼檳榔狀態完全不詳者。\n3-4碼為嚼檳榔年\n00：無嚼檳榔\n05：嚼5年\n15：嚼15年\n98：嚼檳榔，但年不詳\n99：病歷未記載或嚼檳榔狀態完全不詳者。\n5-6碼為戒檳榔年\n00：無戒嚼檳榔\n05：已戒 5年\n15：已戒15年\n88：無嚼檳榔\n98：已戒，但年不詳\n99：病歷未記載或嚼檳榔狀態完全不詳者。",
       "available_notes": [],
       "name_zh_en": "chewing betel nut behavior",
-      "description_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID."
+      "description_en": "Records the case's betel-nut chewing behavior before the date of initial diagnosis.\nDigits 1-2 are the amount chewed per day, counted in quids\n00: No betel-nut chewing\n10: 10 quids per day\n20: 20 quids per day\n90: ≥90 quids per day\n91: Occasional chewing (irregular or unquantified)\n98: Chews, but amount unknown\n99: Not recorded in the medical record, or betel-nut chewing status entirely unknown.\nDigits 3-4 are years of betel-nut chewing\n00: No betel-nut chewing\n05: Chewed for 5 years\n15: Chewed for 15 years\n98: Chews betel nut, but years unknown\n99: Not recorded in the medical record, or betel-nut chewing status entirely unknown.\nDigits 5-6 are years since quitting betel-nut chewing\n00: Has not quit chewing\n05: Quit 5 years ago\n15: Quit 15 years ago\n88: No betel-nut chewing\n98: Quit, but years unknown\n99: Not recorded in the medical record, or betel-nut chewing status entirely unknown."
     },
     {
       "seq": 39,
@@ -468,7 +468,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n出生年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year: Confirms the case's year of birth. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear of birth unknown: 9999."
     }
   ],
   "codebooks": {
@@ -4282,32 +4282,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -4330,7 +4330,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HIST": {
       "field_zh": "組織型態 (ICD-O Morphology)",

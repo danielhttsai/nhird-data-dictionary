@@ -58,7 +58,7 @@
       "description_zh": "使用ICD-O-3之腫瘤部位碼\n(topography code)譯碼。\nNHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄\n位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "Translate the ICD-O-3 tumor site code. For cases of NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia), which are hematological tumors, they cannot be distinguished in this field; please use histology type and behavior code (HISTBEH) to differentiate. If analyzing cancer parts (CASITE field), please exclude NHL, HL, and LEU cases first."
+      "description_en": "Coded using the ICD-O-3 tumor site code\n(topography code).\nHematologic malignancy cases such as NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma) and LEU (leukemia) cannot be identified in this field; please distinguish them by the histology and behavior code (HISTBEH). To analyze cancer sites (CASITE\nfield), please also exclude hematologic malignancies such as NHL, HL and LEU before calculating."
     },
     {
       "seq": 10,
@@ -280,7 +280,7 @@
       "description_zh": "使用ICD-O-3之腫瘤部位碼\n(topography code)譯碼。\nNHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄\n位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "Translate the ICD-O-3 tumor site code. For cases of NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia), which are hematological tumors, they cannot be distinguished in this field; please use histology type and behavior code (HISTBEH) to differentiate. If analyzing cancer parts (CASITE field), please exclude NHL, HL, and LEU cases first."
+      "description_en": "Coded using the ICD-O-3 tumor site code\n(topography code).\nHematologic malignancy cases such as NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma) and LEU (leukemia) cannot be identified in this field; please distinguish them by the histology and behavior code (HISTBEH). To analyze cancer sites (CASITE\nfield), please also exclude hematologic malignancies such as NHL, HL and LEU before calculating."
     },
     {
       "seq": 12,

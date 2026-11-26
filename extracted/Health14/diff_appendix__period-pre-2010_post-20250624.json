@@ -102,7 +102,7 @@
       "description_zh": "0：不是成對器官\n1：原發起源位在右側\n2：原發起源位在左側\n3：只有單側侵犯，但起源於左側或右\n側則不清楚\n4：雙側侵犯但起源之側位不清楚，且病歷描述是單一原發。較少見，如以下三例：\n 雙側卵巢同時有單一組織類型之腫瘤侵犯。\n 雙側同時有視網膜芽細胞瘤\n(retinoblastomas)。\n 雙側同時有Wilm 腫瘤(Wilm\ntumors)。\n9：起源為成對器官，但其側位不清楚；位於身體中線的腫瘤。",
       "available_notes": [],
       "name_zh_en": "laterality",
-      "description_en": "a: Tuberculous meningitis (013); c: Tuberculosis of lymph nodes (014); d: TB of bones and joints (015); e: TB of the genitourinary system (016); f: TB of skin and eye (017); g: TB of the digestive tract (014); h: TB of other organs (017); i: Miliary TB (000); j: Pleural TB (000); k: Laryngeal TB (000); l: Bladder-cancer instillation therapy (016); m: Suspected BCG adverse reaction (local lesion at injection site); n: Suspected BCG adverse reaction (ipsilateral axillary lymph node enlargement)."
+      "description_en": "0: Not a paired organ\n1: Primary originated on the right side\n2: Primary originated on the left side\n3: Only one side involved, but it is unclear whether it originated on the left or\nright side\n4: Both sides involved but the side of origin is unclear, and the medical record describes a single primary. Rare, for example the following three:\n• Tumor of a single histologic type involving both ovaries simultaneously.\n• Retinoblastomas on both sides simultaneously\n(retinoblastomas).\n• Wilms tumors on both sides simultaneously (Wilm\ntumors).\n9: Paired organ of origin but the side is unclear; tumor located at the midline of the body."
     },
     {
       "seq": 10,
@@ -211,7 +211,7 @@
         }
       ],
       "name_zh_en": "diagnostic and staging surgery/procedure date",
-      "description_en": "Date of surgery for diagnosis and staging performed at the reporting hospital or external hospitals. 00000000: No diagnostic or staging surgery performed, diagnosed as cancer only during autopsy. 99999999: Unclear whether diagnostic or staging surgery was performed, date of surgical procedure unknown, cancer status known only from death certificate. Year unknown: 9999 Month unknown: 99 Day unknown: 99."
+      "description_en": "YYYYMMDD: Date of the surgical procedure performed for diagnosis and staging at the reporting hospital or an outside hospital.\n00000000: No diagnostic or staging surgical procedure performed; cancer diagnosed only at autopsy\n99999999: Unknown whether a diagnostic or staging surgical procedure was performed; procedure performed but date unknown; cancer known only from the death certificate.\nYear unknown: 9999 month unknown: 99 day unknown: 99."
     },
     {
       "seq": 19,
@@ -1064,7 +1064,7 @@
       "description_zh": "個案經病歷記載經過一段無病\n(disease-freeintermission)或緩解\n(remission) 期間，首次出現復發的型式，詳欄位(變項)譯碼(四十七)\n【首次復發型式（RECUR）對照\n表】。\n本欄位收錄個案經診斷為癌症後，追蹤滿五年內是否首次發生癌症復發狀態。若五年內首次復發後，仍再重複復發，本欄位僅記錄第一次復發狀態；若超過五年後才發生首次復發，則本欄位將視為無復發。",
       "available_notes": [],
       "name_zh_en": "first recurrence pattern",
-      "description_en": "Case has experienced recurrence following a disease-free intermission or remission period. Refer to code (47) for first recurrence pattern [RECUR]. This field records whether the case had a recurrence of cancer within five years after diagnosis. If there is a recurrence within five years, only the first recurrence is recorded; if it occurs more than five years later, this field indicates no recurrence."
+      "description_en": "Type of first recurrence after the case's medical record documents a disease-free\nintermission or remission\nperiod. See field (variable) code description (47)\n[First recurrence type (RECUR) lookup\ntable].\nThis field records whether, within five years of the cancer diagnosis, a first cancer recurrence occurred. If recurrence repeats after a first recurrence within five years, this field records only the status of the first recurrence; if the first recurrence occurs after more than five years, this field is regarded as no recurrence."
     },
     {
       "seq": 82,
@@ -1141,7 +1141,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     }
   ],
   "removed": [],

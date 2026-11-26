@@ -43,7 +43,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     },
     {
       "seq": 3,
@@ -109,7 +109,7 @@
       "description_zh": "使用ICD-O-3之腫瘤部位碼\n(topography code)譯碼。\nNHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄\n位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "Translate the ICD-O-3 tumor site code. For cases of NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia), which are hematological tumors, they cannot be distinguished in this field; please use histology type and behavior code (HISTBEH) to differentiate. If analyzing cancer parts (CASITE field), please exclude NHL, HL, and LEU cases first."
+      "description_en": "Coded using the ICD-O-3 tumor site code\n(topography code).\nHematologic malignancy cases such as NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma) and LEU (leukemia) cannot be identified in this field; please distinguish them by the histology and behavior code (HISTBEH). To analyze cancer sites (CASITE\nfield), please also exclude hematologic malignancies such as NHL, HL and LEU before calculating."
     },
     {
       "seq": 9,
@@ -4002,32 +4002,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -4050,7 +4050,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HISTBEH": {
       "field_zh": "組織型態 (ICD-O Morphology)",
@@ -11324,7 +11324,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health15_癌症登記檔短表SF(2010年以前版本)",
-  "data_description_en": "records of diagnostic cases reported by various hospitals from 2007 to 2010.",
+  "data_description_en": "Includes original data of cases diagnosed in 2007-2010, reported by each hospital.",
   "notes_en": "1. ※ This center's database has been de-identified: directly identifying fields such as name and address were deleted, and fields such as\nnational ID number, facility code, insured unit code, unified business number, date of birth, date of visit and admission date are\nmasked. The data may be used only in the independent work area set up by this Ministry, and only statistical results\nthat pass review may be taken out, to ensure that the use and disclosure of the data cannot identify any specific individual.\n2. Contains the raw data reported by hospitals for cases diagnosed in 2007-2010; duplicate cases (the\nsame case with the same cancer and the same histology group across hospitals) have not been removed.\n3. The cancers covered by the cancer registry short form (short form) include all cancers reported by short-form hospitals as\nwell as all other cancer types outside those reported by long-form hospitals, all of which are reported on the short form.\n4. To analyze data from diagnosis year 1979 to the latest published year with\ninter-hospital duplicates removed (annual-report linked data), please apply for the annual-report linked file.",
   "primary_keys_en": "1. Personal ID number (ID) is encrypted.\n2. Key for individual linkage and personal-data matching: ID.",
   "name_zh_en": "cancer registration short form SF (2007-2010)",

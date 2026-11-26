@@ -58,7 +58,7 @@
       "description_zh": "使用ICD-O-3之腫瘤部位碼\n(topography code)譯碼。\nNHL(非何杰金氏淋巴瘤)、HL(何杰金氏淋巴瘤)及 LEU(白血病)等血液腫瘤個案，在此欄位無法辨識，請用組織類型與性態碼(HISTBEH)區分。若是要分析各癌症部分(CASITE欄\n位)，也請先把NHL、HL、LEU等血液腫瘤排除後再計算。",
       "available_notes": [],
       "name_zh_en": "primary site",
-      "description_en": "Translate the ICD-O-3 tumor site code. For cases of NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma), and LEU (leukemia), which are hematological tumors, they cannot be distinguished in this field; please use histology type and behavior code (HISTBEH) to differentiate. If analyzing cancer parts (CASITE field), please exclude NHL, HL, and LEU cases first."
+      "description_en": "Coded using the ICD-O-3 tumor site code\n(topography code).\nHematologic malignancy cases such as NHL (non-Hodgkin lymphoma), HL (Hodgkin lymphoma) and LEU (leukemia) cannot be identified in this field; please distinguish them by the histology and behavior code (HISTBEH). To analyze cancer sites (CASITE\nfield), please also exclude hematologic malignancies such as NHL, HL and LEU before calculating."
     },
     {
       "seq": 10,
@@ -522,7 +522,7 @@
       "description_zh": "記錄個案於最初診斷日前的嚼檳榔行為。\n1-2碼為每日嚼檳榔量，以”顆”計算․ 00：無嚼檳榔。\n․ 10：每日10顆\n․ 20：每日20顆\n․ 90：每日≧90顆\n․ 91：偶爾嚼(無規律或無定量)\n․ 98：有嚼，但量不詳\n․ 99：病歷未記載或嚼檳榔狀態完全不詳者\n3-4碼為嚼檳榔年\n․ 00：無嚼檳榔\n․ 05：嚼5年\n․ 15：嚼15年\n․ 98：嚼檳榔，但年不詳\n․ 99：病歷未記載或嚼檳榔狀態完全不詳者\n5-6碼為戒檳榔年\n․ 00：無戒嚼檳榔\n․ 05：已戒 5年\n․ 15：已戒15年\n․ 88：無嚼檳榔\n․ 98：已戒，但年不詳\n․ 99：病歷未記載或嚼檳榔狀態完全不詳者",
       "available_notes": [],
       "name_zh_en": "chewing betel nut behavior",
-      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
+      "description_en": "Records the case's betel-nut chewing behavior before the date of initial diagnosis.\nDigits 1-2 are the amount chewed per day, counted in quids• 00: No betel-nut chewing.\n• 10: 10 quids per day\n• 20: 20 quids per day\n• 90: ≥90 quids per day\n• 91: Occasional chewing (irregular or unquantified)\n• 98: Chews, but amount unknown\n• 99: Not recorded in the medical record, or betel-nut chewing status entirely unknown\nDigits 3-4 are years of betel-nut chewing\n• 00: No betel-nut chewing\n• 05: Chewed for 5 years\n• 15: Chewed for 15 years\n• 98: Chews betel nut, but years unknown\n• 99: Not recorded in the medical record, or betel-nut chewing status entirely unknown\nDigits 5-6 are years since quitting betel-nut chewing\n• 00: Has not quit chewing\n• 05: Quit 5 years ago\n• 15: Quit 15 years ago\n• 88: No betel-nut chewing\n• 98: Quit, but years unknown\n• 99: Not recorded in the medical record, or betel-nut chewing status entirely unknown"
     },
     {
       "seq": 35,
