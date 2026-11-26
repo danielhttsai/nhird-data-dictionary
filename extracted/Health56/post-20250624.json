@@ -39,7 +39,7 @@
         }
       ],
       "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National Resident Identity Card unified number, or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with insufficient numbers padded. 2024 length is 24"
+      "description_en": "Encrypted. National ID number or foreign resident certificate number (passport number if there is no resident certificate number), left-aligned and padded with blanks if shorter.\nROC 112 (2023): length 24"
     },
     {
       "seq": 2,
@@ -477,7 +477,7 @@
         }
       ],
       "name_zh_en": "drug history - years taken (contraceptive)",
-      "description_en": "In 2025, the length is 21 characters."
+      "description_en": "ROC 113 (2024): length 21, character type"
     },
     {
       "seq": 24,
@@ -1240,7 +1240,7 @@
         {
           "code": "1",
           "label_zh": "國民健康署",
-          "label_en": "Department of Health, Taiwan"
+          "label_en": "Health Promotion Administration"
         },
         {
           "code": "2",
@@ -1625,12 +1625,12 @@
         {
           "code": "0713",
           "label_zh": "高雄市田寮區 1201 新竹市東區",
-          "label_en": "kaohsiung city taliou district 1201 new竹 city dong district"
+          "label_en": "Kaohsiung City Tianliao District 1201 Hsinchu City East District"
         },
         {
           "code": "0714",
           "label_zh": "高雄市阿蓮區 1204 新竹市北區",
-          "label_en": "kaohsiung city aleian district 1204 new竹 city beixi district"
+          "label_en": "Kaohsiung City Alian District 1204 Hsinchu City North District"
         },
         {
           "code": "0715",
@@ -1655,32 +1655,32 @@
         {
           "code": "0719",
           "label_zh": "高雄市彌陀區 3102 新北市三重區 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": "Kaohsiung City Miituo District 3102 New Taipei City Sanzong District 20251118 Revised Township District Code Township District Name Township District Code Township District Name"
+          "label_en": "Kaohsiung City Mituo District 3102 New Taipei City Sanchong District Revised 18 November 2025 Township/District Code Township/District Name Township/District Code Township/District Name"
         },
         {
           "code": "3103",
           "label_zh": "新北市永和區 3209 桃園市龍潭區",
-          "label_en": "New Taipei City Yonghe District 3209 Taichung City Longtan District"
+          "label_en": "New Taipei City Yonghe District 3209 Taoyuan City Longtan District"
         },
         {
           "code": "3104",
           "label_zh": "新北市中和區 3210 桃園市平鎮區",
-          "label_en": "New Taipei City Zhonghe District 3210 Taichung City Pingzhen District"
+          "label_en": "New Taipei City Zhonghe District 3210 Taoyuan City Pingzhen District"
         },
         {
           "code": "3105",
           "label_zh": "新北市新店區 3211 桃園市新屋區",
-          "label_en": "New Taipei City Xinjhuang District 3211 Taichung City Xinwu District"
+          "label_en": "New Taipei City Xindian District 3211 Taoyuan City Xinwu District"
         },
         {
           "code": "3106",
           "label_zh": "新北市新莊區 3212 桃園市觀音區",
-          "label_en": "New Taipei City Xinzhuang District 3212 Taichung City Guan Yin District"
+          "label_en": "New Taipei City Xinzhuang District 3212 Taoyuan City Guanyin District"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3213 桃園市復興區",
-          "label_en": "New Taipei City Shulin District 3213 Taichung City Fuxing District"
+          "label_en": "New Taipei City Shulin District 3213 Taoyuan City Fuxing District"
         },
         {
           "code": "3108",
@@ -1795,37 +1795,37 @@
         {
           "code": "3201",
           "label_zh": "桃園市桃園區 3410 宜蘭縣三星鄉",
-          "label_en": "taichung city taichung district 3410 yilan county sanyang township"
+          "label_en": "Taoyuan City Taoyuan District 3410 Yilan County Sanxing Township"
         },
         {
           "code": "3202",
           "label_zh": "桃園市中壢區 3411 宜蘭縣大同鄉",
-          "label_en": "taichung city zhongli district 3411 yilan county datong township"
+          "label_en": "Taoyuan City Zhongli District 3411 Yilan County Datong Township"
         },
         {
           "code": "3203",
           "label_zh": "桃園市大溪區 3412 宜蘭縣南澳鄉",
-          "label_en": "taichung city daxi district 3412 yilan county nanao township"
+          "label_en": "Taoyuan City Daxi District 3412 Yilan County Nan'ao Township"
         },
         {
           "code": "3204",
           "label_zh": "桃園市楊梅區 3501 苗栗縣苗栗市",
-          "label_en": "taichung city yangmei district 3501 taichung county miaoli city"
+          "label_en": "Taoyuan City Yangmei District 3501 Miaoli County Miaoli City"
         },
         {
           "code": "3205",
           "label_zh": "桃園市蘆竹區 3502 苗栗縣苑裡鎮",
-          "label_en": "taichung city lulu district 3502 taichung county yuanli town"
+          "label_en": "Taoyuan City Luzhu District 3502 Miaoli County Yuanli Township"
         },
         {
           "code": "3206",
           "label_zh": "桃園市大園區 3503 苗栗縣通霄鎮",
-          "label_en": "taichung city daguan district 3503 taichung county tongmiao town"
+          "label_en": "Taoyuan City Dayuan District 3503 Miaoli County Tongxiao Township"
         },
         {
           "code": "3207",
           "label_zh": "桃園市龜山區 3504 苗栗縣竹南鎮",
-          "label_en": "taichung city gushan district 3504 taichung county zhunan town"
+          "label_en": "Taoyuan City Guishan District 3504 Miaoli County Zhunan Township"
         },
         {
           "code": "3208",
@@ -1835,72 +1835,72 @@
         {
           "code": "3506",
           "label_zh": "苗栗縣後龍鎮 3723 彰化縣芳苑鄉",
-          "label_en": "Taichung County Houlong Town 3723 Changhua County Fangyuan Township"
+          "label_en": "Miaoli County Houlong Township 3723 Changhua County Fangyuan Township"
         },
         {
           "code": "3507",
           "label_zh": "苗栗縣卓蘭鎮 3724 彰化縣大城鄉",
-          "label_en": "Taichung County Zhuolan Town 3724 Changhua County Dacheng Township"
+          "label_en": "Miaoli County Zhuolan Township 3724 Changhua County Dacheng Township"
         },
         {
           "code": "3508",
           "label_zh": "苗栗縣大湖鄉 3725 彰化縣竹塘鄉",
-          "label_en": "Taichung County Dahu Town 3725 Changhua County Zhutang Township"
+          "label_en": "Miaoli County Dahu Township 3725 Changhua County Zhutang Township"
         },
         {
           "code": "3509",
           "label_zh": "苗栗縣公館鄉 3726 彰化縣溪州鄉",
-          "label_en": "Taichung County Gongguan Township 3726 Changhua County Xiji Township"
+          "label_en": "Miaoli County Gongguan Township 3726 Changhua County Xizhou Township"
         },
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3727 彰化縣彰化市東區",
-          "label_en": "Taichung County Tonglu Township 3727 Hsinchu County Hsinchu City Dong District"
+          "label_en": "Miaoli County Tongluo Township 3727 Changhua County Changhua City East District"
         },
         {
           "code": "3511",
           "label_zh": "苗栗縣南庄鄉 3801 南投縣南投市",
-          "label_en": "Taichung County Nanzhuang Town 3801 Nantou County Nantou City"
+          "label_en": "Miaoli County Nanzhuang Township 3801 Nantou County Nantou City"
         },
         {
           "code": "3512",
           "label_zh": "苗栗縣頭屋鄉 3802 南投縣埔里鎮",
-          "label_en": "Taichung County Touwu Township 3802 Nantou County Puli Town"
+          "label_en": "Miaoli County Touwu Township 3802 Nantou County Puli Township"
         },
         {
           "code": "3513",
           "label_zh": "苗栗縣三義鄉 3803 南投縣草屯鎮",
-          "label_en": "Taichung County Sansi Township 3803 Nantou County Caotun Town"
+          "label_en": "Miaoli County Sanyi Township 3803 Nantou County Caotun Township"
         },
         {
           "code": "3514",
           "label_zh": "苗栗縣西湖鄉 3804 南投縣竹山鎮",
-          "label_en": "Taichung County Xihu Town 3804 Nantou County Zhushan Town"
+          "label_en": "Miaoli County Xihu Township 3804 Nantou County Zhushan Township"
         },
         {
           "code": "3515",
           "label_zh": "苗栗縣造橋鄉 3805 南投縣集集鎮",
-          "label_en": "Taichung County Caoqiao Township 3805 Nantou County Jiji Town"
+          "label_en": "Miaoli County Zaoqiao Township 3805 Nantou County Jiji Township"
         },
         {
           "code": "3516",
           "label_zh": "苗栗縣三灣鄉 3806 南投縣名間鄉",
-          "label_en": "Taichung County Sanwan Township 3806 Nantou County Nanjin Township"
+          "label_en": "Miaoli County Sanwan Township 3806 Nantou County Mingjian Township"
         },
         {
           "code": "3517",
           "label_zh": "苗栗縣獅潭鄉 3807 南投縣鹿谷鄉",
-          "label_en": "Taichung County Shitan Town 3807 Nantou County Lugu Township"
+          "label_en": "Miaoli County Shitan Township 3807 Nantou County Lugu Township"
         },
         {
           "code": "3518",
           "label_zh": "苗栗縣泰安鄉 3808 南投縣中寮鄉",
-          "label_en": "Taichung County Taian Town 3808 Nantou County Zhuliao Township"
+          "label_en": "Miaoli County Tai'an Township 3808 Nantou County Zhongliao Township"
         },
         {
           "code": "3701",
           "label_zh": "彰化縣彰化市 3809 南投縣魚池鄉",
-          "label_en": "Chiayi County Chiayi City 3809 Nantou County Yuchi Township"
+          "label_en": "Changhua County Changhua City 3809 Nantou County Yuchi Township"
         },
         {
           "code": "3702",
@@ -1910,32 +1910,32 @@
         {
           "code": "3703",
           "label_zh": "彰化縣和美鎮 3811 南投縣水里鄉",
-          "label_en": "彰化縣和美鎮 3811 南投縣水里鄉"
+          "label_en": "Changhua County Hemei Township 3811 Nantou County Shuili Township"
         },
         {
           "code": "3704",
           "label_zh": "彰化縣北斗鎮 3812 南投縣信義鄉",
-          "label_en": "彰化縣北斗鎮 3812 南投縣信義鄉"
+          "label_en": "Changhua County Beidou Township 3812 Nantou County Xinyi Township"
         },
         {
           "code": "3705",
           "label_zh": "彰化縣員林鎮 3813 南投縣仁愛鄉",
-          "label_en": "Chiayi County Yulin Town 3813 Nantou County Ren'ai Township"
+          "label_en": "Changhua County Yuanlin City 3813 Nantou County Ren'ai Township"
         },
         {
           "code": "3706",
           "label_zh": "彰化縣溪湖鎮 3901 雲林縣斗六市",
-          "label_en": "Chiayi County Hsiahu Town 3901 Yunlin County Duitzu City"
+          "label_en": "Changhua County Xihu Township 3901 Yunlin County Douliu City"
         },
         {
           "code": "3707",
           "label_zh": "彰化縣田中鎮 3902 雲林縣斗南鎮",
-          "label_en": "Chiayi County Tien Town 3902 Yunlin County Dountau Town"
+          "label_en": "Changhua County Tianzhong Township 3902 Yunlin County Dounan Township"
         },
         {
           "code": "3708",
           "label_zh": "彰化縣二林鎮 3903 雲林縣虎尾鎮",
-          "label_en": "彰化縣二林鎮 3903 雲林縣虎尾鎮"
+          "label_en": "Changhua County Erlin Township 3903 Yunlin County Huwei Township"
         },
         {
           "code": "3709",
@@ -1945,67 +1945,67 @@
         {
           "code": "3710",
           "label_zh": "彰化縣伸港鄉 3905 雲林縣土庫鎮",
-          "label_en": "彰化縣伸港鄉 3905 雲林縣土庫鎮"
+          "label_en": "Changhua County Shengang Township 3905 Yunlin County Tuku Township"
         },
         {
           "code": "3711",
           "label_zh": "彰化縣福興鄉 3906 雲林縣北港鎮",
-          "label_en": "Chiayi County Fuxing Township 3906 Yunlin County Beigang Town"
+          "label_en": "Changhua County Fuxing Township 3906 Yunlin County Beigang Township"
         },
         {
           "code": "3712",
           "label_zh": "彰化縣秀水鄉 3907 雲林縣古坑鄉",
-          "label_en": "Chiayi County Xiushui Township 3907 Yunlin County Gukeng Township"
+          "label_en": "Changhua County Xiushui Township 3907 Yunlin County Gukeng Township"
         },
         {
           "code": "3713",
           "label_zh": "彰化縣花壇鄉 3908 雲林縣大埤鄉",
-          "label_en": "Changhua County Huatian Township 3908 Yilan County Dapei Township"
+          "label_en": "Changhua County Huatan Township 3908 Yunlin County Dapi Township"
         },
         {
           "code": "3714",
           "label_zh": "彰化縣芬園鄉 3909 雲林縣莿桐鄉",
-          "label_en": "Changhua County Fenyuan Township 3909"
+          "label_en": "Changhua County Fenyuan Township 3909 Yunlin County Citong Township"
         },
         {
           "code": "3715",
           "label_zh": "彰化縣大村鄉 3910 雲林縣林內鄉",
-          "label_en": "Chiayi County Da Village Township 3910 Yunlin County Linne Township"
+          "label_en": "Changhua County Dacun Township 3910 Yunlin County Linnei Township"
         },
         {
           "code": "3716",
           "label_zh": "彰化縣埔鹽鄉 3911 雲林縣二崙鄉",
-          "label_en": "Chiayi County Pu-Yan Township 3911 Yunlin County Erren Township"
+          "label_en": "Changhua County Puyan Township 3911 Yunlin County Erlun Township"
         },
         {
           "code": "3717",
           "label_zh": "彰化縣埔心鄉 3912 雲林縣崙背鄉",
-          "label_en": "Chiayi County Puxin Township 3912 Yunlin County Longbe Township"
+          "label_en": "Changhua County Puxin Township 3912 Yunlin County Lunbei Township"
         },
         {
           "code": "3718",
           "label_zh": "彰化縣永靖鄉 3913 雲林縣麥寮鄉",
-          "label_en": "Chiayi County Yongjing Township 3913 Yunlin County Maoliu Township"
+          "label_en": "Changhua County Yongjing Township 3913 Yunlin County Mailiao Township"
         },
         {
           "code": "3719",
           "label_zh": "彰化縣社頭鄉 3914 雲林縣東勢鄉",
-          "label_en": "Chiayi County Shoutou Township 3914 Yunlin County Dongshi Township"
+          "label_en": "Changhua County Shetou Township 3914 Yunlin County Dongshi Township"
         },
         {
           "code": "3720",
           "label_zh": "彰化縣二水鄉 3915 雲林縣褒忠鄉",
-          "label_en": "彰化縣二水鄉 3915 雲林縣褒忠鄉"
+          "label_en": "Changhua County Ershui Township 3915 Yunlin County Baozhong Township"
         },
         {
           "code": "3721",
           "label_zh": "彰化縣田尾鄉 3916 雲林縣台西鄉",
-          "label_en": "Chiayi County Tiaowei Township 3916 Yunlin County Taixi Township"
+          "label_en": "Changhua County Tianwei Township 3916 Yunlin County Taixi Township"
         },
         {
           "code": "3722",
           "label_zh": "彰化縣埤頭鄉 3917 雲林縣元長鄉 2025年11月18日修訂 鄉鎮市區代碼 鄉鎮市區名稱 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": "Changhua County Pitou Township 3917 Yulin County Yuanzheng Township 2025-11-18 revised Town/Village Code Town/Village Name Town/Village Code Town/Village Name"
+          "label_en": "Changhua County Pitou Township 3917 Yunlin County Yuanchang Township Revised 18 November 2025 Township/District Code Township/District Name Township/District Code Township/District Name"
         },
         {
           "code": "3918",
@@ -2105,42 +2105,42 @@
         {
           "code": "4017",
           "label_zh": "嘉義縣大埔鄉 4401 澎湖縣馬公市1",
-          "label_en": "Chiayi County Dapu Township 4401, Hualien County Magong City 1"
+          "label_en": "Chiayi County Dapu Township 4401 Penghu County Magong City 1"
         },
         {
           "code": "4018",
           "label_zh": "嘉義縣阿里山鄉 4402 澎湖縣湖西鄉",
-          "label_en": "Chiayi County Alishan Township 4402, Hualien County Huaxi Township"
+          "label_en": "Chiayi County Alishan Township 4402 Penghu County Huxi Township"
         },
         {
           "code": "4301",
           "label_zh": "屏東縣屏東市 4403 澎湖縣白沙鄉",
-          "label_en": "屏東縣屏東市 4403 澎湖縣白沙鄉"
+          "label_en": "Pingtung County Pingtung City 4403 Penghu County Baisha Township"
         },
         {
           "code": "4302",
           "label_zh": "屏東縣潮州鎮 4404 澎湖縣西嶼鄉",
-          "label_en": "屏東縣潮州鎮 4404 澱湖縣西嶼鄉"
+          "label_en": "Pingtung County Chaozhou Township 4404 Penghu County Xiyu Township"
         },
         {
           "code": "4303",
           "label_zh": "屏東縣東港鎮 4405 澎湖縣望安鄉",
-          "label_en": "屏東縣東港鎮 4405 澱湖縣望安鄉"
+          "label_en": "Pingtung County Donggang Township 4405 Penghu County Wang'an Township"
         },
         {
           "code": "4304",
           "label_zh": "屏東縣恆春鎮 4406 澎湖縣七美鄉",
-          "label_en": "屏東縣恆春鎮 4406 澄海縣七美鄉"
+          "label_en": "Pingtung County Hengchun Township 4406 Penghu County Qimei Township"
         },
         {
           "code": "4305",
           "label_zh": "屏東縣萬丹鄉 4407 澎湖縣馬公市2",
-          "label_en": "Pingtung County Wandan Township 4407 Hualien County Magong City2"
+          "label_en": "Pingtung County Wandan Township 4407 Penghu County Magong City 2"
         },
         {
           "code": "4306",
           "label_zh": "屏東縣長治鄉 4408 澎湖縣馬公市3",
-          "label_en": "Pingtung County Changzhi Township 4408 Hualien County Magong City3"
+          "label_en": "Pingtung County Changzhi Township 4408 Penghu County Magong City 3"
         },
         {
           "code": "4307",
@@ -2160,17 +2160,17 @@
         {
           "code": "4310",
           "label_zh": "屏東縣鹽埔鄉 4501 花蓮縣花蓮市",
-          "label_en": "屏東縣鹽埔鄉 4501 花蓮縣花蓮市"
+          "label_en": "Pingtung County Yanpu Township 4501 Hualien County Hualien City"
         },
         {
           "code": "4311",
           "label_zh": "屏東縣高樹鄉 4502 花蓮縣鳳林鎮",
-          "label_en": "屏東縣高樹鄉 4502 花蓮縣鳳林鎮"
+          "label_en": "Pingtung County Gaoshu Township 4502 Hualien County Fenglin Township"
         },
         {
           "code": "4312",
           "label_zh": "屏東縣萬巒鄉 4503 花蓮縣玉里鎮",
-          "label_en": "屏東縣萬巒鄉 4503 花蓮縣玉里鎮"
+          "label_en": "Pingtung County Wanluan Township 4503 Hualien County Yuli Township"
         },
         {
           "code": "4313",
@@ -2235,7 +2235,7 @@
         {
           "code": "4603",
           "label_zh": "台東縣關山鎮 3200 桃園市",
-          "label_en": "Taitung County, Guanshan Town 3200 Taichung City"
+          "label_en": "Taitung County Guanshan Township 3200 Taoyuan City"
         },
         {
           "code": "4604",
@@ -2300,7 +2300,7 @@
         {
           "code": "4616",
           "label_zh": "台東縣蘭嶼鄉 9100 連江縣",
-          "label_en": "Taitung County, Lan Yu Township 9100 Jinmen County"
+          "label_en": "Taitung County Lanyu Township 9100 Lienchiang County"
         },
         {
           "code": "9001",
@@ -2310,7 +2310,7 @@
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮 0212 高雄市三民區2",
-          "label_en": "golden gate county jinsha town 0212 kaohsiung city sanmin district2"
+          "label_en": "Kinmen County Jinsha Township 0212 Kaohsiung City Sanmin District 2"
         },
         {
           "code": "9004",
@@ -2330,7 +2330,7 @@
         {
           "code": "9007",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "golden gate county wuku township"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -2345,7 +2345,7 @@
         {
           "code": "9103",
           "label_zh": "連江縣莒光鄉 1",
-          "label_en": "Yunlin County Juguang Township 1"
+          "label_en": "Lienchiang County Juguang Township 1"
         },
         {
           "code": "9104",
@@ -2355,7 +2355,7 @@
         {
           "code": "9105",
           "label_zh": "連江縣莒光鄉 2",
-          "label_en": "Yunlin County Juguang Township 2"
+          "label_en": "Lienchiang County Juguang Township 2"
         }
       ],
       "field_en": "residence code"
@@ -2407,7 +2407,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health56_癌症篩檢--乳癌篩檢檔(20250624起適用)",
-  "data_description_en": "1. Since 2010 (ROC year 99), the Health Promotion Administration has expanded the provision of screening services for 4 cancers (colorectal cancer, oral cancer, breast cancer, and cervical cancer), offering colorectal, breast, cervical, and oral cancer screening comprehensively through NHI-contracted preventive-care medical institutions. Colorectal and oral cancer screening were incorporated into the preventive-care service items, and breast cancer screening eligibility was expanded to women aged 40 to under 45 who are at high risk due to a second-degree relative (mother, daughter, sister, grandmother, or maternal grandmother) with a history of breast cancer.\n2. The government subsidizes a mammogram every 2 years for women aged 45-69; screening is also provided for women aged 40-44 with a family history of breast cancer among second-degree relatives (grandmother, maternal grandmother, mother, daughter, or sister).\n3. Mammography: women aged 45-69, and women aged 40-44 with a second-degree blood relative who has had breast cancer, every 2 years.\n4. Screening dates span from July 2004 to December 2024.",
+  "data_description_en": "1. Since 2010 (ROC year 99), the Health Promotion Administration has expanded the\nprovision of screening services for 4 cancers (colorectal cancer, oral cancer, breast\ncancer, and cervical cancer), offering colorectal, breast, cervical, and oral cancer\nscreening comprehensively through NHI-contracted preventive-care medical institutions.\nColorectal and oral cancer screening were incorporated into the preventive-care\nservice items, and breast cancer screening eligibility was expanded to women aged 40\nto under 45 who are at high risk due to a second-degree relative (mother, daughter,\nsister, grandmother, or maternal grandmother) with a history of breast cancer.\n2. The government subsidizes a mammogram every 2 years for women aged 45-69; screening is also provided for women aged 40-44 with\na family history of breast cancer among second-degree relatives (grandmother, maternal grandmother, mother, daughter, or sister).\n3. Mammography: women aged 45-69, and women aged 40-44 with a second-degree blood relative who has had breast cancer, every 2 years.\n4. Screening dates span from July 2004 to December 2024.",
   "notes_en": "1. Height and weight fields contain numbers, text, symbols, or combinations thereof.\n2. Screening units include county-level health bureaus and foreign institutions.",
   "primary_keys_en": "",
   "name_zh_en": "cancer screening – breast cancer screening file",
@@ -2475,5 +2475,10 @@
       "fields_parsed": 9,
       "name_zh_en": "Breast cancer screening: case basic data file"
     }
+  ],
+  "field_count_parts": [
+    7,
+    49,
+    9
   ]
 }

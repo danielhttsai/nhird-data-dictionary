@@ -897,12 +897,12 @@
         {
           "code": "2015",
           "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成ICD-10-CM，所以須將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應不確定的部分均以下列依規則處理： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的人分類到comD10_DMC。 2.有comD11_CRF其他代碼而沒有 comD10_DMC 其他代碼的人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人分類到最早被記載到的其他代碼。 3-2.最早被記載到的其他代碼因日期相同無法區別先後順序者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒有 comD11_CRF 其他代碼分類到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
-          "label_en": "From [year] the ICD classification in the NHI files was converted from ICD-9-CM to ICD-10-CM, so comorbidity ICD-9-CM codes must be recoded to ICD-10-CM per the NHI Administration announcement. Where the mapping is uncertain, the following rules apply: Building Health Big Data Thematic Databases and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I). Version date: 20251230. 1. Persons with other codes for comD10_DMC, and E10.21/E11.21, but without other codes for comD11_CRF, are classified as comD10_DMC. 2. Persons with other codes for comD11_CRF but without other codes for comD10_DMC are classified as comD11_CRF. 3-1. Persons with other codes for both comD10_DMC and comD11_CRF are classified according to whichever other code was recorded earliest. 3-2. If the earliest recorded other codes cannot be ordered because dates are identical, they are treated as having both comD10_DMC and comD11_CRF. 4. Persons with only E10.21/E11.21 but without other codes for comD10_DMC and also without other codes for comD11_CRF are classified as comD11_CRF. 401.1, persons with only I10 but without other codes for comD17_HTU..."
+          "label_en": "From ROC 96 (2007), the international disease classification in the NHI files was converted from ICD-9-CM to ICD-10-CM, so the ICD-9-CM codes of the comorbidities must be converted to ICD-10-CM according to the NHIA announcement. Where the mapping is uncertain, the following rules apply: Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230 1. Persons with comD10_DMC other codes and E10.21, E11.21 but without comD11_CRF other codes are classified to comD10_DMC. 2. Persons with comD11_CRF other codes but without comD10_DMC other codes are classified to comD11_CRF. 3-1. Persons with other codes of both comD10_DMC and comD11_CRF are classified according to the earliest recorded other code. 3-2. If the earliest recorded other codes cannot be ordered because the dates are identical, the person is regarded as having both comD10_DMC and 4. Persons with only E10.21, E11.21 and without comD10_DMC other codes, and also without comD11_CRF other codes, are classified to comD11_CRF. 401.1, Persons with only I10 and without comD17_HTU other"
         },
         {
           "code": "I10",
           "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生福利部中央健康保險署中2014年版_ICD-9-CM2001年版與ICD-10-CM/PCS對應檔(112.05.09更新)，網址： 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度範例： 檔案名稱(Filename) 檔案內容範例1 OPDTE11001_10_BREAST_11 使用癌症研究主檔 1979-2022 年版本，",
-          "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (PHAR_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (R_HOSP_ID) are encrypted. 2. This file's unique key is R_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (R_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is R_HOSP_ID."
+          "label_en": "comD17_HTU 401.9 other codes, and without comD18_HTC other codes 401.0 comD18_HTC, are classified to comD17_HTU. *\"+\" means that the codes before and after it appear together in a single outpatient or inpatient file record; the preceding code is the first diagnosis in the combination and the following code is the second diagnosis in the combination. For the explanation of the ordering, see the NHIA, MOHW, 2014 edition ICD-9-CM 2001 edition to ICD-10-CM/PCS mapping file (updated 9 May 2023 (ROC 112.05.09)), URL: Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230 IV. Examples of file name formats (1) Examples of file names for the linked NHI database and cancer registry data files. File names are arranged as: linked file name year (month)_cancer name_cancer registry annual report file year. Examples: File name (Filename) File content. Example 1 OPDTE11001_10_BREAST_11 Using the 1979-2022 version of the cancer research master file,"
         },
         {
           "code": "1",
@@ -917,7 +917,7 @@
         {
           "code": "1",
           "label_zh": "身分證字號 SICKID Char 24 留證號碼請填護照號碼），左靠不足補空白。 112年長度20 1：身分證；2：",
-          "label_en": "National Health Insurance ID SICKID, 24 characters, use passport number if no ID, left-align and pad with spaces for不足20位数。1: 身份证；2："
+          "label_en": "National ID number SICKID Char 24 residence certificate number, please enter the passport number), left-aligned and padded with blanks if shorter. ROC 112 (2023) length 20 1: ID card; 2:"
         },
         {
           "code": "2",
@@ -957,7 +957,7 @@
         {
           "code": "2",
           "label_zh": "乳攝車 CAR Char 1 0：否；1：是",
-          "label_en": "Breast Cancer Screening 0: No; 1: Yes"
+          "label_en": "Mammography vehicle CAR Char 1 0: No; 1: Yes"
         },
         {
           "code": "3",
@@ -967,12 +967,12 @@
         {
           "code": "4",
           "label_zh": "身高 Q_HIGH Char 17 112年長度18",
-          "label_en": "Height Q_HIGH Char 17 2011 Length 18"
+          "label_en": "Height Q_HIGH Char 17 ROC 112 (2023) length 18"
         },
         {
           "code": "5",
           "label_zh": "體重 Q_WEIGHT Char 35 112年長度10 0：無；1：乳房疾病史-有無得過下列疾良性相關疾",
-          "label_en": "Weight Q_WEIGHT Char 35 Weight length was 10 in 2024 0: none; 1: breast disease history - had or not had the following diseases benign related diseases"
+          "label_en": "Weight Q_WEIGHT Char 35 ROC 112 (2023) length 10 0: None; 1: History of breast disease - whether you have ever had the following benign-related diseases"
         },
         {
           "code": "6",
@@ -1127,7 +1127,7 @@
         {
           "code": "36",
           "label_zh": "身分證字號 SICKID Char 24 居留證號碼請填護照號碼）， 左靠不足補空白。 112年長度為20 經加密處理，為",
-          "label_en": "Identity card number SICKID Char 24 Residency permit number please fill in passport number)， left-aligned with spaces补足。2011年长度为20经加密处理，为"
+          "label_en": "National ID number SICKID Char 24 residence certificate number, please enter the passport number), left-aligned and padded with blanks if shorter. ROC 112 (2023) length is 20 Encrypted; is"
         },
         {
           "code": "37",
@@ -1197,7 +1197,7 @@
         {
           "code": "49",
           "label_zh": "Char 4 代碼 ITY 統計檔。 乳房攝影資料清理檔新增欄位經",
-          "label_en": "Code ITY Statistical File. Additional fields for mammography data cleaning added."
+          "label_en": "Char 4 Code ITY statistics file. New field in the mammography data cleaned file: processed"
         },
         {
           "code": "50",
@@ -1207,12 +1207,12 @@
         {
           "code": "51",
           "label_zh": "身高2 HIGHET2 Num 8 過整理的身高 (公分) 乳房攝影資料清理檔新增欄位體",
-          "label_en": "height2 Num 8 Cleaned height (cm) Mammography data cleaning file new field"
+          "label_en": "Height 2 HIGHET2 Num 8 Processed height (cm) New field in the mammography data cleaned file: body"
         },
         {
           "code": "52",
           "label_zh": "身體質量指數 BMI Num 8 重2(kg)/身高乳房攝影資料清理檔新增欄位 N:資料不符合保留條件 53. 資料保留 DATA_QC Char 1 Y:資料符合保留條件保留條件詳譯碼簿說明建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 乳癌篩檢-篩檢單位檔(H_BHP_BCS_UNIT) 序長中文欄位名稱英文欄位名稱型態資料描述號度",
-          "label_en": "Lower gingival cancer: the surgical resection pathology report's final diagnosis is microinvasion squamous cell carcinoma; the microscopic description of Depth of Invasion is 'not applicable'."
+          "label_en": "Body mass index BMI Num 8 weight 2 (kg) / height [squared] New field in the mammography data cleaned file N: data do not meet the retention criteria 53. Data retention DATA_QC Char 1 Y: data meet the retention criteria; for the retention criteria see the codebook. Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230 Breast cancer screening - screening unit file (H_BHP_BCS_UNIT) Sequence number, length, Chinese field name, English field name, type, data description"
         },
         {
           "code": "1",
@@ -2427,7 +2427,7 @@
         {
           "code": "3",
           "label_zh": "Moderate dense →Heterogeneously dense (106/5/1修改)",
-          "label_en": "Moderate dense → Heterogeneously dense (revised on May 10, 2016)"
+          "label_en": "Moderate dense → Heterogeneously dense (revised 1 May 2017 (ROC 106/5/1))"
         },
         {
           "code": "4",
@@ -2536,7 +2536,7 @@
         {
           "code": "1",
           "label_zh": "國民健康署",
-          "label_en": "Department of Health, Taiwan"
+          "label_en": "Health Promotion Administration"
         },
         {
           "code": "2",
@@ -2921,12 +2921,12 @@
         {
           "code": "0713",
           "label_zh": "高雄市田寮區 1201 新竹市東區",
-          "label_en": "kaohsiung city taliou district 1201 new竹 city dong district"
+          "label_en": "Kaohsiung City Tianliao District 1201 Hsinchu City East District"
         },
         {
           "code": "0714",
           "label_zh": "高雄市阿蓮區 1204 新竹市北區",
-          "label_en": "kaohsiung city aleian district 1204 new竹 city beixi district"
+          "label_en": "Kaohsiung City Alian District 1204 Hsinchu City North District"
         },
         {
           "code": "0715",
@@ -2956,27 +2956,27 @@
         {
           "code": "3103",
           "label_zh": "新北市永和區 3209 桃園市龍潭區",
-          "label_en": "New Taipei City Yonghe District 3209 Taichung City Longtan District"
+          "label_en": "New Taipei City Yonghe District 3209 Taoyuan City Longtan District"
         },
         {
           "code": "3104",
           "label_zh": "新北市中和區 3210 桃園市平鎮區",
-          "label_en": "New Taipei City Zhonghe District 3210 Taichung City Pingzhen District"
+          "label_en": "New Taipei City Zhonghe District 3210 Taoyuan City Pingzhen District"
         },
         {
           "code": "3105",
           "label_zh": "新北市新店區 3211 桃園市新屋區",
-          "label_en": "New Taipei City Xinjhuang District 3211 Taichung City Xinwu District"
+          "label_en": "New Taipei City Xindian District 3211 Taoyuan City Xinwu District"
         },
         {
           "code": "3106",
           "label_zh": "新北市新莊區 3212 桃園市觀音區",
-          "label_en": "New Taipei City Xinzhuang District 3212 Taichung City Guan Yin District"
+          "label_en": "New Taipei City Xinzhuang District 3212 Taoyuan City Guanyin District"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3213 桃園市復興區",
-          "label_en": "New Taipei City Shulin District 3213 Taichung City Fuxing District"
+          "label_en": "New Taipei City Shulin District 3213 Taoyuan City Fuxing District"
         },
         {
           "code": "3108",
@@ -3091,37 +3091,37 @@
         {
           "code": "3201",
           "label_zh": "桃園市桃園區 3410 宜蘭縣三星鄉",
-          "label_en": "taichung city taichung district 3410 yilan county sanyang township"
+          "label_en": "Taoyuan City Taoyuan District 3410 Yilan County Sanxing Township"
         },
         {
           "code": "3202",
           "label_zh": "桃園市中壢區 3411 宜蘭縣大同鄉",
-          "label_en": "taichung city zhongli district 3411 yilan county datong township"
+          "label_en": "Taoyuan City Zhongli District 3411 Yilan County Datong Township"
         },
         {
           "code": "3203",
           "label_zh": "桃園市大溪區 3412 宜蘭縣南澳鄉",
-          "label_en": "taichung city daxi district 3412 yilan county nanao township"
+          "label_en": "Taoyuan City Daxi District 3412 Yilan County Nan'ao Township"
         },
         {
           "code": "3204",
           "label_zh": "桃園市楊梅區 3501 苗栗縣苗栗市",
-          "label_en": "taichung city yangmei district 3501 taichung county miaoli city"
+          "label_en": "Taoyuan City Yangmei District 3501 Miaoli County Miaoli City"
         },
         {
           "code": "3205",
           "label_zh": "桃園市蘆竹區 3502 苗栗縣苑裡鎮",
-          "label_en": "taichung city lulu district 3502 taichung county yuanli town"
+          "label_en": "Taoyuan City Luzhu District 3502 Miaoli County Yuanli Township"
         },
         {
           "code": "3206",
           "label_zh": "桃園市大園區 3503 苗栗縣通霄鎮",
-          "label_en": "taichung city daguan district 3503 taichung county tongmiao town"
+          "label_en": "Taoyuan City Dayuan District 3503 Miaoli County Tongxiao Township"
         },
         {
           "code": "3207",
           "label_zh": "桃園市龜山區 3504 苗栗縣竹南鎮",
-          "label_en": "taichung city gushan district 3504 taichung county zhunan town"
+          "label_en": "Taoyuan City Guishan District 3504 Miaoli County Zhunan Township"
         },
         {
           "code": "3208",
@@ -3131,72 +3131,72 @@
         {
           "code": "3506",
           "label_zh": "苗栗縣後龍鎮 3723 彰化縣芳苑鄉",
-          "label_en": "Taichung County Houlong Town 3723 Changhua County Fangyuan Township"
+          "label_en": "Miaoli County Houlong Township 3723 Changhua County Fangyuan Township"
         },
         {
           "code": "3507",
           "label_zh": "苗栗縣卓蘭鎮 3724 彰化縣大城鄉",
-          "label_en": "Taichung County Zhuolan Town 3724 Changhua County Dacheng Township"
+          "label_en": "Miaoli County Zhuolan Township 3724 Changhua County Dacheng Township"
         },
         {
           "code": "3508",
           "label_zh": "苗栗縣大湖鄉 3725 彰化縣竹塘鄉",
-          "label_en": "Taichung County Dahu Town 3725 Changhua County Zhutang Township"
+          "label_en": "Miaoli County Dahu Township 3725 Changhua County Zhutang Township"
         },
         {
           "code": "3509",
           "label_zh": "苗栗縣公館鄉 3726 彰化縣溪州鄉",
-          "label_en": "Taichung County Gongguan Township 3726 Changhua County Xiji Township"
+          "label_en": "Miaoli County Gongguan Township 3726 Changhua County Xizhou Township"
         },
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3727 彰化縣彰化市東區",
-          "label_en": "Taichung County Tonglu Township 3727 Hsinchu County Hsinchu City Dong District"
+          "label_en": "Miaoli County Tongluo Township 3727 Changhua County Changhua City East District"
         },
         {
           "code": "3511",
           "label_zh": "苗栗縣南庄鄉 3801 南投縣南投市",
-          "label_en": "Taichung County Nanzhuang Town 3801 Nantou County Nantou City"
+          "label_en": "Miaoli County Nanzhuang Township 3801 Nantou County Nantou City"
         },
         {
           "code": "3512",
           "label_zh": "苗栗縣頭屋鄉 3802 南投縣埔里鎮",
-          "label_en": "Taichung County Touwu Township 3802 Nantou County Puli Town"
+          "label_en": "Miaoli County Touwu Township 3802 Nantou County Puli Township"
         },
         {
           "code": "3513",
           "label_zh": "苗栗縣三義鄉 3803 南投縣草屯鎮",
-          "label_en": "Taichung County Sansi Township 3803 Nantou County Caotun Town"
+          "label_en": "Miaoli County Sanyi Township 3803 Nantou County Caotun Township"
         },
         {
           "code": "3514",
           "label_zh": "苗栗縣西湖鄉 3804 南投縣竹山鎮",
-          "label_en": "Taichung County Xihu Town 3804 Nantou County Zhushan Town"
+          "label_en": "Miaoli County Xihu Township 3804 Nantou County Zhushan Township"
         },
         {
           "code": "3515",
           "label_zh": "苗栗縣造橋鄉 3805 南投縣集集鎮",
-          "label_en": "Taichung County Caoqiao Township 3805 Nantou County Jiji Town"
+          "label_en": "Miaoli County Zaoqiao Township 3805 Nantou County Jiji Township"
         },
         {
           "code": "3516",
           "label_zh": "苗栗縣三灣鄉 3806 南投縣名間鄉",
-          "label_en": "Taichung County Sanwan Township 3806 Nantou County Nanjin Township"
+          "label_en": "Miaoli County Sanwan Township 3806 Nantou County Mingjian Township"
         },
         {
           "code": "3517",
           "label_zh": "苗栗縣獅潭鄉 3807 南投縣鹿谷鄉",
-          "label_en": "Taichung County Shitan Town 3807 Nantou County Lugu Township"
+          "label_en": "Miaoli County Shitan Township 3807 Nantou County Lugu Township"
         },
         {
           "code": "3518",
           "label_zh": "苗栗縣泰安鄉 3808 南投縣中寮鄉",
-          "label_en": "Taichung County Taian Town 3808 Nantou County Zhuliao Township"
+          "label_en": "Miaoli County Tai'an Township 3808 Nantou County Zhongliao Township"
         },
         {
           "code": "3701",
           "label_zh": "彰化縣彰化市 3809 南投縣魚池鄉",
-          "label_en": "Chiayi County Chiayi City 3809 Nantou County Yuchi Township"
+          "label_en": "Changhua County Changhua City 3809 Nantou County Yuchi Township"
         },
         {
           "code": "3702",
@@ -3206,32 +3206,32 @@
         {
           "code": "3703",
           "label_zh": "彰化縣和美鎮 3811 南投縣水里鄉",
-          "label_en": "彰化縣和美鎮 3811 南投縣水里鄉"
+          "label_en": "Changhua County Hemei Township 3811 Nantou County Shuili Township"
         },
         {
           "code": "3704",
           "label_zh": "彰化縣北斗鎮 3812 南投縣信義鄉",
-          "label_en": "彰化縣北斗鎮 3812 南投縣信義鄉"
+          "label_en": "Changhua County Beidou Township 3812 Nantou County Xinyi Township"
         },
         {
           "code": "3705",
           "label_zh": "彰化縣員林鎮 3813 南投縣仁愛鄉",
-          "label_en": "Chiayi County Yulin Town 3813 Nantou County Ren'ai Township"
+          "label_en": "Changhua County Yuanlin City 3813 Nantou County Ren'ai Township"
         },
         {
           "code": "3706",
           "label_zh": "彰化縣溪湖鎮 3901 雲林縣斗六市",
-          "label_en": "Chiayi County Hsiahu Town 3901 Yunlin County Duitzu City"
+          "label_en": "Changhua County Xihu Township 3901 Yunlin County Douliu City"
         },
         {
           "code": "3707",
           "label_zh": "彰化縣田中鎮 3902 雲林縣斗南鎮",
-          "label_en": "Chiayi County Tien Town 3902 Yunlin County Dountau Town"
+          "label_en": "Changhua County Tianzhong Township 3902 Yunlin County Dounan Township"
         },
         {
           "code": "3708",
           "label_zh": "彰化縣二林鎮 3903 雲林縣虎尾鎮",
-          "label_en": "彰化縣二林鎮 3903 雲林縣虎尾鎮"
+          "label_en": "Changhua County Erlin Township 3903 Yunlin County Huwei Township"
         },
         {
           "code": "3709",
@@ -3241,62 +3241,62 @@
         {
           "code": "3710",
           "label_zh": "彰化縣伸港鄉 3905 雲林縣土庫鎮",
-          "label_en": "彰化縣伸港鄉 3905 雲林縣土庫鎮"
+          "label_en": "Changhua County Shengang Township 3905 Yunlin County Tuku Township"
         },
         {
           "code": "3711",
           "label_zh": "彰化縣福興鄉 3906 雲林縣北港鎮",
-          "label_en": "Chiayi County Fuxing Township 3906 Yunlin County Beigang Town"
+          "label_en": "Changhua County Fuxing Township 3906 Yunlin County Beigang Township"
         },
         {
           "code": "3712",
           "label_zh": "彰化縣秀水鄉 3907 雲林縣古坑鄉",
-          "label_en": "Chiayi County Xiushui Township 3907 Yunlin County Gukeng Township"
+          "label_en": "Changhua County Xiushui Township 3907 Yunlin County Gukeng Township"
         },
         {
           "code": "3713",
           "label_zh": "彰化縣花壇鄉 3908 雲林縣大埤鄉",
-          "label_en": "Changhua County Huatian Township 3908 Yilan County Dapei Township"
+          "label_en": "Changhua County Huatan Township 3908 Yunlin County Dapi Township"
         },
         {
           "code": "3714",
           "label_zh": "彰化縣芬園鄉 3909 雲林縣莿桐鄉",
-          "label_en": "Changhua County Fenyuan Township 3909"
+          "label_en": "Changhua County Fenyuan Township 3909 Yunlin County Citong Township"
         },
         {
           "code": "3715",
           "label_zh": "彰化縣大村鄉 3910 雲林縣林內鄉",
-          "label_en": "Chiayi County Da Village Township 3910 Yunlin County Linne Township"
+          "label_en": "Changhua County Dacun Township 3910 Yunlin County Linnei Township"
         },
         {
           "code": "3716",
           "label_zh": "彰化縣埔鹽鄉 3911 雲林縣二崙鄉",
-          "label_en": "Chiayi County Pu-Yan Township 3911 Yunlin County Erren Township"
+          "label_en": "Changhua County Puyan Township 3911 Yunlin County Erlun Township"
         },
         {
           "code": "3717",
           "label_zh": "彰化縣埔心鄉 3912 雲林縣崙背鄉",
-          "label_en": "Chiayi County Puxin Township 3912 Yunlin County Longbe Township"
+          "label_en": "Changhua County Puxin Township 3912 Yunlin County Lunbei Township"
         },
         {
           "code": "3718",
           "label_zh": "彰化縣永靖鄉 3913 雲林縣麥寮鄉",
-          "label_en": "Chiayi County Yongjing Township 3913 Yunlin County Maoliu Township"
+          "label_en": "Changhua County Yongjing Township 3913 Yunlin County Mailiao Township"
         },
         {
           "code": "3719",
           "label_zh": "彰化縣社頭鄉 3914 雲林縣東勢鄉",
-          "label_en": "Chiayi County Shoutou Township 3914 Yunlin County Dongshi Township"
+          "label_en": "Changhua County Shetou Township 3914 Yunlin County Dongshi Township"
         },
         {
           "code": "3720",
           "label_zh": "彰化縣二水鄉 3915 雲林縣褒忠鄉",
-          "label_en": "彰化縣二水鄉 3915 雲林縣褒忠鄉"
+          "label_en": "Changhua County Ershui Township 3915 Yunlin County Baozhong Township"
         },
         {
           "code": "3721",
           "label_zh": "彰化縣田尾鄉 3916 雲林縣台西鄉",
-          "label_en": "Chiayi County Tiaowei Township 3916 Yunlin County Taixi Township"
+          "label_en": "Changhua County Tianwei Township 3916 Yunlin County Taixi Township"
         },
         {
           "code": "3722",
@@ -3401,42 +3401,42 @@
         {
           "code": "4017",
           "label_zh": "嘉義縣大埔鄉 4401 澎湖縣馬公市1",
-          "label_en": "Chiayi County Dapu Township 4401, Hualien County Magong City 1"
+          "label_en": "Chiayi County Dapu Township 4401 Penghu County Magong City 1"
         },
         {
           "code": "4018",
           "label_zh": "嘉義縣阿里山鄉 4402 澎湖縣湖西鄉",
-          "label_en": "Chiayi County Alishan Township 4402, Hualien County Huaxi Township"
+          "label_en": "Chiayi County Alishan Township 4402 Penghu County Huxi Township"
         },
         {
           "code": "4301",
           "label_zh": "屏東縣屏東市 4403 澎湖縣白沙鄉",
-          "label_en": "屏東縣屏東市 4403 澎湖縣白沙鄉"
+          "label_en": "Pingtung County Pingtung City 4403 Penghu County Baisha Township"
         },
         {
           "code": "4302",
           "label_zh": "屏東縣潮州鎮 4404 澎湖縣西嶼鄉",
-          "label_en": "屏東縣潮州鎮 4404 澱湖縣西嶼鄉"
+          "label_en": "Pingtung County Chaozhou Township 4404 Penghu County Xiyu Township"
         },
         {
           "code": "4303",
           "label_zh": "屏東縣東港鎮 4405 澎湖縣望安鄉",
-          "label_en": "屏東縣東港鎮 4405 澱湖縣望安鄉"
+          "label_en": "Pingtung County Donggang Township 4405 Penghu County Wang'an Township"
         },
         {
           "code": "4304",
           "label_zh": "屏東縣恆春鎮 4406 澎湖縣七美鄉",
-          "label_en": "屏東縣恆春鎮 4406 澄海縣七美鄉"
+          "label_en": "Pingtung County Hengchun Township 4406 Penghu County Qimei Township"
         },
         {
           "code": "4305",
           "label_zh": "屏東縣萬丹鄉 4407 澎湖縣馬公市2",
-          "label_en": "Pingtung County Wandan Township 4407 Hualien County Magong City2"
+          "label_en": "Pingtung County Wandan Township 4407 Penghu County Magong City 2"
         },
         {
           "code": "4306",
           "label_zh": "屏東縣長治鄉 4408 澎湖縣馬公市3",
-          "label_en": "Pingtung County Changzhi Township 4408 Hualien County Magong City3"
+          "label_en": "Pingtung County Changzhi Township 4408 Penghu County Magong City 3"
         },
         {
           "code": "4307",
@@ -3456,17 +3456,17 @@
         {
           "code": "4310",
           "label_zh": "屏東縣鹽埔鄉 4501 花蓮縣花蓮市",
-          "label_en": "屏東縣鹽埔鄉 4501 花蓮縣花蓮市"
+          "label_en": "Pingtung County Yanpu Township 4501 Hualien County Hualien City"
         },
         {
           "code": "4311",
           "label_zh": "屏東縣高樹鄉 4502 花蓮縣鳳林鎮",
-          "label_en": "屏東縣高樹鄉 4502 花蓮縣鳳林鎮"
+          "label_en": "Pingtung County Gaoshu Township 4502 Hualien County Fenglin Township"
         },
         {
           "code": "4312",
           "label_zh": "屏東縣萬巒鄉 4503 花蓮縣玉里鎮",
-          "label_en": "屏東縣萬巒鄉 4503 花蓮縣玉里鎮"
+          "label_en": "Pingtung County Wanluan Township 4503 Hualien County Yuli Township"
         },
         {
           "code": "4313",
@@ -3476,7 +3476,7 @@
         {
           "code": "4314",
           "label_zh": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱",
-          "label_en": "屏東縣竹田鄉 4505 花蓮縣吉安鄉 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 鄉鎮市區代碼 鄉鎮市區名稱"
+          "label_en": "Pingtung County Zhutian Township 4505 Hualien County Ji'an Township Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230 Township/District Code Township/District Name"
         },
         {
           "code": "4506",
@@ -3601,32 +3601,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "golden gate county jincheng town"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "golden gate county jinsha town"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "golden gate county jinning township"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "golden gate county lieliu township"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "golden gate county jinhua town"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9007",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "golden gate county wuku township"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -3641,7 +3641,7 @@
         {
           "code": "9103",
           "label_zh": "連江縣莒光鄉1",
-          "label_en": "Jiuguang Township, Kinmen County 1"
+          "label_en": "Lienchiang County Juguang Township 1"
         },
         {
           "code": "9104",
@@ -3651,7 +3651,7 @@
         {
           "code": "9105",
           "label_zh": "連江縣莒光鄉2 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230",
-          "label_en": "New Health Data Subject Database and Integration Analysis - Establish Cancer Precision Medicine Subject Database (I) Version Date: 20251230"
+          "label_en": "Lienchiang County Juguang Township 2 Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230"
         }
       ],
       "grid": {
@@ -5029,7 +5029,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-12-30",
   "name_zh_from_listing": "Health83_乳癌主題式資料庫",
-  "data_description_en": "Breast cancer theme database includes all information from the 15 data files combined including the breast cancer registration file (including Long Form LF, Short Form SF and TCDB), NHI claims file, death cause statistics merged file, and breast cancer screening-cleaning file for the years 1979-2022.\nDefinition of breast cancer cases:\nBreast cancer cases are defined as those recorded in the cancer registration annual report files (H_BHP_CRSSC) from 1979 to 2022.",
+  "data_description_en": "Breast cancer theme database includes all information from the 15 data files\ncombined including the breast cancer registration file (including Long Form\nLF, Short Form SF and TCDB), NHI claims file, death cause statistics merged\nfile, and breast cancer screening-cleaning file for the years 1979-2022.\nDefinition of breast cancer cases:\nBreast cancer cases are defined as those recorded in the cancer registration annual report files (H_BHP_CRSSC) from 1979 to 2022.",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "Breast cancer theme database",

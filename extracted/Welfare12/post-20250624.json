@@ -66,7 +66,7 @@
         }
       ],
       "name_zh_en": "reporting unit",
-      "description_en": "See explanation for reporting unit (INFOUNIT) coding notes: Note: No data starting from 2018."
+      "description_en": "See the field reporting unit\n(INFOUNIT) code explanation\nNote: no data from ROC 108 (2019)"
     },
     {
       "seq": 4,
@@ -113,7 +113,7 @@
         }
       ],
       "name_zh_en": "victim's ID number",
-      "description_en": "Encrypted; lengths vary by year: 2002 (58), 2003-2006, 2010-2011 (72), 2004 (74), 2005, 2009, 2011 (48), 2008, 2013 (60), 2010-2012 (52)"
+      "description_en": "Encrypted\nROC 101 (2012): length 58\nROC 102 (2013): length 54\nROC 103, 106-107 (2014, 2017-2018): length 72\nROC 104 (2015): length 74\nROC 105, 109, 114 (2016, 2020, 2025): length 48; ROC 108, 113 (2019, 2024): length 60\nROC 110-112 (2021-2023): length 52"
     },
     {
       "seq": 5,
@@ -152,7 +152,7 @@
         }
       ],
       "name_zh_en": "victim's current nationality",
-      "description_en": "See explanation for field current nationality type (VIDTYPE, DIDTYPE) coding description. Note: Updated translation manual since 2018."
+      "description_en": "See the field current nationality type\n(VIDTYPE, DIDTYPE) code explanation\nNote: codebook updated from ROC 108 (2019)"
     },
     {
       "seq": 8,
@@ -169,7 +169,7 @@
         }
       ],
       "name_zh_en": "victim_education_level",
-      "description_en": "See field education level (VEDUCATION, DEDUCTION) coding explanation: Note updated since 108"
+      "description_en": "See the field education level\n(VEDUCATION,\nDEDUCATION) code explanation. Note: codebook updated from ROC 108 (2019)"
     },
     {
       "seq": 9,
@@ -323,7 +323,7 @@
         }
       ],
       "name_zh_en": "relative current nationality",
-      "description_en": "See explanation for field current nationality type (VIDTYPE, DIDTYPE) coding description. Note: Updated translation manual since 2018."
+      "description_en": "See the field current nationality type\n(VIDTYPE, DIDTYPE) code explanation\nNote: codebook updated from ROC 108 (2019)"
     },
     {
       "seq": 15,
@@ -340,7 +340,7 @@
         }
       ],
       "name_zh_en": "Relative's Education Level",
-      "description_en": "See field education level (VEDUCATION, DEDUCTION) coding explanation: Note updated since 108"
+      "description_en": "See the field education level\n(VEDUCATION, DEDUCATION) code explanation\nNote: codebook updated from ROC 108 (2019)"
     },
     {
       "seq": 16,
@@ -421,7 +421,7 @@
         }
       ],
       "name_zh_en": "assisted matters",
-      "description_en": "Details of HELPACTION code (multiple choices) Note: No data from 2018 onwards, length was 6 for 2013 and 2016"
+      "description_en": "See the field assistance already provided\n(HELPACTION) code explanation (multiple selections allowed)\nNote: no data from ROC 108 (2019)\nROC 103, 106 (2014, 2017): length 6"
     },
     {
       "seq": 20,
@@ -448,7 +448,7 @@
         }
       ],
       "name_zh_en": "subsequent matters requiring assistance for the victim",
-      "description_en": "See follow-up actions for victim assistance (FOLLOWACTION) translation notes (multiple choices). Note: No data from 2018 onwards. Length was 11 from 2008 to 2016, and 10 in 2017."
+      "description_en": "See the field follow-up assistance needed by the victim (FOLLOWACTION) code explanation (multiple selections allowed)\nNote: no data from ROC 108 (2019)\nROC 103-106 (2014-2017): length 11\nROC 107 (2018): length 10"
     },
     {
       "seq": 21,
@@ -470,7 +470,7 @@
       "description_zh": "西元年YYYY",
       "available_notes": [],
       "name_zh_en": "reception time-year",
-      "description_en": "year_of_the_gregorian_calendar"
+      "description_en": "Gregorian year YYYY"
     },
     {
       "seq": 23,
@@ -514,7 +514,7 @@
       "description_zh": "1:男 2:女 9:不詳",
       "available_notes": [],
       "name_zh_en": "victim's identity card number sex determined by reading",
-      "description_en": "1:male"
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 27,
@@ -536,7 +536,7 @@
       "description_zh": "1:男 2:女 9:不詳",
       "available_notes": [],
       "name_zh_en": "relative person ID card number gender determined from ID",
-      "description_en": "1:male"
+      "description_en": "1: Male 2: Female 9: Unknown"
     },
     {
       "seq": 29,
@@ -1140,7 +1140,7 @@
         {
           "code": "Q",
           "label_zh": "曾有－四親等內旁系血親（如：舅/姨甥、伯/叔/姑姪、堂/表兄弟姊妹） 曾有－四親等內旁系姻親（如：舅媽、姨丈、伯母、堂/表弟媳（妹婿）、堂/表姊夫 （嫂）） b 曾有－親密關係之未同居伴侶 S、Z 曾有－其他適用於108年起代碼說明 9不詳",
-          "label_en": "History of - Consanguineous collateral relatives within four generations (such as cousins, nieces/nephews, etc.), History of - Affinal collateral relatives within four generations (such as aunt's son/daughter-in-law, uncle's daughter/son-in-law, etc.), b History of - Intimate partners not cohabiting S, Z History of - Other applicable from 2018 Code Explanation"
+          "label_en": "Ever had - collateral blood relatives within the fourth degree (e.g. maternal uncle/aunt and nephew/niece, paternal uncle/aunt and nephew/niece, paternal/maternal cousins) Ever had - collateral relatives by marriage within the fourth degree (e.g. maternal uncle's wife, maternal aunt's husband, paternal uncle's wife, wife of a younger male cousin (husband of a younger female cousin), husband of an older female cousin (wife of an older male cousin)) b Ever had - intimate partner not cohabiting S, Z Ever had - other. Code explanation applicable from ROC 108 (2019) 9 Unknown"
         },
         {
           "code": "A",

@@ -85,7 +85,7 @@
         }
       ],
       "name_zh_en": "county",
-      "description_en": "The location of the medical institution, detailed county/city town/village code explanation: Prior to 1998, please provide the county/city town/village code (City-1998 and earlier); from 1999 to 2003, refer to the county/city code (City-1999 onwards); starting in 2004, refer to the county/city code (City-2004 onwards)."
+      "description_en": "County/city/township/district where the medical institution is located; see the county/city/township code description\nFor ROC 98 (2009) and earlier, see the county/city/township codes (City - ROC 98 and earlier); for ROC 99-103 (2010-2014), refer to the county/city codes (City - from ROC 99); for ROC 104 (2015) onward, refer to the county/city codes (City - from ROC 104)."
     },
     {
       "seq": 4,
@@ -124,7 +124,7 @@
         }
       ],
       "name_zh_en": "evaluation grade (2)",
-      "description_en": "second-level assessment grade, detailed in column assessment grade code explanation added in 1998"
+      "description_en": "Second accreditation level; see the accreditation level code description for the field. Added in ROC 98 (2009)"
     },
     {
       "seq": 7,
@@ -141,7 +141,7 @@
         }
       ],
       "name_zh_en": "new occupational evaluation",
-      "description_en": "Detailed code explanation added in 2016; no data in 2019"
+      "description_en": "See the field code description for accreditation level\nAdded in ROC 106 (2017); no data in ROC 109 (2020)"
     },
     {
       "seq": 8,
@@ -163,7 +163,7 @@
         }
       ],
       "name_zh_en": "emergency medical capability classification",
-      "description_en": "Emergency medical capability grading, detailed in field code explanation. Added in 2013 with no data; removed in 2017."
+      "description_en": "Emergency care capability grading; see the field code description.\nAdded in ROC 102 (2013), no data; deleted in ROC 106 (2017)."
     },
     {
       "seq": 9,
@@ -214,7 +214,7 @@
         }
       ],
       "name_zh_en": "approved bed numbers-psychiatric acute general beds",
-      "description_en": "Number of licensed psychiatric general beds for acute care at each medical institution (added in 2010)"
+      "description_en": "Number of licensed beds at each medical institution - psychiatric acute general beds, added in ROC 106 (2017)"
     },
     {
       "seq": 12,
@@ -248,7 +248,7 @@
         }
       ],
       "name_zh_en": "approved bed numbers-psychiatric chronic general beds",
-      "description_en": "Number of licensed psychiatric general beds for chronic care at each medical institution (added in 2010)"
+      "description_en": "Number of licensed beds at each medical institution - psychiatric chronic general beds, added in ROC 106 (2017)"
     },
     {
       "seq": 14,
@@ -282,7 +282,7 @@
         }
       ],
       "name_zh_en": "allowed_inpatient_beds-tuberculosis_bed",
-      "description_en": "number of licensed beds for leprosy patients at various medical institutions added in 2016"
+      "description_en": "Number of licensed beds at each medical institution - Hansen's disease (leprosy) beds\nAdded in ROC 106 (2017)"
     },
     {
       "seq": 16,
@@ -316,7 +316,7 @@
         }
       ],
       "name_zh_en": "approved bed numbers-acute后期 care beds",
-      "description_en": "Number of licensed beds for acute post-acute care at each medical institution (added in 2010)"
+      "description_en": "Number of licensed beds at each medical institution - post-acute care beds, added in ROC 106 (2017)"
     },
     {
       "seq": 18,
@@ -416,7 +416,7 @@
         }
       ],
       "name_zh_en": "open-beds-count-for-tb-bed",
-      "description_en": "inpatient beds available at each medical institution - leprosy beds named before 1997 as syphilis beds"
+      "description_en": "Number of open beds at each medical institution - Hansen's disease (leprosy) beds\nCalled leprosy beds before ROC 97 (2008)"
     },
     {
       "seq": 26,
@@ -433,7 +433,7 @@
         }
       ],
       "name_zh_en": "open bed count - international medical beds",
-      "description_en": "number of open beds for international medical services at various medical institutions added in 2000"
+      "description_en": "Number of open beds at each medical institution - international medical care beds\nAdded in ROC 99 (2010)"
     },
     {
       "seq": 27,
@@ -472,7 +472,7 @@
         }
       ],
       "name_zh_en": "available bed count - burn intensive care bed",
-      "description_en": "number of open beds in each healthcare facility - burn intensive care beds added in 2003"
+      "description_en": "Number of open beds at each medical institution - burn intensive care beds\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 30,
@@ -522,7 +522,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds安宁病床",
-      "description_en": "number of beds available in medical institutions - palliative care beds added in 1989"
+      "description_en": "Number of open beds at each medical institution - hospice beds\nAdded in ROC 89 (2000)"
     },
     {
       "seq": 34,
@@ -566,7 +566,7 @@
         }
       ],
       "name_zh_en": "number of open beds for sub-acute respiratory care beds",
-      "description_en": "number of inpatient beds - subacute respiratory care beds added in 1997, referred to as respiratory care center from 1997 to 2001"
+      "description_en": "Number of open beds at each medical institution - subacute respiratory care beds, added in ROC 97 (2008), called respiratory care center in ROC 97-101 (2008-2012)"
     },
     {
       "seq": 36,
@@ -588,7 +588,7 @@
         }
       ],
       "name_zh_en": "open bed count - acute tuberculosis ward",
-      "description_en": "Number of open beds for acute tuberculosis patients Added in 2002; not present in 2005"
+      "description_en": "Number of open beds at each medical institution - acute tuberculosis beds\nAdded in ROC 92 (2003); deleted in ROC 104 (2015)"
     },
     {
       "seq": 37,
@@ -605,7 +605,7 @@
         }
       ],
       "name_zh_en": "available bed count - general isolation bed",
-      "description_en": "number of open beds in each healthcare facility - general isolation beds added in 2003"
+      "description_en": "Number of open beds at each medical institution - general isolation beds\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 38,
@@ -622,7 +622,7 @@
         }
       ],
       "name_zh_en": "available bed count - positive pressure isolation bed",
-      "description_en": "number of open beds in each healthcare facility - positive pressure isolation beds added in 2003"
+      "description_en": "Number of open beds at each medical institution - positive pressure isolation beds\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 39,
@@ -639,7 +639,7 @@
         }
       ],
       "name_zh_en": "available bed count - negative pressure isolation bed",
-      "description_en": "number of open inpatient beds - negative pressure isolation beds, added in 2003"
+      "description_en": "Number of open beds at each medical institution - negative pressure isolation beds\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 40,
@@ -656,7 +656,7 @@
         }
       ],
       "name_zh_en": "available bed count - bone marrow transplant bed",
-      "description_en": "number of open inpatient beds - bone marrow transplant bed, added in 2003"
+      "description_en": "Number of open beds at each medical institution - bone marrow transplant beds\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 41,
@@ -673,7 +673,7 @@
         }
       ],
       "name_zh_en": "open bed count - sexual assault offender mandatory treatment beds for victims",
-      "description_en": "Number of beds available at each medical institution - mandatory treatment beds for sexual assault offenders (added in 2004)"
+      "description_en": "Number of open beds at each medical institution - beds for compulsory treatment of sexual assault offenders\nAdded in ROC 102 (2013)"
     },
     {
       "seq": 42,
@@ -690,7 +690,7 @@
         }
       ],
       "name_zh_en": "available bed numbers-acute后期 care beds",
-      "description_en": "Number of open beds for acute post-acute care at each medical institution (added in 2006)"
+      "description_en": "Number of open beds at each medical institution - post-acute care beds, added in ROC 105 (2016)"
     },
     {
       "seq": 43,
@@ -758,7 +758,7 @@
         }
       ],
       "name_zh_en": "Mental Health Intensive Carebeds",
-      "description_en": "number of open beds in each healthcare facility - psychiatric intensive care beds added in 2014"
+      "description_en": "Number of open beds at each medical institution - psychiatric intensive care beds\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 47,
@@ -808,7 +808,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds-for_peritoneal_dialysis_bed",
-      "description_en": "Number of open beds for peritoneal dialysis Added in 2000; not present in 2006"
+      "description_en": "Number of open beds at each medical institution - peritoneal dialysis beds\nAdded in ROC 100 (2011); this field does not exist in ROC 101 (2012)"
     },
     {
       "seq": 51,
@@ -825,7 +825,7 @@
         }
       ],
       "name_zh_en": "number of open obstetric beds",
-      "description_en": "number of beds available in medical institutions - obstetric beds added in 2005"
+      "description_en": "Number of open beds at each medical institution - obstetric beds\nAdded in ROC 95 (2006)"
     },
     {
       "seq": 52,
@@ -858,7 +858,7 @@
         }
       ],
       "name_zh_en": "daytime care recipients",
-      "description_en": "number of daytime caregivers at each medical institution: not available in 1990, deleted in 2022"
+      "description_en": "Number of day care patients at each medical institution\nThis field does not exist for ROC 90 (2001); deleted in ROC 111 (2022)"
     },
     {
       "seq": 54,
@@ -914,7 +914,7 @@
         }
       ],
       "name_zh_en": "outpatient treatment room",
-      "description_en": "Number of outpatient treatment rooms at each medical institution Field name in Chinese was 'outpatient consultation room' before 2003"
+      "description_en": "Number of outpatient treatment rooms at each medical institution\nBefore ROC 102 (2013), the Chinese field name was outpatient consulting rooms"
     },
     {
       "seq": 58,
@@ -931,7 +931,7 @@
         }
       ],
       "name_zh_en": "dental treatment station",
-      "description_en": "Number of dental treatment stations at medical institutions before 2005 Chinese field name was Dental Treatment Station"
+      "description_en": "Number of dental treatment chairs at each medical institution\nBefore ROC 104 (2015), the Chinese field name was dental treatment units"
     },
     {
       "seq": 59,
@@ -976,7 +976,7 @@
         }
       ],
       "name_zh_en": "Spanish physician",
-      "description_en": "physician at each medical institution: Chinese field name was doctor before 2004"
+      "description_en": "Practicing physicians (Western medicine) at each medical institution\nBefore ROC 104 (2015), the Chinese field name was physicians"
     },
     {
       "seq": 62,
@@ -1070,7 +1070,7 @@
         }
       ],
       "name_zh_en": "medical radiographer",
-      "description_en": "medical radiation technologist practitioners added in 1997"
+      "description_en": "Practicing assistant radiologic technologists at each medical institution\nAdded in ROC 89 (2000)"
     },
     {
       "seq": 70,
@@ -1109,7 +1109,7 @@
         }
       ],
       "name_zh_en": "matron",
-      "description_en": "midwifery practitioners at various medical institutions added in 1999"
+      "description_en": "Practicing midwives (registered midwives) at each medical institution\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 73,
@@ -1187,7 +1187,7 @@
         }
       ],
       "name_zh_en": "occupational therapist",
-      "description_en": "occupational therapist practitioners added in 1997"
+      "description_en": "Practicing occupational therapists at each medical institution\nAdded in ROC 87 (1998)"
     },
     {
       "seq": 79,
@@ -1204,7 +1204,7 @@
         }
       ],
       "name_zh_en": "occupational therapy student",
-      "description_en": "occupational therapy student practitioners added in 1997"
+      "description_en": "Practicing occupational therapy assistants at each medical institution, added in ROC 87 (1998)"
     },
     {
       "seq": 80,
@@ -1221,7 +1221,7 @@
         }
       ],
       "name_zh_en": "clinical psychologist",
-      "description_en": "clinical psychologist practitioners added in 1995"
+      "description_en": "Practicing clinical psychologists at each medical institution\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 81,
@@ -1238,7 +1238,7 @@
         }
       ],
       "name_zh_en": "counseling psychologist",
-      "description_en": "counseling psychologist practitioners added in 1995"
+      "description_en": "Practicing counseling psychologists at each medical institution\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 82,
@@ -1255,7 +1255,7 @@
         }
       ],
       "name_zh_en": "respiratory therapist",
-      "description_en": "New practice of respiratory therapists in various medical institutions 1994"
+      "description_en": "Practicing respiratory therapists at each medical institution\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 83,
@@ -1272,7 +1272,7 @@
         }
       ],
       "name_zh_en": "speech therapist",
-      "description_en": "speech therapist practitioners added in 1998"
+      "description_en": "Practicing speech-language therapists at each medical institution\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 84,
@@ -1289,7 +1289,7 @@
         }
       ],
       "name_zh_en": "audiologist",
-      "description_en": "audiology practitioners at various medical institutions added in 1996"
+      "description_en": "Practicing audiologists at each medical institution\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 85,
@@ -1306,7 +1306,7 @@
         }
       ],
       "name_zh_en": "dentist technician",
-      "description_en": "dentist practitioners added in 1998"
+      "description_en": "Practicing dental technicians at each medical institution\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 86,
@@ -1323,7 +1323,7 @@
         }
       ],
       "name_zh_en": "dentist technologist",
-      "description_en": "dental technologist practitioners added in 1998"
+      "description_en": "Practicing assistant dental technicians at each medical institution\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 87,
@@ -1391,7 +1391,7 @@
         }
       ],
       "name_zh_en": "social worker",
-      "description_en": "Social workers at each medical institution (psychiatric social workers) deleted in 1998"
+      "description_en": "Social workers at each medical institution (psychiatric social workers)\nDeleted in ROC 98 (2009)"
     },
     {
       "seq": 91,
@@ -1408,7 +1408,7 @@
         }
       ],
       "name_zh_en": "clinical social worker",
-      "description_en": "clinician social worker at each medical institution in 1998"
+      "description_en": "Clinical social workers at each medical institution\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 92,
@@ -1441,7 +1441,7 @@
         }
       ],
       "name_zh_en": "occupational_therapy_staff_count",
-      "description_en": "occupational therapy personnel at various medical institutions added in 1983, removed in 1987"
+      "description_en": "Occupational therapy personnel at each medical institution\nAdded in ROC 83 (1994); deleted in ROC 87 (1998)"
     },
     {
       "seq": 94,
@@ -1469,7 +1469,7 @@
         }
       ],
       "name_zh_en": "manual worker",
-      "description_en": "newly added medical staff, technicians, and drivers in each healthcare institution 1990"
+      "description_en": "Technicians, workers and drivers at each medical institution\nAdded in ROC 90 (2001)"
     },
     {
       "seq": 96,
@@ -1706,7 +1706,7 @@
         }
       ],
       "name_zh_en": "emergency medicine",
-      "description_en": "whether each medical institution has emergency medicine department: 0=no, 1=yes, added in 1986"
+      "description_en": "Whether each medical institution has an emergency medicine department, 0: No, 1: Yes; added in ROC 87 (1998)"
     },
     {
       "seq": 117,
@@ -1734,7 +1734,7 @@
         }
       ],
       "name_zh_en": "occupational medicine",
-      "description_en": "Whether each medical institution has an occupational medicine department, 0: none, 1: present (added in 1992)"
+      "description_en": "Whether each medical institution has an occupational medicine department, 0: No, 1: Yes; added in ROC 92 (2003)"
     },
     {
       "seq": 119,
@@ -1795,7 +1795,7 @@
         }
       ],
       "name_zh_en": "oral pathology",
-      "description_en": "whether each medical institution has oral pathology department: 0=no, 1=yes, added in 1987"
+      "description_en": "Whether each medical institution has an oral pathology department, 0: No, 1: Yes; added in ROC 94 (2005)"
     },
     {
       "seq": 123,
@@ -1829,7 +1829,7 @@
         }
       ],
       "name_zh_en": "orthodontics",
-      "description_en": "Whether each medical institution has an orthodontics department, 0: none, 1: present (added in 1998)"
+      "description_en": "Whether each medical institution has an orthodontics department, 0: No, 1: Yes; added in ROC 98 (2009)"
     },
     {
       "seq": 125,
@@ -1965,7 +1965,7 @@
         }
       ],
       "name_zh_en": "dental surgery",
-      "description_en": "Does each medical institution have a dental clinic? 0: No, 1: Yes, added in 2013"
+      "description_en": "Whether each medical institution has a dental implant department, 0: No, 1: Yes\nAdded in ROC 113 (2024)"
     },
     {
       "seq": 133,
@@ -2472,7 +2472,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "Public occupational-therapy institution (added 2018)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -4325,32 +4325,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -4373,7 +4373,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HG_1": {
       "field_zh": "評鑑等級",

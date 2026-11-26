@@ -41,7 +41,7 @@
       "description_zh": "1：男性，2：女性，4：變 性人",
       "available_notes": [],
       "name_zh_en": "original gender",
-      "description_en": "1: male"
+      "description_en": "1: Male, 2: Female, 4: Transgender"
     },
     {
       "seq": 3,
@@ -131,7 +131,7 @@
         }
       ],
       "name_zh_en": "household registration code",
-      "description_en": "Translation of resident code (RESIDCD) starting from 2001 for new five metropolitan areas"
+      "description_en": "See the household registration place code (RESIDCD) table; from ROC 100 (2011) the new five-municipality codes are used"
     },
     {
       "seq": 10,
@@ -161,7 +161,7 @@
         }
       ],
       "name_zh_en": "grading/differentiation",
-      "description_en": "1. One patient may be diagnosed and treated at different hospitals for the same cancer site, so pay special attention to grouping one person's one cancer site. 2. In ROC year 91 (2002) only cervical cancer was mandatory to report; from 2004 all six cancers must be reported. 3. About 15-17 cancer-control centers (hospitals with >=500 cases/year) reported TCDB long-form data during 2002-2006. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 1. ID number is encrypted. 2. The person-grouping key is ID."
+      "description_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated 3: Poorly differentiated 4: Undifferentiated; Anaplastic 9: Grade or differentiation not determined, not stated or not applicable. Note: because tumor grade/differentiation uses 2-, 3- or 4-tier schemes for different cancers, for details see the Taiwan Cancer Registry long-form and short-form abstracting manuals of editions before ROC 100 (2011), which can be accessed directly at"
     },
     {
       "seq": 12,
@@ -251,7 +251,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD9 codes from 1970 to 1996 (blank if no cause of death data)"
+      "description_en": "ROC 70-96 (1981-2007) coded in ICD-9 (blank if no cause-of-death data)"
     },
     {
       "seq": 19,
@@ -269,7 +269,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD-10 codes for causes of death after 1997 (blank if no cause of death data)"
+      "description_en": "From ROC 97 (2008), causes of death are coded in ICD-10 (blank if no cause-of-death data)"
     },
     {
       "seq": 20,
@@ -365,7 +365,7 @@
       "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "whether it is a cause-specific survival event",
-      "description_en": "0: Died from other causes or still alive; 1: Died from the first cancer diagnosed; 9: Unknown (not linked to death cause file, outpatient/ED, inpatient, insured file); Blank indicates not the first cancer."
+      "description_en": "0: Died of other causes or still alive; 1: Died of the first cancer diagnosed; 9: Unknown (not linked to the cause-of-death file, outpatient/emergency, inpatient or enrollment files); Blank means it is not the first cancer. See the field (variable) code explanation (2) SEER cause of death."
     },
     {
       "seq": 28,
@@ -508,7 +508,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個",
       "available_notes": [],
-      "name_zh_en": "chronic obstructive pulmonary disease",
+      "name_zh_en": "Whether the patient has Chronic obstructive",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates not the patient's first"
     },
     {
@@ -544,7 +544,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "No diabetes without chronic complications (DM W/O CC).",
+      "name_zh_en": "Whether the patient has Diabetes without chronic complication (DM W/O CC)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
@@ -796,7 +796,7 @@
         {
           "code": "ADEFOVIR",
           "label_zh": "DIPIVOXIL B023920100 BC23920100 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十) C 型肝炎口服抗病毒藥物 治療組合 藥品代碼 Daklinza + Sunvepra治療基因型 1b型24週療程 HCVDAA0001 Viekirax + Exviera治療基因型 1b型，無肝硬化或具代償性 HCVDAA0002 肝硬化12週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，無肝硬化12 HCVDAA0003 週療程 Viekirax + Exviera + ribavirin 治療基因型1a型，代償性肝硬 HCVDAA0004 化24週療程 Zepatier +/- ribavirin 治療基因型 1a型，無抗藥性病毒株，12 HCVDAA0005 週療程 Zepatier + ribavirin 治療基因型 1a型，有抗藥性病毒株，16 HCVDAA0006 週療程 Zepatier +/- ribavirin 治療基因型 1b型，12 週療程 HCVDAA0007 Zepatier治療基因型第 4型，12 週療程 HCVDAA0008 Zepatier + ribavirin 治療基因型第 4型，16 週療程 HCVDAA0009 Harvoni +/- ribavirin 治療基因型第 1、4、5 或6型，12週療 HCVDAA0010 程 Sovaldi + ribavirin 治療基因型第 2型，12 週療程 HCVDAA0011 Maviret 治療基因型第 1、2、3、4、5或6 型，8週療程 HCVDAA0012 Maviret 治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0013 Maviret 治療基因型第 1或3型，16週療程 HCVDAA0014 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 治療組合 藥品代碼 Epclusa治療基因型第 1、2、3、4、5或6 型，12週療程 HCVDAA0015 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，12 HCVDAA0016 週療程 Vosevi 治療基因型第 1、2、3、4、5或6型，12週療程 HCVDAA0017 Epclusa + ribavirin 治療基因型第1、2、3、4、5或6型，24 HCVDAA0018 週療程 註：ribavirin 應用在 C 肝治療上，都需要和干擾素或口服抗病毒藥物併用，且單 方不適用於 C 肝治療，故 ribavirin 單方藥品沒有納入在 C 型肝炎口服抗病毒藥 物清單中。 (十一) 干擾素 成分名稱 藥品代碼 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 成分名稱 藥品代碼 (十二) 標靶藥物和免疫藥物 成分名稱 藥品代碼 註：ATEZOLIZUMAB 和BEVACIZUMAB 合併使用才符合健保給付規定之肝癌 用藥(詳健保署「藥品給付規定內容」第九節 抗癌瘤藥物)，僅在其中一種藥不宜 使用的狀況下，這兩種藥物才會被單一使用在肝癌治療。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：202512/30 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _門急診(西醫)(OPDTE11001_10)的紀 錄。 範例2 IPDTE11001_LIVER_111 使用癌症研究主檔1979-2022年版本， 篩選出肝癌個案後，擷取肝癌個案在 110年1月全民健保處方及治療明細檔 _住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_LIVER_111 肝癌死因統計合併檔 MASTER_TABLE_LIVER_111 肝癌研究主檔",
-          "label_en": "Identity-category comparison table. Data before ROC 95 (2006) vs. ROC 95 and after: veterans/veteran-survivor household representatives — identity=4 before 95; identity=2 with insured-attribute=61 from 95 on. Insurance category '62' dependents — identity=5 before 95; identity=2 with insured-attribute=62 and unit insurance-category first digit 1/2/3 from 95 on. 3. Enrollment/disenrollment types: (1) Enroll: joins NHI upon meeting eligibility. (2) Disenroll: 1) death; 2) serving a sentence in prison/detention, or a security/reformatory measure, for 2+ months; 3) missing for 6 months (or from the disaster date if missing due to disaster); 4) becoming an active-duty officer, NCO, soldier, or military-academy funded student (changed to 'transfer out' on 2001-02-01); 5) loss of enrollment conditions (e.g. household moved out, residence permit expired, foreigner's work/study ended and left). (3) Transfer in: 1) change of insurer unit; 2) change of insured identity. (4) Transfer out: 1) change of insurer unit; 2) change of insured identity. (5) Cancel: NHIA cancels a doubly-enrolled insured person. (6) Interrupted transfer in: everyone eligible must enroll; if after enrolling a gap in enrollment arose (job change, identity change, address move, etc.) with unpaid premiums, and the person re-enters NHI. (7) Interrupted transfer out: similarly, a gap leading to exit from NHI. (8) Resume: 1) a missing person found within 6 months should cancel suspension and pay back premiums; if not found after 6 months, insurance is terminated retroactively from the suspension month and disenrollment processed; 2) a person abroad 6+ months resumes on the return date, but one abroad under 6 months cancels suspension and pays back premiums. (9) Suspend: 1) registered missing but under 6 months; 2) continuously detained 2+ months; 3) planned to be abroad 6+ months, except deep-sea fishing-vessel crew; 4) continued-coverage dependents (children, grandchildren) aged 20+ without earning capacity (e.g. disability-certificate holders) or still studying without employment. (10) Suspend-resume: the field changes to 'suspend-resume' when resuming after suspension."
+          "label_en": "DIPIVOXIL B023920100 BC23920100 Establishing a health big data thematic database and integrated analysis - establishing a cancer precision medicine thematic database (I) Version date: 30 December 2025 (202512/30) Ingredient name Drug code (10) Oral antiviral drugs for hepatitis C Treatment regimen Drug code Daklinza + Sunvepra for genotype 1b, 24-week course HCVDAA0001 Viekirax + Exviera for genotype 1b without cirrhosis or with compensated cirrhosis, 12-week course HCVDAA0002 Viekirax + Exviera + ribavirin for genotype 1a without cirrhosis, 12-week course HCVDAA0003 Viekirax + Exviera + ribavirin for genotype 1a with compensated cirrhosis, 24-week course HCVDAA0004 Zepatier +/- ribavirin for genotype 1a without resistant virus strains, 12-week course HCVDAA0005 Zepatier + ribavirin for genotype 1a with resistant virus strains, 16-week course HCVDAA0006 Zepatier +/- ribavirin for genotype 1b, 12-week course HCVDAA0007 Zepatier for genotype 4, 12-week course HCVDAA0008 Zepatier + ribavirin for genotype 4, 16-week course HCVDAA0009 Harvoni +/- ribavirin for genotype 1, 4, 5 or 6, 12-week course HCVDAA0010 Sovaldi + ribavirin for genotype 2, 12-week course HCVDAA0011 Maviret for genotype 1, 2, 3, 4, 5 or 6, 8-week course HCVDAA0012 Maviret for genotype 1, 2, 3, 4, 5 or 6, 12-week course HCVDAA0013 Maviret for genotype 1 or 3, 16-week course HCVDAA0014 Establishing a health big data thematic database and integrated analysis - establishing a cancer precision medicine thematic database (I) Version date: 30 December 2025 (202512/30) Treatment regimen Drug code Epclusa for genotype 1, 2, 3, 4, 5 or 6, 12-week course HCVDAA0015 Epclusa + ribavirin for genotype 1, 2, 3, 4, 5 or 6, 12-week course HCVDAA0016 Vosevi for genotype 1, 2, 3, 4, 5 or 6, 12-week course HCVDAA0017 Epclusa + ribavirin for genotype 1, 2, 3, 4, 5 or 6, 24-week course HCVDAA0018 Note: when ribavirin is used in hepatitis C treatment, it must always be combined with interferon or oral antiviral drugs, and as a single agent it is not suitable for hepatitis C treatment, so single-agent ribavirin products are not included in the list of oral antiviral drugs for hepatitis C. (11) Interferon Ingredient name Drug code Establishing a health big data thematic database and integrated analysis - establishing a cancer precision medicine thematic database (I) Version date: 30 December 2025 (202512/30) Ingredient name Drug code (12) Targeted drugs and immunotherapy drugs Ingredient name Drug code Note: ATEZOLIZUMAB and BEVACIZUMAB used in combination are what meets the NHI payment rules for liver cancer drugs (see the NHIA \"Drug Reimbursement Rules\", Section 9, Antineoplastic drugs); only when one of the two drugs is unsuitable are these two drugs used singly in liver cancer treatment. Establishing a health big data thematic database and integrated analysis - establishing a cancer precision medicine thematic database (I) Version date: 30 December 2025 (202512/30) IV. Examples of file name format explanations (1) Examples of file names for the linked NHI database and cancer registry data files File names are set in the following order: linked file name year (month)_cancer name_cancer registry annual report file year Examples: File name (Filename) File content Example 1 OPDTE11001_10_LIVER_111 Using the 1979-2022 version of the cancer research master file, after selecting liver cancer cases, extract the liver cancer cases' records in the January 2021 (ROC 110/1) NHI prescription and treatment detail file_outpatient/emergency (Western medicine) (OPDTE11001_10). Example 2 IPDTE11001_LIVER_111 Using the 1979-2022 version of the cancer research master file, after selecting liver cancer cases, extract the liver cancer cases' records in the January 2021 (ROC 110/1) NHI prescription and treatment detail file_inpatient. (2) File names of the ID-cleaned data files File names are set in the following order: data file name_cancer name_cancer registry annual report file year File name (Filename) Corresponding Chinese file name DEATH_QC_LIVER_111 Liver cancer merged cause-of-death statistics file MASTER_TABLE_LIVER_111 Liver cancer research master file"
         }
       ],
       "grid": {
@@ -3089,32 +3089,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -3137,7 +3137,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "BIRTH_Y": {
       "field_zh": "癌症登記年報檔的出生年",

@@ -304,7 +304,7 @@
       "description_zh": "西元年YYYY",
       "available_notes": [],
       "name_zh_en": "report year",
-      "description_en": "year_of_the_gregorian_calendar"
+      "description_en": "Gregorian year YYYY"
     },
     {
       "seq": 26,
@@ -343,7 +343,7 @@
         }
       ],
       "name_zh_en": "most recent occurrence date",
-      "description_en": "Minguo Year YYYYMMDDHH; starting from 2018, it is Minguo Year YYYYMMDDHHMI, length is 11"
+      "description_en": "ROC year YYYMMDDHH; from ROC 108 (2019) changed to ROC year YYYMMDDHHMI, length 11"
     },
     {
       "seq": 29,
@@ -3655,32 +3655,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -3703,7 +3703,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "OCCITY": {
       "field_zh": "縣市鄉鎮市區別",

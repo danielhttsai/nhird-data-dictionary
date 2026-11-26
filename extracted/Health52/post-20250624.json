@@ -143,7 +143,7 @@
         }
       ],
       "name_zh_en": "ovarian stimulation method (major)",
-      "description_en": "Translation starting from 2022 without"
+      "description_en": "See the code description\nNone from ROC 110 (2021)"
     },
     {
       "seq": 11,
@@ -383,7 +383,7 @@
         }
       ],
       "name_zh_en": "Implantation Date",
-      "description_en": "Republic of China Year Month Day (YYYMMDD) Fill in the date of embryo, fertilized egg, or zygote implantation; 0 indicates no implantation. Statistical data is calculated based on the year of the treatment cycle for the wife who underwent the procedure, so the implantation year may be as late as 2016. For years outside 1987-2012 or abnormal values, it could be an institutional error."
+      "description_en": "ROC year-month-day (YYYMMDD)\nEnter the date of transfer of the embryo, fertilized egg, or sperm and egg; 0 means not transferred; statistics are calculated by the year in which the wife began the treatment cycle, so the transfer year may fall in ROC 112 (2023); values outside ROC 87-112 (1998-2023) or abnormal values are institutional entry errors"
     },
     {
       "seq": 28,
@@ -512,7 +512,7 @@
         }
       ],
       "name_zh_en": "pregnancy outcome date",
-      "description_en": "Republic of China Year Month Day (YYYMMDD) Fill in the date when pregnancy outcome is confirmed; 0 indicates no pregnancy result (implantation failure or non-pregnancy), cases starting a treatment program in the current year may confirm pregnancy results the following year (pregnancy duration is 280 days); for years outside 1987-2012 or abnormal values, it could be an institutional error."
+      "description_en": "ROC year-month-day (YYYMMDD)\nEnter the date on which the pregnancy outcome was confirmed; 0 means no pregnancy outcome (no transfer or no pregnancy); for cases that began treatment in a given year, the pregnancy outcome may be confirmed in the following year (gestation of 280 days); values outside ROC 87-112 (1998-2023) or abnormal values are institutional entry errors"
     },
     {
       "seq": 37,
@@ -546,7 +546,7 @@
         }
       ],
       "name_zh_en": "ectopic pregnancy count 2",
-      "description_en": "Number of ectopic pregnancies in pregnancy outcomes starting from 2011, missing values considered as 0"
+      "description_en": "Number of ectopic pregnancies at the time of the \"pregnancy outcome\"\nFrom ROC 110 (2021), missing values are treated as 0"
     },
     {
       "seq": 39,
@@ -1442,7 +1442,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health52_人工生殖資料庫(20250624起適用)",
-  "data_description_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Contains raw data for cases diagnosed 2007-2010 as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 3. The cancers covered by the cancer-registry short form include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 4. To analyze data grouped and de-duplicated across hospitals from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID.",
+  "data_description_en": "1. The Taiwan Assisted Reproduction database was established in ROC 87 (1998); each assisted reproduction institution periodically reports data on cases that received assisted reproduction (excluding\nartificial insemination between spouses) at the institution during the period.\n2. The Regulations Governing Reporting and Management of Assisted Reproduction Data were established under Article 27, Paragraph 2 of the Assisted Reproduction Act.\n3. The Regulations Governing Reporting of Assisted Reproduction Data were enacted and promulgated in full (15 articles) by Order No.\n0960400731 of the Department of Health, Executive Yuan, on 8 August ROC 96 (2007), effective on the date of promulgation.\n4. The assisted reproduction data that assisted reproduction institutions must report are as follows:\n1. Health examination and evaluation of reproductive cell donors.\n2. Results of procedures using donated reproductive cells.\n3. Data on donated reproductive cells, or embryos formed from donated reproductive cells, whose donation, return, destruction, transfer to another recipient\nor transfer was not completed.\n4. Data on cases entering a treatment cycle, such as starting ovulation-inducing drugs, for assisted reproduction.\n5. Assisted reproduction case data.\n6. Data on destruction of reproductive cells or embryos of couples who underwent the procedure.\n5. The years in which drugs were started cover ROC 87 (1998) to ROC 112 (2023).",
   "notes_en": "1. This center's database has been de-identified: directly identifying fields such as name and address have been removed, and fields such as ID number, facility code, insured unit code, tax ID number, date of birth, visit date, and admission date have been masked. The data may only be used within the independent workspace established by the Ministry, and only approved aggregate statistical results may be taken out, ensuring that the data and its disclosure method can no longer identify specific individuals.\n2. The infertility-duration field was not validated at the time of entry; going forward, notifications will check that the infertility duration does not exceed the age of the wife undergoing treatment.\n3. A value of 0 in the newborn-related information fields indicates that there is no newborn data.\n4. After the Assisted Reproduction Data Reporting and Management Regulations took effect in 2007 (ROC year 96), the coding scheme was revised because linkage with other databases was required; data prior to 2007 was also converted to the new coding scheme. However, for some codes, due to format issues or gaps in the new coding scheme, garbled or unrecognized codes may appear.\n5. For further information, see: Health Promotion Administration - Assisted Reproduction Data Reporting and Management Regulations.",
   "primary_keys_en": "",
   "name_zh_en": "reproductive technology database",

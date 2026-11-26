@@ -115,7 +115,7 @@
         }
       ],
       "name_zh_en": "dispensing method",
-      "description_en": "1. Using the 'ICD diagnosis code' field of the NHI outpatient detail file (H_NHI_OPDTE) and the 'principal/secondary diagnosis code' fields of the NHI inpatient detail file (H_NHI_IPDTE), a person meeting the cardiovascular-disease coding definition (see Appendix 1 for detailed codes) with >=2 outpatient diagnoses or >=1 admission within one year is defined as a cardiovascular-disease patient. 2. Because it is hard to distinguish prevalent from incident cases in the first year of NHI data, to obtain valid incident cases the extraction years span 2001 to 2023. 3. See Appendix 2 for the data-cleaning workflow."
+      "description_en": "0: Self-dispensed, self-performed test (examination) or physical therapy\n1: Delivered for dispensing, or test (examination) or physical therapy\n2: Entrusted to another medical institution for (relay) testing\n3: Accepted entrusted (relay) testing from another institution\n4: Entrusted to another medical institution for testing\n5: Accepted entrusted testing from another institution\n6: Telemedicine\nThis field is required when the order category is drug detail or treatment detail (test (examination) or physical therapy); when the order category is 3 special material (special material not delivered for dispensing) this field must be filled with\n0; when the order category is 4 no-charge (special material delivered for dispensing) it must be filled with 1; leave blank for other order categories\nAdded from ROC 95 (2006)"
     },
     {
       "seq": 9,
@@ -187,7 +187,7 @@
         }
       ],
       "name_zh_en": "route of administration/therapeutic site",
-      "description_en": "Input according to the principles of the National Health Insurance Drug Usage Standard Code. If the prescription is for a drug, this field is required. Added since 1995"
+      "description_en": "Enter according to the principles of the NHI Drug Usage Standard Code; if the order is a drug, this field is required.\nAdded from ROC 95 (2006)"
     },
     {
       "seq": 14,
@@ -259,7 +259,7 @@
         }
       ],
       "name_zh_en": "prescribed drug days by medical order",
-      "description_en": "maximum number of days for a single medication. Added since 1998"
+      "description_en": "Maximum number of days of medication supply.\nAdded from ROC 98 (2009)"
     },
     {
       "seq": 20,
@@ -341,7 +341,7 @@
         {
           "code": "73",
           "label_zh": "軍保中醫（87/7-90-2） 76,B6 職災案件（91/1增訂） 77,B7 代辦門診戒菸（91/9增訂） 78,B8 代辦精神科強制住院（92/6增訂） 79,B9 代辦孕婦全面篩檢愛滋計畫（94/2 增訂）",
-          "label_en": "National Health Insurance Traditional Chinese Medicine (87/7-90-2) 76, B6 Work-related injury cases (Added in 1991/1) 77, B7 Outpatient smoking cessation counseling (Added in 1991/9) 78, B8 Compulsory psychiatric hospitalization services (Added in 1992/6) 79, B9 Maternal comprehensive HIV screening plan for pregnant women (Added in 1994/2)"
+          "label_en": "Military insurance TCM (July 1998 - February 2001, ROC 87/7-90/2) 76, B6 Occupational-injury cases (added January 2002, ROC 91/1) 77, B7 Commissioned outpatient smoking cessation (added September 2002, ROC 91/9) 78, B8 Commissioned compulsory psychiatric hospitalization (added June 2003, ROC 92/6) 79, B9 Commissioned comprehensive HIV screening program for pregnant women (added February 2005, ROC 94/2)"
         },
         {
           "code": "BA",
@@ -351,7 +351,7 @@
         {
           "code": "C5",
           "label_zh": "嚴重特殊傳染性肺炎通報且隔離案件(110/1 增訂) 91,D1 代辦愛滋病案件（94/2起代辦） 1.代辦65歲以上老人流行性感冒疫苗接種 2. 行政協助流感疫苗及兒童常規疫苗接種 94,D4 資源缺乏地區鼓勵加成計畫之醫療費用點數（90/7 增訂）",
-          "label_en": "Severe acute respiratory infection and isolation cases (Added in 2021/1) 91,D1 Proxy AIDS cases (Starting proxy reporting from February 1994) 1. Proxy for elderly vaccination against influenza (65 years old and above) 2. Administrative assistance with influenza vaccine and routine childhood vaccines 94,D4 Encouragement plan for medical expense points in resource-poor areas (Added in 2007/7)"
+          "label_en": "Severe special infectious pneumonia (COVID-19) reported and isolated cases (added January 2021, ROC 110/1) 91, D1 Commissioned AIDS cases (commissioned from February 2005, ROC 94/2) 1. Commissioned influenza vaccination for persons aged 65 and above 2. Administrative assistance with influenza vaccine and routine childhood vaccination 94, D4 Medical expense points of the incentive program for resource-scarce areas (added July 2001, ROC 90/7)"
         },
         {
           "code": "DF",
@@ -371,7 +371,7 @@
         {
           "code": "E3",
           "label_zh": "愛滋病確診服藥滿2年後案件之慢性病連續處方再調劑(106.2.4增訂) 1.代辦流感病毒抗原快速篩檢試驗（98/8/1 增訂） 2.新型流感(98.9新增)",
-          "label_en": "HIV confirmed medication for two years and chronic disease refill for cases (Added on February 4, 2017) 1. Proxy influenza virus antigen rapid test Added on August 1, 1998 2. Novel influenza (Added in September 1998)"
+          "label_en": "Continuous-prescription refills for chronic disease after 2 years of medication in confirmed AIDS cases (added 4 February 2017, ROC 106.2.4) 1. Commissioned rapid influenza virus antigen screening test (added 1 August 2009, ROC 98/8/1) 2. Novel influenza (added September 2009, ROC 98.9)"
         },
         {
           "code": "M1",
@@ -456,7 +456,7 @@
         {
           "code": "23",
           "label_zh": "中醫鼓勵結合現代科技加強醫療服務實施方案（93.7增訂）",
-          "label_en": "Traditional Chinese Medicine Encouraged to Combine Modern Technology for Enhanced Medical Services Implementation Plan (Added in July 93)"
+          "label_en": "TCM incentive program to combine modern technology to enhance medical services (added July 2004, ROC 93.7)"
         },
         {
           "code": "24",
@@ -496,7 +496,7 @@
         {
           "code": "31",
           "label_zh": "居家中醫醫療服務(108.6 增訂)",
-          "label_en": "Home-based Traditional Chinese Medicine services (added in 2018.6)"
+          "label_en": "Home-based TCM medical services (added June 2019, ROC 108.6)"
         },
         {
           "code": "A3",
@@ -511,12 +511,12 @@
         {
           "code": "B7",
           "label_zh": "代辦門診戒菸 2026年01月27日修訂疾管署(抗結核藥物副作用個案住院≦30天之醫療費用(103年11月24日疾管愛核字第1030301339號函取消))",
-          "label_en": "Outpatient smoking cessation counseling Revised on January 27, 2026 by CDC (TB drug side effects case hospitalized ≤30 days medical expenses (canceled by MOHW notification No. 1030301339 on November 24, 2013))"
+          "label_en": "Commissioned outpatient smoking cessation Revised 27 January 2026 Taiwan CDC (medical expenses of hospitalisation of up to 30 days for tuberculosis patients with adverse drug reactions to anti-tuberculosis drugs (cancelled per Taiwan CDC Letter Ji-Guan-Ai-He-Zi No. 1030301339 of 24 November 2014, ROC 103/11/24))"
         },
         {
           "code": "C4",
           "label_zh": "疾管署(無健保結核病患之醫療費用)",
-          "label_en": "TB patients without insurance medical expenses"
+          "label_en": "Taiwan CDC (medical expenses of tuberculosis patients without NHI)"
         },
         {
           "code": "C5",
@@ -1139,7 +1139,7 @@
         {
           "code": "33069B",
           "label_zh": "有/無造影劑-頭部型 P：骨盆腔， E：肢部， 磁振造影 33084B 無造影劑 Q：臂神經血管叢， M：骨骼肌肉系統，",
-          "label_en": "Contrast Agent - Head Type P: Pelvis, E: Limbs, MRI No Contrast Agent Q: Brachial Plexus, M: Musculoskeletal System"
+          "label_en": "With/without contrast agent - head type P: pelvis, E: extremities, MRI 33084B without contrast agent Q: brachial plexus, M: musculoskeletal system,"
         },
         {
           "code": "33085B",
@@ -1154,7 +1154,7 @@
         {
           "code": "26073B",
           "label_zh": "局部 依實施部位填寫左靠，不足補空白，例如頸 高頻熱凝療 83079B 椎及胸椎則填NJ，最多申報六個部位。 法 2026年01月27日修訂 項目 支付標準 診療項目 診療部位 代碼 全膝關節置 64202B 人工全膝關節再置換 R：右側 換術 64164B 全膝關節置換術 L：左側",
-          "label_en": "Local Fill left, supplement with spaces if insufficient, e.g., cervical high-frequency thermoneutral therapy 83079B, fill NJ for neck and thoracic vertebrae, up to six locations can be claimed. Revised on January 27, 2026 Payment standard Treatment item Treatment location Code Total knee arthroplasty 64202B Repeated total knee arthroplasty R: Right side Exchange surgery 64164B Total knee arthroplasty L: Left side"
+          "label_en": "Local Fill in left-justified according to the site performed, padded with blanks on the right, e.g. enter NJ for cervical and thoracic vertebrae; at most six sites may be reported. Radiofrequency thermocoagulation 83079B Revised 27 January 2026 Item Payment standard Treatment item Treatment site Code Total knee 64202B Revision total knee arthroplasty R: Right side replacement 64164B Total knee arthroplasty L: Left side"
         },
         {
           "code": "97805K",
@@ -1239,7 +1239,7 @@
         {
           "code": "97606A",
           "label_zh": "診) 尿路結石體 50023B 尿路結石體外震波碎石術第一次 R：右側 外震波碎石 50024B 尿路結石體外震波碎石術第二次 L：左側 術 97405K 尿路結石體外震波碎石術(單側)(門診) B：雙側",
-          "label_en": "Urinary stone extracorporeal shock wave lithotripsy first session R: Right side Extracorporeal shock wave lithotripsy second session L: Left side Surgery 97405K Single-sided urinary stone extracorporeal shock wave lithotripsy (outpatient) B: Both sides"
+          "label_en": "outpatient) Urinary stone 50023B Extracorporeal shock wave lithotripsy for urinary stones, first session R: Right side extracorporeal shock wave 50024B Extracorporeal shock wave lithotripsy for urinary stones, second session L: Left side lithotripsy 97405K Extracorporeal shock wave lithotripsy for urinary stones (unilateral) (outpatient) B: Both sides"
         },
         {
           "code": "97406A",
@@ -1319,7 +1319,7 @@
         {
           "code": "97224P",
           "label_zh": "股及腹股溝疝氣手術(單側)(門診) 單側顱顎關 92099B 單側顱顎關節障礙乾針治療 R:右側 節 92100B 單側顱顎關節沖洗 L:左側 2026年01月27日修訂",
-          "label_en": "Hernia surgery (unilateral) (outpatient) Cranio-mandibular joint disorder dry needling R: right side Joint 92099B Cranio-mandibular joint irrigation L: left side Revised on Jan. 27, 2026"
+          "label_en": "femoral and inguinal hernia surgery (unilateral) (outpatient) Unilateral temporomandibular joint 92099B Unilateral temporomandibular joint disorder dry needling R: right side joint 92100B Unilateral temporomandibular joint irrigation L: left side Revised 27 January 2026"
         }
       ],
       "grid": {
@@ -1740,7 +1740,7 @@
         {
           "code": "IPLE",
           "label_zh": "胸膜內注射 106.04新增",
-          "label_en": "pleural injection (added April 106)"
+          "label_en": "Intrapleural injection added April 2017 (ROC 106.04)"
         },
         {
           "code": "IS",
@@ -2286,7 +2286,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-109th years code item name code item name code item name code item name public public public public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-109 (2019-2020) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -2376,7 +2376,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 83-109年診所權屬別代碼對照表（以109年調整） 2026年01月27日修訂年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 83-2009 year code 2026-01-27 revised year"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Revised 27 January 2026 Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -2436,7 +2436,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -2466,7 +2466,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -5997,32 +5997,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -6045,7 +6045,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療醫令明細檔─西醫、中醫及牙醫門診\n（HEALTH-04：H_NHI_OPDTO）\n資料庫使用手冊\n一、 檔案內容說明\n210,623,732筆（西醫）\n9,877,811筆（牙醫）\n檔案代號 H_NHI_OPDTO 資料筆數\n31,731,199筆（中醫）\n（以2024/12 為例）\n全民健保處方及治療醫令明\n中文檔名 英文檔名 Details ofAmbulatoryCareOrders\n細檔─西醫、中醫及牙醫門診\n1. 47GB（西醫）\n2. 2GB（牙醫）\n檔案大小 欄位數 21\n3. 7GB（中醫）\n（以2024/12 為例）\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27修訂\n1. 為一次門診多筆醫令資料。\n2. 相同之 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋SEQ_NO＋\nHOSP_ID視為同一次就醫之醫令。\n3. 每一筆資料包括醫令碼、數量及點數等。\n資料描述 4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、住\n院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央健康\n保險署首頁/健保服務/健保醫療費用/醫療費用申報與給付/醫療費用支付/醫療費\n用申報規定/醫療費用 XML 申報格式/全民健康保險醫事服務機構(門診、住院及\n交付機構)醫療費用點數申報格式及填表說明(版更日期109.08.13)\n1. 同一次門診之各筆醫令點數欄位(ORDER_QTY)加總等於門診明細檔\n(H_NHI_OPDTE)之合計點數(EXP_DOT)。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n注意事項\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 醫療機構代碼(HOSP_ID)經加密處理。\n主鍵與比 2. 本 檔 無 病 人 身 份 證 字 號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\n對欄位 CASE_TYPE＋SEQ_NO＋HOSP_ID為鍵值與門診明細檔(H_NHI_OPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",

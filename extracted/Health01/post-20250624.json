@@ -94,7 +94,7 @@
       "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。\n詳見欄位特定治療項目\n（CURE_ITEM1~CURE_ITEM4）譯碼說明",
       "available_notes": [],
       "name_zh_en": "specific treatment item code (one)",
-      "description_en": "blank indicates no information, chronic disease continuous prescription dispensing this column is exempt from filling. See translation code explanation for details"
+      "description_en": "Blank means none of the listed content applies; this field is not required for chronic-disease continuous prescription refills.\nSee the code explanation for the field specific treatment items\n(CURE_ITEM1~CURE_ITEM4)"
     },
     {
       "seq": 8,
@@ -238,7 +238,7 @@
         }
       ],
       "name_zh_en": "whether patient transferred out",
-      "description_en": "Y: Yes (patient needs to be transferred after diagnosis) N: No, chronic disease continuous prescription refills Note: This field was added starting from 1992"
+      "description_en": "Y: Yes (the patient needs to be transferred out after diagnosis)\nN: No, or chronic-disease continuous prescription refill\nNote: this field was added from ROC 92 (2003)"
     },
     {
       "seq": 19,
@@ -255,7 +255,7 @@
         }
       ],
       "name_zh_en": "International Classification of Diseases Code 1",
-      "description_en": "Left-justified to fill gaps, see field International Classification of Diseases codes (ICD9CM_CODE~ ICD9CM_CODE2) translation notes: Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
+      "description_en": "Left-justified, padded with blanks on the right;\nsee the code explanation for the field International Classification of Diseases code\n(ICD9CM_CODE~\nICD9CM_CODE2).\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016)."
     },
     {
       "seq": 20,
@@ -294,7 +294,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": "Left padding with ICD-9-PCS Primary Procedure Code; Preventive Health, Chronic Disease Follow-up Prescription and Traditional Chinese Medicine Not Required to Fill Notes: Starting from 105th year, medical institutions are required to report using ICD-10-PCS."
+      "description_en": "Left-justified, padded with blanks on the right; primary procedure code in ICD-9-PCS; not required for preventive health care, continuous chronic-disease prescription refills and traditional Chinese medicine\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016)."
     },
     {
       "seq": 23,
@@ -382,7 +382,7 @@
       "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數之小計；慢性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of consultation fee subtotal",
-      "description_en": "This point value is the subtotal of each diagnostic and special material detail points for those with medical service classification code as 2 or 3, excluding medication; continuous prescription refills for chronic diseases should not be filled."
+      "description_en": "This point value is the subtotal of the points of all treatment and special-material details in the OPDTO file other than drugs (order type 2 or 3); not required for chronic-disease continuous prescription refills"
     },
     {
       "seq": 30,
@@ -498,7 +498,7 @@
         }
       ],
       "name_zh_en": "non-admitting-hospital-code",
-      "description_en": "N: non-referral cases plan code: specific treatment item code G9 Mountainous and island regions medical payment benefit enhancement plan. Blank: referral cases, please refer to the transferring hospital's institution code Note: this field was added starting from 1992"
+      "description_en": "N: Not a referral case\nPlan code: specific treatment item code G9, Medical Benefit Enhancement Plan for Mountain and Offshore Island Areas.\nBlank: referral case; for the medical institution code, refer to the receiving institution code\nNote: this field was added from ROC 92 (2003)"
     },
     {
       "seq": 40,
@@ -631,7 +631,7 @@
         }
       ],
       "name_zh_en": "hospital to which transferred",
-      "description_en": "note: added from 2012"
+      "description_en": "Note: this field was added from ROC 92 (2003)"
     },
     {
       "seq": 51,
@@ -648,7 +648,7 @@
         }
       ],
       "name_zh_en": "location of hospital receiving transfer",
-      "description_en": "note: added from 2012"
+      "description_en": "Note: this field was added from ROC 92 (2003)"
     }
   ],
   "codebooks": {
@@ -758,7 +758,7 @@
         {
           "code": "BA",
           "label_zh": "愛滋防治替代治療計畫(99/12 新增)",
-          "label_en": "AIDS prevention alternative therapy program (added in December 2019)"
+          "label_en": "AIDS prevention substitution treatment program (added December 2010, ROC 99/12)"
         },
         {
           "code": "C1",
@@ -773,12 +773,12 @@
         {
           "code": "C5",
           "label_zh": "嚴重特殊傳染性肺炎通報且隔離案件 (110/1/1起 )",
-          "label_en": "notifiable and isolated cases of severe acute respiratory infection (since 1/1/2022)"
+          "label_en": "Severe special infectious pneumonia (COVID-19) reported and isolated cases (from 1 January 2021, ROC 110/1/1)"
         },
         {
           "code": "D1",
           "label_zh": "愛滋病案件（94/2起代辦） 65歲以上老人流行病感冒疫苗接種",
-          "label_en": "AIDS cases (starting from 94/2代办) 65岁以上老人流行性感冒疫苗接种"
+          "label_en": "AIDS cases (commissioned from February 2005, ROC 94/2) Influenza vaccination for persons aged 65 and above"
         },
         {
           "code": "D2",
@@ -788,7 +788,7 @@
         {
           "code": "D4",
           "label_zh": "西醫基層(醫院支援)醫療資源不足地區改善方案(90.7增訂）",
-          "label_en": "Western medicine grassroots (hospital support) medical resource improvement plan (added in 2001.7)"
+          "label_en": "Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources (added July 2001, ROC 90.7)"
         },
         {
           "code": "DF",
@@ -798,7 +798,7 @@
         {
           "code": "E1",
           "label_zh": "醫療給付改善方案及試辦計畫(90.10增訂)",
-          "label_en": "National Medical Care Improvement Program and pilot project (added in October 2010)"
+          "label_en": "Medical benefit improvement programs and pilot projects (added October 2001, ROC 90.10)"
         },
         {
           "code": "E2",
@@ -808,7 +808,7 @@
         {
           "code": "E3",
           "label_zh": "愛滋病確診服藥滿 2 年後案件之慢性病連續處方再調劑(106.2.4 增訂) 2026年01月27日修訂代辦流感病毒抗原快速篩檢（98/8/1-98/8/31 ） 新型流感(98/9/1-99/11/30)",
-          "label_en": "AIDS confirmed medication for chronic disease after 2 years of treatment (added on Feb 4, 2016) Revised on January 27, 2026 Proxy administration of influenza virus antigen rapid test (Aug 1-31, 1998) New influenza (Sep 1, 1998 - Nov 30, 1999)"
+          "label_en": "Continuous-prescription refills for chronic disease after 2 years of medication in confirmed AIDS cases (added 4 February 2017, ROC 106.2.4) Revised 27 January 2026 Commissioned rapid influenza virus antigen screening (ROC 98/8/1-98/8/31, i.e. 1-31 August 2009) Novel influenza (ROC 98/9/1-99/11/30, i.e. 1 September 2009 - 30 November 2010)"
         },
         {
           "code": "M1",
@@ -873,7 +873,7 @@
         {
           "code": "C4",
           "label_zh": "行政協助山地鄉結核病主動篩檢 (107/4/1起 )",
-          "label_en": "Administrative assistance for active tuberculosis screening in mountainous areas (since April 1, 2017)"
+          "label_en": "Administrative assistance: active tuberculosis screening in mountain townships (from 1 April 2018, ROC 107/4/1)"
         },
         {
           "code": "D2",
@@ -883,7 +883,7 @@
         {
           "code": "E1",
           "label_zh": "醫療給付改善方案及試辦計畫(113/1/1起) 中醫門診",
-          "label_en": "Traditional Chinese Medicine outpatient"
+          "label_en": "Medical benefit improvement programs and pilot projects (from 1 January 2024, ROC 113/1/1) Traditional Chinese medicine outpatient"
         },
         {
           "code": "21",
@@ -938,12 +938,12 @@
         {
           "code": "31",
           "label_zh": "中醫居家(108.6 增訂)",
-          "label_en": "Traditional Chinese medicine home care (added in 2018.6)"
+          "label_en": "Traditional Chinese medicine home care (added June 2019, ROC 108.6)"
         },
         {
           "code": "A3",
           "label_zh": "預防保健 (99/1/1起 )",
-          "label_en": "preventive healthcare (effective since 01/01/1999)"
+          "label_en": "Preventive health care (from 1 January 2010, ROC 99/1/1)"
         },
         {
           "code": "B6",
@@ -958,7 +958,7 @@
         {
           "code": "C5",
           "label_zh": "法定傳染病通報且住院隔離案件 (110/1/1起 ) 2026年01月27日修訂",
-          "label_en": "report of notifiable infectious disease and inpatient isolation case (effective since 01/01/2022) revised on 01/27/2026"
+          "label_en": "Notifiable infectious disease reported with inpatient isolation (from 1 January 2021, ROC 110/1/1) Revised 27 January 2026"
         },
         {
           "code": "DF",
@@ -1262,7 +1262,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
+          "label_en": "G C (mental disorders), D (nervous system diseases), E (circu- irritable bowel syndrome, erosive gastrointestinal inflammation, latory system diseases), F (respiratory system diseases), G (diges- chronic colitis tive system diseases), H (urinary system diseases), I (musculo- 24 Lupus erythematosus I skeletal system and connective tissue diseases), 25 Liver cirrhosis G J (diseases of the eye and adnexa), K (infectious diseases), 26 Raynaud's disease E L (congenital malformations), M (diseases of the skin and subcutaneous tissue),"
         },
         {
           "code": "27",
@@ -1772,7 +1772,7 @@
         {
           "code": "FA",
           "label_zh": "馬祖地區牙周病照護網試辦計畫 FZ 全民健康保險牙醫門診總額特殊醫 2026年01月27日修訂療服務計畫-特殊需求者服務-重度居家牙醫醫療服務-發展遲緩兒童 (103.01.01新增) (109/1/1起) 牙醫門診總額特殊醫療服務計畫-醫全民健康保險牙醫門診總額特殊醫療團服務-失能老人 LF 療服務計畫-院所內服務-腦傷及脊髓牙醫門診總額特殊醫療服務計畫-到損傷之中度肢體障礙 (110/1/1起) 宅醫療服務-失能老人全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫 LG 療服務計畫-醫療團服務-腦傷及脊髓",
-          "label_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated across years. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID."
+          "label_en": "Matsu (Lienchiang) area periodontal disease care network pilot program FZ NHI dental outpatient global budget special medical Revised 27 January 2026 services program - services for persons with special needs - severe home dental care services - developmentally delayed children (added 1 January 2014, ROC 103.01.01) (from 1 January 2020, ROC 109/1/1) dental outpatient global budget special medical services program - medical team services - disabled elderly LF NHI dental outpatient global budget special medical services program - in-institution services - moderate physical disability due to brain injury and spinal cord injury (from 1 January 2021, ROC 110/1/1) dental outpatient global budget special medical services program - home medical services - disabled elderly NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical LG services program - medical team services - brain injury and spinal cord"
         },
         {
           "code": "L3",
@@ -1792,32 +1792,32 @@
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額12歲至",
-          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
+          "label_en": "services program - community medical station services for non-psychiatric patients - severe (added 1 January 2018, ROC 107.01.01) Oral health care pilot program for children aged 0-6 with severe dental caries (from 1 January 2021, ROC 110/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget, ages 12 to"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for non-psychiatric patients - moderate (added 1 January 2018, ROC 107.01.01) LM Oral health enhancement care pilot program for adolescents up to age 18 (from 11 March 2022, ROC 111/3/11) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
+          "label_en": "services program - community medical station services for non-psychiatric patients - mild (added 1 January 2018, ROC 107.01.01) LN services program, in-institution services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
+          "label_en": "services program - community medical station services for psychiatric patients - severe or above (added 1 January 2018, ROC 107.01.01) LP services program, medical team services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for psychiatric patients - moderate (from 1 January 2018, ROC 107/1/1) LR services program, services for persons with specific needs - autism, dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
+          "label_en": "services program - community medical station services for developmentally delayed children (from 1 January 2018, ROC 107/1/1) LS services program, community medical station services - autism, dementia (from 1 January 2023, ROC 112/1/1) home dental care services - integrated-care patients NHI dental outpatient global budget special medical"
         },
         {
           "code": "LC",
@@ -1842,7 +1842,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 （101.11新增）",
-          "label_en": "acupuncture (added in 2013.11)"
+          "label_en": "Acupuncture (added November 2012, ROC 101.11)"
         },
         {
           "code": "C4",
@@ -1857,12 +1857,12 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
+          "label_en": "Care pilot program [cancelled from 1 January 2013 (ROC 102.01.01), inclusive] TCM - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11). Cerebrovascular sequelae TCM outpatient care program"
         },
         {
           "code": "CA",
           "label_zh": "(99.1新增) 【103.01.01 (含)取 J7 中醫腫瘤試辦計畫消】 褥瘡之西醫住院病患中醫醫療資源不足地區鼓勵長期進駐輔助醫療試辦計畫 (100/1/1起 ) J9 中醫提升孕產照護品質計畫 2026年01月27日修訂顱腦損傷西醫住院病患中醫輔助 (111/1/1起) 醫療(105.02.01新增) 全民健康保險西醫住院病患中醫脊髓損傷西醫住院病患中醫輔助 JS 特定疾病輔助醫療計畫-術後疼痛醫療(105.02.01新增) (112/1增訂) 乳癌患者中醫門診加強照護醫療全民健康保險中醫癌症患者加強",
-          "label_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS; 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated; 3: Poorly differentiated; 4: Undifferentiated; Anaplastic; 9: Grade or differentiation not determined, not stated, or not applicable."
+          "label_en": "(added January 2010, ROC 99.1) [cancelled from 1 January 2014 (ROC 103.01.01), inclusive] J7 TCM oncology pilot program; TCM adjunctive care pilot program for Western-medicine inpatients with pressure ulcers; pilot program encouraging long-term stationing in areas with insufficient medical resources (from 1 January 2011, ROC 100/1/1) J9 TCM maternity care quality improvement program Revised 27 January 2026 TCM adjunctive care for Western-medicine inpatients with traumatic brain injury (from 1 January 2022, ROC 111/1/1) (added 1 February 2016, ROC 105.02.01) NHI TCM adjunctive treatment program for specific diseases in Western-medicine inpatients; TCM adjunctive care for spinal cord injury JS - postoperative pain (added 1 February 2016, ROC 105.02.01) (added January 2023, ROC 112/1) Enhanced TCM outpatient care for breast cancer patients NHI TCM enhanced care for cancer patients"
         },
         {
           "code": "JE",
@@ -1882,12 +1882,12 @@
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴增) AB 人類免疫缺乏病毒感染中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
+          "label_en": "JZ (added 1 February 2018, ROC 107.02.01) services (added 1 January 2024, ROC 113/1/1) TCM outpatient enhanced care program for colorectal cancer XX TCM special treatment or procedure (added 1 February 2018, ROC 107.02.01) Other TCM emergency treatment program (added 1 May 2018, ROC 107.05.01) AA Neurogenic tinnitus AB Human immunodeficiency virus infection TCM - persons under guardianship or assistance declaration, entrusted E1 Enterovirus (added ROC 87 [1998])"
         },
         {
           "code": "JL",
           "label_zh": "人提供法院裁定文件影本醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診中醫-經保險人認定確有一次領取案件(99.1修訂)",
-          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
+          "label_en": "person provides a copy of the court ruling (added 1 June 2018, ROC 107.06.01) Physician support visits to elderly-care, nursing-care, disabled-welfare institutions and nursing homes TCM - dementia patients as determined by a physician E2 (added 16 March 2000, ROC 89.3.16) (added 1 June 2018, ROC 107.06.01) Support for long-term care institutions to provide general outpatient cases (revised January 2010, ROC 99.1) TCM - special circumstances recognised by the insurer as genuinely requiring a one-time collection"
         },
         {
           "code": "JN",
@@ -1897,17 +1897,17 @@
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次度試辦計畫領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實全民健康保險中醫慢性腎臟病門施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改呼吸困難西醫住院病患中醫輔助善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
+          "label_en": "issues a chronic-disease continuous prescription, and can collect a 60-day drug supply at one time (pilot program) E6 Asthma (from 7 February 2020, ROC 109/2/7) Tuberculosis pilot program (added November 2001, ROC 90.11; implemented until September 2004, ROC 93.9) NHI TCM chronic kidney disease outpatient enhanced care program (from 1 April 2020, ROC 109/4/1) NHI hypertension medical benefit improvement program (added January 2006, ROC 95.1) TCM adjunctive care for Western-medicine inpatients with dyspnea (from 1 January 2021, ROC 110/1/1)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護支援長期照護機構提供復健治療機構中醫醫療照護方案案件(99.1增訂) 2026年01月27日修訂全民健康保險初期慢性腎臟病醫整合照護執行方案療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合衛生福利部緊急醫療資源缺乏地",
-          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
+          "label_en": "Blackfoot disease pilot program (cancelled October 2006, ROC 95.10) NHI TCM outpatient global budget care Support for long-term care institutions to provide rehabilitation treatment institution TCM care program cases (added January 2010, ROC 99.1) Revised 27 January 2026 NHI early-stage chronic kidney disease integrated care implementation program medical benefit improvement program (added January 2011, ROC 100.01) (from 1 January 2022, ROC 111/1/1) NHI integrated home medical care Ministry of Health and Welfare emergency medical resource shortage area"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
+          "label_en": "G4 program (added 23 April 2015, ROC 104.04.23) improvement program (added April 2006, ROC 95.4) Early intervention outpatient medical benefit improvement program Medical-resource-shortage area service incentive program - itinerant clinics"
         },
         {
           "code": "ED",
@@ -1917,7 +1917,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居已開業",
-          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
+          "label_en": "Telehealth consultation for persons under home isolation or quarantine during the COVID-19 (Wuhan pneumonia) epidemic - newly opened (from 26 February 2020, ROC 109/2/26) Medical-resource-shortage area service incentive program - already opened"
         },
         {
           "code": "EF",
@@ -1927,32 +1927,32 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
+          "label_en": "tuberculosis infection treatment quality payment service program (from 1 June 2023, ROC 112/6/1) benefit enhancement program (added July 2003, ROC 92.7) Rehabilitation therapy support in remote areas (from 1 May 2019, ROC 108/5/1) Chronic infectious disease care quality program - HIV care"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
+          "label_en": "nursing management quality payment program (from 1 June 2023, ROC 112/6/1) Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources GB - itinerant home-visit medical services Chronic infectious disease care quality program - long-term care institutions (from 1 January 2020, ROC 109/1/1)"
         },
         {
           "code": "EJ",
           "label_zh": "構加強型結核病防治計畫 GC 遠距醫療給付計畫 (110/1/1起 ) (112/6/1起) 醫院支援偏遠地區緊急醫療糖尿病及初期慢性腎臟病照護整 (112/3/17新增) 合方案 (111/3/1起 ) H1 肝炎試辦計畫全民健康保險思覺失調症醫療給西醫-行動不便者，經醫師認定或經受付改善方案 (111/5/1起 ) H2 託人提供切結文件，慢性病代領藥案全民健康保險代謝症候群防治計件(96.7增訂；101.11修訂文字) 畫(112.1新增) 西醫-已出海為遠洋漁船作業船 N（新個案）、C（完成個案）、R（復 H3 員，提供切結文件，慢性病代領藥 N,C,R 發個案）：全民健康保險乳癌醫療案件(96.7增訂：101.11修訂文字) 給付改善方案（90.11增訂） 自費健檢發現病兆加作處置或檢南投縣信義鄉暨仁愛鄉精神疾病查（97.1增訂）",
-          "label_en": "1. Inpatient copayment varies by length of stay and bed type (acute or chronic), so inpatient medical-fee points are divided into 7 parts: (1) points for acute bed days 1-30; (2) acute bed days 31-60; (3) acute bed days 61+; (4) chronic bed days 1-30; (5) chronic bed days 31-90; (6) chronic bed days 91-180; (7) chronic bed days 181+, each computed separately. 2. For acute-bed stays over 30 days, split the medical-fee points into 1-30, 31-60, and 61+ days. 3. For chronic-bed stays over 30 days, split into 1-30, 31-90, 91-180, and 181+ days."
+          "label_en": "Institution-enhanced tuberculosis prevention and control program GC Telemedicine payment program (from 1 January 2021, ROC 110/1/1) (from 1 June 2023, ROC 112/6/1) Hospital support for emergency medical care in remote areas Diabetes and early chronic kidney disease integrated care program (added 17 March 2023, ROC 112/3/17) (from 1 March 2022, ROC 111/3/1) H1 Hepatitis pilot program NHI schizophrenia medical benefit improvement program (from 1 May 2022, ROC 111/5/1) H2 Western medicine - persons with limited mobility, as determined by a physician or the entrusted person providing a sworn statement, chronic-disease proxy refill cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI metabolic syndrome prevention program (added January 2023, ROC 112.1) Western medicine - already at sea as crew of an ocean-going fishing vessel N (new case), C (completed case), R (recurrent case): H3 providing a sworn statement, chronic-disease proxy refill N,C,R cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI breast cancer medical benefit improvement program (added November 2001, ROC 90.11) Lesions found at a self-paid health check-up, additional treatment or examination (added January 2008, ROC 97.1) Nantou County Xinyi and Ren'ai Townships mental illness"
         },
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
+          "label_en": "medical benefit enhancement program (Central Branch, added August 2001, ROC 90.8) H5 Metabolic syndrome care program (added August 2008, ROC 97.8) Western medicine - already at sea as crew of an international-route vessel, providing a sworn statement, chronic-disease proxy refill Demonstration outpatient pilot program (added January 2002, ROC 91.01,"
         },
         {
           "code": "F7",
           "label_zh": "H6 93.10取消） 藥案件(97.10增訂；101.11修訂全民健康保險山地離島地區醫療文字) 給付效益提昇計畫之山地鄉全人 H7 全民健康保險B型肝炎帶原者及C 2026年01月27日修訂型肝炎感染者醫療給付改善方案西醫-嚴重特殊傳染性肺炎疫情期 (99.1增訂) 間，經醫師評估慢性病病情穩定， 西醫-持慢性病連續處方箋領藥， HJ 開立慢性病連續處方箋，且可一次預定出國，提供切結文件，一次領領取60天用藥量者。",
-          "label_en": "1. The grading and assessment standards for persons with disabilities adopted a new system from 11 July 2012 (ROC 101). 2. The total number of persons with disabilities is the sum under the new and old systems. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The key for person-level grouping and record matching is ID."
+          "label_en": "H6 cancelled October 2004, ROC 93.10) cases (added October 2008, ROC 97.10; wording revised November 2012, ROC 101.11) NHI medical benefit enhancement program for mountain and offshore island areas - whole-person integrated care in mountain townships H7 NHI medical benefit improvement program for hepatitis B carriers and hepatitis C patients Revised 27 January 2026 Western medicine - during the severe special infectious pneumonia (COVID-19) epidemic, where the physician assesses the chronic disease as stable, issues a chronic-disease continuous prescription, and the patient can collect a 60-day drug supply at one time. (added January 2010, ROC 99.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, HJ planning to go abroad, providing a sworn statement, collecting"
         },
         {
           "code": "H8",
           "label_zh": "取2個月或3個月用藥量案件箋， (109/2/7起 ) 出具出國〈如機票等)一次領取二全民健康保險西醫基層提升心肺個月用藥量。 HK 疾病照護品質提升計畫(111/8新西醫-經保險人認定之特殊情形， 增) 慢性病代領藥案件（101.11新增） HM 大腸癌追蹤管理西醫-持慢性病連續處方箋領藥， HN 大腸癌診斷品質管理返回離島地區，提供切結文件，一 HP 口腔癌追蹤管理次領取2個月或3個月用藥量案件 HQ 口腔癌診斷品質管理 （101.11新增）",
-          "label_en": "1. ID number (ID), physician ID number (PRSN_ID), and facility code (HOSP_ID) are encrypted. 2. The unique key of this file is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID, which is the key for matching the inpatient order file (H_NHI_IPDTO). 3. The key for grouping the same admission: ID + HOSP_ID + IN_DATE. 4. The key for person-level grouping and matching: ID. 5. The key for facility-level grouping and matching: HOSP_ID."
+          "label_en": "a 2-month or 3-month drug supply at one time; prescription with proof of travel abroad (e.g. air ticket), collecting a two-month drug supply at one time. (from 7 February 2020, ROC 109/2/7) NHI Western-medicine primary care cardiopulmonary HK disease care quality improvement program (added August 2022, ROC 111/8) Western medicine - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11) HM Colorectal cancer follow-up management Western medicine - collecting drugs on a chronic-disease continuous prescription, HN Colorectal cancer diagnostic quality management returning to an offshore island area, providing a sworn statement, HP Oral cancer follow-up management collecting a 2-month or 3-month drug supply at one time HQ Oral cancer diagnostic quality management (added November 2012, ROC 101.11)"
         },
         {
           "code": "HR",
@@ -1972,7 +1972,7 @@
         {
           "code": "HW",
           "label_zh": "乳癌診斷品質管理月用藥量案件（101.11新增）",
-          "label_en": "Breast cancer diagnosis quality management monthly medication cases (added in November 2012)"
+          "label_en": "Breast cancer diagnosis quality management, month drug supply cases (added November 2012, ROC 101.11)"
         },
         {
           "code": "HX",
@@ -1987,12 +1987,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新收容對象醫療服務計畫-戒護門診增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教罕見疾病病人，提供切結文件，一 K1",
-          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
+          "label_en": "crew, providing a sworn statement, collecting a 2-month or 3-month drug supply at one time JA custody outpatient clinic (applicable from January 2013, ROC 102.1) cases (added November 2012, ROC 101.11) Medical services program for detainees - custody outpatient clinic JB (applicable from January 2013, ROC 102.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, Pre-ESRD preventive program and patient health education rare-disease patients, providing a sworn statement, collecting K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
+          "label_en": "program (ROC 101-102 [2012-2013], continuing program) a 2-month or 3-month drug supply at one time Adult preventive health services community outreach cases (added November 2012, ROC 101.11) K2 (from 1 January 2019, ROC 108/1/1)"
         },
         {
           "code": "C",
@@ -2022,7 +2022,7 @@
         {
           "code": "HI",
           "label_zh": "該處方箋總用藥量必要之特殊病人(107.04.27新增) 2026年01月27日修訂全民健康保險試辦計畫特定治療項目代號填報順序： A.分別屬某一試辦計畫之特定治療項目代號(如下表之序號 1~ 4)應優先填列於欄位(一)， 若同時符合二項疾病之試辦計畫，請分開二筆申報，其醫院代號、身分證號、就醫日期及就醫序號相同，支付內容依支付標準及各計畫之支付規定申報。 B.如同時屬二種(含)以上之試辦計畫，填列之順序如下： a.屬疾病種類之試辦計畫其特定治療項目代號優先填於欄位(一)，其他試辦計畫依序填列，如下表之序號6、7、8。(序號6之情形「案件分類」請填E1) b.屬西醫基層資源不足獎勵計畫且無疾病種類之試辦計畫，其特定治療項目代號 G5~G6 填於欄位(一)，其他試辦計畫依序填列，如下表之序號5。 c.若有全民健康保險加強慢性B、C型肝炎治療計畫者，請一律分開申報。 d.特定治療項目代號欄位(一)~(四)應依序填報。 2026年01月27日修訂序特定治療項目代號計畫情形案件分類號欄位(一) 欄位(二) 欄位(三) 全民健康保險山地離島地區醫",
-          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
+          "label_en": "for special patients for whom the total drug quantity on the prescription is necessary (added 27 April 2018, ROC 107.04.27) Revised 27 January 2026 Order of reporting the specific treatment item codes of NHI pilot programs: A. A specific treatment item code belonging to a single pilot program (serial numbers 1~4 in the table below) should be entered first in field (1). If a patient qualifies for the pilot programs of two diseases at the same time, report in two separate records with the same hospital code, ID number, visit date and visit sequence number; the payment content is reported according to the payment standards and the payment rules of each program. B. If a case belongs to two or more pilot programs at the same time, fill in the following order: a. For a pilot program by disease category, its specific treatment item code is entered first in field (1), and other pilot programs follow in order, as serial numbers 6, 7, 8 in the table below. (For serial number 6, enter E1 for 'case classification'.) b. For the primary-care incentive program for areas with insufficient resources with no disease category, the specific treatment item code G5~G6 is entered in field (1), and other pilot programs follow in order, as serial number 5 in the table below. c. Where the NHI enhanced chronic hepatitis B and C treatment program applies, always report separately. d. The specific treatment item code fields (1)~(4) must be filled in order. Revised 27 January 2026 Serial no. Specific treatment item code / program situation / case classification; field (1) field (2) field (3) NHI medical benefit program for mountain and offshore island areas"
         },
         {
           "code": "1",
@@ -3502,7 +3502,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
+          "label_en": "G C (mental disorders), D (nervous system diseases), E (circu- irritable bowel syndrome, erosive gastrointestinal inflammation, latory system diseases), F (respiratory system diseases), G (diges- chronic colitis tive system diseases), H (urinary system diseases), I (musculo- 24 Lupus erythematosus I skeletal system and connective tissue diseases), 25 Liver cirrhosis G J (diseases of the eye and adnexa), K (infectious diseases), 26 Raynaud's disease E L (congenital malformations), M (diseases of the skin and subcutaneous tissue),"
         },
         {
           "code": "27",
@@ -4012,7 +4012,7 @@
         {
           "code": "FA",
           "label_zh": "馬祖地區牙周病照護網試辦計畫 FZ 全民健康保險牙醫門診總額特殊醫 2026年01月27日修訂療服務計畫-特殊需求者服務-重度居家牙醫醫療服務-發展遲緩兒童 (103.01.01新增) (109/1/1起) 牙醫門診總額特殊醫療服務計畫-醫全民健康保險牙醫門診總額特殊醫療團服務-失能老人 LF 療服務計畫-院所內服務-腦傷及脊髓牙醫門診總額特殊醫療服務計畫-到損傷之中度肢體障礙 (110/1/1起) 宅醫療服務-失能老人全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫 LG 療服務計畫-醫療團服務-腦傷及脊髓",
-          "label_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated across years. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID."
+          "label_en": "Matsu (Lienchiang) area periodontal disease care network pilot program FZ NHI dental outpatient global budget special medical Revised 27 January 2026 services program - services for persons with special needs - severe home dental care services - developmentally delayed children (added 1 January 2014, ROC 103.01.01) (from 1 January 2020, ROC 109/1/1) dental outpatient global budget special medical services program - medical team services - disabled elderly LF NHI dental outpatient global budget special medical services program - in-institution services - moderate physical disability due to brain injury and spinal cord injury (from 1 January 2021, ROC 110/1/1) dental outpatient global budget special medical services program - home medical services - disabled elderly NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical LG services program - medical team services - brain injury and spinal cord"
         },
         {
           "code": "L3",
@@ -4032,32 +4032,32 @@
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額12歲至",
-          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
+          "label_en": "services program - community medical station services for non-psychiatric patients - severe (added 1 January 2018, ROC 107.01.01) Oral health care pilot program for children aged 0-6 with severe dental caries (from 1 January 2021, ROC 110/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget, ages 12 to"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for non-psychiatric patients - moderate (added 1 January 2018, ROC 107.01.01) LM Oral health enhancement care pilot program for adolescents up to age 18 (from 11 March 2022, ROC 111/3/11) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
+          "label_en": "services program - community medical station services for non-psychiatric patients - mild (added 1 January 2018, ROC 107.01.01) LN services program, in-institution services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
+          "label_en": "services program - community medical station services for psychiatric patients - severe or above (added 1 January 2018, ROC 107.01.01) LP services program, medical team services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for psychiatric patients - moderate (from 1 January 2018, ROC 107/1/1) LR services program, services for persons with specific needs - autism, dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
+          "label_en": "services program - community medical station services for developmentally delayed children (from 1 January 2018, ROC 107/1/1) LS services program, community medical station services - autism, dementia (from 1 January 2023, ROC 112/1/1) home dental care services - integrated-care patients NHI dental outpatient global budget special medical"
         },
         {
           "code": "LC",
@@ -4082,7 +4082,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 （101.11新增）",
-          "label_en": "acupuncture (added in 2013.11)"
+          "label_en": "Acupuncture (added November 2012, ROC 101.11)"
         },
         {
           "code": "C4",
@@ -4097,12 +4097,12 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
+          "label_en": "Care pilot program [cancelled from 1 January 2013 (ROC 102.01.01), inclusive] TCM - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11). Cerebrovascular sequelae TCM outpatient care program"
         },
         {
           "code": "CA",
           "label_zh": "(99.1新增) 【103.01.01 (含)取 J7 中醫腫瘤試辦計畫消】 褥瘡之西醫住院病患中醫醫療資源不足地區鼓勵長期進駐輔助醫療試辦計畫 (100/1/1起 ) J9 中醫提升孕產照護品質計畫 2026年01月27日修訂顱腦損傷西醫住院病患中醫輔助 (111/1/1起) 醫療(105.02.01新增) 全民健康保險西醫住院病患中醫脊髓損傷西醫住院病患中醫輔助 JS 特定疾病輔助醫療計畫-術後疼痛醫療(105.02.01新增) (112/1增訂) 乳癌患者中醫門診加強照護醫療全民健康保險中醫癌症患者加強",
-          "label_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS; 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated; 3: Poorly differentiated; 4: Undifferentiated; Anaplastic; 9: Grade or differentiation not determined, not stated, or not applicable."
+          "label_en": "(added January 2010, ROC 99.1) [cancelled from 1 January 2014 (ROC 103.01.01), inclusive] J7 TCM oncology pilot program; TCM adjunctive care pilot program for Western-medicine inpatients with pressure ulcers; pilot program encouraging long-term stationing in areas with insufficient medical resources (from 1 January 2011, ROC 100/1/1) J9 TCM maternity care quality improvement program Revised 27 January 2026 TCM adjunctive care for Western-medicine inpatients with traumatic brain injury (from 1 January 2022, ROC 111/1/1) (added 1 February 2016, ROC 105.02.01) NHI TCM adjunctive treatment program for specific diseases in Western-medicine inpatients; TCM adjunctive care for spinal cord injury JS - postoperative pain (added 1 February 2016, ROC 105.02.01) (added January 2023, ROC 112/1) Enhanced TCM outpatient care for breast cancer patients NHI TCM enhanced care for cancer patients"
         },
         {
           "code": "JE",
@@ -4122,12 +4122,12 @@
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴增) AB 人類免疫缺乏病毒感染中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
+          "label_en": "JZ (added 1 February 2018, ROC 107.02.01) services (added 1 January 2024, ROC 113/1/1) TCM outpatient enhanced care program for colorectal cancer XX TCM special treatment or procedure (added 1 February 2018, ROC 107.02.01) Other TCM emergency treatment program (added 1 May 2018, ROC 107.05.01) AA Neurogenic tinnitus AB Human immunodeficiency virus infection TCM - persons under guardianship or assistance declaration, entrusted E1 Enterovirus (added ROC 87 [1998])"
         },
         {
           "code": "JL",
           "label_zh": "人提供法院裁定文件影本醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診中醫-經保險人認定確有一次領取案件(99.1修訂)",
-          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
+          "label_en": "person provides a copy of the court ruling (added 1 June 2018, ROC 107.06.01) Physician support visits to elderly-care, nursing-care, disabled-welfare institutions and nursing homes TCM - dementia patients as determined by a physician E2 (added 16 March 2000, ROC 89.3.16) (added 1 June 2018, ROC 107.06.01) Support for long-term care institutions to provide general outpatient cases (revised January 2010, ROC 99.1) TCM - special circumstances recognised by the insurer as genuinely requiring a one-time collection"
         },
         {
           "code": "JN",
@@ -4137,17 +4137,17 @@
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次度試辦計畫領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實全民健康保險中醫慢性腎臟病門施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改呼吸困難西醫住院病患中醫輔助善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
+          "label_en": "issues a chronic-disease continuous prescription, and can collect a 60-day drug supply at one time (pilot program) E6 Asthma (from 7 February 2020, ROC 109/2/7) Tuberculosis pilot program (added November 2001, ROC 90.11; implemented until September 2004, ROC 93.9) NHI TCM chronic kidney disease outpatient enhanced care program (from 1 April 2020, ROC 109/4/1) NHI hypertension medical benefit improvement program (added January 2006, ROC 95.1) TCM adjunctive care for Western-medicine inpatients with dyspnea (from 1 January 2021, ROC 110/1/1)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護支援長期照護機構提供復健治療機構中醫醫療照護方案案件(99.1增訂) 2026年01月27日修訂全民健康保險初期慢性腎臟病醫整合照護執行方案療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合衛生福利部緊急醫療資源缺乏地",
-          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
+          "label_en": "Blackfoot disease pilot program (cancelled October 2006, ROC 95.10) NHI TCM outpatient global budget care Support for long-term care institutions to provide rehabilitation treatment institution TCM care program cases (added January 2010, ROC 99.1) Revised 27 January 2026 NHI early-stage chronic kidney disease integrated care implementation program medical benefit improvement program (added January 2011, ROC 100.01) (from 1 January 2022, ROC 111/1/1) NHI integrated home medical care Ministry of Health and Welfare emergency medical resource shortage area"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
+          "label_en": "G4 program (added 23 April 2015, ROC 104.04.23) improvement program (added April 2006, ROC 95.4) Early intervention outpatient medical benefit improvement program Medical-resource-shortage area service incentive program - itinerant clinics"
         },
         {
           "code": "ED",
@@ -4157,7 +4157,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居已開業",
-          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
+          "label_en": "Telehealth consultation for persons under home isolation or quarantine during the COVID-19 (Wuhan pneumonia) epidemic - newly opened (from 26 February 2020, ROC 109/2/26) Medical-resource-shortage area service incentive program - already opened"
         },
         {
           "code": "EF",
@@ -4167,32 +4167,32 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
+          "label_en": "tuberculosis infection treatment quality payment service program (from 1 June 2023, ROC 112/6/1) benefit enhancement program (added July 2003, ROC 92.7) Rehabilitation therapy support in remote areas (from 1 May 2019, ROC 108/5/1) Chronic infectious disease care quality program - HIV care"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
+          "label_en": "nursing management quality payment program (from 1 June 2023, ROC 112/6/1) Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources GB - itinerant home-visit medical services Chronic infectious disease care quality program - long-term care institutions (from 1 January 2020, ROC 109/1/1)"
         },
         {
           "code": "EJ",
           "label_zh": "構加強型結核病防治計畫 GC 遠距醫療給付計畫 (110/1/1起 ) (112/6/1起) 醫院支援偏遠地區緊急醫療糖尿病及初期慢性腎臟病照護整 (112/3/17新增) 合方案 (111/3/1起 ) H1 肝炎試辦計畫全民健康保險思覺失調症醫療給西醫-行動不便者，經醫師認定或經受付改善方案 (111/5/1起 ) H2 託人提供切結文件，慢性病代領藥案全民健康保險代謝症候群防治計件(96.7增訂；101.11修訂文字) 畫(112.1新增) 西醫-已出海為遠洋漁船作業船 N（新個案）、C（完成個案）、R（復 H3 員，提供切結文件，慢性病代領藥 N,C,R 發個案）：全民健康保險乳癌醫療案件(96.7增訂：101.11修訂文字) 給付改善方案（90.11增訂） 自費健檢發現病兆加作處置或檢南投縣信義鄉暨仁愛鄉精神疾病查（97.1增訂）",
-          "label_en": "1. Inpatient copayment varies by length of stay and bed type (acute or chronic), so inpatient medical-fee points are divided into 7 parts: (1) points for acute bed days 1-30; (2) acute bed days 31-60; (3) acute bed days 61+; (4) chronic bed days 1-30; (5) chronic bed days 31-90; (6) chronic bed days 91-180; (7) chronic bed days 181+, each computed separately. 2. For acute-bed stays over 30 days, split the medical-fee points into 1-30, 31-60, and 61+ days. 3. For chronic-bed stays over 30 days, split into 1-30, 31-90, 91-180, and 181+ days."
+          "label_en": "Institution-enhanced tuberculosis prevention and control program GC Telemedicine payment program (from 1 January 2021, ROC 110/1/1) (from 1 June 2023, ROC 112/6/1) Hospital support for emergency medical care in remote areas Diabetes and early chronic kidney disease integrated care program (added 17 March 2023, ROC 112/3/17) (from 1 March 2022, ROC 111/3/1) H1 Hepatitis pilot program NHI schizophrenia medical benefit improvement program (from 1 May 2022, ROC 111/5/1) H2 Western medicine - persons with limited mobility, as determined by a physician or the entrusted person providing a sworn statement, chronic-disease proxy refill cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI metabolic syndrome prevention program (added January 2023, ROC 112.1) Western medicine - already at sea as crew of an ocean-going fishing vessel N (new case), C (completed case), R (recurrent case): H3 providing a sworn statement, chronic-disease proxy refill N,C,R cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI breast cancer medical benefit improvement program (added November 2001, ROC 90.11) Lesions found at a self-paid health check-up, additional treatment or examination (added January 2008, ROC 97.1) Nantou County Xinyi and Ren'ai Townships mental illness"
         },
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
+          "label_en": "medical benefit enhancement program (Central Branch, added August 2001, ROC 90.8) H5 Metabolic syndrome care program (added August 2008, ROC 97.8) Western medicine - already at sea as crew of an international-route vessel, providing a sworn statement, chronic-disease proxy refill Demonstration outpatient pilot program (added January 2002, ROC 91.01,"
         },
         {
           "code": "F7",
           "label_zh": "H6 93.10取消） 藥案件(97.10增訂；101.11修訂全民健康保險山地離島地區醫療文字) 給付效益提昇計畫之山地鄉全人 H7 全民健康保險B型肝炎帶原者及C 2026年01月27日修訂型肝炎感染者醫療給付改善方案西醫-嚴重特殊傳染性肺炎疫情期 (99.1增訂) 間，經醫師評估慢性病病情穩定， 西醫-持慢性病連續處方箋領藥， HJ 開立慢性病連續處方箋，且可一次預定出國，提供切結文件，一次領領取60天用藥量者。",
-          "label_en": "1. The grading and assessment standards for persons with disabilities adopted a new system from 11 July 2012 (ROC 101). 2. The total number of persons with disabilities is the sum under the new and old systems. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The key for person-level grouping and record matching is ID."
+          "label_en": "H6 cancelled October 2004, ROC 93.10) cases (added October 2008, ROC 97.10; wording revised November 2012, ROC 101.11) NHI medical benefit enhancement program for mountain and offshore island areas - whole-person integrated care in mountain townships H7 NHI medical benefit improvement program for hepatitis B carriers and hepatitis C patients Revised 27 January 2026 Western medicine - during the severe special infectious pneumonia (COVID-19) epidemic, where the physician assesses the chronic disease as stable, issues a chronic-disease continuous prescription, and the patient can collect a 60-day drug supply at one time. (added January 2010, ROC 99.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, HJ planning to go abroad, providing a sworn statement, collecting"
         },
         {
           "code": "H8",
           "label_zh": "取2個月或3個月用藥量案件箋， (109/2/7起 ) 出具出國〈如機票等)一次領取二全民健康保險西醫基層提升心肺個月用藥量。 HK 疾病照護品質提升計畫(111/8新西醫-經保險人認定之特殊情形， 增) 慢性病代領藥案件（101.11新增） HM 大腸癌追蹤管理西醫-持慢性病連續處方箋領藥， HN 大腸癌診斷品質管理返回離島地區，提供切結文件，一 HP 口腔癌追蹤管理次領取2個月或3個月用藥量案件 HQ 口腔癌診斷品質管理 （101.11新增）",
-          "label_en": "1. ID number (ID), physician ID number (PRSN_ID), and facility code (HOSP_ID) are encrypted. 2. The unique key of this file is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID, which is the key for matching the inpatient order file (H_NHI_IPDTO). 3. The key for grouping the same admission: ID + HOSP_ID + IN_DATE. 4. The key for person-level grouping and matching: ID. 5. The key for facility-level grouping and matching: HOSP_ID."
+          "label_en": "a 2-month or 3-month drug supply at one time; prescription with proof of travel abroad (e.g. air ticket), collecting a two-month drug supply at one time. (from 7 February 2020, ROC 109/2/7) NHI Western-medicine primary care cardiopulmonary HK disease care quality improvement program (added August 2022, ROC 111/8) Western medicine - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11) HM Colorectal cancer follow-up management Western medicine - collecting drugs on a chronic-disease continuous prescription, HN Colorectal cancer diagnostic quality management returning to an offshore island area, providing a sworn statement, HP Oral cancer follow-up management collecting a 2-month or 3-month drug supply at one time HQ Oral cancer diagnostic quality management (added November 2012, ROC 101.11)"
         },
         {
           "code": "HR",
@@ -4212,7 +4212,7 @@
         {
           "code": "HW",
           "label_zh": "乳癌診斷品質管理月用藥量案件（101.11新增）",
-          "label_en": "Breast cancer diagnosis quality management monthly medication cases (added in November 2012)"
+          "label_en": "Breast cancer diagnosis quality management, month drug supply cases (added November 2012, ROC 101.11)"
         },
         {
           "code": "HX",
@@ -4227,12 +4227,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新收容對象醫療服務計畫-戒護門診增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教罕見疾病病人，提供切結文件，一 K1",
-          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
+          "label_en": "crew, providing a sworn statement, collecting a 2-month or 3-month drug supply at one time JA custody outpatient clinic (applicable from January 2013, ROC 102.1) cases (added November 2012, ROC 101.11) Medical services program for detainees - custody outpatient clinic JB (applicable from January 2013, ROC 102.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, Pre-ESRD preventive program and patient health education rare-disease patients, providing a sworn statement, collecting K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
+          "label_en": "program (ROC 101-102 [2012-2013], continuing program) a 2-month or 3-month drug supply at one time Adult preventive health services community outreach cases (added November 2012, ROC 101.11) K2 (from 1 January 2019, ROC 108/1/1)"
         },
         {
           "code": "C",
@@ -4262,7 +4262,7 @@
         {
           "code": "HI",
           "label_zh": "該處方箋總用藥量必要之特殊病人(107.04.27新增) 2026年01月27日修訂全民健康保險試辦計畫特定治療項目代號填報順序： A.分別屬某一試辦計畫之特定治療項目代號(如下表之序號 1~ 4)應優先填列於欄位(一)， 若同時符合二項疾病之試辦計畫，請分開二筆申報，其醫院代號、身分證號、就醫日期及就醫序號相同，支付內容依支付標準及各計畫之支付規定申報。 B.如同時屬二種(含)以上之試辦計畫，填列之順序如下： a.屬疾病種類之試辦計畫其特定治療項目代號優先填於欄位(一)，其他試辦計畫依序填列，如下表之序號6、7、8。(序號6之情形「案件分類」請填E1) b.屬西醫基層資源不足獎勵計畫且無疾病種類之試辦計畫，其特定治療項目代號 G5~G6 填於欄位(一)，其他試辦計畫依序填列，如下表之序號5。 c.若有全民健康保險加強慢性B、C型肝炎治療計畫者，請一律分開申報。 d.特定治療項目代號欄位(一)~(四)應依序填報。 2026年01月27日修訂序特定治療項目代號計畫情形案件分類號欄位(一) 欄位(二) 欄位(三) 全民健康保險山地離島地區醫",
-          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
+          "label_en": "for special patients for whom the total drug quantity on the prescription is necessary (added 27 April 2018, ROC 107.04.27) Revised 27 January 2026 Order of reporting the specific treatment item codes of NHI pilot programs: A. A specific treatment item code belonging to a single pilot program (serial numbers 1~4 in the table below) should be entered first in field (1). If a patient qualifies for the pilot programs of two diseases at the same time, report in two separate records with the same hospital code, ID number, visit date and visit sequence number; the payment content is reported according to the payment standards and the payment rules of each program. B. If a case belongs to two or more pilot programs at the same time, fill in the following order: a. For a pilot program by disease category, its specific treatment item code is entered first in field (1), and other pilot programs follow in order, as serial numbers 6, 7, 8 in the table below. (For serial number 6, enter E1 for 'case classification'.) b. For the primary-care incentive program for areas with insufficient resources with no disease category, the specific treatment item code G5~G6 is entered in field (1), and other pilot programs follow in order, as serial number 5 in the table below. c. Where the NHI enhanced chronic hepatitis B and C treatment program applies, always report separately. d. The specific treatment item code fields (1)~(4) must be filled in order. Revised 27 January 2026 Serial no. Specific treatment item code / program situation / case classification; field (1) field (2) field (3) NHI medical benefit program for mountain and offshore island areas"
         },
         {
           "code": "1",
@@ -5742,7 +5742,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
+          "label_en": "G C (mental disorders), D (nervous system diseases), E (circu- irritable bowel syndrome, erosive gastrointestinal inflammation, latory system diseases), F (respiratory system diseases), G (diges- chronic colitis tive system diseases), H (urinary system diseases), I (musculo- 24 Lupus erythematosus I skeletal system and connective tissue diseases), 25 Liver cirrhosis G J (diseases of the eye and adnexa), K (infectious diseases), 26 Raynaud's disease E L (congenital malformations), M (diseases of the skin and subcutaneous tissue),"
         },
         {
           "code": "27",
@@ -6252,7 +6252,7 @@
         {
           "code": "FA",
           "label_zh": "馬祖地區牙周病照護網試辦計畫 FZ 全民健康保險牙醫門診總額特殊醫 2026年01月27日修訂療服務計畫-特殊需求者服務-重度居家牙醫醫療服務-發展遲緩兒童 (103.01.01新增) (109/1/1起) 牙醫門診總額特殊醫療服務計畫-醫全民健康保險牙醫門診總額特殊醫療團服務-失能老人 LF 療服務計畫-院所內服務-腦傷及脊髓牙醫門診總額特殊醫療服務計畫-到損傷之中度肢體障礙 (110/1/1起) 宅醫療服務-失能老人全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫 LG 療服務計畫-醫療團服務-腦傷及脊髓",
-          "label_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated across years. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID."
+          "label_en": "Matsu (Lienchiang) area periodontal disease care network pilot program FZ NHI dental outpatient global budget special medical Revised 27 January 2026 services program - services for persons with special needs - severe home dental care services - developmentally delayed children (added 1 January 2014, ROC 103.01.01) (from 1 January 2020, ROC 109/1/1) dental outpatient global budget special medical services program - medical team services - disabled elderly LF NHI dental outpatient global budget special medical services program - in-institution services - moderate physical disability due to brain injury and spinal cord injury (from 1 January 2021, ROC 110/1/1) dental outpatient global budget special medical services program - home medical services - disabled elderly NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical LG services program - medical team services - brain injury and spinal cord"
         },
         {
           "code": "L3",
@@ -6272,32 +6272,32 @@
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額12歲至",
-          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
+          "label_en": "services program - community medical station services for non-psychiatric patients - severe (added 1 January 2018, ROC 107.01.01) Oral health care pilot program for children aged 0-6 with severe dental caries (from 1 January 2021, ROC 110/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget, ages 12 to"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for non-psychiatric patients - moderate (added 1 January 2018, ROC 107.01.01) LM Oral health enhancement care pilot program for adolescents up to age 18 (from 11 March 2022, ROC 111/3/11) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
+          "label_en": "services program - community medical station services for non-psychiatric patients - mild (added 1 January 2018, ROC 107.01.01) LN services program, in-institution services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
+          "label_en": "services program - community medical station services for psychiatric patients - severe or above (added 1 January 2018, ROC 107.01.01) LP services program, medical team services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for psychiatric patients - moderate (from 1 January 2018, ROC 107/1/1) LR services program, services for persons with specific needs - autism, dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
+          "label_en": "services program - community medical station services for developmentally delayed children (from 1 January 2018, ROC 107/1/1) LS services program, community medical station services - autism, dementia (from 1 January 2023, ROC 112/1/1) home dental care services - integrated-care patients NHI dental outpatient global budget special medical"
         },
         {
           "code": "LC",
@@ -6322,7 +6322,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 （101.11新增）",
-          "label_en": "acupuncture (added in 2013.11)"
+          "label_en": "Acupuncture (added November 2012, ROC 101.11)"
         },
         {
           "code": "C4",
@@ -6337,12 +6337,12 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
+          "label_en": "Care pilot program [cancelled from 1 January 2013 (ROC 102.01.01), inclusive] TCM - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11). Cerebrovascular sequelae TCM outpatient care program"
         },
         {
           "code": "CA",
           "label_zh": "(99.1新增) 【103.01.01 (含)取 J7 中醫腫瘤試辦計畫消】 褥瘡之西醫住院病患中醫醫療資源不足地區鼓勵長期進駐輔助醫療試辦計畫 (100/1/1起 ) J9 中醫提升孕產照護品質計畫 2026年01月27日修訂顱腦損傷西醫住院病患中醫輔助 (111/1/1起) 醫療(105.02.01新增) 全民健康保險西醫住院病患中醫脊髓損傷西醫住院病患中醫輔助 JS 特定疾病輔助醫療計畫-術後疼痛醫療(105.02.01新增) (112/1增訂) 乳癌患者中醫門診加強照護醫療全民健康保險中醫癌症患者加強",
-          "label_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS; 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated; 3: Poorly differentiated; 4: Undifferentiated; Anaplastic; 9: Grade or differentiation not determined, not stated, or not applicable."
+          "label_en": "(added January 2010, ROC 99.1) [cancelled from 1 January 2014 (ROC 103.01.01), inclusive] J7 TCM oncology pilot program; TCM adjunctive care pilot program for Western-medicine inpatients with pressure ulcers; pilot program encouraging long-term stationing in areas with insufficient medical resources (from 1 January 2011, ROC 100/1/1) J9 TCM maternity care quality improvement program Revised 27 January 2026 TCM adjunctive care for Western-medicine inpatients with traumatic brain injury (from 1 January 2022, ROC 111/1/1) (added 1 February 2016, ROC 105.02.01) NHI TCM adjunctive treatment program for specific diseases in Western-medicine inpatients; TCM adjunctive care for spinal cord injury JS - postoperative pain (added 1 February 2016, ROC 105.02.01) (added January 2023, ROC 112/1) Enhanced TCM outpatient care for breast cancer patients NHI TCM enhanced care for cancer patients"
         },
         {
           "code": "JE",
@@ -6362,12 +6362,12 @@
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴增) AB 人類免疫缺乏病毒感染中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
+          "label_en": "JZ (added 1 February 2018, ROC 107.02.01) services (added 1 January 2024, ROC 113/1/1) TCM outpatient enhanced care program for colorectal cancer XX TCM special treatment or procedure (added 1 February 2018, ROC 107.02.01) Other TCM emergency treatment program (added 1 May 2018, ROC 107.05.01) AA Neurogenic tinnitus AB Human immunodeficiency virus infection TCM - persons under guardianship or assistance declaration, entrusted E1 Enterovirus (added ROC 87 [1998])"
         },
         {
           "code": "JL",
           "label_zh": "人提供法院裁定文件影本醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診中醫-經保險人認定確有一次領取案件(99.1修訂)",
-          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
+          "label_en": "person provides a copy of the court ruling (added 1 June 2018, ROC 107.06.01) Physician support visits to elderly-care, nursing-care, disabled-welfare institutions and nursing homes TCM - dementia patients as determined by a physician E2 (added 16 March 2000, ROC 89.3.16) (added 1 June 2018, ROC 107.06.01) Support for long-term care institutions to provide general outpatient cases (revised January 2010, ROC 99.1) TCM - special circumstances recognised by the insurer as genuinely requiring a one-time collection"
         },
         {
           "code": "JN",
@@ -6377,17 +6377,17 @@
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次度試辦計畫領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實全民健康保險中醫慢性腎臟病門施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改呼吸困難西醫住院病患中醫輔助善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
+          "label_en": "issues a chronic-disease continuous prescription, and can collect a 60-day drug supply at one time (pilot program) E6 Asthma (from 7 February 2020, ROC 109/2/7) Tuberculosis pilot program (added November 2001, ROC 90.11; implemented until September 2004, ROC 93.9) NHI TCM chronic kidney disease outpatient enhanced care program (from 1 April 2020, ROC 109/4/1) NHI hypertension medical benefit improvement program (added January 2006, ROC 95.1) TCM adjunctive care for Western-medicine inpatients with dyspnea (from 1 January 2021, ROC 110/1/1)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護支援長期照護機構提供復健治療機構中醫醫療照護方案案件(99.1增訂) 2026年01月27日修訂全民健康保險初期慢性腎臟病醫整合照護執行方案療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合衛生福利部緊急醫療資源缺乏地",
-          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
+          "label_en": "Blackfoot disease pilot program (cancelled October 2006, ROC 95.10) NHI TCM outpatient global budget care Support for long-term care institutions to provide rehabilitation treatment institution TCM care program cases (added January 2010, ROC 99.1) Revised 27 January 2026 NHI early-stage chronic kidney disease integrated care implementation program medical benefit improvement program (added January 2011, ROC 100.01) (from 1 January 2022, ROC 111/1/1) NHI integrated home medical care Ministry of Health and Welfare emergency medical resource shortage area"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
+          "label_en": "G4 program (added 23 April 2015, ROC 104.04.23) improvement program (added April 2006, ROC 95.4) Early intervention outpatient medical benefit improvement program Medical-resource-shortage area service incentive program - itinerant clinics"
         },
         {
           "code": "ED",
@@ -6397,7 +6397,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居已開業",
-          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
+          "label_en": "Telehealth consultation for persons under home isolation or quarantine during the COVID-19 (Wuhan pneumonia) epidemic - newly opened (from 26 February 2020, ROC 109/2/26) Medical-resource-shortage area service incentive program - already opened"
         },
         {
           "code": "EF",
@@ -6407,32 +6407,32 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
+          "label_en": "tuberculosis infection treatment quality payment service program (from 1 June 2023, ROC 112/6/1) benefit enhancement program (added July 2003, ROC 92.7) Rehabilitation therapy support in remote areas (from 1 May 2019, ROC 108/5/1) Chronic infectious disease care quality program - HIV care"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
+          "label_en": "nursing management quality payment program (from 1 June 2023, ROC 112/6/1) Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources GB - itinerant home-visit medical services Chronic infectious disease care quality program - long-term care institutions (from 1 January 2020, ROC 109/1/1)"
         },
         {
           "code": "EJ",
           "label_zh": "構加強型結核病防治計畫 GC 遠距醫療給付計畫 (110/1/1起 ) (112/6/1起) 醫院支援偏遠地區緊急醫療糖尿病及初期慢性腎臟病照護整 (112/3/17新增) 合方案 (111/3/1起 ) H1 肝炎試辦計畫全民健康保險思覺失調症醫療給西醫-行動不便者，經醫師認定或經受付改善方案 (111/5/1起 ) H2 託人提供切結文件，慢性病代領藥案全民健康保險代謝症候群防治計件(96.7增訂；101.11修訂文字) 畫(112.1新增) 西醫-已出海為遠洋漁船作業船 N（新個案）、C（完成個案）、R（復 H3 員，提供切結文件，慢性病代領藥 N,C,R 發個案）：全民健康保險乳癌醫療案件(96.7增訂：101.11修訂文字) 給付改善方案（90.11增訂） 自費健檢發現病兆加作處置或檢南投縣信義鄉暨仁愛鄉精神疾病查（97.1增訂）",
-          "label_en": "1. Inpatient copayment varies by length of stay and bed type (acute or chronic), so inpatient medical-fee points are divided into 7 parts: (1) points for acute bed days 1-30; (2) acute bed days 31-60; (3) acute bed days 61+; (4) chronic bed days 1-30; (5) chronic bed days 31-90; (6) chronic bed days 91-180; (7) chronic bed days 181+, each computed separately. 2. For acute-bed stays over 30 days, split the medical-fee points into 1-30, 31-60, and 61+ days. 3. For chronic-bed stays over 30 days, split into 1-30, 31-90, 91-180, and 181+ days."
+          "label_en": "Institution-enhanced tuberculosis prevention and control program GC Telemedicine payment program (from 1 January 2021, ROC 110/1/1) (from 1 June 2023, ROC 112/6/1) Hospital support for emergency medical care in remote areas Diabetes and early chronic kidney disease integrated care program (added 17 March 2023, ROC 112/3/17) (from 1 March 2022, ROC 111/3/1) H1 Hepatitis pilot program NHI schizophrenia medical benefit improvement program (from 1 May 2022, ROC 111/5/1) H2 Western medicine - persons with limited mobility, as determined by a physician or the entrusted person providing a sworn statement, chronic-disease proxy refill cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI metabolic syndrome prevention program (added January 2023, ROC 112.1) Western medicine - already at sea as crew of an ocean-going fishing vessel N (new case), C (completed case), R (recurrent case): H3 providing a sworn statement, chronic-disease proxy refill N,C,R cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI breast cancer medical benefit improvement program (added November 2001, ROC 90.11) Lesions found at a self-paid health check-up, additional treatment or examination (added January 2008, ROC 97.1) Nantou County Xinyi and Ren'ai Townships mental illness"
         },
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
+          "label_en": "medical benefit enhancement program (Central Branch, added August 2001, ROC 90.8) H5 Metabolic syndrome care program (added August 2008, ROC 97.8) Western medicine - already at sea as crew of an international-route vessel, providing a sworn statement, chronic-disease proxy refill Demonstration outpatient pilot program (added January 2002, ROC 91.01,"
         },
         {
           "code": "F7",
           "label_zh": "H6 93.10取消） 藥案件(97.10增訂；101.11修訂全民健康保險山地離島地區醫療文字) 給付效益提昇計畫之山地鄉全人 H7 全民健康保險B型肝炎帶原者及C 2026年01月27日修訂型肝炎感染者醫療給付改善方案西醫-嚴重特殊傳染性肺炎疫情期 (99.1增訂) 間，經醫師評估慢性病病情穩定， 西醫-持慢性病連續處方箋領藥， HJ 開立慢性病連續處方箋，且可一次預定出國，提供切結文件，一次領領取60天用藥量者。",
-          "label_en": "1. The grading and assessment standards for persons with disabilities adopted a new system from 11 July 2012 (ROC 101). 2. The total number of persons with disabilities is the sum under the new and old systems. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The key for person-level grouping and record matching is ID."
+          "label_en": "H6 cancelled October 2004, ROC 93.10) cases (added October 2008, ROC 97.10; wording revised November 2012, ROC 101.11) NHI medical benefit enhancement program for mountain and offshore island areas - whole-person integrated care in mountain townships H7 NHI medical benefit improvement program for hepatitis B carriers and hepatitis C patients Revised 27 January 2026 Western medicine - during the severe special infectious pneumonia (COVID-19) epidemic, where the physician assesses the chronic disease as stable, issues a chronic-disease continuous prescription, and the patient can collect a 60-day drug supply at one time. (added January 2010, ROC 99.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, HJ planning to go abroad, providing a sworn statement, collecting"
         },
         {
           "code": "H8",
           "label_zh": "取2個月或3個月用藥量案件箋， (109/2/7起 ) 出具出國〈如機票等)一次領取二全民健康保險西醫基層提升心肺個月用藥量。 HK 疾病照護品質提升計畫(111/8新西醫-經保險人認定之特殊情形， 增) 慢性病代領藥案件（101.11新增） HM 大腸癌追蹤管理西醫-持慢性病連續處方箋領藥， HN 大腸癌診斷品質管理返回離島地區，提供切結文件，一 HP 口腔癌追蹤管理次領取2個月或3個月用藥量案件 HQ 口腔癌診斷品質管理 （101.11新增）",
-          "label_en": "1. ID number (ID), physician ID number (PRSN_ID), and facility code (HOSP_ID) are encrypted. 2. The unique key of this file is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID, which is the key for matching the inpatient order file (H_NHI_IPDTO). 3. The key for grouping the same admission: ID + HOSP_ID + IN_DATE. 4. The key for person-level grouping and matching: ID. 5. The key for facility-level grouping and matching: HOSP_ID."
+          "label_en": "a 2-month or 3-month drug supply at one time; prescription with proof of travel abroad (e.g. air ticket), collecting a two-month drug supply at one time. (from 7 February 2020, ROC 109/2/7) NHI Western-medicine primary care cardiopulmonary HK disease care quality improvement program (added August 2022, ROC 111/8) Western medicine - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11) HM Colorectal cancer follow-up management Western medicine - collecting drugs on a chronic-disease continuous prescription, HN Colorectal cancer diagnostic quality management returning to an offshore island area, providing a sworn statement, HP Oral cancer follow-up management collecting a 2-month or 3-month drug supply at one time HQ Oral cancer diagnostic quality management (added November 2012, ROC 101.11)"
         },
         {
           "code": "HR",
@@ -6452,7 +6452,7 @@
         {
           "code": "HW",
           "label_zh": "乳癌診斷品質管理月用藥量案件（101.11新增）",
-          "label_en": "Breast cancer diagnosis quality management monthly medication cases (added in November 2012)"
+          "label_en": "Breast cancer diagnosis quality management, month drug supply cases (added November 2012, ROC 101.11)"
         },
         {
           "code": "HX",
@@ -6467,12 +6467,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新收容對象醫療服務計畫-戒護門診增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教罕見疾病病人，提供切結文件，一 K1",
-          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
+          "label_en": "crew, providing a sworn statement, collecting a 2-month or 3-month drug supply at one time JA custody outpatient clinic (applicable from January 2013, ROC 102.1) cases (added November 2012, ROC 101.11) Medical services program for detainees - custody outpatient clinic JB (applicable from January 2013, ROC 102.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, Pre-ESRD preventive program and patient health education rare-disease patients, providing a sworn statement, collecting K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
+          "label_en": "program (ROC 101-102 [2012-2013], continuing program) a 2-month or 3-month drug supply at one time Adult preventive health services community outreach cases (added November 2012, ROC 101.11) K2 (from 1 January 2019, ROC 108/1/1)"
         },
         {
           "code": "C",
@@ -6502,7 +6502,7 @@
         {
           "code": "HI",
           "label_zh": "該處方箋總用藥量必要之特殊病人(107.04.27新增) 2026年01月27日修訂全民健康保險試辦計畫特定治療項目代號填報順序： A.分別屬某一試辦計畫之特定治療項目代號(如下表之序號 1~ 4)應優先填列於欄位(一)， 若同時符合二項疾病之試辦計畫，請分開二筆申報，其醫院代號、身分證號、就醫日期及就醫序號相同，支付內容依支付標準及各計畫之支付規定申報。 B.如同時屬二種(含)以上之試辦計畫，填列之順序如下： a.屬疾病種類之試辦計畫其特定治療項目代號優先填於欄位(一)，其他試辦計畫依序填列，如下表之序號6、7、8。(序號6之情形「案件分類」請填E1) b.屬西醫基層資源不足獎勵計畫且無疾病種類之試辦計畫，其特定治療項目代號 G5~G6 填於欄位(一)，其他試辦計畫依序填列，如下表之序號5。 c.若有全民健康保險加強慢性B、C型肝炎治療計畫者，請一律分開申報。 d.特定治療項目代號欄位(一)~(四)應依序填報。 2026年01月27日修訂序特定治療項目代號計畫情形案件分類號欄位(一) 欄位(二) 欄位(三) 全民健康保險山地離島地區醫",
-          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
+          "label_en": "for special patients for whom the total drug quantity on the prescription is necessary (added 27 April 2018, ROC 107.04.27) Revised 27 January 2026 Order of reporting the specific treatment item codes of NHI pilot programs: A. A specific treatment item code belonging to a single pilot program (serial numbers 1~4 in the table below) should be entered first in field (1). If a patient qualifies for the pilot programs of two diseases at the same time, report in two separate records with the same hospital code, ID number, visit date and visit sequence number; the payment content is reported according to the payment standards and the payment rules of each program. B. If a case belongs to two or more pilot programs at the same time, fill in the following order: a. For a pilot program by disease category, its specific treatment item code is entered first in field (1), and other pilot programs follow in order, as serial numbers 6, 7, 8 in the table below. (For serial number 6, enter E1 for 'case classification'.) b. For the primary-care incentive program for areas with insufficient resources with no disease category, the specific treatment item code G5~G6 is entered in field (1), and other pilot programs follow in order, as serial number 5 in the table below. c. Where the NHI enhanced chronic hepatitis B and C treatment program applies, always report separately. d. The specific treatment item code fields (1)~(4) must be filled in order. Revised 27 January 2026 Serial no. Specific treatment item code / program situation / case classification; field (1) field (2) field (3) NHI medical benefit program for mountain and offshore island areas"
         },
         {
           "code": "1",
@@ -7982,7 +7982,7 @@
         {
           "code": "23",
           "label_zh": "G C（精神疾病）、D（神經系統疾病）、E（循腸症候群、胃腸糜爛性炎症、 環系統疾病）、F（呼吸系統疾病）、G（消慢性大腸炎症） 化系統疾病）、H（泌尿系統疾病）、I（骨 24 紅斑性狼瘡 I 骼肌肉系統及結締組織之疾病）、 25 肝硬化 G J（眼及其附屬器官之疾病）、K（傳染病）、 26 雷諾氏病 E L（先天畸形）、M（皮膚及皮下組織疾病）、",
-          "label_en": "Mental disorders G, Nervous system diseases D, Digestive system diseases E, Respiratory system diseases F, Chronic inflammatory bowel disease G, Hematological malignancies H, Musculoskeletal and connective tissue diseases I, Lupus nephritis 24, Cirrhosis G, Leukemia J, Infectious diseases K, Congenital malformations L, Skin and subcutaneous tissue diseases M"
+          "label_en": "G C (mental disorders), D (nervous system diseases), E (circu- irritable bowel syndrome, erosive gastrointestinal inflammation, latory system diseases), F (respiratory system diseases), G (diges- chronic colitis tive system diseases), H (urinary system diseases), I (musculo- 24 Lupus erythematosus I skeletal system and connective tissue diseases), 25 Liver cirrhosis G J (diseases of the eye and adnexa), K (infectious diseases), 26 Raynaud's disease E L (congenital malformations), M (diseases of the skin and subcutaneous tissue),"
         },
         {
           "code": "27",
@@ -8492,7 +8492,7 @@
         {
           "code": "FA",
           "label_zh": "馬祖地區牙周病照護網試辦計畫 FZ 全民健康保險牙醫門診總額特殊醫 2026年01月27日修訂療服務計畫-特殊需求者服務-重度居家牙醫醫療服務-發展遲緩兒童 (103.01.01新增) (109/1/1起) 牙醫門診總額特殊醫療服務計畫-醫全民健康保險牙醫門診總額特殊醫療團服務-失能老人 LF 療服務計畫-院所內服務-腦傷及脊髓牙醫門診總額特殊醫療服務計畫-到損傷之中度肢體障礙 (110/1/1起) 宅醫療服務-失能老人全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫 LG 療服務計畫-醫療團服務-腦傷及脊髓",
-          "label_en": "1. Each person is one record. 2. The 'serial number' or 'ID' may be duplicated across years. 3. Because of the nature of delayed-reporting files, decedent information may be incomplete, including blank ID, blank sex, or unknown cause-of-death code. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results may be exported, ensuring individuals cannot be re-identified. 1. Personal ID is encrypted. 2. The record-matching key is ID."
+          "label_en": "Matsu (Lienchiang) area periodontal disease care network pilot program FZ NHI dental outpatient global budget special medical Revised 27 January 2026 services program - services for persons with special needs - severe home dental care services - developmentally delayed children (added 1 January 2014, ROC 103.01.01) (from 1 January 2020, ROC 109/1/1) dental outpatient global budget special medical services program - medical team services - disabled elderly LF NHI dental outpatient global budget special medical services program - in-institution services - moderate physical disability due to brain injury and spinal cord injury (from 1 January 2021, ROC 110/1/1) dental outpatient global budget special medical services program - home medical services - disabled elderly NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical LG services program - medical team services - brain injury and spinal cord"
         },
         {
           "code": "L3",
@@ -8512,32 +8512,32 @@
         {
           "code": "L6",
           "label_zh": "療服務計畫-社區醫療站服務非精神 0-6歲嚴重齲齒兒童口腔健康照護試疾病者-重度(107.01.01新增) 辦計畫 (110/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額12歲至",
-          "label_en": "Medical service plan - Community medical station services for non-mental disease patients, 0-6 years old severe tooth decay children's oral health care pilot program (added on 1/1/2018) Oral health care program under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses for ages 12 and above"
+          "label_en": "services program - community medical station services for non-psychiatric patients - severe (added 1 January 2018, ROC 107.01.01) Oral health care pilot program for children aged 0-6 with severe dental caries (from 1 January 2021, ROC 110/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget, ages 12 to"
         },
         {
           "code": "L7",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LM 18歲青少年口腔提升照護試辦計畫疾病者-中度(107.01.01新增) (111/3/11起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for non-mental LM 18-year-old adolescents oral health enhancement pilot program for moderate conditions (added on 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for non-psychiatric patients - moderate (added 1 January 2018, ROC 107.01.01) LM Oral health enhancement care pilot program for adolescents up to age 18 (from 11 March 2022, ROC 111/3/11) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L8",
           "label_zh": "療服務計畫-社區醫療站服務非精神 LN 療服務計畫院所內服務-自閉症、失疾病者-輕度(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Care service plan - Community medical station services for non-psychiatric disorders LN Care service plan in-hospital services - Mild autism, intellectual disability cases (107.01.01新增) Dental outpatient total special medical insurance for National Health Insurance Dental outpatient total special medical insurance"
+          "label_en": "services program - community medical station services for non-psychiatric patients - mild (added 1 January 2018, ROC 107.01.01) LN services program, in-institution services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "L9",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LP 療服務計畫醫療團服務-自閉症、失病者-重度以上(107.01.01新增) 智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Medical service plan - Community medical station services for mental health patients with LP, Medical service team services - Autism and severe disease patients - Severe above (added on 1/1/2018) Oral health care program for severely carious teeth in children aged 0-6 years under the National Health Insurance dental outpatient special medical expenses, National Health Insurance dental outpatient special medical expenses"
+          "label_en": "services program - community medical station services for psychiatric patients - severe or above (added 1 January 2018, ROC 107.01.01) LP services program, medical team services - autism and dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LA",
           "label_zh": "療服務計畫-社區醫療站服務精神疾 LR 療服務計畫特定需求者服務-自閉病者-中度 (107/1/1起) 症、失智症(112/1/1起) 全民健康保險牙醫門診總額特殊醫全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Therapeutic service plan - community medical station services for mental disorders LR Therapeutic service plan specific needs services - individuals with moderate autism and dementia (effective from 01/01/2017) National Health Insurance dental outpatient total amount special medical"
+          "label_en": "services program - community medical station services for psychiatric patients - moderate (from 1 January 2018, ROC 107/1/1) LR services program, services for persons with specific needs - autism, dementia (from 1 January 2023, ROC 112/1/1) NHI dental outpatient global budget special medical NHI dental outpatient global budget special medical"
         },
         {
           "code": "LB",
           "label_zh": "療服務計畫-社區醫療站服務發展遲 LS 療服務計畫社區醫療站服務-自閉緩兒童(107/1/1起) 症、失智症(112/1/1起) 居家牙醫醫療服務-居整病人全民健康保險牙醫門診總額特殊醫",
-          "label_en": "Community medical station service development for delayed LS therapy service plan community medical station service - autistic children, dementia patients (effective from January 1, 2017) home dental care services - whole person"
+          "label_en": "services program - community medical station services for developmentally delayed children (from 1 January 2018, ROC 107/1/1) LS services program, community medical station services - autism, dementia (from 1 January 2023, ROC 112/1/1) home dental care services - integrated-care patients NHI dental outpatient global budget special medical"
         },
         {
           "code": "LC",
@@ -8562,7 +8562,7 @@
         {
           "code": "C3",
           "label_zh": "針灸 （101.11新增）",
-          "label_en": "acupuncture (added in 2013.11)"
+          "label_en": "Acupuncture (added November 2012, ROC 101.11)"
         },
         {
           "code": "C4",
@@ -8577,12 +8577,12 @@
         {
           "code": "C9",
           "label_zh": "照護試辦計畫【102.01.01（含）取消】 中醫-經保險人認定之特殊情形， 慢性病代領藥案件（101.11新增）。 腦血管後遺症中醫門診照護計畫",
-          "label_en": "Care pilot program [canceled starting from 2013.01.01] Traditional Chinese medicine - cases recognized by insurer due to special circumstances, chronic disease proxy medication (added in 2012.11). Stroke sequelae traditional Chinese medicine outpatient care plan"
+          "label_en": "Care pilot program [cancelled from 1 January 2013 (ROC 102.01.01), inclusive] TCM - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11). Cerebrovascular sequelae TCM outpatient care program"
         },
         {
           "code": "CA",
           "label_zh": "(99.1新增) 【103.01.01 (含)取 J7 中醫腫瘤試辦計畫消】 褥瘡之西醫住院病患中醫醫療資源不足地區鼓勵長期進駐輔助醫療試辦計畫 (100/1/1起 ) J9 中醫提升孕產照護品質計畫 2026年01月27日修訂顱腦損傷西醫住院病患中醫輔助 (111/1/1起) 醫療(105.02.01新增) 全民健康保險西醫住院病患中醫脊髓損傷西醫住院病患中醫輔助 JS 特定疾病輔助醫療計畫-術後疼痛醫療(105.02.01新增) (112/1增訂) 乳癌患者中醫門診加強照護醫療全民健康保險中醫癌症患者加強",
-          "label_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS; 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated; 3: Poorly differentiated; 4: Undifferentiated; Anaplastic; 9: Grade or differentiation not determined, not stated, or not applicable."
+          "label_en": "(added January 2010, ROC 99.1) [cancelled from 1 January 2014 (ROC 103.01.01), inclusive] J7 TCM oncology pilot program; TCM adjunctive care pilot program for Western-medicine inpatients with pressure ulcers; pilot program encouraging long-term stationing in areas with insufficient medical resources (from 1 January 2011, ROC 100/1/1) J9 TCM maternity care quality improvement program Revised 27 January 2026 TCM adjunctive care for Western-medicine inpatients with traumatic brain injury (from 1 January 2022, ROC 111/1/1) (added 1 February 2016, ROC 105.02.01) NHI TCM adjunctive treatment program for specific diseases in Western-medicine inpatients; TCM adjunctive care for spinal cord injury JS - postoperative pain (added 1 February 2016, ROC 105.02.01) (added January 2023, ROC 112/1) Enhanced TCM outpatient care for breast cancer patients NHI TCM enhanced care for cancer patients"
         },
         {
           "code": "JE",
@@ -8602,12 +8602,12 @@
         {
           "code": "JI",
           "label_zh": "JZ (107.02.01新增) 服務(113/1/1增訂) 大腸癌中醫門診加強照護計畫 XX 中醫特殊治療或處置 (107.02.01新增) 其他中醫急症處置計畫(107.05.01 新 AA 神經性耳鳴增) AB 人類免疫缺乏病毒感染中醫-受監護或輔助宣告，經受託 E1 腸病毒（87年增訂）",
-          "label_en": "Outpatient/Taiwan's Traditional Chinese Medicine (TCM) enhanced care plan for colorectal cancer XX TCM special treatment or intervention (107.02.01 new) Other TCM emergency intervention plan (new on 107.05.01 AA neural tinnitus added AB human immunodeficiency virus infection TCM - under guardianship or judicial declaration, entrusted E1 intestinal virus (added in 87)"
+          "label_en": "JZ (added 1 February 2018, ROC 107.02.01) services (added 1 January 2024, ROC 113/1/1) TCM outpatient enhanced care program for colorectal cancer XX TCM special treatment or procedure (added 1 February 2018, ROC 107.02.01) Other TCM emergency treatment program (added 1 May 2018, ROC 107.05.01) AA Neurogenic tinnitus AB Human immunodeficiency virus infection TCM - persons under guardianship or assistance declaration, entrusted E1 Enterovirus (added ROC 87 [1998])"
         },
         {
           "code": "JL",
           "label_zh": "人提供法院裁定文件影本醫師支援至安養、養護、殘障福利 (107.06.01新增) 機構及護理之家看診案件中醫-經醫師認定之失智症病人 E2 （89.3.16增訂） (107.06.01新增) 支援長期照護機構提供一般門診中醫-經保險人認定確有一次領取案件(99.1修訂)",
-          "label_en": "provider supplies court order document for medical support to long-term care institutions and nursing homes for dementia patients (added on 06/01/2017) general outpatient services for dementia patients confirmed by physician traditional chinese medicine E2 (amended on 03/16/1989) (added on 06/01/2017) support for general outpatient services to long-term care institutions traditional chinese medicine - confirmed by insurer as having received at least one claim (revised in 01/09/1999)"
+          "label_en": "person provides a copy of the court ruling (added 1 June 2018, ROC 107.06.01) Physician support visits to elderly-care, nursing-care, disabled-welfare institutions and nursing homes TCM - dementia patients as determined by a physician E2 (added 16 March 2000, ROC 89.3.16) (added 1 June 2018, ROC 107.06.01) Support for long-term care institutions to provide general outpatient cases (revised January 2010, ROC 99.1) TCM - special circumstances recognised by the insurer as genuinely requiring a one-time collection"
         },
         {
           "code": "JN",
@@ -8617,17 +8617,17 @@
         {
           "code": "JO",
           "label_zh": "開立慢性病連續處方箋，且可一次度試辦計畫領取60天用藥量者。 E6 氣喘 (109/2/7起 ) 肺結核試辦計畫（90.11增訂，實全民健康保險中醫慢性腎臟病門施至93.9） 診加強照護計畫 (109/4/1起) 全民健康保險高血壓醫療給付改呼吸困難西醫住院病患中醫輔助善方案（95.1增訂） 醫療 (110/1/1起)",
-          "label_en": "Prescription for chronic diseases, allowing up to 60 days of medication during a pilot program starting from February 7, 2021. E6 Asthma (effective since February 7, 2021) Tuberculosis pilot program (added in November 90, fully implemented in National Health Insurance Traditional Chinese Medicine chronic kidney disease outpatient services until September 93). Strengthened care plan (effective since April 1, 2021) National Health Insurance hypertension medical payment reform Western medicine inpatients with respiratory distress assisted by traditional Chinese medicine (added in January 95)"
+          "label_en": "issues a chronic-disease continuous prescription, and can collect a 60-day drug supply at one time (pilot program) E6 Asthma (from 7 February 2020, ROC 109/2/7) Tuberculosis pilot program (added November 2001, ROC 90.11; implemented until September 2004, ROC 93.9) NHI TCM chronic kidney disease outpatient enhanced care program (from 1 April 2020, ROC 109/4/1) NHI hypertension medical benefit improvement program (added January 2006, ROC 95.1) TCM adjunctive care for Western-medicine inpatients with dyspnea (from 1 January 2021, ROC 110/1/1)"
         },
         {
           "code": "E9",
           "label_zh": "烏腳病試辦計畫（95.10取消） 全民健康保險中醫門診總額照護支援長期照護機構提供復健治療機構中醫醫療照護方案案件(99.1增訂) 2026年01月27日修訂全民健康保險初期慢性腎臟病醫整合照護執行方案療給付改善計畫(100.01增訂) (111/1/1起 ) 全民健康保險居家醫療照護整合衛生福利部緊急醫療資源缺乏地",
-          "label_en": "Beriberi pilot program (cancelled in 95.10) Traditional Chinese medicine outpatient total care for health insurance Support for long-term care institutions to provide rehabilitation treatment Traditional Chinese medicine medical care plan for institutions (added in 99.1). Revised on January 27, 2026. Chronic kidney disease integrated care execution plan for initial stages of health insurance Payment improvement plan (added on 100.01). Effective from 111/1/1 Home-based healthcare integration Health and welfare emergency medical resource shortage areas"
+          "label_en": "Blackfoot disease pilot program (cancelled October 2006, ROC 95.10) NHI TCM outpatient global budget care Support for long-term care institutions to provide rehabilitation treatment institution TCM care program cases (added January 2010, ROC 99.1) Revised 27 January 2026 NHI early-stage chronic kidney disease integrated care implementation program medical benefit improvement program (added January 2011, ROC 100.01) (from 1 January 2022, ROC 111/1/1) NHI integrated home medical care Ministry of Health and Welfare emergency medical resource shortage area"
         },
         {
           "code": "EC",
           "label_zh": "G4 計畫(104.04.23增訂) 區改善計畫（95.4增訂） 早期療育門診醫療給付改善方案醫療資源缺乏地區服務獎勵方案-巡迴醫",
-          "label_en": "G4 Plan (Amended on 23 April 2015) Regional Improvement Plan (Amended in April 1996) Early Intervention Outpatient Medical Payment Improvement Scheme Service Incentive Program for Resource-Limited Areas - Mobile Clinics"
+          "label_en": "G4 program (added 23 April 2015, ROC 104.04.23) improvement program (added April 2006, ROC 95.4) Early intervention outpatient medical benefit improvement program Medical-resource-shortage area service incentive program - itinerant clinics"
         },
         {
           "code": "ED",
@@ -8637,7 +8637,7 @@
         {
           "code": "EE",
           "label_zh": "家隔離或檢疫者之通訊診療案-新開業 (109/2/26起 ) 醫療資源缺乏地區服務獎勵方案- COVID-19(武漢肺炎)疫情期間居已開業",
-          "label_en": "Tele-consultation for home isolation or quarantine - new establishment (effective from 2/26/2021) Medical resource shortage area service incentive program - COVID-19 (Wuhan pneumonia) epidemic period already established"
+          "label_en": "Telehealth consultation for persons under home isolation or quarantine during the COVID-19 (Wuhan pneumonia) epidemic - newly opened (from 26 February 2020, ROC 109/2/26) Medical-resource-shortage area service incentive program - already opened"
         },
         {
           "code": "EF",
@@ -8647,32 +8647,32 @@
         {
           "code": "EG",
           "label_zh": "核感染治療品質支付服務計畫給付效益提昇計畫(92.7增訂) (112/6/1起 ) 偏鄉地區復建治療支援慢性傳染病照護品質計畫-愛滋照 (108/5/1起)",
-          "label_en": "quality payment service plan for treatment of suspected infection benefits enhancement plan (amended on 7/92) (effective since 6/1/2023) rural rehabilitation therapy support chronic infectious disease quality care plan - HIV care (effective since 5/1/2018)"
+          "label_en": "tuberculosis infection treatment quality payment service program (from 1 June 2023, ROC 112/6/1) benefit enhancement program (added July 2003, ROC 92.7) Rehabilitation therapy support in remote areas (from 1 May 2019, ROC 108/5/1) Chronic infectious disease care quality program - HIV care"
         },
         {
           "code": "EH",
           "label_zh": "護管理品質支付計畫西醫基層(醫院支援)醫療資源不足 (112/6/1起 ) GB 地區改善方案-巡迴醫療到宅服務慢性傳染病照護品質計畫-長照機 (109/1/1起 )",
-          "label_en": "Nursing Quality Payment Plan - General Medical Primary Care (Hospital Support) Medical Resources Insufficiency (Effective from June 1, 2012) GB Area Improvement Scheme - Home-based Circulating Medical Services Chronic Infectious Disease Care Quality Plan - Long-term Care Facilities"
+          "label_en": "nursing management quality payment program (from 1 June 2023, ROC 112/6/1) Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources GB - itinerant home-visit medical services Chronic infectious disease care quality program - long-term care institutions (from 1 January 2020, ROC 109/1/1)"
         },
         {
           "code": "EJ",
           "label_zh": "構加強型結核病防治計畫 GC 遠距醫療給付計畫 (110/1/1起 ) (112/6/1起) 醫院支援偏遠地區緊急醫療糖尿病及初期慢性腎臟病照護整 (112/3/17新增) 合方案 (111/3/1起 ) H1 肝炎試辦計畫全民健康保險思覺失調症醫療給西醫-行動不便者，經醫師認定或經受付改善方案 (111/5/1起 ) H2 託人提供切結文件，慢性病代領藥案全民健康保險代謝症候群防治計件(96.7增訂；101.11修訂文字) 畫(112.1新增) 西醫-已出海為遠洋漁船作業船 N（新個案）、C（完成個案）、R（復 H3 員，提供切結文件，慢性病代領藥 N,C,R 發個案）：全民健康保險乳癌醫療案件(96.7增訂：101.11修訂文字) 給付改善方案（90.11增訂） 自費健檢發現病兆加作處置或檢南投縣信義鄉暨仁愛鄉精神疾病查（97.1增訂）",
-          "label_en": "1. Inpatient copayment varies by length of stay and bed type (acute or chronic), so inpatient medical-fee points are divided into 7 parts: (1) points for acute bed days 1-30; (2) acute bed days 31-60; (3) acute bed days 61+; (4) chronic bed days 1-30; (5) chronic bed days 31-90; (6) chronic bed days 91-180; (7) chronic bed days 181+, each computed separately. 2. For acute-bed stays over 30 days, split the medical-fee points into 1-30, 31-60, and 61+ days. 3. For chronic-bed stays over 30 days, split into 1-30, 31-90, 91-180, and 181+ days."
+          "label_en": "Institution-enhanced tuberculosis prevention and control program GC Telemedicine payment program (from 1 January 2021, ROC 110/1/1) (from 1 June 2023, ROC 112/6/1) Hospital support for emergency medical care in remote areas Diabetes and early chronic kidney disease integrated care program (added 17 March 2023, ROC 112/3/17) (from 1 March 2022, ROC 111/3/1) H1 Hepatitis pilot program NHI schizophrenia medical benefit improvement program (from 1 May 2022, ROC 111/5/1) H2 Western medicine - persons with limited mobility, as determined by a physician or the entrusted person providing a sworn statement, chronic-disease proxy refill cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI metabolic syndrome prevention program (added January 2023, ROC 112.1) Western medicine - already at sea as crew of an ocean-going fishing vessel N (new case), C (completed case), R (recurrent case): H3 providing a sworn statement, chronic-disease proxy refill N,C,R cases (added July 2007, ROC 96.7; wording revised November 2012, ROC 101.11) NHI breast cancer medical benefit improvement program (added November 2001, ROC 90.11) Lesions found at a self-paid health check-up, additional treatment or examination (added January 2008, ROC 97.1) Nantou County Xinyi and Ren'ai Townships mental illness"
         },
         {
           "code": "F1",
           "label_zh": "醫療給付效益提昇計畫（中區分 H5 代謝症候群照護方案（97.8增訂） 局，90.8增訂） 西醫-已出海為國際航線船舶作業示範門診試辦計畫（91.01增訂、 船員，提供切結文件，慢性病代領",
-          "label_en": "National Health Insurance Research Database (NHIRD) Metabolic Syndrome Care Plan under the Medical Payment Improvement Program (Central Region, H5 Revision, 97.8 and 90.8)"
+          "label_en": "medical benefit enhancement program (Central Branch, added August 2001, ROC 90.8) H5 Metabolic syndrome care program (added August 2008, ROC 97.8) Western medicine - already at sea as crew of an international-route vessel, providing a sworn statement, chronic-disease proxy refill Demonstration outpatient pilot program (added January 2002, ROC 91.01,"
         },
         {
           "code": "F7",
           "label_zh": "H6 93.10取消） 藥案件(97.10增訂；101.11修訂全民健康保險山地離島地區醫療文字) 給付效益提昇計畫之山地鄉全人 H7 全民健康保險B型肝炎帶原者及C 2026年01月27日修訂型肝炎感染者醫療給付改善方案西醫-嚴重特殊傳染性肺炎疫情期 (99.1增訂) 間，經醫師評估慢性病病情穩定， 西醫-持慢性病連續處方箋領藥， HJ 開立慢性病連續處方箋，且可一次預定出國，提供切結文件，一次領領取60天用藥量者。",
-          "label_en": "1. The grading and assessment standards for persons with disabilities adopted a new system from 11 July 2012 (ROC 101). 2. The total number of persons with disabilities is the sum under the new and old systems. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The key for person-level grouping and record matching is ID."
+          "label_en": "H6 cancelled October 2004, ROC 93.10) cases (added October 2008, ROC 97.10; wording revised November 2012, ROC 101.11) NHI medical benefit enhancement program for mountain and offshore island areas - whole-person integrated care in mountain townships H7 NHI medical benefit improvement program for hepatitis B carriers and hepatitis C patients Revised 27 January 2026 Western medicine - during the severe special infectious pneumonia (COVID-19) epidemic, where the physician assesses the chronic disease as stable, issues a chronic-disease continuous prescription, and the patient can collect a 60-day drug supply at one time. (added January 2010, ROC 99.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, HJ planning to go abroad, providing a sworn statement, collecting"
         },
         {
           "code": "H8",
           "label_zh": "取2個月或3個月用藥量案件箋， (109/2/7起 ) 出具出國〈如機票等)一次領取二全民健康保險西醫基層提升心肺個月用藥量。 HK 疾病照護品質提升計畫(111/8新西醫-經保險人認定之特殊情形， 增) 慢性病代領藥案件（101.11新增） HM 大腸癌追蹤管理西醫-持慢性病連續處方箋領藥， HN 大腸癌診斷品質管理返回離島地區，提供切結文件，一 HP 口腔癌追蹤管理次領取2個月或3個月用藥量案件 HQ 口腔癌診斷品質管理 （101.11新增）",
-          "label_en": "1. ID number (ID), physician ID number (PRSN_ID), and facility code (HOSP_ID) are encrypted. 2. The unique key of this file is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID, which is the key for matching the inpatient order file (H_NHI_IPDTO). 3. The key for grouping the same admission: ID + HOSP_ID + IN_DATE. 4. The key for person-level grouping and matching: ID. 5. The key for facility-level grouping and matching: HOSP_ID."
+          "label_en": "a 2-month or 3-month drug supply at one time; prescription with proof of travel abroad (e.g. air ticket), collecting a two-month drug supply at one time. (from 7 February 2020, ROC 109/2/7) NHI Western-medicine primary care cardiopulmonary HK disease care quality improvement program (added August 2022, ROC 111/8) Western medicine - special circumstances recognised by the insurer, chronic-disease proxy refill cases (added November 2012, ROC 101.11) HM Colorectal cancer follow-up management Western medicine - collecting drugs on a chronic-disease continuous prescription, HN Colorectal cancer diagnostic quality management returning to an offshore island area, providing a sworn statement, HP Oral cancer follow-up management collecting a 2-month or 3-month drug supply at one time HQ Oral cancer diagnostic quality management (added November 2012, ROC 101.11)"
         },
         {
           "code": "HR",
@@ -8692,7 +8692,7 @@
         {
           "code": "HW",
           "label_zh": "乳癌診斷品質管理月用藥量案件（101.11新增）",
-          "label_en": "Breast cancer diagnosis quality management monthly medication cases (added in November 2012)"
+          "label_en": "Breast cancer diagnosis quality management, month drug supply cases (added November 2012, ROC 101.11)"
         },
         {
           "code": "HX",
@@ -8707,12 +8707,12 @@
         {
           "code": "HC",
           "label_zh": "員，提供切結文件，一次領取2個 JA 內門診（102.1起適用） 月或3個月用藥案件（101.11新收容對象醫療服務計畫-戒護門診增） JB (102.1起適用) 西醫-持慢性病連續處方箋領藥， Pre-ESRD預防性計畫及病人衛教罕見疾病病人，提供切結文件，一 K1",
-          "label_en": "Staff, provide a guarantee document, one-time collection of 2 months or 3 months' worth of medication cases JA Inpatient consultation (effective from January 102.1) JB (Effective from January 102.1) Western medicine - chronic disease continuous prescription holders collecting medication, pre-ESRD preventive plan and patient education K1"
+          "label_en": "crew, providing a sworn statement, collecting a 2-month or 3-month drug supply at one time JA custody outpatient clinic (applicable from January 2013, ROC 102.1) cases (added November 2012, ROC 101.11) Medical services program for detainees - custody outpatient clinic JB (applicable from January 2013, ROC 102.1) Western medicine - collecting drugs on a chronic-disease continuous prescription, Pre-ESRD preventive program and patient health education rare-disease patients, providing a sworn statement, collecting K1"
         },
         {
           "code": "HD",
           "label_zh": "計畫(101年-102屬延續性計畫) 次領取2個月或3個月用藥案件成人預防保健社區巡迴服務 （101.11新增） K2 (108/1/1起)",
-          "label_en": "Plan (Continuation Plan from 2012 to 2013) - Cases with drug claims for 2 or 3 months in a follow-up, Adult Preventive Health Community Circumstances (Added in November 2012)"
+          "label_en": "program (ROC 101-102 [2012-2013], continuing program) a 2-month or 3-month drug supply at one time Adult preventive health services community outreach cases (added November 2012, ROC 101.11) K2 (from 1 January 2019, ROC 108/1/1)"
         },
         {
           "code": "C",
@@ -8742,7 +8742,7 @@
         {
           "code": "HI",
           "label_zh": "該處方箋總用藥量必要之特殊病人(107.04.27新增) 2026年01月27日修訂全民健康保險試辦計畫特定治療項目代號填報順序： A.分別屬某一試辦計畫之特定治療項目代號(如下表之序號 1~ 4)應優先填列於欄位(一)， 若同時符合二項疾病之試辦計畫，請分開二筆申報，其醫院代號、身分證號、就醫日期及就醫序號相同，支付內容依支付標準及各計畫之支付規定申報。 B.如同時屬二種(含)以上之試辦計畫，填列之順序如下： a.屬疾病種類之試辦計畫其特定治療項目代號優先填於欄位(一)，其他試辦計畫依序填列，如下表之序號6、7、8。(序號6之情形「案件分類」請填E1) b.屬西醫基層資源不足獎勵計畫且無疾病種類之試辦計畫，其特定治療項目代號 G5~G6 填於欄位(一)，其他試辦計畫依序填列，如下表之序號5。 c.若有全民健康保險加強慢性B、C型肝炎治療計畫者，請一律分開申報。 d.特定治療項目代號欄位(一)~(四)應依序填報。 2026年01月27日修訂序特定治療項目代號計畫情形案件分類號欄位(一) 欄位(二) 欄位(三) 全民健康保險山地離島地區醫",
-          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
+          "label_en": "for special patients for whom the total drug quantity on the prescription is necessary (added 27 April 2018, ROC 107.04.27) Revised 27 January 2026 Order of reporting the specific treatment item codes of NHI pilot programs: A. A specific treatment item code belonging to a single pilot program (serial numbers 1~4 in the table below) should be entered first in field (1). If a patient qualifies for the pilot programs of two diseases at the same time, report in two separate records with the same hospital code, ID number, visit date and visit sequence number; the payment content is reported according to the payment standards and the payment rules of each program. B. If a case belongs to two or more pilot programs at the same time, fill in the following order: a. For a pilot program by disease category, its specific treatment item code is entered first in field (1), and other pilot programs follow in order, as serial numbers 6, 7, 8 in the table below. (For serial number 6, enter E1 for 'case classification'.) b. For the primary-care incentive program for areas with insufficient resources with no disease category, the specific treatment item code G5~G6 is entered in field (1), and other pilot programs follow in order, as serial number 5 in the table below. c. Where the NHI enhanced chronic hepatitis B and C treatment program applies, always report separately. d. The specific treatment item code fields (1)~(4) must be filled in order. Revised 27 January 2026 Serial no. Specific treatment item code / program situation / case classification; field (1) field (2) field (3) NHI medical benefit program for mountain and offshore island areas"
         },
         {
           "code": "1",
@@ -10227,12 +10227,12 @@
         {
           "code": "IC82",
           "label_zh": "非山地鄉，99/1/18-104/3/1 方案 弱勢兒童臼齒窩溝封劑服務補助",
-          "label_en": "Non-mountain town, subsidy for weak children's molar sealant service from 1999/01/18 to 2014/03/01"
+          "label_en": "Non-mountain townships, 18 January 2010 - 1 March 2015 (ROC 99/1/18-104/3/1) program: subsidy for molar pit-and-fissure sealant service for disadvantaged children"
         },
         {
           "code": "IC83",
           "label_zh": "山地鄉，99/1/18-104/3/1 方案 身心障礙學童 弱勢兒童臼齒窩溝封劑 IC84 兒童牙齒塗氟保健服務(未滿 12 102.06.01（費用年月）修訂 歲之低收入戶、身心障礙、原住 IC87 103.09.01（費用年月）起停用 民族地區、偏遠及離島地區) 國小學童臼齒窩溝封填補助服務方案 國小兒童、低收入戶、中低收入 戶施作牙位16 國小兒童、低收入戶、中低收入 戶施作牙位26 國小兒童、低收入戶、中低收入 戶施作牙位36 國小兒童、低收入戶、中低收入 戶施作牙位46 身心障礙者、山地原住民鄉及離 島地區國小學童施作牙位16 身心障礙者、山地原住民鄉及離 島地區國小學童施作牙位26 103.09.01增訂 身心障礙者、山地原住民鄉及離 島地區國小學童施作牙位36 身心障礙者、山地原住民鄉及離 島地區國小學童施作牙位46 第一次評估檢查施作牙位16 IC8I 第一次評估檢查施作牙位26 IC8J 第一次評估檢查施作牙位36 IC8K 第一次評估檢查施作牙位46 IC8L 第二次評估檢查施作牙位16 IC8M 第二次評估檢查施作牙位26 IC8N 第二次評估檢查施作牙位36 IC8O 第二次評估檢查施作牙位46 IC8P 新生兒聽力篩檢補助服務方案【原名：補助經濟弱勢新生兒聽力篩檢服務方案】 99.01增訂；101.03.15修訂，原為 出生3個月內完成初篩及複篩 IC20 出生36小時起至滿3個月內 2026年01月27日修訂 成人預防保健 四十歲至未滿六十五歲 21 IC21 超過六十五歲以上或35歲以上小 86.04新增",
-          "label_en": "1. From 2007, cancer-registry long-form reporting used 95 fields, applicable to all cases diagnosed 2002-2010, so the 95-field long-form database includes some cases diagnosed 2002-2006. 2. The cancers long-form hospitals report include, besides those reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and added in 2008 (prostate, stomach, esophagus, bladder), those added in 2009 (nasopharyngeal, major salivary gland, uterine corpus, ovarian, hematologic) — 15 cancers total. 3. Because for some cancers the TNM-and-stage combinations differ between AJCC 6th and 7th editions, interpret stage distribution across diagnosis years carefully. 4. First-recurrence data records whether a first recurrence occurs within five years after diagnosis; only case classes 1 and 2 must report it. If recurrence repeats after a first recurrence within five years, only the first is recorded; a first recurrence after five years is recorded as no recurrence. Recurrence data is reported once at one year and once at five years after diagnosis. 5. The death-date and cause-of-death fields are less complete due to the timing of hospital cancer-registry reporting; for complete data, applying for the cause-of-death statistics file is recommended. 6. This manual is based on the Taiwan Cancer Registry Center manual; for details download from the TCR website, e.g. the 'ROC-96 Taiwan Cancer Registry abstracting manual'. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
+          "label_en": "Mountain townships, 18 January 2010 - 1 March 2015 (ROC 99/1/18-104/3/1) program; schoolchildren with disabilities; molar pit-and-fissure sealant for disadvantaged children IC84 Child fluoride varnish health service (children under 12 who are low-income, disabled, in indigenous areas, remote areas and offshore islands) revised June 2013 (fee year-month ROC 102.06.01); IC87 discontinued from September 2014 (fee year-month ROC 103.09.01); Primary-school molar pit-and-fissure sealant subsidy service program: primary-school children, low-income and middle-low-income households, tooth 16; primary-school children, low-income and middle-low-income households, tooth 26; primary-school children, low-income and middle-low-income households, tooth 36; primary-school children, low-income and middle-low-income households, tooth 46; primary-school children who are disabled or in mountain indigenous townships and offshore islands, tooth 16; same, tooth 26; added September 2014 (ROC 103.09.01); same, tooth 36; same, tooth 46; first evaluation examination, tooth 16 IC8I; first evaluation examination, tooth 26 IC8J; first evaluation examination, tooth 36 IC8K; first evaluation examination, tooth 46 IC8L; second evaluation examination, tooth 16 IC8M; second evaluation examination, tooth 26 IC8N; second evaluation examination, tooth 36 IC8O; second evaluation examination, tooth 46 IC8P. Newborn hearing screening subsidy service program [formerly: Hearing screening service program subsidizing economically disadvantaged newborns] Added January 2010 (ROC 99.01); revised 15 March 2012 (ROC 101.03.15), originally from 36 hours after birth to within 3 months; initial screening and re-screening completed within 3 months of birth IC20 Revised 27 January 2026 Adult preventive health care, ages 40 to under 65 21 IC21 over 65, or 35 and over, added April 1997 (ROC 86.04)"
         },
         {
           "code": "22",
@@ -10242,12 +10242,12 @@
         {
           "code": "IC24",
           "label_zh": "99.07增訂 65歲者 成人預防保健-B/C型肝炎表面抗",
-          "label_en": "Added in July 1999 65 years old Adult preventive health care - B/C hepatitis surface antigen"
+          "label_en": "(added July 2010, ROC 99.07) aged 65; adult preventive health care - hepatitis B/C surface antigen"
         },
         {
           "code": "IC29",
           "label_zh": "109/9/1起 原檢查 婦女子宮頸抹片檢查 30歲以上每年乙次 31 IC31 每三年檢查乙次 32 86.03.31取消 婦女子宮頸抹片檢查-30歲以上",
-          "label_en": "Starting from September 1, 2019, original examination Cervical cancer screening for women aged 30 and above once a year IC31 Check every three years 32 Cancelled on March 31, 2003 Cervical cancer screening for women aged 30 and above"
+          "label_en": "from 1 September 2020 (ROC 109/9/1) original examination; Pap smear for women aged 30 and above once a year 31 IC31; once every three years 32 cancelled 31 March 1997 (ROC 86.03.31); Pap smear for women aged 30 and above"
         },
         {
           "code": "IC33",
@@ -10262,17 +10262,17 @@
         {
           "code": "00",
           "label_zh": "IC00 檢驗單位申報 孕婦產前檢查服務 醫療院所-妊娠第一期第一次 41 IC41 醫療院所-妊娠第一期第二次 42 IC42 醫療院所-妊娠第二期第一次 43 IC43 醫療院所-妊娠第二期第二次 44 IC44 93年起孕婦產前檢查服務代碼，隨 醫療院所-妊娠第三期第一次 45 IC45 著時間將有所異動，請至國民健康署 醫療院所-妊娠第三期第二次 46 IC46 [健康促進法規-預防保健服務類]處 醫療院所-妊娠第三期第三次 47 IC47 下載服務醫事服務機構辦理預防保 醫療院所-妊娠第三期第四次 48 IC48 健注意事項 醫療院所-妊娠第三期第五次 49 IC49 醫療院所-妊娠第三期第六次 50 IC50 助產所填寫 51~60 IC51-IC60 婦女乳房攝影檢查 45歲以上至未滿70歲之婦女 IC91 93.07新增 40歲以上至未滿45歲且其二親等 IC93 2026年01月27日修訂 以內血親曾患有乳癌之婦女 定量免疫法糞便潛血檢查 50歲以上至未滿75歲者 IC85 102.06.01（費用年月）增訂 口腔黏膜檢查 30歲以上嚼檳榔或吸菸者 IC95 18歲以上至未滿30歲嚼檳榔之原",
-          "label_en": "1. This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. Excludes insured persons enrolled through military units. 3. Data is monthly in-force enrollment data. 4. Enrollment records of insured persons and dependents lacking basic data are treated as anomalous and not provided. 5. If the personal ID (ID) equals the insured person's ID (ID1), the record is the insured person; if the personal ID differs from ID1, the record is a dependent. 6. The file format and data descriptions reference the 'NHI enrollment forms' on the NHIA website (Downloads > Data Downloads > Form Downloads > Enrollment Eligibility and Change Forms > NHI Enrollment Forms). 7. From ROC 96 (2007), all records with enrollment status 'in-force' or 'suspended' are provided; for other statuses, the last-change data is provided, grouped by ID and birth date (per person). 1. Personal ID (ID) and insured-person ID (ID1) are encrypted. 2. The person-grouping/matching key is ID."
+          "label_en": "IC00 Reported by testing units Prenatal examination services for pregnant women Medical institution - first trimester, first visit 41 IC41 Medical institution - first trimester, second visit 42 IC42 Medical institution - second trimester, first visit 43 IC43 Medical institution - second trimester, second visit 44 IC44 Since 2004 (ROC 93) the prenatal examination service codes for pregnant women Medical institution - third trimester, first visit 45 IC45 will change over time; please go to the Health Promotion Administration Medical institution - third trimester, second visit 46 IC46 [Health promotion regulations - preventive health services] section Medical institution - third trimester, third visit 47 IC47 to download the notes on preventive health services for contracted medical institutions Medical institution - third trimester, fourth visit 48 IC48 Medical institution - third trimester, fifth visit 49 IC49 Medical institution - third trimester, sixth visit 50 IC50 Filled in by midwifery clinics 51~60 IC51-IC60 Mammography Women aged 45 to under 70 IC91 added July 2004 (ROC 93.07) Women aged 40 to under 45 whose second-degree relatives IC93 Revised 27 January 2026 (blood relatives) have had breast cancer Quantitative immunochemical fecal occult blood test Persons aged 50 to under 75 IC85 added (fee year-month) June 2013 (ROC 102.06.01) Oral mucosal examination Persons aged 30 and above who chew betel nut or smoke IC95 Indigenous persons aged 18 to under 30 who chew betel nut"
         },
         {
           "code": "IC97",
           "label_zh": "102.06.01（費用年月）增訂 住民 其他 65歲以上老人流行感冒疫苗注射 01 IC01 88.10新增 慢性病連續處方箋第二次（含） 以後調劑者 代辦職災病患就診 06 IC06 89.01新增 代辦門診戒菸 07 IC07 91.09新增 代辦精神科強制住院 08 IC08 92.06新增 代辦無健保病患（結核病、潛伏 感染治療及接觸者診檢查、人類 95.01新增 免疫缺乏病毒感染者、性病或藥 IC09 96.07修訂 癮病患全面篩檢愛滋、愛滋防治 替代治療計畫）就醫 代辦性病或藥癮病患全面篩檢愛",
-          "label_en": "1. From ROC year 99 (2010), the Health Promotion Administration expanded four cancer screenings (colorectal, oral, breast, and cervical), providing them through NHI-contracted preventive-care facilities, adding colorectal and oral cancer screening to preventive-care services, and expanding breast-cancer screening to include women aged 40 to under 45 who are second-degree relatives at high risk (mother, daughter, sister, grandmother having had breast cancer). 2. The government funds a free oral mucosal exam once every two years for people aged 30+ who chew betel nut (including those who quit) or smoke, and for indigenous people aged 18+ who chew betel nut. 3. Oral-cancer screening file contents:"
+          "label_en": "added (fee year-month) June 2013 (ROC 102.06.01) indigenous peoples; other; influenza vaccination for persons aged 65 and above 01 IC01 added October 1999 (ROC 88.10); second (inclusive) and later dispensing of a chronic-disease continuous prescription; commissioned care for occupational-injury patients 06 IC06 added January 2000 (ROC 89.01); commissioned outpatient smoking cessation 07 IC07 added September 2002 (ROC 91.09); commissioned compulsory psychiatric hospitalization 08 IC08 added June 2003 (ROC 92.06); commissioned care for patients without NHI (tuberculosis, latent infection treatment and contact examination, people with human immunodeficiency virus infection, comprehensive HIV screening of patients with sexually transmitted diseases or drug addiction, HIV prevention substitution treatment program) added January 2006 (ROC 95.01) IC09 revised July 2007 (ROC 96.07); commissioned comprehensive HIV screening of patients with sexually transmitted diseases or drug addiction"
         },
         {
           "code": "10",
           "label_zh": "IC10 97.06增訂 滋病毒計畫 無力繳納保費就醫 89 IC89 88.02增訂 軍人代辦案件 91~96 87.07-90.02 非本保險保險對象之之器官捐贈 98 IC98 HMO巡迴醫療、921震災就醫， 符合資源共享，提供CT、MRI檢 IC99 93.07 查結果之院所申報 誤為委任（或行政協助）醫療項",
-          "label_en": "ICD10 97.06 amendment Viral vaccination plan no payment for medical care 89 ICD89 88.02 amendment Military proxy cases 91~96 87.07-90.02 Non-insured organ donation 98 ICD98 HMO mobile doctors, 921 earthquake medical care, 符合 resource sharing, provide CT、MRI检查结果申报机构误为委任（或行政协助）医疗项目"
+          "label_en": "IC10 added June 2008 (ROC 97.06) HIV program; medical care for those unable to pay premiums 89 IC89 added February 1999 (ROC 88.02); cases commissioned for military personnel 91~96 July 1998 - February 2001 (ROC 87.07-90.02); organ donation by persons not insured under this insurance 98 IC98; HMO itinerant medical care, 921 earthquake visits; institutions that meet resource-sharing requirements and provide CT and MRI examination results report IC99 July 2004 (ROC 93.07) mistaken as entrusted (or administrative assistance) medical items"
         },
         {
           "code": "ICB6",
@@ -10292,12 +10292,12 @@
         {
           "code": "ICCD",
           "label_zh": "113.01增訂 費 代辦愛滋個案管理計畫 ICD1 99.12增訂 登革熱NS1抗原快速篩檢試劑 ICDF 104/9/17起 代辦流感病毒抗原快速篩檢試驗 ICHN 98/8/1-99/3/31 2026年01月27日修訂 全民健康保險Pre-ESRD預防性計",
-          "label_en": "113.01 Added AIDS case management plan ICD9 9.12 Added dengue fever NS1 antigen rapid test reagent ICD10 4/9/17 Added influenza virus antigen rapid test ICHN 98/8/1-99/3/31 Revised on January 27, 2026, for National Health Insurance Pre-ESRD preventive program"
+          "label_en": "added January 2024 (ROC 113.01) fee; commissioned AIDS case management program ICD1 added December 2010 (ROC 99.12); dengue NS1 antigen rapid test reagent ICDF from 17 September 2015 (ROC 104/9/17); commissioned influenza virus antigen rapid screening test ICHN 1 August 2009 - 31 March 2010 (ROC 98/8/1-99/3/31) Revised 27 January 2026 NHI Pre-ESRD preventive pro"
         },
         {
           "code": "ICK1",
           "label_zh": "101.01增訂 畫及病人衛教計畫 慢性病連續處方箋第二次後(第 五次調劑)調劑者(配合行政科海 ICK5 111/8/30-112/12/31 員慢箋180天一次領) 慢性病連續處方箋第二次後(第 六次調劑)調劑者(配合行政科海 ICK6 111/8/30-112/12/31 員慢箋180天一次領) 遠距醫療 TM01 109/12/29起 18歲以下兒少(依99年12月6日 健保醫字第 0990081857 號函新 C002 增) 弱勢民眾安心就醫方案-懷孕婦 女例外就醫 COVID-19遠距緊急醫療就醫諮詢 CV19 高齡醫師 H000 虛擬健保卡就醫模式試辦方案 I000 居家輕量化 M001-M999 虛擬健保卡 V001-V999 全民健康保險代謝症候群防治計 畫之個案收案、追蹤及年度評估 補充說明： (1) 各項預防保健服務得視病情需要，由同一診治醫師併行其他一般診療，如開給感冒藥等， 不必另外加蓋健保卡戳章，亦不得收取部分負擔費用。該次治療及藥品以「門診醫療服務 點數清單」申報，就醫序號欄以該次預防保健服務之時程代碼填入，部分負擔代碼則以「009」 填入，並不得另行申報診察費。 (2) 各項預防保健服務費用申報，併當月份門診費用，其中婦女子宮頸抹片檢查之採檢醫療機 構、病理檢驗醫療機構採分開申報、分開支付方式，如採檢醫療機構及病理檢驗醫療機構 為同一院所，則可合併申報。 (3) 同一序號如有重複申報，僅支付實際於健保卡註記之服務機構。 (4) 異常代碼對照表（依健保署97年9月10日健保醫字第0970002562號函之健保IC 卡資料 上傳作業說明異常代碼對照表填寫） 2026年01月27日修訂 異常代碼 異常原因 （尚未取得就醫序號） （已取得就醫序號） 讀卡設備故障 A000 A001 讀卡機故障 A010 A011 網路故障造成讀卡機無法使用 A020 A021 安全模組故障造成讀卡機無法使用 A030 A031 卡片不良（表面正常，晶片異常） B000 B001 停電 C000 例外就醫 C001 醫療資訊系統（HIS）當機/",
-          "label_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS. 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated. 3: Poorly differentiated. 4: Undifferentiated; Anaplastic. 9: Grade or differentiation not determined, not stated, or not applicable. Note: because tumor grade/differentiation uses 2-, 3-, or 4-tier schemes for different cancers, see the pre-ROC-100 Taiwan Cancer Registry long/short-form abstracting manuals (downloadable from the TCR site under 'cancer-registry reporting reference materials'). For lymphomas and leukemias: 5: T cell; 6: B cell, pre-B, B-precursor; 7: Null cell, non-T-non-B; 8: NK (natural killer) cell; 9: Cell type not determined, not stated, or not applicable. For ovary borderline tumor: B: Ovary borderline tumor (low malignant potential) combined with intraepithelial carcinoma and/or microinvasion. For colon-rectum tumor: B: Colon-rectum high-grade dysplasia (severe dysplasia). From 2018, codes A/B/C/D/E/H/L/M/S/X were added (see the ROC-107 abstracting manual, short-form field 45 and long-form field)."
+          "label_en": "added January 2012 (ROC 101.01) program and patient health education program Chronic-disease continuous prescription, after the second time (fifth refill) (coinciding with the administrative department's 180-day one-time collection of chronic prescriptions for seafarers) ICK5 30 August 2022 - 31 December 2023 (ROC 111/8/30-112/12/31) Chronic-disease continuous prescription, after the second time (sixth refill) (coinciding with the administrative department's 180-day one-time collection of chronic prescriptions for seafarers) ICK6 30 August 2022 - 31 December 2023 (ROC 111/8/30-112/12/31) Telemedicine TM01 from 29 December 2020 (ROC 109/12/29) Children and adolescents aged 18 and under (added per NHI Administration Medical Letter No. 0990081857 of 6 December 2010, ROC 99/12/6) C002 Disadvantaged Persons Peace-of-Mind Medical Care Program - exceptional visit for pregnant women COVID-19 telehealth emergency medical consultation CV19 Elderly physician H000 Virtual NHI card visit pilot program I000 Home-based lightweight M001-M999 virtual NHI card V001-V999 case enrollment, follow-up and annual assessment of the National Health Insurance Metabolic Syndrome Prevention Program Supplementary notes: (1) Each preventive health service may, as clinically needed, be combined with other general treatment by the same attending physician, such as prescribing cold medicine, without an additional NHI card stamp, and no copayment may be charged. That treatment and medication are reported on the 'Outpatient Medical Service Points List', with the visit sequence number field filled with the timing code of the preventive health service and the copayment code filled as '009'; no separate consultation fee may be reported. (2) Reporting of preventive health service fees is combined with that month's outpatient fees; for cervical (Pap) smear screening, the specimen-collecting institution and the pathology-testing institution report and are paid separately, unless they are the same institution, in which case joint reporting is allowed. (3) If the same serial number is reported more than once, only the service institution actually annotated on the NHI card is paid. (4) Abnormality code table (filled in according to the abnormality code table in the NHIA's IC card data upload instructions, per Medical Letter No. 0970002562 of 10 September 2008, ROC 97/9/10) Revised 27 January 2026 Abnormality code / abnormality reason (visit sequence number not yet obtained) (visit sequence number already obtained) Card reader device failure A000 A001 Card reader failure A010 A011 Network failure making the card reader unusable A020 A021 Security module failure making the card reader unusable A030 A031 Defective card (surface normal, chip abnormal) B000 B001 Power outage C000 Exceptional medical visit C001 Medical information system (HIS) crash/"
         },
         {
           "code": "D000",
@@ -11123,12 +11123,12 @@
         {
           "code": "M",
           "label_zh": "肝炎試辦計畫 92.10增訂",
-          "label_en": "hepatitis pilot program (added October 92)"
+          "label_en": "Hepatitis pilot program (added October 2003, ROC 92.10)"
         },
         {
           "code": "U",
           "label_zh": "非天然災害之重大意外事故 110/4/1起",
-          "label_en": "major accidental injury not due to natural disaster starting 2011/4/1"
+          "label_en": "Major accidents not caused by natural disaster, from 1 April 2021 (ROC 110/4/1)"
         },
         {
           "code": "V",
@@ -11174,17 +11174,17 @@
         {
           "code": "901",
           "label_zh": "901 901 項目) 三歲以下兒童醫療補助計畫(91.03.1增訂) (協",
-          "label_en": "901 901 项目) 三岁以下儿童医疗补助计划(91.03.01增订) (协"
+          "label_en": "901 901 items) Medical subsidy program for children under three years of age (added 1 March 2002, ROC 91.03.1) (assisting"
         },
         {
           "code": "902",
           "label_zh": "902 902 助衛生福利部辦理項目) 新生兒依附註記方式就醫者(92.9增訂) (協助",
-          "label_en": "902 902 For items handled by the Department of Health Newborns who seek medical care according to annotations (Added in September 2012) (Assistance"
+          "label_en": "902 902 MOHW programs) Newborns seeking care via annotation (added September 2003, ROC 92.9) (assisting"
         },
         {
           "code": "903",
           "label_zh": "903 903 衛生福利部辦理項目) 行政協助愛滋病案件(95.3增訂)、愛滋防治替",
-          "label_en": "903 903 Administrative assistance for AIDS cases (added in 1995.3), AIDS prevention alternative"
+          "label_en": "903 903 MOHW programs) Administrative assistance for AIDS cases (added March 2006, ROC 95.3), AIDS prevention substitution"
         },
         {
           "code": "904",
@@ -11194,7 +11194,7 @@
         {
           "code": "907",
           "label_zh": "907 【104.11.01(含)起適用】 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百 I21 元以下免加收藥費部分負擔者符合本保險藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件代辦海洋委員會海巡署補助部分負擔 908 908 代辦中央警察大學補助部分負擔 909 909 代辦內政部消防署補助部分負擔 910 910 代辦內政部空勤總隊補助部分負擔 911 911 代辦內政部警政署補助部分負擔 912 912 代辦國防部補助部分負擔 913 913 行政協助法定傳染病通報隔離案件 914 914 代辦內政部移民署補助部分負擔 915 915 長照機構加強型結核病防治計畫免部分負擔 916 註：依 97 年 2 月 13 日健保醫字第 0970001927 號函，倘同一案件同時符合二項以上免部 2026年01月27日修訂分負擔條件者，門、住診皆依下列原則填寫： 一、 依全民健康險法規定（健保法94條）職業災害（含職業傷害及職業病）優先填寫， 即部分負擔代碼006（勞工保險被保險人因職業傷害或職業病門診）優先填寫。 二、 非屬前述則依全民健康保險法規定免自行負擔者，優先擇一適用代碼填寫，包括重大傷病（001）、分娩（002）、預防保健服務（009）及山地離島地區之就醫（007） 之部分。 三、 再者，若非上開（一）（二）情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填寫。 2026年01月27日修訂四、 應部分負擔編碼原則第一碼（醫療院所層級） 西醫牙醫中醫",
-          "label_en": "1. From 2007, cancer-registry long-form reporting used 95 fields, applicable to all cases diagnosed 2002-2010, so the 95-field long-form database includes some cases diagnosed 2002-2006. 2. The cancers long-form hospitals report include, besides those reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and added in 2008 (prostate, stomach, esophagus, bladder), those added in 2009 (nasopharyngeal, major salivary gland, uterine corpus, ovarian, hematologic) — 15 cancers total. 3. Because for some cancers the TNM-and-stage combinations differ between AJCC 6th and 7th editions, interpret stage distribution across diagnosis years carefully. 4. First-recurrence data records whether a first recurrence occurs within five years after diagnosis; only case classes 1 and 2 must report it. If recurrence repeats after a first recurrence within five years, only the first is recorded; a first recurrence after five years is recorded as no recurrence. Recurrence data is reported once at one year and once at five years after diagnosis. 5. The death-date and cause-of-death fields are less complete due to hospital reporting timing; for complete data, apply for the cause-of-death statistics file. 6. This manual is based on the Taiwan Cancer Registry Center manual; for details download from the TCR website, e.g. the 'ROC-96 Taiwan Cancer Registry abstracting manual'. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
+          "label_en": "907 [applicable from 1 November 2015 (ROC 104.11.01), inclusive] Persons who must pay the drug copayment I20 Cases dispensed at primary clinics or district hospitals, or for middle-low-income households and holders of a disability certificate at medical centers or regional hospitals, where the drug cost is NT$100 I21 or less, exempt from the drug copayment; persons meeting the NHI rules exempting drug costs from copayment, including chronic-disease continuous prescriptions dispensed by primary clinics, second (inclusive) and later refills of chronic-disease continuous prescriptions dispensed by hospitals, chronic-disease continuous prescriptions dispensed for middle-low-income households and holders of a disability certificate at medical centers and regional hospitals, dental cases, and outpatient case-payment cases. Commissioned: copayment subsidised by the Coast Guard Administration, Ocean Affairs Council 908 908 Commissioned: copayment subsidised by the Central Police University 909 909 Commissioned: copayment subsidised by the National Fire Agency, Ministry of the Interior 910 910 Commissioned: copayment subsidised by the National Airborne Service Corps, Ministry of the Interior 911 911 Commissioned: copayment subsidised by the National Police Agency, Ministry of the Interior 912 912 Commissioned: copayment subsidised by the Ministry of National Defense 913 913 Administrative assistance: notifiable infectious disease reported and isolated cases 914 914 Commissioned: copayment subsidised by the National Immigration Agency, Ministry of the Interior 915 915 Enhanced tuberculosis prevention and control program for long-term care institutions, copayment exempt 916 Note: Per Letter No. 0970001927 of 13 February 2008 (ROC 97/2/13), where the same case meets two or more copayment-exemption conditions, both outpatient and inpatient claims are filled in according to the following principles: 1. Under the National Health Insurance Act (Article 94), occupational injury (including occupational injury and occupational disease) takes priority, i.e. copayment code 006 (labor insurance insured person, outpatient visit for occupational injury or occupational disease) is filled first. Revised 27 January 2026 2. Otherwise, for those exempt from cost-sharing under the National Health Insurance Act, choose one applicable code with priority, including catastrophic illness (001), childbirth (002), preventive health services (009) and visits in mountain and offshore island areas (007). 3. If neither of the above applies and the case is a commissioned copayment subsidy, choose one applicable code from top to bottom. Revised 27 January 2026 4. Copayment coding principles, first character (level of medical institution): Western medicine, dental, TCM"
         },
         {
           "code": "A",
@@ -11269,22 +11269,22 @@
         {
           "code": "4",
           "label_zh": "一般身分持藥單(111年 4月14日增訂)",
-          "label_en": "general identity with prescription (amended on April 14, 2021)"
+          "label_en": "General status, holding a drug slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "5",
           "label_zh": "一般身分持檢驗單(111 年4月14日增訂)",
-          "label_en": "General Identity with Lab Test Request (Added April 14, 2122)"
+          "label_en": "General status, holding a laboratory test slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "6",
           "label_zh": "一般身分持藥單及檢驗單(111年4月14日增訂)",
-          "label_en": "General identity holder of drug and examination orders (amended on April 14, 2011)"
+          "label_en": "General status, holding a drug slip and a laboratory test slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "7",
           "label_zh": "持身心障礙證明加藥單(111年4月14日增訂)",
-          "label_en": "Addendum to prescription with disability certificate (Added Apr 14, 2023)"
+          "label_en": "Holding a disability certificate plus drug slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "8",
@@ -11304,7 +11304,7 @@
         {
           "code": "P",
           "label_zh": "中低收入戶之保險對象加藥單(112年3月7日增訂) 2026年01月27日修訂 2026年01月27日修訂 (1) 應部分負擔代碼及負擔點數西醫代號說明點數增修日期",
-          "label_en": "Low-income household insured party drug list (added on March 7, 2022) Revised on January 27, 2026 Revised on January 27, 2026 (1) Copayment code and point number Western medicine Code Description Points Date added"
+          "label_en": "Insured persons from middle-low-income households, with drug slip (added 7 March 2023, ROC 112/3/7) Revised 27 January 2026 Revised 27 January 2026 (1) Copayment codes and copayment points: Western medicine Code Description Points Date added/revised"
         },
         {
           "code": "A00",
@@ -11349,7 +11349,7 @@
         {
           "code": "A13",
           "label_zh": "（98.8起）；收容對象醫療服務計畫之矯正機關內門診（102.01 50 新增）",
-          "label_en": "(Since September 8, 2009); inpatient medical service plan for correctional institutions (Added on January 5, 2012)"
+          "label_en": "(from August 2009, ROC 98.8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102.01) 50"
         },
         {
           "code": "A14",
@@ -11359,7 +11359,7 @@
         {
           "code": "A17",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者 (98/ 8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "holders of disability certificates or participants in pilot programs (since 08/09/2008); outpatient services at correctional institutions under medical service plans, since 01/10/2012"
+          "label_en": "Holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "A1P",
@@ -11374,7 +11374,7 @@
         {
           "code": "A23",
           "label_zh": "＊ 療服務計畫之矯正機關內門診（102.01新增）",
-          "label_en": "* Orthodontic clinic outpatient within correction agency (added in 2013)"
+          "label_en": "* services program: outpatient clinics in correctional institutions (added January 2013, ROC 102.01)"
         },
         {
           "code": "A24",
@@ -11384,7 +11384,7 @@
         {
           "code": "A27",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者(98/8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "Holders of disability certificates or participants in pilot programs (Starting from 2000/08); Medical services for inmates in correctional facilities (Added in 2013/01)"
+          "label_en": "Holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "A2P",
@@ -11399,17 +11399,17 @@
         {
           "code": "A31",
           "label_zh": "106/4/15起月內未逾四次之回診(轉入之院所適用) 醫學中心；轉診(轉入之院所適用)或加復健；持身心障礙證明或參加試辦計畫補助者(98/8 起)",
-          "label_en": "4/15/2016 Onwards Within four visits within a month (applicable to hospitals receiving transfers) Medical center; referral (applicable to transferring hospitals) or rehabilitation; with disability certificate or participating in pilot program subsidy (starting from 8/98)"
+          "label_en": "From 15 April 2017 (ROC 106/4/15): return visits within a month not exceeding four (applicable to the receiving institution) Medical center; referral (applicable to the receiving institution) or plus rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8)"
         },
         {
           "code": "A34",
           "label_zh": "醫學中心；轉診(轉入之院所適用)加藥品或復健醫學中心；轉診(轉入之院所適用)加藥品或復健； 持身心障礙證明或參加試辦計畫補助者(98/8 起) 醫學中心；轉診(轉入之院所適用)加藥品或復健；中低收入註記 (112/3新增)",
-          "label_en": "Academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; for individuals holding a physical or mental disability certificate or participating in trial subsidy programs since August 1998; academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; low-income annotation (added March 2023)"
+          "label_en": "Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "A40",
           "label_zh": "醫學中心；住院出院或門診手術30日內回診、藥品或復健 ＊ 94/7/15 2026年01月27日修訂醫學中心；住院出院或門、急診手術後首次之回診或復健； 持身心障礙證明或參加試辦計畫補助者(98/8 起) 醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健；持身心障礙證明或參加試辦計畫補助者 (98/8 起) 醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健；中低收入註記 (112/3 新增)",
-          "label_en": "Records the case's smoking behavior before the initial diagnosis date. Digits 1-2 are daily cigarettes smoked: 00: Non-smoker; 10: 10/day (half pack); 20: 20/day (1 pack); 90: >=90/day (>=4.5 packs); 91: Occasional (irregular or no fixed amount); 98: Smokes, amount unknown; 99: Not recorded or smoking status entirely unknown. Digits 3-4 are years smoked: 00: Non-smoker; 05: Smoked 5 years; 99: Not recorded or unknown. Digits 5-6 are years since quitting: 00: Not quit; 05: Quit 5 years."
+          "label_en": "Medical center; return visit, drugs or rehabilitation within 30 days after inpatient discharge or outpatient surgery * 15 July 2005 (ROC 94/7/15) Revised 27 January 2026 Medical center; first return visit or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B00",
@@ -11449,7 +11449,7 @@
         {
           "code": "B13",
           "label_zh": "（98.8起）；收容對象醫療服務計畫之矯正機關內門診（102.01 50 新增）",
-          "label_en": "(Since September 8, 2009); inpatient medical service plan for correctional institutions (Added on January 5, 2012)"
+          "label_en": "(from August 2009, ROC 98.8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102.01) 50"
         },
         {
           "code": "B14",
@@ -11459,12 +11459,12 @@
         {
           "code": "B17",
           "label_zh": "畫補助者(98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1新增)",
-          "label_en": "Subsidized individuals (since Aug 98); outpatient services for recipients of the correction agency's medical service plan within an institution (added in Oct 202)"
+          "label_en": "plan subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "B1P",
           "label_zh": "區域醫院；一般門診僅持藥單中低收入註記(112/3 新增)",
-          "label_en": "Regional hospital; general outpatient clinic only drug claims form low-income annotation (added in March 2025)"
+          "label_en": "Regional hospital; general outpatient with drug slip only; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B20",
@@ -11474,7 +11474,7 @@
         {
           "code": "B23",
           "label_zh": "＊ 療服務計畫之矯正機關內門診（102.01新增）",
-          "label_en": "* Orthodontic clinic outpatient within correction agency (added in 2013)"
+          "label_en": "* services program: outpatient clinics in correctional institutions (added January 2013, ROC 102.01)"
         },
         {
           "code": "B24",
@@ -11484,12 +11484,12 @@
         {
           "code": "B27",
           "label_zh": "辦計畫補助者(98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "planning sponsor since 98/8; correction agency outpatient for recipients of medical service plan"
+          "label_en": "pilot program subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "B2P",
           "label_zh": "區域醫院；一般門診加藥品或復健；中低收入註記(112/3新增)",
-          "label_en": "Regional hospital; general outpatient plus medication or rehabilitation; low-income annotation (added in March 2024)"
+          "label_en": "Regional hospital; general outpatient plus drugs or rehabilitation; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B30",
@@ -11544,7 +11544,7 @@
         {
           "code": "C17",
           "label_zh": "畫補助者 (98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1新增)",
-          "label_en": "subsidy recipient (since Aug. 1998); outpatient services under correctional agency within the medical service plan for correctional institutions (added in 2013/1)"
+          "label_en": "plan subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "C1P",
@@ -11559,7 +11559,7 @@
         {
           "code": "C23",
           "label_zh": "＊ 94/7/15 療服務計畫之矯正機關內門診（102.01新增）",
-          "label_en": "* 94/7/15 correction agency outpatient (added in 2003.01)"
+          "label_en": "* 15 July 2005 (ROC 94/7/15) services program: outpatient clinics in correctional institutions (added January 2013, ROC 102.01)"
         },
         {
           "code": "C24",
@@ -11569,7 +11569,7 @@
         {
           "code": "C27",
           "label_zh": "辦計畫補助者 (98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "Plan sponsor since 8/9/2000; outpatient services for correctional institution residents under the medical service plan (added since 1/10/2013)"
+          "label_en": "pilot program subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "C2P",
@@ -11584,7 +11584,7 @@
         {
           "code": "C31",
           "label_zh": "106/4/15 月內未逾四次之回診(轉入之院所適用)或加復健地區醫院；轉診(轉入之院所適用)或加復健；持身心障礙證明或參加試辦計畫補助者 (98/8 起) 2026年01月27日修訂",
-          "label_en": "Within four months as of April 15, 2016, for follow-up visits (applicable to transferred hospitals) or addition of rehabilitation in regional hospitals; referral (applicable to transferred hospitals) or addition of rehabilitation; those with a disability certificate or participating in pilot program subsidies (since August 98). Revised on January 27, 2026."
+          "label_en": "From 15 April 2017 (ROC 106/4/15): return visits within a month not exceeding four (applicable to the receiving institution) or plus rehabilitation District hospital; referral (applicable to the receiving institution) or plus rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Revised 27 January 2026"
         },
         {
           "code": "C34",
@@ -11599,7 +11599,7 @@
         {
           "code": "C40",
           "label_zh": "地區醫院；住院出院或門診手術30日內回診、藥品或復健 ＊ 94/7/15 地區醫院；住院出院或門、急診手術後首次之回診或復健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健中低收入註記(112/3 新增)",
-          "label_en": "Describes the degree of similarity between the tumor and normal tissue. 1: Well differentiated; Differentiated, NOS; 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiation; 3: Poorly differentiated; Dedifferentiated; 4: Undifferentiated; Anaplastic."
+          "label_en": "District hospital; return visit, drugs or rehabilitation within 30 days after inpatient discharge or outpatient surgery * 15 July 2005 (ROC 94/7/15) District hospital; first return visit or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "D00",
@@ -11659,17 +11659,17 @@
         {
           "code": "E10",
           "label_zh": "醫學中心；一般門診 50 醫學中心；一般門診；持殘障手冊；收容對象醫療服務計畫之",
-          "label_en": "medical center; general outpatient, medical center; general outpatient; with disability certificate; service plan for institutionalized recipients"
+          "label_en": "Medical center; general outpatient 50 Medical center; general outpatient; holders of a disability handbook; medical services program for detainees"
         },
         {
           "code": "E13",
           "label_zh": "50 矯正機關內門診（102.01新增）",
-          "label_en": "50 Outpatient in correctional institution (added in 2012)"
+          "label_en": "50 outpatient clinics in correctional institutions (added January 2013, ROC 102.01)"
         },
         {
           "code": "E20",
           "label_zh": "醫學中心；高利用率者 ＊ 93/1/1停止醫學中心；高利用率者；持殘障手冊；收容對象醫療服務計畫",
-          "label_en": "Tertiary medical center; high-risk patient * Effective from January 1, 1993 Stop tertiary medical center; high-risk patient; with disability certificate; service plan for recipients"
+          "label_en": "Medical center; high utilisation * stopped 1 January 2004 (ROC 93/1/1) Medical center; high utilisation; holders of a disability handbook; medical services program for detainees"
         },
         {
           "code": "E23",
@@ -11679,7 +11679,7 @@
         {
           "code": "E30",
           "label_zh": "醫學中心；轉診(轉入之院所適用) 106/4/15 醫學中心；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": "Medical center; referral (applicable to transferring hospitals) April 15, 2016: Medical center; referral for patients whose conditions require continued outpatient care after discharge as determined by a physician."
+          "label_en": "Medical center; referral (applicable to the receiving institution) 15 April 2017 (ROC 106/4/15) Medical center; referral where a physician determines that continued outpatient treatment is necessary, referral visit one"
         },
         {
           "code": "E31",
@@ -11694,12 +11694,12 @@
         {
           "code": "F10",
           "label_zh": "區域醫院；一般門診 50 2026年01月27日修訂區域醫院；一般門診；持殘障手冊；收容對象醫療服務計畫之",
-          "label_en": "regional hospital; general outpatient 50 20260127 revised regional hospital; general outpatient; with disability certificate; medical services plan for accommodated objects"
+          "label_en": "Regional hospital; general outpatient 50 Revised 27 January 2026 Regional hospital; general outpatient; holders of a disability handbook; medical services program for detainees"
         },
         {
           "code": "F13",
           "label_zh": "50 矯正機關內門診（102.01新增）",
-          "label_en": "50 Outpatient in correctional institution (added in 2012)"
+          "label_en": "50 outpatient clinics in correctional institutions (added January 2013, ROC 102.01)"
         },
         {
           "code": "F20",
@@ -11794,7 +11794,7 @@
         {
           "code": "N30",
           "label_zh": "醫學中心；轉診(轉入之院所適用)或中醫傷科 106/4/15 醫學中心；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": "Academic medical center; referral (applicable to institutions receiving referrals) or traditional Chinese medicine orthopedics April 15, 2016 Academic medical center; referral illness recognized by a physician as requiring continued outpatient treatment, referral for medical care one"
+          "label_en": "Medical center; referral (applicable to the receiving institution) or TCM traumatology 15 April 2017 (ROC 106/4/15) Medical center; referral where a physician determines that continued outpatient treatment is necessary, referral visit one"
         },
         {
           "code": "N31",
@@ -11829,7 +11829,7 @@
         {
           "code": "Q30",
           "label_zh": "區域醫院；轉診(轉入之院所適用 )或中醫傷科 106/4/15 區域醫院；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": "Regional Hospital; Referral (Applicable to hospitals receiving referrals) or Traditional Chinese Medicine Orthopedics 4/15/2016 Regional Hospital; Referral Injuries Recognized by Physicians as Requiring Continued Outpatient Care, Referral for Medical Treatment One"
+          "label_en": "Regional hospital; referral (applicable to the receiving institution) or TCM traumatology 15 April 2017 (ROC 106/4/15) Regional hospital; referral where a physician determines that continued outpatient treatment is necessary, referral visit one"
         },
         {
           "code": "Q31",
@@ -11909,7 +11909,7 @@
         {
           "code": "S34",
           "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
-          "label_en": "Primary care facility; referral (applicable to hospitals receiving referrals) plus drugs or traditional Chinese medicine for orthopedic injuries Note1: '＊' partial burden points are charged according to actual circumstances Note2: From January 93/01, high-cost medications and examinations/checks no longer have a partial burden until revised on January 27, 2026."
+          "label_en": "Primary care institutions; referral (applicable to the receiving institution) plus drugs or TCM traumatology Note 1: '*' copayment points are collected according to the actual situation Note 2: From January 2004 (ROC 93/01) the copayments for high utilisation and for laboratory tests/examinations were abolished Revised 27 January 2026"
         }
       ],
       "field_en": "co-payment code",
@@ -13272,7 +13272,7 @@
         {
           "code": "4A",
           "label_zh": "880701 或併發症（門診） 2026年01月27日修訂",
-          "label_en": "880701 or concurrent condition (outpatient) Revised on January 27, 2026"
+          "label_en": "880701 or complications (outpatient) Revised on January 27, 2026"
         }
       ],
       "grid": {
@@ -13462,7 +13462,7 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 2005 2006 2007 2008-2011 code item name code item name code item name code item name public public public public"
+          "label_en": "Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "1",
@@ -13537,12 +13537,12 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以111年調整） 86-87年 88-94年 95年 96年 97-98年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
-          "label_en": "Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 18 Private TCM Hospital 2026-01-27 Revised 1983-1998 Clinic Ownership Code Table (Adjusted in 111) 1986-1987 1988-1994 1995 1996 1997-1998 Code Item Name Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public Public"
+          "label_en": "Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital Revised 27 January 2026 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 111) ROC 86-87 (1997-1998) ROC 88-94 (1999-2005) ROC 95 (2006) ROC 96 (2007) ROC 97-98 (2008-2009) Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
           "code": "21",
           "label_zh": "省市立診所 21 本署及北、高市立診所21 本署及北、高市立診所21 本署及北、高市立診所 21 署立及直轄市立診所",
-          "label_en": "county and city hospitals 21 provincial bureaus and Taipei, Kaohsiung municipal hospitals 21 provincial bureaus and Taipei, Kaohsiung municipal hospitals 21 provincial bureaus and directly administered city hospitals"
+          "label_en": "Provincial/municipal clinics 21 Administration-run and Taipei/Kaohsiung municipal clinics 21 Administration-run and Taipei/Kaohsiung municipal clinics 21 Administration-run and Taipei/Kaohsiung municipal clinics 21 Administration-run and special-municipality clinics"
         },
         {
           "code": "22",
@@ -13717,7 +13717,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-111th years code item name code item name code item name code item name public public public public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -13812,7 +13812,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "clinic 41 clinic 41 clinic 41 clinic 2026-01-27 revised 83-98, 99-100, 2001, 2002, 2003, 2004, 2005, 2006, 2007-2009 year code对照表（以2009年调整） 年份 83-98年 99-100年 2001年 2002年 2003年 2004年 2005年 2006年 2007-2009年 代碼"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -13872,7 +13872,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -13902,7 +13902,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -13917,7 +13917,7 @@
         {
           "code": "Z7",
           "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
-          "label_en": "Nutrition counseling institution (added ROC year 99); private nutrition counseling institution. Revised 2026/01/27. ROC year 83-109 Clinic Ownership-Type Code Table (adjusted as of ROC year 109). Code content / ownership code / code content / ownership code: Public other medical institution 44; private medical institution-affiliated psychiatric rehabilitation institution 86; private other medical institution 45; public other medical-affairs institution 91; other medical institution established by a public-benefit corporation 46; foundation other medical-affairs institution 92; pharmacy 59; other corporation-affiliated other medical-affairs institution 93; registered Chinese medicine dealer 60; private other medical-affairs institution 94; manufacturing 61; foundation medical institution-affiliated other medical-affairs institution 97; sales business 62; other (other medical-affairs institution) 98; public nursing institution 71; public non-medical-affairs institution 9A; foundation nursing institution 72; medical corporation non-medical-affairs institution 9K; private nursing institution (affiliated with other corporation) 73; foundation non-medical-affairs institution 9N; private nursing institution (individually established) 74; corporation-affiliated non-medical-affairs institution 9T; public medical institution-affiliated maternity institution 75; private non-medical-affairs institution 9Y; private medical institution-affiliated maternity institution 76; other (maternity institution) 78; public psychiatric rehabilitation institution 81; medical institution of a corporation or other civic group-affiliated psychiatric rehabilitation institution 82; private psychiatric rehabilitation institution 84; public medical institution-affiliated psychiatric rehabilitation institution 85"
+          "label_en": "Nutrition counseling institution (added ROC year 99, 2010); private nutrition counseling institution. Revised 2026/01/27. ROC year 83-109 (1994-2020) Clinic Ownership-Type Code Table (adjusted as of ROC year 109, 2020). Code content / ownership code / code content / ownership code: Public other medical institution 44; private medical institution-affiliated psychiatric rehabilitation institution 86; private other medical institution 45; public other medical-affairs institution 91; other medical institution established by a public-benefit corporation 46; foundation other medical-affairs institution 92; pharmacy 59; other corporation-affiliated other medical-affairs institution 93; registered Chinese medicine dealer 60; private other medical-affairs institution 94; manufacturing 61; foundation medical institution-affiliated other medical-affairs institution 97; sales business 62; other (other medical-affairs institution) 98; public nursing institution 71; public non-medical-affairs institution 9A; foundation nursing institution 72; medical corporation non-medical-affairs institution 9K; private nursing institution (affiliated with other corporation) 73; foundation non-medical-affairs institution 9N; private nursing institution (individually established) 74; corporation-affiliated non-medical-affairs institution 9T; public medical institution-affiliated maternity institution 75; private non-medical-affairs institution 9Y; private medical institution-affiliated maternity institution 76; other (maternity institution) 78; public psychiatric rehabilitation institution 81; medical institution of a corporation or other civic group-affiliated psychiatric rehabilitation institution 82; private psychiatric rehabilitation institution 84; public medical institution-affiliated psychiatric rehabilitation institution 85"
         }
       ],
       "field_en": "ownership type",
@@ -17478,32 +17478,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -17526,7 +17526,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "TRAN_IN_CITY": {
       "field_zh": "縣市鄉鎮代碼 (CITY-104年起)",
@@ -19331,32 +19331,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -19379,7 +19379,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "FUNC_TYPE": {
       "field_zh": "就醫科別",
@@ -19667,7 +19667,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health01_全民健保處方及治療明細檔_門急診(20250624起適用)",
   "data_description_en": "1. Generally one claim per visit (same hospital, same day, same department).\n2. Content includes patient's disease, hospital, and related cost information for the current visit.",
-  "notes_en": "1. For records where the infertility period was not controlled, future reporting will check that the infertility period does not exceed the treated wife's age. 2. Newborn-related information of 0 means there is no newborn data. 3. After the Assisted Reproduction Data Reporting and Management Regulations took effect in ROC year 96 (2007), coding was revised for linkage with other databases; pre-2007 old data was also converted to the new coding, but some codes may produce garbled or unknown values due to format or gaps in the new coding. 4. Further reference: HPA Assisted Reproduction Data Reporting and Management Regulations. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported.",
+  "notes_en": "1. When counting visits, supplementary reports must not be counted twice.\n2. When calculating costs, supplementary reports should be merged.\n3. The file formats and data descriptions in this manual refer to the \"Reimbursement Point Claim Format and Instructions for\nNHI Contracted Medical Institutions (Outpatient, Inpatient and Dispensing Institutions)\"; path: Ministry of Health and Welfare, National Health\nInsurance Administration homepage / Medical Institutions / Medical Payment / Medical Claim Rules / Medical Claim XML\nFormat / Reimbursement Point Claim Format for NHI Contracted Medical Institutions (Outpatient, Inpatient and Dispensing Institutions)\nand Instructions.\n* This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and if fields such as national\nID number, institution code, insured-unit code, unified business number, date of birth, visit date and admission date are present,\nthey are all masked. The data may only be used in the independent work area set up by the Ministry, and only\nstatistical results that pass review may be taken out, so that data use and disclosure cannot identify any specific individual.",
   "primary_keys_en": "1. Personal ID, physician ID, pharmacist ID, and medical institution code are encrypted.\n2. The unique key value for comparison with the outpatient/ED medical order details file (H_NHI_OPDTO) is: FEE_YM＋APPL_TYPE＋HOSP_ID＋APPL_DATE＋CASE_TYPE＋SEQ_NO.\n3. Key value for personal account and personal information matching: ID.\n4. Medical institution account and data matching key value: HOSP_ID.",
   "name_zh_en": "NHI prescription and treatment details",
   "printed": {

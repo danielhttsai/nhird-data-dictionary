@@ -50,7 +50,7 @@
       "description_zh": "YYYY：確認個案的出生年。\n年不詳：9999。",
       "available_notes": [],
       "name_zh_en": "birth year",
-      "description_en": "Year of birth for the confirmed case. Year unknown: 9999."
+      "description_en": "YYYY: Year of birth of the confirmed case.\nYear unknown: 9999."
     },
     {
       "seq": 4,
@@ -72,7 +72,7 @@
       "description_zh": "YYYYMMDD\n88888888：病人未做病理檢查\n99999999：最初診斷日期不詳\n年不詳：9999 月不詳：99 日不詳：99。",
       "available_notes": [],
       "name_zh_en": "First pathological diagnosis date",
-      "description_en": "YYYYMMDD. 88888888: patient did not undergo pathological examination. 99999999: date of initial diagnosis unknown. Year unknown: 9999. Month unknown: 99. Day unknown: 99."
+      "description_en": "YYYYMMDD\n88888888: Patient did not undergo pathological examination\n99999999: Date of initial diagnosis unknown\nYear unknown: 9999 month unknown: 99 day unknown: 99."
     },
     {
       "seq": 6,
@@ -116,7 +116,7 @@
       "description_zh": "依據國際疾病分類腫瘤學第三版\n(ICD-O-3)的分類標準，填寫原發的腫瘤部位的組織病理形態，表示方式為\n8000-9992。",
       "available_notes": [],
       "name_zh_en": "type of organization",
-      "description_en": "According to the classification standard of International Classification of Diseases-Oncology third edition (ICD-O-3), fill in the tissue morphology of the primary tumor site, expressed as 8000-9992."
+      "description_en": "According to the International Classification of Diseases for Oncology, 3rd edition\n(ICD-O-3) classification standard, fill in the histopathologic morphology of the primary tumor site, expressed as\n8000-9992."
     },
     {
       "seq": 10,
@@ -226,7 +226,7 @@
       "description_zh": "詳欄位(變項)譯碼 (四) 【原發部位手術邊緣(OPMARGS)對照表】",
       "available_notes": [],
       "name_zh_en": "primary surgical margin of origin",
-      "description_en": "Detailed Field (Variable) Coding (IV) [Original Site Surgery Margin Comparison Table]"
+      "description_en": "See field (variable) code description (4) [Primary site surgical margin (OPMARGS) lookup table]"
     },
     {
       "seq": 20,
@@ -247,7 +247,7 @@
         }
       ],
       "name_zh_en": "tumor staging version",
-      "description_en": "Cases diagnosed with cancer after January 1, AJCC sixth edition to be used for staging from 2004."
+      "description_en": "Cases diagnosed with cancer on or after 1 January 2004 (AD) must be staged using the AJCC 6th edition."
     },
     {
       "seq": 21,

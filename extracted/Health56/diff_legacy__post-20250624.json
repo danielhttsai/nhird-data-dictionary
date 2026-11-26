@@ -7,24 +7,6 @@
   "added": [
     {
       "seq": 1,
-      "name_zh": "身分證字號",
-      "name_en": "SICKID",
-      "type": "Char",
-      "length": 20,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。\n112年長度24",
-      "table": "H_BHP_BCS_PD",
-      "available_notes": [
-        {
-          "roc_year": 112,
-          "ad_year": 2023,
-          "marker": ""
-        }
-      ],
-      "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National Resident Identity Card unified number, or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with insufficient numbers padded. 2024 length is 24"
-    },
-    {
-      "seq": 1,
       "name_zh": "支付方式",
       "name_en": "Q_FILETYPE",
       "type": "Char",
@@ -48,6 +30,24 @@
       "description_en": "encrypted value for hospital key."
     },
     {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。\n112年長度24",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [
+        {
+          "roc_year": 112,
+          "ad_year": 2023,
+          "marker": ""
+        }
+      ],
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National ID number or foreign resident certificate number (passport number if there is no resident certificate number), left-aligned and padded with blanks if shorter.\nROC 112 (2023): length 24"
+    },
+    {
       "seq": 2,
       "name_zh": "單位等級",
       "name_en": "UNIT_LEVEL",
@@ -61,18 +61,6 @@
     },
     {
       "seq": 2,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "SICKID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
-      "table": "H_BHP_BCS_PD",
-      "available_notes": [],
-      "name_zh_en": "ID number validity check",
-      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
-    },
-    {
-      "seq": 2,
       "name_zh": "疾病史-有無得過下列疾病",
       "name_en": "Q_1",
       "type": "Char",
@@ -82,6 +70,18 @@
       "available_notes": [],
       "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
       "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
+    },
+    {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: does not conform."
     },
     {
       "seq": 3,
@@ -97,18 +97,6 @@
     },
     {
       "seq": 3,
-      "name_zh": "單位所在區碼",
-      "name_en": "UNIT_AREA",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "",
-      "table": "H_BHP_BCS_UNIT",
-      "available_notes": [],
-      "name_zh_en": "District code of unit location",
-      "description_en": ""
-    },
-    {
-      "seq": 3,
       "name_zh": "證件來源",
       "name_en": "PASSPORT",
       "type": "Char",
@@ -118,6 +106,18 @@
       "available_notes": [],
       "name_zh_en": "document source",
       "description_en": "1: national ID; 2: passport"
+    },
+    {
+      "seq": 3,
+      "name_zh": "單位所在區碼",
+      "name_en": "UNIT_AREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "District code of unit location",
+      "description_en": ""
     },
     {
       "seq": 4,
@@ -223,18 +223,6 @@
     },
     {
       "seq": 7,
-      "name_zh": "現居地代碼",
-      "name_en": "LIVINGAREA",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "詳譯碼說明。",
-      "table": "H_BHP_BCS_PD",
-      "available_notes": [],
-      "name_zh_en": "residence code",
-      "description_en": "See code table."
-    },
-    {
-      "seq": 7,
       "name_zh": "家族9史-祖母",
       "name_en": "Q_2_GRANDMA",
       "type": "Num",
@@ -250,6 +238,18 @@
       ],
       "name_zh_en": "family history - grandmother",
       "description_en": "For 2024, character type length is 2"
+    },
+    {
+      "seq": 7,
+      "name_zh": "現居地代碼",
+      "name_en": "LIVINGAREA",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明。",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "residence code",
+      "description_en": "See code table."
     },
     {
       "seq": 8,
@@ -531,7 +531,7 @@
         }
       ],
       "name_zh_en": "drug history - years taken (contraceptive)",
-      "description_en": "In 2025, the length is 21 characters."
+      "description_en": "ROC 113 (2024): length 21, character type"
     },
     {
       "seq": 24,
@@ -866,18 +866,6 @@
   "removed": [
     {
       "seq": 1,
-      "name_zh": "支付方式",
-      "name_en": "PAYWAY",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "詳譯碼說明",
-      "table": "H_BHP_BCS_DATA",
-      "available_notes": [],
-      "name_zh_en": "payment method",
-      "description_en": "detailed translation explanation"
-    },
-    {
-      "seq": 1,
       "name_zh": "單位代碼",
       "name_en": "HOSP_ID",
       "type": "Char",
@@ -887,6 +875,18 @@
       "available_notes": [],
       "name_zh_en": "Unit code",
       "description_en": "encrypted value for hospital key."
+    },
+    {
+      "seq": 1,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 1,
@@ -902,18 +902,6 @@
     },
     {
       "seq": 2,
-      "name_zh": "疾病史-有無得過下列疾病",
-      "name_en": "HIS_DIS",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：無；1：乳房良性相關疾病；\n2：乳癌；3：其他癌症",
-      "table": "H_BHP_BCS_DATA",
-      "available_notes": [],
-      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
-      "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
-    },
-    {
-      "seq": 2,
       "name_zh": "身分證字號檢誤",
       "name_en": "ID_ROC",
       "type": "Char",
@@ -923,6 +911,18 @@
       "available_notes": [],
       "name_zh_en": "ID number validity check",
       "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+    },
+    {
+      "seq": 2,
+      "name_zh": "疾病史-有無得過下列疾病",
+      "name_en": "HIS_DIS",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：乳房良性相關疾病；\n2：乳癌；3：其他癌症",
+      "table": "H_BHP_BCS_DATA",
+      "available_notes": [],
+      "name_zh_en": "history-of-disease-have-you-ever-had-the-following-diseases",
+      "description_en": "0: No; 1: Benign breast disease related; 2: Breast cancer; 3: Other cancers"
     },
     {
       "seq": 2,
@@ -938,15 +938,15 @@
     },
     {
       "seq": 3,
-      "name_zh": "證件來源",
-      "name_en": "ID_TYPE",
+      "name_zh": "單位所在區碼",
+      "name_en": "U_AREA",
       "type": "Char",
-      "length": 1,
-      "description_zh": "1：身分證；2：護照",
-      "table": "H_BHP_BCS_PD",
+      "length": 4,
+      "description_zh": "",
+      "table": "H_BHP_BCS_UNIT",
       "available_notes": [],
-      "name_zh_en": "document source",
-      "description_en": "1: national ID; 2: passport"
+      "name_zh_en": "District code of unit location",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -968,27 +968,27 @@
     },
     {
       "seq": 3,
-      "name_zh": "單位所在區碼",
-      "name_en": "U_AREA",
+      "name_zh": "證件來源",
+      "name_en": "ID_TYPE",
       "type": "Char",
-      "length": 4,
-      "description_zh": "",
-      "table": "H_BHP_BCS_UNIT",
+      "length": 1,
+      "description_zh": "1：身分證；2：護照",
+      "table": "H_BHP_BCS_PD",
       "available_notes": [],
-      "name_zh_en": "District code of unit location",
-      "description_en": ""
+      "name_zh_en": "document source",
+      "description_en": "1: national ID; 2: passport"
     },
     {
       "seq": 4,
-      "name_zh": "性別",
-      "name_en": "ID_S",
+      "name_zh": "家族史-與您有血緣的家屬中，有無人得過癌症",
+      "name_en": "FAM_CANCER",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男；2：女；9：不詳",
-      "table": "H_BHP_BCS_PD",
+      "description_zh": "0：無；1：有",
+      "table": "H_BHP_BCS_DATA",
       "available_notes": [],
-      "name_zh_en": "Sex",
-      "description_en": "1: male; 2: female; 9: unknown"
+      "name_zh_en": "Family history: whether any blood relatives have had cancer",
+      "description_en": "0: no; 1: yes"
     },
     {
       "seq": 4,
@@ -1004,15 +1004,15 @@
     },
     {
       "seq": 4,
-      "name_zh": "家族史-與您有血緣的家屬中，有無人得過癌症",
-      "name_en": "FAM_CANCER",
+      "name_zh": "性別",
+      "name_en": "ID_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：無；1：有",
-      "table": "H_BHP_BCS_DATA",
+      "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_BCS_PD",
       "available_notes": [],
-      "name_zh_en": "Family history: whether any blood relatives have had cancer",
-      "description_en": "0: no; 1: yes"
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
     },
     {
       "seq": 5,
@@ -1046,18 +1046,6 @@
     },
     {
       "seq": 6,
-      "name_zh": "是否限制乳攝車",
-      "name_en": "U_CAR",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：否；1：是",
-      "table": "H_BHP_BCS_UNIT",
-      "available_notes": [],
-      "name_zh_en": "Whether restricted to mobile mammography vehicle",
-      "description_en": "0: no; 1: yes"
-    },
-    {
-      "seq": 6,
       "name_zh": "家族史-姊妹",
       "name_en": "FAM_SIS",
       "type": "Num",
@@ -1075,16 +1063,16 @@
       "description_en": "2024 year length 2, type is character"
     },
     {
-      "seq": 7,
-      "name_zh": "現居地代碼",
-      "name_en": "LIVING",
+      "seq": 6,
+      "name_zh": "是否限制乳攝車",
+      "name_en": "U_CAR",
       "type": "Char",
-      "length": 4,
-      "description_zh": "詳譯碼說明。",
-      "table": "H_BHP_BCS_PD",
+      "length": 1,
+      "description_zh": "0：否；1：是",
+      "table": "H_BHP_BCS_UNIT",
       "available_notes": [],
-      "name_zh_en": "residence code",
-      "description_en": "See code table."
+      "name_zh_en": "Whether restricted to mobile mammography vehicle",
+      "description_en": "0: no; 1: yes"
     },
     {
       "seq": 7,
@@ -1103,6 +1091,18 @@
       ],
       "name_zh_en": "family history - daughter",
       "description_en": "2024 year length 2, type is character"
+    },
+    {
+      "seq": 7,
+      "name_zh": "現居地代碼",
+      "name_en": "LIVING",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明。",
+      "table": "H_BHP_BCS_PD",
+      "available_notes": [],
+      "name_zh_en": "residence code",
+      "description_en": "See code table."
     },
     {
       "seq": 8,
@@ -1136,18 +1136,6 @@
     },
     {
       "seq": 9,
-      "name_zh": "醫療機構權屬別",
-      "name_en": "HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_BCS_UNIT",
-      "available_notes": [],
-      "name_zh_en": "ownership category of medical facility",
-      "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 9,
       "name_zh": "家族史-外祖母",
       "name_en": "FAM_GMA2",
       "type": "Num",
@@ -1163,6 +1151,18 @@
       ],
       "name_zh_en": "maternal grandmother's medical history",
       "description_en": "2024 year length 2, type is character"
+    },
+    {
+      "seq": 9,
+      "name_zh": "醫療機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_BCS_UNIT",
+      "available_notes": [],
+      "name_zh_en": "ownership category of medical facility",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 10,

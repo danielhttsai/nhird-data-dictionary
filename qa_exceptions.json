@@ -35,7 +35,11 @@
     "ref:HOS": "The 權屬別 (HOS) code table is printed in other manuals (e.g. Health01), not in this one."
   },
   "Health103/legacy": {
-    "ref:CASE_TYPE": "AMI_IP.CASE_TYPE refers to the 案件分類 code table of the claims files (Health01/Health02); this manual prints none."
+    "heading:AMI_IP.SEQ_NO": "Page 43 is a linkage diagram that numbers the claim key fields (1. 流水號(SEQ_NO) … 6. 醫療機構代碼(HOSP_ID)); those lines are not code-table headings.",
+    "heading:AMI_IP.FEE_YM": "Page 43 is a linkage diagram that numbers the claim key fields (1. 流水號(SEQ_NO) … 6. 醫療機構代碼(HOSP_ID)); those lines are not code-table headings.",
+    "heading:AMI_IP.APPL_DATE": "Page 43 is a linkage diagram that numbers the claim key fields (1. 流水號(SEQ_NO) … 6. 醫療機構代碼(HOSP_ID)); those lines are not code-table headings.",
+    "heading:AMI_IP.APPL_TYPE": "Page 43 is a linkage diagram that numbers the claim key fields (1. 流水號(SEQ_NO) … 6. 醫療機構代碼(HOSP_ID)); those lines are not code-table headings.",
+    "heading:AMI_IP.HOSP_ID": "Page 43 is a linkage diagram that numbers the claim key fields (1. 流水號(SEQ_NO) … 6. 醫療機構代碼(HOSP_ID)); those lines are not code-table headings."
   },
   "Welfare12/legacy": {
     "fields": "The header gives two counts, 40 fields for data years 100-107 and 26 from 108; the table lists the 62 columns of all years."
@@ -48,5 +52,37 @@
   },
   "Welfare20/post-20250624": {
     "fields:W_LTC_CMS_CA100": "The manual's CA100 header declares 21 fields but its field table prints 20 (and its 備註 column sits one row low from row 8); not recoverable from the PDF. Noted on the site."
+  },
+  "Health48/legacy__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20260223": {
+    "fields": "The header counts the variables of each age wave (448 at 6 months, 635 at 18 months …); those variables are in the survey's Excel codebooks (the __xls_ versions). This PDF's own table lists the 5 linkage fields."
+  },
+  "Health48/post-20250624__wave_資料庫使用手冊Health48_台灣出生世代調查檔_20250624起適用__20260223": {
+    "fields": "The header counts the variables of each age wave (448 at 6 months, 635 at 18 months …); those variables are in the survey's Excel codebooks (the __xls_ versions). This PDF's own table lists the 5 linkage fields."
+  },
+  "Society10/legacy__wave_ROC102_AD2013": {
+    "fields:part2": "The header says 793 columns for the second file; its table numbers 1-792 with no gap. Shown as printed.",
+    "fields:part3": "The header says 1,424 columns for the third file; its table numbers 1-1,423 with no gap. Shown as printed."
+  },
+  "Society10/post-20250624__wave_ROC102_AD2013": {
+    "fields:part2": "The header says 793 columns for the second file; its table numbers 1-792 with no gap. Shown as printed.",
+    "fields:part3": "The header says 1,424 columns for the third file; its table numbers 1-1,423 with no gap. Shown as printed."
+  },
+  "Society10/legacy__wave_ROC106_AD2017": {
+    "fields:part3": "The third file's table numbers two rows 1098 (O2h, O2i) and none 1097: all 1,245 columns are shown, under 1,244 numbers."
+  },
+  "Society10/post-20250624__wave_ROC106_AD2017": {
+    "fields:part3": "The third file's table numbers two rows 1098 (O2h, O2i) and none 1097: all 1,245 columns are shown, under 1,244 numbers."
+  },
+  "Welfare04/legacy__wave_ROC107_AD2018": {
+    "fields": "The header says 40 columns; the table numbers 1-35 with no gap. Shown as printed."
+  },
+  "Welfare04/legacy__wave_ROC107_AD2018_戶資料": {
+    "fields": "The header says 178 columns; the table numbers 1-165 with no gap. Shown as printed."
+  },
+  "Welfare06/legacy__wave_ROC105_AD2016": {
+    "fields:part1": "The table skips number 528 (Q71_5 is not printed); 804 of the 805 declared columns are in the manual."
+  },
+  "Welfare06/legacy__wave_ROC110_AD2021": {
+    "fields:part1": "The header says 469 columns for the first file; its table numbers 1-463 with no gap. Shown as printed."
   }
 }

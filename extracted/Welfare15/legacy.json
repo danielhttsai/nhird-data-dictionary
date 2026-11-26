@@ -332,7 +332,7 @@
       "description_zh": "西元年YYYY",
       "available_notes": [],
       "name_zh_en": "report year",
-      "description_en": "year_of_the_gregorian_calendar"
+      "description_en": "Gregorian year YYYY"
     },
     {
       "seq": 28,
@@ -371,7 +371,7 @@
         }
       ],
       "name_zh_en": "most recent occurrence date",
-      "description_en": "Minguo Year YYYYMMDDHH; starting from 2018, it is Minguo Year YYYYMMDDHHMI, length is 11"
+      "description_en": "ROC year YYYMMDDHH; from ROC 108 (2019) changed to ROC year YYYMMDDHHMI, length 11"
     }
   ],
   "codebooks": {
@@ -1149,7 +1149,7 @@
         {
           "code": "108",
           "label_zh": "年起修改如下： 代碼說明代碼說明 a 現為/曾為同居伴侶 E 未同居伴侶(含男女朋友) b 直系親屬 F 現為/曾為直系親屬:父(含養、繼父) c 手足 G 現為/曾為直系親屬:母(含養、繼母) d 其他旁系親屬(四親等以內) H 現為/曾為直系親屬:(曾) (外)祖父母 e 家長家屬或家屬間關係者 I 現為/曾為直系親屬:卑親屬(如子女、孫子 2025年07月22日修訂女) 現為/曾為家長家屬或家屬間關係者:父 f 前男女朋友 J 之同居人現為/曾為家長家屬或家屬間關係者:母 g 男女朋友 K 之同居人現為/曾為家長家屬或家屬間關係者:父 h 保母-本人 L 之同居人之子女現為/曾為家長家屬或家屬間關係者:母 i 保母-同住家人 M 之同居人之子女其他親屬:現為/曾為四親等以內之旁系 j 機構人員-管理者 Z 血親或旁系姻親 k 機構人員-工作人員 N 照顧者 l 機構人員-志工 O 保母 m 機構人員-院生/安置對象 P 機構人員 n 普通朋友 Q 朋友(家人朋友/鄰居/普通朋友/同學) o 同學 R 職場關係(上司下屬/同事/客戶) p 家人朋友 S 師生關係-學校教師 q 鄰居 T 師生關係-補習班老師 r 職場關係-上司下屬 2 師生關係-幼兒園老師 s 職場關係-客戶 U 師生關係-安親班老師 t 職場關係-同事 V 師生關係-社團老師/教練 u 師生關係-家教 W 網友",
-          "label_en": "1. To implement birth notification, the MOHW established the 'Birth Notification Operation Plan' and, after multiple negotiations with the Ministry of the Interior (competent authority for the Child Welfare Act), the MOI finalized and announced the 'Birth Notification Workflow' on 13 September 1994. That December 28 the MOHW promulgated the newly revised 'Birth Certificate' and 'Stillbirth Certificate', and paper-based birth notification began in March 1995. 2. From 2004, medical units switched to online reporting and stopped using paper, while household-registration reporting still used both methods; after continued coordination between the HPA and the MOI's Department of Household Registration, online birth notification was fully implemented from 2005, entirely eliminating paper mailing. 3. On 28 May 2003 the Child Welfare Act and Youth Welfare Act were merged and revised into the Child and Youth Welfare Act, Article 13 of which requires: 'Within 7 days of a fetus's birth, the attendant shall report the birth data to the household-registration and health authorities.' 4. On 30 November 2011 the Child and Youth Welfare and Rights Protection Act was amended, Article 14 requiring: 'Within 7 days of birth, the attendant shall report the birth data to the health authority; the same applies for stillbirths.' For births outside a hospital, clinic, or midwifery clinic where a birth certificate cannot be obtained, a DNA parentage report from a medical institution or a birth-notification form issued by a licensed medical professional must be presented for birth registration. 5. Unlike 'birth registration', 'birth notification' covers all births in Taiwan (regardless of nationality): a. live newborns; b. stillbirths of >=20 weeks' gestation or >=500 g. (Quoted from the HPA's birth-notification background notes.)"
+          "label_en": "Revised from this year as follows: Code Description Code Description a Current/former cohabiting partner E Non-cohabiting partner (including boyfriend/girlfriend) b Immediate family member F Current/former immediate family member: father (including adoptive father and stepfather) c Sibling G Current/former immediate family member: mother (including adoptive mother and stepmother) d Other collateral relative (within the fourth degree) H Current/former immediate family member: (former) (maternal) grandparent e Household head/family member, or relationship between family members I Current/former immediate family member: descendant (e.g. child, grandchild) Revised 22 July 2025 Current/former household head/family member or relationship between family members: father f Former boyfriend/girlfriend J cohabitant of the above; current/former household head/family member or relationship between family members: mother g Boyfriend/girlfriend K cohabitant of the above; current/former household head/family member or relationship between family members: father h Babysitter - self L child of the cohabitant of the above; current/former household head/family member or relationship between family members: mother i Babysitter - co-resident family member M child of the cohabitant of the above; other relatives: current/former collateral blood relative or collateral relative by marriage within the fourth degree j Institution staff - manager Z k Institution staff - worker N Caregiver l Institution staff - volunteer O Babysitter m Institution staff - resident/placed person P Institution staff n Ordinary friend Q Friend (family friend/neighbor/ordinary friend/classmate) o Classmate R Workplace relationship (supervisor-subordinate/colleague/client) p Family friend S Teacher-student relationship - school teacher q Neighbor T Teacher-student relationship - cram-school teacher r Workplace relationship - supervisor-subordinate 2 Teacher-student relationship - kindergarten teacher s Workplace relationship - client U Teacher-student relationship - after-school care teacher t Workplace relationship - colleague V Teacher-student relationship - club teacher/coach u Teacher-student relationship - private tutor W Online acquaintance"
         },
         {
           "code": "A",
@@ -3667,32 +3667,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -3715,7 +3715,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "OCCITY": {
       "field_zh": "縣市鄉鎮市區別",

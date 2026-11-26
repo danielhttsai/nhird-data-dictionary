@@ -131,7 +131,7 @@
         }
       ],
       "name_zh_en": "specific treatment item code (one)",
-      "description_en": "Blank indicates no listed content. Chronic disease continuous prescription dispensing this column exempt from filling, detailed specific treatment item code translation explanation."
+      "description_en": "Blank means none of the listed content applies; this field is not required for chronic-disease continuous prescription refills; see the specific treatment item code explanation.\nNote:\n1. \"Specific treatment item code (1)\" to \"specific treatment item code\n(3)\" were added from ROC 92 (2003)\n2. \"Specific treatment item code (4)\" was added from ROC 93 (2004)"
     },
     {
       "seq": 10,
@@ -253,7 +253,7 @@
         }
       ],
       "name_zh_en": "co-payment code",
-      "description_en": "I20: Requires additional drug-cost co-payment. I21: Cases dispensed by primary clinics, district hospitals, or low/mid-income households and holders of disability certificates at medical centers or regional hospitals, where the drug cost is NT$100 or less, are exempt from the additional drug-cost co-payment. I22: Cases meeting the NHI drug-cost co-payment exemption criteria, including chronic-disease continuous prescriptions dispensed by primary clinics, second (and subsequent) dispensing of chronic-disease continuous prescriptions by hospitals, chronic-disease continuous prescriptions dispensed for low/mid-income households and holders of disability certificates at medical centers or regional hospitals, dental cases, and outpatient case-payment cases. See the Copayment Code (PART_CODE) decoding notes for details. Note: this field was added starting in (ROC) year 88."
+      "description_en": "I20: persons who must pay the drug copayment.\nI21: cases dispensed at primary clinics or district hospitals, or for middle-low-income households and holders of a disability certificate at medical centers or regional hospitals, where the drug cost is NT$100 or less, exempt from the drug copayment.\nI22: persons meeting the NHI rules exempting drug costs from copayment, including chronic-disease continuous prescriptions dispensed by primary clinics, second (inclusive) and later refills of chronic-disease continuous prescriptions dispensed by hospitals, chronic-disease continuous prescriptions dispensed for middle-low-income households and holders of a disability certificate at medical centers and regional hospitals, dental cases, and outpatient case-payment cases. See the copayment code (PART_CODE) explanation for details.\nNote: this field was added from ROC 88 (1999)"
     },
     {
       "seq": 20,
@@ -281,7 +281,7 @@
         }
       ],
       "name_zh_en": "continuous prescription dispensing sequence number",
-      "description_en": "For chronic disease continuity prescription dispensing, this field is mandatory. For general prescriptions and pharmaceutical home care, this field should not be filled. Note: No data from 1988 to 1991"
+      "description_en": "For chronic-disease continuous prescription refills, this field is required.\nFor general prescription dispensing and pharmacy home care, this field is not required.\nNote: no data for ROC 88 to 91 (1999-2002)"
     },
     {
       "seq": 22,
@@ -419,7 +419,7 @@
         }
       ],
       "name_zh_en": "pharmacy_service_fee_code",
-      "description_en": "Fill in the payment standard code, along with detailed diagnostic point (DIAG_DOT) and drug service point (DSVC_DOT) explanations. Note: Added this field since 1993."
+      "description_en": "Fill in the payment standard code; see the explanation of consultation points and pharmacist service points (DIAG_DOT &\nDSVC_DOT).\nNote: this field was added from ROC 93 (2004)"
     },
     {
       "seq": 33,
@@ -436,7 +436,7 @@
         }
       ],
       "name_zh_en": "claim reason note",
-      "description_en": "1: retroactive full claim 2: retroactive partial medical order or difference. For claims marked as retroactive, this field is required; for reviewed cases, leave blank. Note: added in 1998"
+      "description_en": "1: Supplementary report of a whole case 2: Supplementary report of part of the medical orders or of the order difference.\nThis field is required where the claim category is a supplementary report; for claims submitted for review, leave it blank. Note: this field was added from ROC 98 (2009)"
     },
     {
       "seq": 34,
@@ -597,7 +597,7 @@
         {
           "code": "E",
           "label_zh": "藥事居家照護-居家醫療照護整合計畫(108.6增 訂) 2026年01月27日修訂",
-          "label_en": "home-based pharmaceutical care-integrated home healthcare plan(added in 108.6 revised on January 27, 2026)"
+          "label_en": "Pharmacy home care - integrated home medical care program (added June 2019, ROC 108.6) Revised 27 January 2026"
         }
       ],
       "field_en": "Case Category"
@@ -648,7 +648,7 @@
         {
           "code": "09",
           "label_zh": "西醫其他專案 61，A1 居家照護 62，A2 精神疾病社區復健 63，A3 預防保健 65，A5 安寧居家療護 66，A6 護理之家居家照護 67，A7 安養、養護機構院民之居家照護 (88/1增訂) 71，B1 1.軍保西醫(87/7-90/2) 2.代辦性病患者全面篩檢愛滋病毒計畫(97/6 增訂)",
-          "label_en": "Other Western medicine projects 61 A1 home care 62 A2 community rehabilitation for mental disorders 63 A3 preventive health 65 A5 hospice home care 66 A6 nursing home care at home (added in January 1988) 71 B1. Military insurance Western medicine (August 1987 to February 1990) 2. Plan for comprehensive screening of HIV among patients with sexually transmitted diseases (added June 1997)"
+          "label_en": "Other Western-medicine programs 61, A1 Home care 62, A2 Community rehabilitation for mental illness 63, A3 Preventive health care 65, A5 Hospice home care 66, A6 Nursing home care at home 67, A7 Home care for residents of elderly-care and long-term-care institutions (added January 1999, ROC 88/1) 71, B1 1. Military insurance Western medicine (July 1998 - February 2001, ROC 87/7-90/2) 2. Commissioned comprehensive HIV screening program for patients with sexually transmitted diseases (added June 2008, ROC 97/6)"
         },
         {
           "code": "72",
@@ -663,12 +663,12 @@
         {
           "code": "BA",
           "label_zh": "愛滋防治治療替代計畫(99.12新增) 81，C1 論病例計酬案件 84，C4 代辦無健保結核病患就醫案件(96.07 增訂)",
-          "label_en": "AIDS prevention treatment alternative plan (added in December 1999) 81, C1 case-based payment cases 84, C4代办无健保结核病患就医案件(added in July 1996)"
+          "label_en": "AIDS prevention substitution treatment program (added December 2010, ROC 99.12) 81, C1 Case-payment cases 84, C4 Commissioned care for tuberculosis patients without NHI (added July 2007, ROC 96.07)"
         },
         {
           "code": "C5",
           "label_zh": "嚴重特殊傳染性肺炎通報且隔離案件(110/1/1增訂) 91，D1 代辦愛滋病案件(94.02起代辦) 92，D2 代辦兒童常規疫苗、流感疫苗及75歲以上長者肺炎鏈球菌疫苗接種（87.10 增訂，95.1起行政協助） 94，D4 西醫基層(醫院支援)醫療資源不足地區改善方案(90.07增訂)",
-          "label_en": "notifiable severe acute respiratory syndrome isolation cases (added on 2021-01-01) 91, D1 proxy AIDS cases (started in 1997-02) 92, D2 proxy routine childhood vaccines, flu vaccine, and pneumococcal vaccine for seniors aged 75 and above (added on 1987-10, started administrative assistance in 1996-01)"
+          "label_en": "Severe special infectious pneumonia (COVID-19) reported and isolated cases (added 1 January 2021, ROC 110/1/1) 91, D1 Commissioned AIDS cases (commissioned from February 2005, ROC 94.02) 92, D2 Commissioned routine childhood vaccines, influenza vaccine and pneumococcal vaccination for persons aged 75 and above (added October 1998, ROC 87.10; administrative assistance from January 2006, ROC 95.1) 94, D4 Western-medicine primary care (hospital support) improvement program for areas with insufficient medical resources (added July 2001, ROC 90.07)"
         },
         {
           "code": "DF",
@@ -678,7 +678,7 @@
         {
           "code": "E1",
           "label_zh": "醫療給付改善方案及試辦計畫(90.10增訂) 2026年01月27日修訂",
-          "label_en": "National Health Insurance Reform Scheme and pilot programs (added in October 90.10) revised on January 27, 2026."
+          "label_en": "Medical benefit improvement programs and pilot projects (added October 2001, ROC 90.10) Revised 27 January 2026"
         },
         {
           "code": "E2",
@@ -768,7 +768,7 @@
         {
           "code": "E1",
           "label_zh": "醫療給付改善方案及試辦計畫(113/1/1起) 中醫門診",
-          "label_en": "Traditional Chinese Medicine outpatient"
+          "label_en": "Medical benefit improvement programs and pilot projects (from 1 January 2024, ROC 113/1/1) Traditional Chinese medicine outpatient"
         },
         {
           "code": "21",
@@ -783,7 +783,7 @@
         {
           "code": "23",
           "label_zh": "中醫現代科技加強醫療服務方案(93.07增訂)",
-          "label_en": "Traditional Chinese Medicine Modern Technology Strengthened Medical Service Program (added in July 1993)"
+          "label_en": "TCM modern technology enhanced medical service program (added July 2004, ROC 93.07)"
         },
         {
           "code": "24",
@@ -798,17 +798,17 @@
         {
           "code": "26",
           "label_zh": "中醫針灸作業醫療品質提升計畫案(93.07增訂)",
-          "label_en": "Acupuncture operation quality improvement plan for traditional Chinese medicine clinics (amended in July 1993)"
+          "label_en": "TCM acupuncture practice medical quality improvement program (added July 2004, ROC 93.07)"
         },
         {
           "code": "27",
           "label_zh": "中醫複雜性傷科案件(97.01修訂)",
-          "label_en": "traditional Chinese medicine complex orthopedic cases (revised in 2007)"
+          "label_en": "TCM complex traumatology cases (revised January 2008, ROC 97.01)"
         },
         {
           "code": "28",
           "label_zh": "中醫慢性病連續處方調劑(88.09增訂) 2026年01月27日修訂",
-          "label_en": "traditional Chinese chronic disease continuous prescription dispensing (added in 1988.09) revised on 2026.01.27"
+          "label_en": "TCM chronic-disease continuous prescription dispensing (added September 1999, ROC 88.09) Revised 27 January 2026"
         },
         {
           "code": "29",
@@ -853,7 +853,7 @@
         {
           "code": "E1",
           "label_zh": "支付制度試辦計畫 (110/12/13起) 2026年01月27日修訂",
-          "label_en": "payment system pilot program (since 12/13/2026) revised on 01/27/2026"
+          "label_en": "Payment system pilot program (from 13 December 2021, ROC 110/12/13) Revised 27 January 2026"
         }
       ],
       "field_en": "case category of the original prescribing medical institution",
@@ -1256,7 +1256,7 @@
         {
           "code": "23",
           "label_zh": "職業醫學科(96.07增訂)",
-          "label_en": "occupational medicine (added in July 96)"
+          "label_en": "Occupational medicine (added July 2007, ROC 96.07)"
         },
         {
           "code": "40",
@@ -1416,7 +1416,7 @@
         {
           "code": "4",
           "label_zh": "健保卡就醫序號(FUNC_SEQ_NO) (1) 92年(含)以前：依卡別，每卡有6 格，每年由A1，A2…，A6，B1…，預防保健等其他特殊規定詳下表。 (2) 93年以後：健保IC 卡規定之就醫序號為四碼流水號，例如：0001。 (3) 請至國民健康署[健康促進法規-預防保健服務類]處下載服務醫事服務機構辦理預防保健注意事項。 各類案件在IC卡實施前後申報方式列示如下表： 84-92年 93年以後說明備註慢性處方箋",
-          "label_en": "Health Card Visit Sequence Number (CARD_SEQ_NO): (1) ROC year 92 (2003) and earlier: by card type, each card has 6 slots per year — A1, A2 ... A6, B1 ...; special rules for preventive care etc. are in the table below. (2) From year 93 onward: the NHI IC card visit sequence number is a 4-digit serial, e.g. 0001. (3) Download the preventive-care service notes from the Health Promotion Administration [Health Promotion Regulations - Preventive Care Services]. Reporting methods for each case type before/after IC-card implementation are shown below: ROC 84-92, year 93 onward, notes, remarks, chronic prescription."
+          "label_en": "NHI card visit sequence number (FUNC_SEQ_NO) (1) Up to and including 2003 (ROC 92): by card type, each card has 6 slots; each year the numbers run A1, A2 ... A6, B1 ...; preventive health care and other special rules are detailed in the table below. (2) From 2004 (ROC 93): the visit sequence number specified for the NHI IC card is a four-digit serial number, e.g. 0001. (3) Please go to the Health Promotion Administration [Health promotion regulations - preventive health services] section to download the notes for contracted medical institutions on handling preventive health services. The reporting methods for each case type before and after IC card implementation are listed in the table below: 1995-2003 (ROC 84-92) From 2004 (ROC 93) Explanation Remarks Chronic prescription"
         },
         {
           "code": "IC02",
@@ -1491,7 +1491,7 @@
         {
           "code": "73",
           "label_zh": "IC73 第三次(六至七個月) 90.06新增",
-          "label_en": "IC73 Third (six to seven months) 06/1990 added"
+          "label_en": "IC73 Third visit (six to seven months) added June 2001 (ROC 90.06)"
         },
         {
           "code": "74",
@@ -1531,7 +1531,7 @@
         {
           "code": "IC82",
           "label_zh": "弱勢兒童臼齒窩溝封劑服務補助方案非山地鄉， 2026年01月27日修訂",
-          "label_en": "subsidy_scheme_for_caries_sealants_in_weak_children_non-mountainous_areas_revised_on_January_27_2026"
+          "label_en": "Subsidy program for molar pit-and-fissure sealants for disadvantaged children, non-mountain townships, Revised 27 January 2026"
         },
         {
           "code": "IC83",
@@ -1546,52 +1546,52 @@
         {
           "code": "IC87",
           "label_zh": "未滿12歲之低收入戶.身心障礙.原住民族地 102/6/1起區.偏遠及離島地區,每三個月補助一次氟化防齲齒處理",
-          "label_en": "Subsidy for under-12 years old from low-income households, disabled individuals, and indigenous peoples. Starting from June 1, 2012, subsidized fluoridated dental treatment every three months in remote or offshore areas."
+          "label_en": "Children under 12 from low-income households, with disabilities, or in indigenous areas, remote areas and offshore islands: fluoride caries-prevention treatment subsidised once every three months, from 1 June 2013 (ROC 102/6/1)"
         },
         {
           "code": "IC8A",
           "label_zh": "國小一二年級兒童臼齒窩溝封填施作牙位16 103/9/1 起",
-          "label_en": "filling of pits and fissures on molars for grade 1-2 elementary school children - tooth position 16, starting from September 1, 2004"
+          "label_en": "Pit-and-fissure sealant for molars, grade 1-2 primary school children, tooth 16, from 1 September 2014 (ROC 103/9/1)"
         },
         {
           "code": "IC8B",
           "label_zh": "國小一二年級兒童臼齒窩溝封填施作牙位26 103/9/1 起",
-          "label_en": "filling of pits and fissures on molars for grade 1-2 elementary school children - tooth position 26, starting from September 1, 2004"
+          "label_en": "Pit-and-fissure sealant for molars, grade 1-2 primary school children, tooth 26, from 1 September 2014 (ROC 103/9/1)"
         },
         {
           "code": "IC8C",
           "label_zh": "國小一二年級兒童臼齒窩溝封填施作牙位36 103/9/1 起",
-          "label_en": "filling of pits and fissures on molars for grade 1-2 elementary school children - tooth position 36, starting from September 1, 2004"
+          "label_en": "Pit-and-fissure sealant for molars, grade 1-2 primary school children, tooth 36, from 1 September 2014 (ROC 103/9/1)"
         },
         {
           "code": "IC8D",
           "label_zh": "國小一二年級兒童臼齒窩溝封填施作牙位46 103/9/1 起",
-          "label_en": "filling of pits and fissures on molars for grade 1-2 elementary school children - tooth position 46, starting from September 1, 2004"
+          "label_en": "Pit-and-fissure sealant for molars, grade 1-2 primary school children, tooth 46, from 1 September 2014 (ROC 103/9/1)"
         },
         {
           "code": "IC8E",
           "label_zh": "身心障礙、山地原住民鄉及離島地區國小一二103/9/1 起年級學童施作牙位16",
-          "label_en": "Disability, mountain indigenous areas and offshore regions elementary school grades 1-2 starting from September 1, 2013, students undergoing tooth position 16"
+          "label_en": "Children with disabilities, or in mountain indigenous townships or offshore islands, grade 1-2 primary school students, from 1 September 2014 (ROC 103/9/1), tooth 16"
         },
         {
           "code": "IC8F",
           "label_zh": "身心障礙、山地原住民鄉及離島地區國小一二103/9/1 起年級學童施作牙位26",
-          "label_en": "Disability, mountain indigenous areas and offshore regions elementary school grades 1-2 starting from September 1, 2013, students undergoing tooth position 26"
+          "label_en": "Children with disabilities, or in mountain indigenous townships or offshore islands, grade 1-2 primary school students, from 1 September 2014 (ROC 103/9/1), tooth 26"
         },
         {
           "code": "IC8G",
           "label_zh": "身心障礙、山地原住民鄉及離島地區國小一二103/9/1 起年級學童施作牙位36",
-          "label_en": "Disability, mountain indigenous areas and offshore regions elementary school grades 1-2 starting from September 1, 2013, students undergoing tooth position 36"
+          "label_en": "Children with disabilities, or in mountain indigenous townships or offshore islands, grade 1-2 primary school students, from 1 September 2014 (ROC 103/9/1), tooth 36"
         },
         {
           "code": "IC8H",
           "label_zh": "身心障礙、山地原住民鄉及離島地區國小一二103/9/1 起年級學童施作牙位46",
-          "label_en": "mental and physical disability, mountain indigenous areas and outlying islands elementary school grades 1-2 students undergoing tooth position 46 since 2013/9/1"
+          "label_en": "Children with disabilities, or in mountain indigenous townships or offshore islands, grade 1-2 primary school students, from 1 September 2014 (ROC 103/9/1), tooth 46"
         },
         {
           "code": "IC8I",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起牙位16",
-          "label_en": "first filling of primary molars in elementary school children 2013-09-01 tooth position 16"
+          "label_en": "Primary school children, molar pit-and-fissure sealant, first evaluation examination, from 1 September 2014 (ROC 103/9/1), tooth 16"
         },
         {
           "code": "IC8J",
@@ -1606,7 +1606,7 @@
         {
           "code": "IC8L",
           "label_zh": "國小學童臼齒窩溝封填第一次評估檢查施作 103/9/1 起牙位46",
-          "label_en": "first filling of primary molars in elementary school children 2013-09-01 tooth position 46"
+          "label_en": "Primary school children, molar pit-and-fissure sealant, first evaluation examination, from 1 September 2014 (ROC 103/9/1), tooth 46"
         },
         {
           "code": "IC8M",
@@ -1631,7 +1631,7 @@
         {
           "code": "21",
           "label_zh": "IC21 四十歲至六十五歲 86.04新增",
-          "label_en": "IC21四十岁至六十五岁 86.04新增"
+          "label_en": "IC21 Aged 40 to 65 added April 1997 (ROC 86.04)"
         },
         {
           "code": "22",
@@ -1641,7 +1641,7 @@
         {
           "code": "23",
           "label_zh": "IC23 35歲以上小兒麻痺 2026年01月27日修訂成人預防保健-原住民且55歲以上未滿65歲 99/7/1起每1年補助1次成人預防保健-B/C型肝炎表面抗原檢查 109/9/1起終身補助1次婦女子宮頸抹片檢查",
-          "label_en": "IC23 Paralysis in children aged 35 or above 2026-01-27 revised Preventive health care for adults - Indigenous people and ages 55 to 64 inclusive, once per year starting July 1, 1999. Preventive health care - B/C hepatitis surface antigen test from September 1, 2010, lifelong once. Cervical smear check for women."
+          "label_en": "IC23 Poliomyelitis, aged 35 and over Revised 27 January 2026 Adult preventive health care - indigenous persons aged 55 to under 65, subsidised once a year from 1 July 2010 (ROC 99/7/1) Adult preventive health care - hepatitis B/C surface antigen test, subsidised once for life from 1 September 2020 (ROC 109/9/1) Pap smear for women"
         },
         {
           "code": "31",
@@ -1726,22 +1726,22 @@
         {
           "code": "07",
           "label_zh": "IC07 代辦門診戒煙 91.09新增",
-          "label_en": "IC07 Outpatient smoking cessation service added in 2009.09"
+          "label_en": "IC07 Commissioned outpatient smoking cessation, added September 2002 (ROC 91.09)"
         },
         {
           "code": "08",
           "label_zh": "IC08 代辦精神科強制住院 92.06新增代辦無健保愛滋病患就醫(95/1 增) 95.01新增 96/7 修訂為「代辦無健保病患就醫」 96.07修訂",
-          "label_en": "IC08 Proxy mandatory hospitalization Added on June 92, 1995 Proxy medical services for uninsured patients with HIV (Added on January 1, 1998) Added on January 1, 1998 Revised to 'Proxy medical services for uninsured patients' on July 96, 1997 Revised on July 96, 1997"
+          "label_en": "IC08 Commissioned compulsory psychiatric hospitalization, added June 2003 (ROC 92.06) Commissioned care for HIV patients without NHI (added January 2006, ROC 95/1) added January 2006 (ROC 95.01) Revised in July 2007 (ROC 96/7) to 'commissioned care for patients without NHI' revised July 2007 (ROC 96.07)"
         },
         {
           "code": "IC10",
           "label_zh": "代辦性病患者全面篩檢愛滋病毒計畫 97.06增訂",
-          "label_en": "Plan for comprehensive screening of HIV among sexually transmitted disease patients (amended in June 2007)"
+          "label_en": "Commissioned comprehensive HIV screening program for patients with sexually transmitted diseases, added June 2008 (ROC 97.06)"
         },
         {
           "code": "IC85",
           "label_zh": "定量免疫法糞便潛血檢查50歲以上-未滿70歲 99/1/1起 2年1次定量免疫法糞便潛血檢查服務品質 2026年01月27日修訂",
-          "label_en": "quantitative immunoassay fecal occult blood test for ages 50-69 since 2009/01/01 twice every two years quantitative immunoassay fecal occult blood service quality revised on 2026-01-27"
+          "label_en": "Quantitative immunochemical fecal occult blood test, aged 50 to under 70, once every 2 years from 1 January 2010 (ROC 99/1/1) Quantitative immunochemical fecal occult blood test service quality Revised 27 January 2026"
         },
         {
           "code": "89",
@@ -1756,7 +1756,7 @@
         {
           "code": "IC93",
           "label_zh": "婦女乳房攝影檢查-40歲以上未滿45歲且2等親 99/1/1起以內血親曾患有乳癌婦女-每2年1次",
-          "label_en": "Mammography screening for women aged 40-44 with a first-degree relative who has had breast cancer - every two years starting from 99/1/1"
+          "label_en": "Mammography - women aged 40 to under 45 whose blood relatives within the second degree have had breast cancer - once every 2 years from 1 January 2010 (ROC 99/1/1)"
         },
         {
           "code": "IC95",
@@ -1766,7 +1766,7 @@
         {
           "code": "IC97",
           "label_zh": "18歲以上至未滿30歲嚼檳榔之原住民,每二年 102/6/1起乙次口腔黏膜檢查",
-          "label_en": "For indigenous people aged 18 and above but less than 30, oral mucosa examination once every two years starting June 1, 2012"
+          "label_en": "Indigenous persons aged 18 to under 30 who chew betel nut: oral mucosal examination once every two years from 1 June 2013 (ROC 102/6/1)"
         },
         {
           "code": "98",
@@ -1776,7 +1776,7 @@
         {
           "code": "99",
           "label_zh": "IC99 93.07 享，提供CT、MRI檢查結果之院所申報",
-          "label_en": "IC99 From July 93.07. Claiming for CT or MRI examination results from eligible hospitals"
+          "label_en": "IC99 July 2004 (ROC 93.07) sharing: institutions that provide CT and MRI examination results report"
         },
         {
           "code": "ICHN",
@@ -1786,7 +1786,7 @@
         {
           "code": "C002",
           "label_zh": "18歲以下兒少例外就醫 99/10/1-106/10/5",
-          "label_en": "Under 18 medical exceptions from October 1, 1999 to October 5, 2010"
+          "label_en": "Exceptional visits for children and adolescents aged 18 and under, 1 October 2010 - 5 October 2017 (ROC 99/10/1-106/10/5)"
         },
         {
           "code": "C003",
@@ -1806,7 +1806,7 @@
         {
           "code": "IC20",
           "label_zh": "補助經濟弱勢新生兒聽力篩檢服務方案 99/1/18起",
-          "label_en": "Subsidized newborn hearing screening service program for economically disadvantaged families since January 18, 1999"
+          "label_en": "Subsidy program for hearing screening of economically disadvantaged newborns, from 18 January 2010 (ROC 99/1/18)"
         },
         {
           "code": "ICB6",
@@ -1816,7 +1816,7 @@
         {
           "code": "ICC1",
           "label_zh": "西醫基層診所以病人為中心整合照護計畫 101/1/1-101/12/31 照護對象非疾病就醫",
-          "label_en": "General Practitioner Integrated Care Plan for Patients in Primary Medical Institutions from 1/1/2011 to 12/31/2011, non-disease outpatient visits"
+          "label_en": "Patient-centred integrated care program for primary-care Western-medicine clinics, 1 January 2012 - 31 December 2012 (ROC 101/1/1-101/12/31); target: non-disease visits"
         },
         {
           "code": "ICC4",
@@ -1826,7 +1826,7 @@
         {
           "code": "ICCD",
           "label_zh": "慢性傳染病品質計畫之追蹤管理費 113/1/1起",
-          "label_en": "chronic infectious disease quality plan follow-up management fee effective from January 1, 2023"
+          "label_en": "Follow-up management fee of the chronic infectious disease quality program, from 1 January 2024 (ROC 113/1/1)"
         },
         {
           "code": "ICD1",
@@ -1836,12 +1836,12 @@
         {
           "code": "ICDF",
           "label_zh": "登革熱NS1抗原快速篩檢試劑 104/9/17起",
-          "label_en": "dengue fever NS1 antigen rapid test reagent 09/17/2014"
+          "label_en": "Dengue NS1 antigen rapid test reagent, from 17 September 2015 (ROC 104/9/17)"
         },
         {
           "code": "ICK1",
           "label_zh": "Pre-ESRD預防性計畫及病人衛教計畫 101/1/1起",
-          "label_en": "Pre-ESRD preventive program and patient education plan Effective from January 1, 2011"
+          "label_en": "Pre-ESRD preventive program and patient health education program, from 1 January 2012 (ROC 101/1/1)"
         },
         {
           "code": "ICK5",
@@ -1856,7 +1856,7 @@
         {
           "code": "TM01",
           "label_zh": "遠距醫療 109/12/29起居家輕量化虛擬健保卡 2026年01月27日修訂補充說明： (1) 各項預防保健服務得視病情需要，由同一診治醫師併行其他一般診療，如開給感冒藥等， 不必另外加蓋健保卡戳章，亦不得收取部分負擔費用。該次治療及藥品以「門診醫療服務點數清單」申報，就醫序號欄以該次預防保健服務之時程代碼填入，部分負擔代碼則以「009」填入，並不得另行申報診察費。 (2) 各項預防保健服務費用申報，併當月份門診費用，其中婦女子宮頸抹片檢查之採檢醫療機構、病理檢驗醫療機構採分開申報、分開支付方式，如採檢醫療機構及病理檢驗醫療機構為同一院所，則可合併申報。 (3) 同一序號如有重複申報，僅支付實際於健保IC 卡註記之醫療院所。 (4) 異常代碼對照表(依健保署97年9月10日健保醫字第0970002562號函之健保IC卡資料上傳作業說明異常代碼對照表填寫) 2026年01月27日修訂異常代碼異常原因 (尚未取得就醫序號) (已取得就醫序號)",
-          "label_en": "1. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 2. All cases with diagnosis years on or after 1 January 2018 are reported per the ROC-107 (2018) cancer-registry abstracting manual. 3. Contains raw data as reported by each hospital, without removing inter-hospital duplicate cases (same person, same cancer, same histology group). 4. The cancers covered by the cancer-registry short form (ROC-107 edition) include, besides all cancers reported by short-form hospitals, all other cancers not reported by long-form hospitals — all reported via the short form. 5. For cases classified as 0 or 3, field sequences 7.1-7.5 need not be reported and are filled with 9. 6. To analyze de-duplicated grouped annual-report data from diagnosis year 1979 to the latest published year, apply for the annual-report grouped file. 1. ID number is encrypted. 2. The person-grouping/matching key is ID."
+          "label_en": "Telemedicine from 29 December 2020 (ROC 109/12/29) home-based lightweight virtual NHI card Revised 27 January 2026 Supplementary notes: (1) Each preventive health service may, as clinically needed, be combined with other general treatment by the same attending physician, such as prescribing cold medicine, without an additional NHI card stamp, and no copayment may be charged. That treatment and medication are reported on the 'Outpatient Medical Service Points List', with the visit sequence number field filled with the timing code of the preventive health service and the copayment code filled as '009'; no separate consultation fee may be reported. (2) Reporting of preventive health service fees is combined with that month's outpatient fees; for cervical (Pap) smear screening, the specimen-collecting institution and the pathology-testing institution report and are paid separately, unless they are the same institution, in which case joint reporting is allowed. (3) If the same serial number is reported more than once, only the medical institution actually annotated on the NHI IC card is paid. (4) Abnormality code table (filled in according to the abnormality code table in the NHIA's IC card data upload instructions, per Medical Letter No. 0970002562 of 10 September 2008, ROC 97/9/10) Revised 27 January 2026 Abnormality code / abnormality reason (visit sequence number not yet obtained) (visit sequence number already obtained)"
         },
         {
           "code": "A000",
@@ -1886,7 +1886,7 @@
         {
           "code": "C000",
           "label_zh": "C001 停電、例外就醫",
-          "label_en": "Power outage, emergency medical care"
+          "label_en": "C001 Power outage, exceptional medical visit"
         },
         {
           "code": "D000",
@@ -1921,7 +1921,7 @@
         {
           "code": "Z000",
           "label_zh": "Z001 1.因應 COVID 19 慢性病人無法返臺親自就醫代為陳述病情或代領藥之異常就醫序號預計使用至 112.12.31 止 2.無法取得健保卡密碼",
-          "label_en": "Z001. For chronic patients unable to return to Taiwan for medical treatment due to COVID-19, abnormal medical visit numbers expected to be used until December 31, 2022 To handle cases where the patient's health insurance card password cannot be obtained"
+          "label_en": "Z001 1. Abnormal visit sequence number for chronic-disease patients who, because of COVID-19, cannot return to Taiwan to seek care in person and have someone describe the condition or collect drugs on their behalf; expected to be used until 31 December 2023 (ROC 112.12.31) 2. NHI card password cannot be obtained"
         },
         {
           "code": "G000",
@@ -2943,7 +2943,7 @@
         {
           "code": "M",
           "label_zh": "肝炎試辦計畫 92.10增訂",
-          "label_en": "hepatitis pilot program (added October 92)"
+          "label_en": "Hepatitis pilot program (added October 2003, ROC 92.10)"
         },
         {
           "code": "W",
@@ -2974,12 +2974,12 @@
         {
           "code": "004",
           "label_zh": "004 004 （第六類第一目之保險對象）（代辦） 經登記列管結核病患至衛生福利部公告指定之醫療院所就醫者（代辦）、代辦無健保結核病患",
-          "label_en": "004 004 (第六类第一目之保险对象)（代办） 经登记列管结核病患至卫生福利部公告指定之 医疗院所就医者（代办）、代办无健保结核病患"
+          "label_en": "004 004 (insured persons of Category 6, Item 1) (commissioned) Registered and controlled tuberculosis patients seeking care at institutions designated by the Ministry of Health and Welfare (commissioned); commissioned medical care of tuberculosis patients without NHI"
         },
         {
           "code": "005",
           "label_zh": "005 005 之醫療費用（96年7月9日健保醫字第 0960023163號函增訂）。 勞工保險被保險人因職業傷害或職業病門診者",
-          "label_en": "005 005 Medical Expenses for Occupational Injury or Disease Outpatient (Amended on July 9, 1996 by MOH Letter No. 0960023163). For insured workers due to occupational injury or disease outpatient visits"
+          "label_en": "005 005 medical expenses (added per Letter No. 0960023163 of 9 July 2007, ROC 96/7/9). Labor Insurance insured persons seeking outpatient care for occupational injury or occupational disease"
         },
         {
           "code": "006",
@@ -2994,12 +2994,12 @@
         {
           "code": "008",
           "label_zh": "008 008 就醫者（僅當次轉診適用） 健保署其他規定免部分負擔者，如產檢時，同一主治醫師併同開給一般處方，百歲人瑞免部分負擔， 921震災，行政協助性病或藥癮病患全面篩檢愛滋計畫、行政協助孕婦全面篩檢愛滋計",
-          "label_en": "008 008 The patient (applicable only for the first referral). NHRI exemptions from partial payment, such as when a general prescription is issued by the attending physician during prenatal check-ups, centenarians are exempt from partial payment, disaster assistance for HIV screening and maternal comprehensive HIV screening plans for patients with sexually transmitted diseases or drug addiction."
+          "label_en": "008 008 patients (applies to that referral only) Others exempt from copayment under NHIA rules, e.g. at prenatal check-ups when the same attending physician also issues a general prescription, centenarians exempt from copayment, the 921 earthquake, administrative assistance for the comprehensive HIV screening program for patients with sexually transmitted diseases or drug addiction, administrative assistance for the comprehensive HIV screening program for pregnant women"
         },
         {
           "code": "009",
           "label_zh": "009 009 畫 、八仙樂園粉塵暴燃事件 (104.06.27~104.09.30)、有職災單之非職災醫療費用改健保支付 (105.11.01新增)、 西醫就診 92093B另以門診牙醫申報(106.11.01新增)等 HMO巡迴醫療（86.03增訂） 801 801 2026年01月27日修訂蘭綠計劃（88.08.01增訂） 802 802 多氯聯苯中毒之油症門診患者",
-          "label_en": "009 009 Eight-Elephant Amusement Park Dust Storm Incident (June 27, 2015 - September 30, 2015), Non-work-related medical expenses changed to be paid by the National Health Insurance with work injury claims (November 1, 2016 new addition), Western medicine outpatient visit 92093B reported separately for dental visits (November 1, 2017 new addition) etc. HMO mobile healthcare (March 1986 amendment) 801 801 Revised on January 27, 2026 Green Plan (August 1, 1988 amendment) 802 802 Polychlorinated biphenyl poisoning oil disease outpatient patients"
+          "label_en": "009 009 program, Formosa Fun Coast dust explosion incident (27 June 2015 - 30 September 2015, ROC 104.06.27~104.09.30), medical costs without an occupational-injury claim paid by NHI instead where an occupational-injury slip was held (added 1 November 2016, ROC 105.11.01), Western-medicine visits 92093B also billed as outpatient dental (added 1 November 2017, ROC 106.11.01), etc. HMO itinerant medical care (added March 1997, ROC 86.03) 801 801 Revised 27 January 2026 Lanlu Program (added 1 August 1999, ROC 88.08.01) 802 802 Outpatient patients with PCB poisoning (oil disease)"
         },
         {
           "code": "901",
@@ -3009,17 +3009,17 @@
         {
           "code": "902",
           "label_zh": "902 902 （代辦）（91.03.01增訂） 健保IC 卡新生兒依附註記方式就醫者",
-          "label_en": "IC card for newborns who seek medical care according to the note"
+          "label_en": "902 902 (commissioned) (added 1 March 2002, ROC 91.03.01) Newborns seeking care via NHI IC card dependent annotation"
         },
         {
           "code": "903",
           "label_zh": "903 903 （代辦）（92.09增訂） 代辦愛滋病案件（代辦）（95.03增訂） 904 904 904 三氯氰胺污染奶製品案(97.09.23增訂) 905 905 內政部役政署補助替代役役男全民健康保險自行負擔醫療費用（102.01.01起適用；協助內政 906 906 906 部役政署辦理項目） 原住民於非山地暨離島地區接受戒菸服務者",
-          "label_en": "903 903 (Proxy) (Amended in 92.09) Proxy for AIDS Cases (Amended in 95.03) 904 904 904 Tainted Milk Products Case Due to Trichloroethylene Pollution (Amended on 97.09.23) 905 905 Ministry of Interior Veterans Affairs Administration Subsidy for Alternative Service Personnel's Health Insurance Self-Payment Medical Expenses (Effective from 102.01.01; Assisting the Ministry of Interior Veterans Affairs Administration in handling this project) TCM Services for Indigenous People Receiving Smoking Cessation Services in Non-Hilly and Island Areas"
+          "label_en": "903 903 (commissioned) (added September 2003, ROC 92.09) Commissioned AIDS cases (commissioned) (added March 2006, ROC 95.03) 904 904 904 Melamine-contaminated dairy products case (added 23 September 2008, ROC 97.09.23) 905 905 Ministry of the Interior Military Service Agency subsidy of the NHI self-paid medical expenses of alternative-service conscripts (applicable from 1 January 2013, ROC 102.01.01; assisting the Military Service Agency, Ministry of the Interior, in handling this item) 906 906 906 Indigenous persons receiving smoking cessation services in non-mountain and non-offshore-island areas"
         },
         {
           "code": "907",
           "label_zh": "907 【104.11.01(含)起適用】 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫學中心、區域醫院交付案件藥費一百 I21 元以下免加收藥費部分負擔者符合本保險藥費免部分負擔範圍規定者，包括基層診所交付慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次(含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病例計酬案件代辦海洋委員會海巡署補助部分負擔 908 908 代辦中央警察大學補助部分負擔 909 909 代辦內政部消防署補助部分負擔 910 910 代辦內政部空勤總隊補助部分負擔 911 911 代辦內政部警政署補助部分負擔 912 912 代辦國防部補助部分負擔 913 913 行政協助法定傳染病通報隔離案件 914 914 代辦內政部移民署補助部分負擔 915 915 長照機構加強型結核病防治計畫免部分負擔 916 2026年01月27日修訂註：依 97 年 2 月 13 日健保醫字第 0970001927 號函，倘同一案件同時符合二項以上免部分負擔條件者，門、住診皆依下列原則填寫： (一)依全民健康險法規定（健保法94條）職業災害（含職業傷害及職業病）優先填寫，即部分負擔代碼006（勞工保險被保險人因職業傷害或職業病門診）優先填寫。 (二)非屬前述則依全民健康保險法規定免自行負擔者，優先擇一適用代碼填寫，包括重大傷病（001）、分娩（002）、預防保健服務（009）及山地離島地區之就醫 （007）之部分。 (三)再者，若非上開（一）（二）情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填寫。 2026年01月27日修訂 (1) 應部分負擔編碼原則第一碼（醫療院所層級） 西醫牙醫中醫",
-          "label_en": "907 [Applicable from 104.11.01 (inclusive)] Subject to additional drug-cost copayment I20; Primary clinics, district hospitals, or low/middle-income households and disability-certificate holders receiving cases at medical centers/regional hospitals with drug costs of NT$100 or less, exempt from additional drug copayment I21; Those meeting this insurance's drug-copayment exemption scope, including primary-clinic dispensing of chronic-disease refill prescriptions, hospital dispensing of chronic-disease refill prescriptions for the second (inclusive) time or later, low/middle-income households and disability-certificate holders receiving chronic-disease refill prescriptions at medical centers/regional hospitals, dental cases, and outpatient case-payment cases. Subsidized copayment on behalf of Ocean Affairs Council Coast Guard Administration 908; on behalf of Central Police University 909; on behalf of Ministry of the Interior Fire Agency 910; on behalf of Ministry of the Interior Aviation Special Service Corps 911; on behalf of National Police Agency 912; on behalf of Ministry of National Defense 913; Administrative assistance for notifiable-infectious-disease reporting and isolation cases 914; on behalf of National Immigration Agency 915; Long-term-care institution enhanced tuberculosis-prevention program copayment exemption 916. Revised 2026-01-27. Note: per NHI Medical Letter No. 0970001927 dated 97/02/13, if a single case simultaneously meets two or more copayment-exemption conditions, both outpatient and inpatient claims shall be filled in per the following principles: (1) Per the NHI Act (Article 94), occupational hazard (including occupational injury and occupational disease) takes priority, i.e., copayment code 006 (Labor Insurance insured person's outpatient visit due to occupational injury or disease) takes priority. (2) Otherwise, per NHI Act copayment-exempt provisions, select one applicable code with priority, including major illness/injury (001), childbirth (002), preventive health service (009), and medical visits in mountain/offshore-island areas (007). (3) If neither (1) nor (2) applies, and it is a case of subsidized copayment on behalf of another agency, select one applicable code from top to bottom in priority order. Revised 2026-01-27. (1) Copayment coding principle, first digit (medical institution level): Western medicine, Dentistry, Traditional Chinese medicine"
+          "label_en": "907 [applicable from 1 November 2015 (ROC 104.11.01), inclusive] Persons who must pay the drug copayment I20 Cases dispensed at primary clinics or district hospitals, or for middle-low-income households and holders of a disability certificate at medical centers or regional hospitals, where the drug cost is NT$100 I21 or less, exempt from the drug copayment; persons meeting the NHI rules exempting drug costs from copayment, including chronic-disease continuous prescriptions dispensed by primary clinics, second (inclusive) and later refills of chronic-disease continuous prescriptions dispensed by hospitals, chronic-disease continuous prescriptions dispensed for middle-low-income households and holders of a disability certificate at medical centers and regional hospitals, dental cases, and outpatient case-payment cases. Commissioned: copayment subsidised by the Coast Guard Administration, Ocean Affairs Council 908 908 Commissioned: copayment subsidised by the Central Police University 909 909 Commissioned: copayment subsidised by the National Fire Agency, Ministry of the Interior 910 910 Commissioned: copayment subsidised by the National Airborne Service Corps, Ministry of the Interior 911 911 Commissioned: copayment subsidised by the National Police Agency, Ministry of the Interior 912 912 Commissioned: copayment subsidised by the Ministry of National Defense 913 913 Administrative assistance: notifiable infectious disease reported and isolated cases 914 914 Commissioned: copayment subsidised by the National Immigration Agency, Ministry of the Interior 915 915 Enhanced tuberculosis prevention and control program for long-term care institutions, copayment exempt 916 Revised 27 January 2026 Note: Per Letter No. 0970001927 of 13 February 2008 (ROC 97/2/13), where the same case meets two or more copayment-exemption conditions, both outpatient and inpatient claims are filled in according to the following principles: (1) Under the National Health Insurance Act (Article 94), occupational injury (including occupational injury and occupational disease) takes priority, i.e. copayment code 006 (labor insurance insured person seeking outpatient care for occupational injury or occupational disease) is filled first. (2) Otherwise, those exempt from cost-sharing under the National Health Insurance Act take priority, choosing one applicable code, including catastrophic illness (001), childbirth (002), preventive health services (009) and visits in mountain and offshore island areas (007). (3) If neither (1) nor (2) applies and the case is a commissioned copayment subsidy, choose one applicable code from top to bottom. Revised 27 January 2026 (1) Copayment coding principles, first character (level of medical institution): Western medicine, dental, TCM"
         },
         {
           "code": "A",
@@ -3094,22 +3094,22 @@
         {
           "code": "4",
           "label_zh": "一般身分持藥單(111年 4月14日增訂)",
-          "label_en": "general identity with prescription (amended on April 14, 2021)"
+          "label_en": "General status, holding a drug slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "5",
           "label_zh": "一般身分持檢驗單(111年4月14日增訂)",
-          "label_en": "general identity with test order (amended on April 14, 2021)"
+          "label_en": "General status, holding a laboratory test slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "6",
           "label_zh": "一般身分持藥單及檢驗單(111年4月14日增訂)",
-          "label_en": "General identity holder of drug and examination orders (amended on April 14, 2011)"
+          "label_en": "General status, holding a drug slip and a laboratory test slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "7",
           "label_zh": "持身心障礙證明加藥單(111年4月14日增訂)",
-          "label_en": "Addendum to prescription with disability certificate (Added Apr 14, 2023)"
+          "label_en": "Holding a disability certificate plus drug slip (added 14 April 2022, ROC 111)"
         },
         {
           "code": "8",
@@ -3129,7 +3129,7 @@
         {
           "code": "P",
           "label_zh": "中低收入戶之保險對象加藥單(112年3月7日增訂) 2026年01月27日修訂 2026年01月27日修訂 (2) 應部分負擔代碼及負擔點數西醫代號說明點數增修日期",
-          "label_en": "Low-income household insured party drug list (added on March 7, 2022) Revised on January 27, 2026 Revised on January 27, 2026 (2) Copayment code and point number Western medicine Code Description Points Date added"
+          "label_en": "Insured persons from middle-low-income households, with drug slip (added 7 March 2023, ROC 112/3/7) Revised 27 January 2026 Revised 27 January 2026 (2) Copayment codes and copayment points: Western medicine Code Description Points Date added/revised"
         },
         {
           "code": "A00",
@@ -3174,7 +3174,7 @@
         {
           "code": "A13",
           "label_zh": "50 （98.8起）",
-          "label_en": "50 (since 2008)"
+          "label_en": "50 (from August 2009, ROC 98.8)"
         },
         {
           "code": "A14",
@@ -3184,7 +3184,7 @@
         {
           "code": "A17",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者 (98/ 8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "holders of disability certificates or participants in pilot programs (since 08/09/2008); outpatient services at correctional institutions under medical service plans, since 01/10/2012"
+          "label_en": "Holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "A1P",
@@ -3209,7 +3209,7 @@
         {
           "code": "A27",
           "label_zh": "持身心障礙證明或參加試辦計畫補助者(98/8 起)； 收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "Holders of disability certificates or participants in pilot programs (Starting from 2000/08); Medical services for inmates in correctional facilities (Added in 2013/01)"
+          "label_en": "Holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "A2P",
@@ -3224,12 +3224,12 @@
         {
           "code": "A31",
           "label_zh": "106/4/15起月內未逾四次之回診(轉入之院所適用) 醫學中心；轉診(轉入之院所適用)或加復健；持身心障礙證明或參加試辦計畫補助者(98/8 起)",
-          "label_en": "4/15/2016 Onwards Within four visits within a month (applicable to hospitals receiving transfers) Medical center; referral (applicable to transferring hospitals) or rehabilitation; with disability certificate or participating in pilot program subsidy (starting from 8/98)"
+          "label_en": "From 15 April 2017 (ROC 106/4/15): return visits within a month not exceeding four (applicable to the receiving institution) Medical center; referral (applicable to the receiving institution) or plus rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8)"
         },
         {
           "code": "A34",
           "label_zh": "醫學中心；轉診(轉入之院所適用)加藥品或復健醫學中心；轉診(轉入之院所適用)加藥品或復健； 持身心障礙證明或參加試辦計畫補助者(98/8 起) 醫學中心；轉診(轉入之院所適用)加藥品或復健；中低收入註記 (112/3新增)",
-          "label_en": "Academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; for individuals holding a physical or mental disability certificate or participating in trial subsidy programs since August 1998; academic medical center; referral (applicable to hospitals receiving referrals), additional medications or rehabilitation; low-income annotation (added March 2023)"
+          "label_en": "Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; referral (applicable to the receiving institution) plus drugs or rehabilitation; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "A40",
@@ -3239,7 +3239,7 @@
         {
           "code": "A43",
           "label_zh": "醫學中心；住院出院或門、急診手術後首次之回診或復健； 2026年01月27日修訂持身心障礙證明或參加試辦計畫補助者(98/8 起) 醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健；持身心障礙證明或參加試辦計畫補助者 (98/8 起) 醫學中心；住院出院或門、急診手術後首次之回診加藥品或復健；中低收入註記 (112/3 新增)",
-          "label_en": "Medical center; outpatient/ED follow-up visit or rehabilitation after hospital discharge/surgery; revised on January 27, 2026; for those with a disability certificate or participating in the pilot program since August 98"
+          "label_en": "Medical center; first return visit or rehabilitation after inpatient discharge or outpatient/emergency surgery; Revised 27 January 2026 holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) Medical center; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B00",
@@ -3279,7 +3279,7 @@
         {
           "code": "B13",
           "label_zh": "50 （98.8起）",
-          "label_en": "50 (since 2008)"
+          "label_en": "50 (from August 2009, ROC 98.8)"
         },
         {
           "code": "B14",
@@ -3289,12 +3289,12 @@
         {
           "code": "B17",
           "label_zh": "畫補助者(98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1新增)",
-          "label_en": "Subsidized individuals (since Aug 98); outpatient services for recipients of the correction agency's medical service plan within an institution (added in Oct 202)"
+          "label_en": "plan subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "B1P",
           "label_zh": "區域醫院；一般門診僅持藥單中低收入註記(112/3 新增)",
-          "label_en": "Regional hospital; general outpatient clinic only drug claims form low-income annotation (added in March 2025)"
+          "label_en": "Regional hospital; general outpatient with drug slip only; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B20",
@@ -3314,12 +3314,12 @@
         {
           "code": "B27",
           "label_zh": "辦計畫補助者(98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "planning sponsor since 98/8; correction agency outpatient for recipients of medical service plan"
+          "label_en": "pilot program subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "B2P",
           "label_zh": "區域醫院；一般門診加藥品或復健；中低收入註記(112/3新增)",
-          "label_en": "Regional hospital; general outpatient plus medication or rehabilitation; low-income annotation (added in March 2024)"
+          "label_en": "Regional hospital; general outpatient plus drugs or rehabilitation; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "B30",
@@ -3334,12 +3334,12 @@
         {
           "code": "B34",
           "label_zh": "區域醫院；轉診(轉入之院所適用)加藥品或復健區域醫院；轉診(轉入之院所適用)加藥品或復健；持身心障礙證明或參加試辦計畫補助者(98/8 起)",
-          "label_en": "Regional Hospital; referred from (applicable to institutions receiving referrals) with added medications or rehabilitation; applicable to those with a disability certificate or participating in pilot programs since Aug. 98."
+          "label_en": "Regional hospital; referral (applicable to the receiving institution) plus drugs or rehabilitation Regional hospital; referral (applicable to the receiving institution) plus drugs or rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8)"
         },
         {
           "code": "B3P",
           "label_zh": "區域醫院；轉診(轉入之院所適用)加藥品或復健；中低收入註 2026年01月27日修訂記 (112/3新增)",
-          "label_en": "regional hospital; referral (applicable to the receiving institution) with medication or rehabilitation; low-income note 20260127 revised note (added in 112/3)"
+          "label_en": "Regional hospital; referral (applicable to the receiving institution) plus drugs or rehabilitation; middle-low-income annotation Revised 27 January 2026 (added March 2023, ROC 112/3)"
         },
         {
           "code": "B40",
@@ -3369,7 +3369,7 @@
         {
           "code": "C13",
           "label_zh": "50 94/7/15 （98.8起）",
-          "label_en": "50 94/7/15 (since 1998-08-01)"
+          "label_en": "50 15 July 2005 (ROC 94/7/15) (from August 2009, ROC 98.8)"
         },
         {
           "code": "C14",
@@ -3379,7 +3379,7 @@
         {
           "code": "C17",
           "label_zh": "畫補助者 (98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1新增)",
-          "label_en": "subsidy recipient (since Aug. 1998); outpatient services under correctional agency within the medical service plan for correctional institutions (added in 2013/1)"
+          "label_en": "plan subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "C1P",
@@ -3404,7 +3404,7 @@
         {
           "code": "C27",
           "label_zh": "辦計畫補助者 (98/8 起)；收容對象醫療服務計畫之矯正機關內門診 (102/1 新增)",
-          "label_en": "Plan sponsor since 8/9/2000; outpatient services for correctional institution residents under the medical service plan (added since 1/10/2013)"
+          "label_en": "pilot program subsidy (from August 2009, ROC 98/8); outpatient clinics in correctional institutions under the medical services program for detainees (added January 2013, ROC 102/1)"
         },
         {
           "code": "C2P",
@@ -3419,7 +3419,7 @@
         {
           "code": "C31",
           "label_zh": "106/4/15 月內未逾四次之回診(轉入之院所適用) 地區醫院；轉診(轉入之院所適用)或加復健；持身心障礙證明或參加試辦計畫補助者 (98/8 起)",
-          "label_en": "4/15/2016 Within four visits within a month (applicable to hospitals receiving transfers) Regional hospital; referral (applicable to transferring hospitals) or rehabilitation; with disability certificate or participating in pilot program subsidy (starting from 8/98)"
+          "label_en": "From 15 April 2017 (ROC 106/4/15): return visits within a month not exceeding four (applicable to the receiving institution) District hospital; referral (applicable to the receiving institution) or plus rehabilitation; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8)"
         },
         {
           "code": "C34",
@@ -3434,7 +3434,7 @@
         {
           "code": "C40",
           "label_zh": "地區醫院；住院出院或門診手術7日內回診、藥品或復健 ＊ 94/7/15 2026年01月27日修訂地區醫院；住院出院或門、急診手術後首次之回診或復健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健；持身心障礙證明或參加試辦計畫補助者(98/8 起) 地區醫院；住院出院或門、急診手術後首次之回診加藥品或復健中低收入註記(112/3 新增)",
-          "label_en": "1. Each newborn is one record. 2. This data comes from the 'birth certificate', 'stillbirth certificate', and 'birth notification' reported by delivery facilities nationwide. 3. Statistical items include maternal background data (nationality, residence) and pregnancy conditions (risk factors or special procedures), newborn data (birth weight, plurality, congenital-defect flag, etc.), and maternal spouse data (nationality, household registration). 4. From 1 July 2015 (ROC 104), newborn congenital-defect codes in the birth-notification system were changed to ICD-10-CM. Hospitals doing batch transfers were given a three-month buffer for system adjustment, so from July 2015..."
+          "label_en": "District hospital; return visit, drugs or rehabilitation within 7 days after inpatient discharge or outpatient surgery * 15 July 2005 (ROC 94/7/15) Revised 27 January 2026 District hospital; first return visit or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; holders of a disability certificate or subsidised participants in pilot programs (from August 2009, ROC 98/8) District hospital; first return visit plus drugs or rehabilitation after inpatient discharge or outpatient/emergency surgery; middle-low-income annotation (added March 2023, ROC 112/3)"
         },
         {
           "code": "D00",
@@ -3509,7 +3509,7 @@
         {
           "code": "E30",
           "label_zh": "醫學中心；轉診(轉入之院所適用) 106/4/15 醫學中心；轉診傷病經醫師認定需繼續門診診療，轉診就醫一",
-          "label_en": "Medical center; referral (applicable to transferring hospitals) April 15, 2016: Medical center; referral for patients whose conditions require continued outpatient care after discharge as determined by a physician."
+          "label_en": "Medical center; referral (applicable to the receiving institution) 15 April 2017 (ROC 106/4/15) Medical center; referral where a physician determines that continued outpatient treatment is necessary, referral visit one"
         },
         {
           "code": "E31",
@@ -3559,7 +3559,7 @@
         {
           "code": "G10",
           "label_zh": "地區醫院；一般門診 50 2026年01月27日修訂",
-          "label_en": "regional hospital; general outpatient 50 revised on jan 27, 2026"
+          "label_en": "District hospital; general outpatient 50 Revised 27 January 2026"
         },
         {
           "code": "G20",
@@ -3629,7 +3629,7 @@
         {
           "code": "N31",
           "label_zh": "106/4/15 個月內未逾四次之回診轉入之院所適用",
-          "label_en": "Within 4 visits in a month from 15 April 2007 for transferred-in patients"
+          "label_en": "From 15 April 2017 (ROC 106/4/15): return visits within the month not exceeding four, applicable to the receiving institution"
         },
         {
           "code": "N34",
@@ -3739,7 +3739,7 @@
         {
           "code": "S34",
           "label_zh": "基層院所；轉診(轉入之院所適用)加藥品或中醫傷科註1：「＊」依實際情形收取部分負擔點數註2：93/01取消高利用率及檢驗、檢查部分負擔 2026年01月27日修訂",
-          "label_en": "Primary care facility; referral (applicable to hospitals receiving referrals) plus drugs or traditional Chinese medicine for orthopedic injuries Note1: '＊' partial burden points are charged according to actual circumstances Note2: From January 93/01, high-cost medications and examinations/checks no longer have a partial burden until revised on January 27, 2026."
+          "label_en": "Primary care institutions; referral (applicable to the receiving institution) plus drugs or TCM traumatology Note 1: '*' copayment points are collected according to the actual situation Note 2: From January 2004 (ROC 93/01) the copayments for high utilisation and for laboratory tests/examinations were abolished Revised 27 January 2026"
         }
       ],
       "field_en": "co-payment code",
@@ -6628,7 +6628,7 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 2005 2006 2007 2008-2011 code item name code item name code item name code item name public public public public"
+          "label_en": "Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "1",
@@ -6793,7 +6793,7 @@
         {
           "code": "41",
           "label_zh": "社團法人診所 41 醫療社團法人診所 2022年01月28日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
-          "label_en": "Private clinics 法人诊所 2022年01月28日修订 1995-2000年 2001年 2002年 2003年 2004年 代碼 项目名称 代碼 项目名称 代碼 项目名称 代碼 项目名称 代碼 项目名称 公立 公立 公立 公立 公立"
+          "label_en": "Corporate-body clinic 41 Medical corporation clinic Revised 28 January 2022 ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
           "code": "21",
@@ -6883,7 +6883,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2022年01月28日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 2022-01-28 Revised 2005 2006 2007 2008-2011 Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 28 January 2022 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -6978,7 +6978,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2022年01月28日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic January 28, 2022 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 28 January 2022 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -7038,7 +7038,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -7068,7 +7068,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -10583,32 +10583,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -10631,7 +10631,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "DIAG_DOT": {
       "field_zh": "診察點數及藥事服務點數",
@@ -10664,8 +10664,8 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health03_全民健保處方及治療明細檔_藥局(20250624起適用)",
   "data_description_en": "1. Generally one prescription per visit from the same medical institution on the same day in the same department.\n2. Includes information of the medical institution and expenses for the prescription issued.",
-  "notes_en": "1. When counting visits, supplementary-report data should not be double-counted. 2. When computing fees, supplementary-report data should be combined. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified.",
-  "primary_keys_en": "1. For longer hospital stays (usually over one month), inpatient data is reported monthly, so computing a single admission requires grouping the split-billed records. 2. Supplementary-report data must be handled carefully: when computing fees it should be combined; but when computing utilization (visits or patient-days), a whole-record supplement should be counted, while a partial-fee supplement should not be double-counted. 3. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified.",
+  "notes_en": "1. When counting visits, supplementary reports must not be counted twice.\n2. When calculating costs, supplementary reports should be merged.\n3. The file formats and data descriptions in this manual refer to the \"Reimbursement Point Claim Format and Instructions for\nNHI Contracted Medical Institutions (Outpatient, Inpatient and Dispensing Institutions)\"; path: Ministry of Health and Welfare, National Health\nInsurance Administration homepage / Medical Institutions / Medical Payment / Medical Claim Rules / Medical Claim XML\nFormat / Reimbursement Point Claim Format for NHI Contracted Medical Institutions (Outpatient, Inpatient and Dispensing Institutions)\nand Instructions.\n* This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and if fields such as national\nID number, institution code, insured-unit code, unified business number, date of birth, visit date, admission date and similar\nfields are present, they are all masked. The data may only be used in the independent work area set up by the Ministry, and only statistical results\nthat pass review may be taken out, so that data use and disclosure cannot identify any specific individual.",
+  "primary_keys_en": "1. The national ID number (ID), physician ID number (PRSN_ID), pharmacist ID number (DRUG_PRSN_ID)\nand dispensing medical institution code (HOSP_ID) and original prescribing medical institution code (ORIG_HOSP_ID) are\nencrypted.\n2. The unique key of this file is ORIG_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching with the outpatient\ndetail file (H_NHI_OPDTE).\n3. The key for matching this file with the pharmacy order file (H_NHI_DRUGO) is: FEE_YM + APPL_TYPE +\nAPPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID.\n4. The medical institution code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) is equivalent to the original prescribing medical institution code (ORIG_HOSP_ID) in the pharmacy detail file\n(H_NHI_DRUGE).\n5. The key for person-level grouping and matching: ID.\n6. The key for grouping and matching where the medical institution is a pharmacy: HOSP_ID.\n7. The key for grouping and matching where the medical institution is a hospital: ORIG_HOSP_ID.",
   "name_zh_en": "National Health Insurance prescription and treatment details file - pharmacy",
   "printed": {
     "field_rows": 44,

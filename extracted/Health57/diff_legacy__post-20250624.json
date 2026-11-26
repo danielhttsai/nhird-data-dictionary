@@ -7,6 +7,18 @@
   "added": [
     {
       "seq": 1,
+      "name_zh": "切片流水號",
+      "name_en": "CUTSERIAL",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Biopsy serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 1,
       "name_zh": "身分證字號",
       "name_en": "SICKID",
       "type": "Char",
@@ -19,14 +31,14 @@
     },
     {
       "seq": 1,
-      "name_zh": "切片流水號",
-      "name_en": "CUTSERIAL",
+      "name_zh": "篩檢流水號",
+      "name_en": "ORALSERIAL",
       "type": "Char",
-      "length": 6,
+      "length": 8,
       "description_zh": "",
-      "table": "H_BHP_OMS_CUT",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "Biopsy serial number",
+      "name_zh_en": "Screening serial number",
       "description_en": ""
     },
     {
@@ -42,30 +54,6 @@
       "description_en": ""
     },
     {
-      "seq": 1,
-      "name_zh": "篩檢流水號",
-      "name_en": "ORALSERIAL",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "Screening serial number",
-      "description_en": ""
-    },
-    {
-      "seq": 2,
-      "name_zh": "篩檢流水號",
-      "name_en": "ORALSERIAL",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "Screening serial number",
-      "description_en": ""
-    },
-    {
       "seq": 2,
       "name_zh": "篩檢流水號",
       "name_en": "ORALSERIAL",
@@ -76,6 +64,18 @@
       "available_notes": [],
       "name_zh_en": "Screening serial number",
       "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY101",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：預防保健；\n2：非預防保健費用\n3：健保醫療給付；\n4：其他公務預算補助；\n5：自費健康檢查；\n6：矯正機關(Oral99.OralA\n1070116匯入)\n9：其他\n(3459於1050801 啟用,不再收\n2)",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "payment method",
+      "description_en": "1: Preventive health care;\n2: Non-preventive health care costs\n3: NHI medical benefits;\n4: Other public budget subsidies;\n5: Self-paid health examination;\n6: Correctional institutions (Oral99.OralA\nimported 2018/01/16)\n9: Other\n(3459 activated on 2016/08/01 (ROC 105/08/01); code\n2 no longer collected)"
     },
     {
       "seq": 2,
@@ -91,15 +91,15 @@
     },
     {
       "seq": 2,
-      "name_zh": "支付方式",
-      "name_en": "PAYWAY101",
+      "name_zh": "篩檢流水號",
+      "name_en": "ORALSERIAL",
       "type": "Char",
-      "length": 1,
-      "description_zh": "1：預防保健；\n2：非預防保健費用\n3：健保醫療給付；\n4：其他公務預算補助；\n5：自費健康檢查；\n6：矯正機關(Oral99.OralA\n1070116匯入)\n9：其他\n(3459於1050801 啟用,不再收\n2)",
-      "table": "H_BHP_OMS_CHECK",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
-      "name_zh_en": "payment method",
-      "description_en": "1: Preventive health care; 2: Non-preventive health care costs; 3: National Health Insurance medical payment; 4: Other public budget subsidies; 5: Self-paid health check-up; 6: Orthodontic agency (Oral99.OralA 1070116 import) 9: Other (3459 activated on 20150801, no longer collected)"
+      "name_zh_en": "Screening serial number",
+      "description_en": ""
     },
     {
       "seq": 3,
@@ -187,18 +187,6 @@
     },
     {
       "seq": 6,
-      "name_zh": "口腔檢查結果_1",
-      "name_en": "ORALRESULT",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "詳譯碼說明",
-      "table": "H_BHP_OMS_CUT",
-      "available_notes": [],
-      "name_zh_en": "Oral examination result_1",
-      "description_en": "detailed translation explanation"
-    },
-    {
-      "seq": 6,
       "name_zh": "戶籍地代碼",
       "name_en": "REGAREA",
       "type": "Char",
@@ -234,16 +222,16 @@
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
-      "seq": 7,
-      "name_zh": "原住民",
-      "name_en": "NATIVEMARK",
+      "seq": 6,
+      "name_zh": "口腔檢查結果_1",
+      "name_en": "ORALRESULT",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：是 2：否",
-      "table": "H_BHP_OMS_PD",
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CUT",
       "available_notes": [],
-      "name_zh_en": "Indigenous",
-      "description_en": "1: yes 2: no"
+      "name_zh_en": "Oral examination result_1",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 7,
@@ -270,6 +258,18 @@
       "description_en": "year AD YYYYMMDD"
     },
     {
+      "seq": 7,
+      "name_zh": "原住民",
+      "name_en": "NATIVEMARK",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是 2：否",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Indigenous",
+      "description_en": "1: yes 2: no"
+    },
+    {
       "seq": 8,
       "name_zh": "病理切片",
       "name_en": "CONFIRMCUT",
@@ -283,18 +283,6 @@
     },
     {
       "seq": 8,
-      "name_zh": "性別",
-      "name_en": "SICKID_S",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：男性；2：女性；9：不詳",
-      "table": "H_BHP_OMS_PD",
-      "available_notes": [],
-      "name_zh_en": "Sex",
-      "description_en": "1: Male; 2: Female; 9: Unknown"
-    },
-    {
-      "seq": 8,
       "name_zh": "病理診斷(確診)結果",
       "name_en": "CUTRESULT",
       "type": "Char",
@@ -304,6 +292,18 @@
       "available_notes": [],
       "name_zh_en": "pathological_diagnosis确诊结果",
       "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 8,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男性；2：女性；9：不詳",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
     },
     {
       "seq": 9,
@@ -319,18 +319,6 @@
     },
     {
       "seq": 9,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "SICKID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原\n則；\n1：不符合",
-      "table": "H_BHP_OMS_PD",
-      "available_notes": [],
-      "name_zh_en": "National ID number check error",
-      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
-    },
-    {
-      "seq": 9,
       "name_zh": "檢查醫療院所代碼",
       "name_en": "CHECKUNIT",
       "type": "Char",
@@ -343,6 +331,18 @@
     },
     {
       "seq": 9,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "SICKID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原\n則；\n1：不符合",
+      "table": "H_BHP_OMS_PD",
+      "available_notes": [],
+      "name_zh_en": "National ID number check error",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+    },
+    {
+      "seq": 9,
       "name_zh": "診斷結果(臨床診斷)",
       "name_en": "CONFIRMRESULT",
       "type": "Char",
@@ -351,30 +351,6 @@
       "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
       "name_zh_en": "diagnosis(result clinical)",
-      "description_en": "detailed translation explanation"
-    },
-    {
-      "seq": 10,
-      "name_zh": "門診日期",
-      "name_en": "CHECKDATE",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "西元年YYYYMMDD",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "Outpatient visit date",
-      "description_en": "year AD YYYYMMDD"
-    },
-    {
-      "seq": 10,
-      "name_zh": "診斷結果-病理診斷",
-      "name_en": "PATHOLOGICAL",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "詳譯碼說明",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "diagnosis-pathology",
       "description_en": "detailed translation explanation"
     },
     {
@@ -391,6 +367,18 @@
     },
     {
       "seq": 10,
+      "name_zh": "診斷結果-病理診斷",
+      "name_en": "PATHOLOGICAL",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "diagnosis-pathology",
+      "description_en": "detailed translation explanation"
+    },
+    {
+      "seq": 10,
       "name_zh": "出生年",
       "name_en": "BIRTH_Y",
       "type": "Char",
@@ -402,16 +390,16 @@
       "description_en": "Gregorian year YYYY provided"
     },
     {
-      "seq": 11,
-      "name_zh": "檢查結果",
-      "name_en": "ORALRESULT",
+      "seq": 10,
+      "name_zh": "門診日期",
+      "name_en": "CHECKDATE",
       "type": "Char",
-      "length": 2,
-      "description_zh": "詳譯碼說明",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
       "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "Examination Result",
-      "description_en": "detailed translation explanation"
+      "name_zh_en": "Outpatient visit date",
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 11,
@@ -426,16 +414,16 @@
       "description_en": "Codes referenced from the current medical institution file."
     },
     {
-      "seq": 12,
-      "name_zh": "治療醫院代碼",
-      "name_en": "TREATMENTUNIT",
+      "seq": 11,
+      "name_zh": "檢查結果",
+      "name_en": "ORALRESULT",
       "type": "Char",
-      "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
-      "table": "H_BHP_OMS_CONFIRM",
+      "length": 2,
+      "description_zh": "詳譯碼說明",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "hospital code",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
+      "name_zh_en": "Examination Result",
+      "description_en": "detailed translation explanation"
     },
     {
       "seq": 12,
@@ -447,6 +435,18 @@
       "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "referral medical institution code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 12,
+      "name_zh": "治療醫院代碼",
+      "name_en": "TREATMENTUNIT",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hospital code",
       "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
@@ -492,7 +492,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "table": "H_BHP_OMS_CONFIRM",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "gender by ID number",
       "description_en": "1: Male; 2: Female; 9: Unknown"
@@ -504,22 +504,10 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "table": "H_BHP_OMS_CHECK",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
       "name_zh_en": "gender by ID number",
       "description_en": "1: Male; 2: Female; 9: Unknown"
-    },
-    {
-      "seq": 15,
-      "name_zh": "檢查醫療院所層級",
-      "name_en": "CHECKUNIT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "inpatient healthcare facility tier",
-      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 15,
@@ -531,6 +519,18 @@
       "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
       "name_zh_en": "hierarchical level of diagnosing hospital",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 15,
+      "name_zh": "檢查醫療院所層級",
+      "name_en": "CHECKUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "inpatient healthcare facility tier",
       "description_en": "Codes referenced from the current medical institution file."
     },
     {
@@ -583,18 +583,6 @@
     },
     {
       "seq": 18,
-      "name_zh": "轉診醫療院所地區",
-      "name_en": "TRANSFERUNIT_CITY",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "referral medical institution area",
-      "description_en": "code referenced to cause of death statistics file."
-    },
-    {
-      "seq": 18,
       "name_zh": "治療醫院地區",
       "name_en": "TREATMENTUNIT_CITY",
       "type": "Char",
@@ -604,17 +592,29 @@
       "available_notes": [],
       "name_zh_en": "Region of treatment hospital",
       "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 18,
+      "name_zh": "轉診醫療院所地區",
+      "name_en": "TRANSFERUNIT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "referral medical institution area",
+      "description_en": "code referenced to cause of death statistics file."
     }
   ],
   "removed": [
     {
       "seq": 1,
       "name_zh": "篩檢流水號",
-      "name_en": "ORAL_SEQ",
+      "name_en": "ORAL_S_NO",
       "type": "Char",
       "length": 8,
       "description_zh": "",
-      "table": "H_BHP_OMS_CHECK",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
       "name_zh_en": "Screening serial number",
       "description_en": ""
@@ -633,6 +633,18 @@
     },
     {
       "seq": 1,
+      "name_zh": "篩檢流水號",
+      "name_en": "ORAL_SEQ",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "Screening serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 1,
       "name_zh": "身分證字號",
       "name_en": "ID",
       "type": "Char",
@@ -642,18 +654,6 @@
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
-    },
-    {
-      "seq": 1,
-      "name_zh": "篩檢流水號",
-      "name_en": "ORAL_S_NO",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "Screening serial number",
-      "description_en": ""
     },
     {
       "seq": 2,
@@ -666,18 +666,6 @@
       "available_notes": [],
       "name_zh_en": "National ID number",
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
-    },
-    {
-      "seq": 2,
-      "name_zh": "確診流水號",
-      "name_en": "CON_S_NO",
-      "type": "Char",
-      "length": 6,
-      "description_zh": "",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "Confirmed diagnosis serial number",
-      "description_en": ""
     },
     {
       "seq": 2,
@@ -694,6 +682,18 @@
     {
       "seq": 2,
       "name_zh": "確診流水號",
+      "name_en": "CON_S_NO",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "Confirmed diagnosis serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 2,
+      "name_zh": "確診流水號",
       "name_en": "CON_SEQ",
       "type": "Char",
       "length": 6,
@@ -702,18 +702,6 @@
       "available_notes": [],
       "name_zh_en": "Confirmed diagnosis serial number",
       "description_en": ""
-    },
-    {
-      "seq": 3,
-      "name_zh": "身分證字號",
-      "name_en": "ID",
-      "type": "Char",
-      "length": 12,
-      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 3,
@@ -729,15 +717,15 @@
     },
     {
       "seq": 3,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "ID_ROC",
+      "name_zh": "身分證字號",
+      "name_en": "ID",
       "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原\n則；\n1：不符合",
-      "table": "H_BHP_OMS_PD",
+      "length": 12,
+      "description_zh": "經加密處理。身分證字號或外籍居留證號碼(如無居留證號碼為護照號碼)。",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
-      "name_zh_en": "ID number validity check",
-      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
       "seq": 3,
@@ -752,16 +740,16 @@
       "description_en": "encrypted. identity number or foreign resident permit number (if no resident permit number, passport number)."
     },
     {
-      "seq": 4,
-      "name_zh": "身分證字號性別",
-      "name_en": "ID_S",
+      "seq": 3,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：男性 2：女性 9：不詳。",
-      "table": "H_BHP_OMS_CUT",
+      "description_zh": "0：身分證字號符合編碼原\n則；\n1：不符合",
+      "table": "H_BHP_OMS_PD",
       "available_notes": [],
-      "name_zh_en": "gender by ID number",
-      "description_en": "1: Male; 2: Female; 9: Unknown"
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 4,
@@ -770,7 +758,7 @@
       "type": "Char",
       "length": 1,
       "description_zh": "1：男性 2：女性 9：不詳。",
-      "table": "H_BHP_OMS_CONFIRM",
+      "table": "H_BHP_OMS_CUT",
       "available_notes": [],
       "name_zh_en": "gender by ID number",
       "description_en": "1: Male; 2: Female; 9: Unknown"
@@ -800,16 +788,28 @@
       "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
     },
     {
-      "seq": 5,
-      "name_zh": "支付方式",
-      "name_en": "PAYWAY",
+      "seq": 4,
+      "name_zh": "身分證字號性別",
+      "name_en": "ID_S",
       "type": "Char",
       "length": 1,
-      "description_zh": "1：預防保健；\n2：非預防保健費用\n3：健保醫療給付；\n4：其他公務預算補助；\n5：自費健康檢查；\n6：矯正機關(Oral99.OralA\n1070116匯入)\n9：其他\n(3459於1050801 啟用,不再收\n2)",
-      "table": "H_BHP_OMS_CHECK",
+      "description_zh": "1：男性 2：女性 9：不詳。",
+      "table": "H_BHP_OMS_CONFIRM",
       "available_notes": [],
-      "name_zh_en": "payment method",
-      "description_en": "1: Preventive health care; 2: Non-preventive health care costs; 3: National Health Insurance medical payment; 4: Other public budget subsidies; 5: Self-paid health check-up; 6: Orthodontic agency (Oral99.OralA 1070116 import) 9: Other (3459 activated on 20150801, no longer collected)"
+      "name_zh_en": "gender by ID number",
+      "description_en": "1: Male; 2: Female; 9: Unknown"
+    },
+    {
+      "seq": 5,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則\n1：不符合。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
     },
     {
       "seq": 5,
@@ -825,27 +825,15 @@
     },
     {
       "seq": 5,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "ID_ROC",
+      "name_zh": "支付方式",
+      "name_en": "PAYWAY",
       "type": "Char",
       "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則\n1：不符合。",
-      "table": "H_BHP_OMS_CUT",
+      "description_zh": "1：預防保健；\n2：非預防保健費用\n3：健保醫療給付；\n4：其他公務預算補助；\n5：自費健康檢查；\n6：矯正機關(Oral99.OralA\n1070116匯入)\n9：其他\n(3459於1050801 啟用,不再收\n2)",
+      "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "ID number validity check",
-      "description_en": "0: National ID number conforms to the coding rules; 1: Does not conform."
-    },
-    {
-      "seq": 6,
-      "name_zh": "病理切片醫院代碼",
-      "name_en": "CUT_UNIT",
-      "type": "Char",
-      "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
-      "table": "H_BHP_OMS_CUT",
-      "available_notes": [],
-      "name_zh_en": "Pathology biopsy hospital code",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
+      "name_zh_en": "payment method",
+      "description_en": "1: Preventive health care;\n2: Non-preventive health care costs\n3: NHI medical benefits;\n4: Other public budget subsidies;\n5: Self-paid health examination;\n6: Correctional institutions (Oral99.OralA\nimported 2018/01/16)\n9: Other\n(3459 activated on 2016/08/01 (ROC 105/08/01); code\n2 no longer collected)"
     },
     {
       "seq": 6,
@@ -860,16 +848,16 @@
       "description_en": "1: Community or workplace screening station; 2: Medical facility"
     },
     {
-      "seq": 7,
-      "name_zh": "病理切片醫院地區",
-      "name_en": "CUT_CITY",
+      "seq": 6,
+      "name_zh": "病理切片醫院代碼",
+      "name_en": "CUT_UNIT",
       "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
       "table": "H_BHP_OMS_CUT",
       "available_notes": [],
-      "name_zh_en": "Region of pathology biopsy hospital",
-      "description_en": "code referenced to cause of death statistics file."
+      "name_zh_en": "Pathology biopsy hospital code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 7,
@@ -896,6 +884,18 @@
       "description_en": "detailed translation explanation"
     },
     {
+      "seq": 7,
+      "name_zh": "病理切片醫院地區",
+      "name_en": "CUT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_OMS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Region of pathology biopsy hospital",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
       "seq": 8,
       "name_zh": "戶籍地代碼",
       "name_en": "REG",
@@ -906,18 +906,6 @@
       "available_notes": [],
       "name_zh_en": "household registration code",
       "description_en": "code referenced to cause of death statistics file."
-    },
-    {
-      "seq": 8,
-      "name_zh": "病理切片醫院層級",
-      "name_en": "CUT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_OMS_CUT",
-      "available_notes": [],
-      "name_zh_en": "pathology slide hospital tier",
-      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 8,
@@ -932,16 +920,16 @@
       "description_en": "not provided"
     },
     {
-      "seq": 9,
-      "name_zh": "確診醫院代碼",
-      "name_en": "CONF_UNIT",
+      "seq": 8,
+      "name_zh": "病理切片醫院層級",
+      "name_en": "CUT_HOS",
       "type": "Char",
-      "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
-      "table": "H_BHP_OMS_CONFIRM",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CUT",
       "available_notes": [],
-      "name_zh_en": "hospital code for diagnosis",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
+      "name_zh_en": "pathology slide hospital tier",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 9,
@@ -957,6 +945,18 @@
     },
     {
       "seq": 9,
+      "name_zh": "確診醫院代碼",
+      "name_en": "CONF_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hospital code for diagnosis",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 9,
       "name_zh": "口腔檢查結果_1",
       "name_en": "ORAL_RESULT_1",
       "type": "Char",
@@ -966,18 +966,6 @@
       "available_notes": [],
       "name_zh_en": "Oral examination result_1",
       "description_en": "detailed translation explanation"
-    },
-    {
-      "seq": 10,
-      "name_zh": "檢查醫療院所代碼",
-      "name_en": "CHECK_UNIT",
-      "type": "Char",
-      "length": 9,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "inpatient medical facility code",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 10,
@@ -993,6 +981,18 @@
     },
     {
       "seq": 10,
+      "name_zh": "檢查醫療院所代碼",
+      "name_en": "CHECK_UNIT",
+      "type": "Char",
+      "length": 9,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "inpatient medical facility code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
+    },
+    {
+      "seq": 10,
       "name_zh": "確診醫院地區",
       "name_en": "CONF_CITY",
       "type": "Char",
@@ -1002,6 +1002,18 @@
       "available_notes": [],
       "name_zh_en": "Region of confirmed diagnosis hospital",
       "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 11,
+      "name_zh": "確診醫院層級",
+      "name_en": "CONF_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CONFIRM",
+      "available_notes": [],
+      "name_zh_en": "hierarchical level of diagnosing hospital",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 11,
@@ -1028,30 +1040,6 @@
       "description_en": "detailed translation explanation"
     },
     {
-      "seq": 11,
-      "name_zh": "確診醫院層級",
-      "name_en": "CONF_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_OMS_CONFIRM",
-      "available_notes": [],
-      "name_zh_en": "hierarchical level of diagnosing hospital",
-      "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 12,
-      "name_zh": "檢查醫療院所層級",
-      "name_en": "CHECK_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "inpatient healthcare facility tier",
-      "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
       "seq": 12,
       "name_zh": "確診日期",
       "name_en": "CONF_DATE",
@@ -1074,6 +1062,18 @@
       "available_notes": [],
       "name_zh_en": "Biopsy serial number",
       "description_en": ""
+    },
+    {
+      "seq": 12,
+      "name_zh": "檢查醫療院所層級",
+      "name_en": "CHECK_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "inpatient healthcare facility tier",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 13,
@@ -1149,18 +1149,6 @@
     },
     {
       "seq": 16,
-      "name_zh": "轉診醫療院所地區",
-      "name_en": "TRANS_CITY",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "table": "H_BHP_OMS_CHECK",
-      "available_notes": [],
-      "name_zh_en": "referral medical institution area",
-      "description_en": "code referenced to cause of death statistics file."
-    },
-    {
-      "seq": 16,
       "name_zh": "治療醫院代碼",
       "name_en": "TREAT_UNIT",
       "type": "Char",
@@ -1172,16 +1160,16 @@
       "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
-      "seq": 17,
-      "name_zh": "轉診醫療院所層級",
-      "name_en": "TRANS_HOS",
+      "seq": 16,
+      "name_zh": "轉診醫療院所地區",
+      "name_en": "TRANS_CITY",
       "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
       "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
-      "name_zh_en": "referral medical institution level",
-      "description_en": "Codes referenced from the current medical institution file."
+      "name_zh_en": "referral medical institution area",
+      "description_en": "code referenced to cause of death statistics file."
     },
     {
       "seq": 17,
@@ -1194,6 +1182,18 @@
       "available_notes": [],
       "name_zh_en": "Region of treatment hospital",
       "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 17,
+      "name_zh": "轉診醫療院所層級",
+      "name_en": "TRANS_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_OMS_CHECK",
+      "available_notes": [],
+      "name_zh_en": "referral medical institution level",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 18,

@@ -14,7 +14,7 @@
       "description_zh": "空白表示無所列舉之內容，慢性病連續處方調劑本欄免填。\n詳見欄位特定治療項目\n（CURE_ITEM1~CURE_ITEM4）譯碼說明",
       "available_notes": [],
       "name_zh_en": "specific treatment item code (one)",
-      "description_en": "blank indicates no information, chronic disease continuous prescription dispensing this column is exempt from filling. See translation code explanation for details"
+      "description_en": "Blank means none of the listed content applies; this field is not required for chronic-disease continuous prescription refills.\nSee the code explanation for the field specific treatment items\n(CURE_ITEM1~CURE_ITEM4)"
     },
     {
       "seq": 8,
@@ -108,7 +108,7 @@
         }
       ],
       "name_zh_en": "International Classification of Diseases Code 1",
-      "description_en": "Left-justified to fill gaps, see field International Classification of Diseases codes (ICD9CM_CODE~ ICD9CM_CODE2) translation notes: Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
+      "description_en": "Left-justified, padded with blanks on the right;\nsee the code explanation for the field International Classification of Diseases code\n(ICD9CM_CODE~\nICD9CM_CODE2).\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016)."
     },
     {
       "seq": 20,
@@ -147,7 +147,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": "Left padding with ICD-9-PCS Primary Procedure Code; Preventive Health, Chronic Disease Follow-up Prescription and Traditional Chinese Medicine Not Required to Fill Notes: Starting from 105th year, medical institutions are required to report using ICD-10-PCS."
+      "description_en": "Left-justified, padded with blanks on the right; primary procedure code in ICD-9-PCS; not required for preventive health care, continuous chronic-disease prescription refills and traditional Chinese medicine\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016)."
     },
     {
       "seq": 23,
@@ -213,7 +213,7 @@
       "description_zh": "此項點數為OPDTO檔之除用藥之外（醫令類別為2或3），各項診療及特殊材料明細點數之小計；慢性病連續處方調劑本欄免填",
       "available_notes": [],
       "name_zh_en": "details of consultation fee subtotal",
-      "description_en": "This point value is the subtotal of each diagnostic and special material detail points for those with medical service classification code as 2 or 3, excluding medication; continuous prescription refills for chronic diseases should not be filled."
+      "description_en": "This point value is the subtotal of the points of all treatment and special-material details in the OPDTO file other than drugs (order type 2 or 3); not required for chronic-disease continuous prescription refills"
     },
     {
       "seq": 30,
@@ -450,7 +450,7 @@
         }
       ],
       "name_zh_en": "primary surgery code",
-      "description_en": "left justified to fill blanks ICD-9-PCS primary procedure code; preventive healthcare, chronic disease follow-up prescription filling and traditional Chinese medicine this column exempt from filling Note: 1. added 'secondary procedure code' field starting from 2000 2. NHI Bureau requires medical institutions to use ICD-10-PCS reporting starting in 2015 3. since 2015, the field length adjusted to 7 digits (only 2016 data is 15 digits)"
+      "description_en": "Left-justified, padded with blanks on the right; primary procedure code in ICD-9-PCS; not required for preventive health care, continuous chronic-disease prescription refills and traditional Chinese medicine\nNote:\n1. The \"secondary procedure code\" field was added from ROC 100 (2011)\n2. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016)\n3. From ROC 105 (2016) the field length was changed to 7 characters (only ROC 106 [2017] data have a length of 15)."
     },
     {
       "seq": 20,
@@ -478,7 +478,7 @@
         }
       ],
       "name_zh_en": "dosage date",
-      "description_en": "Maximum number of days for oral medication administration on this occasion: Except for single-dose administration as 'non-oral drug', please fill in the highest dose of oral medication administration (89.6). For chronic disease continuous prescription, please fill according to the prescription; preventive health care is not a required field. See field (variable) code explanation note: Note: Only data from Q4 2010 are 5 digits long."
+      "description_en": "Maximum number of days of oral medication on this occasion: except when the single administration is a \"non-oral drug\",\nfill in the maximum number of days of the \"oral drug\" (89.6). For chronic-disease continuous prescription refills, fill in according to what is listed on the continuous prescription;\nfor preventive health care this field is not required. See the field (variable) code explanations. Note: only ROC 106 (2017) Q4 data have a length of 5 characters."
     },
     {
       "seq": 22,

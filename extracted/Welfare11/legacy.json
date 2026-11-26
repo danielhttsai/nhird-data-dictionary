@@ -83,7 +83,7 @@
       "description_zh": "民國年YYYMM",
       "available_notes": [],
       "name_zh_en": "低收入户列册起始年月",
-      "description_en": "YearYYYYMonthMM"
+      "description_en": "ROC year YYYMM"
     },
     {
       "seq": 7,
@@ -94,7 +94,7 @@
       "description_zh": "民國年YYYMM",
       "available_notes": [],
       "name_zh_en": "低收入户列册迄止年月",
-      "description_en": "YearYYYYMonthMM"
+      "description_en": "ROC year YYYMM"
     },
     {
       "seq": 8,
@@ -171,7 +171,7 @@
         }
       ],
       "name_zh_en": "family living allowance fee",
-      "description_en": "93% loss rate in 2014, added in 2012"
+      "description_en": "Missing rate in ROC 114 (2025): 93%\nAdded in ROC 112 (2023)"
     },
     {
       "seq": 14,
@@ -193,7 +193,7 @@
         }
       ],
       "name_zh_en": "education living allowance fee",
-      "description_en": "93% loss rate in 2014, added in 2012"
+      "description_en": "Missing rate in ROC 114 (2025): 93%\nAdded in ROC 112 (2023)"
     },
     {
       "seq": 15,
@@ -215,7 +215,7 @@
         }
       ],
       "name_zh_en": "child living allowance fee",
-      "description_en": "87% loss rate in 2014, added in 2012"
+      "description_en": "Missing rate in ROC 114 (2025): 87%\nAdded in ROC 112 (2023)"
     },
     {
       "seq": 16,
@@ -232,7 +232,7 @@
         }
       ],
       "name_zh_en": "Government Statistical Report Category",
-      "description_en": "1-2 classified as 2 3-4 classified as 3 M classified as M. newly added in 2011"
+      "description_en": "0, 1 classified as 1\n2 classified as 2\n3, 4 classified as 3\nM classified as M.\nAdded in ROC 113 (2024)"
     }
   ],
   "codebooks": {},
@@ -251,7 +251,7 @@
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare11_低收入戶及中低收入戶資料庫",
-  "data_description_en": "Data for July 2011 to December 2014 and lists of registered low-income households and mid-low income households from 2015 to 2024.",
+  "data_description_en": "The data are the rosters of registered low-income households and middle-low-income households for\neach month from July ROC 101 (2012) to December ROC 104 (2015) and for ROC 105 to 114 (2016-2025).",
   "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "Key for person-level record linkage and personal data matching: ID.",
   "name_zh_en": "low-income and low-middle income household data file",

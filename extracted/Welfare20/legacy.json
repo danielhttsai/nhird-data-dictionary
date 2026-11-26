@@ -147,7 +147,7 @@
       "table": "W_LTC_CMS_CA100",
       "available_notes": [],
       "name_zh_en": "Case status",
-      "description_en": "1: male"
+      "description_en": "1: Male\n2: Female\n9: Unknown"
     },
     {
       "seq": 11,
@@ -2026,7 +2026,7 @@
       ],
       "page_start": 14,
       "fields_parsed": 3,
-      "data_description_en": "1. The data unit is the Department of Long-term Care under the Ministry of Health and Welfare. Contact information: Ms. Chang from the National Health Research Institute; phone: (05)620-4000 ext. 51245; email: changyw@nhri.edu.tw. 2. The data covers years 2021 and 2022. 3. All cases in this database meet the eligibility criteria for long-term care.",
+      "data_description_en": "1. The data unit is the Department of Long-term Care under the Ministry of Health and\nWelfare. Contact information: Ms. Chang from\nthe National Health Research Institute; phone:\n(05)620-4000 ext. 51245; email: changyw@nhri.edu.tw.\n2. The data covers years 2021 and\n2022. 3. All cases in this database meet the eligibility criteria for long-term care.",
       "notes_en": "1. This file can be linked only with the files named under \"Primary keys / linkage\" below; a linkage diagram is attached on the last page of this manual.\n※ The Center's databases are de-identified: directly identifying fields such as name and address are removed, and fields such as national ID number, facility code, insurance unit code, business ID, date of birth, visit date and admission date are masked. The data may be used only in the Ministry's on-site independent work area, and only statistical results that pass review may be taken out, so that no individual can be identified from the data or from how they are used and disclosed.",
       "primary_keys_en": "This file links to Service Items - Items (W_LTC_CMS_SB301V2) by the unique key SB301V2 serial number: SB301V2_ID.\nThis file links to Disabled Persons Case Management - Assessment/Plan (W_LTC_CMS_CA110) by the unique key plan serial number: CA110_ID.",
       "name_zh_en": "Case Care Problem List"

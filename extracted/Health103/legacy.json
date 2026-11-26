@@ -129,7 +129,7 @@
       "table": "CVD",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -549,7 +549,7 @@
       "table": "CVD_CTRL",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -969,7 +969,7 @@
       "table": "CAD",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -1389,7 +1389,7 @@
       "table": "CAD_CTRL",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -1809,7 +1809,7 @@
       "table": "Stroke",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -2229,7 +2229,7 @@
       "table": "Stroke_CTRL",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -2649,7 +2649,7 @@
       "table": "AMI",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -3069,7 +3069,7 @@
       "table": "AMI_CTRL",
       "available_notes": [],
       "name_zh_en": "age_at_diagnosis",
-      "description_en": "(INDEX_DATE - BIRTHDAY) / 365.25. Rounded to two decimal places."
+      "description_en": "(INDEX_DATE-\nBIRTHDAY)/365.25.\nRounded to 2 decimal places."
     },
     {
       "seq": 9,
@@ -3783,13 +3783,216 @@
       "description_en": "Whether related medication was used within six months before admission. 0: No; 1: Yes. (Detailed coding can be found in Appendix Four)"
     }
   ],
-  "codebooks": {},
+  "codebooks": {
+    "AMI_IP.CASE_TYPE": {
+      "field_zh": "案件分類",
+      "entries": [
+        {
+          "code": "1",
+          "label_zh": "健保給付案件 一般案件",
+          "label_en": "NHI-covered cases: general cases"
+        },
+        {
+          "code": "2",
+          "label_zh": "論病例計酬案件",
+          "label_en": "case payment cases"
+        },
+        {
+          "code": "3",
+          "label_zh": "特定案件(1) 住院申報五十萬元以上之高額案件(2) 血管支架及肺臟、肝臟、心臟、骨髓移殖之案件",
+          "label_en": "Specific cases: (1) high-cost inpatient claims of NT$500,000 or more; (2) vascular stent and lung, liver, heart or bone-marrow transplant cases"
+        },
+        {
+          "code": "4",
+          "label_zh": "支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼吸照護99.1、急性後期照護103.11)",
+          "label_en": "Payment-system pilot programs (breast cancer from December ROC 90 (2001), hepatitis from October ROC 92 (2003), respiratory care from January ROC 99 (2010), post-acute care from November ROC 103 (2014))"
+        },
+        {
+          "code": "5",
+          "label_zh": "Tw-DRGs 案件(98.09)案件分類為5者：A：22-1Tw-DRGs 碼必填。B：22-2Tw-DRGs 支付型態必填。",
+          "label_en": "Tw-DRGs cases (September 2009, ROC 98.09), for case classification 5: A: 22-1 Tw-DRGs code required. B: 22-2 Tw-DRGs payment type required."
+        },
+        {
+          "code": "6",
+          "label_zh": "安寧療護案件(98.09)",
+          "label_en": "palliative care cases (starting from 98.09)"
+        },
+        {
+          "code": "7",
+          "label_zh": "愛滋病確診服藥滿2年後案件(106.2.4新增)",
+          "label_en": "AIDS confirmed medication for 2 years or more cases (added on Feb 4, 106)"
+        },
+        {
+          "code": "A1",
+          "label_zh": "勞保局(A1-AZ) 一般案件",
+          "label_en": "Bureau of Labor Insurance (A1-AZ): general cases"
+        },
+        {
+          "code": "A2",
+          "label_zh": "論病例計酬案件",
+          "label_en": "case payment cases"
+        },
+        {
+          "code": "A3",
+          "label_zh": "特定案件",
+          "label_en": "specific case"
+        },
+        {
+          "code": "A4",
+          "label_zh": "支付制度試辦計畫(1) 全民健康保險乳癌醫療給付改善方案試辦方案者，來源應為「NCR：乳癌試辦計畫」(2) C 型肝炎全口服新藥健保給付執行計畫者，給付類別應為「M：肝炎試辦計畫」(3) 呼吸照護試辦計畫者，給付類別應為「9：呼吸照護」",
+          "label_en": "Payment-system pilot programs: (1) for the NHI breast cancer payment improvement pilot, the source should be \"NCR: breast cancer pilot\"; (2) for the NHI program for all-oral hepatitis C drugs, the benefit category should be \"M: hepatitis pilot\"; (3) for the respiratory care pilot, the benefit category should be \"9: respiratory care\""
+        },
+        {
+          "code": "AZ",
+          "label_zh": "職業傷病住院膳食費(97年3月26日健保醫字第0970002000號含增訂)",
+          "label_en": "Inpatient meal costs for occupational injury or disease (NHI letter 0970002000 of 26 March ROC 97 (2008), with additions)"
+        },
+        {
+          "code": "B1",
+          "label_zh": "衛生福利部(B1-BZ) 精神病嚴重病人送醫及強制住院案件(項次07部分負擔應為「009：本署其他規定免部分負擔者」)",
+          "label_en": "Ministry of Health and Welfare (B1-BZ): transport to hospital and compulsory admission of patients with severe mental illness (item 07, copayment, should be \"009: exempt from copayment under other NHIA rules\")"
+        },
+        {
+          "code": "C1",
+          "label_zh": "疾病管制署(C1-CZ) AIDS 案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。【費用年月103.02.01(含)起刪除】【費用年月104.01.01(含)起刪除】",
+          "label_en": "Taiwan CDC (C1-CZ): AIDS cases, under the CDC \"HIV testing, prevention and treatment cost payment manual\"; see the MOHW \"payment rules for medical services for notifiable infectious diseases\". [Deleted from fee year-month 1 February ROC 103 (2014)] [Deleted from fee year-month 1 January ROC 104 (2015)]"
+        },
+        {
+          "code": "C2",
+          "label_zh": "結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。",
+          "label_en": "Tuberculosis sputum smear positive cases inpatient <=14 days within case (count in but not out)."
+        },
+        {
+          "code": "C3",
+          "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算進不算出)。96年5月2日健保醫字第0960014750號函自96年5月1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院<=30 天，且限該局「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。",
+          "label_en": "MDR tuberculosis and adverse reactions to anti-TB drugs, admission of 60 days or less (admission day counted, discharge day not). NHI letter 0960014750 of 2 May ROC 96 (2007) revised, from 1 May ROC 96 (2007), the scope and the reporting hospitals: admissions of 30 days or less for adverse reactions to anti-TB drugs, reported only by partner hospitals of the bureau's \"MDR tuberculosis care system\" and medical centers."
+        },
+        {
+          "code": "C4",
+          "label_zh": "無健保結核病患之醫療費用(96年7月9日健保醫字第0960023163號函增訂)請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。",
+          "label_en": "Medical expenses of tuberculosis patients without NHI (added per Letter No. 0960023163 of 9 July 2007, ROC 96/7/9); please refer to the \"Ministry of Health and Welfare Payment Guidelines for Medical Service Fees for Notifiable Infectious Diseases\"."
+        },
+        {
+          "code": "C5",
+          "label_zh": "110/1/1 起法定傳染病通報且隔離案件請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。",
+          "label_en": "From ROC 110/1/1 (2021/1/1), for notifiable infectious disease reported and isolated cases, please refer to the \"Ministry of Health and Welfare Payment Operating Guidelines for Medical Services for Notifiable Infectious Diseases\"."
+        },
+        {
+          "code": "DZ",
+          "label_zh": "衛生福利部 低收入戶住院膳食費(97年3月26日健保醫字第0970002000號函增訂)",
+          "label_en": "Ministry of Health and Welfare: low-income household inpatient meal fee (added by NHI Medical Letter No. 0970002000 of ROC 97/3/26 (2008/3/26))"
+        }
+      ],
+      "grid": {
+        "header": [
+          "",
+          "代辦單位",
+          "",
+          "",
+          "代碼",
+          "",
+          "",
+          "名稱",
+          ""
+        ],
+        "rows": [
+          [
+            "健保給付案件",
+            "1",
+            "一般案件"
+          ],
+          [
+            "2",
+            "論病例計酬案件"
+          ],
+          [
+            "3",
+            "特定案件(1) 住院申報五十萬元以上之高額案件(2) 血管支架及肺臟、肝臟、心臟、骨髓移殖之案件"
+          ],
+          [
+            "4",
+            "支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼吸照護99.1、急性後期照護103.11)"
+          ],
+          [
+            "5",
+            "Tw-DRGs 案件(98.09)案件分類為5者：A：22-1Tw-DRGs 碼必填。B：22-2Tw-DRGs 支付型態必填。"
+          ],
+          [
+            "6",
+            "安寧療護案件(98.09)"
+          ],
+          [
+            "7",
+            "愛滋病確診服藥滿2年後案件(106.2.4新增)"
+          ],
+          [
+            "勞保局(A1-AZ)",
+            "A1",
+            "一般案件"
+          ],
+          [
+            "A2",
+            "論病例計酬案件"
+          ],
+          [
+            "A3",
+            "特定案件"
+          ],
+          [
+            "A4",
+            "支付制度試辦計畫(1) 全民健康保險乳癌醫療給付改善方案試辦方案者，來源應為「NCR：乳癌試辦計畫」(2) C 型肝炎全口服新藥健保給付執行計畫者，給付類別應為「M：肝炎試辦計畫」(3) 呼吸照護試辦計畫者，給付類別應為「9：呼吸照護」"
+          ],
+          [
+            "AZ",
+            "職業傷病住院膳食費(97年3月26日健保醫字第0970002000號含增訂)"
+          ],
+          [
+            "衛生福利部(B1-BZ)",
+            "B1",
+            "精神病嚴重病人送醫及強制住院案件(項次07部分負擔應為「009：本署其他規定免部分負擔者」)"
+          ],
+          [
+            "疾病管制署(C1-CZ)",
+            "C1",
+            "AIDS 案件：依疾病管制署訂定「人類免疫缺乏病毒檢驗預防治療費用支付手冊」規定請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。【費用年月103.02.01(含)起刪除】【費用年月104.01.01(含)起刪除】"
+          ],
+          [
+            "C2",
+            "結核病痰抹片陽性個案住院<=14天內案件(算進不算出)。"
+          ],
+          [
+            "C3",
+            "結核病MDR 及抗結核藥物副作用住院<=60 天內(算進不算出)。96年5月2日健保醫字第0960014750號函自96年5月1日起修訂適用範圍和申報醫院資格為抗結核藥物副作用個案住院<=30 天，且限該局「MDR 結核病醫療照護體系」之合作醫院及各醫學中心申報。"
+          ],
+          [
+            "",
+            "C4",
+            "無健保結核病患之醫療費用(96年7月9日健保醫字第0960023163號函增訂)請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。"
+          ],
+          [
+            "C5",
+            "110/1/1 起法定傳染病通報且隔離案件請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。"
+          ],
+          [
+            "衛生福利部",
+            "DZ",
+            "低收入戶住院膳食費(97年3月26日健保醫字第0970002000號函增訂)"
+          ],
+          [
+            "全民健保承保檔(H_NHI_ENROL)全民健保重大傷病檔(H_NHI_CATAS)癌症登記檔長表LF(H_BHP_CRFLF)"
+          ],
+          [
+            "癌症登記檔短表SF(H_BHP_CRFSF)癌症登記檔TCDB(H_BHP_CRSLF)癌症登記年報檔(H_BHP_CRSSC)死因統計檔(H_OST_DEATH)多重死因檔(H_OST_MULTI)"
+          ]
+        ]
+      },
+      "field_en": "Case Category"
+    }
+  },
   "raw_text_first_page": "版本日期：2026/02/23\n心血管疾病主題式資料庫使用手冊\n一、病例主檔\n(一) 檔案內容說明\n檔案代號 CVD 資料筆數 5,577,415\n中文檔名 心血管疾病主檔 英文檔名 MainFileofCardiovascularDatabase\n檔案大小 554MB 欄位數 30\n屬性 現況檔 週期 年 譯碼簿更新日期 2026/02/23\n資料描述 1. 採用健保門診明細檔(H_NHI_OPDTE)之「國際疾病分類號」及健保住院明細檔\n(H_NHI_IPDTE)之「主次診斷代碼」欄位，符合心血管疾病定義之編碼範圍(詳細\n編碼請見附錄一)且符合一年內門診診斷 2 次(含)以上或住院 1 次(含)以上，定義\n為心血管疾病患者。\n2. 考量首年之健保資料難以區分盛行、新發個案，為取得有效心血管疾病的新發個\n案，擷取年份從2001至2023年。\n3. 資料清整流程詳請見附錄二。\n注意事項 1. 本資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，身分證字號、\n院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位均\n經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通\n過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 本資料庫涵蓋範圍已初步篩選心血管疾病相關常用欄位，資料格式請依欄位勾選\n表配合各資料庫使用手冊對照參考。\n3. 申請本資料庫仍應考量所需研究之主題特性，應用時應注意資料使用限制，歡迎\n回饋使用意見。\n主鍵與比對 1. 個人身分證字號(ID)及醫療機構代碼(HOSP_ID)經加密處理。\n欄位 2. 本檔主鍵為個人加密身分證字號(ID)。\n3. 本檔與其他就醫資料檔比對的鍵值：個人加密身分證字號(ID)。\n4. 本主檔與對照檔(CVD_CTRL)之配對組別欄位(SUBCLASS)有相同數值者，為同\n一組別之病例對照個案。\n新發個案數 2001 2002 2003 2004 2005 2006 2007 2008\n401,623 342,511 306,425 305,432 266,816 244,184 244,811 234,771\n2009 2010 2011 2012 2013 2014 2015 2016\n231,385 223,241 223,223 224,154 223,440 219,282 215,287 208,308\n2017 2018 2019 2020 2021 2022 2023\n213,878 206,980 208,648 213,926 211,635 209,369 198,086\n1",
   "qa": {
     "errors": [],
-    "warnings": [
-      "code table referenced but not extracted: AMI_IP.CASE_TYPE -> CASE_TYPE"
-    ]
+    "warnings": []
   },
   "page_count": 77,
   "code": "Health103",
@@ -3807,8 +4010,18 @@
   "name_zh_en": "primary record of cardiovascular diseases",
   "printed": {
     "field_rows": 271,
-    "code_tables": {},
-    "code_table_headings": []
+    "code_tables": {
+      "AMI_IP.CASE_TYPE": 19
+    },
+    "code_table_headings": [
+      "AMI_IP.CASE_TYPE",
+      "AMI_IP.SEQ_NO",
+      "AMI_IP.FEE_YM",
+      "AMI_IP.APPL_DATE",
+      "AMI_IP.APPL_TYPE",
+      "AMI_IP.CASE_TYPE",
+      "AMI_IP.HOSP_ID"
+    ]
   },
   "tables": [
     {

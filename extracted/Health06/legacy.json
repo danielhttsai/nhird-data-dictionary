@@ -38,7 +38,7 @@
         }
       ],
       "name_zh_en": "expense year month",
-      "description_en": "YYYYMM. Starting from 2017, the field format is numeric with a length of 8 digits."
+      "description_en": "YYYYMM.\nFrom ROC 107 (2018) the field format is numeric, with a length of 8 digits."
     },
     {
       "seq": 2,
@@ -82,7 +82,7 @@
         }
       ],
       "name_zh_en": "Case Category",
-      "description_en": "Detailed case classification (CASE_TYPE) code description. From 2010 to 2017, the field format is text type with a length of 2 digits."
+      "description_en": "See the explanation of the case classification (CASE_TYPE) codes.\nFrom ROC 103 (2014) to ROC 106 (2017) the field format is text, with a length of 2 characters."
     },
     {
       "seq": 5,
@@ -104,7 +104,7 @@
         }
       ],
       "name_zh_en": "sequence number",
-      "description_en": "102 Year Field Format is Text Type, Length is 10 Digits. Starting from 2003, the Field Format is Numeric Type with a Length of 8 Digits."
+      "description_en": "In ROC 102 (2013) the field format is text, with a length of 10 characters.\nFrom ROC 103 (2014) the field format is numeric, with a length of 8 characters."
     },
     {
       "seq": 6,
@@ -165,7 +165,7 @@
         }
       ],
       "name_zh_en": "dosage of drug",
-      "description_en": "Input according to the principles of the National Health Insurance drug usage standard code. Starting from 2018, the field format is numerical with a length of 8 digits."
+      "description_en": "Enter according to the principles of the NHI Drug Usage Standard Code.\nFrom ROC 108 (2019) the field format is numeric, with a length of 8 digits."
     },
     {
       "seq": 11,
@@ -215,7 +215,7 @@
         }
       ],
       "name_zh_en": "medical order sequence number",
-      "description_en": "Sequence number of claims by the same patient. Note: Added since 1996"
+      "description_en": "Sequence number of the orders reported for the same patient. Note: added from ROC 96 (2007)"
     },
     {
       "seq": 15,
@@ -254,7 +254,7 @@
         }
       ],
       "name_zh_en": "drug usage frequency",
-      "description_en": "translation explanation for drug usage frequency (DRUG_FRE). Input according to the principle of the standard code for pharmaceutical use under the National Health Insurance. Note: added from 2010, field format as text type starting from 2017 with a length of 36 codes."
+      "description_en": "See the explanation of the drug usage frequency (DRUG_FRE) codes.\nEnter according to the principles of the NHI Drug Usage Standard Code\nNote: added from ROC 100 (2011)\nFrom ROC 107 (2018) the field format is text, with a length of 36 characters."
     },
     {
       "seq": 17,
@@ -276,7 +276,7 @@
         }
       ],
       "name_zh_en": "route of administration/therapeutic site",
-      "description_en": "Drug path/code explanation. Follow the principle of National Health Insurance Drug Usage Standard Code. Note: From 100th year, new field format is text type with length of 8 digits."
+      "description_en": "See the explanation of the route of administration / site of action (DRUG_PATH) codes. Enter according to the principles of the NHI Drug Usage Standard Code\nNote: added from ROC 100 (2011)\nFrom ROC 107 (2018) the field format is text, with a length of 8 characters."
     }
   ],
   "codebooks": {
@@ -321,7 +321,7 @@
         {
           "code": "E",
           "label_zh": "藥事居家照護-居家醫療照護整合計畫 (108.6增訂)",
-          "label_en": "pharmaceutical home care-integrated home medical care plan added in June 2018"
+          "label_en": "Pharmacy home care - integrated home medical care program (added June 2019, ROC 108.6)"
         }
       ],
       "field_en": "Case Category"
@@ -427,7 +427,7 @@
         {
           "code": "K",
           "label_zh": "全日平均護病比達特定閾值加成 2026年01月27日修訂代碼名稱備註",
-          "label_en": "Daily average nurse-to-patient ratio exceeds specific threshold effective Jan 27, 2026 Code Name Notes"
+          "label_en": "Bonus when the all-day average nurse-to-patient ratio reaches a specific threshold Revised 27 January 2026 Code Name Remarks"
         },
         {
           "code": "X",
@@ -1342,7 +1342,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-109th years code item name code item name code item name code item name public public public public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-109 (2019-2020) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -1437,7 +1437,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic January 27, 2026 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -1497,7 +1497,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -1527,7 +1527,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -1542,7 +1542,7 @@
         {
           "code": "Z7",
           "label_zh": "營養諮詢機構(99年新增) 私立營養諮詢機構 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 代碼內容權屬別代碼代碼內容權屬別代碼公立其他醫療機構 44 私立醫療機構附設精神復健機構 86 私立其他醫療機構 45 公立其他醫事機構 91 公益法人所設其他醫療機構 46 財團法人其他醫事機構 92 藥局 59 其他法人附設其他醫事機構 93 列冊中藥商 60 私立其他醫事機構 94 製造業 61 財團法人醫療機構附設其他醫事機構 97 販賣業 62 其他（其他醫事機構） 98 公立護理機構 71 公立非醫事機構 9A 財團法人護理機構 72 醫療法人非醫事機構 9K 私立護理機構（其他法人附設） 73 財團法人非醫事機構 9N 私立護理機構（個人設置） 74 法人附設非醫事機構 9T 公立醫療機構附設護產機構 75 私立非醫事機構 9Y 私立醫療機構附設護產機構 76 其他（護產機構） 78 公立精神復健機構 81 法人或其他人民團體醫療機構附設精神復健機構 82 私立精神復健機構 84 公立醫療機構附設精神復健機構 85",
-          "label_en": "Note: The NHIA describes case classification for Western-medicine outpatient fees as follows: (1) For daily-dose drug-fee billing, the class is '01: Western-medicine general case', but chronic disease may not be billed as a general case. (2) For NHIA-announced chronic diseases, the class should be '04: Western-medicine chronic disease'. (3) When a physician confirms the condition is stable and the same prescription can be used long-term, a 'refillable prescription' may be issued and that visit's class is '04: chronic disease'; if the insured presents the refillable prescription directly, the class is '08: chronic refillable-prescription dispensing'. (4) Cases not covered above are '09: Western-medicine other special case'. (5) When acute and chronic disease are treated together, the class is '09'; if a refillable chronic prescription is also issued, report class '04', and fill item 22 'days of medication' with the highest day count among the chronic drugs (revised ROC 93/03). (6) A '01: general case' dispensed via referral should be reported as '09'."
+          "label_en": "Nutrition counseling institution (added ROC year 99, 2010); private nutrition counseling institution. Revised 2026/01/27. ROC year 83-109 (1994-2020) Clinic Ownership-Type Code Table (adjusted as of ROC year 109, 2020). Code content / ownership code / code content / ownership code: Public other medical institution 44; private medical institution-affiliated psychiatric rehabilitation institution 86; private other medical institution 45; public other medical-affairs institution 91; other medical institution established by a public-benefit corporation 46; foundation other medical-affairs institution 92; pharmacy 59; other corporation-affiliated other medical-affairs institution 93; registered Chinese medicine dealer 60; private other medical-affairs institution 94; manufacturing 61; foundation medical institution-affiliated other medical-affairs institution 97; sales business 62; other (other medical-affairs institution) 98; public nursing institution 71; public non-medical-affairs institution 9A; foundation nursing institution 72; medical corporation non-medical-affairs institution 9K; private nursing institution (affiliated with other corporation) 73; foundation non-medical-affairs institution 9N; private nursing institution (individually established) 74; corporation-affiliated non-medical-affairs institution 9T; public medical institution-affiliated maternity institution 75; private non-medical-affairs institution 9Y; private medical institution-affiliated maternity institution 76; other (maternity institution) 78; public psychiatric rehabilitation institution 81; medical institution of a corporation or other civic group-affiliated psychiatric rehabilitation institution 82; private psychiatric rehabilitation institution 84; public medical institution-affiliated psychiatric rehabilitation institution 85"
         }
       ],
       "field_en": "ownership type",
@@ -5042,32 +5042,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -5090,7 +5090,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療醫令明細檔─藥局\n（HEALTH-06：H_NHI_DRUGO）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代\nH_NHI_DRUGO 資料筆數 56,325,454筆（以2024/12 為例）\n號\n中文檔 全民健保處方及治療醫令明細檔 Details of Prescriptions Dispensed at\n英文檔名\n名 ─藥局 ContractedPharmacies\n檔案大\n11GB（以2024/12 為例） 欄位數 17\n小\n譯碼簿 2009/10/15 初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27 修訂\n1. 為一次就醫多筆醫令資料，一筆處方一筆資料。\n2. 相 同 之 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋ CASE_TYPE ＋ SEQ_NO ＋\nHOSP_ID視為同一次就醫之醫令。\n資料描 3. 每一筆資料包含醫令代碼、數量及點數等資料。\n述 4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、住院\n及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央健康保險\n署首頁∕醫事機構∕醫療費用支付∕醫療費用申報規定∕醫療費用 XML 申報格式∕全民健\n康保險醫事服務機構(門診、住院及交付機構)醫療費用點數申報格式及填表說明。\n1. 本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄\n注意事 位均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核\n項 通過之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n2. 一筆處方一筆資料。\n3. 計算費用時，補報資料應合併。\n1. 醫療機構代碼(HOSP_ID)經加密處理。\n主鍵與 2. 本檔無病人身份證字號，以 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE\n比對欄 ＋SEQ_NO＋HOSP_ID 為鍵值與藥局明細檔(H_NHI_DRUGE)對照。\n位\n(藥局明細檔及藥局醫令檔中HOSP_ID均指藥局的醫療機構代號)\n3. 藥局歸戶及藥局資料對照的鍵值：HOSP_ID。\n1",
@@ -5108,7 +5108,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health06_全民健保處方及治療醫令明細檔_藥局",
-  "data_description_en": "1. Multiple order records for one admission. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website.",
+  "data_description_en": "1. This is multiple order records for one visit; one prescription is one record.\n2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO +\nHOSP_ID are treated as orders of the same visit.\n3. Each record includes the order code, quantity, points, etc.\n4. The file formats and data descriptions in this manual refer to the \"Reimbursement Point Claim Format and Instructions for NHI Contracted Medical Institutions (Outpatient, Inpatient\nand Dispensing Institutions)\"; path: Ministry of Health and Welfare, National Health Insurance\nAdministration homepage / Medical Institutions / Medical Payment / Medical Claim Rules / Medical Claim XML Format / Reimbursement Point Claim Format and Instructions for\nNHI Contracted Medical Institutions (Outpatient, Inpatient and Dispensing Institutions).",
   "notes_en": "1. This center's database has been de-identified, removing directly identifiable fields such as name and address. If there are identification numbers like ID card number, institution code, insured unit code, unified number, date of birth, visit date, admission date etc., they have all been shielded, and related data can only be used within a dedicated operation area set up by the department, and statistical results carried out after review to ensure that the application and disclosure methods cannot identify specific individuals.\n2. One prescription per record.\n3. When calculating costs, supplementary data should be combined.",
   "primary_keys_en": "1. The hospital ID (HOSP_ID) is encrypted.\n2. This file does not contain patient ID numbers, instead using FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE\n＋SEQ_NO＋HOSP_ID as a key to match with pharmacy detail files (H_NHI_DRUGE).\n(The hospital IDs in the pharmacy detail and pharmacy order files refer to the pharmacy's medical institution code.)\n3. The key for matching pharmacy归属及药局资料对照：HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Pharmacy",

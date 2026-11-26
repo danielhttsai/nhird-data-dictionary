@@ -146,7 +146,7 @@
         }
       ],
       "name_zh_en": "evaluation grade (2)",
-      "description_en": "Second-level assessment grade, see field assessment grade code explanation. Added in 1998"
+      "description_en": "Second type of accreditation grade, see the field accreditation grade code explanation. Added ROC 98 (2009)"
     },
     {
       "seq": 9,
@@ -168,7 +168,7 @@
         }
       ],
       "name_zh_en": "new occupational evaluation",
-      "description_en": "field evaluation grade translation explanation. Added in 2016, no data from 2019 onwards"
+      "description_en": "See the field accreditation grade code explanation.\nAdded ROC 106 (2017); no data from ROC 109 (2020)"
     },
     {
       "seq": 10,
@@ -190,7 +190,7 @@
         }
       ],
       "name_zh_en": "emergency medical capability classification",
-      "description_en": "Emergency medical capability grading, detailed in field code explanation. Added in 2013 but no data; removed in 2017."
+      "description_en": "Emergency medical capability grading, see the field code explanation.\nAdded ROC 102 (2013) but with no data; deleted ROC 106 (2017)"
     },
     {
       "seq": 11,
@@ -207,7 +207,7 @@
         }
       ],
       "name_zh_en": "total licensed bed count",
-      "description_en": "total licensed bed numbers at each hospital - total 2016 addition"
+      "description_en": "Licensed beds of each hospital - total\nAdded ROC 106 (2017)"
     },
     {
       "seq": 12,
@@ -314,7 +314,7 @@
         }
       ],
       "name_zh_en": "allowed_inpatient_beds-tuberculosis",
-      "description_en": "number of inpatient beds allocated for leprosy patients; renamed to leprosy patient beds before 1997"
+      "description_en": "Number of licensed beds at each hospital - Hansen's disease (leprosy) beds\nAdded in ROC 106 (2017); called leprosy beds before ROC 97 (2008)"
     },
     {
       "seq": 18,
@@ -548,7 +548,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds安宁病床",
-      "description_en": "number of inpatient beds - palliative care beds named comfort care beds from 1988 to 1989; named palliative care nursing beds from 1990 to 1998"
+      "description_en": "Open beds of each hospital - hospice beds\nCalled palliative medical beds in ROC 88-89 (1999-2000); called hospice care beds in ROC 90-98 (2001-2009)"
     },
     {
       "seq": 35,
@@ -570,7 +570,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds-_chronic_respiratory_care_beds",
-      "description_en": "open hospital beds for chronic respiratory care - added in 1990, called respiratory care bed from 1990 to 2011"
+      "description_en": "Open beds of each hospital - chronic respiratory care beds\nAdded ROC 90 (2001); called respiratory care beds in ROC 90-101 (2001-2012)"
     },
     {
       "seq": 36,
@@ -592,7 +592,7 @@
         }
       ],
       "name_zh_en": "number of open beds for sub-acute respiratory care beds",
-      "description_en": "Number of open hospital beds for sub-acute respiratory care - Sub-acute respiratory care beds were added in 1995 and called a respiratory care center from 1995 to 2002"
+      "description_en": "Open beds of each hospital - subacute respiratory care beds\nAdded ROC 95 (2006); called respiratory care center in ROC 95-101 (2006-2012)"
     },
     {
       "seq": 37,
@@ -733,7 +733,7 @@
         }
       ],
       "name_zh_en": "open bed count - integrated medical emergency transfer beds",
-      "description_en": "hospital open bed count - integrated medicine emergency transfer bed added in 2015"
+      "description_en": "Open beds of each hospital - integrated medicine emergency step-down beds added ROC 105 (2016)"
     },
     {
       "seq": 45,
@@ -795,7 +795,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds-for_hemodialysis_bed",
-      "description_en": "hemodialysis beds previously known as renal cleansing treatment beds from before 1996"
+      "description_en": "Open beds of each hospital - hemodialysis beds\nBefore ROC 96 (2007) called kidney-dialysis treatment beds"
     },
     {
       "seq": 49,
@@ -861,7 +861,7 @@
         }
       ],
       "name_zh_en": "Unregistered Mental Health Carebeds",
-      "description_en": "number of beds available in each hospital-unregistered mental care 1984 added; 2008 removed (divided into o_bed23, o_bed24, o_bed25; 2008 added o_bed34)"
+      "description_en": "Open beds of each hospital - unregistered psychiatric convalescent beds\nAdded ROC 88 (1999); deleted ROC 98 (2009) (split into o_bed23, o_bed24, o_bed25; o_bed34 added ROC 103 [2014])"
     },
     {
       "seq": 53,
@@ -915,7 +915,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit capacity",
-      "description_en": "Day hospital admission capacity for psychiatric departments in hospitals from 1988, referred to as psychiatric day treatment admission capacity from 1988 to 2012; from 2013 to 2014 referred to as psychiatric day stay admission capacity; from 2015 to 2022 referred to as psychiatric department day stay admission capacity"
+      "description_en": "Number of patients that the psychiatric day-care unit of each hospital can admit\nAdded ROC 88 (1999); called psychiatric day treatment capacity in ROC 88-102 (1999-2013); called psychiatric day stay capacity in ROC 103-104 (2014-2015); called psychiatric department day stay capacity in ROC 105-112 (2016-2023)"
     },
     {
       "seq": 55,
@@ -954,7 +954,7 @@
         }
       ],
       "name_zh_en": "open bed count - mental health care: public-funded care beds",
-      "description_en": "Number of open psychiatric beds for care: public-funded beds added in 1998, called public service beds from 1998 to 2001"
+      "description_en": "Open beds of each hospital - psychiatric care: government-funded care beds\nAdded ROC 98 (2009); called psychiatric care: public-service beds in ROC 98-101 (2009-2012)"
     },
     {
       "seq": 57,
@@ -971,7 +971,7 @@
         }
       ],
       "name_zh_en": "open bed count - mental health care: government budget beds",
-      "description_en": "hospital open bed count - mental health nursing: public budget beds added in 2004"
+      "description_en": "Open beds of each hospital - psychiatric care: public-budget beds\nAdded ROC 103 (2014)"
     },
     {
       "seq": 58,
@@ -1010,7 +1010,7 @@
         }
       ],
       "name_zh_en": "number_of_open_beds_for_psychiatric_nursing:standard_bed",
-      "description_en": "open beds for mental health care: small and comfortable beds at various medical institutions added in 1998"
+      "description_en": "Open beds of each hospital - psychiatric care: lower-middle-income (xiaokang) beds\nAdded ROC 98 (2009)"
     },
     {
       "seq": 60,
@@ -1032,7 +1032,7 @@
         }
       ],
       "name_zh_en": "Total number of beds used",
-      "description_en": "total number of used inpatient beds, added in 1990, deleted in 2017"
+      "description_en": "Beds in use of each hospital - total\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 61,
@@ -1054,7 +1054,7 @@
         }
       ],
       "name_zh_en": "number of beds used - acute general",
-      "description_en": "Number of inpatient beds used by each hospital - Acute general beds added in 1990, removed in 2016"
+      "description_en": "Beds in use of each hospital - acute general beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 62,
@@ -1076,7 +1076,7 @@
         }
       ],
       "name_zh_en": "inpatient beds used - psychiatric acute general",
-      "description_en": "number of beds used at hospitals - acute psychiatric general bed, added in 1999, deleted in 2016"
+      "description_en": "Beds in use of each hospital - acute psychiatric general beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 63,
@@ -1098,7 +1098,7 @@
         }
       ],
       "name_zh_en": "number of beds used - chronic general",
-      "description_en": "Number of inpatient beds used by each hospital - Chronic general beds added in 1999, removed in 2017"
+      "description_en": "Beds in use of each hospital - chronic general beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 64,
@@ -1120,7 +1120,7 @@
         }
       ],
       "name_zh_en": "number of inpatient beds - mental chronic general",
-      "description_en": "number of beds used at hospitals - chronic psychiatric general bed, added in 1999, deleted in 2016"
+      "description_en": "Beds in use of each hospital - chronic psychiatric general beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 65,
@@ -1142,7 +1142,7 @@
         }
       ],
       "name_zh_en": "number of beds used - chronic tuberculosis",
-      "description_en": "inpatient beds used by each hospital - chronic tuberculosis beds added in 1990, removed in 2016"
+      "description_en": "Beds in use of each hospital - chronic tuberculosis beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 66,
@@ -1169,7 +1169,7 @@
         }
       ],
       "name_zh_en": "number of occupied beds-leprosy",
-      "description_en": "Number of hospital beds used for leprosy patients - Leprosy beds were added in 1989 and called leprosy wards from 1989 to 1997; removed in 2006"
+      "description_en": "Beds in use of each hospital - Hansen's disease beds\nAdded ROC 89 (2000); called leprosy beds in ROC 89-97 (2000-2008); deleted ROC 106 (2017)"
     },
     {
       "seq": 67,
@@ -1213,7 +1213,7 @@
         }
       ],
       "name_zh_en": "Number of intensive care beds used",
-      "description_en": "Number of intensive care unit beds used by hospitals, added in 1989, removed in 2010"
+      "description_en": "Beds in use of each hospital - intensive care beds\nAdded ROC 89 (2000), deleted ROC 106 (2017)"
     },
     {
       "seq": 69,
@@ -1235,7 +1235,7 @@
         }
       ],
       "name_zh_en": "Number of burn beds used",
-      "description_en": "Number of burn beds used by hospitals, added in 1989, removed in 2010"
+      "description_en": "Number of beds used by hospitals - burn beds\nAdded in ROC 89 (2000), deleted in ROC 106 (2017)"
     },
     {
       "seq": 70,
@@ -1257,7 +1257,7 @@
         }
       ],
       "name_zh_en": "number of beds used - burn intensive care",
-      "description_en": "Number of burn intensive care beds at each hospital (added in 2004, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - burn intensive care beds\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 71,
@@ -1279,7 +1279,7 @@
         }
       ],
       "name_zh_en": "number of beds used - infant beds",
-      "description_en": "Number of neonatal beds used by hospitals, added in 1989, removed in 2010"
+      "description_en": "Number of beds used by hospitals - infant beds (neonatal beds)\nAdded in ROC 89 (2000), deleted in ROC 106 (2017)"
     },
     {
       "seq": 72,
@@ -1301,7 +1301,7 @@
         }
       ],
       "name_zh_en": "number of occupied beds-infant bed",
-      "description_en": "Number of infant beds used by hospitals: added in 1999, deleted in 2017"
+      "description_en": "Number of beds used by hospitals - infant cots\nAdded in ROC 89 (2000), deleted in ROC 106 (2017)"
     },
     {
       "seq": 73,
@@ -1360,7 +1360,7 @@
         }
       ],
       "name_zh_en": "Occupied Beddays - Chronic Respiratory Carebeds",
-      "description_en": "Number of inpatient beds for chronic respiratory care - added in 1990, called respiratory care beds from 1990 to 2011, deleted in 2016"
+      "description_en": "Number of beds used by hospitals - chronic respiratory care beds\nAdded in ROC 90 (2001); called respiratory care beds in ROC 90-101 (2001-2012); deleted in ROC 106 (2017)"
     },
     {
       "seq": 75,
@@ -1387,7 +1387,7 @@
         }
       ],
       "name_zh_en": "number of inpatient beds - subacute respiratory care bed",
-      "description_en": "number of hospital beds used for subacute respiratory care - added in 1995, called respiratory care center from 1995 to 2001, deleted in 2006"
+      "description_en": "Number of beds used by hospitals - subacute respiratory care beds\nAdded in ROC 95 (2006); called respiratory care center in ROC 95-101 (2006-2012); deleted in ROC 106 (2017)"
     },
     {
       "seq": 76,
@@ -1409,7 +1409,7 @@
         }
       ],
       "name_zh_en": "acute tuberculosis bed usage",
-      "description_en": "Number of inpatient beds used by each hospital - Acute Tuberculosis Bed  Introduced in 1992, removed in 2014"
+      "description_en": "Number of beds used by hospitals - acute tuberculosis beds\nAdded in ROC 92 (2003), deleted in ROC 104 (2015)"
     },
     {
       "seq": 77,
@@ -1431,7 +1431,7 @@
         }
       ],
       "name_zh_en": "number of inpatient beds - general isolation bed",
-      "description_en": "Number of general isolation beds used by each hospital (added in 2004, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - general isolation beds\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 78,
@@ -1453,7 +1453,7 @@
         }
       ],
       "name_zh_en": "positive pressure isolation bed usage",
-      "description_en": "Number of positive pressure isolation beds used by each hospital (added in 2004, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - positive pressure isolation beds\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 79,
@@ -1475,7 +1475,7 @@
         }
       ],
       "name_zh_en": "negative压隔离床位数",
-      "description_en": "Number of negative pressure isolation beds used by each hospital (added in 2004, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - negative pressure isolation beds\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 80,
@@ -1497,7 +1497,7 @@
         }
       ],
       "name_zh_en": "inpatient beds used for bone marrow transplantation",
-      "description_en": "Number of bone marrow transplant beds used by each hospital (added in 2004, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - bone marrow transplant beds\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 81,
@@ -1519,7 +1519,7 @@
         }
       ],
       "name_zh_en": "number of inpatient beds used - sexual assault criminal mandatory treatment bed",
-      "description_en": "number_of_used_beds_for_mandatory_treatment_of_sexual_assault_offenders_at_hospitals_since_2003_deleted_in_2011"
+      "description_en": "Number of beds used by hospitals - beds for compulsory treatment of sexual assault offenders\nAdded in ROC 102 (2013), deleted in ROC 106 (2017)"
     },
     {
       "seq": 82,
@@ -1563,7 +1563,7 @@
         }
       ],
       "name_zh_en": "number of occupied beds for integrated medicine emergency transfer beds",
-      "description_en": "Number of beds used by hospitals - integrated medical emergency transfer beds (added in 2010, deleted in 2017)"
+      "description_en": "Number of beds used by hospitals - integrated medicine post-emergency transfer beds, added in ROC 105 (2016), deleted in ROC 106 (2017)"
     },
     {
       "seq": 84,
@@ -1678,7 +1678,7 @@
         }
       ],
       "name_zh_en": "number of beds used - other beds",
-      "description_en": "Number of beds used by hospitals for other purposes, added in 1989, removed in 2010"
+      "description_en": "Number of beds used by hospitals - other beds\nAdded in ROC 89 (2000), deleted in ROC 106 (2017)"
     },
     {
       "seq": 89,
@@ -1705,7 +1705,7 @@
         }
       ],
       "name_zh_en": "Number of occupied beds - Unregistered mental health care",
-      "description_en": "Number of beds used by hospitals for non-registered mental health care - added in 1989, deleted in 1998 (split into u_bed22, u_bed23, u_bed24; added u_bed33 in 2013)"
+      "description_en": "Number of beds used by hospitals - unregistered psychiatric nursing care\nAdded in ROC 89 (2000); deleted in ROC 98 (2009) (split into u_bed22, u_bed23, u_bed24; u_bed33 added in ROC 103 (2014))"
     },
     {
       "seq": 90,
@@ -1727,7 +1727,7 @@
         }
       ],
       "name_zh_en": "Number of occupied beds - Other non-registered care",
-      "description_en": "Number of beds not registered for other care use by each hospital (added in 1998, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - unregistered other nursing care\nAdded in ROC 89 (2000), deleted in ROC 106 (2017)"
     },
     {
       "seq": 91,
@@ -1749,7 +1749,7 @@
         }
       ],
       "name_zh_en": "actual number of patients receiving psychiatric day care unit",
-      "description_en": "number of actual admissions to psychiatric day hospital units of various hospitals added in 2014, called actual admissions to psychiatric day hospital units; from 2015 to 2022, called psychiatric day hospital actual admissions"
+      "description_en": "Actual number of patients admitted to psychiatric day care units of each hospital, added in ROC 104 (2015) under the name actual number of patients admitted to psychiatric day hospital; named actual number of patients admitted to psychiatric day hospital (psychiatry department) in ROC 105-112 (2016-2023)"
     },
     {
       "seq": 92,
@@ -1771,7 +1771,7 @@
         }
       ],
       "name_zh_en": "Number of occupied beds - Psychiatric intensive care unit",
-      "description_en": "Number of psychiatric intensive care beds at each hospital (added in 1998, deleted in 2016)"
+      "description_en": "Number of beds used by hospitals - psychiatric intensive care beds\nAdded in ROC 98 (2009), deleted in ROC 106 (2017)"
     },
     {
       "seq": 93,
@@ -1798,7 +1798,7 @@
         }
       ],
       "name_zh_en": "number of occupied beds for psychiatric care: public-funded养护beds",
-      "description_en": "beds used by hospitals - psychiatric care: public funding beds added in 1998, called public service beds from 1998 to 2001, deleted in 2006"
+      "description_en": "Number of beds used by hospitals - psychiatric nursing care: publicly funded nursing care beds\nAdded in ROC 98 (2009); called psychiatric nursing care: public service beds in ROC 98-101 (2009-2012); deleted in ROC 106 (2017)"
     },
     {
       "seq": 94,
@@ -1952,7 +1952,7 @@
         }
       ],
       "name_zh_en": "Hospital bed days - leprosy",
-      "description_en": "number of inpatient days - leprosy beds (previously known as syphilis beds) before 1998"
+      "description_en": "Inpatient days at each hospital - Hansen's disease (leprosy) beds\nCalled leprosy beds before ROC 97 (2008)"
     },
     {
       "seq": 104,
@@ -1969,7 +1969,7 @@
         }
       ],
       "name_zh_en": "inpatient day - international medical bed",
-      "description_en": "inpatient days at each hospital - international medical bed 1999 addition"
+      "description_en": "Inpatient days at each hospital - international medical care beds\nAdded in ROC 99 (2010)"
     },
     {
       "seq": 105,
@@ -2074,7 +2074,7 @@
         }
       ],
       "name_zh_en": "Inpatient days - Chronic respiratory care bed",
-      "description_en": "number_of_inpatient_days_for_chronic_respiratory_care_beds_at_hospitals_since_1990"
+      "description_en": "Inpatient days at each hospital - chronic respiratory care beds\nAdded in ROC 90 (2001); called respiratory care beds in ROC 90-101 (2001-2012)"
     },
     {
       "seq": 112,
@@ -2096,7 +2096,7 @@
         }
       ],
       "name_zh_en": "Inpatient Days - Subacute Respiratory Carebeds",
-      "description_en": "inpatient days in hospitals for sub-acute respiratory care beds - added in 1995, called respiratory care center from 1995 to 2011"
+      "description_en": "Inpatient days at each hospital - subacute respiratory care beds\nAdded in ROC 95 (2006); called respiratory care center in ROC 95-101 (2006-2012)"
     },
     {
       "seq": 113,
@@ -2220,7 +2220,7 @@
         }
       ],
       "name_zh_en": "Inpatient days - Acute post-acute care bed",
-      "description_en": "inpatient days for acute post-acute care beds at hospitals added in 2015"
+      "description_en": "Inpatient days at each hospital - post-acute care beds\nAdded in ROC 105 (2016)"
     },
     {
       "seq": 120,
@@ -2237,7 +2237,7 @@
         }
       ],
       "name_zh_en": "inpatient day - integrated medical emergency follow-up admission",
-      "description_en": "Inpatient days at hospitals - integrated medicine post-ED transfer beds, added in 2015"
+      "description_en": "Inpatient days at each hospital - integrated medicine post-emergency transfer beds\nAdded in ROC 105 (2016)"
     },
     {
       "seq": 121,
@@ -2293,7 +2293,7 @@
         }
       ],
       "name_zh_en": "inpatient day - unregistered mental care",
-      "description_en": "Inpatient days at hospitals - psychiatric care not registered, removed in 1998 (split into dd_day19, dd_day20, dd_day21; added dd_day29 in 2013)"
+      "description_en": "Inpatient days at each hospital - unregistered psychiatric nursing care\nDeleted in ROC 98 (2009) (split into dd_day19, dd_day20, dd_day21; dd_day29 added in ROC 103 (2014))"
     },
     {
       "seq": 124,
@@ -2332,7 +2332,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit admitted patient days",
-      "description_en": "Psychiatric day care unit patient days in hospitals before 2005 were called psychiatric day stay patient days; from 2016 to 2023 they are called psychiatric day care unit patient days"
+      "description_en": "Patient days treated in psychiatric day care units of each hospital\nBefore ROC 104 (2015) called patient days treated in psychiatric day hospital; ROC 105-112 (2016-2023) called patient days treated in psychiatric day hospital (psychiatry department)"
     },
     {
       "seq": 126,
@@ -2371,7 +2371,7 @@
         }
       ],
       "name_zh_en": "inpatient day - mental health care: publicly funded bed",
-      "description_en": "number of inpatient days - psychiatric nursing: public subsidy beds listed in 1998, referred to as psychiatric nursing: public service bed from 1998 to 2001"
+      "description_en": "Inpatient days at each hospital - psychiatric nursing care: publicly funded nursing care beds\nAdded in ROC 98 (2009); called psychiatric nursing care: public service beds in ROC 98-101 (2009-2012)"
     },
     {
       "seq": 128,
@@ -2388,7 +2388,7 @@
         }
       ],
       "name_zh_en": "inpatient day - mental health care: public budget bed",
-      "description_en": "Inpatient admissions at hospitals - psychiatric care: public budget beds, added in 2013"
+      "description_en": "Inpatient days at each hospital - psychiatric nursing care: public budget beds\nAdded in ROC 103 (2014)"
     },
     {
       "seq": 129,
@@ -2510,7 +2510,7 @@
         }
       ],
       "name_zh_en": "Hospital patient count - leprosy",
-      "description_en": "number of inpatient visits - leprosy beds (previously known as syphilis beds) before 1998"
+      "description_en": "Number of inpatient admissions at each hospital - Hansen's disease (leprosy) beds\nCalled leprosy beds before ROC 97 (2008)"
     },
     {
       "seq": 138,
@@ -2527,7 +2527,7 @@
         }
       ],
       "name_zh_en": "inpatient counts - international medical care bed",
-      "description_en": "inpatient counts at each hospital - international medical bed 1999 addition"
+      "description_en": "Number of inpatient admissions at each hospital - international medical care beds\nAdded in ROC 99 (2010)"
     },
     {
       "seq": 139,
@@ -2632,7 +2632,7 @@
         }
       ],
       "name_zh_en": "Inpatient counts - Chronic respiratory care bed",
-      "description_en": "number_of_inpatients_for_chronic_respiratory_care_beds_at_hospitals_since_1990"
+      "description_en": "Number of inpatient admissions at each hospital - chronic respiratory care beds\nAdded in ROC 90 (2001); called respiratory care beds in ROC 90-101 (2001-2012)"
     },
     {
       "seq": 146,
@@ -2654,7 +2654,7 @@
         }
       ],
       "name_zh_en": "Inpatient Visits - Subacute Respiratory Carebeds",
-      "description_en": "inpatient counts in hospitals for sub-acute respiratory care beds - added in 1995, called respiratory care center from 1995 to 2011"
+      "description_en": "Number of inpatient admissions at each hospital - subacute respiratory care beds\nAdded in ROC 95 (2006); called respiratory care center in ROC 95-101 (2006-2012)"
     },
     {
       "seq": 147,
@@ -2778,7 +2778,7 @@
         }
       ],
       "name_zh_en": "Inpatient counts - Acute post-acute care bed",
-      "description_en": "inpatient visits for acute post-acute care beds at hospitals added in 2015"
+      "description_en": "Number of inpatient admissions at each hospital - post-acute care beds\nAdded in ROC 105 (2016)"
     },
     {
       "seq": 154,
@@ -2795,7 +2795,7 @@
         }
       ],
       "name_zh_en": "inpatient visits - integrated medical ED transfer to inpatient bed",
-      "description_en": "Inpatient admissions at hospitals - integrated medicine post-ED transfer beds, added in 2015"
+      "description_en": "Number of inpatient admissions at each hospital - integrated medicine post-emergency transfer beds\nAdded in ROC 105 (2016)"
     },
     {
       "seq": 155,
@@ -2856,7 +2856,7 @@
         }
       ],
       "name_zh_en": "inpatient count - not registered psychiatric care",
-      "description_en": "Inpatient visits for psychiatric care not registered; added in 1983, deleted in 1998 (divided into dd_times18, dd_times19, dd_times20; added dd_times28 in 2013)"
+      "description_en": "Number of inpatient admissions at each hospital - unregistered psychiatric nursing care\nAdded in ROC 83 (1994); deleted in ROC 98 (2009) (split into dd_times18, dd_times19, dd_times20; dd_times28 added in ROC 103 (2014))"
     },
     {
       "seq": 158,
@@ -2895,7 +2895,7 @@
         }
       ],
       "name_zh_en": "psychiatric day care unit admission count",
-      "description_en": "Number of Inpatients Treated by Psychiatric Care Units in Each Hospital Added in 2014, Called Psychiatric Day Hospital Inpatient Visits; From 2015 to 2012 Called Psychiatric Day Treatment Inpatient Visits"
+      "description_en": "Number of patient stays treated in psychiatric care units of each hospital\nAdded in ROC 104 (2015), called number of patients treated in psychiatric day hospital; ROC 105-112 (2016-2023) called number of patients treated in psychiatric day hospital (psychiatry department)"
     },
     {
       "seq": 160,
@@ -2934,7 +2934,7 @@
         }
       ],
       "name_zh_en": "inpatient visits for mental health care: public-funded beds",
-      "description_en": "number of inpatient visits - psychiatric nursing: public subsidy beds listed in 1998, referred to as psychiatric nursing: public service bed from 1998 to 2001"
+      "description_en": "Number of inpatient admissions at each hospital - psychiatric nursing care: publicly funded nursing care beds\nAdded in ROC 98 (2009); called psychiatric nursing care: public service beds in ROC 98-101 (2009-2012)"
     },
     {
       "seq": 162,
@@ -2973,7 +2973,7 @@
         }
       ],
       "name_zh_en": "inpatient counts for psychiatric care: contracted beds by social affairs bureau",
-      "description_en": "hospital inpatient stays for mental health care: contracted beds added in 1998, referred to as mental health care: contracted beds from 1998 to 2010"
+      "description_en": "Number of inpatient admissions at each hospital - psychiatric nursing care: Social Affairs Bureau contracted beds\nAdded in ROC 98 (2009); called psychiatric nursing care: contracted beds in ROC 98-101 (2009-2012)"
     },
     {
       "seq": 164,
@@ -3012,7 +3012,7 @@
         }
       ],
       "name_zh_en": "NHI total bed count",
-      "description_en": "total ICD-coded beds at hospitals added in 1989, removed in 2015"
+      "description_en": "NHI-contracted beds at each hospital - total\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 166,
@@ -3034,7 +3034,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-acute general",
-      "description_en": "Acute general hospital beds covered by medical insurance: added in 1999, deleted in 2019"
+      "description_en": "NHI-contracted beds at each hospital - acute general\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 167,
@@ -3078,7 +3078,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-chronic general",
-      "description_en": "Chronic general hospital beds covered by medical insurance: added in 1999, deleted in 2019"
+      "description_en": "NHI-contracted beds at each hospital - chronic general\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 169,
@@ -3122,7 +3122,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-tuberculosis chronic",
-      "description_en": "Chronic tuberculosis hospital beds covered by medical insurance: added in 1999, deleted in 2019"
+      "description_en": "NHI-contracted beds at each hospital - chronic tuberculosis\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 171,
@@ -3149,7 +3149,7 @@
         }
       ],
       "name_zh_en": "National Health Insurance bed - leprosy",
-      "description_en": "inpatient leprosy beds - added in 1990, called yebing beds from 1990 to 1997; deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - Hansen's disease\nAdded in ROC 89 (2000); called leprosy beds in ROC 89-97 (2000-2008); deleted in ROC 105 (2016)"
     },
     {
       "seq": 172,
@@ -3171,7 +3171,7 @@
         }
       ],
       "name_zh_en": "NHI intensive care bed",
-      "description_en": "ICD-coded beds for intensive care at hospitals added in 1989, removed in 2015"
+      "description_en": "NHI-contracted beds at each hospital - intensive care\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 173,
@@ -3193,7 +3193,7 @@
         }
       ],
       "name_zh_en": "NHI burn bed",
-      "description_en": "ICD-coded beds for burns at hospitals added in 1989, removed in 2015"
+      "description_en": "NHI-contracted beds at each hospital - burn\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 174,
@@ -3215,7 +3215,7 @@
         }
       ],
       "name_zh_en": "inpatient bed-burn intensive care",
-      "description_en": "inpatient beds - burn intensive care added in 2003, deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - burn intensive care\nAdded in ROC 102 (2013), deleted in ROC 105 (2016)"
     },
     {
       "seq": 175,
@@ -3237,7 +3237,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-infant bed",
-      "description_en": "Infant hospital beds covered by medical insurance: added in 1999, deleted in 2019"
+      "description_en": "NHI-contracted beds at each hospital - infant beds (neonatal beds)\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 176,
@@ -3259,7 +3259,7 @@
         }
       ],
       "name_zh_en": "National Health Insurance bed - infant bed",
-      "description_en": "number of inpatient beds for infants, added in 1990, deleted in 2016"
+      "description_en": "NHI-contracted beds at each hospital - infant cots\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 177,
@@ -3318,7 +3318,7 @@
         }
       ],
       "name_zh_en": "National Health Insurance chronic respiratory care bed",
-      "description_en": "inpatient beds for chronic respiratory care - added in 1990; called respiratory care beds from 1990 to 2011; deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - chronic respiratory care beds\nAdded in ROC 90 (2001); called respiratory care beds in ROC 90-101 (2001-2012); deleted in ROC 105 (2016)"
     },
     {
       "seq": 179,
@@ -3345,7 +3345,7 @@
         }
       ],
       "name_zh_en": "medical bed for subacute respiratory care",
-      "description_en": "Number of inpatient beds for subacute respiratory care - added in 1995, called respiratory care center from 1995 to 2011, deleted in 2014"
+      "description_en": "NHI-contracted beds at each hospital - subacute respiratory care beds\nAdded in ROC 95 (2006); called respiratory care center in ROC 95-101 (2006-2012); deleted in ROC 105 (2016)"
     },
     {
       "seq": 180,
@@ -3477,7 +3477,7 @@
         }
       ],
       "name_zh_en": "National Health Insurance bed - sexual assault crime perpetrator mandatory treatment bed",
-      "description_en": "Bed for mandatory treatment of sexual assault offenders in hospitals added in 2003, deleted in 2004"
+      "description_en": "NHI-contracted beds at each hospital - beds for compulsory treatment of sexual assault offenders\nAdded in ROC 102 (2013), deleted in ROC 105 (2016)"
     },
     {
       "seq": 186,
@@ -3499,7 +3499,7 @@
         }
       ],
       "name_zh_en": "medical bed - surgical recovery bed",
-      "description_en": "inpatient beds - surgical recovery bed added in 1989, deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - surgical recovery beds\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 187,
@@ -3526,7 +3526,7 @@
         }
       ],
       "name_zh_en": "medical bed - hemodialysis bed",
-      "description_en": "health insurance beds in hospitals for hemodialysis - added in 1989, called renal treatment bed before 2006, deleted in 2016"
+      "description_en": "NHI-contracted beds at each hospital - hemodialysis beds\nAdded in ROC 89 (2000); called dialysis treatment beds before ROC 96 (2007); deleted in ROC 105 (2016)"
     },
     {
       "seq": 188,
@@ -3570,7 +3570,7 @@
         }
       ],
       "name_zh_en": "medical bed - emergency observation bed",
-      "description_en": "inpatient beds - emergency observation bed added in 1989, deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - emergency observation beds\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 190,
@@ -3592,7 +3592,7 @@
         }
       ],
       "name_zh_en": "NHIRD beds-other beds",
-      "description_en": "Other hospital beds covered by medical insurance: added in 1999, deleted in 2019"
+      "description_en": "NHI-contracted beds at each hospital - other beds\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 191,
@@ -3619,7 +3619,7 @@
         }
       ],
       "name_zh_en": "long-term-care-bed-not-enrolled-psychological-treatment",
-      "description_en": "Health insurance beds in hospitals - psychiatric care not registered, added in 1999, removed in 1998 (divided into h_bed22, h_bed23, h_bed24; added h_bed32 in 2013)"
+      "description_en": "NHI-contracted beds at each hospital - unregistered psychiatric nursing care\nAdded in ROC 89 (2000); deleted in ROC 98 (2009) (split into h_bed22, h_bed23, h_bed24; h_bed32 added in ROC 103 (2014))"
     },
     {
       "seq": 192,
@@ -3641,7 +3641,7 @@
         }
       ],
       "name_zh_en": "long-term-care-bed-not-enrolled-other",
-      "description_en": "inpatient beds at various hospitals - not registered for other care 1989 added, 2016 removed"
+      "description_en": "NHI-contracted beds at each hospital - unregistered other nursing care\nAdded in ROC 89 (2000), deleted in ROC 105 (2016)"
     },
     {
       "seq": 193,
@@ -3690,7 +3690,7 @@
         }
       ],
       "name_zh_en": "mental health inpatient - public funded care bed",
-      "description_en": "Hospice beds for mental health: public subsidy beds added in 98; referred to as mental health: public service beds from 98-2008 to 2011; deleted in 2015"
+      "description_en": "NHI-contracted beds at each hospital - psychiatric nursing care: publicly funded nursing care beds\nAdded in ROC 98 (2009); called psychiatric nursing care: public service beds in ROC 98-101 (2009-2012); deleted in ROC 105 (2016)"
     },
     {
       "seq": 195,
@@ -3739,7 +3739,7 @@
         }
       ],
       "name_zh_en": "NTC bed for psychiatric care: contracted beds by social affairs bureau",
-      "description_en": "beds covered by health insurance at hospitals - psychiatric care: contracted beds by social work bureaus added in 1998, called contracted beds from 1998 to 2001, deleted in 2005"
+      "description_en": "NHI-contracted beds at each hospital - psychiatric nursing care: Social Affairs Bureau contracted beds\nAdded in ROC 98 (2009); called psychiatric nursing care: contracted beds in ROC 98-101 (2009-2012); deleted in ROC 105 (2016)"
     },
     {
       "seq": 197,
@@ -3783,7 +3783,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - family medicine",
-      "description_en": "Number of Full-time Specialist Physicians - Family Medicine Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Family Medicine\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 199,
@@ -3805,7 +3805,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - internal medicine",
-      "description_en": "Number of specialist physicians (full-time)-Internal Medicine added in 1989, removed in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Internal Medicine\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 200,
@@ -3827,7 +3827,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - surgery",
-      "description_en": "Number of specialist physicians (full-time)-Surgery added in 1989, removed in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Surgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 201,
@@ -3849,7 +3849,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - pediatrics",
-      "description_en": "Number of Full-time Specialist Physicians - Pediatrics Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Pediatrics\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 202,
@@ -3871,7 +3871,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - obstetrics and gynecology",
-      "description_en": "Number of Full-time Specialist Physicians - Obstetrics and Gynecology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Obstetrics and Gynecology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 203,
@@ -3893,7 +3893,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - orthopedics",
-      "description_en": "Number of specialist physicians (full-time)-Orthopedics added in 1989, removed in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Orthopedics\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 204,
@@ -3915,7 +3915,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - neurology",
-      "description_en": "Number of Neurology Specialists (Full-time) - Added in 1999, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Neurology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 205,
@@ -3937,7 +3937,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - neurosurgery",
-      "description_en": "Number of Specialist Physicians - Neurosurgery; Added in 1989, Deleted in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Neurosurgery, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 206,
@@ -3959,7 +3959,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - urology",
-      "description_en": "Number of Urology Specialists (Full-time) - Added in 1999, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Urology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 207,
@@ -3981,7 +3981,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - otolaryngology",
-      "description_en": "Number of Specialist Physicians (Full-time) - Otolaryngology; Added in 1989, Deleted in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Otolaryngology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 208,
@@ -4003,7 +4003,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - ophthalmology",
-      "description_en": "Number of specialist physicians (full-time)-Ophthalmology added in 1989, removed in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Ophthalmology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 209,
@@ -4025,7 +4025,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - dermatology",
-      "description_en": "Number of Dermatology Specialists (Full-time) - Added in 1999, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Dermatology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 210,
@@ -4047,7 +4047,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - psychiatry",
-      "description_en": "Number of Psychiatry Specialists (Full-time) - Added in 1999, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Psychiatry\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 211,
@@ -4069,7 +4069,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - rehabilitation medicine",
-      "description_en": "Number of Full-time Specialist Physicians - Physical Medicine and Rehabilitation Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Physical Medicine and Rehabilitation\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 212,
@@ -4091,7 +4091,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - plastic surgery",
-      "description_en": "Number of Specialist Physicians (Full-time) - Plastic Surgery; Added in 1989, Deleted in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Plastic Surgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 213,
@@ -4113,7 +4113,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - anesthesiology",
-      "description_en": "Number of Anesthesiology Specialists (Full-time) - Added in 1999, Removed in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Anesthesiology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 214,
@@ -4140,7 +4140,7 @@
         }
       ],
       "name_zh_en": "Number of full-time specialist physicians - Radiology",
-      "description_en": "Number of full-time specialist physicians - radiology diagnosis added in 1998, called radiology department (diagnosis) from 1989 to 1998, deleted in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Diagnostic Radiology\nAdded in ROC 89 (2000); called Radiology (Diagnostic) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 215,
@@ -4167,7 +4167,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - radiation oncology",
-      "description_en": "number of full-time specialists - radiology oncology, added in 1989, called radiology (oncology) from 1989 to 1998, deleted in 2023"
+      "description_en": "Number of specialist physicians (full-time) - Radiation Oncology\nAdded in ROC 89 (2000); called Radiology (Oncology) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 216,
@@ -4194,7 +4194,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - anatomical pathology",
-      "description_en": "Number of full-time specialist physicians - anatomical pathology - added in 1989, called anatomical pathology from 1989 to 1997, deleted in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Anatomical Pathology\nAdded in ROC 89 (2000); called Pathology (Anatomical) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 217,
@@ -4221,7 +4221,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - clinical pathology",
-      "description_en": "Number of full-time specialist physicians - clinical pathology - added in 1989, called clinical pathology from 1989 to 1997, deleted in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Clinical Pathology\nAdded in ROC 89 (2000); called Pathology (Clinical) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 218,
@@ -4309,7 +4309,7 @@
         }
       ],
       "name_zh_en": "Number of full-time specialist physicians - Oral and Maxillofacial Surgery",
-      "description_en": "number of full-time specialists - oral and maxillofacial surgery added in 1989, deleted in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Oral and Maxillofacial Surgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 222,
@@ -4375,7 +4375,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialist physicians - other specialties",
-      "description_en": "Number of specialist physicians (full-time)-Other specialties added in 1989, removed in 1994"
+      "description_en": "Number of specialist physicians (full-time) - Other specialties, added in ROC 89 (2000); deleted in ROC 94 (2005)"
     },
     {
       "seq": 225,
@@ -4397,7 +4397,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - dentistry",
-      "description_en": "Number of specialist physicians (full-time)-Dentistry added in 1989, removed in 1994"
+      "description_en": "Number of specialist physicians (full-time) - Dentistry\nAdded in ROC 89 (2000); deleted in ROC 94 (2005)"
     },
     {
       "seq": 226,
@@ -4507,7 +4507,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - family medicine",
-      "description_en": "Number of Part-time Specialist Physicians - Family Medicine Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Family Medicine\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 231,
@@ -4573,7 +4573,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - prosthodontics",
-      "description_en": "number of full-time specialists - prosthodontics added in 2010, deleted in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Restorative Dentistry (prosthodontics)\nAdded in ROC 110 (2021); deleted in ROC 113 (2024)"
     },
     {
       "seq": 234,
@@ -4595,7 +4595,7 @@
         }
       ],
       "name_zh_en": "number of full-time specialists - family and dental medicine",
-      "description_en": "number of full-time specialists - family dentistry added in 2010, deleted in 2013"
+      "description_en": "Number of specialist physicians (full-time) - Family Dentistry\nAdded in ROC 110 (2021); deleted in ROC 113 (2024)"
     },
     {
       "seq": 235,
@@ -4705,7 +4705,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - obstetrics and gynecology",
-      "description_en": "Number of Part-time Specialist Physicians - Obstetrics and Gynecology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Obstetrics and Gynecology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 240,
@@ -4749,7 +4749,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - neurology",
-      "description_en": "Number of Part-time Specialist Physicians - Neurology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Neurology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 242,
@@ -4771,7 +4771,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialist physicians - neurosurgery",
-      "description_en": "number of part-time specialist physicians - neurosurgery added in 1990, removed in 2024"
+      "description_en": "Number of specialist physicians (part-time) - Neurosurgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 243,
@@ -4793,7 +4793,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - urology",
-      "description_en": "Number of Part-time Specialist Physicians - Urology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Urology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 244,
@@ -4815,7 +4815,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialist physicians - otolaryngology",
-      "description_en": "number of part-time specialist physicians - otolaryngology added in 1990, removed in 2024"
+      "description_en": "Number of specialist physicians (part-time) - Otolaryngology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 245,
@@ -4859,7 +4859,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - dermatology",
-      "description_en": "Number of Part-time Specialist Physicians - Dermatology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Dermatology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 247,
@@ -4881,7 +4881,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - psychiatry",
-      "description_en": "Number of Part-time Specialist Physicians - Psychiatry Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Psychiatry\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 248,
@@ -4903,7 +4903,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - rehabilitation medicine",
-      "description_en": "Number of Part-time Specialist Physicians - Physical Medicine and Rehabilitation Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Physical Medicine and Rehabilitation\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 249,
@@ -4925,7 +4925,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialist physicians - plastic surgery",
-      "description_en": "number of part-time specialist physicians - plastic surgery added in 1990, removed in 2024"
+      "description_en": "Number of specialist physicians (part-time) - Plastic Surgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 250,
@@ -4947,7 +4947,7 @@
         }
       ],
       "name_zh_en": "number of part-time specialists - anesthesiology",
-      "description_en": "Number of Part-time Specialist Physicians - Anesthesiology Added in 1990, Removed in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Anesthesiology\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 251,
@@ -4974,7 +4974,7 @@
         }
       ],
       "name_zh_en": "Number of part-time specialist physicians - Radiology",
-      "description_en": "Number of specialist physicians (part-time) - radiology diagnosis added in 1998, called radiology department (diagnosis) from 1989 to 1998, deleted in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Diagnostic Radiology\nAdded in ROC 89 (2000); called Radiology (Diagnostic) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 252,
@@ -5001,7 +5001,7 @@
         }
       ],
       "name_zh_en": "full-time specialist physician number (part-time) - radiation oncology",
-      "description_en": "number of part-time specialists - radiology oncology, added in 1989, called radiology (oncology) from 1989 to 1998, deleted in 2023"
+      "description_en": "Number of specialist physicians (part-time) - Radiation Oncology\nAdded in ROC 89 (2000); called Radiology (Oncology) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 253,
@@ -5028,7 +5028,7 @@
         }
       ],
       "name_zh_en": "full-time specialist physician number (part-time) - anatomical pathology",
-      "description_en": "Number of part-time specialist physicians - anatomical pathology - added in 1989, called anatomical pathology from 1989 to 1997, deleted in 2013"
+      "description_en": "Number of specialist physicians (part-time) - Anatomical Pathology\nAdded in ROC 89 (2000); called Pathology (Anatomical) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 254,
@@ -5055,7 +5055,7 @@
         }
       ],
       "name_zh_en": "full-time specialist physician number (part-time) - clinical pathology",
-      "description_en": "Number of part-time specialist physicians - clinical pathology - added in 1989, called clinical pathology from 1989 to 1997, deleted in 2013"
+      "description_en": "Number of specialist physicians (part-time) - Clinical Pathology\nAdded in ROC 89 (2000); called Pathology (Clinical) in ROC 89-98 (2000-2009); deleted in ROC 113 (2024)"
     },
     {
       "seq": 255,
@@ -5143,7 +5143,7 @@
         }
       ],
       "name_zh_en": "Number of part-time specialist physicians - Oral and Maxillofacial Surgery",
-      "description_en": "number of part-time specialists - oral and maxillofacial surgery added in 1989, deleted in 2013"
+      "description_en": "Number of specialist physicians (part-time) - Oral and Maxillofacial Surgery\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 259,
@@ -5385,7 +5385,7 @@
         }
       ],
       "name_zh_en": "full-time specialist physician number (part-time) - restorative dentistry",
-      "description_en": "number of part-time specialists - prosthodontics added in 2010, deleted in 2013"
+      "description_en": "Number of specialist physicians (part-time) - Restorative Dentistry (prosthodontics)\nAdded in ROC 110 (2021); deleted in ROC 113 (2024)"
     },
     {
       "seq": 270,
@@ -5407,7 +5407,7 @@
         }
       ],
       "name_zh_en": "full-time specialist physician number (part-time) - family dentistry",
-      "description_en": "number of part-time specialists - family dentistry added in 2010, deleted in 2013"
+      "description_en": "Number of specialist physicians (part-time) - Family Dentistry\nAdded in ROC 110 (2021); deleted in ROC 113 (2024)"
     },
     {
       "seq": 271,
@@ -5451,7 +5451,7 @@
         }
       ],
       "name_zh_en": "服務人次-震波骨科治療機",
-      "description_en": "visits-for-shockwave-orthopedic-treatment-listed-in-1992-removed-in-2014"
+      "description_en": "Number of service visits - extracorporeal shock wave orthopedic therapy device\nAdded in ROC 92 (2003), deleted in ROC 104 (2015)"
     },
     {
       "seq": 273,
@@ -5495,7 +5495,7 @@
         }
       ],
       "name_zh_en": "service count-CT simulation positioning machine",
-      "description_en": "number of visits-computer tomography simulation positioning device added in 1994, deleted in 2014"
+      "description_en": "Number of service visits - CT simulation positioning device\nAdded in ROC 94 (2005), deleted in ROC 104 (2015)"
     },
     {
       "seq": 276,
@@ -5545,7 +5545,7 @@
         }
       ],
       "name_zh_en": "number of service visits - single photon emission computed tomography scan",
-      "description_en": "number-of-visits-single-photon-emission-computed-tomography-SPET 94 year addition, called nuclear medicine equipment from 1994 to 2013"
+      "description_en": "Number of service visits - single-photon emission computed tomography (SPECT) scanner\nAdded in ROC 94 (2005); called nuclear medicine equipment in ROC 94-103 (2005-2014)"
     },
     {
       "seq": 279,
@@ -5567,7 +5567,7 @@
         }
       ],
       "name_zh_en": "服務人次-正子斷層掃描儀",
-      "description_en": "number of service visits for positron emission tomography scanning 94 added, called positron emission tomography equipment from 1994 to 2004"
+      "description_en": "Number of service visits - positron emission tomography (PET) scanner\nAdded in ROC 94 (2005); called PET equipment in ROC 94-104 (2005-2015)"
     },
     {
       "seq": 280,
@@ -5611,7 +5611,7 @@
         }
       ],
       "name_zh_en": "服務人次-體外震波碎石機",
-      "description_en": "Number of Services - Extracorporeal Shock Wave Lithotripsy  referred to High Intensity Shock Wave Lithotripsy before 1993; code removed in 2016"
+      "description_en": "Number of service visits - extracorporeal shock wave lithotripter\nCalled high-energy shock wave lithotripter before ROC 93 (2004); deleted in ROC 105 (2016)"
     },
     {
       "seq": 282,
@@ -5628,7 +5628,7 @@
         }
       ],
       "name_zh_en": "service人次-高压氧设备",
-      "description_en": "number of service visits - hyperbaric oxygen equipment added in 1994"
+      "description_en": "Number of service visits - hyperbaric oxygen equipment\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 283,
@@ -5801,7 +5801,7 @@
         }
       ],
       "name_zh_en": "number of service visits - implantable cardioverter defibrillator",
-      "description_en": "Number of Visits - Implantable Cardioverter Defibrillator - Added in 2014, Removed in 2016"
+      "description_en": "Number of service visits - implantable cardioverter-defibrillator\nAdded in ROC 104 (2015); deleted in ROC 105 (2016)"
     },
     {
       "seq": 292,
@@ -5823,7 +5823,7 @@
         }
       ],
       "name_zh_en": "service visits - coronary artery rotational atherectomy drill",
-      "description_en": "Number of Visits - Coronary Artery Rotational Abrasion Tool - Added in 1999, Removed in 2023"
+      "description_en": "Number of service visits - coronary rotational atherectomy device\nAdded in ROC 87 (1998); deleted in ROC 113 (2024)"
     },
     {
       "seq": 293,
@@ -5845,7 +5845,7 @@
         }
       ],
       "name_zh_en": "service visits - atrial septal defect closure device",
-      "description_en": "Number of Visits - Atrial Septal Defect Closure Device - Added in 1997, Removed in 2023"
+      "description_en": "Number of service visits - atrial septal defect closure device\nAdded in ROC 93 (2004); deleted in ROC 113 (2024)"
     },
     {
       "seq": 294,
@@ -5867,7 +5867,7 @@
         }
       ],
       "name_zh_en": "service visits - paclitaxel spherical coronary artery dilation mesh",
-      "description_en": "number of procedures for percutaneous coronary stent implantation using paclitaxel-coated stents; added in 1983, deleted in 1987"
+      "description_en": "Number of service visits - paclitaxel-eluting balloon coronary stent, added in ROC 83 (1994); deleted in ROC 87 (1998)"
     },
     {
       "seq": 295,
@@ -6043,7 +6043,7 @@
         }
       ],
       "name_zh_en": "number of service visits - deep infra-red therapy system",
-      "description_en": "Number of Visits - Deep Pulsed Heat Therapy System - Added in 2015, Removed in 2023"
+      "description_en": "Number of service visits - deep diathermy therapy system\nAdded in ROC 105 (2016); deleted in ROC 113 (2024)"
     },
     {
       "seq": 303,
@@ -6236,7 +6236,7 @@
         }
       ],
       "name_zh_en": "number of specific medical devices- computed tomography scanner",
-      "description_en": "specific medical equipment code-computer tomography scanner 1987 addition"
+      "description_en": "Number of specific medical equipment - CT scanner\nAdded in ROC 87 (1998)"
     },
     {
       "seq": 312,
@@ -6253,7 +6253,7 @@
         }
       ],
       "name_zh_en": "number of specific medical devices - MRI machine",
-      "description_en": "number of specific medical equipment - MRI added in 1987"
+      "description_en": "Number of specific medical equipment - MRI scanner\nAdded in ROC 87 (1998)"
     },
     {
       "seq": 313,
@@ -6275,7 +6275,7 @@
         }
       ],
       "name_zh_en": "specific medical equipment quantity-computer tomography simulation positioning device",
-      "description_en": "Specific medical instrument equipment count - Computer Tomography Simulation Positioning Instrument added in 1994, deleted in 2014"
+      "description_en": "Number of specific medical equipment - CT simulation positioning device\nAdded in ROC 94 (2005), deleted in ROC 104 (2015)"
     },
     {
       "seq": 314,
@@ -6309,7 +6309,7 @@
         }
       ],
       "name_zh_en": "specific medical device quantity -近距离放射治療設備",
-      "description_en": "specific medical instrument code-near-field radiotherapy equipment 1994 addition"
+      "description_en": "Number of specific medical equipment - brachytherapy equipment, added in ROC 94 (2005)"
     },
     {
       "seq": 316,
@@ -6353,7 +6353,7 @@
         }
       ],
       "name_zh_en": "number of specific medical equipment - positron emission tomography scanner",
-      "description_en": "specific medical instrument equipment code - positron emission tomography scanner equipment added in 1994, referred to as positron emission tomography scanner equipment from 1994 to 2014"
+      "description_en": "Number of specific medical equipment - positron emission tomography (PET) equipment\nAdded in ROC 94 (2005); called PET equipment in ROC 94-104 (2005-2015)"
     },
     {
       "seq": 318,
@@ -6402,7 +6402,7 @@
         }
       ],
       "name_zh_en": "number of specific medical devices- extracorporeal shock wave therapy machine",
-      "description_en": "specific medical instrument equipment count - extracorporeal shock wave lithotripter - added in 1998; called high-frequency shock wave lithotripter from 1998 to 2004; deleted in 2015"
+      "description_en": "Number of specific medical equipment - extracorporeal shock wave lithotripter\nAdded in ROC 87 (1998); called high-energy shock wave lithotripter in ROC 87-93 (1998-2004); deleted in ROC 105 (2016)"
     },
     {
       "seq": 320,
@@ -6419,7 +6419,7 @@
         }
       ],
       "name_zh_en": "number of specific medical devices - hyperbaric oxygen equipment",
-      "description_en": "number of specific medical equipment - hyperbaric oxygen chamber added in 1994"
+      "description_en": "Number of specific medical equipment - hyperbaric oxygen equipment\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 321,
@@ -6458,7 +6458,7 @@
         }
       ],
       "name_zh_en": "Number of specific medical equipment - Medical Particle Therapy Equipment",
-      "description_en": "number of specific medical equipment - multiple treatment room proton machine added in 97, called medical proton therapy device; from 98 to 2007 called medical particle therapy device"
+      "description_en": "Number of specific medical equipment - multi-room proton therapy machine\nAdded in ROC 97 (2008), called medical proton therapy equipment; called medical particle therapy equipment in ROC 98-107 (2009-2018)"
     },
     {
       "seq": 323,
@@ -6565,7 +6565,7 @@
         }
       ],
       "name_zh_en": "number-of-dental-treatment-stations-equipment",
-      "description_en": "Number of equipment - dental treatment stations added in 1987; called dental treatment station from 1987-2014"
+      "description_en": "Number of equipment - dental treatment chairs\nAdded in ROC 87 (1998); called dental treatment units in ROC 87-104 (1998-2015)"
     },
     {
       "seq": 329,
@@ -6675,7 +6675,7 @@
         }
       ],
       "name_zh_en": "number of specific medical equipment - refractive keratectomy",
-      "description_en": "specific medical instrument equipment count: laser refractive keratectomy added in 1987, deleted in 1994"
+      "description_en": "Number of specific medical equipment - photorefractive keratectomy\nAdded in ROC 87 (1998); deleted in ROC 94 (2005)"
     },
     {
       "seq": 334,
@@ -6736,7 +6736,7 @@
         }
       ],
       "name_zh_en": "specific medical device quantity - atrial septal defect closure device",
-      "description_en": "Specific medical device quantity - Atrial septal defect closure device Only available in 1993"
+      "description_en": "Number of specific medical equipment - atrial septal defect closure device, this field exists only in ROC 93 (2004)"
     },
     {
       "seq": 337,
@@ -6775,7 +6775,7 @@
         }
       ],
       "name_zh_en": "equipment_count-rental_ambulance",
-      "description_en": "equipment count-rented ambulance only in 1988"
+      "description_en": "Number of equipment - rented ambulances\nThis field exists only in ROC 88 (1999)"
     },
     {
       "seq": 339,
@@ -6841,7 +6841,7 @@
         }
       ],
       "name_zh_en": "number of equipment - ambulance (outsourced)",
-      "description_en": "Number of equipment - ambulances (outsourced) added in 2014; removed in 2022"
+      "description_en": "Number of equipment - ambulances (outsourced)\nAdded in ROC 104 (2015); deleted in ROC 111 (2022)"
     },
     {
       "seq": 342,
@@ -6858,7 +6858,7 @@
         }
       ],
       "name_zh_en": "number_of_practicing_medical_personnel-doctors",
-      "description_en": "western physician practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - physicians (Western medicine)\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 343,
@@ -6875,7 +6875,7 @@
         }
       ],
       "name_zh_en": "number_of_practicing_healthcare_providers-_traditional_medicine_doctors",
-      "description_en": "number of practicing medical professionals - traditional Chinese doctors, addition in 1988"
+      "description_en": "Number of practicing health professionals - traditional Chinese medicine physicians\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 344,
@@ -6892,7 +6892,7 @@
         }
       ],
       "name_zh_en": "number-of-practicing-dentists",
-      "description_en": "dentist practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - dentists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 345,
@@ -6909,7 +6909,7 @@
         }
       ],
       "name_zh_en": "number of practicing healthcare professionals - pharmacists",
-      "description_en": "number of practicing medical personnel - pharmacists added in 1996"
+      "description_en": "Number of practicing health professionals - pharmacists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 346,
@@ -6926,7 +6926,7 @@
         }
       ],
       "name_zh_en": "number_of_practicing_pharmaceutical_providers",
-      "description_en": "pharmacist practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - assistant pharmacists (pharmacy technicians)\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 347,
@@ -6943,7 +6943,7 @@
         }
       ],
       "name_zh_en": "number-of-practicing-medical-professionals--medical-laboratory-scientists",
-      "description_en": "medical laboratory technician practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - medical laboratory scientists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 348,
@@ -6960,7 +6960,7 @@
         }
       ],
       "name_zh_en": "number-of-practicing-medical-professionals-lab-tech ",
-      "description_en": "medical laboratory assistant practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - medical laboratory assistants\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 349,
@@ -6977,7 +6977,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - radiographer",
-      "description_en": "Number of Practicing Medical Professionals-Radiologic Technologists Added in 1988"
+      "description_en": "Number of practicing health professionals - radiologic technologists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 350,
@@ -6994,7 +6994,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - radiologic technologist",
-      "description_en": "radiologic technologist practitioners in 1988"
+      "description_en": "Number of practicing health professionals - assistant radiologic technologists\nROC 88 (1999)"
     },
     {
       "seq": 351,
@@ -7011,7 +7011,7 @@
         }
       ],
       "name_zh_en": "number-of-practicing-medical-professionals-nurses",
-      "description_en": "nurse practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - nurses (registered nurses)\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 352,
@@ -7028,7 +7028,7 @@
         }
       ],
       "name_zh_en": "number of practicing healthcare professionals - nurses",
-      "description_en": "number of practicing medical personnel - nurses added in 1996"
+      "description_en": "Number of practicing health professionals - assistant nurses\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 353,
@@ -7045,7 +7045,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel-midwife",
-      "description_en": "midwife practitioners added in 1994"
+      "description_en": "Number of practicing health professionals - midwives (registered midwives), added in ROC 94 (2005)"
     },
     {
       "seq": 354,
@@ -7062,7 +7062,7 @@
         }
       ],
       "name_zh_en": "number_of_practicing_healthcare_providers-obstetric_assistants",
-      "description_en": "number of practicing medical professionals - midwives, addition in 1988"
+      "description_en": "Number of practicing health professionals - assistant midwives\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 355,
@@ -7084,7 +7084,7 @@
         }
       ],
       "name_zh_en": "Number_of_Practicing_Professionals-Dental",
-      "description_en": "number of dental technicians, added in 1998, deleted in 2017"
+      "description_en": "Number of practicing health professionals - denturists (dental prosthetists)\nAdded in ROC 88 (1999), deleted in ROC 106 (2017)"
     },
     {
       "seq": 356,
@@ -7101,7 +7101,7 @@
         }
       ],
       "name_zh_en": "number-of-practicing-professionals-nutritionists",
-      "description_en": "nutritionist practitioners added in 1988"
+      "description_en": "Number of practicing health professionals - dietitians\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 357,
@@ -7118,7 +7118,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - physical therapist",
-      "description_en": "Number of Practicing Medical Professionals-Physiotherapists Added in 1988"
+      "description_en": "Number of practicing health professionals - physical therapists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 358,
@@ -7135,7 +7135,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - physical therapy student",
-      "description_en": "Number of Practicing Medical Professionals-Physiotherapy Students Added in 1988"
+      "description_en": "Number of practicing health professionals - physical therapy assistants\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 359,
@@ -7152,7 +7152,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - occupational therapist",
-      "description_en": "Number of Practicing Medical Professionals-Occupational Therapists Added in 1988"
+      "description_en": "Number of practicing health professionals - occupational therapists\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 360,
@@ -7169,7 +7169,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - occupational therapy student",
-      "description_en": "Number of Practicing Medical Professionals-Occupational Therapy Students Added in 1988"
+      "description_en": "Number of practicing health professionals - occupational therapy assistants\nAdded in ROC 88 (1999)"
     },
     {
       "seq": 361,
@@ -7186,7 +7186,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - clinical psychologist",
-      "description_en": "Number of Practicing Medical Professionals-Clinical Psychologists Added in 1994"
+      "description_en": "Number of practicing health professionals - clinical psychologists\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 362,
@@ -7203,7 +7203,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - counseling psychologist",
-      "description_en": "Number of Practicing Medical Professionals-Counseling Psychologists Added in 1994"
+      "description_en": "Number of practicing health professionals - counseling psychologists\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 363,
@@ -7220,7 +7220,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - respiratory therapist",
-      "description_en": "number of practicing respiratory therapists in 1994"
+      "description_en": "Number of practicing health professionals - respiratory therapists\nAdded in ROC 94 (2005)"
     },
     {
       "seq": 364,
@@ -7237,7 +7237,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - speech therapist",
-      "description_en": "Number of Practicing Medical Professionals-Speech-Language Pathologists Added in 1998"
+      "description_en": "Number of practicing health professionals - speech-language pathologists\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 365,
@@ -7254,7 +7254,7 @@
         }
       ],
       "name_zh_en": "number_of_practicing_healthcare_providers-hearing_therapists",
-      "description_en": "audiologist practitioners added in 1998"
+      "description_en": "Number of practicing health professionals - audiologists\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 366,
@@ -7271,7 +7271,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - dental technician",
-      "description_en": "Number of Practicing Medical Professionals-Dental Technicians Added in 1998"
+      "description_en": "Number of practicing health professionals - dental technicians\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 367,
@@ -7288,7 +7288,7 @@
         }
       ],
       "name_zh_en": "number of practicing medical personnel - dental technologist",
-      "description_en": "Number of Practicing Medical Professionals-Dental Technician Students Added in 1998"
+      "description_en": "Number of practicing health professionals - assistant dental technicians\nAdded in ROC 98 (2009)"
     },
     {
       "seq": 368,
@@ -7344,7 +7344,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates infection control",
-      "description_en": "number-of-medically-unqualified-workers-infection-control-added-in-1990-removed-in-2023"
+      "description_en": "Number of staff without health professional licenses - infection control, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 371,
@@ -7415,7 +7415,7 @@
         }
       ],
       "name_zh_en": "number-of-medical-clinical-engineers-without-medical-professional-license",
-      "description_en": "number of workers without medical professional certificate in medical clinical engineering 1999 added, removed in 2024"
+      "description_en": "Number of staff without health professional licenses - clinical biomedical engineering\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 374,
@@ -7437,7 +7437,7 @@
         }
       ],
       "name_zh_en": "Number of non-medical professionals engaged in work without a medical specialist practice certificate-Construction and maintenance staff",
-      "description_en": "number-of-persons-working-without-medical-specialty-certificate-construction-and-related-professions added in 1995, deleted in 2024"
+      "description_en": "Number of staff without health professional licenses - facilities and building maintenance, etc.\nAdded in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 375,
@@ -7459,7 +7459,7 @@
         }
       ],
       "name_zh_en": "number-of-medically-specialized-professionals-without-medical-practice-certificates-social-workers",
-      "description_en": "number-of-persons-working-without-medical-specialty-certificate-social-worker added in 1996, deleted in 2024"
+      "description_en": "Number of staff without health professional licenses - social workers\nAdded in ROC 95 (2006); deleted in ROC 113 (2024)"
     },
     {
       "seq": 376,
@@ -7481,7 +7481,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates social workers",
-      "description_en": "number of workers without medical professional certificate - social work personnel added in 1990; removed in 2024"
+      "description_en": "Number of staff without health professional licenses - social work personnel, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 377,
@@ -7503,7 +7503,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical professional certificate in healthcare administration",
-      "description_en": "number-of-medical-administrative-staff-without-medical-specialized-professional-certificate-1989-added;2024-removed"
+      "description_en": "Number of staff without health professional licenses - medical administration, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 378,
@@ -7525,7 +7525,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates general administration",
-      "description_en": "number-of-medically-unlicensed-workers-general-administration-added-in-1989-removed-in-2023"
+      "description_en": "Number of staff without health professional licenses - general administration, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 379,
@@ -7547,7 +7547,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates information staff",
-      "description_en": "Number of non-medical professionals without medical specialist occupational certificate - Information personnel added in 1999; removed in 2024"
+      "description_en": "Number of staff without health professional licenses - information technology personnel, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 380,
@@ -7569,7 +7569,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates researchers",
-      "description_en": "number-of-medically-unlicensed-workers-researchers-added-in-1999-removed-in-2024"
+      "description_en": "Number of staff without health professional licenses - researchers, added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 381,
@@ -7613,7 +7613,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates other personnel",
-      "description_en": "Number of staff without medical professional certificate - others (including security guards, maintenance workers, technicians, laborers, drivers) added in 1989; removed in 2024"
+      "description_en": "Number of staff without health professional licenses - other personnel (including resident police, security guards, technicians, custodians, drivers), added in ROC 89 (2000); deleted in ROC 113 (2024)"
     },
     {
       "seq": 383,
@@ -7657,7 +7657,7 @@
         }
       ],
       "name_zh_en": "number of non-medical professionals without medical specialty certificates clinical psychologists",
-      "description_en": "number of personnel without medical professional certificates working in clinical psychology; added in 1989, deleted in 1994"
+      "description_en": "Number of staff without health professional licenses - clinical psychology, added in ROC 89 (2000); deleted in ROC 94 (2005)"
     },
     {
       "seq": 385,
@@ -7800,7 +7800,7 @@
         }
       ],
       "name_zh_en": "peritoneal dialysis patients",
-      "description_en": "number of patients with peritoneal dialysis at hospitals, added in 1988, referred to as peritoneal dialysis visits from 1988 to 1999"
+      "description_en": "Number of peritoneal dialysis patients at each hospital\nAdded in ROC 88 (1999); called number of peritoneal dialysis visits in ROC 88-99 (1999-2010)"
     },
     {
       "seq": 397,
@@ -7850,7 +7850,7 @@
         }
       ],
       "name_zh_en": "referral-in",
-      "description_en": "hospital admissions transferred into 1989 addition"
+      "description_en": "Hospital referrals - transferred in\nAdded in ROC 89 (2000)"
     },
     {
       "seq": 401,
@@ -7867,7 +7867,7 @@
         }
       ],
       "name_zh_en": "referral-out",
-      "description_en": "hospital discharges transferred out 1989 addition"
+      "description_en": "Hospital referrals - transferred out\nAdded in ROC 89 (2000)"
     },
     {
       "seq": 402,
@@ -7894,7 +7894,7 @@
         }
       ],
       "name_zh_en": "inpatient infections",
-      "description_en": "Number of nosocomial infection cases added in 1998, called nosocomial infection rate from 1989 to 1992, and nosocomial infection cases from 1993 to 2007"
+      "description_en": "Number of nosocomial infection cases at each hospital\nAdded in ROC 89 (2000); called nosocomial infection rate in ROC 89-92 (2000-2003); called number of nosocomial infection cases in ROC 93-107 (2004-2018)"
     },
     {
       "seq": 403,
@@ -7933,7 +7933,7 @@
         }
       ],
       "name_zh_en": "Number of employees dispatched to overseas locations - Mainland China (including Hong Kong and Macau)",
-      "description_en": "Number of stationed employees in overseas posts - Mainland China (including Hong Kong and Macau) only had this field in 2010"
+      "description_en": "Number of employees stationed long-term at overseas sites - Mainland China (including Hong Kong and Macau)\nThis field exists only in ROC 100 (2011)"
     },
     {
       "seq": 405,
@@ -8030,12 +8030,12 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院頁 24 / 40 2026年01月27日修訂 2. 98年以前-縣市 0203 高雄市左營區 1703 臺中市西區 3104 臺北縣中和市 3125 臺北縣雙溪鄉 3307 新竹縣橫山鄉鄉鎮代碼 0204 高雄市楠梓區 1704 臺中市南區 3104 臺北縣中和市 3126 臺北縣貢寮鄉 3308 新竹縣新豐鄉 (CITY)： 0205 高雄市三民區 1705 臺中市北區 3104 臺北縣中和市 3127 臺北縣金山鄉 3309 新竹縣芎林鄉",
-          "label_en": "1. To meet clinical cancer-care needs, from ROC year 98 (2009) the Health Promotion Administration began planning to add site-specific-factor data to the Taiwan Cancer Registry long-form database; for public-health reasons, smoking, betel-nut chewing, alcohol use, height and weight were also added and revised in the ROC-100 (2011) cancer-registry abstracting manual. 2. Beyond the cancers reported in 2007 (cervical, breast, colorectal, oral, lung, liver) and those added in 2008 (prostate, stomach, esophagus, bladder), 2009 added nasopharyngeal, major salivary gland, uterine corpus, ovarian, and hematologic cancers; 2010 expanded to the top 10 cancers in men and women (oral, colorectal, liver, lung, breast, cervical, esophagus, stomach, prostate...)."
+          "label_en": "Private traditional Chinese medicine hospital 18 (repeated) page 24 / 40, revised 27 January 2026. 2. Before ROC 98 (2009) - county/city, township code (CITY): 0203 Kaohsiung City Zuoying District; 1703 Taichung City West District; 3104 Taipei County Zhonghe City; 3125 Taipei County Shuangxi Township; 3307 Hsinchu County Hengshan Township; 0204 Kaohsiung City Nanzi District; 1704 Taichung City South District; 3104 Taipei County Zhonghe City; 3126 Taipei County Gongliao Township; 3308 Hsinchu County Xinfeng Township; 0205 Kaohsiung City Sanmin District; 1705 Taichung City North District; 3104 Taipei County Zhonghe City; 3127 Taipei County Jinshan Township; 3309 Hsinchu County Qionglin Township"
         },
         {
           "code": "0205",
           "label_zh": "高雄市三民區 1706 臺中市西屯區 3105 臺北縣新店市 3128 臺北縣萬里鄉 3310 新竹縣寶山鄉",
-          "label_en": "Kaohsiung City Sanmin District 1706 Taichung City Xitun District 3105 New Taipei City Xinstore District 3128 New Taipei City Wanli Township 3310 Hsinchu County Baoshan Township"
+          "label_en": "Kaohsiung City Sanmin District 1706 Taichung City Xitun District 3105 Taipei County Xindian City 3128 Taipei County Wanli Township 3310 Hsinchu County Baoshan Township"
         },
         {
           "code": "CITY",
@@ -8090,12 +8090,12 @@
         {
           "code": "0118",
           "label_zh": "臺北市中正區 1104 基隆市仁愛區 2201 嘉義市東區 3116 臺北縣泰山鄉 3210 桃園縣平鎮市 3407 宜蘭縣員山鄉",
-          "label_en": "Taipei City Zhongzheng District 1104 Keelung City Renai District 2201 Kaohsiung City Dongshi District 3116 Taipei County Taishan Township 3210 Taoyuan County Pingzhen City 3407 Yilan County Yuanshan Township"
+          "label_en": "Taipei City Zhongzheng District 1104 Keelung City Ren'ai District 2201 Chiayi City East District 3116 Taipei County Taishan Township 3210 Taoyuan County Pingzhen City 3407 Yilan County Yuanshan Township"
         },
         {
           "code": "0119",
           "label_zh": "臺北市萬華區 1105 基隆市中山區 2202 嘉義市西區 3117 臺北縣林口鄉 3211 桃園縣新屋鄉 3408 宜蘭縣冬山鄉",
-          "label_en": "Taipei City Wanhe District 1105 Keelung City Zhongshan District 0321 Taichung City Xiping District 0516 Yilan County Dongsha Township 3417 New Taipei City Linkou Township 3211 Taoyuan County Xinwu Township 3408"
+          "label_en": "Taipei City Wanhua District 1105 Keelung City Zhongshan District 2202 Chiayi City West District 3117 Taipei County Linkou Township 3211 Taoyuan County Xinwu Township 3408 Yilan County Dongshan Township"
         },
         {
           "code": "0119",
@@ -8115,7 +8115,7 @@
         {
           "code": "0120",
           "label_zh": "臺北市文山區 1204 新竹市北區 3102 臺北縣三重市 3121 臺北縣三芝鄉 3302 新竹縣新埔鎮 3412 宜蘭縣南澳鄉",
-          "label_en": "Taipei City Wenshan District 1204 Taichung City Xiqiao District 3102 New Taipei City Sanzong District 3121 New Taipei City Sanchi Township 3302 Yilan County Xinpu Town 3412"
+          "label_en": "Taipei City Wenshan District 1204 Hsinchu City North District 3102 Taipei County Sanchong City 3121 Taipei County Sanzhi Township 3302 Hsinchu County Xinpu Township 3412 Yilan County Nan'ao Township"
         },
         {
           "code": "0120",
@@ -8130,117 +8130,117 @@
         {
           "code": "0202",
           "label_zh": "高雄市鼓山區 1702 臺中市東區 3103 臺北縣永和市 3124 臺北縣平溪鄉 3306 新竹縣湖口鄉 3503 苗栗縣通霄鎮頁 25 / 40 2026年01月27日修訂",
-          "label_en": "Kaohsiung Gushan District 1702 Taichung Dong District 3103 Taipei County Yonghe City 3124 Taipei County Pingxi Township 3306 Hsinchu County Lake Mouth Township 3503 Miaoli County Tongtiao Town Page 25 / 40 Revised on January 27, 2026"
+          "label_en": "Kaohsiung City Gushan District 1702 Taichung City East District 3103 Taipei County Yonghe City 3124 Taipei County Pingxi Township 3306 Hsinchu County Hukou Township 3503 Miaoli County Tongxiao Township Page 25 / 40 Revised 27 January 2026"
         },
         {
           "code": "3504",
           "label_zh": "苗栗縣竹南鎮 3610 臺中縣大雅鄉 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮 4108 臺南縣學甲鎮",
-          "label_en": "Taichung County Zhinan Town 3610 Taichung County Daya Township 3713 Changhua County Huatai Township 3811 Nantou County Shili Township 4002 Kaohsiung County Budai Town 4108 Tainan County Xiamatown"
+          "label_en": "Miaoli County Zhunan Township 3610 Taichung County Daya Township 3713 Changhua County Huatan Township 3811 Nantou County Shuili Township 4002 Chiayi County Budai Township 4108 Tainan County Xuejia Township"
         },
         {
           "code": "3505",
           "label_zh": "苗栗縣頭份鎮 3611 臺中縣新社鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮 4109 臺南縣柳營鄉",
-          "label_en": "Taichung County Toufen Township 3611 Taichung County Xinsha Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town 4109 Tainan County Liuying Township"
+          "label_en": "Miaoli County Toufen Township 3611 Taichung County Xinshe Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Chiayi County Dalin Township 4109 Tainan County Liuying Township"
         },
         {
           "code": "3506",
           "label_zh": "苗栗縣後龍鎮 3612 臺中縣石岡鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉 4110 臺南縣後壁鄉",
-          "label_en": "Chiayi County Hulin Town 3612 Taichung County Shigang Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Kaohsiung County Minxiong Township 4110 Tainan County Houbi Township"
+          "label_en": "Miaoli County Houlong Township 3612 Taichung County Shigang Township 3715 Changhua County Dacun Township 3813 Nantou County Ren'ai Township 4004 Chiayi County Minxiong Township 4110 Tainan County Houbi Township"
         },
         {
           "code": "3507",
           "label_zh": "苗栗縣卓蘭鎮 3613 臺中縣外埔鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉 4111 臺南縣東山鄉",
-          "label_en": "Changhua County Tulan Town 3613 Taichung County Waipu Township 3716 Changhua County Pubu Township 3901 Yunlin County Douli City 4005 Kaohsiung County溪口乡 4111 Tainan County Dongshan Township"
+          "label_en": "Miaoli County Zhuolan Township 3613 Taichung County Waipu Township 3716 Changhua County Puyan Township 3901 Yunlin County Douliu City 4005 Chiayi County Xikou Township 4111 Tainan County Dongshan Township"
         },
         {
           "code": "3508",
           "label_zh": "苗栗縣大湖鄉 3614 臺中縣大安鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉 4112 臺南縣下營鄉",
-          "label_en": "Miaoli County Da Hu Township 3614 Taichung County Dadao District 3717 Changhua County Puxin Township 3902 Yunlin County Dounan Town 4006 Kaohsiung County Xingang Township 4112 Tainan County Xiaying Township"
+          "label_en": "Miaoli County Dahu Township 3614 Taichung County Da'an Township 3717 Changhua County Puxin Township 3902 Yunlin County Dounan Township 4006 Chiayi County Xingang Township 4112 Tainan County Xiaying Township"
         },
         {
           "code": "3509",
           "label_zh": "苗栗縣公館鄉 3615 臺中縣烏日鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮 4007 嘉義縣六腳鄉 4113 臺南縣六甲鄉",
-          "label_en": "Miaoli County Gongguan Township 3615 Taichung County Wuri Township 3718 Changhua County Yongjing Township 3903 Yunlin County Huitai Town 4007 Kaohsiung County Liujiao Township 4113"
+          "label_en": "Miaoli County Gongguan Township 3615 Taichung County Wuri Township 3718 Changhua County Yongjing Township 3903 Yunlin County Huwei Township 4007 Chiayi County Liujiao Township 4113 Tainan County Liujia Township"
         },
         {
           "code": "3510",
           "label_zh": "苗栗縣銅鑼鄉 3616 臺中縣大肚鄉 3719 彰化縣社頭鄉 3904 雲林縣西螺鎮 4008 嘉義縣東石鄉 4114 臺南縣官田鄉",
-          "label_en": "Taichung County Tongluo Township 3616 Taichung County Dadu Township 3719 Changhua County Shoutou Township 3904 Yunlin County Xiluo Town 4008 Kaohsiung County Dongshi Town 4114 Tainan County Guantian Township"
+          "label_en": "Miaoli County Tongluo Township 3616 Taichung County Dadu Township 3719 Changhua County Shetou Township 3904 Yunlin County Xiluo Township 4008 Chiayi County Dongshi Township 4114 Tainan County Guantian Township"
         },
         {
           "code": "3511",
           "label_zh": "苗栗縣南庄鄉 3617 臺中縣龍井鄉 3720 彰化縣二水鄉 3905 雲林縣土庫鎮 4009 嘉義縣義竹鄉 4115 臺南縣大內鄉",
-          "label_en": "Miaoli County Nanzhuang Township 3617 Taichung County Longjing Township 3720 Changhua County Ershui Township 3905 Yunlin County Tukou Town 4009 Kaohsiung County Yizhuxiang Township 4115 Tainan County Daining Township"
+          "label_en": "Miaoli County Nanzhuang Township 3617 Taichung County Longjing Township 3720 Changhua County Ershui Township 3905 Yunlin County Tuku Township 4009 Chiayi County Yizhu Township 4115 Tainan County Danei Township"
         },
         {
           "code": "3512",
           "label_zh": "苗栗縣頭屋鄉 3618 臺中縣霧峰鄉 3721 彰化縣田尾鄉 3906 雲林縣北港鎮 4010 嘉義縣鹿草鄉 4116 臺南縣西港鄉",
-          "label_en": "Taichung County Wufeng Township 3721 Changhua County Tainan Township 3906 Yunlin County Beigang Town 4010 Kaohsiung County Lucoo Township 4116 Tainan County Xihang Township"
+          "label_en": "Miaoli County Touwu Township 3618 Taichung County Wufeng Township 3721 Changhua County Tianwei Township 3906 Yunlin County Beigang Township 4010 Chiayi County Lucao Township 4116 Tainan County Xigang Township"
         },
         {
           "code": "3513",
           "label_zh": "苗栗縣三義鄉 3619 臺中縣太平市 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉 4011 嘉義縣太保市 4117 臺南縣七股鄉",
-          "label_en": "Miaoli County Sishyi Township 3619 Taichung County Taiping City 3722 Changhua County Pitou Township 3907 Yunlin County Gukeng Township 4011 Kaohsiung County Taibao City 4117 Tainan County Qigushu Township"
+          "label_en": "Miaoli County Sanyi Township 3619 Taichung County Taiping City 3722 Changhua County Pitou Township 3907 Yunlin County Gukeng Township 4011 Chiayi County Taibao City 4117 Tainan County Qigu Township"
         },
         {
           "code": "3514",
           "label_zh": "苗栗縣西湖鄉 3620 臺中縣大里市 3723 彰化縣芳苑鄉 3908 雲林縣大埤鄉 4012 嘉義縣水上鄉 4118 臺南縣將軍鄉",
-          "label_en": "Taichung County Xihu Township 3620 Taichung County Dali City 3723 Changhua County Fangyuan Township 3908 Yunlin County Dayi Township 4012 Kaohsiung County Shuiwu Town 4118 Tainan County Jiangjun Township"
+          "label_en": "Miaoli County Xihu Township 3620 Taichung County Dali City 3723 Changhua County Fangyuan Township 3908 Yunlin County Dapi Township 4012 Chiayi County Shuishang Township 4118 Tainan County Jiangjun Township"
         },
         {
           "code": "3515",
           "label_zh": "苗栗縣造橋鄉 3621 臺中縣和平鄉 3724 彰化縣大城鄉 3909 雲林縣荊桐鄉 4013 嘉義縣中埔鄉 4119 臺南縣北門鄉",
-          "label_en": "Taichung County Zhaqiao Township 3621 Taichung County Heiping Township 3724 Changhua County Dacheng Township 3909 Yunlin County Jintong Township 4013 Kaohsiung County Zhongpu Town 4119 Tainan County Guantian Township"
+          "label_en": "Miaoli County Zaoqiao Township 3621 Taichung County Heping Township 3724 Changhua County Dacheng Township 3909 Yunlin County Citong Township 4013 Chiayi County Zhongpu Township 4119 Tainan County Beimen Township"
         },
         {
           "code": "3516",
           "label_zh": "苗栗縣三灣鄉 3701 彰化縣彰化市 3725 彰化縣竹塘鄉 3910 雲林縣林內鄉 4014 嘉義縣竹崎鄉 4120 臺南縣新市鄉",
-          "label_en": "Miaoli County Sanwan Township 3701 Changhua County Changhua City 3725 Changhua County Zhutang Township 3910 Yunlin County Linnei Township 4014 Kaohsiung County Xiziqu Township 4120 Tainan County Xinshi Township"
+          "label_en": "Miaoli County Sanwan Township 3701 Changhua County Changhua City 3725 Changhua County Zhutang Township 3910 Yunlin County Linnei Township 4014 Chiayi County Zhuqi Township 4120 Tainan County Xinshi Township"
         },
         {
           "code": "3517",
           "label_zh": "苗栗縣獅潭鄉 3702 彰化縣鹿港鎮 3726 彰化縣溪州鄉 3911 雲林縣二崙鄉 4015 嘉義縣梅山鄉 4121 臺南縣安定鄉",
-          "label_en": "Taichung County Shitang Township 3702 Changhua County Lugu Town 3726 Changhua County Xiji Township 3911 Yunlin County Erren Township 4015 Kaohsiung County Meishan Township 4121 Tainan County Anshan Township"
+          "label_en": "Miaoli County Shitan Township 3702 Changhua County Lukang Township 3726 Changhua County Xizhou Township 3911 Yunlin County Erlun Township 4015 Chiayi County Meishan Township 4121 Tainan County Anding Township"
         },
         {
           "code": "3518",
           "label_zh": "苗栗縣泰安鄉 3703 彰化縣和美鎮 3801 南投縣南投市 3912 雲林縣崙背鄉 4016 嘉義縣番路鄉 4122 臺南縣山上鄉",
-          "label_en": "Taichung County Taishan Township 3703 Changhua County Huamian Town 3801 Nantou County Nantou City 3912 Yunlin County Longbeixiang 4016 Chiayi County Fanlu Township 4122 Tainan County Shangshan Township"
+          "label_en": "Miaoli County Tai'an Township 3703 Changhua County Hemei Township 3801 Nantou County Nantou City 3912 Yunlin County Lunbei Township 4016 Chiayi County Fanlu Township 4122 Tainan County Shanshang Township"
         },
         {
           "code": "3601",
           "label_zh": "臺中縣豐原市 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉 4017 嘉義縣大埔鄉 4123 臺南縣玉井鄉",
-          "label_en": "Taichung County Fengyuan City 3704 Changhua County Beidou Town 3802 Nantou County Puli Town 3913 Yunlin County Maiqiao Township 4017 Kaohsiung County Dabu Township 4123 Tainan County Yujing Township"
+          "label_en": "Taichung County Fengyuan City 3704 Changhua County Beidou Township 3802 Nantou County Puli Township 3913 Yunlin County Mailiao Township 4017 Chiayi County Dapu Township 4123 Tainan County Yujing Township"
         },
         {
           "code": "3602",
           "label_zh": "臺中縣東勢鎮 3705 彰化縣員林鎮 3803 南投縣草屯鎮 3914 雲林縣東勢鄉 4018 嘉義縣阿里山 4124 臺南縣楠西鄉",
-          "label_en": "Taichung County Dongshi Town 3705 Changhua County Yuanlin Township 3803 Nantou County Caotun Township 3914 Yilan County Dongshi Township 4018 Chiayi County Alishan 4124 Taichung County Nanxi Township"
+          "label_en": "Taichung County Dongshi Township 3705 Changhua County Yuanlin Township 3803 Nantou County Caotun Township 3914 Yunlin County Dongshi Township 4018 Chiayi County Alishan 4124 Tainan County Nanxi Township"
         },
         {
           "code": "3603",
           "label_zh": "臺中縣大甲鎮 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉 4101 臺南縣新營市 4125 臺南縣南化鄉",
-          "label_en": "Taichung County Dajia Town 3706 Changhua County Xihu Township 3804 Nantou County Zhushan Township 3915 Yilan County Baotong Township 4101 Taichung County Xinying City 4125 Taichung County Nanhua Township"
+          "label_en": "Taichung County Dajia Township 3706 Changhua County Xihu Township 3804 Nantou County Zhushan Township 3915 Yunlin County Baozhong Township 4101 Tainan County Xinying City 4125 Tainan County Nanhua Township"
         },
         {
           "code": "3604",
           "label_zh": "臺中縣清水鎮 3707 彰化縣田中鎮 3805 南投縣集集鎮 3916 雲林縣臺西鄉 4102 臺南縣鹽水鎮 4126 臺南縣左鎮鄉",
-          "label_en": "Taichung County Qishen Town 3707 Changhua County Tiantong Township 3805 Nantou County Jiji Township 3916 Yilan County Taixi Township 4102 Taichung County Yanwater Town 4126 Taichung County Zhiwen Township"
+          "label_en": "Taichung County Qingshui Township 3707 Changhua County Tianzhong Township 3805 Nantou County Jiji Township 3916 Yunlin County Taixi Township 4102 Tainan County Yanshui Township 4126 Tainan County Zuozhen Township"
         },
         {
           "code": "3605",
           "label_zh": "臺中縣沙鹿鎮 3708 彰化縣二林鎮 3806 南投縣名間鄉 3917 雲林縣元長鄉 4103 臺南縣白河鎮 4127 臺南縣仁德鄉",
-          "label_en": "Taichung County Shalu Town 3708 Changhua County Erlin Township 3806 Nantou County Mingian Township 3917 Yilan County Yuanzhong Township 4103 Taichung County Baihe Town 4127 Taichung County Rende Township"
+          "label_en": "Taichung County Shalu Township 3708 Changhua County Erlin Township 3806 Nantou County Mingjian Township 3917 Yunlin County Yuanchang Township 4103 Tainan County Baihe Township 4127 Tainan County Rende Township"
         },
         {
           "code": "3606",
           "label_zh": "臺中縣梧棲鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉 4104 臺南縣麻豆鎮 4128 臺南縣歸仁鄉",
-          "label_en": "Taichung County Wulitown 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yilan County Sihu Township 4104 Taichung County Madou Town 4128 Taichung County Guiren Township"
+          "label_en": "Taichung County Wuqi Township 3709 Changhua County Xianxi Township 3807 Nantou County Lugu Township 3918 Yunlin County Sihu Township 4104 Tainan County Madou Township 4128 Tainan County Guiren Township"
         },
         {
           "code": "3607",
           "label_zh": "臺中縣后里鄉 3710 彰化縣伸港鄉 3808 南投縣中寮鄉 3919 雲林縣口湖鄉 4105 臺南縣佳里鎮 4129 臺南縣關廟鄉",
-          "label_en": "Taichung County Houli Township 3710 Changhua County Shenggang Township 3808 Nantou County Zhongliao Township 3919 Yilan County Kouhu Township 4105 Taichung County Jiayi Town 4129 Taichung County Guanmen Township"
+          "label_en": "Taichung County Houli Township 3710 Changhua County Shengang Township 3808 Nantou County Zhongliao Township 3919 Yunlin County Kouhu Township 4105 Tainan County Jiali Township 4129 Tainan County Guanmiao Township"
         },
         {
           "code": "3608",
@@ -8250,7 +8250,7 @@
         {
           "code": "3609",
           "label_zh": "臺中縣潭子鄉 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市 4107 臺南縣善化鎮 4131 臺南縣永康市頁 26 / 40 2026年01月27日修訂",
-          "label_en": "Taichung County Tanzi Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City 4107 Tainan County Shansha Town 4131 Tainan County Yongkang City Jan 27, 2026"
+          "label_en": "Taichung County Tanzi Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Chiayi County Puzi City 4107 Tainan County Shanhua Township 4131 Tainan County Yongkang City Page 26 / 40 Revised 27 January 2026"
         },
         {
           "code": "4201",
@@ -8295,7 +8295,7 @@
         {
           "code": "4208",
           "label_zh": "高雄縣仁武鄉 4226 高雄縣桃源鄉 4317 屏東縣新園鄉 4402 澎湖縣湖西鎮 4601 台東縣台東市 9003 金門縣金湖鎮",
-          "label_en": "Kaohsiung County Renwu Township 4226 Kaohsiung County Taoyuan Township 4317 Pingtung County Xinyuan Township 4402 Penghu County Huxi Town 4601 Taitung County Taitung City 9003 Kinmen County Jinhu Town"
+          "label_en": "Kaohsiung County Renwu Township 4226 Kaohsiung County Taoyuan Township 4317 Pingtung County Xinyuan Township 4402 Penghu County Huxi Township 4601 Taitung County Taitung City 9003 Kinmen County Jinhu Township"
         },
         {
           "code": "4209",
@@ -8340,7 +8340,7 @@
         {
           "code": "4217",
           "label_zh": "高雄縣茄萣鄉 4308 屏東縣九如鄉 4326 屏東縣三地鄉 4505 花蓮縣吉安鄉 4610 台東縣池上鄉頁 27 / 40 2026年01月27日修訂 3. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-99 年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
-          "label_en": "Qieding Township, Kaohsiung County 4308; Jiuru Township, Pingtung County 4326; Sandi Township, Pingtung County 4505; Ji'an Township, Hualien County 4610; Chishang Township, Taitung County Page 27/40 Revised 2026/01/27 3. County/City Township Codes 0704 Meinong District, Kaohsiung City; 0728 Yancheng District, Kaohsiung City; 0304 Qingshui District, Taichung City; 0328 Nantun District, Taichung City; 0523 Yujing District, Tainan City (CITY - after the ROC year 99 adjustment of 0705 Linyuan District, Kaohsiung City; 0729 Gushan District, Kaohsiung City; 0305 Shalu District, Taichung City; 0329 Beitun District, Taichung City; 0524 Nanxi District, Tainan City): 0706 Daliao District, Kaohsiung City; 0730 Zuoying District, Kaohsiung City; 0306 Wuqi District, Taichung City; 0501 Xinying District, Tainan City; 0525 Nanhua District, Tainan City"
+          "label_en": "Kaohsiung County Qieding Township 4308 Pingtung County Jiuru Township 4326 Pingtung County Sandi Township 4505 Hualien County Ji'an Township 4610 Taitung County Chishang Township Page 27 / 40 Revised 27 January 2026 3. County/city and township codes 0704 Kaohsiung City Meinong District 0728 Kaohsiung City Yancheng District 0304 Taichung City Qingshui District 0328 Taichung City Nantun District 0523 Tainan City Yujing District (CITY - from ROC 99 (2010) onward: 0705 Kaohsiung City Linyuan District 0729 Kaohsiung City Gushan District 0305 Taichung City Shalu District 0329 Taichung City Beitun District 0524 Tainan City Nanxi District): 0706 Kaohsiung City Daliao District 0730 Kaohsiung City Zuoying District 0306 Taichung City Wuqi District 0501 Tainan City Xinying District 0525 Tainan City Nanhua District"
         },
         {
           "code": "0707",
@@ -8440,17 +8440,17 @@
         {
           "code": "0702",
           "label_zh": "高雄市岡山區 0726 高雄市桃源區 0302 臺中市東勢區 0326 臺中市北區 0521 臺南市安定區 3105 新北市新店區",
-          "label_en": "['Kaohsiung City Gangshan District 0726', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Beigang District 0520', 'Tainan City Anping District 3104', 'New Taipei City Xinjhu District']"
+          "label_en": "Kaohsiung City Gangshan District 0726 Kaohsiung City Taoyuan District 0302 Taichung City Dongshi District 0326 Taichung City North District 0521 Tainan City Anding District 3105 New Taipei City Xindian District"
         },
         {
           "code": "0703",
           "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區頁 28 / 40 2026年01月27日修訂",
-          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 28 / 40 Revised on January 27, 2026"
+          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Namaxia District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shanshang District 3106 New Taipei City Xinzhuang District Page 28 / 40 Revised 27 January 2026"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3202 桃園縣中壢市 3314 新竹縣五峰鄉 3512 苗栗縣頭屋鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮",
-          "label_en": "New Taipei City ShuLin District 3202 Taoyuan County ZhongTou City 3314 Hsinchu County WuFeng Township 3512 Miaoli County TouHouse Township 3718 ChangHwa County YongJing Township 3903 YunLin County HuWei Town"
+          "label_en": "New Taipei City Shulin District 3202 Taoyuan County Zhongli City 3314 Hsinchu County Wufeng Township 3512 Miaoli County Touwu Township 3718 Changhua County Yongjing Township 3903 Yunlin County Huwei Township"
         },
         {
           "code": "3108",
@@ -8470,7 +8470,7 @@
         {
           "code": "3111",
           "label_zh": "新北市汐止區 3206 桃園縣大園鄉 3404 宜蘭縣頭城鎮 3516 苗栗縣三灣鄉 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉",
-          "label_en": "New Taipei City XiZhi District 3206 Taoyuan County DaYuan Township 3404 Yilan County TouCheng Town 3516 Miaoli County SanWan Township 3722 ChangHwa County PiTou Township 3907 YunLin County GuKeng Township"
+          "label_en": "New Taipei City Xizhi District 3206 Taoyuan County Dayuan Township 3404 Yilan County Toucheng Township 3516 Miaoli County Sanwan Township 3722 Changhua County Pitou Township 3907 Yunlin County Gukeng Township"
         },
         {
           "code": "3112",
@@ -8500,7 +8500,7 @@
         {
           "code": "3117",
           "label_zh": "新北市林口區 3212 桃園縣觀音鄉 3410 宜蘭縣三星鄉 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉",
-          "label_en": "New Taipei City LinKou District 3212 Taoyuan County GuanYin Township 3410 Yilan County SanXing Township 3704 ChangHwa County BeiDou Town 3802 Nantou County PuLi Town 3913 YunLin County MaiLiao Township"
+          "label_en": "New Taipei City Linkou District 3212 Taoyuan County Guanyin Township 3410 Yilan County Sanxing Township 3704 Changhua County Beidou Township 3802 Nantou County Puli Township 3913 Yunlin County Mailiao Township"
         },
         {
           "code": "3118",
@@ -8510,7 +8510,7 @@
         {
           "code": "3119",
           "label_zh": "新北市石碇區 3301 新竹縣關西鎮 3412 宜蘭縣南澳鄉 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉",
-          "label_en": "New Taipei City Shizheng District 3301 Taichung County Guanxi Town 3412 Yilan County Nanao Township 3706 Changhua County Xihu Town 3804 Nantou County Zhuxiannong Township 3915 Yunlin County Baotong Township"
+          "label_en": "New Taipei City Shiding District 3301 Hsinchu County Guanxi Township 3412 Yilan County Nan'ao Township 3706 Changhua County Xihu Township 3804 Nantou County Zhushan Township 3915 Yunlin County Baozhong Township"
         },
         {
           "code": "3120",
@@ -8525,7 +8525,7 @@
         {
           "code": "3122",
           "label_zh": "新北市石門區 3305 新竹縣竹北市 3503 苗栗縣通霄鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉",
-          "label_en": "New Taipei City Shimen District 3305 Taichung County Zhubei City 3503 Miaoli County Tongtiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yunlin County Silu Township"
+          "label_en": "New Taipei City Shimen District 3305 Hsinchu County Zhubei City 3503 Miaoli County Tongxiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Lugu Township 3918 Yunlin County Sihu Township"
         },
         {
           "code": "3123",
@@ -8540,32 +8540,32 @@
         {
           "code": "3125",
           "label_zh": "新北市雙溪區 3308 新竹縣新豐鄉 3506 苗栗縣後龍鎮 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市",
-          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Town 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City"
+          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Chiayi County Puzi City"
         },
         {
           "code": "3126",
           "label_zh": "新北市貢寮區 3309 新竹縣芎林鄉 3507 苗栗縣卓蘭鎮 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮",
-          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Xionglin Township 3507 Miaoli County Zhuolan Town 3713 Changhua County Funtao Township 3811 Nantou County Shuilu Township 4002 Kaohsiung County Budai Town"
+          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Qionglin Township 3507 Miaoli County Zhuolan Township 3713 Changhua County Huatan Township 3811 Nantou County Shuili Township 4002 Chiayi County Budai Township"
         },
         {
           "code": "3127",
           "label_zh": "新北市金山區 3310 新竹縣寶山鄉 3508 苗栗縣大湖鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮",
-          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dalu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town"
+          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dahu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Chiayi County Dalin Township"
         },
         {
           "code": "3128",
           "label_zh": "新北市萬里區 3311 新竹縣北埔鄉 3509 苗栗縣公館鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉",
-          "label_en": "New Taipei City Wanli District 3311 Taichung County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Chiayi County Minxiong Township"
+          "label_en": "New Taipei City Wanli District 3311 Hsinchu County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dacun Township 3813 Nantou County Ren'ai Township 4004 Chiayi County Minxiong Township"
         },
         {
           "code": "3129",
           "label_zh": "新北市烏來區 3312 新竹縣峨眉鄉 3510 苗栗縣銅鑼鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉",
-          "label_en": "New Taipei City Wulai District 3312 Taichung County Meishan Township 3510 Miaoli County Tongluo Township 3716 Changhua County Pusilan Township 3901 Yunlin County Dali City 4005 Chiayi County Xikou Township 3901"
+          "label_en": "New Taipei City Wulai District 3312 Hsinchu County Emei Township 3510 Miaoli County Tongluo Township 3716 Changhua County Puyan Township 3901 Yunlin County Douliu City 4005 Chiayi County Xikou Township"
         },
         {
           "code": "3201",
           "label_zh": "桃園縣桃園市 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉頁 29 / 40 2026年01月27日修訂",
-          "label_en": "Taoyuan County Taoyuan City 3313 Hsinchu County Jiaoshan Township 3511 Miaoli County Nanzhuang Township 3717 Changhua County Puxin Township 3902 Yunlin County Duntian Town 4006 Kaohsiung County Xingang Township Jan 27, 2026"
+          "label_en": "Taoyuan County Taoyuan City 3313 Hsinchu County Jianshi Township 3511 Miaoli County Nanzhuang Township 3717 Changhua County Puxin Township 3902 Yunlin County Dounan Township 4006 Chiayi County Xingang Township Page 29 / 40 Revised 27 January 2026"
         },
         {
           "code": "4007",
@@ -8665,7 +8665,7 @@
         {
           "code": "4308",
           "label_zh": "屏東縣九如鄉 4332 屏東縣獅子鄉 4604 台東縣卑南鄉",
-          "label_en": "['屏東縣九如鄉 4332', '屏東縣獅子鄉 4604', '台東縣卑南鄉']"
+          "label_en": "Pingtung County Jiuru Township 4332 Pingtung County Shizi Township 4604 Taitung County Beinan Township"
         },
         {
           "code": "4309",
@@ -8685,7 +8685,7 @@
         {
           "code": "4312",
           "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉頁 30 / 40 2026年01月27日修訂 4. 縣市鄉鎮代碼 0704 高雄市美濃區 0728 高雄市鹽埕區 0304 臺中市清水區 0328 臺中市南屯區 0523 臺南市玉井區 (CITY-104年以 0705 高雄市林園區 0729 高雄市鼓山區 0305 臺中市沙鹿區 0329 臺中市北屯區 0524 臺南市楠西區後)： 0706 高雄市大寮區 0730 高雄市左營區 0306 臺中市梧棲區 0501 臺南市新營區 0525 臺南市南化區",
-          "label_en": "Pingtung County Wanluan Township 4403 Penghu County Baisha Township 4608 Taitung County Changbin Township Page 30/40 revised 2026-01-27 4. City/county and township codes 0704 Kaohsiung City Meinong District 0728 Kaohsiung City Yancheng District 0304 Taichung City Qingshui District 0328 Taichung City Nantun District 0523 Tainan City Yujing District (CITY - as of ROC year 104 0705 Kaohsiung City Linyuan District 0729 Kaohsiung City Gushan District 0305 Taichung City Shalu District 0329 Taichung City Beitun District 0524 Tainan City Nanxi District and after): 0706 Kaohsiung City Daliao District 0730 Kaohsiung City Zuoying District 0306 Taichung City Wuqi District 0501 Tainan City Xinying District 0525 Tainan City Nanhua District"
+          "label_en": "Pingtung County Wanluan Township 4403 Penghu County Baisha Township 4608 Taitung County Changbin Township Page 30 / 40 Revised 27 January 2026 4. County/city and township codes 0704 Kaohsiung City Meinong District 0728 Kaohsiung City Yancheng District 0304 Taichung City Qingshui District 0328 Taichung City Nantun District 0523 Tainan City Yujing District (CITY - from ROC 104 (2015) onward: 0705 Kaohsiung City Linyuan District 0729 Kaohsiung City Gushan District 0305 Taichung City Shalu District 0329 Taichung City Beitun District 0524 Tainan City Nanxi District): 0706 Kaohsiung City Daliao District 0730 Kaohsiung City Zuoying District 0306 Taichung City Wuqi District 0501 Tainan City Xinying District 0525 Tainan City Nanhua District"
         },
         {
           "code": "0707",
@@ -8785,17 +8785,17 @@
         {
           "code": "0702",
           "label_zh": "高雄市岡山區 0726 高雄市桃源區 0302 臺中市東勢區 0326 臺中市北區 0521 臺南市安定區 3105 新北市新店區",
-          "label_en": "['Kaohsiung City Gangshan District 0726', 'Kaohsiung City Maolin District 0301', 'Taichung City Fongyuan District 0325', 'Taichung City Beigang District 0520', 'Tainan City Anping District 3104', 'New Taipei City Xinjhu District']"
+          "label_en": "Kaohsiung City Gangshan District 0726 Kaohsiung City Taoyuan District 0302 Taichung City Dongshi District 0326 Taichung City North District 0521 Tainan City Anding District 3105 New Taipei City Xindian District"
         },
         {
           "code": "0703",
           "label_zh": "高雄市旗山區 0727 高雄市那瑪夏區 0303 臺中市大甲區 0327 臺中市西屯區 0522 臺南市山上區 3106 新北市新莊區頁 31 / 40 2026年01月27日修訂",
-          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Nama夏 District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shangshan District 3106 New Taipei City Xinzhong District Page 31 / 40 Revised on January 27, 2026"
+          "label_en": "Kaohsiung City Qishan District 0727 Kaohsiung City Namaxia District 0303 Taichung City Dajia District 0327 Taichung City Xitun District 0522 Tainan City Shanshang District 3106 New Taipei City Xinzhuang District Page 31 / 40 Revised 27 January 2026"
         },
         {
           "code": "3107",
           "label_zh": "新北市樹林區 3202 桃園市中壢區 3314 新竹縣五峰鄉 3512 苗栗縣頭屋鄉 3718 彰化縣永靖鄉 3903 雲林縣虎尾鎮",
-          "label_en": "New Taipei City ShuLin District 3202 Taoyuan City ZhongTou District 3314 Hsinchu County WuFeng Township 3512 Miaoli County TouHouse Township 3718 ChangHwa County YongJing Township 3903 YunLin County HuWei Town"
+          "label_en": "New Taipei City Shulin District 3202 Taoyuan City Zhongli District 3314 Hsinchu County Wufeng Township 3512 Miaoli County Touwu Township 3718 Changhua County Yongjing Township 3903 Yunlin County Huwei Township"
         },
         {
           "code": "3108",
@@ -8815,7 +8815,7 @@
         {
           "code": "3111",
           "label_zh": "新北市汐止區 3206 桃園市大園區 3404 宜蘭縣頭城鎮 3516 苗栗縣三灣鄉 3722 彰化縣埤頭鄉 3907 雲林縣古坑鄉",
-          "label_en": "New Taipei City XiZhi District 3206 Taoyuan City DaYuan District 3404 Yilan County TouCheng Town 3516 Miaoli County SanWan Township 3722 ChangHwa County PiTou Township 3907 YunLin County GuKeng Township"
+          "label_en": "New Taipei City Xizhi District 3206 Taoyuan City Dayuan District 3404 Yilan County Toucheng Township 3516 Miaoli County Sanwan Township 3722 Changhua County Pitou Township 3907 Yunlin County Gukeng Township"
         },
         {
           "code": "3112",
@@ -8825,7 +8825,7 @@
         {
           "code": "3113",
           "label_zh": "新北市土城區 3208 桃園市八德區 3406 宜蘭縣壯圍鄉 3518 苗栗縣泰安鄉 3724 彰化縣大城鄉 3909 雲林縣荊桐鄉",
-          "label_en": "New Taipei City Tucheng District 3208 Taichung City Bad德 District 3406 Yilan County Zhuang围 Township 3518 Miaoli County TaiFen Town 3724 Changhua County Big城 Township 3909 Yunlin County Jingtong Township"
+          "label_en": "New Taipei City Tucheng District 3208 Taoyuan City Bade District 3406 Yilan County Zhuangwei Township 3518 Miaoli County Tai'an Township 3724 Changhua County Dacheng Township 3909 Yunlin County Citong Township"
         },
         {
           "code": "3114",
@@ -8845,7 +8845,7 @@
         {
           "code": "3117",
           "label_zh": "新北市林口區 3212 桃園市觀音區 3410 宜蘭縣三星鄉 3704 彰化縣北斗鎮 3802 南投縣埔里鎮 3913 雲林縣麥寮鄉",
-          "label_en": "New Taipei City LinKou District 3212 Taoyuan City GuanYin District 3410 Yilan County SanXing Township 3704 ChangHwa County BeiDou Town 3802 Nantou County PuLi Town 3913 YunLin County MaiLiao Township"
+          "label_en": "New Taipei City Linkou District 3212 Taoyuan City Guanyin District 3410 Yilan County Sanxing Township 3704 Changhua County Beidou Township 3802 Nantou County Puli Township 3913 Yunlin County Mailiao Township"
         },
         {
           "code": "3118",
@@ -8855,7 +8855,7 @@
         {
           "code": "3119",
           "label_zh": "新北市石碇區 3301 新竹縣關西鎮 3412 宜蘭縣南澳鄉 3706 彰化縣溪湖鎮 3804 南投縣竹山鎮 3915 雲林縣褒忠鄉",
-          "label_en": "New Taipei City Shizheng District 3301 Taichung County Guanxi Town 3412 Yilan County Nanao Township 3706 Changhua County Xihu Town 3804 Nantou County Zhuxiannong Township 3915 Yunlin County Baotong Township"
+          "label_en": "New Taipei City Shiding District 3301 Hsinchu County Guanxi Township 3412 Yilan County Nan'ao Township 3706 Changhua County Xihu Township 3804 Nantou County Zhushan Township 3915 Yunlin County Baozhong Township"
         },
         {
           "code": "3120",
@@ -8870,7 +8870,7 @@
         {
           "code": "3122",
           "label_zh": "新北市石門區 3305 新竹縣竹北市 3503 苗栗縣通霄鎮 3709 彰化縣線西鄉 3807 南投縣鹿谷鄉 3918 雲林縣四湖鄉",
-          "label_en": "New Taipei City Shimen District 3305 Taichung County Zhubei City 3503 Miaoli County Tongtiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Luwu Township 3918 Yunlin County Silu Township"
+          "label_en": "New Taipei City Shimen District 3305 Hsinchu County Zhubei City 3503 Miaoli County Tongxiao Township 3709 Changhua County Xianxi Township 3807 Nantou County Lugu Township 3918 Yunlin County Sihu Township"
         },
         {
           "code": "3123",
@@ -8885,32 +8885,32 @@
         {
           "code": "3125",
           "label_zh": "新北市雙溪區 3308 新竹縣新豐鄉 3506 苗栗縣後龍鎮 3712 彰化縣秀水鄉 3810 南投縣國姓鄉 4001 嘉義縣朴子市",
-          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Town 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Kaohsiung County Puzi City"
+          "label_en": "New Taipei City Shuangxi District 3308 Hsinchu County Xinfeng Township 3506 Miaoli County Houlong Township 3712 Changhua County Xiushui Township 3810 Nantou County Guoxing Township 4001 Chiayi County Puzi City"
         },
         {
           "code": "3126",
           "label_zh": "新北市貢寮區 3309 新竹縣芎林鄉 3507 苗栗縣卓蘭鎮 3713 彰化縣花壇鄉 3811 南投縣水里鄉 4002 嘉義縣布袋鎮",
-          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Xionglin Township 3507 Miaoli County Zhuolan Town 3713 Changhua County Funtao Township 3811 Nantou County Shuilu Township 4002 Kaohsiung County Budai Town"
+          "label_en": "New Taipei City Gongliao District 3309 Hsinchu County Qionglin Township 3507 Miaoli County Zhuolan Township 3713 Changhua County Huatan Township 3811 Nantou County Shuili Township 4002 Chiayi County Budai Township"
         },
         {
           "code": "3127",
           "label_zh": "新北市金山區 3310 新竹縣寶山鄉 3508 苗栗縣大湖鄉 3714 彰化縣芬園鄉 3812 南投縣信義鄉 4003 嘉義縣大林鎮",
-          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dalu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Kaohsiung County Dalin Town"
+          "label_en": "New Taipei City Jinshan District 3310 Hsinchu County Baoshan Township 3508 Miaoli County Dahu Township 3714 Changhua County Fenyuan Township 3812 Nantou County Xinyi Township 4003 Chiayi County Dalin Township"
         },
         {
           "code": "3128",
           "label_zh": "新北市萬里區 3311 新竹縣北埔鄉 3509 苗栗縣公館鄉 3715 彰化縣大村鄉 3813 南投縣仁愛鄉 4004 嘉義縣民雄鄉",
-          "label_en": "New Taipei City Wanli District 3311 Taichung County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dawan Township 3813 Nantou County Renai Township 4004 Chiayi County Minxiong Township"
+          "label_en": "New Taipei City Wanli District 3311 Hsinchu County Beipu Township 3509 Miaoli County Gongguan Township 3715 Changhua County Dacun Township 3813 Nantou County Ren'ai Township 4004 Chiayi County Minxiong Township"
         },
         {
           "code": "3129",
           "label_zh": "新北市烏來區 3312 新竹縣峨眉鄉 3510 苗栗縣銅鑼鄉 3716 彰化縣埔鹽鄉 3901 雲林縣斗六市 4005 嘉義縣溪口鄉",
-          "label_en": "New Taipei City Wulai District 3312 Taichung County Meishan Township 3510 Miaoli County Tongluo Township 3716 Changhua County Pusilan Township 3901 Yunlin County Dali City 4005 Chiayi County Xikou Township 3901"
+          "label_en": "New Taipei City Wulai District 3312 Hsinchu County Emei Township 3510 Miaoli County Tongluo Township 3716 Changhua County Puyan Township 3901 Yunlin County Douliu City 4005 Chiayi County Xikou Township"
         },
         {
           "code": "3201",
           "label_zh": "桃園市桃園區 3313 新竹縣尖石鄉 3511 苗栗縣南庄鄉 3717 彰化縣埔心鄉 3902 雲林縣斗南鎮 4006 嘉義縣新港鄉頁 32 / 40 2026年01月27日修訂",
-          "label_en": "Taoyuan City Taoyuan District 3313 Xinzhai County Jianshi Township 3511 Miaoli County Nanzhuang Township 3717 Zhanghua County Pubxin Township 3902 Yunlin County Dounan Town 4006 Jiayi County Xinggang Township"
+          "label_en": "Taoyuan City Taoyuan District 3313 Hsinchu County Jianshi Township 3511 Miaoli County Nanzhuang Township 3717 Changhua County Puxin Township 3902 Yunlin County Dounan Township 4006 Chiayi County Xingang Township Page 32 / 40 Revised 27 January 2026"
         },
         {
           "code": "4007",
@@ -9010,7 +9010,7 @@
         {
           "code": "4308",
           "label_zh": "屏東縣九如鄉 4332 屏東縣獅子鄉 4604 台東縣卑南鄉",
-          "label_en": "['屏東縣九如鄉 4332', '屏東縣獅子鄉 4604', '台東縣卑南鄉']"
+          "label_en": "Pingtung County Jiuru Township 4332 Pingtung County Shizi Township 4604 Taitung County Beinan Township"
         },
         {
           "code": "4309",
@@ -9030,7 +9030,7 @@
         {
           "code": "4312",
           "label_zh": "屏東縣萬巒鄉 4403 澎湖縣白沙鄉 4608 台東縣長濱鄉頁 33 / 40 2026年01月27日修訂",
-          "label_en": "Pingtung County Wanlu Township 4403 Penghu County Basia Township 4608 Taitung County Changbin Township Page 33 / 40 Revised on January 27, 2026"
+          "label_en": "Pingtung County Wanluan Township 4403 Penghu County Baisha Township 4608 Taitung County Changbin Township Page 33 / 40 Revised 27 January 2026"
         }
       ],
       "field_en": "ownership type",
@@ -12252,17 +12252,17 @@
         {
           "code": "11",
           "label_zh": "牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 11 牙醫醫院 中醫醫院 中醫綜合醫院(102年起停發，",
-          "label_en": "dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital 11 dental hospital traditional Chinese medicine (TCM) hospital TCM comprehensive hospital (from 2003, no longer issued)"
+          "label_en": "Dental hospital 11 (repeated) Dental hospital TCM hospital TCM comprehensive hospital (discontinued from ROC 102 (2013),"
         },
         {
           "code": "21",
           "label_zh": "中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 中醫綜合醫院 21 104年無資料刪除)",
-          "label_en": "traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 traditional Chinese comprehensive hospital 21 no data in 2014)"
+          "label_en": "TCM comprehensive hospital 21 (repeated) no data in ROC 104 (2015), deleted)"
         },
         {
           "code": "22",
           "label_zh": "中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 22 中醫醫院 頁 34 / 40 2026年01月27日修訂",
-          "label_en": "Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital 22 Traditional Chinese medicine hospital Page 34 / 40 Revised on January 27, 2026"
+          "label_en": "TCM hospital 22 (repeated) TCM hospital Page 34 / 40 Revised 27 January 2026"
         }
       ],
       "grid": {
@@ -12468,7 +12468,7 @@
         {
           "code": "03",
           "label_zh": "一般級急救責任醫院 頁 40 / 40",
-          "label_en": "general-level emergency responsibility hospital"
+          "label_en": "General-level emergency responsibility hospital Page 40 / 40"
         }
       ],
       "field_en": "emergency medical capability classification"
@@ -14276,32 +14276,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -14324,7 +14324,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "HG_1": {
       "field_zh": "評鑑等級",
@@ -15681,7 +15681,7 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health12_醫院醫療服務量(20250624起適用)",
   "data_description_en": "1. The service volume of hospital services obtained through investigation.\n2. Statistical items include bed-related data, medical service volumes, medical and non-medical personnel, and medical equipment for each hospital.\n3. Data years cover from ROC 88 to 113.\n4. All fields in 113 are Char.",
-  "notes_en": "1. The grading and assessment standards for persons with disabilities adopted a new system from 11 July 2012 (ROC 101). 2. The total number of persons with disabilities is the sum under the new and old systems. Note: This center's databases are de-identified; directly identifying fields such as name and address are removed, and fields such as ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be taken out, ensuring individuals cannot be re-identified. The key for person-level grouping and record matching is DID.",
+  "notes_en": "1. This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and if fields such as national\nID number, institution code, insured-unit code, unified business number, date of birth, visit date and admission\ndate are present, they are all masked. The data may only be used in the independent work area set up by the Ministry,\nand only statistical results that pass review may be taken out, so that data use and disclosure cannot identify any specific\nindividual.\n2. One hospital is one record.\n3. From ROC 98 (2009) the accreditation grade (II) field \"HG_2\" was added; if a hospital holds two qualifications at the same time, the hospital's newly added\naccreditation grade is placed in this field.",
   "primary_keys_en": "",
   "name_zh_en": "inpatient service volume file (1999-2023)",
   "printed": {

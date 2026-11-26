@@ -38,7 +38,7 @@
         }
       ],
       "name_zh_en": "expense year month",
-      "description_en": "YYYYMM. Starting from 2017, the field format is numeric with a length of 8 digits."
+      "description_en": "YYYYMM.\nFrom ROC 107 (2018) the field format is numeric, with a length of 8 digits."
     },
     {
       "seq": 2,
@@ -88,7 +88,7 @@
         }
       ],
       "name_zh_en": "sequence number",
-      "description_en": "from 2007, field format is numeric, length is 8 digits."
+      "description_en": "From ROC 107 (2018), the field format is numeric, with a length of 8 digits."
     },
     {
       "seq": 6,
@@ -116,7 +116,7 @@
         }
       ],
       "name_zh_en": "car accident",
-      "description_en": "Y: Motor Vehicle Accident N: Non-Motor Vehicle or Unknown Accident. No data from 2018 onwards"
+      "description_en": "Y: Motor vehicle traffic accident N: Not a motor vehicle traffic accident, or cause unknown.\nNo data from ROC 108 (2019) onwards"
     },
     {
       "seq": 8,
@@ -215,7 +215,7 @@
       "description_zh": "詳情請於健保署之醫事機構專區網頁查詢。",
       "available_notes": [],
       "name_zh_en": "DRG reference code",
-      "description_en": "for details please visit the medical institutions section on the MOHCS website."
+      "description_en": "For details, please consult the medical institutions section of the NHIA website."
     },
     {
       "seq": 16,
@@ -237,7 +237,7 @@
         }
       ],
       "name_zh_en": "external cause category 1",
-      "description_en": "when-auto-vehicle-accident-is-Y，this-column-shall-not-be-blank. ICD-9-CM-code-note:1.health-insurance-administration-specified-to-use-ICD-10-CM-for-reporting-since-2016. 2.no-from-2019-onward"
+      "description_en": "When the motor vehicle traffic accident field is Y, this field must not be blank.\nICD-9-CM E code\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016).\n2. No data from ROC 108 (2019) onwards"
     },
     {
       "seq": 17,
@@ -259,7 +259,7 @@
         }
       ],
       "name_zh_en": "external cause category 2",
-      "description_en": "ICD-9-CM E-code Note: 1. Starting from 2016, medical institutions are required to report using ICD-10-CM. 2. Not applicable starting from 2019."
+      "description_en": "ICD-9-CM E code\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016).\n2. No data from ROC 108 (2019) onwards"
     },
     {
       "seq": 18,
@@ -292,7 +292,7 @@
         }
       ],
       "name_zh_en": "primary diagnosis code",
-      "description_en": "Left cheek padding, ICD-9-CM code for the primary diagnosis of case classification C1 should be 042 or V08; for case classification C2-C3, it should be 010 or 018. Note: 1. The MOH requires medical institutions to use ICD-10-CM reporting starting from 2016. 2. Field length adjustment to 7 digits starting from 2016."
+      "description_en": "Left-justified, padded with blanks on the right; ICD-9-CM code\nFor case classification C1 the primary diagnosis code should be 042 or V08; for case classification C2-C3 it should be 010 or 018.\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016).\n2. From ROC 105 (2016) the field length was changed to 7 characters."
     },
     {
       "seq": 20,
@@ -358,7 +358,7 @@
         }
       ],
       "name_zh_en": "primary procedure",
-      "description_en": "ICD-9-PCS code. Note: 1. The MOH requires medical institutions to use ICD-10-PCS for claims starting from 2016. 2. Field length was adjusted to 7 digits starting from 2016."
+      "description_en": "ICD-9-PCS code.\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016).\n2. From ROC 105 (2016) the field length was changed to 7 characters."
     },
     {
       "seq": 25,
@@ -617,7 +617,7 @@
       "description_zh": "為診察點數(DIAG_DOT)、病房點數(ROOM_DOT)、管灌膳食點數(MEAL_DOT)、檢查點數\n(AMIN_DOT)、放射線診療點數(RADO_DOT)、治療處置點數\n(THRP_DOT)、手術點數\n(SGRY_DOT)、復健治療點數\n(PHSC_DOT)、血液血漿點數\n(BLOD_DOT)、血液透析點數\n(HD_DOT)、麻醉點數\n(ANE_DOT)、特殊材料點數\n(METR_DOT)、葯點數\n(DRUG_DOT)、葯事服務點數\n(DSVC_DOT)、精神科治療點數(NRTP_DOT)、注射技術點數\n(INJT_DOT)、嬰兒點數\n(BABY_DOT)之合計，詳代碼說明(1-15)。",
       "available_notes": [],
       "name_zh_en": "medical point",
-      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
+      "description_en": "Sum of consultation points (DIAG_DOT), room points (ROOM_DOT), tube-feeding meal points (MEAL_DOT), examination points\n(AMIN_DOT), radiology points (RADO_DOT), treatment/procedure points\n(THRP_DOT), surgery points\n(SGRY_DOT), rehabilitation points\n(PHSC_DOT), blood/plasma points\n(BLOD_DOT), hemodialysis points\n(HD_DOT), anesthesia points\n(ANE_DOT), special material points\n(METR_DOT), drug points\n(DRUG_DOT), pharmacist service points\n(DSVC_DOT), psychiatric treatment points (NRTP_DOT), injection technique points\n(INJT_DOT), infant points\n(BABY_DOT); see code explanation (1-15)."
     },
     {
       "seq": 48,
@@ -650,7 +650,7 @@
       "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分：\n(1)醫療費用點數 (急性病床1-30天)\n(2)醫療費用點數 (急性病床\n31-60天)\n(3)醫療費用點數 (急性病床61天以上)\n(4)醫療費用點數 (慢性病床1-30天)\n(5)醫療費用點數 (慢性病床\n31-90天)\n(6)醫療費用點數 (慢性病床\n91-180天)\n(7)醫療費用點數 (慢性病床181天以上)，分別計算醫療費用點數。\n2. 急性病床住院超出30日以上，請將醫療費用點數依1-30日，31-60日，61日以上分別計算醫療費用點數。\n3. 慢性病床住院超出30日以上，請將醫療費用點數依1-30日，31-90日，91-180日，181 日以上，分別計算醫療費用點數。",
       "available_notes": [],
       "name_zh_en": "acute bed points (30 days or less)",
-      "description_en": "1. The ID numbers of the victim and suspected abuser may be blank. 2. Multiple-choice variables, if multiple are selected, are recorded in the same field. 3. Date fields use the ROC calendar; 000/00/00 means unknown — e.g. 0000101 = year unknown, 1040001 = month unknown, 1040100 = day unknown. 4. The suspected-perpetrator fields hold the primary suspected perpetrator's data. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. The protected/victim record-grouping/matching key is VVID. 2. The suspected abuser/respondent/suspect record-grouping/matching key is DVID."
+      "description_en": "1. The inpatient copayment has different ratios according to the number of days of stay and the bed type (acute or chronic bed), so inpatient medical expense points are divided into 7 parts:\n(1) Medical expense points (acute bed, days 1-30)\n(2) Medical expense points (acute bed,\ndays 31-60)\n(3) Medical expense points (acute bed, day 61 and over)\n(4) Medical expense points (chronic bed, days 1-30)\n(5) Medical expense points (chronic bed,\ndays 31-90)\n(6) Medical expense points (chronic bed,\ndays 91-180)\n(7) Medical expense points (chronic bed, day 181 and over); the medical expense points are calculated separately.\n2. For acute-bed stays exceeding 30 days, calculate the medical expense points separately for days 1-30, days 31-60, and day 61 and over.\n3. For chronic-bed stays exceeding 30 days, calculate the medical expense points separately for days 1-30, days 31-90, days 91-180, and day 181 and over."
     },
     {
       "seq": 51,
@@ -693,7 +693,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "acute bed points (more than 60 days)",
+      "name_zh_en": "Medical points (acute bed, 61 days and over)",
       "description_en": ""
     },
     {
@@ -937,7 +937,7 @@
         }
       ],
       "name_zh_en": "total quantity of medical orders",
-      "description_en": "Total number of inpatient orders for this admission Note: This field was added starting from 2010"
+      "description_en": "Total quantity of inpatient orders for this admission\nNote: this field was added from ROC 100 (2011)"
     },
     {
       "seq": 76,
@@ -954,7 +954,7 @@
         }
       ],
       "name_zh_en": "TW_DRGS code",
-      "description_en": "Announced Tw-DRGs Weight Table Code: This column must be filled for case classification '5'. Note: A new field was added starting from 2010."
+      "description_en": "Code from the announced Tw-DRGs weight table\n1. This field is required when the case classification is \"5\".\n2. Where the Tw-DRG code is for an item already implemented under Tw-DRGs, the case classification must be \"5\".\nNote: this field was added from ROC 100 (2011)"
     },
     {
       "seq": 77,
@@ -981,7 +981,7 @@
         }
       ],
       "name_zh_en": "days of newborns attached to hospitalization",
-      "description_en": "Calculate PART_NO (co-payment segment) based on the medical visit date or newborn's birthday as '903: Medical insurance card newborns who seek medical care according to annotations'. This field is mandatory. According to Announcement No. 0990073049 of the National Health Insurance Administration, from October 1, 2009, newborns can receive medical care under annotations for up to 60 days after birth.\nNote: 1. This field was added starting in 2010; it became a text type with a length of 20 characters starting in 2012."
+      "description_en": "Calculated from the visit date and the newborn's birth date\nWhen the field PART_NO (copayment code) is \"903: newborn seeking care via the NHI IC card dependent annotation\", this field is required. 2. Per announcement No. 0990073049 of 14 July 2010 (ROC 99.7.14), the period of dependent annotation for newborn visits was extended from within 31 days of birth to 60 days, effective 1 October 2010 (ROC 99/10/1)\nNote:\n1. This field was added from ROC 100 (2011); from ROC 102 (2013) the field format is text, length 20 characters."
     },
     {
       "seq": 78,
@@ -1003,7 +1003,7 @@
         }
       ],
       "name_zh_en": "claim reason note",
-      "description_en": "1: Reimbursement of the entire case 2: Partial or differential reimbursement of medical orders (case classification 5: Tw-DRGs cases not applicable) 4: DRGs subsidy project in 103. This field is required for claims where the reporting category is a claim, and it should be left blank for approved cases starting from 2002."
+      "description_en": "1: Supplementary report of a whole case 2: Supplementary report of part of the medical orders or of the order difference (case classification\n5: Tw-DRGs cases not applicable)\n4: ROC 103 (2014) DRGs subsidy project.\nThis field is required where the claim category is a supplementary report; for claims submitted for review, leave it blank (padded with blanks)\nNote: this field was added from ROC 100 (2011)"
     },
     {
       "seq": 79,
@@ -1037,7 +1037,7 @@
         }
       ],
       "name_zh_en": "newborn fetal notation for medical services",
-      "description_en": "twin or multiple births newborn order and gender, as follows Newborn order Gender Male Female 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 10~26 J~Z j~z for claims data upload format 1.0 instructions revised as follows Note: added this field starting from 2000"
+      "description_en": "Birth order and sex of newborns of singleton or multiple births, as in the table below\nNewborn birth order Sex\nMale Female 1 A a 2 B b 3 C c 4 D d 5 E e 6 F f 7 G g 8 H h 9 I i 10~26 J~Z j~z revised as in the table below in line with the NHI card data upload format 1.0 instructions\nNote: this field was added from ROC 100 (2011)"
     },
     {
       "seq": 81,
@@ -1054,7 +1054,7 @@
         }
       ],
       "name_zh_en": "inappropriate TW_DRGS case special notes",
-      "description_en": "Field not suitable TW_DRGS case special remarks (TW_DRGS_SUIT_MARK) explanation Note: This field was added starting from 2001"
+      "description_en": "See the explanation of the field special annotation for cases unsuitable for TW_DRGS\n(TW_DRGS_SUIT_MARK). Note: this field was added from ROC 100 (2011)"
     }
   ],
   "codebooks": {
@@ -1079,12 +1079,12 @@
         {
           "code": "4",
           "label_zh": "支付制度試辦計畫(乳癌90.12、肝炎92.10適用、呼吸照護99.1、急性後期照護103.01）",
-          "label_en": "trial payment system (breast cancer applicable since December 2000, hepatitis applicable since October 2004, respiratory care applicable since January 2009, acute post-acute care applicable since January 2014)"
+          "label_en": "Payment system pilot programs (breast cancer from December 2001, ROC 90.12; hepatitis from October 2003, ROC 92.10; respiratory care from January 2010, ROC 99.1; post-acute care from January 2014, ROC 103.01)"
         },
         {
           "code": "5",
           "label_zh": "Tw-DRGs 案件(98.09)案件分類為5者：A：22-1Tw-DRGs 碼必填。B：22-2Tw-DRGs 支付型態必填。",
-          "label_en": "Tw-DRGs Case (Effective from September 1998): A: 22-1Tw-DRGs Code Mandatory. B: 22-2Tw-DRGs Payment Type Mandatory."
+          "label_en": "Tw-DRGs cases (September 2009, ROC 98.09), for case classification 5: A: 22-1 Tw-DRGs code required. B: 22-2 Tw-DRGs payment type required."
         },
         {
           "code": "6",
@@ -1144,7 +1144,7 @@
         {
           "code": "C4",
           "label_zh": "無健保結核病患之醫療費用(96年7月9日健保醫字第0960023163號函增訂)請參閱「衛生福利部法定傳染病醫療服務費用支付作業規範」規定。",
-          "label_en": "Medical expenses for non-Insured tuberculosis patients(自96年7月9日健保医字第0960023163号函增订) 请参阅「卫生福利部法定传染病医疗服务费用支付作业规范」规定。"
+          "label_en": "Medical expenses of tuberculosis patients without NHI (added per Letter No. 0960023163 of 9 July 2007, ROC 96/7/9); please refer to the \"Ministry of Health and Welfare Payment Guidelines for Medical Service Fees for Notifiable Infectious Diseases\"."
         },
         {
           "code": "C5",
@@ -1366,7 +1366,7 @@
         {
           "code": "U",
           "label_zh": "非天然災害之重大意外事故 110/4/1起",
-          "label_en": "major accidental injury not due to natural disaster starting 2011/4/1"
+          "label_en": "Major accidents not caused by natural disaster, from 1 April 2021 (ROC 110/4/1)"
         },
         {
           "code": "W",
@@ -1437,7 +1437,7 @@
         {
           "code": "E000",
           "label_zh": "健保署資訊系統當機",
-          "label_en": "Medication System Crash"
+          "label_en": "NHIA information system crash"
         },
         {
           "code": "E001",
@@ -1462,7 +1462,7 @@
         {
           "code": "J000",
           "label_zh": "MRI、PET 時，因辦理住院手續查驗其 健保卡後歸還保險對象無法取得健保卡。 說明 ： (1)在卡片取得就醫序號前，即發生異常，造成無法讀寫健保IC 卡時，使用「尚未取得就 醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (2)若已自卡片中取得就醫序號後，才發生異常，造成無法繼續讀寫健保IC 卡時，使用「已 取得就醫序號」欄位之異常代碼，作為該筆就診資料之就醫序號。 (3)若屬於「尚未取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，會更新 其「最近一次就醫序號」（就醫類別為01-08）及所有費用與次數之加總。 (4)若屬於「已取得就醫序號」之異常代碼，持卡人至更新機補登異常資料時，僅會更新 其所有費用與次數之加總。 (5)服務機構經健保署分區業務組輔導後，確實因故未能配合建置健保IC 卡網路連線等作 業，無法受理以健保 IC 卡就診者，可專案申請，經健保署分區業務組同意後，以H000 申報。 2026年01月27日修訂",
-          "label_en": "For MRI or PET, because the NHI card is checked during admission and then returned, the insured person cannot obtain the card. Notes: (1) If the anomaly occurs before the visit sequence number is obtained from the card, so the NHI IC card cannot be read/written, use the anomaly code in the 'visit sequence number not yet obtained' field as the visit sequence number for that record. (2) If the anomaly occurs after the sequence number was obtained from the card, so the card can no longer be read/written, use the anomaly code in the 'visit sequence number obtained' field. (3) For a 'not yet obtained' anomaly code, when the cardholder updates the anomaly data at an update machine, their 'most recent visit sequence number' (visit types 01-08) and the sum of all fees and counts are updated. (4) For an 'obtained' anomaly code, only the sum of all fees and counts is updated. (5) A facility that, after guidance by the NHIA regional division, genuinely cannot implement NHI IC card network connection and cannot accept IC-card visits may apply on a case basis and, with the regional division's approval, report using H000."
+          "label_en": "For MRI or PET, because the NHI card is checked during admission and then returned, the insured person cannot obtain the card. Notes: (1) If the anomaly occurs before the visit sequence number is obtained from the card, so the NHI IC card cannot be read/written, use the anomaly code in the 'visit sequence number not yet obtained' field as the visit sequence number for that record. (2) If the anomaly occurs after the sequence number was obtained from the card, so the card can no longer be read/written, use the anomaly code in the 'visit sequence number obtained' field. (3) For a 'not yet obtained' anomaly code, when the cardholder updates the anomaly data at an update machine, their 'most recent visit sequence number' (visit types 01-08) and the sum of all fees and counts are updated. (4) For an 'obtained' anomaly code, only the sum of all fees and counts is updated. (5) A facility that, after guidance by the NHIA regional division, genuinely cannot implement NHI IC card network connection and cannot accept IC-card visits may apply on a case basis and, with the regional division's approval, report using H000. Revised 27 January 2026"
         }
       ],
       "grid": {
@@ -1603,7 +1603,7 @@
         {
           "code": "907",
           "label_zh": "907 起適用】。 須加收藥費部分負擔者 I20 基層診所、地區醫院或中低收入戶、持身心障礙證明者於醫 I21 學中心、區域醫院交付案件藥費一百元以下免加收藥費部分 負擔者 符合本保險藥費免部分負擔範圍規定者，包括基層診所交付 I22 慢性病連續處方箋案件、醫院交付慢性病連續處方箋第二次 (含)以後調劑、中低收入戶及持身心障礙證明者於醫學中心、 區域醫院交付慢性病連續處方箋案件、牙醫案件、門診論病 例計酬案件 代辦海洋委員會海巡署補助部分負擔(108/5/1起 ) 908 908 代辦中央警察大學補助部分負擔(108/5/1起 ) 909 909 代辦內政部消防署補助部分負擔(108/5/1起 ) 910 910 代辦內政部空勤總隊補助部分負擔(108/5/1起 ) 911 911 代辦內政部警政署補助部分負擔(108/5/1起 ) 912 912 代辦國防部補助部分負擔(108/5/1起 ) 913 913 行政協助法定傳染病通報隔離案件(110/1/1起 ) 914 914 代辦內政部移民署補助部分負擔 (110/11/1起 ) 915 915 長照機構加強型結核病防治計畫免部分負擔 916 註： 依97年2月13日健保醫字第0970001927號函，倘同一案件同時符合二項以上免部分負 擔條件者，門、住診皆依下列原則填寫： (1)依全民健康保險法規定(健保法 94 條)職業災害(含職業傷害及職業病)優先填寫，即部 分負擔代碼「006(勞工保險被保險人因職業傷害或職業病就診者)」優先填寫。 (2)非屬上開案件，則依全民健康保險法規定(健保法48條)免自行負擔者優先擇一適用填 寫，包括重大傷病(部分負擔代碼：001)、分娩(部分負擔代碼：002)、預防保健服務 (部分負擔代碼：009)及山地離島地區之就醫(部分負擔代碼：007)之部分。 (3)再者，若非上開(1)、(2)情形者，屬代辦補助部分負擔者，再由上而下優先擇一適用填 寫。 2026年01月27日修訂",
-          "label_en": "Care Plan — Assistive Devices (W_LTC_CMS_QD113). Records: 66,924 (ROC 110/2021); 94,847 (ROC 111/2022). File size: 5.18 MB (2021); 7.37 MB (2022). Fields: 10. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: matches the case master file (W_LTC_CMS_CA100) on the case serial number CA100_ID; matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID; matches Service Item (W_LTC_CMS_QD100) on the assistive-device item serial number."
+          "label_en": "907 [applicable from ...]. Persons who must pay the drug copayment I20 Cases dispensed at primary clinics or district hospitals, or for middle-low-income households and holders of a disability certificate at medical centers or regional hospitals, where the drug cost is NT$100 I21 or less, exempt from the drug copayment; persons meeting the NHI rules exempting drug costs from copayment, including chronic-disease continuous prescriptions dispensed by primary clinics, second (inclusive) and later refills of chronic-disease continuous prescriptions dispensed by hospitals, I22 chronic-disease continuous prescriptions dispensed for middle-low-income households and holders of a disability certificate at medical centers and regional hospitals, dental cases, and outpatient case-payment cases. Commissioned: copayment subsidised by the Coast Guard Administration, Ocean Affairs Council (from 1 May 2019, ROC 108/5/1) 908 908 Commissioned: copayment subsidised by the Central Police University (from 1 May 2019, ROC 108/5/1) 909 909 Commissioned: copayment subsidised by the National Fire Agency, Ministry of the Interior (from 1 May 2019, ROC 108/5/1) 910 910 Commissioned: copayment subsidised by the National Airborne Service Corps, Ministry of the Interior (from 1 May 2019, ROC 108/5/1) 911 911 Commissioned: copayment subsidised by the National Police Agency, Ministry of the Interior (from 1 May 2019, ROC 108/5/1) 912 912 Commissioned: copayment subsidised by the Ministry of National Defense (from 1 May 2019, ROC 108/5/1) 913 913 Administrative assistance: notifiable infectious disease reported and isolated cases (from 1 January 2021, ROC 110/1/1) 914 914 Commissioned: copayment subsidised by the National Immigration Agency, Ministry of the Interior (from 1 November 2021, ROC 110/11/1) 915 915 Enhanced tuberculosis prevention and control program for long-term care institutions, copayment exempt 916 Note: Per Letter No. 0970001927 of 13 February 2008 (ROC 97/2/13), where the same case meets two or more copayment-exemption conditions, both outpatient and inpatient claims are filled in according to the following principles: (1) Under the National Health Insurance Act (Article 94), occupational injury (including occupational injury and occupational disease) takes priority, i.e. copayment code \"006 (labor insurance insured person seeking care for occupational injury or occupational disease)\" is filled first. (2) Otherwise, those exempt from cost-sharing under the National Health Insurance Act (Article 48) take priority, choosing one applicable code, including catastrophic illness (copayment code 001), childbirth (copayment code 002), preventive health services (copayment code 009) and visits in mountain and offshore island areas (copayment code 007). (3) If neither (1) nor (2) applies and the case is a commissioned copayment subsidy, choose one applicable code from top to bottom. Revised 27 January 2026"
         }
       ],
       "grid": {
@@ -1899,7 +1899,7 @@
         {
           "code": "C",
           "label_zh": "未實施之Tw-DRGs (TwDRGs 碼應為 Tw-DRG之代碼）案件",
-          "label_en": "unimplemented Tw-DRGs (Tw-DRG code should be Tw-DRG's code) cases"
+          "label_en": "unimplemented Tw-DRGs (TwDRGs code should be a Tw-DRG code) cases"
         },
         {
           "code": "D",
@@ -1934,7 +1934,7 @@
         {
           "code": "K",
           "label_zh": "已於第一階段實施之部分高危險生產疾病（費用年月103.07增訂）",
-          "label_en": "partially high-risk pregnancy diseases implemented in the first phase (added fees from July 2013)"
+          "label_en": "Some high-risk delivery diseases already implemented in the first phase (fee year-month added July 2014, ROC 103.07)"
         },
         {
           "code": "L",
@@ -2110,7 +2110,7 @@
         {
           "code": "18",
           "label_zh": "私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 18 私立中醫醫院 2026年01月27日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 18 private TCM hospital 2026-01-27 revised 2005 2006 2007 2008-2011 code item name code item name code item name code item name public public public public"
+          "label_en": "Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital 18 Private TCM hospital Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "1",
@@ -2275,7 +2275,7 @@
         {
           "code": "41",
           "label_zh": "社團法人診所 41 醫療社團法人診所 2025年01月21日修訂 99-100年 101年 102年 103年 104年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立公立",
-          "label_en": "Private clinics 法人诊所 2025年01月21日修订 1995-2000年 2001年 2002年 2003年 2004年 代碼 项目名称 代碼 项目名称 代碼 项目名称 代碼 项目名称 代碼 项目名称 公立 公立 公立 公立 公立"
+          "label_en": "Corporate-body clinic 41 Medical corporation clinic Revised 21 January 2025 ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) Code Item name Code Item name Code Item name Code Item name Code Item name Public Public Public Public Public"
         },
         {
           "code": "21",
@@ -2365,7 +2365,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年01月21日修訂 105年 106年 107年 108-111年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 2025-01-21 Revised 2005 2006 2007 2008-2011 Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 21 January 2025 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-111 (2019-2022) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -2460,7 +2460,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年01月21日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic January 21, 2025 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 21 January 2025 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -2520,7 +2520,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -2550,7 +2550,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -6091,32 +6091,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -6139,7 +6139,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "FUNC_TYPE": {
       "field_zh": "就醫科別",

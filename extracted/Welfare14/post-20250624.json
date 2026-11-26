@@ -122,7 +122,7 @@
         }
       ],
       "name_zh_en": "protected/victimized person's ID number",
-      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2003 Length is 48 2004-2005 Length is 44 2006 Length is 24 2007 Length is 50 2008 Length is 52 2009 Length is 48 2010 Length is 64 2011 Length is 38 2001-2002, 2012 Length is 36 2013 Length is 58"
+      "description_en": "Encrypted. National ID number or foreign resident certificate number (if no resident certificate number, enter the passport number), left-aligned and padded with blanks if shorter. ROC 103 (2014): length 48\nROC 104-105 (2015-2016): length 44\nROC 106 (2017): length 24\nROC 107 (2018): length 50\nROC 108 (2019): length 52\nROC 109 (2020): length 48\nROC 110 (2021): length 64\nROC 111 (2022): length 38\nROC 101-102, 112 (2012-2013, 2023): length 36\nROC 113 (2024): length 58"
     },
     {
       "seq": 5,
@@ -221,7 +221,7 @@
         }
       ],
       "name_zh_en": "protected/victim disability",
-      "description_en": "optional; detailed code explanation from 2018, 3 digits for 2002-2003 and 2005-2006, 5 digits for 2001 and 2007"
+      "description_en": "Multiple selections allowed; see code explanation\nNone from ROC 108 (2019)\nROC 102-103, 105-106 (2013-2014, 2016-2017): length 3\nROC 101, 107 (2012, 2018): length 5"
     },
     {
       "seq": 12,
@@ -315,7 +315,7 @@
         }
       ],
       "name_zh_en": "protected/victim with disability certificate; select other when filling in data",
-      "description_en": "From 2018, not applicable; 2015 length: 40; 2016 length: 42; 2018 length: 27; 2020 length: 22; 2019, 2021 lengths: 44"
+      "description_en": "None from ROC 108 (2019)\nROC 101 (2012): length 40\nROC 102 (2013): length 42\nROC 104 (2015): length 27\nROC 106 (2017): length 22\nROC 103, 105, 107 (2014, 2016, 2018): length 44"
     },
     {
       "seq": 14,
@@ -394,7 +394,7 @@
         }
       ],
       "name_zh_en": "suspected abuser/participant/suspect identity number",
-      "description_en": "Encrypted. National ID number or foreigner residence permit number (if no residence permit number, please fill in passport number), left-aligned with spaces added if insufficient. 2001 Length is 58 2002-2003 Length is 44 2004 Length is 42 2005 Length is 72 2006 Length is 48 2007 Length is 32 2008 Length is 46 2011 Length is 78 2009-2010, 2012 Length is 66 2013 Length is 64"
+      "description_en": "Encrypted. National ID number or foreign resident certificate number (if no resident certificate number, enter the passport number), left-aligned and padded with blanks if shorter. ROC 101 (2012): length 58\nROC 102-103 (2013-2014): length 44\nROC 104 (2015): length 42\nROC 105 (2016): length 72\nROC 106 (2017): length 48\nROC 107 (2018): length 32\nROC 108 (2019): length 46\nROC 111 (2022): length 78\nROC 109-110, 112 (2020-2021, 2023): length 66\nROC 113 (2024): length 64"
     },
     {
       "seq": 16,
@@ -478,7 +478,7 @@
         }
       ],
       "name_zh_en": "party relationship category",
-      "description_en": "A: Family member B: Non-family member C, Z: Unclear Added in 2018"
+      "description_en": "A: Family member\nB: Non-family member\nC, Z: Unknown\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 22,
@@ -495,7 +495,7 @@
         }
       ],
       "name_zh_en": "family members",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 23,
@@ -512,7 +512,7 @@
         }
       ],
       "name_zh_en": "non-household member",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 24,
@@ -539,7 +539,7 @@
         }
       ],
       "name_zh_en": "suspected perpetrator/perpetuator/suspect disability",
-      "description_en": "optional; detailed code explanation from 2018, 2-digit length from 2001, 4-digit length from 2004, 10-digit length from 2005-2006"
+      "description_en": "Multiple selections allowed; see code explanation\nNone from ROC 108 (2019)\nROC 101 (2012): length 2\nROC 104 (2015): length 4\nROC 105-106 (2016-2017): length 10"
     },
     {
       "seq": 25,
@@ -586,7 +586,7 @@
         }
       ],
       "name_zh_en": "Suspected abuser/relative/suspect - other information when selected",
-      "description_en": "None from ROC year 108 (AD 2019) onward. ROC year 101 (AD 2012): length 72. ROC year 102 (AD 2013): length 36. ROC year 103 (AD 2014): length 22. ROC year 104 (AD 2015): length 30. ROC years 105 and 107 (AD 2016 and 2018): length 26. ROC year 106 (AD 2017): length 34."
+      "description_en": "None from ROC year 108 (AD 2019) onward. ROC year 101 (AD 2012):\nlength 72. ROC year 102 (AD 2013):\nlength 36. ROC year 103 (AD 2014):\nlength 22. ROC year 104 (AD 2015):\nlength 30. ROC years 105 and 107\n(AD 2016 and 2018): length 26.\nROC year 106 (AD 2017): length 34."
     },
     {
       "seq": 26,
@@ -628,7 +628,7 @@
         }
       ],
       "name_zh_en": "Suspected abuser/relative/suspect holder of disability handbook Fill data when selecting other",
-      "description_en": "From 2018, not applicable; 2016 length: 14; 2015, 2017 lengths: 18; 2021 length: 11; 2018, 2020 lengths: 16; 2019 length: 46"
+      "description_en": "None from ROC 108 (2019)\nROC 102 (2013): length 14\nROC 101, 103 (2012, 2014): length 18\nROC 105 (2016): length 11\nROC 104, 106 (2015, 2017): length 16\nROC 107 (2018): length 46"
     },
     {
       "seq": 27,
@@ -645,7 +645,7 @@
         }
       ],
       "name_zh_en": "physical and mental disability",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 28,
@@ -667,7 +667,7 @@
         }
       ],
       "name_zh_en": "child protection matters - the child has engaged in certain behaviors",
-      "description_en": "Optional; detailed code description: from 2018 no longer applicable for 2013, 2017 versions with length of 1"
+      "description_en": "Multiple selections allowed; see code explanation\nNone from ROC 108 (2019)\nROC 103, 107 (2014, 2018): length 1"
     },
     {
       "seq": 29,
@@ -726,7 +726,7 @@
         }
       ],
       "name_zh_en": "Child and Adolescent Protection Matters - For the following emergencies, it is recommended to immediately contact local authority social workers by phone for assessment and handling. In accordance with Article 6 of the Child and Adolescent Protection Reporting and Handling Measures, appropriate protection and care should be provided before the relevant authority handles the case.",
-      "description_en": "multiple selections; refer to code explanation from 2010 onwards"
+      "description_en": "Multiple selections allowed; see code explanation\nNone from ROC 108 (2019)"
     },
     {
       "seq": 31,
@@ -764,7 +764,7 @@
       "description_zh": "西元年YYYY",
       "available_notes": [],
       "name_zh_en": "reception time-year",
-      "description_en": "year_of_the_gregorian_calendar"
+      "description_en": "Gregorian year YYYY"
     },
     {
       "seq": 33,
@@ -837,7 +837,7 @@
         }
       ],
       "name_zh_en": "main occurrence location",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 38,
@@ -854,7 +854,7 @@
         }
       ],
       "name_zh_en": "severity_of_injury_or_death",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 39,
@@ -876,7 +876,7 @@
         }
       ],
       "name_zh_en": "Assault method (tool)",
-      "description_en": "Detailed code explanation added since 2018, lengths are 6 for 2010 and 2012"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)\nROC 110, 112 (2021, 2023): length 6"
     },
     {
       "seq": 40,
@@ -893,7 +893,7 @@
         }
       ],
       "name_zh_en": "abuse type",
-      "description_en": "details coding explanation added since 2018"
+      "description_en": "See code explanation\nAdded from ROC 108 (2019)"
     },
     {
       "seq": 41,
@@ -1182,7 +1182,7 @@
         {
           "code": "M",
           "label_zh": "本國籍原住民－排灣 108年起參閱： 代碼說明代碼說明",
-          "label_en": "Indigenous people of Taiwan - Paiwan starting from 2018: Code Description Code Description"
+          "label_en": "Indigenous Taiwanese national - Paiwan. From ROC 108 (2019) see: Code Description Code Description"
         },
         {
           "code": "A",
@@ -1328,7 +1328,7 @@
         {
           "code": "C",
           "label_zh": "就學中 F 未再升學 108年起參閱： 代碼說明代碼說明代碼說明",
-          "label_en": "still enrolled in school F not continuing education since 2018"
+          "label_en": "Currently enrolled F Not continuing education. From ROC 108 (2019) see: Code Description Code Description Code Description"
         },
         {
           "code": "A",
@@ -1577,7 +1577,7 @@
         {
           "code": "B",
           "label_zh": "對於6歲以下兒童或需要特別看護之兒童及少年，使其獨處或由不適當之人代為照顧",
-          "label_en": "leaving children under 6 alone or under improper care"
+          "label_en": "Leaving children under 6, or children and adolescents who need special care, alone or in the care of an inappropriate person"
         }
       ],
       "field_en": "parents, guardians, or other persons actually caring for children and adolescents who have committed the following acts towards them"

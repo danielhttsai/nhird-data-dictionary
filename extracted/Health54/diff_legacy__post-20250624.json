@@ -23,8 +23,8 @@
       "name_en": "CITIZEN_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。\n111年度長度為24",
-      "table": "H_BHP_PST_SMEAR",
+      "description_zh": "經加密處理。\n111年長度為24",
+      "table": "H_BHP_PST_MASTER",
       "available_notes": [
         {
           "roc_year": 111,
@@ -41,8 +41,8 @@
       "name_en": "CITIZEN_ID",
       "type": "Char",
       "length": 20,
-      "description_zh": "經加密處理。\n111年長度為24",
-      "table": "H_BHP_PST_MASTER",
+      "description_zh": "經加密處理。\n111年度長度為24",
+      "table": "H_BHP_PST_SMEAR",
       "available_notes": [
         {
           "roc_year": 111,
@@ -52,18 +52,6 @@
       ],
       "name_zh_en": "National ID number",
       "description_en": "Encrypted.\nLength is 24 in ROC year 111 (2022)"
-    },
-    {
-      "seq": 2,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "CITIZEN_ID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
-      "table": "H_BHP_PST_MASTER",
-      "available_notes": [],
-      "name_zh_en": "ID number validity check",
-      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 2,
@@ -90,6 +78,18 @@
       "description_en": "code referenced to cause of death statistics file."
     },
     {
+      "seq": 2,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "CITIZEN_ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_PST_MASTER",
+      "available_notes": [],
+      "name_zh_en": "ID number validity check",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
+    },
+    {
       "seq": 3,
       "name_zh": "新醫療機構權屬別",
       "name_en": "NEW_MEDCODE_HOS",
@@ -100,18 +100,6 @@
       "available_notes": [],
       "name_zh_en": "New healthcare facility ownership type",
       "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 4,
-      "name_zh": "舊醫事機構代碼",
-      "name_en": "MEDIORG_CODE",
-      "type": "Char",
-      "length": 20,
-      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
-      "table": "H_BHP_PST_UNIT",
-      "available_notes": [],
-      "name_zh_en": "old_medical_institution_code",
-      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 4,
@@ -126,16 +114,16 @@
       "description_en": "detailed translation explanation"
     },
     {
-      "seq": 5,
-      "name_zh": "當時通訊地行政區",
-      "name_en": "ADDR_TOWN_PRESENT",
+      "seq": 4,
+      "name_zh": "舊醫事機構代碼",
+      "name_en": "MEDIORG_CODE",
       "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "table": "H_BHP_PST_SMEAR",
+      "length": 20,
+      "description_zh": "經加密處理，為辨別醫療機構的鍵值。",
+      "table": "H_BHP_PST_UNIT",
       "available_notes": [],
-      "name_zh_en": "current communication area administrative level",
-      "description_en": "code referenced to cause of death statistics file."
+      "name_zh_en": "old_medical_institution_code",
+      "description_en": "Encrypted key value for identifying healthcare institutions."
     },
     {
       "seq": 5,
@@ -147,6 +135,18 @@
       "table": "H_BHP_PST_UNIT",
       "available_notes": [],
       "name_zh_en": "Old healthcare facility county/city and township/district code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 5,
+      "name_zh": "當時通訊地行政區",
+      "name_en": "ADDR_TOWN_PRESENT",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_PST_SMEAR",
+      "available_notes": [],
+      "name_zh_en": "current communication area administrative level",
       "description_en": "code referenced to cause of death statistics file."
     },
     {
@@ -309,10 +309,22 @@
         }
       ],
       "name_zh_en": "possible infection",
-      "description_en": "Detailed coding explanation (multiple choices allowed), length for 102-103 years is 4."
+      "description_en": "See the code description (multiple selections allowed)\nLength is 4 for ROC 112-113 (2023-2024)"
     }
   ],
   "removed": [
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
+      "table": "H_BHP_PST_SMEAR",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
+    },
     {
       "seq": 1,
       "name_zh": "身分證字號",
@@ -336,18 +348,6 @@
       "available_notes": [],
       "name_zh_en": "new medical institution code",
       "description_en": "Encrypted key value for identifying healthcare institutions."
-    },
-    {
-      "seq": 1,
-      "name_zh": "身分證字號",
-      "name_en": "ID",
-      "type": "Char",
-      "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼（如無居留證號碼請填護照號碼），左靠不足補空白。",
-      "table": "H_BHP_PST_SMEAR",
-      "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "encrypted. National Health Insurance ID or foreign resident permit number (if no resident permit number, please fill in passport number), left-aligned with insufficient space padded."
     },
     {
       "seq": 2,
@@ -387,18 +387,6 @@
     },
     {
       "seq": 3,
-      "name_zh": "新醫療機構權屬別",
-      "name_en": "HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_PST_UNIT",
-      "available_notes": [],
-      "name_zh_en": "New healthcare facility ownership type",
-      "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 3,
       "name_zh": "證件來源",
       "name_en": "ID_TYPE",
       "type": "Char",
@@ -408,6 +396,18 @@
       "available_notes": [],
       "name_zh_en": "document source",
       "description_en": "not provided"
+    },
+    {
+      "seq": 3,
+      "name_zh": "新醫療機構權屬別",
+      "name_en": "HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_PST_UNIT",
+      "available_notes": [],
+      "name_zh_en": "New healthcare facility ownership type",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 4,
@@ -435,18 +435,6 @@
     },
     {
       "seq": 5,
-      "name_zh": "當時通訊地行政區",
-      "name_en": "ADDR",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照死因統計檔。",
-      "table": "H_BHP_PST_SMEAR",
-      "available_notes": [],
-      "name_zh_en": "current communication area administrative level",
-      "description_en": "code referenced to cause of death statistics file."
-    },
-    {
-      "seq": 5,
       "name_zh": "舊醫療機構縣市鄉鎮市區代碼",
       "name_en": "O_CITY",
       "type": "Char",
@@ -455,6 +443,18 @@
       "table": "H_BHP_PST_UNIT",
       "available_notes": [],
       "name_zh_en": "Old healthcare facility county/city and township/district code",
+      "description_en": "code referenced to cause of death statistics file."
+    },
+    {
+      "seq": 5,
+      "name_zh": "當時通訊地行政區",
+      "name_en": "ADDR",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照死因統計檔。",
+      "table": "H_BHP_PST_SMEAR",
+      "available_notes": [],
+      "name_zh_en": "current communication area administrative level",
       "description_en": "code referenced to cause of death statistics file."
     },
     {

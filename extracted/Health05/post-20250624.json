@@ -137,7 +137,7 @@
       "description_zh": "1.23．全民健康保險醫療服務給付項目及支付標準表規定之診療項目有加成或折扣者，按成數填報(如：加二成表示為 1.20，無加成為 1.00，打八折為.80)註：兒童加成年齡以入院日期計算。",
       "available_notes": [],
       "name_zh_en": "co-payment ratio",
-      "description_en": "1.23. According to the National Health Insurance Medical Service Payment Item and Fee Schedule, if a diagnostic item has an additional charge or discount, report as a percentage (e.g., 1.20 for a 20% increase, 1.00 with no change, 0.80 for an 80% discount). Note: The age for children's additional charges is calculated based on the admission date."
+      "description_en": "1.23. For treatment items in the NHI Medical Services Benefit Items and Payment Standards that carry a surcharge or discount, report as a ratio (e.g. a 20% surcharge is 1.20, no surcharge is 1.00, a 20% discount (80% of the price) is .80). Note: the child surcharge age is calculated from the admission date."
     },
     {
       "seq": 11,
@@ -154,7 +154,7 @@
         }
       ],
       "name_zh_en": "dosage of drug",
-      "description_en": "Input according to the principles of the National Health Insurance Drug Usage Standard Code. Note: Added since 1992."
+      "description_en": "Enter according to the principles of the NHI Drug Usage Standard Code.\nNote: added from ROC 92 (2003)."
     },
     {
       "seq": 12,
@@ -188,7 +188,7 @@
         }
       ],
       "name_zh_en": "route of administration/therapeutic site",
-      "description_en": "Input according to the principles of the National Health Insurance Drug Usage Standard Code. Detailed DRUG_PATH translation explanation. Note: Added since 1992."
+      "description_en": "Enter according to the principles of the NHI Drug Usage Standard Code.\nSee the explanation of the route of administration / site of action (DRUG_PATH) codes.\nNote: added from ROC 92 (2003)."
     },
     {
       "seq": 14,
@@ -222,7 +222,7 @@
         }
       ],
       "name_zh_en": "bed number",
-      "description_en": "If the order is for ward fees, this column is a required field. Note: Added starting from 1992."
+      "description_en": "This field is required if the order is a ward fee. Note: added from ROC 92 (2003)."
     },
     {
       "seq": 16,
@@ -272,7 +272,7 @@
         }
       ],
       "name_zh_en": "Tw-DRGs calculation",
-      "description_en": "When the medical order category is A or B and the medical order code is G00001, this field is a required field. Note: Added since 1999."
+      "description_en": "This field is required if the order category is A, or the order type is B and the order code is G00001. Note: added from ROC 99 (2010)."
     },
     {
       "seq": 20,
@@ -366,7 +366,7 @@
         {
           "code": "A4",
           "label_zh": "畫者C 型肝炎全口服新藥健保給付執行計畫者，給付 類別應為「M: 肝炎試辦計畫」109.07.01(費用年月) 起適用 (3) 呼吸照護試辦計畫者，給付類別應為「9:呼吸照 護」 職業傷病住院膳食費(97年3月26日健保醫字第 0970002000號函增訂) 精神病嚴重病人送醫及強制住院案件(項次 07部分負 衛生福利部(B1-BZ) B1 擔代碼應為「009:本署其他規定免部分負擔者」)",
-          "label_en": "For patients enrolled in the hepatitis C full oral new drug health insurance payment plan, the payment category should be 'M: Hepatitis Pilot Program' effective from July 1, 2019 (fee month). (3) For those enrolled in the respiratory care pilot program, the payment category should be '9: Respiratory Care'. Occupational injury hospitalization meal expenses (added by Health Insurance Administration Letter No. 0970002000 on March 26, 1997). Severe mental illness patients' medical referral and mandatory hospitalization cases (Item 07 partial payment) - Ministry of Health and Welfare (B1-BZ) B1 code should be '009: Exempt from partial payment under the authority's other regulations'."
+          "label_en": "plan: for hepatitis C all-oral new drug NHI payment implementation plan, the payment category should be 'M: hepatitis pilot program', applicable from 1 July 2020 (ROC 109.07.01, fee year-month) (3) For the respiratory care pilot program, the payment category should be '9: respiratory care' Occupational injury and disease inpatient meal fee (added per Letter No. 0970002000 of 26 March 2008, ROC 97/3/26) Compulsory hospitalization and transport of severely mentally ill patients (item 07: the copayment code should be '009: exempt from copayment under other NHIA rules') Ministry of Health and Welfare (B1-BZ) B1"
         },
         {
           "code": "AIDS",
@@ -376,12 +376,12 @@
         {
           "code": "C3",
           "label_zh": "結核病MDR 及抗結核藥物副作用住院<=60 天內(算 2026年01月27日修訂 代辦單位 代碼 名稱 進不算出)。96 年5月2日健保醫字第0960014750 號 函自96年5月 1日起修訂適用範圍和申報醫院資格 為抗結核藥物副作用個案住院≦30天，且限該局 「MDR 結核病醫療照護體系」之合作醫院及各醫學 中心申報。 無健保結核病患之醫療費用(96年7月9 日健保醫字 第0960023163 號函增訂)",
-          "label_en": "multidrug-resistant tuberculosis and antituberculosis drug adverse events inpatient <=60 days (calculated as of January 27, 2026). Revised scope and eligibility for reporting hospitals effective from May 2, 1996. For cases with antituberculosis drug adverse events hospitalized ≤30 days, only applicable to cooperating hospitals and medical centers under the 'Multidrug-Resistant Tuberculosis Healthcare System' of the relevant authority. No health insurance costs for tuberculosis patients (added in July 9, 1996)"
+          "label_en": "Tuberculosis MDR and inpatient stays of up to 60 days for adverse reactions to anti-tuberculosis drugs (admission day counted, discharge day not) Revised 27 January 2026 Commissioning unit Code Name. Per Letter No. 0960014750 of 2 May 2007 (ROC 96/5/2), the scope of application and the reporting hospital eligibility were revised from 1 May 2007 (ROC 96/5/1): for adverse-drug-reaction cases of anti-tuberculosis drugs hospitalised for up to 30 days, reporting is limited to the agency's cooperating hospitals in the 'MDR tuberculosis medical care system' and to medical centers. Medical expenses of tuberculosis patients without NHI (added per Letter No. 0960023163 of 9 July 2007, ROC 96/7/9)"
         },
         {
           "code": "C5",
           "label_zh": "法定傳染病通報且隔離案件(110.1.1) 低收入戶住院膳食費(97年3月26日健保醫字第 衛生福利部 DZ 0970002000號函增訂) 2026年01月27日修訂",
-          "label_en": "Reported and isolated cases of statutory communicable diseases (110.1.1) Low-income household inpatient meal expenses for hospitalization (Added by Council of Health, MOHW DZ 0970002000 on March 26, 1997; revised on January 27, 2026)"
+          "label_en": "Notifiable infectious disease reported and isolated cases (1 January 2021, ROC 110.1.1) Low-income household inpatient meal expenses (added per Letter No. 0970002000 of 26 March 2008, ROC 97/3/26) Ministry of Health and Welfare DZ Revised 27 January 2026"
         }
       ],
       "grid": {
@@ -798,7 +798,7 @@
         {
           "code": "40",
           "label_zh": "醫療財團法人診所 2026年01月27日修訂",
-          "label_en": "non-profit clinic revised on January 27, 2026"
+          "label_en": "Medical foundation clinic Revised 27 January 2026"
         },
         {
           "code": "41",
@@ -893,7 +893,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic 41 outpatient clinic January 27, 2026 revision 105th year 106th year 107th year 108-109th years code item name code item name code item name code item name public public public public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 ROC 105 (2016) ROC 106 (2017) ROC 107 (2018) ROC 108-109 (2019-2020) Code Item name Code Item name Code Item name Code Item name Public Public Public Public"
         },
         {
           "code": "21",
@@ -988,7 +988,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2026年01月27日修訂 83-109年診所權屬別代碼對照表（以109年調整） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年代碼",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic January 27, 2026 Revised Table of Clinic Ownership Codes (Adjusted in 2009) Year 1983-1998 1999-2000 2001 2002 2003 2004 2005 2006 2007-2009 Code"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic Revised 27 January 2026 Clinic ownership code table, ROC 83-109 (1994-2020) (adjusted as of ROC 109) Year ROC 83-98 (1994-2009) ROC 99-100 (2010-2011) ROC 101 (2012) ROC 102 (2013) ROC 103 (2014) ROC 104 (2015) ROC 105 (2016) ROC 106 (2017) ROC 107-109 (2018-2020) Code"
         },
         {
           "code": "42",
@@ -1048,7 +1048,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -1078,7 +1078,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -3336,7 +3336,7 @@
         {
           "code": "IVI",
           "label_zh": "玻璃体內注射 2026年01月27日修訂 代碼 名稱 備註",
-          "label_en": "vitrectomy revised on January 27, 2026 code name notes"
+          "label_en": "Intravitreal injection Revised 27 January 2026 Code Name Remarks"
         },
         {
           "code": "IVP",
@@ -5266,32 +5266,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -5314,7 +5314,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保處方及治療醫令明細檔─住院\n（HEALTH-05：H_NHI_IPDTO）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_IPDTO 資料筆數 28,135,418筆（以2024/12 為例）\n全民健保處方及治療醫令明細檔─\n中文檔名 英文檔名 Details of Inpatient Orders\n住院\n檔案大小 8.0 GB（以2024/12 為例） 欄位數 22\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 月\n更新日期 2026/01/27修訂\n1. 為一次住院多筆醫令資料。\n2. 相同之 FEE_YM＋APPL_TYPE＋APPL_DATE＋CASE_TYPE＋SEQ_NO＋\nHOSP_ID 視為同一次就醫之醫令。\n3. 每一筆資料包含醫令代碼、數量及點數等資料。\n資料描述 4. 本手冊所列之檔案格式及資料描述係參考「全民健康保險醫事服務機構(門診、住\n院及交付機構)醫療費用點數申報格式及填表說明」，路徑：衛生福利部中央健康\n保險署首頁∕健保服務/健保醫療費用/醫療費用申報與給付∕醫療費用支付∕醫療費\n用申報規定∕醫療費用 XML 申報格式∕全民健康保險醫事服務機構(門診、住院及\n交付機構)醫療費用點數申報格式及填表說明。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n注意事項\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 醫療機構代碼(HOSP_ID)經加密處理。\n主鍵與比 2. 本 檔 無 病 人 身 份 證 字 號 ， 以 FEE_YM ＋ APPL_TYPE ＋ APPL_DATE ＋\n對欄位 CASE_TYPE＋SEQ_NO＋HOSP_ID 為鍵值與住院明細檔(H_NHI_IPDTE)對照。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",
@@ -5332,7 +5332,7 @@
   "doc_first_published": "2026-05-25",
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health05_全民健保處方及治療醫令明細檔_住院(20250624起適用)",
-  "data_description_en": "1. From 2007, all newly diagnosed cancer cases must be reported using the new cancer-registry items. Hospitals with 50+ beds report incidence and treatment summary per the short-form manual; former TCDB hospitals report detailed data for six major cancers (cervical, breast, oral, lung, liver, colorectal) per the long-form manual. 2. From 2008, prostate, stomach, esophagus, bladder added (10 major cancers). 3. From 2009, nasopharyngeal, major salivary gland, uterine corpus, ovarian, hematologic added (15). 4. AJCC staging used the 6th edition for 2007-2009 and the 7th edition from 2010.",
+  "data_description_en": "1. This is multiple order records for one admission.\n2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO +\nHOSP_ID are treated as orders of the same visit.\n3. Each record includes the order code, quantity, points, etc.\n4. The file formats and data descriptions in this manual refer to the \"Reimbursement Point Claim Format and Instructions for NHI Contracted Medical Institutions (Outpatient,\nInpatient and Dispensing Institutions)\"; path: Ministry of Health and Welfare, National Health\nInsurance Administration homepage / NHI Services / NHI Medical Expenses / Medical Claims and Payment / Medical Payment / Medical\nClaim Rules / Medical Claim XML Format / Reimbursement Point Claim Format and Instructions for NHI Contracted Medical Institutions (Outpatient, Inpatient and\nDispensing Institutions).",
   "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "1. The hospital code (HOSP_ID) is encrypted. 2. Patient ID number not included, key value for matching with inpatient detail file (H_NHI_IPDTE): FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 3. Key value for hospital grouping and hospital data comparison: HOSP_ID.",
   "name_zh_en": "National Health Insurance Prescription and Treatment Order Detail File_Inpatient",

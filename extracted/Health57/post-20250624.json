@@ -4,7 +4,7 @@
   "name_zh": "癌症篩檢 – 口腔癌篩檢檔",
   "name_en": "Oral Mucosal Screeing",
   "record_count_raw": "H_BHP_OMS_PD113：418,311筆 H_BHP_OMS_ CHECK113：420,673筆 H_BHP_OMS_ CONFIRM113：24,818筆 H_BHP_OMS_ CUT113：18,207筆 (以2024年資料為例)",
-  "field_count_declared": null,
+  "field_count_declared": 59,
   "file_size_raw": "H_BHP_OMS_PD113：21 MB H_BHP_OMS_ CHECK113：50 MB H_BHP_OMS_ CONFIRM113：5 MB H_BHP_OMS_ CUT113：2 MB (以2024年資料為例)",
   "frequency": "無",
   "attribute": "歷史資料檔",
@@ -165,7 +165,7 @@
       "table": "H_BHP_OMS_CHECK",
       "available_notes": [],
       "name_zh_en": "payment method",
-      "description_en": "1: Preventive health care; 2: Non-preventive health care costs; 3: National Health Insurance medical payment; 4: Other public budget subsidies; 5: Self-paid health check-up; 6: Orthodontic agency (Oral99.OralA 1070116 import) 9: Other (3459 activated on 20150801, no longer collected)"
+      "description_en": "1: Preventive health care;\n2: Non-preventive health care costs\n3: NHI medical benefits;\n4: Other public budget subsidies;\n5: Self-paid health examination;\n6: Correctional institutions (Oral99.OralA\nimported 2018/01/16)\n9: Other\n(3459 activated on 2016/08/01 (ROC 105/08/01); code\n2 no longer collected)"
     },
     {
       "seq": 3,
@@ -735,7 +735,7 @@
         }
       ],
       "name_zh_en": "version",
-      "description_en": "Pathological diagnosis confirmation form version. Added since 2023."
+      "description_en": "Form version for identifying the pathological diagnosis (confirmed diagnosis) result.\nAdded from ROC 113 (2024)."
     }
   ],
   "codebooks": {
@@ -1233,7 +1233,7 @@
         {
           "code": "8",
           "label_zh": "其他(others) 106年表單版本 2025年07月22日",
-          "label_en": "Others 2017 form version July 22, 2025"
+          "label_en": "Others, ROC 106 (2017) form version, 22 July 2025"
         },
         {
           "code": "00",
@@ -1253,7 +1253,7 @@
         {
           "code": "06",
           "label_zh": "a原ty位pic癌al（ hycparecripnloasmiaa) in situ）",
-          "label_en": "a original tissue in situ cancer"
+          "label_en": "Carcinoma in situ (atypical hyperplasia, carcinoma in situ)"
         },
         {
           "code": "07",
@@ -1278,12 +1278,12 @@
         {
           "code": "99",
           "label_zh": "其他(others) 113年表單版本",
-          "label_en": "other(others) 2023 version"
+          "label_en": "Others, ROC 113 (2024) form version"
         },
         {
           "code": "00",
           "label_zh": "正常上皮過度角化或上皮增生(Hyperkeratosis 輕度上皮變異（mild dysplasia,SIN1, basal 中度上皮變異（moderate dysplasia, SIN2, 重度上皮變異（severe dysplasia, SIN3,",
-          "label_en": "normal hyperkeratosis with mild epithelial dysplasia (SIN1), moderate epithelial dysplasia (SIN2), severe epithelial dysplasia (SIN3"
+          "label_en": "Normal epithelium, hyperkeratosis or epithelial hyperplasia (Hyperkeratosis; mild epithelial dysplasia (mild dysplasia, SIN1, basal; moderate epithelial dysplasia (moderate dysplasia, SIN2; severe epithelial dysplasia (severe dysplasia, SIN3,"
         },
         {
           "code": "06",
@@ -1303,7 +1303,7 @@
         {
           "code": "10",
           "label_zh": "squamous lesions or atypia with uncertain 口咽鱗狀細胞癌(Oropharyngeal squamous 其他惡性腫瘤(Others malignant tumors:",
-          "label_en": "squamous lesions or atypia with uncertain Oropharyngeal squamous cell carcinoma (Other malignant tumors:"
+          "label_en": "squamous lesions or atypia with uncertain; Oropharyngeal squamous cell carcinoma (Oropharyngeal squamous; Other malignant tumors (Others malignant tumors:"
         },
         {
           "code": "12",
@@ -1524,7 +1524,7 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health57_癌症篩檢--口腔癌篩檢檔(20250624起適用)",
-  "data_description_en": "Records the case's betel-nut chewing before the initial diagnosis date. Digits 1-2 are daily quids chewed: 00: None; 10: 10/day; 20: 20/day; 90: >=90/day; 91: Occasional (irregular/no fixed amount); 98: Chews, amount unknown; 99: Not recorded or status unknown. Digits 3-4 are years chewed: 00: None; 05: 5 years; 15: 15 years; 98: Chews, years unknown; 99: Not recorded/unknown. Digits 5-6 are years since quitting: 00: Not quit; 05: Quit 5 years.",
+  "data_description_en": "1. Since ROC 99 (2010), the Health Promotion Administration has expanded screening services to 4 cancers (colorectal, oral, breast\nand cervical), offered comprehensively through NHI-contracted preventive health care institutions, with colorectal and oral cancer\nscreening added to the preventive health care service items, and\nbreast cancer screening extended to women aged 40 to under 45 at high\nrisk, i.e. with a second-degree relative (mother, daughter, sister, grandmother or maternal grandmother) who has had breast cancer.\n2. The government subsidizes a free oral mucosa examination once every two years for people aged 30 and over who chew\nbetel nut (including those who have quit) or smoke, and for Indigenous people aged 18 and over who chew betel nut.\n3. Contents of the oral cancer screening file:",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "oral cancer screening file",
@@ -1591,5 +1591,11 @@
       "fields_parsed": 13,
       "name_zh_en": "Oral cancer screening: biopsy data file"
     }
+  ],
+  "field_count_parts": [
+    10,
+    18,
+    18,
+    13
   ]
 }

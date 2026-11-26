@@ -915,7 +915,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年07月22日修訂 105年 106年 107年 108-109年代碼項目名稱代碼項目名稱代碼項目名稱代碼項目名稱公立公立公立公立",
-          "label_en": "Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 41 Medical Association Clinic 2025-07-22 Revised 2005 2006 2007 2008-2009 Code Item Name Code Item Name Code Item Name Code Item Name Public Public Public Public"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic. Revised 22 July 2025. ROC 105 (2016); ROC 106 (2017); ROC 107 (2018); ROC 108-109 (2019-2020). Code, item name; code, item name; code, item name; code, item name. Public, public, public, public"
         },
         {
           "code": "21",
@@ -1010,7 +1010,7 @@
         {
           "code": "41",
           "label_zh": "醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 41 醫療社團法人診所 2025年07月22日修訂 83-109年診所權屬別代碼對照表（以 109年調整） 年份 83-98年 99-100年 101 年 102年 103年 104 年 105年 106年 107-109年代碼",
-          "label_en": "Medical Association clinic 41 Medical Association clinic 41 Medical Association clinic 41 Medical Association clinic July 22, 2025 revision对照表（以2009年调整为准） 年份 83-98年 99-100年 101年 102年 103年 104年 105年 106年 107-109年 代码"
+          "label_en": "Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41 Medical corporation clinic 41. Revised 22 July 2025. Clinic ownership code comparison table, ROC 83-109 (1994-2020) (as adjusted in ROC 109 (2020)). Year: ROC 83-98 (1994-2009); ROC 99-100 (2010-2011); ROC 101 (2012); ROC 102 (2013); ROC 103 (2014); ROC 104 (2015); ROC 105 (2016); ROC 106 (2017); ROC 107-109 (2018-2020). Code"
         },
         {
           "code": "42",
@@ -1070,7 +1070,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "public occupational therapy institution (added in 2017)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -1100,7 +1100,7 @@
         {
           "code": "3Y",
           "label_zh": "聽力所(99年新增) 私立聽力所",
-          "label_en": "private hearing clinic (added in 1999)"
+          "label_en": "Hearing center (added ROC 99, 2010) Private hearing center"
         },
         {
           "code": "4Y",
@@ -2819,8 +2819,8 @@
   "doc_first_published": "2026-05-26",
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health99_成人預防保健資料檔(20250624起適用)",
-  "data_description_en": "To maintain elderly health, early detection and intervention for chronic diseases, the Ministry of Health and Welfare provides a free adult health check-up every 3 years for individuals aged 40 to 64, annually for indigenous people over 55, those with polio aged 35 or older, and annually for individuals aged 65 and above. Services include physical examination, biochemical tests, renal function tests, and health counseling.",
-  "notes_en": "1. This database is de-identified: directly identifying fields such as name and address are removed, and ID number, facility code, insurer-unit code, tax ID, birth date, visit date, and admission date are masked; data may only be used in the ministry's dedicated on-site work area, and only reviewed and approved aggregate results may be exported, ensuring individuals cannot be re-identified. 2. This database has been pre-filtered to commonly used cardiovascular-disease fields; refer to the field checklist together with each database manual for the data format. 3. Applicants should still consider the characteristics of their research topic and note data-use restrictions; feedback is welcome.",
+  "data_description_en": "1. To safeguard the health of middle-aged and older adults and enable early detection of chronic diseases, early intervention\nand treatment, the Health Promotion Administration provides adult health checkups: once every 3 years for people aged 40\nto under 65, and once a year for Indigenous people aged 55 and over, people aged 35 and over with polio, and people aged\n65 and over. Services include physical examination, blood biochemistry tests, kidney function tests and health counseling.\n(Quoted from the Health Promotion Administration's background description of adult preventive health care by appointment)",
+  "notes_en": "1. Where the examination year of the second-stage examination date minus the current year is >1, treat it as a missing value.\n2. Because height and weight were not mandatory fields in the NHI VPN single-entry mode before 11 December 2019\n(ROC 108/12/11), some medical institutions may not have entered height and weight but did enter the calculated BMI.\n※This center's database has been de-identified; directly identifying fields such as name and address have been removed, and fields\nsuch as ID number, facility code, insured unit code, tax ID number, date of birth, visit date and admission date have all been masked.\nThe related data may only be used within the independent workspace established by the Ministry, and only reviewed and approved\nstatistical results may be taken out, to ensure that the data application and its disclosure can no longer identify specific individuals.",
   "primary_keys_en": "1. Personal ID and medical institution code are encrypted.\n2. Key value for personal account matching: ID.\n3. Key value for medical institution account matching: HOSP_ID.",
   "name_zh_en": "adult preventive health data file",
   "printed": {

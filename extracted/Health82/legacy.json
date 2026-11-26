@@ -41,7 +41,7 @@
       "description_zh": "1：男性，2：女性，4：變 性人",
       "available_notes": [],
       "name_zh_en": "original gender",
-      "description_en": "1: male"
+      "description_en": "1: Male, 2: Female, 4: Transgender"
     },
     {
       "seq": 3,
@@ -131,7 +131,7 @@
         }
       ],
       "name_zh_en": "household registration code",
-      "description_en": "Translation of resident code (RESIDCD) starting from 2001 for new five metropolitan areas"
+      "description_en": "See the household registration place code (RESIDCD) table; from ROC 100 (2011) the new five-municipality codes are used"
     },
     {
       "seq": 10,
@@ -245,7 +245,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD9 codes from 1970 to 1996 (blank if no cause of death data)"
+      "description_en": "ROC 70-96 (1981-2007) coded in ICD-9 (blank if no cause-of-death data)"
     },
     {
       "seq": 19,
@@ -263,7 +263,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD-10 codes for causes of death after 1997 (blank if no cause of death data)"
+      "description_en": "From ROC 97 (2008), causes of death are coded in ICD-10 (blank if no cause-of-death data)"
     },
     {
       "seq": 20,
@@ -359,7 +359,7 @@
       "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "whether it is a cause-specific survival event",
-      "description_en": "0: Died from other causes or still alive; 1: Died from the first cancer diagnosed; 9: Unknown (not linked to death cause file, outpatient/ED, inpatient, insured file); Blank indicates not the first cancer."
+      "description_en": "0: Died of other causes or still alive; 1: Died of the first cancer diagnosed; 9: Unknown (not linked to the cause-of-death file, outpatient/emergency, inpatient or enrollment files); Blank means it is not the first cancer. See the field (variable) code explanation (2) SEER cause of death."
     },
     {
       "seq": 28,
@@ -538,7 +538,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "No diabetes without chronic complications (DM W/O CC).",
+      "name_zh_en": "Whether the patient has Diabetes without chronic complication (DM W/O CC)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
@@ -634,7 +634,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "是否有 Uncomplicated Hypertension (HT UC)",
+      "name_zh_en": "Whether has Hypertension, uncomplicated (HT UC)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
@@ -659,7 +659,7 @@
       "description_zh": "針對病患在癌症登記年報檔 中，第一筆大腸直腸癌紀錄 的診斷日期(DIAGDAY)，其 前後三個月內，在大腸癌篩 檢 - 大 腸 癌 確 診 檔 (H_BHP_CCS_CONF) 是 否 有紀錄。 0：沒有； 1：只有一筆(且診斷日期與 大腸癌確診檔的確診日期 (CONFIRMDATE)皆完整)； 9：有多筆大腸癌確診檔紀 錄或者診斷日期與確診日期 的資訊不完整(年、月、日 標示為9999、99 或空白)",
       "available_notes": [],
       "name_zh_en": "whether has colorectal cancer confirmed case record",
-      "description_en": "For patients registered for cancer registry in the annual report file, the diagnosis date (DIAGDAY) of the first record of colorectal cancer is checked against records in the colorectal cancer screening - colorectal cancer confirmation file (H_BHP_CCS_CONF) within three months before and after this date. 0: No records; 1: Only one record with complete diagnosis dates matching those in the confirmation file; 9: Multiple records or incomplete information regarding diagnosis or confirmation dates (year, month, day marked as 9999, 99, or blank)."
+      "description_en": "Whether, within three months before and after the diagnosis date (DIAGDAY) of the patient's first colorectal cancer record in the cancer registry annual report file, there is a record in the colorectal cancer screening - colorectal cancer confirmation file (H_BHP_CCS_CONF). 0: No; 1: Only one record (and both the diagnosis date and the confirmation date (CONFIRMDATE) of the confirmation file are complete); 9: Multiple colorectal cancer confirmation file records, or incomplete information on the diagnosis date or confirmation date (year, month and day recorded as 9999, 99 or blank)"
     },
     {
       "seq": 53,
@@ -751,17 +751,17 @@
         {
           "code": "16",
           "label_zh": "AIDS 042.x-044x ComD16_AIDS 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 (八) Definitions of comorbidities+ ICD-10-CM",
-          "label_en": "AIDS 042.x-044x ComD16_AIDS establishing a health big data thematic database and integrated analysis—establishing an精准医疗主题式数据库 for cancer(I) version date:202512/30 (eight) Definitions of comorbidities+ ICD-10-CM"
+          "label_en": "AIDS 042.x-044x ComD16_AIDS Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 2025-12-30 (8) Definitions of comorbidities + ICD-10-CM"
         },
         {
           "code": "2015",
           "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
-          "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (DRUG_PRSN_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (ORIG_HOSP_ID) are encrypted. 2. This file's unique key is ORIG_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (ORIG_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is ORIG_HOSP_ID."
+          "label_en": "From [year] the International Classification of Diseases in the NHI database was converted from ICD-9-CM to ICD-10-CM, so the comorbidity ICD-9-CM codes must be recoded to ICD-10-CM per the NHIA announcement. Uncertain correspondences are handled by the following rules: 1. Those with a comD10_DMC other code, and E10.21/E11.21, but without a comD11_CRF other code, are classified as comD10_DMC. 2. Those with a comD11_CRF other code but without a comD10_DMC other code are classified as comD11_CRF. 3-1. Those with both comD10_DMC and comD11_CRF other codes are classified by whichever other code was recorded earliest. 3-2. If the earliest recorded other codes cannot be ordered because the dates are identical, both are treated as comD10_DMC and 4. Those with only E10.21/E11.21 and no comD10_DMC other code, and also no comD11_CRF other code, are classified as comD11_CRF. 401.1, those with only I10 and without a comD17_HTU other"
         },
         {
           "code": "I10",
           "label_zh": "comD17_HTU 401.9 他代碼,而也沒有 comD18_HTC 其 401.0 comD18_HTC 他代碼分類到comD17_HTU。 建立健康大數據主題式資料庫及整合分析─建立癌症精準醫療主題式資料庫(I) 版本日期：20251230 *\"+\"代表前後之代碼在某一次的門診檔或住院檔中同時出現。前面代碼為組合 式中的第一診斷，後面代碼為此組合式中的第二診斷。順序上之說明請詳衛生 福利部中央健康保險署中 2014年版_ICD-9-CM2001 年版與ICD-10-CM/PCS 對 應檔(112.05.09更新)，網址： 四、 檔案名稱格式說明範例 (一) 串聯後的健保資料庫、癌症登記檔資料檔的檔案名稱之說明範例 以下述的排列設定檔案名稱： 被串聯的檔案名稱年度(月份)_癌症名稱_癌登年報檔年度 範例： 檔案名稱(Filename) 檔案內容 範例1 OPDTE11001_10_ 使用癌症研究主檔1979-2022年版本， COLORECTAL_111 篩選出大腸直腸癌個案後，擷取大腸 直腸癌個案在 110 年 1 月全民健保處 方 及 治 療 明 細 檔 _ 門 急 診 ( 西 醫)(OPDTE11001_10)的紀錄。 範例2 IPDTE11001_ 使用癌症研究主檔1979-2022年版本， COLORECTAL_111 篩選出大腸直腸癌個案後，擷取大腸 直腸癌個案在 110 年 1 月全民健保處 方及治療明細檔_住院的紀錄。 (二) 經ID清理的資料檔之檔案名稱 以下述的排列設定檔案名稱： 資料檔名稱_癌症名稱_癌登年報檔年度 檔案名稱(Filename) 對應檔案中文名稱 DEATH_QC_ COLORECTAL_111 大腸直腸癌死因統計合併檔 MASTER_TABLE_ 大腸直腸癌研究主檔",
-          "label_en": "Consultation Form Service-Item Detail (W_LTC_CMS_QD111100). Records: 32,769,555. File size: 1.46 GB. Fields: 6. Codebook attribute: historical file. Cycle: yearly. First issued 2026/06/26. Data description: 1. Data owner is the MOHW Department of Long-term Care; contact: National Health Research Institutes, Ms. Chang, tel (05)620-4000 ext. 51245, email changyw@nhri.edu.tw. 2. Data years are 2021 and 2022. 3. All cases meet disability eligibility. Notes: This file may only be linked with the files under 'Primary key and matching fields'; see the linkage appendix. This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. Primary key: this file matches Disabled-person Case Management — Assessment/Plan (W_LTC_CMS_CA110) on the plan serial number CA110_ID, matches the Consultation Form (W_LTC_CMS_QD111) on the consultation-form serial number QD111_ID, and matches Service Item (W_LTC_CMS_QD100) on the service-item serial number."
+          "label_en": "comD17_HTU 401.9 other codes, and without comD18_HTC other codes 401.0 comD18_HTC, are classified to comD17_HTU. Building the Health Big Data Thematic Database and Integrated Analysis - Building the Cancer Precision Medicine Thematic Database (I) Version date: 20251230 *\"+\" means that the codes before and after it appear together in a single outpatient or inpatient file record; the preceding code is the first diagnosis in the combination and the following code is the second diagnosis in the combination. For the explanation of the ordering, see the NHIA, MOHW, 2014 edition ICD-9-CM 2001 edition to ICD-10-CM/PCS mapping file (updated 9 May 2023 (ROC 112.05.09)), URL: IV. Examples of file name formats (1) Examples of file names for the linked NHI database and cancer registry data files. File names are arranged as: linked file name year (month)_cancer name_cancer registry annual report file year. Examples: File name (Filename) File content. Example 1 OPDTE11001_10_COLORECTAL_111: using the 1979-2022 version of the cancer research master file, after selecting colorectal cancer cases, extract the records of the colorectal cancer cases in the January ROC 110 (2021) NHI Prescription and Treatment Detail File_Outpatient/Emergency (Western medicine) (OPDTE11001_10). Example 2 IPDTE11001_COLORECTAL_111: using the 1979-2022 version of the cancer research master file, after selecting colorectal cancer cases, extract the records of the colorectal cancer cases in the January ROC 110 (2021) NHI Prescription and Treatment Detail File_Inpatient. (2) File names of ID-cleaned data files. File names are arranged as: data file name_cancer name_cancer registry annual report file year. File name (Filename) Corresponding Chinese file name: DEATH_QC_COLORECTAL_111 colorectal cancer merged cause-of-death statistics file; MASTER_TABLE_ colorectal cancer research master file"
         }
       ],
       "grid": {
@@ -2806,32 +2806,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -2854,7 +2854,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "BIRTH_Y": {
       "field_zh": "癌症登記年報檔的出生年",
@@ -2884,7 +2884,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2025-12-30",
   "name_zh_from_listing": "Health82_大腸直腸癌主題式資料庫",
-  "data_description_en": "The colorectal cancer cohort database includes all information from every colorectal cancer patient recorded in the 1979-2022 Cancer Registry Report (H_BHP_CRSSC), including detailed records in the long form LF, short form SF, and TCDB, as well as claims data and death certificate combined files. It also includes a colon cancer screening file for integrated use with the colorectal cancer cohort database.",
+  "data_description_en": "The colorectal cancer thematic database contains all information, in 14 data files in total, for every colorectal cancer patient\nrecorded in the 1979-2022 cancer registry annual report file (H_BHP_CRSSC), covering the cancer registry files (long form LF,\nshort form SF and TCDB), the NHI claims files and the merged\ncause-of-death statistics file. The colorectal cancer screening file\nis also attached so that it can be linked with the colorectal cancer thematic database; the detailed definitions are as follows:",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "colorectal cancer theme database",

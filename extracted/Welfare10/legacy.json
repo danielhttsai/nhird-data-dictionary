@@ -50,7 +50,7 @@
       "description_zh": "1：男性\n2：女性\n3、9：不詳",
       "available_notes": [],
       "name_zh_en": "Sex",
-      "description_en": "1: male"
+      "description_en": "1: Male\n2: Female\n3, 9: Unknown"
     },
     {
       "seq": 4,
@@ -67,7 +67,7 @@
         }
       ],
       "name_zh_en": "Before and After ROC Era",
-      "description_en": "Added starting from 2017. Y: Before ROC N: After ROC"
+      "description_en": "Added starting from 2017.\nY: Before ROC\nN: After ROC"
     },
     {
       "seq": 5,
@@ -161,7 +161,7 @@
         }
       ],
       "name_zh_en": "new disability category",
-      "description_en": "Added starting from 2018. Comma-separated, detailed translation code explanation"
+      "description_en": "Added starting from 2018. Comma-separated,\ndetailed translation code explanation"
     },
     {
       "seq": 12,
@@ -189,7 +189,7 @@
         }
       ],
       "name_zh_en": "indigenous status",
-      "description_en": "Added starting from 2017. Y: yes N: no"
+      "description_en": "Added\nstarting from\n2017. Y: yes N: no"
     },
     {
       "seq": 14,
@@ -206,7 +206,7 @@
         }
       ],
       "name_zh_en": "military status",
-      "description_en": "Added starting from 2017. Y: yes N: no"
+      "description_en": "Added\nstarting from\n2017. Y: yes N: no"
     },
     {
       "seq": 15,
@@ -223,7 +223,7 @@
         }
       ],
       "name_zh_en": "cause of disability",
-      "description_en": "Added starting from 2016. Detailed explanation"
+      "description_en": "Added from ROC 106 (2017).\nSee code explanation for details."
     },
     {
       "seq": 16,
@@ -240,7 +240,7 @@
         }
       ],
       "name_zh_en": "reason for cancellation",
-      "description_en": "Added from 2018. Detailed code explanation (missing values 93%)"
+      "description_en": "Added from ROC 106 (2017).\nSee code explanation for details\n(missing values 93%)"
     },
     {
       "seq": 17,
@@ -291,7 +291,7 @@
         }
       ],
       "name_zh_en": "subsidy for daytime care expenses of disabled persons",
-      "description_en": "Added starting 2007. Monthly allowance for people with disabilities receiving day care services."
+      "description_en": "Added from ROC 107 (2018).\nMonthly amount of day-care fee subsidy received by persons with disabilities (NT$)"
     },
     {
       "seq": 20,
@@ -308,7 +308,7 @@
         }
       ],
       "name_zh_en": "residential care expenses for people with disabilities",
-      "description_en": "added from 2017. refers to monthly amount received for disabled persons' residential care (NTD)"
+      "description_en": "Added from ROC 107 (2018).\nMonthly amount received for residential care costs of persons with disabilities (NT$)"
     }
   ],
   "codebooks": {
@@ -2115,32 +2115,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -2163,7 +2163,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2026年05月28日修訂\n身心障礙資料檔\n（Welfare-10：W_SFAA_ DISABLE）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 W_SFAA_DISABLE 資料筆數 1,350,803筆(以114年為例)\n中文檔名 身心障礙資料檔 英文檔名\n檔案大小 228MB (以114年為例) 欄位數 20\n譯碼簿\n屬性 現況檔 週期 年 2026/05/28\n更新日期\n資料描述 1. 一種障礙類別一筆資料。\n2. 資料為103年3月及104~114 年持有身心障礙手冊之名冊。\n注意事項 1. 身心障礙者之分級與鑑定標準自101年7月11日起施行新制。\n2. 身心障礙者之總人數為新制+舊制。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n主鍵與比\n個人歸戶及個人資料比對的鍵值：ID。\n對欄位\n1",
@@ -2181,7 +2181,7 @@
   "doc_first_published": "2016-10-24",
   "doc_last_updated": "2026-05-28",
   "name_zh_from_listing": "Welfare10_身心障礙檔",
-  "data_description_en": "1. One record of a category of disability.\n2. Data for individuals holding a certificate of physical or mental disability from March 2014 to 2014-2019.",
+  "data_description_en": "1. One record per category of disability.\n2. The data are the rosters of people holding a disability manual in March ROC 103 (2014) and in ROC 104-114 (2015-2025).",
   "notes_en": "1. The new system of classification and assessment standards for persons with disabilities has been in effect since 11 July 2012 (ROC year 101).\n2. The total number of persons with disabilities is the new system plus the old system.\n※ This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and fields such as national ID\nnumber, facility code, insured unit code, unified business number, date of birth, visit date and admission date are\nall masked. The data may be used only within the independent work area set up by the Ministry, and taken out only after review and approval of\nthe statistical results, to ensure that data use and disclosure cannot identify any specific individual.",
   "primary_keys_en": "Key for person-level record linkage and personal data matching: ID.",
   "name_zh_en": "disability data file",

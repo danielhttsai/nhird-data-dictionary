@@ -39,7 +39,7 @@
       "description_zh": "1：男\n2：女\n9：不詳",
       "available_notes": [],
       "name_zh_en": "Sex",
-      "description_en": "1: male"
+      "description_en": "1: Male\n2: Female\n9: Unknown"
     },
     {
       "seq": 3,
@@ -259,7 +259,7 @@
       "description_zh": "a：結核性腦膜炎 (013)\nc：淋巴結核 (014)\nd：骨及關節結核 (015)\ne：泌尿及生殖結核 (016)\nf：皮膚及眼結核 (017)\ng：消化道結核 (014)\nh：其他器官結核 (017)\ni：粟粒狀結核 (000)\nj：胸肋膜結核 (000)\nk：咽喉結核 (000)\nl：膀胱癌灌注治療(016)\nm：疑似 BCG 不良反應(接種部位局部病灶)\nn：疑似BCG不良反應(接種部位同側腋下淋巴結腫大)",
       "available_notes": [],
       "name_zh_en": "extrapulmonary TB notation",
-      "description_en": "0: Not a paired organ; 1: Primary origin on the right side; 2: Primary origin on the left side; 3: Unilateral involvement only, but origin (left or right) unclear; 4: Bilateral involvement but laterality of origin unclear, and the record describes a single primary (uncommon) — e.g. single-histology tumor involving both ovaries; bilateral retinoblastomas; bilateral Wilms tumors; 5: Paired organ, midline tumor; 9: Paired organ but laterality unclear."
+      "description_en": "a: Tuberculous meningitis (013)\nc: Lymph node tuberculosis (014)\nd: Bone and joint tuberculosis (015)\ne: Genitourinary tuberculosis (016)\nf: Skin and eye tuberculosis (017)\ng: Gastrointestinal tuberculosis (014)\nh: Tuberculosis of other organs (017)\ni: Miliary tuberculosis (000)\nj: Pleural tuberculosis (000)\nk: Pharyngeal/laryngeal tuberculosis (000)\nl: Bladder cancer instillation therapy (016)\nm: Suspected BCG adverse reaction (local lesion at the inoculation site)\nn: Suspected BCG adverse reaction (ipsilateral axillary lymph node swelling at the inoculation site)"
     },
     {
       "seq": 23,
@@ -1064,7 +1064,7 @@
         }
       ],
       "name_zh_en": "date of discharge from this episode",
-      "description_en": "starting from 2014, reporting generation, provides closure date for the course of illness YYYY/MM/DD"
+      "description_en": "From ROC 104 (2015), for reported cohorts, provides the closure date of that course of illness\nYYYY/MM/DD"
     },
     {
       "seq": 94,
@@ -1114,7 +1114,7 @@
         }
       ],
       "name_zh_en": "additional field one",
-      "description_en": "Since 2014, reported generations will provide the closure date of the case YYYY/MM/DD after 2 years from reporting"
+      "description_en": "From ROC 104 (2015), for reported cohorts, the closure date of that course of illness will be provided after the 2-year follow-up period following reporting expires, YYYY/MM/DD"
     },
     {
       "seq": 98,
@@ -1148,7 +1148,7 @@
         }
       ],
       "name_zh_en": "pathology institution code",
-      "description_en": "refer to medical institution code since 2005"
+      "description_en": "Refer to the medical institution code\nAdded from ROC 104 (2015)"
     }
   ],
   "codebooks": {},
@@ -1167,7 +1167,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-05-26",
   "name_zh_from_listing": "Health73_結核病資料庫",
-  "data_description_en": "1. Data year from 91 to present. Claims from 2015 or earlier are provided for cases occurring before 2013. 2. To determine follow-up treatment outcomes, starting from 2015, follow-up generations provide case closure reasons and dates two years after the claim; 2015's follow-up treatment results were provided in 2017, those of 2022 in 2023, and so on.",
+  "data_description_en": "1. Data years: from ROC 91 (2002) to date. In ROC 105 (2016), new-case data for ROC 103 (2014) and earlier were provided.\n2. To determine follow-up treatment outcomes, for the follow-up cohorts from ROC 104 (2015)\nonward, the reason and date of case closure 2 years after the case's follow-up are provided\nas additional fields; the follow-up treatment outcomes for ROC 104 (2015) were provided in ROC 106 (2017), those for ROC 113 (2024) will be provided in ROC 114 (2025), and so on.",
   "notes_en": "※本中心数据库已去标识化处理，删除姓名、地址等可直接识别字段，如有身分证字号、机构代码、投保单位代码、统一编号、出生日期、就医日期、入院日期等字段均经屏蔽处理，并仅能在本部设置的独立作业区内使用，并携出经审核通过之统计结果，以确保数据应用及其披露方式已无法识别特定当事人。",
   "primary_keys_en": "key values for personal information matching: ID and OVEDR_DATE.",
   "name_zh_en": "TB database",

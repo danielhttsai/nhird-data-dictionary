@@ -72,7 +72,7 @@
         }
       ],
       "name_zh_en": "residence",
-      "description_en": "Details of old county/city/township coding explanation (Note: Starting from 2004, 2105 is Zhongxi District, Tainan City); starting from 2010, please refer to new county/city/township coding explanation."
+      "description_en": "See the explanation of the old-system county/city/township codes\n(Note: from ROC 93 [2004], 2105 is Central-Western District, Tainan City);\nfrom ROC 100 (2011), see the explanation of the new-system county/city/township codes"
     },
     {
       "seq": 5,
@@ -133,7 +133,7 @@
         }
       ],
       "name_zh_en": "Place_of_Death_Code",
-      "description_en": "Added starting from 1997, see code description"
+      "description_en": "Added from ROC 97 (2008), see code explanation"
     },
     {
       "seq": 9,
@@ -155,7 +155,7 @@
         }
       ],
       "name_zh_en": "Death Location",
-      "description_en": "2 digits for 1960-1982, 1 digit from 1983 onwards, see code explanation"
+      "description_en": "2 characters for ROC 60-82 (1971-1993), 1 character from ROC 83 (1994) onwards, see code explanation"
     },
     {
       "seq": 10,
@@ -220,7 +220,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "1960-1969 coded as ICD-8, 1970-1996 coded as ICD-9 (no such column data starting from 1997). Main cause of death classification and main cancer classification details see cause of death coding explanation"
+      "description_en": "ROC 60-69 (1971-1980) coded in ICD-8, ROC 70-96 (1981-2007) coded in ICD-9 (no data in this field from ROC 97 [2008]). For the main cause-of-death classification and main cancer classification, see the cause-of-death classification code explanation"
     },
     {
       "seq": 13,
@@ -242,7 +242,7 @@
         }
       ],
       "name_zh_en": "trauma classification",
-      "description_en": "ICD-9 coding (98 and later years have no such column data)"
+      "description_en": "ROC 78-96 (1989-2007) coded in ICD-9\n(no data in this field from ROC 97 [2008])"
     },
     {
       "seq": 14,
@@ -259,7 +259,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "Cause of death coded using ICD-10 from 1998 onwards. Main cause of death classification and main cancer classification detailed in the cause of death coding explanation"
+      "description_en": "From ROC 97 (2008), causes of death are coded in ICD-10. For the main cause-of-death classification and main cancer classification, see the cause-of-death classification code explanation"
     },
     {
       "seq": 15,
@@ -281,7 +281,7 @@
         }
       ],
       "name_zh_en": "diagnoser",
-      "description_en": "From 1960 to 1997: 1: Western medicine, 2: Traditional Chinese medicine, 3: Forensic medicine, 4: Prosecutor, 5: Inspector, 6: Village chief, 7: Other, 9: Unclear (no data from 1998 onwards)"
+      "description_en": "ROC 60-97 (1971-2008):\n1: Western medicine, 2: Traditional Chinese medicine, 3: Forensic doctor, 4: Prosecutor,\n5: Inspector, 6: Village/neighborhood head, 7: Other, 9: Unknown (no data in this field from ROC 98 [2009])"
     },
     {
       "seq": 16,
@@ -3182,7 +3182,7 @@
   "name_zh_from_listing": "Health10_死因統計檔",
   "data_description_en": "1. Compiled based on the cause-of-death data card or death certificate codes for individuals who died in the current year.\n2. Statistical items include ID number, date of birth, date of death, place of death, location of death, and cause-of-death classification code.",
   "notes_en": "1. One person per record.\n2. There are duplicate cases for 'serial number' or 'ID'.\n*Personal identification numbers, date of birth, and other fields in this database have been masked and can only be used within a designated area set up by the department. Statistical results must be reviewed before they can be carried out to ensure that the data cannot identify specific individuals.",
-  "primary_keys_en": "1. Personal ID is encrypted.\n2. The key field for the cause-of-death file is '连续号(s_num)' from 60-73 years, and '身分证字号(ID)' starting from 74 years.\n3. Key value for personal data comparison: ID.",
+  "primary_keys_en": "1. Personal ID is encrypted.\n2. The primary key of the cause-of-death file is the 'serial number (s_num)' for ROC 60-73 (1971-1984) and the 'national ID number (ID)' from ROC 74 (1985).\n3. Key for personal data matching: ID.",
   "name_zh_en": "cause of death file",
   "printed": {
     "field_rows": 18,

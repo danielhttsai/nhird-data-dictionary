@@ -41,7 +41,7 @@
       "description_zh": "1：男性，2：女性，4：變 性人",
       "available_notes": [],
       "name_zh_en": "original gender",
-      "description_en": "1: male"
+      "description_en": "1: Male, 2: Female, 4: Transgender"
     },
     {
       "seq": 3,
@@ -131,7 +131,7 @@
         }
       ],
       "name_zh_en": "household registration code",
-      "description_en": "Translation of resident code (RESIDCD) starting from 2001 for new five metropolitan areas"
+      "description_en": "See the household registration place code (RESIDCD) table; from ROC 100 (2011) the new five-municipality codes are used"
     },
     {
       "seq": 10,
@@ -161,7 +161,7 @@
         }
       ],
       "name_zh_en": "grading/differentiation",
-      "description_en": "1. One patient may be diagnosed and treated at different hospitals for the same cancer site, so pay special attention to grouping one person's one cancer site. 2. In ROC year 91 (2002) only cervical cancer was mandatory to report; from 2004 all six cancers must be reported. 3. About 15-17 cancer-control centers (hospitals with >=500 cases/year) reported TCDB long-form data during 2002-2006. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported, ensuring individuals cannot be re-identified. 1. ID number is encrypted. 2. The person-grouping key is ID."
+      "description_en": "Recorded from 2002. 1: Well differentiated; Differentiated, NOS 2: Moderately differentiated; Moderately well differentiated; Intermediate differentiated 3: Poorly differentiated 4: Undifferentiated; Anaplastic 9: Grade or differentiation not determined, not stated or not applicable. Note: because tumor grade/differentiation uses 2-, 3- or 4-tier schemes for different cancers, for details see the Taiwan Cancer Registry long-form and short-form abstracting manuals of editions before ROC 100 (2011), which can be accessed directly at"
     },
     {
       "seq": 12,
@@ -251,7 +251,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD9 codes from 1970 to 1996 (blank if no cause of death data)"
+      "description_en": "ROC 70-96 (1981-2007) coded in ICD-9 (blank if no cause-of-death data)"
     },
     {
       "seq": 19,
@@ -269,7 +269,7 @@
         }
       ],
       "name_zh_en": "Cause of Death Classification",
-      "description_en": "ICD-10 codes for causes of death after 1997 (blank if no cause of death data)"
+      "description_en": "From ROC 97 (2008), causes of death are coded in ICD-10 (blank if no cause-of-death data)"
     },
     {
       "seq": 20,
@@ -365,7 +365,7 @@
       "description_zh": "0：死於其他原因或仍存活； 1：死於其所得到的第一個癌 症； 9：未知(沒有串到死因檔、門 急診、住院、承保檔)； 空白表示不是第一個癌症。 詳欄位(變項)譯碼(二)SEER 死因。",
       "available_notes": [],
       "name_zh_en": "whether it is a cause-specific survival event",
-      "description_en": "0: Died from other causes or still alive; 1: Died from the first cancer diagnosed; 9: Unknown (not linked to death cause file, outpatient/ED, inpatient, insured file); Blank indicates not the first cancer."
+      "description_en": "0: Died of other causes or still alive; 1: Died of the first cancer diagnosed; 9: Unknown (not linked to the cause-of-death file, outpatient/emergency, inpatient or enrollment files); Blank means it is not the first cancer. See the field (variable) code explanation (2) SEER cause of death."
     },
     {
       "seq": 28,
@@ -508,7 +508,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個",
       "available_notes": [],
-      "name_zh_en": "chronic obstructive pulmonary disease",
+      "name_zh_en": "Whether the patient has Chronic obstructive",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates not the patient's first"
     },
     {
@@ -544,7 +544,7 @@
       "source": "本檔自訂",
       "description_zh": "0：沒有； 1：有； -9：未知； 空白表示不是該病患第一個 侵襲性癌症，詳欄位(變項) 譯碼(六)共病症。",
       "available_notes": [],
-      "name_zh_en": "No diabetes without chronic complications (DM W/O CC).",
+      "name_zh_en": "Whether the patient has Diabetes without chronic complication (DM W/O CC)",
       "description_en": "0: No; 1: Yes; -9: Unknown; Blank indicates that this is not the patient's first invasive cancer, detailed field (variable) code (6) comorbidity."
     },
     {
@@ -738,7 +738,7 @@
         {
           "code": "2015",
           "label_zh": "年起健保檔之國際疾病分類從 ICD-9-CM 轉換成 ICD-10-CM，所以須 將 comorbidity 的 ICD-9-CM 代碼按照健保署公告轉碼成 ICD-10-CM。其中對應 不確定的部分均以下列依規則處理： 1.有comD10_DMC 其他代碼而 E10.21, E11.21 沒有 comD11_CRF 其他代碼的 人分類到comD10_DMC。 2.有comD11_CRF其他代碼而 沒有 comD10_DMC 其他代碼的 人分類到comD11_CRF。 3-1.皆有comD10_DMC 和 comD11_CRF 其他代碼的人 分類到最早被記載到的其他 代碼。 3-2.最早被記載到的其他代碼因 日期相同無法區別先後順序 者皆視為有 comD10_DMC 和 4.只有E10.21、E11.21 而沒有 comD10_DMC 其他代碼,而也沒 有 comD11_CRF 其他代碼分類 到comD11_CRF。 401.1, 只有 I10 而沒有 comD17_HTU 其",
-          "label_en": "1. ID number (ID), physician ID (PRSN_ID), pharmacist ID (DRUG_PRSN_ID), dispensing-facility code (HOSP_ID), and original-prescribing-facility code (ORIG_HOSP_ID) are encrypted. 2. This file's unique key is ORIG_HOSP_ID + FUNC_DATE + PRSN_ID + ID, which is the key for matching to the outpatient detail file (H_NHI_OPDTE). 3. The key for matching this file to the pharmacy order file (H_NHI_DRUGO) is FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID. 4. The facility code (HOSP_ID) in the outpatient detail file (H_NHI_OPDTE) equals the original-prescribing-facility code (ORIG_HOSP_ID) in the pharmacy detail file (H_NHI_DRUGE). 5. The person-grouping/matching key is ID. 6. For pharmacy facilities, the grouping/matching key is HOSP_ID. 7. For hospital facilities, the grouping/matching key is ORIG_HOSP_ID."
+          "label_en": "From [year] the International Classification of Diseases in the NHI database was converted from ICD-9-CM to ICD-10-CM, so the comorbidity ICD-9-CM codes must be recoded to ICD-10-CM per the NHIA announcement. Uncertain correspondences are handled by the following rules: 1. Those with a comD10_DMC other code, and E10.21/E11.21, but without a comD11_CRF other code, are classified as comD10_DMC. 2. Those with a comD11_CRF other code but without a comD10_DMC other code are classified as comD11_CRF. 3-1. Those with both comD10_DMC and comD11_CRF other codes are classified by whichever other code was recorded earliest. 3-2. If the earliest recorded other codes cannot be ordered because the dates are identical, both are treated as comD10_DMC and 4. Those with only E10.21/E11.21 and no comD10_DMC other code, and also no comD11_CRF other code, are classified as comD11_CRF. 401.1, those with only I10 and without a comD17_HTU other"
         },
         {
           "code": "I10",
@@ -2788,32 +2788,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -2836,7 +2836,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     },
     "BIRTH_Y": {
       "field_zh": "癌症登記年報檔的出生年",
@@ -2866,7 +2866,7 @@
   "doc_first_published": "2023-02-02",
   "doc_last_updated": "2025-12-30",
   "name_zh_from_listing": "Health101_肺癌主題式資料庫",
-  "data_description_en": "The lung cancer thematic database includes all information from fourteen data files for each lung cancer patient recorded in the cancer registration annual report file (H_BHP_CRSSC) from 1979 to 2022, including the cancer registration file (including long form LF, short form SF, and TCDB), medical insurance claims file, and death cause statistical merged file.\nDetailed definitions are as follows:\n1. Define lung cancer cases: Lung cancer cases are those in the cancer registration annual report file (H_BHP_CRSSC) from 1979 to 2022 (after IDNO cleaning), where the primary site of cancer (CASITE) is coded as 162.",
+  "data_description_en": "The lung cancer thematic database contains, for every lung cancer patient recorded in the cancer registry annual report file\n(H_BHP_CRSSC) for 1979-2022, all the information in the cancer registry files (including the long form LF, short form\nSF and TCDB), the NHI files and the merged cause-of-death statistics file, 14 data files in total.\nThe detailed definitions are as follows:\n1. Definition of lung cancer cases:\nA lung cancer case is a person who, in the cancer registry annual report file (H_BHP_CRSSC) for 1979-2022 (after IDNO\ncleaning), has at least one record whose primary site (CASITE) has first three digits 162",
   "notes_en": "",
   "primary_keys_en": "",
   "name_zh_en": "lung cancer thematic database",

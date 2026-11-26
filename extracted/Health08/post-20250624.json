@@ -82,7 +82,7 @@
         }
       ],
       "name_zh_en": "Death Remarks",
-      "description_en": "Y: Death since 2000"
+      "description_en": "Y: Deceased\nAdded from ROC 100 (2011)"
     },
     {
       "seq": 6,
@@ -160,7 +160,7 @@
         }
       ],
       "name_zh_en": "Approval Date",
-      "description_en": "YYYYMMDD. New since 2010."
+      "description_en": "YYYYMMDD. Added from ROC 100 (2011)"
     },
     {
       "seq": 12,
@@ -210,7 +210,7 @@
         }
       ],
       "name_zh_en": "card remarks",
-      "description_en": "1: Duplicate 2: Death cancellation 3: Card replacement cancellation 4: Expiration cancellation 5: Correction and supplement cancellation 6: Revocation of card 7: Self-revocation by public (added since 106/1/1)"
+      "description_en": "1: Duplicate\n2: Cancelled due to death\n3: Cancelled due to card replacement\n4: Cancelled due to expiry\n5: Cancelled due to correction/reissue\n6: Card revoked\n7: Self-revoked by the individual (added from ROC 106 [2017]) Blank: valid, normal card.\nAdded from ROC 100 (2011)"
     },
     {
       "seq": 15,
@@ -338,7 +338,7 @@
       "description_zh": "1：男性2：女性9：不詳。",
       "available_notes": [],
       "name_zh_en": "physician gender",
-      "description_en": "1: male"
+      "description_en": "1: Male 2: Female 9: Unknown."
     },
     {
       "seq": 25,
@@ -360,7 +360,7 @@
       "description_zh": "0：總局 1：台北分局\n2：北區分局 3：中區分局 4：南區分局 5：高屏分局 6：東區分局",
       "available_notes": [],
       "name_zh_en": "procedure number_分局",
-      "description_en": "0: Central Bureau 1: Taipei Branch Bureau 2: Hsinchu Branch Bureau 3: Zhongzheng Branch Bureau 4: Nanjing Branch Bureau 5: Kaohsiung Branch Bureau 6: Dongjiu Branch Bureau"
+      "description_en": "0: Head Office 1: Taipei Branch\n2: Northern Branch 3: Central Branch 4: Southern Branch 5: Kaohsiung-Pingtung Branch 6: Eastern Branch"
     },
     {
       "seq": 27,
@@ -775,7 +775,7 @@
         {
           "code": "A6-05",
           "label_zh": "MNGIE症候群粒線體性神經胃腸腦病變症候群",
-          "label_en": "Mitochondrial neurogastrointestinal encephalopathy syndrome",
+          "label_en": "MNGIE syndrome (mitochondrial neurogastrointestinal encephalopathy syndrome)",
           "icd": "E88.49",
           "section": "A6粒線體異常Mitochondrial disorders"
         },
@@ -2519,7 +2519,7 @@
         {
           "code": "A6-05",
           "label_zh": "MNGIE症候群粒線體性神經胃腸腦病變症候群",
-          "label_en": "Mitochondrial neurogastrointestinal encephalopathy syndrome",
+          "label_en": "MNGIE syndrome (mitochondrial neurogastrointestinal encephalopathy syndrome)",
           "icd": "E88.49",
           "section": "A6粒線體異常Mitochondrial disorders"
         },
@@ -3908,7 +3908,7 @@
         {
           "code": "3",
           "label_zh": "嚴重溶血性及再生不良性貧血〔血紅素未經治療，成人經常低於8gm/dl以下，新生兒經常低於12gm/dl以下者〕",
-          "label_en": "Severe hemolytic and aplastic anemia"
+          "label_en": "Severe hemolytic and aplastic anemia [hemoglobin persistently low without treatment: adults often below 8 gm/dl, neonates often below 12 gm/dl]"
         },
         {
           "code": "4",
@@ -3988,7 +3988,7 @@
         {
           "code": "19",
           "label_zh": "職業病(以勞工職業災害保險職業傷病審查準則第18條附表所載職業病範圍為限；適用對象限已退休之未具勞工保險被保險人身份之保險對象；具勞工保險被保險人身份者，應依勞工保險職業病就醫規定辦理，亦免自行負擔部分醫療費用)",
-          "label_en": "Occupational diseases"
+          "label_en": "Occupational diseases (limited to the occupational diseases listed in the appendix to Article 18 of the Regulations for Review of Occupational Injuries and Diseases under the Labor Occupational Accident Insurance; applicable only to insured persons who are retired and do not hold Labor Insurance insured status; those with Labor Insurance insured status must follow the Labor Insurance rules for care of occupational diseases, and are likewise exempt from copayment)"
         },
         {
           "code": "20",
@@ -4033,7 +4033,7 @@
         {
           "code": "28",
           "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者(AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21)，不受其身心障礙等級在中度以上或須使用呼吸器之限制】",
-          "label_en": "Motor neuron disease (moderate+ disability or ventilator-dependent; incl. ALS)"
+          "label_en": "Motor neuron disease with a disability grade of moderate or above, or requiring a ventilator [however, those diagnosed by a neurology specialist with amyotrophic lateral sclerosis (AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21) are not subject to the restriction of moderate or above disability grade or ventilator requirement]"
         },
         {
           "code": "29",
@@ -4202,7 +4202,7 @@
         {
           "code": "M05.70-M06.09、M06.20-M06.39、M06.80-M06.8A、M06.9、M08.00-M08.9A",
           "label_zh": "(三)類風濕關節炎〔符合1987美國風濕病學院修訂之診斷標準，含青年型類風濕關節炎〕",
-          "label_en": "Rheumatoid arthritis (Rheumatoid arthritis juvenile)",
+          "label_en": "(3) Rheumatoid arthritis [meeting the diagnostic criteria revised by the American College of Rheumatology in 1987, including juvenile rheumatoid arthritis]",
           "validity": "永久",
           "section": "5. 需終身治療之全身性自體免疫症候群"
         },
@@ -4300,7 +4300,7 @@
         {
           "code": "M30.3",
           "label_zh": "(十一)皮膚粘膜淋巴結綜合症(川崎病)符合下列任一項者：1.伴隨冠狀動脈50%以上程度狹窄者或伴隨冠狀動脈瘤，大小超過8mm，持續超過1個月以上者",
-          "label_en": "Kawasaki disease",
+          "label_en": "(11) Mucocutaneous lymph node syndrome (Kawasaki disease) meeting any one of the following: 1. with coronary artery stenosis of 50% or more, or with a coronary aneurysm larger than 8 mm, persisting for more than 1 month",
           "validity": "五年",
           "section": "5. 需終身治療之全身性自體免疫症候群"
         },
@@ -5070,7 +5070,7 @@
         {
           "code": "G12.20-G12.29",
           "label_zh": "運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者(AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21)，不受其身心障礙等級在中度以上或須使用呼吸器之限制】",
-          "label_en": "Motor neuron disease",
+          "label_en": "Motor neuron disease with a disability grade of moderate or above, or requiring a ventilator [however, those diagnosed by a neurology specialist with amyotrophic lateral sclerosis (AMYOTROPHIC LATERAL SCLEROSIS ICD-10-CM G12.21) are not subject to the restriction of moderate or above disability grade or ventilator requirement]",
           "validity": "永久",
           "section": "28. 運動神經元疾病其身心障礙等級在中度以上或須使用呼吸器者【惟經神經內科專科醫師診斷為肌萎縮性側索硬化症者"
         },
@@ -5474,7 +5474,7 @@
         {
           "code": "RA",
           "label_zh": "公立職能治療機構(107年新增)",
-          "label_en": "Public occupational-therapy institution (added 2018)"
+          "label_en": "Public occupational therapy institution (added ROC 107, 2018)"
         },
         {
           "code": "RY",
@@ -7327,32 +7327,32 @@
         {
           "code": "9001",
           "label_zh": "金門縣金城鎮",
-          "label_en": "Jincheng Town, Kinmen County"
+          "label_en": "Kinmen County Jincheng Township"
         },
         {
           "code": "9002",
           "label_zh": "金門縣金沙鎮",
-          "label_en": "Jinsha Town, Kinmen County"
+          "label_en": "Kinmen County Jinsha Township"
         },
         {
           "code": "9003",
           "label_zh": "金門縣金湖鎮",
-          "label_en": "Jinhu Town, Kinmen County"
+          "label_en": "Kinmen County Jinhu Township"
         },
         {
           "code": "9004",
           "label_zh": "金門縣金寧鄉",
-          "label_en": "Jinning Township, Kinmen County"
+          "label_en": "Kinmen County Jinning Township"
         },
         {
           "code": "9005",
           "label_zh": "金門縣烈嶼鄉",
-          "label_en": "Lieyu Township, Kinmen County"
+          "label_en": "Kinmen County Lieyu Township"
         },
         {
           "code": "9006",
           "label_zh": "金門縣烏坵鄉",
-          "label_en": "Wuqiu Township, Kinmen County"
+          "label_en": "Kinmen County Wuqiu Township"
         },
         {
           "code": "9101",
@@ -7375,7 +7375,7 @@
           "label_en": "Dongyin Township, Lienchiang County"
         }
       ],
-      "field_en": "County/city township code (CITY - from ROC year 104)"
+      "field_en": "County/city and township code (CITY - from ROC 104, 2015)"
     }
   },
   "raw_text_first_page": "2026年01月27日修訂\n全民健保重大傷病檔\n（HEALTH-08：H_NHI_ CATAS）\n資料庫使用手冊\n一、 檔案內容說明\n檔案代號 H_NHI_CATAS 資料筆數 6,349,182筆（截至2024年）\n中文檔名 全民健保重大傷病檔 英文檔名 RegistryforCatastrophic Illness Patients\n檔案大小 4GB 欄位數 27\n譯碼簿 2025/06/24初版\n屬性 歷史檔 週期 年\n更新日期 2026/01/27修訂\n1. 原則上一次領卡一筆資料。\n資料描述 2. 包含病人當次領卡之重大傷病類別等相關資料。\n3. 資料年度包含2001-2024年。\n※本中心資料庫業經去識別化處理，刪除姓名、地址等可直接識別欄位，如有身分證\n字號、院所代碼、投保單位代號、統一編號、出生日期、就醫日期、入院日期等欄位\n注意事項 均經屏蔽處理，且相關資料僅能於本部設置之獨立作業區內使用，並攜出經審核通過\n之統計結果，以確保資料應用及其揭露方式已無從識別特定當事人。\n1. 85-93年資料中，重複發卡 (DUPRINT)等於 1表示被退件，不列入計算。\n1. 身分證字號(ID)、醫師身分證字號(PRSN_ID)與醫療機構代號(HOSP_ID)經加密處\n主鍵與比 理。\n對欄位\n2. 個人歸戶及個人資料對照的鍵值：ID。\n3. 醫療機構歸戶及醫療機構資料對照的鍵值：HOSP_ID。\n1",
@@ -7396,8 +7396,8 @@
   "doc_last_updated": "2026-05-25",
   "name_zh_from_listing": "Health08_全民健保重大傷病檔(20250624起適用)",
   "data_description_en": "1. Generally one record per card issuance.\n2. Includes patient's catastrophic illness category and other relevant information at the time of card issuance.\n3. Data year ranges from 2001 to 2024.",
-  "notes_en": "※This center's database has been de-identified, with personal information such as names and addresses removed. Only fields like national health insurance numbers, facility codes, employer codes, unified numbers, dates of birth, medical visit dates, admission dates have been masked, and the data can only be used within a dedicated operational area of this department, and statistical results reviewed and approved before being carried out to ensure that the data cannot be linked back to specific individuals.",
-  "primary_keys_en": "1. ID number, physician ID number, and medical institution code have been encrypted.\n2. Key value for individual account linkage and personal information: ID.\n3. Key value for medical institution account linkage and medical institution data: HOSP_ID.",
+  "notes_en": "* This Center's database has been de-identified: directly identifying fields such as name and address are deleted, and if fields such as national ID\nnumber, institution code, insured-unit code, unified business number, date of birth, visit date and admission date are present, they are all masked. The data may only be used in the independent work area set up by the Ministry, and only statistical results\nthat pass review may be taken out, so that data use and disclosure\ncannot identify any specific individual.\n1. In the ROC 85-93 (1996-2004) data, a duplicate card issue (DUPRINT) equal to 1 means the application was rejected and is not counted.",
+  "primary_keys_en": "1. The national ID number (ID), physician ID number (PRSN_ID) and medical institution code (HOSP_ID) are\nencrypted.\n2. Key for person-level grouping and matching: ID.\n3. Key for medical-institution-level grouping and matching: HOSP_ID.",
   "name_zh_en": "Taiwan NHI Catastrophic Illness File",
   "printed": {
     "field_rows": 27,

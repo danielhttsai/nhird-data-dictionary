@@ -86,7 +86,7 @@
         }
       ],
       "name_zh_en": "primary diagnosis code",
-      "description_en": "Left padding with zeros, ICD-9-CM code. For primary diagnosis codes of case classification C1, use 042 or V08; for C2-C3, use 010 or 018. Note: Starting from 2016, the MOHCS requires medical institutions to report using ICD-10-CM."
+      "description_en": "Left-justified, padded with blanks on the right; ICD-9-CM code\nFor case classification C1 the primary diagnosis code should be 042 or V08; for case classification C2-C3 it should be 010 or 018.\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016)."
     },
     {
       "seq": 23,
@@ -158,7 +158,7 @@
         }
       ],
       "name_zh_en": "first subsequent procedure",
-      "description_en": "Note: 1. According to the MOHCS, medical institutions have been required to report using ICD-10-PCS since 2016."
+      "description_en": "Note:\n1. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016)."
     },
     {
       "seq": 29,
@@ -235,7 +235,7 @@
       "description_zh": "醫事服務機構收取之部分負擔點數。\n應不含住院醫令檔醫令類別\n(ORDER_TYPE)有「Z:部分已切帳申報費用之藥品、診療明細、特殊材料醫令」之G00001部分負擔點數，詳見欄位部分負擔金額\n（PART_AMT）說明。",
       "available_notes": [],
       "name_zh_en": "co-payment amount",
-      "description_en": "The copayment points collected by medical service institutions. Should not include outpatient orders (ORDER_TYPE) with 'Z: partial billing claimed for drugs, treatments, or special materials', as detailed in the field description of copayment amount (PART_AMT)."
+      "description_en": "Copayment points collected by the medical service institution.\nShould not include, in the inpatient order file, the order category\n(ORDER_TYPE) \"Z: drug, treatment detail and special material orders of fees already partly split off for claiming\" G00001 copayment points; see the explanation of the field copayment amount\n(PART_AMT)."
     },
     {
       "seq": 53,
@@ -246,7 +246,7 @@
       "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分：\n(1)醫療點數 (急性病床1-30天)\n(2)醫療點數 (急性病床31-60天)\n(3)醫療點數 (急性病床61天以上)\n(4)醫療點數 (慢性病床1-30天)\n(5)醫療點數 (慢性病床31-90天)\n(6)醫療點數 (慢性病床91-180天)\n(7)醫療點數 (慢性病床 181 天以上)，分別計算醫療點數。\n2.急性病床住院超出30日以上，請將醫療費用點數依 1-30 日，31-60日，61日以上分別計算醫療點數。\n3.慢性病床住院超出30日以上，請",
       "available_notes": [],
       "name_zh_en": "acute bed points (30 days or less)",
-      "description_en": "1. Multiple order records for one admission. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record contains order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)', found on the NHIA website."
+      "description_en": "1. The inpatient copayment has different ratios according to the number of days of stay and the bed type (acute or chronic bed), so inpatient medical points are divided into 7 parts:\n(1) Medical points (acute bed, days 1-30)\n(2) Medical points (acute bed, days 31-60)\n(3) Medical points (acute bed, day 61 and over)\n(4) Medical points (chronic bed, days 1-30)\n(5) Medical points (chronic bed, days 31-90)\n(6) Medical points (chronic bed, days 91-180)\n(7) Medical points (chronic bed, day 181 and over); the medical points are calculated separately.\n2. For acute-bed stays exceeding 30 days, calculate the medical points separately for days 1-30, days 31-60, and day 61 and over.\n3. For chronic-bed stays exceeding 30 days, please"
     },
     {
       "seq": 54,
@@ -289,7 +289,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "acute bed points (more than 60 days)",
+      "name_zh_en": "Medical points (acute bed, 61 days and over)",
       "description_en": ""
     },
     {
@@ -468,7 +468,7 @@
         }
       ],
       "name_zh_en": "primary diagnosis code",
-      "description_en": "Left cheek padding, ICD-9-CM code for the primary diagnosis of case classification C1 should be 042 or V08; for case classification C2-C3, it should be 010 or 018. Note: 1. The MOH requires medical institutions to use ICD-10-CM reporting starting from 2016. 2. Field length adjustment to 7 digits starting from 2016."
+      "description_en": "Left-justified, padded with blanks on the right; ICD-9-CM code\nFor case classification C1 the primary diagnosis code should be 042 or V08; for case classification C2-C3 it should be 010 or 018.\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-CM from ROC 105 (2016).\n2. From ROC 105 (2016) the field length was changed to 7 characters."
     },
     {
       "seq": 20,
@@ -534,7 +534,7 @@
         }
       ],
       "name_zh_en": "primary procedure",
-      "description_en": "ICD-9-PCS code. Note: 1. The MOH requires medical institutions to use ICD-10-PCS for claims starting from 2016. 2. Field length was adjusted to 7 digits starting from 2016."
+      "description_en": "ICD-9-PCS code.\nNote:\n1. The NHIA requires medical institutions to report with ICD-10-PCS from ROC 105 (2016).\n2. From ROC 105 (2016) the field length was changed to 7 characters."
     },
     {
       "seq": 25,
@@ -628,7 +628,7 @@
       "description_zh": "為診察點數(DIAG_DOT)、病房點數(ROOM_DOT)、管灌膳食點數(MEAL_DOT)、檢查點數\n(AMIN_DOT)、放射線診療點數(RADO_DOT)、治療處置點數\n(THRP_DOT)、手術點數\n(SGRY_DOT)、復健治療點數\n(PHSC_DOT)、血液血漿點數\n(BLOD_DOT)、血液透析點數\n(HD_DOT)、麻醉點數\n(ANE_DOT)、特殊材料點數\n(METR_DOT)、葯點數\n(DRUG_DOT)、葯事服務點數\n(DSVC_DOT)、精神科治療點數(NRTP_DOT)、注射技術點數\n(INJT_DOT)、嬰兒點數\n(BABY_DOT)之合計，詳代碼說明(1-15)。",
       "available_notes": [],
       "name_zh_en": "medical point",
-      "description_en": "1. Multiple order records for one outpatient visit. 2. Records with the same FEE_YM + APPL_TYPE + APPL_DATE + CASE_TYPE + SEQ_NO + HOSP_ID are treated as orders for the same visit. 3. Each record includes order code, quantity, points, etc. 4. The file format and data descriptions in this manual reference the NHI 'Medical Fee Point Reporting Format and Instructions for Contracted Facilities (outpatient, inpatient, delivery)' on the NHIA website (revised 2020-08-13)."
+      "description_en": "Sum of consultation points (DIAG_DOT), room points (ROOM_DOT), tube-feeding meal points (MEAL_DOT), examination points\n(AMIN_DOT), radiology points (RADO_DOT), treatment/procedure points\n(THRP_DOT), surgery points\n(SGRY_DOT), rehabilitation points\n(PHSC_DOT), blood/plasma points\n(BLOD_DOT), hemodialysis points\n(HD_DOT), anesthesia points\n(ANE_DOT), special material points\n(METR_DOT), drug points\n(DRUG_DOT), pharmacist service points\n(DSVC_DOT), psychiatric treatment points (NRTP_DOT), injection technique points\n(INJT_DOT), infant points\n(BABY_DOT); see code explanation (1-15)."
     },
     {
       "seq": 48,
@@ -650,7 +650,7 @@
       "description_zh": "1.住院之部分負擔隨著住院天數及病床類別(急性病床或慢性病床)有不同的負擔比率，因此住院之醫療費用點數區分為7部分：\n(1)醫療費用點數 (急性病床1-30天)\n(2)醫療費用點數 (急性病床\n31-60天)\n(3)醫療費用點數 (急性病床61天以上)\n(4)醫療費用點數 (慢性病床1-30天)\n(5)醫療費用點數 (慢性病床\n31-90天)\n(6)醫療費用點數 (慢性病床\n91-180天)\n(7)醫療費用點數 (慢性病床181天以上)，分別計算醫療費用點數。\n2. 急性病床住院超出30日以上，請將醫療費用點數依1-30日，31-60日，61日以上分別計算醫療費用點數。\n3. 慢性病床住院超出30日以上，請將醫療費用點數依1-30日，31-90日，91-180日，181 日以上，分別計算醫療費用點數。",
       "available_notes": [],
       "name_zh_en": "acute bed points (30 days or less)",
-      "description_en": "1. The ID numbers of the victim and suspected abuser may be blank. 2. Multiple-choice variables, if multiple are selected, are recorded in the same field. 3. Date fields use the ROC calendar; 000/00/00 means unknown — e.g. 0000101 = year unknown, 1040001 = month unknown, 1040100 = day unknown. 4. The suspected-perpetrator fields hold the primary suspected perpetrator's data. Note: This center's databases are de-identified (fields masked as above); data may only be used on-site and only approved aggregate results exported. 1. The protected/victim record-grouping/matching key is VVID. 2. The suspected abuser/respondent/suspect record-grouping/matching key is DVID."
+      "description_en": "1. The inpatient copayment has different ratios according to the number of days of stay and the bed type (acute or chronic bed), so inpatient medical expense points are divided into 7 parts:\n(1) Medical expense points (acute bed, days 1-30)\n(2) Medical expense points (acute bed,\ndays 31-60)\n(3) Medical expense points (acute bed, day 61 and over)\n(4) Medical expense points (chronic bed, days 1-30)\n(5) Medical expense points (chronic bed,\ndays 31-90)\n(6) Medical expense points (chronic bed,\ndays 91-180)\n(7) Medical expense points (chronic bed, day 181 and over); the medical expense points are calculated separately.\n2. For acute-bed stays exceeding 30 days, calculate the medical expense points separately for days 1-30, days 31-60, and day 61 and over.\n3. For chronic-bed stays exceeding 30 days, calculate the medical expense points separately for days 1-30, days 31-90, days 91-180, and day 181 and over."
     },
     {
       "seq": 51,
@@ -693,7 +693,7 @@
       "length": 8,
       "description_zh": "",
       "available_notes": [],
-      "name_zh_en": "acute bed points (more than 60 days)",
+      "name_zh_en": "Medical points (acute bed, 61 days and over)",
       "description_en": ""
     },
     {

@@ -7,30 +7,6 @@
   "added": [
     {
       "seq": 1,
-      "name_zh": "身分證字號",
-      "name_en": "SICKID",
-      "type": "Char",
-      "length": 20,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
-      "table": "H_BHP_CCS_PD",
-      "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National ID number or alien residence permit number"
-    },
-    {
-      "seq": 1,
-      "name_zh": "糞便潛血檢測流水號",
-      "name_en": "FOBTSERIAL",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Fecal occult blood test serial number",
-      "description_en": ""
-    },
-    {
-      "seq": 1,
       "name_zh": "大腸鏡檢查報告流水號",
       "name_en": "CUTSERIAL",
       "type": "Char",
@@ -54,6 +30,42 @@
       "description_en": ""
     },
     {
+      "seq": 1,
+      "name_zh": "糞便潛血檢測流水號",
+      "name_en": "FOBTSERIAL",
+      "type": "Char",
+      "length": 8,
+      "description_zh": "",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "Fecal occult blood test serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
+      "table": "H_BHP_CCS_PD",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National ID number or alien residence permit number"
+    },
+    {
+      "seq": 2,
+      "name_zh": "大腸確診流水號",
+      "name_en": "CONFIRMSERIAL",
+      "type": "Char",
+      "length": 7,
+      "description_zh": "",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Colorectal confirmatory diagnosis serial number",
+      "description_en": ""
+    },
+    {
       "seq": 2,
       "name_zh": "支付方式",
       "name_en": "PAYWAY101",
@@ -69,19 +81,7 @@
         }
       ],
       "name_zh_en": "payment method",
-      "description_en": "1: Preventive healthcare; 2: Non-preventive healthcare costs; 3: National Health Insurance payments; 4: Other government budget subsidies; 5: Self-paid health check-ups; 9: Other; starting from August 1, 2015, items 3, 4, and 5 were added, and item 2 was discontinued."
-    },
-    {
-      "seq": 2,
-      "name_zh": "糞便潛血檢測流水號",
-      "name_en": "FOBTSERIAL",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "Fecal occult blood test serial number",
-      "description_en": ""
+      "description_en": "1: Preventive health care;\n2: Non-preventive health care costs\n3: NHI medical benefits\n4: Other public budget subsidies\n5: Self-paid health examination\n9: Other\nFrom 1 August ROC 105 (2016), items 3, 4, 5 and 9 were added and item 2 was discontinued."
     },
     {
       "seq": 2,
@@ -97,14 +97,14 @@
     },
     {
       "seq": 2,
-      "name_zh": "大腸確診流水號",
-      "name_en": "CONFIRMSERIAL",
+      "name_zh": "糞便潛血檢測流水號",
+      "name_en": "FOBTSERIAL",
       "type": "Char",
-      "length": 7,
+      "length": 8,
       "description_zh": "",
-      "table": "H_BHP_CCS_CUT",
+      "table": "H_BHP_CCS_CONF",
       "available_notes": [],
-      "name_zh_en": "Colorectal confirmatory diagnosis serial number",
+      "name_zh_en": "Fecal occult blood test serial number",
       "description_en": ""
     },
     {
@@ -157,6 +157,18 @@
     },
     {
       "seq": 5,
+      "name_zh": "身分證字號",
+      "name_en": "SICKID",
+      "type": "Char",
+      "length": 20,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National ID number or alien residence permit number"
+    },
+    {
+      "seq": 5,
       "name_zh": "沒有接受確診理由",
       "name_en": "FOLLOWREASON",
       "type": "Char",
@@ -169,15 +181,15 @@
     },
     {
       "seq": 5,
-      "name_zh": "身分證字號",
-      "name_en": "SICKID",
+      "name_zh": "居住地代碼",
+      "name_en": "LIVINGAREA",
       "type": "Char",
-      "length": 20,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
-      "table": "H_BHP_CCS_FOBT",
+      "length": 4,
+      "description_zh": "詳譯碼說明\n99開頭為國外行政區",
+      "table": "H_BHP_CCS_PD",
       "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National ID number or alien residence permit number"
+      "name_zh_en": "Residence code",
+      "description_en": "See code table\nCodes starting with 99 are foreign administrative areas"
     },
     {
       "seq": 5,
@@ -192,16 +204,16 @@
       "description_en": "encrypted value for hospital key."
     },
     {
-      "seq": 5,
-      "name_zh": "居住地代碼",
-      "name_en": "LIVINGAREA",
+      "seq": 6,
+      "name_zh": "父母、兄弟姊妹、子女有無大腸癌",
+      "name_en": "Q3_FAMILY",
       "type": "Char",
-      "length": 4,
-      "description_zh": "詳譯碼說明\n99開頭為國外行政區",
-      "table": "H_BHP_CCS_PD",
+      "length": 1,
+      "description_zh": "0：無；1：有；2：不知道",
+      "table": "H_BHP_CCS_FOBT",
       "available_notes": [],
-      "name_zh_en": "Residence code",
-      "description_en": "See code table\nCodes starting with 99 are foreign administrative areas"
+      "name_zh_en": "Whether parents, siblings or children have colorectal cancer",
+      "description_en": "0: No; 1: Yes; 2: Don't know"
     },
     {
       "seq": 6,
@@ -238,18 +250,6 @@
       "available_notes": [],
       "name_zh_en": "Reason for not receiving confirmed diagnosis: other, description",
       "description_en": "not provided"
-    },
-    {
-      "seq": 6,
-      "name_zh": "父母、兄弟姊妹、子女有無大腸癌",
-      "name_en": "Q3_FAMILY",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：無；1：有；2：不知道",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Whether parents, siblings or children have colorectal cancer",
-      "description_en": "0: No; 1: Yes; 2: Don't know"
     },
     {
       "seq": 7,
@@ -301,6 +301,18 @@
     },
     {
       "seq": 8,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_CCS_PD",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
+    },
+    {
+      "seq": 8,
       "name_zh": "檢查方法-乙狀結腸鏡",
       "name_en": "CHECKMETHOD2",
       "type": "Char",
@@ -336,28 +348,16 @@
       "description_en": "encrypted value for hospital key."
     },
     {
-      "seq": 8,
-      "name_zh": "性別",
-      "name_en": "SICKID_S",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：男；2：女；9：不詳",
-      "table": "H_BHP_CCS_PD",
-      "available_notes": [],
-      "name_zh_en": "Sex",
-      "description_en": "1: male; 2: female; 9: unknown"
-    },
-    {
       "seq": 9,
-      "name_zh": "檢查方法-大腸鋇劑攝影",
-      "name_en": "CHECKMETHOD3",
+      "name_zh": "門診日期",
+      "name_en": "CHECKDATE",
       "type": "Char",
-      "length": 1,
-      "description_zh": "0：無；1：有",
-      "table": "H_BHP_CCS_CUT",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
+      "table": "H_BHP_CCS_FOBT",
       "available_notes": [],
-      "name_zh_en": "Examination method: barium enema",
-      "description_en": "0: no; 1: yes"
+      "name_zh_en": "Outpatient visit date",
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 9,
@@ -370,18 +370,6 @@
       "available_notes": [],
       "name_zh_en": "National ID number check error",
       "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
-    },
-    {
-      "seq": 9,
-      "name_zh": "門診日期",
-      "name_en": "CHECKDATE",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "西元年YYYYMMDD",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Outpatient visit date",
-      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 9,
@@ -399,18 +387,18 @@
         }
       ],
       "name_zh_en": "Examination Method",
-      "description_en": "1: colonoscopy 2: sigmoidoscopy with barium meal photography 3: sigmoidoscopy 4: barium meal photography 5: other (stopped since 2009) 6: fecal occult blood screening 9: other"
+      "description_en": "1: Colonoscopy\n2: Sigmoidoscopy plus barium enema radiography\n3: Sigmoidoscopy\n4: Barium enema radiography\n5: Other (discontinued from ROC 104 (2015))\n6: Fecal occult blood screening\n9: Other"
     },
     {
-      "seq": 10,
-      "name_zh": "檢查方法-其他",
-      "name_en": "CHECKMETHOD4",
+      "seq": 9,
+      "name_zh": "檢查方法-大腸鋇劑攝影",
+      "name_en": "CHECKMETHOD3",
       "type": "Char",
       "length": 1,
       "description_zh": "0：無；1：有",
       "table": "H_BHP_CCS_CUT",
       "available_notes": [],
-      "name_zh_en": "Examination method - other",
+      "name_zh_en": "Examination method: barium enema",
       "description_en": "0: no; 1: yes"
     },
     {
@@ -438,16 +426,16 @@
       "description_en": "0：normal 1：hemorrhoids 2：ulcerative colitis 3：polyps 4：colorectal cancer 5、9：other"
     },
     {
-      "seq": 11,
-      "name_zh": "檢查方法-其他之敘述",
-      "name_en": "CHECKMETHOD_O",
+      "seq": 10,
+      "name_zh": "檢查方法-其他",
+      "name_en": "CHECKMETHOD4",
       "type": "Char",
-      "length": 60,
-      "description_zh": "不提供",
+      "length": 1,
+      "description_zh": "0：無；1：有",
       "table": "H_BHP_CCS_CUT",
       "available_notes": [],
-      "name_zh_en": "Examination method: other, description",
-      "description_en": "not provided"
+      "name_zh_en": "Examination method - other",
+      "description_en": "0: no; 1: yes"
     },
     {
       "seq": 11,
@@ -460,6 +448,18 @@
       "available_notes": [],
       "name_zh_en": "Test date",
       "description_en": "year AD YYYYMMDD"
+    },
+    {
+      "seq": 11,
+      "name_zh": "檢查方法-其他之敘述",
+      "name_en": "CHECKMETHOD_O",
+      "type": "Char",
+      "length": 60,
+      "description_zh": "不提供",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Examination method: other, description",
+      "description_en": "not provided"
     },
     {
       "seq": 12,
@@ -499,18 +499,6 @@
     },
     {
       "seq": 13,
-      "name_zh": "檢驗結果數值",
-      "name_en": "FOBTRESULTNUM",
-      "type": "Char",
-      "length": 5,
-      "description_zh": "",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Test result value",
-      "description_en": ""
-    },
-    {
-      "seq": 13,
       "name_zh": "診斷結果",
       "name_en": "CUTRESULT",
       "type": "Char",
@@ -520,6 +508,18 @@
       "available_notes": [],
       "name_zh_en": "result of diagnosis",
       "description_en": "0: normal 1: hemorrhoids; 2: ulcerative colitis; 3: polyp; 4: colorectal cancer; 5: other"
+    },
+    {
+      "seq": 13,
+      "name_zh": "檢驗結果數值",
+      "name_en": "FOBTRESULTNUM",
+      "type": "Char",
+      "length": 5,
+      "description_zh": "",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "Test result value",
+      "description_en": ""
     },
     {
       "seq": 13,
@@ -573,7 +573,7 @@
         }
       ],
       "name_zh_en": "quantitative reagent product name",
-      "description_en": "0: Eiken 1: Kyowa (First Generation HM-JACK) 2: Other (Discontinued since Aug. 1, 2006) 3: Kyowa (Second Generation HM-JACKarc)"
+      "description_en": "0: Eiken\n1: Kyowa (1st-generation\nHM-JACK)\n2: Other (discontinued from 1 August ROC 105 (2016))\n3: Kyowa (2nd-generation\nHM-JACKarc)"
     },
     {
       "seq": 15,
@@ -625,18 +625,6 @@
     },
     {
       "seq": 16,
-      "name_zh": "性別",
-      "name_en": "SICKID_S",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "1：男；2：女；9：不詳",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "Sex",
-      "description_en": "1: male; 2: female; 9: unknown"
-    },
-    {
-      "seq": 16,
       "name_zh": "身分證字號檢誤",
       "name_en": "SICKID_ROC",
       "type": "Char",
@@ -663,16 +651,16 @@
         }
       ],
       "name_zh_en": "polyp location",
-      "description_en": "multiple selections allowed. 1: appendix; 2: ascending colon; 3: transverse colon; 4: descending colon; 5: sigmoid colon; 6: rectum; 7: other unspecified values from 2012 onwards"
+      "description_en": "Multiple selections allowed.\n1: Cecum; 2: Ascending colon; 3: Transverse colon; 4: Descending colon; 5: Sigmoid colon; 6: Rectum; 7: Other\nOther values: Unknown; not available from ROC 112 (2023)"
     },
     {
-      "seq": 17,
+      "seq": 16,
       "name_zh": "性別",
       "name_en": "SICKID_S",
       "type": "Char",
       "length": 1,
       "description_zh": "1：男；2：女；9：不詳",
-      "table": "H_BHP_CCS_FOBT",
+      "table": "H_BHP_CCS_CONF",
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male; 2: female; 9: unknown"
@@ -702,6 +690,30 @@
       "description_en": "Codes referenced from the current medical institution file."
     },
     {
+      "seq": 17,
+      "name_zh": "性別",
+      "name_en": "SICKID_S",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：男；2：女；9：不詳",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "Sex",
+      "description_en": "1: male; 2: female; 9: unknown"
+    },
+    {
+      "seq": 18,
+      "name_zh": "檢查醫療院所權屬別",
+      "name_en": "CHECKUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫事機構基本資料檔。",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "institutional ownership of examination medical facility",
+      "description_en": "Code Referenced from Basic Medical Institution Data File."
+    },
+    {
       "seq": 18,
       "name_zh": "尚餘幾顆",
       "name_en": "PLUGREMAIN",
@@ -724,18 +736,6 @@
       "available_notes": [],
       "name_zh_en": "County/city of confirmatory diagnosis facility",
       "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 18,
-      "name_zh": "檢查醫療院所權屬別",
-      "name_en": "CHECKUNIT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫事機構基本資料檔。",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "institutional ownership of examination medical facility",
-      "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
       "seq": 19,
@@ -763,6 +763,18 @@
     },
     {
       "seq": 20,
+      "name_zh": "糞便潛血檢驗機構權屬別",
+      "name_en": "FOBTUNIT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫事機構基本資料檔。",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "Ownership type of fecal occult blood test facility",
+      "description_en": "Code Referenced from Basic Medical Institution Data File."
+    },
+    {
+      "seq": 20,
       "name_zh": "瘜肉切除病理報告為adenoma 是否為severe dysplasia\"",
       "name_en": "REPORTAA",
       "type": "Char",
@@ -777,19 +789,7 @@
         }
       ],
       "name_zh_en": "polyp removal pathological report indicates adenoma whether it is severe dysplasia",
-      "description_en": "1: Yes; 2: No; 3: Uncertain; Other values: Not specified since 2024"
-    },
-    {
-      "seq": 20,
-      "name_zh": "糞便潛血檢驗機構權屬別",
-      "name_en": "FOBTUNIT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫事機構基本資料檔。",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Ownership type of fecal occult blood test facility",
-      "description_en": "Code Referenced from Basic Medical Institution Data File."
+      "description_en": "1: Yes; 2: No; 3: Uncertain;\nOther values: Unknown\nNone from ROC 112 (2023)"
     },
     {
       "seq": 20,
@@ -802,18 +802,6 @@
       "available_notes": [],
       "name_zh_en": "County/city of cancer treatment hospital",
       "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 21,
-      "name_zh": "糞便潛血檢驗機構縣市",
-      "name_en": "FOBTUNIT_CITY",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照醫事機構基本資料檔。",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "fecal occult blood_test_institution_county_city",
-      "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
       "seq": 21,
@@ -831,7 +819,19 @@
         }
       ],
       "name_zh_en": "with colorectal cancer location at",
-      "description_en": "multiple selections allowed. 1: appendix; 2: ascending colon; 3: transverse colon; 4: descending colon; 5: sigmoid colon; 6: rectum; 7: other unspecified values from 2012 onwards"
+      "description_en": "Multiple selections allowed.\n1: Cecum; 2: Ascending colon; 3: Transverse colon; 4: Descending colon; 5: Sigmoid colon; 6: Rectum; 7: Other\nOther values: Unknown\nNone from ROC 112 (2023)"
+    },
+    {
+      "seq": 21,
+      "name_zh": "糞便潛血檢驗機構縣市",
+      "name_en": "FOBTUNIT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照醫事機構基本資料檔。",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "fecal occult blood_test_institution_county_city",
+      "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
       "seq": 22,
@@ -885,6 +885,30 @@
   "removed": [
     {
       "seq": 1,
+      "name_zh": "大腸鏡檢查報告流水號",
+      "name_en": "CUT_SEQ",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Colonoscopy report serial number",
+      "description_en": ""
+    },
+    {
+      "seq": 1,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": "Encrypted. National ID number or alien residence permit number"
+    },
+    {
+      "seq": 1,
       "name_zh": "大腸確診流水號",
       "name_en": "CONF_SEQ",
       "type": "Char",
@@ -908,52 +932,16 @@
       "description_en": "Encrypted. National ID number or alien residence permit number"
     },
     {
-      "seq": 1,
-      "name_zh": "身分證字號",
-      "name_en": "ID",
-      "type": "Char",
-      "length": 12,
-      "description_zh": "經加密處理。國民身分證統一編號，或外籍居留證號碼",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": "Encrypted. National ID number or alien residence permit number"
-    },
-    {
-      "seq": 1,
-      "name_zh": "大腸鏡檢查報告流水號",
-      "name_en": "CUT_SEQ",
-      "type": "Char",
-      "length": 6,
-      "description_zh": "",
-      "table": "H_BHP_CCS_CUT",
-      "available_notes": [],
-      "name_zh_en": "Colonoscopy report serial number",
-      "description_en": ""
-    },
-    {
       "seq": 2,
-      "name_zh": "大腸確診流水號",
-      "name_en": "CONF_SEQ",
+      "name_zh": "糞便潛血檢測流水號",
+      "name_en": "FOBT_SEQ",
       "type": "Char",
-      "length": 7,
+      "length": 8,
       "description_zh": "",
-      "table": "H_BHP_CCS_CUT",
+      "table": "H_BHP_CCS_CONF",
       "available_notes": [],
-      "name_zh_en": "Colorectal confirmatory diagnosis serial number",
+      "name_zh_en": "Fecal occult blood test serial number",
       "description_en": ""
-    },
-    {
-      "seq": 2,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "ID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
-      "table": "H_BHP_CCS_PD",
-      "available_notes": [],
-      "name_zh_en": "National ID number check error",
-      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 2,
@@ -969,24 +957,24 @@
     },
     {
       "seq": 2,
-      "name_zh": "糞便潛血檢測流水號",
-      "name_en": "FOBT_SEQ",
+      "name_zh": "大腸確診流水號",
+      "name_en": "CONF_SEQ",
       "type": "Char",
-      "length": 8,
+      "length": 7,
       "description_zh": "",
-      "table": "H_BHP_CCS_CONF",
+      "table": "H_BHP_CCS_CUT",
       "available_notes": [],
-      "name_zh_en": "Fecal occult blood test serial number",
+      "name_zh_en": "Colorectal confirmatory diagnosis serial number",
       "description_en": ""
     },
     {
-      "seq": 3,
+      "seq": 2,
       "name_zh": "身分證字號檢誤",
       "name_en": "ID_ROC",
       "type": "Char",
       "length": 1,
       "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
-      "table": "H_BHP_CCS_FOBT",
+      "table": "H_BHP_CCS_PD",
       "available_notes": [],
       "name_zh_en": "National ID number check error",
       "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
@@ -1002,6 +990,30 @@
       "available_notes": [],
       "name_zh_en": "Fecal occult blood test serial number",
       "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "身分證字號",
+      "name_en": "ID",
+      "type": "Char",
+      "length": 12,
+      "description_zh": "",
+      "table": "H_BHP_CCS_CONF",
+      "available_notes": [],
+      "name_zh_en": "National ID number",
+      "description_en": ""
+    },
+    {
+      "seq": 3,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "National ID number check error",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 3,
@@ -1016,18 +1028,6 @@
       "description_en": "1: national ID; 2: passport"
     },
     {
-      "seq": 3,
-      "name_zh": "身分證字號",
-      "name_en": "ID",
-      "type": "Char",
-      "length": 12,
-      "description_zh": "",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "National ID number",
-      "description_en": ""
-    },
-    {
       "seq": 4,
       "name_zh": "身分證字號",
       "name_en": "ID",
@@ -1041,18 +1041,6 @@
     },
     {
       "seq": 4,
-      "name_zh": "身分證字號檢誤",
-      "name_en": "ID_ROC",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "National ID number check error",
-      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
-    },
-    {
-      "seq": 4,
       "name_zh": "性別",
       "name_en": "ID_S",
       "type": "Char",
@@ -1062,6 +1050,18 @@
       "available_notes": [],
       "name_zh_en": "Sex",
       "description_en": "1: male; 2: female; 9: unknown"
+    },
+    {
+      "seq": 4,
+      "name_zh": "身分證字號檢誤",
+      "name_en": "ID_ROC",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：身分證字號符合編碼原則；\n1：不符合",
+      "table": "H_BHP_CCS_CONF",
+      "available_notes": [],
+      "name_zh_en": "National ID number check error",
+      "description_en": "0: National ID number conforms to coding rules; 1: Does not conform"
     },
     {
       "seq": 4,
@@ -1091,7 +1091,7 @@
         }
       ],
       "name_zh_en": "payment method",
-      "description_en": "1: Preventive healthcare; 2: Non-preventive healthcare costs; 3: National Health Insurance payments; 4: Other government budget subsidies; 5: Self-paid health check-ups; 9: Other; starting from August 1, 2015, items 3, 4, and 5 were added, and item 2 was discontinued."
+      "description_en": "1: Preventive health care;\n2: Non-preventive health care costs\n3: NHI medical benefits\n4: Other public budget subsidies\n5: Self-paid health examination\n9: Other\nFrom 1 August ROC 105 (2016), items 3, 4, 5 and 9 were added and item 2 was discontinued."
     },
     {
       "seq": 5,
@@ -1155,18 +1155,6 @@
     },
     {
       "seq": 7,
-      "name_zh": "居住地代碼",
-      "name_en": "LIVING",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "詳譯碼說明\n99開頭為國外行政區",
-      "table": "H_BHP_CCS_PD",
-      "available_notes": [],
-      "name_zh_en": "Residence code",
-      "description_en": "See code table\nCodes starting with 99 are foreign administrative areas"
-    },
-    {
-      "seq": 7,
       "name_zh": "大腸鏡檢查醫療院所代碼",
       "name_en": "CUT_UNIT",
       "type": "Char",
@@ -1179,6 +1167,18 @@
     },
     {
       "seq": 7,
+      "name_zh": "居住地代碼",
+      "name_en": "LIVING",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "詳譯碼說明\n99開頭為國外行政區",
+      "table": "H_BHP_CCS_PD",
+      "available_notes": [],
+      "name_zh_en": "Residence code",
+      "description_en": "See code table\nCodes starting with 99 are foreign administrative areas"
+    },
+    {
+      "seq": 7,
       "name_zh": "沒有接受確診理由",
       "name_en": "F_REASON",
       "type": "Char",
@@ -1188,30 +1188,6 @@
       "available_notes": [],
       "name_zh_en": "no confirmed diagnosis reason",
       "description_en": "1: Unreachable; 2: Abroad; 3: Moved; 4: Deceased; 5: Refused; 6: Other"
-    },
-    {
-      "seq": 8,
-      "name_zh": "父母、兄弟姊妹、子女有無其他癌",
-      "name_en": "FAMILY_2",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：無；1：有；2：不知道",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Whether parents, siblings or children have other cancer",
-      "description_en": "0: No; 1: Yes; 2: Don't know"
-    },
-    {
-      "seq": 8,
-      "name_zh": "大腸鏡檢查醫療院所縣市",
-      "name_en": "CUT_CITY",
-      "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_CCS_CUT",
-      "available_notes": [],
-      "name_zh_en": "county of colorectal endoscopy medical institution",
-      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 8,
@@ -1238,6 +1214,42 @@
       "description_en": "not provided"
     },
     {
+      "seq": 8,
+      "name_zh": "大腸鏡檢查醫療院所縣市",
+      "name_en": "CUT_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "county of colorectal endoscopy medical institution",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 8,
+      "name_zh": "父母、兄弟姊妹、子女有無其他癌",
+      "name_en": "FAMILY_2",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有；2：不知道",
+      "table": "H_BHP_CCS_FOBT",
+      "available_notes": [],
+      "name_zh_en": "Whether parents, siblings or children have other cancer",
+      "description_en": "0: No; 1: Yes; 2: Don't know"
+    },
+    {
+      "seq": 9,
+      "name_zh": "原住民",
+      "name_en": "NATIVE",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "1：是；2：否",
+      "table": "H_BHP_CCS_PD",
+      "available_notes": [],
+      "name_zh_en": "Indigenous",
+      "description_en": "1: yes; 2: no"
+    },
+    {
       "seq": 9,
       "name_zh": "確診醫療院所代碼",
       "name_en": "CONF_UNIT",
@@ -1248,18 +1260,6 @@
       "available_notes": [],
       "name_zh_en": "confirmed medical institution code",
       "description_en": "encrypted value for hospital key."
-    },
-    {
-      "seq": 9,
-      "name_zh": "大腸鏡檢查醫療院所權屬別",
-      "name_en": "CUT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_CCS_CUT",
-      "available_notes": [],
-      "name_zh_en": "Colonoscopy Medical Institution Ownership Type",
-      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 9,
@@ -1275,15 +1275,27 @@
     },
     {
       "seq": 9,
-      "name_zh": "原住民",
-      "name_en": "NATIVE",
+      "name_zh": "大腸鏡檢查醫療院所權屬別",
+      "name_en": "CUT_HOS",
       "type": "Char",
-      "length": 1,
-      "description_zh": "1：是；2：否",
-      "table": "H_BHP_CCS_PD",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_CCS_CUT",
       "available_notes": [],
-      "name_zh_en": "Indigenous",
-      "description_en": "1: yes; 2: no"
+      "name_zh_en": "Colonoscopy Medical Institution Ownership Type",
+      "description_en": "Codes referenced from the current medical institution file."
+    },
+    {
+      "seq": 10,
+      "name_zh": "確診醫療院所縣市",
+      "name_en": "CONF_CITY",
+      "type": "Char",
+      "length": 4,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_CCS_CONF",
+      "available_notes": [],
+      "name_zh_en": "County/city of confirmatory diagnosis facility",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 10,
@@ -1310,16 +1322,16 @@
       "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
-      "seq": 10,
-      "name_zh": "確診醫療院所縣市",
-      "name_en": "CONF_CITY",
+      "seq": 11,
+      "name_zh": "檢查醫療院所權屬別",
+      "name_en": "CHECK_HOS",
       "type": "Char",
-      "length": 4,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_CCS_CONF",
+      "length": 2,
+      "description_zh": "代碼參照醫事機構基本資料檔。",
+      "table": "H_BHP_CCS_FOBT",
       "available_notes": [],
-      "name_zh_en": "County/city of confirmatory diagnosis facility",
-      "description_en": "Codes referenced from the current medical institution file."
+      "name_zh_en": "institutional ownership of examination medical facility",
+      "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
       "seq": 11,
@@ -1332,18 +1344,6 @@
       "available_notes": [],
       "name_zh_en": "Ownership type of confirmatory diagnosis facility",
       "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 11,
-      "name_zh": "檢查醫療院所權屬別",
-      "name_en": "CHECK_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫事機構基本資料檔。",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "institutional ownership of examination medical facility",
-      "description_en": "Code Referenced from Basic Medical Institution Data File."
     },
     {
       "seq": 11,
@@ -1371,18 +1371,6 @@
     },
     {
       "seq": 12,
-      "name_zh": "門診日期",
-      "name_en": "CHECK_DATE",
-      "type": "Char",
-      "length": 8,
-      "description_zh": "西元年YYYYMMDD",
-      "table": "H_BHP_CCS_FOBT",
-      "available_notes": [],
-      "name_zh_en": "Outpatient visit date",
-      "description_en": "year AD YYYYMMDD"
-    },
-    {
-      "seq": 12,
       "name_zh": "確診日期",
       "name_en": "CONF_DATE",
       "type": "Char",
@@ -1394,16 +1382,16 @@
       "description_en": "Year4Code+Month2Code+Day2Code AD YYYYMMDD"
     },
     {
-      "seq": 13,
-      "name_zh": "檢查方法-大腸鋇劑攝影",
-      "name_en": "CHECK_M_3",
+      "seq": 12,
+      "name_zh": "門診日期",
+      "name_en": "CHECK_DATE",
       "type": "Char",
-      "length": 1,
-      "description_zh": "0：無；1：有",
-      "table": "H_BHP_CCS_CUT",
+      "length": 8,
+      "description_zh": "西元年YYYYMMDD",
+      "table": "H_BHP_CCS_FOBT",
       "available_notes": [],
-      "name_zh_en": "Examination method: barium enema",
-      "description_en": "0: no; 1: yes"
+      "name_zh_en": "Outpatient visit date",
+      "description_en": "year AD YYYYMMDD"
     },
     {
       "seq": 13,
@@ -1421,7 +1409,19 @@
         }
       ],
       "name_zh_en": "Examination Method",
-      "description_en": "1: colonoscopy 2: sigmoidoscopy with barium meal photography 3: sigmoidoscopy 4: barium meal photography 5: other (stopped since 2009) 6: fecal occult blood screening 9: other"
+      "description_en": "1: Colonoscopy\n2: Sigmoidoscopy plus barium enema radiography\n3: Sigmoidoscopy\n4: Barium enema radiography\n5: Other (discontinued from ROC 104 (2015))\n6: Fecal occult blood screening\n9: Other"
+    },
+    {
+      "seq": 13,
+      "name_zh": "檢查方法-大腸鋇劑攝影",
+      "name_en": "CHECK_M_3",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：無；1：有",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Examination method: barium enema",
+      "description_en": "0: no; 1: yes"
     },
     {
       "seq": 13,
@@ -1437,18 +1437,6 @@
     },
     {
       "seq": 14,
-      "name_zh": "診斷結果",
-      "name_en": "CONF_RESULT",
-      "type": "Char",
-      "length": 1,
-      "description_zh": "0：正常\n1：痔瘡\n2：潰瘍性大腸炎\n3：瘜肉\n4：大腸癌\n5、9：其他",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "result of diagnosis",
-      "description_en": "0：normal 1：hemorrhoids 2：ulcerative colitis 3：polyps 4：colorectal cancer 5、9：other"
-    },
-    {
-      "seq": 14,
       "name_zh": "糞便潛血檢驗機構縣市",
       "name_en": "FOBT_CITY",
       "type": "Char",
@@ -1458,6 +1446,18 @@
       "available_notes": [],
       "name_zh_en": "fecal occult blood_test_institution_county_city",
       "description_en": "Code Referenced from Basic Medical Institution Data File."
+    },
+    {
+      "seq": 14,
+      "name_zh": "診斷結果",
+      "name_en": "CONF_RESULT",
+      "type": "Char",
+      "length": 1,
+      "description_zh": "0：正常\n1：痔瘡\n2：潰瘍性大腸炎\n3：瘜肉\n4：大腸癌\n5、9：其他",
+      "table": "H_BHP_CCS_CONF",
+      "available_notes": [],
+      "name_zh_en": "result of diagnosis",
+      "description_en": "0：normal 1：hemorrhoids 2：ulcerative colitis 3：polyps 4：colorectal cancer 5、9：other"
     },
     {
       "seq": 14,
@@ -1497,18 +1497,6 @@
     },
     {
       "seq": 16,
-      "name_zh": "檢查範圍",
-      "name_en": "CHECK_SCOPE",
-      "type": "Char",
-      "length": 6,
-      "description_zh": "可複選。\n1：盲腸；2：升結腸；3：橫結腸；4：降結腸；5：乙狀結腸；6：直腸；7：其他\n其他數值：不詳",
-      "table": "H_BHP_CCS_CUT",
-      "available_notes": [],
-      "name_zh_en": "Examination Scope",
-      "description_en": "Optional. 1: Appendicitis; 2: Ascending Colon; 3: Transverse Colon; 4: Descending Colon; 5: Sigmoid Colon; 6: Rectum; 7: Other; other values: Unclear"
-    },
-    {
-      "seq": 16,
       "name_zh": "檢驗日期",
       "name_en": "FOBT_DATE",
       "type": "Char",
@@ -1518,6 +1506,18 @@
       "available_notes": [],
       "name_zh_en": "Test date",
       "description_en": "year AD YYYYMMDD"
+    },
+    {
+      "seq": 16,
+      "name_zh": "檢查範圍",
+      "name_en": "CHECK_SCOPE",
+      "type": "Char",
+      "length": 6,
+      "description_zh": "可複選。\n1：盲腸；2：升結腸；3：橫結腸；4：降結腸；5：乙狀結腸；6：直腸；7：其他\n其他數值：不詳",
+      "table": "H_BHP_CCS_CUT",
+      "available_notes": [],
+      "name_zh_en": "Examination Scope",
+      "description_en": "Optional. 1: Appendicitis; 2: Ascending Colon; 3: Transverse Colon; 4: Descending Colon; 5: Sigmoid Colon; 6: Rectum; 7: Other; other values: Unclear"
     },
     {
       "seq": 16,
@@ -1533,15 +1533,15 @@
     },
     {
       "seq": 17,
-      "name_zh": "診斷結果",
-      "name_en": "CUT_RESULT",
+      "name_zh": "未做癌症治療的原因",
+      "name_en": "TREAT_REASON",
       "type": "Char",
-      "length": 1,
-      "description_zh": "0：正常 1：痔瘡；2：潰瘍性大腸炎；3：瘜肉；4：大腸癌；5：其他",
-      "table": "H_BHP_CCS_CUT",
+      "length": 150,
+      "description_zh": "",
+      "table": "H_BHP_CCS_CONF",
       "available_notes": [],
-      "name_zh_en": "result of diagnosis",
-      "description_en": "0: normal 1: hemorrhoids; 2: ulcerative colitis; 3: polyp; 4: colorectal cancer; 5: other"
+      "name_zh_en": "Reason cancer treatment was not given",
+      "description_en": ""
     },
     {
       "seq": 17,
@@ -1557,15 +1557,15 @@
     },
     {
       "seq": 17,
-      "name_zh": "未做癌症治療的原因",
-      "name_en": "TREAT_REASON",
+      "name_zh": "診斷結果",
+      "name_en": "CUT_RESULT",
       "type": "Char",
-      "length": 150,
-      "description_zh": "",
-      "table": "H_BHP_CCS_CONF",
+      "length": 1,
+      "description_zh": "0：正常 1：痔瘡；2：潰瘍性大腸炎；3：瘜肉；4：大腸癌；5：其他",
+      "table": "H_BHP_CCS_CUT",
       "available_notes": [],
-      "name_zh_en": "Reason cancer treatment was not given",
-      "description_en": ""
+      "name_zh_en": "result of diagnosis",
+      "description_en": "0: normal 1: hemorrhoids; 2: ulcerative colitis; 3: polyp; 4: colorectal cancer; 5: other"
     },
     {
       "seq": 18,
@@ -1619,7 +1619,7 @@
         }
       ],
       "name_zh_en": "quantitative reagent product name",
-      "description_en": "0: Eiken 1: Kyowa (First Generation HM-JACK) 2: Other (Discontinued since Aug. 1, 2006) 3: Kyowa (Second Generation HM-JACKarc)"
+      "description_en": "0: Eiken\n1: Kyowa (1st-generation\nHM-JACK)\n2: Other (discontinued from 1 August ROC 105 (2016))\n3: Kyowa (2nd-generation\nHM-JACKarc)"
     },
     {
       "seq": 19,
@@ -1649,18 +1649,6 @@
       "table": "H_BHP_CCS_CONF",
       "available_notes": [],
       "name_zh_en": "County/city of cancer treatment hospital",
-      "description_en": "Codes referenced from the current medical institution file."
-    },
-    {
-      "seq": 20,
-      "name_zh": "癌症治療醫院權屬別",
-      "name_en": "TREAT_HOS",
-      "type": "Char",
-      "length": 2,
-      "description_zh": "代碼參照醫療機構現況檔。",
-      "table": "H_BHP_CCS_CONF",
-      "available_notes": [],
-      "name_zh_en": "Ownership type of cancer treatment hospital",
       "description_en": "Codes referenced from the current medical institution file."
     },
     {
@@ -1698,6 +1686,18 @@
       ],
       "name_zh_en": "Other quantitative reagent brand name",
       "description_en": "None from ROC year 112 (AD 2023) onward."
+    },
+    {
+      "seq": 20,
+      "name_zh": "癌症治療醫院權屬別",
+      "name_en": "TREAT_HOS",
+      "type": "Char",
+      "length": 2,
+      "description_zh": "代碼參照醫療機構現況檔。",
+      "table": "H_BHP_CCS_CONF",
+      "available_notes": [],
+      "name_zh_en": "Ownership type of cancer treatment hospital",
+      "description_en": "Codes referenced from the current medical institution file."
     },
     {
       "seq": 21,
@@ -1739,7 +1739,7 @@
         }
       ],
       "name_zh_en": "polyp removal pathological report indicates adenoma whether it is severe dysplasia",
-      "description_en": "1: Yes; 2: No; 3: Uncertain; Other values: Not specified since 2024"
+      "description_en": "1: Yes; 2: No; 3: Uncertain;\nOther values: Unknown\nNone from ROC 112 (2023)"
     },
     {
       "seq": 25,
@@ -1757,7 +1757,7 @@
         }
       ],
       "name_zh_en": "with colorectal cancer location at",
-      "description_en": "multiple selections allowed. 1: appendix; 2: ascending colon; 3: transverse colon; 4: descending colon; 5: sigmoid colon; 6: rectum; 7: other unspecified values from 2012 onwards"
+      "description_en": "Multiple selections allowed.\n1: Cecum; 2: Ascending colon; 3: Transverse colon; 4: Descending colon; 5: Sigmoid colon; 6: Rectum; 7: Other\nOther values: Unknown\nNone from ROC 112 (2023)"
     }
   ],
   "modified": [

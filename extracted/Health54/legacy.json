@@ -1359,7 +1359,7 @@
   "doc_first_published": "2014-03-05",
   "doc_last_updated": "2026-07-28",
   "name_zh_from_listing": "Health54_癌症篩檢_子宮頸抹片篩檢檔",
-  "data_description_en": "1. Since ROC year 99 (2010) the Health Promotion Administration has expanded screening for four cancers (colorectal, oral, breast and cervical): colorectal, breast, cervical and oral cancer screening is offered through medical institutions contracted for NHI preventive health services, colorectal and oral cancer screening were added to the preventive health service items, and breast cancer screening was extended to women aged 40 to under 45 at high risk through a second-degree relative (mother, daughter, sister, or paternal or maternal grandmother) who has had breast cancer. 2. The government funds one free Pap smear a year for women aged 30 and over and recommends at least one Pap smear every 3 years. The high-risk group includes sexually experienced women; those who married early, have had many children or have had several sexual partners in particular need regular follow-up. 3. Case master file (MASTER): basic data of each case. Smear file (SMEAR): one record per Pap smear; one ID can have several records. 4. Data years span 2004 to 2025.",
+  "data_description_en": "1. Since ROC 99 (2010), the Health Promotion Administration has expanded screening services for four cancers (colorectal, oral, breast and\ncervical cancer), providing colorectal, breast, cervical and oral cancer screening comprehensively through medical institutions contracted for NHI preventive health services,\nadding colorectal and oral cancer screening to the preventive health service items, and extending breast cancer screening\nto women aged 40 to under 45 at high risk through a second-degree relative with breast cancer\n(i.e., whose mother, daughter, sister, or paternal or maternal grandmother had breast cancer).\n2. The government subsidizes one free Pap smear a year for women aged 30 and over and recommends at least one\nPap smear every 3 years. High-risk groups include sexually experienced women, especially those who married early,\nhave had many children or have had many sexual partners, who particularly need regular follow-up.\n3. Case master file (MASTER): basic case data.\nSmear file (SMEAR): one record per Pap smear; the same ID may have multiple records.\n4. Data years cover 2004 to 2025.",
   "notes_en": "1. This center's database has been de-identified, with names and addresses removed. Sensitive fields such as ID numbers, clinic codes, insurance unit codes, unified codes, dates of birth, medical visit dates, admission dates, etc., have been masked. Such data can only be used within a dedicated operational area set up by the department and can only be carried out after review approval.",
   "primary_keys_en": "",
   "name_zh_en": "cancer screening - cervical cytology screening record",
@@ -1433,5 +1433,10 @@
       "fields_parsed": 8,
       "name_zh_en": "Cervical Pap smear screening - Facility code file"
     }
+  ],
+  "field_count_parts": [
+    5,
+    31,
+    8
   ]
 }
